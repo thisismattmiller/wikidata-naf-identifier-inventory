@@ -1,0 +1,217 @@
+{
+ "property": "P3417",
+ "property_label": "Quora topic ID",
+ "files": [
+  {
+   "file": "P3417__Mark-Twain-author/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.quora.com/topic/Mark-Twain-author"
+  },
+  {
+   "file": "P3417__Mark-Twain-author/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.quora.com/topic/Mark-Twain-author"
+  },
+  {
+   "file": "P3417__Mark-Twain-author/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.quora.com/ajax/receive_POST"
+  },
+  {
+   "file": "P3417__Mark-Twain-author/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.quora.com/graphql/gql_para_POST?q=TopicReadMultifeedLoggedOut_Query"
+  },
+  {
+   "file": "P3417__Mark-Twain-author/xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.quora.com/graphql/gql_para_POST?q=facebookAutoLogin_Query"
+  },
+  {
+   "file": "P3417__Mark-Twain-author/xhr_4.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.quora.com/graphql/gql_para_POST?q=MultifeedQuery"
+  },
+  {
+   "file": "P3417__Mark-Twain-author/browser_xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://www.quora.com/graphql/gql_para_POST?q=TopicReadMultifeedLoggedOut_Query"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 5
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "http://ogp.me/ns/fb#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P3417.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (author)",
+    "lang": "en",
+    "via": "llm-page:topic heading",
+    "file": "P3417.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title'] (disambiguator)",
+    "file": "P3417.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://qph.cf2.quoracdn.net/main-thumb-t-1057-200-MQdtRT8yczjUeTvfCqJYy5nJoxrSKuzb.jpeg",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:image']",
+    "file": "P3417.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Mark-Twain-author",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P3417.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:user answer 'Samuel Clemens (Mark Twain)'",
+    "file": "P3417.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:user questions/answers",
+    "file": "P3417.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:user answer",
+    "file": "P3417.json",
+    "uri": false
+   },
+   {
+    "value": "The United States of Lyncherdom",
+    "lang": "en",
+    "via": "llm-page:user answer",
+    "file": "P3417.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "image": [],
+  "identifier": [],
+  "name_variant": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 311,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain (author)"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Quora"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://qph.cf2.quoracdn.net/main-thumb-t-1057-200-MQdtRT8yczjUeTvfCqJYy5nJoxrSKuzb.jpeg"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.quora.com/topic/Mark-Twain-author"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain (author)"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.quora.com/topic/Mark-Twain-author"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Quora topic page 'Mark Twain (author)' (26.1K followers): a feed of user-written Q&A snippets about Twain, his quotes and Huckleberry Finn. No biography or structured facts; only the topic name and works mentioned in user answers.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

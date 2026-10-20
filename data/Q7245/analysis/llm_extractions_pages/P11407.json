@@ -1,0 +1,22 @@
+{
+ "property": "P11407",
+ "label": "Ozon person ID",
+ "files_read": ["pages/P11407__243745.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Ozon (Russian online store) author page 'Твен Марк': a truncated Russian bio teaser and product listings of his books in Russian and English editions (8 shown); mostly shop chrome.",
+ "elements": {
+  "name_preferred": [{"value": "Твен Марк", "lang": "ru", "via": "page heading"}],
+  "birth_place": [{"value": "Флорида, штат Миссури", "raw": "Родился во Флориде, штат Миссури", "lang": "ru", "via": "bio teaser"}],
+  "activity_place": [{"value": "Ганнибал на Миссисипи", "lang": "ru", "via": "bio teaser"}],
+  "description": [{"value": "Родился во Флориде, штат Миссури. В городок Ганнибал на Миссисипи, будущий Санкт-Петербург самых знаменитых книг Твена...", "raw": "truncated on page ('Читать')", "lang": "ru", "via": "bio teaser under heading"}],
+  "work": [
+   {"value": "Приключения Тома Сойера", "raw": "several editions (for children, Внеклассное чтение)", "lang": "ru", "via": "product listings"},
+   {"value": "Принц и нищий", "raw": "Домашнее чтение с заданиями Английский клуб; Уровень 1", "lang": "ru", "via": "product listings"},
+   {"value": "The Prince and the Pauper", "raw": "Серия 'Книга в книге', with commentary", "lang": "en", "via": "product listings"},
+   {"value": "Никогда не спорьте с идиотами!", "raw": "Эксмо", "lang": "ru", "via": "product listings"}
+  ],
+  "related_agent": [{"value": "Саленко Ольга Юрьевна (co-contributor, linguistic commentary for The Prince and the Pauper edition)", "via": "product listing"}],
+  "identifier": [{"value": "243745", "via": "page URL"}]
+ }
+}

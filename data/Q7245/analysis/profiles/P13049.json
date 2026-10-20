@@ -1,0 +1,378 @@
+{
+ "property": "P13049",
+ "property_label": "DDB person (GND) ID",
+ "files": [
+  {
+   "file": "P13049__1106405730/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.deutsche-digitale-bibliothek.de/person/gnd/1106405730"
+  },
+  {
+   "file": "P13049__1106405730/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.deutsche-digitale-bibliothek.de/person/gnd/1106405730"
+  },
+  {
+   "file": "P13049__118624822/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.deutsche-digitale-bibliothek.de/person/gnd/118624822"
+  },
+  {
+   "file": "P13049__118624822/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.deutsche-digitale-bibliothek.de/person/gnd/118624822"
+  },
+  {
+   "file": "P13049__118624822/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.judaicalink.org/data/gnd/118624822"
+  }
+ ],
+ "formats": {
+  "opengraph": 2,
+  "rdfa": 2,
+  "html": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 8,
+  "http://ogp.me/ns#": 4,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "de",
+    "via": "llm:P13049__1106405730/embedded_opengraph.json: $[0]['og:title']",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "de",
+    "via": "llm-page:heading, page 118624822",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1106405730",
+    "lang": null,
+    "via": "llm:P13049__1106405730/embedded_opengraph.json: $[0]['og:url']",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "118624822",
+    "lang": null,
+    "via": "llm-page:page URL (GND)",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://d-nb.info/gnd/1106405730",
+    "lang": null,
+    "via": "llm:P13049__1106405730/embedded_opengraph.json: $[0]['og:url'] (GND id in DDB URL)",
+    "file": "P13049.json",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "llm-page:Externe Links",
+    "file": "P13049.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "de",
+    "via": "llm-page:Wirklicher Name (118624822)",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "de",
+    "via": "llm-page:Pseudonym (1106405730)",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Quintus Curtius Snodgrass",
+    "lang": "de",
+    "via": "llm-page:Pseudonym (both)",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Louis de Conte",
+    "lang": "de",
+    "via": "llm-page:Pseudonym (both)",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "J. W. Bothwell",
+    "lang": "de",
+    "via": "llm-page:Pseudonym (both)",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "de",
+    "via": "llm-page:Geboren",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "de",
+    "via": "llm-page:Gestorben",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Mo.",
+    "lang": "de",
+    "via": "llm-page:Geboren",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Conn.",
+    "lang": "de",
+    "via": "llm-page:Gestorben",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Schriftsteller",
+    "lang": "de",
+    "via": "llm-page:subtitle",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Journalist",
+    "lang": "de",
+    "via": "llm-page:subtitle",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Drucker",
+    "lang": "de",
+    "via": "llm-page:subtitle",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Lotse",
+    "lang": "de",
+    "via": "llm-page:subtitle",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Soldat",
+    "lang": "de",
+    "via": "llm-page:subtitle",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Übersetzer",
+    "lang": "de",
+    "via": "llm-page:subtitle (1106405730 only)",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Innocents abroad or The new pilgrims Progress, Vol. 2",
+    "lang": null,
+    "via": "llm-page:Werke (118624822)",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Werke",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abenteuer",
+    "lang": null,
+    "via": "llm-page:Werke",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Detektiv am Mississippi : Huck Finn erzählt e. Abenteuer mit Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Werke",
+    "file": "P13049.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer a Frantík Finn : volná dramatisace knihy Marka Twaina",
+    "lang": null,
+    "via": "llm-page:Werke (1106405730)",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Osvobozené Divadlo (theatre staging a dramatisation, 1937)",
+    "lang": null,
+    "via": "llm-page:Werke (1106405730)",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Schriftsteller, Journalist, Drucker, Lotse, Soldat",
+    "lang": "de",
+    "via": "llm-page:subtitle under heading",
+    "file": "P13049.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "de"
+  ],
+  "identifier": [],
+  "same_as": [],
+  "name_variant": [
+   "de"
+  ],
+  "pseudonym": [
+   "de"
+  ],
+  "birth_date": [
+   "de"
+  ],
+  "death_date": [
+   "de"
+  ],
+  "birth_place": [
+   "de"
+  ],
+  "death_place": [
+   "de"
+  ],
+  "occupation": [
+   "de"
+  ],
+  "work": [],
+  "related_agent": [],
+  "description": [
+   "de"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 212,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens - Deutsche Digitale Bibliothek"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.deutsche-digitale-bibliothek.de/person/gnd/1106405730"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Samuel Langhorne Clemens - Deutsche Digitale Bibliothek"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 197,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain - Deutsche Digitale Bibliothek"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.deutsche-digitale-bibliothek.de/person/gnd/118624822"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain - Deutsche Digitale Bibliothek"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Two Deutsche Digitale Bibliothek person pages: GND 118624822 (Mark Twain; 579 objects, 57 about him) and GND 1106405730 (Samuel Langhorne Clemens, real-name record; 1 object). Both give occupations, dates/places, pseudonyms; external links shown as link text only.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,62 @@
+{
+ "property": "P1225",
+ "label": "U.S. National Archives Identifier",
+ "files_read": ["P1225__10574508/xhr_1.json", "P1225__10574508/xhr_5.json"],
+ "about_entity": true,
+ "notes": "xhr_1.json is the NARA Catalog (Elasticsearch) authority record naId 10574508 for 'Clemens, Samuel Langhorne, 1835-1910' (LCCN n 93099439); xhr_5.json is a search of the 3 description records linked to that authority (a court case file, a patent file, a slide series). NARA keeps a separate authority for the pseudonym 'Twain, Mark, 1835-1910' (naId 10581697). Dates are year-only; logicalDate values (1835-01-01 / 1910-12-31) are range placeholders.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": "en", "via": "xhr_1.json: $.body.hits.hits[0]._source.record.heading"}
+  ],
+  "name_variant": [
+   {"value": "Klemens, Seimeul Lenghorn, 1835-1910", "lang": null, "via": "xhr_1.json: $..record.variantPersonNames[0].heading"},
+   {"value": "Ko-lan-man-ssu, Sai-mi-erh Lang-en, 1835-1910", "lang": "zh-Latn", "via": "xhr_1.json: $..record.variantPersonNames[1].heading"},
+   {"value": "Klemens, Samiuel, 1835-1910", "lang": null, "via": "xhr_1.json: $..record.variantPersonNames[2].heading"},
+   {"value": "Samuel L. Clemens", "lang": "en", "via": "xhr_1.json: $..record.sourceNotes[1] (usage)"}
+  ],
+  "given_name": [
+   {"value": "Samuel Langhorne", "lang": "en", "via": "xhr_1.json: $..record.name ('Clemens, Samuel Langhorne,')"}
+  ],
+  "family_name": [
+   {"value": "Clemens", "lang": "en", "via": "xhr_1.json: $..record.name"}
+  ],
+  "pseudonym": [
+   {"value": "Twain, Mark, 1835-1910", "lang": "en", "via": "xhr_5.json: $..hits[0]._source.record.subjects[0].heading (separate authority naId 10581697)"},
+   {"value": "Quintus Curtius Snodgrass", "lang": "en", "via": "xhr_1.json: $..record.sourceNotes[2] ('also used name Quintus Curtius Snodgrass')"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "{\"year\":1835,\"logicalDate\":\"1835-01-01\"}", "lang": null, "via": "xhr_1.json: $..record.birthDate"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "{\"year\":1910,\"logicalDate\":\"1910-12-31\"}", "lang": null, "via": "xhr_1.json: $..record.deathDate"}
+  ],
+  "occupation": [
+   {"value": "humorist", "lang": "en", "via": "xhr_1.json: $..record.sourceNotes[2] (DAB, 1930)"},
+   {"value": "novelist", "lang": "en", "via": "xhr_1.json: $..record.sourceNotes[2] (DAB, 1930)"},
+   {"value": "Inventor", "lang": "en", "via": "xhr_5.json: $..hits[1]._source.record.contributors[0].contributorType"}
+  ],
+  "description": [
+   {"value": "humorist, novelist; better known under pseud. Mark Twain; also used name Quintus Curtius Snodgrass", "lang": "en", "via": "xhr_1.json: $..record.sourceNotes[2]"}
+  ],
+  "work": [
+   {"value": "Improvement in Adjustable and Detachable Straps for Garments (U.S. patent 121992)", "lang": "en", "via": "xhr_5.json: $..hits[1]._source.record.title (Clemens as Inventor)"}
+  ],
+  "related_agent": [
+   {"value": "Charles L. Webster", "relation": "co-plaintiff in 'Charles L. Webster and Samuel L. Clemens vs. Milan E. Ellsworth'", "via": "xhr_5.json: $..hits[0]._source.record.title"},
+   {"value": "Milan E. Ellsworth", "relation": "defendant in suit brought by Webster and Clemens", "via": "xhr_5.json: $..hits[0]._source.record.title"},
+   {"value": "Beecher, Lyman, Rev. (descendants of)", "relation": "correspondents (Kinney collection)", "via": "xhr_1.json: $..record.sourceNotes[0]"}
+  ],
+  "identifier": [
+   {"value": "10574508", "via": "xhr_1.json: $..record.naId"},
+   {"value": "n 93099439", "via": "xhr_1.json: $..record.importRecordControlNumber (LC control number imported)"}
+  ],
+  "same_as": [
+   {"value": "http://id.loc.gov/authorities/names/n93099439", "raw": "n 93099439", "via": "xhr_1.json: $..record.importRecordControlNumber (URI constructed from LCCN)"}
+  ],
+  "source": [
+   {"value": "NUCMC data from Stowe-Day Lib. for Kinney, S. Thomson-Kinney collection, 1851-1887", "lang": "en", "via": "xhr_1.json: $..record.sourceNotes[0]"},
+   {"value": "LC data base, 3-30-89", "lang": "en", "via": "xhr_1.json: $..record.sourceNotes[1]"},
+   {"value": "DAB, 1930", "lang": "en", "via": "xhr_1.json: $..record.sourceNotes[2]"}
+  ]
+ }
+}

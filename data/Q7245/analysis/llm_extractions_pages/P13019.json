@@ -1,0 +1,114 @@
+{
+ "property": "P13019",
+ "label": "RedBA Granada authority ID",
+ "files_read": ["pages/P13019__58014.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Koha OPAC MARC view of authority 58014 'Twain, Mark,' (copy of the LC NAF record with Spanish field labels). Full record visible despite the suspected login wall (only a cookie banner and login link in the chrome). Rich: 046 dates, 370 places, 372/374 fields and occupations, 400 script variants, 500 pseudonym links, 663 and 670 sources.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": null, "via": "MARC 100 'Nombre personal' + 'Fechas asociadas'"}
+  ],
+  "name_variant": [
+   {"value": "Tvėn, Mark, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Tuėĭn, Mark, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Tuwayn, Mārk, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Twayn, Mārk, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Tʻu-wen, Ma-kʻo, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Tven, M. (Mark), 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Touen, Makū, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Twain, Marek, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Make Tuwen, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Tuwen, Make, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Make Teviin, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Твен, Марк, 1835-1910", "lang": "ru", "via": "MARC 400"},
+   {"value": "Touain, Mark, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "טבןַ, מרק", "lang": "he", "via": "MARC 400"},
+   {"value": "טוויין, מארק", "lang": "he", "via": "MARC 400"},
+   {"value": "טוויין, מרק", "lang": "he", "via": "MARC 400"},
+   {"value": "טווין, מארק", "lang": "he", "via": "MARC 400"},
+   {"value": "טווין, מרק", "lang": "he", "via": "MARC 400"},
+   {"value": "טווען, מארק", "lang": "yi", "via": "MARC 400"},
+   {"value": "טוין, מרק", "lang": "he", "via": "MARC 400"},
+   {"value": "טװען, מארק", "lang": "yi", "via": "MARC 400"},
+   {"value": "טװײן, מארק", "lang": "yi", "via": "MARC 400"},
+   {"value": "馬克吐温", "lang": "zh", "via": "MARC 400"}
+  ],
+  "pseudonym": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "MARC 500 / 663 (real name, linked identity)"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "lang": null, "via": "MARC 500 / 663"},
+   {"value": "Conte, Louis de, 1835-1910", "lang": null, "via": "MARC 500 / 663"},
+   {"value": "Alden, Jean François, 1835-1910", "lang": null, "via": "MARC 663"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "lang": null, "via": "MARC 046 Fecha de nacimiento"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "lang": null, "via": "MARC 046 Fecha de fallecimiento"}
+  ],
+  "birth_place": [
+   {"value": "Florida (Mo.)", "lang": "es", "via": "MARC 370 Lugar de nacimiento"}
+  ],
+  "death_place": [
+   {"value": "Redding (Conn.)", "lang": "es", "via": "MARC 370 Lugar de fallecimiento"}
+  ],
+  "activity_place": [
+   {"value": "Estados Unidos", "lang": "es", "via": "MARC 370 País asociado"}
+  ],
+  "gender": [
+   {"value": "hombres", "lang": "es", "via": "MARC 375 Género"}
+  ],
+  "occupation": [
+   {"value": "Autores", "lang": "es", "via": "MARC 374"},
+   {"value": "Profesores", "lang": "es", "via": "MARC 374"},
+   {"value": "Humoristas", "lang": "es", "via": "MARC 374"}
+  ],
+  "field_of_activity": [
+   {"value": "Literatura", "lang": "es", "via": "MARC 372"},
+   {"value": "Humor", "lang": "es", "via": "MARC 372"},
+   {"value": "Ingenio y Humor", "lang": "es", "via": "MARC 372"}
+  ],
+  "nationality": [
+   {"value": "Americanos", "lang": "es", "via": "MARC 368 Otro tipo de designación"}
+  ],
+  "language": [
+   {"value": "eng", "lang": null, "via": "MARC 377 Código de lengua"}
+  ],
+  "description": [
+   {"value": "b. November 30, 1835 in Florida, Missouri; grew up in Hannibal, Missouri; d. April 21, 1910 in Redding, Connecticut; a writer and lecturer; wrote in genres of fiction, historical fiction, children's literature, non-fiction, travel literature, satire, essay, philosophical literature, social commentary, literary criticism", "lang": "en", "via": "MARC 670 Wikipedia, Oct. 18, 2011 'Información encontrada'"}
+  ],
+  "work": [
+   {"value": "Personal recollections of Joan of Arc", "raw": "1923; also 'Mark Twain's personal recollections of Joan of Arc, 1997'", "lang": "en", "via": "MARC 670"},
+   {"value": "Print︠s︡ i nishchiĭ", "raw": "Geviksman, V. A. Print︠s︡ i nishchiĭ, 1984", "lang": null, "via": "MARC 670"},
+   {"value": "Makū Touen tanpenshū", "raw": "1961", "lang": null, "via": "MARC 670"},
+   {"value": "Przygody Huck'a", "raw": "1912", "lang": "pl", "via": "MARC 670"},
+   {"value": "Alda-bar ȯnggelegsen erin caġ", "raw": "1985", "lang": null, "via": "MARC 670"},
+   {"value": "Vasilopoulo kai zētianopoulo", "raw": "1953", "lang": null, "via": "MARC 670"}
+  ],
+  "related_agent": [
+   {"value": "Geviksman, V. A.", "lang": null, "via": "MARC 670 citation"}
+  ],
+  "identifier": [
+   {"value": "58014", "via": "MARC 001 / URL authid"},
+   {"value": "(OCoLC)oca00254964", "via": "MARC 035"}
+  ],
+  "source": [
+   {"value": "Geviksman, V. A. Print︠s︡ i nishchiĭ, 1984: t.p. (M. Tvena)", "lang": null, "via": "MARC 670"},
+   {"value": "Makū Touen tanpenshū, 1961", "lang": null, "via": "MARC 670"},
+   {"value": "Personal recollections of Joan of Arc, 1923: v. 1-2, t.p. (the Sieur Louis de Conte; Jean François Alden) spine (Mark Twain)", "lang": "en", "via": "MARC 670"},
+   {"value": "DAB, 1930: (Clemens, Samuel Langhorne, 1835-1910; better known under pseud. Mark Twain; also used name Quintus Curtius Snodgrass)", "lang": "en", "via": "MARC 670"},
+   {"value": "Mark Twain's personal recollections of Joan of Arc, 1997: CIP t.p. (Sieur Louis de Conte) p. vii (Sieur Louis de Conte shared ... initials with Samuel L. Clemens)", "lang": "en", "via": "MARC 670"},
+   {"value": "Przygody Huck'a, 1912: t.p. (Marek Twain)", "lang": null, "via": "MARC 670"},
+   {"value": "Alda-bar ȯnggelegsen erin caġ, 1985: v. 1, t.p. (Make Teveiin) colophon (Make Tuwen)", "lang": null, "via": "MARC 670"},
+   {"value": "Wikipedia, Oct. 18, 2011", "lang": "en", "via": "MARC 670"},
+   {"value": "Vasilopoulo kai zētianopoulo, 1953: t.p. (Mark Touain)", "lang": null, "via": "MARC 670"},
+   {"value": "WWW LC auth., 22-1-2019: (Twain, Mark, 1835-1910)", "lang": null, "via": "MARC 670"}
+  ],
+  "record_created": [
+   {"value": "1979-04-18", "raw": "008 790418", "via": "MARC 008"}
+  ],
+  "record_modified": [
+   {"value": "2021-07-27", "raw": "20210727101246.0", "via": "MARC 005"}
+  ]
+ }
+}

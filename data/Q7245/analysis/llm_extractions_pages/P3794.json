@@ -1,0 +1,51 @@
+{
+ "property": "P3794",
+ "label": "Dictionary of Sydney ID",
+ "files_read": ["pages/P3794__person_twain_mark_ef377f75.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "Dictionary of Sydney (archived 2021) person entity 'Twain, Mark': one-line description, birth/death milestones, birth name, occupation, a 'Visitor 1895' role, and links to entries that mention him and subject tags.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "lang": "en", "via": "page heading"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne", "lang": "en", "via": "'Name – Birth'"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "30 Nov 1835", "lang": "en", "via": "Milestone 'Born'"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "21 Apr 1910", "lang": "en", "via": "Milestone 'Died'"}
+  ],
+  "birth_place": [
+   {"value": "Florida, Missouri, United States of America", "lang": "en", "via": "Milestone 'Born'"}
+  ],
+  "activity_place": [
+   {"value": "Sydney", "raw": "Visitor 1895", "lang": "en", "via": "Occupation 'Visitor 1895'"}
+  ],
+  "occupation": [
+   {"value": "Writer", "lang": "en", "via": "'Occupation'"},
+   {"value": "Visitor", "raw": "Visitor 1895", "lang": "en", "via": "'Occupation'"}
+  ],
+  "field_of_activity": [
+   {"value": "Novels", "lang": "en", "via": "'Subjects'"},
+   {"value": "Travel writing", "lang": "en", "via": "'Subjects'"}
+  ],
+  "nationality": [
+   {"value": "Americans", "raw": "American author and humorist; subject 'Americans'", "lang": "en", "via": "description / 'Subjects'"}
+  ],
+  "description": [
+   {"value": "American author and humorist.", "lang": "en", "via": "summary under heading"}
+  ],
+  "related_agent": [
+   {"value": "Living with sharks on the Georges River (entry mentioning him)", "lang": "en", "via": "'Mentioned in'"},
+   {"value": "Sydney Harbour: A Cultural Landscape (entry mentioning him)", "lang": "en", "via": "'Mentioned in'"},
+   {"value": "Tourism (entry mentioning him)", "lang": "en", "via": "'Mentioned in'"},
+   {"value": "Americans (entry mentioning him)", "lang": "en", "via": "'Mentioned in'"}
+  ],
+  "identifier": [
+   {"value": "twain_mark", "via": "URL (/person/twain_mark)"}
+  ]
+ }
+}

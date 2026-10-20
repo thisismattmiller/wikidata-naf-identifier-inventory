@@ -1,0 +1,142 @@
+{
+ "property": "P3065",
+ "label": "RERO ID (legacy)",
+ "files_read": ["pages/P3065__A000164542.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "The legacy RERO URL resolves to VIAF's 'processed' MARC view of the RERO authority record A000164542 (Twain, Mark, 1835-1910), not to a RERO page. It holds the RERO heading, see-from pseudonyms, two 680 notes, VIAF-derived work titles (910/912), co-authors (950) and the list of matched source records in the VIAF cluster (998); 996 rows are other non-merged clusters and are not extracted. Ids are given as SOURCE|id strings, not URIs.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": null, "via": "MARC 100 ‡a ‡d"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Твен, Марк", "lang": "ru", "via": "MARC 998 (J9U source heading)"},
+   {"value": "טוין, מרק", "lang": "he", "via": "MARC 998 (J9U source heading)"},
+   {"value": "توين، مارك", "lang": "ar", "via": "MARC 998 (J9U/LNL/EGAXA source heading)"},
+   {"value": "Clemens, Samuel L. (Samuel Langhorne)", "lang": null, "via": "MARC 998 (NTA source heading)"},
+   {"value": "Clemens, Samuel Langhorne (Mark Twain)", "lang": null, "via": "MARC 998 (NYNYRILM source heading)"},
+   {"value": "De Conte, Louis", "lang": null, "via": "MARC 998 (BAV source heading)"}
+  ],
+  "pseudonym": [
+   {"value": "Conte, Louis de, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Alden, Jean François, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Mark Twain", "lang": "fr", "via": "MARC 680 'Mark Twain est le pseudonyme de Samuel Langhorne Clemens'"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "1835-1910", "lang": null, "via": "MARC 100 ‡d"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "1835-1910", "lang": null, "via": "MARC 100 ‡d"}
+  ],
+  "occupation": [
+   {"value": "Romancier", "lang": "fr", "via": "MARC 680 'Romancier, journaliste et humoriste'"},
+   {"value": "journaliste", "lang": "fr", "via": "MARC 680"},
+   {"value": "humoriste", "lang": "fr", "via": "MARC 680"}
+  ],
+  "language": [
+   {"value": "eng", "lang": null, "via": "MARC 940 (work languages, 38)"},
+   {"value": "fre", "lang": null, "via": "MARC 940 (19)"},
+   {"value": "ger", "lang": null, "via": "MARC 940 (6)"},
+   {"value": "epo", "lang": null, "via": "MARC 940 (1)"}
+  ],
+  "nationality": [
+   {"value": "am", "lang": null, "via": "MARC 944 (publication country code)"}
+  ],
+  "description": [
+   {"value": "Mark Twain est le pseudonyme de Samuel Langhorne Clemens. A aussi écrit sous les noms de Quintus Curtius Snodgrass, Jean François Alden et Louis de Conte. Romancier, journaliste et humoriste", "lang": "fr", "via": "MARC 680 notes (two fields joined)"}
+  ],
+  "work": [
+   {"value": "The stolen white elephant and other detective stories", "lang": "en", "via": "MARC 910"},
+   {"value": "Extract from captain Stormfield's visit to heaven", "lang": "en", "via": "MARC 910"},
+   {"value": "The portable Mark Twain", "lang": "en", "via": "MARC 910"},
+   {"value": "How to tell a story and other essays", "lang": "en", "via": "MARC 910"},
+   {"value": "Damnés Français!", "lang": "fr", "via": "MARC 910"},
+   {"value": "The man that corrupted Hadleyburg and other stories and sketches", "lang": "en", "via": "MARC 910"},
+   {"value": "A tramp abroad", "lang": "en", "via": "MARC 910"},
+   {"value": "The innocents abroad", "lang": "en", "via": "MARC 910"},
+   {"value": "Life on the Mississippi", "lang": "en", "via": "MARC 910"},
+   {"value": "A connecticut yankee in King Arthur's court", "lang": "en", "via": "MARC 910"},
+   {"value": "N° 44, le mystérieux étranger", "lang": "fr", "via": "MARC 910"},
+   {"value": "Tom sawyer abroad", "lang": "en", "via": "MARC 910"},
+   {"value": "La prodigieuse procession & autres charges", "lang": "fr", "via": "MARC 910"},
+   {"value": "The [dollars]30,000 bequest and other stories", "lang": "en", "via": "MARC 910"},
+   {"value": "The [pounds]1,000,000 bank-note and other new stories", "lang": "en", "via": "MARC 910"},
+   {"value": "Le rapt de l'éléphant blanc", "lang": "fr", "via": "MARC 910"},
+   {"value": "Sketches, new and old", "lang": "en", "via": "MARC 910"},
+   {"value": "Tom Sawyer détective", "lang": "fr", "via": "MARC 910"},
+   {"value": "What is man ?", "lang": "en", "via": "MARC 910"},
+   {"value": "The gilded age", "lang": "en", "via": "MARC 910"},
+   {"value": "The new pilgrims' progress", "lang": "en", "via": "MARC 910"},
+   {"value": "Je serai un pirate !", "lang": "fr", "via": "MARC 910"},
+   {"value": "The American claimant", "lang": "en", "via": "MARC 910"},
+   {"value": "Post aus Hawaii", "lang": "de", "via": "MARC 910"},
+   {"value": "Huckleberry Finns Abenteuer", "lang": "de", "via": "MARC 910"},
+   {"value": "Christian science", "lang": "en", "via": "MARC 910"},
+   {"value": "Sommerwogen", "lang": "de", "via": "MARC 910"},
+   {"value": "The tragedy of Pudd'nhead Wilson and the comedy those extraordinary twins", "lang": "en", "via": "MARC 910"},
+   {"value": "Merry tales", "lang": "en", "via": "MARC 910"},
+   {"value": "Chapters from my autobiography", "lang": "en", "via": "MARC 910"},
+   {"value": "Roughing it", "lang": "en", "via": "MARC 910"},
+   {"value": "The diaries of Adam and Eve", "lang": "en", "via": "MARC 910"},
+   {"value": "1601 and Is Shakespeare dead ?", "lang": "en", "via": "MARC 910"},
+   {"value": "The celebrated jumping frog of Calaveras county, and other sketches", "lang": "en", "via": "MARC 910"},
+   {"value": "Following the Equator and anti-imperialism essays", "lang": "en", "via": "MARC 910"},
+   {"value": "Personal recollections of Joan of Arc", "lang": "en", "via": "MARC 910"},
+   {"value": "Speeches", "lang": "en", "via": "MARC 912"},
+   {"value": "The prince and the pauper", "lang": "en", "via": "MARC 912"},
+   {"value": "Adventures of Huckleberry Finn", "lang": "en", "via": "MARC 912"},
+   {"value": "The adventures of Tom Sawyer", "lang": "en", "via": "MARC 912"}
+  ],
+  "related_agent": [
+   {"value": "Fishkin, Shelley Fisher, 1950- (co-author/contributor)", "lang": null, "via": "MARC 950"},
+   {"value": "DeVoto, Bernard Augustine, 1897-1955 (co-author/contributor)", "lang": null, "via": "MARC 950"},
+   {"value": "Warner, Charles Dudley, 1829-1900 (co-author)", "lang": null, "via": "MARC 950"},
+   {"value": "Lapointe, Claude, 1938-2024 (illustrator)", "lang": null, "via": "MARC 950"},
+   {"value": "Ingpen, Robert, 1936- (illustrator)", "lang": null, "via": "MARC 950"},
+   {"value": "Homassel, Anne-Sylvie, 1963- (translator)", "lang": null, "via": "MARC 950"},
+   {"value": "Nétillard, Suzanne (contributor)", "lang": null, "via": "MARC 950"},
+   {"value": "Seidemann, Maria, 1944-2010 (contributor)", "lang": null, "via": "MARC 950"},
+   {"value": "Oxford University Press (publisher)", "lang": null, "via": "MARC 921"},
+   {"value": "Gallimard (publisher)", "lang": null, "via": "MARC 921"}
+  ],
+  "same_as": [
+   {"value": "WKP|Q7245", "via": "MARC 998 (matched VIAF source record)"},
+   {"value": "LC|n 79021164", "via": "MARC 998"},
+   {"value": "DNB|118624822", "via": "MARC 998"},
+   {"value": "BNF|11927291", "via": "MARC 998"},
+   {"value": "SUDOC|027171876", "via": "MARC 998 / MARC 024 ‡2 idref"},
+   {"value": "J9U|987007269289205171", "via": "MARC 998"},
+   {"value": "NDL|00459304", "via": "MARC 998"},
+   {"value": "NKC|jn19981002263", "via": "MARC 998"},
+   {"value": "NLA|000035028957", "via": "MARC 998"},
+   {"value": "SELIBR|98057", "via": "MARC 998"},
+   {"value": "BNE|981060902239808606", "via": "MARC 998"},
+   {"value": "ICCU|CFIV002662", "via": "MARC 998"},
+   {"value": "NUKAT|n 94200767", "via": "MARC 998"},
+   {"value": "BIBSYS|90056487", "via": "MARC 998"},
+   {"value": "LC|n 93099439 (Clemens, Samuel Langhorne)", "via": "MARC 998"},
+   {"value": "LC|n 93099461 (Snodgrass, Quintus Curtius)", "via": "MARC 998"},
+   {"value": "LC|no2003079632 (Conte, Louis de)", "via": "MARC 998"},
+   {"value": "LC|n 82045653 (Twain, Mark (Spirit))", "via": "MARC 998"},
+   {"value": "SUDOC|137182333 (Alden, Jean François, traducteur)", "via": "MARC 998"}
+  ],
+  "identifier": [
+   {"value": "A000164542", "raw": "RERO|A000164542 / (RERO)A000164542", "via": "MARC 001 / 035"},
+   {"value": "A010034463", "raw": "‡a A010034463 ‡2 rero", "via": "MARC 024"},
+   {"value": "vtls000164542", "via": "MARC 035"},
+   {"value": "027171876", "raw": "‡a 027171876 ‡2 idref", "via": "MARC 024"}
+  ],
+  "source": [
+   {"value": "LCNA, 17.07.2017", "lang": null, "via": "MARC 670"},
+   {"value": "BNF, 17.07.2017", "lang": null, "via": "MARC 670"}
+  ],
+  "record_created": [
+   {"value": "2000-06-10", "raw": "008 000610 / 039 ‡y 200006101650", "via": "MARC 008 / 039"}
+  ],
+  "record_modified": [
+   {"value": "2020-09-01", "raw": "20200901164040", "via": "MARC 005"}
+  ]
+ }
+}

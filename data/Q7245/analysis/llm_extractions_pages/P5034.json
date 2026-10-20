@@ -1,0 +1,75 @@
+{
+ "property": "P5034",
+ "label": "National Library of Korea ID",
+ "files_read": ["pages/P5034__KAC199605242.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "NLK LOD authority record rendered as a property table: preferred label, many Korean/Japanese/Chinese variant names, birth/death years, field of activity, gender, job titles, ISNI, 16 owl:sameAs links and about 190 nlon:create links to work records given only as opaque CNTS ids (not titles). Includes variant 'Snodgrass, Thomas Jefferson' (a Twain pseudonym).",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": null, "via": "skos:prefLabel / rdfs:label / foaf:name"}],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne", "lang": null, "via": "skos:altLabel"},
+   {"value": "トウェーン, マーク", "lang": "ja", "via": "skos:altLabel"},
+   {"value": "吐温, 马克", "lang": "zh", "via": "skos:altLabel"},
+   {"value": "클레먼스, 새뮤얼 랭혼", "lang": "ko", "via": "skos:altLabel"},
+   {"value": "클레멘스, 사무엘 랭혼", "lang": "ko", "via": "skos:altLabel"},
+   {"value": "클레멘스, 새뮤얼 랭혼", "lang": "ko", "via": "skos:altLabel"},
+   {"value": "토온, 마극", "lang": "ko", "via": "skos:altLabel"},
+   {"value": "투원, 마커", "lang": "ko", "via": "skos:altLabel"},
+   {"value": "트웨인, 마아크", "lang": "ko", "via": "skos:altLabel"},
+   {"value": "트웨인, 마크", "lang": "ko", "via": "skos:altLabel"}
+  ],
+  "pseudonym": [
+   {"value": "Snodgrass, Thomas Jefferson", "lang": null, "via": "skos:altLabel"},
+   {"value": "스노디글래스, 토머스 제퍼슨", "lang": "ko", "via": "skos:altLabel"}
+  ],
+  "birth_date": [{"value": "1835", "lang": null, "via": "nlon:birthYear"}],
+  "death_date": [{"value": "1910", "lang": null, "via": "nlon:deathYear"}],
+  "birth_place": [{"value": "미국 (플로리다)", "lang": "ko", "via": "schema:birthPlace"}],
+  "language": [{"value": "영어", "lang": "ko", "via": "nlon:associatedLanguage"}],
+  "field_of_activity": [
+   {"value": "아동 문학[兒童文學]", "lang": "ko", "via": "nlon:fieldOfActivity"},
+   {"value": "영미 문학[英美文學]", "lang": "ko", "via": "nlon:fieldOfActivity"}
+  ],
+  "gender": [{"value": "남성", "lang": "ko", "via": "schema:gender"}],
+  "occupation": [
+   {"value": "발명가[發明家]", "lang": "ko", "via": "schema:jobTitle"},
+   {"value": "소설가[小說家]", "lang": "ko", "via": "schema:jobTitle"},
+   {"value": "작가(사람)[作家]", "lang": "ko", "via": "schema:jobTitle"}
+  ],
+  "work": [
+   {"value": "허클베리 핀의 모험", "raw": "(원서발췌) 허클베리 핀의 모험, (지식을만드는지식), 2023", "lang": "ko", "via": "dc:source"},
+   {"value": "세균들 사이에서 3,000년", "raw": "세균들 사이에서 3,000년, (충남대학교출판문화원), 2022", "lang": "ko", "via": "dc:source"},
+   {"value": "톰 소여의 모험", "raw": "톰 소여의 모험, (다락원), 2012", "lang": "ko", "via": "dc:source"}
+  ],
+  "same_as": [
+   {"value": "http://d-nb.info/gnd/118624822", "via": "owl:sameAs"},
+   {"value": "http://data.bnf.fr/ark:/12148/cb11927291n#foaf:Person", "via": "owl:sameAs"},
+   {"value": "http://datos.bne.es/resource/XX945992", "via": "owl:sameAs"},
+   {"value": "http://dbpedia.org/resource/Mark_Twain", "via": "owl:sameAs"},
+   {"value": "http://id.loc.gov/authorities/names/n79021164", "via": "owl:sameAs"},
+   {"value": "http://id.ndl.go.jp/auth/entity/00459304", "via": "owl:sameAs"},
+   {"value": "http://libris.kb.se/resource/auth/98057", "via": "owl:sameAs"},
+   {"value": "http://viaf.org/viaf/50566653", "via": "owl:sameAs"},
+   {"value": "http://vocab.getty.edu/ulan/500020427", "via": "owl:sameAs"},
+   {"value": "http://vocab.getty.edu/ulan/500020427-agent", "via": "owl:sameAs"},
+   {"value": "http://www.idref.fr/027171876/id", "via": "owl:sameAs"},
+   {"value": "http://www.isni.org/isni/0000000121324854", "via": "owl:sameAs"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "owl:sameAs"},
+   {"value": "https://authority.bibsys.no/authority/rest/authorities/html/90056487", "via": "owl:sameAs"},
+   {"value": "https://id.oclc.org/worldcat/entity/E39PBJqqvmHvVjHK8C9Fr33fbd", "via": "owl:sameAs"},
+   {"value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433", "via": "owl:sameAs"}
+  ],
+  "identifier": [
+   {"value": "KAC199605242", "via": "resource URI http://lod.nl.go.kr/resource/KAC199605242"},
+   {"value": "ISNI 0000000121324854", "via": "nlon:isni"}
+  ],
+  "source": [
+   {"value": "(원서발췌) 허클베리 핀의 모험, (지식을만드는지식), 2023", "lang": "ko", "via": "dc:source"},
+   {"value": "가상국제전거파일(VIAF) http://viaf.org/", "lang": "ko", "via": "dc:source"},
+   {"value": "세균들 사이에서 3,000년, (충남대학교출판문화원), 2022", "lang": "ko", "via": "dc:source"},
+   {"value": "톰 소여의 모험, (다락원), 2012", "lang": "ko", "via": "dc:source"}
+  ],
+  "record_modified": [{"value": "2026-06-23T14:13:43", "lang": null, "via": "dcterms:modified"}]
+ }
+}

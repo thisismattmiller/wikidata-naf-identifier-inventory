@@ -1,0 +1,33 @@
+{
+ "property": "P8094",
+ "label": "GeneaStar person ID",
+ "files_read": ["P8094__clemens/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata of the Geneastar (Geneanet) family-tree page; og:description is a truncated English family-background paragraph naming parents and siblings.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "en", "raw": "Family tree of Mark TWAIN", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "description": [
+   {"value": "Mark Twain was born to a Tennessee country merchant, John Marshall Clemens (August 11, 1798 – March 24, 1847), and Jane Lampton Clemens (June 18, 1803 – October 27, 1890). [...] Twain was the sixth of seven children.", "lang": "en", "via": "embedded_opengraph.json: og:description (abridged)"}
+  ],
+  "related_agent": [
+   {"value": "John Marshall Clemens (1798-08-11 – 1847-03-24)", "relation": "father", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Jane Lampton Clemens (1803-06-18 – 1890-10-27)", "relation": "mother", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Samuel B Clemens", "relation": "paternal grandfather", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Pamela Goggin (1775–1844)", "relation": "paternal grandmother", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Orion (1825-07-17 – 1897-12-11)", "relation": "brother", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Henry (1838-07-13 – 1858-06-21)", "relation": "brother", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Pamela (1827-09-19 – 1904-08-31)", "relation": "sister", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Margaret (1830-05-31 – 1839-08-17)", "relation": "sister", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Benjamin (1832-06-08 – 1842-05-12)", "relation": "brother", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Pleasant (1828–1829)", "relation": "brother", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "identifier": [
+   {"value": "clemens", "raw": "https://en.geneastar.org/genealogy/clemens/mark-twain", "via": "embedded_opengraph.json: og:url"}
+  ],
+  "image": [
+   {"value": "https://geneacdn.net/bundles/geneanetgeneastar/images/celebrites/200px/clemens.jpg", "via": "embedded_opengraph.json: og:image"}
+  ]
+ }
+}

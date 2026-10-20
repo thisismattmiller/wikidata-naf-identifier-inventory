@@ -1,0 +1,180 @@
+{
+ "property": "P2469",
+ "property_label": "Theatricalia person ID",
+ "files": [
+  {
+   "file": "P2469__2ass/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://theatricalia.com/person/2ass/mark-twain"
+  },
+  {
+   "file": "P2469__2ass/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://theatricalia.com/person/2ass/mark-twain"
+  },
+  {
+   "file": "P2469__2ass/alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://theatricalia.com/person/2ass/mark-twain/feed"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "rdfa": 1,
+  "feed": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P2469.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "2ass",
+    "lang": null,
+    "via": "llm:alternate_1.xml: channel/link https://theatricalia.com/person/2ass/mark-twain",
+    "file": "P2469.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 88,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "Mark Twain"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].name",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 530,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "rss/channel/link",
+     "n": 2,
+     "sample": "https://theatricalia.com/person/2ass/mark-twain"
+    },
+    {
+     "path": "rss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss@version",
+     "n": 1,
+     "sample": "2.0"
+    },
+    {
+     "path": "rss/channel",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/title",
+     "n": 1,
+     "sample": "Theatricalia: Productions with, or of a play by, Mark Twain"
+    },
+    {
+     "path": "rss/channel/description",
+     "n": 1,
+     "sample": "The latest productions with, or of a play by, Mark Twain from Theatricalia"
+    },
+    {
+     "path": "rss/channel/link@href",
+     "n": 1,
+     "sample": "https://theatricalia.com/person/2ass/mark-twain/feed"
+    },
+    {
+     "path": "rss/channel/link@rel",
+     "n": 1,
+     "sample": "self"
+    },
+    {
+     "path": "rss/channel/language",
+     "n": 1,
+     "sample": "en-gb"
+    },
+    {
+     "path": "rss/channel/lastBuildDate",
+     "n": 1,
+     "sample": "Sat, 03 Oct 2026 02:24:10 +0000"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "rss/channel/title",
+     "value": "Theatricalia: Productions with, or of a play by, Mark Twain"
+    },
+    {
+     "path": "rss/channel/link",
+     "value": "https://theatricalia.com/person/2ass/mark-twain"
+    },
+    {
+     "path": "rss/channel/description",
+     "value": "The latest productions with, or of a play by, Mark Twain from Theatricalia"
+    }
+   ],
+   "language_like_keys": [
+    "rss"
+   ]
+  }
+ ],
+ "llm_notes": "Theatricalia person stub: only the name 'Mark Twain' and the text 'This person doesn't appear to have a biography yet'; no productions, photos or other data shown.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,535 @@
+{
+ "property": "P2163",
+ "property_label": "FAST ID",
+ "files": [
+  {
+   "file": "P2163__31622/export_1.xml",
+   "format": "xml",
+   "kind": "export",
+   "via": "http",
+   "url": "http://id.worldcat.org/fast/31622.mrc"
+  },
+  {
+   "file": "P2163__31622/export_2.xml",
+   "format": "marcxml",
+   "kind": "export",
+   "via": "http",
+   "url": "http://id.worldcat.org/fast/31622.mrc.xml"
+  },
+  {
+   "file": "P2163__31622/export_3.xml",
+   "format": "marcxml",
+   "kind": "export",
+   "via": "http",
+   "url": "http://id.worldcat.org/fast/31622.rdf.xml"
+  },
+  {
+   "file": "P2163__31622/export_4.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.oclc.org/research/themes/data-science/fast/download.html"
+  },
+  {
+   "file": "P2163__31622/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://id.worldcat.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P2163__31622/conneg_1.mrc",
+   "format": "marc-binary",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://id.worldcat.org/fast/31622"
+  },
+  {
+   "file": "P2163__31622/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://id.worldcat.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "xml": 1,
+  "marcxml": 2,
+  "html": 2,
+  "marc-binary": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "MARC 400": 36,
+  "MARC 700": 6,
+  "MARC 370": 4,
+  "MARC 372": 4,
+  "MARC 688": 4,
+  "MARC21 authority": 2,
+  "MARC 016": 2,
+  "MARC 024": 2,
+  "MARC 040": 2,
+  "MARC 046": 2,
+  "MARC 053": 2,
+  "MARC 100": 2,
+  "MARC 368": 2,
+  "MARC 374": 2,
+  "MARC 377": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "identifier": [
+   {
+    "value": "fst00031622",
+    "lang": null,
+    "via": "016",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "http://id.worldcat.org/fast/31622 uri",
+    "lang": null,
+    "via": "024",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "31622",
+    "lang": null,
+    "via": "llm-page:IDENTIFIER",
+    "file": "P2163.json",
+    "uri": false
+   },
+   {
+    "value": "http://id.worldcat.org/fast/31622",
+    "lang": null,
+    "via": "llm-page:Controlled heading identifier",
+    "file": "P2163.json",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "18351130",
+    "lang": null,
+    "via": "046$f",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P2163.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "19100421",
+    "lang": null,
+    "via": "046$g",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P2163.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "PS1300 PS1348",
+    "lang": null,
+    "via": "053",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Literature Humor",
+    "lang": null,
+    "via": "372",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Wit and humor",
+    "lang": null,
+    "via": "372",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "100",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:SKOS preferred label",
+    "file": "P2163.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "Americans",
+    "lang": null,
+    "via": "368",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Mo.)",
+    "lang": null,
+    "via": "370$a",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Conn.)",
+    "lang": null,
+    "via": "370$b",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal (Mo.)",
+    "lang": null,
+    "via": "370$e/f",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Authors Lecturers Humorists",
+    "lang": null,
+    "via": "374",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "377",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Make Teviin, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Make Tuwen, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tivāyn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Touain, Mark, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tʻu-wen, Ma-kʻo, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tuėĭn, Mark, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tʻuēyn, Markʻ, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tuvāyn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "T'ŭwein, Mak'ŭ, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tvāyn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tven, M. (Mark), 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tvėn, Mark, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tivāyn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "llm-page:SKOS alternative label",
+    "file": "P2163.json",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū, 1835-1910",
+    "lang": null,
+    "via": "llm-page:SKOS alternative label",
+    "file": "P2163.json",
+    "uri": false
+   },
+   {
+    "value": "Tuėĭn, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:SKOS alternative label",
+    "file": "P2163.json",
+    "uri": false
+   },
+   {
+    "value": "Tʻuēyn, Markʻ, 1835-1910",
+    "lang": null,
+    "via": "llm-page:SKOS alternative label",
+    "file": "P2163.json",
+    "uri": false
+   },
+   {
+    "value": "Tuvāyn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "llm-page:SKOS alternative label",
+    "file": "P2163.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "llm-page:SKOS alternative label",
+    "file": "P2163.json",
+    "uri": false
+   },
+   {
+    "value": "T'ŭwein, Mak'ŭ, 1835-1910",
+    "lang": null,
+    "via": "llm-page:SKOS alternative label",
+    "file": "P2163.json",
+    "uri": false
+   },
+   {
+    "value": "Tvāyn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "llm-page:SKOS alternative label",
+    "file": "P2163.json",
+    "uri": false
+   },
+   {
+    "value": "Tvėn, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:SKOS alternative label",
+    "file": "P2163.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "llm-page:SKOS alternative label",
+    "file": "P2163.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Cataloged by agency: OCoLC; Transcribed by agency: OCoLC",
+    "lang": null,
+    "via": "llm-page:resource source",
+    "file": "P2163.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2004-09-24",
+    "lang": null,
+    "via": "llm-page:Date Created",
+    "file": "P2163.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-07-16",
+    "lang": null,
+    "via": "llm-page:Date Modified",
+    "file": "P2163.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Open Data Commons Attribution License (ODC-By) v1.0",
+    "lang": null,
+    "via": "llm-page:Data set License",
+    "file": "P2163.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "identifier": [],
+  "birth_date": [],
+  "death_date": [],
+  "field_of_activity": [],
+  "name_preferred": [
+   "en"
+  ],
+  "type": [],
+  "birth_place": [],
+  "death_place": [],
+  "activity_place": [],
+  "occupation": [],
+  "language": [],
+  "name_variant": [],
+  "source": [],
+  "record_created": [],
+  "record_modified": [],
+  "license": []
+ },
+ "unmapped": {
+  "MARC 700": 6,
+  "MARC 688": 4
+ },
+ "json_profiles": [
+  {
+   "file": "export_1.xml",
+   "format": "xml",
+   "size": 198,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "error",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "error/code",
+     "n": 1,
+     "sample": "recordNotFound"
+    },
+    {
+     "path": "error/code@type",
+     "n": 1,
+     "sample": "application"
+    },
+    {
+     "path": "error/message",
+     "n": 1,
+     "sample": "No authority record found."
+    },
+    {
+     "path": "error/detail",
+     "n": 1,
+     "sample": "No record/history record found for dbName: 'fast', authorityId: '31622.mrc'"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "OCLC FAST linked-data view of the personal-name heading: preferred label, 18 alternative labels, dates created/modified, ODC-By license.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

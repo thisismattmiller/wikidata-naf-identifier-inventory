@@ -1,0 +1,265 @@
+{
+ "property": "P9707",
+ "property_label": "GCD creator ID",
+ "files": [
+  {
+   "file": "P9707__26390/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.comics.org/creator/26390/"
+  },
+  {
+   "file": "P9707__26390/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.comics.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P9707__26390/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://www.comics.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://creativecommons.org/ns#": 1,
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:heading / Name",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:Other Names (Common Alternative Name)",
+    "file": "P9707.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "llm-page:Other Names (Common Alternative Name)",
+    "file": "P9707.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:Other Names (Name at Birth)",
+    "file": "P9707.json",
+    "uri": false
+   },
+   {
+    "value": "Марк Твен",
+    "lang": "ru",
+    "via": "llm-page:Other Names",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel",
+    "lang": "en",
+    "via": "llm-page:Other Names",
+    "file": "P9707.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L.",
+    "lang": "en",
+    "via": "llm-page:Other Names",
+    "file": "P9707.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Other Names (Name at Birth)",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:Other Names",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:Born",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:Died",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, United States",
+    "lang": "en",
+    "via": "llm-page:Born",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, United States",
+    "lang": "en",
+    "via": "llm-page:Died",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Portrait photograph taken by A. F. Bradley in New York, 1907. The Mark Twain Prize for American Humor, presented by The John F. Kennedy Center for the Performing Arts, was established in 1998. Twain was awarded an honorary Doctor of Letters (D.Litt.) by Yale University in 1901 and a Doctor of Law by the University of Missouri in 1902. Oxford University awarded him a Doctorate of Law in 1907.",
+    "lang": "en",
+    "via": "llm-page:Notes",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Jay Sanford (b. 1960) (influenced by Twain)",
+    "lang": null,
+    "via": "llm-page:Art Influences",
+    "file": "P9707.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Worden (b. 1951) (influenced by Twain)",
+    "lang": null,
+    "via": "llm-page:Art Influences",
+    "file": "P9707.json",
+    "uri": false
+   },
+   {
+    "value": "A. F. Bradley (portrait photographer)",
+    "lang": null,
+    "via": "llm-page:Notes",
+    "file": "P9707.json",
+    "uri": false
+   },
+   {
+    "value": "Yale University (honorary D.Litt., 1901)",
+    "lang": null,
+    "via": "llm-page:Notes",
+    "file": "P9707.json",
+    "uri": false
+   },
+   {
+    "value": "University of Missouri (Doctor of Law, 1902)",
+    "lang": null,
+    "via": "llm-page:Notes",
+    "file": "P9707.json",
+    "uri": false
+   },
+   {
+    "value": "Oxford University (Doctorate of Law, 1907)",
+    "lang": null,
+    "via": "llm-page:Notes",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "26390",
+    "lang": null,
+    "via": "llm-page:page URL /creator/26390/",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Internet Movie Database (IMDB), Internet Speculative Fiction Database, Wikipedia",
+    "lang": "en",
+    "via": "llm-page:external links (labels only)",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "CC BY-SA 4.0",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P9707.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en",
+   "ru"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "related_agent": [],
+  "identifier": [],
+  "source": [
+   "en"
+  ],
+  "license": []
+ },
+ "unmapped": {
+  "attributionURL (http://creativecommons.org/ns#)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "The Grand Comics Database creator page for Mark Twain (b. 1835). It gives birth and death dates and places, typed name variants with given and family names, a Russian name, notes on a portrait and his honorary degrees, and creators who cite him as an influence. The external links are shown only as labels, with no URLs.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

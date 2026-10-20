@@ -1,0 +1,558 @@
+{
+ "property": "P1233",
+ "property_label": "ISFDB author ID",
+ "files": [
+  {
+   "file": "P1233__160/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.isfdb.org/cgi-bin/ea.cgi?160"
+  },
+  {
+   "file": "P1233__160/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.isfdb.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P1233__160/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://www.isfdb.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Author: heading",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Legal Name row",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "llm-page:Used These Alternate Names row",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:Used These Alternate Names row",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Legal Name row",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:Legal Name row",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:Birthdate row",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:Deathdate row",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, USA",
+    "lang": "en",
+    "via": "llm-page:Birthplace row",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "English",
+    "lang": "en",
+    "via": "llm-page:Language row",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "fantasy",
+    "lang": "en",
+    "via": "llm-page:Author Tags",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "juvenile fantasy",
+    "lang": "en",
+    "via": "llm-page:Author Tags",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "horror",
+    "lang": "en",
+    "via": "llm-page:Author Tags",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "humor",
+    "lang": "en",
+    "via": "llm-page:Author Tags",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "autobiography",
+    "lang": "en",
+    "via": "llm-page:Author Tags",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "llm-page:Fiction Series: Arthuriana",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": null,
+    "via": "llm-page:Fiction Series",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "No. 44, the Mysterious Stranger",
+    "lang": null,
+    "via": "llm-page:Fiction Series",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Schoolhouse Hill",
+    "lang": null,
+    "via": "llm-page:Fiction Series",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Chronicle of Young Satan",
+    "lang": null,
+    "via": "llm-page:Fiction Series",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Stolen White Elephant Etc.",
+    "lang": null,
+    "via": "llm-page:Collections",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "A Double-Barrelled Detective Story",
+    "lang": null,
+    "via": "llm-page:Collections",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "How to Tell a Story and Other Essays",
+    "lang": null,
+    "via": "llm-page:Collections",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Curious Republic of Gondour and Other Whimsical Sketches",
+    "lang": null,
+    "via": "llm-page:Collections",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Private Life of Adam and Eve",
+    "lang": null,
+    "via": "llm-page:Collections",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Report from Paradise",
+    "lang": null,
+    "via": "llm-page:Collections",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Letters from the Earth",
+    "lang": null,
+    "via": "llm-page:Collections",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Fables of Man",
+    "lang": null,
+    "via": "llm-page:Collections",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Extracts from Adam's Diary",
+    "lang": null,
+    "via": "llm-page:Chapbooks",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Eve's Diary",
+    "lang": null,
+    "via": "llm-page:Chapbooks",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Extract from Captain Stormfield's Visit to Heaven",
+    "lang": null,
+    "via": "llm-page:Chapbooks",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Christian Science",
+    "lang": null,
+    "via": "llm-page:Nonfiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Petrified Man",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Curious Republic of Gondour",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Quartz",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "A Curious Pleasure Excursion",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "A Ghost Story",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Facts Concerning the Recent Carnival of Crime in Connecticut",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "What Stumped the Blue Jays",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Stolen White Elephant",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Mental Telegraphy",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "How to Tell a Story",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "A Dog's Tale",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "A Horse's Tale",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Great Dark",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Three Thousand Years Among the Microbes",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Secret History of Eddypus, the World-Empire",
+    "lang": null,
+    "via": "llm-page:Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Fenimore Cooper's Literary Offenses",
+    "lang": null,
+    "via": "llm-page:Essays",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:Non-Genre Novels",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": null,
+    "via": "llm-page:Non-Genre Novels",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": null,
+    "via": "llm-page:Non-Genre Novels",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Notorious Jumping Frog of Calaveras County",
+    "lang": null,
+    "via": "llm-page:Non-Genre Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Cannibalism in the Cars",
+    "lang": null,
+    "via": "llm-page:Non-Genre Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The £1,000,000 Bank-Note",
+    "lang": null,
+    "via": "llm-page:Non-Genre Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "The Man That Corrupted Hadleyburg",
+    "lang": null,
+    "via": "llm-page:Non-Genre Short Fiction",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "W. Bill Czolgosz (co-author)",
+    "lang": null,
+    "via": "llm-page:Novels: The Adventures of Huckleberry Finn and Zombie Jim",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Don Borchert (co-author)",
+    "lang": null,
+    "via": "llm-page:Novels: The Adventures of Tom Sawyer and the Undead",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Philip Stead (co-author)",
+    "lang": null,
+    "via": "llm-page:The Purloining of Prince Oleomargarine",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "L. Frank Baum (omnibus co-author)",
+    "lang": null,
+    "via": "llm-page:Omnibus",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Ambrose Bierce (co-author)",
+    "lang": null,
+    "via": "llm-page:Short Fiction: Fables",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Albert Bigelow Paine (co-author)",
+    "lang": null,
+    "via": "llm-page:Essays: Marginal Notes",
+    "file": "P1233.json",
+    "uri": false
+   },
+   {
+    "value": "Lucia Monfried (co-author)",
+    "lang": null,
+    "via": "llm-page:Chapbooks",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "160",
+    "lang": null,
+    "via": "llm-page:Author Record row",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Books and Writers, Encyclopedia of Fantasy, Gutenberg, IMDB, Library of Congress, SFE, Wikipedia-EN",
+    "lang": "en",
+    "via": "llm-page:Webpages row (link labels only, no URIs in text)",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Creative Commons Attribution 4.0 International License",
+    "lang": null,
+    "via": "llm-page:sidebar License",
+    "file": "P1233.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "en"
+  ],
+  "language": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "work": [],
+  "related_agent": [],
+  "identifier": [],
+  "source": [
+   "en"
+  ],
+  "license": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "ISFDB summary bibliography for Mark Twain (author record #160). It shows the legal name, birth and death data, language, alternate names and tags, followed by a long genre and non-genre work list with translations. The webpages row names external sites without showing their URLs.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

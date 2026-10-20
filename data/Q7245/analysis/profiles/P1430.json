@@ -1,0 +1,261 @@
+{
+ "property": "P1430",
+ "property_label": "Open Plaques subject ID",
+ "files": [
+  {
+   "file": "P1430__252/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://openplaques.org/people/252"
+  },
+  {
+   "file": "P1430__252/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://openplaques.org/people/252"
+  },
+  {
+   "file": "P1430__252/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://openplaques.org/data"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 4,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 2,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://www.w3.org/2006/vcard/ns#VCard",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   },
+   {
+    "value": "http://xmlns.com/foaf/0.1/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading (subject 252)",
+    "file": "P1430.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P1430.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P1430.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:subtitle 'writer and journalist'",
+    "file": "P1430.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "en",
+    "via": "llm-page:subtitle 'writer and journalist'",
+    "file": "P1430.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "writer and journalist. Died aged c. 75",
+    "lang": "en",
+    "via": "llm-page:subtitle under heading",
+    "file": "P1430.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "London, England",
+    "lang": "en",
+    "via": "llm-page:plaque location",
+    "file": "P1430.json",
+    "uri": false
+   },
+   {
+    "value": "Tuttletown, CA",
+    "lang": "en",
+    "via": "llm-page:plaque location",
+    "file": "P1430.json",
+    "uri": false
+   },
+   {
+    "value": "Louisville, KY",
+    "lang": "en",
+    "via": "llm-page:plaque location",
+    "file": "P1430.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City, NV",
+    "lang": "en",
+    "via": "llm-page:plaque location",
+    "file": "P1430.json",
+    "uri": false
+   },
+   {
+    "value": "Carson City, NV",
+    "lang": "en",
+    "via": "llm-page:plaque location",
+    "file": "P1430.json",
+    "uri": false
+   },
+   {
+    "value": "Imlay, NV",
+    "lang": "en",
+    "via": "llm-page:plaque location",
+    "file": "P1430.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "John Marshall Clemens (1798-1847) (father)",
+    "lang": null,
+    "via": "llm-page:Family tree",
+    "file": "P1430.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Lampton (1803-1891) (mother)",
+    "lang": null,
+    "via": "llm-page:Family tree",
+    "file": "P1430.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens (1825-1897) (brother), Secretary of the Nevada Territory",
+    "lang": null,
+    "via": "llm-page:Family tree",
+    "file": "P1430.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "252",
+    "lang": null,
+    "via": "llm-page:subjects 252 under heading",
+    "file": "P1430.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "related_agent": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 369,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://openplaques.org/people/252"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark_Twain,_Brady-Handy_photo_portrait,_Feb_7,_1871,_cropped.jpg?wid"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain (1835-1910) historical plaques and markers"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Mark Twain (1835-1910)"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:image",
+     "value": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark_Twain,_Brady-Handy_photo_portrait,_Feb_7,_1871,_cropped.jpg?width=640"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain (1835-1910) historical plaques and markers"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Mark Twain (1835-1910)"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "OpenPlaques subject 252 is Mark Twain: dates, a one-line description, a small family tree and 6 commemorating plaques with locations. Subject 1709 is a different person (James Wallace Richard Hall, 1799-1860) and was ignored.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

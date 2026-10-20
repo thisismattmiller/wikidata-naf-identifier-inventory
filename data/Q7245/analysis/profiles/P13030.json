@@ -1,0 +1,349 @@
+{
+ "property": "P13030",
+ "property_label": "Münzkabinett ID",
+ "files": [
+  {
+   "file": "P13030__person_14383_f6eb67ef/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://ikmk.smb.museum/ndp/person/14383"
+  },
+  {
+   "file": "P13030__person_14383_f6eb67ef/export_1.ttl",
+   "format": "turtle",
+   "kind": "export",
+   "via": "http",
+   "url": "https://ikmk.smb.museum/ndp/api/v1/person/14383.ttl"
+  },
+  {
+   "file": "P13030__person_14383_f6eb67ef/export_2.jsonld",
+   "format": "json-ld",
+   "kind": "export",
+   "via": "http",
+   "url": "https://ikmk.smb.museum/ndp/api/v1/person/14383.jsonld"
+  },
+  {
+   "file": "P13030__person_14383_f6eb67ef/export_3.rdf",
+   "format": "rdf-xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://ikmk.smb.museum/ndp/api/v1/person/14383.rdf"
+  },
+  {
+   "file": "P13030__person_14383_f6eb67ef/export_4.nt",
+   "format": "n-triples",
+   "kind": "export",
+   "via": "http",
+   "url": "https://ikmk.smb.museum/ndp/api/v1/person/14383.nt",
+   "error": "ParserError: Invalid line: ^^<http://www.w3.org/2001/XMLSchema#gYear ."
+  },
+  {
+   "file": "P13030__person_14383_f6eb67ef/browser_export_1.csv",
+   "format": "csv",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://ikmk.smb.museum/ndp/person/download_csv?lang=en"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "turtle": 1,
+  "json-ld": 1,
+  "rdf-xml": 1,
+  "n-triples": 1,
+  "csv": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/2004/02/skos/core#": 30,
+  "https://d-nb.info/standards/elementset/gnd#": 21,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 6,
+  "http://purl.org/dc/terms/": 6,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://www.w3.org/2004/02/skos/core#Concept",
+    "lang": null,
+    "via": "type",
+    "file": "export_1.ttl",
+    "uri": true
+   },
+   {
+    "value": "https://ikmk.smb.museum/ndp/category/person",
+    "lang": null,
+    "via": "type",
+    "file": "export_1.ttl",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "de",
+    "via": "prefLabel",
+    "file": "export_1.ttl",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:Name",
+    "file": "P13030.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Amerikanischer Schriftsteller.",
+    "lang": "de",
+    "via": "definition",
+    "file": "export_1.ttl",
+    "uri": false
+   },
+   {
+    "value": "Amerikanischer Schriftsteller.",
+    "lang": "en",
+    "via": "definition",
+    "file": "export_1.ttl",
+    "uri": false
+   },
+   {
+    "value": "American author.",
+    "lang": "en",
+    "via": "llm-page:description line",
+    "file": "P13030.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "https://d-nb.info/standards/vocab/gnd/gender#male",
+    "lang": null,
+    "via": "gender",
+    "file": "export_1.ttl",
+    "uri": true
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": "de",
+    "via": "forename",
+    "file": "export_1.ttl",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": "de",
+    "via": "surname",
+    "file": "export_1.ttl",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "dateOfBirth",
+    "file": "export_1.ttl",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:Name dates",
+    "file": "P13030.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "dateOfDeath",
+    "file": "export_1.ttl",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:Name dates",
+    "file": "P13030.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.ttl",
+    "uri": true
+   },
+   {
+    "value": "https://de.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.ttl",
+    "uri": true
+   },
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.ttl",
+    "uri": true
+   },
+   {
+    "value": "https://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.ttl",
+    "uri": true
+   },
+   {
+    "value": "https://www.britishmuseum.org/collection/term/BIOG240173",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.ttl",
+    "uri": true
+   },
+   {
+    "value": "https://www.wikidata.org/wiki/Q7245",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.ttl",
+    "uri": true
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2024-05-10",
+    "lang": null,
+    "via": "created",
+    "file": "export_1.ttl",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-05-10",
+    "lang": null,
+    "via": "modified",
+    "file": "export_1.ttl",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Sitter",
+    "lang": "en",
+    "via": "llm-page:Types",
+    "file": "P13030.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "14383",
+    "lang": null,
+    "via": "llm-page:Permalink",
+    "file": "P13030.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Creative Commons BY 4.0",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P13030.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "de",
+   "en"
+  ],
+  "description": [
+   "de",
+   "en"
+  ],
+  "gender": [],
+  "given_name": [
+   "de"
+  ],
+  "family_name": [
+   "de"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "same_as": [],
+  "record_created": [],
+  "record_modified": [],
+  "occupation": [
+   "en"
+  ],
+  "identifier": [],
+  "license": []
+ },
+ "unmapped": {
+  "dateOfBirthAndDeath (https://d-nb.info/standards/elementset/gnd#)": 3,
+  "functionOrRole (https://d-nb.info/standards/elementset/gnd#)": 3,
+  "inScheme (http://www.w3.org/2004/02/skos/core#)": 3
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 311,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "MK-B-NDP | "
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Münzkabinett der Staatlichen Museen zu Berlin"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://ikmk.smb.museum/ndp"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://ikmk.smb.museum/ndp/special/favicons/android-chrome-256x256.png"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Münzkabinett Berlin authority portal person record: name with full dates, one-line description, type 'Sitter', and cross-links (GND, Wikipedia de/en, VIAF, British Museum, Wikidata).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

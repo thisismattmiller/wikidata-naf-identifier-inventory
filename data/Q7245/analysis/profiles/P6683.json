@@ -1,0 +1,204 @@
+{
+ "property": "P6683",
+ "property_label": "Alexander Turnbull Library ID",
+ "files": [
+  {
+   "file": "P6683__85002/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://tiaki.natlib.govt.nz/imu/dist/common/FileAPI/FileAPI.html5.js?_=1790977724076"
+  },
+  {
+   "file": "P6683__85002/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://tiaki.natlib.govt.nz/imu/request.php"
+  },
+  {
+   "file": "P6683__85002/xhr_3.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://tiaki.natlib.govt.nz/realme/js/realme.js"
+  },
+  {
+   "file": "P6683__85002/browser_xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://tiaki.natlib.govt.nz/imu/request.php"
+  }
+ ],
+ "formats": {
+  "unknown": 2,
+  "html": 2
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:record heading",
+    "file": "P6683.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Non Preferred Term(s)",
+    "file": "P6683.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L Clemens",
+    "lang": "en",
+    "via": "llm-page:linked item title MS-Papers-0022-23",
+    "file": "P6683.json",
+    "uri": false
+   },
+   {
+    "value": "Dr Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:linked item title A-088-006",
+    "file": "P6683.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:Date(s)",
+    "file": "P6683.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:Date(s)",
+    "file": "P6683.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:Biography/History",
+    "file": "P6683.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:Biography/History",
+    "file": "P6683.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Dunedin (City Hall), 1895",
+    "lang": "en",
+    "via": "llm-page:linked items A-212-024 / E-147-025 (lecture sketches)",
+    "file": "P6683.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "American author",
+    "lang": "en",
+    "via": "llm-page:Biography/History",
+    "file": "P6683.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Kinsey, Joseph James (Sir), 1852-1936 (correspondence with Clemens family)",
+    "lang": null,
+    "via": "llm-page:Items: MS-Papers-0022-23",
+    "file": "P6683.json",
+    "uri": false
+   },
+   {
+    "value": "Bakewell, Robert Hall (Dr), 1831-1908 (letter from Mark Twain)",
+    "lang": null,
+    "via": "llm-page:Items: MS-Papers-9102",
+    "file": "P6683.json",
+    "uri": false
+   },
+   {
+    "value": "Hodgkins, William Mathew 1833-1898 (sketched Twain lecturing)",
+    "lang": null,
+    "via": "llm-page:Items: A-212-024, E-147-025",
+    "file": "P6683.json",
+    "uri": false
+   },
+   {
+    "value": "Spence, Percy F S (portrait artist)",
+    "lang": null,
+    "via": "llm-page:Items: A-088-006",
+    "file": "P6683.json",
+    "uri": false
+   },
+   {
+    "value": "David Geary (play 'Mark Twain and me in Maoriland')",
+    "lang": null,
+    "via": "llm-page:Items: Eph-E-DOWNSTAGE-2010-01",
+    "file": "P6683.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "85002",
+    "lang": null,
+    "via": "llm-page:page URL fragment",
+    "file": "P6683.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "nationality": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "related_agent": [],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "A Tiaki (Alexander Turnbull Library unpublished collections) name thesaurus entry for Twain, Mark, 1835-1910. It gives a non-preferred term, dates and a short biography, and lists 11 linked collection items where he is subject or contributor. Most of the page is the search form.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

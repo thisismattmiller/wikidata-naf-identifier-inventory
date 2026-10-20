@@ -1,0 +1,49 @@
+{
+ "property": "P3846",
+ "label": "DBC author ID",
+ "files_read": ["pages/P3846__87097968223113.txt", "pages/P3846__87097969041957.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Two VIAF 'processed' views of DBC (Danish) records: 87097969041957 is the main Twain, Mark record (88 work titles, mostly Danish translations; 216 ISBN stems, co-contributors); 87097968223113 is the pseudonym record 'Conte, Louis de' (Personal recollections of Joan of Arc). Works capped at 40.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": null, "via": "100 field, record 87097969041957"}, {"value": "Conte, Louis de", "lang": null, "via": "100 field, record 87097968223113 (pseudonym record)"}],
+  "name_variant": [{"value": "Clemens, Samuel Langhorne", "lang": null, "via": "400"}, {"value": "Langhorne Clemens, Samuel", "lang": null, "via": "400"}, {"value": "Твен, Марк", "lang": "ru", "via": "998 cluster match"}, {"value": "טוין, מרק", "lang": "he", "via": "998 cluster match"}, {"value": "توين، مارك", "lang": "ar", "via": "998 cluster match"}, {"value": "Clemens, Samuel L. (Samuel Langhorne)", "lang": null, "via": "998 NTA"}],
+  "pseudonym": [{"value": "Mark Twain (pseudonym for Samuel Langhorne Clemens)", "raw": "663 ‡a Mark Twain pseudonym for ‡b Samuel Langhorne Clemens", "lang": null, "via": "663"}, {"value": "Conte, Louis de", "lang": null, "via": "pseudonym record 100; 950 in main record"}],
+  "birth_date": [{"value": "1835", "raw": "046 ‡f 1835", "lang": null, "via": "046 (both records)"}],
+  "death_date": [{"value": "1910", "raw": "046 ‡g 1910", "lang": null, "via": "046 (both records)"}],
+  "activity_place": [{"value": "us", "raw": "043 ‡c us", "lang": null, "via": "043 / 947"}],
+  "gender": [{"value": "male", "raw": "375 ‡a 1 ‡2 iso5218", "lang": null, "via": "375"}],
+  "language": [{"value": "dan", "raw": "940 dan (355)", "lang": null, "via": "940 (language of works)"}, {"value": "eng", "raw": "940 eng (19)", "lang": null, "via": "940"}, {"value": "swe", "raw": "940 swe (6)", "lang": null, "via": "940"}, {"value": "tur", "lang": null, "via": "940"}],
+  "description": [{"value": "American humorist, novelist, and artist, 1835-1910", "lang": "en", "via": "998 JPG cluster heading qualifier"}],
+  "work": [
+   {"value": "The adventures of Tom Sawyer", "via": "910"}, {"value": "Toms eventyr", "via": "910"}, {"value": "A double barreled detective story", "via": "910"}, {"value": "Det er ikke appelsiner - det er heste", "via": "910"}, {"value": "Huck Finn", "via": "910"}, {"value": "The adventures of Huckleberry Finn", "via": "910"}, {"value": "Tom på rejse", "via": "910"}, {"value": "Kultiverede kannibaler og andre fortællinger", "via": "910"}, {"value": "Jagten på den svigefulde kalkun og andre historier", "via": "910"}, {"value": "The complete short stories of Mark Twain", "via": "910"}, {"value": "The prince and the pauper", "via": "910"}, {"value": "Livet på Mississippi", "via": "910"}, {"value": "Life on the Mississippi", "via": "910"}, {"value": "En begravelse i Nevada og andre fortællinger", "via": "910"}, {"value": "Prinsen og tiggerdrengen", "via": "910"}, {"value": "Millionpundssedlen og andre fortællinger", "via": "910"}, {"value": "No. 44, the mysterious stranger", "via": "910"}, {"value": "På Mississippifloden : minnen, händelser och äventyr", "via": "910"}, {"value": "En yankee ved kong Arthurs hof", "via": "910"}, {"value": "A Connecticut yankee in king Arthur's court", "via": "910"}, {"value": "Den store franske duel og andre historier", "via": "910"}, {"value": "Forgyldt", "via": "910"}, {"value": "Erindringer fra en Fodtur i Europa", "via": "910"}, {"value": "Pudd'nhead Wilson", "via": "910"}, {"value": "Tom som detektiv", "via": "910"}, {"value": "The gilded age", "via": "910"}, {"value": "Hvem stjal elefanten?", "via": "910"}, {"value": "En dråbe negerblod", "via": "910"}, {"value": "Personal recollections of Joan of Arc", "via": "910 (both records)"}, {"value": "Personlige erindringer om Jeanne d'Arc", "via": "910 (both records)"}, {"value": "Report from Paradise", "via": "910"}, {"value": "Kaptajnen i paradis", "via": "910"}, {"value": "Tom Sawyers eventyr", "via": "910"}, {"value": "Adam og Evas dagbog", "via": "910"}, {"value": "Telektroskopet", "via": "910"}, {"value": "The tragedy of Pudd'nhead Wilson and the comedy, those extraordinary twins", "via": "910"}, {"value": "The emperor waltz", "via": "910"}, {"value": "The mysterious stranger", "via": "910"}, {"value": "Tom Sawyer, Detective", "via": "910"}, {"value": "Evas dagbog", "via": "910"}
+  ],
+  "related_agent": [
+   {"value": "Warner, Charles Dudley (co-author, The gilded age)", "via": "950"},
+   {"value": "Jørgensen, Grete Juel (reteller/adapter)", "raw": "930 genfortalt og bearbejdet af Grete Juel Jørgensen", "via": "930"},
+   {"value": "Thiesgꜳrd, Lars Junker (narrator/reader)", "raw": "indtalt af Lars Thiesgꜳrd", "via": "930 / 950"},
+   {"value": "Rode, Ebbe (reader, 'Ebbe Rode læser Mark Twain')", "via": "950 / 910"},
+   {"value": "Langberg, Ebbe (co-contributor)", "via": "950"}, {"value": "Damm-Ottesen, Peter (co-contributor)", "via": "950"}, {"value": "Loof, Claus (co-contributor)", "via": "950"}, {"value": "Guldbrandsen, Peer, f. 1912 (co-contributor)", "via": "950"}, {"value": "Jensen, Johannes V., f. 1873 (co-contributor)", "via": "950"}, {"value": "Elung Jensen, Søren (co-contributor)", "via": "950"}, {"value": "Møller Jørgensen, Lene (co-contributor)", "via": "950"}, {"value": "Pharao, Karsten (co-contributor)", "via": "950"}, {"value": "Adhemar, Anna (co-contributor)", "via": "950"}, {"value": "Bylock, Maj (co-contributor)", "via": "950"}, {"value": "Ingpen, Robert (co-contributor, illustrator)", "via": "950"}, {"value": "Spang Olsen, Ib (co-contributor)", "via": "950"}, {"value": "Becker, Paul (co-contributor)", "via": "950"}, {"value": "Wilder, Billy (co-contributor, film)", "via": "950"}, {"value": "Brackett, Charles (co-contributor, film)", "via": "950"}, {"value": "Sommers, Stephen (co-contributor, film)", "via": "950"},
+   {"value": "Walt Disney (corporate co-contributor)", "via": "951"},
+   {"value": "Twain, Mark (real identity for pseudonym record Conte, Louis de)", "via": "950 in record 87097968223113"}
+  ],
+  "same_as": [
+   {"value": "http://viaf.org/viaf/50566653", "via": "025 viaf (main record)"},
+   {"value": "https://isni.org/isni/0000000121324854", "via": "025 isni (main record)"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "025 wikidata; 998 WKP|Q7245"},
+   {"value": "http://id.loc.gov/authorities/names/n79021164", "via": "998 LC|n 79021164"},
+   {"value": "https://d-nb.info/gnd/118624822", "via": "998 DNB|118624822"},
+   {"value": "https://d-nb.info/gnd/1106405730", "via": "998 DNB|1106405730 (Clemens, Samuel Langhorne)"},
+   {"value": "http://id.loc.gov/authorities/names/n93099439", "via": "998 LC (Clemens, Samuel Langhorne)"},
+   {"value": "https://data.bnf.fr/ark:/12148/cb11927291", "raw": "BNF|11927291", "via": "998"},
+   {"value": "http://viaf.org/viaf/305239133", "via": "025 viaf (Conte, Louis de record)"},
+   {"value": "https://isni.org/isni/0000000418649406", "via": "025 isni (Conte record)"},
+   {"value": "https://isni.org/isni/0000000108000249", "via": "025 isni (Conte record)"},
+   {"value": "http://id.loc.gov/authorities/names/no2003079632", "via": "998 LC (Conte, Louis de)"}
+  ],
+  "identifier": [{"value": "87097969041957", "raw": "DBC|87097969041957; 035 (DBC)870979.69041957", "via": "001 / 035"}, {"value": "87097968223113", "raw": "DBC|87097968223113; (DBC)870979.68223113", "via": "001 / 035 (Conte record)"}],
+  "source": [{"value": "DBC (cataloguing language dan)", "raw": "040 ‡a DBC ‡b dan", "via": "040"}],
+  "record_created": [{"value": "2013-11-29", "raw": "008 20131129", "via": "008 (both records)"}],
+  "record_modified": [{"value": "2022-07-26", "raw": "005 20220726121641 / 20220726091000", "via": "005"}]
+ }
+}

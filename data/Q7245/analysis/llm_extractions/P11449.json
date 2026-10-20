@@ -1,0 +1,20 @@
+{
+ "property": "P11449",
+ "label": "TV Maze person ID",
+ "files_read": ["P11449__193191/embedded_microdata.json"],
+ "about_entity": true,
+ "notes": "schema.org Person microdata whose 'value' is the whole page text (person info block plus ad-network junk), and breadcrumbs. Works are TV/film adaptations credited as 'Based on the Novel Of'.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "embedded_microdata.json: [3].title (breadcrumb) and [0].value"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "embedded_microdata.json: [0].value 'Also known as'"}],
+  "birth_date": [{"value": "1835-11-30", "lang": null, "via": "embedded_microdata.json: [0].value 'Birthday: 1835-11-30'"}],
+  "death_date": [{"value": "1910-04-21", "lang": null, "via": "embedded_microdata.json: [0].value 'Died: 1910-04-21'"}],
+  "birth_place": [{"value": "United States", "lang": "en", "via": "embedded_microdata.json: [0].value 'Born in: United States'"}],
+  "gender": [{"value": "male", "raw": "Male", "lang": "en", "via": "embedded_microdata.json: [0].value 'Gender: Male'"}],
+  "work": [
+   {"value": "The Prince and the Pauper", "raw": "The Prince and the Pauper (1976) - crew as Based on the Novel Of", "lang": "en", "via": "embedded_microdata.json: [0].value 'Known For' / 'Crew Credits'"},
+   {"value": "Приключения Тома Сойера и Гекльберри Финна", "raw": "Приключения Тома Сойера и Гекльберри Финна (1982) - crew as Based on the Novel Of", "lang": "ru", "via": "embedded_microdata.json: [0].value 'Known For' / 'Crew Credits'"}
+  ],
+  "identifier": [{"value": "193191", "via": "embedded_microdata.json: [3].url (https://www.tvmaze.com/people/193191/mark-twain)"}]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "property": "P5478",
+ "label": "RPO poet ID",
+ "files_read": ["pages/P5478__twain-mark.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "Representative Poetry Online poet page 'Twain, Mark (1835 - 1910)': index of two poems, a short biography paragraph with reading list, and a facts table (names, dates, nationality, literary period, cause of death, burial place).",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "en", "via": "page heading 'Twain, Mark (1835 - 1910)'"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "biography first sentence"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "en", "via": "facts table 'Given Name'"}],
+  "family_name": [{"value": "Clemens", "lang": "en", "via": "facts table 'Family Name'"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "en", "via": "biography 'Pseudonym of Samuel Langhorne Clemens'"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": "en", "via": "facts table 'Birth Date'"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910", "lang": "en", "via": "facts table 'Death Date'"}],
+  "activity_place": [{"value": "Missouri", "lang": "en", "via": "biography 'born and raised in Missouri'"}],
+  "occupation": [
+   {"value": "journalist", "lang": "en", "via": "biography"},
+   {"value": "novelist", "lang": "en", "via": "biography"},
+   {"value": "humorist", "lang": "en", "via": "biography"},
+   {"value": "poet", "lang": "en", "via": "site context (RPO poet page)"}
+  ],
+  "field_of_activity": [{"value": "Realistic (literary period)", "lang": "en", "via": "facts table 'Literary Period'"}],
+  "nationality": [{"value": "American", "lang": "en", "via": "facts table 'Nationality'"}],
+  "description": [{"value": "Pseudonym of Samuel Langhorne Clemens, the American journalist, novelist and humorist born and raised in Missouri, Mark Twain is best known for his novels, The Prince and the Pauper (1882), A Conneticut Yankee in King Arthur's Court (1889), The Adventures of Tom Sawyer (1876), and The Adventures of Huckleberry Finn (1884). Selected Letters are edited by Charles Neider (New York: Harper and Row, 1982; PS 1331 A4 1982).", "raw": "truncated", "lang": "en", "via": "Biography"}],
+  "work": [
+   {"value": "Ode to Stephen Dowling Bots, Dec'd.", "lang": "en", "via": "Index to poems"},
+   {"value": "Warm Summer Sun", "lang": "en", "via": "Index to poems"},
+   {"value": "The Prince and the Pauper", "raw": "1882", "lang": "en", "via": "Biography"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "A Conneticut Yankee in King Arthur's Court (1889)", "lang": "en", "via": "Biography"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "1876", "lang": "en", "via": "Biography"},
+   {"value": "The Adventures of Huckleberry Finn", "raw": "1884", "lang": "en", "via": "Biography"},
+   {"value": "Selected Letters", "raw": "ed. Charles Neider, 1982", "lang": "en", "via": "Biography"}
+  ],
+  "related_agent": [
+   {"value": "Charles Neider (editor of Selected Letters)", "lang": "en", "via": "Biography"},
+   {"value": "Arthur L. Scott (editor of a selection of Twain's poetry)", "lang": "en", "via": "Biography"},
+   {"value": "Everett H. Emerson (biographer, The Authentic Mark Twain)", "lang": "en", "via": "Biography"},
+   {"value": "John Lauber (biographer, The Making of Mark Twain)", "lang": "en", "via": "Biography"}
+  ],
+  "identifier": [{"value": "twain-mark", "via": "page URL slug /poets/twain-mark"}],
+  "source": [{"value": "Budd, Louis J. \"Twain, Mark.\" American National Dictionary Online. American Council of Learned Societies: Oxford University Press, 2000.", "lang": "en", "via": "citation under biography"}],
+  "license": [{"value": "All contents except for poetry and user contributions copyright © the Editors and the University of Toronto", "lang": "en", "via": "footer"}]
+ }
+}

@@ -1,0 +1,1540 @@
+{
+ "property": "P1006",
+ "property_label": "Nationale Thesaurus voor Auteursnamen ID",
+ "files": [
+  {
+   "file": "P1006__068242964/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp068242964"
+  },
+  {
+   "file": "P1006__068242964/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp068242964"
+  },
+  {
+   "file": "P1006__068242964/export_1.bin",
+   "format": "unknown",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/KB/Production/sparql"
+  },
+  {
+   "file": "P1006__068242964/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/_api/_console/sparql?label=hasShacl"
+  },
+  {
+   "file": "P1006__068242964/xhr_3.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/_api/datasets/KB/Production?verbose="
+  },
+  {
+   "file": "P1006__068242964/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/id/thes/p068242964"
+  },
+  {
+   "file": "P1006__068242964/conneg_2.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/id/thes/p068242964"
+  },
+  {
+   "file": "P1006__068242964/conneg_3.json",
+   "format": "json",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/id/thes/p068242964"
+  },
+  {
+   "file": "P1006__068242964/conneg_4.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/id/thes/p068242964"
+  },
+  {
+   "file": "P1006__068242964/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://data.bibliotheken.nl/KB/Production/sparql"
+  },
+  {
+   "file": "P1006__068242964/browser_xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://data.bibliotheken.nl/_api/datasets/KB/Production?verbose="
+  },
+  {
+   "file": "P1006__227880145/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp227880145"
+  },
+  {
+   "file": "P1006__227880145/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp227880145"
+  },
+  {
+   "file": "P1006__227880145/export_1.bin",
+   "format": "unknown",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/KB/Production/sparql"
+  },
+  {
+   "file": "P1006__227880145/xhr_3.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/_api/datasets/KB/Production?verbose="
+  },
+  {
+   "file": "P1006__227880145/conneg_1.json",
+   "format": "json",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/id/thes/p227880145"
+  },
+  {
+   "file": "P1006__227880145/conneg_3.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.bibliotheken.nl/id/thes/p227880145"
+  },
+  {
+   "file": "P1006__227880145/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://data.bibliotheken.nl/KB/Production/sparql"
+  }
+ ],
+ "formats": {
+  "json-ld": 2,
+  "rdfa": 2,
+  "unknown": 8,
+  "json": 4,
+  "html": 2
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 15,
+  "http://schema.org/": 6,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 2,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://schema.org/Thing",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "p227880145",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:name",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ],
+  "subject_of": [
+   {
+    "value": "KB-data",
+    "lang": null,
+    "via": "subjectOf",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "https://data.bibliotheken.nl/KB/Production",
+    "lang": null,
+    "via": "subjectOf (uri)",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp068242964",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp227880145",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Tuein, Mark",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:alternateName",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:alternateName",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Tvayn, Mark",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:alternateName",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:alternateName",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Tveyn, Mark",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:alternateName",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:alternateName",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Twīn, Mārk",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:alternateName",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Ṭwen, Marq",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:alternateName",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Ṭweyn, Marq",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:alternateName",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "吐温, 马克",
+    "lang": "zh",
+    "via": "llm:conneg_3.json: p068242964 schema:alternateName",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark (1835-1910)",
+    "lang": null,
+    "via": "llm:conneg_3.json: dbnla/twai001 rdfs:label",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne (1835-1910)",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242956 rdfs:label (linked real-name record)",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:givenName",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:familyName",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p068242964 schema:description",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:description",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:description",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "pseud. van: Samuel Langhorne Clemens",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p068242964 schema:description",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "CLR 60",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:description",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "1835-1910; CLR 60; pseud. van: Samuel Langhorne Clemens",
+    "lang": "nl",
+    "via": "llm-page:Description",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "De avonturen van Huckleberry Finn",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p036181056 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "De avonturen van Tom Sawyer",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p036416304 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn : de vriend van Tom Sawyer",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p036879495 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Een praatje bij het vuur in het jaar 1601 : een keuze uit zijn werk",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p039962865 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "The prince and the pauper",
+    "lang": "en",
+    "via": "llm:conneg_3.json: p040136019 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "The prince and the pauper : a tale for young people of all ages",
+    "lang": "en",
+    "via": "llm:conneg_3.json: p053431723 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Verdere avonturen van Tom Sawyer",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p041072693 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain omnibus",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p046298657 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Ontmoetingen op een voetreis",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p047042435 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Persoonlijke herinneringen aan Jeanne d'Arc",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p047042486 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Avonturen van Tom Sawyer",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p04721094X rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p051783339 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "De lotgevallen van Tom Sawyer",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p06096605X rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "De lotgevallen van Huckleberry Finn",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p079002579 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "De lotgevallen van Huckleberry Finn (Tom Sawyer's makker)",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p105151521 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer als detective",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p079478565 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "De erfgenaam uit Amerika",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p080123872 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "De erfgenaam in Amerika",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p113929919 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Grappen en grillen",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p084945826 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Uit het leven van Mark Twain : autobiographie",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p095262016 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Prins en bedelknaap : een verhaal voor jongelieden",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p09836099X rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "De verstrooide speurder",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p101837100 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's leven, door hem zelf verteld : een humoristisch boek",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p113462921 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Verhalen van Mark Twain",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p113930542 rdfs:label (schema:author)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer wordt piraat",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p056700385 rdfs:label (schema:contributor)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Een merkwaardig voorval : novellen van Mark Twain, A.S.H. Booms, Conrad van de Liede, Helene Larsen, Cyriel Buysse en François Coppée",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p057787514 rdfs:label (schema:contributor)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Spoortrein-kannibalen ...",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p180637460 rdfs:label (schema:contributor)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Een vroolijk uurtje : humoristische schetsen van W.W. Jacobs, Mark Twain, Jerome K. Jerome",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p400621002 rdfs:label (schema:contributor)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Curiositeiten uit de schoolwereld",
+    "lang": "nl",
+    "via": "llm:conneg_3.json: p063204177 rdfs:label (schema:contributor)",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Het leven op de Mississippi",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Een merkwaardig voorval : novellen",
+    "lang": "nl",
+    "via": "llm-page:Contributor list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Spoortrein-kannibalen",
+    "lang": "nl",
+    "via": "llm-page:Contributor list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Een vroolijk uurtje : humoristische schetsen",
+    "lang": "nl",
+    "via": "llm-page:Contributor list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "De prins en de bedelaar",
+    "lang": "nl",
+    "via": "llm-page:Contributor list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer en zijn vriend Huck",
+    "lang": "nl",
+    "via": "llm-page:Contributor list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finns avonturen",
+    "lang": "nl",
+    "via": "llm-page:Contributor list",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Clemens, Samuel Langhorne (1835-1910)",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:sameAs / p068242956 rdfs:label",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens (real name; Mark Twain is his pseudonym)",
+    "lang": "nl",
+    "via": "llm-page:Description",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Johan Hos (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "André Abeling (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "C. van Eijsden (Dutch adaptation)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "P. de Zeeuw J.Gzn (adapter)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Heleen ten Holt (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Geert van Bergeyck (Dutch adaptation)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "C.M.H. van Lier (Dutch adaptation)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "John Leeder (illustrator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "H. T. Chappuis (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Jaap Vegter (illustrator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Rika Vliek-v.d. Kamp (Dutch adaptation)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "J. Bouten (adapter/annotator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Johan Braakensiek (illustrator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Willem de Weerd (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "G.J. Staller (illustrator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Rein van Looy (illustrator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Elise M. Cameron (adapter)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "J. de Hoop Scheffer (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Myra (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Henri van Hoorn (adapter)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "D. Hauwert Jr. (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "A.J. van Dragt (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Hendrik van Heuvelen (adapter)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Dirk Walbrecker (reteller)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Erich Hölle (illustrator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Elly Schippers (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "S.J. Andriessen (translator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Jan Wiegman (illustrator)",
+    "lang": "nl",
+    "via": "llm-page:Author list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Gerard Koster (author of work about him: Mark Twain : humorist tegen wil en dank)",
+    "lang": "nl",
+    "via": "llm-page:About list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Stuart Hutchinson (author of work about him: Mark Twain : humour on the run)",
+    "lang": "en",
+    "via": "llm-page:About list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "D.M. McKeithan (author of work about him: Court trials in Mark Twain)",
+    "lang": "en",
+    "via": "llm-page:About list",
+    "file": "P1006.json",
+    "uri": false
+   },
+   {
+    "value": "Karl-Otto Strohmidel (author of work about him: Tranquil ecstasy)",
+    "lang": "de",
+    "via": "llm-page:About list",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/280780420",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:sameAs",
+    "file": "P1006.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:sameAs",
+    "file": "P1006.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:sameAs",
+    "file": "P1006.json",
+    "uri": true
+   },
+   {
+    "value": "http://data.bibliotheken.nl/id/thes/p068242956",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 schema:sameAs (real-name record)",
+    "file": "P1006.json",
+    "uri": true
+   },
+   {
+    "value": "http://data.bibliotheken.nl/id/dbnla/twai001",
+    "lang": null,
+    "via": "llm:conneg_3.json: p068242964 owl:sameAs (DBNL author)",
+    "file": "P1006.json",
+    "uri": true
+   },
+   {
+    "value": "http://data.bibliotheken.nl/id/thes/p068242964",
+    "lang": null,
+    "via": "llm-page:Person / SameAs",
+    "file": "P1006.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "http://data.bibliotheken.nl/id/thes/p068242964",
+    "lang": null,
+    "via": "llm:conneg_3.json: subject URI",
+    "file": "P1006.json",
+    "uri": true
+   },
+   {
+    "value": "p068242964",
+    "lang": null,
+    "via": "llm-page:resource URI",
+    "file": "P1006.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [],
+  "subject_of": [],
+  "see_also": [],
+  "name_variant": [
+   "zh"
+  ],
+  "given_name": [],
+  "family_name": [],
+  "pseudonym": [
+   "nl"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "description": [
+   "nl"
+  ],
+  "work": [
+   "en",
+   "nl"
+  ],
+  "related_agent": [
+   "de",
+   "en",
+   "nl"
+  ],
+  "same_as": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 4
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 33,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Method Not Allowed."
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "conneg_3.json",
+   "format": "json",
+   "size": 54277,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[][].termType",
+     "n": 150,
+     "sample": "NamedNode"
+    },
+    {
+     "path": "[][].value",
+     "n": 150,
+     "sample": "http://data.bibliotheken.nl/id/thes/p068242964"
+    },
+    {
+     "path": "[][].datatype",
+     "n": 25,
+     "sample": "http://www.w3.org/2001/XMLSchema#string"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[][].value",
+     "value": "吐温, 马克"
+    },
+    {
+     "path": "[][].value",
+     "value": "1835-1910"
+    },
+    {
+     "path": "[][].value",
+     "value": "pseud. van: Samuel Langhorne Clemens"
+    },
+    {
+     "path": "[][].value",
+     "value": "Twain"
+    },
+    {
+     "path": "[][].value",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[][].value",
+     "value": "Clemens, Samuel Langhorne (1835-1910)"
+    },
+    {
+     "path": "[][].value",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "[][].value",
+     "value": "Twain, Mark  (1835-1910)"
+    },
+    {
+     "path": "[][].value",
+     "value": "Mark Twain : humorist tegen wil en dank / Gerard Koster"
+    },
+    {
+     "path": "[][].value",
+     "value": "Mark Twain : humour on the run / Stuart Hutchinson"
+    },
+    {
+     "path": "[][].value",
+     "value": "Mark Twain, The adventures of Tom Sawyer / S.C. de Bruijn, C.J. Meijer ; general ed.: C. Bosker"
+    },
+    {
+     "path": "[][].value",
+     "value": "Court trials in Mark Twain : and other essays / by D.M. McKeithan"
+    },
+    {
+     "path": "[][].value",
+     "value": "Het leven op de Mississippi / Mark Twain ; vert. [uit het Engels door] Johan Hos"
+    },
+    {
+     "path": "[][].value",
+     "value": "Tranquil ecstasy: Mark Twains pastorale Neigung und ihre literarische Gestaltung / von Karl-Otto Strohmidel"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_3.json",
+   "format": "json",
+   "size": 12740,
+   "path_count": 91,
+   "paths": [
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#gYear.examples[].value",
+     "n": 15,
+     "sample": "[199"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#gYear.examples[].message",
+     "n": 15,
+     "sample": "Unable to parse value '[199'."
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#gYear.examples[].context.subject",
+     "n": 15,
+     "sample": "https://data.bibliotheken.nl/.well-known/genid/ea22226c70e06f0dad5a7c781c8556b4"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#gYear.examples[].context.predicate",
+     "n": 15,
+     "sample": "http://schema.org/endDate"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#gYear.examples[].context.object",
+     "n": 15,
+     "sample": "\"[199\""
+    },
+    {
+     "path": "prefixes[].prefixLabel",
+     "n": 12,
+     "sample": "graph"
+    },
+    {
+     "path": "prefixes[].iri",
+     "n": 12,
+     "sample": "https://koninklijkebibliotheek.triply.cc/KB/Production/graphs/"
+    },
+    {
+     "path": "prefixes[].scope",
+     "n": 12,
+     "sample": "local"
+    },
+    {
+     "path": "largestGraphs[].graphName",
+     "n": 10,
+     "sample": "http://data.bibliotheken.nl/kbcode"
+    },
+    {
+     "path": "largestGraphs[].id",
+     "n": 10,
+     "sample": "67640ff8e0d8e28f570231b9"
+    },
+    {
+     "path": "largestGraphs[].numberOfStatements",
+     "n": 10,
+     "sample": "470794"
+    },
+    {
+     "path": "largestGraphs[].uploadedAt",
+     "n": 8,
+     "sample": "2026-05-29T20:40:57.249Z"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#date.examples[].value",
+     "n": 5,
+     "sample": "1634-or-0v"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#date.examples[].message",
+     "n": 5,
+     "sample": "Unable to parse value '1634-or-0v'."
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#date.examples[].context.subject",
+     "n": 5,
+     "sample": "http://data.bibliotheken.nl/id/dbnla/oost064"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#date.examples[].context.predicate",
+     "n": 5,
+     "sample": "http://schema.org/deathDate"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#date.examples[].context.object",
+     "n": 5,
+     "sample": "\"1634-or-0v\""
+    },
+    {
+     "path": "largestGraphs[].qualityReport.numberOfErrors",
+     "n": 3,
+     "sample": "38"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.numberOfDistinctErrors",
+     "n": 3,
+     "sample": "35"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.numberOfLanguageTagErrors",
+     "n": 3,
+     "sample": "0"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.numberOfDatatypeErrors",
+     "n": 3,
+     "sample": "35"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.numberOfInvalidIris",
+     "n": 3,
+     "sample": "0"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#gYear.datatype",
+     "n": 3,
+     "sample": "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#gYear.count",
+     "n": 3,
+     "sample": "35"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.iriErrors.examples[].value",
+     "n": 3,
+     "sample": "https://www.dbnl.org/auteurs/auteur.php?id=is     "
+    },
+    {
+     "path": "largestGraphs[].qualityReport.iriErrors.examples[].message",
+     "n": 3,
+     "sample": "The IRI includes the invalid character ' '."
+    },
+    {
+     "path": "largestGraphs[].qualityReport.iriErrors.examples[].context.subject",
+     "n": 3,
+     "sample": "https://data.bibliotheken.nl/.well-known/genid/1c54ec4229314bbeb42d6069023acca3"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.iriErrors.examples[].context.predicate",
+     "n": 3,
+     "sample": "http://schema.org/url"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.iriErrors.examples[].context.object",
+     "n": 3,
+     "sample": "https://data.bibliotheken.nl/.well-known/genid/7bc543c7bf293b189e66e5079004da73"
+    },
+    {
+     "path": "largestGraphs[].importedAt",
+     "n": 2,
+     "sample": "2024-12-19T12:22:16.414Z"
+    },
+    {
+     "path": "largestGraphs[].importedFrom.graphName",
+     "n": 2,
+     "sample": "http://data.bibliotheken.nl/kbcode"
+    },
+    {
+     "path": "services[].capabilities[]",
+     "n": 2,
+     "sample": "sparql"
+    },
+    {
+     "path": "description",
+     "n": 1,
+     "sample": "Data.bibliotheken.nl is de linked data publishing portal van de KB, nationale bibliotheek van Nederland. Deze portal gee"
+    },
+    {
+     "path": "id",
+     "n": 1,
+     "sample": "672debfa0186c41e75ea68de"
+    },
+    {
+     "path": "name",
+     "n": 1,
+     "sample": "Production"
+    },
+    {
+     "path": "displayName",
+     "n": 1,
+     "sample": "KB-data"
+    },
+    {
+     "path": "avatarUrl",
+     "n": 1,
+     "sample": "https://data.bibliotheken.nl/imgs/avatars/d/672debfa0186c41e75ea68de.png?v=2"
+    },
+    {
+     "path": "owner.avatarUrl",
+     "n": 1,
+     "sample": "https://data.bibliotheken.nl/imgs/avatars/a/672deb7baa4e151510f40206.png?v=8"
+    },
+    {
+     "path": "owner.accountName",
+     "n": 1,
+     "sample": "KB"
+    },
+    {
+     "path": "owner.uid",
+     "n": 1,
+     "sample": "672deb7baa4e151510f40206"
+    },
+    {
+     "path": "owner.name",
+     "n": 1,
+     "sample": "KB, nationale bibliotheek"
+    },
+    {
+     "path": "owner.description",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "owner.createdAt",
+     "n": 1,
+     "sample": "2024-11-08T10:44:11.260Z"
+    },
+    {
+     "path": "owner.type",
+     "n": 1,
+     "sample": "org"
+    },
+    {
+     "path": "owner.accountType",
+     "n": 1,
+     "sample": "group"
+    },
+    {
+     "path": "owner.accessLevel",
+     "n": 1,
+     "sample": "public"
+    },
+    {
+     "path": "accessLevel",
+     "n": 1,
+     "sample": "public"
+    },
+    {
+     "path": "license",
+     "n": 1,
+     "sample": "CC0 1.0"
+    },
+    {
+     "path": "createdAt",
+     "n": 1,
+     "sample": "2024-11-08T10:46:18.470Z"
+    },
+    {
+     "path": "updatedAt",
+     "n": 1,
+     "sample": "2026-09-25T07:52:12.463Z"
+    },
+    {
+     "path": "graphCount",
+     "n": 1,
+     "sample": "21"
+    },
+    {
+     "path": "statements",
+     "n": 1,
+     "sample": "258524625"
+    },
+    {
+     "path": "serviceCount",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "assetCount",
+     "n": 1,
+     "sample": "5"
+    },
+    {
+     "path": "graphsToSaveTo.dataModelGraph",
+     "n": 1,
+     "sample": "https://data.bibliotheken.nl/KB/Production/graphs/default"
+    },
+    {
+     "path": "graphsToSaveTo.editorResourcesGraph",
+     "n": 1,
+     "sample": "https://data.bibliotheken.nl/KB/Production/graphs/default"
+    },
+    {
+     "path": "lastGraphsUpdateTime",
+     "n": 1,
+     "sample": "2026-09-25T07:52:12.462Z"
+    },
+    {
+     "path": "hasDataQualityIssues",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "autogeneratedIdType",
+     "n": 1,
+     "sample": "uuid"
+    },
+    {
+     "path": "toggles.browserUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.tableUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.dataEditorUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.dataModelEditorUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.insightsUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.sparqlIdeUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.graphqlUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.elasticsearchUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.graphsUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.servicesUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.assetsUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles._id",
+     "n": 1,
+     "sample": "69977cace0657dd118da5ca1"
+    },
+    {
+     "path": "toggles.schemaUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.classFrequencyUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "toggles.classHierarchyUi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.iriErrors.count",
+     "n": 1,
+     "sample": "3"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#date.datatype",
+     "n": 1,
+     "sample": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+     "path": "largestGraphs[].qualityReport.datatypeErrors.http://www.w3.org/2001/XMLSchema#date.count",
+     "n": 1,
+     "sample": "552"
+    },
+    {
+     "path": "services[].type",
+     "n": 1,
+     "sample": "virtuoso"
+    },
+    {
+     "path": "services[].version",
+     "n": 1,
+     "sample": "26.8.100"
+    },
+    {
+     "path": "services[].name",
+     "n": 1,
+     "sample": "Production-VTS"
+    },
+    {
+     "path": "services[].id",
+     "n": 1,
+     "sample": "6a331a75eb6dc0e834934743"
+    },
+    {
+     "path": "services[].numberOfLoadedStatements",
+     "n": 1,
+     "sample": "258524624"
+    },
+    {
+     "path": "services[].numberOfGraphs",
+     "n": 1,
+     "sample": "21"
+    },
+    {
+     "path": "services[].numberOfLoadedGraphs",
+     "n": 1,
+     "sample": "21"
+    },
+    {
+     "path": "services[].numberOfGraphErrors",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "services[].status",
+     "n": 1,
+     "sample": "running"
+    },
+    {
+     "path": "services[].outOfSync",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "services[].createdAt",
+     "n": 1,
+     "sample": "2026-06-17T22:06:45.796Z"
+    },
+    {
+     "path": "services[].loadedAt",
+     "n": 1,
+     "sample": "2026-09-17T19:04:43.980Z"
+    },
+    {
+     "path": "services[].endpoint",
+     "n": 1,
+     "sample": "https://api.bibliotheken.nl/datasets/KB/Production/services/Production-VTS/sparql"
+    },
+    {
+     "path": "services[].timeoutInMs",
+     "n": 1,
+     "sample": "58000"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "iri",
+    "uid"
+   ]
+  },
+  {
+   "file": "conneg_1.json",
+   "format": "json",
+   "size": 2,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "KB-data (Triply) resource view of p068242964 'Twain, Mark' with alternate names, description, given/family name, sameAs links, plus long lists of Dutch editions he authored (Author), works about him (About) and works he contributed to (Contributor; truncated by SHOW MORE). The second record p227880145 'does not appear in this dataset'.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

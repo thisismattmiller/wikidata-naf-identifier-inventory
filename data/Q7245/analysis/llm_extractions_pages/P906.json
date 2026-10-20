@@ -1,0 +1,55 @@
+{
+ "property": "P906",
+ "label": "SELIBR ID",
+ "files_read": ["pages/P906__98057.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Libris (Swedish national catalogue) person authority page for Mark Twain: short Swedish bio note, nationality, VIAF/ISNI identifiers, name variants (5 shown, '+3' more collapsed), plus a 'Related' sample of 10 of 822+ works by him and 10 of 241 works about him. Works about him (subject list) are not extracted as his works.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain, 1835-1910", "lang": "sv", "via": "page heading 'Person'"}],
+  "name_variant": [
+   {"value": "S. L. Clemens, 1835-1910", "lang": null, "via": "Variant row"},
+   {"value": "Samuel Clemens, 1835-1910", "lang": null, "via": "Variant row"},
+   {"value": "Samuel L. Clemens, 1835-1910", "lang": null, "via": "Variant row"},
+   {"value": "Samuel Langhorne Clemens, 1835-1910", "lang": null, "via": "Variant row"},
+   {"value": "Mark Tuein, 1835-1910", "lang": null, "via": "Variant row (3 more variants collapsed behind 'Visa fler (+3)')"}
+  ],
+  "pseudonym": [{"value": "Mark Twain", "raw": "Mark Twain är en pseudonym för Samuel Langhorne Clemens", "lang": "sv", "via": "bio note"}],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "page heading"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "page heading"}],
+  "occupation": [
+   {"value": "Skönlitterär författare", "lang": "sv", "via": "bio note"},
+   {"value": "tidningsman", "lang": "sv", "via": "bio note"}
+  ],
+  "nationality": [{"value": "Förenta staterna", "lang": "sv", "via": "row 'Nationalitet/verksamhetsland'"}],
+  "activity_place": [{"value": "Förenta staterna", "lang": "sv", "via": "row 'Nationalitet/verksamhetsland'"}],
+  "description": [{"value": "Skönlitterär författare och tidningsman. Mark Twain är en pseudonym för Samuel Langhorne Clemens", "lang": "sv", "via": "bio note under heading"}],
+  "work": [
+   {"value": "Huckleberry Finns äventyr", "raw": "Skönlitteratur · Svenska; 2003", "lang": "sv", "via": "Related: Författare/upphov list"},
+   {"value": "Den stora franska duellen", "raw": "Novell · Svenska; 1988 [Ny utg.]", "lang": "sv", "via": "Related: Författare/upphov list"},
+   {"value": "Om myror m fl", "raw": "Novell · Svenska; 1985", "lang": "sv", "via": "Related: Författare/upphov list"},
+   {"value": "Priključenija Toma Sojera : Priključenija Geklʹberri Finna", "raw": "Skönlitteratur · Ryska; 1977", "lang": "ru-Latn", "via": "Related: Författare/upphov list"},
+   {"value": "Pustolovine Toma Sawyera", "raw": "Kapitelböcker · Bosniska; 2019", "lang": "bs", "via": "Related: Författare/upphov list"},
+   {"value": "Tom Sojjerijn adal javdal ; Chakleberri Finnijn adal javdal ; Chanchüü, jaduu chüü chojor", "raw": "/ M. Tven; Översättning av The adventures of Tom Sawyer; 2016", "lang": "mn-Latn", "via": "Related: Författare/upphov list"},
+   {"value": "Œuvres", "raw": "Roman · Franska; Översättning av Romaner; 2015", "lang": "fr", "via": "Related: Författare/upphov list"},
+   {"value": "The diaries of Adam and Eve", "raw": "Roman · Engelska; 2022 First Warbler Press editon. Warbler Classics annotated edition", "lang": "en", "via": "Related: Författare/upphov list"},
+   {"value": "Prints i nistjij : Janki pri dvore korolja Artura", "raw": "Ej skönlitteratur, Text · Ryska; 2000", "lang": "ru-Latn", "via": "Related: Författare/upphov list"},
+   {"value": "Mughāmarāt Tūm Sūyar", "raw": "Roman · Arabiska; 2016 al-Ṭabʿah al-ūlá", "lang": "ar-Latn", "via": "Related: Författare/upphov list"},
+   {"value": "The adventures of Tom Sawyer", "raw": "Översättning av The adventures of Tom Sawyer", "lang": "en", "via": "original title of translated work in Related list"},
+   {"value": "Mark Twain's helpful hints for good living : a handbook for the damned human race", "raw": "Essäer, Referensverk · Engelska; 2004", "lang": "en", "via": "Related: Ämne list (Mark Twain listed as author)"}
+  ],
+  "related_agent": [
+   {"value": "Maj Bylock (contributor, probably translator, of Huckleberry Finns äventyr, 2003)", "via": "Related: Författare/upphov list"},
+   {"value": "Elisabeth Helms (contributor, probably translator, of Den stora franska duellen and Om myror m fl)", "via": "Related: Författare/upphov list"},
+   {"value": "Francis Lacassin (contributor, probably editor/translator, of Œuvres, 2015)", "via": "Related: Författare/upphov list"}
+  ],
+  "same_as": [
+   {"value": "http://viaf.org/viaf/50566653", "raw": "VIAF 50566653", "via": "Identifikator row"},
+   {"value": "https://isni.org/isni/0000000121324854", "raw": "ISNI 0000 0001 2132 4854", "via": "Identifikator row"}
+  ],
+  "identifier": [
+   {"value": "98057", "via": "Detaljer: Kontrollnummer"},
+   {"value": "https://libris.kb.se/1zcfb5hk1bq7d78#it", "via": "Detaljer: Resursens ID / Permalänk"}
+  ]
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "property": "P1006",
+ "label": "Nationale Thesaurus voor Auteursnamen ID",
+ "files_read": ["P1006__068242964/conneg_3.json"],
+ "about_entity": true,
+ "notes": "RDF/JS triple dump (schema.org) of the KB NTA authority p068242964 'Twain, Mark', plus labels of linked bibliographic records (author, contributor, about). The record states it is a pseudonym of Samuel Langhorne Clemens and links to the separate NTA record p068242956 for the real name.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "lang": null, "via": "conneg_3.json: p068242964 rdfs:label"},
+   {"value": "Mark Twain", "lang": null, "via": "conneg_3.json: p068242964 schema:name"}
+  ],
+  "name_variant": [
+   {"value": "Tuein, Mark", "lang": null, "via": "conneg_3.json: p068242964 schema:alternateName"},
+   {"value": "Tuwen, Make", "lang": null, "via": "conneg_3.json: p068242964 schema:alternateName"},
+   {"value": "Tvayn, Mark", "lang": null, "via": "conneg_3.json: p068242964 schema:alternateName"},
+   {"value": "Tven, Mark", "lang": null, "via": "conneg_3.json: p068242964 schema:alternateName"},
+   {"value": "Tveyn, Mark", "lang": null, "via": "conneg_3.json: p068242964 schema:alternateName"},
+   {"value": "Twayn, Mārk", "lang": null, "via": "conneg_3.json: p068242964 schema:alternateName"},
+   {"value": "Twīn, Mārk", "lang": null, "via": "conneg_3.json: p068242964 schema:alternateName"},
+   {"value": "Ṭwen, Marq", "lang": null, "via": "conneg_3.json: p068242964 schema:alternateName"},
+   {"value": "Ṭweyn, Marq", "lang": null, "via": "conneg_3.json: p068242964 schema:alternateName"},
+   {"value": "吐温, 马克", "lang": "zh", "via": "conneg_3.json: p068242964 schema:alternateName"},
+   {"value": "Twain, Mark (1835-1910)", "lang": null, "via": "conneg_3.json: dbnla/twai001 rdfs:label"},
+   {"value": "Clemens, Samuel Langhorne (1835-1910)", "lang": null, "via": "conneg_3.json: p068242956 rdfs:label (linked real-name record)"}
+  ],
+  "given_name": [
+   {"value": "Mark", "lang": null, "via": "conneg_3.json: p068242964 schema:givenName"}
+  ],
+  "family_name": [
+   {"value": "Twain", "lang": null, "via": "conneg_3.json: p068242964 schema:familyName"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "nl", "raw": "pseud. van: Samuel Langhorne Clemens", "via": "conneg_3.json: p068242964 schema:description"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "1835-1910", "lang": null, "via": "conneg_3.json: p068242964 schema:description"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "1835-1910", "lang": null, "via": "conneg_3.json: p068242964 schema:description"}
+  ],
+  "description": [
+   {"value": "pseud. van: Samuel Langhorne Clemens", "lang": "nl", "via": "conneg_3.json: p068242964 schema:description"},
+   {"value": "CLR 60", "lang": null, "via": "conneg_3.json: p068242964 schema:description"}
+  ],
+  "work": [
+   {"value": "De avonturen van Huckleberry Finn", "lang": "nl", "via": "conneg_3.json: p036181056 rdfs:label (schema:author)"},
+   {"value": "De avonturen van Tom Sawyer", "lang": "nl", "via": "conneg_3.json: p036416304 rdfs:label (schema:author)"},
+   {"value": "Huckleberry Finn : de vriend van Tom Sawyer", "lang": "nl", "via": "conneg_3.json: p036879495 rdfs:label (schema:author)"},
+   {"value": "Een praatje bij het vuur in het jaar 1601 : een keuze uit zijn werk", "lang": "nl", "via": "conneg_3.json: p039962865 rdfs:label (schema:author)"},
+   {"value": "The prince and the pauper", "lang": "en", "via": "conneg_3.json: p040136019 rdfs:label (schema:author)"},
+   {"value": "The prince and the pauper : a tale for young people of all ages", "lang": "en", "via": "conneg_3.json: p053431723 rdfs:label (schema:author)"},
+   {"value": "Verdere avonturen van Tom Sawyer", "lang": "nl", "via": "conneg_3.json: p041072693 rdfs:label (schema:author)"},
+   {"value": "Mark Twain omnibus", "lang": "nl", "via": "conneg_3.json: p046298657 rdfs:label (schema:author)"},
+   {"value": "Ontmoetingen op een voetreis", "lang": "nl", "via": "conneg_3.json: p047042435 rdfs:label (schema:author)"},
+   {"value": "Persoonlijke herinneringen aan Jeanne d'Arc", "lang": "nl", "via": "conneg_3.json: p047042486 rdfs:label (schema:author)"},
+   {"value": "Avonturen van Tom Sawyer", "lang": "nl", "via": "conneg_3.json: p04721094X rdfs:label (schema:author)"},
+   {"value": "Tom Sawyer", "lang": "nl", "via": "conneg_3.json: p051783339 rdfs:label (schema:author)"},
+   {"value": "De lotgevallen van Tom Sawyer", "lang": "nl", "via": "conneg_3.json: p06096605X rdfs:label (schema:author)"},
+   {"value": "De lotgevallen van Huckleberry Finn", "lang": "nl", "via": "conneg_3.json: p079002579 rdfs:label (schema:author)"},
+   {"value": "De lotgevallen van Huckleberry Finn (Tom Sawyer's makker)", "lang": "nl", "via": "conneg_3.json: p105151521 rdfs:label (schema:author)"},
+   {"value": "Tom Sawyer als detective", "lang": "nl", "via": "conneg_3.json: p079478565 rdfs:label (schema:author)"},
+   {"value": "De erfgenaam uit Amerika", "lang": "nl", "via": "conneg_3.json: p080123872 rdfs:label (schema:author)"},
+   {"value": "De erfgenaam in Amerika", "lang": "nl", "via": "conneg_3.json: p113929919 rdfs:label (schema:author)"},
+   {"value": "Grappen en grillen", "lang": "nl", "via": "conneg_3.json: p084945826 rdfs:label (schema:author)"},
+   {"value": "Uit het leven van Mark Twain : autobiographie", "lang": "nl", "via": "conneg_3.json: p095262016 rdfs:label (schema:author)"},
+   {"value": "Prins en bedelknaap : een verhaal voor jongelieden", "lang": "nl", "via": "conneg_3.json: p09836099X rdfs:label (schema:author)"},
+   {"value": "De verstrooide speurder", "lang": "nl", "via": "conneg_3.json: p101837100 rdfs:label (schema:author)"},
+   {"value": "Mark Twain's leven, door hem zelf verteld : een humoristisch boek", "lang": "nl", "via": "conneg_3.json: p113462921 rdfs:label (schema:author)"},
+   {"value": "Verhalen van Mark Twain", "lang": "nl", "via": "conneg_3.json: p113930542 rdfs:label (schema:author)"},
+   {"value": "Tom Sawyer wordt piraat", "lang": "nl", "via": "conneg_3.json: p056700385 rdfs:label (schema:contributor)"},
+   {"value": "Een merkwaardig voorval : novellen van Mark Twain, A.S.H. Booms, Conrad van de Liede, Helene Larsen, Cyriel Buysse en François Coppée", "lang": "nl", "via": "conneg_3.json: p057787514 rdfs:label (schema:contributor)"},
+   {"value": "Spoortrein-kannibalen ...", "lang": "nl", "via": "conneg_3.json: p180637460 rdfs:label (schema:contributor)"},
+   {"value": "Een vroolijk uurtje : humoristische schetsen van W.W. Jacobs, Mark Twain, Jerome K. Jerome", "lang": "nl", "via": "conneg_3.json: p400621002 rdfs:label (schema:contributor)"},
+   {"value": "Curiositeiten uit de schoolwereld", "lang": "nl", "via": "conneg_3.json: p063204177 rdfs:label (schema:contributor)"}
+  ],
+  "related_agent": [
+   {"value": "Clemens, Samuel Langhorne (1835-1910)", "relation": "real name of pseudonym (schema:sameAs to NTA p068242956)", "via": "conneg_3.json: p068242964 schema:sameAs / p068242956 rdfs:label"}
+  ],
+  "same_as": [
+   {"value": "http://viaf.org/viaf/280780420", "via": "conneg_3.json: p068242964 schema:sameAs"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "conneg_3.json: p068242964 schema:sameAs"},
+   {"value": "https://isni.org/isni/0000000121324854", "via": "conneg_3.json: p068242964 schema:sameAs"},
+   {"value": "http://data.bibliotheken.nl/id/thes/p068242956", "via": "conneg_3.json: p068242964 schema:sameAs (real-name record)"},
+   {"value": "http://data.bibliotheken.nl/id/dbnla/twai001", "via": "conneg_3.json: p068242964 owl:sameAs (DBNL author)"}
+  ],
+  "identifier": [
+   {"value": "http://data.bibliotheken.nl/id/thes/p068242964", "via": "conneg_3.json: subject URI"}
+  ]
+ }
+}

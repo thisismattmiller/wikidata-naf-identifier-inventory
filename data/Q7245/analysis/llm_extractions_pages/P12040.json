@@ -1,0 +1,36 @@
+{
+ "property": "P12040",
+ "label": "J. Paul Getty Museum agent ID",
+ "files_read": ["pages/P12040__person_104WZ9_c3ab502e.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Getty Museum person record headed 'Langhorne' that conflates Mark Twain (bio, birth/death places, pseudonym 'Twain, Mark', from ULAN) with a photographer active in Plainfield, New Jersey 1870s-1880s credited with a family-album object. Only the Twain-attributable data is extracted; the photographer role, activity dates and album are noted here but not extracted. The bio also misstates the Jumping Frog date as 1965.",
+ "elements": {
+  "name_preferred": [{"value": "Langhorne", "lang": "en", "via": "page heading"}],
+  "pseudonym": [{"value": "Twain, Mark", "raw": "Twain, Mark (pseudonym)", "lang": "en", "via": "Names"}],
+  "birth_place": [{"value": "Florida, Missouri, United States", "lang": "en", "via": "Born"}],
+  "death_place": [{"value": "Redding, , United States", "lang": "en", "via": "Died"}],
+  "nationality": [{"value": "American", "lang": "en", "via": "Nationality"}],
+  "occupation": [
+   {"value": "author", "lang": "en", "via": "description"},
+   {"value": "humorist", "lang": "en", "via": "description"}
+  ],
+  "description": [{"value": "American author and humorist, known for such works as Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1885). His first major published work was in 1965, with \"Celebrated Jumping Frog of Calaveras County.\" Twain did not finish elementary school, but is noted as having been was awarded honorary degree by Oxford University.", "lang": "en", "via": "description"}],
+  "work": [
+   {"value": "Adventures of Tom Sawyer", "raw": "1876", "via": "description"},
+   {"value": "Adventures of Huckleberry Finn", "raw": "1885", "via": "description"},
+   {"value": "Celebrated Jumping Frog of Calaveras County", "raw": "1965 [sic]", "via": "description"}
+  ],
+  "related_agent": [{"value": "Oxford University (honorary degree)", "via": "description"}],
+  "same_as": [{"value": "https://www.getty.edu/art/collection/person/104WZ9", "via": "Permalink"}],
+  "identifier": [
+   {"value": "104WZ9", "via": "Permalink"},
+   {"value": "e6aab11d-a9d5-4f7e-ad05-11680be7b04d", "raw": "API URL: person/e6aab11d-...", "via": "APIs & other identifiers"},
+   {"value": "TMS ID: 15383", "via": "APIs & other identifiers"},
+   {"value": "DOR ID: 10138", "via": "APIs & other identifiers"}
+  ],
+  "source": [{"value": "Union List of Artist Names", "via": "Resources / Data provided by"}],
+  "record_modified": [{"value": "2024-01-18", "raw": "Last updated:January 18, 2024", "via": "footer"}],
+  "license": [{"value": "Creative Commons Attribution 4.0 International", "via": "page text licence note"}]
+ }
+}

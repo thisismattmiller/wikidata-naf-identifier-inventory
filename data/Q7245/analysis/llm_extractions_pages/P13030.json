@@ -1,0 +1,19 @@
+{
+ "property": "P13030",
+ "label": "Münzkabinett ID",
+ "files_read": ["pages/P13030__person_14383_f6eb67ef.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Münzkabinett Berlin authority portal person record: name with full dates, one-line description, type 'Sitter', and cross-links (GND, Wikipedia de/en, VIAF, British Museum, Wikidata).",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "en", "via": "Name"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30.11.1835", "lang": null, "via": "Name dates"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21.04.1910", "lang": null, "via": "Name dates"}],
+  "description": [{"value": "American author.", "lang": "en", "via": "description line"}],
+  "occupation": [{"value": "Sitter", "raw": "role type in collection", "lang": "en", "via": "Types"}],
+  "same_as": [{"value": "https://d-nb.info/gnd/118624822", "via": "GND"}, {"value": "https://de.wikipedia.org/wiki/Mark_Twain", "via": "Wikipedia [de]"}, {"value": "https://en.wikipedia.org/wiki/Mark_Twain", "via": "Wikipedia [en]"}, {"value": "https://viaf.org/viaf/50566653", "via": "VIAF"}, {"value": "https://www.britishmuseum.org/collection/term/BIOG240173", "via": "link list"}, {"value": "https://www.wikidata.org/wiki/Q7245", "via": "Wikidata"}],
+  "identifier": [{"value": "14383", "raw": "https://ikmk.smb.museum/ndp/person/14383", "via": "Permalink"}],
+  "record_created": [{"value": "2024-05-10", "raw": "10.05.2024", "via": "created"}],
+  "license": [{"value": "Creative Commons BY 4.0", "via": "footer"}]
+ }
+}

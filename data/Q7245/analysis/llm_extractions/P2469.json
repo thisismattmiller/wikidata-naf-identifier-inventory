@@ -1,0 +1,15 @@
+{
+ "property": "P2469",
+ "label": "Theatricalia person ID",
+ "files_read": ["P2469__2ass/embedded_microdata.json", "P2469__2ass/alternate_1.xml"],
+ "about_entity": true,
+ "notes": "embedded_microdata.json is a bare schema.org Person with only a name; alternate_1.xml is the person's RSS productions feed, which has a channel header but no items (no productions listed).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": null, "via": "embedded_microdata.json: $[0].name; alternate_1.xml: channel/title"}
+  ],
+  "identifier": [
+   {"value": "2ass", "via": "alternate_1.xml: channel/link https://theatricalia.com/person/2ass/mark-twain"}
+  ]
+ }
+}

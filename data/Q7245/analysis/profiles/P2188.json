@@ -1,0 +1,494 @@
+{
+ "property": "P2188",
+ "property_label": "BiblioNet author ID",
+ "files": [
+  {
+   "file": "P2188__4347/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://biblionet.gr/%CF%80%CF%81%CE%BF%CF%83%CF%89%CF%80%CE%BF/?personid=4347"
+  },
+  {
+   "file": "P2188__4347/conneg_1.txt",
+   "format": "empty",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://biblionet.gr/%CF%80%CF%81%CE%BF%CF%83%CF%89%CF%80%CE%BF/?personid=4347"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "empty": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "el",
+    "via": "llm-page:page heading",
+    "file": "P2188.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "el",
+    "via": "llm-page:author line on each title in the work list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Μαρκ Τουέιν",
+    "lang": "el",
+    "via": "llm-page:biography sentence",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Σάμιουελ Λόνγκχορν Κλέμενς",
+    "lang": "el",
+    "via": "llm-page:biography sentence (real name)",
+    "file": "P2188.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Μαρκ Τουέιν",
+    "lang": "el",
+    "via": "llm-page:biography: 'που έγινε γνωστός σ' όλο τον κόσμο ως Μαρκ Τουέιν'",
+    "file": "P2188.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": "el",
+    "via": "llm-page:heading dates and biography",
+    "file": "P2188.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": "el",
+    "via": "llm-page:heading dates",
+    "file": "P2188.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Χάνιμπαλ, στο Μιζούρι",
+    "lang": "el",
+    "via": "llm-page:biography: grew up in the river port of Hannibal, Missouri",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Δυτικές Πολιτείες",
+    "lang": "el",
+    "via": "llm-page:biography: correspondent in the Western States",
+    "file": "P2188.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "καπετάνιος σε ατμόπλοιο",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "τυπογράφος",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "στρατιώτης",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "χρυσοθήρας",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "εργάτης ορυχείων",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "ανταποκριτής",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "συγγραφέας",
+    "lang": "el",
+    "via": "llm-page:biography: 'ένας από τους μεγαλύτερους συγγραφείς της Αμερικής'",
+    "file": "P2188.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Αμερική",
+    "lang": "el",
+    "via": "llm-page:biography: one of America's greatest writers",
+    "file": "P2188.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Ο Σάμιουελ Λόνγκχορν Κλέμενς, που έγινε γνωστός σ' όλο τον κόσμο ως Μαρκ Τουέιν, γεννήθηκε το 1835 και μεγάλωσε στο παραποτάμιο λιμάνι Χάνιμπαλ, στο Μιζούρι. Σε ηλικία δώδεκα χρόνων εγκατέλειψε το σχολείο ψάχνοντας για δουλειά. Εργάστηκε ως καπετάνιος σε ατμόπλοιο, τυπογράφος, στρατιώτης, χρυσοθήρας, εργάτης ορυχείων και ανταποκριτής στις Δυτικές Πολιτείες. Οι εμπειρίες του τον πλούτισαν με μια βαθιά γνώση των ανθρώπων...",
+    "lang": "el",
+    "via": "llm-page:biography paragraph under heading",
+    "file": "P2188.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Ο περίφημος βάτραχος της Καλαβέρας",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Οι Αφελείς Ταξιδεύουν",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Η Ζωή στο Μισισιπή",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Περιπέτειες του Χάκλμπερι Φιν",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ο άνθρωπος που διέφθειρε τον Χάντλμπουργκ",
+    "lang": "el",
+    "via": "llm-page:biography",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ο μυστηριώδης ξένος",
+    "lang": "el",
+    "via": "llm-page:biography and Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Οι περιπέτειες του Τομ Σόγιερ",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Το ημερολόγιο του Αδάμ και της Εύας",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Χρήσιμες συμβουλές για καλή ζωή",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ο κλεμμένος λευκός ελέφαντας",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ο πρίγκιπας και ο φτωχός",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Το σώμα του εγκλήματος",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ο Αμερικανός κόμης",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Η αρπαγή του πρίγκιπα Μαργαρίνη",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Τομ Σόγερ ή Το μεγαλύτερο παιδικό δωμάτιο του κόσμου",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Τυράννων μονόλογοι",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Η ιστορία ενός σκυλιού",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Συμβουλές για μικρά κορίτσια",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ο κλεμμένος λευκός ελέφαντας και άλλα διηγήματα",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ανθολόγιον",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Οι περιπέτειες του Χακ Φιν",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Χριστουγεννιάτικο δείπνο",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Η βίβλος του άθεου",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ιωάννα της Λωρραίνης",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Η τέχνη του ψεύδους",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ανάμεσα σε ερωτιδείς και αγγέλους",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Αντιιμπεριαλισμός",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Καν-καν, γάτες και πόλεις από στάχτη",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ένας Γιάνκης του Κονέκτικατ στην αυλή του βασιλιά Αρθούρου",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Ο Τομ Σώγιερ ντετέκτιβ",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Η τέχνη της καλοπέρασης",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Θαλασσινές ιστορίες",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Τι είναι ο άνθρωπος και άλλα κείμενα",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Γράμματα απ' τη γη",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Καθήκοντα ταξιδιωτικού πράκτορα",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Φιλολογικές διαδρομές στην Ελλάδα",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Σκέψεις για την επιστήμη του αυνανισμού",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "Πως να διηγηθείτε μια ιστορία και άλλα διηγήματα",
+    "lang": "el",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   },
+   {
+    "value": "The Man that Corrupted Hadleyburg",
+    "lang": "en",
+    "via": "llm-page:Titles list",
+    "file": "P2188.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "el"
+  ],
+  "name_variant": [
+   "el"
+  ],
+  "pseudonym": [
+   "el"
+  ],
+  "birth_date": [
+   "el"
+  ],
+  "death_date": [
+   "el"
+  ],
+  "activity_place": [
+   "el"
+  ],
+  "occupation": [
+   "el"
+  ],
+  "nationality": [
+   "el"
+  ],
+  "description": [
+   "el"
+  ],
+  "work": [
+   "el",
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "BiblioNet (Greek books in print) person page: heading 'Twain, Mark, 1835-1910', a Greek-language biography paragraph, then a long list of Greek editions of his works with publisher, ISBN and year. No external links or identifiers shown in the text.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

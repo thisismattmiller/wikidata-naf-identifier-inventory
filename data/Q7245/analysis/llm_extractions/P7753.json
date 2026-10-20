@@ -1,0 +1,85 @@
+{
+ "property": "P7753",
+ "label": "Projekt Gutenberg-DE author ID",
+ "files_read": ["P7753__twain/embedded_microdata.json"],
+ "about_entity": true,
+ "notes": "Microdata WebPage value is the full German author-page text (short biography, 'Werke u.a.' list, and 29 titles available in Projekt Gutenberg); the other two items are header/navigation chrome.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "de", "via": "embedded_microdata.json: $[0].value page heading"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Sein eigentlicher Name ist Samuel Langhorne Clemens'"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "30.11.1835", "lang": null, "via": "embedded_microdata.json: $[0].value"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "21.04.1910", "lang": null, "via": "embedded_microdata.json: $[0].value"}
+  ],
+  "birth_place": [
+   {"value": "Florida (Missouri)", "lang": "de", "via": "embedded_microdata.json: $[0].value"}
+  ],
+  "death_place": [
+   {"value": "Redding (Connecticut)", "lang": "de", "via": "embedded_microdata.json: $[0].value"}
+  ],
+  "activity_place": [
+   {"value": "New York", "lang": "de", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Philadelphia", "lang": "de", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Mississippi", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Lotse auf dem Mississippi'"},
+   {"value": "Nevada", "lang": "de", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "San Francisco", "lang": "de", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Hawaii", "lang": "de", "via": "embedded_microdata.json: $[0].value"}
+  ],
+  "occupation": [
+   {"value": "Schriftsetzer", "lang": "de", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Lotse", "lang": "de", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Silbersucher", "lang": "de", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Reporter", "lang": "de", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Verleger", "raw": "Er gründete einen Verlag", "lang": "de", "via": "embedded_microdata.json: $[0].value"}
+  ],
+  "description": [
+   {"value": "Mark Twain wurde am 30.11.1835 in Florida (Missouri) geboren. Sein eigentlicher Name ist Samuel Langhorne Clemens. Der Vater starb 1847 und Twain mußte im Alter von zwölf Jahren die Schule abbrechen und begann eine Lehre als Schriftsetzer.", "lang": "de", "via": "embedded_microdata.json: $[0].value first paragraph"}
+  ],
+  "work": [
+   {"value": "Die Arglosen im Ausland", "raw": "1869: Die Arglosen im Ausland (dt. 1875)", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Werke u.a.'"},
+   {"value": "Die Abenteuer Tom Sawyers", "raw": "1876: Die Abenteuer Tom Sawyers (dt. 1876)", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Werke u.a.'"},
+   {"value": "Prinz und Bettelknabe", "raw": "1881: Prinz und Bettelknabe (dt. 1956)", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Werke u.a.'"},
+   {"value": "Leben auf dem Mississippi", "raw": "1883: Leben auf dem Mississippi (dt. 1890)", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Werke u.a.'"},
+   {"value": "Abenteuer und Fahrten des Huckleberry Finn", "raw": "1885: Abenteuer und Fahrten des Huckleberry Finn (dt. 1890)", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Werke u.a.'"},
+   {"value": "Ein Yankee am Hofe des König Artus", "raw": "1889: Ein Yankee am Hofe des König Artus (dt. 1923)", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Werke u.a.'"},
+   {"value": "Querkopf Wilson", "raw": "1894: Querkopf Wilson (dt. 1923)", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Werke u.a.'"},
+   {"value": "Besuch eines Interviewers", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Eine grausame, fürchterliche Liebesgeschichte aus dem Mittelalter", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Eine Pferdegeschichte", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Tom der kleine Detektiv", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Prinz und Bettler", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Auszüge aus Adams Tagebuch", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Bummel durch Europa", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Der amerikanische Prätendent", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Deutsche Geschichten", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Die 1000000 Pfundnote und andere humoristische Erzählungen und Skizzen.", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Die Geschichte eines Invaliden", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Die Schrecken der deutschen Sprache", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Eine Hundegeschichte", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Erzählung eines Hundes", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Karneval des Verbrechens in Connecticut", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Skizzenbuch", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Von Adam bis Vanderbilt", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Huckleberry Finns Abenteuer und Fahrten", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Tom Sawyers Abenteuer", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Tom Sawyers Abenteuer und Streiche", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Im Gold- und Silberland", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Leben auf dem Mississippi / Nach dem fernen Westen", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Meine Reise um die Welt. Erste Abteilung", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Meine Reise um die Welt – Zweite Abteilung", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Unterwegs und Daheim", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Eine skurrile Autobiografie", "lang": "de", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"},
+   {"value": "Short Stories", "lang": "en", "via": "embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'"}
+  ],
+  "related_agent": [
+   {"value": "Jeannette Schneider", "relation": "translator (Eine Hundegeschichte)", "lang": "de", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Andrej Neifeld", "relation": "translator (Erzählung eines Hundes)", "lang": "de", "via": "embedded_microdata.json: $[0].value"}
+  ]
+ }
+}

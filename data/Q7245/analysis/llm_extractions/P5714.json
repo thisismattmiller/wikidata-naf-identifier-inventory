@@ -1,0 +1,12 @@
+{
+ "property": "P5714",
+ "label": "Tor.com author ID",
+ "files_read": ["P5714__mark-twain/alternate_1.xml", "P5714__mark-twain/xhr_2.json", "P5714__mark-twain/browser_alternate_1.xml"],
+ "about_entity": true,
+ "notes": "Tor.com now redirects to Reactor (reactormag.com). browser_alternate_1.xml is the author RSS feed 'Mark Twain, Author at Reactor' with one item (the reprint 'A Ghost Story', 2012) - about the entity. alternate_1.xml is the site-wide Reactor feed with no Twain mentions and xhr_2.json is Macmillan OneTrust cookie-consent config; both about_entity false, nothing extracted from them.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "browser_alternate_1.xml: rss/channel/item/dc:creator; channel/title 'Mark Twain, Author at Reactor'"}],
+  "work": [{"value": "A Ghost Story", "raw": "A Ghost Story (also published as \"A Ghost's Tale\"; Reactor reprint 2012-10-25)", "lang": "en", "via": "browser_alternate_1.xml: rss/channel/item/title"}],
+  "identifier": [{"value": "mark-twain", "via": "browser_alternate_1.xml: rss/channel/atom:link href (https://reactormag.com/author/mark-twain/feed/)"}]
+ }
+}

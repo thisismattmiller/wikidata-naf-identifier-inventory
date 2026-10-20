@@ -1,0 +1,30 @@
+{
+ "property": "P6645",
+ "label": "Stedelijk Museum Amsterdam ID",
+ "files_read": [
+  "P6645__132574-mark-twain/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "Minimal OpenGraph block (title and URL only).",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:title"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "132574",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url"
+   },
+   {
+    "value": "https://www.stedelijk.nl/nl/collectie/maker/132574-mark-twain",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url"
+   }
+  ]
+ }
+}

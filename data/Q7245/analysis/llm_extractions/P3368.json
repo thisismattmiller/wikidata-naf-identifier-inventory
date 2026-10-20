@@ -1,0 +1,28 @@
+{
+ "property": "P3368",
+ "label": "Prabook ID",
+ "files_read": ["P3368__1080517/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph page metadata only; og:title is the person's name and og:description a one-line bio.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}
+  ],
+  "occupation": [
+   {"value": "author", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+   {"value": "humorist", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "nationality": [
+   {"value": "American", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "description": [
+   {"value": "Samuel Langhorne Clemens, American author, humorist. Member American Academy Arts and Letters.", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "related_agent": [
+   {"value": "American Academy of Arts and Letters", "raw": "American Academy Arts and Letters", "relation": "member of", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "identifier": [
+   {"value": "1080517", "via": "embedded_opengraph.json: $[0]['og:url'] https://prabook.com/web/samuel_langhorne.clemens/1080517"}
+  ]
+ }
+}

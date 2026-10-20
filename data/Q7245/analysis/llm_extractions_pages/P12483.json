@@ -1,0 +1,46 @@
+{
+ "property": "P12483",
+ "label": "PMB – Personen der Moderne Basis person ID",
+ "files_read": ["pages/P12483__26252.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "PMB (ACDH, Vienna) person entity: name, birth name labels, gender, life dates, occupations, linked datasets (names only, no URLs), collections, place relations (birth, death, stays in Vienna and Bad Ischl hotels) and two work relations; CC BY 4.0.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "de", "via": "Name row"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "raw": "Person_Geburtsname_Vorname: Samuel Langhorne; Person_Geburtsname_Nachname: Clemens", "lang": "de", "via": "anderer Name / Label table (birth name)"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "de", "via": "Label table, Person_Geburtsname_Vorname"}],
+  "family_name": [{"value": "Clemens", "lang": "de", "via": "Label table, Person_Geburtsname_Nachname"}],
+  "birth_date": [{"value": "1835-11-30", "lang": null, "via": "Zeit row / place relation 'geboren in'"}],
+  "death_date": [{"value": "1910-04-21", "lang": null, "via": "Zeit row / place relation 'gestorben in'"}],
+  "birth_place": [{"value": "Florida", "lang": "de", "via": "Place relation 'geboren in'"}],
+  "death_place": [{"value": "Redding", "lang": "de", "via": "Place relation 'gestorben in'"}],
+  "activity_place": [
+   {"value": "Hotel Metropole [Wien]", "raw": "hält sich auf in, 1897-1899", "lang": "de", "via": "Place relations"},
+   {"value": "Hotel Kaiserin Elisabeth [Bad Ischl]", "raw": "hält sich auf in", "lang": "de", "via": "Place relations"}
+  ],
+  "gender": [{"value": "male", "lang": "en", "via": "Gender row"}],
+  "occupation": [
+   {"value": "Schriftsteller/Schriftstellerin", "lang": "de", "via": "Berufe row"},
+   {"value": "Journalist/Journalistin", "lang": "de", "via": "Berufe row"}
+  ],
+  "work": [
+   {"value": "Ausgewählte Skizzen", "lang": "de", "via": "Work relations 'hat geschaffen'"},
+   {"value": "Wie ich ein landwirtschaftliches Blatt herausgab", "lang": "de", "via": "Work relations 'hat geschaffen'"}
+  ],
+  "related_agent": [
+   {"value": "Der Brenner (collection in which he appears)", "via": "Sammlungen"},
+   {"value": "Die Schaubühne (collection in which he appears)", "via": "Sammlungen"},
+   {"value": "Karl Kraus: Die Fackel (collection in which he appears)", "via": "Sammlungen"}
+  ],
+  "same_as": [
+   {"value": "gnd", "raw": "linked dataset name only, no URL shown", "via": "Verknüpfte Datensätze"},
+   {"value": "wikidata", "raw": "linked dataset name only, no URL shown", "via": "Verknüpfte Datensätze"},
+   {"value": "wikipedia", "raw": "linked dataset name only, no URL shown", "via": "Verknüpfte Datensätze"},
+   {"value": "wiengeschichtewiki", "raw": "linked dataset name only, no URL shown", "via": "Verknüpfte Datensätze"},
+   {"value": "schnitzler-lektueren / fackel / schaubuehne / schnitzler-tagebuch", "raw": "linked dataset names only", "via": "Verknüpfte Datensätze"}
+  ],
+  "identifier": [{"value": "26252", "via": "ID row"}, {"value": "https://pmb.acdh.oeaw.ac.at/entity/26252/", "via": "PMB-URI row"}],
+  "image": [{"value": "portrait present", "raw": "Bildnachweis", "via": "image credit label (no URL in text)"}],
+  "license": [{"value": "CC BY 4.0", "via": "footer 'Lizenz der Inhalte'"}]
+ }
+}

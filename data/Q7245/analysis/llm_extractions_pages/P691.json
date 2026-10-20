@@ -1,0 +1,55 @@
+{
+ "property": "P691",
+ "label": "NL CR AUT ID",
+ "files_read": ["pages/P691__jn19981002263.txt", "pages/P691__jn20000701083.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Two Czech National Library AUT records in standard view: jn19981002263 'Twain, Mark, 1835-1910' (real name Clemens) and jn20000701083 for the pseudonym 'Conte, Louis de, 1835-1910', cross-linked via 'Viz též'. External links (Wikipedie, Wikidata, ISNI, abART) are shown as labels only, without URLs.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": "cs", "via": "Záhlaví, record jn19981002263"},
+   {"value": "Conte, Louis de, 1835-1910", "lang": "cs", "via": "Záhlaví, record jn20000701083 (pseudonym)"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "raw": "Skutečné jméno: Clemens, Samuel Langhorne, 1835-1910", "lang": "cs", "via": "Odkaz. forma (real name), record jn19981002263"},
+   {"value": "Mark Twain, 1835-1910", "lang": "cs", "via": "Odkaz. forma, record jn19981002263"},
+   {"value": "Ludvík de Conte, 1835-1910", "lang": "cs", "via": "Odkaz. forma, record jn20000701083"},
+   {"value": "Conte, Ludvík de, 1835-1910", "lang": "cs", "via": "Odkaz. forma, record jn20000701083"}
+  ],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "cs", "via": "real-name reference form"}],
+  "family_name": [{"value": "Clemens", "lang": "cs", "via": "real-name reference form"}],
+  "pseudonym": [
+   {"value": "Conte, Louis de, 1835-1910", "lang": "cs", "via": "Viz též, record jn19981002263"},
+   {"value": "Sieur Louis de Conte", "lang": "cs", "via": "Historie záhlaví"}
+  ],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "heading dates"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "heading dates"}],
+  "occupation": [
+   {"value": "prozaik", "lang": "cs", "via": "Biogr./Hist. údaje"},
+   {"value": "satirik", "lang": "cs", "via": "Biogr./Hist. údaje"},
+   {"value": "humorista", "lang": "cs", "via": "Biogr./Hist. údaje"}
+  ],
+  "nationality": [{"value": "americký", "raw": "Americký", "lang": "cs", "via": "Biogr./Hist. údaje"}],
+  "description": [{"value": "Americký prozaik, satirik a humorista.", "lang": "cs", "via": "Biogr./Hist. údaje, record jn19981002263"}],
+  "work": [
+   {"value": "Dobrodružství Hucka Finna", "lang": "cs", "via": "Zdroj, record jn19981002263"},
+   {"value": "Panna ve zbroji. Životní příběhy Panny orleánské", "lang": "cs", "via": "Historie záhlaví (book attributed to Louis de Conte)"}
+  ],
+  "identifier": [
+   {"value": "jn19981002263", "via": "Ident. číslo (Twain record)"},
+   {"value": "000051412", "via": "Systém. číslo (Twain record)"},
+   {"value": "https://aleph.nkp.cz/F/?func=direct&doc_number=000051412&local_base=AUT", "via": "Další informace permalink (Twain record)"},
+   {"value": "jn20000701083", "via": "Ident. číslo (Conte record)"},
+   {"value": "000073119", "via": "Systém. číslo (Conte record)"},
+   {"value": "https://aleph.nkp.cz/F/?func=direct&doc_number=000073119&local_base=AUT", "via": "Další informace permalink (Conte record)"}
+  ],
+  "source": [
+   {"value": "Dobrodružství Hucka Finna", "lang": "cs", "via": "Zdroj, Twain record"},
+   {"value": "NKC", "lang": "cs", "via": "Zdroj, Twain record"},
+   {"value": "LC (Names)", "lang": "cs", "via": "Zdroj, Conte record"},
+   {"value": "NKC-PH", "lang": "cs", "via": "Zdroj, Conte record"},
+   {"value": "www(Internet Medieval Sourcebook)", "lang": "cs", "via": "Zdroj, both records"}
+  ],
+  "license": [{"value": "CC0", "raw": "Národní knihovna ČR zpřístupňuje své databáze jako otevřená data pod licencí CC0", "lang": "cs", "via": "footer"}]
+ }
+}

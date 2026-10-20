@@ -1,0 +1,26 @@
+{
+ "property": "P4223",
+ "label": "Treccani's Enciclopedia Italiana ID",
+ "files_read": [
+  "P4223__mark-twain/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph only from the Treccani Enciclopedia Italiana entry; description is generic boilerplate, image is the site logo. Only the heading name is usable.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "TWAIN, Mark",
+    "raw": "TWAIN, Mark - Enciclopedia - Treccani",
+    "lang": "it",
+    "via": "P4223__mark-twain/embedded_opengraph.json: $[0]['og:title'] (before ' - Enciclopedia - Treccani')"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "batch folder name P4223__mark-twain (no URL in file)"
+   }
+  ]
+ }
+}

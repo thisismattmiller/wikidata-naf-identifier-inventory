@@ -1,0 +1,465 @@
+{
+ "property": "P648",
+ "label": "Open Library ID",
+ "files_read": [
+  "P648__OL18319A/embedded_microdata.json",
+  "P648__OL18319A/embedded_opengraph.json",
+  "P648__OL18319A/export_2.json"
+ ],
+ "about_entity": true,
+ "notes": "Open Library author JSON (export_2.json) plus schema.org Person/Book microdata and OpenGraph from the author page; all about Mark Twain. alternate_names mixes genuine variants with junk co-author strings and other people (Sculley Bradley, Richmond Croom Beatty) - only clean variants kept; title field says '(pseud)'.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "export_2.json: $.name"
+   },
+   {
+    "value": "Twain, Mark",
+    "raw": "Twain, Mark,\u001fd1835-1910.",
+    "lang": "en",
+    "via": "export_2.json: $.marc[0] (100 $a)"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "(mei) Ma, ke tu wen",
+    "lang": "zh-Latn",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "(mei) Tuwen, Make",
+    "lang": "zh-Latn",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Clemens Samuel",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "M. Twain",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Ma ke tu wen",
+    "lang": "zh-Latn",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Make Tuwen",
+    "lang": "zh-Latn",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "MakeTuwen",
+    "lang": "zh-Latn",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Marc Twain",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Māku Tuein",
+    "lang": "ja-Latn",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Sameul Langhorne Clemens",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Tu wen",
+    "lang": "zh-Latn",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Tuwen Make",
+    "lang": "zh-Latn",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "М.Твен",
+    "lang": "ru",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Марк Твен",
+    "lang": "ru",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Clemens, Samuel",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Samuel CLEMENS",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "TWAIN, Mark",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Clemens, Samuel (twain, Mark)",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne (Mark Twain)",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Mark Twain (Samuel L. Clemens)",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Mark Tawain",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Samuel Langhorne Clemens Mark Twain",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "export_2.json: $.title = '(pseud)' with $.personal_name"
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   },
+   {
+    "value": "Sieur Louis Conte",
+    "lang": "en",
+    "via": "export_2.json: $.alternate_names"
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "export_2.json: $.bio ('born Samuel Langhorne Clemens')"
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "export_2.json: $.bio ('born Samuel Langhorne Clemens')"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "30 November 1835",
+    "lang": null,
+    "via": "export_2.json: $.birth_date; embedded_microdata.json: $[0].birthDate"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "21 April 1910",
+    "lang": null,
+    "via": "export_2.json: $.death_date; embedded_microdata.json: $[0].deathDate"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "export_2.json: $.bio"
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "export_2.json: $.bio"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "export_2.json: $.bio"
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain, born Samuel Langhorne Clemens, was a prolific American author and humorist. Twain is best known for his novels Adventures of Huckleberry Finn  (1884), which has been called \"the Great American Novel\", and The Adventures of Tom Sawyer  (1876). He is extensively quoted. Twain was a friend to presidents, artists, industrialists, and European royalty.",
+    "lang": "en",
+    "via": "export_2.json: $.bio"
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL53908W/Adventures_of_Huckleberry_Finn?edition=key%3A/books/OL61449700M"
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL53919W/The_Adventures_of_Tom_Sawyer?edition=key%3A/books/OL37044611M"
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL54031W/A_Connecticut_Yankee_in_King_Arthur's_Court?edition=key%3A/books/OL45781517M"
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL53994W/The_Prince_and_the_Pauper?edition=key%3A/books/OL31959489M"
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL54059W/Roughing_It?edition=key%3A/books/OL31954465M"
+   },
+   {
+    "value": "American Claimant",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL54153W/The_American_Claimant?edition=key%3A/books/OL47028286M"
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL413674W/Tom_Sawyer_Abroad?edition=key%3A/books/OL31957240M"
+   },
+   {
+    "value": "Tom Sawyer, Detective",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL54147W/Tom_Sawyer_Detective?edition=key%3A/books/OL31957235M"
+   },
+   {
+    "value": "Pudd’nhead Wilson",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL54056W/The_Tragedy_of_Pudd'nhead_Wilson?edition=key%3A/books/OL51733598M"
+   },
+   {
+    "value": "A Tramp Abroad (The Works of Mark Twain)",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL53918W/A_Tramp_Abroad?edition=key%3A/books/OL45615036M"
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL54041W/The_Innocents_Abroad?edition=key%3A/books/OL32030459M"
+   },
+   {
+    "value": "Masters of the Macabre",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL85864W/Dracula's_guest_and_other_weird_stories?edition=key%3A/books/OL8528486M"
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL37513138W/The_Adventures_of_Huckleberry_Finn?edition=key%3A/books/OL50687725M"
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL53959W/Life_on_the_Mississippi?edition=key%3A/books/OL31960162M"
+   },
+   {
+    "value": "The gilded age",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL15290078W/The_Gilded_Age?edition=key%3A/books/OL17429442M"
+   },
+   {
+    "value": "Puddnhead Wilson: and Those Extraordinary Twins",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL15269096W/Novels_(Pudd'nhead_Wilson_Those_Extraordinary_Twins)?edition=key%3A/books/OL31957413M"
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL54155W/Personal_Recollections_of_Joan_of_Arc?edition=key%3A/books/OL32030461M"
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL54158W/The_Mysterious_Stranger?edition=key%3A/books/OL31959488M"
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL25639159W/Tom_Sawyer?edition=key%3A/books/OL34420901M"
+   },
+   {
+    "value": "The mysterious stranger and other stories",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[?(@type=='Book')].name",
+    "url": "https://openlibrary.org/works/OL54018W/The_Mysterious_Stranger_and_Other_Stories_(7_works)?edition=key%3A/books/OL6644252M"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Charles Dudley Warner",
+    "lang": "en",
+    "via": "embedded_microdata.json: Book 'The gilded age' author",
+    "relation": "co-author (The Gilded Age)"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://bookbrainz.org/author/83280dda-c02e-4f45-a44a-092226e6e8c7",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/1244",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://isni.org/isni/0000000077209145",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://www.imdb.com/name/nm0878494",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://www.librarything.com/author/twainmark",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://librivox.org/author/9",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://www.gutenberg.org/ebooks/author/53",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://viaf.org/viaf/50566653",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://www.wikidata.org/wiki/Q7245",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   },
+   {
+    "value": "https://inventaire.io/entity/wd:Q7245",
+    "via": "embedded_microdata.json: $[0].sameAs"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "OL18319A",
+    "lang": null,
+    "via": "export_2.json: $.key (/authors/OL18319A)"
+   },
+   {
+    "value": "https://openlibrary.org/authors/OL18319A/Mark_Twain",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url"
+   }
+  ],
+  "image": [
+   {
+    "value": "https://covers.openlibrary.org/a/id/11564855-L.jpg",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:image; export_2.json: $.photos[0]"
+   },
+   {
+    "value": "https://covers.openlibrary.org/a/id/14418219-L.jpg",
+    "raw": "14418219",
+    "lang": null,
+    "via": "export_2.json: $.photos[1]"
+   },
+   {
+    "value": "https://covers.openlibrary.org/a/id/6282256-L.jpg",
+    "raw": "6282256",
+    "lang": null,
+    "via": "export_2.json: $.photos[2]"
+   }
+  ],
+  "source": [
+   {
+    "value": "http://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "export_2.json: $.bio ([Source][1])"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2008-04-01",
+    "raw": "2008-04-01T03:28:50.625462",
+    "lang": null,
+    "via": "export_2.json: $.created.value"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-01-04",
+    "raw": "2026-01-04T14:40:05.201851",
+    "lang": null,
+    "via": "export_2.json: $.last_modified.value"
+   }
+  ]
+ }
+}

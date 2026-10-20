@@ -1,0 +1,38 @@
+{
+ "property": "P11386",
+ "label": "Listal ID",
+ "files_read": ["pages/P11386__mark-twain.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Listal community person page for Mark Twain: a short stats box (birth name, dates, country, height, partner), a one-paragraph bio, user tags, and top-5 lists of books, films and TV based on his work; the rest is user lists and an activity feed. An 'IMDB profile' link is shown without its URL.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "Stats 'Birth Name'"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "en", "via": "Stats 'Birth Name'"}],
+  "family_name": [{"value": "Clemens", "lang": "en", "via": "Stats 'Birth Name'"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "en", "via": "bio: 'better known by his pen name Mark Twain'"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30 November 1835", "lang": "en", "via": "Stats 'Born'"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21 April 1910", "lang": "en", "via": "Stats 'Died'"}],
+  "birth_place": [{"value": "Florida Missouri USA", "lang": "en", "via": "user tags 'Florida Missouri USA', 'Born In Missouri'"}],
+  "occupation": [
+   {"value": "author", "lang": "en", "via": "bio; tags 'Author', 'Writer'"},
+   {"value": "humorist", "lang": "en", "via": "bio; tag 'Humorist'"},
+   {"value": "children's writer", "lang": "en", "via": "tag"},
+   {"value": "short story writer", "lang": "en", "via": "tag"},
+   {"value": "travel writer", "lang": "en", "via": "tag"}
+  ],
+  "nationality": [{"value": "United States", "lang": "en", "via": "Stats 'Country of origin'"}, {"value": "American", "lang": "en", "via": "bio; tag 'American'"}],
+  "description": [{"value": "Samuel Langhorne Clemens better known by his pen name Mark Twain, was an American author and humorist. He wrote \"The Adventures of Tom Sawyer\" (1876) and its sequel, \"Adventures of Huckleberry Finn\" (1885), the latter often called \"the Great American Novel.\"", "lang": "en", "via": "bio paragraph"}],
+  "work": [
+   {"value": "The Adventures of Huckleberry Finn", "lang": "en", "via": "Books list"},
+   {"value": "The Adventures of Tom Sawyer", "lang": "en", "via": "Books list"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "(1983) edition", "lang": "en", "via": "Books list"},
+   {"value": "The Prince and the Pauper", "lang": "en", "via": "Books list"},
+   {"value": "The Innocents Abroad", "lang": "en", "via": "update feed"},
+   {"value": "The Man That Corrupted Hadleyburg", "lang": "en", "via": "TV list"}
+  ],
+  "related_agent": [{"value": "Olivia Lewis Langdon (partner; relationship status married)", "lang": "en", "via": "Stats 'Partner'"}],
+  "identifier": [{"value": "mark-twain", "via": "page URL slug"}],
+  "image": [{"value": "34 Pictures (photo gallery, no URLs in text)", "lang": "en", "via": "page header / Photos block"}]
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "property": "P5905",
+ "label": "Comic Vine ID",
+ "files_read": ["pages/P5905__4005-58664.txt", "pages/P5905__4040-60122.txt"],
+ "about_entity": true,
+ "page_kind": "other",
+ "notes": "Two Comic Vine wiki pages: a character page (4005-58664) for Twain as a character appearing in 89 comic issues and 7 TV episodes, with an English bio; and a person/creator page (4040-60122) credited in 110 issues (Classics Illustrated adaptations etc.). Character page lists 'Died: None' (a field default, not data); person page misspells 'Samuel Longhorne Clemens'.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading (both pages)"}],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "character page: Real Name"},
+   {"value": "Samuel Clemens", "lang": "en", "via": "character page: Aliases"},
+   {"value": "Samuel Longhorne Clemens", "lang": "en", "via": "person page bio ('alias')"}
+  ],
+  "pseudonym": [{"value": "Mark Twain", "lang": "en", "via": "character page: 'known by his pen name Mark Twain'"}],
+  "gender": [{"value": "Male", "lang": "en", "via": "Gender (both pages)"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": "en", "via": "Birthday / Birth"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910", "lang": "en", "via": "person page: Death"}],
+  "death_place": [{"value": "Redding, CT", "lang": "en", "via": "person page: Town"}],
+  "nationality": [{"value": "United States", "lang": "en", "via": "person page: Country"}, {"value": "American", "lang": "en", "via": "character page deck"}],
+  "activity_place": [
+   {"value": "Hannibal, Missouri", "lang": "en", "via": "character page bio (raised)"},
+   {"value": "Mississippi River", "lang": "en", "via": "character page bio"},
+   {"value": "Nevada", "lang": "en", "via": "character page bio"},
+   {"value": "Angels Camp, California", "lang": "en", "via": "character page bio"}
+  ],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "character page deck"},
+   {"value": "humorist", "lang": "en", "via": "character page deck"},
+   {"value": "entrepreneur", "lang": "en", "via": "character page deck"},
+   {"value": "publisher", "lang": "en", "via": "character page deck"},
+   {"value": "lecturer", "lang": "en", "via": "character page deck"},
+   {"value": "typesetter", "lang": "en", "via": "character page bio"},
+   {"value": "riverboat pilot", "lang": "en", "via": "character page bio"},
+   {"value": "miner", "lang": "en", "via": "character page bio"},
+   {"value": "critic", "lang": "en", "via": "person page deck"}
+  ],
+  "description": [{"value": "Samuel Langhorne Clemens known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the \"greatest humorist this country has produced\", and William Faulkner called him \"the father of American literature\". His novels include The Adventures of Tom Sawyer (1876) and its sequel, the Adventures of Huckleberry Finn (1884), the latter often called \"The Great American Novel\". Twain was raised in Hannibal, Missouri...", "raw": "truncated", "lang": "en", "via": "character page deck and wiki text"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "raw": "1876", "lang": "en", "via": "bio (both pages)"},
+   {"value": "Adventures of Huckleberry Finn", "raw": "1884", "lang": "en", "via": "bio (both pages)"},
+   {"value": "The Celebrated Jumping Frog of Calaveras County", "raw": "1865", "lang": "en", "via": "character page bio"},
+   {"value": "The Prince and the Pauper", "lang": "en", "via": "person page 'His creations'"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "lang": "en", "via": "person page 'His creations'"}
+  ],
+  "related_agent": [
+   {"value": "Orion Clemens (older brother)", "lang": "en", "via": "character page bio"},
+   {"value": "Henry Huttleston Rogers (helped him overcome financial troubles)", "lang": "en", "via": "character page bio"},
+   {"value": "William Faulkner (called him 'the father of American literature')", "lang": "en", "via": "character page bio"},
+   {"value": "Virginia City Territorial Enterprise (journalism)", "lang": "en", "via": "character page bio"},
+   {"value": "Paige Compositor (failed investment)", "lang": "en", "via": "character page bio"},
+   {"value": "Freemasons (listed as Enemies)", "lang": "en", "via": "character page: Enemies"}
+  ],
+  "same_as": [{"value": "http://www.cmgww.com/historic/twain", "raw": "www.cmgww.com/historic/twain", "via": "person page: Website"}],
+  "identifier": [
+   {"value": "4005-58664", "via": "character page URL"},
+   {"value": "4040-60122", "via": "person page URL"}
+  ],
+  "record_modified": [{"value": "2020-03-23", "raw": "last edited by wnpoland on 03/23/20 05:53PM", "lang": "en", "via": "character page"}]
+ }
+}

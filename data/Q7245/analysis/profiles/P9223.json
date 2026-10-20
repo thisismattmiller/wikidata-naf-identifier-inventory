@@ -1,0 +1,1904 @@
+{
+ "property": "P9223",
+ "property_label": "Provenio UUID",
+ "files": [
+  {
+   "file": "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://provenio.cz/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13"
+  },
+  {
+   "file": "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://provenio.cz/api/gui-components/sub-search-links"
+  },
+  {
+   "file": "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://provenio.cz/api/current-page-data/menu"
+  },
+  {
+   "file": "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://provenio.cz/api/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13/view"
+  },
+  {
+   "file": "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://provenio.cz/api/search?type=by-authority&recordRelatedRecord=56f025ca-8f6b-4961-bc1a-dfa56cee0e13&exports=portaroSearchItemParagraph%2CportaroSearchItemMoreParagraph"
+  },
+  {
+   "file": "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://provenio.cz/api/directories/82427/insight?forbiddenFileCategory=1"
+  },
+  {
+   "file": "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://provenio.cz/api/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13/hierarchies"
+  },
+  {
+   "file": "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://provenio.cz/api/record-holdings?record=56f025ca-8f6b-4961-bc1a-dfa56cee0e13"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "json": 7
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 6,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "json:record.name",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a100] $a/$d; $.record.name",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "json:record.fields.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "json:record.fields.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "1835 1910",
+    "lang": null,
+    "via": "json:record.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark,",
+    "lang": null,
+    "via": "json:record.fields.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "1835-1910",
+    "lang": null,
+    "via": "json:record.fields.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Jméno se uvádí pod příjmením Twain, Mark, 1835-1910 jn19981002263",
+    "lang": null,
+    "via": "json:record.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain,",
+    "lang": null,
+    "via": "json:record.fields.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Jméno se uvádí pod rodným/křestním jménem Mark Twain, 1835-1910 o",
+    "lang": null,
+    "via": "json:record.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne,",
+    "lang": null,
+    "via": "json:record.fields.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Jméno se uvádí pod příjmením p Clemens, Samuel Langhorne, 1835-1910 o",
+    "lang": null,
+    "via": "json:record.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s iniciálami skutečného Twainova jména Samuel Langhorne Clemens.",
+    "lang": null,
+    "via": "json:record.fields.fields.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "json:record.text",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "json:nodes.text",
+    "file": "xhr_6.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, 1835-1910",
+    "lang": null,
+    "via": "json:nodes.text",
+    "file": "xhr_6.json",
+    "uri": false
+   },
+   {
+    "value": "Americký prozaik, satirik a humorista.",
+    "lang": "cs",
+    "via": "llm:xhr_3.json: $.record.fields[a678] $a",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a400] $a; xhr_6.json: $[0].nodes[2].text",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a400] $w=p $a; xhr_6.json: $[0].nodes[1].text",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm-page:See: reference",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, 1835-1910",
+    "lang": null,
+    "via": "llm-page:See: reference",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Louis de Conte",
+    "lang": "cs",
+    "via": "llm:xhr_3.json: $.record.fields[a665] $a (fictitious author attributed by Twain)",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a46] $f",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a46] $g",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "prozaik",
+    "lang": "cs",
+    "via": "llm:xhr_3.json: $.record.fields[a678] $a",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "satirik",
+    "lang": "cs",
+    "via": "llm:xhr_3.json: $.record.fields[a678] $a",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "humorista",
+    "lang": "cs",
+    "via": "llm:xhr_3.json: $.record.fields[a678] $a",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Americký",
+    "lang": "cs",
+    "via": "llm:xhr_3.json: $.record.fields[a678] $a",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Panna ve zbroji. Životní příběhy Panny orleánské",
+    "lang": "cs",
+    "via": "llm:xhr_3.json: $.record.fields[a665] $a",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Hucka Finna",
+    "lang": "cs",
+    "via": "llm:xhr_3.json: $.record.fields[a670] $a",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Hucka Finna",
+    "lang": null,
+    "via": "llm-page:Bibliography (source note)",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "56f025ca-8f6b-4961-bc1a-dfa56cee0e13",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.id",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "jn19981002263",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a1]; a100 $7",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Dobrodružství Hucka Finna",
+    "lang": "cs",
+    "via": "llm:xhr_3.json: $.record.fields[a670] $a",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "NKC",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a670] $a",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "www(Internet Medieval Sourcebook)",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a670] $a",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Hucka Finna; NKC; www(Internet Medieval Sourcebook)",
+    "lang": null,
+    "via": "llm-page:Bibliography",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1998-01-01",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a906] $a",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2018-05-24",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a5]",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "2004-06-09",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a906] $a",
+    "file": "P9223.json",
+    "uri": false
+   },
+   {
+    "value": "2001-10-09",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.record.fields[a906] $a",
+    "file": "P9223.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [],
+  "description": [
+   "cs"
+  ],
+  "name_variant": [],
+  "pseudonym": [
+   "cs"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "cs"
+  ],
+  "nationality": [
+   "cs"
+  ],
+  "work": [
+   "cs"
+  ],
+  "identifier": [],
+  "source": [
+   "cs"
+  ],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 75,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].url",
+     "n": 1,
+     "sample": "/search-form"
+    },
+    {
+     "path": "[].text",
+     "n": 1,
+     "sample": "Advanced search"
+    },
+    {
+     "path": "[].class",
+     "n": 1,
+     "sample": "extended-search"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 4310,
+   "path_count": 12,
+   "paths": [
+    {
+     "path": "[].submenu[].id",
+     "n": 23,
+     "sample": "12"
+    },
+    {
+     "path": "[].submenu[].text",
+     "n": 23,
+     "sample": "Title index"
+    },
+    {
+     "path": "[].submenu[].requiresAuth",
+     "n": 23,
+     "sample": "False"
+    },
+    {
+     "path": "[].submenu[].action.path",
+     "n": 23,
+     "sample": "/lists/document-index?source=menu&prefix=A"
+    },
+    {
+     "path": "[].submenu[].userActionRequired",
+     "n": 23,
+     "sample": "False"
+    },
+    {
+     "path": "[].id",
+     "n": 8,
+     "sample": "1"
+    },
+    {
+     "path": "[].text",
+     "n": 8,
+     "sample": "Home"
+    },
+    {
+     "path": "[].requiresAuth",
+     "n": 8,
+     "sample": "False"
+    },
+    {
+     "path": "[].userActionRequired",
+     "n": 8,
+     "sample": "False"
+    },
+    {
+     "path": "[].action.path",
+     "n": 5,
+     "sample": "/"
+    },
+    {
+     "path": "[].iconName",
+     "n": 3,
+     "sample": "grid"
+    },
+    {
+     "path": "[].type",
+     "n": 1,
+     "sample": "user"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 40189,
+   "path_count": 143,
+   "paths": [
+    {
+     "path": "record.detailTableRows[].columns[].content",
+     "n": 38,
+     "sample": "Leader"
+    },
+    {
+     "path": "record.detailTableRows[].columns[].id",
+     "n": 38,
+     "sample": null
+    },
+    {
+     "path": "record.detailTableRows[].columns[].classesInString",
+     "n": 38,
+     "sample": "obsahPole"
+    },
+    {
+     "path": "record.fields[].fields[].code",
+     "n": 32,
+     "sample": "a"
+    },
+    {
+     "path": "record.fields[].fields[].fieldTypeText",
+     "n": 32,
+     "sample": "Original cataloging agency"
+    },
+    {
+     "path": "record.fields[].fields[].text",
+     "n": 32,
+     "sample": "ABA001"
+    },
+    {
+     "path": "record.fields[].fields[].error",
+     "n": 32,
+     "sample": null
+    },
+    {
+     "path": "record.fields[].fields[].originReference",
+     "n": 32,
+     "sample": null
+    },
+    {
+     "path": "record.fields[].fields[].targetReference",
+     "n": 32,
+     "sample": null
+    },
+    {
+     "path": "record.fields[].fields[].raw",
+     "n": 32,
+     "sample": "ABA001"
+    },
+    {
+     "path": "record.fields[].fields[].fieldId",
+     "n": 32,
+     "sample": "a40#0.a#0"
+    },
+    {
+     "path": "record.fields[].fields[].url",
+     "n": 32,
+     "sample": "False"
+    },
+    {
+     "path": "record.fields[].fields[].generation",
+     "n": 32,
+     "sample": "PHYSICAL"
+    },
+    {
+     "path": "fields[].fields[].code",
+     "n": 32,
+     "sample": "a"
+    },
+    {
+     "path": "fields[].fields[].fieldTypeText",
+     "n": 32,
+     "sample": "Original cataloging agency"
+    },
+    {
+     "path": "fields[].fields[].text",
+     "n": 32,
+     "sample": "ABA001"
+    },
+    {
+     "path": "fields[].fields[].error",
+     "n": 32,
+     "sample": null
+    },
+    {
+     "path": "fields[].fields[].originReference",
+     "n": 32,
+     "sample": null
+    },
+    {
+     "path": "fields[].fields[].targetReference",
+     "n": 32,
+     "sample": null
+    },
+    {
+     "path": "fields[].fields[].raw",
+     "n": 32,
+     "sample": "ABA001"
+    },
+    {
+     "path": "fields[].fields[].fieldId",
+     "n": 32,
+     "sample": "a40#0.a#0"
+    },
+    {
+     "path": "fields[].fields[].url",
+     "n": 32,
+     "sample": "False"
+    },
+    {
+     "path": "fields[].fields[].generation",
+     "n": 32,
+     "sample": "PHYSICAL"
+    },
+    {
+     "path": "record.detailTableRows[].id",
+     "n": 19,
+     "sample": null
+    },
+    {
+     "path": "record.detailTableRows[].columns[].classes[]",
+     "n": 19,
+     "sample": "obsahPole"
+    },
+    {
+     "path": "record.detailTableRows[].classesInString",
+     "n": 19,
+     "sample": null
+    },
+    {
+     "path": "record.fields[].code",
+     "n": 19,
+     "sample": "aleader"
+    },
+    {
+     "path": "record.fields[].fieldTypeText",
+     "n": 19,
+     "sample": "Leader"
+    },
+    {
+     "path": "record.fields[].text",
+     "n": 19,
+     "sample": "-----cam-a22------a-4500"
+    },
+    {
+     "path": "record.fields[].originReference",
+     "n": 19,
+     "sample": null
+    },
+    {
+     "path": "record.fields[].targetReference",
+     "n": 19,
+     "sample": null
+    },
+    {
+     "path": "record.fields[].raw",
+     "n": 19,
+     "sample": "-----cam-a22------a-4500"
+    },
+    {
+     "path": "record.fields[].fieldId",
+     "n": 19,
+     "sample": "aleader#0"
+    },
+    {
+     "path": "record.fields[].url",
+     "n": 19,
+     "sample": "False"
+    },
+    {
+     "path": "record.fields[].generation",
+     "n": 19,
+     "sample": "GENERATED_PHYSICAL"
+    },
+    {
+     "path": "fields[].code",
+     "n": 19,
+     "sample": "aleader"
+    },
+    {
+     "path": "fields[].fieldTypeText",
+     "n": 19,
+     "sample": "Leader"
+    },
+    {
+     "path": "fields[].text",
+     "n": 19,
+     "sample": "-----cam-a22------a-4500"
+    },
+    {
+     "path": "fields[].originReference",
+     "n": 19,
+     "sample": null
+    },
+    {
+     "path": "fields[].targetReference",
+     "n": 19,
+     "sample": null
+    },
+    {
+     "path": "fields[].raw",
+     "n": 19,
+     "sample": "-----cam-a22------a-4500"
+    },
+    {
+     "path": "fields[].fieldId",
+     "n": 19,
+     "sample": "aleader#0"
+    },
+    {
+     "path": "fields[].url",
+     "n": 19,
+     "sample": "False"
+    },
+    {
+     "path": "fields[].generation",
+     "n": 19,
+     "sample": "GENERATED_PHYSICAL"
+    },
+    {
+     "path": "record.fields[].error.type",
+     "n": 14,
+     "sample": "ABSENT_VALUE"
+    },
+    {
+     "path": "fields[].error.type",
+     "n": 14,
+     "sample": "ABSENT_VALUE"
+    },
+    {
+     "path": "layout.parts[].props.children[].props.children[].type",
+     "n": 8,
+     "sample": "component"
+    },
+    {
+     "path": "layout.parts[].props.children[].props.children[].id",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "layout.parts[].props.children[].props.children[].visiblePermissionFond",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "layout.parts[].props.children[].props.children[].componentName",
+     "n": 8,
+     "sample": "heading"
+    },
+    {
+     "path": "layout.parts[].props.children[].props.children[].props",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "layout.parts[].props.columnRatios[]",
+     "n": 6,
+     "sample": "1"
+    },
+    {
+     "path": "layout.parts[].props.children[].type",
+     "n": 6,
+     "sample": "column"
+    },
+    {
+     "path": "layout.parts[].props.children[].id",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "layout.parts[].props.children[].visiblePermissionFond",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "layout.parts[].props.children[].props.span",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "layout.parts[].props.children[].props.aside",
+     "n": 6,
+     "sample": "True"
+    },
+    {
+     "path": "layout.parts[].props.children[].props.gap",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "layout.parts[].type",
+     "n": 5,
+     "sample": "row"
+    },
+    {
+     "path": "layout.parts[].id",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "layout.parts[].visiblePermissionFond",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "layout.parts[].props.width",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "layout.parts[].props.gap",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "record.fields[].error",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "fields[].error",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "record.alternativeNames[]",
+     "n": 2,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "layout.settings.defaultRowWidth",
+     "n": 1,
+     "sample": "default"
+    },
+    {
+     "path": "layout.settings.mainLayoutGap",
+     "n": 1,
+     "sample": "30px"
+    },
+    {
+     "path": "layout.settings.columnGap",
+     "n": 1,
+     "sample": "30px"
+    },
+    {
+     "path": "layout.settings.rowGap",
+     "n": 1,
+     "sample": "30px"
+    },
+    {
+     "path": "layout.props",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "record.status.id",
+     "n": 1,
+     "sample": "14"
+    },
+    {
+     "path": "record.status.text",
+     "n": 1,
+     "sample": "Národní autorita"
+    },
+    {
+     "path": "record.withForeignOccurrences",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "record.directoryId",
+     "n": 1,
+     "sample": "82427"
+    },
+    {
+     "path": "record.cover.id",
+     "n": 1,
+     "sample": "329476"
+    },
+    {
+     "path": "record.forbidden",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "record.editLockStatus.locked",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "record.editLockStatus.lockPermission.allowed",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "record.editLockStatus.lockPermission.reason.text",
+     "n": 1,
+     "sample": "Access denied!"
+    },
+    {
+     "path": "record.name",
+     "n": 1,
+     "sample": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "record.id",
+     "n": 1,
+     "sample": "56f025ca-8f6b-4961-bc1a-dfa56cee0e13"
+    },
+    {
+     "path": "record.type",
+     "n": 1,
+     "sample": "authority"
+    },
+    {
+     "path": "record.active",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "record.valid",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "record.text",
+     "n": 1,
+     "sample": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "record.external",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "record.deleted",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "record.fond.id",
+     "n": 1,
+     "sample": "31"
+    },
+    {
+     "path": "record.fond.name",
+     "n": 1,
+     "sample": "Jména osob"
+    },
+    {
+     "path": "record.fond.order",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "record.fond.parentId",
+     "n": 1,
+     "sample": "55"
+    },
+    {
+     "path": "record.fond.ofAuthority",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "record.fond.enabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "record.fond.editable",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "record.fond.periodical",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "record.fond.recordable",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "record.fond.fondType",
+     "n": 1,
+     "sample": "standard"
+    },
+    {
+     "path": "record.fond.classType",
+     "n": 1,
+     "sample": "FOND"
+    },
+    {
+     "path": "record.fond.entryFieldTypeId",
+     "n": 1,
+     "sample": "a100.a"
+    },
+    {
+     "path": "record.fond.recordHoldingFieldComponentPath",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "record.fond.creationHoldingDepartments",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "record.fond.documentCategories",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "record.fond.documentTypes",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "record.fond.withExemplars",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "record.fond.recordType",
+     "n": 1,
+     "sample": " "
+    },
+    {
+     "path": "record.fond.bibliographicLevel",
+     "n": 1,
+     "sample": " "
+    },
+    {
+     "path": "record.fond.forSourceDocument",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "record.fond.adoptingLinked",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "record.fond.adoptingEdited",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "record.fond.threadable",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "record.fond.text",
+     "n": 1,
+     "sample": "Jména osob"
+    },
+    {
+     "path": "record.fond.ofDocument",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "record.fond.zserverSearchDefinitionId",
+     "n": 1,
+     "sample": "31"
+    },
+    {
+     "path": "paragraph",
+     "n": 1,
+     "sample": "<style type=\"text/css\">\r\n    .eight-group {\r\n        padding-bottom: 10px;\r\n    }\r\n</style>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r"
+    },
+    {
+     "path": "authorityTabsConfiguration.attachments.priority",
+     "n": 1,
+     "sample": "400"
+    },
+    {
+     "path": "authorityTabsConfiguration.attachments.showable",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "authorityTabsConfiguration.none.priority",
+     "n": 1,
+     "sample": "300"
+    },
+    {
+     "path": "authorityTabsConfiguration.none.showable",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "authorityTabsConfiguration.detail.priority",
+     "n": 1,
+     "sample": "200"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "record.alternativeNames[]",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "record.alternativeNames[]",
+     "value": "Clemens, Samuel Langhorne"
+    },
+    {
+     "path": "record.detailTableRows[].columns[].content",
+     "value": "<span class=\"field_f fieldtype-a46-f\" title=\"Birth date\">1835</span> <span class=\"field_g fieldtype-a46-g\" title=\"Death date\">1910</span>"
+    },
+    {
+     "path": "record.detailTableRows[].columns[].content",
+     "value": "<span class=\"field_a fieldtype-a100-a\" title=\"Personal name\">Twain, Mark,</span> <span class=\"field_d fieldtype-a100-d\" title=\"Dates associated with a name\">1835-1910</span> <span class=\"field_7 field"
+    },
+    {
+     "path": "record.detailTableRows[].columns[].content",
+     "value": "<span class=\"field_a fieldtype-a400-a\" title=\"Personal name\">Mark Twain,</span> <span class=\"field_d fieldtype-a400-d\" title=\"Dates associated with a name\">1835-1910</span> <span class=\"field_0 fieldt"
+    },
+    {
+     "path": "record.detailTableRows[].columns[].content",
+     "value": "<span class=\"field_w fieldtype-a400-w\" title=\"Control subfield\">p</span> <span class=\"field_a fieldtype-a400-a\" title=\"Personal name\">Clemens, Samuel Langhorne,</span> <span class=\"field_d fieldtype-a"
+    },
+    {
+     "path": "record.detailTableRows[].columns[].content",
+     "value": "<span class=\"field_a fieldtype-a665-a\" title=\"History reference\">Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleá"
+    },
+    {
+     "path": "record.name",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "record.fields[].fields[].text",
+     "value": "1835"
+    },
+    {
+     "path": "record.fields[].fields[].raw",
+     "value": "1835"
+    },
+    {
+     "path": "record.fields[].fields[].text",
+     "value": "1910"
+    },
+    {
+     "path": "record.fields[].fields[].raw",
+     "value": "1910"
+    },
+    {
+     "path": "record.fields[].text",
+     "value": "1835 1910"
+    },
+    {
+     "path": "record.fields[].fields[].text",
+     "value": "Twain, Mark,"
+    },
+    {
+     "path": "record.fields[].fields[].raw",
+     "value": "Twain, Mark,"
+    },
+    {
+     "path": "record.fields[].fields[].text",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.fields[].fields[].raw",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.fields[].text",
+     "value": "Jméno se uvádí pod příjmením Twain, Mark, 1835-1910 jn19981002263"
+    },
+    {
+     "path": "record.fields[].fields[].text",
+     "value": "Mark Twain,"
+    },
+    {
+     "path": "record.fields[].fields[].raw",
+     "value": "Mark Twain,"
+    },
+    {
+     "path": "record.fields[].fields[].text",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.fields[].fields[].raw",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.fields[].text",
+     "value": "Jméno se uvádí pod rodným/křestním jménem Mark Twain, 1835-1910 o"
+    },
+    {
+     "path": "record.fields[].fields[].text",
+     "value": "Clemens, Samuel Langhorne,"
+    },
+    {
+     "path": "record.fields[].fields[].raw",
+     "value": "Clemens, Samuel Langhorne,"
+    },
+    {
+     "path": "record.fields[].fields[].text",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.fields[].fields[].raw",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.fields[].text",
+     "value": "Jméno se uvádí pod příjmením p Clemens, Samuel Langhorne, 1835-1910 o"
+    },
+    {
+     "path": "record.fields[].fields[].text",
+     "value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s ini"
+    },
+    {
+     "path": "record.fields[].fields[].raw",
+     "value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s ini"
+    },
+    {
+     "path": "record.fields[].text",
+     "value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s ini"
+    },
+    {
+     "path": "record.text",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "fields[].fields[].text",
+     "value": "1835"
+    },
+    {
+     "path": "fields[].fields[].raw",
+     "value": "1835"
+    },
+    {
+     "path": "fields[].fields[].text",
+     "value": "1910"
+    },
+    {
+     "path": "fields[].fields[].raw",
+     "value": "1910"
+    },
+    {
+     "path": "fields[].text",
+     "value": "1835 1910"
+    },
+    {
+     "path": "fields[].fields[].text",
+     "value": "Twain, Mark,"
+    },
+    {
+     "path": "fields[].fields[].raw",
+     "value": "Twain, Mark,"
+    },
+    {
+     "path": "fields[].fields[].text",
+     "value": "1835-1910"
+    },
+    {
+     "path": "fields[].fields[].raw",
+     "value": "1835-1910"
+    },
+    {
+     "path": "fields[].text",
+     "value": "Jméno se uvádí pod příjmením Twain, Mark, 1835-1910 jn19981002263"
+    },
+    {
+     "path": "fields[].fields[].text",
+     "value": "Mark Twain,"
+    },
+    {
+     "path": "fields[].fields[].raw",
+     "value": "Mark Twain,"
+    },
+    {
+     "path": "fields[].fields[].text",
+     "value": "1835-1910"
+    },
+    {
+     "path": "fields[].fields[].raw",
+     "value": "1835-1910"
+    },
+    {
+     "path": "fields[].text",
+     "value": "Jméno se uvádí pod rodným/křestním jménem Mark Twain, 1835-1910 o"
+    },
+    {
+     "path": "fields[].fields[].text",
+     "value": "Clemens, Samuel Langhorne,"
+    },
+    {
+     "path": "fields[].fields[].raw",
+     "value": "Clemens, Samuel Langhorne,"
+    },
+    {
+     "path": "fields[].fields[].text",
+     "value": "1835-1910"
+    },
+    {
+     "path": "fields[].fields[].raw",
+     "value": "1835-1910"
+    },
+    {
+     "path": "fields[].text",
+     "value": "Jméno se uvádí pod příjmením p Clemens, Samuel Langhorne, 1835-1910 o"
+    },
+    {
+     "path": "fields[].fields[].text",
+     "value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s ini"
+    },
+    {
+     "path": "fields[].fields[].raw",
+     "value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s ini"
+    },
+    {
+     "path": "fields[].text",
+     "value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s ini"
+    },
+    {
+     "path": "field100abcdValue",
+     "value": "Twain, Mark, 1835-1910"
+    }
+   ],
+   "language_like_keys": [
+    "gap",
+    "id",
+    "raw",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 21909,
+   "path_count": 69,
+   "paths": [
+    {
+     "path": "result.params.rootFond[].id",
+     "n": 33,
+     "sample": "1"
+    },
+    {
+     "path": "result.params.rootFond[].name",
+     "n": 33,
+     "sample": "Monografie"
+    },
+    {
+     "path": "result.params.rootFond[].order",
+     "n": 33,
+     "sample": "1"
+    },
+    {
+     "path": "result.params.rootFond[].parentId",
+     "n": 33,
+     "sample": "22"
+    },
+    {
+     "path": "result.params.rootFond[].ofAuthority",
+     "n": 33,
+     "sample": "False"
+    },
+    {
+     "path": "result.params.rootFond[].enabled",
+     "n": 33,
+     "sample": "True"
+    },
+    {
+     "path": "result.params.rootFond[].editable",
+     "n": 33,
+     "sample": "True"
+    },
+    {
+     "path": "result.params.rootFond[].periodical",
+     "n": 33,
+     "sample": "False"
+    },
+    {
+     "path": "result.params.rootFond[].recordable",
+     "n": 33,
+     "sample": "True"
+    },
+    {
+     "path": "result.params.rootFond[].fondType",
+     "n": 33,
+     "sample": "standard"
+    },
+    {
+     "path": "result.params.rootFond[].classType",
+     "n": 33,
+     "sample": "FOND"
+    },
+    {
+     "path": "result.params.rootFond[].entryFieldTypeId",
+     "n": 33,
+     "sample": "d245.a"
+    },
+    {
+     "path": "result.params.rootFond[].recordHoldingFieldComponentPath",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "result.params.rootFond[].creationHoldingDepartments",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "result.params.rootFond[].documentCategories",
+     "n": 33,
+     "sample": "acfghotz"
+    },
+    {
+     "path": "result.params.rootFond[].documentTypes",
+     "n": 33,
+     "sample": "BKMPCFCRMUVMMX"
+    },
+    {
+     "path": "result.params.rootFond[].withExemplars",
+     "n": 33,
+     "sample": "True"
+    },
+    {
+     "path": "result.params.rootFond[].recordType",
+     "n": 33,
+     "sample": "a"
+    },
+    {
+     "path": "result.params.rootFond[].bibliographicLevel",
+     "n": 33,
+     "sample": "m"
+    },
+    {
+     "path": "result.params.rootFond[].forSourceDocument",
+     "n": 33,
+     "sample": "False"
+    },
+    {
+     "path": "result.params.rootFond[].adoptingLinked",
+     "n": 33,
+     "sample": "True"
+    },
+    {
+     "path": "result.params.rootFond[].adoptingEdited",
+     "n": 33,
+     "sample": "True"
+    },
+    {
+     "path": "result.params.rootFond[].threadable",
+     "n": 33,
+     "sample": "True"
+    },
+    {
+     "path": "result.params.rootFond[].text",
+     "n": 33,
+     "sample": "Monografie"
+    },
+    {
+     "path": "result.params.rootFond[].ofDocument",
+     "n": 33,
+     "sample": "True"
+    },
+    {
+     "path": "result.params.rootFond[].zserverSearchDefinitionId",
+     "n": 33,
+     "sample": "1"
+    },
+    {
+     "path": "defaultExpandedFacets[]",
+     "n": 6,
+     "sample": "REZS_FOND"
+    },
+    {
+     "path": "availableSortings[].text",
+     "n": 5,
+     "sample": "relevance"
+    },
+    {
+     "path": "availableSortings[].id",
+     "n": 5,
+     "sample": "relevance"
+    },
+    {
+     "path": "availableSortings[].default",
+     "n": 5,
+     "sample": "True"
+    },
+    {
+     "path": "features[]",
+     "n": 4,
+     "sample": "randomPageAccessing"
+    },
+    {
+     "path": "availableExports[].url",
+     "n": 4,
+     "sample": "https://provenio.cz/export/search?target=searched-records-csv:/html/documents-csv.vtl&recordRelatedRecord=56f025ca-8f6b-"
+    },
+    {
+     "path": "availableExports[].text",
+     "n": 4,
+     "sample": "CSV (openable e.g. in Excel) - Default"
+    },
+    {
+     "path": "availableExports[].note",
+     "n": 4,
+     "sample": "Limited to 400 records"
+    },
+    {
+     "path": "result.params.department[].id",
+     "n": 3,
+     "sample": "0"
+    },
+    {
+     "path": "result.params.department[].name",
+     "n": 3,
+     "sample": "Knihovna"
+    },
+    {
+     "path": "result.params.department[].order",
+     "n": 3,
+     "sample": "0"
+    },
+    {
+     "path": "result.params.department[].rid",
+     "n": 3,
+     "sample": "7316031c-851b-40f7-a63a-9eca9d857dda"
+    },
+    {
+     "path": "result.params.department[].text",
+     "n": 3,
+     "sample": "Knihovna"
+    },
+    {
+     "path": "unparsedParams.recordRelatedRecord[]",
+     "n": 1,
+     "sample": "56f025ca-8f6b-4961-bc1a-dfa56cee0e13"
+    },
+    {
+     "path": "unparsedParams.type[]",
+     "n": 1,
+     "sample": "by-authority"
+    },
+    {
+     "path": "result.params.includeExcluded",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "result.params.facetsEnabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "result.params.includeDraft",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "result.params.kind[]",
+     "n": 1,
+     "sample": "record"
+    },
+    {
+     "path": "result.params.rightHandExtension",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "result.params.includeDeleted",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "result.params.type",
+     "n": 1,
+     "sample": "by-authority"
+    },
+    {
+     "path": "result.params.excludedRecord[]",
+     "n": 1,
+     "sample": "9679fb97-25e0-4874-9972-8c51b4f56ec1"
+    },
+    {
+     "path": "result.params.recordRelatedRecord.id",
+     "n": 1,
+     "sample": "56f025ca-8f6b-4961-bc1a-dfa56cee0e13"
+    },
+    {
+     "path": "result.params.recordRelatedRecord.fond.id",
+     "n": 1,
+     "sample": "31"
+    },
+    {
+     "path": "result.params.recordRelatedRecord.fond.text",
+     "n": 1,
+     "sample": "Jména osob"
+    },
+    {
+     "path": "result.params.recordRelatedRecord.text",
+     "n": 1,
+     "sample": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "result.lastItemPosition",
+     "n": 1,
+     "sample": "{\"type\":\"range\",\"pageNumber\":2,\"pageSize\":10}"
+    },
+    {
+     "path": "result.totalElements",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "result.totalPages",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "result.numberOfElements",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "result.pageNumber",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "result.pageSize",
+     "n": 1,
+     "sample": "10"
+    },
+    {
+     "path": "result.first",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "result.last",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "result.sorting.text",
+     "n": 1,
+     "sample": "name"
+    },
+    {
+     "path": "result.sorting.id",
+     "n": 1,
+     "sample": "PNAZEV"
+    },
+    {
+     "path": "result.sorting.default",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "result.duration",
+     "n": 1,
+     "sample": "7"
+    },
+    {
+     "path": "result.usedRawQuery",
+     "n": 1,
+     "sample": "((REZS_FOND:1 OR REZS_FOND:2 OR REZS_FOND:3 OR REZS_FOND:4 OR REZS_FOND:5 OR REZS_FOND:6 OR REZS_FOND:9 OR REZS_FOND:14 "
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "Found in these records"
+    },
+    {
+     "path": "subtitle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "by-authority"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "result.params.recordRelatedRecord.text",
+     "value": "Twain, Mark, 1835-1910"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "rid",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 79,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "containsSubdirectories",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "containsNonCoverFiles",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 549,
+   "path_count": 9,
+   "paths": [
+    {
+     "path": "[].nodes[].id",
+     "n": 3,
+     "sample": "56f025ca-8f6b-4961-bc1a-dfa56cee0e13"
+    },
+    {
+     "path": "[].nodes[].text",
+     "n": 3,
+     "sample": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "[].nodes[].type",
+     "n": 3,
+     "sample": "CURRENT"
+    },
+    {
+     "path": "[].nodes[].level",
+     "n": 3,
+     "sample": "1"
+    },
+    {
+     "path": "[].nodes[].see",
+     "n": 3,
+     "sample": "False"
+    },
+    {
+     "path": "[].nodes[].seeAlso",
+     "n": 3,
+     "sample": "False"
+    },
+    {
+     "path": "[].nodes[].parent",
+     "n": 3,
+     "sample": "False"
+    },
+    {
+     "path": "[].nodes[].current",
+     "n": 3,
+     "sample": "True"
+    },
+    {
+     "path": "[].nodes[].child",
+     "n": 3,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].nodes[].text",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "[].nodes[].text",
+     "value": "Clemens, Samuel Langhorne, 1835-1910"
+    },
+    {
+     "path": "[].nodes[].text",
+     "value": "Mark Twain, 1835-1910"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "see"
+   ]
+  },
+  {
+   "file": "xhr_7.json",
+   "format": "json",
+   "size": 597,
+   "path_count": 16,
+   "paths": [
+    {
+     "path": "[].recordId",
+     "n": 1,
+     "sample": "56f025ca-8f6b-4961-bc1a-dfa56cee0e13"
+    },
+    {
+     "path": "[].department.id",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "[].department.name",
+     "n": 1,
+     "sample": "Knihovna"
+    },
+    {
+     "path": "[].department.text",
+     "n": 1,
+     "sample": "Knihovna"
+    },
+    {
+     "path": "[].department.parentId",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].holdingOrigins[].id",
+     "n": 1,
+     "sample": "e9b2ecfd-b0fd-4d7b-b9ac-329ca485dac7"
+    },
+    {
+     "path": "[].holdingOrigins[].fieldHolding",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "[].holdingOrigins[].discarded",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "[].holdingOrigins[].deleted",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "[].holdingOrigins[].user",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].holdingOrigins[].editPermission.allowed",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "[].holdingOrigins[].editPermission.reason.text",
+     "n": 1,
+     "sample": "User has no permission to work with this record holding"
+    },
+    {
+     "path": "[].holdingOrigins[].deletePermission.allowed",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "[].holdingOrigins[].deletePermission.reason.text",
+     "n": 1,
+     "sample": "User has no permission to work with this record holding"
+    },
+    {
+     "path": "[].holdingOrigins[].discardPermission.allowed",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "[].holdingOrigins[].discardPermission.reason.text",
+     "n": 1,
+     "sample": "User has no permission to work with this record holding"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  }
+ ],
+ "llm_notes": "Provenio (Portaro) authority record Twain, Mark, 1835-1910 with a one-line Czech bio, one bibliography/source note and see-references; zero linked records.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

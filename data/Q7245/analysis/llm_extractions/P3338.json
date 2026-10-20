@@ -1,0 +1,25 @@
+{
+ "property": "P3338",
+ "label": "Encyclopedia of Surfing ID",
+ "files_read": [
+  "P3338__twain-mark/embedded_opengraph.json",
+  "P3338__twain-mark/xhr_18.json",
+  "P3338__twain-mark/xhr_19.json",
+  "P3338__twain-mark/xhr_20.json",
+  "P3338__twain-mark/xhr_21.json",
+  "P3338__twain-mark/xhr_22.json",
+  "P3338__twain-mark/xhr_23.json",
+  "P3338__twain-mark/xhr_24.json",
+  "P3338__twain-mark/xhr_25.json"
+ ],
+ "about_entity": true,
+ "notes": "Only embedded_opengraph.json is about Twain (the entry page). xhr_18-25 are Next.js page props for other, prefetched entries (Cook, James; books and surfing; kook; London, Jack; Melville and Isabella Bird features; two History of Surfing sections). They only mention Twain in passing or link to /encyclopedia/twain-mark (id eos-1617), so about_entity is false for them and nothing was taken from them. The og:description is truncated at the source.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "description": [{"value": "Revered American writer and wit, born Samuel Clemens (1835) in ...", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+  "image": [{"value": "https://cdn.sanity.io/images/f1hjpcr4/production/e1d1dd968c44a9b65a3109749a6c2b0fcb8140c0-900x857.jpg?w=1200&h=675&fit=crop&crop=entropy&q=60", "via": "embedded_opengraph.json: $[0]['og:image']"}],
+  "identifier": [{"value": "twain-mark", "raw": "https://eos.surf/encyclopedia/twain-mark", "via": "embedded_opengraph.json: $[0]['og:url']"}],
+  "record_created": [{"value": "2012-05-10T21:34:31Z", "via": "embedded_opengraph.json: $[0]['article:published_time']"}],
+  "record_modified": [{"value": "2023-09-29T17:38:31Z", "via": "embedded_opengraph.json: $[0]['article:modified_time']"}]
+ }
+}

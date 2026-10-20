@@ -1,0 +1,11 @@
+{
+ "property": "P4399",
+ "label": "Itaú Cultural ID",
+ "files_read": ["P4399__pessoa407320_mark-twain_2a2bb5dd/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata only (title and URL). Odd: the og:url uses a different id form (pessoas/28271-mark-twain) than the Wikidata value (pessoa407320/mark-twain).",
+ "elements": {
+   "name_preferred": [{"value": "Mark Twain", "lang": null, "via": "embedded_opengraph.json: $[0]['og:title']"}],
+   "identifier": [{"value": "28271-mark-twain", "raw": "https://enciclopedia.itaucultural.org.br/pessoas/28271-mark-twain", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

@@ -1,0 +1,608 @@
+{
+ "property": "P1263",
+ "property_label": "NNDB people ID",
+ "files": [
+  {
+   "file": "P1263__452_000022386_5c08bc1a/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.nndb.com/people/452/000022386/"
+  }
+ ],
+ "formats": {
+  "opengraph": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:P1263__452_000022386_5c08bc1a/embedded_opengraph.json: $[0]['og:title']",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "452/000022386",
+    "lang": null,
+    "via": "llm:P1263__452_000022386_5c08bc1a/embedded_opengraph.json: $[0]['og:url']",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://www.nndb.com/people/452/000022386/mark-twain-port.gif",
+    "lang": null,
+    "via": "llm:P1263__452_000022386_5c08bc1a/embedded_opengraph.json: $[0]['og:image']",
+    "file": "P1263.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:AKA line",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Born",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Died",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, MO",
+    "lang": "en",
+    "via": "llm-page:Birthplace",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, CT",
+    "lang": "en",
+    "via": "llm-page:Location of death",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "Male",
+    "lang": "en",
+    "via": "llm-page:Gender",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Author",
+    "lang": "en",
+    "via": "llm-page:Occupation",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm-page:Nationality",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Executive summary: Huckleberry Finn. Cause of death: Heart Failure. Remains: Buried, Woodlawn Cemetery, Elmira, NY. Religion: Atheist. Race or Ethnicity: White. Sexual orientation: Straight. American Anti-Imperialist League VP (1901-10); E Clampus Vitus; Freemasonry Polar Star Lodge No. 79; Phi Beta Kappa Society; Bankruptcy 1894; Risk Factors: Depression, Smoking, Color Blindness.",
+    "lang": "en",
+    "via": "llm-page:profile fields (compiled)",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "John Marshall Clemens (father; storekeeper, b. 11-Aug-1798, d. 24-Mar-1847)",
+    "lang": "en",
+    "via": "llm-page:Father",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Lampton (mother; b. 18-Jun-1803, d. 27-Oct-1890)",
+    "lang": "en",
+    "via": "llm-page:Mother",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Langdon (wife; m. 2-Feb-1870, d. 5-Jun-1904)",
+    "lang": "en",
+    "via": "llm-page:Wife",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Langdon (son; b. 1870, d. 1872)",
+    "lang": "en",
+    "via": "llm-page:Son",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Jean (daughter; b. 1880, d. 1909)",
+    "lang": "en",
+    "via": "llm-page:Daughter",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Susy (daughter; b. 1872, d. 1896)",
+    "lang": "en",
+    "via": "llm-page:Daughter",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Clara Clemens (daughter; b. 8-Jun-1874, d. 19-Nov-1962)",
+    "lang": "en",
+    "via": "llm-page:Daughter",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Joseph Twichell (correspondent; letter quoted)",
+    "lang": "en",
+    "via": "llm-page:footnote [1]",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "William Gibson (editor of Mark Twain's Mysterious Stranger Manuscripts, 1969)",
+    "lang": "en",
+    "via": "llm-page:footnote [1]",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "American Anti-Imperialist League (vice-president 1901-10)",
+    "lang": "en",
+    "via": "llm-page:affiliations",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "E Clampus Vitus (member)",
+    "lang": "en",
+    "via": "llm-page:affiliations",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Freemasonry Polar Star Lodge No. 79 (member)",
+    "lang": "en",
+    "via": "llm-page:affiliations",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Phi Beta Kappa Society (member)",
+    "lang": "en",
+    "via": "llm-page:affiliations",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's (Burlesque) Autobiography and First Romance",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age: A Tale of Today",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Sketches: New and Old",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Punch, Brothers Punch! And Other Sketches",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper: A Tale for Young People of All Ages",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The Stolen White Elephant",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The American Claimant",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Merry Tales",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The £1,000,000 Bank Note and Other Stories",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd'nhead Wilson, and the Comedy Those Extraordinary Twins",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc, by the Sieur Louis de Conte",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad, Tom Sawyer Detective, and Other Stories",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator: A Journey Around the World",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "How To Tell a Story and Other Essays",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The Man that Corrupted Hadleyburg and Other Stories and Essays",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "A Double Barrelled Detective Story",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "My Debut as a Literary Person and Other Essays",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Extracts from Adam's Diary",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "King Leopold's Soliloquy",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "What Is Man?",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The $30,000 Bequest and Other Stories",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Eve's Diary",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Christian Science",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "A Horse's Tale",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Is Shakespeare Dead?",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Extract from Captain Stormfield's Visit to Heaven",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Speeches",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Letters",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "The Curious Republic of Gondour and Other Whimsical Sketches",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Europe and Elsewhere",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Autobiography",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": "en",
+    "via": "llm-page:Author of books",
+    "file": "P1263.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "identifier": [],
+  "image": [],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "gender": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 245,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.nndb.com/people/452/000022386/"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.nndb.com/people/452/000022386/mark-twain-port.gif"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:image",
+     "value": "https://www.nndb.com/people/452/000022386/mark-twain-port.gif"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "NNDB profile of Mark Twain: vital data, cause of death, burial, religion, family members with dates, affiliations and a 44-title 'Author of books' list (capped at 40 here).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,4514 @@
+[
+ {
+  "property": "P8313",
+  "label": "Lex ID",
+  "host": "lex.dk",
+  "domain": "encyclopedia",
+  "wikidata_values": [
+   {
+    "value": "Mark_Twain",
+    "url": "https://wikidata-externalid-url.toolforge.org/?p=8313&url_prefix=https://lex.dk/&id=Mark_Twain"
+   }
+  ],
+  "records": [
+   {
+    "value": "Mark_Twain",
+    "url": "https://wikidata-externalid-url.toolforge.org/?p=8313&url_prefix=https://lex.dk/&id=Mark_Twain",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://lex.dk/Mark_Twain",
+    "crawl_status": "ok",
+    "title": "Mark Twain – Lex",
+    "page": {
+     "chars": 9205,
+     "excerpt": "ACCEPT AF COOKIES PÅ LEX På Lex bruger vi både egne og tredjeparters cookies. En del af dem er nødvendige, mens andre bruges til: FunktionalitetStatistikMarkedsføring Klik på ”Accepter alle”, hvis du accepterer dette. Eller klik på knapperne i bunden for at give samtykke til enkelte formål. Dit samtykke kan altid ændres ved at klikke på ikonet nederst til venstre på alle sider. Læs mere om cookies på Lex Googles privatlivspolitik Vælg alle Nødvendige Disse cookies er nødvendige for, at Lex kan fungere, og kan ikke slås fra i vores systemer. Du kan se listen over nødvendige cookies nedenfor. Funktionalitet Disse cookies forbedrer funktioner på Lex. Hvis du fravælger disse, vil Lex stadig fungere, men der kan være funktioner, du ikke vil have adgang til, fx fremvisning af video. På Lex bruger vi bl.a. værktøjet Sleeknote. Det viser alle besøgende relevant indhold. Vi bruger bl.a. cookies til at registrere, om du allerede har set dette indhold, så vi fx ikke viser dig det mere end én gang. Du kan se listen over funktionelle cookies nedenfor. Statistik Disse cookies hjælper os til at forstå brugen af Lex ved at lade din brug af Lex indgå i en samlet statistik over, hvilke sider på Lex  […] t klassificere sammen med udbyderne af de enkelte cookies. Afvis alle Gem indstillinger Accepter alle Spring til hovedindholdet Quizzer Nyhedsbrev Skriv 1 eller flere tegn for at se søgeforslag. Mark Twain Lex Kunst og kultur Litteratur Amerikansk litteratur Amerikanske forfattere 1880-1914 SKREVET AF Jan Nordby Gretlund Faktaboks MARK TWAIN Samuel Langhorne Clemens FØDT 30. november 1835 DØD 21. april 1910 Mark Twain. Udateret fotografi. Af Gyldendal. Licens: Begrænset anvendelse Mark Twain var en amerikansk forfatter. Mark Twain er amerikansk litteraturs største humorist og efter manges mening væsentligste forfatter. Han voksede op i Missouri i en hverdag præget af raceadskillelse og slaveri. På grund af faderens død kom han som 12-årig i lære som bogtrykker, senere arbejdede han som lods på Mississippi River. Da Den Amerikanske Borgerkrig brød ud, drog han til Nevada, skildret i Roughing It (1872, da. uddrag i Udvalgte Skitser, 1874). Efter en tid som sølvgraver begyndte han i 1863 "
+    },
+    "screenshot": "pages/P8313__Mark_Twain.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 52/60 values",
+   "access_group": "plain HTTP",
+   "format_family": "RDF",
+   "formats": [
+    "json-ld",
+    "microdata",
+    "rdfa"
+   ],
+   "values": 60,
+   "page_text_values": 52,
+   "descriptive_values": 50,
+   "unique_share": 0.24,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": false,
+   "wd_match": 6,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Mark Twain. Udateret fotografi.",
+      "via": "json:name"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_microdata.json: $[1].name 'Mark Twain. Udateret"
+     }
+    ]
+   },
+   "license": {
+    "n": 3,
+    "from_structured": 1,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "https://lex.dk/.licenses/restricted",
+      "via": "json:license"
+     },
+     {
+      "value": "begrænset genbrug",
+      "via": "llm-page:VILKÅR FOR GENBRUG"
+     },
+     {
+      "value": "Licens: Begrænset anvendelse (image)",
+      "via": "llm-page:image credit"
+     }
+    ]
+   },
+   "type": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://schema.org/WebPage",
+      "via": "type"
+     }
+    ]
+   },
+   "image": {
+    "n": 3,
+    "from_structured": 2,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "https://media.lex.dk/media/13017/standard_Mark_Twain.jpg",
+      "via": "og:image"
+     },
+     {
+      "value": "https://media.lex.dk/media/13017/standard_compressed_Mark_Twain.jpg",
+      "via": "llm:embedded_microdata.json: $[1].contentUrl"
+     },
+     {
+      "value": "Mark Twain. Udateret fotografi. Af Gyldendal.",
+      "via": "llm-page:image caption"
+     }
+    ]
+   },
+   "field_of_activity": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Amerikansk litteratur",
+      "via": "llm:embedded_microdata.json: $[0].breadcrumb.itemListElement"
+     },
+     {
+      "value": "Amerikanske forfattere 1880-1914",
+      "via": "llm:embedded_microdata.json: $[0].breadcrumb.itemListElement"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "llm-page:Faktaboks"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:article: 'begyndte han i 1863 at skrive under mærke"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:Faktaboks FØDT"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:Faktaboks DØD"
+     }
+    ]
+   },
+   "activity_place": {
+    "n": 8,
+    "from_structured": 0,
+    "from_page_text": 8,
+    "samples": [
+     {
+      "value": "Missouri",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "Mississippi River",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "Nevada",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "Virginia City",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "Australien",
+      "via": "llm-page:article"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "amerikansk",
+      "via": "llm-page:article first sentence"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 5,
+    "from_structured": 0,
+    "from_page_text": 5,
+    "samples": [
+     {
+      "value": "forfatter",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "humorist",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "bogtrykker (lære)",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "lods",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "sølvgraver",
+      "via": "llm-page:article"
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain var en amerikansk forfatter. Mark Twain er amerikansk litteraturs største humorist og efter manges mening væs",
+      "via": "llm-page:article opening"
+     }
+    ]
+   },
+   "work": {
+    "n": 25,
+    "from_structured": 0,
+    "from_page_text": 25,
+    "samples": [
+     {
+      "value": "Roughing It",
+      "via": "llm-page:article text"
+     },
+     {
+      "value": "Udvalgte Skitser",
+      "via": "llm-page:article text"
+     },
+     {
+      "value": "Jim Smiley and His Jumping Frog",
+      "via": "llm-page:article text"
+     },
+     {
+      "value": "The Innocents Abroad",
+      "via": "llm-page:article text"
+     },
+     {
+      "value": "Naive Reisende",
+      "via": "llm-page:article text"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "C.D. Warner (1829-1900) (co-author, The Gilded Age)",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "Jan Nordby Gretlund (article author)",
+      "via": "llm-page:SKREVET AF"
+     }
+    ]
+   },
+   "source": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Den Store Danske",
+      "via": "llm-page:ARTIKLEN INDEHOLDER TEKST FRA"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "2023-05-22",
+      "via": "llm-page:SENEST ÆNDRET"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark_Twain",
+      "via": "llm-page:page URL https://lex.dk/Mark_Twain"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "Lex.dk (Den Store Danske) article microdata: breadcrumb taxonomy, article authors (Jan Nordby Gretlund / Den Store Danske, not related agents) and an image object. No article text is included."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "encyclopedia article",
+    "notes": "Lex.dk (Danish national encyclopedia) article by Jan Nordby Gretlund with a fact box (birth name, dates), an image credit, a full Danish biography with English and Danish work titles, and revision info. Cookie banner and 'recent changes' sidebar are chrome."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 1,
+   "extraction_noise": 1
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P8385",
+  "label": "IDU person ID",
+  "host": "vis.idu.cz",
+  "domain": "government-other",
+  "wikidata_values": [
+   {
+    "value": "4559",
+    "url": "https://vis.idu.cz/Persons.aspx?personId=4559"
+   }
+  ],
+  "records": [
+   {
+    "value": "4559",
+    "url": "https://vis.idu.cz/Persons.aspx?personId=4559",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://vis.idu.cz/Persons.aspx?personId=4559",
+    "crawl_status": "ok",
+    "title": "Czech Theatre Database. Professional Activities",
+    "page": {
+     "chars": 762,
+     "excerpt": "library audio library video library bibliography production scenography theatre photos theatre events casting/roles oral history Art and Theatre Institute about project report a bug open data contact Virtual Study Database and on-line services of the Theatre Institute Professional Activities Check Robots are not life. Robots are machines. (Karel Čapek, R.U.R.) Rewrite characters in the window: Check Other links Partners Czech historical bibliography 1851–1989 Czech theatre encyclopedia Evropean theatre architecture – EUTA PQ Archive Czech Theatre Premieres Festivals in Czechia Theatre institution addressbook Institute of Czech Literature of the CAS Ministry of Culture Czech Republic Státní fond kultury EEA grants NextGenerationEU National Recovery Plan"
+    },
+    "screenshot": "pages/P8385__4559.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "wrong_page",
+   "resolved": false,
+   "wrong_page_reason": "page rendered but never mentions the entity",
+   "entity_on_page": false,
+   "has_data": false,
+   "access": "none",
+   "access_group": "no entity data",
+   "format_family": "none",
+   "formats": [],
+   "values": 0,
+   "page_text_values": 0,
+   "descriptive_values": 0,
+   "unique_share": null,
+   "uniqueness_bucket": "no descriptive data",
+   "page_text_only": false,
+   "wd_match": 0,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {},
+  "chrome_elements_parked": {},
+  "extraction_notes": {},
+  "review_verdicts": {},
+  "review_flags": []
+ },
+ {
+  "property": "P8445",
+  "label": "Our Campaigns candidate ID",
+  "host": "www.ourcampaigns.com",
+  "domain": "government-other",
+  "wikidata_values": [
+   {
+    "value": "96417",
+    "url": "https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=96417"
+   }
+  ],
+  "records": [
+   {
+    "value": "96417",
+    "url": "https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=96417",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=96417",
+    "crawl_status": "ok",
+    "title": "OurCampaigns",
+    "page": {
+     "chars": 1002,
+     "excerpt": "fFh6qtpUNS7gydnfSlzDGjqI0WVFB\"jJ WdK5nDIcTJnbRLPvXsYwSN o ASrHy gisX cwZfqMWCahIVqcFfqLefGNTY\"0cIcigThi9cqNCmdQ94G9rJhUmIMt64ddAca8fSZt6e8wlr1RTUFpka>skucrG5YlD1mhns5zjfndJmxFEtPZ3q>P\"Ql3EgNfJkiQ95B9TlihKcekfbPVCiqAkpvgYnPq3OqBVCJhoIvE6Bw2vtqUQGlC7jbkC9sIhi9ISBpebeW2Xd>P>NK8hLPnNMp E1ptoI9y20tonuL\"FZQA>scscbAc7mXGuZCFwz5zsPoDDPIb9dGAzPtieWGAn1hevnN9wSZslV VpGi7oKK6WVTTJmU s6zDGT4kWAXs0RF5kE85VZnu2\"4qwURrK\"gALv sadZep1t6HimhQ\"ASD0AWIgNsTiSzMP9eIEswRkAqBybvgXYJ2HPc<>6nSwmiGm UgE0QWfw><6Mqn2gyOzT4A28xxL9grcPNqvjT52lGnyJV9vkQrDF3pMYu09IVifm2MGtu7pKYkgIpsheVM9q6O>Bvk>jxYX9UFPz1PzMIVT3T>dSK6cqwzi3nrZP9t4v4H43atBF8wv3yYWZLPV<8X628bi3A3AJzIJ1mP0jsz6q2bUfLKO9ZE2ZMlDYH09gQHENSg6Gq>QfHeMVpqTefVoaZHXBXKyfsp2mxVVW0iOy3Mh1aOFkmnCYrhxA9BAcI3VdmFX409TqWY00DZ PuXcOKFqqSYuh0gEYPABQDEDEDSKPWwXq2jSqG5JOcZmPKdQEMk3QVtTMpIwcQ DK39wmW22Bzn0E9fVVoYwn\"VBlcByFTqvfmnEHPpDJfm<11iPyi6wDTbhtLXn00oOhW6JMKwM2oNfeh9gNEVydb04>kcxtydFCueqysqVPHT aGpRzGzylEo5L0pY4Cm9mBIHqgqolQVYQsdQi7fB2Wj\"FjeD76jB 8E7cmp>WFMl0A\"cPxbjvMKiI"
+    },
+    "screenshot": "pages/P8445__96417.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "wrong_page",
+   "resolved": false,
+   "wrong_page_reason": "page rendered but never mentions the entity",
+   "entity_on_page": false,
+   "has_data": false,
+   "access": "none",
+   "access_group": "no entity data",
+   "format_family": "none",
+   "formats": [],
+   "values": 0,
+   "page_text_values": 0,
+   "descriptive_values": 0,
+   "unique_share": null,
+   "uniqueness_bucket": "no descriptive data",
+   "page_text_only": false,
+   "wd_match": 0,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {},
+  "chrome_elements_parked": {},
+  "extraction_notes": {},
+  "review_verdicts": {},
+  "review_flags": []
+ },
+ {
+  "property": "P8496",
+  "label": "Archive Site Trinity College Cambridge ID",
+  "host": "archives.trin.cam.ac.uk",
+  "domain": "archives",
+  "wikidata_values": [
+   {
+    "value": "clemens-samuel-langhorne-1835-1910-author-and-lecturer-pen-name-mark-twain",
+    "url": "https://archives.trin.cam.ac.uk/index.php/clemens-samuel-langhorne-1835-1910-author-and-lecturer-pen-name-mark-twain"
+   }
+  ],
+  "records": [
+   {
+    "value": "clemens-samuel-langhorne-1835-1910-author-and-lecturer-pen-name-mark-twain",
+    "url": "https://archives.trin.cam.ac.uk/index.php/clemens-samuel-langhorne-1835-1910-author-and-lecturer-pen-name-mark-twain",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://archives.trin.cam.ac.uk/index.php/clemens-samuel-langhorne-1835-1910-author-and-lecturer-pen-name-mark-twain",
+    "crawl_status": "ok",
+    "title": "Clemens, Samuel Langhorne (1835-1910) author and lecturer, pen name Mark Twain - archives.trin.cam.ac.uk",
+    "page": {
+     "chars": 888,
+     "excerpt": "Skip to main content BROWSE Search SEARCH OPTIONS SEARCH IN BROWSE PAGE Clipboard Language Quick links Archive Site Trinity College Cambridge Subject of Letter from Adila d’Arányi to Elizabeth Trevelyan Letter from Emmeline Pethick to F. W. Lawrence Letters from Samuel Langhorne Clemens to F.W.H. Myers Browse 3 results Clemens, Samuel Langhorne (1835-1910) author and lecturer, pen name Mark Twain Authority record Clemens, Samuel Langhorne (1835-1910) author and lecturer, pen name Mark Twain Identity area Type of entity Person Authorized form of name Clemens, Samuel Langhorne (1835-1910) author and lecturer, pen name Mark Twain Other form(s) of name Mark Twain (pseudonym) Description area Dates of existence 1835-1910 Relationships area Related entity Clemens, Cyril (1902-1999) author, cousin of Samuel Clemens (1902-1999) Category of relationship family Clipboard Add Export EAC"
+    },
+    "screenshot": "pages/P8496__clemens-samuel-langhorne-1835-1910-author-and-lecturer-pen-n_7123170c.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page text only (LLM over HTML)",
+   "access_group": "page text only",
+   "format_family": "page text (LLM)",
+   "formats": [
+    "html"
+   ],
+   "values": 12,
+   "page_text_values": 12,
+   "descriptive_values": 11,
+   "unique_share": 0.55,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": true,
+   "wd_match": 2,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Clemens, Samuel Langhorne (1835-1910) author and lecturer, pen name Mark Twain",
+      "via": "llm-page:Authorized form of name"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:Other form(s) of name"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm-page:Dates of existence"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm-page:Dates of existence"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "author",
+      "via": "llm-page:Authorized form of name"
+     },
+     {
+      "value": "lecturer",
+      "via": "llm-page:Authorized form of name"
+     }
+    ]
+   },
+   "work": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Letters from Samuel Langhorne Clemens to F.W.H. Myers",
+      "via": "llm-page:'Subject of' list (archival description)"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 4,
+    "from_structured": 0,
+    "from_page_text": 4,
+    "samples": [
+     {
+      "value": "Clemens, Cyril (1902-1999) author, cousin of Samuel Clemens (family)",
+      "via": "llm-page:Relationships area"
+     },
+     {
+      "value": "F.W.H. Myers (correspondent)",
+      "via": "llm-page:'Subject of' list"
+     },
+     {
+      "value": "Adila d’Arányi / Elizabeth Trevelyan (letter mentioning him)",
+      "via": "llm-page:'Subject of' list"
+     },
+     {
+      "value": "Emmeline Pethick / F. W. Lawrence (letter mentioning him)",
+      "via": "llm-page:'Subject of' list"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "clemens-samuel-langhorne-1835-1910-author-and-lecturer-pen-name-mark-twain",
+      "via": "llm-page:URL slug"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "AtoM authority record at Trinity College Cambridge archives for Clemens, Samuel Langhorne: authorized name, pseudonym, dates, one family relationship, and the three archival descriptions he is subject of (letters)."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 4,
+   "wikidata_gap_or_error": 1
+  },
+  "review_flags": [
+   {
+    "element": "related_agent",
+    "verdict": "wikidata_gap_or_error",
+    "reason": "The record's one family relationship, 'Clemens, Cyril (1902-1999) author, cousin of Samuel Clemens', is a real (distant) kinship Wikidata lacks; the other values (F.W.H. Myers as correspondent, letter"
+   }
+  ]
+ },
+ {
+  "property": "P8591",
+  "label": "Grove Music Online ID",
+  "host": "www.oxfordmusiconline.com",
+  "domain": "music-audio",
+  "wikidata_values": [
+   {
+    "value": "A2087699",
+    "url": "https://doi.org/10.1093/gmo/9781561592630.article.A2087699"
+   }
+  ],
+  "records": [
+   {
+    "value": "A2087699",
+    "url": "https://doi.org/10.1093/gmo/9781561592630.article.A2087699",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.oxfordmusiconline.com/grovemusic/display/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-1002087699",
+    "crawl_status": "ok",
+    "title": "Twain, Mark | Grove Music",
+    "page": {
+     "chars": 1333,
+     "excerpt": "Jump to Content Login About Tools and Resources Subscribe Customer Services Oxford Music Online Grove Music Online Advanced search Topic Instrument Era Region Place Type Occupation Cite Bookmark Share Email Article contents Bibliography Abbreviations Twain, Mark [Clemens, Samuel Langhorne] Michael Hovland https://doi.org/10.1093/gmo/9781561592630.article.A2087699 Published in print: 26 November 2013Published online: 26 May 2010 Sign in Get help with access Personal account Sign in with email/username & password Save searches Add bookmarks Create annotations Sign in Register Personal accounts are created and managed on Oxford Academic. Institutional access Sign in through your institution Sign in with a library card Sign in with username / password Recommend to your librarian Institutional account management Sign in as administrator on Oxford Academic Purchase Grove Music Online is available by subscription. Oxford University Press Copyright © Oxford University Press 2026. Cookie Policy Privacy Policy Legal Notice Contact Us Help Accessibility Oxford University Press uses cookies to enhance your experience on our website. By selecting ‘accept all’ you are agreeing to our use of cook"
+    },
+    "screenshot": "pages/P8591__A2087699.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page blocked for plain HTTP only + page text for 5/15 values",
+   "access_group": "page blocks plain clients",
+   "format_family": "embedded markup",
+   "formats": [
+    "rdfa"
+   ],
+   "values": 15,
+   "page_text_values": 5,
+   "descriptive_values": 5,
+   "unique_share": 0.6,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 2,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "description": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "\"Twain, Mark\" published on  by Oxford University Press.",
+      "via": "og:description"
+     },
+     {
+      "value": "[Clemens, Samuel Langhorne] (b Florida, MO, Nov 30, 1835; d Redding, CT, April 21, 1910). American writer. An examinatio",
+      "via": "description"
+     }
+    ]
+   },
+   "image": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://www.oxfordmusiconline.com/grovemusic/cover/default",
+      "via": "og:image"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 4,
+    "from_structured": 2,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "10.1093/gmo/9781561592630.article.A2087699",
+      "via": "identifier"
+     },
+     {
+      "value": "omo-9781561592630-e-1002087699",
+      "via": "llm:embedded_opengraph.json: $[0]['og:url']"
+     },
+     {
+      "value": "A2087699",
+      "via": "llm-page:DOI suffix"
+     },
+     {
+      "value": "https://doi.org/10.1093/gmo/9781561592630.article.A2087699",
+      "via": "llm-page:DOI line"
+     }
+    ]
+   },
+   "source": {
+    "n": 3,
+    "from_structured": 2,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "http://www.oxfordmusiconline.com/grovemusic/documentID/omo-9781561592630-e-1002087699",
+      "via": "source"
+     },
+     {
+      "value": "Oxford University Press",
+      "via": "llm:embedded_opengraph.json: $[0]['og:description']"
+     },
+     {
+      "value": "Michael Hovland (article author)",
+      "via": "llm-page:byline"
+     }
+    ]
+   },
+   "work": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Michael Hovland",
+      "via": "author"
+     }
+    ]
+   },
+   "record_created": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "2010-05-26",
+      "via": "dateCreated"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Twain, Mark",
+      "via": "llm:embedded_opengraph.json: $[0]['og:title']"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Clemens, Samuel Langhorne",
+      "via": "llm-page:article heading (bracketed real name)"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "2013-11-26",
+      "via": "llm-page:publication line"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "OpenGraph metadata for the Grove article: inverted heading and DOI-based URL. og:description is a boilerplate publisher line with a missing date; og:image is a default cover."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "encyclopedia article",
+    "notes": "Grove Music Online article landing page behind a subscription/login wall: only the heading, author (Michael Hovland), DOI and publication dates are visible; the article body is not shown."
+   }
+  },
+  "review_verdicts": {
+   "extraction_noise": 1
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P8795",
+  "label": "Diamond Catalog ID for persons and organisations",
+  "host": "opac.diamondrda.org",
+  "domain": "library-catalogue",
+  "wikidata_values": [
+   {
+    "value": "25088",
+    "url": "https://opac.diamondrda.org/agent/25088"
+   }
+  ],
+  "records": [
+   {
+    "value": "25088",
+    "url": "https://opac.diamondrda.org/agent/25088",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://opac.diamondrda.org/agent/25088",
+    "crawl_status": "login_wall_suspected",
+    "title": "Twain, Mark, 1835‒1910 General catalogue",
+    "page": {
+     "chars": 659,
+     "excerpt": "Home Latest records My Space Network Sign in All the catalog Advanced search Person A 25088 Cataloging language French Arabic Twain, Mark, 1835‒1910 Public Unimarc Language English Gender Male Life dates 30 November 1835 — 21 April 1910 Place of birth Florida, Missouri Place of death Redding, Connecticut Nationality United States of America Profession Romancier, journaliste et humoriste Identifier ISNI VIAF FRBNF ARK BNF IdRef WKD LC Webography Wikipedia Access points 3 Authorized Twain, Mark, 1835‒1910 توين، مارك، 1835‒1910 Variant Clemens, Samuel Langhorne, 1835‒1910 Publication 14 Production 12 Collaborator 11 OPAC Diamond powered by © LRM-CS, 2026"
+    },
+    "screenshot": "pages/P8795__25088.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "login_wall_suspected",
+   "resolved": false,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page blocked for plain HTTP only",
+   "access_group": "page blocks plain clients",
+   "format_family": "embedded markup",
+   "formats": [
+    "rdfa"
+   ],
+   "values": 5,
+   "page_text_values": 0,
+   "descriptive_values": 4,
+   "unique_share": 0.25,
+   "uniqueness_bucket": "too few values to judge (< 5)",
+   "page_text_only": false,
+   "wd_match": 1,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "description": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Person",
+      "via": "og:description"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Twain, Mark",
+      "via": "llm:embedded_opengraph.json: [0].og:title"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm:embedded_opengraph.json: [0].og:title"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm:embedded_opengraph.json: [0].og:title"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "25088",
+      "via": "llm:embedded_opengraph.json: [0].og:url (https://opac.diamon"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "OpenGraph metadata for the Diamond (ALKINDI4 OPAC) agent page; og:title is the authorized heading with dates, og:description just 'Person'."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 2
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P8814",
+  "label": "WordNet 3.1 Synset ID",
+  "host": "en-word.net",
+  "domain": "research-academic",
+  "wikidata_values": [
+   {
+    "value": "10920482-n",
+    "url": "https://en-word.net/view/synset/10920482-n"
+   }
+  ],
+  "records": [
+   {
+    "value": "10920482-n",
+    "url": "https://en-word.net/view/synset/10920482-n",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://en-word.net/view/synset/10920482-n",
+    "crawl_status": "ok",
+    "title": "10920482-n - Open English Wordnet",
+    "page": {
+     "chars": 937,
+     "excerpt": "Open English Wordnet Options ▼ (n)Clemens, Samuel Langhorne Clemens, Mark TwainUnited States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910) MORE ▶ Download As: JSONRDF/XMLTurtleXML Open English Wordnet is derived from Princeton WordNet by the Open English Wordnet Community and released under the Creative Commons Attribution (CC-BY) 4.0 License. Further information about Wordnet. We welcome any corrections, improvements or other contributions at GitHub. A full list of contributors is available on GitHub. This interface was created by John P. McCrae at the Data Science Institute, University of Galway (GitHub). Development of this interface is supported by Science Foundation Ireland as part of the Insight Centre for Data Analytics and the European Union's Horizon 2020 research and innovation programme under grant agreement No 731015 (ELEXIS). Downloads | JSON API documentation |"
+    },
+    "screenshot": "pages/P8814__10920482-n.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 1/18 values",
+   "access_group": "plain HTTP",
+   "format_family": "RDF",
+   "formats": [
+    "json",
+    "rdf-xml"
+   ],
+   "values": 18,
+   "page_text_values": 1,
+   "descriptive_values": 10,
+   "unique_share": 0.0,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": false,
+   "wd_match": 4,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "description": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)",
+      "via": "json:definition"
+     },
+     {
+      "value": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)",
+      "via": "llm:export_2.json: $.definition[0]; export_5.xml: Synset/Def"
+     }
+    ]
+   },
+   "type": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://www.w3.org/ns/lemon/ontolex#LexicalSense",
+      "via": "type"
+     },
+     {
+      "value": "http://www.w3.org/ns/lemon/ontolex#LexicalConcept",
+      "via": "type"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 4,
+    "from_structured": 4,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)",
+      "via": "definition/value"
+     },
+     {
+      "value": "10920482-n",
+      "via": "llm:export_2.json: $.id"
+     },
+     {
+      "value": "oewn-10920482-n",
+      "via": "llm:export_5.xml: Synset@id"
+     },
+     {
+      "value": "i94739",
+      "via": "llm:export_2.json: $.ili (Interlingual Index)"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm:export_2.json: $.members[2].lemma"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "llm:export_2.json: $.members[1].lemma; export_5.xml: Lexical"
+     },
+     {
+      "value": "Clemens",
+      "via": "llm:export_2.json: $.members[0].lemma; export_5.xml: Lexical"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "writer",
+      "via": "llm:export_2.json: $.definition[0]"
+     },
+     {
+      "value": "humorist",
+      "via": "llm:export_2.json: $.definition[0]"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "United States",
+      "via": "llm:export_2.json: $.definition[0]"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm:export_2.json: $.definition[0]"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm:export_2.json: $.definition[0]"
+     }
+    ]
+   },
+   "license": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "via": "llm:export_5.xml: Lexicon@license"
+     },
+     {
+      "value": "Creative Commons Attribution (CC-BY) 4.0",
+      "via": "llm-page:page footer (applies to the wordnet data)"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "Open English WordNet synset 10920482-n (JSON and WN-LMF XML) with three lemmas and a gloss; license CC BY 4.0 from the lexicon header."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "other",
+    "notes": "Open English Wordnet synset page: synset lemmas (Clemens, Samuel Langhorne Clemens, Mark Twain) and a one-line gloss with life years. Data under CC BY 4.0."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 2
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P8833",
+  "label": "Union Catalog of Armenian Libraries authority ID",
+  "host": "armunicat.nla.am",
+  "domain": "national-library",
+  "wikidata_values": [
+   {
+    "value": "18081",
+    "url": "http://armunicat.nla.am/cgi-bin/koha/opac-authoritiesdetail.pl?authid=18081"
+   },
+   {
+    "value": "28678",
+    "url": "http://armunicat.nla.am/cgi-bin/koha/opac-authoritiesdetail.pl?authid=28678"
+   },
+   {
+    "value": "29148",
+    "url": "http://armunicat.nla.am/cgi-bin/koha/opac-authoritiesdetail.pl?authid=29148"
+   }
+  ],
+  "records": [
+   {
+    "value": "18081",
+    "url": "http://armunicat.nla.am/cgi-bin/koha/opac-authoritiesdetail.pl?authid=18081",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://armunicat.nla.am/cgi-bin/koha/opac-authoritiesdetail.pl?authid=18081",
+    "crawl_status": "login_wall_suspected",
+    "title": "Մարկ Տվեն, 1835-1910 (Personal Name) › Authority search › ՀԱՅԱՍՏԱՆԻ ԳՐԱԴԱՐԱՆՆԵՐԻ ՀԱՄԱՀԱՎԱՔ ԳՐԱՑՈՒՑԱԿ = Union Catalog of Armenian Libraries catalog",
+    "page": {
+     "chars": 1703,
+     "excerpt": "Skip to main content ՀԱՅԱՍՏԱՆԻ ԳՐԱԴԱՐԱՆՆԵՐԻ ՀԱՄԱՀԱՎԱՔ ԳՐԱՑՈՒՑԱԿ = Union Catalog of Armenian Libraries Cart Lists Log in to your account Search history ՀԱՅԱՍՏԱՆԻ ԳՐԱԴԱՐԱՆՆԵՐԻ ՀԱՄԱՀԱՎԱՔ ԳՐԱՑՈՒՑԱԿ = Union Catalog of Armenian Libraries Search the catalog by: Library catalog Title Author Subject ISBN ISSN Series Call number Search the catalog Advanced search Browse by hierarchy Authority search Tag cloud Libraries Home Authority search Մարկ Տվեն, 1835-1910(Personal Name) Normal view MARC view Մարկ Տվեն, Մարկ Տվեն, 1835-1910(Personal Name) Number of records used in: 4 Preferred form: Մարկ Տվեն, 1835-1910 Used for/see from: Տվեն Մարկ, 1835-1910 Մարկ Թվեյն, 1835-1910 Մ. Թուէյն (Ս. Քլէմընս), (Մարկ) 1835-1910 Մ. Տուէն (Սամուէլ Կլէմէնս), (Մարկ) 1835-1910 Մ. Տվեն, (Մարկ) 1835-1910 Տուէն Մարկ, 1835-1910 Марк Твен 1835-1910 М. Твен, 1835-1910 Твен, Марк, 1835-1910 Mark Twain, 1835-1910 Mark Twain, 1835-1910 Twayn, Mārk, 1835-1910 Sieur Louis de Conte, 1835-1910 馬克吐温, 1835-1910 See also: n: Կլեմենս, Սեմյուել Լենգհոռն, 1835-1910 n: Քլեմենս, Սամվել Լանգհորն, 1835-1910 n: Conte, Louis de, 1835-1910 n: Jean François Alden, 1835-1910 Notes <a href=\"http://hy.wikipedia.org/wiki/Մարկ_Տվեն\" target=\"_blan"
+    },
+    "screenshot": "pages/P8833__18081.jpg"
+   },
+   {
+    "value": "28678",
+    "url": "http://armunicat.nla.am/cgi-bin/koha/opac-authoritiesdetail.pl?authid=28678",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://armunicat.nla.am/cgi-bin/koha/errors/404.pl",
+    "crawl_status": "http_error",
+    "title": "An error has occurred › ՀԱՅԱՍՏԱՆԻ ԳՐԱԴԱՐԱՆՆԵՐԻ ՀԱՄԱՀԱՎԱՔ ԳՐԱՑՈՒՑԱԿ = Union Catalog of Armenian Libraries catalog",
+    "page": {
+     "chars": 1195,
+     "excerpt": "Skip to main content ՀԱՅԱՍՏԱՆԻ ԳՐԱԴԱՐԱՆՆԵՐԻ ՀԱՄԱՀԱՎԱՔ ԳՐԱՑՈՒՑԱԿ = Union Catalog of Armenian Libraries Cart Lists Log in to your account Search history ՀԱՅԱՍՏԱՆԻ ԳՐԱԴԱՐԱՆՆԵՐԻ ՀԱՄԱՀԱՎԱՔ ԳՐԱՑՈՒՑԱԿ = Union Catalog of Armenian Libraries Search the catalog by: Library catalog Title Author Subject ISBN ISSN Series Call number Search the catalog Advanced search Browse by hierarchy Authority search Tag cloud Libraries Home An error has occurred Sorry, the requested page is not available Error 404 This message can have the following reason(s): You made use of an external link to a catalog item that is no longer available. You followed an outdated link e.g. from a search engine or a bookmark. You tried to access a page that needs authentication. An internal link in our catalog home page is broken and the page does not exist. What's next? You can use the menu and links at the top of the page You can search our catalog using the search form at the top of this page. Return to the catalog home page. Report issues and broken links To report this error, please contact the Koha Administrator. Send email. Հայաստանի ազգային գրադարան ՀՀ, 0009,Երևան, Տերյան 72 Հետադարձ կապ Languages Powered by Koha"
+    },
+    "screenshot": "pages/P8833__28678.jpg"
+   },
+   {
+    "value": "29148",
+    "url": "http://armunicat.nla.am/cgi-bin/koha/opac-authoritiesdetail.pl?authid=29148",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://armunicat.nla.am/cgi-bin/koha/errors/404.pl",
+    "crawl_status": "http_error",
+    "title": "An error has occurred › ՀԱՅԱՍՏԱՆԻ ԳՐԱԴԱՐԱՆՆԵՐԻ ՀԱՄԱՀԱՎԱՔ ԳՐԱՑՈՒՑԱԿ = Union Catalog of Armenian Libraries catalog",
+    "page": {
+     "chars": 1195,
+     "excerpt": "Skip to main content ՀԱՅԱՍՏԱՆԻ ԳՐԱԴԱՐԱՆՆԵՐԻ ՀԱՄԱՀԱՎԱՔ ԳՐԱՑՈՒՑԱԿ = Union Catalog of Armenian Libraries Cart Lists Log in to your account Search history ՀԱՅԱՍՏԱՆԻ ԳՐԱԴԱՐԱՆՆԵՐԻ ՀԱՄԱՀԱՎԱՔ ԳՐԱՑՈՒՑԱԿ = Union Catalog of Armenian Libraries Search the catalog by: Library catalog Title Author Subject ISBN ISSN Series Call number Search the catalog Advanced search Browse by hierarchy Authority search Tag cloud Libraries Home An error has occurred Sorry, the requested page is not available Error 404 This message can have the following reason(s): You made use of an external link to a catalog item that is no longer available. You followed an outdated link e.g. from a search engine or a bookmark. You tried to access a page that needs authentication. An internal link in our catalog home page is broken and the page does not exist. What's next? You can use the menu and links at the top of the page You can search our catalog using the search form at the top of this page. Return to the catalog home page. Report issues and broken links To report this error, please contact the Koha Administrator. Send email. Հայաստանի ազգային գրադարան ՀՀ, 0009,Երևան, Տերյան 72 Հետադարձ կապ Languages Powered by Koha"
+    },
+    "screenshot": "pages/P8833__29148.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "http_error×2, login_wall_suspected",
+   "resolved": false,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page text only (page blocked for plain HTTP)",
+   "access_group": "page blocks plain clients",
+   "format_family": "page text (LLM)",
+   "formats": [
+    "html"
+   ],
+   "values": 37,
+   "page_text_values": 37,
+   "descriptive_values": 31,
+   "unique_share": 0.74,
+   "uniqueness_bucket": "mostly unique (> 60%)",
+   "page_text_only": true,
+   "wd_match": 6,
+   "wd_mismatch": 1
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Մարկ Տվեն, 1835-1910",
+      "via": "llm-page:'Preferred form'"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 15,
+    "from_structured": 0,
+    "from_page_text": 15,
+    "samples": [
+     {
+      "value": "Տվեն Մարկ, 1835-1910",
+      "via": "llm-page:'Used for/see from'"
+     },
+     {
+      "value": "Մարկ Թվեյն, 1835-1910",
+      "via": "llm-page:'Used for/see from'"
+     },
+     {
+      "value": "Մ. Թուէյն (Ս. Քլէմընս), (Մարկ) 1835-1910",
+      "via": "llm-page:'Used for/see from'"
+     },
+     {
+      "value": "Մ. Տուէն (Սամուէլ Կլէմէնս), (Մարկ) 1835-1910",
+      "via": "llm-page:'Used for/see from'"
+     },
+     {
+      "value": "Մ. Տվեն, (Մարկ) 1835-1910",
+      "via": "llm-page:'Used for/see from'"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 3,
+    "from_structured": 0,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "Conte, Louis de, 1835-1910",
+      "via": "llm-page:'See also'"
+     },
+     {
+      "value": "Jean François Alden, 1835-1910",
+      "via": "llm-page:'See also'"
+     },
+     {
+      "value": "Sieur Louis de Conte, 1835-1910",
+      "via": "llm-page:'Used for/see from'"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:Notes: Armenian Soviet Encyclopedia citation"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:Notes: Armenian Soviet Encyclopedia citation"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Ֆլորիդա, Միսսուրիի նահանգ",
+      "via": "llm-page:Notes: Armenian Soviet Encyclopedia citation"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Ռեդդինգ, Քոնեքթիքութի նահանգ",
+      "via": "llm-page:Notes: Armenian Soviet Encyclopedia citation"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 3,
+    "from_structured": 0,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "գրող",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "լրագրող",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "հասարակական գործիչ",
+      "via": "llm-page:Notes"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "ամերիկացի",
+      "via": "llm-page:Notes"
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Տվեն Մարկ (Սեմյուել Լենգհոռն Կլեմենս,30.11.1835, Ֆլորիդա, Միսսուրիի նահանգ - 21.04.1910, Ռեդդինգ, Քոնեքթիքութի նահանգ), ",
+      "via": "llm-page:Notes (Հայկական սովետական հանրագիտարան, հտ. 12)"
+     }
+    ]
+   },
+   "work": {
+    "n": 3,
+    "from_structured": 0,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "Զուարճալի պատմուածքներ",
+      "via": "llm-page:Notes (source citation)"
+     },
+     {
+      "value": "Թոմ Սոյերի արկածները",
+      "via": "llm-page:Notes (source citation)"
+     },
+     {
+      "value": "Приключения Тома Сойера",
+      "via": "llm-page:Notes (source citation)"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "http://hy.wikipedia.org/wiki/Մարկ_Տվեն",
+      "via": "llm-page:Notes: link 'Վիքիպեդիա'"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "18081",
+      "via": "llm-page:URL authid"
+     }
+    ]
+   },
+   "source": {
+    "n": 4,
+    "from_structured": 0,
+    "from_page_text": 4,
+    "samples": [
+     {
+      "value": "Հայկական սովետական հանրագիտարան, հտ. 12-րդ.- Երևան, 1986",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "Զուարճալի պատմուածքներ.- Թիֆլիս, 1891",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "Թոմ Սոյերի արկածները.- Երևան, 1931",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "Приключения Тома Сойера.- Москва, 2011",
+      "via": "llm-page:Notes"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "Koha authority record 18081 (Մարկ Տվեն, 1835-1910) with preferred form, many see-from variants in several scripts, see-also links to Clemens and pseudonym headings, and source notes including an Armenian Soviet Encyclopedia citation with birth/death data. The other two authids (28678, 29148) return Koha 404 error pages."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 4
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P8849",
+  "label": "CONOR.BG ID",
+  "host": "plus-legacy.cobiss.net",
+  "domain": "national-library",
+  "wikidata_values": [
+   {
+    "value": "4451941",
+    "url": "https://plus-legacy.cobiss.net/cobiss/bg/en/conor/4451941"
+   }
+  ],
+  "records": [
+   {
+    "value": "4451941",
+    "url": "https://plus-legacy.cobiss.net/cobiss/bg/en/conor/4451941",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://plus-legacy.cobiss.net/cobiss/bg/en/conor/4451941",
+    "crawl_status": "ok",
+    "title": "CONOR.BG – authority file for personal and corporate names :: COBISS Plus",
+    "page": {
+     "chars": 609,
+     "excerpt": "Databases New search Help Theme My profile CONOR.BG – authority file for personal and corporate names Search results Hit Твен, Марк, 1835-1910 = Twain, Mark, 1835-1910 User GARE Personal name Твен, Марк, 1835-1910 = Twain, Mark, 1835-1910 Related personal names Клемънс, Самюъл Лангхорн, 1835-1910 (f); Clemens, Samuel Langhorne, 1835-1910 (f) Country United States Language of person/corp. English Notes Писател, журналист, хуморист. CONOR.BG-ID 4451941 Bългарски English 2026 © IZUM. All rights reserved. | Terms of use | Personal Data Protection | Cookies | COBISS | mCOBISS Version 13.27.0, rel. 11.8.2026"
+    },
+    "screenshot": "pages/P8849__4451941.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "js-rendered page only + page text for 13/14 values",
+   "access_group": "JS-rendered page only",
+   "format_family": "embedded markup",
+   "formats": [
+    "rdfa"
+   ],
+   "values": 14,
+   "page_text_values": 13,
+   "descriptive_values": 13,
+   "unique_share": 0.38,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 4,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "description": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "CONOR.BG – authority file for personal and corporate names",
+      "via": "og:description"
+     },
+     {
+      "value": "Писател, журналист, хуморист.",
+      "via": "llm-page:Notes"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Твен, Марк, 1835-1910",
+      "via": "llm-page:'Personal name' field"
+     },
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "llm-page:'Personal name' field (parallel form)"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm-page:heading dates"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm-page:heading dates"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 3,
+    "from_structured": 0,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "Писател",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "журналист",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "хуморист",
+      "via": "llm-page:Notes"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "United States",
+      "via": "llm-page:'Country' field"
+     }
+    ]
+   },
+   "language": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "English",
+      "via": "llm-page:'Language of person/corp.' field"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Клемънс, Самюъл Лангхорн, 1835-1910 (real name)",
+      "via": "llm-page:Related personal names"
+     },
+     {
+      "value": "Clemens, Samuel Langhorne, 1835-1910 (real name)",
+      "via": "llm-page:Related personal names"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "4451941",
+      "via": "llm-page:CONOR.BG-ID field"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "CONOR.BG (Bulgarian COBISS) authority record, English interface: parallel Cyrillic and Latin headings, the real-name record as a related name, country, language, a Bulgarian note on occupations, and the CONOR.BG-ID."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 3
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P8851",
+  "label": "CONOR.SR ID",
+  "host": "plus-legacy.cobiss.net",
+  "domain": "national-library",
+  "wikidata_values": [
+   {
+    "value": "10342503",
+    "url": "https://plus-legacy.cobiss.net/cobiss/sr/en/conor/10342503"
+   }
+  ],
+  "records": [
+   {
+    "value": "10342503",
+    "url": "https://plus-legacy.cobiss.net/cobiss/sr/en/conor/10342503",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://plus-legacy.cobiss.net/cobiss/sr/en/conor/10342503",
+    "crawl_status": "ok",
+    "title": "CONOR.SR – authority file for personal and corporate names :: COBISS Plus",
+    "page": {
+     "chars": 1324,
+     "excerpt": "Databases New search Help Theme My profile CONOR.SR – authority file for personal and corporate names Search results Hit Твен, Марк, 1835-1910 = Twain, Mark, 1835-1910 User GARE Personal name Твен, Марк, 1835-1910 = Twain, Mark, 1835-1910 Variant personal names Clemens, Samuel Langhorne, 1835-1910 (real name); Клеменс, Самјуел Лангхорн, 1835-1910; Клеменс, Семјуел Лангхорн, 1835-1910; Клеменс, Семјуел Ленгхорн, 1835-1910; Clemens, Samuel, 1835-1910; Clemens, Samuel L., 1835-1910; Твејн, Марк, 1835-1910; Твенъ, Маркъ, 1835-1910; Tuen, Mark, 1835-1910; Twain, Márk, 1835-1910 Country United States Language of person/corp. English Notes Амерички књижевник. Рођен у месту Флорида у Мисурију. Завршио је штампарски занат и радио као штампар Потом је био кормилар на пароброду на реци Мисисипи све до почетка Америчког грађанског рата 1861., када је на кратко био добровољац. Касније те године у новооснованој територији Невада је радио у руднику сребра. Године 1862. постаје извештач новина Територијал ентерпрајз у месту Вирџинија Сити у Невади, а 1863. почео је да пише чланке за исте новине под псеудонимом Марк Твен. CONOR.SR-ID 10342503 Cрпски (ћирилица) Srpski (latinica) English 2026 © IZUM."
+    },
+    "screenshot": "pages/P8851__10342503.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "js-rendered page only + page text for 28/29 values",
+   "access_group": "JS-rendered page only",
+   "format_family": "embedded markup",
+   "formats": [
+    "rdfa"
+   ],
+   "values": 29,
+   "page_text_values": 28,
+   "descriptive_values": 28,
+   "unique_share": 0.68,
+   "uniqueness_bucket": "mostly unique (> 60%)",
+   "page_text_only": false,
+   "wd_match": 5,
+   "wd_mismatch": 1
+  },
+  "profile_elements": {
+   "description": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "CONOR.SR – authority file for personal and corporate names",
+      "via": "og:description"
+     },
+     {
+      "value": "Амерички књижевник. Рођен у месту Флорида у Мисурију. Завршио је штампарски занат и радио као штампар Потом је био корми",
+      "via": "llm-page:Notes"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Твен, Марк, 1835-1910",
+      "via": "llm-page:Personal name"
+     },
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "llm-page:Personal name (parallel form)"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 10,
+    "from_structured": 0,
+    "from_page_text": 10,
+    "samples": [
+     {
+      "value": "Clemens, Samuel Langhorne, 1835-1910",
+      "via": "llm-page:Variant personal names"
+     },
+     {
+      "value": "Клеменс, Самјуел Лангхорн, 1835-1910",
+      "via": "llm-page:Variant personal names"
+     },
+     {
+      "value": "Клеменс, Семјуел Лангхорн, 1835-1910",
+      "via": "llm-page:Variant personal names"
+     },
+     {
+      "value": "Клеменс, Семјуел Ленгхорн, 1835-1910",
+      "via": "llm-page:Variant personal names"
+     },
+     {
+      "value": "Clemens, Samuel, 1835-1910",
+      "via": "llm-page:Variant personal names"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Марк Твен",
+      "via": "llm-page:Notes: 'под псеудонимом Марк Твен'"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm-page:Personal name dates"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm-page:Personal name dates"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Флорида, Мисури",
+      "via": "llm-page:Notes"
+     }
+    ]
+   },
+   "activity_place": {
+    "n": 3,
+    "from_structured": 0,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "Мисисипи",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "Невада",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "Вирџинија Сити",
+      "via": "llm-page:Notes"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 4,
+    "from_structured": 0,
+    "from_page_text": 4,
+    "samples": [
+     {
+      "value": "књижевник",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "штампар",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "кормилар на пароброду",
+      "via": "llm-page:Notes"
+     },
+     {
+      "value": "извештач новина",
+      "via": "llm-page:Notes"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "United States",
+      "via": "llm-page:Country"
+     }
+    ]
+   },
+   "language": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "English",
+      "via": "llm-page:Language of person/corp."
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Територијал ентерпрајз (Territorial Enterprise, newspaper he reported for)",
+      "via": "llm-page:Notes"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "10342503",
+      "via": "llm-page:CONOR.SR-ID"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "COBISS CONOR.SR (Serbian authority file) record 10342503 for Твен, Марк, 1835-1910 = Twain, Mark, 1835-1910, with variant names, country, language and a Serbian Cyrillic biographical note."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 5
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P8902",
+  "label": "Archives at Yale agent ID",
+  "host": "archives.yale.edu",
+  "domain": "archives",
+  "wikidata_values": [
+   {
+    "value": "people/56569",
+    "url": "https://archives.yale.edu/agents/people/56569"
+   },
+   {
+    "value": "people/87456",
+    "url": "https://archives.yale.edu/agents/people/87456"
+   }
+  ],
+  "records": [
+   {
+    "value": "people/56569",
+    "url": "https://archives.yale.edu/agents/people/56569",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://archives.yale.edu/agents/people/56569",
+    "crawl_status": "ok",
+    "title": "Twain, Mark, (Spirit), 1835-1910 | Archives at Yale",
+    "page": {
+     "chars": 767,
+     "excerpt": "Skip to main content Archives at Yale Repositories Collections Subjects Names Help Search The Archives Twain, Mark, (Spirit), 1835-1910 Person Social Networks and Archival Context (SNAC) Identifier http://n2t.net/ark:/99166/w6988t7g Suggest a Correction Found in 1 Collection or Record: Charles H. Hapgood Papers Collection Call Number: YCAL MSS 283 Abstract: The Charles H. Hapgood Papers consist of correspondence, manuscripts, and research materials related to Hapgood's research projects and publications on earth science, archeology, ancient history, parapsychology, and spirit communication. Dates: 1898-1979, bulk 1950-1979 Found in: Beinecke Rare Book and Manuscript Library > Charles H. Hapgood Papers Yale System Status Privacy Policy Data Use Accessibility"
+    },
+    "screenshot": "pages/P8902__people_56569_ff5e92ab.jpg"
+   },
+   {
+    "value": "people/87456",
+    "url": "https://archives.yale.edu/agents/people/87456",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://archives.yale.edu/agents/people/87456",
+    "crawl_status": "ok",
+    "title": "Twain, Mark, 1835-1910 | Archives at Yale",
+    "page": {
+     "chars": 6775,
+     "excerpt": "Skip to main content Archives at Yale Repositories Collections Subjects Names Help Search The Archives Twain, Mark, 1835-1910 Person Dates Existence: 1835-11-30 - 1910-04-21 Biography Mark Twain (1835-1910), American writer, humorist, entrepreneur, publisher, and lecturer. Social Networks and Archival Context (SNAC) Identifier http://n2t.net/ark:/99166/w6dg7gd6 Suggest a Correction Found in 9 Collections and/or Records: Cyril Clemens papers Collection Call Number: YCAL MSS 5 Abstract: The papers contain writings, correspondence, and printed materials about Mark Twain. Dates: 1864-1979 (inclusive) Found in: Beinecke Rare Book and Manuscript Library > Cyril Clemens papers Samuel Langhorne Clemens Collection Collection Call Number: YCAL MSS 852 Scope and Contents: The Samuel Langhorne Clemens Collection provides insight into the life and career of Clemens, American author and lecturer best known by his pseudonym Mark Twain. The collection is comprised of correspondence, writings, contracts, scrapbooks, clippings, and printed material. The collection contains drafts, research notes, printed versions, and contracts, which document Clemens' creative process and writing career. Autograph "
+    },
+    "screenshot": "pages/P8902__people_87456_865684f7.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok×2",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page blocked for plain HTTP only + page text for 36/65 values",
+   "access_group": "page blocks plain clients",
+   "format_family": "RDF",
+   "formats": [
+    "json-ld"
+   ],
+   "values": 65,
+   "page_text_values": 36,
+   "descriptive_values": 58,
+   "unique_share": 0.24,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": false,
+   "wd_match": 5,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "type": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://schema.org/Person",
+      "via": "type"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Twain, Mark, (Spirit), 1835-1910",
+      "via": "name"
+     },
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "name"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 4,
+    "from_structured": 2,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "http://id.loc.gov/authorities/names/n82045653",
+      "via": "sameAs"
+     },
+     {
+      "value": "http://id.loc.gov/authorities/names/n79021164",
+      "via": "sameAs"
+     },
+     {
+      "value": "http://n2t.net/ark:/99166/w6dg7gd6",
+      "via": "llm-page:SNAC Identifier (87456)"
+     },
+     {
+      "value": "http://n2t.net/ark:/99166/w6988t7g",
+      "via": "llm-page:SNAC Identifier (56569, Spirit heading)"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 35,
+    "from_structured": 23,
+    "from_page_text": 12,
+    "samples": [
+     {
+      "value": "Tvėn, Mark, 1835-1910",
+      "via": "alternateName"
+     },
+     {
+      "value": "Tuėĭn, Mark, 1835-1910",
+      "via": "alternateName"
+     },
+     {
+      "value": "Tuwayn, Mārk, 1835-1910",
+      "via": "alternateName"
+     },
+     {
+      "value": "Twayn, Mārk, 1835-1910",
+      "via": "alternateName"
+     },
+     {
+      "value": "Tʻu-wen, Ma-kʻo, 1835-1910",
+      "via": "alternateName"
+     }
+    ]
+   },
+   "description": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain (1835-1910), American writer, humorist, entrepreneur, publisher, and lecturer.",
+      "via": "description"
+     },
+     {
+      "value": "Mark Twain (1835-1910), American writer, humorist, entrepreneur, publisher, and lecturer.",
+      "via": "llm-page:Biography"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:Dates"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:Dates"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 5,
+    "from_structured": 0,
+    "from_page_text": 5,
+    "samples": [
+     {
+      "value": "writer",
+      "via": "llm-page:Biography"
+     },
+     {
+      "value": "humorist",
+      "via": "llm-page:Biography"
+     },
+     {
+      "value": "entrepreneur",
+      "via": "llm-page:Biography"
+     },
+     {
+      "value": "publisher",
+      "via": "llm-page:Biography"
+     },
+     {
+      "value": "lecturer",
+      "via": "llm-page:Biography"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "American",
+      "via": "llm-page:Biography"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 10,
+    "from_structured": 0,
+    "from_page_text": 10,
+    "samples": [
+     {
+      "value": "Cyril Clemens (papers about Mark Twain, YCAL MSS 5)",
+      "via": "llm-page:Found in collections"
+     },
+     {
+      "value": "Thomas Raynesford Lounsbury (papers, MS 1231)",
+      "via": "llm-page:Found in collections"
+     },
+     {
+      "value": "Frank Parsons (papers, MS 11)",
+      "via": "llm-page:Found in collections"
+     },
+     {
+      "value": "Joseph Hopkins Twichell (papers, YCAL MSS 755)",
+      "via": "llm-page:Found in collections"
+     },
+     {
+      "value": "George Leon Walker and Williston Walker (papers, RG 51)",
+      "via": "llm-page:Found in collections"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "87456",
+      "via": "llm-page:page URL agents/people/87456"
+     },
+     {
+      "value": "56569",
+      "via": "llm-page:page URL agents/people/56569"
+     }
+    ]
+   },
+   "field_of_activity": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Authors, American -- 19th century -- Archives",
+      "via": "llm-page:Additional filters: Subject"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "Two ArchivesSpace agent pages at Yale: the main 'Twain, Mark, 1835-1910' (87456) with existence dates, a one-line bio, SNAC ark, 9 linked collections and name forms; and 'Twain, Mark, (Spirit), 1835-1910' (56569), a spirit-communication heading linked only to the Charles H. Hapgood Papers."
+   }
+  },
+  "review_verdicts": {
+   "different_entity": 2,
+   "equivalent": 1,
+   "extraction_noise": 1
+  },
+  "review_flags": [
+   {
+    "element": "http://id.loc.gov/authorities/names/n82045653",
+    "verdict": "different_entity",
+    "reason": "Yale agent people/56569 is 'Twain, Mark, (Spirit), 1835-1910' and links LC n82045653 (the Spirit record), so Wikidata's P8902 value people/56569 points at the Spirit entity."
+   },
+   {
+    "element": "http://n2t.net/ark:/99166/w6988t7g",
+    "verdict": "different_entity",
+    "reason": "This SNAC ark comes from Yale agent 56569 'Twain, Mark, (Spirit), 1835-1910', the spirit-communication heading (LC n82045653 equivalent). It is not his SNAC constellation (w6dg7gd6). Note: Wikidata ho"
+   }
+  ]
+ },
+ {
+  "property": "P8969",
+  "label": "CINE21 person ID",
+  "host": "cine21.com",
+  "domain": "film-tv",
+  "wikidata_values": [
+   {
+    "value": "50754",
+    "url": "https://cine21.com/db/person/info/?person_id=50754"
+   }
+  ],
+  "records": [
+   {
+    "value": "50754",
+    "url": "https://cine21.com/db/person/info/?person_id=50754",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://cine21.com/db/person/info/?person_id=50754",
+    "crawl_status": "ok",
+    "title": "씨네21",
+    "page": {
+     "chars": 533,
+     "excerpt": "본문 바로가기 닫기 로그인 회원가입 CINE21 기사 포토 & 영상 영화 시리즈 이벤트 영화인 JOB 정기구독 인물 마크 트웨인 Mark Twain 다른 이름 Samuel Clemens 생년월일 1835-11-30 성별 남 참여작품(2) <허클베리 핀의 모험> 원작 <허클베리 핀의 모험> 원작 참여작품 - 영화(2) 허클베리 핀의 모험 (1993) 원작 허클베리 핀의 모험 (1960) 원작 공지사항 회사소개 광고 및 제휴 안내 고객센터 개인정보취급방침 청소년보호정책 이메일주소무단수집거부 이용약관 언론윤리강령 이용자위원회 씨네21(주) 서울시 영등포구 당산로 41길 11 SK V1센터 E동 1102호 대표전화 : 02-6377-0500 대표이사 : 장영엽 사업자등록번호 : 105-86-57632 통신판매업번호 : 제2015-서울영등포-0671호 등록번호 : 서울,자00347 ISSN : 3140-3476 발행인 : 장영엽, 편집•청소년보호책임자 : 송경원 E-mail : webmaster@cine21.com (c) CINE21 Co., LTD"
+    },
+    "screenshot": "pages/P8969__50754.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 8/11 values",
+   "access_group": "plain HTTP",
+   "format_family": "RDF",
+   "formats": [
+    "json-ld",
+    "rdfa"
+   ],
+   "values": 11,
+   "page_text_values": 8,
+   "descriptive_values": 8,
+   "unique_share": 0.38,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 4,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "type": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://schema.org/ContactPoint",
+      "via": "type"
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "대한민국 최고 영화전문매체",
+      "via": "og:description"
+     }
+    ]
+   },
+   "image": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://image.cine21.com/www1/common/cine21_logoicon.jpg",
+      "via": "og:image"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "마크 트웨인",
+      "via": "llm-page:page heading"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:romanised heading"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Clemens",
+      "via": "llm-page:다른 이름 (other names)"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:생년월일 (date of birth)"
+     }
+    ]
+   },
+   "gender": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "남",
+      "via": "llm-page:성별 (sex)"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "원작 (original author)",
+      "via": "llm-page:참여작품 role"
+     }
+    ]
+   },
+   "work": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "허클베리 핀의 모험",
+      "via": "llm-page:참여작품 - 영화"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "50754",
+      "via": "llm-page:page URL person_id"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "author page with work list",
+    "notes": "A CINE21 (Korean film magazine) person page for 마크 트웨인 / Mark Twain. It gives an alternate name, birth date and sex, and lists two films credited to him as original author: the Huckleberry Finn adaptations of 1993 and 1960."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 2
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P8980",
+  "label": "KANTO ID",
+  "host": "finto.fi",
+  "domain": "national-library",
+  "wikidata_values": [
+   {
+    "value": "000061572",
+    "url": "https://urn.fi/URN:NBN:fi:au:finaf:000061572"
+   }
+  ],
+  "records": [
+   {
+    "value": "000061572",
+    "url": "https://urn.fi/URN:NBN:fi:au:finaf:000061572",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://finto.fi/finaf/fi/page/000061572",
+    "crawl_status": "ok",
+    "title": "Twain, Mark, 1835-1910 - KANTO - Finto",
+    "page": {
+     "chars": 1420,
+     "excerpt": "Hyppää sisältöön Finto | på svenska in English sámegillii Sanastot Tietoja Palaute Ohje KANTO - Kansalliset toimijatiedot Hae sanastosta Sisällön kieli Sisällön ja haun kieli suomi Syötä haettava termi × Suorita haku Hae Sivupalkin lista: listaa ja selaa käsitteitä eri kriteerien mukaan Listaa käsitteet aakkosittain Aakkosellinen Listaa käsitteet hierarkian mukaan Hierarkia Hierarkian mukainen lista käsitteistä Twain, Mark, 1835-1910 Käsitteen tiedot KÄYTETTÄVÄ NIMENMUOTO Twain, Mark, 1835-1910 TYYPPI henkilö HENKILÖN TUNNISTE Asteri ID: 000061572 ISNI: 0000000121324854 SYNTYMÄAIKA 1835 KUOLINAIKA 1910 HENKILÖN VARIANTTINIMI Clemens, Samuel Langhorne, 1835-1910 SYNTYMÄPAIKKA Florida, Missouri KUOLINPAIKKA Redding, Connecticut HENKILÖÖN LIITTYVÄ MAA Yhdysvallat (yso-paikat) HENKILÖN AMMATTI TAI TEHTÄVÄ kirjailija (Metatietosanasto) kolumnisti (Metatietosanasto) opettaja (Metatietosanasto) HENKILÖN TOIMINTA-ALA kaunokirjallisuus (YSO) HENKILÖN KÄYTTÄMÄ KIELI englanti (Lexvo) saksa (Lexvo) TIEDONLÄHDE Wikipedia, katsottu 22.5.2024 (Mark Twain: Mark Twain (oikealta nimeltään Samuel Langhorne Clemens, 30. marraskuuta 1835 Florida, Missouri, Yhdysvallat – 21. huhtikuuta 1910 Redding, Con"
+    },
+    "screenshot": "pages/P8980__000061572.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 18/73 values",
+   "access_group": "plain HTTP",
+   "format_family": "RDF",
+   "formats": [
+    "json-ld",
+    "rdfa"
+   ],
+   "values": 73,
+   "page_text_values": 18,
+   "descriptive_values": 62,
+   "unique_share": 0.77,
+   "uniqueness_bucket": "mostly unique (> 60%)",
+   "page_text_only": false,
+   "wd_match": 9,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "type": {
+    "n": 3,
+    "from_structured": 3,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Person",
+      "via": "type"
+     },
+     {
+      "value": "http://rdaregistry.info/Elements/c/C10004",
+      "via": "type (uri)"
+     },
+     {
+      "value": "http://www.w3.org/2004/02/skos/core#Concept",
+      "via": "type"
+     }
+    ]
+   },
+   "record_created": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1993-09-22",
+      "via": "created"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "2025-05-16T16:12:42+03:00",
+      "via": "modified"
+     },
+     {
+      "value": "2025-05-16",
+      "via": "llm-page:footer"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "http://www.yso.fi/onto/yso/p105078",
+      "via": "P50097"
+     },
+     {
+      "value": "Yhdysvallat",
+      "via": "llm-page:HENKILÖÖN LIITTYVÄ MAA"
+     }
+    ]
+   },
+   "field_of_activity": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "http://www.yso.fi/onto/yso/p4",
+      "via": "P50100"
+     },
+     {
+      "value": "kaunokirjallisuus",
+      "via": "llm-page:HENKILÖN TOIMINTA-ALA"
+     }
+    ]
+   },
+   "language": {
+    "n": 5,
+    "from_structured": 3,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "http://lexvo.org/id/iso639-3/deu",
+      "via": "P50102"
+     },
+     {
+      "value": "http://lexvo.org/id/iso639-3/eng",
+      "via": "P50102"
+     },
+     {
+      "value": "fi",
+      "via": "language"
+     },
+     {
+      "value": "englanti",
+      "via": "llm-page:HENKILÖN KÄYTTÄMÄ KIELI"
+     },
+     {
+      "value": "saksa",
+      "via": "llm-page:HENKILÖN KÄYTTÄMÄ KIELI"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 6,
+    "from_structured": 3,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "http://urn.fi/URN:NBN:fi:au:mts:m3229",
+      "via": "P50104"
+     },
+     {
+      "value": "http://urn.fi/URN:NBN:fi:au:mts:m3004",
+      "via": "P50104"
+     },
+     {
+      "value": "http://urn.fi/URN:NBN:fi:au:mts:m2413",
+      "via": "P50104"
+     },
+     {
+      "value": "kirjailija",
+      "via": "llm-page:HENKILÖN AMMATTI TAI TEHTÄVÄ"
+     },
+     {
+      "value": "kolumnisti",
+      "via": "llm-page:HENKILÖN AMMATTI TAI TEHTÄVÄ"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Redding, Connecticut",
+      "via": "P50118"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Florida, Missouri",
+      "via": "P50119"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "P50120"
+     },
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:KUOLINAIKA / TIEDONLÄHDE"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "P50121"
+     },
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:SYNTYMÄAIKA / TIEDONLÄHDE"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 3,
+    "from_structured": 2,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "P50411"
+     },
+     {
+      "value": "KANTO - Kansalliset toimijatiedot",
+      "via": "title"
+     },
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "llm-page:KÄYTETTÄVÄ NIMENMUOTO"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 4,
+    "from_structured": 3,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Clemens, Samuel Langhorne, 1835-1910",
+      "via": "altLabel"
+     },
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "hiddenLabel"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "hiddenLabel"
+     },
+     {
+      "value": "Clemens, Samuel Langhorne, 1835-1910",
+      "via": "llm-page:HENKILÖN VARIANTTINIMI"
+     }
+    ]
+   },
+   "description": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Käsite Twain, Mark, 1835-1910 sanastossa KANTO - Kansalliset toimijatiedot",
+      "via": "og:description"
+     },
+     {
+      "value": "Mark Twain (oikealta nimeltään Samuel Langhorne Clemens, 30. marraskuuta 1835 Florida, Missouri, Yhdysvallat – 21. huhti",
+      "via": "llm-page:TIEDONLÄHDE (Wikipedia, katsottu 22.5.2024)"
+     }
+    ]
+   },
+   "subject_of": {
+    "n": 32,
+    "from_structured": 32,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm:json:records[].title (Finna subject search; added determ"
+     },
+     {
+      "value": "Kun ammuin norsun ja muita esseitä",
+      "via": "llm:json:records[].title (Finna subject search; added determ"
+     },
+     {
+      "value": "Mark Twain, Dr. Oliver Wendell Holmes, and the head readers",
+      "via": "llm:json:records[].title (Finna subject search; added determ"
+     },
+     {
+      "value": "Jenkkejä maailmalla",
+      "via": "llm:json:records[].title (Finna subject search; added determ"
+     },
+     {
+      "value": "The life of Mark Twain",
+      "via": "llm:json:records[].title (Finna subject search; added determ"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "https://isni.org/isni/0000000121324854",
+      "via": "llm-page:HENKILÖN TUNNISTE"
+     },
+     {
+      "value": "http://urn.fi/URN:NBN:fi:au:finaf:000061572",
+      "via": "llm-page:URI"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "000061572",
+      "via": "llm-page:HENKILÖN TUNNISTE"
+     }
+    ]
+   },
+   "source": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Wikipedia, katsottu 22.5.2024",
+      "via": "llm-page:TIEDONLÄHDE"
+     },
+     {
+      "value": "Name authority list / The British Library",
+      "via": "llm-page:TIEDONLÄHDE"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "Finna search-API response (per manifest, lookfor=topic_id_str_mv:\"melinda.(FI-ASTERI-N)000061572\", National Library of Finland) listing 33 bibliographic records that have Twain as SUBJECT (e.g. 'The life of Mark Twain' 2022, 'Huck Finn among the critics' 1984, 'Mark Twain, Dr. Oliver Wendell Holmes, and the head readers' 2023, theatre review '[Teatteriarvostelu:Huckleberry Finn]'). Records carry only shortTitle/formats/id/year, no person-level data and no authorship, so nothing is extracted; some hits are Twain texts (e.g. 'The war prayer', 'Omaelämäkertani') but the response does not attribute them to him. The 33 search hits are works with him as subject; they were added as subject_of outside the model pass."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "Finto display of the KANTO (Finnish national agent) authority record Twain, Mark, 1835-1910: names, dates, places, occupations, languages, ISNI and Asteri ID, a Finnish Wikipedia-derived source note, creation/modification dates."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 4,
+   "extraction_noise": 1
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P9001",
+  "label": "Literary Encyclopedia ID",
+  "host": "feb-web.ru",
+  "domain": "encyclopedia",
+  "wikidata_values": [
+   {
+    "value": "b-2091",
+    "url": "https://wikidata-externalid-url.toolforge.org/?url=http%3A%2F%2Ffeb-web.ru%2Ffeb%2Flitenc%2Fencyclop%2Fle%251%2Fle%251-%252.htm&exp=%28%5B1-9a-b%5D%29-%28%5Cd%7B3%2C5%7D%29&id=b-2091"
+   }
+  ],
+  "records": [
+   {
+    "value": "b-2091",
+    "url": "http://feb-web.ru/feb/litenc/encyclop/leb/leb-2091.htm?cmd=0&istext=1",
+    "wikidata_url": "https://wikidata-externalid-url.toolforge.org/?url=http%3A%2F%2Ffeb-web.ru%2Ffeb%2Flitenc%2Fencyclop%2Fle%251%2Fle%251-%252.htm&exp=%28%5B1-9a-b%5D%29-%28%5Cd%7B3%2C5%7D%29&id=b-2091",
+    "override_reason": "Wikidata URL is a frameset; this is the text frame it loads (cmd=0 avoids the page's pop-out script)",
+    "final_url": "https://feb-web.ru/feb/litenc/encyclop/leb/leb-2091.htm?cmd=0&istext=1",
+    "crawl_status": "ok",
+    "title": "Твен // Литературная энциклопедия. Т. 11. — 1939 (текст)",
+    "page": {
+     "chars": 11565,
+     "excerpt": "english version Словари, энциклопедии : Литературная энциклопедия: Алфавитная часть перейти: ­Описание издания ­А ­Б ­В ­Г ­Д ­Е ­Ж ­З ­И ­К ­Л ­М ­Н ­О ­П ­Р ­С ­Т ­Табидзе ­Тавадзе ­Тавастшерна ­Тавзишвили ­Тавтология ­Тагиатян ­Тагор ­Таджикская литература ­Таджикский язык ­Тажибаев ­Таир Жароков ­Тайтш ­Тайхэйки ­Такташ ­Тамайо-и-Баус ­Тамильская литература ­Тамильский язык ­Таммсааре ­Тан ­Тангейзер ­Танка ­Танская поэзия ­Тариовер ­Тапия ­Тарасов ­Тартюф ­Тассо Бернардо ­Тассо Торквато ­Тассони ­Татарская литература ­Татарские языки ­Татарско-крымская литература ­Татский язык ­Тахти ­Таяма ­Твардовский ­Твен ­Творческая история ­Тегнер ­Тезей ­Тейге ­Теймураз I ­Тейрлинк ­Теккерей ­Текстология «­Телескоп» ­Телестих ­Телешов ­Телугу ­Тематика ­Тенденциозная литература ­Тензимат Эдабиати ­Теннисон ­Теория литературы ­Тепфер ­Теренций ­Тереса-де-Хесус ­Терзян ­Терминология ­Терпигорев ­Террайль Понсон, дю ­Терцет ­Терцины ­Терье ­Терьян ­Тесленко ­Тетмайер ­Тетраметр ­Тибетская литература ­Тибетский язык ­Тибоде ­Тибулл ­Тик ­Тикамацу ­Тикнор ­Тильгер ­Тилле ­Тильшова ­Тимковский ­Тиммерманс ­Тимонеда ­Тимофеев А. В. ­Тимофеев Л. И. ­Тинер ­Тип ­Тирада ­Тирсо де Молина ­Тиртей ­"
+    },
+    "screenshot": "pages/P9001__b-2091.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page text only (LLM over HTML)",
+   "access_group": "page text only",
+   "format_family": "page text (LLM)",
+   "formats": [
+    "html"
+   ],
+   "values": 33,
+   "page_text_values": 33,
+   "descriptive_values": 31,
+   "unique_share": 0.29,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": true,
+   "wd_match": 3,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Твен Марк",
+      "via": "llm-page:article heading (frame2)"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:article heading bracket"
+     },
+     {
+      "value": "Самуэль Ланггорн Клеменс",
+      "via": "llm-page:article heading bracket ('псевдоним Самуэля Ланггор"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm-page:article heading"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm-page:article heading"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "американский",
+      "via": "llm-page:article first sentence"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "писатель",
+      "via": "llm-page:article first sentence"
+     },
+     {
+      "value": "журналист",
+      "via": "llm-page:article bio ('начал с журналистики', correspondent "
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "ТВЕН Марк [Mark Twain (1835—1910), псевдоним Самуэля Ланггорна Клеменса] — американский писатель. Р. в семье мелкого тор",
+      "via": "llm-page:article opening (frame2)"
+     }
+    ]
+   },
+   "work": {
+    "n": 18,
+    "from_structured": 0,
+    "from_page_text": 18,
+    "samples": [
+     {
+      "value": "The innocents abroad",
+      "via": "llm-page:article body (frame2)"
+     },
+     {
+      "value": "A tramp abroad",
+      "via": "llm-page:article body (frame2)"
+     },
+     {
+      "value": "The celebrated jumping frog of Calaveras Country",
+      "via": "llm-page:article body (frame2)"
+     },
+     {
+      "value": "The Adventures of Tom Sawyer",
+      "via": "llm-page:article body (frame2)"
+     },
+     {
+      "value": "The Adventures of Huckleberry Finn",
+      "via": "llm-page:article body (frame2)"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 4,
+    "from_structured": 0,
+    "from_page_text": 4,
+    "samples": [
+     {
+      "value": "Е. Немеровская (author of the article)",
+      "via": "llm-page:article signature"
+     },
+     {
+      "value": "A. B. Paine (editor of Letters and Notebook; biographer)",
+      "via": "llm-page:bibliography"
+     },
+     {
+      "value": "W. D. Howells (author of 'My Mark Twain')",
+      "via": "llm-page:bibliography"
+     },
+     {
+      "value": "Alta California (newspaper he was correspondent for)",
+      "via": "llm-page:article body"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "b-2091",
+      "via": "llm-page:page file id / URL"
+     }
+    ]
+   },
+   "source": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Литературная энциклопедия: Алфавитная часть",
+      "via": "llm-page:site header (frame0)"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "encyclopedia article",
+    "notes": "Frameset page of the Soviet 'Литературная энциклопедия' (vol. 11, 1939; FEB-web): frame0 is the site header, frame1 an alphabetical navigation list, frame2 the full Russian article 'ТВЕН Марк' by Е. Немеровская with a critical survey of his works and a bibliography."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 3,
+   "extraction_noise": 1
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P9037",
+  "label": "BHCL UUID",
+  "host": "biblio.hiu.cas.cz",
+  "domain": "research-academic",
+  "wikidata_values": [
+   {
+    "value": "21588604-940b-429b-b46b-7fb0887f3319",
+    "url": "https://biblio.hiu.cas.cz/records/21588604-940b-429b-b46b-7fb0887f3319"
+   },
+   {
+    "value": "a84f8e03-b331-4761-a023-7d44f1903b30",
+    "url": "https://biblio.hiu.cas.cz/records/a84f8e03-b331-4761-a023-7d44f1903b30"
+   }
+  ],
+  "records": [
+   {
+    "value": "21588604-940b-429b-b46b-7fb0887f3319",
+    "url": "https://biblio.hiu.cas.cz/records/21588604-940b-429b-b46b-7fb0887f3319",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://biblio.hiu.cas.cz/records/21588604-940b-429b-b46b-7fb0887f3319",
+    "crawl_status": "ok",
+    "title": "Conte, Louis de, 1835-1910 | Portaro",
+    "page": {
+     "chars": 1321,
+     "excerpt": "Používáme soubory cookies Tyto webové stránky používají soubory cookies a další sledovací nástroje s cílem vylepšení uživatelského prostředí, zobrazení přizpůsobeného obsahu a reklam, analýzy návštěvnosti webových stránek a zjištění zdroje návštěvnosti. SouhlasímOdmítámUpravit mé předvolby Skip to content No autosuggest options Digitalized Documents Advanced search Follow us on: Home Search My account Favourites Indexes Contact Collections Media Login Conte, Louis de, 1835-1910 Conte, Louis de, 1835-1910 See: Ludvík de Conte, 1835-1910 See: Conte, Ludvík de, 1835-1910 See also: Twain, Mark, 1835-1910 Detail MARC Found in these records 1 found record , search took 60 ms Sort results by: relevance name author year of publication year of publication desc. Items per page: 10 20 30 Twain, Mark, 1835-1910 (3×) Americký prozaik, satirik a humorista. Mark Twain Clemens, Samuel Langhorne Select from found records Export of all searched Permanent link: https://biblio.hiu.cas.cz/records/21588604-940b-429b-b46b-7fb0887f3319 Bibliografii dějin Českých zemí vytváří sekce Bibliografie dějin Českých zemí pod licencí CC0 1.0 Universal System developed by KP-sys s.r.o. System version Yesterday 14:39"
+    },
+    "screenshot": "pages/P9037__21588604-940b-429b-b46b-7fb0887f3319.jpg"
+   },
+   {
+    "value": "a84f8e03-b331-4761-a023-7d44f1903b30",
+    "url": "https://biblio.hiu.cas.cz/records/a84f8e03-b331-4761-a023-7d44f1903b30",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://biblio.hiu.cas.cz/records/a84f8e03-b331-4761-a023-7d44f1903b30",
+    "crawl_status": "ok",
+    "title": "Twain, Mark, 1835-1910 | Portaro",
+    "page": {
+     "chars": 1879,
+     "excerpt": "Používáme soubory cookies Tyto webové stránky používají soubory cookies a další sledovací nástroje s cílem vylepšení uživatelského prostředí, zobrazení přizpůsobeného obsahu a reklam, analýzy návštěvnosti webových stránek a zjištění zdroje návštěvnosti. SouhlasímOdmítámUpravit mé předvolby Skip to content No autosuggest options Digitalized Documents Advanced search Follow us on: Home Search My account Favourites Indexes Contact Collections Media Login Twain, Mark, 1835-1910 Americký prozaik, satirik a humorista. Twain, Mark, 1835-1910 See: Mark Twain, 1835-1910 See: Clemens, Samuel Langhorne, 1835-1910 See also: Conte, Louis de, 1835-1910 Detail MARC Found in these records 3 found records , search took 111 ms Sort results by: relevance name author year of publication year of publication desc. Items per page: 10 20 30 Pobyt Marka Twaina v Praze a na zámku Thurn-Taxisů ve středním Polabí Dudek, František, 2008 Biografický údaj: Twain, Mark, 1835-1910; Thurn-Taxisové (rod) Systematika: zahraniční politika, mezinárodní vztahy; světové dějiny 1789-1918; USA; české země 1848-1918; literatura, spisovatelé Vlastní jméno osobní v uměleckém překladu: český Huckleberry Finn 1893-2003 Křístek,"
+    },
+    "screenshot": "pages/P9037__a84f8e03-b331-4761-a023-7d44f1903b30.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok×2",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 7/84 values",
+   "access_group": "plain HTTP",
+   "format_family": "embedded markup",
+   "formats": [
+    "json",
+    "rdfa"
+   ],
+   "values": 84,
+   "page_text_values": 7,
+   "descriptive_values": 60,
+   "unique_share": 0.33,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 5,
+   "wd_mismatch": 1
+  },
+  "profile_elements": {
+   "work": {
+    "n": 3,
+    "from_structured": 3,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://www.hiu.cas.cz/bibliografie-dejin-ceskych-zemi",
+      "via": "creator"
+     },
+     {
+      "value": "Panna ve zbroji. Životní příběhy Panny orleánské",
+      "via": "llm:xhr_3.json: a665"
+     },
+     {
+      "value": "Dobrodružství Hucka Finna",
+      "via": "llm:xhr_4.json: content[0] a670 source citation"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 6,
+    "from_structured": 6,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Bibliografii dějin Českých zemí",
+      "via": "title"
+     },
+     {
+      "value": "Conte, Louis de, 1835-1910",
+      "via": "json:record.name"
+     },
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "json:seeAlsos.name"
+     },
+     {
+      "value": "Pobyt Marka Twaina v Praze a na zámku Thurn-Taxisů ve středním Polabí",
+      "via": "json:result.content.name"
+     },
+     {
+      "value": "Conte, Louis de, 1835-1910",
+      "via": "llm:xhr_3.json: $.record.name / a100"
+     }
+    ]
+   },
+   "see_also": {
+    "n": 10,
+    "from_structured": 10,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "/search?title=Zdigitalizované dokumenty&qt=%7B%22or%22%3A%5B%7B%22field%22%3A%22recordFileCategory%22%2C%22in%22%3A%7B%2",
+      "via": "json:url"
+     },
+     {
+      "value": "/search-form",
+      "via": "json:url"
+     },
+     {
+      "value": "https://biblio.hiu.cas.cz/export/search?target=searched-records-csv:/html/documents-csv.vtl&recordRelatedRecord=21588604",
+      "via": "json:availableExports.url"
+     },
+     {
+      "value": "https://biblio.hiu.cas.cz/export/search?target=searched-records-xls:/html/documents-csv.vtl&recordRelatedRecord=21588604",
+      "via": "json:availableExports.url"
+     },
+     {
+      "value": "https://biblio.hiu.cas.cz/export/search?target=searched-records-doc:/html/documents-doc.vtl&recordRelatedRecord=21588604",
+      "via": "json:availableExports.url"
+     }
+    ]
+   },
+   "description": {
+    "n": 30,
+    "from_structured": 30,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "json:record.fields.fields.text"
+     },
+     {
+      "value": "1910",
+      "via": "json:record.fields.fields.text"
+     },
+     {
+      "value": "1835 1910",
+      "via": "json:record.fields.text"
+     },
+     {
+      "value": "1835-1910",
+      "via": "json:record.fields.fields.text"
+     },
+     {
+      "value": "Jméno se uvádí pod příjmením Conte, Louis de, 1835-1910 jn20000701083",
+      "via": "json:record.fields.text"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 4,
+    "from_structured": 4,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Ludvík de Conte, 1835-1910",
+      "via": "llm:xhr_3.json: a400; xhr_5.json: nodes[1]"
+     },
+     {
+      "value": "Conte, Ludvík de, 1835-1910",
+      "via": "llm:xhr_3.json: a400; xhr_5.json: nodes[2]"
+     },
+     {
+      "value": "Mark Twain, 1835-1910",
+      "via": "llm:xhr_4.json: content[0] a400"
+     },
+     {
+      "value": "Clemens, Samuel Langhorne, 1835-1910",
+      "via": "llm:xhr_4.json: content[0] a400"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 3,
+    "from_structured": 3,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Louis de Conte",
+      "via": "llm:xhr_3.json: a100 / a665"
+     },
+     {
+      "value": "Sieur Louis de Conte",
+      "via": "llm:xhr_3.json: a665 history reference"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "llm:xhr_4.json: content[0].alternativeNames"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm:xhr_3.json: a46 $f"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm:xhr_3.json: a46 $g"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Americký",
+      "via": "llm:xhr_4.json: content[0] a678 'Americký prozaik, satirik a"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 3,
+    "from_structured": 3,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "prozaik",
+      "via": "llm:xhr_4.json: content[0] a678"
+     },
+     {
+      "value": "satirik",
+      "via": "llm:xhr_4.json: content[0] a678"
+     },
+     {
+      "value": "humorista",
+      "via": "llm:xhr_4.json: content[0] a678"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 5,
+    "from_structured": 2,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "llm:xhr_3.json: seeAlsos; a500; xhr_5.json: nodes[3]"
+     },
+     {
+      "value": "Conte, Louis de, 1835-1910",
+      "via": "llm:xhr_4.json: content[0] a500"
+     },
+     {
+      "value": "Thurn-Taxisové (rod) (co-subject of a bibliographic record on his stay in Prague)",
+      "via": "llm-page:Found in these records"
+     },
+     {
+      "value": "František Dudek (author of 'Pobyt Marka Twaina v Praze a na zámku Thurn-Taxisů ve středním Polabí', 2008, about him)",
+      "via": "llm-page:Found in these records"
+     },
+     {
+      "value": "Michal Křístek (author of 'Vlastní jméno osobní v uměleckém překladu: český Huckleberry Finn 1893-2003', 2008, about him",
+      "via": "llm-page:Found in these records"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 5,
+    "from_structured": 5,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "21588604-940b-429b-b46b-7fb0887f3319",
+      "via": "llm:xhr_3.json: $.record.id"
+     },
+     {
+      "value": "jn20000701083",
+      "via": "llm:xhr_3.json: a1 (Record ID)"
+     },
+     {
+      "value": "a84f8e03-b331-4761-a023-7d44f1903b30",
+      "via": "llm:xhr_4.json: content[0].id (Twain, Mark record)"
+     },
+     {
+      "value": "jn19981002263",
+      "via": "llm:xhr_4.json: content[0] a1 (Twain, Mark record)"
+     },
+     {
+      "value": "000073119",
+      "via": "llm:xhr_3.json: a998 'ID hesla v MeSH'"
+     }
+    ]
+   },
+   "source": {
+    "n": 5,
+    "from_structured": 5,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "LC (Names)",
+      "via": "llm:xhr_3.json: a670"
+     },
+     {
+      "value": "NKC-PH",
+      "via": "llm:xhr_3.json: a670"
+     },
+     {
+      "value": "www(Internet Medieval Sourcebook)",
+      "via": "llm:xhr_3.json: a670"
+     },
+     {
+      "value": "Dobrodružství Hucka Finna",
+      "via": "llm:xhr_4.json: content[0] a670"
+     },
+     {
+      "value": "NKC",
+      "via": "llm:xhr_4.json: content[0] a670"
+     }
+    ]
+   },
+   "record_created": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "2017-10-26",
+      "via": "llm:xhr_3.json: a5 (Date created)"
+     },
+     {
+      "value": "2000-01-01",
+      "via": "llm:xhr_3.json: a906 processing data"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "2004-06-09",
+      "via": "llm:xhr_3.json: a906 processing data"
+     }
+    ]
+   },
+   "given_name": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Langhorne",
+      "via": "llm-page:See: Clemens, Samuel Langhorne"
+     }
+    ]
+   },
+   "family_name": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Clemens",
+      "via": "llm-page:See: Clemens, Samuel Langhorne"
+     }
+    ]
+   },
+   "field_of_activity": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "literatura, spisovatelé",
+      "via": "llm-page:Systematika of linked records"
+     }
+    ]
+   },
+   "license": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "CC0 1.0 Universal",
+      "via": "llm-page:footer licence statement"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "Portaro (Czech) authority API. xhr_3.json is the record for the pseudonym heading 'Conte, Louis de, 1835-1910' (NKC jn20000701083); xhr_4.json is a 'Found in these records' search returning the linked main authority 'Twain, Mark, 1835-1910' (jn19981002263, UUID a84f8e03-...); xhr_5.json is the see/see-also hierarchy tree; xhr_6.json is an empty file-directory listing. Field a998 labelled 'ID hesla v MeSH' (000073119) is a local id whose meaning is unclear."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "Two Portaro authority records from the Bibliography of the History of the Czech Lands: main heading Twain, Mark, 1835-1910 (with Czech description and two linked bibliographic records about him) and the pseudonym heading Conte, Louis de, 1835-1910, cross-referenced to each other."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 5,
+   "wikidata_gap_or_error": 1
+  },
+  "review_flags": [
+   {
+    "element": "given_name",
+    "verdict": "wikidata_gap_or_error",
+    "reason": "Site's real-name reference 'Clemens, Samuel Langhorne' gives given names 'Samuel Langhorne'; Wikidata lacks Langhorne as a given name and records it as a family name."
+   }
+  ]
+ },
+ {
+  "property": "P9081",
+  "label": "SEARCH on line catalogue ID",
+  "host": "www.search-libnet.org",
+  "domain": "library-catalogue",
+  "wikidata_values": [
+   {
+    "value": "14083",
+    "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=14083"
+   },
+   {
+    "value": "20770",
+    "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=20770"
+   }
+  ],
+  "records": [
+   {
+    "value": "14083",
+    "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=14083",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=14083",
+    "crawl_status": "login_wall_suspected",
+    "title": "MARC view › Twain, Mark, 1835-1910 (Personal Name) › SEARCH-LibNet catalog",
+    "page": {
+     "chars": 2082,
+     "excerpt": "Skip to main content Home Cart Lists Staff Search the catalog by: Library catalog Title Author Subject ISBN ISSN Series Call number Search the catalog by keyword All libraries Academia Belgica Accademia di Danimarca British School at Rome Istituto Storico Austriaco Roma Advanced search Authority search Libraries Home Authority search Twain, Mark, 1835-1910 (Personal Name) MARC view Our resources BSR Library and Archive Digital Collections Archivio Cumont Analecta Romana Instituti Danici Other Catalogues American Academy in Rome Biblioteca Apostolica Vaticana Bibliotheca Hertziana Deutsches Archäologisches Institut Rom École Française de Rome Svenska Institutet i Rom SBN URBS Normal view MARC view Entry Personal Name Number of records used in: 0 001 - CONTROL NUMBER control field: 14083 003 - CONTROL NUMBER IDENTIFIER control field: 005 - DATE AND TIME OF LATEST TRANSACTION control field: 20141217214051.0 008 - FIXED-LENGTH DATA ELEMENTS fixed length control field: 941029 ac nnaab a a a d 040 ## - CATALOGING SOURCE Original cataloging agency: DLC Transcribing agency: DLC 040 ## - CATALOGING SOURCE Original cataloging agency: ItRURBS 100 1# - HEADING--PERSONAL NAME Personal name: Twa"
+    },
+    "screenshot": "pages/P9081__14083.jpg"
+   },
+   {
+    "value": "20770",
+    "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=20770",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=20770",
+    "crawl_status": "login_wall_suspected",
+    "title": "MARC view › Snodgrass, Quintus Curtius, 1835-1910 (Personal Name) › SEARCH-LibNet catalog",
+    "page": {
+     "chars": 1539,
+     "excerpt": "Skip to main content Home Cart Lists Staff Search the catalog by: Library catalog Title Author Subject ISBN ISSN Series Call number Search the catalog by keyword All libraries Academia Belgica Accademia di Danimarca British School at Rome Istituto Storico Austriaco Roma Advanced search Authority search Libraries Home Authority search Snodgrass, Quintus Curtius, 1835-1910 (Personal Name) MARC view Our resources BSR Library and Archive Digital Collections Archivio Cumont Analecta Romana Instituti Danici Other Catalogues American Academy in Rome Biblioteca Apostolica Vaticana Bibliotheca Hertziana Deutsches Archäologisches Institut Rom École Française de Rome Svenska Institutet i Rom SBN URBS Normal view MARC view Entry Personal Name Number of records used in: 0 001 - CONTROL NUMBER control field: 20770 003 - CONTROL NUMBER IDENTIFIER control field: 005 - DATE AND TIME OF LATEST TRANSACTION control field: 20141217214209.0 008 - FIXED-LENGTH DATA ELEMENTS fixed length control field: 951009 ac nnaab a a a 040 ## - CATALOGING SOURCE Original cataloging agency: ItRURBS 100 1# - HEADING--PERSONAL NAME Personal name: Snodgrass, Quintus Curtius, Dates associated with a name: 1835-1910 500 1# […] aloging agency: ItRURBS 100 1# - HEADING--PERSONAL NAME Personal name: Snodgrass, Quintus Curtius, Dates associated with a name: 1835-1910 500 1# - SEE ALSO FROM TRACING--PERSONAL NAME Personal name: Twain, Mark, Dates associated with a name: 1835-1910 670 ## - SOURCE DATA FOUND Source citation: OCLC-CD 907 ## - : .a10195427 : 01-07-14 : 07-02-07 : - : - : - 942 ## - KOHA INTERNAL USE Koha auth type: PERSO_NAME © 2023- | Privacy | | Site developed by Emme.Bi.Soft s.r.l. Languages"
+    },
+    "screenshot": "pages/P9081__20770.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "login_wall_suspected×2",
+   "resolved": false,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page text only (LLM over HTML)",
+   "access_group": "page text only",
+   "format_family": "page text (LLM)",
+   "formats": [
+    "html"
+   ],
+   "values": 19,
+   "page_text_values": 19,
+   "descriptive_values": 10,
+   "unique_share": 0.0,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": true,
+   "wd_match": 3,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "llm-page:100 heading (record 14083)"
+     },
+     {
+      "value": "Snodgrass, Quintus Curtius, 1835-1910",
+      "via": "llm-page:100 heading (record 20770, pseudonym record)"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Clemens, Samuel Langhorne, 1835-1910",
+      "via": "llm-page:500 see also (record 14083)"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 5,
+    "from_structured": 0,
+    "from_page_text": 5,
+    "samples": [
+     {
+      "value": "Alden, Jean François, 1835-1910",
+      "via": "llm-page:400 (record 14083)"
+     },
+     {
+      "value": "Conte, Louis de, 1835-1910",
+      "via": "llm-page:400 (record 14083)"
+     },
+     {
+      "value": "De Conte, Louis, 1835-1910",
+      "via": "llm-page:400 (record 14083)"
+     },
+     {
+      "value": "Snodgrass, Quintus Curtius, 1835-1910",
+      "via": "llm-page:500 see also (record 14083)"
+     },
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "llm-page:500 see also (record 20770)"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm-page:100 dates"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm-page:100 dates"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 4,
+    "from_structured": 0,
+    "from_page_text": 4,
+    "samples": [
+     {
+      "value": "14083",
+      "via": "llm-page:001 control number (Twain)"
+     },
+     {
+      "value": "20770",
+      "via": "llm-page:001 control number (Snodgrass)"
+     },
+     {
+      "value": ".a10094295",
+      "via": "llm-page:907 (Twain record)"
+     },
+     {
+      "value": ".a10195427",
+      "via": "llm-page:907 (Snodgrass record)"
+     }
+    ]
+   },
+   "source": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "OCLC-CD",
+      "via": "llm-page:670 (both records)"
+     },
+     {
+      "value": "Original cataloging agency DLC; ItRURBS",
+      "via": "llm-page:040"
+     }
+    ]
+   },
+   "record_created": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "1994-10-29",
+      "via": "llm-page:008 (record 14083)"
+     },
+     {
+      "value": "1995-10-09",
+      "via": "llm-page:008 (record 20770)"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "2014-12-17",
+      "via": "llm-page:005"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "Two Koha MARC-view authority records from SEARCH-LibNet (foreign academies in Rome, sourced from URBS/DLC): 14083 for Twain, Mark, 1835-1910 and 20770 for the pseudonym Snodgrass, Quintus Curtius, 1835-1910. Both fully visible, both used in 0 bibliographic records; minimal content (headings, cross-references, 670 OCLC-CD)."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 2
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P9097",
+  "label": "American Academy in Rome ID",
+  "host": "library.aarome.org",
+  "domain": "library-catalogue",
+  "wikidata_values": [
+   {
+    "value": "11275911",
+    "url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=11275911"
+   },
+   {
+    "value": "12438137",
+    "url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=12438137"
+   }
+  ],
+  "records": [
+   {
+    "value": "11275911",
+    "url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=11275911",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=11275911",
+    "crawl_status": "login_wall_suspected",
+    "title": "MARC view › Snodgrass, Quintus Curtius, 1835-1910 (Personal Name) › Arthur & Janet C. Ross Library catalog",
+    "page": {
+     "chars": 1730,
+     "excerpt": "Skip to main content Arthur & Janet C. Ross Library Cart Lists Languages Login Search history Research Databases E-Journals Digital Humanities Center Suggest A Purchase Library catalog Title Author Subject ISBN ISSN Series Call number Advanced search Authority search Browse search Contact Home Authority search Snodgrass, Quintus Curtius, 1835-1910 (Personal Name) MARC view SEARCH BEYOND THE AAR URBiS URBE Vatican Library Indice SBN WorldCat Art Discovery Group Catalogue KVK ONLINE DATABASES L'Année philologique ARTstor DOAJ / DOAB Dyabola Getty Research Portal Google Scholar / BASE HathiTrust / Europeana JSTOR OpenAIRE OpenBibArt (RAA/RILA/BHA) Oxford Art Online Oxford Classical Dictionary Oxford English Dictionary TLG / TLL ADDITIONAL RESOURCES ASK A LIBRARIAN Normal view MARC view Snodgrass, Quintus Curtius, Entry Personal Name Number of records used in: 0 001 - CONTROL NUMBER control field: 11275911 003 - CONTROL NUMBER IDENTIFIER control field: ItRAAR 005 - DATE AND TIME OF LATEST TRANSACTION control field: 20240722221927.0 008 - FIXED-LENGTH DATA ELEMENTS fixed length control field: 951009 ac nnaab a a a 040 ## - CATALOGING SOURCE Original cataloging agency: ItRAAR Transcribin […] ame: Snodgrass, Quintus Curtius, Dates associated with a name: 1835-1910 Link to id.loc.gov: http://id.loc.gov/authorities/names/n93099461 500 10 - SEE ALSO FROM TRACING--PERSONAL NAME Personal name: Twain, Mark, Dates associated with a name: 1835-1910 670 ## - SOURCE DATA FOUND Source citation: OCLC-CD 907 ## - : .a10195427 : 10-06-08 : 07-02-07 : - : - : - 024 7# - OTHER STANDARD IDENTIFIER Standard number or code: n93099461 Source of number or code: lccn Languages"
+    },
+    "screenshot": "pages/P9097__11275911.jpg"
+   },
+   {
+    "value": "12438137",
+    "url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=12438137",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=12438137",
+    "crawl_status": "login_wall_suspected",
+    "title": "MARC view › Clemens, Samuel Langhorne, 1835-1910 (Personal Name) › Arthur & Janet C. Ross Library catalog",
+    "page": {
+     "chars": 3183,
+     "excerpt": "Skip to main content Arthur & Janet C. Ross Library Cart Lists Languages Login Search history Research Databases E-Journals Digital Humanities Center Suggest A Purchase Library catalog Title Author Subject ISBN ISSN Series Call number Advanced search Authority search Browse search Contact Home Authority search Clemens, Samuel Langhorne, 1835-1910 (Personal Name) MARC view SEARCH BEYOND THE AAR URBiS URBE Vatican Library Indice SBN WorldCat Art Discovery Group Catalogue KVK ONLINE DATABASES L'Année philologique ARTstor DOAJ / DOAB Dyabola Getty Research Portal Google Scholar / BASE HathiTrust / Europeana JSTOR OpenAIRE OpenBibArt (RAA/RILA/BHA) Oxford Art Online Oxford Classical Dictionary Oxford English Dictionary TLG / TLL ADDITIONAL RESOURCES ASK A LIBRARIAN Normal view MARC view Clemens, Samuel Langhorne, Entry Personal Name Number of records used in: 1 001 - CONTROL NUMBER control field: 12438137 003 - CONTROL NUMBER IDENTIFIER control field: DLC 005 - DATE AND TIME OF LATEST TRANSACTION control field: 20170125090503.0 008 - FIXED-LENGTH DATA ELEMENTS fixed length control field: 140605n| aznnnabbn |a aaa ||| 010 ## - LIBRARY OF CONGRESS CONTROL NUMBER LC control number: n 93099"
+    },
+    "screenshot": "pages/P9097__12438137.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "login_wall_suspected×2",
+   "resolved": false,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page text only (page blocked for plain HTTP)",
+   "access_group": "page blocks plain clients",
+   "format_family": "page text (LLM)",
+   "formats": [
+    "html"
+   ],
+   "values": 34,
+   "page_text_values": 34,
+   "descriptive_values": 17,
+   "unique_share": 0.0,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": true,
+   "wd_match": 5,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Snodgrass, Quintus Curtius, 1835-1910",
+      "via": "llm-page:100 heading (11275911)"
+     },
+     {
+      "value": "Clemens, Samuel Langhorne, 1835-1910",
+      "via": "llm-page:100 heading (12438137)"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 4,
+    "from_structured": 0,
+    "from_page_text": 4,
+    "samples": [
+     {
+      "value": "Klemens, Sami͡uėl, 1835-1910",
+      "via": "llm-page:400 (12438137)"
+     },
+     {
+      "value": "Klemens, Seĭmeul Lenghorn, 1835-1910",
+      "via": "llm-page:400 (12438137)"
+     },
+     {
+      "value": "Kʻo-lan-man-ssu, Sai-mi-erh Lang-en, 1835-1910",
+      "via": "llm-page:400 (12438137)"
+     },
+     {
+      "value": "Samuel L. Clemens",
+      "via": "llm-page:670 LC data base usage (12438137)"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:670 DAB, 1930 (12438137)"
+     },
+     {
+      "value": "Quintus Curtius Snodgrass",
+      "via": "llm-page:670 DAB, 1930 (12438137)"
+     }
+    ]
+   },
+   "given_name": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Langhorne",
+      "via": "llm-page:100 heading (12438137)"
+     }
+    ]
+   },
+   "family_name": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Clemens",
+      "via": "llm-page:100 heading (12438137)"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm-page:100 $d (both records)"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm-page:100 $d (both records)"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "humorist",
+      "via": "llm-page:670 DAB, 1930 (12438137)"
+     },
+     {
+      "value": "novelist",
+      "via": "llm-page:670 DAB, 1930 (12438137)"
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Works by this author are identified by the name used in the item. For a listing of other names used by this author, sear",
+      "via": "llm-page:663 complex see also reference (12438137)"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Twain, Mark, 1835-1910 (see also)",
+      "via": "llm-page:500 (both records)"
+     },
+     {
+      "value": "Rev. Lyman Beecher (descendants were correspondents)",
+      "via": "llm-page:670 NUCMC (12438137)"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "http://id.loc.gov/authorities/names/n93099461",
+      "via": "llm-page:100 link to id.loc.gov (11275911, Snodgrass)"
+     },
+     {
+      "value": "http://id.loc.gov/authorities/names/n93099439",
+      "via": "llm-page:100 link to id.loc.gov (12438137, Clemens)"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 5,
+    "from_structured": 0,
+    "from_page_text": 5,
+    "samples": [
+     {
+      "value": "11275911",
+      "via": "llm-page:001 control number (Snodgrass)"
+     },
+     {
+      "value": "12438137",
+      "via": "llm-page:001 control number (Clemens)"
+     },
+     {
+      "value": "n93099461",
+      "via": "llm-page:024 (11275911)"
+     },
+     {
+      "value": "n 93099439",
+      "via": "llm-page:010 / 024 (12438137)"
+     },
+     {
+      "value": "n 88274847",
+      "via": "llm-page:010 $z (12438137)"
+     }
+    ]
+   },
+   "source": {
+    "n": 6,
+    "from_structured": 0,
+    "from_page_text": 6,
+    "samples": [
+     {
+      "value": "OCLC-CD",
+      "via": "llm-page:670 (11275911)"
+     },
+     {
+      "value": "NUCMC data from Stowe-Day Lib. for Kinney, S. Thomson-Kinney collection, 1851-1887",
+      "via": "llm-page:670 (12438137)"
+     },
+     {
+      "value": "LC data base, 3-30-89",
+      "via": "llm-page:670 (12438137)"
+     },
+     {
+      "value": "DAB, 1930",
+      "via": "llm-page:670 (12438137)"
+     },
+     {
+      "value": "ItRAAR (cataloging agency)",
+      "via": "llm-page:040 (11275911)"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "2024-07-22",
+      "via": "llm-page:005 (11275911)"
+     },
+     {
+      "value": "2017-01-25",
+      "via": "llm-page:005 (12438137)"
+     }
+    ]
+   },
+   "record_created": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "1995-10-09",
+      "via": "llm-page:008 (11275911)"
+     },
+     {
+      "value": "2014-06-05",
+      "via": "llm-page:008 (12438137)"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "Two Koha MARC views of authority records at the Arthur & Janet C. Ross Library (American Academy in Rome). One is the pseudonym heading Snodgrass, Quintus Curtius (11275911) and the other is Clemens, Samuel Langhorne (12438137), which is copied from LC. Both records link to id.loc.gov. The suspected login wall did not hide either record."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 4
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P9141",
+  "label": "Portal da Literatura ID",
+  "host": "www.portaldaliteratura.com",
+  "domain": "books-literature",
+  "wikidata_values": [
+   {
+    "value": "757",
+    "url": "https://www.portaldaliteratura.com/autores.php?autor=757"
+   }
+  ],
+  "records": [
+   {
+    "value": "757",
+    "url": "https://www.portaldaliteratura.com/autores.php?autor=757",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.portaldaliteratura.com/autores.php?autor=757",
+    "crawl_status": "login_wall_suspected",
+    "title": "Mark Twain - Portal da Literatura",
+    "page": {
+     "chars": 3840,
+     "excerpt": "Escritores Livros Provérbios Pensamentos Poesia Textos Também Escrevo Livros infantis A Minha Conta Poesia Poemas por tema Poemas por poeta A Minha Conta Login Registe-se Recuperar password Facebook Instagram Twitter Contacte-nos Escritores Livros Provérbios Pensamentos Poesia Textos Também Escrevo Livros infantis A Minha Conta Em Foco 01/10/2026 Entre os nomes seleccionados para o Prémio Jabuti 2026 estão Itamar Vieira Junior, Aline Bei, Adélia Prado e Milton Hatoum; 24/09/2026 O novo romance “Águas de Tempestade”, de Danielle Steel, chega às livrarias no dia 1 de Outubro; 21/09/2026 A Quetzal prepara uma rentrée com José Eduardo Agualusa e José Luís Peixoto; 17/09/2026 A Cavalo de Ferro acaba de publicar em língua portuguesa “Guerra e Guerra”, de László Krasznahorkai, vencedor do Prémio Nobel da Literatura 2025; 07/09/2026 O Prémio Caminhos da Literatura, iniciativa brasileira, chega pela primeira vez a Portugal com a parceria do Grupo Infinito Particular. 06/09/2026 MELANCOLIA DOS CONFINS - NORTE, de MATHIAS ENARD, já nas livrarias Pesquisa sobre Livro Mark Twain Total de votos: 1 1835 - 1910 Biografia Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Flor […] iva brasileira, chega pela primeira vez a Portugal com a parceria do Grupo Infinito Particular. 06/09/2026 MELANCOLIA DOS CONFINS - NORTE, de MATHIAS ENARD, já nas livrarias Pesquisa sobre Livro Mark Twain Total de votos: 1 1835 - 1910 Biografia Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Florida, Missouri, em 1835. Quando tinha apenas quatro anos de idade a sua família mudou-se para Hannibal, uma pequena cidade à beira do Mississippi, onde ele viveu até os 18 anos. Pouco depois da morte do pai (em 1847) abandonou os estudos e tornou-se aprendiz de tipógrafo, escrevendo ao mesmo tempo alguns artigos para um jornal de um dos seus irmãos. Mais tarde enveredou pela pesquisa do ouro e durante algum tempo viveu uma vida de aventura. Foi impressor e condutor de barcos no Mississippi antes de se dedicar à literatura. Em 1870 casou-se com Olívia Langdon e passou a viver em Hartford, altura em que abandonou o jornalismo para se dedicar inteiramente à literatura, tor"
+    },
+    "screenshot": "pages/P9141__757.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "login_wall_suspected",
+   "resolved": false,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP",
+   "access_group": "plain HTTP",
+   "format_family": "embedded markup",
+   "formats": [
+    "rdfa"
+   ],
+   "values": 11,
+   "page_text_values": 0,
+   "descriptive_values": 9,
+   "unique_share": 0.33,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 4,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "description": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Florida, Missouri, em 1835. Quando tinha apenas",
+      "via": "og:description"
+     },
+     {
+      "value": "Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Florida, Missouri, em 1835. Quando tinha apenas",
+      "via": "llm:embedded_opengraph.json: og:description (truncated at so"
+     }
+    ]
+   },
+   "image": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://www.portaldaliteratura.com/assets/files_autores/757.webp",
+      "via": "og:image"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_opengraph.json: og:title"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "llm:embedded_opengraph.json: og:description ('cujo verdadeir"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Florida, Missouri",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "activity_place": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Hannibal",
+      "via": "llm:embedded_opengraph.json: og:description ('uma pequena ci"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "aprendiz de tipógrafo",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "757",
+      "via": "llm:embedded_opengraph.json: og:url (https://www.portaldalit"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "OpenGraph metadata from Portal da Literatura author page 757; og:description is a truncated Portuguese biography."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 2
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P9171",
+  "label": "RILM ID",
+  "host": "viaf.org",
+  "domain": "research-academic",
+  "wikidata_values": [
+   {
+    "value": "1598",
+    "url": "https://viaf.org/processed/NYNYRILM1598"
+   }
+  ],
+  "records": [
+   {
+    "value": "1598",
+    "url": "https://viaf.org/processed/NYNYRILM1598",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://viaf.org/en/processed/NYNYRILM1598",
+    "crawl_status": "ok",
+    "title": "VIAF",
+    "page": {
+     "chars": 155,
+     "excerpt": "VIAF ©2010-2026 OCLC Hosted by OCLC Privacy policy Cookie Notice Manage my cookies Send us a comment. About VIAF About the dataset Last updated: 2024-09-04"
+    },
+    "screenshot": "pages/P9171__1598.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "wrong_page",
+   "resolved": false,
+   "wrong_page_reason": "VIAF 'processed' redirect page never forwarded to the cluster",
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP",
+   "access_group": "plain HTTP",
+   "format_family": "ad-hoc JSON/XML",
+   "formats": [
+    "json"
+   ],
+   "values": 59,
+   "page_text_values": 0,
+   "descriptive_values": 15,
+   "unique_share": 0.07,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": false,
+   "wd_match": 6,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "language": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "en",
+      "via": "json:DomainData.Language.Culture"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 3,
+    "from_structured": 3,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "(NYNYRILM)1598",
+      "via": "035"
+     },
+     {
+      "value": "50566653 viaf",
+      "via": "024"
+     },
+     {
+      "value": "1598",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][0] (tag 03"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "18351130",
+      "via": "046$f"
+     },
+     {
+      "value": "1835-11-30",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][2] (tag 04"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "19100421",
+      "via": "046$g"
+     },
+     {
+      "value": "1910-04-21",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][2] (tag 04"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Clemens, Samuel Langhorne (Mark Twain)",
+      "via": "100"
+     },
+     {
+      "value": "Clemens, Samuel Langhorne (Mark Twain)",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][3] (tag 10"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Redding, Connecticut, United States",
+      "via": "370$b"
+     },
+     {
+      "value": "Redding, Connecticut, United States",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][4] (tag 37"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "writer",
+      "via": "374"
+     },
+     {
+      "value": "writer",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][5] (tag 37"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Twain, Mark",
+      "via": "400"
+     },
+     {
+      "value": "Twain, Mark",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][6] (tag 40"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "American (US)",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][4] (tag 37"
+     }
+    ]
+   },
+   "work": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "The prince and the pauper",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][10] (tag 9"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "2025-04-29T00:12:05",
+      "via": "llm:conneg_3.json: controlfield 005"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 40,
+    "from_structured": 40,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://viaf.org/viaf/50566653",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][1] (tag 02"
+     },
+     {
+      "value": "BAV|495_17911",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][22] (tag 9"
+     },
+     {
+      "value": "BAV|495_17910",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][23] (tag 9"
+     },
+     {
+      "value": "PLWABN|9810671370605606",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][24] (tag 9"
+     },
+     {
+      "value": "SUDOC|027171876",
+      "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][25] (tag 9"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "VIAF's MARC21 copy (as JSON) of the RILM authority record NYNYRILM|1598, headed 'Clemens, Samuel Langhorne (Mark Twain)' with EDTF dates, death place, nationality and occupation. 9xx fields are VIAF enrichments: 998 = VIAF cluster member records (listed in same_as as SOURCE|id, not URIs; excluded LC n 82045653 'Twain, Mark (Spirit)', and mis-clustered NKC jx20050822002 Olivia Langdon Clemens / PLWABN Karłowicz), 996 = records VIAF kept in other clusters (not used), 910/912 = title strings VIAF derived from linked bibliographic records (used as work). VIAF 998 here also links pseudonym records (Snodgrass, Quintus Curtius; Conte, Louis de) of the same person. 370 $b with no $a is read as death place (Redding)."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 3
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P9178",
+  "label": "Biblioteca Franco Serantini ID",
+  "host": "bfsopac.org",
+  "domain": "library-catalogue",
+  "wikidata_values": [
+   {
+    "value": "22428",
+    "url": "http://bfsopac.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=22428"
+   }
+  ],
+  "records": [
+   {
+    "value": "22428",
+    "url": "http://bfsopac.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=22428",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://bfsopac.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=22428",
+    "crawl_status": "login_wall_suspected",
+    "title": "Entry Autore/Autrice (persona) › Biblioteca Franco Serantini catalogo catalog",
+    "page": {
+     "chars": 1046,
+     "excerpt": "Skip to main content Biblioteca Franco Serantini catalogo Cart Lists Log in to your account Search history Clear OPAC delle Biblioteche Franco Serantini (Ghezzano - PI) e Giovanni Domaschi (Verona) Search Library catalog Title Author Subject ISBN ISSN Series Call number Go Advanced search Authority search Tag cloud Most popular Libraries Home Authority search Entry Autore/Autrice (persona) International Institute of Social History Italia - Servizio Bibliotecario Nazionale Catalogo italiano dei periodici (ACNP) Karlsruhe catalogo virtuale Istituti per la storia della Resistenza e della società contemporanea in Italia The International Association of Labour History Institutions (IALHI) Normal view MARC view Entry Autore/Autrice (persona) Number of records used in: 1 200 #1 - Intestazione - nome personale Elemento principale: Twain Ulteriore elemento del nome: Mark Qualificazione, escluse le date: scrittore statunitense Date: 1835-1910 Home: BFS Credits: Koha Italia Koha: koha-community.org Powered by Koha Languages: English Italiano"
+    },
+    "screenshot": "pages/P9178__22428.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "login_wall_suspected",
+   "resolved": false,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page text only (page blocked for plain HTTP)",
+   "access_group": "page blocks plain clients",
+   "format_family": "page text (LLM)",
+   "formats": [
+    "html"
+   ],
+   "values": 9,
+   "page_text_values": 9,
+   "descriptive_values": 8,
+   "unique_share": 0.12,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": true,
+   "wd_match": 4,
+   "wd_mismatch": 1
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "llm-page:200 Intestazione - nome personale"
+     }
+    ]
+   },
+   "family_name": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Twain",
+      "via": "llm-page:200 Elemento principale"
+     }
+    ]
+   },
+   "given_name": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark",
+      "via": "llm-page:200 Ulteriore elemento del nome"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm-page:200 Date"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm-page:200 Date"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "scrittore",
+      "via": "llm-page:200 Qualificazione"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "statunitense",
+      "via": "llm-page:200 Qualificazione"
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "scrittore statunitense",
+      "via": "llm-page:200 Qualificazione, escluse le date"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "22428",
+      "via": "llm-page:page URL authid (not shown in record)"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "Koha UNIMARC MARC view of Biblioteca Franco Serantini authority 22428 (Autore/Autrice persona) for Twain, Mark, 1835-1910, used in 1 record. Only the 200 heading with qualifier 'scrittore statunitense' is shown; control number not displayed."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 3
+  },
+  "review_flags": []
+ }
+]

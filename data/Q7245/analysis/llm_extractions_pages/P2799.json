@@ -1,0 +1,125 @@
+{
+ "property": "P2799",
+ "label": "BVMC person ID",
+ "files_read": [
+  "pages/P2799__778.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "BVMC.Labs linked-data person page: name, dates, places, variants, VIAF link, one digitised work (Spanish Tom Sawyer translation). 'Autores contemporáneos' sidebar lists unrelated people (ignored). Wikidata and Wikimedia Commons links are shown as link text only.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "es",
+    "via": "page heading"
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "es",
+    "via": "Nombre"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "Variantes de nombre"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": null,
+    "via": "Variantes de nombre"
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel",
+    "lang": "es",
+    "via": "Nombre de pila"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "Fecha de nacimiento"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "Fecha de fallecimiento"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": "es",
+    "via": "Lugar de nacimiento"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "es",
+    "via": "Lugar de fallecimiento"
+   }
+  ],
+  "gender": [
+   {
+    "value": "masculino",
+    "lang": "es",
+    "via": "Género"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Estados Unidos",
+    "lang": "es",
+    "via": "Nacionalidad"
+   }
+  ],
+  "description": [
+   {
+    "value": "escritor estadounidense",
+    "lang": "es",
+    "via": "subtitle (extracted from Wikipedia)"
+   }
+  ],
+  "work": [
+   {
+    "value": "Las aventuras de Tom Sawyer",
+    "raw": "Las aventuras de Tom Sawyer / Mark Twain; [traducción del inglés de J. Torroba]; Edición digital basada en la 12ª edición de Madrid, Espasa-Calpe, 1997 (Colección Austral ; 212)",
+    "via": "Rol autor (1 obra)"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "J. Torroba (translator, Las aventuras de Tom Sawyer)",
+    "via": "work statement of responsibility"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://viaf.org/viaf/50566653",
+    "via": "VIAF / Enlaces externos"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "778",
+    "via": "Identificador"
+   }
+  ],
+  "source": [
+   {
+    "value": "Wikipedia (CC BY-SA 3.0)",
+    "via": "description attribution"
+   }
+  ]
+ }
+}

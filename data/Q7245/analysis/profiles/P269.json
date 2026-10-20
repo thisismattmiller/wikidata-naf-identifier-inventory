@@ -1,0 +1,726 @@
+{
+ "property": "P269",
+ "property_label": "IdRef ID",
+ "files": [
+  {
+   "file": "P269__027171876/export_1.xml",
+   "format": "marcxml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.idref.fr/027171876.xml"
+  },
+  {
+   "file": "P269__027171876/export_2.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.idref.fr/027171876.json"
+  },
+  {
+   "file": "P269__027171876/export_3.rdf",
+   "format": "rdf-xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.idref.fr/027171876.rdf"
+  }
+ ],
+ "formats": {
+  "marcxml": 1,
+  "json": 1,
+  "marc-json": 1,
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "MARC 035": 14,
+  "http://www.w3.org/2004/02/skos/core#": 10,
+  "MARC 400": 6,
+  "http://purl.org/dc/terms/": 6,
+  "http://xmlns.com/foaf/0.1/": 5,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 4,
+  "http://purl.org/vocab/bio/0.1/": 4,
+  "http://www.w3.org/2002/07/owl#": 4,
+  "MARC21 authority": 2,
+  "MARC 024": 2,
+  "MARC 100": 2,
+  "MARC 678": 2,
+  "http://data.bnf.fr/ontology/bnf-onto/": 1,
+  "http://isni.org/ontology#": 1,
+  "http://dbpedia.org/ontology/": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "identifier": [
+   {
+    "value": "0000000121324854 ISNI",
+    "lang": null,
+    "via": "024",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "http://catalogue.bnf.fr/ark:/12148/cb11927291n",
+    "lang": null,
+    "via": "035",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "027332454",
+    "lang": null,
+    "via": "035",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "frBN001431637",
+    "lang": null,
+    "via": "035",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "frBN001625670",
+    "lang": null,
+    "via": "035",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "035",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "https://fr.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "035",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "FRBNF119272912",
+    "lang": null,
+    "via": "035",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "027171876",
+    "lang": null,
+    "via": "identifier",
+    "file": "export_3.rdf",
+    "uri": false
+   },
+   {
+    "value": "http://www.idref.fr/027171876/id",
+    "lang": null,
+    "via": "llm-page:URI de l'entité",
+    "file": "P269.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "100",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark (1835-1910)",
+    "lang": null,
+    "via": "prefLabel",
+    "file": "export_3.rdf",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "export_3.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark (1835-1910)",
+    "lang": "fr",
+    "via": "llm-page:Point d'accès autorisé (marked Pseudonyme)",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Journaliste, romancier et humoriste américain. Pseudonyme de Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "678",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "À la dure / Mark Twain ; traduit de l'américain par Henri Motheré ; version abrégée par Anna Solal ; illustrations par Albert Richter, 1979",
+    "lang": null,
+    "via": "editorialNote",
+    "file": "export_3.rdf",
+    "uri": false
+   },
+   {
+    "value": "LCNA 1987-1994 : Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "editorialNote",
+    "file": "export_3.rdf",
+    "uri": false
+   },
+   {
+    "value": "BN Cat. gén. : Twain (Samuel Langhorne Clemens, dit Mark)",
+    "lang": null,
+    "via": "editorialNote",
+    "file": "export_3.rdf",
+    "uri": false
+   },
+   {
+    "value": "BN Cat. gén. 1960-1969 : Twain (Mark), pseud. de Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "editorialNote",
+    "file": "export_3.rdf",
+    "uri": false
+   },
+   {
+    "value": "N ̊ 44, le mystérieux étranger : un conte ancien trouvé dans une cruche et traduit librement de cette cruche / Mark Twain ; traduction de l'anglais (États-Unis) et postface par Bernard Hoepffner, impr. 2011",
+    "lang": null,
+    "via": "editorialNote",
+    "file": "export_3.rdf",
+    "uri": false
+   },
+   {
+    "value": "Journaliste, romancier et humoriste américain. Pseudonyme de Samuel Langhorne Clemens",
+    "lang": "fr",
+    "via": "llm-page:Notes: Note publique d'information",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "400",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "吐温, 马克",
+    "lang": null,
+    "via": "400",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marc",
+    "lang": null,
+    "via": "400",
+    "file": "export_1.xml",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Variantes de point d'accès (Nom à l'état civil)",
+    "file": "P269.json",
+    "uri": false
+   },
+   {
+    "value": "吐温, 马克",
+    "lang": "zh",
+    "via": "llm-page:Variantes de point d'accès (Pseudonyme)",
+    "file": "P269.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marc",
+    "lang": "fr",
+    "via": "llm-page:Variantes de point d'accès (Pseudonyme)",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://purl.org/vocab/bio/0.1/Death",
+    "lang": null,
+    "via": "type",
+    "file": "export_3.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://purl.org/vocab/bio/0.1/Birth",
+    "lang": null,
+    "via": "type",
+    "file": "export_3.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://xmlns.com/foaf/0.1/Person",
+    "lang": null,
+    "via": "type",
+    "file": "export_3.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://purl.org/ontology/bibo/Document",
+    "lang": null,
+    "via": "type",
+    "file": "export_3.rdf",
+    "uri": true
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "sameAs",
+    "file": "export_3.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://data.bnf.fr/ark:/12148/cb11927291n#foaf:Person",
+    "lang": null,
+    "via": "sameAs",
+    "file": "export_3.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "sameAs",
+    "file": "export_3.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://fr.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "sameAs",
+    "file": "export_3.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://catalogue.bnf.fr/ark:/12148/cb11927291n",
+    "lang": null,
+    "via": "llm-page:Identifiants externes: ARK BNF",
+    "file": "P269.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm-page:Identifiants externes: ISNI",
+    "file": "P269.json",
+    "uri": true
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": null,
+    "via": "gender",
+    "file": "export_3.rdf",
+    "uri": false
+   },
+   {
+    "value": "Masculin",
+    "lang": "fr",
+    "via": "llm-page:Information: Genre",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "familyName",
+    "file": "export_3.rdf",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": null,
+    "via": "givenName",
+    "file": "export_3.rdf",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "http://sws.geonames.org/6252001/",
+    "lang": null,
+    "via": "citizenship",
+    "file": "export_3.rdf",
+    "uri": true
+   },
+   {
+    "value": "Etats-Unis d'Amérique",
+    "lang": "fr",
+    "via": "llm-page:Information: Pays",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "http://lexvo.org/id/iso639-3/eng",
+    "lang": null,
+    "via": "language",
+    "file": "export_3.rdf",
+    "uri": true
+   },
+   {
+    "value": "anglais",
+    "lang": "fr",
+    "via": "llm-page:Information: Langue d'expression",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "http://www.idref.fr/033702462/id",
+    "lang": null,
+    "via": "creator",
+    "file": "export_3.rdf",
+    "uri": true
+   },
+   {
+    "value": "N° 44, le mystérieux étranger : un conte ancien trouvé dans une cruche et traduit librement de cette cruche",
+    "lang": "fr",
+    "via": "llm-page:Source list",
+    "file": "P269.json",
+    "uri": false
+   },
+   {
+    "value": "À la dure",
+    "lang": "fr",
+    "via": "llm-page:Source list",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1976-04-08",
+    "lang": null,
+    "via": "created",
+    "file": "export_3.rdf",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-10-12T08:39:38",
+    "lang": null,
+    "via": "modified",
+    "file": "export_3.rdf",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "llm-page:Point d'accès autorisé labelled Pseudonyme; note 'Pseudonyme de Samuel Langhorne Clemens'",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:Information: Date de naissance",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:Information: Date de mort",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "journaliste",
+    "lang": "fr",
+    "via": "llm-page:Note publique d'information",
+    "file": "P269.json",
+    "uri": false
+   },
+   {
+    "value": "romancier",
+    "lang": "fr",
+    "via": "llm-page:Note publique d'information",
+    "file": "P269.json",
+    "uri": false
+   },
+   {
+    "value": "humoriste",
+    "lang": "fr",
+    "via": "llm-page:Note publique d'information",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Bernard Hoepffner (translator, postface)",
+    "lang": null,
+    "via": "llm-page:Source: N° 44, le mystérieux étranger",
+    "file": "P269.json",
+    "uri": false
+   },
+   {
+    "value": "Henri Motheré (translator)",
+    "lang": null,
+    "via": "llm-page:Source: À la dure",
+    "file": "P269.json",
+    "uri": false
+   },
+   {
+    "value": "Anna Solal (abridger)",
+    "lang": null,
+    "via": "llm-page:Source: À la dure",
+    "file": "P269.json",
+    "uri": false
+   },
+   {
+    "value": "Albert Richter (illustrator)",
+    "lang": null,
+    "via": "llm-page:Source: À la dure",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "BN Cat. gén.: Twain (Samuel Langhorne Clemens, dit Mark)",
+    "lang": null,
+    "via": "llm-page:Source",
+    "file": "P269.json",
+    "uri": false
+   },
+   {
+    "value": "BN Cat. gén. 1960-1969: Twain (Mark), pseud. de Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "llm-page:Source",
+    "file": "P269.json",
+    "uri": false
+   },
+   {
+    "value": "LCNA 1987-1994: Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:Source",
+    "file": "P269.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Licence Etalab",
+    "lang": null,
+    "via": "llm-page:footer: Utilisation des données",
+    "file": "P269.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "identifier": [],
+  "name_preferred": [
+   "fr"
+  ],
+  "description": [
+   "fr"
+  ],
+  "name_variant": [
+   "en",
+   "fr",
+   "zh"
+  ],
+  "type": [],
+  "same_as": [],
+  "gender": [
+   "fr"
+  ],
+  "family_name": [],
+  "given_name": [],
+  "nationality": [
+   "fr"
+  ],
+  "language": [
+   "fr"
+  ],
+  "work": [
+   "fr"
+  ],
+  "record_created": [],
+  "record_modified": [],
+  "pseudonym": [
+   "fr"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "fr"
+  ],
+  "related_agent": [],
+  "source": [],
+  "license": []
+ },
+ "unmapped": {
+  "date (http://purl.org/vocab/bio/0.1/)": 2,
+  "event (http://purl.org/vocab/bio/0.1/)": 2,
+  "FRBNF (http://data.bnf.fr/ontology/bnf-onto/)": 1,
+  "identifierValid (http://isni.org/ontology#)": 1,
+  "primaryTopic (http://xmlns.com/foaf/0.1/)": 1,
+  "replaces (http://purl.org/dc/terms/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "export_2.json",
+   "format": "json",
+   "size": 4950,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "record.datafield[].subfield[].code",
+     "n": 69,
+     "sample": "a"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "n": 69,
+     "sample": "0000000121324854"
+    },
+    {
+     "path": "record.datafield[].ind2",
+     "n": 31,
+     "sample": " "
+    },
+    {
+     "path": "record.datafield[].ind1",
+     "n": 31,
+     "sample": " "
+    },
+    {
+     "path": "record.datafield[].tag",
+     "n": 31,
+     "sample": "010"
+    },
+    {
+     "path": "record.datafield[].subfield.code",
+     "n": 10,
+     "sample": "a"
+    },
+    {
+     "path": "record.datafield[].subfield.content",
+     "n": 10,
+     "sample": "frBN001431637"
+    },
+    {
+     "path": "record.controlfield[].tag",
+     "n": 7,
+     "sample": "001"
+    },
+    {
+     "path": "record.controlfield[].content",
+     "n": 7,
+     "sample": "027171876"
+    },
+    {
+     "path": "record.leader",
+     "n": 1,
+     "sample": "cx  a22     3  45"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "https://fr.wikipedia.org/wiki/Mark_Twain"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "Twain"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "Journaliste, romancier et humoriste américain. Pseudonyme de Samuel Langhorne Clemens"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "Clemens"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "吐温"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "Twain"
+    },
+    {
+     "path": "record.datafield[].subfield.content",
+     "value": "À la dure / Mark Twain ; traduit de l'américain par Henri Motheré ; version abrégée par Anna Solal ; illustrations par Albert Richter, 1979"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "Twain (Samuel Langhorne Clemens, dit Mark)"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "Twain (Mark), pseud. de Samuel Langhorne Clemens"
+    },
+    {
+     "path": "record.datafield[].subfield.content",
+     "value": "N ̊ 44, le mystérieux étranger : un conte ancien trouvé dans une cruche et traduit librement de cette cruche / Mark Twain ; traduction de l'anglais (États-Unis) et postface par Bernard Hoepffner, impr"
+    },
+    {
+     "path": "record.datafield[].subfield.content",
+     "value": "Twain, Mark (1835-1910)"
+    },
+    {
+     "path": "record.datafield[].subfield.content",
+     "value": "Clemens, Samuel Langhorne"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "吐温, 马克"
+    },
+    {
+     "path": "record.datafield[].subfield[].content",
+     "value": "Twain, Marc"
+    }
+   ],
+   "language_like_keys": [
+    "tag"
+   ]
+  }
+ ],
+ "llm_notes": "IdRef (Sudoc) person authority record 027171876 for Twain, Mark (1835-1910), with variant access points, dates, gender, note, external identifiers and sources. Linked-references section is collapsed.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

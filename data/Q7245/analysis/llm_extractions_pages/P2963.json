@@ -1,0 +1,46 @@
+{
+ "property": "P2963",
+ "label": "Goodreads author ID",
+ "files_read": ["pages/P2963__1244.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Goodreads author page: born/died, website, genres, influences (truncated '...more'), a bio (truncated '...more'), top 10 books (9,691 distinct works exist), series with editors, and quotes. Librarian note says more than one author shares the name.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "bio sentence"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": "en", "via": "Born"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910", "lang": "en", "via": "Died"}],
+  "birth_place": [{"value": "Florida, Missouri, The United States", "lang": "en", "via": "Born"}],
+  "occupation": [{"value": "writer", "lang": "en", "via": "bio"}, {"value": "humorist", "lang": "en", "via": "bio"}, {"value": "essayist", "lang": "en", "via": "bio"}],
+  "field_of_activity": [{"value": "Literature & Fiction", "lang": "en", "via": "Genre"}, {"value": "Short Stories", "lang": "en", "via": "Genre"}, {"value": "Biographies & Memoirs", "lang": "en", "via": "Genre"}],
+  "nationality": [{"value": "American", "lang": "en", "via": "bio"}],
+  "description": [{"value": "Samuel Langhorne Clemens, known by the pen name Mark Twain, was an American writer, humorist and essayist. He was praised as the \"greatest humorist the United States has produced,\" with William Faulkner calling him \"the father of American literature.\" His novels include The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1884), with the latter often called the \"Great American Novel.\" Twain also wrote A Connecticut Yankee in King Arthur's Court (1889) and Pudd'nhead Wilson (1894), and co-wrote The Gilded Age: A Tale of Today (1873) with Charles Dudley Warner.", "raw": "page truncates with '...more'", "lang": "en", "via": "bio"}],
+  "work": [
+   {"value": "The Adventures of Huckleberry Finn", "raw": "published 1885 — 9832 editions", "via": "books list"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "published 1876", "via": "books list"},
+   {"value": "The Prince and the Pauper", "raw": "published 1881", "via": "books list"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "published 1889", "via": "books list"},
+   {"value": "The Adventures of Tom Sawyer and Adventures of Huckleberry Finn", "via": "books list"},
+   {"value": "The Diaries of Adam and Eve", "raw": "published 1906", "via": "books list"},
+   {"value": "Pudd'nhead Wilson", "raw": "published 1893", "via": "books list"},
+   {"value": "Life on the Mississippi", "raw": "published 1883", "via": "books list"},
+   {"value": "The Innocents Abroad, Or, the New Pilgrims' Progress", "raw": "published 1869", "via": "books list"},
+   {"value": "The Mysterious Stranger", "raw": "published 1916", "via": "books list"},
+   {"value": "The Gilded Age: A Tale of Today", "raw": "1873, with Charles Dudley Warner", "via": "bio"},
+   {"value": "Adventures of Tom and Huck (series)", "via": "Series"},
+   {"value": "Autobiography of Mark Twain: The Complete and Authorized Edition", "via": "Series"},
+   {"value": "Jumping Frogs: Undiscovered, Rediscovered, and Celebrated Writings of Mark Twain", "via": "Series"},
+   {"value": "The McWilliamses (Short Stories)", "via": "Series"}
+  ],
+  "related_agent": [
+   {"value": "Charles Dudley Warner (co-author, The Gilded Age)", "via": "bio"},
+   {"value": "Robert Ingersoll (influence)", "via": "Influences"}, {"value": "Ambrose Bierce (influence)", "via": "Influences"}, {"value": "E. Haldeman-Julius (influence)", "via": "Influences"}, {"value": "Jacques Loeb (influence)", "via": "Influences"},
+   {"value": "Lee Nelson (co-credited, Adventures of Tom and Huck series)", "via": "Series"},
+   {"value": "Harriet E. Smith (editor, Autobiography)", "via": "Series"}, {"value": "Benjamin Griffin (editor, Autobiography; Jumping Frogs)", "via": "Series"}, {"value": "Victor Fischer (editor, Autobiography)", "via": "Series"}, {"value": "Michael Barry Frank (editor, Autobiography)", "via": "Series"}, {"value": "Amanda Gagel (editor, Autobiography)", "via": "Series"}, {"value": "Sharon K. Goetz (editor, Autobiography)", "via": "Series"}, {"value": "Leslie Diane Myrick (editor, Autobiography)", "via": "Series"},
+   {"value": "Livy Clemens (co-credited, Jumping Frogs series)", "via": "Series"}, {"value": "Susy Clemens (co-credited, Jumping Frogs series)", "via": "Series"},
+   {"value": "William Faulkner (called him 'the father of American literature')", "via": "bio"}
+  ],
+  "same_as": [{"value": "http://www.marktwainproject.org/", "via": "Website"}],
+  "identifier": [{"value": "1244", "via": "page URL"}]
+ }
+}

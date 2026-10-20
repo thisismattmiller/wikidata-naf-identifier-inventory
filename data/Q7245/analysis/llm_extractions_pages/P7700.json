@@ -1,0 +1,1565 @@
+{
+ "property": "P7700",
+ "label": "Slovak National Library (VIAF) ID",
+ "files_read": [
+  "pages/P7700__vtls005928524.txt",
+  "pages/P7700__vtls011128952.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Two VIAF 'processed' MARC views of Slovak National Library authorities: vtls005928524 (Twain, Mark, 1835-1910) and vtls011128952 (pseudonym record Conte, Louis de, 1835-1910), each with places, occupations, gender, Slovak bio note, LC/Wikipedia links and pseudonym/real-name 500 links. The Twain record lists 194 distinct titles (capped at 40 here) and 206 co-contributor names with no relation stated.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "sk",
+    "via": "MARC 100 (vtls005928524)"
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": "sk",
+    "via": "MARC 100 (vtls011128952, pseudonym record)"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, 1835-1910",
+    "lang": "sk",
+    "via": "MARC 400 (vtls005928524)"
+   },
+   {
+    "value": "Tven, Mark, 1835-1910",
+    "lang": "sk",
+    "via": "MARC 400 (vtls005928524)"
+   },
+   {
+    "value": "Tven, M., 1835-1910",
+    "lang": "sk",
+    "via": "MARC 400 (vtls005928524)"
+   },
+   {
+    "value": "Mark Twain, 1835-1910",
+    "lang": "sk",
+    "via": "MARC 400 (vtls005928524)"
+   },
+   {
+    "value": "De Conte, Louis, 1835-1910",
+    "lang": "sk",
+    "via": "MARC 400 (vtls011128952)"
+   },
+   {
+    "value": "Conte, Louis de, Sieur, 1835-1910",
+    "lang": "sk",
+    "via": "MARC 400 (vtls011128952)"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "raw": "Skutočné meno (real name)",
+    "lang": "sk",
+    "via": "MARC 500 ‡i Skutočné meno"
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "sk",
+    "via": "MARC 500 real name"
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "sk",
+    "via": "MARC 500 real name"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "sk",
+    "via": "MARC 500 ‡i Pseudonym (vtls011128952)"
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": "sk",
+    "via": "MARC 500 ‡i Pseudonym (vtls005928524)"
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": "sk",
+    "via": "MARC 500 ‡i Pseudonym (both records)"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "* 30. november 1835; 046 ‡f 1835",
+    "lang": "sk",
+    "via": "MARC 678 / 046"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "† 21. apríl 1910; 046 ‡g 1910",
+    "lang": "sk",
+    "via": "MARC 678 / 046"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Mo.)",
+    "lang": "sk",
+    "via": "MARC 370 ‡a"
+   },
+   {
+    "value": "Florida, Missouri, Spojené štáty americké",
+    "lang": "sk",
+    "via": "MARC 678"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Conn.)",
+    "lang": "sk",
+    "via": "MARC 370 ‡b"
+   },
+   {
+    "value": "Redding, Connecticut, Spojené štáty americké",
+    "lang": "sk",
+    "via": "MARC 678"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Spojené štáty americké",
+    "lang": "sk",
+    "via": "MARC 370 ‡c / 947"
+   }
+  ],
+  "gender": [
+   {
+    "value": "muž",
+    "lang": "sk",
+    "via": "MARC 375"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "spisovatelia",
+    "lang": "sk",
+    "via": "MARC 374"
+   },
+   {
+    "value": "satirici",
+    "lang": "sk",
+    "via": "MARC 374"
+   },
+   {
+    "value": "humoristi",
+    "lang": "sk",
+    "via": "MARC 374"
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "literatúra",
+    "lang": "sk",
+    "via": "MARC 372"
+   },
+   {
+    "value": "próza",
+    "lang": "sk",
+    "via": "MARC 372"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "MARC 377"
+   }
+  ],
+  "description": [
+   {
+    "value": "Americký spisovateľ, satirik, humorista, * 30. november 1835, Florida, Missouri, Spojené štáty americké - † 21. apríl 1910, Redding, Connecticut, Spojené štáty americké",
+    "lang": "sk",
+    "via": "MARC 678"
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Tom Sawyer",
+    "lang": "slo",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Huckleberry Finn : regény",
+    "lang": "hun",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "cze",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "eng",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "The prince and the pauper",
+    "lang": "eng",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Przygody Tomka Sawyera",
+    "lang": "pol",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Izbrannoje",
+    "lang": "rus",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Aforizmy",
+    "lang": "slo",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "The Unabridged Mark Twain",
+    "lang": "eng",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Opere",
+    "lang": "rum",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Autobiografie",
+    "lang": "cze",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Rasskazy",
+    "lang": "rus",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Die Abenteuer des Huckleberry Finn",
+    "lang": "ger",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Prikľučenije Toma Sojera. Prikľučenije Gekľberri Finna",
+    "lang": "ukr",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "eng",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Dobrodružstvá Toma Sawyera ; Dobrodružstvá Huckleberryho Finna",
+    "lang": "slo",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Tom Sawyer a jeho dobrodružstvá",
+    "lang": "slo",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Dobrodružstvá Huckleberryho Finna",
+    "lang": "slo",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "The adventures of Huckleberry Finn : podle příběhu Marka Twaina",
+    "lang": "eng",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "The adventures of Huckleberry Finn : a ladder edition at the 2,000-word level",
+    "lang": "eng",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Yankee na dvoře krále Artuše",
+    "lang": "und",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Dobrodružstvá Toma Sawyera a Huckleberryho Finna",
+    "lang": "slo",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Dobrodružstvá Toma Sawyera",
+    "lang": "slo",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Mierové hračky a ďalšie poviedky",
+    "lang": "slo",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Tom Sawyer kalandjai",
+    "lang": "hun",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Joean of Arc",
+    "lang": "cze",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Panna ve zbroji",
+    "lang": "cze",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Kikúrálom a náthámat",
+    "lang": "hun",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Die Arglosen im Ausland",
+    "lang": "ger",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Denník Adama a Evy",
+    "lang": "slo",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Princ a chuďas Yankee z Connecticutu na dvoře krále Artuše",
+    "lang": "und",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Dobrodružství Huckleberryho Finna",
+    "lang": "cze",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Dobrodružství Toma Sawyera",
+    "lang": "cze",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "eng",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Pisma s zemli",
+    "lang": "rus",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "King Leopold´s Soliloquy",
+    "lang": "eng",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Tom Sawyer : Huckleberry Finn",
+    "lang": "slo",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "Opovidannja",
+    "lang": "ukr",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "The Autobiography of Mark Twain",
+    "lang": "eng",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   },
+   {
+    "value": "The adventures of Tom Sawyer : CD-ROM : : zvuková nahrávka knihy po slovensky a anglicky",
+    "lang": "eng",
+    "via": "MARC 912/910 (works in cluster, record vtls005928524)"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Lemke, Horst (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Kořínek, Otakar, 1946- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ornest, Jiří, 1946-2017 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Rybišar, Ladislav (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Konvalinková, Naďa, 1951- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Bednár, Alfonz, 1914-1989 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Žilinčanová, Viera, 1932-2008 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Makovický, Igor, 1947-2014 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Raynham, Alex (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Sasheva, Iva (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Smith, Ellen (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Tousch, Viera (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Wikiel, Ilona (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Jelínek, Bohdan, 1948- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Gel, František, 1901-1972 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hulejová, Eliška (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Leacock, Stephen, 1869-1944 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Butler, Ellis Parker, 1869-1937 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Petráš, Pavol, 1964- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Loomis, Chrales Battell, 1861-1911 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Jerome, Jerome K. (Jerome Klapka), 1859-1927 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Karinthy, Frigyes, 1887-1938 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Čonka, Igor (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Saki, 1870-1916 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Henry, O., 1862-1910 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Jedlička, Ladislav, prekladateľ (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Szász, Imre (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Brock, Ana Maria (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Kellenberger, Ľubomír, 1921-1971 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Petrovič, Peter, 1952- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Pravdová, Hana (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Lhoták, Kamil, 1912-1990, (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Molan, Christ (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Kehl, Jacqueline (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Krupa, Viktor, 1936-2021 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ždán, Peter, 1919-1991 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Neilson, Keith (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Clark, Kindle (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Michalidesová, Alena, 1954- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Szecskó, Tamás, 1925-1987 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Bindeman, L. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Kass, János, 1927- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Fishkin, Shelley Fisher (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Stopiak, Dušan, 1953-1991 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Würtz, Ádám (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Koroknay, István (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Réz, Ádám (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ruppeldtová, Alexandra, 1954- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ruppeldt, Miloš, 1922-1967 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Szabó, Dušan (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Juras', Jurij, 1931- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Harrerová, Šárka (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Fröhlich, František, 1934-2014 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Tymmora, H. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hanuljak, Hryhorij, 1883-1945 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Urbánek, Zdeněk, 1917-2008 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Swahn, Sven Christer (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hornát, Jaroslav (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Válderrama Zaldívar, Rosario (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Koch, Henny, 1854-1925 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Šulc, Dušan, 1912-1995 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "McNee, Ian (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Brook, Henry (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Karoknay, István (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Smrž, Vladimír (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Daruzes, N. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Paine, Albert Bibelow (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Mertová, Hana, 1965- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ketterer, David (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hojný, I. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Tauber, Karol (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Krutá, Zuzana Dreadka (výtvarníčka) (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Defoe, Daniel, asi 1661-1731 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Stevenson, Robert Louis, 1850-1894 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Pesselová, Mária (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Pino, Chaco (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "London, Jack, 1876-1916 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Pérez Sevilla, G. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Votaw, John (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Jarin, P., 1919-1991 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Adams, Henry (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hawthorne, Nathaniel (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "MacFarlane, Lisa (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Alcott, Louisa May, 1832-1888 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Child, Lydia Maria (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Melville, Henry (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Wilson, Harriet E. Adams (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ďurčo, Ján (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Dumas, Alexandre, 1802-1870 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Melville, Herman, 1819-1891 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Boor, J. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Klapper, Osvald, 1930-2010 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Beránková, Jitka, 1927-, (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Schwarz, Josef, 1915-2003 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Procházka, Martin (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Koštial, Rudolf, 1913-1991 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Studená, Zora, 1919- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Gurovoj, I. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Halász, Gyula (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Jana z Arku, svätá, 1412-1431 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Tandori, Dezső (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Raszler, Károly (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Benedek, Marcell, 1885-1969 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Šimo, Jozef, 1909-1984 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Jedinák, Michal, 1975- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Rehák, A. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Smežon, I. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Šabek, Igor, 1958- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Závodská, M. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Kajlich, Aurel, 1901-1973 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Wahle, Frank (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ruppeldtová, Tatiana, 1921-2006 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Marantónio, Ugo (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Kociánová, Šárka (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "DiGerolamo, Tony, 1966- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Nagulakonda, Rajesh (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Mendiguren, Iñaki, 1954- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ruppeldt, Fedor Fridrich, 1886-1979 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Tesař, Vladimír, 1924-2008 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Baron, Karol, 1939-2004 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Cornish, F. H. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Jonshon, Paul Fisher (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Papastavrou, Anna (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Bednár, Štefan, 1909-1976 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Lukáč, Emil Boleslav, 1900-1979 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Fastrová, Jarmila, 1899-1968 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Rose, Chris (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Čibenková, Mirka, 1953- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Borčin, Emil, 1946- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Mašková, Marcela, 1960- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Warner, Charles Dudley 1829-1900 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Krüger, Lore, 1914-2009 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Vonnegut, Kurt, 1922-2007 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Cox, James M. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Teacher, Lawrence (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Krüger, L. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ruppeldtová, Viera (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Detrich, Ján, 1877-1951 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Braxatoris, Martin Miloš, 1863-1934 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hozáková, Regina (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Dolenský, Daniel (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Peter Coveney (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Brunovský, Albín, 1935-1997 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Kopřiva, Milan, 1929-1997 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hůrka, Milan (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Pospíšil, Josef (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Vančura, Zdeněk, 1903-1974 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Smith-Dluhá, Gabrielle (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Peters, Richard (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Michnová, Drahomíra (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Netopil, Zdeněk, 1948-2023 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hopkins, Andy. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hoggett, W. J. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Potter, Jocelyn. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Bullard, Nick (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Johnson, Fisher (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Mika, Ľubomír (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ensikat, Klaus (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Klotz, Günther (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Rubáš, Stanislav (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Dotzauer, Oswin H. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Pospíšilová, Gerta, 1918-1994 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hejna, Jiří, 1921-2011 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Krejča, Jindřich, 1920-1991 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ušák, Teofil, 1922-1999 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Otto, Jan, 1841-1916 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Benešovský-Veselý, Jan J., 1854-1905 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Čechov, Ján (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Turtle, Sarah J., 1952- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "González Escalada, Guillermo (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Welland, Dennis (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Binder, Eberhard, 1924-1998 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Berger, Karl Heinz (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Pauliny-Tóth, Ján, 1903-1966 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Covici Jr., Pascal (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Paulinyi, János (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Rousseau, May (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Johnson, Paul Fisher (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Mowat, Diane (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Meihui, Zhao (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Kornijenko, Valentyn (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Chvostenko, L. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Répássyová, Elena (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Jékely, Zoltán, 1913-1982 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Lőrincz, Zsuzsa, 1954- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ensor, Allison R. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Gaľ, N.N. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Štefániková, Jana (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Steskálová, Katarína (prekladateľka) (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Korec'kyj, Jurij, 1911-1931 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Bartos, Tibor (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Ribas Puigmal, Meritxell, 1975- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Vidal i Tubau, Jordi, 1963- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hulejová, E. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Rumanský, Igor, 1946-2006 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Čechov, Anton Pavlovič, 1860-1904 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Bofinger, Manfred (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Lengyel, Ján, 1947- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Gráf, Štefan, 1905-1989 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Dvořáková-Žiaranová, Ružena, 1930-2017 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Linzbothová, Elena, 1939- (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Hoffmann, E. T. A., 1776-1822 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Stendhal, 1783-1842 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Reisel, Vladimír, 1919-2007 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Turgenev, Ivan Sergejevič, 1818-1883 (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   },
+   {
+    "value": "Zverev, A. M. (co-contributor on an edition; relation not stated)",
+    "via": "MARC 950 (vtls005928524)"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "via": "MARC 856 (vtls005928524)"
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/no2003079632",
+    "via": "MARC 856 (vtls011128952, Conte, Louis de)"
+   },
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "via": "MARC 856 (both records)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BNC%7C981058514999206706",
+    "raw": "BNC|981058514999206706",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/UIY%7C981014191556806886",
+    "raw": "UIY|981014191556806886",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "raw": "WKP|Q7245",
+    "via": "VIAF cluster link"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/LNL%7C14733",
+    "raw": "LNL|14733",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NKC%7Cjn19981002263",
+    "raw": "NKC|jn19981002263",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/PTBNP%7C46269",
+    "raw": "PTBNP|46269",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NLA%7C000035028957",
+    "raw": "NLA|000035028957",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/PLWABN%7C9810671370605606",
+    "raw": "PLWABN|9810671370605606",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/SIMACOB%7C7830883",
+    "raw": "SIMACOB|7830883",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BNCHL%7C10000000000000000007139",
+    "raw": "BNCHL|10000000000000000007139",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/DNB%7C118624822",
+    "raw": "DNB|118624822",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/LC%7Cn79021164",
+    "raw": "LC|n 79021164",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NTA%7C068242964",
+    "raw": "NTA|068242964",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/KRNLK%7CKAC199605242",
+    "raw": "KRNLK|KAC199605242",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NSK%7C000047578",
+    "raw": "NSK|000047578",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/B2Q%7C0000005713",
+    "raw": "B2Q|0000005713",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/CAOONL%7Cncf10128469",
+    "raw": "CAOONL|ncf10128469",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NDL%7C00459304",
+    "raw": "NDL|00459304",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/XA%7C2080",
+    "raw": "XA|2080",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/ARBABN%7C000024237",
+    "raw": "ARBABN|000024237",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NLR%7CRUNLRAUTH77201",
+    "raw": "NLR|RU NLR AUTH 77201",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/N6I%7Cvtls000050376",
+    "raw": "N6I|vtls000050376",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/W2Z%7C90056487",
+    "raw": "W2Z|90056487",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/UAE%7CMill_a10002910",
+    "raw": "UAE|Mill_a10002910",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/LNB%7CLNC10-000002679",
+    "raw": "LNB|LNC10-000002679",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NLR%7CRUNLRAUTH7759057",
+    "raw": "NLR|RU NLR AUTH 7759057",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/SUDOC%7C027171876",
+    "raw": "SUDOC|027171876",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/J9U%7C987007269289205171",
+    "raw": "J9U|987007269289205171",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/LIH%7CLNB%3AV-1145%3B%3D_z_W",
+    "raw": "LIH|LNB:V-1145;=_z_W",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NII%7CDA00300263",
+    "raw": "NII|DA00300263",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/RERO%7CA000164542",
+    "raw": "RERO|A000164542",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/GRATEVE%7C178278",
+    "raw": "GRATEVE|178278",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NTA%7C227880145",
+    "raw": "NTA|227880145",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/EGAXA%7Cvtls000823270",
+    "raw": "EGAXA|vtls000823270",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/SELIBR%7C98057",
+    "raw": "SELIBR|98057",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/LC%7Cn82045653",
+    "raw": "LC|n 82045653",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BIBSYS%7C90056487",
+    "raw": "BIBSYS|90056487",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BNF%7C11927291",
+    "raw": "BNF|11927291",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/VLACC%7C000002392",
+    "raw": "VLACC|000002392",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BNE%7C981060902239808606",
+    "raw": "BNE|981060902239808606",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/DBC%7C87097969041957",
+    "raw": "DBC|87097969041957",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/SZ%7C118624822",
+    "raw": "SZ|118624822",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NUKAT%7Cn94200767",
+    "raw": "NUKAT|n 94200767",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BAV%7C495_17906",
+    "raw": "BAV|495_17906",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/ICCU%7CCFIV002662",
+    "raw": "ICCU|CFIV002662",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NYNYRILM%7C1598",
+    "raw": "NYNYRILM|1598",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NKC%7Cjn20000701083",
+    "raw": "NKC|jn20000701083",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/LC%7Cno2003079632",
+    "raw": "LC|no2003079632",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/ARBABN%7C000034488",
+    "raw": "ARBABN|000034488",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BAV%7C495_17908",
+    "raw": "BAV|495_17908",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/DNB%7C1106407008",
+    "raw": "DNB|1106407008",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/DBC%7C87097968223113",
+    "raw": "DBC|87097968223113",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BAV%7C495_17909",
+    "raw": "BAV|495_17909",
+    "via": "VIAF cluster link (998)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "vtls005928524",
+    "raw": "SKMASNL|vtls005928524",
+    "via": "MARC 001"
+   },
+   {
+    "value": "SNLaut0036206",
+    "via": "MARC 024"
+   },
+   {
+    "value": "vtls011128952",
+    "raw": "SKMASNL|vtls011128952 (Conte, Louis de)",
+    "via": "MARC 001"
+   },
+   {
+    "value": "SNLaut0049335",
+    "raw": "Conte, Louis de",
+    "via": "MARC 024"
+   },
+   {
+    "value": "vtls008041658",
+    "raw": "Clemens, Samuel Langhorne (linked SKMASNL record)",
+    "via": "MARC 993"
+   },
+   {
+    "value": "vtls011128949",
+    "raw": "Snodgrass, Quintus Curtius (linked SKMASNL record)",
+    "via": "MARC 993"
+   }
+  ],
+  "source": [
+   {
+    "value": "www(Library of Congress), cit. 1.12.2021; autorizovaná forma; skutočné meno; ďalšie pseudonymy; biografické údaje; profesijné údaje",
+    "lang": "sk",
+    "via": "MARC 670"
+   },
+   {
+    "value": "www(Wikipedia, the free encyclopedia), cit. 1.12.2021; biografické údaje; profesijné údaje",
+    "lang": "sk",
+    "via": "MARC 670"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2012-11-15",
+    "raw": "039 ‡y 201211151103 (vtls005928524)",
+    "via": "MARC 039"
+   },
+   {
+    "value": "2018-05-24",
+    "raw": "039 ‡y 201805241322 (vtls011128952)",
+    "via": "MARC 039"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2021-12-01T09:42:27",
+    "raw": "20211201094227 (vtls005928524)",
+    "via": "MARC 005"
+   },
+   {
+    "value": "2021-12-01T09:42:06",
+    "raw": "20211201094206 (vtls011128952)",
+    "via": "MARC 005"
+   }
+  ]
+ }
+}

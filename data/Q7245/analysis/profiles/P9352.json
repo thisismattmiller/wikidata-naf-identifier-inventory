@@ -1,0 +1,191 @@
+{
+ "property": "P9352",
+ "property_label": "Portrait Archive ID",
+ "files": [
+  {
+   "file": "P9352__114021/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.portraitarchiv.ch/portrait/show/114021"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 5,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark (Samuel Langhorne Clemens)",
+    "lang": "de",
+    "via": "llm-page:'Familienname' + 'Vorname' fields",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark (Samuel Langhorne Clemens)",
+    "lang": "de",
+    "via": "llm-page:'Vorname'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": "de",
+    "via": "llm-page:'Familienname'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "de",
+    "via": "llm-page:'geboren'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "de",
+    "via": "llm-page:'gestorben'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "de",
+    "via": "llm-page:'Bürgerort' (place of origin; used here for birthplace)",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Redding, Connecticut, USA",
+    "lang": "de",
+    "via": "llm-page:'Wohnort' / 'Kanton/ Region' / 'Land'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "M",
+    "lang": "de",
+    "via": "llm-page:'Geschlecht'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "US-amerikanischer Schriftsteller",
+    "lang": "de",
+    "via": "llm-page:'Beruf'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "US-amerikanisch",
+    "lang": "de",
+    "via": "llm-page:'Beruf'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://de.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm-page:'Bemerkung'",
+    "file": "P9352.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "114021",
+    "lang": null,
+    "via": "llm-page:'Porträt-ID'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "siehe Bemerkungen (Staats- und Universitätsbibliothek Hamburg; Wikipedia)",
+    "lang": "de",
+    "via": "llm-page:'Quelle'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2014-11-07",
+    "lang": null,
+    "via": "llm-page:'erfasst am'",
+    "file": "P9352.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "de"
+  ],
+  "given_name": [
+   "de"
+  ],
+  "family_name": [
+   "de"
+  ],
+  "birth_date": [
+   "de"
+  ],
+  "death_date": [
+   "de"
+  ],
+  "birth_place": [
+   "de"
+  ],
+  "activity_place": [
+   "de"
+  ],
+  "gender": [
+   "de"
+  ],
+  "occupation": [
+   "de"
+  ],
+  "nationality": [
+   "de"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "source": [
+   "de"
+  ],
+  "record_created": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Portrait Archiv (ZGF, Central Swiss genealogy society) portrait record 114021 for Twain, Mark (Samuel Langhorne Clemens): dates, gender, residence, 'Bürgerort', occupation, image source note and a Wikipedia link. Family-relations section is empty apart from himself.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,18 @@
+{
+ "property": "P9995",
+ "label": "MYmovies person ID",
+ "files_read": ["P9995__106220/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata from MYmovies.it person page 106220; only the name, a country in parentheses and a generic site blurb. og:image is empty.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "it", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "nationality": [
+   {"value": "USA", "lang": "it", "via": "embedded_opengraph.json: og:description ('Mark Twain (USA)')"}
+  ],
+  "identifier": [
+   {"value": "106220", "via": "embedded_opengraph.json: og:url (https://www.mymovies.it/persone/mark-twain/106220/)"}
+  ]
+ }
+}

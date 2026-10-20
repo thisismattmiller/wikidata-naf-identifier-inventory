@@ -1,0 +1,724 @@
+{
+ "property": "P7700",
+ "label": "Slovak National Library (VIAF) ID",
+ "files_read": [
+  "P7700__vtls005928524/conneg_3.json"
+ ],
+ "about_entity": true,
+ "notes": "VIAF-style MARC21-in-JSON authority record of the Slovak National Library ('Twain, Mark, 1835-1910', 1130 datafields, mostly VIAF 9xx cluster/title/co-author data). Works capped at 40 (most-cited first); work 'lang' is null, record's $l code kept as raw_lang. 998 cluster links converted to same_as where URI pattern known ('(Spirit)' LC record excluded).",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "raw": "Twain, Mark, 1835-1910",
+    "lang": "sk",
+    "dates": "1835-1910",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[6] 100 $a"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain",
+    "raw": "Twain, 1835-1910",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[12] 400 $a"
+   },
+   {
+    "value": "Tven, Mark",
+    "raw": "Tven, Mark, 1835-1910",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[13] 400 $a"
+   },
+   {
+    "value": "Tven, M",
+    "raw": "Tven, M., 1835-1910",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[14] 400 $a"
+   },
+   {
+    "value": "Mark Twain",
+    "raw": "Mark Twain, 1835-1910",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[15] 400 $a"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "raw": "Skutočné meno: Clemens, Samuel Langhorne, 1835-1910 r",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[18] 500 $a (real name / Skutočné meno)"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Conte, Louis de",
+    "raw": "Pseudonym: Conte, Louis de, 1835-1910 r",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[16] 500 $a"
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "raw": "Pseudonym: Snodgrass, Quintus Curtius, 1835-1910 r",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[17] 500 $a"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[5] 046 $f"
+   },
+   {
+    "value": "1835-11-30",
+    "raw": "30. november 1835",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[21] 678 $a"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[5] 046 $g"
+   },
+   {
+    "value": "1910-04-21",
+    "raw": "21. apríl 1910",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[21] 678 $a"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Mo.)",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[7] 370 $a"
+   },
+   {
+    "value": "Florida, Missouri, Spojené štáty americké",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[21] 678 $a"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Conn.)",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[7] 370 $b"
+   },
+   {
+    "value": "Redding, Connecticut, Spojené štáty americké",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[21] 678 $a"
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Spojené štáty americké",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[7] 370 $c (associated country)"
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "raw": "muž",
+    "lang": "en",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[10] 375 $a"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "spisovatelia",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[9] 374 $a"
+   },
+   {
+    "value": "satirici",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[9] 374 $a"
+   },
+   {
+    "value": "humoristi",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[9] 374 $a"
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "literatúra",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[8] 372 $a"
+   },
+   {
+    "value": "próza",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[8] 372 $a"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[11] 377 $a"
+   }
+  ],
+  "description": [
+   {
+    "value": "Americký spisovateľ, satirik, humorista, * 30. november 1835, Florida, Missouri, Spojené štáty americké - † 21. apríl 1910, Redding, Connecticut, Spojené štáty americké",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[21] 678 $a"
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Tom Sawyer",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[297] 912 $A (VIAF title, 26 records)"
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": null,
+    "raw_lang": "eng",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[300] 912 $A (VIAF title, 22 records)"
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": null,
+    "raw_lang": "hun",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[298] 912 $A (VIAF title, 10 records)"
+   },
+   {
+    "value": "The prince and the pauper",
+    "lang": null,
+    "raw_lang": "eng",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[301] 912 $A (VIAF title, 6 records)"
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": null,
+    "raw_lang": "cze",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[299] 912 $A (VIAF title, 4 records)"
+   },
+   {
+    "value": "Izbrannoje",
+    "lang": null,
+    "raw_lang": "rus",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[303] 912 $A (VIAF title, 2 records)"
+   },
+   {
+    "value": "Przygody Tomka Sawyera",
+    "lang": null,
+    "raw_lang": "pol",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[302] 912 $A (VIAF title, 1 records)"
+   },
+   {
+    "value": "Aforizmy",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[304] 912 $A (VIAF title, 1 records)"
+   },
+   {
+    "value": "The Unabridged Mark Twain",
+    "lang": null,
+    "raw_lang": "eng",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[305] 912 $A (VIAF title, 1 records)"
+   },
+   {
+    "value": "Opere",
+    "lang": null,
+    "raw_lang": "rum",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[306] 912 $A (VIAF title, 1 records)"
+   },
+   {
+    "value": "Autobiografie",
+    "lang": null,
+    "raw_lang": "cze",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[307] 912 $A (VIAF title, 1 records)"
+   },
+   {
+    "value": "Rasskazy",
+    "lang": null,
+    "raw_lang": "rus",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[308] 912 $A (VIAF title, 1 records)"
+   },
+   {
+    "value": "Dobrodružstvá Toma Sawyera",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[113] 910 $A (VIAF title, 11 records)"
+   },
+   {
+    "value": "Dobrodružství Toma Sawyera",
+    "lang": null,
+    "raw_lang": "cze",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[123] 910 $A (VIAF title, 11 records)"
+   },
+   {
+    "value": "Dobrodružstvá Huckleberryho Finna",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[108] 910 $A (VIAF title, 9 records)"
+   },
+   {
+    "value": "Princ a bedár",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[146] 910 $A (VIAF title, 8 records)"
+   },
+   {
+    "value": "Tom Sawyer kalandjai",
+    "lang": null,
+    "raw_lang": "hun",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[115] 910 $A (VIAF title, 7 records)"
+   },
+   {
+    "value": "Dobrodružství Huckleberryho Finna",
+    "lang": null,
+    "raw_lang": "cze",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[122] 910 $A (VIAF title, 7 records)"
+   },
+   {
+    "value": "Tom Sawyer a jeho dobrodružstvá",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[107] 910 $A (VIAF title, 5 records)"
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": null,
+    "raw_lang": "eng",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[124] 910 $A (VIAF title, 5 records)"
+   },
+   {
+    "value": "Yankee z Connecticutu na dvore kráľa Artuša",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[154] 910 $A (VIAF title, 5 records)"
+   },
+   {
+    "value": "Listy zo Zeme",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[163] 910 $A (VIAF title, 5 records)"
+   },
+   {
+    "value": "Letters from the Earth",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[164] 910 $A (VIAF title, 5 records)"
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "raw_lang": "eng",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[105] 910 $A (VIAF title, 4 records)"
+   },
+   {
+    "value": "Panna ve zbroji",
+    "lang": null,
+    "raw_lang": "cze",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[117] 910 $A (VIAF title, 4 records)"
+   },
+   {
+    "value": "Princ a chuďas Yankee z Connecticutu na dvoře krále Artuše",
+    "lang": null,
+    "raw_lang": "und",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[121] 910 $A (VIAF title, 4 records)"
+   },
+   {
+    "value": "Huckleberry Finn kalandjai",
+    "lang": null,
+    "raw_lang": "hun",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[140] 910 $A (VIAF title, 4 records)"
+   },
+   {
+    "value": "Dobrodružstvá Toma Sawyera a Huckleberryho Finna",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[112] 910 $A (VIAF title, 3 records)"
+   },
+   {
+    "value": "Princ a chuďas",
+    "lang": null,
+    "raw_lang": "cze",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[134] 910 $A (VIAF title, 3 records)"
+   },
+   {
+    "value": "\"Dary Civilizacii\"",
+    "lang": null,
+    "raw_lang": "rus",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[147] 910 $A (VIAF title, 3 records)"
+   },
+   {
+    "value": "Princ a žobrák",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[182] 910 $A (VIAF title, 3 records)"
+   },
+   {
+    "value": "Život na Mississippi",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[184] 910 $A (VIAF title, 3 records)"
+   },
+   {
+    "value": "Dopisy z planéty Země",
+    "lang": null,
+    "raw_lang": "cze",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[188] 910 $A (VIAF title, 3 records)"
+   },
+   {
+    "value": "Tom Sawyers Abenteuer",
+    "lang": null,
+    "raw_lang": "ger",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[194] 910 $A (VIAF title, 3 records)"
+   },
+   {
+    "value": "Dobrodružstvá Toma Sawyera ; Dobrodružstvá Huckleberryho Finna",
+    "lang": null,
+    "raw_lang": "slo",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[106] 910 $A (VIAF title, 2 records)"
+   },
+   {
+    "value": "The Autobiography of Mark Twain",
+    "lang": null,
+    "raw_lang": "eng",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[129] 910 $A (VIAF title, 2 records)"
+   },
+   {
+    "value": "The complete short stories of Mark Twain",
+    "lang": null,
+    "raw_lang": "eng",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[135] 910 $A (VIAF title, 2 records)"
+   },
+   {
+    "value": "Rasskazy i pamflety",
+    "lang": null,
+    "raw_lang": "rus",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[137] 910 $A (VIAF title, 2 records)"
+   },
+   {
+    "value": "The Jumping Frog",
+    "lang": null,
+    "raw_lang": "eng",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[151] 910 $A (VIAF title, 2 records)"
+   },
+   {
+    "value": "Roughing it",
+    "lang": null,
+    "raw_lang": "eng",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[166] 910 $A (VIAF title, 2 records)"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": null,
+    "relation": "Pseudonym",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[16] 500"
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "relation": "Pseudonym",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[17] 500"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "relation": "Skutočné meno",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[18] 500"
+   },
+   {
+    "value": "Conte, Louis de",
+    "lang": null,
+    "relation": "linked authority record (x500)",
+    "identifier": "SKMASNL|vtls011128952",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[827] 993"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "relation": "linked authority record (x500)",
+    "identifier": "SKMASNL|vtls008041658",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[828] 993"
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": null,
+    "relation": "linked authority record (x500)",
+    "identifier": "SKMASNL|vtls011128949",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[829] 993"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[22] 856 $u"
+   },
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[23] 856 $u"
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "raw": "WKP|Q7245",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[833] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "raw": "DNB|118624822",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[841] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "https://www.idref.fr/027171876",
+    "raw": "SUDOC|027171876",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[857] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "https://www.nli.org.il/en/authorities/987007269289205171",
+    "raw": "J9U|987007269289205171",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[858] 998 $2 (VIAF cluster member)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "vtls005928524",
+    "raw": "(SKMASNL)vtls005928524",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[0] 035 $a"
+   },
+   {
+    "value": "SNLaut0036206",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[1] 024 $a"
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[831] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[832] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "LNL|14733",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[834] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NKC|jn19981002263",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[835] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "PTBNP|46269",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[836] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NLA|000035028957",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[837] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[838] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SIMACOB|7830883",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[839] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNCHL|10000000000000000007139",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[840] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NTA|068242964",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[843] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[844] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NSK|000047578",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[845] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "B2Q|0000005713",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[846] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "CAOONL|ncf10128469",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[847] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NDL|00459304",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[848] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "XA|2080",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[849] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "ARBABN|000024237",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[850] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 77201",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[851] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "N6I|vtls000050376",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[852] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "W2Z|90056487",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[853] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "UAE|Mill_a10002910",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[854] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[855] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[856] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[862] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NII|DA00300263",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[863] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "RERO|A000164542",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[864] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "GRATEVE|178278",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[865] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NTA|227880145",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[866] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "EGAXA|vtls000823270",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[867] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SELIBR|98057",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[868] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[870] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNF|11927291",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[871] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "VLACC|000002392",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[872] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[873] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "DBC|87097969041957",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[874] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SZ|118624822",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[875] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NUKAT|n  94200767",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[876] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BAV|495_17906",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[877] 998 $2 (VIAF cluster member id)"
+   }
+  ],
+  "source": [
+   {
+    "value": "www(Library of Congress), cit. 1.12.2021; autorizovaná forma; skutočné meno; ďalšie pseudonymy; biografické údaje; profesijné údaje",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[19] 670"
+   },
+   {
+    "value": "www(Wikipedia, the free encyclopedia), cit. 1.12.2021; biografické údaje; profesijné údaje",
+    "lang": "sk",
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[20] 670"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2012-11-15",
+    "raw": "201211151103",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: datafield[2] 039 $y"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2021-12-01",
+    "raw": "20211201094227",
+    "lang": null,
+    "via": "P7700__vtls005928524/conneg_3.json: controlfield 005"
+   }
+  ]
+ }
+}

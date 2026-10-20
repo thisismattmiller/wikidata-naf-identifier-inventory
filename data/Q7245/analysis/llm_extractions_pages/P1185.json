@@ -1,0 +1,37 @@
+{
+ "property": "P1185",
+ "label": "Rodovid ID",
+ "files_read": ["pages/P1185__231947.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "A Rodovid genealogy record (Person:231947) for Samuel Langhorne Clemens. It lists sex, birth name, his other name Mark Twain, birth and death events with places, his parents, siblings, wife, children, son-in-law and granddaughter. Some values are in Russian, such as 'США' and 'Осип Габрилович'.",
+ "elements": {
+  "name_preferred": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "page heading / Full name (at birth)"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "en", "via": "Other given names"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "en", "via": "Full name (at birth)"}],
+  "family_name": [{"value": "Clemens", "lang": "en", "via": "Lineage"}],
+  "gender": [{"value": "Male", "lang": "en", "via": "Sex"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30 November 1835", "lang": null, "via": "Events: birth"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21 April 1910", "lang": null, "via": "Events: death"}],
+  "birth_place": [{"value": "Florida (Missouri), Missouri", "lang": "en", "via": "Events: birth"}],
+  "death_place": [{"value": "Redding (Connecticut), Connecticut", "lang": "en", "via": "Events: death"}],
+  "related_agent": [
+   {"value": "John Marshall Clemens, 1798-1847 (father)", "via": "Parents"},
+   {"value": "Jane Lampton (Clemens), 1803-1890 (mother)", "via": "Parents"},
+   {"value": "Olivia Langdon (Clemens), 1845-1904 (wife)", "via": "Events: marriage"},
+   {"value": "Susy Clemens, 1872-1896 (daughter)", "via": "Events: child birth"},
+   {"value": "Clara Clemens, 1874-1962 (daughter)", "via": "Events: child birth"},
+   {"value": "Jean Clemens, 1880-1909 (daughter)", "via": "Events: child birth"},
+   {"value": "Orion Clemens, 1825-1897 (brother)", "via": "family tree"},
+   {"value": "Pamela Clemens, 1827-1904 (sister)", "via": "family tree"},
+   {"value": "Margaret Clemens, 1830-1839 (sister)", "via": "family tree"},
+   {"value": "Benjamin Clemens, 1832-1842 (brother)", "via": "family tree"},
+   {"value": "Henry Clemens, 1838-1858 (brother)", "via": "family tree"},
+   {"value": "Осип Габрилович (son-in-law, husband of Clara Clemens)", "via": "family tree"},
+   {"value": "Nina Gabrilowitsch (Clemens), 1910-1966 (granddaughter)", "via": "family tree: Grandchildren"}
+  ],
+  "identifier": [{"value": "231947", "raw": "Person:231947", "via": "page id"}],
+  "record_modified": [{"value": "2016-03-10", "raw": "last edited on 10 March 2016, at 18:00", "via": "footer"}],
+  "license": [{"value": "Creative Commons Attribution", "via": "footer"}]
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "property": "P7502",
+ "label": "Golden ID (archived)",
+ "files_read": ["P7502__Mark_Twain-E3PRP/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata from a Wayback Machine snapshot of the Golden wiki page; article:author (Roman Odarenko) is the page editor, not a related agent.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "raw": "Mark Twain - Wiki", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}
+  ],
+  "occupation": [
+   {"value": "author", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+   {"value": "humorist", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "nationality": [
+   {"value": "American", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "description": [
+   {"value": "American author and humorist", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "image": [
+   {"value": "https://web.archive.org/web/20220911070613/https://media-thumbs.golden.com/sWLp3Vvf2Wo8vhuIcxt1QVUvdjo=/200x200/smart/golden-media.s3.amazonaws.com%2Ftopics%2F191px-Mark_Twain2C_Brady-Handy_photo_portrait2C_Feb_72C_18712C_cropped.jpg", "via": "embedded_opengraph.json: $[0]['og:image']"}
+  ],
+  "identifier": [
+   {"value": "Mark_Twain-E3PRP", "raw": "https://golden.com/wiki/Mark_Twain-E3PRP", "via": "embedded_opengraph.json: $[0]['og:url']"}
+  ]
+ }
+}

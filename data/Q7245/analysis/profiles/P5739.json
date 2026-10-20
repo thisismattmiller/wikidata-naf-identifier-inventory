@@ -1,0 +1,542 @@
+{
+ "property": "P5739",
+ "property_label": "Pontificia Università della Santa Croce ID",
+ "files": [
+  {
+   "file": "P5739__80295/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://catalogo.pusc.it/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=80295"
+  },
+  {
+   "file": "P5739__80295/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalogo.pusc.it/api/v1/contrib/pusc/static/js/pusc_jquery.cookie.min.js"
+  },
+  {
+   "file": "P5739__80295/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalogo.pusc.it/cgi-bin/koha/kohapi/api2j.pl?select=RVhUUkFDVFZBTFVFKG1ldGFkYXRhLCcvcmVjb3JkL2RhdGFmaWVsZFtAdGFnPSI3ODciXS9zdWJmaWVsZFtAY29kZT0iaSJdJykgdDc4N2ksCgkJRVhUUkFDVFZBTFVFKG1ldGFkYXRhLCcvcmVjb3JkL2RhdGFmaWVsZFtAdGFnPSI3ODciXS9zdWJmaWVsZFtAY29kZT0idyJdJykgdDc4N3csCgkJRVhUUkFDVFZBTFVFKG1ldGFkYXRhLCcvcmVjb3JkL2RhdGFmaWVsZFtAdGFnPSI3ODciXS9zdWJmaWVsZFtAY29kZT0iYSJdJykgdDc4N2EsCgkJRVhUUkFDVFZBTFVFKG1ldGFkYXRhLCcvcmVjb3JkL2RhdGFmaWVsZFtAdGFnPSI3ODciXS9zdWJmaWVsZFtAY29kZT0idCJdJykgdDc4N3QsCgkJRVhUUkFDVFZBTFVFKG1ldGFkYXRhLCcvcmVjb3JkL2RhdGFmaWVsZFtAdGFnPSI3ODciXS9zdWJmaWVsZFtAY29kZT0iZCJdJykgdDc4N2QKCQlGUk9NIGJpYmxpb19tZXRhZGF0YSBXSEVSRSBiaWJsaW9udW1iZXI9dW5kZWZpbmVk"
+  },
+  {
+   "file": "P5739__80295/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalogo.pusc.it/cgi-bin/koha/kohapi/api2j.pl?select=ZmxhZ3MgZnJvbSBib3Jyb3dlcnMgd2hlcmUgY29uY2F0KGZpcnN0bmFtZSwnICcsc3VybmFtZSk9J3VuZGVmaW5lZCc%3D"
+  },
+  {
+   "file": "P5739__80295/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalogo.pusc.it/cgi-bin/koha/kohapi/api2j.pl?select=bWFyY3htbCBmcm9tIGF1dGhfaGVhZGVyIHdoZXJlIGF1dGhpZD04MDI5NQ%3D%3D"
+  },
+  {
+   "file": "P5739__80295/browser_xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://catalogo.pusc.it/api/v1/contrib/pusc/static/js/pusc_jquery.cookie.min.js"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "unknown": 2,
+  "json": 3
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 100 $a/$d",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 100",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "en",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 400 $a",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "Alden, Jean François",
+    "lang": "fr",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 400 $a",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "Alden, Jean François, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Alden, Jean François",
+    "lang": "fr",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 400 $a",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "Alden, Jean François",
+    "lang": null,
+    "via": "llm-page:MARC 400 (see-from tracing)",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 100 $a",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 400 $a",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 100 $a",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 400 $a",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 046 $f",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 046 $g",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri (Stati Uniti)",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 370 $a",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut (Stati Uniti)",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 370 $b",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "uomo",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 375 $a",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 377 $a/$l",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "eng",
+    "lang": "it",
+    "via": "llm-page:MARC 377",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "scrittore",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 678 $a",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "umorista",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 678 $a",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "aforista",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 678 $a",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "docente",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 678 $a",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "statunitense",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 678 $a",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Scrittore, umorista, aforista e docente statunitense.",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 678 $a",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Un yankee del Connecticut alla corte di re Artù",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 670 $a",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 024 $2 wikidata",
+    "file": "P5739.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 024 $2 viaf",
+    "file": "P5739.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 024 $2 isni",
+    "file": "P5739.json",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 670 $u",
+    "file": "P5739.json",
+    "uri": true
+   },
+   {
+    "value": "https://it.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 856 $u",
+    "file": "P5739.json",
+    "uri": true
+   },
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 856 $u",
+    "file": "P5739.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "80295",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 001 (003 IT-RoPUS)",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Un yankee del Connecticut alla corte di re Artù, 1962: frontespizio (Mark Twain)",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 670",
+    "file": "P5739.json",
+    "uri": false
+   },
+   {
+    "value": "Library of Congress, consultata il 7 maggio 2020: (Twain, Mark, 1835-1910)",
+    "lang": "it",
+    "via": "llm:xhr_4.json: $.records[0].marcxml 670",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2022-09-28",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 005",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2011-05-01",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.records[0].marcxml 008/00-05",
+    "file": "P5739.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en",
+   "fr"
+  ],
+  "pseudonym": [
+   "fr"
+  ],
+  "given_name": [],
+  "family_name": [],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "it"
+  ],
+  "death_place": [
+   "it"
+  ],
+  "gender": [
+   "it"
+  ],
+  "language": [
+   "it"
+  ],
+  "occupation": [
+   "it"
+  ],
+  "nationality": [
+   "it"
+  ],
+  "description": [
+   "it"
+  ],
+  "work": [
+   "it"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "source": [
+   "it"
+  ],
+  "record_modified": [],
+  "record_created": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 110,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "skip",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "max_records",
+     "n": 1,
+     "sample": "5000"
+    },
+    {
+     "path": "msg",
+     "n": 1,
+     "sample": "200 OK"
+    },
+    {
+     "path": "record_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "records",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "03-10-2026 04:25:15"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "msg"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 110,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "skip",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "max_records",
+     "n": 1,
+     "sample": "5000"
+    },
+    {
+     "path": "msg",
+     "n": 1,
+     "sample": "200 OK"
+    },
+    {
+     "path": "record_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "03-10-2026 04:25:16"
+    },
+    {
+     "path": "records",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "msg"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 4171,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "skip",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "max_records",
+     "n": 1,
+     "sample": "5000"
+    },
+    {
+     "path": "msg",
+     "n": 1,
+     "sample": "200 OK"
+    },
+    {
+     "path": "record_count",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "records[].marcxml",
+     "n": 1,
+     "sample": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<record\n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n    xsi:schemaL"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "03-10-2026 04:25:17"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "records[].marcxml",
+     "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<record\n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n    xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/sch"
+    }
+   ],
+   "language_like_keys": [
+    "msg"
+   ]
+  }
+ ],
+ "llm_notes": "Koha OPAC MARC view of the PUSC (IT-RoPUS) personal-name authority 'Twain, Mark, 1835-1910', shown both as labelled fields and raw MARC; carries Wikidata/VIAF/ISNI ids, coded dates, Wikidata-linked birth/death places, gender, language, a See-from for Clemens and Jean Francois Alden, sources and Wikipedia links. Used in 2 bib records.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

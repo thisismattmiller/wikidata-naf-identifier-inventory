@@ -1,0 +1,446 @@
+{
+ "property": "P9307",
+ "property_label": "Fancyclopedia 3 ID",
+ "files": [
+  {
+   "file": "P9307__Mark_Twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://fancyclopedia.org/index.php?title=Mark_Twain"
+  },
+  {
+   "file": "P9307__Mark_Twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://fancyclopedia.org/index.php?title=Mark_Twain"
+  },
+  {
+   "file": "P9307__Mark_Twain/alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://fancyclopedia.org/index.php?title=Special:RecentChanges&feed=atom"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "feed": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 5,
+  "http://ogp.me/ns#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "llm-page:bio: 'the penname of American writer Samuel L. Clemens'",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:bio; category Penname",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:dates under heading",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:dates under heading",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "en",
+    "via": "llm-page:bio: grew up in",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   },
+   {
+    "value": "newspaper reporter",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   },
+   {
+    "value": "prospector",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "science fiction",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:bio; category ProUS",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain was the penname of American writer Samuel L. Clemens. He wrote numerous novels and short stories, some of which include science fictional or fantastic elements, including the time travel novel A Connecticut Yankee in King Arthur's Court (1889), \"The Undying Head\" (1883), and \"Extract from Captain Stormfield's Visit to Heaven\" (1907). Steven H Silver has argued that his novel Pudd'nhead Wilson can also be considered science fiction...",
+    "lang": "en",
+    "via": "llm-page:bio paragraph",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   },
+   {
+    "value": "The Undying Head",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   },
+   {
+    "value": "Extract from Captain Stormfield's Visit to Heaven",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   },
+   {
+    "value": "The Science Fiction of Mark Twain",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   },
+   {
+    "value": "the jumping frog story",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "David Ketterer (editor of The Science Fiction of Mark Twain)",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   },
+   {
+    "value": "Steven H Silver (critic)",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P9307.json",
+    "uri": false
+   },
+   {
+    "value": "ConFrancisco (1993, posthumous honour)",
+    "lang": "en",
+    "via": "llm-page:Awards, Honors and GoHships",
+    "file": "P9307.json",
+    "uri": false
+   },
+   {
+    "value": "Readercon 22 (2011, posthumous honour)",
+    "lang": "en",
+    "via": "llm-page:Awards, Honors and GoHships",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "The Encyclopedia of Science Fiction",
+    "lang": "en",
+    "via": "llm-page:link line under bio",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2023-11-18",
+    "lang": "en",
+    "via": "llm-page:footer",
+    "file": "P9307.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "source": [
+   "en"
+  ],
+  "record_modified": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 127,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "http://fancyclopedia.org/Logo 4 (215 px for FB).png"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 189485,
+   "path_count": 23,
+   "paths": [
+    {
+     "path": "feed/entry",
+     "n": 24,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/id",
+     "n": 24,
+     "sample": "https://fancyclopedia.org/index.php?title=Karen_Pearlstein&diff=227775&oldid=227611"
+    },
+    {
+     "path": "feed/entry/title",
+     "n": 24,
+     "sample": "Karen Pearlstein"
+    },
+    {
+     "path": "feed/entry/link",
+     "n": 24,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/link@rel",
+     "n": 24,
+     "sample": "alternate"
+    },
+    {
+     "path": "feed/entry/link@type",
+     "n": 24,
+     "sample": "text/html"
+    },
+    {
+     "path": "feed/entry/link@href",
+     "n": 24,
+     "sample": "https://fancyclopedia.org/index.php?title=Karen_Pearlstein&diff=227775&oldid=227611"
+    },
+    {
+     "path": "feed/entry/updated",
+     "n": 24,
+     "sample": "2026-10-02T09:19:05Z"
+    },
+    {
+     "path": "feed/entry/summary",
+     "n": 24,
+     "sample": "<p>Added info from death report by Steven H Silver.</p>\n<table style=\"background-color: #fff; color: #202122;\" data-mw=\""
+    },
+    {
+     "path": "feed/entry/summary@type",
+     "n": 24,
+     "sample": "html"
+    },
+    {
+     "path": "feed/entry/author",
+     "n": 24,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/author/name",
+     "n": 24,
+     "sample": "Dave Langford"
+    },
+    {
+     "path": "feed/link",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "feed/link@rel",
+     "n": 2,
+     "sample": "self"
+    },
+    {
+     "path": "feed/link@type",
+     "n": 2,
+     "sample": "application/atom+xml"
+    },
+    {
+     "path": "feed/link@href",
+     "n": 2,
+     "sample": "https://fancyclopedia.org/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=atom"
+    },
+    {
+     "path": "feed",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "feed@{http://www.w3.org/XML/1998/namespace}lang",
+     "n": 1,
+     "sample": "en"
+    },
+    {
+     "path": "feed/id",
+     "n": 1,
+     "sample": "https://fancyclopedia.org/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=atom"
+    },
+    {
+     "path": "feed/title",
+     "n": 1,
+     "sample": "fancyclopedia.org  - Recent changes [en]"
+    },
+    {
+     "path": "feed/updated",
+     "n": 1,
+     "sample": "2026-10-03T02:27:04Z"
+    },
+    {
+     "path": "feed/subtitle",
+     "n": 1,
+     "sample": "Track the most recent changes to the wiki in this feed."
+    },
+    {
+     "path": "feed/generator",
+     "n": 1,
+     "sample": "MediaWiki 1.43.1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Fancyclopedia 3 (science-fiction fandom wiki) stub biography: dates, a short bio focused on his science-fictional works, posthumous convention honours, and a mention of an Encyclopedia of Science Fiction entry (no URL in text).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

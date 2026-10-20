@@ -1,0 +1,96 @@
+{
+ "property": "P7689",
+ "label": "Online Nevada Encyclopedia ID",
+ "files_read": ["pages/P7689__mark-twain.txt", "pages/P7689__samuel-clemens.txt"],
+ "about_entity": true,
+ "page_kind": "encyclopedia article",
+ "notes": "Two Online Nevada Encyclopedia articles about him despite the http_error status: 'Mark Twain' by Lawrence Berkove (16 Nov 2009), a full life-and-works essay stressing his Nevada years, and 'Samuel Clemens' by Ronald James (30 Jul 2009), on his Comstock period. Both give geographic tags, further reading and author/date; no external ids.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "en", "via": "article heading (mark-twain)"},
+   {"value": "Samuel Clemens", "lang": "en", "via": "article heading (samuel-clemens)"}
+  ],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "opening sentence of both articles"}],
+  "pseudonym": [
+   {"value": "Mark Twain", "raw": "In an Enterprise article from February 1863, Clemens first used the byline Mark Twain", "lang": "en", "via": "both articles"},
+   {"value": "Josh", "raw": "Clemens used the penname \"Josh\" to correspond with the Territorial Enterprise", "lang": "en", "via": "samuel-clemens article"}
+  ],
+  "birth_date": [{"value": "1835", "raw": "born in 1835", "lang": null, "via": "opening sentence of both articles"}],
+  "death_date": [{"value": "1910", "raw": "At the time of his death in 1910", "lang": null, "via": "mark-twain article, final paragraph"}],
+  "birth_place": [{"value": "Florida, Missouri", "lang": "en", "via": "mark-twain article opening sentence"}],
+  "activity_place": [
+   {"value": "Virginia City", "raw": "Geographic Area: Northern Nevada›Storey County›Virginia City; worked at the Territorial Enterprise", "lang": "en", "via": "Geographic Area tags (both) and text"},
+   {"value": "Incline Village", "raw": "Northern Nevada›Washoe County›Incline Village", "lang": "en", "via": "Geographic Area tags (both)"},
+   {"value": "Carson City", "raw": "Northern Nevada›Carson City; arrived with Orion in 1861", "lang": "en", "via": "Geographic Area tag (samuel-clemens) and text of both"},
+   {"value": "Unionville", "raw": "failed at mining in Unionville and Aurora", "lang": "en", "via": "samuel-clemens article"},
+   {"value": "Aurora", "lang": "en", "via": "samuel-clemens article"},
+   {"value": "Hannibal", "raw": "the Matter of Hannibal", "lang": "en", "via": "mark-twain article"},
+   {"value": "Cincinnati", "raw": "printing shops in Cincinnati and other eastern cities", "lang": "en", "via": "mark-twain article"},
+   {"value": "San Francisco", "lang": "en", "via": "both articles"},
+   {"value": "Buffalo, New York", "lang": "en", "via": "mark-twain article"},
+   {"value": "Hartford, Connecticut", "lang": "en", "via": "mark-twain article"}
+  ],
+  "occupation": [
+   {"value": "author", "lang": "en", "via": "both articles"},
+   {"value": "Mississippi River steamboat pilot", "lang": "en", "via": "mark-twain article"},
+   {"value": "printer", "lang": "en", "via": "mark-twain article"},
+   {"value": "secretary (to his brother Orion)", "lang": "en", "via": "mark-twain article"},
+   {"value": "prospector / miner", "lang": "en", "via": "both articles"},
+   {"value": "reporter (Virginia City Territorial Enterprise)", "lang": "en", "via": "both articles"},
+   {"value": "humorist / lecturer", "lang": "en", "via": "samuel-clemens article"},
+   {"value": "newspaper part-owner (Buffalo)", "lang": "en", "via": "mark-twain article"}
+  ],
+  "field_of_activity": [{"value": "The Arts", "lang": "en", "via": "'Subjects' tag (mark-twain article)"}],
+  "nationality": [{"value": "American", "raw": "America's most beloved author", "lang": "en", "via": "mark-twain article"}],
+  "description": [{"value": "Samuel Langhorne Clemens is one of the nation's most beloved authors. As Mark Twain, he wrote such classics as Tom Sawyer (1876), Huckleberry Finn (1884), and The Prince and the Pauper (1881). His life and career are the property of several states including Nevada, which played an essential role in his development.", "lang": "en", "via": "samuel-clemens article, opening paragraph"}],
+  "work": [
+   {"value": "Roughing It", "raw": "(1872)", "lang": "en", "via": "both articles"},
+   {"value": "The Innocents Abroad", "raw": "(1869)", "lang": "en", "via": "mark-twain article"},
+   {"value": "The Celebrated Jumping Frog of Calaveras County and Other Sketches", "raw": "(1869) [sic]", "lang": "en", "via": "mark-twain article"},
+   {"value": "The Gilded Age", "raw": "(1874)", "lang": "en", "via": "mark-twain article"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "(1876)", "lang": "en", "via": "both articles"},
+   {"value": "Life on the Mississippi", "raw": "1883", "lang": "en", "via": "mark-twain article"},
+   {"value": "The Adventures of Huckleberry Finn", "raw": "1884-85; samuel-clemens: Huckleberry Finn (1884)", "lang": "en", "via": "both articles"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "1889", "lang": "en", "via": "mark-twain article"},
+   {"value": "Pudd'nhead Wilson and Those Extraordinary Twins", "raw": "1894", "lang": "en", "via": "mark-twain article"},
+   {"value": "Following the Equator", "raw": "(1897)", "lang": "en", "via": "mark-twain article"},
+   {"value": "The Mysterious Stranger manuscripts", "raw": "(1897-1908)", "lang": "en", "via": "mark-twain article"},
+   {"value": "Letters from the Earth", "raw": "(1909)", "lang": "en", "via": "mark-twain article"},
+   {"value": "The Prince and the Pauper", "raw": "(1881)", "lang": "en", "via": "samuel-clemens article"}
+  ],
+  "subject_of": [
+   {"value": "Lawrence I. Berkove, \"Nevada Influences on Mark Twain\", in A Companion to Mark Twain, ed. Peter Messent and Louis J. Budd (Blackwell, 2003)", "lang": "en", "via": "Further Reading (mark-twain)"},
+   {"value": "Ron Powers, Mark Twain: A Life (Free Press, 2005)", "lang": "en", "via": "Further Reading (mark-twain)"},
+   {"value": "Margaret Sanborn, Mark Twain: The Bachelor Years (Double Day, 1990)", "lang": "en", "via": "Further Reading (both)"},
+   {"value": "Online Nevada Encyclopedia: 'Mark Twain' by Lawrence Berkove", "lang": "en", "via": "About this article"},
+   {"value": "Online Nevada Encyclopedia: 'Samuel Clemens' by Ronald James", "lang": "en", "via": "About this article"}
+  ],
+  "related_agent": [
+   {"value": "Orion Clemens (brother; Secretary of the Nevada Territory)", "via": "both articles"},
+   {"value": "Olivia Langdon (wife, m. 1870)", "via": "mark-twain article"},
+   {"value": "Horace Bixby (steamboat pilot who took him as apprentice)", "via": "mark-twain article"},
+   {"value": "Joe Goodman / Joseph Goodman (editor of the Territorial Enterprise, hired him)", "via": "both articles"},
+   {"value": "William Wright, 'Dan De Quille' (fellow reporter, roommate, mentor)", "via": "both articles"},
+   {"value": "Denis McCarthy (Enterprise co-owner)", "via": "mark-twain article"},
+   {"value": "Rollin Daggett (Enterprise editorialist)", "via": "mark-twain article"},
+   {"value": "Steve Gillis (Enterprise printer)", "via": "mark-twain article"},
+   {"value": "Artemus Ward (humorist who encouraged him)", "via": "samuel-clemens article"},
+   {"value": "James Nye (Governor of Nevada Territory)", "via": "samuel-clemens article"},
+   {"value": "Virginia City Territorial Enterprise (employer)", "via": "both articles"},
+   {"value": "Lawrence Berkove (article author)", "via": "About this article"},
+   {"value": "Ronald James (article author)", "via": "About this article"}
+  ],
+  "identifier": [
+   {"value": "mark-twain", "raw": "https://www.onlinenevada.org/articles/mark-twain", "via": "page URL"},
+   {"value": "samuel-clemens", "raw": "https://www.onlinenevada.org/articles/samuel-clemens", "via": "page URL"}
+  ],
+  "source": [
+   {"value": "By Lawrence Berkove", "via": "About this article (mark-twain)"},
+   {"value": "By Ronald James", "via": "About this article (samuel-clemens)"}
+  ],
+  "record_created": [
+   {"value": "2009-11-16", "raw": "16 November 2009 (mark-twain)", "via": "About this article"},
+   {"value": "2009-07-30", "raw": "30 July 2009 (samuel-clemens)", "via": "About this article"}
+  ]
+ }
+}

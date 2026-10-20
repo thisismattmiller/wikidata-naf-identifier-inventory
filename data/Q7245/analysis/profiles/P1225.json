@@ -1,0 +1,3757 @@
+{
+ "property": "P1225",
+ "property_label": "U.S. National Archives Identifier",
+ "files": [
+  {
+   "file": "P1225__10574508/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://catalog.archives.gov/id/10574508"
+  },
+  {
+   "file": "P1225__10574508/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://catalog.archives.gov/api/v2/api-docs/"
+  },
+  {
+   "file": "P1225__10574508/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalog.archives.gov/proxy/v3/records/search?naId_is=10574508&allowLegacyOrgNames=true&includeExtractedText=true&includeOtherExtractedText=true"
+  },
+  {
+   "file": "P1225__10574508/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalog.archives.gov/proxy/online-availability/naId/10574508"
+  },
+  {
+   "file": "P1225__10574508/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalog.archives.gov/proxy/contributions/targetNaId/10574508?status=active,draft"
+  },
+  {
+   "file": "P1225__10574508/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalog.archives.gov/proxy/records/search?q=record.ancestors.naId:10574508&availableOnline=true&digitalObjectCount=true"
+  },
+  {
+   "file": "P1225__10574508/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalog.archives.gov/proxy/records/search?limit=10&page=1&q=record.donors.naId%3A10574508%20OR%20record.creators.naId%3A10574508%20OR%20record.contributors.naId%3A10574508%20OR%20record.subjects.naId%3A10574508"
+  },
+  {
+   "file": "P1225__10581697/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://catalog.archives.gov/id/10581697"
+  },
+  {
+   "file": "P1225__10581697/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalog.archives.gov/proxy/v3/records/search?naId_is=10581697&allowLegacyOrgNames=true&includeExtractedText=true&includeOtherExtractedText=true"
+  },
+  {
+   "file": "P1225__10581697/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalog.archives.gov/proxy/online-availability/naId/10581697"
+  },
+  {
+   "file": "P1225__10581697/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalog.archives.gov/proxy/contributions/targetNaId/10581697?status=active,draft"
+  },
+  {
+   "file": "P1225__10581697/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalog.archives.gov/proxy/records/search?q=record.ancestors.naId:10581697&availableOnline=true&digitalObjectCount=true"
+  },
+  {
+   "file": "P1225__10581697/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalog.archives.gov/proxy/records/search?limit=10&page=1&q=record.donors.naId%3A10581697%20OR%20record.creators.naId%3A10581697%20OR%20record.contributors.naId%3A10581697%20OR%20record.subjects.naId%3A10581697"
+  }
+ ],
+ "formats": {
+  "rdfa": 2,
+  "html": 1,
+  "json": 10
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 6,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.birthDate.year",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "1835-01-01",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.birthDate.logicalDate",
+    "file": "xhr_1.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.deathDate.year",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "1910-12-31",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.deathDate.logicalDate",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "1910-01-01",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.subjects.deathDate.logicalDate",
+    "file": "xhr_5.json",
+    "uri": false
+   }
+  ],
+  "subject_of": [
+   {
+    "value": "Clemens, Samuel Langhorne,",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.name (record title)",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "Charles L. Webster and Samuel L. Clemens vs. Milan E. Ellsworth",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.title (record title)",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "121992 - Improvement in Adjustable and Detachable Straps for Garments - Samuel L. Clemens",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.title (record title)",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark,",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.name (record title)",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "Portrait of Mark Twain",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.title (record title)",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "Entry From 1850 Census For Samuel L. Clemens",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.title (record title)",
+    "file": "xhr_5.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "English",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.languages",
+    "file": "xhr_5.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Tuein, Mark,",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.variantPersonNames.name",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark,",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.variantPersonNames.name",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de,",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.variantPersonNames.name",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "De Conte, Louis,",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.variantPersonNames.name",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek,",
+    "lang": null,
+    "via": "json:body.hits.hits._source.record.variantPersonNames.name",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.body.hits.hits[0]._source.record.heading",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:heading, NAID 10581697",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Klemens, Seimeul Lenghorn, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_1.json: $..record.variantPersonNames[0].heading",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Ko-lan-man-ssu, Sai-mi-erh Lang-en, 1835-1910",
+    "lang": "zh-Latn",
+    "via": "llm:xhr_1.json: $..record.variantPersonNames[1].heading",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Klemens, Samiuel, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_1.json: $..record.variantPersonNames[2].heading",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $..record.sourceNotes[1] (usage)",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Klemens, Seimeul Lenghorn, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Ko-lan-man-ssu, Sai-mi-erh Lang-en, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Klemens, Samiuel, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Tuein, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "De Conte, Louis, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M. (Mark), 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Touen, Maku, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "De Conte, Louis, Sieur, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Tu-wen, Ma-ko, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Alden, Jean François, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Other names",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $..record.name ('Clemens, Samuel Langhorne,')",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $..record.name",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $..hits[0]._source.record.subjects[0].heading (separate authority naId 10581697)",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Quintus Curtius Snodgrass",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $..record.sourceNotes[2] ('also used name Quintus Curtius Snodgrass')",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Source Notes: DAB, 1930 'better known under pseud. Mark Twain'",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Louis de Conte",
+    "lang": "en",
+    "via": "llm-page:Other names / Source Notes",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Jean François Alden",
+    "lang": "en",
+    "via": "llm-page:Other names / Source Notes",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $..record.sourceNotes[2] (DAB, 1930)",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "novelist",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $..record.sourceNotes[2] (DAB, 1930)",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Inventor",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $..hits[1]._source.record.contributors[0].contributorType",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "humorist, novelist; better known under pseud. Mark Twain; also used name Quintus Curtius Snodgrass",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $..record.sourceNotes[2]",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Improvement in Adjustable and Detachable Straps for Garments (U.S. patent 121992)",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $..hits[1]._source.record.title (Clemens as Inventor)",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Personal recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:Source Notes",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Maku Touen tanpenshu",
+    "lang": "ja",
+    "via": "llm-page:Source Notes",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Przygody Huck'a",
+    "lang": "pl",
+    "via": "llm-page:Source Notes",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Charles L. Webster",
+    "lang": null,
+    "via": "llm:xhr_5.json: $..hits[0]._source.record.title",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Milan E. Ellsworth",
+    "lang": null,
+    "via": "llm:xhr_5.json: $..hits[0]._source.record.title",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Beecher, Lyman, Rev. (descendants of)",
+    "lang": null,
+    "via": "llm:xhr_1.json: $..record.sourceNotes[0]",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Charles L. Webster (co-party in 'Charles L. Webster and Samuel L. Clemens vs. Milan E. Ellsworth')",
+    "lang": "en",
+    "via": "llm-page:related records",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Rev. Lyman Beecher (descendants were correspondents)",
+    "lang": "en",
+    "via": "llm-page:Source Notes: NUCMC",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Cyril Clemens (letter to Bess W. Truman in related records)",
+    "lang": "en",
+    "via": "llm-page:related records",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "10574508",
+    "lang": null,
+    "via": "llm:xhr_1.json: $..record.naId",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "n 93099439",
+    "lang": null,
+    "via": "llm:xhr_1.json: $..record.importRecordControlNumber (LC control number imported)",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "10581697",
+    "lang": null,
+    "via": "llm-page:National Archives Identifier / NAID",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://id.loc.gov/authorities/names/n93099439",
+    "lang": null,
+    "via": "llm:xhr_1.json: $..record.importRecordControlNumber (URI constructed from LCCN)",
+    "file": "P1225.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm-page:Tags 'wikidata=Q7245'",
+    "file": "P1225.json",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "llm-page:Import Control Number (NAID 10581697)",
+    "file": "P1225.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "NUCMC data from Stowe-Day Lib. for Kinney, S. Thomson-Kinney collection, 1851-1887",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $..record.sourceNotes[0]",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "LC data base, 3-30-89",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $..record.sourceNotes[1]",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "DAB, 1930",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $..record.sourceNotes[2]",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Geviksman, V. A. Prints i nishchii, 1984",
+    "lang": "en",
+    "via": "llm-page:Source Notes",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "His Maku Touen tanpenshu, 1961",
+    "lang": "en",
+    "via": "llm-page:Source Notes",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "His Personal recollections of Joan of Arc, 1923",
+    "lang": "en",
+    "via": "llm-page:Source Notes",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's personal recollections of Joan of Arc, 1997",
+    "lang": "en",
+    "via": "llm-page:Source Notes",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Przygody Huck'a, 1912",
+    "lang": "en",
+    "via": "llm-page:Source Notes",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Charles L. Webster and Samuel L. Clemens vs. Milan E. Ellsworth (Subject)",
+    "lang": "en",
+    "via": "llm-page:Records related (archival records linked to him, role in parentheses)",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "121992 - Improvement in Adjustable and Detachable Straps for Garments - Samuel L. Clemens (Contributor – Inventor)",
+    "lang": "en",
+    "via": "llm-page:Records related (archival records linked to him, role in parentheses)",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Organizational History Files (Subject)",
+    "lang": "en",
+    "via": "llm-page:Records related (archival records linked to him, role in parentheses)",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Portrait of Mark Twain (Subject)",
+    "lang": "en",
+    "via": "llm-page:Records related (archival records linked to him, role in parentheses)",
+    "file": "P1225.json",
+    "uri": false
+   },
+   {
+    "value": "Entry From 1850 Census For Samuel L. Clemens (Subject)",
+    "lang": "en",
+    "via": "llm-page:Records related (archival records linked to him, role in parentheses)",
+    "file": "P1225.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "birth_date": [],
+  "death_date": [],
+  "subject_of": [],
+  "language": [],
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en",
+   "zh-Latn"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en",
+   "ja",
+   "pl"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": [],
+  "same_as": [],
+  "source": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 3116,
+   "path_count": 66,
+   "paths": [
+    {
+     "path": "body.hits.hits[]._source.record.sourceNotes[]",
+     "n": 3,
+     "sample": "NUCMC data from Stowe-Day Lib. for Kinney, S. Thomson-Kinney collection, 1851-1887 (corresp. by Samuel Langhorne Clemens"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "n": 3,
+     "sample": "Klemens, Seimeul Lenghorn, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.year",
+     "n": 3,
+     "sample": "1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "n": 3,
+     "sample": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].name",
+     "n": 3,
+     "sample": "Klemens, Seimeul Lenghorn,"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.year",
+     "n": 3,
+     "sample": "1835"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "n": 3,
+     "sample": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[].sort[]",
+     "n": 2,
+     "sample": "28.453266"
+    },
+    {
+     "path": "body.hits.total.value",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.total.relation",
+     "n": 1,
+     "sample": "eq"
+    },
+    {
+     "path": "body.hits.max_score",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "body.hits.hits[]._index",
+     "n": 1,
+     "sample": "nac-records0"
+    },
+    {
+     "path": "body.hits.hits[]._id",
+     "n": 1,
+     "sample": "10574508"
+    },
+    {
+     "path": "body.hits.hits[]._score",
+     "n": 1,
+     "sample": "28.453266"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.fileName",
+     "n": 1,
+     "sample": "NAC_2025-11-20_22.015_AUTH_0001.xml"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.indexName",
+     "n": 1,
+     "sample": "records"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.type",
+     "n": 1,
+     "sample": "authority"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.naId",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.ingestTime",
+     "n": 1,
+     "sample": "2025-11-21 08:30:18.422428"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.uuid",
+     "n": 1,
+     "sample": "8e018ac6-3759-44c9-a2ca-7854b6078c24"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.role.reference",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.role.creator",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.role.contributor",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.role.donor",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.heading",
+     "n": 1,
+     "sample": "Clemens, Samuel Langhorne, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.recordType",
+     "n": 1,
+     "sample": "authority"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.importRecordControlNumber",
+     "n": 1,
+     "sample": "n 93099439"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.authorityType",
+     "n": 1,
+     "sample": "person"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.birthDate.year",
+     "n": 1,
+     "sample": "1835"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.birthDate.logicalDate",
+     "n": 1,
+     "sample": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.linkCounts.totalDescriptions",
+     "n": 1,
+     "sample": "3"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.linkCounts.contributor",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.linkCounts.subject",
+     "n": 1,
+     "sample": "2"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.deathDate.year",
+     "n": 1,
+     "sample": "1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.deathDate.logicalDate",
+     "n": 1,
+     "sample": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.name",
+     "n": 1,
+     "sample": "Clemens, Samuel Langhorne,"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.naId",
+     "n": 1,
+     "sample": "10574508"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.preferred",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.availableOnline.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.dataSource.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.dataSource.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.dataSource.buckets[].key",
+     "n": 1,
+     "sample": "authority"
+    },
+    {
+     "path": "body.aggregations.dataSource.buckets[].doc_count",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "body.aggregations.localIdentifierCount.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.objectType.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.objectType.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "statusCode",
+     "n": 1,
+     "sample": "200"
+    },
+    {
+     "path": "headers.date",
+     "n": 1,
+     "sample": "Sat, 03 Oct 2026 02:23:08 GMT"
+    },
+    {
+     "path": "headers.content-type",
+     "n": 1,
+     "sample": "application/json; charset=UTF-8"
+    },
+    {
+     "path": "headers.content-length",
+     "n": 1,
+     "sample": "2906"
+    },
+    {
+     "path": "headers.connection",
+     "n": 1,
+     "sample": "keep-alive"
+    },
+    {
+     "path": "headers.access-control-allow-origin",
+     "n": 1,
+     "sample": "*"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "body.hits.hits[]._source.record.sourceNotes[]",
+     "value": "NUCMC data from Stowe-Day Lib. for Kinney, S. Thomson-Kinney collection, 1851-1887 (corresp. by Samuel Langhorne Clemens (1835-1910) to descendants of Rev. Lyman Beecher)"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.sourceNotes[]",
+     "value": "LC data base, 3-30-89 (hdg.: Twain, Mark, 1835-1910; x-refs.: Klemens, Samiuel; Klemens, Seimuel Lenghorn; Ko-lan-man-ssu, Sai-mi-erh Lang-en; Clemens, Samuel Langhorne; usage: Samuel Langhorne Clemen"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.sourceNotes[]",
+     "value": "DAB, 1930 (Clemens, Samuel Langhorne, 1835-1910; humorist, novelist; better known under pseud. Mark Twain; also used name Quintus Curtius Snodgrass)"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.heading",
+     "value": "Clemens, Samuel Langhorne, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.name",
+     "value": "Clemens, Samuel Langhorne,"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Klemens, Seimeul Lenghorn, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Ko-lan-man-ssu, Sai-mi-erh Lang-en, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Klemens, Samiuel, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    }
+   ],
+   "language_like_keys": [
+    "key"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 73,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "response",
+     "n": 1,
+     "sample": "No Online Availability status available for naId 10574508."
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 635,
+   "path_count": 23,
+   "paths": [
+    {
+     "path": "[].id",
+     "n": 1,
+     "sample": "1078635"
+    },
+    {
+     "path": "[].contributionId",
+     "n": 1,
+     "sample": "e93026dd-7284-3386-bbf6-40c4af267f85"
+    },
+    {
+     "path": "[].contributionType",
+     "n": 1,
+     "sample": "tag"
+    },
+    {
+     "path": "[].contribution",
+     "n": 1,
+     "sample": "wikidata=Q7245"
+    },
+    {
+     "path": "[].status",
+     "n": 1,
+     "sample": "active"
+    },
+    {
+     "path": "[].contributionSequence",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "[].parentContributionId",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].targetNaId",
+     "n": 1,
+     "sample": "10574508"
+    },
+    {
+     "path": "[].targetObjectId",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].targetPageNum",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].flagged",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "[].reviewed",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "[].madeByAdministrator",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "[].userId",
+     "n": 1,
+     "sample": "60d4f297-8485-392d-8f8d-6125e59815a8"
+    },
+    {
+     "path": "[].justificationId",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].legacyAnnotationId",
+     "n": 1,
+     "sample": "1111252"
+    },
+    {
+     "path": "[].createdAt",
+     "n": 1,
+     "sample": "2019-05-22T22:33:41.000Z"
+    },
+    {
+     "path": "[].updatedAt",
+     "n": 1,
+     "sample": "2019-05-22T22:33:41.000Z"
+    },
+    {
+     "path": "[].recordType",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].aiMachineGenerated",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "[].userName",
+     "n": 1,
+     "sample": "dominic"
+    },
+    {
+     "path": "[].fullName",
+     "n": 1,
+     "sample": "Dominic Byrd-McDevitt"
+    },
+    {
+     "path": "[].naraStaff",
+     "n": 1,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 1163,
+   "path_count": 30,
+   "paths": [
+    {
+     "path": "body.hits.total.value",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.hits.total.relation",
+     "n": 1,
+     "sample": "eq"
+    },
+    {
+     "path": "body.hits.max_score",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.digitalObjectCount.value",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.availableOnline.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.dataSource.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.dataSource.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.localIdentifierCount.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.objectType.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.objectType.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "statusCode",
+     "n": 1,
+     "sample": "200"
+    },
+    {
+     "path": "headers.date",
+     "n": 1,
+     "sample": "Sat, 03 Oct 2026 02:23:14 GMT"
+    },
+    {
+     "path": "headers.content-type",
+     "n": 1,
+     "sample": "application/json; charset=UTF-8"
+    },
+    {
+     "path": "headers.content-length",
+     "n": 1,
+     "sample": "954"
+    },
+    {
+     "path": "headers.connection",
+     "n": 1,
+     "sample": "keep-alive"
+    },
+    {
+     "path": "headers.access-control-allow-origin",
+     "n": 1,
+     "sample": "*"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 44328,
+   "path_count": 158,
+   "paths": [
+    {
+     "path": "body.hits.hits[]._source.record.digitalObjects[].objectFilename",
+     "n": 82,
+     "sample": "2814290_525901102-001.jpg"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.digitalObjects[].objectUrl",
+     "n": 82,
+     "sample": "https://catalog.archives.gov/medialz/chicago/rg-021/2814290/525901102/2814290_525901102-001.jpg"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.digitalObjects[].objectFileSize",
+     "n": 82,
+     "sample": "945554"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.digitalObjects[].objectId",
+     "n": 82,
+     "sample": "580930228"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.digitalObjects[].objectType",
+     "n": 82,
+     "sample": "Image (JPG)"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "n": 7,
+     "sample": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].authorityType",
+     "n": 7,
+     "sample": "person"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].naId",
+     "n": 7,
+     "sample": "10581697"
+    },
+    {
+     "path": "body.hits.hits[].sort[]",
+     "n": 6,
+     "sample": "88.96501"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveStartDate.year",
+     "n": 5,
+     "sample": "1685"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveStartDate.logicalDate",
+     "n": 5,
+     "sample": "1685-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].distance",
+     "n": 5,
+     "sample": "2"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].levelOfDescription",
+     "n": 5,
+     "sample": "recordGroup"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveEndDate.year",
+     "n": 5,
+     "sample": "2009"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveEndDate.logicalDate",
+     "n": 5,
+     "sample": "2009-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].title",
+     "n": 5,
+     "sample": "Records of District Courts of the United States"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].naId",
+     "n": 5,
+     "sample": "350"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantControlNumbers[].number",
+     "n": 4,
+     "sample": "7274"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantControlNumbers[].type",
+     "n": 4,
+     "sample": "Agency-Assigned Identifier"
+    },
+    {
+     "path": "body.hits.hits[]._index",
+     "n": 3,
+     "sample": "nac-records2"
+    },
+    {
+     "path": "body.hits.hits[]._id",
+     "n": 3,
+     "sample": "525901102"
+    },
+    {
+     "path": "body.hits.hits[]._score",
+     "n": 3,
+     "sample": "88.96501"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.fileName",
+     "n": 3,
+     "sample": "NAC_2025-11-20_22.117_DESC_0005.xml"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.indexName",
+     "n": 3,
+     "sample": "records"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.type",
+     "n": 3,
+     "sample": "recordGroup"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.naId",
+     "n": 3,
+     "sample": "350"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.ingestTime",
+     "n": 3,
+     "sample": "2025-11-21 09:18:01.501136"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.uuid",
+     "n": 3,
+     "sample": "08c12b4c-f173-4494-ab48-9f7cc575506d"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.levelOfDescription",
+     "n": 3,
+     "sample": "fileUnit"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.recordType",
+     "n": 3,
+     "sample": "description"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.year",
+     "n": 3,
+     "sample": "1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "n": 3,
+     "sample": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.year",
+     "n": 3,
+     "sample": "1835"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "n": 3,
+     "sample": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.useRestriction.status",
+     "n": 3,
+     "sample": "Unrestricted"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.title",
+     "n": 3,
+     "sample": "Charles L. Webster and Samuel L. Clemens vs. Milan E. Ellsworth"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].city",
+     "n": 3,
+     "sample": "Chicago"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].phone",
+     "n": 3,
+     "sample": "773-948-9001"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].address1",
+     "n": 3,
+     "sample": "7358 South Pulaski Road"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].postalCode",
+     "n": 3,
+     "sample": "60629-5898"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].name",
+     "n": 3,
+     "sample": "National Archives at Chicago"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].state",
+     "n": 3,
+     "sample": "IL"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].fax",
+     "n": 3,
+     "sample": "773-948-9050"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].email",
+     "n": 3,
+     "sample": "chicago.archives@nara.gov"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].mediaOccurrences[].specificMediaType",
+     "n": 3,
+     "sample": "Paper"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].copyStatus",
+     "n": 3,
+     "sample": "Preservation-Reproduction-Reference"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.accessRestriction.status",
+     "n": 3,
+     "sample": "Unrestricted"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.dataControlGroup.groupId",
+     "n": 3,
+     "sample": "RRFC"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.dataControlGroup.groupCd",
+     "n": 3,
+     "sample": "RRFC"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.generalRecordsTypes[]",
+     "n": 3,
+     "sample": "Textual Records"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].recordGroupNumber",
+     "n": 3,
+     "sample": "21"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.scopeAndContentNote",
+     "n": 3,
+     "sample": "This civil case involves Samuel L. Clemens (popularly known as Mark Twain) and his publishing partner Charles L. Webster"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.naId",
+     "n": 3,
+     "sample": "525901102"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.buckets[].key",
+     "n": 3,
+     "sample": "National Archives at Chicago"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.buckets[].doc_count",
+     "n": 3,
+     "sample": "1"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.buckets[].key",
+     "n": 3,
+     "sample": "21: Records of District Courts of the United States"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.buckets[].doc_count",
+     "n": 3,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageEndDate.month",
+     "n": 2,
+     "sample": "11"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageEndDate.year",
+     "n": 2,
+     "sample": "1888"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageEndDate.day",
+     "n": 2,
+     "sample": "10"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageEndDate.logicalDate",
+     "n": 2,
+     "sample": "1888-11-10"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].mediaOccurrences[].generalMediaTypes[]",
+     "n": 2,
+     "sample": "Loose Sheets"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.arrangement",
+     "n": 2,
+     "sample": "Arranged by date of filing."
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageStartDate.month",
+     "n": 2,
+     "sample": "5"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageStartDate.year",
+     "n": 2,
+     "sample": "1886"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageStartDate.day",
+     "n": 2,
+     "sample": "15"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageStartDate.logicalDate",
+     "n": 2,
+     "sample": "1886-05-15"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.dataControlGroup.groupName",
+     "n": 2,
+     "sample": "National Archives at Chicago"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].creatorType",
+     "n": 2,
+     "sample": "Most Recent"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].heading",
+     "n": 2,
+     "sample": "U.S. Circuit Court for the Southern (Detroit) Division of the Eastern District of Michigan. (04/30/1894 - 01/01/1912)"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].authorityType",
+     "n": 2,
+     "sample": "organization"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].establishDate.year",
+     "n": 2,
+     "sample": "1894"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].establishDate.logicalDate",
+     "n": 2,
+     "sample": "1894-04-30"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].naId",
+     "n": 2,
+     "sample": "10477852"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.buckets[].key",
+     "n": 2,
+     "sample": "Textual Records"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.buckets[].doc_count",
+     "n": 2,
+     "sample": "2"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.buckets[].key",
+     "n": 2,
+     "sample": "fileUnit"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.buckets[].doc_count",
+     "n": 2,
+     "sample": "2"
+    },
+    {
+     "path": "body.aggregations.objectType.buckets[].key",
+     "n": 2,
+     "sample": "Image (JPG)"
+    },
+    {
+     "path": "body.aggregations.objectType.buckets[].doc_count",
+     "n": 2,
+     "sample": "2"
+    },
+    {
+     "path": "body.hits.total.value",
+     "n": 1,
+     "sample": "3"
+    },
+    {
+     "path": "body.hits.total.relation",
+     "n": 1,
+     "sample": "eq"
+    },
+    {
+     "path": "body.hits.max_score",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "body.hits.hits[]._source.record.languages[]",
+     "n": 1,
+     "sample": "English"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].abolishDate.month",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].abolishDate.year",
+     "n": 1,
+     "sample": "1912"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].abolishDate.day",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].abolishDate.logicalDate",
+     "n": 1,
+     "sample": "1912-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].establishDate.month",
+     "n": 1,
+     "sample": "4"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].establishDate.day",
+     "n": 1,
+     "sample": "30"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].address2",
+     "n": 1,
+     "sample": "8601 Adelphi Road"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].mediaOccurrences[].physicalRestrictionNote",
+     "n": 1,
+     "sample": "These documents are specially protected materials and are not available to researchers."
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].mediaOccurrences[].containerId",
+     "n": 1,
+     "sample": "16"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.itemCount",
+     "n": 1,
+     "sample": "13"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantControlNumbers[].note",
+     "n": 1,
+     "sample": "This is the patent number assigned by the Department of Commerce, Patent and Trademark Office."
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].heading",
+     "n": 1,
+     "sample": "Clemens, Samuel Langhorne, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].deathDate.year",
+     "n": 1,
+     "sample": "1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].deathDate.logicalDate",
+     "n": 1,
+     "sample": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].contributorType",
+     "n": 1,
+     "sample": "Inventor"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].authorityType",
+     "n": 1,
+     "sample": "person"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].birthDate.year",
+     "n": 1,
+     "sample": "1835"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].birthDate.logicalDate",
+     "n": 1,
+     "sample": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].naId",
+     "n": 1,
+     "sample": "10574508"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.accessionNumbers[]",
+     "n": 1,
+     "sample": "LTI-0077-2017-0285"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.inclusiveStartDate.month",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.inclusiveStartDate.year",
+     "n": 1,
+     "sample": "1986"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.inclusiveStartDate.day",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.inclusiveStartDate.logicalDate",
+     "n": 1,
+     "sample": "1986-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].creatorType",
+     "n": 1,
+     "sample": "Most Recent"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].heading",
+     "n": 1,
+     "sample": "Department of Defense. Department of the Army. U.S. Army Corps of Engineers. Lower Mississippi Valley Division. U.S. Arm"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].abolishDate.month",
+     "n": 1,
+     "sample": "4"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].abolishDate.year",
+     "n": 1,
+     "sample": "1997"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].abolishDate.day",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].abolishDate.logicalDate",
+     "n": 1,
+     "sample": "1997-04-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].authorityType",
+     "n": 1,
+     "sample": "organization"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].establishDate.month",
+     "n": 1,
+     "sample": "6"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].establishDate.year",
+     "n": 1,
+     "sample": "1979"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].establishDate.day",
+     "n": 1,
+     "sample": "14"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].establishDate.logicalDate",
+     "n": 1,
+     "sample": "1979-06-14"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.creators[].naId",
+     "n": 1,
+     "sample": "11028165"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Clemens, Samuel Langhorne, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.title",
+     "value": "Charles L. Webster and Samuel L. Clemens vs. Milan E. Ellsworth"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.scopeAndContentNote",
+     "value": "This civil case involves Samuel L. Clemens (popularly known as Mark Twain) and his publishing partner Charles L. Webster against Milan W. Ellsworth for a contract relating to the subscription sales of"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.title",
+     "value": "121992 - Improvement in Adjustable and Detachable Straps for Garments - Samuel L. Clemens"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].heading",
+     "value": "Clemens, Samuel Langhorne, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.contributors[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.scopeAndContentNote",
+     "value": "This file unit contains the patent for suspenders by Samuel L. Clemens, also known as Mark Twain.  It includes the application, specification, petition, drawing, and correspondence."
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Clemens, Samuel Langhorne, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.scopeAndContentNote",
+     "value": "This series consists of slides for presentations entitled, \"300 Years on the Middle Mississippi,\" \"Samuel Clemens,\" and \"The Comet, Clemens, and the Corps.\" There is no text to accompany the slides."
+    }
+   ],
+   "language_like_keys": [
+    "day",
+    "fax",
+    "key"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 4566,
+   "path_count": 66,
+   "paths": [
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "n": 12,
+     "sample": "Tuein, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.year",
+     "n": 12,
+     "sample": "1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "n": 12,
+     "sample": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].name",
+     "n": 12,
+     "sample": "Tuein, Mark,"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.year",
+     "n": 12,
+     "sample": "1835"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "n": 12,
+     "sample": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.sourceNotes[]",
+     "n": 6,
+     "sample": "Geviksman, V. A. Prints i nishchii, 1984: t.p. (M. Tvena)"
+    },
+    {
+     "path": "body.hits.hits[].sort[]",
+     "n": 2,
+     "sample": "27.268286"
+    },
+    {
+     "path": "body.hits.total.value",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.total.relation",
+     "n": 1,
+     "sample": "eq"
+    },
+    {
+     "path": "body.hits.max_score",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "body.hits.hits[]._index",
+     "n": 1,
+     "sample": "nac-records0"
+    },
+    {
+     "path": "body.hits.hits[]._id",
+     "n": 1,
+     "sample": "10581697"
+    },
+    {
+     "path": "body.hits.hits[]._score",
+     "n": 1,
+     "sample": "27.268286"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.fileName",
+     "n": 1,
+     "sample": "NAC_2026-08-25_22.014_AUTH_0001.xml"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.indexName",
+     "n": 1,
+     "sample": "records"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.type",
+     "n": 1,
+     "sample": "authority"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.naId",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.ingestTime",
+     "n": 1,
+     "sample": "2026-08-26 08:30:26.106662"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.uuid",
+     "n": 1,
+     "sample": "53676bb0-a439-44a9-850c-398a6a9802b1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.role.reference",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.role.creator",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.role.contributor",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.role.donor",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.heading",
+     "n": 1,
+     "sample": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.recordType",
+     "n": 1,
+     "sample": "authority"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.importRecordControlNumber",
+     "n": 1,
+     "sample": "n 79021164"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.authorityType",
+     "n": 1,
+     "sample": "person"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.birthDate.year",
+     "n": 1,
+     "sample": "1835"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.birthDate.logicalDate",
+     "n": 1,
+     "sample": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.linkCounts.totalDescriptions",
+     "n": 1,
+     "sample": "19"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.linkCounts.contributor",
+     "n": 1,
+     "sample": "4"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.linkCounts.subject",
+     "n": 1,
+     "sample": "15"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.deathDate.year",
+     "n": 1,
+     "sample": "1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.deathDate.logicalDate",
+     "n": 1,
+     "sample": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.name",
+     "n": 1,
+     "sample": "Twain, Mark,"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.naId",
+     "n": 1,
+     "sample": "10581697"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.preferred",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.availableOnline.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.dataSource.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.dataSource.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.dataSource.buckets[].key",
+     "n": 1,
+     "sample": "authority"
+    },
+    {
+     "path": "body.aggregations.dataSource.buckets[].doc_count",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "body.aggregations.localIdentifierCount.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.objectType.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.objectType.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "statusCode",
+     "n": 1,
+     "sample": "200"
+    },
+    {
+     "path": "headers.date",
+     "n": 1,
+     "sample": "Sat, 03 Oct 2026 02:23:09 GMT"
+    },
+    {
+     "path": "headers.content-type",
+     "n": 1,
+     "sample": "application/json; charset=UTF-8"
+    },
+    {
+     "path": "headers.content-length",
+     "n": 1,
+     "sample": "4356"
+    },
+    {
+     "path": "headers.connection",
+     "n": 1,
+     "sample": "keep-alive"
+    },
+    {
+     "path": "headers.access-control-allow-origin",
+     "n": 1,
+     "sample": "*"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "body.hits.hits[]._source.record.sourceNotes[]",
+     "value": "His Personal recollections of Joan of Arc, 1923: v. 1-2, t.p. (the Sieur Louis de Conte; Jean François Alden) spine (Mark Twain)"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.sourceNotes[]",
+     "value": "DAB, 1930 (Clemens, Samuel Langhorne, 1835-1910; better known under pseud. Mark Twain; also used name Quintus Curtius Snodgrass)"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.sourceNotes[]",
+     "value": "Mark Twain's personal recollections of Joan of Arc, 1997: CIP t.p. (Sieur Louis de Conte) p. vii (Sieur Louis de Conte shared ... initials with Samuel L. Clemens)"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.sourceNotes[]",
+     "value": "Przygody Huck'a, 1912: t.p. (Marek Twain)"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.name",
+     "value": "Twain, Mark,"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Tuein, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Tven, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Twayn, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Conte, Louis de, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Tuwayn, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "De Conte, Louis, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Tven, M. (Mark), 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Touen, Maku, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "De Conte, Louis, Sieur, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Tu-wen, Ma-ko, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Alden, Jean François, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].heading",
+     "value": "Twain, Marek, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].name",
+     "value": "Twain, Marek,"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantPersonNames[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    }
+   ],
+   "language_like_keys": [
+    "key"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 73,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "response",
+     "n": 1,
+     "sample": "No Online Availability status available for naId 10581697."
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 635,
+   "path_count": 23,
+   "paths": [
+    {
+     "path": "[].id",
+     "n": 1,
+     "sample": "1078636"
+    },
+    {
+     "path": "[].contributionId",
+     "n": 1,
+     "sample": "eea67cd4-8b52-3168-92dd-c92efe1ca5b0"
+    },
+    {
+     "path": "[].contributionType",
+     "n": 1,
+     "sample": "tag"
+    },
+    {
+     "path": "[].contribution",
+     "n": 1,
+     "sample": "wikidata=Q7245"
+    },
+    {
+     "path": "[].status",
+     "n": 1,
+     "sample": "active"
+    },
+    {
+     "path": "[].contributionSequence",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "[].parentContributionId",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].targetNaId",
+     "n": 1,
+     "sample": "10581697"
+    },
+    {
+     "path": "[].targetObjectId",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].targetPageNum",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].flagged",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "[].reviewed",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "[].madeByAdministrator",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "[].userId",
+     "n": 1,
+     "sample": "60d4f297-8485-392d-8f8d-6125e59815a8"
+    },
+    {
+     "path": "[].justificationId",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].legacyAnnotationId",
+     "n": 1,
+     "sample": "1111253"
+    },
+    {
+     "path": "[].createdAt",
+     "n": 1,
+     "sample": "2019-05-22T22:33:41.000Z"
+    },
+    {
+     "path": "[].updatedAt",
+     "n": 1,
+     "sample": "2019-05-22T22:33:41.000Z"
+    },
+    {
+     "path": "[].recordType",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].aiMachineGenerated",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "[].userName",
+     "n": 1,
+     "sample": "dominic"
+    },
+    {
+     "path": "[].fullName",
+     "n": 1,
+     "sample": "Dominic Byrd-McDevitt"
+    },
+    {
+     "path": "[].naraStaff",
+     "n": 1,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 1163,
+   "path_count": 30,
+   "paths": [
+    {
+     "path": "body.hits.total.value",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.hits.total.relation",
+     "n": 1,
+     "sample": "eq"
+    },
+    {
+     "path": "body.hits.max_score",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.digitalObjectCount.value",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.availableOnline.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.dataSource.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.dataSource.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.localIdentifierCount.doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.objectType.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.objectType.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "statusCode",
+     "n": 1,
+     "sample": "200"
+    },
+    {
+     "path": "headers.date",
+     "n": 1,
+     "sample": "Sat, 03 Oct 2026 02:23:15 GMT"
+    },
+    {
+     "path": "headers.content-type",
+     "n": 1,
+     "sample": "application/json; charset=UTF-8"
+    },
+    {
+     "path": "headers.content-length",
+     "n": 1,
+     "sample": "954"
+    },
+    {
+     "path": "headers.connection",
+     "n": 1,
+     "sample": "keep-alive"
+    },
+    {
+     "path": "headers.access-control-allow-origin",
+     "n": 1,
+     "sample": "*"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 72928,
+   "path_count": 143,
+   "paths": [
+    {
+     "path": "body.hits.hits[]._source.record.digitalObjects[].objectFilename",
+     "n": 105,
+     "sample": "2814290_525901102-001.jpg"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.digitalObjects[].objectUrl",
+     "n": 105,
+     "sample": "https://catalog.archives.gov/medialz/chicago/rg-021/2814290/525901102/2814290_525901102-001.jpg"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.digitalObjects[].objectFileSize",
+     "n": 105,
+     "sample": "945554"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.digitalObjects[].objectId",
+     "n": 105,
+     "sample": "580930228"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.digitalObjects[].objectType",
+     "n": 105,
+     "sample": "Image (JPG)"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "n": 55,
+     "sample": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].authorityType",
+     "n": 55,
+     "sample": "person"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].naId",
+     "n": 55,
+     "sample": "10581697"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.year",
+     "n": 36,
+     "sample": "1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "n": 36,
+     "sample": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.year",
+     "n": 36,
+     "sample": "1835"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "n": 36,
+     "sample": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].distance",
+     "n": 28,
+     "sample": "2"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].levelOfDescription",
+     "n": 28,
+     "sample": "recordGroup"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].title",
+     "n": 28,
+     "sample": "Records of District Courts of the United States"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].naId",
+     "n": 28,
+     "sample": "350"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveStartDate.year",
+     "n": 20,
+     "sample": "1685"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveStartDate.logicalDate",
+     "n": 20,
+     "sample": "1685-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveEndDate.year",
+     "n": 20,
+     "sample": "2009"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveEndDate.logicalDate",
+     "n": 20,
+     "sample": "2009-12-31"
+    },
+    {
+     "path": "body.hits.hits[].sort[]",
+     "n": 20,
+     "sample": "88.96503"
+    },
+    {
+     "path": "body.hits.hits[]._index",
+     "n": 10,
+     "sample": "nac-records2"
+    },
+    {
+     "path": "body.hits.hits[]._id",
+     "n": 10,
+     "sample": "525901102"
+    },
+    {
+     "path": "body.hits.hits[]._score",
+     "n": 10,
+     "sample": "88.96503"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.fileName",
+     "n": 10,
+     "sample": "NAC_2025-11-20_22.117_DESC_0005.xml"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.indexName",
+     "n": 10,
+     "sample": "records"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.type",
+     "n": 10,
+     "sample": "recordGroup"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.controlGroup.naId",
+     "n": 10,
+     "sample": "350"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.ingestTime",
+     "n": 10,
+     "sample": "2025-11-21 09:18:01.501136"
+    },
+    {
+     "path": "body.hits.hits[]._source.metadata.uuid",
+     "n": 10,
+     "sample": "08c12b4c-f173-4494-ab48-9f7cc575506d"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.levelOfDescription",
+     "n": 10,
+     "sample": "fileUnit"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.recordType",
+     "n": 10,
+     "sample": "description"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.useRestriction.status",
+     "n": 10,
+     "sample": "Unrestricted"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.title",
+     "n": 10,
+     "sample": "Charles L. Webster and Samuel L. Clemens vs. Milan E. Ellsworth"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].city",
+     "n": 10,
+     "sample": "Chicago"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].phone",
+     "n": 10,
+     "sample": "773-948-9001"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].address1",
+     "n": 10,
+     "sample": "7358 South Pulaski Road"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].postalCode",
+     "n": 10,
+     "sample": "60629-5898"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].name",
+     "n": 10,
+     "sample": "National Archives at Chicago"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].state",
+     "n": 10,
+     "sample": "IL"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].fax",
+     "n": 10,
+     "sample": "773-948-9050"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].email",
+     "n": 10,
+     "sample": "chicago.archives@nara.gov"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].mediaOccurrences[].generalMediaTypes[]",
+     "n": 10,
+     "sample": "Loose Sheets"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].mediaOccurrences[].specificMediaType",
+     "n": 10,
+     "sample": "Paper"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].copyStatus",
+     "n": 10,
+     "sample": "Preservation-Reproduction-Reference"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.accessRestriction.status",
+     "n": 10,
+     "sample": "Unrestricted"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.dataControlGroup.groupId",
+     "n": 10,
+     "sample": "RRFC"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.dataControlGroup.groupCd",
+     "n": 10,
+     "sample": "RRFC"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.generalRecordsTypes[]",
+     "n": 10,
+     "sample": "Textual Records"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].creatorType",
+     "n": 10,
+     "sample": "Most Recent"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].heading",
+     "n": 10,
+     "sample": "U.S. Circuit Court for the Southern (Detroit) Division of the Eastern District of Michigan. (04/30/1894 - 01/01/1912)"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].authorityType",
+     "n": 10,
+     "sample": "organization"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].naId",
+     "n": 10,
+     "sample": "10477852"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.naId",
+     "n": 10,
+     "sample": "525901102"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.dataControlGroup.groupName",
+     "n": 9,
+     "sample": "National Archives at Chicago"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.audiovisual",
+     "n": 9,
+     "sample": "False"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.productionDates[].year",
+     "n": 8,
+     "sample": "1911"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.productionDates[].logicalDate",
+     "n": 8,
+     "sample": "1911-01-10"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].collectionIdentifier",
+     "n": 8,
+     "sample": "HST-FBP"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.productionDates[].month",
+     "n": 7,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.productionDates[].day",
+     "n": 7,
+     "sample": "10"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].deathDate.year",
+     "n": 7,
+     "sample": "1972"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].deathDate.logicalDate",
+     "n": 7,
+     "sample": "1972-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].birthDate.year",
+     "n": 7,
+     "sample": "1884"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].birthDate.logicalDate",
+     "n": 7,
+     "sample": "1884-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantControlNumbers[].number",
+     "n": 5,
+     "sample": "7274"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.variantControlNumbers[].type",
+     "n": 5,
+     "sample": "Agency-Assigned Identifier"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.buckets[].key",
+     "n": 5,
+     "sample": "Harry S. Truman Library"
+    },
+    {
+     "path": "body.aggregations.referenceUnits.buckets[].doc_count",
+     "n": 5,
+     "sample": "8"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.buckets[].key",
+     "n": 4,
+     "sample": "Textual Records"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.buckets[].doc_count",
+     "n": 4,
+     "sample": "13"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.buckets[].key",
+     "n": 4,
+     "sample": "HST-FBP: Harry S. Truman Papers Pertaining to Family, Business and Personal Affairs"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.buckets[].doc_count",
+     "n": 4,
+     "sample": "3"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.buckets[].key",
+     "n": 4,
+     "sample": "306: Records of the U.S. Information Agency"
+    },
+    {
+     "path": "body.aggregations.recordGroupNumber.filter_recordGroups.recordGroups.buckets[].doc_count",
+     "n": 4,
+     "sample": "5"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].abolishDate.year",
+     "n": 3,
+     "sample": "1912"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].abolishDate.logicalDate",
+     "n": 3,
+     "sample": "1912-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].establishDate.year",
+     "n": 3,
+     "sample": "1894"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].establishDate.logicalDate",
+     "n": 3,
+     "sample": "1894-04-30"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.scopeAndContentNote",
+     "n": 3,
+     "sample": "This civil case involves Samuel L. Clemens (popularly known as Mark Twain) and his publishing partner Charles L. Webster"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].mediaOccurrences[].width",
+     "n": 3,
+     "sample": "7.5"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].mediaOccurrences[].height",
+     "n": 3,
+     "sample": "5"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.buckets[].key",
+     "n": 3,
+     "sample": "item"
+    },
+    {
+     "path": "body.aggregations.levelOfDescription.buckets[].doc_count",
+     "n": 3,
+     "sample": "13"
+    },
+    {
+     "path": "body.aggregations.objectType.buckets[].key",
+     "n": 3,
+     "sample": "Image (JPG)"
+    },
+    {
+     "path": "body.aggregations.objectType.buckets[].doc_count",
+     "n": 3,
+     "sample": "12"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.languages[]",
+     "n": 2,
+     "sample": "English"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].recordGroupNumber",
+     "n": 2,
+     "sample": "21"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].abolishDate.month",
+     "n": 2,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].abolishDate.day",
+     "n": 2,
+     "sample": "1"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].establishDate.month",
+     "n": 2,
+     "sample": "4"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].creators[].establishDate.day",
+     "n": 2,
+     "sample": "30"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.useRestriction.note",
+     "n": 2,
+     "sample": "The copyright status of this photograph is unknown."
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].mediaOccurrences[].depth",
+     "n": 2,
+     "sample": "0"
+    },
+    {
+     "path": "body.hits.total.value",
+     "n": 1,
+     "sample": "19"
+    },
+    {
+     "path": "body.hits.total.relation",
+     "n": 1,
+     "sample": "eq"
+    },
+    {
+     "path": "body.hits.max_score",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageEndDate.month",
+     "n": 1,
+     "sample": "11"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageEndDate.year",
+     "n": 1,
+     "sample": "1888"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageEndDate.day",
+     "n": 1,
+     "sample": "10"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageEndDate.logicalDate",
+     "n": 1,
+     "sample": "1888-11-10"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.arrangement",
+     "n": 1,
+     "sample": "Arranged by date of filing."
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageStartDate.month",
+     "n": 1,
+     "sample": "5"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageStartDate.year",
+     "n": 1,
+     "sample": "1886"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageStartDate.day",
+     "n": 1,
+     "sample": "15"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.coverageStartDate.logicalDate",
+     "n": 1,
+     "sample": "1886-05-15"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.custodialHistoryNote",
+     "n": 1,
+     "sample": "Transferred to the Photographs from the Papers of Harry S. Truman Pertaining to Family, Business, and Personal Affairs."
+    },
+    {
+     "path": "body.hits.hits[]._source.record.localIdentifier",
+     "n": 1,
+     "sample": "2009-1502"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.productionDates[].dateQualifier",
+     "n": 1,
+     "sample": "ca."
+    },
+    {
+     "path": "body.hits.hits[]._source.record.useRestriction.specificUseRestrictions[]",
+     "n": 1,
+     "sample": "Copyright"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].referenceUnits[].address2",
+     "n": 1,
+     "sample": "7th and Pennsylvania Avenue NW"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.physicalOccurrences[].mediaOccurrences[].containerId",
+     "n": 1,
+     "sample": "Volume 8, City of Hannibal, Marion County, page 307"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.microformPublications[].identifier",
+     "n": 1,
+     "sample": "M432"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.microformPublications[].note",
+     "n": 1,
+     "sample": "This item appears on roll 406."
+    },
+    {
+     "path": "body.hits.hits[]._source.record.microformPublications[].title",
+     "n": 1,
+     "sample": "M432 - Seventh Census of the United States, 1850."
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.typeOfMaterials.sum_other_doc_count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.doc_count",
+     "n": 1,
+     "sample": "44"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.doc_count",
+     "n": 1,
+     "sample": "8"
+    },
+    {
+     "path": "body.aggregations.collectionIdentifier.filter_collections.collections.doc_count_error_upper_bound",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Clemens, Samuel Langhorne, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.title",
+     "value": "Charles L. Webster and Samuel L. Clemens vs. Milan E. Ellsworth"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.scopeAndContentNote",
+     "value": "This civil case involves Samuel L. Clemens (popularly known as Mark Twain) and his publishing partner Charles L. Webster against Milan W. Ellsworth for a contract relating to the subscription sales of"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveStartDate.logicalDate",
+     "value": "1910-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].title",
+     "value": "Correspondence from Harry S. Truman to Bess Wallace, 1910-1919: January 10, 1911 [misdated 1910]"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.title",
+     "value": "Portrait of Mark Twain"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.scopeAndContentNote",
+     "value": "Portrait of Mark Twain on faded paper.  On the reverse side is part of a story, probably printed in a magazine.  Writing on the brown paper backing on the original photo frame reads:  Picture from Mar"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveStartDate.logicalDate",
+     "value": "1910-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Henry, O., 1862-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].inclusiveStartDate.logicalDate",
+     "value": "1910-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.ancestors[].title",
+     "value": "Correspondence from Harry S. Truman to Bess Wallace, 1910-1919: November 28, 1911"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Clemens, Cyril C. (Cyril Coniston), 1902-1999"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-12-31"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.title",
+     "value": "Entry From 1850 Census For Samuel L. Clemens"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.scopeAndContentNote",
+     "value": "This page shows Samuel L. Clemens, at the age of 14, who later used the pen name of Mark Twain, living with his mother Jane, brothers Orion and Henry, and sister Pamela, in the City of Hannibal, Count"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].heading",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].deathDate.logicalDate",
+     "value": "1910-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.subjects[].birthDate.logicalDate",
+     "value": "1835-01-01"
+    },
+    {
+     "path": "body.hits.hits[]._source.record.title",
+     "value": "Letter from Cyril Clemens to Bess W. Truman"
+    }
+   ],
+   "language_like_keys": [
+    "day",
+    "fax",
+    "key"
+   ]
+  }
+ ],
+ "llm_notes": "Two NARA catalog person records: 10574508 (Clemens, Samuel Langhorne) and 10581697 (Twain, Mark), each with other names, birth/death years, imported LCNAF control number, LC source notes, a list of related archival records (Subject / Contributor roles) and the tag wikidata=Q7245.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

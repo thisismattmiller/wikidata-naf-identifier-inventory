@@ -1,0 +1,376 @@
+{
+ "property": "P7026",
+ "label": "Lebanese National Library ID",
+ "files_read": [
+  "pages/P7026__14733.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "VIAF 'processed' MARC view of the Lebanese National Library (LNL|14733) Arabic authority record for Twain, with dates, occupations, gender, language, nationality, a 678 bio note naming pseudonyms, one Arabic edition of Tom Sawyer with its translators/revisers, and the VIAF cluster's links to other national files.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "توين، مارك، 1835-1910",
+    "lang": "ar",
+    "via": "MARC 100"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "مارك توين، 1835-1910",
+    "lang": "ar",
+    "via": "MARC 400"
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "MARC 700 (linked heading)"
+   },
+   {
+    "value": "صمويل لانغهورن كليمنس (Samuel Langhorne Clemens)",
+    "lang": "ar",
+    "via": "MARC 678 (real name)"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "raw": "مارك توين (Mark Twain)",
+    "lang": "ar",
+    "via": "MARC 678"
+   },
+   {
+    "value": "Sieur Louis De Conte",
+    "raw": "لويس دى كونت (Sieur Louis De Conte)",
+    "lang": "ar",
+    "via": "MARC 678"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "18351130",
+    "lang": null,
+    "via": "MARC 046 ‡f"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "19100421",
+    "lang": null,
+    "via": "MARC 046 ‡g"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "الروائيون",
+    "raw": "novelists",
+    "lang": "ar",
+    "via": "MARC 374"
+   },
+   {
+    "value": "الصحفيون",
+    "raw": "journalists",
+    "lang": "ar",
+    "via": "MARC 374"
+   }
+  ],
+  "gender": [
+   {
+    "value": "ذكر",
+    "raw": "male",
+    "lang": "ar",
+    "via": "MARC 375"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "raw": "eng إنكليزية",
+    "lang": "ar",
+    "via": "MARC 377"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "أميركية",
+    "raw": "الجنسية/مجموعة إقليمية أميركية (American)",
+    "lang": "ar",
+    "via": "MARC 386"
+   }
+  ],
+  "description": [
+   {
+    "value": "الكاتب الأميركي صمويل لانغهورن كليمنس (Samuel Langhorne Clemens): كتب تحت الأسماء المستعارة التالية: مارك توين (Mark Twain) ولويس دى كونت (Sieur Louis De Conte).",
+    "lang": "ar",
+    "via": "MARC 678"
+   }
+  ],
+  "work": [
+   {
+    "value": "مغامرات توم سوير",
+    "raw": "= The adventures of Tom Sawyer; المكتبة الحديثة للطباعة والنشر, 200x, ISBN 978995342509",
+    "lang": "ar",
+    "via": "MARC 670/910/912/930"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "فاضل حبيب محسن / Fadhil Habeeb Muhsen (translator of The adventures of Tom Sawyer)",
+    "via": "MARC 930/950"
+   },
+   {
+    "value": "عبد الحق أحمد محمد / Dr. Abdul Haq Ahmed (Arabic language reviser)",
+    "via": "MARC 930/950"
+   },
+   {
+    "value": "ذكرى عبد الرحمن حسن / Zekra Abdul Rahman (reviser)",
+    "via": "MARC 930/950"
+   },
+   {
+    "value": "منى فتحي سالم / Mona Fathe (reviser)",
+    "via": "MARC 930/950"
+   },
+   {
+    "value": "المكتبة الحديثة للطباعة والنشر (publisher)",
+    "via": "MARC 921"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/sourceID/ARBABN%7C000024237",
+    "raw": "ARBABN|000024237",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/LC%7Cn79021164",
+    "raw": "LC|n 79021164",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/W2Z%7C90056487",
+    "raw": "W2Z|90056487",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BIBSYS%7C90056487",
+    "raw": "BIBSYS|90056487",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/PTBNP%7C46269",
+    "raw": "PTBNP|46269",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BNC%7C981058514999206706",
+    "raw": "BNC|981058514999206706",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/B2Q%7C0000005713",
+    "raw": "B2Q|0000005713",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NUKAT%7Cn94200767",
+    "raw": "NUKAT|n 94200767",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NDL%7C00459304",
+    "raw": "NDL|00459304",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NYNYRILM%7C1598",
+    "raw": "NYNYRILM|1598",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NTA%7C227880145",
+    "raw": "NTA|227880145",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/PLWABN%7C9810671370605606",
+    "raw": "PLWABN|9810671370605606",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/RERO%7CA000164542",
+    "raw": "RERO|A000164542",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/SIMACOB%7C7830883",
+    "raw": "SIMACOB|7830883",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NLR%7CRUNLRAUTH7759057",
+    "raw": "NLR|RU NLR AUTH 7759057",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BAV%7C495_17906",
+    "raw": "BAV|495_17906",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/KRNLK%7CKAC199605242",
+    "raw": "KRNLK|KAC199605242",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/SELIBR%7C98057",
+    "raw": "SELIBR|98057",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/UIY%7C981014191556806886",
+    "raw": "UIY|981014191556806886",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BNCHL%7C10000000000000000007139",
+    "raw": "BNCHL|10000000000000000007139",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NLR%7CRUNLRAUTH77201",
+    "raw": "NLR|RU NLR AUTH 77201",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/DNB%7C118624822",
+    "raw": "DNB|118624822",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "raw": "WKP|Q7245",
+    "via": "VIAF cluster link"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/LC%7Cn82045653",
+    "raw": "LC|n 82045653",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/J9U%7C987007269289205171",
+    "raw": "J9U|987007269289205171",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/EGAXA%7Cvtls000823270",
+    "raw": "EGAXA|vtls000823270",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/LNB%7CLNC10-000002679",
+    "raw": "LNB|LNC10-000002679",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/LIH%7CLNB%3AV-1145%3B%3D_z_W",
+    "raw": "LIH|LNB:V-1145;=_z_W",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/UAE%7CMill_a10002910",
+    "raw": "UAE|Mill_a10002910",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/N6I%7Cvtls000050376",
+    "raw": "N6I|vtls000050376",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NKC%7Cjn19981002263",
+    "raw": "NKC|jn19981002263",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/GRATEVE%7C178278",
+    "raw": "GRATEVE|178278",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/XA%7C2080",
+    "raw": "XA|2080",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/SZ%7C118624822",
+    "raw": "SZ|118624822",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BNE%7C981060902239808606",
+    "raw": "BNE|981060902239808606",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/BNF%7C11927291",
+    "raw": "BNF|11927291",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/SKMASNL%7Cvtls005928524",
+    "raw": "SKMASNL|vtls005928524",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/CAOONL%7Cncf10128469",
+    "raw": "CAOONL|ncf10128469",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NLA%7C000035028957",
+    "raw": "NLA|000035028957",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/SUDOC%7C027171876",
+    "raw": "SUDOC|027171876",
+    "via": "VIAF cluster link (998)"
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/DBC%7C87097969041957",
+    "raw": "DBC|87097969041957",
+    "via": "VIAF cluster link (998)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "14733",
+    "raw": "LNL|14733",
+    "via": "MARC 001/035"
+   }
+  ],
+  "source": [
+   {
+    "value": "مغامرات توم سوير، [د.ت]: ص.ع. (مارك توين)",
+    "lang": "ar",
+    "via": "MARC 670"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2010-10-21T10:53:37",
+    "raw": "20101021105337",
+    "via": "MARC 005"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2009-08-11",
+    "raw": "090811",
+    "via": "MARC 008"
+   }
+  ]
+ }
+}

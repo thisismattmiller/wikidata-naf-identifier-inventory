@@ -1,0 +1,1446 @@
+{
+ "property": "P4084",
+ "property_label": "MyAnimeList people ID",
+ "files": [
+  {
+   "file": "P4084__19191/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://myanimelist.net/people/19191"
+  },
+  {
+   "file": "P4084__19191/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://myanimelist.net/people/19191"
+  },
+  {
+   "file": "P4084__19191/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://myanimelist.net/people/19191"
+  },
+  {
+   "file": "P4084__19191/xhr_1.img",
+   "format": "image",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ad-delivery.net/px.gif?ch=2&e=0.6246432823026425"
+  },
+  {
+   "file": "P4084__19191/xhr_2.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ab.dns-finder.com/meta/dns"
+  },
+  {
+   "file": "P4084__19191/xhr_4.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.btloader.com/exd?tid=NYX1ev0oN-7Oqq9FAP-a0fe8a5e6c&sid=3Dhss7qZ-CNfKe5kM5-a0fe8a5e6c&cv=2.1.196&upapi=true"
+  },
+  {
+   "file": "P4084__19191/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cmp.inmobi.com/geoip"
+  },
+  {
+   "file": "P4084__19191/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cmp.inmobi.com/GVL-v3/vendor-list-trimmed-v1.json"
+  },
+  {
+   "file": "P4084__19191/xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json?date=20261002"
+  },
+  {
+   "file": "P4084__19191/xhr_8.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://tlx.3lift.com/header/auction?lib=prebid&v=9.40.0&referrer=https%3A%2F%2Fmyanimelist.net%2Fpeople%2F19191&tmax=2000"
+  },
+  {
+   "file": "P4084__19191/xhr_10.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://myanimelist.net/static/logging.html?event=prompt&_action=homescreen_prompt&_=1790976876062"
+  },
+  {
+   "file": "P4084__19191/xhr_16.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://myanimelist.net/ux/s"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "image": 1,
+  "unknown": 2,
+  "text": 1,
+  "json": 4,
+  "html": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 7,
+  "LLM extraction": 2,
+  "http://ogp.me/ns/article#": 1,
+  "http://www.facebook.com/2008/": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "json:itemListElement.name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Looking for information on Mark Twain? On MyAnimeList you can learn more about their role in the anime and manga industry.",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens, better known by his pen name Mark Twain, was an American author and humorist. He is most noted for his novel The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1885), the latter often called \"the Great American Novel. He is extensively quoted. During his lifetime, Twain became a friend to presidents, artists, industrialists, and European royalty. Twain enjoyed immense public popularity. His keen wit and incisive satire earned him praise ",
+    "lang": "en",
+    "via": "llm-page:More (bio)",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://cdn.myanimelist.net/images/voiceactors/1/21955.jpg",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].itemListElement[2].name",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "19191",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Birthday",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Date of Death",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer no Bouken",
+    "lang": "ja-Latn",
+    "via": "llm-page:Anime Staff Positions",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry no Bouken",
+    "lang": "ja-Latn",
+    "via": "llm-page:Anime Staff Positions",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn Monogatari",
+    "lang": "ja-Latn",
+    "via": "llm-page:Anime Staff Positions",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer no Bouken Specials",
+    "lang": "ja-Latn",
+    "via": "llm-page:Anime Staff Positions",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry no Bouken (Movie)",
+    "lang": "ja-Latn",
+    "via": "llm-page:Anime Staff Positions",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "Hajimete no Eigo: Sekai Meisaku Douwa",
+    "lang": "ja-Latn",
+    "via": "llm-page:Anime Staff Positions",
+    "file": "P4084.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer no Bouken (manga)",
+    "lang": "ja-Latn",
+    "via": "llm-page:Published Manga",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "William Faulkner (called Twain 'the father of American literature')",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4084.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "image": [],
+  "name_variant": [
+   "en"
+  ],
+  "identifier": [],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "work": [
+   "en",
+   "ja-Latn"
+  ],
+  "related_agent": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "fbmlapp_id (http://www.facebook.com/2008/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 488,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].itemListElement[].@type",
+     "n": 3,
+     "sample": "ListItem"
+    },
+    {
+     "path": "[].itemListElement[].item",
+     "n": 3,
+     "sample": "https://myanimelist.net/"
+    },
+    {
+     "path": "[].itemListElement[].name",
+     "n": 3,
+     "sample": "Top"
+    },
+    {
+     "path": "[].itemListElement[].position",
+     "n": 3,
+     "sample": "1"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "BreadcrumbList"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].itemListElement[].item",
+     "value": "https://myanimelist.net/people/19191/Mark_Twain"
+    },
+    {
+     "path": "[].itemListElement[].name",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 568,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "en_US"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "MyAnimeList.net"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].article:publisher",
+     "n": 1,
+     "sample": "https://www.facebook.com/OfficialMyAnimeList"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://cdn.myanimelist.net/images/voiceactors/1/21955.jpg"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://myanimelist.net/people/19191/Mark_Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Looking for information on Mark Twain? On MyAnimeList you can learn more about their role in the anime and manga industr"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    },
+    {
+     "path": "[].@context.article",
+     "n": 1,
+     "sample": "http://ogp.me/ns/article#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://myanimelist.net/people/19191/Mark_Twain"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Looking for information on Mark Twain? On MyAnimeList you can learn more about their role in the anime and manga industry."
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 51,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "country",
+     "n": 1,
+     "sample": "usa"
+    },
+    {
+     "path": "region",
+     "n": 1,
+     "sample": "dc"
+    },
+    {
+     "path": "city",
+     "n": 1,
+     "sample": "washington"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 734879,
+   "path_count": 17284,
+   "paths": [
+    {
+     "path": "vendors.350.urls[].langId",
+     "n": 31,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.350.urls[].privacy",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en"
+    },
+    {
+     "path": "vendors.350.urls[].legIntClaim",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en#sec-11"
+    },
+    {
+     "path": "vendors.351.urls[].langId",
+     "n": 31,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.351.urls[].privacy",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en"
+    },
+    {
+     "path": "vendors.351.urls[].legIntClaim",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en#sec-11"
+    },
+    {
+     "path": "vendors.53.urls[].langId",
+     "n": 27,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.53.urls[].privacy",
+     "n": 27,
+     "sample": "https://www.sirdata.com/en/Privacy"
+    },
+    {
+     "path": "vendors.53.urls[].legIntClaim",
+     "n": 27,
+     "sample": "https://www.sirdata.com/en/Privacy#legitimateinterest"
+    },
+    {
+     "path": "vendors.1154.urls[].langId",
+     "n": 24,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.1154.urls[].privacy",
+     "n": 24,
+     "sample": "https://alphonso.tv/privacy/smart-tvs/smart-tv-privacy-policy-eu/"
+    },
+    {
+     "path": "vendors.1154.urls[].legIntClaim",
+     "n": 24,
+     "sample": "https://alphonso.tv/privacy/smart-tvs/smart-tv-privacy-policy-eu/"
+    },
+    {
+     "path": "vendors.755.urls[].langId",
+     "n": 23,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.755.urls[].privacy",
+     "n": 23,
+     "sample": "https://business.safety.google/privacy/"
+    },
+    {
+     "path": "vendors.755.urls[].legIntClaim",
+     "n": 23,
+     "sample": "https://policies.google.com/privacy#europeanrequirements"
+    },
+    {
+     "path": "vendors.726.urls[].langId",
+     "n": 20,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.726.urls[].privacy",
+     "n": 20,
+     "sample": "https://account.yougov.com/gb-en/account/privacy-policy"
+    },
+    {
+     "path": "vendors.726.urls[].legIntClaim",
+     "n": 20,
+     "sample": "https://account.yougov.com/gb-en/account/privacy-policy"
+    },
+    {
+     "path": "vendors.1336.urls[].langId",
+     "n": 13,
+     "sample": "cs"
+    },
+    {
+     "path": "vendors.1336.urls[].privacy",
+     "n": 13,
+     "sample": "https://www.glami.cz/info/privacy/"
+    },
+    {
+     "path": "vendors.1336.urls[].legIntClaim",
+     "n": 13,
+     "sample": "https://www.glami.cz/info/privacy/"
+    },
+    {
+     "path": "vendors.790.urls[].langId",
+     "n": 12,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.790.urls[].privacy",
+     "n": 12,
+     "sample": "https://policy.samsungrs.com/consent/eu/nsc/privacy_policy_en.html"
+    },
+    {
+     "path": "vendors.790.urls[].legIntClaim",
+     "n": 12,
+     "sample": "https://policy.samsungrs.com/consent/eu/nsc/privacy_policy_en.html#gdpr-article"
+    },
+    {
+     "path": "vendors.24.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.25.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.34.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.42.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.44.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.66.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.76.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.85.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.87.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.94.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.95.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.154.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.164.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.209.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.224.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.239.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.252.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.253.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.272.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.284.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.325.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.333.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.374.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.388.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.397.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.423.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.461.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.469.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.488.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.546.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.554.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.565.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.581.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.621.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.623.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.648.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.655.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.682.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.715.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.736.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.750.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.750.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.768.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.783.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.790.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.811.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.831.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.855.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.858.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.874.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.880.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.880.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.884.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.910.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.941.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.952.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.952.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.955.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.955.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.962.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1001.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1029.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1047.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1063.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1068.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1080.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1101.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1101.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1113.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1151.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1153.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1153.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1154.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1226.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1241.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1251.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1279.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1282.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1292.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1294.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1294.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1301.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1312.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1326.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1336.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1370.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1377.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1378.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1379.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1379.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1382.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1382.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1413.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1447.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1454.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1465.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_7.json",
+   "format": "json",
+   "size": 1554,
+   "path_count": 62,
+   "paths": [
+    {
+     "path": "generatedAt",
+     "n": 1,
+     "sample": "2026-10-02T15:00:30.448Z"
+    },
+    {
+     "path": "dataAsOf",
+     "n": 1,
+     "sample": "2026-10-02T00:00:00.000Z"
+    },
+    {
+     "path": "conversions.USD.EUR",
+     "n": 1,
+     "sample": "0.8908685968819599"
+    },
+    {
+     "path": "conversions.USD.USD",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "conversions.USD.JPY",
+     "n": 1,
+     "sample": "157.67483296213808"
+    },
+    {
+     "path": "conversions.USD.CZK",
+     "n": 1,
+     "sample": "21.799554565701555"
+    },
+    {
+     "path": "conversions.USD.DKK",
+     "n": 1,
+     "sample": "6.657995545657015"
+    },
+    {
+     "path": "conversions.USD.GBP",
+     "n": 1,
+     "sample": "0.7575322939866369"
+    },
+    {
+     "path": "conversions.USD.HUF",
+     "n": 1,
+     "sample": "328.89086859688194"
+    },
+    {
+     "path": "conversions.USD.PLN",
+     "n": 1,
+     "sample": "3.8997772828507795"
+    },
+    {
+     "path": "conversions.USD.RON",
+     "n": 1,
+     "sample": "4.765077951002227"
+    },
+    {
+     "path": "conversions.USD.SEK",
+     "n": 1,
+     "sample": "10.057906458797326"
+    },
+    {
+     "path": "conversions.USD.CHF",
+     "n": 1,
+     "sample": "0.8266369710467705"
+    },
+    {
+     "path": "conversions.USD.ISK",
+     "n": 1,
+     "sample": "122.0489977728285"
+    },
+    {
+     "path": "conversions.USD.NOK",
+     "n": 1,
+     "sample": "9.649443207126948"
+    },
+    {
+     "path": "conversions.USD.TRY",
+     "n": 1,
+     "sample": "49.14476614699331"
+    },
+    {
+     "path": "conversions.USD.AUD",
+     "n": 1,
+     "sample": "1.4410690423162582"
+    },
+    {
+     "path": "conversions.USD.BRL",
+     "n": 1,
+     "sample": "5.221380846325166"
+    },
+    {
+     "path": "conversions.USD.CAD",
+     "n": 1,
+     "sample": "1.4239643652561247"
+    },
+    {
+     "path": "conversions.USD.CNY",
+     "n": 1,
+     "sample": "6.7045879732739415"
+    },
+    {
+     "path": "conversions.USD.HKD",
+     "n": 1,
+     "sample": "7.847126948775056"
+    },
+    {
+     "path": "conversions.USD.IDR",
+     "n": 1,
+     "sample": "17950.39643652561"
+    },
+    {
+     "path": "conversions.USD.ILS",
+     "n": 1,
+     "sample": "3.065300668151447"
+    },
+    {
+     "path": "conversions.USD.INR",
+     "n": 1,
+     "sample": "96.32472160356346"
+    },
+    {
+     "path": "conversions.USD.KRW",
+     "n": 1,
+     "sample": "1348.2761692650333"
+    },
+    {
+     "path": "conversions.USD.MXN",
+     "n": 1,
+     "sample": "18.334610244988863"
+    },
+    {
+     "path": "conversions.USD.MYR",
+     "n": 1,
+     "sample": "4.084543429844098"
+    },
+    {
+     "path": "conversions.USD.NZD",
+     "n": 1,
+     "sample": "1.7819153674832962"
+    },
+    {
+     "path": "conversions.USD.PHP",
+     "n": 1,
+     "sample": "62.59688195991091"
+    },
+    {
+     "path": "conversions.USD.SGD",
+     "n": 1,
+     "sample": "1.2798218262806236"
+    },
+    {
+     "path": "conversions.USD.THB",
+     "n": 1,
+     "sample": "33.59465478841871"
+    },
+    {
+     "path": "conversions.USD.ZAR",
+     "n": 1,
+     "sample": "16.733986636971046"
+    },
+    {
+     "path": "conversions.GBP.EUR",
+     "n": 1,
+     "sample": "1.1760140180870955"
+    },
+    {
+     "path": "conversions.GBP.USD",
+     "n": 1,
+     "sample": "1.3200757353027648"
+    },
+    {
+     "path": "conversions.GBP.JPY",
+     "n": 1,
+     "sample": "208.14272106123505"
+    },
+    {
+     "path": "conversions.GBP.CZK",
+     "n": 1,
+     "sample": "28.777063022591225"
+    },
+    {
+     "path": "conversions.GBP.DKK",
+     "n": 1,
+     "sample": "8.789058365575718"
+    },
+    {
+     "path": "conversions.GBP.GBP",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "conversions.GBP.HUF",
+     "n": 1,
+     "sample": "434.1608551973939"
+    },
+    {
+     "path": "conversions.GBP.PLN",
+     "n": 1,
+     "sample": "5.148001364176261"
+    },
+    {
+     "path": "conversions.GBP.RON",
+     "n": 1,
+     "sample": "6.290263779944256"
+    },
+    {
+     "path": "conversions.GBP.SEK",
+     "n": 1,
+     "sample": "13.277198264203307"
+    },
+    {
+     "path": "conversions.GBP.CHF",
+     "n": 1,
+     "sample": "1.0912234073830158"
+    },
+    {
+     "path": "conversions.GBP.ISK",
+     "n": 1,
+     "sample": "161.11392047793208"
+    },
+    {
+     "path": "conversions.GBP.NOK",
+     "n": 1,
+     "sample": "12.737995836910375"
+    },
+    {
+     "path": "conversions.GBP.TRY",
+     "n": 1,
+     "sample": "64.87481330777462"
+    },
+    {
+     "path": "conversions.GBP.AUD",
+     "n": 1,
+     "sample": "1.9023202756576856"
+    },
+    {
+     "path": "conversions.GBP.BRL",
+     "n": 1,
+     "sample": "6.892618160008467"
+    },
+    {
+     "path": "conversions.GBP.CAD",
+     "n": 1,
+     "sample": "1.8797408065104135"
+    },
+    {
+     "path": "conversions.GBP.CNY",
+     "n": 1,
+     "sample": "8.850563898721672"
+    },
+    {
+     "path": "conversions.GBP.HKD",
+     "n": 1,
+     "sample": "10.358801876918372"
+    },
+    {
+     "path": "conversions.GBP.IDR",
+     "n": 1,
+     "sample": "23695.882774922673"
+    },
+    {
+     "path": "conversions.GBP.ILS",
+     "n": 1,
+     "sample": "4.046429033434078"
+    },
+    {
+     "path": "conversions.GBP.INR",
+     "n": 1,
+     "sample": "127.15592769865815"
+    },
+    {
+     "path": "conversions.GBP.KRW",
+     "n": 1,
+     "sample": "1779.8266555337339"
+    },
+    {
+     "path": "conversions.GBP.MXN",
+     "n": 1,
+     "sample": "24.203074100643278"
+    },
+    {
+     "path": "conversions.GBP.MYR",
+     "n": 1,
+     "sample": "5.391906671527525"
+    },
+    {
+     "path": "conversions.GBP.NZD",
+     "n": 1,
+     "sample": "2.3522632389778084"
+    },
+    {
+     "path": "conversions.GBP.PHP",
+     "n": 1,
+     "sample": "82.63262498088976"
+    },
+    {
+     "path": "conversions.GBP.SGD",
+     "n": 1,
+     "sample": "1.6894617383839214"
+    },
+    {
+     "path": "conversions.GBP.THB",
+     "n": 1,
+     "sample": "44.347488622064375"
+    },
+    {
+     "path": "conversions.GBP.ZAR",
+     "n": 1,
+     "sample": "22.09012971434619"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_16.json",
+   "format": "json",
+   "size": 18,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Fail"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "MyAnimeList person page 'Twain, Mark' with birthday, death date, a short English bio and anime/manga adaptations credited to him as Original Creator / Story.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

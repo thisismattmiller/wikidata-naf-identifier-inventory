@@ -1,0 +1,50 @@
+{
+ "property": "P1816",
+ "label": "National Portrait Gallery (London) person ID",
+ "files_read": ["pages/P1816__mp54578.txt"],
+ "about_entity": true,
+ "page_kind": "other",
+ "notes": "NPG person page (sitter) for Mark Twain: heading with dates and occupation, real name, list of 16 portraits with artists, media, dates and NPG numbers, plus category/groups/place tags.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading 'Mark Twain (1835-1910), Writer'"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "raw": "Mark Twain (Samuel Langhorne Clemens)", "lang": "en", "via": "subheading"}],
+  "birth_date": [{"value": "1835", "raw": "(1835-1910)", "lang": null, "via": "page heading"}],
+  "death_date": [{"value": "1910", "raw": "(1835-1910)", "lang": null, "via": "page heading"}],
+  "occupation": [{"value": "Writer", "lang": "en", "via": "page heading"}],
+  "field_of_activity": [{"value": "Literature, Journalism and Publishing", "lang": "en", "via": "Category"}],
+  "activity_place": [{"value": "United States", "lang": "en", "via": "Place"}],
+  "description": [{"value": "Mark Twain (1835-1910), Writer. Sitter in 16 portraits.", "lang": "en", "via": "page heading and portrait count"}],
+  "related_agent": [
+   {"value": "H. Walter Barnett (photographer of portrait)", "via": "portrait list"},
+   {"value": "London Stereoscopic & Photographic Company (photographer of portraits)", "via": "portrait list"},
+   {"value": "Elliott & Fry (photographer of portraits)", "via": "portrait list"},
+   {"value": "Benjamin Stone (photographer of portraits)", "via": "portrait list"},
+   {"value": "Sir John Alexander Cockburn (photographer of group portrait)", "via": "portrait list"},
+   {"value": "Alvin Langdon Coburn (photographer of portrait)", "via": "portrait list"},
+   {"value": "Harry Furniss (artist of portraits)", "via": "portrait list"},
+   {"value": "Sir Leslie Ward (artist of Vanity Fair caricature)", "via": "portrait list"},
+   {"value": "The Savage Club (group)", "via": "Groups"},
+   {"value": "Children's writers and illustrators (group)", "via": "Groups"},
+   {"value": "Writers and critics (group)", "via": "Groups"}
+  ],
+  "image": [
+   {"value": "NPG P1700(84a)", "raw": "Mark Twain by H. Walter Barnett, platinum print, 1895-1907", "via": "portrait list"},
+   {"value": "NPG x6162", "raw": "by London Stereoscopic & Photographic Company, albumen cabinet card, vignette, 1870s", "via": "portrait list"},
+   {"value": "NPG Ax18235", "raw": "by London Stereoscopic & Photographic Company, albumen carte-de-visite, 1870s", "via": "portrait list"},
+   {"value": "NPG x127490", "raw": "by Elliott & Fry, chlorobromide print on cream card mount, 1890", "via": "portrait list"},
+   {"value": "NPG x81999", "raw": "by Elliott & Fry, half-plate glass negative, 1890", "via": "portrait list"},
+   {"value": "NPG x44614", "raw": "by Benjamin Stone, platinum print, Summer 1907", "via": "portrait list"},
+   {"value": "NPG x35177", "raw": "by Benjamin Stone, platinum print, Summer 1907", "via": "portrait list"},
+   {"value": "NPG x89001", "raw": "Mark Twain at the House of Commons, by Benjamin Stone, platinum print, 2 July 1907", "via": "portrait list"},
+   {"value": "NPG x89002", "raw": "Mark Twain at the House of Commons, by Benjamin Stone, platinum print, 2 July 1907", "via": "portrait list"},
+   {"value": "NPG x89003", "raw": "Mark Twain at the House of Commons, by Benjamin Stone, platinum print, 2 July 1907", "via": "portrait list"},
+   {"value": "NPG x89004", "raw": "'Luncheon party at the House of Commons', by Sir John Alexander Cockburn, platinum print, 9 July 1907", "via": "portrait list"},
+   {"value": "NPG Ax7789", "raw": "by Alvin Langdon Coburn, photogravure, 21 December 1908", "via": "portrait list"},
+   {"value": "NPG D141", "raw": "by Harry Furniss, pen and ink on board, 1890s-1910s", "via": "portrait list"},
+   {"value": "NPG D96", "raw": "by Harry Furniss, pen and ink, 1890s-1900s", "via": "portrait list"},
+   {"value": "NPG D45432", "raw": "Mark Twain ('Men of the Day. No. 1118. \"Below the Mark.\"') by Sir Leslie Ward, chromolithograph, published in Vanity Fair 13 May 1908", "via": "portrait list"},
+   {"value": "NPG x137084", "raw": "Mark Twain in an advert for Player's Navy Cut Tobacco and Cigarettes, by Unknown photographer, halftone reproduction tear sheet, published 10 July 1909", "via": "portrait list"}
+  ],
+  "identifier": [{"value": "mp54578", "via": "page URL"}]
+ }
+}

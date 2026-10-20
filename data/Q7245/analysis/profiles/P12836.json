@@ -1,0 +1,701 @@
+{
+ "property": "P12836",
+ "property_label": "Douban personage ID",
+ "files": [
+  {
+   "file": "P12836__27242749/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.douban.com/personage/27242749/"
+  },
+  {
+   "file": "P12836__27242749/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.douban.com/j/personage/27242749/works?title=%E5%9B%BE%E4%B9%A6&sortby=time&count=5&released=1"
+  },
+  {
+   "file": "P12836__27242749/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.douban.com/j/personage/27242749/works?title=%E5%9B%BE%E4%B9%A6&sortby=collection&count=5"
+  },
+  {
+   "file": "P12836__27242749/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://m.douban.com/rexxar/api/v2/elessar/subject/27242749/partners?start=0&count=6&name=&simple=1"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "json": 3
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "subject_of": [
+   {
+    "value": "马克·吐温中短篇小说选",
+    "lang": null,
+    "via": "json:data.items.subject.title (record title)",
+    "file": "xhr_2.json",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温短篇小说选集",
+    "lang": null,
+    "via": "json:data.items.subject.title (record title)",
+    "file": "xhr_2.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://book.douban.com/subject/1212486/",
+    "lang": null,
+    "via": "json:data.items.subject.url",
+    "file": "xhr_2.json",
+    "uri": true
+   },
+   {
+    "value": "https://book.douban.com/subject/1182750/",
+    "lang": null,
+    "via": "json:data.items.subject.url",
+    "file": "xhr_2.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "马克·吐温",
+    "lang": "zh",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description'] (真实姓名)",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "萨缪尔·兰亨·克莱门",
+    "lang": "zh",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description'] (真实姓名)",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "马克·吐温",
+    "lang": "zh",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description'] (“马克·吐温”是他的笔名)",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "zh",
+    "via": "llm-page:biography: '“马克·吐温”是他的笔名'",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "作家",
+    "lang": "zh",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "演说家",
+    "lang": "zh",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "作者",
+    "lang": "zh",
+    "via": "llm-page:职业",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "译者",
+    "lang": "zh",
+    "via": "llm-page:职业",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "编剧",
+    "lang": "zh",
+    "via": "llm-page:职业",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "排字工人",
+    "lang": "zh",
+    "via": "llm-page:biography",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "水手",
+    "lang": "zh",
+    "via": "llm-page:biography",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "美国",
+    "lang": "zh",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "马克·吐温（Mark Twain），美国作家、演说家，真实姓名是萨缪尔·兰亨·克莱门（Samuel Langhorne Clemens）。“马克·吐温”是他的笔名，原是密西西比河水手使用的表示在航道上所测水的深度的术语。代表作品有小说《百万英镑》、《哈克贝利·费恩历险记》、《汤姆·索亚历险记》等。马克·吐温一生写了大量作品，题材涉及小说、剧本、散文、诗歌等各方面。从内容上说，他的作品批判了不合理现象或人性的丑恶之处，表达了这位当过排字工人和水手的作家强烈的正义感和对普通人民的关心；从风格上说，专家们和一般读者都认为，幽默和讽刺是他的写作特点。他经历了美国从初期资本主义到帝国主义的发展过程，其思想和创作也表现为从轻快调笑到辛辣讽刺再到悲观厌世的发展阶段，前期以辛辣的讽刺见长，到了后期语言更为暴露激烈。马克·吐温是美国批判现实主义文学的奠基人，他的主要作品已大多有中文译本。2006年，马克·吐温被美国的权威期刊《大西洋月刊》评为影响美国的100位人物第16名。",
+    "lang": "zh",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温（Mark Twain），美国作家、演说家，真实姓名是萨缪尔·兰亨·克莱门（Samuel Langhorne Clemens）。“马克·吐温”是他的笔名，原是密西西比河水手使用的表示在航道上所测水的深度的术语。代表作品有小说《百万英镑》、《哈克贝利·费恩历险记》、《汤姆·索亚历险记》等。马克·吐温一生写了大量作品，题材涉及小说、剧本、散文、诗歌等各方面。",
+    "lang": "zh",
+    "via": "llm-page:人物简介",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "汤姆・索亚历险记",
+    "lang": "zh",
+    "via": "llm:xhr_2.json: $.data.items[0].subject.title",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "百万英镑",
+    "lang": "zh",
+    "via": "llm:xhr_2.json: $.data.items[1].subject.title",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "哈克贝利·费恩历险记",
+    "lang": "zh",
+    "via": "llm:xhr_2.json: $.data.items[2].subject.title",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "王子与贫儿",
+    "lang": "zh",
+    "via": "llm:xhr_2.json: $.data.items[3].subject.title",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温中短篇小说选",
+    "lang": "zh",
+    "via": "llm:xhr_2.json: $.data.items[4].subject.title",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "汤姆·索亚历险记 哈克贝利·费恩历险记",
+    "lang": "zh",
+    "via": "llm:xhr_2.json: $.data.items[5].subject.title",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "亚当夏娃日记",
+    "lang": "zh",
+    "via": "llm:xhr_2.json: $.data.items[6].subject.title",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "竞选州长",
+    "lang": "zh",
+    "via": "llm:xhr_2.json: $.data.items[7].subject.title",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温短篇小说选集",
+    "lang": "zh",
+    "via": "llm:xhr_2.json: $.data.items[8].subject.title",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "神秘的陌生人",
+    "lang": "zh",
+    "via": "llm:xhr_2.json: $.data.items[9].subject.title",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:最近的5部作品",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:最近的5部作品",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "汤姆·索亚历险记",
+    "lang": "zh",
+    "via": "llm-page:最近/收藏最多的作品",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://img3.doubanio.com/view/celebrity/m/public/p12783.webp",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:image']",
+    "file": "P12836.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "27242749",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "男",
+    "lang": "zh",
+    "via": "llm-page:性别",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "zh",
+    "via": "llm-page:出生日期",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "zh",
+    "via": "llm-page:去世日期",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "美国,密苏里州,佛罗里达州",
+    "lang": "zh",
+    "via": "llm-page:出生地",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Olivia Langdon Clemens (妻 / wife)",
+    "lang": "zh",
+    "via": "llm-page:家庭成员",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "罗伯特·路易斯·史蒂文森 (合作作品 10)",
+    "lang": "zh",
+    "via": "llm-page:合作过的人物",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "查尔斯·狄更斯 (合作作品 6)",
+    "lang": "zh",
+    "via": "llm-page:合作过的人物",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "波利斯·卡洛夫 (合作作品 6)",
+    "lang": "zh",
+    "via": "llm-page:合作过的人物",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "丹尼尔·皮特里 (合作作品 5)",
+    "lang": "zh",
+    "via": "llm-page:合作过的人物",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "赫德·哈特菲尔德 (合作作品 5)",
+    "lang": "zh",
+    "via": "llm-page:合作过的人物",
+    "file": "P12836.json",
+    "uri": false
+   },
+   {
+    "value": "罗亚尔·达诺 (合作作品 5)",
+    "lang": "zh",
+    "via": "llm-page:合作过的人物",
+    "file": "P12836.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://www.imdb.com/name/nm0878494/",
+    "lang": null,
+    "via": "llm-page:infobox",
+    "file": "P12836.json",
+    "uri": true
+   }
+  ]
+ },
+ "element_languages": {
+  "subject_of": [],
+  "see_also": [],
+  "name_preferred": [
+   "zh"
+  ],
+  "name_variant": [
+   "en",
+   "zh"
+  ],
+  "pseudonym": [
+   "zh"
+  ],
+  "occupation": [
+   "zh"
+  ],
+  "nationality": [
+   "zh"
+  ],
+  "description": [
+   "zh"
+  ],
+  "work": [
+   "en",
+   "zh"
+  ],
+  "image": [],
+  "identifier": [],
+  "gender": [
+   "zh"
+  ],
+  "birth_date": [
+   "zh"
+  ],
+  "death_date": [
+   "zh"
+  ],
+  "birth_place": [
+   "zh"
+  ],
+  "related_agent": [
+   "zh"
+  ],
+  "same_as": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 1489,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "豆瓣"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "马克·吐温"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "\"马克·吐温（Mark Twain），美国作家、演说家，真实姓名是萨缪尔·兰亨·克莱门（Samuel Langhorne Clemens）。“马克·吐温”是他的笔名，原是密西西比河水手使用的表示在航道上所测水的深度的术语。代表作品有小说《百"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.douban.com/personage/27242749"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://img3.doubanio.com/view/celebrity/m/public/p12783.webp"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "马克·吐温"
+    },
+    {
+     "path": "[].og:description",
+     "value": "\"马克·吐温（Mark Twain），美国作家、演说家，真实姓名是萨缪尔·兰亨·克莱门（Samuel Langhorne Clemens）。“马克·吐温”是他的笔名，原是密西西比河水手使用的表示在航道上所测水的深度的术语。代表作品有小说《百万英镑》、《哈克贝利·费恩历险记》、《汤姆·索亚历险记》等。马克·吐温一生写了大量作品，题材涉及小说、剧本、散文、诗歌等各方面。从内容上说，他的作品批判了不合理"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 2697,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "data.items[].subject.id",
+     "n": 10,
+     "sample": "38352829"
+    },
+    {
+     "path": "data.items[].subject.title",
+     "n": 10,
+     "sample": "The Adventures of Huckleberry Finn"
+    },
+    {
+     "path": "data.items[].subject.cover_url",
+     "n": 10,
+     "sample": "https://img2.doubanio.com/view/subject/m/public/s35414081.jpg"
+    },
+    {
+     "path": "data.items[].subject.url",
+     "n": 10,
+     "sample": "https://book.douban.com/subject/38352829/"
+    },
+    {
+     "path": "data.items[].subject.rating_num",
+     "n": 10,
+     "sample": "0"
+    },
+    {
+     "path": "data.items[].subject.rating_star",
+     "n": 10,
+     "sample": "0"
+    },
+    {
+     "path": "data.items[].subject.year",
+     "n": 10,
+     "sample": "2026"
+    },
+    {
+     "path": "data.items[].subject.subtype",
+     "n": 10,
+     "sample": "book"
+    },
+    {
+     "path": "r",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "data.total",
+     "n": 1,
+     "sample": "196"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 2670,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "data.items[].subject.id",
+     "n": 10,
+     "sample": "1018482"
+    },
+    {
+     "path": "data.items[].subject.title",
+     "n": 10,
+     "sample": "汤姆・索亚历险记"
+    },
+    {
+     "path": "data.items[].subject.cover_url",
+     "n": 10,
+     "sample": "https://img9.doubanio.com/view/subject/m/public/s9126016.jpg"
+    },
+    {
+     "path": "data.items[].subject.url",
+     "n": 10,
+     "sample": "https://book.douban.com/subject/1018482/"
+    },
+    {
+     "path": "data.items[].subject.rating_num",
+     "n": 10,
+     "sample": "8.1"
+    },
+    {
+     "path": "data.items[].subject.rating_star",
+     "n": 10,
+     "sample": "4.0"
+    },
+    {
+     "path": "data.items[].subject.year",
+     "n": 10,
+     "sample": "2001"
+    },
+    {
+     "path": "data.items[].subject.subtype",
+     "n": 10,
+     "sample": "book"
+    },
+    {
+     "path": "r",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "data.total",
+     "n": 1,
+     "sample": "196"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "data.items[].subject.title",
+     "value": "马克·吐温中短篇小说选"
+    },
+    {
+     "path": "data.items[].subject.title",
+     "value": "马克·吐温短篇小说选集"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 1698,
+   "path_count": 9,
+   "paths": [
+    {
+     "path": "items[].id",
+     "n": 6,
+     "sample": "27247538"
+    },
+    {
+     "path": "items[].name",
+     "n": 6,
+     "sample": "罗伯特·路易斯·史蒂文森"
+    },
+    {
+     "path": "items[].en_name",
+     "n": 6,
+     "sample": "Robert Louis Stevenson"
+    },
+    {
+     "path": "items[].avatar",
+     "n": 6,
+     "sample": "https://img9.doubanio.com/view/personage/m/public/ef32d67686b111f9f267618837444a14.jpg"
+    },
+    {
+     "path": "items[].url",
+     "n": 6,
+     "sample": "https://www.douban.com/personage/27247538"
+    },
+    {
+     "path": "items[].joint_works_cnt",
+     "n": 6,
+     "sample": "10"
+    },
+    {
+     "path": "start",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "count",
+     "n": 1,
+     "sample": "6"
+    },
+    {
+     "path": "total",
+     "n": 1,
+     "sample": "500"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "url"
+   ]
+  }
+ ],
+ "llm_notes": "Douban personage page: infobox (gender, dates, birth place, real name, spouse, IMDb id, roles), Chinese biography (truncated on page with '展开'), recent and most-collected works (196 book works total), and co-credited people.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

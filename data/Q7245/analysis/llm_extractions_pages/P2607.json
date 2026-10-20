@@ -1,0 +1,92 @@
+{
+ "property": "P2607",
+ "label": "BookBrainz author ID",
+ "files_read": ["pages/P2607__83280dda-c02e-4f45-a44a-092226e6e8c7.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "BookBrainz author entity: names, gender, birth/death dates and places, a one-line annotation, ~33 editions, ~100 'wrote'/'provided story for' work relationships (capped here at 40 distinct titles) and identifiers (LibraryThing, VIAF, Wikidata). Edition list oddly includes 'Oliver Twist' (Dickens), omitted here as a misattribution.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [
+   {"value": "Twain, Mark", "lang": "en", "via": "Sort Name"},
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "alias under heading"}
+  ],
+  "pseudonym": [{"value": "Mark Twain", "lang": "en", "via": "Annotation 'pen name of Samuel Langhorne Clemens'"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "en", "via": "Annotation"}],
+  "family_name": [{"value": "Clemens", "lang": "en", "via": "Annotation"}],
+  "gender": [{"value": "Male", "lang": "en", "via": "Gender field"}],
+  "birth_date": [{"value": "1835-11-30", "lang": null, "via": "Date of birth"}],
+  "death_date": [{"value": "1910-04-21", "lang": null, "via": "Date of death"}],
+  "birth_place": [{"value": "Monroe County", "lang": "en", "via": "Place of birth"}],
+  "death_place": [{"value": "Redding", "lang": "en", "via": "Place of death"}],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "Annotation"},
+   {"value": "humorist", "lang": "en", "via": "Annotation"},
+   {"value": "entrepreneur", "lang": "en", "via": "Annotation"},
+   {"value": "publisher", "lang": "en", "via": "Annotation"},
+   {"value": "lecturer", "lang": "en", "via": "Annotation"}
+  ],
+  "nationality": [{"value": "American", "lang": "en", "via": "Annotation"}],
+  "description": [{"value": "Mark Twain was the pen name of Samuel Langhorne Clemens, an American writer, humorist, entrepreneur, publisher, and lecturer.", "lang": "en", "via": "Annotation"}],
+  "work": [
+   {"value": "Adventures of Huckleberry Finn", "via": "Editions / Relationships"},
+   {"value": "The Adventures of Tom Sawyer", "via": "Editions / Relationships"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "via": "Editions / Relationships"},
+   {"value": "A Tramp Abroad", "via": "Editions / Relationships"},
+   {"value": "The Autobiography of Mark Twain", "raw": "also edited by Charles Neider", "via": "Editions / Relationships"},
+   {"value": "Autobiography of Mark Twain, Volume 1: The Complete and Authoritative Edition", "via": "Relationships"},
+   {"value": "Personal Recollections of Joan of Arc", "via": "Editions / Relationships"},
+   {"value": "Life on the Mississippi", "via": "Editions / Relationships"},
+   {"value": "The Tragedy of Pudd'nhead Wilson", "raw": "also 'Pudd’nhead Wilson'", "via": "Editions / Relationships"},
+   {"value": "The Prince and the Pauper", "via": "Editions / Relationships"},
+   {"value": "What Is Man? and Other Essays", "via": "Editions"},
+   {"value": "Tom Sawyer Abroad", "via": "Editions / Relationships"},
+   {"value": "Tom Sawyer, Detective", "via": "Editions / Relationships"},
+   {"value": "Roughing It", "via": "Editions / Relationships"},
+   {"value": "The $30,000 Bequest, and Other Stories", "via": "Editions"},
+   {"value": "Mark Twain: Five Novels", "raw": "Canterbury Classics collection, Hardcover 9781607103165, 2011-11-01", "via": "Editions"},
+   {"value": "Œuvres", "raw": "Hardcover 9782070143757, 2015-04-10", "via": "Editions"},
+   {"value": "The Celebrated Jumping Frog of Calaveras County", "via": "Relationships"},
+   {"value": "The Stolen White Elephant", "via": "Relationships"},
+   {"value": "Eve’s Diary", "via": "Relationships"},
+   {"value": "Extracts From Adam’s Diary", "via": "Relationships"},
+   {"value": "Is Shakespeare Dead?", "via": "Relationships"},
+   {"value": "The Bee", "via": "Relationships"},
+   {"value": "Italian Without a Master", "via": "Relationships"},
+   {"value": "A Dog’s Tale", "via": "Relationships"},
+   {"value": "The Death of Jean", "via": "Relationships"},
+   {"value": "How to Tell a Story", "via": "Relationships"},
+   {"value": "Concerning Tobacco", "via": "Relationships"},
+   {"value": "Advice to Little Girls", "via": "Relationships"},
+   {"value": "Taming the Bicycle", "via": "Relationships"},
+   {"value": "The Million Pound Bank Note", "via": "Relationships"},
+   {"value": "The McWilliamses and the Burglar Alarm", "via": "Relationships"},
+   {"value": "The Californian’s Tale", "via": "Relationships"},
+   {"value": "My Watch: An Instructive Little Tale", "via": "Relationships"},
+   {"value": "Aurelia's Unfortunate Young Man", "via": "Relationships"},
+   {"value": "English as She Is Taught", "via": "Relationships"},
+   {"value": "The Turning-Point of My Life", "via": "Relationships"},
+   {"value": "The Five Boons of Life", "via": "Relationships"},
+   {"value": "Was It Heaven? or Hell?", "via": "Relationships"},
+   {"value": "Huckleberry Finns Abenteuer", "raw": "Lore Krüger translation; Paperback 3-257-21370-0, 1985", "via": "Editions / Relationships"}
+  ],
+  "related_agent": [
+   {"value": "Charles Neider (editor of The Autobiography of Mark Twain / Autobiographie)", "via": "Editions / Relationships"},
+   {"value": "Lore Krüger (German translator of Huckleberry Finns Abenteuer and Der Prinz und der Bettelknabe)", "via": "Relationships"},
+   {"value": "Gramowski (German translator of Die Abenteuer des Huckleberry Finn)", "via": "Relationships"},
+   {"value": "Baruch (German translator of Autobiographie: zusammengestellt von Charles Neider)", "via": "Relationships"},
+   {"value": "Bischof / Binde (revisers of German translations: Eine Rigibesteigung, Das Interview, Die Millionen-Pfund-Note, Meine Uhr, Mr. Bloke's Artikel, Der berühmte Springfrosch)", "via": "Relationships"},
+   {"value": "William Dean Howells (subject of his essay 'William Dean Howells')", "via": "Relationships"}
+  ],
+  "same_as": [
+   {"value": "http://viaf.org/viaf/50566653", "raw": "VIAF 50566653", "via": "Identifiers"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "raw": "Wikidata ID Q7245", "via": "Identifiers"},
+   {"value": "https://www.librarything.com/author/twainmark", "raw": "LibraryThing Author twainmark", "via": "Identifiers"}
+  ],
+  "identifier": [{"value": "83280dda-c02e-4f45-a44a-092226e6e8c7", "via": "page URL"}],
+  "record_modified": [
+   {"value": "2026-09-22", "via": "Last Modified"},
+   {"value": "2020-10-06", "raw": "Last modified: 2020-10-06 (revision #30251)", "via": "annotation block"}
+  ]
+ }
+}

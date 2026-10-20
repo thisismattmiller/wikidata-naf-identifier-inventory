@@ -1,0 +1,426 @@
+{
+ "property": "P5731",
+ "property_label": "Angelicum ID",
+ "value": "77895",
+ "url": "https://pust.urbe.it/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=77895",
+ "crawled_at": "2026-10-02T21:41:22+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://pust.urbe.it/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=77895",
+ "tab_title": "MARC view › Twain, Mark, 1835-1910 (Nomi di persona) › Angelicum catalog",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P5731__77895.jpg",
+ "elapsed_seconds": 4.1,
+ "html_file": "pages/P5731__77895.html",
+ "text_file": "pages/P5731__77895.txt",
+ "status": "login_wall_suspected",
+ "page": {
+  "final_url": "https://pust.urbe.it/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=77895",
+  "title": "MARC view › Twain, Mark, 1835-1910 (Nomi di persona) › Angelicum catalog",
+  "content_type": "text/html",
+  "lang": "en",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 200,
+   "url": "https://pust.urbe.it/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=77895",
+   "headers": {
+    "cache-control": "no-cache",
+    "connection": "Keep-Alive",
+    "content-length": "145743",
+    "content-script-type": "text/javascript",
+    "content-style-type": "text/css",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Fri, 02 Oct 2026 21:41:24 GMT",
+    "keep-alive": "timeout=5, max=100",
+    "pragma": "no-cache",
+    "server": "Apache/2.4.68 (Debian)",
+    "vary": "User-Agent",
+    "x-frame-options": "ALLOW-FROM https://www.pust.it/"
+   }
+  },
+  "link_elements": [
+   {
+    "rel": "search",
+    "type": "application/opensearchdescription+xml",
+    "href": "https://pust.urbe.it/cgi-bin/koha/opac-search.pl?format=opensearchdescription",
+    "title": "Search Angelicum",
+    "hreflang": null
+   },
+   {
+    "rel": "unapi-server",
+    "type": "application/xml",
+    "href": "https://pust.urbe.it/cgi-bin/koha/unapi",
+    "title": "unAPI",
+    "hreflang": null
+   }
+  ],
+  "jsonld": [],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "generator",
+    "content": "Koha"
+   },
+   {
+    "key": "viewport",
+    "content": "width=device-width, initial-scale=1"
+   },
+   {
+    "key": "csrf-token",
+    "content": "7f83e8f8f47acac43596d25dfe638a2464aac8c2,4fd7831c6c0df0e1653cb37374f2e56e1a7ca58b,1790977283"
+   }
+  ],
+  "machine_links": [],
+  "xhr_requests": [
+   {
+    "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/js/custom/custom.js",
+    "initiator": "xmlhttprequest",
+    "status": 404,
+    "content_type": "text/html"
+   },
+   {
+    "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/bootstrap/includes/lang/en.inc",
+    "initiator": "xmlhttprequest",
+    "status": 404,
+    "content_type": "text/html"
+   },
+   {
+    "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/bootstrap/includes/lang/default.inc",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "text/plain"
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/css/opac_25.1102000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/js/Gettext_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/fontawesome/css/fontawesome.min_25.1102000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/fontawesome/css/solid.min_25.1102000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/fontawesome/css/brands.min_25.1102000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/api/v1/contrib/coverflow/static/jquery-flipster/jquery.flipster.min.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/js/i18n_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/images/customlogo.png",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/images/OP2.png",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/images/IHOP3.png",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/css/print_25.1102000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/images/koha-green-logo.svg",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/fontawesome/webfonts/fa-solid-900.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/jquery/jquery-3.6.0.min_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/jquery/jquery-migrate-3.3.2.min_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/fontfaceobserver/fontfaceobserver.min_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/bootstrap/js/bootstrap.bundle.min_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/js/global_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/enquire/enquire.min_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/js/form-submit_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/js/amazonimages_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/js/basket_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/js-cookie/js.cookie-3.0.1.min_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/js/show-password-toggle_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/dayjs/dayjs.min_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/dayjs/plugin/timezone_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/dayjs/plugin/utc_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/lib/jquery/plugins/jstree/jstree-3.3.12.min_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/js/cookieconsent_25.1102000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/api/v1/contrib/coverflow/static/jquery-flipster/jquery.flipster.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/js/EDSScript.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/css/fonts/NotoSans-Regular-webfont.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/plugin/Koha/Plugin/OAKoha/OAKoha.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/js/custom/custom.js",
+    "initiator": "xmlhttprequest",
+    "status": 404,
+    "content_type": "text/html",
+    "bytes": 64548
+   },
+   {
+    "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/bootstrap/includes/lang/en.inc",
+    "initiator": "xmlhttprequest",
+    "status": 404,
+    "content_type": "text/html",
+    "bytes": 64548
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/css/fonts/NotoSans-Bold-webfont.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/opac-tmpl/bootstrap/css/fonts/NotoSans-Italic-webfont.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/bootstrap/includes/lang/default.inc",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "text/plain",
+    "bytes": null
+   }
+  ],
+  "third_party_hosts": {},
+  "scripts": [
+   "https://pust.urbe.it/opac-tmpl/bootstrap/js/Gettext_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/bootstrap/js/i18n_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/lib/jquery/jquery-3.6.0.min_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/lib/jquery/jquery-migrate-3.3.2.min_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/lib/bootstrap/js/bootstrap.bundle.min_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/lib/fontfaceobserver/fontfaceobserver.min_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/lib/enquire/enquire.min_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/bootstrap/js/global_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/bootstrap/js/form-submit_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/bootstrap/js/amazonimages_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/bootstrap/js/basket_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/lib/js-cookie/js.cookie-3.0.1.min_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/bootstrap/js/show-password-toggle_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/lib/dayjs/dayjs.min_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/lib/dayjs/plugin/timezone_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/lib/dayjs/plugin/utc_25.1102000.js",
+   "https://pust.urbe.it/opac-tmpl/lib/jquery/plugins/jstree/jstree-3.3.12.min_25.1102000.js",
+   "https://pust.urbe.it/plugin/Koha/Plugin/OAKoha/OAKoha.js",
+   "https://pust.urbe.it/opac-tmpl/bootstrap/js/cookieconsent_25.1102000.js",
+   "https://pust.urbe.it/api/v1/contrib/coverflow/static/jquery-flipster/jquery.flipster.min.js",
+   "https://pust.urbe.it/plugin/Koha/Plugin/EDS/js/EDSScript.js"
+  ],
+  "iframes": [],
+  "forms": [
+   {
+    "action": "https://pust.urbe.it/cgi-bin/koha/opac-search.pl",
+    "method": "get",
+    "id": "searchform"
+   },
+   {
+    "action": "https://pust.urbe.it/cgi-bin/koha/opac-user.pl",
+    "method": "post",
+    "id": "modalAuth"
+   }
+  ],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 1,
+   "access_words": [
+    "log in"
+   ],
+   "not_found_words": []
+  },
+  "text_length": 12319,
+  "html_length": 127400
+ }
+}

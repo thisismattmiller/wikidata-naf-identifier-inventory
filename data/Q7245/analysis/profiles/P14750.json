@@ -1,0 +1,1710 @@
+{
+ "property": "P14750",
+ "property_label": "‎HAND ID",
+ "files": [
+  {
+   "file": "P14750__ECF5-F2A3-E123-2324-1A1B/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://registry.hand-id.org/#objects/10.23/ECF5-F2A3-E123-2324-1A1B"
+  },
+  {
+   "file": "P14750__ECF5-F2A3-E123-2324-1A1B/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://registry.hand-id.org/initData"
+  },
+  {
+   "file": "P14750__ECF5-F2A3-E123-2324-1A1B/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://registry.hand-id.org/schemaTemplates"
+  },
+  {
+   "file": "P14750__ECF5-F2A3-E123-2324-1A1B/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://hdl.handle.net/api/handles/0.NA/10.23"
+  },
+  {
+   "file": "P14750__ECF5-F2A3-E123-2324-1A1B/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://registry.hand-id.org/objects/10.23/ECF5-F2A3-E123-2324-1A1B?full=true&includeResponseContext"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "json": 4
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "gender": [
+   {
+    "value": "MALE",
+    "lang": null,
+    "via": "json:content.gender.gender",
+    "file": "xhr_4.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": null,
+    "via": "json:content.birthPlace",
+    "file": "xhr_4.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "json:content.birthDate.year",
+    "file": "xhr_4.json",
+    "uri": false
+   },
+   {
+    "value": "11",
+    "lang": null,
+    "via": "json:content.birthDate.month",
+    "file": "xhr_4.json",
+    "uri": false
+   },
+   {
+    "value": "30",
+    "lang": "day",
+    "via": "json:content.birthDate.day",
+    "file": "xhr_4.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "json:content.deathDate.year",
+    "file": "xhr_4.json",
+    "uri": false
+   },
+   {
+    "value": "4",
+    "lang": null,
+    "via": "json:content.deathDate.month",
+    "file": "xhr_4.json",
+    "uri": false
+   },
+   {
+    "value": "21",
+    "lang": "day",
+    "via": "json:content.deathDate.day",
+    "file": "xhr_4.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "US",
+    "lang": null,
+    "via": "json:content.citizenship.country",
+    "file": "xhr_4.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel",
+    "lang": null,
+    "via": "json:content.names.firstName",
+    "file": "xhr_4.json",
+    "uri": false
+   },
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "json:content.names.firstName",
+    "file": "xhr_4.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": null,
+    "via": "json:content.names.familyName",
+    "file": "xhr_4.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Samuel Clemens",
+    "lang": null,
+    "via": "json:content.names.fullName",
+    "file": "xhr_4.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": null,
+    "via": "json:content.names.fullName",
+    "file": "xhr_4.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "json:content.names.fullName",
+    "file": "xhr_4.json",
+    "uri": false
+   },
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "json:content.names.fullName",
+    "file": "xhr_4.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading / public display name",
+    "file": "P14750.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "10.23/ECF5-F2A3-E123-2324-1A1B",
+    "lang": null,
+    "via": "llm-page:record header 'Id:'",
+    "file": "P14750.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "gender": [],
+  "birth_place": [],
+  "birth_date": [
+   "day"
+  ],
+  "death_date": [
+   "day"
+  ],
+  "nationality": [],
+  "given_name": [],
+  "family_name": [],
+  "name_preferred": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 28863,
+   "path_count": 628,
+   "paths": [
+    {
+     "path": "design.schemas.commonAttributes.properties.alternateIds.items.properties.domain.enum[]",
+     "n": 50,
+     "sample": "Fabric"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.occupations.items.properties.occupation.cordra.type.suggestedVocabulary[]",
+     "n": 20,
+     "sample": "Film Actor"
+    },
+    {
+     "path": "design.schemas.LegalEntity.properties.alternateIds.items.properties.domain.enum[]",
+     "n": 17,
+     "sample": "Wikidata"
+    },
+    {
+     "path": "design.schemas.LicensedHumanLikeness.properties.alternateIds.items.properties.domain.enum[]",
+     "n": 15,
+     "sample": "Wikidata"
+    },
+    {
+     "path": "design.schemas.LegalEntity.properties.entityType.enum[]",
+     "n": 8,
+     "sample": "Corporation"
+    },
+    {
+     "path": "design.schemas.LicensedHumanLikeness.properties.productionCompanyLegalIds.items.properties.domain.enum[]",
+     "n": 8,
+     "sample": "DUNS"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.awards.items.properties.award.cordra.type.suggestedVocabulary[]",
+     "n": 8,
+     "sample": "Oscar"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.navBarLinks.items.properties.type.enum[]",
+     "n": 7,
+     "sample": "url"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.names.items.properties.nameType.enum[]",
+     "n": 7,
+     "sample": "Birth Name"
+    },
+    {
+     "path": "design.schemas.LegendaryFigure.properties.alternateIds.items.properties.domain.enum[]",
+     "n": 6,
+     "sample": "Wikidata"
+    },
+    {
+     "path": "design.schemas.LegalEntity.properties.names.items.properties.nameType.enum[]",
+     "n": 5,
+     "sample": "Legal Name"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.gender.items.properties.gender.cordra.type.suggestedVocabulary[]",
+     "n": 5,
+     "sample": "Female"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.gender.items.properties.pronouns.cordra.type.suggestedVocabulary[]",
+     "n": 5,
+     "sample": "She/Her/Hers/Herself"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.associations.items.properties.association.cordra.type.suggestedVocabulary[]",
+     "n": 5,
+     "sample": "Performed In"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.defaultLinks.items.properties.type.enum[]",
+     "n": 4,
+     "sample": "ui"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.creativeWorks.items.properties.domain.enum[]",
+     "n": 4,
+     "sample": "EIDR"
+    },
+    {
+     "path": "design.schemas.Schema.required[]",
+     "n": 3,
+     "sample": "name"
+    },
+    {
+     "path": "design.schemas.LegendaryFigure.properties.status.enum[]",
+     "n": 3,
+     "sample": "findable"
+    },
+    {
+     "path": "design.schemas.LegalEntity.properties.status.enum[]",
+     "n": 3,
+     "sample": "findable"
+    },
+    {
+     "path": "design.schemas.LicensedHumanLikeness.properties.consent.properties.consentStatus.enum[]",
+     "n": 3,
+     "sample": "consented"
+    },
+    {
+     "path": "design.schemas.LicensedHumanLikeness.properties.status.enum[]",
+     "n": 3,
+     "sample": "findable"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.schemaSpecificLinks.additionalProperties.items.properties.type.enum[]",
+     "n": 2,
+     "sample": "ui"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.builtInTypes.properties.CordraDesign.properties.authConfig.type[]",
+     "n": 2,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.builtInTypes.properties.Schema.properties.authConfig.type[]",
+     "n": 2,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.Schema.properties.authConfig.type[]",
+     "n": 2,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.FictionalCharacter.required[]",
+     "n": 2,
+     "sample": "id"
+    },
+    {
+     "path": "design.schemas.LicensedHumanLikeness.required[]",
+     "n": 2,
+     "sample": "name"
+    },
+    {
+     "path": "design.schemas.LicensedHumanLikeness.properties.lhlHumanType.enum[]",
+     "n": 2,
+     "sample": "Abstract"
+    },
+    {
+     "path": "design.schemas.LicensedHumanLikeness.properties.alternateIds.items.required[]",
+     "n": 2,
+     "sample": "domain"
+    },
+    {
+     "path": "design.schemas.Human.required[]",
+     "n": 2,
+     "sample": "id"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.names.items.required[]",
+     "n": 2,
+     "sample": "nameType"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.alternateIds.items.required[]",
+     "n": 2,
+     "sample": "id"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.creativeWorks.items.required[]",
+     "n": 2,
+     "sample": "id"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.awards.items.required[]",
+     "n": 2,
+     "sample": "selection"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.awards.items.properties.selection.enum[]",
+     "n": 2,
+     "sample": "nominated for"
+    },
+    {
+     "path": "design.schemas.commonAttributes.properties.associations.items.required[]",
+     "n": 2,
+     "sample": "association"
+    },
+    {
+     "path": "design.uiConfig.navBarLinks[].type",
+     "n": 2,
+     "sample": "query"
+    },
+    {
+     "path": "design.uiConfig.navBarLinks[].title",
+     "n": 2,
+     "sample": "All Objects"
+    },
+    {
+     "path": "design.uiConfig.aclUiSearchTypes[]",
+     "n": 2,
+     "sample": "User"
+    },
+    {
+     "path": "design.handleMintingConfig.defaultLinks[].type",
+     "n": 2,
+     "sample": "json"
+    },
+    {
+     "path": "design.handleMintingConfig.defaultLinks[].primary",
+     "n": 2,
+     "sample": "False"
+    },
+    {
+     "path": "version.number",
+     "n": 1,
+     "sample": "2.5.2"
+    },
+    {
+     "path": "version.timestamp",
+     "n": 1,
+     "sample": "2023-08-29T04:40:13Z"
+    },
+    {
+     "path": "version.id",
+     "n": 1,
+     "sample": "405d6d0009c6"
+    },
+    {
+     "path": "design.schemaIds.10.23/8e62757fee64bb7f5134",
+     "n": 1,
+     "sample": "LegendaryFigure"
+    },
+    {
+     "path": "design.schemaIds.10.23/618f547ee8a305fc801b",
+     "n": 1,
+     "sample": "LegalEntity"
+    },
+    {
+     "path": "design.schemaIds.test/969158bd335ee6b91dfb",
+     "n": 1,
+     "sample": "FictionalCharacter"
+    },
+    {
+     "path": "design.schemaIds.10.23/266dfd8bb2d82ac02fb9",
+     "n": 1,
+     "sample": "LicensedHumanLikeness"
+    },
+    {
+     "path": "design.schemaIds.test/e31663b107b924eb1b36",
+     "n": 1,
+     "sample": "Human"
+    },
+    {
+     "path": "design.schemaIds.test/a1e756d6203dbaf17463",
+     "n": 1,
+     "sample": "commonAttributes"
+    },
+    {
+     "path": "design.schemas.CordraDesign.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.title",
+     "n": 1,
+     "sample": "CordraDesign"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.ids.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.ids.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.isReadOnly.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.useLegacyContentOnlyJavaScriptHooks.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.useLegacyAttributesAsInputForDoipGet.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.useLegacySearchPageSizeZeroReturnsAll.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.useLegacySessionsApi.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.allowInsecureAuthentication.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.disableAuthenticationBackOff.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.disableBackOffRequestParking.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.enableVersionEdits.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.includePayloadsInReplicationMessages.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.enableTypeChangeViaUpdate.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.title.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.relationshipsButtonText.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.allowUserToSpecifySuffixOnCreate.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.allowUserToSpecifyHandleOnCreate.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.hideTypeInObjectEditor.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.searchResults.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.searchResults.properties.includeType.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.searchResults.properties.includeModifiedDate.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.searchResults.properties.includeCreatedDate.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.initialQuery.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.initialFragment.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.initialSortFields.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.navBarLinks.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.navBarLinks.items.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.navBarLinks.items.properties.type.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.navBarLinks.items.properties.title.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.navBarLinks.items.properties.query.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.navBarLinks.items.properties.url.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.uiConfig.properties.navBarLinks.items.properties.location.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.schemaAcls.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.schemaAcls.additionalProperties.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.schemaAcls.additionalProperties.properties.defaultAclRead.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.schemaAcls.additionalProperties.properties.defaultAclRead.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.schemaAcls.additionalProperties.properties.defaultAclWrite.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.schemaAcls.additionalProperties.properties.defaultAclWrite.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.schemaAcls.additionalProperties.properties.aclCreate.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.schemaAcls.additionalProperties.properties.aclCreate.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.defaultAcls.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.defaultAcls.properties.defaultAclRead.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.defaultAcls.properties.defaultAclRead.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.defaultAcls.properties.defaultAclWrite.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.defaultAcls.properties.defaultAclWrite.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.defaultAcls.properties.aclCreate.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.authConfig.properties.defaultAcls.properties.aclCreate.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleServerConfig.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleServerConfig.required[]",
+     "n": 1,
+     "sample": "enabled"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleServerConfig.properties.enabled.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleServerConfig.properties.listenAddress.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleServerConfig.properties.tcpPort.type",
+     "n": 1,
+     "sample": "number"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleServerConfig.properties.externalAddress.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleServerConfig.properties.externalTcpPort.type",
+     "n": 1,
+     "sample": "number"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleServerConfig.properties.logAccesses.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.prefix.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.baseUri.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.schemaSpecificLinks.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.schemaSpecificLinks.additionalProperties.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.schemaSpecificLinks.additionalProperties.items.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.schemaSpecificLinks.additionalProperties.items.properties.type.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.schemaSpecificLinks.additionalProperties.items.properties.primary.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.handleAdminIdentity.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.javascriptIsModule.type",
+     "n": 1,
+     "sample": "boolean"
+    },
+    {
+     "path": "design.schemas.CordraDesign.properties.handleMintingConfig.properties.javascript.type",
+     "n": 1,
+     "sample": "string"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 6052,
+   "path_count": 138,
+   "paths": [
+    {
+     "path": "templates.card.properties.adr.required[]",
+     "n": 3,
+     "sample": "locality"
+    },
+    {
+     "path": "templates.default.required[]",
+     "n": 2,
+     "sample": "name"
+    },
+    {
+     "path": "templates.card.required[]",
+     "n": 2,
+     "sample": "familyName"
+    },
+    {
+     "path": "templates.default.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "templates.default.properties.id.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.default.properties.id.cordra.type.autoGeneratedField",
+     "n": 1,
+     "sample": "handle"
+    },
+    {
+     "path": "templates.default.properties.name.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.default.properties.name.maxLength",
+     "n": 1,
+     "sample": "128"
+    },
+    {
+     "path": "templates.default.properties.name.title",
+     "n": 1,
+     "sample": "Name"
+    },
+    {
+     "path": "templates.default.properties.name.cordra.preview.showInPreview",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.default.properties.name.cordra.preview.isPrimary",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.default.properties.description.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.default.properties.description.format",
+     "n": 1,
+     "sample": "textarea"
+    },
+    {
+     "path": "templates.default.properties.description.maxLength",
+     "n": 1,
+     "sample": "2048"
+    },
+    {
+     "path": "templates.default.properties.description.title",
+     "n": 1,
+     "sample": "Description"
+    },
+    {
+     "path": "templates.default.properties.description.cordra.preview.showInPreview",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.default.properties.description.cordra.preview.excludeTitle",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.document.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "templates.document.title",
+     "n": 1,
+     "sample": "Document"
+    },
+    {
+     "path": "templates.document.properties.id.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.document.properties.id.cordra.type.autoGeneratedField",
+     "n": 1,
+     "sample": "handle"
+    },
+    {
+     "path": "templates.document.properties.name.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.document.properties.name.title",
+     "n": 1,
+     "sample": "Name"
+    },
+    {
+     "path": "templates.document.properties.name.cordra.preview.showInPreview",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.document.properties.name.cordra.preview.isPrimary",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.document.properties.description.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.document.properties.description.format",
+     "n": 1,
+     "sample": "textarea"
+    },
+    {
+     "path": "templates.document.properties.description.title",
+     "n": 1,
+     "sample": "Description"
+    },
+    {
+     "path": "templates.document.properties.description.cordra.preview.showInPreview",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.document.properties.description.cordra.preview.excludeTitle",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.document.properties.creationDate.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.document.properties.creationDate.title",
+     "n": 1,
+     "sample": "Creation Date"
+    },
+    {
+     "path": "templates.document.properties.creationDate.cordra.type.autoGeneratedField",
+     "n": 1,
+     "sample": "creationDate"
+    },
+    {
+     "path": "templates.document.properties.modificationDate.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.document.properties.modificationDate.title",
+     "n": 1,
+     "sample": "Modification Date"
+    },
+    {
+     "path": "templates.document.properties.modificationDate.cordra.preview.showInPreview",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.document.properties.modificationDate.cordra.type.autoGeneratedField",
+     "n": 1,
+     "sample": "modificationDate"
+    },
+    {
+     "path": "templates.document.properties.createdBy.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.document.properties.createdBy.title",
+     "n": 1,
+     "sample": "Created By"
+    },
+    {
+     "path": "templates.document.properties.createdBy.cordra.type.autoGeneratedField",
+     "n": 1,
+     "sample": "createdBy"
+    },
+    {
+     "path": "templates.document.properties.modifiedBy.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.document.properties.modifiedBy.title",
+     "n": 1,
+     "sample": "Modified By"
+    },
+    {
+     "path": "templates.document.properties.modifiedBy.cordra.type.autoGeneratedField",
+     "n": 1,
+     "sample": "modifiedBy"
+    },
+    {
+     "path": "templates.javascript-directory.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "templates.javascript-directory.required[]",
+     "n": 1,
+     "sample": "directory"
+    },
+    {
+     "path": "templates.javascript-directory.properties.id.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.javascript-directory.properties.id.cordra.type.autoGeneratedField",
+     "n": 1,
+     "sample": "handle"
+    },
+    {
+     "path": "templates.javascript-directory.properties.directory.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.javascript-directory.properties.directory.title",
+     "n": 1,
+     "sample": "Directory"
+    },
+    {
+     "path": "templates.javascript-directory.properties.directory.cordra.referrable.id",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.javascript-directory.properties.directory.cordra.referrable.payloads",
+     "n": 1,
+     "sample": "scripts"
+    },
+    {
+     "path": "templates.card.description",
+     "n": 1,
+     "sample": "A representation of a person, company, organization, or place"
+    },
+    {
+     "path": "templates.card.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "templates.card.properties.fn.description",
+     "n": 1,
+     "sample": "Formatted Name"
+    },
+    {
+     "path": "templates.card.properties.fn.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.familyName.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.givenName.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.additionalName.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "templates.card.properties.additionalName.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.honorificPrefix.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "templates.card.properties.honorificPrefix.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.honorificSuffix.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "templates.card.properties.honorificSuffix.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.nickname.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.uri.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.uri.format",
+     "n": 1,
+     "sample": "uri"
+    },
+    {
+     "path": "templates.card.properties.email.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "templates.card.properties.email.properties.type.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.email.properties.value.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.email.properties.value.format",
+     "n": 1,
+     "sample": "email"
+    },
+    {
+     "path": "templates.card.properties.tel.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "templates.card.properties.tel.properties.type.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.tel.properties.value.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.tel.properties.value.format",
+     "n": 1,
+     "sample": "phone"
+    },
+    {
+     "path": "templates.card.properties.adr.description",
+     "n": 1,
+     "sample": "An Address following the convention of http://microformats.org/wiki/hcard"
+    },
+    {
+     "path": "templates.card.properties.adr.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "templates.card.properties.adr.properties.post-office-box.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.adr.properties.extended-address.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.adr.properties.street-address.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.adr.properties.locality.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.adr.properties.region.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.adr.properties.postal-code.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.adr.properties.country-name.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.adr.dependencies.post-office-box[]",
+     "n": 1,
+     "sample": "street-address"
+    },
+    {
+     "path": "templates.card.properties.adr.dependencies.extended-address[]",
+     "n": 1,
+     "sample": "street-address"
+    },
+    {
+     "path": "templates.card.properties.geo.description",
+     "n": 1,
+     "sample": "A geographical coordinate"
+    },
+    {
+     "path": "templates.card.properties.geo.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "templates.card.properties.geo.properties.latitude.type",
+     "n": 1,
+     "sample": "number"
+    },
+    {
+     "path": "templates.card.properties.geo.properties.longitude.type",
+     "n": 1,
+     "sample": "number"
+    },
+    {
+     "path": "templates.card.properties.bday.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.bday.format",
+     "n": 1,
+     "sample": "date"
+    },
+    {
+     "path": "templates.card.properties.title.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.role.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.org.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "templates.card.properties.org.properties.organizationName.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.card.properties.org.properties.organizationUnit.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.email.type",
+     "n": 1,
+     "sample": "object"
+    },
+    {
+     "path": "templates.email.title",
+     "n": 1,
+     "sample": "Email"
+    },
+    {
+     "path": "templates.email.properties.date.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.email.properties.date.title",
+     "n": 1,
+     "sample": "Date"
+    },
+    {
+     "path": "templates.email.properties.date.format",
+     "n": 1,
+     "sample": "date"
+    },
+    {
+     "path": "templates.email.properties.date.cordra.preview.showInPreview",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.email.properties.subject.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.email.properties.subject.title",
+     "n": 1,
+     "sample": "Subject"
+    },
+    {
+     "path": "templates.email.properties.subject.cordra.preview.showInPreview",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.email.properties.subject.cordra.preview.isPrimary",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.email.properties.from.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.email.properties.from.title",
+     "n": 1,
+     "sample": "From"
+    },
+    {
+     "path": "templates.email.properties.from.cordra.preview.showInPreview",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "templates.email.properties.to.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "templates.email.properties.to.title",
+     "n": 1,
+     "sample": "To"
+    },
+    {
+     "path": "templates.email.properties.to.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.email.properties.bcc.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "templates.email.properties.bcc.title",
+     "n": 1,
+     "sample": "Bcc"
+    },
+    {
+     "path": "templates.email.properties.bcc.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.email.properties.cc.type",
+     "n": 1,
+     "sample": "array"
+    },
+    {
+     "path": "templates.email.properties.cc.title",
+     "n": 1,
+     "sample": "Cc"
+    },
+    {
+     "path": "templates.email.properties.cc.items.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.email.properties.message-id.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "templates.email.properties.message-id.title",
+     "n": 1,
+     "sample": "Message-ID"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 1487,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "values[].index",
+     "n": 4,
+     "sample": "100"
+    },
+    {
+     "path": "values[].type",
+     "n": 4,
+     "sample": "HS_ADMIN"
+    },
+    {
+     "path": "values[].data.format",
+     "n": 4,
+     "sample": "admin"
+    },
+    {
+     "path": "values[].ttl",
+     "n": 4,
+     "sample": "86400"
+    },
+    {
+     "path": "values[].timestamp",
+     "n": 4,
+     "sample": "2023-09-29T04:46:21Z"
+    },
+    {
+     "path": "values[].data.value",
+     "n": 3,
+     "sample": "10.SERV/HAND"
+    },
+    {
+     "path": "responseCode",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "handle",
+     "n": 1,
+     "sample": "0.NA/10.23"
+    },
+    {
+     "path": "values[].data.value.handle",
+     "n": 1,
+     "sample": "0.NA/10"
+    },
+    {
+     "path": "values[].data.value.index",
+     "n": 1,
+     "sample": "200"
+    },
+    {
+     "path": "values[].data.value.permissions",
+     "n": 1,
+     "sample": "011111110011"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ttl"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 2018,
+   "path_count": 27,
+   "paths": [
+    {
+     "path": "content.alternateIds[].domain",
+     "n": 15,
+     "sample": "isniID"
+    },
+    {
+     "path": "content.alternateIds[].id",
+     "n": 15,
+     "sample": "0000 0003 6864 1704"
+    },
+    {
+     "path": "content.names[].nameType",
+     "n": 9,
+     "sample": "Alias"
+    },
+    {
+     "path": "content.names[].firstName",
+     "n": 9,
+     "sample": "Samuel"
+    },
+    {
+     "path": "content.names[].fullName",
+     "n": 9,
+     "sample": "Samuel Clemens"
+    },
+    {
+     "path": "content.names[].familyName",
+     "n": 4,
+     "sample": "Clemens"
+    },
+    {
+     "path": "content.names[].middleName",
+     "n": 3,
+     "sample": "L."
+    },
+    {
+     "path": "id",
+     "n": 1,
+     "sample": "10.23/ECF5-F2A3-E123-2324-1A1B"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "Human"
+    },
+    {
+     "path": "content.id",
+     "n": 1,
+     "sample": "10.23/ECF5-F2A3-E123-2324-1A1B"
+    },
+    {
+     "path": "content.publicPersona",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "content.gender[].gender",
+     "n": 1,
+     "sample": "MALE"
+    },
+    {
+     "path": "content.gender[].pronouns",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "content.birthPlace",
+     "n": 1,
+     "sample": "Florida"
+    },
+    {
+     "path": "content.birthDate.year",
+     "n": 1,
+     "sample": "1835"
+    },
+    {
+     "path": "content.birthDate.month",
+     "n": 1,
+     "sample": "11"
+    },
+    {
+     "path": "content.birthDate.day",
+     "n": 1,
+     "sample": "30"
+    },
+    {
+     "path": "content.deathDate.year",
+     "n": 1,
+     "sample": "1910"
+    },
+    {
+     "path": "content.deathDate.month",
+     "n": 1,
+     "sample": "4"
+    },
+    {
+     "path": "content.deathDate.day",
+     "n": 1,
+     "sample": "21"
+    },
+    {
+     "path": "content.citizenship[].country",
+     "n": 1,
+     "sample": "US"
+    },
+    {
+     "path": "metadata.createdOn",
+     "n": 1,
+     "sample": "1697471173938"
+    },
+    {
+     "path": "metadata.createdBy",
+     "n": 1,
+     "sample": "admin"
+    },
+    {
+     "path": "metadata.modifiedOn",
+     "n": 1,
+     "sample": "1787942788884"
+    },
+    {
+     "path": "metadata.modifiedBy",
+     "n": 1,
+     "sample": "admin"
+    },
+    {
+     "path": "metadata.txnId",
+     "n": 1,
+     "sample": "1787942788881641"
+    },
+    {
+     "path": "responseContext.permission",
+     "n": 1,
+     "sample": "READ_INCLUDING_PAYLOADS"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "content.publicPersona",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "content.names[].familyName",
+     "value": "Clemens"
+    },
+    {
+     "path": "content.names[].fullName",
+     "value": "Samuel Clemens"
+    },
+    {
+     "path": "content.names[].familyName",
+     "value": "Clemens"
+    },
+    {
+     "path": "content.names[].fullName",
+     "value": "Samuel L. Clemens"
+    },
+    {
+     "path": "content.names[].familyName",
+     "value": "Clemens"
+    },
+    {
+     "path": "content.names[].fullName",
+     "value": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "content.names[].firstName",
+     "value": "Clemens"
+    },
+    {
+     "path": "content.names[].fullName",
+     "value": "Clemens"
+    },
+    {
+     "path": "content.names[].familyName",
+     "value": "Clemens"
+    },
+    {
+     "path": "content.names[].fullName",
+     "value": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "content.names[].firstName",
+     "value": "Twain"
+    },
+    {
+     "path": "content.names[].fullName",
+     "value": "Twain"
+    }
+   ],
+   "language_like_keys": [
+    "day",
+    "id"
+   ]
+  }
+ ],
+ "llm_notes": "HAND (beta) digital-object record headed 'Mark Twain', Type: Human, with its handle id. The record is rendered as an edit form (Names, Birth/Death Date, Birth Place, Country, Gender, Alternate Ids with ~15 rows) but the field values are not in the page text - only the empty labels and dropdown option lists - so nothing beyond the name, type and id is readable.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

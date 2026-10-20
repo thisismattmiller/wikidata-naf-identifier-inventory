@@ -1,0 +1,40 @@
+{
+ "property": "P1248",
+ "label": "KulturNav-ID",
+ "files_read": ["pages/P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "KulturNav person record from the Musikverket (Swedish performing arts) persons dataset: Swedish name and description, birth/death, gender, same-as links (VIAF, Wikidata, Libris), plays he is linked to, and a DigitaltMuseum cross-link. First/last name fields are oddly split ('Samuel Mark' / 'Langhorne Clemens Twain').",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "sv", "via": "page heading / Name field"}],
+  "name_variant": [{"value": "Mark Twain", "lang": "sv", "via": "Other name (Name from source)"}],
+  "given_name": [{"value": "Samuel Mark", "lang": "sv", "via": "First name field"}],
+  "family_name": [{"value": "Langhorne Clemens Twain", "lang": "sv", "via": "Last name field"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30/11/1835", "lang": null, "via": "Birth field"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21/04/1910", "lang": null, "via": "Death field"}],
+  "birth_place": [{"value": "Florida", "lang": "sv", "via": "Birth field"}],
+  "death_place": [{"value": "Redding", "lang": "sv", "via": "Death field"}],
+  "gender": [{"value": "Man", "lang": "en", "via": "Gender field"}],
+  "occupation": [{"value": "författare", "lang": "sv", "via": "Description 'amerikansk författare'"}],
+  "nationality": [{"value": "amerikansk", "lang": "sv", "via": "Description 'amerikansk författare'"}],
+  "description": [{"value": "amerikansk författare", "lang": "sv", "via": "Description field"}],
+  "work": [
+   {"value": "Adams dagbok", "raw": "Adams dagbok (Teaterpjäs : verk)", "via": "Actor in"},
+   {"value": "Huckleberry Finn", "raw": "Huckleberry Finn (Play : work) / (Scenkonstverk)", "via": "Actor in"},
+   {"value": "Tom Sawyer", "raw": "Tom Sawyer (Play : work)", "via": "Actor in"},
+   {"value": "Tom Sawyers äventyr", "raw": "Tom Sawyers äventyr (Teaterpjäs : verk)", "via": "Actor in"}
+  ],
+  "same_as": [
+   {"value": "http://viaf.org/viaf/50566653", "via": "Same As"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "Same As"},
+   {"value": "https://libris.kb.se/1zcfb5hk1bq7d78", "via": "Same As"},
+   {"value": "https://digitaltmuseum.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38", "raw": "DigitaltMuseum 0210315745803", "via": "See also"}
+  ],
+  "identifier": [
+   {"value": "3e04abfe-5825-41af-ac3d-23a5ea3aba38", "via": "URI http://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38"},
+   {"value": "0210315745803", "via": "See also, DigitaltMuseum id"}
+  ],
+  "source": [{"value": "Persons, Musikverket (Statens musikverk – National Collections of Music, Theatre and Dance)", "via": "Dataset / Dataset owner"}],
+  "record_modified": [{"value": "2025-06-04T16:25:47", "raw": "04/06/2025 16:25:47", "via": "Last changed"}]
+ }
+}

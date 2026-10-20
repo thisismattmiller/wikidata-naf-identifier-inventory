@@ -1,0 +1,80 @@
+{
+ "property": "P7929",
+ "label": "Roglo person ID",
+ "files_read": ["pages/P7929__p_samuel_langhorne_n_clemens_be39a046.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "Roglo (GeneWeb) genealogy person page: name and pseudonyms, birth/death/burial events with places, parents, spouse and children, grandparents, siblings, and a long French-language biographical note. Footer says it is a copy of the Roglo base captured 2026-10-02 and gives a CC 4.0 licence.",
+ "elements": {
+  "name_preferred": [{"value": "Samuel Langhorne Clemens", "lang": "fr", "via": "page heading"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "fr", "via": "page heading"}],
+  "family_name": [{"value": "Clemens", "lang": "fr", "via": "page heading"}],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "fr", "via": "alias line under heading"},
+   {"value": "Louis de Conte", "lang": "fr", "via": "alias line under heading; notes: Le roman de Jeanne d'Arc written under this pseudonym"}
+  ],
+  "birth_date": [{"value": "1835-11-30", "raw": "Born 30 November 1835", "lang": "en", "via": "Born line"}],
+  "death_date": [{"value": "1910-04-21", "raw": "Died 21 April 1910", "lang": "en", "via": "Died line"}],
+  "birth_place": [{"value": "Hannibal, Marion Co., Missouri (USA)", "lang": "en", "via": "Born line"}],
+  "death_place": [{"value": "Stormfield, Redding, Connecticut (USA)", "lang": "en", "via": "Died line"}],
+  "activity_place": [
+   {"value": "Elmira, Chemung Co. (New York,États-Unis)", "raw": "Buried - Elmira, Chemung Co. (New York,États-Unis)", "lang": "fr", "via": "Buried line (burial place)"},
+   {"value": "Elmira, Chemung Co., New York (USA)", "raw": "Married 21 February 1870, Elmira", "lang": "en", "via": "marriage line"},
+   {"value": "Mississippi", "lang": "fr", "via": "notes"},
+   {"value": "Nevada", "lang": "fr", "via": "notes"},
+   {"value": "San Francisco", "lang": "fr", "via": "notes"},
+   {"value": "Hartford", "lang": "fr", "via": "notes"}
+  ],
+  "gender": [{"value": "male", "raw": "implied by 'Orphelin de père', 'son pseudonyme', husband of Olivia Louise Langdon", "lang": "en", "via": "notes / family"}],
+  "occupation": [
+   {"value": "Écrivain", "lang": "fr", "via": "occupation line"},
+   {"value": "essayiste", "lang": "fr", "via": "occupation line"},
+   {"value": "humoriste", "lang": "fr", "via": "occupation line"},
+   {"value": "apprenti typographe", "lang": "fr", "via": "notes"},
+   {"value": "pilote de bateau à vapeur", "lang": "fr", "via": "notes"},
+   {"value": "chercheur d'or", "lang": "fr", "via": "notes"},
+   {"value": "reporter", "lang": "fr", "via": "notes"},
+   {"value": "correspondant de presse", "lang": "fr", "via": "notes"},
+   {"value": "pamphlétaire", "lang": "fr", "via": "notes"}
+  ],
+  "nationality": [{"value": "américain", "lang": "fr", "via": "occupation line 'Écrivain, essayiste et humoriste américain'"}],
+  "description": [
+   {"value": "Écrivain, essayiste et humoriste américain", "lang": "fr", "via": "occupation line under name"},
+   {"value": "Orphelin de père à l'âge de 12 ans, Samuel Clemens exerce diverses activités : apprenti typographe, rédacteur d'articles dans le journal de son frère, pilote de bateau à vapeur sur le Mississippi. C'est de cette époque que vient son pseudonyme : alors qu'il tire la corde de sondage pour vérifier la profondeur du fleuve, son capitaine lui criait : Mark twain, mark twain !, c'est-à-dire : Marque deux sondes !. Cela signifie \"profondeur suffisante\", en anglais \"safe water\". Ne voulant pas se battre au côté des sudistes...", "raw": "truncated", "lang": "fr", "via": "Notes section"}
+  ],
+  "work": [
+   {"value": "Les innocents à l'étranger", "raw": "1869", "lang": "fr", "via": "notes"},
+   {"value": "A la dure !", "raw": "1872", "lang": "fr", "via": "notes"},
+   {"value": "Les aventures de Tom Sawyer", "raw": "1876", "lang": "fr", "via": "notes"},
+   {"value": "Les aventures de Huckleberry Finn", "raw": "1885", "lang": "fr", "via": "notes"},
+   {"value": "De la religion : Dieu est-il immoral ?", "lang": "fr", "via": "notes"},
+   {"value": "Le roman de Jeanne d'Arc", "raw": "titre original : Personal recollections of Joan of Arc, 1896, sous le pseudonyme Louis de Conte", "lang": "fr", "via": "notes"}
+  ],
+  "related_agent": [
+   {"value": "John Marshall Clemens 1798-1847 (father)", "lang": "en", "via": "Parents"},
+   {"value": "Jane Lampton 1803-1890 (mother)", "lang": "en", "via": "Parents"},
+   {"value": "Olivia Louise Langdon 1845-1904 (wife, married 21 February 1870)", "lang": "en", "via": "Spouses and children"},
+   {"value": "Langdon Clemens 1870-1872 (child)", "lang": "en", "via": "Spouses and children"},
+   {"value": "Olivia Susan Clemens 1872-1896 (child)", "lang": "en", "via": "Spouses and children"},
+   {"value": "Clara Langdon Clemens 1874-1962 (child)", "lang": "en", "via": "Spouses and children"},
+   {"value": "Jane Lampton Clemens 1880-1909 (child)", "lang": "en", "via": "Spouses and children"},
+   {"value": "Samuel B. Clemens ca 1770-1805 (paternal grandfather)", "lang": "en", "via": "Ancestry"},
+   {"value": "Pamela Goggin 1775-1844 (paternal grandmother)", "lang": "en", "via": "Ancestry"},
+   {"value": "Benjamin Lampton 1770-1837 (maternal grandfather)", "lang": "en", "via": "Ancestry"},
+   {"value": "Margaret Casey 1780-1818 (maternal grandmother)", "lang": "en", "via": "Ancestry"},
+   {"value": "Orin Clemens 1825-1897 (sibling)", "lang": "en", "via": "Siblings"},
+   {"value": "Pamela Ann Clemens 1827-1904 (sibling)", "lang": "en", "via": "Siblings"},
+   {"value": "Pleasant Clemens 1828-1828 (sibling)", "lang": "en", "via": "Siblings"},
+   {"value": "Margaret Lampton Clemens 1830-1839 (sibling)", "lang": "en", "via": "Siblings"},
+   {"value": "Benjamin Clemens 1832-1842 (sibling)", "lang": "en", "via": "Siblings"},
+   {"value": "Henry Clemens 1838-1858 (sibling)", "lang": "en", "via": "Siblings"},
+   {"value": "Mary Baker Eddy (subject of his critical book on Christian Science)", "lang": "fr", "via": "notes"}
+  ],
+  "source": [
+   {"value": "individual: N de Meyrignac (Dowling family genealogy et wikipedia, 03vii2008)", "lang": "fr", "via": "Sources"},
+   {"value": "family: N de Meyrignac (Dowling family genealogy, 03vii2008)", "lang": "fr", "via": "Sources"}
+  ],
+  "record_modified": [{"value": "2026-10-02", "raw": "COPY OF THE ROGLO BASE CAPTURED on 2026 October 02nd at 23:23", "lang": "en", "via": "footer warning (database snapshot date)"}],
+  "license": [{"value": "Creative Commons 4.0 International (non-commercial, no modification, attribution)", "lang": "en", "via": "footer"}]
+ }
+}

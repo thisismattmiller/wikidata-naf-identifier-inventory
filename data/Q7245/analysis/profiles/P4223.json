@@ -1,0 +1,1343 @@
+{
+ "property": "P4223",
+ "property_label": "Treccani's Enciclopedia Italiana ID",
+ "files": [
+  {
+   "file": "P4223__mark-twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.treccani.it/enciclopedia/mark-twain_(Enciclopedia-Italiana)/"
+  },
+  {
+   "file": "P4223__mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.treccani.it/enciclopedia/mark-twain_(Enciclopedia-Italiana)/"
+  },
+  {
+   "file": "P4223__mark-twain/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.treccani.it/download"
+  },
+  {
+   "file": "P4223__mark-twain/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.storyblok.com/v2/cdn/stories/config?version=published&resolve_links=url&token=VDWjQh1wjTybRQj7vxB5bwtt&cv=undefined"
+  },
+  {
+   "file": "P4223__mark-twain/xhr_2.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.treccani.it/_next/static/css/b08d0be4daf8a531.css"
+  },
+  {
+   "file": "P4223__mark-twain/xhr_3.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.treccani.it/_next/static/css/8c9ca9753d706954.css"
+  },
+  {
+   "file": "P4223__mark-twain/xhr_4.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://id.hadron.ad.gt/v1/hadron.json?_it=amazon&partner_id=570&sync=0&domain=www.treccani.it&url=https://www.treccani.it/enciclopedia/mark-twain_(Enciclopedia-Italiana)/&v=06"
+  },
+  {
+   "file": "P4223__mark-twain/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://id5-sync.com/bounce"
+  },
+  {
+   "file": "P4223__mark-twain/xhr_6.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://lb.eu-1-id5-sync.com/lb/v1"
+  },
+  {
+   "file": "P4223__mark-twain/xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://lbs.eu-1-id5-sync.com/lbs/v1"
+  },
+  {
+   "file": "P4223__mark-twain/xhr_8.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://id5-sync.com/gm/v3"
+  },
+  {
+   "file": "P4223__mark-twain/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://id.hadron.ad.gt/v1/hadron.json?_it=amazon&partner_id=570&sync=0&domain=www.treccani.it&url=https://www.treccani.it/enciclopedia/mark-twain_(Enciclopedia-Italiana)/&v=06"
+  },
+  {
+   "file": "P4223__mark-twain/browser_xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://lb.eu-1-id5-sync.com/lb/v1"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 1,
+  "json": 6,
+  "text": 2,
+  "unknown": 2
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 4,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/xhtml/vocab#": 1
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "Nell'Enciclopedia Treccani troverai tutto quello che devi sapere su TWAIN, Mark. Entra subito su Treccani.it, il portale del sapere.",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Pseudonimo col quale è noto lo scrittore americano Samuel Langhorne Clemens, nato a Florida (Missouri), il 30 novembre 1835, morto a Redding (Connecticut) il 21 aprile 1910. La famiglia Clemens si trasferì presto a Hannibal, sul fiume Mississippi. All'età di dodici anni gli morì il padre, e da allora il ragazzo non frequentò più la scuola; ma dalla lettura e dalla vita avventurosa acquistò non solo una profonda conoscenza dell'umanità ma pure una larga cultura letteraria. Per alcun tempo lavorò ",
+    "lang": "it",
+    "via": "llm-page:Enciclopedia Italiana (1937) article text",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "TWAIN, Mark",
+    "lang": "it",
+    "via": "llm:P4223__mark-twain/embedded_opengraph.json: $[0]['og:title'] (before ' - Enciclopedia - Treccani')",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm:batch folder name P4223__mark-twain (no URL in file)",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "mark-twain_(Enciclopedia-Italiana)",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "it",
+    "via": "llm-page:article first sentence",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "M. T.",
+    "lang": "it",
+    "via": "llm-page:abbreviation used in article",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "it",
+    "via": "llm-page:'Pseudonimo col quale è noto lo scrittore americano Samuel Langhorne Clemens'",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "it",
+    "via": "llm-page:article first sentence",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "it",
+    "via": "llm-page:article first sentence",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Missouri)",
+    "lang": "it",
+    "via": "llm-page:article first sentence",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Connecticut)",
+    "lang": "it",
+    "via": "llm-page:article first sentence",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal",
+    "lang": "it",
+    "via": "llm-page:article (family moved there)",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi",
+    "lang": "it",
+    "via": "llm-page:article (steamboat pilot)",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Far West",
+    "lang": "it",
+    "via": "llm-page:article",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "New York",
+    "lang": "it",
+    "via": "llm-page:TAG",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "scrittore",
+    "lang": "it",
+    "via": "llm-page:article",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "pilota di piroscafo",
+    "lang": "it",
+    "via": "llm-page:article",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "tipografo",
+    "lang": "it",
+    "via": "llm-page:article",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "corrispondente",
+    "lang": "it",
+    "via": "llm-page:article",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "umorista",
+    "lang": "it",
+    "via": "llm-page:article",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "americano",
+    "lang": "it",
+    "via": "llm-page:article; 'statunitense' in Enciclopedie on line teaser",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County and other sketches",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Innocents Abroad, or The new Pilgrim's Progress",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Autobiography",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Writings of M. T.",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "M. Twain's Letters",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "A short life of M. T.",
+    "lang": "en",
+    "via": "llm-page:article text / Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Kenneth McKenzie (author of the 1937 article)",
+    "lang": null,
+    "via": "llm-page:byline",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "A. Bigelow Paine (editor of the Autobiography)",
+    "lang": null,
+    "via": "llm-page:Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "T. Orsi (Italian translator of Tom Sawyer and Huckleberry Finn)",
+    "lang": null,
+    "via": "llm-page:Ediz.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "C. Clemens (author of My Father M. T., 1931)",
+    "lang": null,
+    "via": "llm-page:Bibl.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "W. D. Howells (author of My M. T., 1910)",
+    "lang": null,
+    "via": "llm-page:Bibl.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Merle Johnson (bibliographer)",
+    "lang": null,
+    "via": "llm-page:Bibl.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Valerio Massimo De Angelis (author of Enciclopedia dei Ragazzi 2006 entry)",
+    "lang": null,
+    "via": "llm-page:other results",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Merle Johnson, A Bibliography of the works of M. T., New York 1935",
+    "lang": null,
+    "via": "llm-page:Bibl.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "Cambridge History of American Literature, IV (1921)",
+    "lang": null,
+    "via": "llm-page:Bibl.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "W. D. Howells, My M. T., reminiscences and criticisms, New York 1910",
+    "lang": null,
+    "via": "llm-page:Bibl.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "V. M. Brooks, The ordeal of M. T., 1920",
+    "lang": null,
+    "via": "llm-page:Bibl.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "C. Clemens, My Father M. T., 1931",
+    "lang": null,
+    "via": "llm-page:Bibl.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "F. Schönemann, M. T. als litterarische Persönlichkeit, Jena 1925",
+    "lang": null,
+    "via": "llm-page:Bibl.",
+    "file": "P4223.json",
+    "uri": false
+   },
+   {
+    "value": "S. Leacock, M. T., New York 1933",
+    "lang": null,
+    "via": "llm-page:Bibl.",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1937",
+    "lang": null,
+    "via": "llm-page:byline",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "© Istituto della Enciclopedia Italiana fondata da Giovanni Treccani - Riproduzione riservata",
+    "lang": null,
+    "via": "llm-page:article footer",
+    "file": "P4223.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [
+   "it"
+  ],
+  "name_preferred": [
+   "it"
+  ],
+  "identifier": [],
+  "name_variant": [
+   "it"
+  ],
+  "pseudonym": [
+   "it"
+  ],
+  "birth_date": [
+   "it"
+  ],
+  "death_date": [
+   "it"
+  ],
+  "birth_place": [
+   "it"
+  ],
+  "death_place": [
+   "it"
+  ],
+  "activity_place": [
+   "it"
+  ],
+  "occupation": [
+   "it"
+  ],
+  "nationality": [
+   "it"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [],
+  "source": [],
+  "record_created": [],
+  "license": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 379,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Treccani"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "TWAIN, Mark - Enciclopedia - Treccani"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Nell'Enciclopedia Treccani troverai tutto quello che devi sapere su TWAIN, Mark. Entra subito su Treccani.it, il portale"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://images.treccani.it/enc/media/images/social=200x200.jpg"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "TWAIN, Mark - Enciclopedia - Treccani"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Nell'Enciclopedia Treccani troverai tutto quello che devi sapere su TWAIN, Mark. Entra subito su Treccani.it, il portale del sapere."
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 49410,
+   "path_count": 283,
+   "paths": [
+    {
+     "path": "links[].name",
+     "n": 50,
+     "sample": "Galassia Treccani"
+    },
+    {
+     "path": "links[].id",
+     "n": 50,
+     "sample": "378039834"
+    },
+    {
+     "path": "links[].uuid",
+     "n": 50,
+     "sample": "10f18cc1-bd17-4358-94ce-d13fdc2359fc"
+    },
+    {
+     "path": "links[].slug",
+     "n": 50,
+     "sample": "galassia-treccani"
+    },
+    {
+     "path": "links[].url",
+     "n": 50,
+     "sample": "galassia-treccani/"
+    },
+    {
+     "path": "links[].full_slug",
+     "n": 50,
+     "sample": "galassia-treccani/"
+    },
+    {
+     "path": "story.content.header_menu[].items[]._uid",
+     "n": 27,
+     "sample": "664298f4-d457-4cee-b4e1-be5d86827ef6"
+    },
+    {
+     "path": "story.content.header_menu[].items[].link.id",
+     "n": 27,
+     "sample": "62d80838-a240-4ac1-85e6-f8d05182e577"
+    },
+    {
+     "path": "story.content.header_menu[].items[].link.url",
+     "n": 27,
+     "sample": "/corporate/contattaci"
+    },
+    {
+     "path": "story.content.header_menu[].items[].link.linktype",
+     "n": 27,
+     "sample": "story"
+    },
+    {
+     "path": "story.content.header_menu[].items[].link.fieldtype",
+     "n": 27,
+     "sample": "multilink"
+    },
+    {
+     "path": "story.content.header_menu[].items[].link.cached_url",
+     "n": 27,
+     "sample": "istituto/chi-siamo/"
+    },
+    {
+     "path": "story.content.header_menu[].items[].label",
+     "n": 27,
+     "sample": "Chi siamo"
+    },
+    {
+     "path": "story.content.header_menu[].items[].component",
+     "n": 27,
+     "sample": "MenuLinkSecondary"
+    },
+    {
+     "path": "story.content.navigation_menu[].items[]._uid",
+     "n": 21,
+     "sample": "095011b5-c225-412a-8eb1-ca0587dfdb96"
+    },
+    {
+     "path": "story.content.navigation_menu[].items[].link.id",
+     "n": 21,
+     "sample": "a7cc95bb-26b4-48bb-8887-fc77595f54f5"
+    },
+    {
+     "path": "story.content.navigation_menu[].items[].link.url",
+     "n": 21,
+     "sample": "/enciclopedia/scienze_sociali_e_storia/"
+    },
+    {
+     "path": "story.content.navigation_menu[].items[].link.linktype",
+     "n": 21,
+     "sample": "story"
+    },
+    {
+     "path": "story.content.navigation_menu[].items[].link.fieldtype",
+     "n": 21,
+     "sample": "multilink"
+    },
+    {
+     "path": "story.content.navigation_menu[].items[].link.cached_url",
+     "n": 21,
+     "sample": "enciclopedia/arte_lingua_e_letteratura/"
+    },
+    {
+     "path": "story.content.navigation_menu[].items[].label",
+     "n": 21,
+     "sample": "Arte lingua e letteratura"
+    },
+    {
+     "path": "story.content.navigation_menu[].items[].component",
+     "n": 21,
+     "sample": "MenuLinkSecondary"
+    },
+    {
+     "path": "story.content.footer_menu[].items[]._uid",
+     "n": 15,
+     "sample": "9e4cc6f3-7542-4e8f-982c-0e27fa57bbeb"
+    },
+    {
+     "path": "story.content.footer_menu[].items[].link.id",
+     "n": 15,
+     "sample": "63d6e4ea-a63d-4753-9781-77c947bb364d"
+    },
+    {
+     "path": "story.content.footer_menu[].items[].link.url",
+     "n": 15,
+     "sample": "/istituto/"
+    },
+    {
+     "path": "story.content.footer_menu[].items[].link.linktype",
+     "n": 15,
+     "sample": "url"
+    },
+    {
+     "path": "story.content.footer_menu[].items[].link.fieldtype",
+     "n": 15,
+     "sample": "multilink"
+    },
+    {
+     "path": "story.content.footer_menu[].items[].link.cached_url",
+     "n": 15,
+     "sample": "/istituto/"
+    },
+    {
+     "path": "story.content.footer_menu[].items[].label",
+     "n": 15,
+     "sample": "ISTITUTO"
+    },
+    {
+     "path": "story.content.footer_menu[].items[].component",
+     "n": 15,
+     "sample": "MenuLink"
+    },
+    {
+     "path": "story.content.footer_menu[].items[].description",
+     "n": 15,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_menu[].items[].link.target",
+     "n": 11,
+     "sample": "_blank"
+    },
+    {
+     "path": "story.content.footer_menu[].items[].image.id",
+     "n": 11,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_menu[].items[].image.alt",
+     "n": 11,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_menu[].items[].image.name",
+     "n": 11,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_menu[].items[].image.focus",
+     "n": 11,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_menu[].items[].image.title",
+     "n": 11,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_menu[].items[].image.source",
+     "n": 11,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_menu[].items[].image.filename",
+     "n": 11,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_menu[].items[].image.copyright",
+     "n": 11,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_menu[].items[].image.fieldtype",
+     "n": 11,
+     "sample": "asset"
+    },
+    {
+     "path": "story.content.header_menu[].items[].type",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "story.content.navigation_menu[]._uid",
+     "n": 8,
+     "sample": "4f5ed6c6-b678-4b49-a8f9-95630897ae99"
+    },
+    {
+     "path": "story.content.navigation_menu[].link.id",
+     "n": 8,
+     "sample": "8cf5bc73-4571-4c98-92c3-7a5ddc4948ae"
+    },
+    {
+     "path": "story.content.navigation_menu[].link.url",
+     "n": 8,
+     "sample": "/giochi/"
+    },
+    {
+     "path": "story.content.navigation_menu[].link.linktype",
+     "n": 8,
+     "sample": "story"
+    },
+    {
+     "path": "story.content.navigation_menu[].link.fieldtype",
+     "n": 8,
+     "sample": "multilink"
+    },
+    {
+     "path": "story.content.navigation_menu[].link.cached_url",
+     "n": 8,
+     "sample": "enciclopedia/"
+    },
+    {
+     "path": "story.content.navigation_menu[].label",
+     "n": 8,
+     "sample": "Enciclopedia"
+    },
+    {
+     "path": "story.content.navigation_menu[].component",
+     "n": 8,
+     "sample": "MenuLink"
+    },
+    {
+     "path": "story.content.navigation_menu[].description",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_bottom_menu[]._uid",
+     "n": 8,
+     "sample": "4b526d14-b248-4003-8d6a-5c49160241b5"
+    },
+    {
+     "path": "story.content.footer_bottom_menu[].link.id",
+     "n": 8,
+     "sample": "74e5a7ce-43db-4116-b9ea-1fdfcdbdf601"
+    },
+    {
+     "path": "story.content.footer_bottom_menu[].link.url",
+     "n": 8,
+     "sample": "/footer/contatti"
+    },
+    {
+     "path": "story.content.footer_bottom_menu[].link.linktype",
+     "n": 8,
+     "sample": "url"
+    },
+    {
+     "path": "story.content.footer_bottom_menu[].link.fieldtype",
+     "n": 8,
+     "sample": "multilink"
+    },
+    {
+     "path": "story.content.footer_bottom_menu[].link.cached_url",
+     "n": 8,
+     "sample": "/footer/contatti"
+    },
+    {
+     "path": "story.content.footer_bottom_menu[].label",
+     "n": 8,
+     "sample": "Contatti"
+    },
+    {
+     "path": "story.content.footer_bottom_menu[].accordion",
+     "n": 8,
+     "sample": "False"
+    },
+    {
+     "path": "story.content.footer_bottom_menu[].component",
+     "n": 8,
+     "sample": "MenuLink"
+    },
+    {
+     "path": "story.content.footer_bottom_menu[].description",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "story.content.secondary_menu[]._uid",
+     "n": 7,
+     "sample": "19fb7fe9-ab9d-4a80-92f7-3540b1d33bb8"
+    },
+    {
+     "path": "story.content.secondary_menu[].link.id",
+     "n": 7,
+     "sample": "4f674da3-046e-406d-b935-111e224b22cd"
+    },
+    {
+     "path": "story.content.secondary_menu[].link.url",
+     "n": 7,
+     "sample": "/giochi/"
+    },
+    {
+     "path": "story.content.secondary_menu[].link.linktype",
+     "n": 7,
+     "sample": "story"
+    },
+    {
+     "path": "story.content.secondary_menu[].link.fieldtype",
+     "n": 7,
+     "sample": "multilink"
+    },
+    {
+     "path": "story.content.secondary_menu[].link.cached_url",
+     "n": 7,
+     "sample": "istituto/internazionale/progetti-internazionali-hp"
+    },
+    {
+     "path": "story.content.secondary_menu[].label",
+     "n": 7,
+     "sample": "Progetti internazionali"
+    },
+    {
+     "path": "story.content.secondary_menu[].component",
+     "n": 7,
+     "sample": "MenuLink"
+    },
+    {
+     "path": "story.content.secondary_menu[].description",
+     "n": 7,
+     "sample": null
+    },
+    {
+     "path": "story.content.secondary_menu[].image.id",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "story.content.secondary_menu[].image.alt",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "story.content.secondary_menu[].image.name",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "story.content.secondary_menu[].image.focus",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "story.content.secondary_menu[].image.title",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "story.content.secondary_menu[].image.source",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "story.content.secondary_menu[].image.filename",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "story.content.secondary_menu[].image.copyright",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "story.content.secondary_menu[].image.fieldtype",
+     "n": 6,
+     "sample": "asset"
+    },
+    {
+     "path": "story.content.DizionarioAds[]._uid",
+     "n": 5,
+     "sample": "8198e595-c5ec-45a5-bb06-6af610dc25fc"
+    },
+    {
+     "path": "story.content.DizionarioAds[].link.id",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].link.url",
+     "n": 5,
+     "sample": "https://www.treccani.it/giochi/"
+    },
+    {
+     "path": "story.content.DizionarioAds[].link.linktype",
+     "n": 5,
+     "sample": "url"
+    },
+    {
+     "path": "story.content.DizionarioAds[].link.fieldtype",
+     "n": 5,
+     "sample": "multilink"
+    },
+    {
+     "path": "story.content.DizionarioAds[].link.cached_url",
+     "n": 5,
+     "sample": "https://www.treccani.it/giochi/"
+    },
+    {
+     "path": "story.content.DizionarioAds[].image.id",
+     "n": 5,
+     "sample": "142038171665723"
+    },
+    {
+     "path": "story.content.DizionarioAds[].image.alt",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].image.name",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].image.focus",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].image.title",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].image.source",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].image.filename",
+     "n": 5,
+     "sample": "https://a.storyblok.com/f/241562/999x759/04cfc0f971/giochi_banner-lato-con-testo.png"
+    },
+    {
+     "path": "story.content.DizionarioAds[].image.copyright",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].image.fieldtype",
+     "n": 5,
+     "sample": "asset"
+    },
+    {
+     "path": "story.content.DizionarioAds[].image.is_external_url",
+     "n": 5,
+     "sample": "False"
+    },
+    {
+     "path": "story.content.DizionarioAds[].label",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].title",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].bgColor",
+     "n": 5,
+     "sample": "viola-dark-50"
+    },
+    {
+     "path": "story.content.DizionarioAds[].variant",
+     "n": 5,
+     "sample": "image"
+    },
+    {
+     "path": "story.content.DizionarioAds[].component",
+     "n": 5,
+     "sample": "AdvCustom"
+    },
+    {
+     "path": "story.content.DizionarioAds[].description",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].secondaryLink.id",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].secondaryLink.url",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.DizionarioAds[].secondaryLink.linktype",
+     "n": 5,
+     "sample": "story"
+    },
+    {
+     "path": "story.content.DizionarioAds[].secondaryLink.fieldtype",
+     "n": 5,
+     "sample": "multilink"
+    },
+    {
+     "path": "story.content.DizionarioAds[].secondaryLink.cached_url",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "story.content.footer_bottom_menu[].link.target",
+     "n": 5,
+     "sample": "_blank"
+    },
+    {
+     "path": "story.content.footer_menu[].items[].accordion",
+     "n": 4,
+     "sample": "False"
+    },
+    {
+     "path": "story.content.header_menu[]._uid",
+     "n": 4,
+     "sample": "1529d2b0-81e3-4dd7-b7a0-edc65eaa3a09"
+    },
+    {
+     "path": "story.content.header_menu[].link.id",
+     "n": 4,
+     "sample": "88706b0e-540d-40ec-903d-eab006377fb3"
+    },
+    {
+     "path": "story.content.header_menu[].link.url",
+     "n": 4,
+     "sample": null
+    },
+    {
+     "path": "story.content.header_menu[].link.linktype",
+     "n": 4,
+     "sample": "story"
+    },
+    {
+     "path": "story.content.header_menu[].link.fieldtype",
+     "n": 4,
+     "sample": "multilink"
+    },
+    {
+     "path": "story.content.header_menu[].link.cached_url",
+     "n": 4,
+     "sample": "istituto/centenario-treccani/"
+    },
+    {
+     "path": "story.content.header_menu[].image.id",
+     "n": 4,
+     "sample": "20942668"
+    },
+    {
+     "path": "story.content.header_menu[].image.alt",
+     "n": 4,
+     "sample": null
+    },
+    {
+     "path": "story.content.header_menu[].image.name",
+     "n": 4,
+     "sample": null
+    },
+    {
+     "path": "story.content.header_menu[].image.focus",
+     "n": 4,
+     "sample": null
+    },
+    {
+     "path": "story.content.header_menu[].image.title",
+     "n": 4,
+     "sample": null
+    },
+    {
+     "path": "story.content.header_menu[].image.source",
+     "n": 4,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "alt",
+    "cv",
+    "id",
+    "rel",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 29,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "bounce.setCookie",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_7.json",
+   "format": "json",
+   "size": 54,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "lbs",
+     "n": 1,
+     "sample": "hxIOYHRnJKEaeuuxVPr4Ur0idYvVPzishxaI0WGQJfw="
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "lbs"
+   ]
+  },
+  {
+   "file": "xhr_8.json",
+   "format": "json",
+   "size": 401,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "error.code",
+     "n": 1,
+     "sample": "request_format_invalid"
+    },
+    {
+     "path": "error.message",
+     "n": 1,
+     "sample": "Required request body is missing: public org.springframework.http.ResponseEntity<io.id5.fetch.request.FetchResponseDto> "
+    },
+    {
+     "path": "error.type",
+     "n": 1,
+     "sample": "invalid_request_error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 209,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "base_id",
+     "n": 1,
+     "sample": "cr99DMaf7Z3132303238353731373500"
+    },
+    {
+     "path": "guid",
+     "n": 1,
+     "sample": "3VjmoBoqLpo"
+    },
+    {
+     "path": "addr",
+     "n": 1,
+     "sample": "71.178.36.215"
+    },
+    {
+     "path": "domain",
+     "n": 1,
+     "sample": "treccani.it"
+    },
+    {
+     "path": "hadron_id",
+     "n": 1,
+     "sample": "060ixffjsgld5979896989e9b9d979d9b66uoooweq0ky626460646m6g6k626k6g"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_3.json",
+   "format": "json",
+   "size": 45,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "lb",
+     "n": 1,
+     "sample": "lK3goEkamnTtIKLs1doTVw=="
+    },
+    {
+     "path": "ttl",
+     "n": 1,
+     "sample": "28800"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "lb",
+    "ttl"
+   ]
+  }
+ ],
+ "llm_notes": "Full Enciclopedia Italiana (1937) article 'TWAIN, Mark' by Kenneth McKenzie: biography, works with dates, editions and bibliography. Below it, teasers of other Treccani entries (Enciclopedie on line, Enciclopedia dei Ragazzi 2006) about him, then unrelated 'Vedi anche' entries (Howells, Fónzi, etc.) which are not data.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,34 @@
+{
+ "property": "P5063",
+ "label": "Interlingual Index ID",
+ "files_read": ["P5063__i94739/embedded_microdata.json"],
+ "about_entity": true,
+ "notes": "Global WordNet ILI instance metadata: a SKOS definition and a link to the source Princeton WordNet 3.0 synset. No lemma/name is given; life years come from the definition text.",
+ "elements": {
+  "birth_date": [
+   {"value": "1835", "raw": "(1835-1910)", "lang": null, "via": "embedded_microdata.json: $[0]['skos:definition']"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "(1835-1910)", "lang": null, "via": "embedded_microdata.json: $[0]['skos:definition']"}
+  ],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "embedded_microdata.json: $[0]['skos:definition']"},
+   {"value": "humorist", "lang": "en", "via": "embedded_microdata.json: $[0]['skos:definition']"}
+  ],
+  "nationality": [
+   {"value": "United States", "lang": "en", "via": "embedded_microdata.json: $[0]['skos:definition']"}
+  ],
+  "description": [
+   {"value": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)", "lang": "en", "via": "embedded_microdata.json: $[0]['http://www.w3.org/2004/02/skos/core#definition']"}
+  ],
+  "same_as": [
+   {"value": "http://wordnet-rdf.princeton.edu/wn30/10900730-n", "via": "embedded_microdata.json: $[0]['http://purl.org/dc/elements/1.1/source']"}
+  ],
+  "identifier": [
+   {"value": "i94739", "raw": "http://globalwordnet.org/ili/i94739", "via": "embedded_microdata.json: $[0].id"}
+  ],
+  "source": [
+   {"value": "Princeton WordNet 3.0 synset 10900730-n", "via": "embedded_microdata.json: $[0]['http://purl.org/dc/elements/1.1/source']"}
+  ]
+ }
+}

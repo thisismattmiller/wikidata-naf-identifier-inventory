@@ -1,0 +1,33 @@
+{
+ "property": "P8234",
+ "label": "LiederNet author ID",
+ "files_read": ["pages/P8234__10589.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "LiederNet Archive text-author page: name with dates, pseudonym, two text collections and an index of his texts set in art songs/choral works (mostly by composer G. Bachlund). No biography or external links.",
+ "elements": {
+  "name_preferred": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "Author heading"}],
+  "name_variant": [{"value": "S. Clemens", "lang": "en", "via": "page title line 'Texts by S. Clemens set in Art Songs and Choral Works'"}],
+  "pseudonym": [{"value": "Mark Twain", "raw": "Mark Twain [pseudonym]", "lang": "en", "via": "line under Author heading"}],
+  "birth_date": [{"value": "1835", "raw": "(1835 - 1910)", "lang": null, "via": "Author heading"}],
+  "death_date": [{"value": "1910", "raw": "(1835 - 1910)", "lang": null, "via": "Author heading"}],
+  "work": [
+   {"value": "A Tramp Abroad", "lang": "en", "via": "Text Collections"},
+   {"value": "Recollections of Joan of Arc", "lang": "en", "via": "Text Collections"},
+   {"value": "Punch, Brothers, Punch", "lang": "en", "via": "texts list"},
+   {"value": "Advice to Little Girls", "lang": "en", "via": "texts list"},
+   {"value": "Ode to Stephen Dowling Bots, dec'd", "lang": "en", "via": "texts list"},
+   {"value": "Letter to Saint Andrew", "lang": "en", "via": "texts list"},
+   {"value": "The lorelei", "raw": "from A Tramp Abroad", "lang": "en", "via": "texts list"},
+   {"value": "The Tyranny of Party", "lang": "en", "via": "texts list"},
+   {"value": "Bills", "raw": "These annual bills! these annual bills!", "lang": "en", "via": "texts list"},
+   {"value": "Sometimes I wonder", "lang": "en", "via": "texts list"},
+   {"value": "Warm summer sun", "lang": "en", "via": "texts list"},
+   {"value": "They call me Jenny in Lorraine", "raw": "from Recollections of Joan of Arc", "lang": "en", "via": "texts list"},
+   {"value": "The rats were devouring the house", "raw": "from Recollections of Joan of Arc", "lang": "en", "via": "texts list"},
+   {"value": "Now lift up thy head, give me men-at-arms", "raw": "from Recollections of Joan of Arc", "lang": "en", "via": "texts list"}
+  ],
+  "related_agent": [{"value": "G. Bachlund (composer who set his texts)", "lang": "en", "via": "texts list"}],
+  "record_modified": [{"value": "2023-05-10", "raw": "Last update: 2023-05-10 21:13:08", "lang": "en", "via": "page footer"}]
+ }
+}

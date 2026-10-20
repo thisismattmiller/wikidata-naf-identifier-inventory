@@ -1,0 +1,489 @@
+{
+ "property": "P7699",
+ "label": "National Library of Lithuania ID",
+ "files_read": [
+  "P7699__LNB_V_1145_zW_959a3d74/conneg_3.json"
+ ],
+ "about_entity": true,
+ "notes": "VIAF's copy (as JSON) of the National Library of Lithuania UNIMARC authority record LIH|LNB:V-1145;=_z_W, with Lithuanian/Russian variant names, Lithuanian notes, birth/death places (640) and cited sources (810). 9xx fields are VIAF enrichments: 998 = VIAF cluster member records (listed in same_as as SOURCE|id, not URIs; excluded LC n 82045653 'Twain, Mark (Spirit)', and mis-clustered NKC jx20050822002 Olivia Langdon Clemens / PLWABN Karłowicz), 996 = records VIAF kept in other clusters (not used), 910/912 = title strings VIAF derived from linked bibliographic records (used as work). The 856 vle.lt link is an encyclopedia article URL.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "raw": "$7ba0yba0y $8liteng $aTwain $bMark $f1835–1910",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][11] (tag 200)"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Tvainas, Markas",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][15] (tag 400)"
+   },
+   {
+    "value": "Tvenas, M.",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][16] (tag 400)"
+   },
+   {
+    "value": "Tvenas, Markas",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][17] (tag 400)"
+   },
+   {
+    "value": "Tvėnas, Morkas",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][18] (tag 400)"
+   },
+   {
+    "value": "Twainas, Markas",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][19] (tag 400)"
+   },
+   {
+    "value": "Твен, М.",
+    "lang": "ru",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][20] (tag 400)"
+   },
+   {
+    "value": "Твен, Марк",
+    "lang": "ru",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][21] (tag 400)"
+   },
+   {
+    "value": "Твэн, Марк",
+    "lang": "ru",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][22] (tag 400)"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835–1910",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][23] (tag 500) (see-also: real name)"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][12] (tag 300 $a) / [13] 305 $b"
+   }
+  ],
+  "description": [
+   {
+    "value": "Autoriaus kūrinius rašė tikruoju vardu – Clemens, Samuel Langhorne, ir slapyvardžiu – Snodgrass, Quintus Curtius",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][12] (tag 300 $a)"
+   },
+   {
+    "value": "Rašytojas, humoristas, leidėjas, verslininkas, pedagogas; 1835 11 30–1910 04 21",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][14] (tag 340)"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Rašytojas",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][14] (tag 340 $b)"
+   },
+   {
+    "value": "humoristas",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][14] (tag 340 $b)"
+   },
+   {
+    "value": "leidėjas",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][14] (tag 340 $b)"
+   },
+   {
+    "value": "verslininkas",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][14] (tag 340 $b)"
+   },
+   {
+    "value": "pedagogas",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][14] (tag 340 $b)"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "d18351130#",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][6] (tag 104 $a)"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "d19100421#",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][6] (tag 104 $b)"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "US, Missouri, Florida",
+    "raw": "$aUS $bMissouri $dFlorida $f#18351130#",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][33] (tag 640)"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "US, Connecticut, Redding",
+    "raw": "$aUS $bConnecticut $dRedding $f#19100421#",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][34] (tag 640)"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "US",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][5] (tag 102 $a)"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][4] (tag 101 $a)"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Finas, Heklberis",
+    "relation": "išgalvotas personažas (fictional character)",
+    "lang": "lt",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][24] (tag 523)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "LNB:V*1145;=zW",
+    "raw": "(LIH)LNB:V*1145;=zW",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][0] (tag 035 $a)"
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "via": "conneg_3.json: controlfield 001"
+   }
+  ],
+  "source": [
+   {
+    "value": "Britannica, 15 ed., 2002, t. 12, p. 75 (Twain, Mark; 1835 11 30–1910 04 21)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][39] (tag 810)"
+   },
+   {
+    "value": "LTE, 1983, t. 11, p. 494 (Tvenas, Markas)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][40] (tag 810)"
+   },
+   {
+    "value": "БСЭ, 1976, t. 25, p. 317 (Твен, Марк)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][41] (tag 810)"
+   },
+   {
+    "value": "Princas ir elgeta, [s.a.], antr. p. (Markas Tvainas)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][42] (tag 810)"
+   },
+   {
+    "value": "Finno nuotykiai, 1938, antr. p. (Markas Twainas)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][43] (tag 810)"
+   },
+   {
+    "value": "Fino Heklberio nuotykiai, 1996, antr. p. (Markas Tvenas) antr. lapo kt. pusėje(Mark Twain; Tvenas M.)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][44] (tag 810)"
+   },
+   {
+    "value": "Dvi Morko Tvėno ir viena Brėt-Garto apysakos, 1904",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][45] (tag 810)"
+   },
+   {
+    "value": "Пиар, К.О. Марк Твен, 1983",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][46] (tag 810)"
+   },
+   {
+    "value": "Портреты детских зарубежных писателей, 2007, virš. (М. Твен)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][47] (tag 810)"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-09-19T12:55:00",
+    "raw": "20250919125500.1",
+    "via": "conneg_3.json: controlfield 005"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1995-05-04",
+    "raw": "19950504ality50      ba0",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][3] (tag 100 $a)"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][2] (tag 033 $a)"
+   },
+   {
+    "value": "0000000121324854",
+    "raw": "0000000121324854 (ISNI)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][1] (tag 010 $a)"
+   },
+   {
+    "value": "https://www.vle.lt/straipsnis/mark-twain/",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][48] (tag 856 $u)"
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][62] (tag 998 $2)"
+   },
+   {
+    "value": "J9U|987007269289205171",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][64] (tag 998 $2)"
+   },
+   {
+    "value": "NTA|227880145",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][68] (tag 998 $2)"
+   },
+   {
+    "value": "BNF|11927291",
+    "raw": "Twain Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][69] (tag 998 $2)"
+   },
+   {
+    "value": "SZ|118624822",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][70] (tag 998 $2)"
+   },
+   {
+    "value": "NUKAT|n  94200767",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][71] (tag 998 $2)"
+   },
+   {
+    "value": "SKMASNL|vtls005928524",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][72] (tag 998 $2)"
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][73] (tag 998 $2)"
+   },
+   {
+    "value": "NLA|000035028957",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][74] (tag 998 $2)"
+   },
+   {
+    "value": "RERO|A000164542",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][75] (tag 998 $2)"
+   },
+   {
+    "value": "NYNYRILM|1598",
+    "raw": "Clemens, Samuel Langhorne (Mark Twain)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][76] (tag 998 $2)"
+   },
+   {
+    "value": "B2Q|0000005713",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][77] (tag 998 $2)"
+   },
+   {
+    "value": "SELIBR|98057",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][78] (tag 998 $2)"
+   },
+   {
+    "value": "GRATEVE|178278",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][79] (tag 998 $2)"
+   },
+   {
+    "value": "NKC|jn19981002263",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][80] (tag 998 $2)"
+   },
+   {
+    "value": "BAV|495_17906",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][81] (tag 998 $2)"
+   },
+   {
+    "value": "WKP|Q7245",
+    "raw": "Mark Twain",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][82] (tag 998 $2)"
+   },
+   {
+    "value": "DNB|118624822",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][83] (tag 998 $2)"
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][84] (tag 998 $2)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "raw": "Twain M.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][85] (tag 998 $2)"
+   },
+   {
+    "value": "CAOONL|ncf10128469",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][86] (tag 998 $2)"
+   },
+   {
+    "value": "XA|2080",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][87] (tag 998 $2)"
+   },
+   {
+    "value": "LC|n  79021164",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][88] (tag 998 $2)"
+   },
+   {
+    "value": "UAE|Mill_a10002910",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][89] (tag 998 $2)"
+   },
+   {
+    "value": "W2Z|90056487",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][90] (tag 998 $2)"
+   },
+   {
+    "value": "ARBABN|000024237",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][91] (tag 998 $2)"
+   },
+   {
+    "value": "SIMACOB|7830883",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][92] (tag 998 $2)"
+   },
+   {
+    "value": "NDL|00459304",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][93] (tag 998 $2)"
+   },
+   {
+    "value": "EGAXA|vtls000823270",
+    "raw": "توين، مارك،",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][94] (tag 998 $2)"
+   },
+   {
+    "value": "BNCHL|10000000000000000007139",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][95] (tag 998 $2)"
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][96] (tag 998 $2)"
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][97] (tag 998 $2)"
+   },
+   {
+    "value": "N6I|vtls000050376",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][98] (tag 998 $2)"
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][99] (tag 998 $2)"
+   },
+   {
+    "value": "LNL|14733",
+    "raw": "توين، مارك،",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][100] (tag 998 $2)"
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][101] (tag 998 $2)"
+   },
+   {
+    "value": "PTBNP|46269",
+    "raw": "Twain, Mark, pseud.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][102] (tag 998 $2)"
+   }
+  ],
+  "work": [
+   {
+    "value": "The prince and the pauper",
+    "lang": "en",
+    "form": "Romanas",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][25] (tag 541) ($1 231 $a)"
+   },
+   {
+    "value": "Letters from the earth",
+    "lang": "en",
+    "form": "Ateistinė literatūra",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][26] (tag 541) ($1 231 $a)"
+   },
+   {
+    "value": "The adventures of Huckleberry Finn",
+    "lang": "en",
+    "form": "Vaikų literatūra",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][27] (tag 541) ($1 231 $a)"
+   },
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": "en",
+    "form": "Vaikų literatūra",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][28] (tag 541) ($1 231 $a)"
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's court",
+    "lang": "en",
+    "form": "Romanas",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][29] (tag 541) ($1 231 $a)"
+   },
+   {
+    "value": "Tom Sawyer abroad",
+    "lang": "en",
+    "form": "Apysaka",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][30] (tag 541) ($1 231 $a)"
+   },
+   {
+    "value": "The gilded age",
+    "lang": "en",
+    "form": "Romanas",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][31] (tag 541) ($1 231 $a)"
+   },
+   {
+    "value": "The innocents abroad",
+    "lang": "en",
+    "form": "Kelionių apybraižos",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][32] (tag 541) ($1 231 $a)"
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][52] (tag 993 $a)"
+   },
+   {
+    "value": "Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][53] (tag 993 $a)"
+   }
+  ]
+ }
+}

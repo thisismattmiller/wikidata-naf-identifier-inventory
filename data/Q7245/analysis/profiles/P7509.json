@@ -1,0 +1,122 @@
+{
+ "property": "P7509",
+ "property_label": "Estonian biographical database ID",
+ "files": [],
+ "formats": {},
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Clemens, Samuel",
+    "lang": "et",
+    "via": "llm-page:'Nime normitud kuju' / page heading",
+    "file": "P7509.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "et",
+    "via": "llm-page:'Pseudonüümid' (note: Postimees 1893, 42-43. - Sakala lisa 1888, 9.; Alus: Üldtuntud kirjanikunimi.)",
+    "file": "P7509.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:'Sünniaeg'",
+    "file": "P7509.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:'Surmaaeg'",
+    "file": "P7509.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "kirjanik",
+    "lang": "et",
+    "via": "llm-page:'Tegevusala'",
+    "file": "P7509.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "contribution to Postimees",
+    "lang": "et",
+    "via": "llm-page:'Väljaanded'",
+    "file": "P7509.json",
+    "uri": false
+   },
+   {
+    "value": "contribution to Sakala Lisa",
+    "lang": "et",
+    "via": "llm-page:'Väljaanded'",
+    "file": "P7509.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "289",
+    "lang": null,
+    "via": "llm-page:URL (isik/index.php?id=289)",
+    "file": "P7509.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Postimees 1893, 42-43. - Sakala lisa 1888, 9.",
+    "lang": "et",
+    "via": "llm-page:pseudonym 'Märkus'",
+    "file": "P7509.json",
+    "uri": false
+   },
+   {
+    "value": "Alus: Üldtuntud kirjanikunimi.",
+    "lang": "et",
+    "via": "llm-page:pseudonym 'Allikas'",
+    "file": "P7509.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "et"
+  ],
+  "pseudonym": [
+   "et"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "et"
+  ],
+  "work": [
+   "et"
+  ],
+  "identifier": [],
+  "source": [
+   "et"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Estonian biographical database ISIK record 289 'Clemens, Samuel' (heading under real name): years of birth/death (given as 1835-00-00 / 1910-00-00), field of activity, pseudonym Mark Twain with source notes, and two Estonian periodicals (Postimees 1893, Sakala Lisa 1888) where he was published.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

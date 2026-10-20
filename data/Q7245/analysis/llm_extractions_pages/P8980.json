@@ -1,0 +1,39 @@
+{
+ "property": "P8980",
+ "label": "KANTO ID",
+ "files_read": ["pages/P8980__000061572.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Finto display of the KANTO (Finnish national agent) authority record Twain, Mark, 1835-1910: names, dates, places, occupations, languages, ISNI and Asteri ID, a Finnish Wikipedia-derived source note, creation/modification dates.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "lang": null, "via": "KÄYTETTÄVÄ NIMENMUOTO"}],
+  "name_variant": [{"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "HENKILÖN VARIANTTINIMI"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "SYNTYMÄAIKA 1835; source note: 30. marraskuuta 1835", "lang": "fi", "via": "SYNTYMÄAIKA / TIEDONLÄHDE"}],
+  "death_date": [{"value": "1910-04-21", "raw": "KUOLINAIKA 1910; source note: 21. huhtikuuta 1910", "lang": "fi", "via": "KUOLINAIKA / TIEDONLÄHDE"}],
+  "birth_place": [{"value": "Florida, Missouri", "lang": "fi", "via": "SYNTYMÄPAIKKA"}],
+  "death_place": [{"value": "Redding, Connecticut", "lang": "fi", "via": "KUOLINPAIKKA"}],
+  "nationality": [{"value": "Yhdysvallat", "raw": "Yhdysvallat (yso-paikat)", "lang": "fi", "via": "HENKILÖÖN LIITTYVÄ MAA"}],
+  "occupation": [
+   {"value": "kirjailija", "lang": "fi", "via": "HENKILÖN AMMATTI TAI TEHTÄVÄ"},
+   {"value": "kolumnisti", "lang": "fi", "via": "HENKILÖN AMMATTI TAI TEHTÄVÄ"},
+   {"value": "opettaja", "lang": "fi", "via": "HENKILÖN AMMATTI TAI TEHTÄVÄ"}
+  ],
+  "field_of_activity": [{"value": "kaunokirjallisuus", "raw": "kaunokirjallisuus (YSO)", "lang": "fi", "via": "HENKILÖN TOIMINTA-ALA"}],
+  "language": [
+   {"value": "englanti", "raw": "englanti (Lexvo)", "lang": "fi", "via": "HENKILÖN KÄYTTÄMÄ KIELI"},
+   {"value": "saksa", "raw": "saksa (Lexvo)", "lang": "fi", "via": "HENKILÖN KÄYTTÄMÄ KIELI"}
+  ],
+  "description": [{"value": "Mark Twain (oikealta nimeltään Samuel Langhorne Clemens, 30. marraskuuta 1835 Florida, Missouri, Yhdysvallat – 21. huhtikuuta 1910 Redding, Connecticut) oli yhdysvaltalainen kirjailija.", "lang": "fi", "via": "TIEDONLÄHDE (Wikipedia, katsottu 22.5.2024)"}],
+  "same_as": [
+   {"value": "https://isni.org/isni/0000000121324854", "raw": "ISNI: 0000000121324854", "via": "HENKILÖN TUNNISTE"},
+   {"value": "http://urn.fi/URN:NBN:fi:au:finaf:000061572", "via": "URI"}
+  ],
+  "identifier": [{"value": "000061572", "raw": "Asteri ID: 000061572", "via": "HENKILÖN TUNNISTE"}],
+  "source": [
+   {"value": "Wikipedia, katsottu 22.5.2024", "via": "TIEDONLÄHDE"},
+   {"value": "Name authority list / The British Library", "via": "TIEDONLÄHDE"}
+  ],
+  "record_created": [{"value": "1993-09-22", "raw": "Luotu 22.9.1993", "via": "footer"}],
+  "record_modified": [{"value": "2025-05-16", "raw": "viimeksi muokattu 16.5.2025", "via": "footer"}]
+ }
+}

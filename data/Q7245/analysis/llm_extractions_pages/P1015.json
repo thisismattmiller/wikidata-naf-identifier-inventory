@@ -1,0 +1,61 @@
+{
+ "property": "P1015",
+ "label": "BIBSYS ID",
+ "files_read": ["pages/P1015__90056487.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "BIBSYS / Norwegian authority file HTML field table for record 90056487 'Twain, Mark, 1835-1910': variant names, gender, nationality, a 678 note stating it is a pseudonym for Samuel Langhorne Clemens, and links to BIBBI, handle, ISNI (two) and VIAF.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "lang": null, "via": "'Personal name'"}
+  ],
+  "name_variant": [
+   {"value": "Conte, Louis de", "lang": null, "via": "'Personal name (See From Tracing)'"},
+   {"value": "Clemens, Samuel L., 1835-1910", "lang": null, "via": "'Personal name (See From Tracing)'"},
+   {"value": "Clemens, Samuel Langhorne", "lang": null, "via": "'Personal name (See From Tracing)'"},
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "'Personal name (See From Tracing)'"}
+  ],
+  "pseudonym": [
+   {"value": "Twain, Mark", "raw": "Psevdonym for Samuel Langhorne Clemens", "lang": "nb", "via": "678$a"},
+   {"value": "Conte, Louis de", "lang": null, "via": "See From Tracing"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "1835-1910", "lang": null, "via": "'Dates associated with a name'"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "1835-1910", "lang": null, "via": "'Dates associated with a name'"}
+  ],
+  "gender": [
+   {"value": "m", "lang": null, "via": "'Gender'"}
+  ],
+  "nationality": [
+   {"value": "am.", "raw": "386$a am. / 386$m Nasjonalitet/regional gruppe", "lang": "nb", "via": "386"},
+   {"value": "US", "raw": "043$c US", "lang": null, "via": "043$c country code"}
+  ],
+  "description": [
+   {"value": "Psevdonym for Samuel Langhorne Clemens", "lang": "nb", "via": "678$a"}
+  ],
+  "same_as": [
+   {"value": "https://id.bs.no/bibbi/37170", "via": "'bibbi'"},
+   {"value": "http://hdl.handle.net/11250/2341303", "via": "'handle'"},
+   {"value": "https://isni.org/isni/0000000077209145", "via": "'isni'"},
+   {"value": "https://isni.org/isni/0000000121324854", "via": "'isni'"},
+   {"value": "http://viaf.org/viaf/50566653", "via": "'viaf'"}
+  ],
+  "identifier": [
+   {"value": "90056487", "via": "'System control number' / 'scn'"},
+   {"value": "x90056487", "via": "'autid'"},
+   {"value": "oai:bibsys.no:authority:90056487", "via": "'scn'"},
+   {"value": "724f3aa4-6299-4250-ada2-f663c6fa691e", "raw": "024$2 NO-OsBAS", "via": "024$a"}
+  ],
+  "source": [
+   {"value": "NO-TrBIB", "raw": "040$a NO-TrBIB, 040$b nob, 040$f noraf", "via": "040"}
+  ],
+  "record_created": [
+   {"value": "2013-04-25", "raw": "Thu Apr 25 00:00:00 CEST 2013", "via": "'Created date'"}
+  ],
+  "record_modified": [
+   {"value": "2026-06-15", "raw": "Mon Jun 15 21:05:01 CEST 2026", "via": "'Last update date'"}
+  ]
+ }
+}

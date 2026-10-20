@@ -1,0 +1,37 @@
+{
+ "property": "P12458",
+ "label": "Parsifal cluster ID",
+ "files_read": ["P12458__231550/xhr_1.json", "P12458__231550/xhr_4.json"],
+ "about_entity": true,
+ "notes": "xhr_1.json is an Italian Wikipedia summary (image, HTML extract, URL) that the Parsifal page embeds. xhr_4.json lists the work clusters linked to the author, with manifestations.",
+ "elements": {
+   "name_preferred": [{"value": "Mark Twain", "lang": "it", "via": "xhr_1.json: $.title"}],
+   "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "it", "via": "xhr_1.json: $.description"}],
+   "pseudonym": [{"value": "Mark Twain", "raw": "Mark Twain, pseudonimo di Samuel Langhorne Clemens", "lang": "it", "via": "xhr_1.json: $.description"}],
+   "birth_date": [{"value": "1835-11-30", "raw": "30 novembre 1835", "lang": "it", "via": "xhr_1.json: $.description"}],
+   "death_date": [{"value": "1910-04-21", "raw": "21 aprile 1910", "lang": "it", "via": "xhr_1.json: $.description"}],
+   "birth_place": [{"value": "Florida", "lang": "it", "via": "xhr_1.json: $.description"}],
+   "death_place": [{"value": "Redding", "lang": "it", "via": "xhr_1.json: $.description"}],
+   "occupation": [
+     {"value": "scrittore", "lang": "it", "via": "xhr_1.json: $.description"},
+     {"value": "umorista", "lang": "it", "via": "xhr_1.json: $.description"},
+     {"value": "aforista", "lang": "it", "via": "xhr_1.json: $.description"},
+     {"value": "docente", "lang": "it", "via": "xhr_1.json: $.description"}
+   ],
+   "nationality": [{"value": "statunitense", "lang": "it", "via": "xhr_1.json: $.description"}],
+   "description": [{"value": "Mark Twain, pseudonimo di Samuel Langhorne Clemens (Florida, 30 novembre 1835 – Redding, 21 aprile 1910), è stato uno scrittore, umorista, aforista e docente statunitense autore di capolavori riconosciuti della letteratura statunitense del XIX secolo, come Le avventure di Tom Sawyer e Le avventure di Huckleberry Finn, entrati nell'immaginario collettivo e che hanno avuto numerose trasposizioni televisive e cinematografiche. È considerato una tra le maggiori celebrità statunitensi del suo tempo: William Faulkner scrisse che fu il \"primo vero scrittore statunitense\".", "lang": "it", "via": "xhr_1.json: $.description (HTML stripped)"}],
+   "work": [
+     {"value": "Le avventure di Tom Sawyer", "lang": "it", "via": "xhr_1.json: $.description"},
+     {"value": "Le avventure di Huckleberry Finn", "lang": "it", "via": "xhr_1.json: $.description"},
+     {"value": "Adventures of Huckleberry Finn", "lang": "en", "via": "xhr_4.json: $.response[0].mainTitle"},
+     {"value": "Adventures of Tom Sawyer", "lang": "en", "via": "xhr_4.json: $.response[1].mainTitle"},
+     {"value": "Adventures of Tom Sawyer. 1999", "lang": "en", "via": "xhr_4.json: $.response[2].mainTitle"},
+     {"value": "The adventures of Huckleberry Finn", "lang": "en", "via": "xhr_4.json: $.response[0].instances[0].mainTitle"},
+     {"value": "The adventures of Tom Sawyer", "lang": "en", "via": "xhr_4.json: $.response[1].instances[0].mainTitle"}
+   ],
+   "related_agent": [{"value": "William Faulkner", "raw": "William Faulkner scrisse che fu il \"primo vero scrittore statunitense\"", "lang": "it", "via": "xhr_1.json: $.description (commentator, no formal relation)"}],
+   "image": [{"value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg", "via": "xhr_1.json: $.image"}],
+   "same_as": [{"value": "https://it.wikipedia.org/wiki/Mark_Twain", "via": "xhr_1.json: $.url"}],
+   "source": [{"value": "https://it.wikipedia.org/wiki/Mark_Twain", "via": "xhr_1.json: $.url (summary source)"}]
+ }
+}

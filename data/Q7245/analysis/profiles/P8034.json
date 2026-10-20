@@ -1,0 +1,154 @@
+{
+ "property": "P8034",
+ "property_label": "Vatican Library VcBA ID",
+ "files": [
+  {
+   "file": "P8034__495_17906_1d9713c2/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://opac.vatlib.it/auth/detail/495_17906"
+  },
+  {
+   "file": "P8034__495_17906_1d9713c2/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://opac.vatlib.it/auth/detail/495_17906&m21"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:'Preferred Form' Name - Person",
+    "file": "P8034.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Alden, Jean François, 1835-1910",
+    "lang": null,
+    "via": "llm-page:'See From Tracings'",
+    "file": "P8034.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": null,
+    "via": "llm-page:'See From Tracings'",
+    "file": "P8034.json",
+    "uri": false
+   },
+   {
+    "value": "De Conte, Louis, 1835-1910",
+    "lang": null,
+    "via": "llm-page:'See From Tracings'",
+    "file": "P8034.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm-page:'See From Tracings'",
+    "file": "P8034.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "llm-page:'See From Tracings'",
+    "file": "P8034.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Alden, Jean François, 1835-1910",
+    "lang": null,
+    "via": "llm-page:'See From Tracings'",
+    "file": "P8034.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": null,
+    "via": "llm-page:'See From Tracings'",
+    "file": "P8034.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "llm-page:'See From Tracings'",
+    "file": "P8034.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P8034.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P8034.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "495/17906",
+    "lang": null,
+    "via": "llm-page:'ID record' row",
+    "file": "P8034.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "LC Authority File, 25 aprile 2013: (Twain, Mark, 1835-1910)",
+    "lang": "it",
+    "via": "llm-page:'Source Data Found' row",
+    "file": "P8034.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [],
+  "pseudonym": [],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "source": [
+   "it"
+  ]
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "Vatican Library OPAC authority record 495/17906 for Twain, Mark, 1835-1910 with see-from tracings and LC source (text derived from saved HTML because a cookie modal covered the rendered page).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

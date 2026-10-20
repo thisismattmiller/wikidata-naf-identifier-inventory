@@ -1,0 +1,28 @@
+{
+ "property": "P5343",
+ "label": "Poets.org poet ID",
+ "files_read": ["P5343__mark-twain/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the Poets.org poet page; og:description is a short bio. Address/phone/email fields are the Academy of American Poets' own contact details, not about Twain.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "embedded_opengraph.json: [0].og:title"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "embedded_opengraph.json: [0].og:description ('born Samuel Langhorne Clemens')"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": null, "via": "embedded_opengraph.json: [0].og:description"}],
+  "birth_place": [{"value": "Florida, Missouri", "lang": "en", "via": "embedded_opengraph.json: [0].og:description"}],
+  "occupation": [
+   {"value": "humorist", "lang": "en", "via": "embedded_opengraph.json: [0].og:description"},
+   {"value": "journalist", "lang": "en", "via": "embedded_opengraph.json: [0].og:description"},
+   {"value": "literary critic", "lang": "en", "via": "embedded_opengraph.json: [0].og:description"},
+   {"value": "novelist", "lang": "en", "via": "embedded_opengraph.json: [0].og:description"}
+  ],
+  "nationality": [{"value": "American", "lang": "en", "via": "embedded_opengraph.json: [0].og:description"}],
+  "description": [{"value": "Mark Twain was born Samuel Langhorne Clemens on November 30, 1835, in Florida, Missouri. An American humorist, journalist, literary critic, and novelist, Twain is most widely known for his novels The Adventures of Tom Sawyer (American Publishing Company, 1876) and Adventures of Huckleberry Finn (Charles L. Webster & Co., 1885).", "lang": "en", "via": "embedded_opengraph.json: [0].og:description"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "raw": "The Adventures of Tom Sawyer (American Publishing Company, 1876)", "lang": "en", "via": "embedded_opengraph.json: [0].og:description"},
+   {"value": "Adventures of Huckleberry Finn", "raw": "Adventures of Huckleberry Finn (Charles L. Webster & Co., 1885)", "lang": "en", "via": "embedded_opengraph.json: [0].og:description"}
+  ],
+  "identifier": [{"value": "mark-twain", "via": "embedded_opengraph.json: [0].og:url (https://poets.org/poet/mark-twain)"}],
+  "image": [{"value": "https://poets.org/sites/default/files/styles/social_share/public/images/biographies/Mark_Twain_newbioimage2019_AF_Bradley.png?itok=dulHfg21", "via": "embedded_opengraph.json: [0].og:image"}],
+  "record_modified": [{"value": "2024-07-03", "raw": "2024-07-03T14:28:59-04:00", "via": "embedded_opengraph.json: [0].og:updated_time (page update time)"}]
+ }
+}

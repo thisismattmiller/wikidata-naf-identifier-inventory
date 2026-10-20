@@ -1,0 +1,90 @@
+{
+ "property": "P3569",
+ "property_label": "Cultureel Woordenboek ID",
+ "files": [
+  {
+   "file": "P3569__literatuur-internationaal_mark-twain_868e55ab/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.cultureelwoordenboek.nl/literatuur-internationaal/mark-twain/"
+  },
+  {
+   "file": "P3569__literatuur-internationaal_mark-twain_868e55ab/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.cultureelwoordenboek.nl/literatuur-internationaal/mark-twain/"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 7,
+  "http://ogp.me/ns/fb#": 1
+ },
+ "elements": {},
+ "element_languages": {},
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 616,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "nl_NL"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Cultureel Woordenboek ~ Online woordenboek met ruim 9.500 woorden en begrippen!"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Wat zou je als algemeen ontwikkeld mens in Nederland willen en moeten weten op het gebied van taal, cultuur en wetenscha"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.cultureelwoordenboek.nl/"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.cultureelwoordenboek.nl/navigatie/images/cultureelwoordenboeknl.png"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Cultureel Woordenboek"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": null,
+ "about_entity": false,
+ "chrome_elements": {}
+}

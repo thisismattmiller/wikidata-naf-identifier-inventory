@@ -1,0 +1,15 @@
+{
+ "property": "P5859",
+ "label": "Adelphi author ID",
+ "files_read": ["P5859__1022/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata of the Adelphi author catalogue page; og:description is empty, only the name and URL are present.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "it", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "identifier": [
+   {"value": "1022", "raw": "https://www.adelphi.it/catalogo/autore/1022", "via": "embedded_opengraph.json: og:url"}
+  ]
+ }
+}

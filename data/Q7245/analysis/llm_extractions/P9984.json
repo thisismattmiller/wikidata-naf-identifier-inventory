@@ -1,0 +1,49 @@
+{
+ "property": "P9984",
+ "label": "CANTIC ID",
+ "files_read": ["P9984__981058514999206706/xhr_2.json"],
+ "about_entity": true,
+ "notes": "CANTIC (Catalan union authority catalogue) API JSON with the MARC 21 authority record 981058514999206706 as a list of tags ($.record.etiquetes[*], each with etiqueta/contingut/subcamps). Heading 'Twain, Mark, 1835-1910'; the hidden 400 duplicates carry $5 ES-BaCBU and repeat the visible variants without dates; 500 fields link the Clemens and pseudonym headings.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=100] ($a Twain, Mark, $d 1835-1910)"}],
+  "name_variant": [
+   {"value": "Alden, Jean François, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400][0]"},
+   {"value": "Touen, Maku, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400][1]"},
+   {"value": "Tuein, Mark, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400][2]"},
+   {"value": "Tuwayn, Mark, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400][3]"},
+   {"value": "Tven, M., 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400][4]"},
+   {"value": "Tven, Mark, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400][5]"},
+   {"value": "Twain, Marek, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400][6]"},
+   {"value": "Twayn, Mark, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400][7]"},
+   {"value": "Twain, Marck, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400][8]"},
+   {"value": "Conte, Louis de", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400] (hidden, $5 ES-BaCBU)"},
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=500] (see-also heading)"}
+  ],
+  "pseudonym": [
+   {"value": "Conte, Louis de, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=500][0]"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=500][2]"},
+   {"value": "Alden, Jean François, 1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=400][0]"}
+  ],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=100].subcamps[codi=d]"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=100].subcamps[codi=d]"}],
+  "related_agent": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "relation": "see also (500; real name)", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=500][1]"},
+   {"value": "Conte, Louis de, 1835-1910", "relation": "see also (500; pseudonym heading)", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=500][0]"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "relation": "see also (500; pseudonym heading)", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=500][2]"}
+  ],
+  "same_as": [{"value": "http://viaf.org/viaf/50566653", "via": "xhr_2.json: $.record.etiquetes[etiqueta=024] ($2 viaf, $1)"}],
+  "identifier": [
+   {"value": "981058514999206706", "via": "xhr_2.json: $.record.id_bibliografic / etiqueta=001"},
+   {"value": "(ES-BaCBU).a10166221", "via": "xhr_2.json: $.record.etiquetes[etiqueta=035]"},
+   {"value": "981058682584206706 (globuslemac)", "via": "xhr_2.json: $.record.etiquetes[etiqueta=908]"},
+   {"value": "411620", "raw": "internal record id", "via": "xhr_2.json: $.record.id"}
+  ],
+  "source": [
+   {"value": "LC/NAF, 25 ag. 2010 (enc.: Twain, Mark, 1835-1910)", "lang": "ca", "via": "xhr_2.json: $.record.etiquetes[etiqueta=670]"},
+   {"value": "CANTIC", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=900]"},
+   {"value": "ES-BaCBU cat ES-BaCBU ES-BaBC", "raw": "040 $a ES-BaCBU $b cat $c ES-BaCBU $d ES-BaBC", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=040]"}
+  ],
+  "record_created": [{"value": "2010-08-25", "raw": "100825", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=008] positions 00-05"}],
+  "record_modified": [{"value": "2024-05-11", "raw": "20240511002437.0", "lang": null, "via": "xhr_2.json: $.record.etiquetes[etiqueta=005]"}]
+ }
+}

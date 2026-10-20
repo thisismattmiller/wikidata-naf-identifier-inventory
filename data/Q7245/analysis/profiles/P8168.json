@@ -1,0 +1,878 @@
+{
+ "property": "P8168",
+ "property_label": "FactGrid item ID",
+ "files": [
+  {
+   "file": "P8168__Q273620/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://database.factgrid.de/wiki/Item:Q273620"
+  },
+  {
+   "file": "P8168__Q273620/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://database.factgrid.de/wiki/Item:Q273620"
+  },
+  {
+   "file": "P8168__Q273620/alternate_1.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://database.factgrid.de/wiki/Special:EntityData/Q273620.json"
+  },
+  {
+   "file": "P8168__Q273620/alternate_2.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://database.factgrid.de/wiki/Special:EntityData/Q273620.n3"
+  },
+  {
+   "file": "P8168__Q273620/alternate_3.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://database.factgrid.de/wiki/Special:EntityData/Q273620.ttl"
+  },
+  {
+   "file": "P8168__Q273620/alternate_4.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://database.factgrid.de/wiki/Special:EntityData/Q273620.nt"
+  },
+  {
+   "file": "P8168__Q273620/alternate_5.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://database.factgrid.de/wiki/Special:EntityData/Q273620.rdf"
+  },
+  {
+   "file": "P8168__Q273620/alternate_6.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://database.factgrid.de/wiki/Special:EntityData/Q273620.jsonld"
+  },
+  {
+   "file": "P8168__Q273620/alternate_7.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://database.factgrid.de/w/index.php?title=Special:RecentChanges&feed=atom"
+  },
+  {
+   "file": "P8168__Q273620/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.judaicalink.org/data/gnd/118624822"
+  },
+  {
+   "file": "P8168__Q273620/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://database.factgrid.de/wiki/Special:EntityData/Q273620.json?revision=20558743"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 9
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 5,
+  "http://ogp.me/ns#": 3,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "* 1835-11-30 Florida, Missouri, + 1910-04-21 Redding, Connecticut, American author and humorist",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "American author and humorist",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "* 1835-11-30 Florida, Missouri, + 1910-04-21 Redding, Connecticut, American author and humorist",
+    "lang": "en",
+    "via": "llm-page:description",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Medical cause of death: myocardial infarction; natural death; active period end 1910",
+    "lang": "en",
+    "via": "llm-page:Medical cause of death / Circumstances of death / Active period end statements",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens / Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Also known as",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Thomas Jefferson Snodgrass",
+    "lang": "en",
+    "via": "llm-page:Also known as",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Mark Twain Clemens",
+    "lang": "en",
+    "via": "llm-page:WikiTree literal statement",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": "en",
+    "via": "llm-page:Pseudonym [literal]",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Thomas Jefferson Snodgrass",
+    "lang": "en",
+    "via": "llm-page:Pseudonym [literal]",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Quintus Curtius Snodgrass",
+    "lang": "en",
+    "via": "llm-page:Pseudonym [literal]",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "J. W. Bothwell",
+    "lang": "en",
+    "via": "llm-page:Pseudonym [literal]",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Journalist",
+    "lang": "en",
+    "via": "llm-page:Career statement",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Novelist",
+    "lang": "en",
+    "via": "llm-page:Career statement",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Teacher",
+    "lang": "en",
+    "via": "llm-page:Career statement",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Children's writer",
+    "lang": "en",
+    "via": "llm-page:Career statement",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Travel writer",
+    "lang": "en",
+    "via": "llm-page:Career statement",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Writer",
+    "lang": "en",
+    "via": "llm-page:Career statement",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Publicist",
+    "lang": "en",
+    "via": "llm-page:Career statement",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Printer",
+    "lang": "en",
+    "via": "llm-page:Career statement",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Soldier",
+    "lang": "en",
+    "via": "llm-page:Career statement",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "United States of America",
+    "lang": "en",
+    "via": "llm-page:Country of citizenship",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Q273620",
+    "lang": null,
+    "via": "llm:batch site directory (P8168__Q273620); not stated in the file itself",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel",
+    "lang": "en",
+    "via": "llm-page:Given name(s)",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Mark",
+    "lang": "en",
+    "via": "llm-page:Given name(s)",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:Family name",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Berlin",
+    "lang": "en",
+    "via": "llm-page:Stay in",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Heidelberg",
+    "lang": "en",
+    "via": "llm-page:Stay in",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Germany",
+    "lang": "en",
+    "via": "llm-page:Stay in",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Italian Republic",
+    "lang": "en",
+    "via": "llm-page:Stay in",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Munich",
+    "lang": "en",
+    "via": "llm-page:Stay in",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "Male gender",
+    "lang": "en",
+    "via": "llm-page:Gender",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Prose fiction",
+    "lang": "en",
+    "via": "llm-page:Career statement: Field of production",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "English",
+    "lang": "en",
+    "via": "llm-page:Language skills",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "German",
+    "lang": "en",
+    "via": "llm-page:Language skills",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Beinecke Library, Yale, New Haven (archives at: Samuel Langhorne Clemens Collection, YCAL MSS 852)",
+    "lang": null,
+    "via": "llm-page:Archives at",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Harry Ransom Center, UT Austin (archives at: Samuel Langhorne Clemens Collection, MS-0809)",
+    "lang": null,
+    "via": "llm-page:Archives at",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Stedelijk Museum Amsterdam (has works in the collection)",
+    "lang": null,
+    "via": "llm-page:Has works in the collection",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Getty Museum, Los Angeles (has works in the collection)",
+    "lang": null,
+    "via": "llm-page:Has works in the collection",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "llm-page:GND ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/1106405730",
+    "lang": null,
+    "via": "llm-page:GND ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/1106406737",
+    "lang": null,
+    "via": "llm-page:GND ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/1106407008",
+    "lang": null,
+    "via": "llm-page:GND ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/1282802690",
+    "lang": null,
+    "via": "llm-page:GND ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://catalogue.bnf.fr/ark:/12148/cb11927291n",
+    "lang": null,
+    "via": "llm-page:BnF ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm-page:VIAF ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/53367783",
+    "lang": null,
+    "via": "llm-page:VIAF ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/16444837",
+    "lang": null,
+    "via": "llm-page:VIAF ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/305239133",
+    "lang": null,
+    "via": "llm-page:VIAF ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "llm-page:Library of Congress authority ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n93099439",
+    "lang": null,
+    "via": "llm-page:Library of Congress authority ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n93099461",
+    "lang": null,
+    "via": "llm-page:Library of Congress authority ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/no2003079632",
+    "lang": null,
+    "via": "llm-page:Library of Congress authority ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000368641704",
+    "lang": null,
+    "via": "llm-page:ISNI-ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm-page:ISNI-ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000108003124",
+    "lang": null,
+    "via": "llm-page:ISNI-ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000107973778",
+    "lang": null,
+    "via": "llm-page:ISNI-ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000108000249",
+    "lang": null,
+    "via": "llm-page:ISNI-ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.idref.fr/027171876",
+    "lang": null,
+    "via": "llm-page:IdRef ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://vocab.getty.edu/ulan/500020427",
+    "lang": null,
+    "via": "llm-page:Union List of Artist Names ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://datos.bne.es/resource/XX945992",
+    "lang": null,
+    "via": "llm-page:BNE-ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://datos.bne.es/resource/XX4931266",
+    "lang": null,
+    "via": "llm-page:BNE-ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.imdb.com/name/nm0878494",
+    "lang": null,
+    "via": "llm-page:IMDb ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.wikitree.com/wiki/Clemens-1",
+    "lang": null,
+    "via": "llm-page:WikiTree person ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.geni.com/people/-/4239183543700124287",
+    "lang": null,
+    "via": "llm-page:Geni.com profile ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.findagrave.com/memorial/19697",
+    "lang": null,
+    "via": "llm-page:Find a Grave memorial ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.findagrave.com/memorial/1048",
+    "lang": null,
+    "via": "llm-page:Find a Grave memorial ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.deutsche-biographie.de/pnd118624822.html",
+    "lang": null,
+    "via": "llm-page:Deutsche Biographie (GND) ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.familysearch.org/tree/person/details/LZJ1-TLQ",
+    "lang": null,
+    "via": "llm-page:FamilySearch person ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://denstoredanske.lex.dk/Mark_Twain",
+    "lang": null,
+    "via": "llm-page:Den-Store-Danske ID",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "Index Theologicus 133425525",
+    "lang": null,
+    "via": "llm-page:Index Theologicus ID",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "Grove Music Online A2087699",
+    "lang": null,
+    "via": "llm-page:Grove Music Online ID",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "PMB 26252",
+    "lang": null,
+    "via": "llm-page:PMB person ID",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "WorldCat Identities E39PBJqqvmHvVjHK8C9Fr33fbd",
+    "lang": null,
+    "via": "llm-page:WorldCat Identities ID",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "JudaicaLink GND 118624822",
+    "lang": null,
+    "via": "llm-page:JudaicaLink person ID (GND)",
+    "file": "P8168.json",
+    "uri": false
+   },
+   {
+    "value": "https://de.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm-page:sitelink dewiki",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm-page:sitelink enwiki",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://fr.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm-page:sitelink frwiki",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://de.wikisource.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm-page:sitelink dewikisource",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://en.wikisource.org/wiki/Author:Samuel_Langhorne_Clemens",
+    "lang": null,
+    "via": "llm-page:sitelink enwikisource",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "https://fr.wikisource.org/wiki/Auteur:Mark_Twain",
+    "lang": null,
+    "via": "llm-page:sitelink frwikisource",
+    "file": "P8168.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm-page:sitelink wikidatawiki",
+    "file": "P8168.json",
+    "uri": true
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-07-22",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P8168.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [
+   "en"
+  ],
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "identifier": [],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "gender": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "language": [
+   "en"
+  ],
+  "related_agent": [],
+  "same_as": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "('(Spirit)' heading via page text, dropped)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 254,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens / Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "* 1835-11-30 Florida, Missouri, + 1910-04-21 Redding, Connecticut, American author and humorist"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "summary"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Samuel Langhorne Clemens / Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "value": "* 1835-11-30 Florida, Missouri, + 1910-04-21 Redding, Connecticut, American author and humorist"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "FactGrid Wikibase item Q273620 'Samuel Langhorne Clemens / Mark Twain' with statements (dates, places, careers, stays in Germany/Italy, pseudonyms, archives) and a large identifier block including separate GND/LC/ISNI ids for each pseudonym, plus sitelinks.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

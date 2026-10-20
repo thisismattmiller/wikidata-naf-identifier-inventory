@@ -1,0 +1,34 @@
+{
+ "property": "P345",
+ "label": "IMDb ID",
+ "files_read": ["pages/P345__nm0878494.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "IMDb name page for Mark Twain: short bio, born/died, personal details (alt name, height, spouse, child, nickname), trivia and a filmography of adaptations (230 writer credits; only the first page of credits is shown).",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Clemens", "lang": "en", "via": "Personal details: Alternative names"}, {"value": "Sam", "lang": "en", "via": "Nickname"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": "en", "via": "Born"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910(74)", "lang": "en", "via": "Died"}],
+  "birth_place": [{"value": "Florida, Missouri, USA", "lang": "en", "via": "Personal details: Born"}],
+  "death_place": [{"value": "Redding, Connecticut, USA", "raw": "Redding, Connecticut, USA(angina pectoris)", "lang": "en", "via": "Personal details: Died"}],
+  "activity_place": [{"value": "Hannibal", "lang": "en", "via": "bio sentence 'grew up in Hannibal'"}, {"value": "Mississippi River", "lang": "en", "via": "bio sentence"}],
+  "occupation": [{"value": "Writer", "lang": "en", "via": "heading roles"}, {"value": "Actor", "lang": "en", "via": "heading roles"}, {"value": "Additional Crew", "lang": "en", "via": "heading roles"}, {"value": "steamboat pilot", "lang": "en", "via": "bio"}, {"value": "lecturer", "lang": "en", "via": "bio"}, {"value": "reporter", "lang": "en", "via": "bio"}, {"value": "editor", "lang": "en", "via": "bio"}, {"value": "printer", "lang": "en", "via": "bio"}, {"value": "prospector", "lang": "en", "via": "bio"}],
+  "description": [{"value": "Mark Twain, born Samuel Langhorne Clemens in Florida, Missouri in 1835, grew up in Hannibal. He was a steamboat pilot on the Mississippi River. Throughout his career, Twain served as a writer, lecturer, reporter, editor, printer, and prospector. Twain took his pen name from an alert cry used on his steamboat - \"by the mark, twain\".", "lang": "en", "via": "bio blurb"}],
+  "work": [
+   {"value": "Adventures of Huckleberry Finn", "via": "credits / Known for"},
+   {"value": "The Adventures of Tom Sawyer", "via": "credits"},
+   {"value": "The Prince and the Pauper", "via": "credits"},
+   {"value": "The Diaries of Adam and Eve", "raw": "2023", "via": "credits"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "Egy jenki Arthur király udvarában (TV Mini Series, 2020) - novel", "via": "credits"},
+   {"value": "Joan of Arc", "raw": "Novel: \"Joan of Arc\"", "via": "Other works"},
+   {"value": "Big River", "via": "Known for (adaptation)"},
+   {"value": "Lionizing Murderers", "via": "Known for"},
+   {"value": "The Purloining of Prince Oleomargarine", "via": "Projects in development"},
+   {"value": "Day of the Stranger", "raw": "2019, based on the original short story", "via": "credits"}
+  ],
+  "related_agent": [{"value": "Olivia Langdon (spouse, February 2, 1870 - June 5, 1904)", "via": "Spouse"}, {"value": "Olivia Susan \"Susy\" Clemens (child)", "via": "Children"}],
+  "identifier": [{"value": "nm0878494", "via": "page URL"}],
+  "source": [{"value": "Mark Twain Project; Official site (CMG Worldwide)", "via": "Official sites"}]
+ }
+}

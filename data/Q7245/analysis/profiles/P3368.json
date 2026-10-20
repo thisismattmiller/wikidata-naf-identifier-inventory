@@ -1,0 +1,579 @@
+{
+ "property": "P3368",
+ "property_label": "Prabook ID",
+ "files": [
+  {
+   "file": "P3368__1080517/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://prabook.com/web/samuel_langhorne.clemens/1080517"
+  },
+  {
+   "file": "P3368__1080517/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://prabook.com/web/samuel_langhorne.clemens/1080517"
+  },
+  {
+   "file": "P3368__1080517/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://prabook.com/web/samuel_langhorne.clemens/1080517"
+  },
+  {
+   "file": "P3368__1080517/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXeCAfvYFtxouZ70TlYXxERgk-baBYee8ZzLvKB_3oNEn7E87liNW-ntpd-BXb4GYgOOmO9msAbJhwwlB43sZnvOMk2TY0C_tVPiVrL-z3UDyQ_NUftGkRogt4B6QbNV_bsml2QQQ=="
+  },
+  {
+   "file": "P3368__1080517/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20261001&st=env&sjk=2479804341036800"
+  },
+  {
+   "file": "P3368__1080517/xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://prabook.com/cdn-cgi/rum?"
+  },
+  {
+   "file": "P3368__1080517/xhr_4.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXlpki_p5brVe9z1nC2pBJBEzVGy92iWlSxgY3JdJj8Hc7yoxseOGq3LMu9w4qqkxdpYlk4GST7fdTO2HeoX4Kn3dKbtpmUdFzZ8YldmYgJvP64Iz0A7fBdrpsz2LbA9rNe4Sj1Kw=="
+  },
+  {
+   "file": "P3368__1080517/xhr_5.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxUULhFY37vGioiV5edrEDtiOKPAcJFLLsOqCaeSMrlbBfqxG1o8iP9sz11akFFV80VPe2-dhePJOqI9Czdafc6qPHNqxdVro82YrGSd5AVogJ2zphWVzI0UOZcN18rCO5YV39-heA=="
+  },
+  {
+   "file": "P3368__1080517/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://prabook.com/cdn-cgi/rum?"
+  },
+  {
+   "file": "P3368__1080517/browser_xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXeCAfvYFtxouZ70TlYXxERgk-baBYee8ZzLvKB_3oNEn7E87liNW-ntpd-BXb4GYgOOmO9msAbJhwwlB43sZnvOMk2TY0C_tVPiVrL-z3UDyQ_NUftGkRogt4B6QbNV_bsml2QQQ=="
+  },
+  {
+   "file": "P3368__1080517/browser_xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxXlpki_p5brVe9z1nC2pBJBEzVGy92iWlSxgY3JdJj8Hc7yoxseOGq3LMu9w4qqkxdpYlk4GST7fdTO2HeoX4Kn3dKbtpmUdFzZ8YldmYgJvP64Iz0A7fBdrpsz2LbA9rNe4Sj1Kw=="
+  },
+  {
+   "file": "P3368__1080517/browser_xhr_4.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxUULhFY37vGioiV5edrEDtiOKPAcJFLLsOqCaeSMrlbBfqxG1o8iP9sz11akFFV80VPe2-dhePJOqI9Czdafc6qPHNqxdVro82YrGSd5AVogJ2zphWVzI0UOZcN18rCO5YV39-heA=="
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 7,
+  "json": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 4,
+  "http://ogp.me/ns#": 4,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "http://www.w3.org/1999/xhtml/vocab#": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://prabook.com/person-view.html?profileId=1080517",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://prabook.com/show-profile-photo.jpg?id=1080517",
+    "lang": null,
+    "via": "image",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Biography of Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens, American author, humorist. Member American Academy Arts and Letters.",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens, American author, humorist. Member American Academy Arts and Letters.",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens, American author, humorist. Member American Academy Arts and Letters. Alternated between mining and newspaper work until, becoming noted as a humorist, he began lecturing and writing books. Founded, 1884, public house of C. L. Webster & Company, failure of which involved him in heavy losses.",
+    "lang": "en",
+    "via": "llm-page:summary and Career section",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "printer (apprentice)",
+    "lang": "en",
+    "via": "llm-page:Education",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi River pilot",
+    "lang": "en",
+    "via": "llm-page:Education",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "private secretary",
+    "lang": "en",
+    "via": "llm-page:Education",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:Career",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "city editor",
+    "lang": "en",
+    "via": "llm-page:Connections",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "llm-page:Career",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "American Academy of Arts and Letters",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "John Marshall Clemens (father)",
+    "lang": "en",
+    "via": "llm-page:Connections",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "Jane (Lampton) Clemens (mother)",
+    "lang": "en",
+    "via": "llm-page:Connections",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia L. Langdon (spouse)",
+    "lang": "en",
+    "via": "llm-page:Connections",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "American Academy of Arts and Letters (member)",
+    "lang": "en",
+    "via": "llm-page:Membership",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "C. L. Webster & Company (founded 1884)",
+    "lang": "en",
+    "via": "llm-page:Career",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "Yale (honorary Master of Arts 1888, Doctor of Letters 1901)",
+    "lang": "en",
+    "via": "llm-page:Education",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "University of Missouri (Doctor of Laws 1902)",
+    "lang": "en",
+    "via": "llm-page:Education",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "Oxford (Doctor of Letters 1907)",
+    "lang": "en",
+    "via": "llm-page:Education",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City (Nevada) Enterprise (city editor 1862)",
+    "lang": "en",
+    "via": "llm-page:Connections",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1080517",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url'] https://prabook.com/web/samuel_langhorne.clemens/1080517",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Background sentence",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:also known as",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:heading",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:heading",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Background / Born",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, United States",
+    "lang": "en",
+    "via": "llm-page:Background / Born",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": "en",
+    "via": "llm-page:Died",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "en",
+    "via": "llm-page:Education",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi River",
+    "lang": "en",
+    "via": "llm-page:Education (river pilot)",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "en",
+    "via": "llm-page:Education (private secretary to brother)",
+    "file": "P3368.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City (Nevada)",
+    "lang": "en",
+    "via": "llm-page:Connections (city editor, Enterprise)",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Marquis Who's Who",
+    "lang": "en",
+    "via": "llm-page:Achievements",
+    "file": "P3368.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "en"
+  ],
+  "see_also": [],
+  "image": [],
+  "description": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": [],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "source": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 312,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens, American author, humorist. Member American Academy Arts and Letters."
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://prabook.com/web/samuel_langhorne.clemens/1080517"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:description",
+     "value": "Samuel Langhorne Clemens, American author, humorist. Member American Academy Arts and Letters."
+    },
+    {
+     "path": "[].og:title",
+     "value": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://prabook.com/web/samuel_langhorne.clemens/1080517"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 17774,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "sodar_query_id",
+     "n": 1,
+     "sample": "VmfAauOACpD4u7YPiK-i8AQ"
+    },
+    {
+     "path": "injector_basename",
+     "n": 1,
+     "sample": "sodar2"
+    },
+    {
+     "path": "bg_hash_basename",
+     "n": 1,
+     "sample": "5zy86NbR8f54HHV5BxfElrR01oDK3KtpXmGPzuANPWw"
+    },
+    {
+     "path": "bg_binary",
+     "n": 1,
+     "sample": "woS4pvMk2s/KwI/iIHrzBIibDx3XQC73t3ujGn2Zfnoh/YFbYYzsHwbdVrcCMYvf39kSDZFyh2CyM/swl+jIRrE3uq8l+LmpdJv5E6j/PkiGjNMt7Edwd21T"
+    },
+    {
+     "path": "rc_enable",
+     "n": 1,
+     "sample": "y"
+    },
+    {
+     "path": "bg_snapshot_delay_ms",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "is_gen_204",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Prabook biography derived from Marquis Who's Who: birth, parents, education and honorary degrees, career (printer, river pilot, Webster & Co.), membership, spouse. Death given only as year 1910.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

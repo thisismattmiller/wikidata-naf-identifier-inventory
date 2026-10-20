@@ -1,0 +1,43 @@
+{
+ "property": "P9556",
+ "label": "LTit person ID",
+ "files_read": ["pages/P9556__twain-mark__9782.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "LTit (Letteratura tradotta in Italia) person page for Mark Twain: dates/places, activity, real name, 6 original works, 5 Italian translations with translators, 4 Italian editions/anthologies, and correlated translators and mediators.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "it", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorn Clemens", "raw": "Samuel Langhorn Clemens (nome anagrafico)", "lang": "it", "via": "Noto anche come"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30 novembre 1835", "lang": "it", "via": "heading subline"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21 aprile 1910", "lang": "it", "via": "heading subline"}],
+  "birth_place": [{"value": "Florida", "lang": "it", "via": "heading subline"}],
+  "death_place": [{"value": "Redding", "lang": "it", "via": "heading subline"}],
+  "occupation": [{"value": "Autore", "lang": "it", "via": "Attività"}],
+  "field_of_activity": [{"value": "Letteratura angloamericana", "lang": "it", "via": "Insiemi storico-letterari"}],
+  "work": [
+   {"value": "The Celebrated Jumping Frog of Calaveras Country", "raw": "racconto, fiaba popolare, 1865", "via": "OPERE"},
+   {"value": "Travelling with a Reformer", "raw": "racconto, 1893", "via": "OPERE"},
+   {"value": "The Man Who Corrupted Hadleyburg", "raw": "racconto, 1899", "via": "OPERE"},
+   {"value": "Captain Stormfield's Visit to Heaven", "raw": "romanzo, 1909", "via": "OPERE"},
+   {"value": "Letters from the Earth", "raw": "racconto, 1962", "via": "OPERE"},
+   {"value": "The Great Dark", "raw": "racconto, 1962", "via": "OPERE"},
+   {"value": "La grande tenebra", "raw": "traduzione di Luca Trevisani", "via": "OPERE TRADOTTE"},
+   {"value": "Rapporto della visita di capitan Tempesta in paradiso", "raw": "1926, traduzione di Laura Babini; Vecchioni, L'Aquila", "via": "OPERE TRADOTTE / EDIZIONI"},
+   {"value": "Il famoso ranocchio salterino della contea di Calaveras", "raw": "1942, traduzione di Pietro Gadda Conti", "via": "OPERE TRADOTTE"},
+   {"value": "L'uomo che corruppe Hadleyurg", "raw": "1942, traduzione di Eugenio Montale", "via": "OPERE TRADOTTE"},
+   {"value": "Viaggio con un riformatore di costumi", "raw": "1944, traduzione di Maria Martone", "via": "OPERE TRADOTTE"}
+  ],
+  "related_agent": [
+   {"value": "Luca Trevisani (translator, La grande tenebra)", "via": "OPERE TRADOTTE"},
+   {"value": "Babini, Laura (n. 1896) (translator)", "via": "CORRELAZIONI TRADUTTORI"},
+   {"value": "Gadda Conti, Pietro (1902-1999) (translator)", "via": "CORRELAZIONI TRADUTTORI"},
+   {"value": "Martone, Maria (1900-1990) (translator; mediator, editor of Novellieri inglesi e americani)", "via": "CORRELAZIONI TRADUTTORI / MEDIATORI"},
+   {"value": "Montale, Eugenio (1896-1981) (translator)", "via": "CORRELAZIONI TRADUTTORI"},
+   {"value": "Alvaro, Corrado (1895-1956) (mediator)", "via": "CORRELAZIONI MEDIATORI"},
+   {"value": "Pagetti, Carlo (n. 1945) (mediator, editor of Il laboratorio dei sogni)", "via": "CORRELAZIONI MEDIATORI / EDIZIONI"},
+   {"value": "Vittorini, Elio (1908-1966) (mediator, editor of Americana)", "via": "CORRELAZIONI MEDIATORI / EDIZIONI"},
+   {"value": "Edoardo Bizzarri (co-editor, Novellieri inglesi e americani)", "via": "EDIZIONI"}
+  ],
+  "identifier": [{"value": "twain-mark__9782", "via": "page URL"}]
+ }
+}

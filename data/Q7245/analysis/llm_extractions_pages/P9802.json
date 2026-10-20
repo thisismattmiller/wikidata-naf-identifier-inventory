@@ -1,0 +1,44 @@
+{
+ "property": "P9802",
+ "label": "Penguin Random House author ID",
+ "files_read": ["pages/P9802__31611.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "Penguin Random House author page for Mark Twain: a substantial bio paragraph; the 'Books by Mark Twain' list did not render as text, only publisher and series headings (Puffin Classics, Penguin Clothbound Classics, etc.). Most of the page is site navigation.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Clemens", "lang": "en", "via": "bio ('was born Samuel Clemens')"}],
+  "birth_date": [{"value": "1835", "raw": "in 1835", "lang": "en", "via": "bio"}],
+  "death_date": [{"value": "1910", "raw": "in 1910", "lang": "en", "via": "bio"}],
+  "birth_place": [{"value": "Florida, Missouri", "lang": "en", "via": "bio"}],
+  "death_place": [{"value": "Redding, Connecticut", "lang": "en", "via": "bio"}],
+  "activity_place": [{"value": "Hannibal, Missouri", "lang": "en", "via": "bio"}],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "bio"},
+   {"value": "printer", "lang": "en", "via": "bio"},
+   {"value": "Mississippi riverboat pilot", "lang": "en", "via": "bio"},
+   {"value": "journalist", "lang": "en", "via": "bio"},
+   {"value": "travel writer", "lang": "en", "via": "bio"},
+   {"value": "publisher", "lang": "en", "via": "bio"},
+   {"value": "lecturer", "raw": "lecture tours", "lang": "en", "via": "bio"}
+  ],
+  "description": [{"value": "MARK TWAIN, considered one of the greatest writers in American literature, was born Samuel Clemens in Florida, Missouri, in 1835, and died in Redding, Connecticut in 1910. As a young child, he moved with his family to Hannibal, Missouri, on the banks of the Mississippi River, a setting that inspired his two best-known novels, The Adventures of Tom Sawyer and Adventures of Huckleberry Finn. In his person and in his pursuits, he was a man of extraordinary contrasts. Although he left school at 12 when his father died, he was eventually awarded honorary degrees from Yale University...", "raw": "truncated", "lang": "en", "via": "bio"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "via": "bio"},
+   {"value": "Adventures of Huckleberry Finn", "via": "bio"}
+  ],
+  "related_agent": [
+   {"value": "Olivia Langdon Clemens (wife)", "via": "bio"},
+   {"value": "Langdon (son, died as an infant)", "via": "bio"},
+   {"value": "Susy (daughter)", "via": "bio"},
+   {"value": "Clara (daughter)", "via": "bio"},
+   {"value": "Jean (daughter)", "via": "bio"},
+   {"value": "William Dean Howells (described him as 'the Lincoln of our literature')", "via": "bio"},
+   {"value": "Yale University (honorary degree)", "via": "bio"},
+   {"value": "University of Missouri (honorary degree)", "via": "bio"},
+   {"value": "Oxford University (honorary degree)", "via": "bio"},
+   {"value": "Prakash Books, The Library of America, Pushkin Press, Melville House, PRH Grupo Editorial (publishers of his books)", "via": "'Books by Mark Twain published by' headings"}
+  ],
+  "identifier": [{"value": "31611", "via": "page URL"}]
+ }
+}

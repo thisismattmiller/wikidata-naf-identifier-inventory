@@ -1,0 +1,214 @@
+{
+ "property": "P5068",
+ "property_label": "Flanders Arts Institute person ID (former scheme)",
+ "files": [
+  {
+   "file": "P5068__1884188/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://web.archive.org/web/20230312130158/https://data.kunsten.be/tags"
+  },
+  {
+   "file": "P5068__1884188/export_2.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://web.archive.org/web/20230312130158/https://data.kunsten.be/people/mark-twain"
+  },
+  {
+   "file": "P5068__1884188/export_3.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://web.archive.org/web/20230312130158/https://data.kunsten.be/people/mark-twain/subject_of_documents"
+  },
+  {
+   "file": "P5068__1884188/export_4.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://web.archive.org/web/20230312130158/https://data.kunsten.be/references/die-kurzgeschichte-formen-und-entwicklung"
+  },
+  {
+   "file": "P5068__1884188/export_5.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://web.archive.org/web/20230312130158/https://data.kunsten.be/people/mark-twain/person_production_per_types/podiumproductie"
+  },
+  {
+   "file": "P5068__1884188/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://wayback-api.archive.org/services/context/notices?url=https%3A%2F%2Fdata.kunsten.be%2Fpeople%2F1884188&timestamp=20230312130158"
+  }
+ ],
+ "formats": {
+  "html": 5,
+  "json": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "llm-page:'Volledige naam' row",
+    "file": "P5068.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Marc; ( - ); (auteur)",
+    "lang": "nl",
+    "via": "llm-page:'Sleutelnaam' row",
+    "file": "P5068.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": "nl",
+    "via": "llm-page:'Voornaam' row",
+    "file": "P5068.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": "nl",
+    "via": "llm-page:'Naam' row",
+    "file": "P5068.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "nl",
+    "via": "llm-page:'Geslacht' row",
+    "file": "P5068.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "auteur",
+    "lang": "nl",
+    "via": "llm-page:'Sleutelnaam' row qualifier",
+    "file": "P5068.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Koning Leopolds Alleenspraak",
+    "lang": "nl",
+    "via": "llm-page:'Podiumproductie' table",
+    "file": "P5068.json",
+    "uri": false
+   },
+   {
+    "value": "Achter het hek",
+    "lang": "nl",
+    "via": "llm-page:'Podiumproductie' table",
+    "file": "P5068.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "nl",
+    "via": "llm-page:'Podiumproductie' table",
+    "file": "P5068.json",
+    "uri": false
+   },
+   {
+    "value": "Mijn vriend Huckelberry",
+    "lang": "nl",
+    "via": "llm-page:'Podiumproductie' table",
+    "file": "P5068.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Die Kurzgeschichte: Formen und Entwicklung (1967, REF)",
+    "lang": "de",
+    "via": "llm-page:'Documenten over' table",
+    "file": "P5068.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1884188",
+    "lang": null,
+    "via": "llm-page:page URL people/1884188",
+    "file": "P5068.json",
+    "uri": false
+   },
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm-page:'Permalink' row",
+    "file": "P5068.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "nl"
+  ],
+  "name_variant": [
+   "nl"
+  ],
+  "given_name": [
+   "nl"
+  ],
+  "family_name": [
+   "nl"
+  ],
+  "gender": [
+   "nl"
+  ],
+  "occupation": [
+   "nl"
+  ],
+  "work": [
+   "nl"
+  ],
+  "source": [
+   "de"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 33,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "success"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Archived Kunstenpunt (data.kunsten.be) person page for Mark Twain: name, gender, key name 'Twain, Marc', one document about him and five stage productions based on his work. No dates.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

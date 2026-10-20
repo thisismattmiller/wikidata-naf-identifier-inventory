@@ -1,0 +1,28 @@
+{
+ "property": "P4514",
+ "label": "Africultures person ID",
+ "files_read": ["P4514__14576/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata of the Africultures person page; og:description is a flattened text of the page listing role (Ecrivain/ne) and one book. og:image is a generic site image (not of Twain).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "fr", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "name_variant": [
+   {"value": "Twain Mark", "lang": "fr", "raw": "Personnes | Africultures : Twain Mark", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "occupation": [
+   {"value": "Ecrivain/ne", "lang": "fr", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "field_of_activity": [
+   {"value": "Littérature / édition", "lang": "fr", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "work": [
+   {"value": "Soliloque du roi Léopold (Le)", "lang": "fr", "via": "embedded_opengraph.json: og:description (Livres(s))"}
+  ],
+  "related_agent": [
+   {"value": "Benoît Verhaegen", "relation": "author of foreword (Avant-propos) to Soliloque du roi Léopold", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Jean-Pierre Orban", "relation": "translator and introduction of Soliloque du roi Léopold", "via": "embedded_opengraph.json: og:description"}
+  ]
+ }
+}

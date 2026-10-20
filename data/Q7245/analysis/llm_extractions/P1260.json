@@ -1,0 +1,13 @@
+{
+ "property": "P1260",
+ "label": "Swedish Open Cultural Heritage URI",
+ "files_read": ["P1260__LSH_agents_30192_b0379bee/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata of the Swedish History Museum (samlingar.shm.se) person page. The name is garbled in the source: first name 'Clemens Samuel', last name 'Langhorne, Mark Twain'; values kept as given.",
+ "elements": {
+  "name_preferred": [{"value": "Langhorne, Mark Twain, Clemens Samuel", "lang": "sv", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "given_name": [{"value": "Clemens Samuel", "lang": null, "via": "embedded_opengraph.json: $[0]['og:description'] (Förnamn)"}],
+  "family_name": [{"value": "Langhorne, Mark Twain", "lang": null, "via": "embedded_opengraph.json: $[0]['og:description'] (Efternamn)"}],
+  "identifier": [{"value": "FE94A400-1095-4FA3-873A-712CFB13D288", "raw": "https://samlingar.shm.se/person/FE94A400-1095-4FA3-873A-712CFB13D288", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

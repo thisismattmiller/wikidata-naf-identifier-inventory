@@ -1,0 +1,1382 @@
+{
+ "property": "P13591",
+ "property_label": "‎Yale LUX ID",
+ "files": [
+  {
+   "file": "P13591__person_0bc0c940-bce7-47b7-acf5-b9f826f35cc1_bdc84bb2/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://lux.collections.yale.edu/view/person/0bc0c940-bce7-47b7-acf5-b9f826f35cc1"
+  },
+  {
+   "file": "P13591__person_0bc0c940-bce7-47b7-acf5-b9f826f35cc1_bdc84bb2/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://lux.collections.yale.edu/view/person/0bc0c940-bce7-47b7-acf5-b9f826f35cc1"
+  },
+  {
+   "file": "P13591__person_0bc0c940-bce7-47b7-acf5-b9f826f35cc1_bdc84bb2/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://lux.collections.yale.edu/env"
+  },
+  {
+   "file": "P13591__person_0bc0c940-bce7-47b7-acf5-b9f826f35cc1_bdc84bb2/extra_1.jsonld",
+   "format": "json-ld",
+   "kind": "extra",
+   "via": "http",
+   "url": "https://lux.collections.yale.edu/data/person/0bc0c940-bce7-47b7-acf5-b9f826f35cc1"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 1,
+  "json-ld": 1
+ },
+ "vocabularies": {
+  "http://www.cidoc-crm.org/cidoc-crm/": 146,
+  "https://linked.art/ns/terms/": 21,
+  "http://ogp.me/ns#": 5,
+  "https://dev.twitter.com/cards#": 5,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "http://www.w3.org/2000/01/rdf-schema#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "P1_is_identified_by/Primary Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "P1_is_identified_by/Primary Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (1835-1910)",
+    "lang": "fr",
+    "via": "P1_is_identified_by/Primary Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温",
+    "lang": "zh",
+    "via": "P1_is_identified_by/Primary Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja",
+    "via": "P1_is_identified_by/Primary Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "مارك توين",
+    "lang": "ar",
+    "via": "P1_is_identified_by/Primary Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "मार्क ट्वैन",
+    "lang": "hi",
+    "via": "P1_is_identified_by/Primary Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "P1_is_identified_by/Primary Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens Samuel Langhorne",
+    "lang": "en",
+    "via": "P1_is_identified_by/Sort Name|Sort Title",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Marc Twain (1835-1910)",
+    "lang": "fr",
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Klemens, Seĭmeul Lenghorn, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Kʻo-lan-man-ssu, Sai-mi-erh Lang-en, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tvėn, Mark, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tuėĭn, Mark, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tʻu-wen, Ma-kʻo, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tven, M. (Mark), 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Make Tuwen, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Make Teviin, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Touain, Mark, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "טבןַ, מרק, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מארק, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מרק, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "טווין, מרק, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "טווען, מארק, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "טוין, מרק, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "馬克吐温, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "تواين، مارک",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "트웨인, 마크, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tivāyn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tʻuēyn, Markʻ, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tvāyn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tuvāyn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "T'ŭwein, Mak'ŭ, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Klemens, Sami︠u︡ėl, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "De Conte, Louis, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de, Sieur, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne-Clemens",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorn Clemens",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuel Clemens",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "S. L. Clemens",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuėlʹ Klemens",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Seĭmeul Lenghorn Klemens",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Sai-mi-erh Lang-en Kʻo-lan-man-ssu",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Marc Twain",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twayn",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Make Tuwen",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Māku Towein",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Marḳ Tvein",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Tvėn",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Marks Tvēns",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "M. Tvens",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twen",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Marks Twens",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Marka Ṭvena",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Markas Tvenas",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Morkas Tvénas",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mārk Twayn",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mārk Tuwayn",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Ma-k`o T`u-wen",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Māku Touein",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Makū Touen",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Marek Twain",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Tuein",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "M. Tven",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Marḳ Ṭṿain",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twėn",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Maku Touein",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Ma ke Tu wen",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Make-Tuwen",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Tewin",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Tven",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twjen",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Марк Твен",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "מארק טווין",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "צרק טוין",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "马克 吐温",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": null,
+    "via": "P1_is_identified_by/Sort Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Smauel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Klemens, Sami͡uėl, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, (Spirit), 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "טװען, מארק, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "טװײן, מארק, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark (pseudonym)",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (pseudonym)",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Mark Twain",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910 (Spirit)",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": null,
+    "via": "P1_is_identified_by/Name",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Quintus Curtius Snodgrass",
+    "lang": null,
+    "via": "P1_is_identified_by/Psueudonym",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Louis de Conte",
+    "lang": null,
+    "via": "P1_is_identified_by/Psueudonym",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Jean François Alden",
+    "lang": null,
+    "via": "P1_is_identified_by/Psueudonym",
+    "file": "extra_1.jsonld",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "P98i_was_born/P4_has_time-span",
+    "file": "extra_1.jsonld",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": null,
+    "via": "P98i_was_born/P7_took_place_at",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Florida, Mo.",
+    "lang": null,
+    "via": "P98i_was_born/P7_took_place_at",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "https://lux.collections.yale.edu/data/place/0b6853db-9a1e-4672-b4bb-f84ff13b479c",
+    "lang": null,
+    "via": "P98i_was_born/P7_took_place_at",
+    "file": "extra_1.jsonld",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "P100i_died_in/P4_has_time-span",
+    "file": "extra_1.jsonld",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": null,
+    "via": "P100i_died_in/P7_took_place_at",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Redding, Conn.",
+    "lang": null,
+    "via": "P100i_died_in/P7_took_place_at",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "https://lux.collections.yale.edu/data/place/c3ff60d0-25fd-4ca6-9b42-8a9ba37a6fd2",
+    "lang": null,
+    "via": "P100i_died_in/P7_took_place_at",
+    "file": "extra_1.jsonld",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "American, 1835–1910",
+    "lang": null,
+    "via": "P67i_is_referred_to_by/Display Biography",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "American humorist, novelist, and artist, 1835-1910",
+    "lang": null,
+    "via": "P67i_is_referred_to_by/Display Biography",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "American author and humorist, known for such works as  Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1885). His first major published work was in 1965, with \"Celebrated Jumping Frog of Calaveras County.\" Twain did not finish elementary school, but is noted as having been was awarded honorary degree by Oxford University.",
+    "lang": "en",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Romancier, journaliste et humoriste. - Pseudonyme de Samuel Langhorne Clemens",
+    "lang": "fr",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Amerikan. Schriftsteller, auch Übersetzungen und Reisebeschreibungen; zunächst Drucker, Lotse, Soldat, Journalist",
+    "lang": null,
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "American author and humorist (1835–1910)",
+    "lang": "en",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "escritor estadounidense",
+    "lang": "es",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "romancier, journaliste et humoriste américain (1835-1910)",
+    "lang": "fr",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "escritor, humorista e inventor norte-americano",
+    "lang": "pt",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "US-amerikanischer Schriftsteller",
+    "lang": "de",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Amerikaans schrijver en aforist (1835–1910)",
+    "lang": "nl",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "美国幽默作家",
+    "lang": "zh",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "1835-1910, アメリカの作家、小説家。",
+    "lang": "ja",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "كاتب أمريكي",
+    "lang": "ar",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "एक प्रसिद्ध और लोकप्रीय अमरीकी लेखक",
+    "lang": "hi",
+    "via": "P67i_is_referred_to_by/Description",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens (Florida, Misuri; 30 de noviembre de 1835-Redding, Connecticut; 21 de abril de 1910), más conocido por su seudónimo Mark Twain, fue un escritor, orador y humorista estadounidense. Escribió obras de gran éxito y fama mundial como El príncipe y el mendigo o Un yanqui en la corte del Rey Arturo, pero es conocido sobre todo por su novela Las aventuras de Tom Sawyer y su secuela Las aventuras de Huckleberry Finn. Twain se crio en Hannibal (Misuri), lugar que utilizaría como e",
+    "lang": "es",
+    "via": "P67i_is_referred_to_by/Display Biography",
+    "file": "extra_1.jsonld",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": null,
+    "via": "P2_has_type/Nationality",
+    "file": "extra_1.jsonld",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": null,
+    "via": "P2_has_type/Gender/Sex/Pronoun",
+    "file": "extra_1.jsonld",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "journalists",
+    "lang": null,
+    "via": "P2_has_type/Occupation",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "artists (visual artists)",
+    "lang": null,
+    "via": "P2_has_type/Occupation",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "humorists",
+    "lang": null,
+    "via": "P2_has_type/Occupation",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "novelists",
+    "lang": null,
+    "via": "P2_has_type/Occupation",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "lecturers",
+    "lang": null,
+    "via": "P2_has_type/Occupation",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Übersetzer",
+    "lang": null,
+    "via": "P2_has_type/Occupation",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Drucker",
+    "lang": null,
+    "via": "P2_has_type/Occupation",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Lotse",
+    "lang": null,
+    "via": "P2_has_type/Occupation",
+    "file": "extra_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Soldat",
+    "lang": null,
+    "via": "P2_has_type/Occupation",
+    "file": "extra_1.jsonld",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "https://lux.collections.yale.edu/data/group/795150eb-895f-4cc3-92a1-5f2ac2ffff90",
+    "lang": null,
+    "via": "P107i_is_current_or_former_member_of",
+    "file": "extra_1.jsonld",
+    "uri": true
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://linked-art.library.yale.edu/node/6551c930-a3b0-470e-88ad-f72b11c47a5f",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/1106406737",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://linked-art.library.yale.edu/node/f2902897-8469-419a-a622-d39c101f6e5c",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://media.art.yale.edu/content/lux/agt/22639.json",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://datos.bne.es/resource/XX945992",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/1106407008",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://data.bnf.fr/ark:/12148/cb11927291n",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://linked-art.library.yale.edu/node/d7662004-8b1d-49cb-b19a-5d11f70ef1f5",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://linked-art.library.yale.edu/node/e1494e00-3fb0-40b6-8e5a-0415cdd06f62",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://linked-art.library.yale.edu/node/e021c3ed-8a1d-4aed-b3df-9256c0c52b72",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n93099461",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/1106405730",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://linked-art.library.yale.edu/node/7b512f25-1a44-4f82-a9b6-3e7b57b178ad",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://linked-art.library.yale.edu/node/e7fb1ae0-052a-4a7d-bf03-3fda91d82ea8",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/no2003079632",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n93099439",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://vocab.getty.edu/ulan/500020427",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n82045653",
+    "lang": null,
+    "via": "equivalent",
+    "file": "extra_1.jsonld",
+    "uri": true
+   }
+  ],
+  "image": [
+   {
+    "value": "https://commons.wikimedia.org/wiki/Special:Filepath/MarkTwain.LOC.jpg",
+    "lang": null,
+    "via": "P138i_has_representation/access_point",
+    "file": "extra_1.jsonld",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "http://www.digiporta.net/index.php?id=116582238",
+    "lang": null,
+    "via": "P129i_is_subject_of/access_point",
+    "file": "extra_1.jsonld",
+    "uri": true
+   }
+  ],
+  "type": [
+   {
+    "value": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
+    "lang": null,
+    "via": "type",
+    "file": "extra_1.jsonld",
+    "uri": true
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "ar",
+   "en",
+   "fr",
+   "hi",
+   "ja",
+   "zh"
+  ],
+  "name_variant": [
+   "en",
+   "fr"
+  ],
+  "birth_date": [],
+  "birth_place": [],
+  "death_date": [],
+  "death_place": [],
+  "description": [
+   "ar",
+   "de",
+   "en",
+   "es",
+   "fr",
+   "hi",
+   "ja",
+   "nl",
+   "pt",
+   "zh"
+  ],
+  "nationality": [],
+  "gender": [],
+  "occupation": [],
+  "related_agent": [],
+  "same_as": [],
+  "image": [],
+  "see_also": [],
+  "type": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 4
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 320,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "LUX: Yale Collections Discovery"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://lux.collections.yale.edu"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://lux.collections.yale.edu/opengraph.png"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Explore Yale University's cultural heritage collections"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 597,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "version",
+     "n": 1,
+     "sample": "v1.77.0"
+    },
+    {
+     "path": "dataApiBaseUrl",
+     "n": 1,
+     "sample": "https://lux.collections.yale.edu/"
+    },
+    {
+     "path": "cmsApiBaseUrl",
+     "n": 1,
+     "sample": "https://lux-cms.collections.yale.edu/jsonapi/"
+    },
+    {
+     "path": "wikidataImagePathname",
+     "n": 1,
+     "sample": "https://commons.wikimedia.org/wiki/Special:Filepath/"
+    },
+    {
+     "path": "luxWikidataManifestPrefix",
+     "n": 1,
+     "sample": "https://manifests.collections.yale.edu/wikimedia/manifest/"
+    },
+    {
+     "path": "luxFeedbackUrl",
+     "n": 1,
+     "sample": "https://yaleuniversity.tfaforms.net/99?tfa_301="
+    },
+    {
+     "path": "luxEnv",
+     "n": 1,
+     "sample": "production"
+    },
+    {
+     "path": "maintenanceMode",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "maintenanceMessage",
+     "n": 1,
+     "sample": "LUX is unavailable due to maintenance. It will be available after 12pm on Friday May 27th."
+    },
+    {
+     "path": "cacheViewerMode",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "bugherdApiKey",
+     "n": 1,
+     "sample": "t7upvctsnbi5jeyrpjeceq"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "The rendered text is only the LUX app shell ('Loading env... What brings you to LUX today?'); the person record never loaded, so nothing about him is present.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

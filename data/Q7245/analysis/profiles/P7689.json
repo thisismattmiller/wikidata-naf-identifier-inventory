@@ -1,0 +1,848 @@
+{
+ "property": "P7689",
+ "property_label": "Online Nevada Encyclopedia ID",
+ "files": [
+  {
+   "file": "P7689__mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.onlinenevada.org/articles/mark-twain"
+  },
+  {
+   "file": "P7689__mark-twain/export_1.xml",
+   "format": "feed",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.onlinenevada.org/rss.xml"
+  },
+  {
+   "file": "P7689__mark-twain/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true"
+  },
+  {
+   "file": "P7689__mark-twain/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://l.sharethis.com/pview?event=pview&version=buttons.js&lang=en&sessionID=1790986525004.11071&hostname=www.onlinenevada.org&location=%2Farticles%2Fmark-twain&product=widget&fcmp=false&fcmpv2=false&publisher=ur.00000000-0000-0000-0000-000000000000&url=https%3A%2F%2Fwww.onlinenevada.org%2Farticles%2Fmark-twain&title=Mark%20Twain%20%7C%20ONE&sop=false&ua=%22Google%20Chrome%22%3Bv%3D%22153%22%2C%20%22Not_A%20Brand%22%3Bv%3D%228%22%2C%20%22Chromium%22%3Bv%3D%22153%22&ua_mobile=false&ua_platform=macOS&ua_full_version_list=%22Google%20Chrome%22%3Bv%3D%22153.0.8010.53%22%2C%20%22Not_A%20Brand%22%3Bv%3D%228.0.0.0%22%2C%20%22Chromium%22%3Bv%3D%22153.0.8010.53%22&ua_platform_version=27.0.0&uuid=78d3092d-73c2-4e60-9cb7-0089f161d979"
+  },
+  {
+   "file": "P7689__samuel-clemens/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.onlinenevada.org/articles/samuel-clemens"
+  },
+  {
+   "file": "P7689__samuel-clemens/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://l.sharethis.com/pview?event=pview&version=buttons.js&lang=en&sessionID=1790986532618.20803&hostname=www.onlinenevada.org&location=%2Farticles%2Fsamuel-clemens&product=widget&fcmp=false&fcmpv2=false&publisher=ur.00000000-0000-0000-0000-000000000000&url=https%3A%2F%2Fwww.onlinenevada.org%2Farticles%2Fsamuel-clemens&title=Samuel%20Clemens%20%7C%20ONE&sop=false&ua=%22Google%20Chrome%22%3Bv%3D%22153%22%2C%20%22Not_A%20Brand%22%3Bv%3D%228%22%2C%20%22Chromium%22%3Bv%3D%22153%22&ua_mobile=false&ua_platform=macOS&ua_full_version_list=%22Google%20Chrome%22%3Bv%3D%22153.0.8010.53%22%2C%20%22Not_A%20Brand%22%3Bv%3D%228.0.0.0%22%2C%20%22Chromium%22%3Bv%3D%22153.0.8010.53%22&ua_platform_version=27.0.0&uuid=14aa4f6c-c056-4ca4-af78-32a4d057243b"
+  }
+ ],
+ "formats": {
+  "rdfa": 2,
+  "feed": 1,
+  "json": 3
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 20,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 10,
+  "http://purl.org/dc/terms/": 7,
+  "http://purl.org/rss/1.0/modules/content/": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://xmlns.com/foaf/0.1/Document",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   },
+   {
+    "value": "http://rdfs.org/sioc/ns#Item",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "title",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain: A Life",
+    "lang": "en",
+    "via": "title",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "A Companion to Mark Twain",
+    "lang": "en",
+    "via": "title",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain: The Bachelor Years",
+    "lang": "en",
+    "via": "title",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "title",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:export_1.xml: item[title='Mark Twain']/description ('Writing under a pen name created in Virginia City')",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Josh",
+    "lang": "en",
+    "via": "llm-page:samuel-clemens article",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Virginia City",
+    "lang": "en",
+    "via": "llm:export_1.xml: item[title='Mark Twain']/description",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada (the Silver State)",
+    "lang": "en",
+    "via": "llm:export_1.xml: item[title='Mark Twain']/description",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Incline Village",
+    "lang": "en",
+    "via": "llm-page:Geographic Area tags (both)",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Carson City",
+    "lang": "en",
+    "via": "llm-page:Geographic Area tag (samuel-clemens) and text of both",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Unionville",
+    "lang": "en",
+    "via": "llm-page:samuel-clemens article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Aurora",
+    "lang": "en",
+    "via": "llm-page:samuel-clemens article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Hannibal",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Cincinnati",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco",
+    "lang": "en",
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Buffalo, New York",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Hartford, Connecticut",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Writing under a pen name created in Virginia City, Mark Twain left a legacy that echoes across the unique history of the Silver State.",
+    "lang": "en",
+    "via": "llm:export_1.xml: item[title='Mark Twain']/description (field-name-body)",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens is one of the nation's most beloved authors. As Mark Twain, he wrote such classics as Tom Sawyer (1876), Huckleberry Finn (1884), and The Prince and the Pauper (1881). His life and career are the property of several states including Nevada, which played an essential role in his development.",
+    "lang": "en",
+    "via": "llm-page:samuel-clemens article, opening paragraph",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm:export_1.xml: item[title='Mark Twain']/link (https://www.onlinenevada.org/mark-twain)",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "1576",
+    "lang": null,
+    "via": "llm:export_1.xml: item[title='Mark Twain']/guid ('1576 at https://www.onlinenevada.org', Drupal node id)",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "samuel-clemens",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2014-04-10",
+    "lang": null,
+    "via": "llm:export_1.xml: item[title='Mark Twain']/pubDate",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "2009-11-16",
+    "lang": null,
+    "via": "llm-page:About this article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "2009-07-30",
+    "lang": null,
+    "via": "llm-page:About this article",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:opening sentence of both articles",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:opening sentence of both articles",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:mark-twain article, final paragraph",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "en",
+    "via": "llm-page:mark-twain article opening sentence",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi River steamboat pilot",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "printer",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "secretary (to his brother Orion)",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "prospector / miner",
+    "lang": "en",
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "reporter (Virginia City Territorial Enterprise)",
+    "lang": "en",
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "humorist / lecturer",
+    "lang": "en",
+    "via": "llm-page:samuel-clemens article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "newspaper part-owner (Buffalo)",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "The Arts",
+    "lang": "en",
+    "via": "llm-page:'Subjects' tag (mark-twain article)",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County and Other Sketches",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson and Those Extraordinary Twins",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger manuscripts",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Letters from the Earth",
+    "lang": "en",
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:samuel-clemens article",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "subject_of": [
+   {
+    "value": "Lawrence I. Berkove, \"Nevada Influences on Mark Twain\", in A Companion to Mark Twain, ed. Peter Messent and Louis J. Budd (Blackwell, 2003)",
+    "lang": "en",
+    "via": "llm-page:Further Reading (mark-twain)",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Ron Powers, Mark Twain: A Life (Free Press, 2005)",
+    "lang": "en",
+    "via": "llm-page:Further Reading (mark-twain)",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Sanborn, Mark Twain: The Bachelor Years (Double Day, 1990)",
+    "lang": "en",
+    "via": "llm-page:Further Reading (both)",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Online Nevada Encyclopedia: 'Mark Twain' by Lawrence Berkove",
+    "lang": "en",
+    "via": "llm-page:About this article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Online Nevada Encyclopedia: 'Samuel Clemens' by Ronald James",
+    "lang": "en",
+    "via": "llm-page:About this article",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Orion Clemens (brother; Secretary of the Nevada Territory)",
+    "lang": null,
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Langdon (wife, m. 1870)",
+    "lang": null,
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Horace Bixby (steamboat pilot who took him as apprentice)",
+    "lang": null,
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Joe Goodman / Joseph Goodman (editor of the Territorial Enterprise, hired him)",
+    "lang": null,
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "William Wright, 'Dan De Quille' (fellow reporter, roommate, mentor)",
+    "lang": null,
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Denis McCarthy (Enterprise co-owner)",
+    "lang": null,
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Rollin Daggett (Enterprise editorialist)",
+    "lang": null,
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Steve Gillis (Enterprise printer)",
+    "lang": null,
+    "via": "llm-page:mark-twain article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Artemus Ward (humorist who encouraged him)",
+    "lang": null,
+    "via": "llm-page:samuel-clemens article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "James Nye (Governor of Nevada Territory)",
+    "lang": null,
+    "via": "llm-page:samuel-clemens article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City Territorial Enterprise (employer)",
+    "lang": null,
+    "via": "llm-page:both articles",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Lawrence Berkove (article author)",
+    "lang": null,
+    "via": "llm-page:About this article",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "Ronald James (article author)",
+    "lang": null,
+    "via": "llm-page:About this article",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "By Lawrence Berkove",
+    "lang": null,
+    "via": "llm-page:About this article (mark-twain)",
+    "file": "P7689.json",
+    "uri": false
+   },
+   {
+    "value": "By Ronald James",
+    "lang": null,
+    "via": "llm-page:About this article (samuel-clemens)",
+    "file": "P7689.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "identifier": [],
+  "record_created": [],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "subject_of": [
+   "en"
+  ],
+  "related_agent": [],
+  "source": []
+ },
+ "unmapped": {
+  "date (http://purl.org/dc/terms/)": 2,
+  "encoded (http://purl.org/rss/1.0/modules/content/)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "export_1.xml",
+   "format": "xml",
+   "size": 18086,
+   "path_count": 16,
+   "paths": [
+    {
+     "path": "rss/channel/item",
+     "n": 10,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/title",
+     "n": 10,
+     "sample": "African Americans on the Comstock"
+    },
+    {
+     "path": "rss/channel/item/link",
+     "n": 10,
+     "sample": "https://www.onlinenevada.org/african-americans-comstock"
+    },
+    {
+     "path": "rss/channel/item/description",
+     "n": 10,
+     "sample": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\""
+    },
+    {
+     "path": "rss/channel/item/pubDate",
+     "n": 10,
+     "sample": "Fri, 12 Feb 2016 20:26:48 +0000"
+    },
+    {
+     "path": "rss/channel/item/creator",
+     "n": 10,
+     "sample": "Karen Wikander"
+    },
+    {
+     "path": "rss/channel/item/guid",
+     "n": 10,
+     "sample": "1672 at https://www.onlinenevada.org"
+    },
+    {
+     "path": "rss/channel/item/guid@isPermaLink",
+     "n": 10,
+     "sample": "false"
+    },
+    {
+     "path": "rss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss@version",
+     "n": 1,
+     "sample": "2.0"
+    },
+    {
+     "path": "rss@{http://www.w3.org/XML/1998/namespace}base",
+     "n": 1,
+     "sample": "https://www.onlinenevada.org"
+    },
+    {
+     "path": "rss/channel",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/title",
+     "n": 1,
+     "sample": "ONE"
+    },
+    {
+     "path": "rss/channel/link",
+     "n": 1,
+     "sample": "https://www.onlinenevada.org"
+    },
+    {
+     "path": "rss/channel/description",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/language",
+     "n": 1,
+     "sample": "en"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "rss/channel/item/title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "rss/channel/item/link",
+     "value": "https://www.onlinenevada.org/mark-twain"
+    },
+    {
+     "path": "rss/channel/item/description",
+     "value": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\" property=\"content:encoded\">Writing under a pen name created in "
+    }
+   ],
+   "language_like_keys": [
+    "rss"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 3,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 160,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "fpestid",
+     "n": 1,
+     "sample": "B_Uly59u_ukzRfiZ8HTwkDHFAY03KfeCaVg1MRLGyh6wulcGErD0ksmjFDhq6picAMbeog"
+    },
+    {
+     "path": "fpestid_maxage",
+     "n": 1,
+     "sample": "31536000"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "true"
+    },
+    {
+     "path": "stid",
+     "n": 1,
+     "sample": "CgsF+GrAZ8cAAAAJSfJ1Aw=="
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 160,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "fpestid",
+     "n": 1,
+     "sample": "1-PMHj91037vaUtFa2F38PZLalHEsDs64Bp6vgnZLwwIr_NtmrSv6um0Pi3sIUKIPjsOGw"
+    },
+    {
+     "path": "fpestid_maxage",
+     "n": 1,
+     "sample": "31536000"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "true"
+    },
+    {
+     "path": "stid",
+     "n": 1,
+     "sample": "CgsCgGrAZ8kAAAAJcafkAw=="
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Two Online Nevada Encyclopedia articles about him despite the http_error status: 'Mark Twain' by Lawrence Berkove (16 Nov 2009), a full life-and-works essay stressing his Nevada years, and 'Samuel Clemens' by Ronald James (30 Jul 2009), on his Comstock period. Both give geographic tags, further reading and author/date; no external ids.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

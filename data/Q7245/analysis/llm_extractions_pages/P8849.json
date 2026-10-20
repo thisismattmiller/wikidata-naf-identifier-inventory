@@ -1,0 +1,29 @@
+{
+ "property": "P8849",
+ "label": "CONOR.BG ID",
+ "files_read": ["pages/P8849__4451941.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "CONOR.BG (Bulgarian COBISS) authority record, English interface: parallel Cyrillic and Latin headings, the real-name record as a related name, country, language, a Bulgarian note on occupations, and the CONOR.BG-ID.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Твен, Марк, 1835-1910", "lang": "bg", "via": "'Personal name' field"},
+   {"value": "Twain, Mark, 1835-1910", "lang": "en", "via": "'Personal name' field (parallel form)"}
+  ],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "heading dates"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "heading dates"}],
+  "occupation": [
+   {"value": "Писател", "lang": "bg", "via": "Notes"},
+   {"value": "журналист", "lang": "bg", "via": "Notes"},
+   {"value": "хуморист", "lang": "bg", "via": "Notes"}
+  ],
+  "nationality": [{"value": "United States", "lang": "en", "via": "'Country' field"}],
+  "language": [{"value": "English", "lang": "en", "via": "'Language of person/corp.' field"}],
+  "description": [{"value": "Писател, журналист, хуморист.", "lang": "bg", "via": "Notes"}],
+  "related_agent": [
+   {"value": "Клемънс, Самюъл Лангхорн, 1835-1910 (real name)", "raw": "(f)", "lang": "bg", "via": "Related personal names"},
+   {"value": "Clemens, Samuel Langhorne, 1835-1910 (real name)", "raw": "(f)", "lang": "en", "via": "Related personal names"}
+  ],
+  "identifier": [{"value": "4451941", "raw": "CONOR.BG-ID 4451941", "lang": null, "via": "CONOR.BG-ID field"}]
+ }
+}

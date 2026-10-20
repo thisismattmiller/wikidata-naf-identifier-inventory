@@ -1,0 +1,99 @@
+{
+ "property": "P10141",
+ "property_label": "Academy of Athens authority ID",
+ "files": [
+  {
+   "file": "P10141__59334/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://opac.academyofathens.gr/cgi-bin/koha/opac-authoritiesdetail.pl?authid=59334&marc=1"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 9,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:200 ΚΑΘΙΕΡΩΜΕΝΟ ΣΗΜΕΙΟ ΠΡΟΣΒΑΣΗΣ",
+    "file": "P10141.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "llm-page:200 $a",
+    "file": "P10141.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": null,
+    "via": "llm-page:200 $b",
+    "file": "P10141.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:200 dates",
+    "file": "P10141.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:200 dates",
+    "file": "P10141.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "59334",
+    "lang": null,
+    "via": "llm-page:page URL authid (not shown in record)",
+    "file": "P10141.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "GR-AtACA (country GR)",
+    "lang": null,
+    "via": "llm-page:801 ΠΗΓΗ ΠΡΟΕΛΕΥΣΗΣ",
+    "file": "P10141.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [],
+  "family_name": [],
+  "given_name": [],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "source": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Koha UNIMARC MARC view of Academy of Athens Library authority 59334 (Πρόσωπα) for Twain, Mark, 1835-1910, used in 5 records. Minimal record: only the 200 heading and the 801 originating source; the control number itself is not displayed.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

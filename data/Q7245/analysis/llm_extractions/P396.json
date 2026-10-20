@@ -1,0 +1,49 @@
+{
+ "property": "P396",
+ "label": "SBN author ID",
+ "files_read": ["P396__CFIV002662/browser_xhr_9.json"],
+ "about_entity": true,
+ "notes": "OPAC SBN search-result JSON (single hit) rendering the authority record for 'Twain, Mark' as table rows (variants, dates, note, language, country, sources, ISNI, update date, SBN id). Note text misspells Connecticut as 'Connetticut'.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": null, "via": "browser_xhr_9.json: $.data.results[0].title"}],
+  "name_variant": [
+   {"value": "Tvėn, Mark", "lang": null, "via": "browser_xhr_9.json: $.data.results[0].contents[0].body[0][1].contents[0].value (Forme varianti)"},
+   {"value": "Clemens, Samuel Langhorne", "raw": "Clemens, Samuel Langhorne, Nome reale", "lang": null, "via": "browser_xhr_9.json: $.data.results[0].contents[0].body[0][1].contents[1].value (Forme varianti, marked as real name)"}
+  ],
+  "given_name": [{"value": "Samuel Langhorne", "lang": null, "via": "browser_xhr_9.json: Forme varianti 'Clemens, Samuel Langhorne, Nome reale'"}],
+  "family_name": [{"value": "Clemens", "lang": null, "via": "browser_xhr_9.json: Forme varianti 'Clemens, Samuel Langhorne, Nome reale'"}],
+  "pseudonym": [{"value": "Mark Twain", "raw": "Scrittore americano, pseudonimo di Samuel Langhorne Clemens.", "lang": "it", "via": "browser_xhr_9.json: Nota informativa"}],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "30.11.1835", "lang": null, "via": "browser_xhr_9.json: Nota informativa"},
+   {"value": "1835", "raw": "1835-1910", "lang": null, "via": "browser_xhr_9.json: Datazione"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "21.04.1910", "lang": null, "via": "browser_xhr_9.json: Nota informativa"},
+   {"value": "1910", "raw": "1835-1910", "lang": null, "via": "browser_xhr_9.json: Datazione"}
+  ],
+  "birth_place": [{"value": "Florida, Missouri", "lang": "it", "via": "browser_xhr_9.json: Nota informativa ('Nato in Florida, Missouri')"}],
+  "death_place": [{"value": "Redding, Connetticut", "lang": "it", "via": "browser_xhr_9.json: Nota informativa ('morto a Redding, Connetticut')"}],
+  "occupation": [{"value": "Scrittore", "lang": "it", "via": "browser_xhr_9.json: Nota informativa ('Scrittore americano')"}],
+  "nationality": [
+   {"value": "STATI UNITI D'AMERICA", "lang": "it", "via": "browser_xhr_9.json: Paese"},
+   {"value": "americano", "lang": "it", "via": "browser_xhr_9.json: Nota informativa"}
+  ],
+  "language": [{"value": "INGLESE", "lang": "it", "via": "browser_xhr_9.json: Lingua"}],
+  "description": [{"value": "Scrittore americano, pseudonimo di Samuel Langhorne Clemens. Nato in Florida, Missouri, il 30.11.1835 e morto a Redding, Connetticut, il 21.04.1910.", "lang": "it", "via": "browser_xhr_9.json: Nota informativa"}],
+  "work": [{"value": "Pudd'nhead Wilson and those extraordinay twins", "raw": "Twain, M., Pudd'nhead Wilson and those extraordinay twins, 1969", "lang": "en", "via": "browser_xhr_9.json: Altre fonti"}],
+  "same_as": [{"value": "http://isni.org/isni/0000000121324854", "via": "browser_xhr_9.json: ISNI table-links[0].href"}],
+  "identifier": [
+   {"value": "CFIV002662", "via": "browser_xhr_9.json: $.data.results[0].links.top[0].id"},
+   {"value": "IT\\ICCU\\CFIV\\002662", "via": "browser_xhr_9.json: Identificativo SBN"},
+   {"value": "https://opac.sbn.it/bid/CFIV002662", "via": "browser_xhr_9.json: permalink href"}
+  ],
+  "source": [
+   {"value": "Catalogo in linea della Library of Congress http://catalog.loc.gov", "lang": "it", "via": "browser_xhr_9.json: Fonti[0]"},
+   {"value": "Catalogo in linea della Bibliothèque Nationale de France: http://catalogue.bnf.fr", "lang": "it", "via": "browser_xhr_9.json: Fonti[1]"},
+   {"value": "Bibliografia nazionale italiana: nuova serie del bollettino delle pubblicazioni italiane ricevute per diritto di stampa a cura della Biblioteca nazionale centrale di Firenze. A. 1, n. 1 (gen. 1958)- Firenze, Centro nazionale per il catalogo unico delle biblioteche italiane e per le informazioni bibliografiche, 1958- (CDROM", "lang": "it", "via": "browser_xhr_9.json: Fonti[2]"},
+   {"value": "Catalogo in linea della Deutsche Nationalbibliothek: https://www.dnb.de/EN/Benutzung/Katalog/katalogDNB_node.html", "lang": "it", "via": "browser_xhr_9.json: Fonti[3]"},
+   {"value": "Twain, M., Pudd'nhead Wilson and those extraordinay twins, 1969", "lang": "en", "via": "browser_xhr_9.json: Altre fonti"}
+  ],
+  "record_modified": [{"value": "2024-01-26", "raw": "26/01/2024", "via": "browser_xhr_9.json: Data di aggiornamento"}]
+ }
+}

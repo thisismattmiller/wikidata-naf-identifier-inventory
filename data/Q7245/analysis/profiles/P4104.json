@@ -1,0 +1,216 @@
+{
+ "property": "P4104",
+ "property_label": "Carnegie Hall Agent ID",
+ "files": [
+  {
+   "file": "P4104__2088/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.carnegiehall.org/sparql"
+  },
+  {
+   "file": "P4104__2088/export_2.jsonld",
+   "format": "json-ld",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.carnegiehall.org/names/2088/jsonld"
+  },
+  {
+   "file": "P4104__2088/export_3.nt",
+   "format": "n-triples",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.carnegiehall.org/names/2088/nt"
+  },
+  {
+   "file": "P4104__2088/export_4.ttl",
+   "format": "turtle",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.carnegiehall.org/names/2088/turtle"
+  },
+  {
+   "file": "P4104__2088/export_6.rdf",
+   "format": "rdf-xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.carnegiehall.org/names/2088/xml"
+  }
+ ],
+ "formats": {
+  "html": 1,
+  "json-ld": 1,
+  "n-triples": 1,
+  "turtle": 1,
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 24,
+  "http://www.w3.org/2004/02/skos/core#": 16,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 8,
+  "http://www.w3.org/2000/01/rdf-schema#": 4,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://data.carnegiehall.org/model/Entity",
+    "lang": null,
+    "via": "type",
+    "file": "export_2.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "export_2.jsonld",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "birthDate",
+    "file": "export_2.jsonld",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "https://sws.geonames.org/4386798/",
+    "lang": null,
+    "via": "birthPlace",
+    "file": "export_2.jsonld",
+    "uri": true
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "deathDate",
+    "file": "export_2.jsonld",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "http://data.carnegiehall.org/roles/946",
+    "lang": null,
+    "via": "hasOccupation",
+    "file": "export_2.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/vocabulary/relators/aut",
+    "lang": null,
+    "via": "hasOccupation",
+    "file": "export_2.jsonld",
+    "uri": true
+   },
+   {
+    "value": "speaker",
+    "lang": "en",
+    "via": "llm-page:schema:hasOccupation",
+    "file": "P4104.json",
+    "uri": false
+   },
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:schema:hasOccupation",
+    "file": "P4104.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "name",
+    "file": "export_2.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:schema:name / rdfs:label",
+    "file": "P4104.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://dbpedia.org/resource/Mark_Twain",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_2.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_2.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_2.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_2.jsonld",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "2088",
+    "lang": null,
+    "via": "llm-page:page URL (data.carnegiehall.org/names/2088)",
+    "file": "P4104.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Copyright © 2026 The Carnegie Hall Corporation",
+    "lang": "en",
+    "via": "llm-page:footer",
+    "file": "P4104.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "birth_date": [],
+  "birth_place": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "name_preferred": [
+   "en"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "license": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Carnegie Hall Data Lab 'About' page for Samuel Langhorne Clemens: property/value table with name, occupations, dates, birthplace (GeoNames URI) and exactMatch links.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

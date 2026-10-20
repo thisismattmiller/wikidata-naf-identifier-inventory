@@ -1,0 +1,61 @@
+{
+ "property": "P3154",
+ "label": "Runeberg author ID",
+ "files_read": ["pages/P3154__twainmar.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Project Runeberg 'Nordic Authors' page for Mark Twain: one-line description, list of Scandinavian translations published on Runeberg, Swedish life dates line, a translator note, and links to encyclopedia articles, Wikipedias, Gutenberg, Libris etc. (link targets not shown in text).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "lang": "en", "via": "description line 'Twain, Mark (1835–1910), writer, USA.'"}
+  ],
+  "name_variant": [
+   {"value": "Mark Twain", "lang": "en", "via": "page heading"},
+   {"value": "Clemens, Samuel Langhorne", "lang": "sv", "via": "Links (Nordisk familjebok 1880/1906, Salmonsens 1916)"},
+   {"value": "Clemens, S. L.", "lang": "sv", "via": "Links (Nordisk familjebok 1899/1923)"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "född 30 november 1835", "lang": "sv", "via": "life dates line"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "död 21 april 1910", "lang": "sv", "via": "life dates line"}
+  ],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "description line"}
+  ],
+  "nationality": [
+   {"value": "USA", "lang": "en", "via": "description line"}
+  ],
+  "description": [
+   {"value": "Twain, Mark (1835–1910), writer, USA.", "lang": "en", "via": "description line"},
+   {"value": "född 30 november 1835, död 21 april 1910. Svenska översättningar av Mark Twain finns bland annat av Carl Rupert Nyblom.", "lang": "sv", "via": "text below work list"}
+  ],
+  "work": [
+   {"value": "En droppe negerblod : Kriminalhistoria", "raw": "Swedish", "lang": "sv", "via": "works list"},
+   {"value": "En landstryger paa rejse", "raw": "Danish", "lang": "da", "via": "works list"},
+   {"value": "Fra Mississippifloden", "raw": "Danish", "lang": "da", "via": "works list"},
+   {"value": "Lille Toms Æventyr", "raw": "Danish", "lang": "da", "via": "works list"},
+   {"value": "Spionen fra Louisiana og andre fortællinger, satirer og humoresker", "raw": "Norwegian", "lang": "no", "via": "works list"},
+   {"value": "Tiggerprinsen : en fortælling for ungdom i alle aldre", "raw": "Norwegian", "lang": "no", "via": "works list"},
+   {"value": "Tom Sawyers äfventyr", "raw": "Swedish", "lang": "sv", "via": "works list"},
+   {"value": "Toms eventyr", "raw": "Danish", "lang": "da", "via": "works list"},
+   {"value": "Valda skizzer", "raw": "Swedish", "lang": "sv", "via": "works list"}
+  ],
+  "related_agent": [
+   {"value": "Carl Rupert Nyblom (Swedish translator)", "lang": "sv", "via": "text below work list"}
+  ],
+  "same_as": [
+   {"value": "Nordisk familjebok 1880, 1899, 1906, 1923 (links, URLs not shown)", "via": "Links"},
+   {"value": "Salmonsens konversationsleksikon, 1916 (link)", "via": "Links"},
+   {"value": "Project Gutenberg; Projekt Gutenberg-DE (links)", "via": "Links"},
+   {"value": "English, deutsche, français, esperanto, polski, danske, svenska Wikipedia (links)", "via": "Links"},
+   {"value": "Nationalencyklopedin; Libris; Bibliografi.dk (links)", "via": "Links"}
+  ],
+  "identifier": [
+   {"value": "twainmar", "via": "URL https://runeberg.org/authors/twainmar.html"}
+  ],
+  "record_modified": [
+   {"value": "2009-11-22", "raw": "Project Runeberg, 2009-11-22 17:28 (aronsson)", "via": "page footer"}
+  ]
+ }
+}

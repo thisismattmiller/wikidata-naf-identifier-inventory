@@ -1,0 +1,37 @@
+{
+ "property": "P6298",
+ "label": "bgm.tv person ID",
+ "files_read": ["pages/P6298__2529.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "Bangumi person page 'Mark Twain' with an infobox (names in Chinese/Japanese, gender, dates), a short bio and a list of anime/book entries he is credited on. The captured text is a garbled machine translation (Chinese/Japanese to English), so the bio is barely usable.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [
+   {"value": "Mark Twain", "lang": "zh", "via": "infobox 'Simplified Chinese name' (translated in capture; original likely 马克·吐温)"},
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "infobox 'Alias: Real name'; 'Second Chinese name'"},
+   {"value": "マーク・トウェイン", "lang": "ja", "via": "infobox 'Japanese name'"},
+   {"value": "サミュエル・ラングホーン・クレメンズ", "lang": "ja", "via": "infobox 'second Japanese name'"},
+   {"value": "Mark Twain", "lang": "en", "via": "infobox 'Romanization'"}
+  ],
+  "gender": [{"value": "male", "raw": "Male", "lang": "en", "via": "infobox 'Gender'"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": "en", "via": "infobox 'Birthday'"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910", "lang": "en", "via": "infobox 'Died'"}],
+  "occupation": [{"value": "Production Staff", "lang": "en", "via": "'Occupation' line (site role)"}, {"value": "writer", "lang": "en", "via": "bio"}, {"value": "novelist", "lang": "en", "via": "bio"}, {"value": "lecturer", "lang": "en", "via": "bio (garbled)"}],
+  "nationality": [{"value": "United States", "lang": "en", "via": "bio 'a writer and novelist from the United States'"}],
+  "description": [{"value": "Amara is a writer and novelist from the United States. Born in Mirezhou. 『トム・ソーヤーの马険』 is written by として知られ, and the novel written by くのやエッセーをI am a lecturer in the world, and I am the most famous person at that time.", "raw": "garbled machine translation of Japanese bio; 'Mirezhou' = Missouri", "lang": "en", "via": "bio paragraph"}],
+  "work": [
+   {"value": "トム・ソーヤーの冒険", "raw": "トム・ソーヤーの马険 (as captured)", "lang": "ja", "via": "Recently participated"},
+   {"value": "The Adventures of Tom Sawyer", "lang": "en", "via": "Recently participated"},
+   {"value": "ハックルベリィの冒険", "raw": "ハックルベリィの马発 (as captured)", "lang": "ja", "via": "Recently participated"},
+   {"value": "Barbie as the Princess and the Pauper", "raw": "original story credit", "lang": "en", "via": "Recently participated"},
+   {"value": "Barbie: The Princess & the Popstar", "raw": "original story credit", "lang": "en", "via": "Recently participated"}
+  ],
+  "related_agent": [
+   {"value": "William Faulkner (praised Twain)", "lang": "en", "via": "bio (garbled)"},
+   {"value": "Ernest Hemingway (Green Hills of Africa quote on Huckleberry Finn)", "lang": "en", "via": "bio (garbled)"}
+  ],
+  "identifier": [{"value": "2529", "via": "page URL /person/2529"}],
+  "license": [{"value": "© 2008-2026 Bangumi (akaChobits), some rights reserved", "lang": "en", "via": "footer"}]
+ }
+}

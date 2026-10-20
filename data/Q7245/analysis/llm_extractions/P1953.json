@@ -1,0 +1,18 @@
+{
+ "property": "P1953",
+ "label": "Discogs artist ID",
+ "files_read": ["P1953__463414/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata of the Discogs artist page 463414 'Mark Twain (2)' (the '(2)' is Discogs' disambiguation suffix). Only a name, generic description, image and URL; nothing biographical.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "raw": "Mark Twain (2)", "lang": "en", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "identifier": [
+   {"value": "463414", "via": "embedded_opengraph.json: og:url (https://www.discogs.com/artist/463414-Mark-Twain-2)"}
+  ],
+  "image": [
+   {"value": "https://i.discogs.com/UDjlkL85y_VvV6URr7DXksewWzQWItxtfrBEQ8-oibc/rs:fit/g:sm/q:90/h:599/w:481/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2MzQx/NC0xMTQ5MDg3NDAy/LmpwZWc.jpeg", "via": "embedded_opengraph.json: og:image"}
+  ]
+ }
+}

@@ -1,0 +1,809 @@
+{
+ "property": "P10227",
+ "label": "National Library of Ireland ID",
+ "files_read": [
+  "P10227__vtls000050376/conneg_3.json"
+ ],
+ "about_entity": true,
+ "notes": "VIAF-style MARC21-in-JSON authority record (National Library of Ireland copy of LC n79021164 'Twain, Mark, 1835-1910') with VIAF cluster fields. 998 cluster links converted to same_as where a URI pattern is known ('(Spirit)' record and Alden/Conte pseudonym records excluded); 996 unmatched records skipped; 955/960 subject-ish names not used.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "raw": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "dates": "1835-1910",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[6] 100 $a"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "馬克吐温",
+    "raw": "馬克吐温, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[12] 400 $a"
+   },
+   {
+    "value": "Twayn, Mārk",
+    "raw": "Twayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[13] 400 $a"
+   },
+   {
+    "value": "Twain, Marek",
+    "raw": "Twain, Marek, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[14] 400 $a"
+   },
+   {
+    "value": "Tvėn, Mark",
+    "raw": "Tvėn, Mark, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[15] 400 $a"
+   },
+   {
+    "value": "Tven, M (Mark)",
+    "raw": "Tven, M. (Mark), 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[16] 400 $a"
+   },
+   {
+    "value": "Tʻu-wen, Ma-kʻo",
+    "raw": "Tʻu-wen, Ma-kʻo, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[17] 400 $a"
+   },
+   {
+    "value": "Tuwen, Make",
+    "raw": "Tuwen, Make, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[18] 400 $a"
+   },
+   {
+    "value": "Tuwayn, Mārk",
+    "raw": "Tuwayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[19] 400 $a"
+   },
+   {
+    "value": "Tuėĭn, Mark",
+    "raw": "Tuėĭn, Mark, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[20] 400 $a"
+   },
+   {
+    "value": "Touen, Makū",
+    "raw": "Touen, Makū, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[21] 400 $a"
+   },
+   {
+    "value": "Make Tuwen",
+    "raw": "Make Tuwen, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[23] 400 $a"
+   },
+   {
+    "value": "Make Teviin",
+    "raw": "Make Teviin, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[24] 400 $a"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "raw": "Clemens, Samuel Langhorne, 1835-1910,",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[25] 663 $b (real name)"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Alden, Jean François",
+    "raw": "Alden, Jean François, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[22] 400 $a"
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "raw": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[25] 663 $b"
+   },
+   {
+    "value": "Louis de Conte",
+    "raw": "Louis de Conte, 1835-1910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[25] 663 $b"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "18351130",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[4] 046 $f"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "19100421",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[4] 046 $g"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Mo.",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[7] 370 $a"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Conn.",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[7] 370 $b"
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal, Mo.",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[7] 370 $c (associated place)"
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[10] 375 $a"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[8] 374 $a"
+   },
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[9] 374 $a"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[11] 377 $a"
+   }
+  ],
+  "description": [
+   {
+    "value": "b. November 30, 1835 in Florida, Missouri; grew up in Hannibal, Missouri; d. April 21, 1910 in Redding, Connecticut; a writer and lecturer; wrote in genres of fiction, historical fiction, children's literature, non-fiction, travel literature, satire, essay, philosophical literature, social commentary, literary criticism",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[33] 670 $b"
+   }
+  ],
+  "work": [
+   {
+    "value": "Roughing it : and the innocents at home",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[43] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Innocents abroad",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[44] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The new pilgrim's progress : a book of travel in pursuit of pleasure",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[45] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The American claimant",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[46] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Century of collecting Mark Twain at The Morgan Library & Museum and The New York Public Library",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[47] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Skeptic's progress",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[48] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Mark Twain : a skeptic's progress",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[49] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Tom Sawyer abroad",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[50] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The Savage Club : a medley of history, anecdote, and reminiscence",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[51] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Tom Sawyer, detective",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[52] 910 $A (VIAF title)"
+   },
+   {
+    "value": "A tramp abroad",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[53] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The new guide of the conversation in English",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[54] 910 $A (VIAF title)"
+   },
+   {
+    "value": "A dog's tale",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[55] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Connecticut Yankee in King Arthur's court",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[56] 910 $A (VIAF title)"
+   },
+   {
+    "value": "A Yankee at the court of King Arthur",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[57] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Personal recollections of Joan of Arc : by the Sieur Louis de Conte (her page and secretary) : freely translated out of the ancient French into modern English from the original unpublished manuscript in the national archives of France by Jean François Alden",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[58] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The adventures of Tom Sawyer ... A new impression",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[59] 910 $A (VIAF title)"
+   },
+   {
+    "value": "King Leopold's soliloquy : a defense of his Congo rule",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[60] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Pudd'nhead Wilson : a tale",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[61] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The innocents abroad, or, The pilgrim's progress : being some account of the steamship 'Quaker City's' pleasure excursion to Europe and the Holy Land, with descriptions of the countries",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[62] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The 1,000,000-pound bank-note, and other new stories",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[63] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The man that corrupted Hadleyburg, and other stories and sketches",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[64] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Mark Twain's Autobiography : in two volumes",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[65] 910 $A (VIAF title)"
+   },
+   {
+    "value": "More tramps abroad",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[66] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Following the equator",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[67] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The adventures of Huckleberry Finn (Tom Sawyer's comrade) : a new impression with one hundred and seventy-four illustrations",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[68] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Mark Twain-Howells letters : the correspondence of Samuel L. Clemens and William D. Howells, 1872-1910",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[69] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Mark Twain's notebook",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[70] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The innocents abroad : or the New Pilgrim's progress, being some account of the steamship 'Quaker City's' pleasure excursion to Europe and the Holy Land, with descriptions of the countries",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[71] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Tom Sawyer and Huckleberry Finn",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[72] 910 $A (VIAF title)"
+   },
+   {
+    "value": "An idle excursion, and other papers",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[73] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[74] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The big bonanza; an authentic account of the discovery, history, and working of the world-renowned Comstock lode of Nevada, including the present condition of the various mines situated thereon, sketches of the most prominent men interested in them, incidents and adventures connected with mining, the Indians, and the country; amusing stories, experiences, anecdotes, etc., etc., and a full exposition of the production of pure silver",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[75] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Letters of Mark Twain",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[76] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Christian science : with notes containing corrections to date",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[77] 910 $A (VIAF title)"
+   },
+   {
+    "value": "Autobiography",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[78] 912 $A (VIAF title)"
+   },
+   {
+    "value": "The prince and the pauper : a tale for young people of all ages",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[79] 912 $A (VIAF title)"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Fraser, Francis Arthur",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[136] 950 $A"
+   },
+   {
+    "value": "Hurst, Hal",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[137] 950 $A"
+   },
+   {
+    "value": "Beard, Dan",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[138] 950 $A"
+   },
+   {
+    "value": "Kiely, Declan",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[139] 950 $A"
+   },
+   {
+    "value": "Gewirtz, Isaac",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[140] 950 $A"
+   },
+   {
+    "value": "Watson, Aaron",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[141] 950 $A"
+   },
+   {
+    "value": "Brown, W. Fr",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[142] 950 $A"
+   },
+   {
+    "value": "Williams, True",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[143] 950 $A"
+   },
+   {
+    "value": "Day, B",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[145] 950 $A"
+   },
+   {
+    "value": "Carolino, Pedro",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[147] 950 $A"
+   },
+   {
+    "value": "Smedley, W. T",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[148] 950 $A"
+   },
+   {
+    "value": "Beard, Daniel Carter",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[149] 950 $A"
+   },
+   {
+    "value": "Morel, E. D",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[150] 950 $A"
+   },
+   {
+    "value": "Dodge, Mapes James",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[151] 950 $A"
+   },
+   {
+    "value": "Loeb, Louis",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[152] 950 $A"
+   },
+   {
+    "value": "Morley, Christopher",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[153] 950 $A"
+   },
+   {
+    "value": "Smith, Henry Nash",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[154] 950 $A"
+   },
+   {
+    "value": "Gibson, William M",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[155] 950 $A"
+   },
+   {
+    "value": "Griffin, Stephen",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[157] 950 $A"
+   },
+   {
+    "value": "De Quille, Dan",
+    "lang": null,
+    "relation": "co-author/contributor (VIAF 950)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[158] 950 $A"
+   },
+   {
+    "value": "New York Public Library",
+    "lang": null,
+    "relation": "corporate co-author/contributor (VIAF 951)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[159] 951 $A"
+   },
+   {
+    "value": "Pierpont Morgan Library",
+    "lang": null,
+    "relation": "corporate co-author/contributor (VIAF 951)",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[160] 951 $A"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "raw": "DNB|118624822",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[204] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "raw": "LC|n  79021164",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[215] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "https://www.nli.org.il/en/authorities/987007269289205171",
+    "raw": "J9U|987007269289205171",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[218] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "https://www.idref.fr/027171876",
+    "raw": "SUDOC|027171876",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[222] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "https://www.idref.fr/137182333",
+    "raw": "SUDOC|137182333",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[224] 998 $2 (VIAF cluster member) (record for pseudonym Alden, Jean François, traducteur)"
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "raw": "WKP|Q7245",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[237] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "https://d-nb.info/gnd/1106407008",
+    "raw": "DNB|1106407008",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[245] 998 $2 (VIAF cluster member) (record for pseudonym Conte, Louis de)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "vtls000050376",
+    "raw": "(N6I)vtls000050376",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[0] 035 $a"
+   },
+   {
+    "value": "n79021164",
+    "raw": "n  79021164",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[1] 010 $a (LCCN)"
+   },
+   {
+    "value": "W2Z|90056487",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[197] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "UAE|Mill_a10002910",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[198] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNCHL|10000000000000000007139",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[199] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[200] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BAV|495_17906",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[201] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[202] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NUKAT|n  94200767",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[203] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SZ|118624822",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[205] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[206] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "CAOONL|ncf10128469",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[207] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NDL|00459304",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[208] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "DBC|87097969041957",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[209] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SKMASNL|vtls005928524",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[210] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[211] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "GRATEVE|178278",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[212] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "RERO|A000164542",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[213] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNF|11927291",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[214] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SIMACOB|7830883",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[216] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NLA|000035028957",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[217] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[223] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "PTBNP|46269",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[225] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NYNYRILM|1598",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[226] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SELIBR|98057",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[227] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "LNL|14733",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[228] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[229] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "B2Q|0000005713",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[230] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NTA|227880145",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[231] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[232] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NTA|068242964",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[233] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NKC|jn19981002263",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[234] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "ARBABN|000024237",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[235] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[236] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NSK|000047578",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[238] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "EGAXA|vtls000823270",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[239] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[240] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NII|DA00300263",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[241] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 77201",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[242] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "VLACC|000002392",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[243] 998 $2 (VIAF cluster member id)"
+   }
+  ],
+  "source": [
+   {
+    "value": "Alda-bar ȯnggelegsen erin caġ, 1985: v. 1, t.p. (Make Teveiin) colophon (Make Tuwen)",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[26] 670"
+   },
+   {
+    "value": "DAB, 1930 (Clemens, Samuel Langhorne, 1835-1910; better known under pseud. Mark Twain; also used name Quintus Curtius Snodgrass)",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[27] 670"
+   },
+   {
+    "value": "Geviksman, V. A. Print︠s︡ i nishchiĭ, 1984: t.p. (M. Tvena)",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[28] 670"
+   },
+   {
+    "value": "His Makū Touen tanpenshū, 1961.",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[29] 670"
+   },
+   {
+    "value": "His Personal recollections of Joan of Arc, 1923: v. 1-2, t.p. (the Sieur Louis de Conte; Jean François Alden) spine (Mark Twain)",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[30] 670"
+   },
+   {
+    "value": "Mark Twain's personal recollections of Joan of Arc, 1997: CIP t.p. (Sieur Louis de Conte) p. vii (Sieur Louis de Conte shared ... initials with Samuel L. Clemens)",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[31] 670"
+   },
+   {
+    "value": "Przygody Huck'a, 1912: t.p. (Marek Twain)",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[32] 670"
+   },
+   {
+    "value": "Wikipedia, via WWW, Oct. 18, 2011 (b. November 30, 1835 in Florida, Missouri; grew up in Hannibal, Missouri; d. April 21, 1910 in Redding, Connecticut; a writer and lecturer; wrote in genres of fiction, historical fiction, children's literature, non-fiction, travel literature, satire, essay, philosophical literature, social commentary, literary criticism)",
+    "lang": "en",
+    "via": "P10227__vtls000050376/conneg_3.json: datafield[33] 670"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2019-12-09",
+    "raw": "20191209173228",
+    "lang": null,
+    "via": "P10227__vtls000050376/conneg_3.json: controlfield 005"
+   }
+  ]
+ }
+}

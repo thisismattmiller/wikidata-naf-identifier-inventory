@@ -1,0 +1,32 @@
+{
+ "property": "P7689",
+ "label": "Online Nevada Encyclopedia ID",
+ "files_read": ["P7689__mark-twain/export_1.xml"],
+ "about_entity": true,
+ "notes": "RSS 2.0 feed of the site's front-page feature slides (10 items on Nevada topics such as Reno, Burning Man, Bonanza). Only the item titled 'Mark Twain' is about the entity; the other items were ignored.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "en", "via": "export_1.xml: /rss/channel/item[title='Mark Twain']/title"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "en", "via": "export_1.xml: item[title='Mark Twain']/description ('Writing under a pen name created in Virginia City')"}
+  ],
+  "activity_place": [
+   {"value": "Virginia City", "lang": "en", "via": "export_1.xml: item[title='Mark Twain']/description"},
+   {"value": "Nevada (the Silver State)", "lang": "en", "via": "export_1.xml: item[title='Mark Twain']/description"}
+  ],
+  "description": [
+   {"value": "Writing under a pen name created in Virginia City, Mark Twain left a legacy that echoes across the unique history of the Silver State.", "lang": "en", "via": "export_1.xml: item[title='Mark Twain']/description (field-name-body)"}
+  ],
+  "identifier": [
+   {"value": "mark-twain", "via": "export_1.xml: item[title='Mark Twain']/link (https://www.onlinenevada.org/mark-twain)"},
+   {"value": "1576", "via": "export_1.xml: item[title='Mark Twain']/guid ('1576 at https://www.onlinenevada.org', Drupal node id)"}
+  ],
+  "image": [
+   {"value": "https://www.onlinenevada.org/sites/default/files/Twain_Bradley_LOC.jpeg", "via": "export_1.xml: item[title='Mark Twain']/description (field-slide-image img src; credit: Library of Congress, Prints and Photographs Division)"}
+  ],
+  "record_created": [
+   {"value": "2014-04-10", "raw": "Thu, 10 Apr 2014 20:43:07 +0000", "via": "export_1.xml: item[title='Mark Twain']/pubDate"}
+  ]
+ }
+}

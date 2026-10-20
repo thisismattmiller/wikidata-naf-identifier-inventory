@@ -1,0 +1,810 @@
+{
+ "property": "P6385",
+ "property_label": "Krugosvet article (archived)",
+ "files": [
+  {
+   "file": "P6385__kultura_i_obrazovanie_literatura_TVEN_MARK.html_0d2b1c57/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://web.archive.org/web/20250813133323/https://www.krugosvet.ru/enc/kultura_i_obrazovanie/literatura/TVEN_MARK.html"
+  },
+  {
+   "file": "P6385__kultura_i_obrazovanie_literatura_TVEN_MARK.html_0d2b1c57/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://web.archive.org/web/20250813133323/https://www.krugosvet.ru/enc/kultura_i_obrazovanie/literatura/TVEN_MARK.html"
+  },
+  {
+   "file": "P6385__kultura_i_obrazovanie_literatura_TVEN_MARK.html_0d2b1c57/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://wayback-api.archive.org/services/context/notices?url=https%3A%2F%2Fwww.krugosvet.ru%2Fenc%2Fkultura_i_obrazovanie%2Fliteratura%2FTVEN_MARK.html&timestamp=20250813133323"
+  },
+  {
+   "file": "P6385__kultura_i_obrazovanie_literatura_TVEN_MARK.html_0d2b1c57/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://web.archive.org/__wb/sparkline?output=json&url=https%3A%2F%2Fwww.krugosvet.ru%2Fenc%2Fkultura_i_obrazovanie%2Fliteratura%2FTVEN_MARK.html&collection=web&nav=20250813133323"
+  },
+  {
+   "file": "P6385__kultura_i_obrazovanie_literatura_TVEN_MARK.html_0d2b1c57/browser_xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://web.archive.org/web/20250813133323/http://web.archive.org/screenshot/https://www.krugosvet.ru/enc/kultura_i_obrazovanie/literatura/TVEN_MARK.html"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 2,
+  "html": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "http://ogp.me/ns#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "TWAIN, MARK",
+    "lang": "en",
+    "via": "llm-page:article heading (translated; original Russian 'ТВЕН, МАРК')",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:first sentence 'real name'",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Твен",
+    "lang": "ru",
+    "via": "llm-page:Russian part of the article text",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:first sentence",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:first sentence",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:first sentence '(pseud.; real name – Samuel Langhorne Clemens)'",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:first paragraph",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:bio paragraph 3",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "village of Florida (Missouri)",
+    "lang": "en",
+    "via": "llm-page:first paragraph",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut",
+    "lang": "en",
+    "via": "llm-page:bio paragraph 3",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal",
+    "lang": "en",
+    "via": "llm-page:bio: childhood and newspaper",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "en",
+    "via": "llm-page:bio: 1861 move, silver mines",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City",
+    "lang": "en",
+    "via": "llm-page:bio: Territorial Enterprise staff 1862",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco",
+    "lang": "en",
+    "via": "llm-page:bio: 1864",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Hartford, Connecticut",
+    "lang": "en",
+    "via": "llm-page:bio: lived there 20 years from 1871",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Europe",
+    "lang": "en",
+    "via": "llm-page:bio: family moved to Europe 1891",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:first sentence 'American writer'",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "apprentice typesetter",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "river pilot",
+    "lang": "en",
+    "via": "llm-page:bio: pilot's license April 1859",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "prospector",
+    "lang": "en",
+    "via": "llm-page:bio: silver mines",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "en",
+    "via": "llm-page:bio: 'At 27, he became a professional journalist'",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:bio: humorous lectures",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "llm-page:bio: founded a publishing firm 1884",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:first sentence",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "TWAIN, MARK (pseud.; real name – Samuel Langhorne Clemens) (1835–1910), American writer. Born November 30, 1835, in the village of Florida (Missouri). He spent his childhood in the town of Hannibal on the Mississippi. He was an apprentice typesetter, and later, together with his brother, published a newspaper in Hannibal, then in Mescatine and Keokuk (Iowa). In 1857, he became an apprentice pilot, realizing his childhood dream of “knowing the river,” and in April 1859 he received his pilot’s lic",
+    "lang": "en",
+    "via": "llm-page:article first paragraph (machine-translated capture)",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Letters From the Earth",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Old Times on the Mississipi",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississipi",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee at King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, Detective",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "The Man that Corrupted Hadleyburg",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "What Is Man",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm-page:article text (Russian section)",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Olivia Langdon (wife, married 2 February 1870)",
+    "lang": "en",
+    "via": "llm-page:bio paragraph 2",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Langdon (brother-in-law, friend)",
+    "lang": "en",
+    "via": "llm-page:bio paragraph 2",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "C. L. Webster (husband of his niece; nominal head of his publishing firm)",
+    "lang": "en",
+    "via": "llm-page:bio paragraph 2",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Jean (daughter, d. 1909)",
+    "lang": "en",
+    "via": "llm-page:bio paragraph 3",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Susie (daughter, d. 1896)",
+    "lang": "en",
+    "via": "llm-page:bio paragraph 3",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Clara (daughter; published Letters From the Earth 1962)",
+    "lang": "en",
+    "via": "llm-page:bio paragraph 4",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "C.D. Warner (co-author of The Gilded Age)",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Oxford University (awarded Doctor of Literature, 1907)",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "kultura_i_obrazovanie/literatura/TVEN_MARK",
+    "lang": null,
+    "via": "llm-page:page URL path",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Foner F. Mark Twain – Social Critic. Moscow, 1961",
+    "lang": "en",
+    "via": "llm-page:Literature list",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Bobrova M. Mark Twain: An Essay on Creativity. Moscow, 1962",
+    "lang": "en",
+    "via": "llm-page:Literature list",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Startsev A.I. Mark Twain and America. Moscow, 1963",
+    "lang": "en",
+    "via": "llm-page:Literature list",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Mendelssohn M. Mark Twain. Moscow, 1964",
+    "lang": "en",
+    "via": "llm-page:Literature list",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Levidova I.M. Mark Twain: Bibliographic Index of Russian Translations and Critical Literature in Russian. Moscow, 1974",
+    "lang": "en",
+    "via": "llm-page:Literature list",
+    "file": "P6385.json",
+    "uri": false
+   },
+   {
+    "value": "Romm A. Mark Twain: An Essay on Creativity. Moscow, 1977",
+    "lang": "en",
+    "via": "llm-page:Literature list",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "© 1997-2025 Universal popular science encyclopedia Krugosvet",
+    "lang": "en",
+    "via": "llm-page:footer",
+    "file": "P6385.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en",
+   "ru"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": [],
+  "source": [
+   "en"
+  ],
+  "license": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 194,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://web.archive.org/web/20250813133323im_/https://www.krugosvet.ru/sites/krugosvet.ru/files/img06/1006476_O576.jpg"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 33,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "success"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 1036,
+   "path_count": 38,
+   "paths": [
+    {
+     "path": "years.2009[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2010[]",
+     "n": 12,
+     "sample": "1"
+    },
+    {
+     "path": "years.2012[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2013[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2015[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2016[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2017[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2018[]",
+     "n": 12,
+     "sample": "1"
+    },
+    {
+     "path": "years.2019[]",
+     "n": 12,
+     "sample": "1"
+    },
+    {
+     "path": "years.2020[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2021[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2022[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2023[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2024[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2025[]",
+     "n": 12,
+     "sample": "1"
+    },
+    {
+     "path": "first_ts",
+     "n": 1,
+     "sample": "20091118014223"
+    },
+    {
+     "path": "last_ts",
+     "n": 1,
+     "sample": "20250813133323"
+    },
+    {
+     "path": "status.2009",
+     "n": 1,
+     "sample": "444444444424"
+    },
+    {
+     "path": "status.2010",
+     "n": 1,
+     "sample": "244444444444"
+    },
+    {
+     "path": "status.2012",
+     "n": 1,
+     "sample": "444444444424"
+    },
+    {
+     "path": "status.2013",
+     "n": 1,
+     "sample": "444444424444"
+    },
+    {
+     "path": "status.2015",
+     "n": 1,
+     "sample": "444442444444"
+    },
+    {
+     "path": "status.2016",
+     "n": 1,
+     "sample": "444244442444"
+    },
+    {
+     "path": "status.2017",
+     "n": 1,
+     "sample": "444442424222"
+    },
+    {
+     "path": "status.2018",
+     "n": 1,
+     "sample": "222222222222"
+    },
+    {
+     "path": "status.2019",
+     "n": 1,
+     "sample": "233333332444"
+    },
+    {
+     "path": "status.2020",
+     "n": 1,
+     "sample": "444444442444"
+    },
+    {
+     "path": "status.2021",
+     "n": 1,
+     "sample": "444244424424"
+    },
+    {
+     "path": "status.2022",
+     "n": 1,
+     "sample": "444422442424"
+    },
+    {
+     "path": "status.2023",
+     "n": 1,
+     "sample": "442244442444"
+    },
+    {
+     "path": "status.2024",
+     "n": 1,
+     "sample": "442442444244"
+    },
+    {
+     "path": "status.2025",
+     "n": 1,
+     "sample": "244442424444"
+    },
+    {
+     "path": "nav.next",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav.prev",
+     "n": 1,
+     "sample": "20250809214229"
+    },
+    {
+     "path": "nav.monthPrev",
+     "n": 1,
+     "sample": "20250623123013"
+    },
+    {
+     "path": "nav.monthNext",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav.yearPrev",
+     "n": 1,
+     "sample": "20240617070711"
+    },
+    {
+     "path": "nav.yearNext",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Wayback copy of the Krugosvet article 'TWAIN, MARK'. The captured text is partly machine-translated to English (first half) and partly still in Russian (second half); offers a biography, discussion of works, and a Russian-language bibliography.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

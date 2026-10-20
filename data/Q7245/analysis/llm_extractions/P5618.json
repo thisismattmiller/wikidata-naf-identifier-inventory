@@ -1,0 +1,21 @@
+{
+ "property": "P5618",
+ "label": "LOA ID",
+ "files_read": ["P5618__253/embedded_opengraph.json", "P5618__253/alternate_3.json"],
+ "about_entity": true,
+ "notes": "Library of America writer page: OpenGraph metadata and a WordPress oEmbed JSON (embed HTML + thumbnail). The oEmbed author_name (Ben Lasman) is the page's WordPress author, not related to Twain.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "en", "via": "alternate_3.json: $.html blockquote link text; embedded_opengraph.json: og:title 'Mark Twain - Library of America'"}
+  ],
+  "image": [
+   {"value": "https://www.loa.org/wp-content/uploads/2023/08/twain_mark_WD_NEW-1.jpg", "via": "embedded_opengraph.json: $[0]['og:image']; alternate_3.json: $.thumbnail_url"}
+  ],
+  "identifier": [
+   {"value": "253", "raw": "https://www.loa.org/writers/253-mark-twain/", "via": "embedded_opengraph.json: $[0]['og:url']"}
+  ],
+  "record_modified": [
+   {"value": "2024-01-10", "raw": "2024-01-10T21:20:14+00:00", "via": "embedded_opengraph.json: $[0]['article:modified_time']"}
+  ]
+ }
+}

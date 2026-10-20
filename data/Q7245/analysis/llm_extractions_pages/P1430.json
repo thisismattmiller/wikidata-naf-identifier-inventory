@@ -1,0 +1,32 @@
+{
+ "property": "P1430",
+ "label": "Open Plaques subject ID",
+ "files_read": ["pages/P1430__1709.txt", "pages/P1430__252.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "OpenPlaques subject 252 is Mark Twain: dates, a one-line description, a small family tree and 6 commemorating plaques with locations. Subject 1709 is a different person (James Wallace Richard Hall, 1799-1860) and was ignored.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading (subject 252)"}],
+  "birth_date": [{"value": "1835", "raw": "(1835-1910)", "lang": null, "via": "heading dates"}],
+  "death_date": [{"value": "1910", "raw": "(1835-1910)", "lang": null, "via": "heading dates"}],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "subtitle 'writer and journalist'"},
+   {"value": "journalist", "lang": "en", "via": "subtitle 'writer and journalist'"}
+  ],
+  "description": [{"value": "writer and journalist. Died aged c. 75", "lang": "en", "via": "subtitle under heading"}],
+  "activity_place": [
+   {"value": "London, England", "lang": "en", "via": "plaque location"},
+   {"value": "Tuttletown, CA", "lang": "en", "via": "plaque location"},
+   {"value": "Louisville, KY", "raw": "Kentucky Historical Marker #1724 Louisville, KY", "lang": "en", "via": "plaque location"},
+   {"value": "Virginia City, NV", "raw": "Nevada Historical Marker #28", "lang": "en", "via": "plaque location"},
+   {"value": "Carson City, NV", "raw": "Nevada Historical Marker #78", "lang": "en", "via": "plaque location"},
+   {"value": "Imlay, NV", "raw": "Nevada Historical Marker #232 (Reunion In Unionville)", "lang": "en", "via": "plaque location"}
+  ],
+  "related_agent": [
+   {"value": "John Marshall Clemens (1798-1847) (father)", "via": "Family tree"},
+   {"value": "Jane Lampton (1803-1891) (mother)", "via": "Family tree"},
+   {"value": "Orion Clemens (1825-1897) (brother), Secretary of the Nevada Territory", "via": "Family tree"}
+  ],
+  "identifier": [{"value": "252", "via": "subjects 252 under heading"}]
+ }
+}

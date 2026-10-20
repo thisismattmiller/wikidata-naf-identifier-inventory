@@ -1,0 +1,265 @@
+{
+ "property": "P1260",
+ "property_label": "Swedish Open Cultural Heritage URI",
+ "files": [
+  {
+   "file": "P1260__LSH_agents_30192_b0379bee/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://samlingar.shm.se/person/FE94A400-1095-4FA3-873A-712CFB13D288"
+  },
+  {
+   "file": "P1260__LSH_agents_30192_b0379bee/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://samlingar.shm.se/person/FE94A400-1095-4FA3-873A-712CFB13D288"
+  },
+  {
+   "file": "P1260__LSH_agents_30192_b0379bee/conneg_1.jsonld",
+   "format": "json-ld",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://kulturarvsdata.se/LSH/agents/30192"
+  },
+  {
+   "file": "P1260__LSH_agents_30192_b0379bee/conneg_2.rdf",
+   "format": "rdf-xml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://kulturarvsdata.se/LSH/agents/30192"
+  },
+  {
+   "file": "P1260__LSH_agents_30192_b0379bee/conneg_4.jsonld",
+   "format": "json-ld",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://kulturarvsdata.se/LSH/agents/30192"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json-ld": 2,
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "http://kulturarvsdata.se/ksamsok#": 54,
+  "http://ogp.me/ns#": 6,
+  "http://xmlns.com/foaf/0.1/": 6,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 3,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "Förnamn: Clemens Samuel. Efternamn: Langhorne, Mark Twain. Externa källor: Langhorne, Mark Twain, Clemens Samuel på WIKIDATA. Relaterade föremål: Visa 1 relaterat föremål",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Clemens Samuel",
+    "lang": null,
+    "via": "firstName",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Clemens Samuel",
+    "lang": "sv",
+    "via": "llm-page:Förnamn",
+    "file": "P1260.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Langhorne, Mark Twain",
+    "lang": null,
+    "via": "surname",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Langhorne, Mark Twain",
+    "lang": "sv",
+    "via": "llm-page:Efternamn",
+    "file": "P1260.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://kulturarvsdata.se/ksamsok#Entity",
+    "lang": null,
+    "via": "type",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=artist&objectId=30192&viewType=detailView",
+    "lang": null,
+    "via": "url",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Langhorne, Mark Twain, Clemens Samuel",
+    "lang": "sv",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P1260.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "FE94A400-1095-4FA3-873A-712CFB13D288",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P1260.json",
+    "uri": false
+   },
+   {
+    "value": "https://samlingar.shm.se/person/FE94A400-1095-4FA3-873A-712CFB13D288",
+    "lang": null,
+    "via": "llm-page:URI",
+    "file": "P1260.json",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:Födelsedatum",
+    "file": "P1260.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "Wikidata",
+    "lang": null,
+    "via": "llm-page:Externa källor 'Langhorne, Mark Twain, Clemens Samuel på WIKIDATA' (link label only)",
+    "file": "P1260.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "CC0",
+    "lang": null,
+    "via": "llm-page:'All textinformation (metadata) på denna sida är fri att använda enligt licensen CC0'",
+    "file": "P1260.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [],
+  "given_name": [
+   "sv"
+  ],
+  "family_name": [
+   "sv"
+  ],
+  "type": [],
+  "see_also": [],
+  "name_preferred": [
+   "sv"
+  ],
+  "identifier": [],
+  "birth_date": [],
+  "same_as": [],
+  "license": []
+ },
+ "unmapped": {
+  "serviceName (http://kulturarvsdata.se/ksamsok#)": 3,
+  "mediaType (http://kulturarvsdata.se/ksamsok#)": 3,
+  "itemSuperType (http://kulturarvsdata.se/ksamsok#)": 3,
+  "nameId (http://kulturarvsdata.se/ksamsok#)": 3,
+  "lastChangedDate (http://kulturarvsdata.se/ksamsok#)": 3,
+  "itemLicenseUrl (http://kulturarvsdata.se/ksamsok#)": 3,
+  "presentation (http://kulturarvsdata.se/ksamsok#)": 3,
+  "itemLicense (http://kulturarvsdata.se/ksamsok#)": 3,
+  "itemName (http://kulturarvsdata.se/ksamsok#)": 3,
+  "createdDate (http://kulturarvsdata.se/ksamsok#)": 3,
+  "serviceOrganization (http://kulturarvsdata.se/ksamsok#)": 3,
+  "nameAuth (http://kulturarvsdata.se/ksamsok#)": 3,
+  "itemLabel (http://kulturarvsdata.se/ksamsok#)": 3,
+  "ksamsokVersion (http://kulturarvsdata.se/ksamsok#)": 3,
+  "dataQuality (http://kulturarvsdata.se/ksamsok#)": 3,
+  "buildDate (http://kulturarvsdata.se/ksamsok#)": 3,
+  "itemType (http://kulturarvsdata.se/ksamsok#)": 3
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 483,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Langhorne, Mark Twain, Clemens Samuel"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://samlingar.shm.se/person/FE94A400-1095-4FA3-873A-712CFB13D288"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Förnamn: Clemens Samuel. Efternamn: Langhorne, Mark Twain. Externa källor: Langhorne, Mark Twain, Clemens Samuel på WIKI"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "sv_SE"
+    },
+    {
+     "path": "[].og:siteName",
+     "n": 1,
+     "sample": "Sök i samlingarna"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Langhorne, Mark Twain, Clemens Samuel"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Förnamn: Clemens Samuel. Efternamn: Langhorne, Mark Twain. Externa källor: Langhorne, Mark Twain, Clemens Samuel på WIKIDATA. Relaterade föremål: Visa 1 relaterat föremål"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Statens historiska museer (SHM) collections person record with garbled name split (given 'Clemens Samuel', family 'Langhorne, Mark Twain'), birth year 1835, a Wikidata link, one related object, and its own URI; metadata CC0. Mostly cookie banner text otherwise.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

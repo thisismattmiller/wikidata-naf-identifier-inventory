@@ -1,0 +1,18 @@
+{
+ "property": "P5408",
+ "label": "Fantastic Fiction author ID",
+ "files_read": [
+  "P5408__t_mark-twain_afeb0f29/embedded_microdata.json"
+ ],
+ "about_entity": true,
+ "notes": "Single schema.org Person stub with only a name.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "embedded_microdata.json: $[0].name"
+   }
+  ]
+ }
+}

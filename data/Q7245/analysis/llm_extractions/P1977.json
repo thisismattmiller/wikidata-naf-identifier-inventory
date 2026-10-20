@@ -1,0 +1,14 @@
+{
+ "property": "P1977",
+ "label": "Les Archives du spectacle person ID",
+ "files_read": ["P1977__21935/embedded_microdata.json", "P1977__21935/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "schema.org Person microdata and OpenGraph tags of the person page. og:description is generic site boilerplate, not a description of the person.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": null, "via": "embedded_microdata.json: $[0].name"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "1835-11-30", "lang": null, "via": "embedded_microdata.json: $[0].birthDate"}],
+  "death_date": [{"value": "1910-04-21", "raw": "1910-04-21", "lang": null, "via": "embedded_microdata.json: $[0].deathDate"}],
+  "gender": [{"value": "male", "lang": "en", "via": "embedded_microdata.json: $[0].gender"}],
+  "identifier": [{"value": "21935", "raw": "https://lesarchivesduspectacle.net/p/21935-Mark-Twain", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

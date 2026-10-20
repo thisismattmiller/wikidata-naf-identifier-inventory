@@ -1,0 +1,784 @@
+{
+ "property": "P5341",
+ "property_label": "Poetry Foundation ID",
+ "files": [
+  {
+   "file": "P5341__mark-twain/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.poetryfoundation.org/poets/mark-twain"
+  },
+  {
+   "file": "P5341__mark-twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.poetryfoundation.org/poets/mark-twain"
+  },
+  {
+   "file": "P5341__mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.poetryfoundation.org/poets/mark-twain"
+  },
+  {
+   "file": "P5341__mark-twain/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.poetryfoundation.org/_nuxt/builds/meta/d4e9a660-4dfd-4ac4-8480-e789f757d8fa.json"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 17,
+  "http://ogp.me/ns#": 10,
+  "http://ogp.me/ns/fb#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://s3-us-east-2.amazonaws.com/cdn.poetryfoundation.org/content/images/_1200x630_crop_center-center_82_none/eaa8d241ddd45dc25c8e14541c14eea1833c5600.jpeg?mtime=1717161754",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:image']",
+    "file": "P5341.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:bio first sentence",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "S.L.C.",
+    "lang": "en",
+    "via": "llm-page:bio 'under the pseudonym S.L.C.' (Carpet-Bag piece)",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": "en",
+    "via": "llm-page:heading dates / bio",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "near Redding, Connecticut",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "en",
+    "via": "llm-page:bio (childhood)",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Keokuk, Iowa",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi River",
+    "lang": "en",
+    "via": "llm-page:bio (steamboat pilot)",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada / Virginia City",
+    "lang": "en",
+    "via": "llm-page:bio (Territorial Enterprise)",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco, California",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Buffalo",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Quarry Farm",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Hartford, Connecticut",
+    "lang": "en",
+    "via": "llm-page:bio (lived 20 years)",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Florence, Italy",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "New York City",
+    "lang": "en",
+    "via": "llm-page:bio (last years)",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Bermuda",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "novelist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "fiction writer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "essayist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "literary critic",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "typesetter",
+    "lang": "en",
+    "via": "llm-page:bio (apprentice)",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "steamboat pilot",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "poet",
+    "lang": "en",
+    "via": "llm-page:Poems by Mark Twain section",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "1781-1900",
+    "lang": "en",
+    "via": "llm-page:More about this poet facets",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Victorian",
+    "lang": "en",
+    "via": "llm-page:More about this poet facets",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "North America",
+    "lang": "en",
+    "via": "llm-page:More about this poet facets",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "U.S., Southern",
+    "lang": "en",
+    "via": "llm-page:More about this poet facets",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:bio 'great figures of American literature'",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens, better known as Mark Twain, was born in Florida, Missouri, in 1835. A distinguished novelist, fiction writer, essayist, journalist, and literary critic, he ranks among the great figures of American literature. His novel The Adventures of Huckleberry Finn (1885) is generally considered his masterpiece. His novels A Connecticut Yankee in King Arthur’s Court (1889) and The Adventures of Tom Sawyer (1876), and The Innocents Abroad (1869), a travelogue and cultural critique,",
+    "lang": "en",
+    "via": "llm-page:bio first paragraph",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur’s Court",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County, and Other Sketches",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Old Times on the Mississippi",
+    "lang": null,
+    "via": "llm-page:bio (magazine articles)",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd’nhead Wilson and the Comedy of Those Extraordinary Twins",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "The Man that Corrupted Hadleyburg",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "The Complete Mark Twain",
+    "lang": null,
+    "via": "llm-page:bio (collections)",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "The Outrageous Mark Twain",
+    "lang": null,
+    "via": "llm-page:bio (collections)",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Collected Tales, Sketches, Speeches, and Essays",
+    "lang": null,
+    "via": "llm-page:bio (collections)",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Ode to Stephen Dowling Bots, Dec'd.",
+    "lang": null,
+    "via": "llm-page:Poems by Mark Twain",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Warm Summer Sun",
+    "lang": null,
+    "via": "llm-page:Poems by Mark Twain",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Orion Clemens (brother)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Horace Bixby (steamboat captain, mentor)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Isaiah Sellers (riverboat captain who earlier used the pseudonym Mark Twain)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Artemus Ward (humorist who requested the Jumping Frog piece)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Langdon (friend, brother-in-law)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Langdon (wife)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Jervis Langdon (father-in-law)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Susan Clemens (daughter, died 1896)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Harriet Beecher Stowe (Hartford neighbour)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dudley Warner (neighbour, co-author of The Gilded Age)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Charles L. Webster (nephew, business manager, publisher)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "James L. Paige (typesetting machine inventor)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Harper (publishers of his complete works)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "H.L. Mencken (critic)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Ernest Hemingway (praised Huckleberry Finn)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Robert Keith Miller (critic, author of Mark Twain, 1983)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "Clive James (essayist)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   },
+   {
+    "value": "University of California Press (publishing the Twain archives)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P5341.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.marktwainproject.org",
+    "lang": null,
+    "via": "llm-page:link under heading",
+    "file": "P5341.json",
+    "uri": true
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "image": [],
+  "identifier": [],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [],
+  "related_agent": [],
+  "same_as": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 624,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "en_US"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "The Poetry Foundation"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.poetryfoundation.org/poets/mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Poems, readings, poetry news and the entire 110-year archive of POETRY magazine."
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://s3-us-east-2.amazonaws.com/cdn.poetryfoundation.org/content/images/_1200x630_crop_center-center_82_none/eaa8d241"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "1200"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "630"
+    },
+    {
+     "path": "[].og:image:alt",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:url",
+     "value": "https://www.poetryfoundation.org/poets/mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:image:alt",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 88,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "id",
+     "n": 1,
+     "sample": "d4e9a660-4dfd-4ac4-8480-e789f757d8fa"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "1790857236188"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  }
+ ],
+ "llm_notes": "Poetry Foundation poet page: long biographical essay (childhood, river pilot, journalism, marriage, Hartford, financial ruin, family deaths), two poems, and poet facets (period 1781-1900, Victorian, North America, U.S. Southern). Gives the first Jumping Frog book as 1865 (sic).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

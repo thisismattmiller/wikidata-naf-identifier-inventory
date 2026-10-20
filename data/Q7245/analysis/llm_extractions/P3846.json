@@ -1,0 +1,84 @@
+{
+ "property": "P3846",
+ "label": "DBC author ID",
+ "files_read": ["P3846__87097968223113/conneg_3.json"],
+ "about_entity": true,
+ "notes": "MARC21 authority (MARCXML-as-JSON, VIAF cluster format) for the DBC record 87097968223113, whose 100 heading is the pseudonym 'Conte, Louis de'; it also carries VIAF 998 links to Twain headings from many sources. File was listed twice in the batch. Gender 375 is ISO 5218 code 1 (male). same_as URIs from 996 are VIAF-cluster source codes (SOURCE|id) expanded to standard URI patterns; codes without a deterministic URI pattern (BNF, NKC, BAV, J9U, BIBSYS, NUKAT, NSK, ARBABN, SKMASNL) were left out.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Conte, Louis de", "lang": null, "via": "conneg_3.json: datafield 100 $a"}
+  ],
+  "name_variant": [
+   {"value": "Twain, Mark", "lang": null, "via": "conneg_3.json: datafield 950 $A; 998 $a"},
+   {"value": "Clemens, Samuel Langhorne (Mark Twain)", "lang": null, "via": "conneg_3.json: datafield 998 $a (NYNYRILM|1598)"},
+   {"value": "Mark Twain", "lang": null, "via": "conneg_3.json: datafield 998 $a (WKP|Q7245)"},
+   {"value": "Twain, M. (Mark)", "lang": null, "raw": "$a Twain $b M. $g Mark", "via": "conneg_3.json: datafield 998 (NLR|RU NLR AUTH 7759057)"},
+   {"value": "Твен, Марк", "lang": "ru", "via": "conneg_3.json: datafield 998 $a (J9U|987007269289205171)"},
+   {"value": "טוין, מרק", "lang": "he", "via": "conneg_3.json: datafield 998 $a (J9U|987007269289205171)"},
+   {"value": "توين، مارك", "lang": "ar", "via": "conneg_3.json: datafield 998 $a (J9U|987007269289205171)"}
+  ],
+  "pseudonym": [
+   {"value": "Louis de Conte", "lang": null, "raw": "Conte, Louis de", "via": "conneg_3.json: datafield 100 $a"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "1835", "lang": null, "via": "conneg_3.json: datafield 046 $f"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "1910", "lang": null, "via": "conneg_3.json: datafield 046 $g"}
+  ],
+  "gender": [
+   {"value": "male", "raw": "1 (iso5218)", "lang": null, "via": "conneg_3.json: datafield 375 $a"}
+  ],
+  "nationality": [
+   {"value": "us", "raw": "us", "lang": null, "via": "conneg_3.json: datafield 043 $c; 947 $a"}
+  ],
+  "language": [
+   {"value": "dan", "raw": "dan", "lang": null, "via": "conneg_3.json: datafield 940 $a (language of works)"}
+  ],
+  "work": [
+   {"value": "Personal recollections of Joan of Arc", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Personlige erindringer om Jeanne d'Arc", "lang": "da", "via": "conneg_3.json: datafield 910 $A"}
+  ],
+  "related_agent": [
+   {"value": "Twain, Mark", "relation": "same person (pseudonym's main identity)", "via": "conneg_3.json: datafield 950 $A"}
+  ],
+  "same_as": [
+   {"value": "http://viaf.org/viaf/305239133", "via": "conneg_3.json: datafield 025 $a ($2 viaf)"},
+   {"value": "https://isni.org/isni/0000000418649406", "via": "conneg_3.json: datafield 025 $a ($2 isni)"},
+   {"value": "https://isni.org/isni/0000000108000249", "via": "conneg_3.json: datafield 025 $a ($2 isni)"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "conneg_3.json: datafield 998 $2 WKP|Q7245 (suggested)"},
+   {"value": "http://id.loc.gov/authorities/names/no2003079632", "via": "conneg_3.json: datafield 998 $2 LC|no2003079632"},
+   {"value": "https://isni.org/isni/0000000121324854", "via": "conneg_3.json: datafield 996 $2 ISNI|0000000121324854"},
+   {"value": "http://www.wikidata.org/entity/Q114428800", "via": "conneg_3.json: datafield 996 $2 WKP|Q114428800"},
+   {"value": "http://www.wikidata.org/entity/Q100755762", "via": "conneg_3.json: datafield 996 $2 WKP|Q100755762"},
+   {"value": "http://www.wikidata.org/entity/Q103831390", "via": "conneg_3.json: datafield 996 $2 WKP|Q103831390"},
+   {"value": "http://id.loc.gov/authorities/names/n97870032", "via": "conneg_3.json: datafield 996 $2 LC|n  97870032"},
+   {"value": "http://id.loc.gov/authorities/names/n2014015528", "via": "conneg_3.json: datafield 996 $2 LC|n 2014015528"},
+   {"value": "http://id.loc.gov/authorities/names/n86838114", "via": "conneg_3.json: datafield 996 $2 LC|n  86838114"},
+   {"value": "http://id.loc.gov/authorities/names/no91006158", "via": "conneg_3.json: datafield 996 $2 LC|no 91006158"},
+   {"value": "http://id.loc.gov/authorities/names/n2010052335", "via": "conneg_3.json: datafield 996 $2 LC|n 2010052335"},
+   {"value": "https://d-nb.info/gnd/1106407008", "via": "conneg_3.json: datafield 996 $2 DNB|1106407008"},
+   {"value": "https://d-nb.info/gnd/1047952580", "via": "conneg_3.json: datafield 996 $2 DNB|1047952580"},
+   {"value": "https://d-nb.info/gnd/134625897", "via": "conneg_3.json: datafield 996 $2 DNB|134625897"},
+   {"value": "https://d-nb.info/gnd/134625889", "via": "conneg_3.json: datafield 996 $2 DNB|134625889"},
+   {"value": "https://www.idref.fr/119292017", "via": "conneg_3.json: datafield 996 $2 SUDOC|119292017"},
+   {"value": "https://www.idref.fr/15569149X", "via": "conneg_3.json: datafield 996 $2 SUDOC|15569149X"},
+   {"value": "https://www.idref.fr/114282250", "via": "conneg_3.json: datafield 996 $2 SUDOC|114282250"},
+   {"value": "https://www.idref.fr/193583445", "via": "conneg_3.json: datafield 996 $2 SUDOC|193583445"},
+   {"value": "https://www.idref.fr/275850889", "via": "conneg_3.json: datafield 996 $2 SUDOC|275850889"}
+  ],
+  "identifier": [
+   {"value": "87097968223113", "raw": "DBC|87097968223113", "via": "conneg_3.json: controlfield 001"},
+   {"value": "870979.68223113", "raw": "(DBC)870979.68223113", "via": "conneg_3.json: datafield 035 $a"}
+  ],
+  "source": [
+   {"value": "DBC (cataloguing language dan)", "via": "conneg_3.json: datafield 040 $a/$b"}
+  ],
+  "record_created": [
+   {"value": "2013-11-29", "raw": "20131129", "via": "conneg_3.json: controlfield 008 pos 0-7"}
+  ],
+  "record_modified": [
+   {"value": "2022-07-26", "raw": "20220726091000", "via": "conneg_3.json: controlfield 005"}
+  ]
+ }
+}

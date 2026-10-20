@@ -1,0 +1,467 @@
+{
+ "property": "P2799",
+ "property_label": "BVMC person ID",
+ "files": [
+  {
+   "file": "P2799__778/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://data.cervantesvirtual.com/person/778"
+  },
+  {
+   "file": "P2799__778/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://data.cervantesvirtual.com/person/778"
+  },
+  {
+   "file": "P2799__778/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://data.cervantesvirtual.com/person/778"
+  },
+  {
+   "file": "P2799__778/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://data.cervantesvirtual.com/person/778"
+  },
+  {
+   "file": "P2799__778/export_1.rdf",
+   "format": "rdf-xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.cervantesvirtual.com/getRDF?uri=https://data.cervantesvirtual.com/person/778"
+  },
+  {
+   "file": "P2799__778/export_2.jsonld",
+   "format": "json-ld",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.cervantesvirtual.com/getRDF?uri=https://data.cervantesvirtual.com/person/778&format=jsonld"
+  },
+  {
+   "file": "P2799__778/export_3.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.cervantesvirtual.com/sparql"
+  },
+  {
+   "file": "P2799__778/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://data.cervantesvirtual.com/cdn-cgi/rum?"
+  },
+  {
+   "file": "P2799__778/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://data.cervantesvirtual.com/sparql"
+  },
+  {
+   "file": "P2799__778/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://data.cervantesvirtual.com/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 2,
+  "opengraph": 1,
+  "rdfa": 1,
+  "rdf-xml": 1,
+  "html": 3,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://rdaregistry.info/Elements/a/": 14,
+  "http://ogp.me/ns#": 6,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 4,
+  "http://purl.org/dc/terms/": 4,
+  "http://www.w3.org/2000/01/rdf-schema#": 2,
+  "http://www.w3.org/2002/07/owl#": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "json:itemListElement.name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "nameOfThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "es",
+    "via": "llm-page:page heading",
+    "file": "P2799.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "es",
+    "via": "llm-page:Nombre",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://rdaregistry.info/Elements/c/Person",
+    "lang": null,
+    "via": "type",
+    "file": "export_1.rdf",
+    "uri": true
+   }
+  ],
+  "record_created": [
+   {
+    "value": "02/02/2026",
+    "lang": null,
+    "via": "created",
+    "file": "export_1.rdf",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "http://www.cervantesvirtual.com",
+    "lang": null,
+    "via": "creator",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://data.cervantesvirtual.com/work/2789",
+    "lang": null,
+    "via": "^author",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "Las aventuras de Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Rol autor (1 obra)",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "https://data.cervantesvirtual.com/date/1910",
+    "lang": null,
+    "via": "dateOfDeath",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:Fecha de fallecimiento",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "sameAs",
+    "file": "export_1.rdf",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "https://data.cervantesvirtual.com/date/1835",
+    "lang": null,
+    "via": "dateOfBirth",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:Fecha de nacimiento",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": null,
+    "via": "llm-page:Variantes de nombre",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel",
+    "lang": "es",
+    "via": "llm-page:Nombre de pila",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": "es",
+    "via": "llm-page:Lugar de nacimiento",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "es",
+    "via": "llm-page:Lugar de fallecimiento",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "masculino",
+    "lang": "es",
+    "via": "llm-page:Género",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Estados Unidos",
+    "lang": "es",
+    "via": "llm-page:Nacionalidad",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "escritor estadounidense",
+    "lang": "es",
+    "via": "llm-page:subtitle (extracted from Wikipedia)",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "J. Torroba (translator, Las aventuras de Tom Sawyer)",
+    "lang": null,
+    "via": "llm-page:work statement of responsibility",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "778",
+    "lang": null,
+    "via": "llm-page:Identificador",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Wikipedia (CC BY-SA 3.0)",
+    "lang": null,
+    "via": "llm-page:description attribution",
+    "file": "P2799.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "es"
+  ],
+  "type": [],
+  "record_created": [],
+  "name_variant": [],
+  "work": [],
+  "death_date": [],
+  "same_as": [],
+  "birth_date": [],
+  "pseudonym": [],
+  "given_name": [
+   "es"
+  ],
+  "birth_place": [
+   "es"
+  ],
+  "death_place": [
+   "es"
+  ],
+  "gender": [
+   "es"
+  ],
+  "nationality": [
+   "es"
+  ],
+  "description": [
+   "es"
+  ],
+  "related_agent": [],
+  "identifier": [],
+  "source": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2,
+  "identifierForThePerson (http://rdaregistry.info/Elements/a/)": 2,
+  "authorOf (http://rdaregistry.info/Elements/a/)": 2,
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 473,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].itemListElement[].@type",
+     "n": 3,
+     "sample": "ListItem"
+    },
+    {
+     "path": "[].itemListElement[].name",
+     "n": 3,
+     "sample": "Inicio"
+    },
+    {
+     "path": "[].itemListElement[].position",
+     "n": 3,
+     "sample": "1"
+    },
+    {
+     "path": "[].itemListElement[].item",
+     "n": 2,
+     "sample": "https://data.cervantesvirtual.com/"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "BreadcrumbList"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].itemListElement[].name",
+     "value": "Twain, Mark, 1835-1910"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 403,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark, 1835-1910 - BVMC.Labs"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://data.cervantesvirtual.com/person/778"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "http://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "escritor estadounidense"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Laboratorio de la Biblioteca Virtual Miguel de Cervantes"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark, 1835-1910 - BVMC.Labs"
+    },
+    {
+     "path": "[].og:image",
+     "value": "http://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "BVMC.Labs linked-data person page: name, dates, places, variants, VIAF link, one digitised work (Spanish Tom Sawyer translation). 'Autores contemporáneos' sidebar lists unrelated people (ignored). Wikidata and Wikimedia Commons links are shown as link text only.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

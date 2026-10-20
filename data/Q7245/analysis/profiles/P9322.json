@@ -1,0 +1,384 @@
+{
+ "property": "P9322",
+ "property_label": "SVKKL authority ID",
+ "files": [
+  {
+   "file": "P9322__0208796-Conte-Louis-de-18351910/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://ipac.svkkl.cz/arl-kl/cs/detail-kl_us_auth-0208796-Conte-Louis-de-18351910/"
+  },
+  {
+   "file": "P9322__0208796-Conte-Louis-de-18351910/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://ipac.svkkl.cz/arl-kl/cs/detail-kl_us_auth-0208796-Conte-Louis-de-18351910/"
+  },
+  {
+   "file": "P9322__0208796-Conte-Louis-de-18351910/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://ipac.svkkl.cz/arl-kl/cs/detail-kl_us_auth-0208796-Conte-Louis-de-18351910/"
+  },
+  {
+   "file": "P9322__0208796-Conte-Louis-de-18351910/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://ipac.svkkl.cz/arl-kl/cs/detail-kl_us_auth-0208796-Conte-Louis-de-18351910/"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 10,
+  "https://ogp.me/ns/og#": 7,
+  "http://www.w3.org/1999/xhtml/vocab#": 3,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 2,
+  "https://ogp.me/ns/profile#": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/WebPage",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://ipac.svkkl.cz/arl-kl/cs/detail-kl_us_auth-0208796-Conte-Louis-de-18351910/",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Detail záznamu",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Louis de Conte",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": null,
+    "via": "llm-page:Osobní jméno",
+    "file": "P9322.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Detailní zobrazení záznamu",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s iniciálami skutečného Twainova jména Samuel Langhorne Clemens.",
+    "lang": "cs",
+    "via": "llm-page:Poznámka",
+    "file": "P9322.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Louis de",
+    "lang": null,
+    "via": "givenName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Conte",
+    "lang": null,
+    "via": "familyName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Ludvík de Conte, 1835-1910",
+    "lang": "cs",
+    "via": "llm-page:Jiné jméno",
+    "file": "P9322.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Ludvík de, 1835-1910",
+    "lang": "cs",
+    "via": "llm-page:Jiné jméno",
+    "file": "P9322.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:Viz též",
+    "file": "P9322.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": "cs",
+    "via": "llm-page:Poznámka",
+    "file": "P9322.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Panna ve zbroji. Životní příběhy Panny orleánské",
+    "lang": "cs",
+    "via": "llm-page:Poznámka",
+    "file": "P9322.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Twain, Mark, 1835-1910 (see also; real author behind the pseudonym)",
+    "lang": "cs",
+    "via": "llm-page:Viz též",
+    "file": "P9322.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "0208796",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P9322.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "www(Internet Medieval Sourcebook)",
+    "lang": null,
+    "via": "llm-page:Zdroj dat",
+    "file": "P9322.json",
+    "uri": false
+   },
+   {
+    "value": "LC (Names)",
+    "lang": null,
+    "via": "llm-page:Zdroj dat",
+    "file": "P9322.json",
+    "uri": false
+   },
+   {
+    "value": "NKC-PH",
+    "lang": null,
+    "via": "llm-page:Zdroj dat",
+    "file": "P9322.json",
+    "uri": false
+   },
+   {
+    "value": "Databáze národních autorit NK ČR",
+    "lang": "cs",
+    "via": "llm-page:Odkazy",
+    "file": "P9322.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "see_also": [],
+  "name_preferred": [],
+  "description": [
+   "cs"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "given_name": [],
+  "family_name": [],
+  "name_variant": [
+   "cs"
+  ],
+  "pseudonym": [
+   "cs"
+  ],
+  "work": [
+   "cs"
+  ],
+  "related_agent": [
+   "cs"
+  ],
+  "identifier": [],
+  "source": [
+   "cs"
+  ]
+ },
+ "unmapped": {
+  "inLanguage (http://schema.org/)": 1,
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 306,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 2,
+     "sample": "Organization"
+    },
+    {
+     "path": "[].@context",
+     "n": 2,
+     "sample": "https://schema.org"
+    },
+    {
+     "path": "[].url",
+     "n": 2,
+     "sample": "http://www.svkkl.cz/"
+    },
+    {
+     "path": "[].name",
+     "n": 2,
+     "sample": "Středočeská vědecká knihovna v Kladně"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 559,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://ipac.svkkl.cz/arl-kl/cs/detail-kl_us_auth-0208796-Conte-Louis-de-18351910/"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Conte, Louis de, 1835-1910"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.obalkyknih.cz/view_auth?auth_id=jn20000701083"
+    },
+    {
+     "path": "[].og:image:secure_url",
+     "n": 1,
+     "sample": "https://www.obalkyknih.cz/view_auth?auth_id=jn20000701083"
+    },
+    {
+     "path": "[].og:image:type",
+     "n": 1,
+     "sample": "image/png"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "740"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "510"
+    },
+    {
+     "path": "[].profile:first_name",
+     "n": 1,
+     "sample": "Louis de"
+    },
+    {
+     "path": "[].profile:last_name",
+     "n": 1,
+     "sample": "Conte"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    },
+    {
+     "path": "[].@context.profile",
+     "n": 1,
+     "sample": "http://ogp.me/ns/profile#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:url",
+     "value": "https://ipac.svkkl.cz/arl-kl/cs/detail-kl_us_auth-0208796-Conte-Louis-de-18351910/"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Conte, Louis de, 1835-1910"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Kladno IPAC authority record for the pseudonym 'Conte, Louis de, 1835-1910' with variant names, see-also to Twain, Mark, sources and a Czech note explaining the pseudonym. The Twain, Mark record (p0010802) returned HTTP 404.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

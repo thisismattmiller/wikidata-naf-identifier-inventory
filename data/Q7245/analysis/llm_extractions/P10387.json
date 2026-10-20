@@ -1,0 +1,14 @@
+{
+ "property": "P10387",
+ "label": "Databazeknih.cz author ID",
+ "files_read": ["P10387__83/embedded_microdata.json"],
+ "about_entity": true,
+ "notes": "schema.org BreadcrumbList + WebSite microdata only; the breadcrumb gives the author name 'Samuel Langhorne Clemens' and the author URL slug. No dates or bio in this file.",
+ "elements": {
+  "name_preferred": [{"value": "Samuel Langhorne Clemens", "lang": "cs", "via": "embedded_microdata.json: [0].itemListElement[2].name"}],
+  "identifier": [
+   {"value": "83", "via": "embedded_microdata.json: [0].itemListElement[2].item"},
+   {"value": "https://www.databazeknih.cz/autori/samuel-langhorne-clemens-83", "via": "embedded_microdata.json: [0].itemListElement[2].item"}
+  ]
+ }
+}

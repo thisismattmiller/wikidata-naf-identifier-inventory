@@ -1,0 +1,12 @@
+{
+ "property": "P5341",
+ "label": "Poetry Foundation ID",
+ "files_read": ["P5341__mark-twain/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the poet page: name and portrait. og:description is the generic site tagline, not about Twain, so it was not used.",
+ "elements": {
+   "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+   "image": [{"value": "https://s3-us-east-2.amazonaws.com/cdn.poetryfoundation.org/content/images/_1200x630_crop_center-center_82_none/eaa8d241ddd45dc25c8e14541c14eea1833c5600.jpeg?mtime=1717161754", "via": "embedded_opengraph.json: $[0]['og:image']"}],
+   "identifier": [{"value": "mark-twain", "raw": "https://www.poetryfoundation.org/poets/mark-twain", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

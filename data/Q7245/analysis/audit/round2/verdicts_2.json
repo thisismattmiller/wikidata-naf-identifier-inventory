@@ -1,0 +1,225 @@
+[
+ {
+  "property": "P2734",
+  "label": "Unz Review author ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "The holdings counts ('All Years = 100 Books, 167 Articles' and the per-decade/year counts) are still not captured. The rest of the list sits behind SHOW MORE; the 17 titles shown are captured.",
+  "label_issues": "None. 'page text (LLM)', page_text_only true, 28 values and 'mostly unique' match a profile that now comes only from page text.",
+  "notable": "FIXED: the og:description site tagline and the unz_large_logo.png image are gone, so the format family is now 'page text (LLM)' as the earlier audit asked. The co-credit 'George Eliot' on 'The Adventures of Huckleberry Finn (1950)' is on the page (line 'Mark Twain and George Eliot'), so it is a site oddity, not an extraction error.",
+  "verdict": "sound",
+  "confidence": "high"
+ },
+ {
+  "property": "P2799",
+  "label": "BVMC person ID",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "work 'http://www.cervantesvirtual.com' (via creator: the publisher/creator of the web document, not a work by him)"
+  ],
+  "missing": "Nothing substantial. The page shows one work (Las aventuras de Tom Sawyer, transl. J. Torroba), and the profile has it.",
+  "label_issues": "The 'work' element is still overstated by one value (3 values, only 2 real: data.cervantesvirtual.com/work/2789 and 'Las aventuras de Tom Sawyer'). RDF format, plain HTTP and 'mostly repeated' are right.",
+  "notable": "PARTLY FIXED: the mainEntityOfPage values ('BVMC.Labs - Laboratorio...' and 'https://data.cervantesvirtual.com') are gone, but 'creator' -> 'http://www.cervantesvirtual.com' is still filed as a work.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P2889",
+  "label": "FamilySearch person ID",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'Dorothy Quick and Mark Twain (Samuel Clemens) in 1907.', 'Clara, Samuel and Olivia Clemens', 'Jean and her father Samuel Clemens' (photo headlines from json:person.memoryArtifacts.headline)",
+   "name_preferred 'Samuel L Clemens, \"United States, GenealogyBank Obituaries, Births, and Marriages, 1980-2015\"' and 'Mark Twain, \"Find A Grave Index\" [California cenotaph]' (source titles from json:person.sourceList.title)",
+   "birth_place 'Place' and death_place 'Place' (json @type strings)",
+   "see_also 'https://ancestors.familysearch.org/en/LZJ1-TLQ/...' via json:person.sibling.url (his own page filed as a sibling link)"
+  ],
+  "missing": "Nothing substantial. The page shows 5 of 9 siblings and 3 of 70 sources, and the profile has what is shown. The site's alternateName 'Josh Clemens' (xhr_6) is not in the profile, which is just as well.",
+  "label_issues": "name_preferred (8) is still inflated by photo captions and source titles. The values count (68, down from 228) and 'mixed' uniqueness are now roughly right. RDF / plain HTTP partly + page text are fine.",
+  "notable": "PARTLY FIXED: the Qualtrics geolocation 'US', the children's dates and genders, the surname-dictionary text and the world-event links are all gone, and relatives now sit only in related_agent (from the page text). But the memoryArtifacts headlines, the sourceList titles under name_preferred and the 'Place' @type strings remain.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P2949",
+  "label": "WikiTree person ID",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'Langdon Samuel Clemens' (his son, via json:mainEntity.children.name)",
+   "see_also 'https://www.wikitree.com/wiki/Clemens-12' (the son's profile, via json:mainEntity.children.url)"
+  ],
+  "missing": "Nothing substantial. Family, biography, works, places, sources, Wikidata/Wikipedia/Find a Grave links and the creation date are all captured from the page text.",
+  "label_issues": "One child still leaks into name_preferred. Otherwise the labels are right: embedded markup (microdata), page blocked for plain HTTP (HTTP 202 challenge), 'mixed'.",
+  "notable": "PARTLY FIXED: 12 of the 13 relatives are gone from name_preferred, and the 'Place' @type strings and the og-image.png site default are gone. One child (Langdon Samuel Clemens / Clemens-12) still comes through mainEntity.children.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P2963",
+  "label": "Goodreads author ID",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'Autobiography of Mark Twain: The Complete and Authorized Edition' and 'Jumping Frogs: Undiscovered, Rediscovered, and Celebrated Writings of Mark Twain' (BookSeries titles from json:name)"
+  ],
+  "missing": "Follower count (19,167) and total distinct works are not modelled. Minor.",
+  "label_issues": "name_preferred still holds two series titles, which are already under work. The other labels are fine: embedded markup (microdata), plain HTTP, 'mixed'.",
+  "notable": "PARTLY FIXED: 'Livy Clemens' and 'Susy Clemens' moved from name_preferred to related_agent (co-credited on Jumping Frogs), and the influences (Ingersoll, Bierce, Haldeman-Julius, Loeb) are now captured. The two series titles under name_preferred are still there. Goodreads notes that more than one author shares the name.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P2966",
+  "label": "National Library of Wales Authority ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "The 'Export EAC' (EAC-CPF) link was still not fetched. It would carry the same minimal record.",
+  "label_issues": "Minor: 'General correspondence' is filed as work, but the page lists it under 'Subject of' (an archival description with him as an access point). By the round-2 rule it belongs in subject_of, or is at best ambiguous. 'page text (LLM)', page_text_only and 'too few values' are right.",
+  "notable": "FIXED: the CookieControl geolocation 'US' is gone, and the format/access are now page text (LLM) only, as the earlier audit asked. The record is a minimal AtoM authority headed 'Clemens, Samuel Langhorne, 1835-1910.' with source lcnaf.",
+  "verdict": "sound",
+  "confidence": "medium"
+ },
+ {
+  "property": "P3065",
+  "label": "RERO ID (legacy)",
+  "page_shows_record": "partial",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "nationality 'am' (MARC 944 publication-country code of the works, not his nationality)"
+  ],
+  "missing": "No structured data was taken. The crawl asked for JSON at https://viaf.org/en/processed/REROA000164542, which returned 404 'no Route matched'. The same VIAF processed record is served as MARC21-as-JSON at the non-/en/ path (as it was for BAnQ P3280 and DBC P3846), so a library-format representation exists and was missed. Content-wise, the page-text capture of the MARC display is complete.",
+  "label_issues": "access 'page text only (LLM over HTML)' understates. The record is reachable as MARC-JSON over plain HTTP via viaf.org/processed/RERO..., so with that fetch the label would be plain HTTP / library format. status 'ok, http_error' with note 'record not found: dead identifier' is now correct (A000164542 ok, A010034463 'Processed record not found').",
+  "notable": "PARTLY FIXED: the wrong_page status is gone (A000164542 is ok, A010034463 is a dead id), and the OneTrust language 'en' is gone. The MARC 944 'am' is still filed as nationality. A010034463 appears in the record's 024 as an obsolete/merged RERO id. The pseudonyms Conte, Snodgrass and Alden are his.",
+  "verdict": "mislabelled",
+  "confidence": "medium"
+ },
+ {
+  "property": "P3219",
+  "label": "Encyclopædia Universalis ID",
+  "page_shows_record": "partial",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "image 'https://www.universalis.fr/_web/static/cards/biographie.jpg' (generic card for all biographies, not his portrait)",
+   "type 'http://schema.org/WebPage' (describes the page, not the person)"
+  ],
+  "missing": "Nothing visible. The article by Bernard Poli is paywalled after the opening sections.",
+  "label_issues": "format_family is now 'embedded markup', which is right (OpenGraph). It rests on og:title (name, 1835, 1910), og:description and og:url, plus the two chrome values above.",
+  "notable": "PARTLY FIXED: the format family moved from RDF to embedded markup as asked, but the generic 'biographie.jpg' card and the WebPage type are still in the profile, even though round 2 says site-wide WebPage nodes and site images no longer count. The article is paywalled.",
+  "verdict": "mislabelled",
+  "confidence": "medium"
+ },
+ {
+  "property": "P3280",
+  "label": "BAnQ authority ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial. 046/100/370/374/375/377/500/670, 9xx works (39), co-authors and the 998 cluster links are captured, and the 998 'Twain, Mark (Spirit)' match (LC n 82045653) was correctly skipped.",
+  "label_issues": "format_family 'ad-hoc JSON/XML' is still wrong. conneg_3.json is a MARC21-slim authority (mx:record / mx:datafield) and the profile parses it by tag ('100', '046$f', '670'). It should be 'library format'. Minor: the 500 'Clemens, Samuel Langhorne, 1835-1910' (his real name) also appears in related_agent.",
+  "notable": "PARTLY FIXED: the OneTrust language 'en' is gone (language is now only 'eng' from 377). The library-format mislabel is still there. The Wikidata value opens VIAF's processed copy of the BAnQ record, not BAnQ's own site.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P3338",
+  "label": "Encyclopedia of Surfing ID",
+  "page_shows_record": "partial",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "description: 9 text fragments from other prefetched pages, e.g. 'A Lahaina source in 1848 wrote that...' and 'Given the evidence...' (xhr_24, history chapter 'a-sport-in-decline'), 'London, furthermore, helped undermine...' and 'Ford's efforts continued. In 1908 he founded the Outrigger Canoe...' (xhr_25, history chapter 'london'), 'travelogue); it reads as a how-to guide...' (xhr_21, Jack London entry), ', 1875). A dispatch sent by Mark Twain in 1866...' (xhr_19, 'books-and-surfing' entry)",
+   "same_as 'encyclopedia' (xhr_18, Cook, James entry) and 'Waikiki, 1910 Photo: AR Gurrey' (xhr_25)",
+   "see_also 'https://cdn.sanity.io/images/.../caf6219f...-900x506.jpg' (image from the xhr_25 history chapter)",
+   "name_preferred 'Twain, Mark' x2 via xhr_18 (the Cook, James payload's related-content/A-Z list; the value is right but the source is another entry)"
+  ],
+  "missing": "Nothing beyond the paywall. The visible teaser is captured from the page text: born Samuel Clemens 1835 in Florida MO, Tom Sawyer, Huck Finn, the 1866 Kona Coast visit, the Roughing It captions.",
+  "label_issues": "access 'plain HTTP' and format 'embedded markup' are defensible only on the og: tags (title, description, image, dates). The 36 values and the 'mixed' uniqueness still count about 13 values from other entries' Next.js payloads. The honest picture is about 15 page-text values plus the OpenGraph tags.",
+  "notable": "PARTLY FIXED: Jack London's 1876/1916 dates, the 'male' gender, the Sanity CMS internals (87 same_as) and the image/see_also flood (258) are gone. But prose fragments from the prefetched books-and-surfing, Jack London and History of Surfing payloads still pass the about-him filter, because they mention Twain. The entry is paywalled after the first paragraph.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P3348",
+  "label": "National Library of Greece ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Minor: the 'Number of records used in' counts (1 for the Clemens record 122385, 136 for the Twain record 178278) are not captured. Koha's MARCXML export was not harvested.",
+  "label_issues": "None. status 'ok×2' with note 'login wall suspected but the record rendered in full', resolved true, page text (LLM) and 'mostly unique' are right.",
+  "notable": "FIXED: the status is now ok×2 and resolved, instead of login_wall_suspected. Site data error (faithfully carried): a 670 citation of 'Οι περιπέτειες του Τομ Σόγερ, 2014' gives death 1910-04-10 instead of 04-21. The two records split the real person (A069925, 'Clemens, Samuel Langhorne') from the pseudonym identity (A111227, type Ψευδώνυμο, 'Twain, Mark').",
+  "verdict": "sound",
+  "confidence": "high"
+ },
+ {
+  "property": "P3365",
+  "label": "Treccani ID",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "description 'Nell'Enciclopedia Treccani troverai tutto quello che devi sapere su Twain, Mark. Entra subito su Treccani.it...' (portal boilerplate og:description)",
+   "image 'https://images.treccani.it/enc/media/images/social=200x200.jpg' (site social logo)"
+  ],
+  "missing": "Nothing substantial. Article text, 18 works, places, occupations and the 1937 Enciclopedia Italiana full dates are captured from the page text.",
+  "label_issues": "access 'plain HTTP + page text for 46/50' and format 'embedded markup' rest on 4 OpenGraph values: og:title 'Twain, Mark', the boilerplate description, the logo, and an identifier taken from the batch folder name. Only og:title is real data about him, so in substance this is page text (LLM) only.",
+  "notable": "PARTLY FIXED: the Storyblok menu images (13) and footer links (35) are gone, and the values fell from 97 to 50. The og:description boilerplate and the social logo are still counted, against the round-2 rule that taglines and logos no longer count. Site errors: 'The adventures of Tom Sawyer (1867)' should be 1876, and 'Huckleberry Finn (1885)' is usually dated 1884/1885.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P3478",
+  "label": "Songkick artist ID",
+  "page_shows_record": "partial",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "type 'http://schema.org/Place' (event venue)",
+   "name_preferred 'Sundin Music Hall, Hamline University' (venue name from event JSON-LD)",
+   "same_as 'http://www.hamline.edu/hamline_info/sundin/index.html' (venue website)",
+   "description 'Buy tickets for Mark Twain concerts near you. See all upcoming 2026-27 tour dates...' (ticket boilerplate og:description)",
+   "image 'http://assets.sk-static.com/images//default_images/col4/default-artist.png' (default placeholder)"
+  ],
+  "missing": "Nothing. The page has only the name, a fan count (1,496) and one past event (Mon 05 Oct, Deutsches Schauspielhaus, Hamburg).",
+  "label_issues": "format_family 'RDF' and access 'plain HTTP' rest entirely on the venue JSON-LD and og chrome. Only the page-text name 'Mark Twain' and the id describe the artist, so this should read as page text only. 'too few values' is right.",
+  "notable": "PARTLY FIXED: the ad-tech ID providers (18 source values), the cookie-banner language and the MusicEvent type/name/description are gone, but the event's venue (Place) node survived as type, name_preferred and same_as. It is doubtful the Songkick 'artist' is the writer as such: it is an event listing (stage productions billed as 'Mark Twain').",
+  "verdict": "mislabelled",
+  "confidence": "medium"
+ },
+ {
+  "property": "P3762",
+  "label": "openMLOL author ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial. The page is a search-results view (34 e-books, 112 audiobooks, 1 image, first few items each) and the profile has the shown items. The category counts are not captured.",
+  "label_issues": "None. page text (LLM), page_text_only true and page blocked for plain HTTP fit.",
+  "notable": "FIXED: the portal og:description and the socialpreview image are gone, and the family is now page text (LLM) as asked. The Wikidata URL redirects to an 'Esplora' search filtered by idcrea=3236, not to an authority page.",
+  "verdict": "sound",
+  "confidence": "high"
+ },
+ {
+  "property": "P3788",
+  "label": "BNMM authority ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "The pages offer 'Formato MARC' / 'Exportar registro MARC', which were not harvested (a library-format representation exists). Content-wise, the page-text capture of all four records is complete.",
+  "label_issues": "None as labelled. page text (LLM) is accurate for what was captured, though a MARC export is available.",
+  "notable": "FIXED: the generic og:description and the imgur og:image are gone, and the family is now page text (LLM). Four Wikidata values cover Twain, Snodgrass, Clemens and Conte, each with its own VIAF cluster. Site oddities carried faithfully: the typo 'Ciemens', and the death place given only as 'Connecticut' in the 'Lugar asociado' field.",
+  "verdict": "sound",
+  "confidence": "high"
+ },
+ {
+  "property": "P3846",
+  "label": "DBC author ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial. Works (capped at 40), contributors, ISNI/VIAF links and the 663 pseudonym note are captured.",
+  "label_issues": "format_family 'ad-hoc JSON/XML' is still wrong. These are MARC21 authority records (VIAF processed MARC-as-JSON, parsed by tag as '100', '046$f', '375', '663'). It should be 'library format'. Minor: gender is held twice, as the raw ISO 5218 code '1' and as 'male'.",
+  "notable": "PARTLY FIXED: the cookie-banner language 'en' is gone, but the library-format mislabel remains. One of the two Wikidata values (87097968223113) is the DBC record for the pseudonym 'Conte, Louis de' (his, but not the Twain heading). It carries a second Conte ISNI (0000000418649406) that Wikidata lacks. Both values open VIAF processed copies, not DBC itself.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ }
+]

@@ -1,0 +1,27 @@
+{
+ "property": "P8094",
+ "label": "GeneaStar person ID",
+ "files_read": ["pages/P8094__clemens.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "Geneastar celebrity genealogy page: birth/death, short description, ancestor tree (4 generations) and a family paragraph; 'They are related' user list and 'same topic' celebrities ignored.",
+ "elements": {
+  "name_preferred": [{"value": "Mark TWAIN", "lang": "en", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne CLEMENS", "lang": "en", "via": "'Born Samuel Langhorne CLEMENS'"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "en", "via": "family tree"}],
+  "family_name": [{"value": "Clemens", "lang": "en", "via": "family tree"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": "en", "via": "Born on"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910", "lang": "en", "via": "Died on"}],
+  "birth_place": [{"value": "Florida, Missouri, USA, United States", "lang": "en", "via": "Born on"}],
+  "death_place": [{"value": "Redding, Connecticut, USA, United States", "lang": "en", "via": "Died on"}],
+  "occupation": [{"value": "Author", "lang": "en", "via": "category under heading"}, {"value": "humorist", "lang": "en", "via": "description"}],
+  "description": [{"value": "American author and humorist", "lang": "en", "via": "subtitle"}],
+  "related_agent": [
+   {"value": "John Marshall Clemens (father, 1798-08-11 – 1847-03-24)", "via": "tree / More information"}, {"value": "Jane Lampton Clemens (mother, 1803-06-18 – 1890-10-27)", "via": "tree / More information"},
+   {"value": "Samuel B. Clemens (paternal grandfather, 1770-1805)", "via": "tree / More information"}, {"value": "Pamela Goggin (paternal grandmother, 1775-1844)", "via": "tree / More information"}, {"value": "Benjamin Lampton (maternal grandfather, 1770-1837)", "via": "tree"}, {"value": "Margaret Casey (maternal grandmother, 1780-1818)", "via": "tree"},
+   {"value": "Abraham Clemens (great-grandfather, -1800)", "via": "tree"}, {"value": "Elizabeth Moore (great-grandmother)", "via": "tree"}, {"value": "Stephen Goggin (great-grandfather, 1752-1802)", "via": "tree"}, {"value": "Rachel Moorman (great-grandmother, 1753-1833)", "via": "tree"}, {"value": "William Lampton (great-grandfather, 1733-1790)", "via": "tree"}, {"value": "Patsy Schooler (great-grandmother, -1811)", "via": "tree"}, {"value": "William Casey (great-grandfather, 1750-1816)", "via": "tree"}, {"value": "Jane Montgomery (great-grandmother, 1761-1844)", "via": "tree"},
+   {"value": "Orion Clemens (brother, 1825-07-17 – 1897-12-11)", "via": "More information"}, {"value": "Henry Clemens (brother, 1838-07-13 – 1858-06-21)", "via": "More information"}, {"value": "Pamela Clemens (sister, 1827-09-19 – 1904-08-31)", "via": "More information"}, {"value": "Margaret Clemens (sister, 1830-05-31 – 1839-08-17)", "via": "More information"}, {"value": "Benjamin Clemens (brother, 1832-06-08 – 1842-05-12)", "via": "More information"}, {"value": "Pleasant Clemens (brother, 1828-1829)", "via": "More information"}
+  ],
+  "identifier": [{"value": "clemens", "via": "page URL refcelebrite"}]
+ }
+}

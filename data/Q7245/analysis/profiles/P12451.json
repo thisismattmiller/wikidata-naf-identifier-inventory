@@ -1,0 +1,420 @@
+{
+ "property": "P12451",
+ "property_label": "Arabic Ontology lexical concept ID",
+ "files": [
+  {
+   "file": "P12451__151059254/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://ontology.birzeit.edu/lexicalconcept/151059254"
+  },
+  {
+   "file": "P12451__151059254/xhr_1.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ontology.birzeit.edu/app/js/nav/nav.tpl.html"
+  },
+  {
+   "file": "P12451__151059254/xhr_2.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ontology.birzeit.edu/templates/popover-tpls/beta-details.tpl.html"
+  },
+  {
+   "file": "P12451__151059254/xhr_3.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ontology.birzeit.edu/app/js/footer/footer.tpl.html"
+  },
+  {
+   "file": "P12451__151059254/xhr_4.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ontology.birzeit.edu/templates/lexConcept.tpl.html"
+  },
+  {
+   "file": "P12451__151059254/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ontology.birzeit.edu/sina/api/lexicalconcept/151059254/?apikey=25092018"
+  },
+  {
+   "file": "P12451__151059254/xhr_6.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ontology.birzeit.edu/templates/sina-apps.tpl.html"
+  },
+  {
+   "file": "P12451__151059254/xhr_7.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ontology.birzeit.edu/templates/search-filter.tpl.html"
+  },
+  {
+   "file": "P12451__151059254/xhr_8.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ontology.birzeit.edu/templates/popover-tpls/data-source.tpl.html"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "xml": 7,
+  "json": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $.englishWordsCache",
+    "file": "P12451.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $.englishWordsCache",
+    "file": "P12451.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $.englishWordsCache",
+    "file": "P12451.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:xhr_5.json: $.englishGloss",
+    "file": "P12451.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:xhr_5.json: $.englishGloss",
+    "file": "P12451.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $.englishGloss",
+    "file": "P12451.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $.englishGloss",
+    "file": "P12451.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $.englishGloss",
+    "file": "P12451.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $.englishGloss",
+    "file": "P12451.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "151059254",
+    "lang": null,
+    "via": "llm:xhr_5.json: $.conceptID",
+    "file": "P12451.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Princeton WordNet 3.1",
+    "lang": "en",
+    "via": "llm:xhr_5.json: $.dataSourceCacheEn",
+    "file": "P12451.json",
+    "uri": false
+   },
+   {
+    "value": "شبكة المفردات الانجليزية ٣.١",
+    "lang": "ar",
+    "via": "llm:xhr_5.json: $.dataSourceCacheAr",
+    "file": "P12451.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:synset terms",
+    "file": "P12451.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "identifier": [],
+  "source": [
+   "ar",
+   "en"
+  ],
+  "name_preferred": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 927,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://ontology.birzeit.edu/"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Arabic Ontology Portal الأنطولوجيا العربية"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Search engine for the Arabic Ontology and 100s of Arabic dictionaries for concepts, meanings, synonyms, translation in A"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://ontology.birzeit.edu/seo-img/ao-logo-facebook.png"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "Lexical Search Engine"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 809,
+   "path_count": 27,
+   "paths": [
+    {
+     "path": "conceptID",
+     "n": 1,
+     "sample": "151059254"
+    },
+    {
+     "path": "arabicGloss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "englishGloss",
+     "n": 1,
+     "sample": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)"
+    },
+    {
+     "path": "tags",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "example",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "lang",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "dataSourceId",
+     "n": 1,
+     "sample": "151"
+    },
+    {
+     "path": "synsetFrequnecy",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "dataSourceCacheAr",
+     "n": 1,
+     "sample": "شبكة المفردات الانجليزية ٣.١"
+    },
+    {
+     "path": "dataSourceCacheEn",
+     "n": 1,
+     "sample": "Princeton WordNet 3.1"
+    },
+    {
+     "path": "arabicWordsCache",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "englishWordsCache",
+     "n": 1,
+     "sample": "Clemens | Mark Twain | Samuel Langhorne Clemens"
+    },
+    {
+     "path": "superId",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "superOrder",
+     "n": 1,
+     "sample": "1000"
+    },
+    {
+     "path": "superTypeCasheAr",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "superTypeCasheEn",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "area",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "era",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rank",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "subTypesCount",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "partOfCount",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "instancesCount",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "instanceOfID",
+     "n": 1,
+     "sample": "151055129"
+    },
+    {
+     "path": "undiacritizedArabicWordsCache",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "normalizedEnglishWordsCache",
+     "n": 1,
+     "sample": "| Clemens | Mark Twain | Samuel Langhorne Clemens |"
+    },
+    {
+     "path": "exactWord",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "englishGloss",
+     "value": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)"
+    },
+    {
+     "path": "englishWordsCache",
+     "value": "Clemens | Mark Twain | Samuel Langhorne Clemens"
+    },
+    {
+     "path": "normalizedEnglishWordsCache",
+     "value": "| Clemens | Mark Twain | Samuel Langhorne Clemens |"
+    }
+   ],
+   "language_like_keys": [
+    "era"
+   ]
+  }
+ ],
+ "llm_notes": "Birzeit Arabic Ontology lexical concept page showing the Princeton WordNet 3.1 synset for Clemens / Mark Twain with a one-line gloss.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

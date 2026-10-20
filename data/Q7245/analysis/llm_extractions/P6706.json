@@ -1,0 +1,70 @@
+{
+ "property": "P6706",
+ "label": "De Agostini ID",
+ "files_read": ["P6706__Mark_Twain_535b67cf/embedded_microdata.json", "P6706__Mark_Twain_535b67cf/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "schema.org microdata (an Article 'Biografia' with the full Italian encyclopedia entry in description, plus a SiteNavigationElement of page chrome, ignored) and OpenGraph metadata from Sapere.it (De Agostini) page 'Mark Twain'.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "it", "via": "embedded_microdata.json: [1].name"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "it", "via": "embedded_microdata.json: [1].description ('Pseudonimo dello scrittore statunitense Samuel Langhorne Clemens')"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "it", "via": "embedded_microdata.json: [1].description ('da cui lo pseudonimo Mark Twain, “marca due”')"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "Florida, Missouri, 1835", "lang": "it", "via": "embedded_microdata.json: [1].description"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "Redding, Connecticut, 1910", "lang": "it", "via": "embedded_microdata.json: [1].description"}
+  ],
+  "birth_place": [
+   {"value": "Florida, Missouri", "lang": "it", "via": "embedded_microdata.json: [1].description"}
+  ],
+  "death_place": [
+   {"value": "Redding, Connecticut", "lang": "it", "via": "embedded_microdata.json: [1].description"}
+  ],
+  "activity_place": [
+   {"value": "Hannibal nel Missouri", "lang": "it", "via": "embedded_microdata.json: [1].description"},
+   {"value": "New York", "lang": "it", "via": "embedded_microdata.json: [1].description"},
+   {"value": "Keokuk, nello Iowa", "lang": "it", "via": "embedded_microdata.json: [1].description"},
+   {"value": "Cincinnati", "lang": "it", "via": "embedded_microdata.json: [1].description"},
+   {"value": "Nevada", "lang": "it", "via": "embedded_microdata.json: [1].description"},
+   {"value": "San Francisco", "lang": "it", "via": "embedded_microdata.json: [1].description"},
+   {"value": "Connecticut", "lang": "it", "via": "embedded_microdata.json: [1].description"}
+  ],
+  "occupation": [
+   {"value": "scrittore", "lang": "it", "via": "embedded_microdata.json: [1].description"},
+   {"value": "apprendista tipografo / tipografo", "lang": "it", "via": "embedded_microdata.json: [1].description"},
+   {"value": "pilota di vapore sul Mississippi", "lang": "it", "via": "embedded_microdata.json: [1].description"},
+   {"value": "reporter", "lang": "it", "via": "embedded_microdata.json: [1].description"}
+  ],
+  "field_of_activity": [
+   {"value": "narrativa americana del secondo Ottocento", "lang": "it", "via": "embedded_microdata.json: [1].description"}
+  ],
+  "nationality": [
+   {"value": "statunitense", "lang": "it", "via": "embedded_microdata.json: [1].description"}
+  ],
+  "description": [
+   {"value": "Pseudonimo dello scrittore statunitense Samuel Langhorne Clemens (Florida, Missouri, 1835-Redding, Connecticut, 1910). È figura di primo piano nell'ambito della narrativa americana del secondo Ottocento.", "lang": "it", "via": "embedded_microdata.json: [1].description (first two sentences)"}
+  ],
+  "related_agent": [
+   {"value": "Orion", "relation": "fratello (brother; worked together on the Courier and in Keokuk)", "via": "embedded_microdata.json: [1].description"},
+   {"value": "Courier (Hannibal)", "relation": "newspaper where he apprenticed", "via": "embedded_microdata.json: [1].description"}
+  ],
+  "identifier": [
+   {"value": "Mark+Twain", "via": "embedded_microdata.json: [1].mainEntityOfPage.url (https://www.sapere.it/enciclopedia/Mark+Twain.html)"}
+  ],
+  "source": [
+   {"value": "Redazione De Agostini", "lang": "it", "via": "embedded_microdata.json: [1].author.name"}
+  ],
+  "record_created": [
+   {"value": "2020-06-05", "raw": "2020-06-05T06:02:45.165+02:00", "via": "embedded_microdata.json: [1].datePublished"}
+  ],
+  "record_modified": [
+   {"value": "2020-06-05", "raw": "2020-06-05T06:02:45.165+02:00", "via": "embedded_microdata.json: [1].dateModified"}
+  ]
+ }
+}

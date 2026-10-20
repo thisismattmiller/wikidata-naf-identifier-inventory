@@ -1,0 +1,18 @@
+{
+ "property": "P5491",
+ "label": "BD Gest' author ID",
+ "files_read": ["P5491__20036/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata from the Bedetheque author page 20036; title gives the inverted name, description is a generic site blurb. Only name, id and photo URL.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "raw": "Twain, Mark - Bibliographie, BD, photo, biographie", "lang": "fr", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "identifier": [
+   {"value": "20036", "via": "embedded_opengraph.json: og:url (https://www.bedetheque.com/auteur-20036-BD-Twain-Mark.html)"}
+  ],
+  "image": [
+   {"value": "https://www.bedetheque.com/media/Photos/Photo_20036.png", "via": "embedded_opengraph.json: og:image"}
+  ]
+ }
+}

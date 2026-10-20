@@ -1,0 +1,26 @@
+{
+ "property": "P5613",
+ "label": "Bibliothèque de la Pléiade ID",
+ "files_read": [
+  "P5613__Mark-Twain/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph only from the La Pléiade author page: title and URL, no description or dates.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "P5613__Mark-Twain/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "raw": "https://www.la-pleiade.fr/auteurs/mark-twain",
+    "lang": null,
+    "via": "P5613__Mark-Twain/embedded_opengraph.json: $[0]['og:url']"
+   }
+  ]
+ }
+}

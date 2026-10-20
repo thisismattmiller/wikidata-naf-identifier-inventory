@@ -1,0 +1,370 @@
+{
+ "property": "P1741",
+ "property_label": "GTAA ID",
+ "value": "160094",
+ "url": "https://data.beeldengeluid.nl/gtaa/160094",
+ "crawled_at": "2026-10-02T21:20:10+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://data.beeldengeluid.nl/gtaa/160094",
+ "tab_title": "B&G LOD View - Beeld & Geluid",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P1741__160094.jpg",
+ "elapsed_seconds": 4.6,
+ "html_file": "pages/P1741__160094.html",
+ "text_file": "pages/P1741__160094.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://data.beeldengeluid.nl/gtaa/160094",
+  "title": "B&G LOD View - Beeld & Geluid",
+  "content_type": "text/html",
+  "lang": "en",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 200,
+   "url": "https://data.beeldengeluid.nl/gtaa/160094",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "connection": "Keep-Alive",
+    "content-length": "4281",
+    "content-type": "application/ld+json",
+    "date": "Fri, 02 Oct 2026 21:20:12 GMT",
+    "keep-alive": "timeout=5, max=98",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "server": "istio-envoy",
+    "strict-transport-security": "max-age=31536000",
+    "x-content-type-options": "nosniff",
+    "x-envoy-upstream-service-time": "72",
+    "x-frame-options": "DENY",
+    "x-xss-protection": "1; mode=block"
+   }
+  },
+  "link_elements": [],
+  "jsonld": [
+   {
+    "types": [
+     "http://www.w3.org/2008/05/skos-xl#Label",
+     "http://www.w3.org/2000/01/rdf-schema#Resource",
+     "http://www.w3.org/2000/01/rdf-schema#Resource",
+     "http://www.w3.org/2000/01/rdf-schema#Class",
+     "http://www.w3.org/2000/01/rdf-schema#Resource",
+     "http://www.w3.org/2000/01/rdf-schema#Class",
+     "http://www.w3.org/2000/01/rdf-schema#Resource",
+     "http://www.w3.org/2008/05/skos-xl#Label",
+     "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+     "http://www.w3.org/2000/01/rdf-schema#Resource",
+     "http://www.w3.org/2000/01/rdf-schema#Resource",
+     "https://schema.org/Thing",
+     "http://www.w3.org/2000/01/rdf-schema#Resource",
+     "http://www.w3.org/2004/02/skos/core#Concept",
+     "https://schema.org/Person"
+    ],
+    "length": 4281,
+    "content": "[\n  {\n    \"@id\": \"http://data.beeldengeluid.nl/gtaa/160094/label/7b16941a-6b20-450d-ae2f-f5220c78936a\",\n    \"@type\": [\n      \"http://www.w3.org/2008/05/skos-xl#Label\",\n      \"http://www.w3.org/2000/01/rdf-schema#Resource\"\n    ],\n    \"http://www.w3.org/2008/05/skos-xl#literalForm\": [\n      {\n        \"@language\": \"nl\",\n        \"@value\": \"Twain, Mark\"\n      }\n    ]\n  },\n  {\n    \"@id\": \"https://schema.org/Thing\",\n    \"@type\": [\n      \"http://www.w3.org/2000/01/rdf-schema#Resource\",\n      \"http://www.w3.org/2000/01/rdf-schema#Class\"\n    ],\n    \"http://www.w3.org/2000/01/rdf-schema#label\": [\n      {\n        \"@value\": \"Thing\"\n      }\n    ]\n  },\n  {\n    \"@id\": \"https://schema.org/Person\",\n    \"@type\": [\n      \"http://www.w3.org/2000/01/rdf-schema#Resource\",\n      \"http://www.w3.org/2000/01/rdf-schema#Class\"\n    ],\n    \"http://www.w3.org/2000/01/rdf-schema#label\": [\n      {\n        \"@value\": \"Person\"\n      }\n    ]\n  },\n  {\n    \"@id\": \"http://data.beeldengeluid.nl/gtaa/160094/label/2d9a45ed-41b8-4dad-89ef-ef0c3cdcc841\",\n    \"@type\": [\n      \"http://www.w3.org/2000/01/rdf-schema#Resource\",\n      \"http://www.w3.org/2008/05/skos-xl#Label\"\n    ],\n    \"http://www.w3.org/2008/05/skos-xl#literalForm\": [\n      {\n        \"@language\": \"nl\",\n        \"@value\": \"Mark Twain\"\n      }\n    ]\n  },\n  {\n    \"@id\": \"http://data.beeldengeluid.nl/gtaa/Persoonsnamen\",\n    \"@type\": [\n      \"http://www.w3.org/2004/02/skos/core#ConceptScheme\",\n      \"http://www.w3.org/2000/01/rdf-schema#Resource\"\n    ]\n  },\n  {\n    \"@id\": \"http://www.wikidata.org/entity/Q7245\",\n    \"@type\": [\n      \"http://www.w3.org/2000/01/rdf-schema#Resource\"\n    ],\n    \"http://www.w3.org/2000/01/rdf-schema#label\": [\n      {\n        \"@language\": \"en\",\n        \"@value\": \"Mark Twain\"\n      }\n    ]\n  },\n  {\n    \"@id\": \"http://data.beeldengeluid.nl/gtaa/160094\",\n    \"@type\": [\n      \"https://schema.org/Thing\",\n      \"http://www.w3.org/2000/01/rdf-schema#Resource\",\n      \"http://www.w3.org/2004/02/skos/core#Concept\",\n      \"https://schema.org/Person\"\n    ],\n    \"http://data.beeldengeluid.nl/schema/thes#inSet\": [\n      {\n        \"@id\": \"http://data.beeldengeluid.nl/set/gtaa\"\n      }\n    ],\n    \"http://data.beeldengeluid.nl/schema/thes#status\": [\n      {\n        \"@value\": \"approved\"\n      }\n    ],\n    \"http://purl.org/dc/terms/dateAccepted\": [\n      {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#dateTime\",\n        \"@value\": \"2007-11-24T14:48:58+00:00\"\n      }\n    ],\n    \"http://purl.org/dc/terms/dateSubmitted\": [\n      {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#dateTime\",\n        \"@value\": \"2007-11-24T14:48:58+00:00\"\n      }\n    ],\n    \"http://purl.org/dc/terms/modified\": [\n      {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#dateTime\",\n        \"@value\": \"2024-05-24T08:16:03+00:00\"\n      }\n    ],\n    \"http://www.w3.org/2004/02/skos/core#exactMatch\": [\n      {\n        \"@id\": \"https://api.discogs.com/artists/463414\"\n      },\n      {\n        \"@id\": \"http://www.wikidata.org/entity/Q7245\"\n      },\n      {\n        \"@id\": \"https://data.muziekschatten.nl/som/524a74d7e9016bdfd700366fde1d00ba\"\n      }\n    ],\n    \"http://www.w3.org/2004/02/skos/core#inScheme\": [\n      {\n        \"@id\": \"http://data.beeldengeluid.nl/gtaa/Persoonsnamen\"\n      }\n    ],\n    \"http://www.w3.org/2004/02/skos/core#notation\": [\n      {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#long\",\n        \"@value\": \"160094\"\n      }\n    ],\n    \"http://www.w3.org/2004/02/skos/core#prefLabel\": [\n      {\n        \"@language\": \"nl\",\n        \"@value\": \"Twain, Mark\"\n      }\n    ],\n    \"http://www.w3.org/2004/02/skos/core#scopeNote\": [\n      {\n        \"@language\": \"nl\",\n        \"@value\": \"schrijver VS\"\n      }\n    ],\n    \"http://www.w3.org/2008/05/skos-xl#hiddenLabel\": [\n      {\n        \"@id\": \"http://data.beeldengeluid.nl/gtaa/160094/label/2d9a45ed-41b8-4dad-89ef-ef0c3cdcc841\"\n      }\n    ],\n    \"http://www.w3.org/2008/05/skos-xl#prefLabel\": [\n      {\n        \"@id\": \"http://data.beeldengeluid.nl/gtaa/160094/label/7b16941a-6b20-450d-ae2f-f5220c78936a\"\n      }\n    ],\n    \"https://schema.org/sdLicense\": [\n      {\n        \"@id\": \"https://creativecommons.org/publicdomain/zero/1.0/\"\n      }\n    ],\n    \"https://schema.org/sdPublisher\": [\n      {\n        \"@id\": \"https://www.beeldengeluid.nl/\"\n      }\n    ]\n  }\n]"
+   }
+  ],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "viewport",
+    "content": "width=device-width, initial-scale=1"
+   }
+  ],
+  "machine_links": [
+   {
+    "tag": "a",
+    "href": "https://schema.org/Thing",
+    "text": "sdo:Thing",
+    "title": "<https://schema.org/Thing>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "http://www.w3.org/2004/02/skos/core#Concept",
+    "text": "skos:Concept",
+    "title": "<http://www.w3.org/2004/02/skos/core#Concept>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://schema.org/Person",
+    "text": "sdo:Person",
+    "title": "<https://schema.org/Person>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "http://www.w3.org/2004/02/skos/core#notation",
+    "text": "skos:notation",
+    "title": "<http://www.w3.org/2004/02/skos/core#notation>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "text": "skos:prefLabel",
+    "title": "<http://www.w3.org/2004/02/skos/core#prefLabel>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "http://www.w3.org/2004/02/skos/core#scopeNote",
+    "text": "skos:scopeNote",
+    "title": "<http://www.w3.org/2004/02/skos/core#scopeNote>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "text": "rdf:type",
+    "title": "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "text": "rdfs:Resource",
+    "title": "<http://www.w3.org/2000/01/rdf-schema#Resource>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://schema.org/Person",
+    "text": "Person",
+    "title": "<https://schema.org/Person>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://schema.org/Thing",
+    "text": "Thing",
+    "title": "<https://schema.org/Thing>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "text": "skos:exactMatch",
+    "title": "<http://www.w3.org/2004/02/skos/core#exactMatch>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://api.discogs.com/artists/463414",
+    "text": "discogs:463414",
+    "title": "<https://api.discogs.com/artists/463414>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "text": "skos:inScheme",
+    "title": "<http://www.w3.org/2004/02/skos/core#inScheme>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "http://www.w3.org/2008/05/skos-xl#hiddenLabel",
+    "text": "skosxl:hiddenLabel",
+    "title": "<http://www.w3.org/2008/05/skos-xl#hiddenLabel>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "http://www.w3.org/2008/05/skos-xl#prefLabel",
+    "text": "skosxl:prefLabel",
+    "title": "<http://www.w3.org/2008/05/skos-xl#prefLabel>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://schema.org/sdLicense",
+    "text": "sdo:sdLicense",
+    "title": "<https://schema.org/sdLicense>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://schema.org/sdPublisher",
+    "text": "sdo:sdPublisher",
+    "title": "<https://schema.org/sdPublisher>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://schema.org/about",
+    "text": "<sdo:about>",
+    "title": "<https://schema.org/about>",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://cat.apis.beeldengeluid.nl/sparql",
+    "text": "https://cat.apis.beeldengeluid.nl/sparql",
+    "title": "https://cat.apis.beeldengeluid.nl/sparql",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "path",
+     "text"
+    ]
+   }
+  ],
+  "xhr_requests": [],
+  "resources": [
+   {
+    "url": "https://data.beeldengeluid.nl/static/css/bootstrap.min.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 232411
+   },
+   {
+    "url": "https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 890
+   },
+   {
+    "url": "https://data.beeldengeluid.nl/static/css/beng-lod-style.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1920
+   },
+   {
+    "url": "https://data.beeldengeluid.nl/static/images/B&G_logo_RGB_liggend_RL.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 4107
+   },
+   {
+    "url": "https://data.beeldengeluid.nl/static/images/B&G_logo_RGB_liggend_RL_Blauw.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 4075
+   },
+   {
+    "url": "https://data.beeldengeluid.nl/static/js/bootstrap.bundle.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 80796
+   },
+   {
+    "url": "https://data.beeldengeluid.nl/static/favicon.ico",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/vnd.microsoft.icon",
+    "bytes": 15386
+   }
+  ],
+  "third_party_hosts": {
+   "fonts.googleapis.com": 1
+  },
+  "scripts": [
+   "https://data.beeldengeluid.nl/static/js/bootstrap.bundle.min.js"
+  ],
+  "iframes": [],
+  "forms": [],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [],
+   "not_found_words": []
+  },
+  "text_length": 925,
+  "html_length": 22173
+ }
+}

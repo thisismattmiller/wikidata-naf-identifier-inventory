@@ -1,0 +1,250 @@
+{
+ "property": "P7504",
+ "property_label": "Jeugdliteratuur ID",
+ "files": [
+  {
+   "file": "P7504__mark-twain/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://web.archive.org/__wb/sparkline?output=json&url=http%3A%2F%2Fjeugdliteratuur.org%2Fauteurs%2Fmark-twain&collection=web&nav=20200815052406"
+  },
+  {
+   "file": "P7504__mark-twain/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://wayback-api.archive.org/services/context/notices?url=http%3A%2F%2Fjeugdliteratuur.org%2Fauteurs%2Fmark-twain&timestamp=20200815052406"
+  },
+  {
+   "file": "P7504__mark-twain/browser_xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://web.archive.org/web/20200815052406/http://web.archive.org/screenshot/http://jeugdliteratuur.org/auteurs/mark-twain"
+  }
+ ],
+ "formats": {
+  "json": 2,
+  "html": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "llm-page:page heading",
+    "file": "P7504.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "nl",
+    "via": "llm-page:GEBOORTEDATUM",
+    "file": "P7504.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "nl",
+    "via": "llm-page:STERFDATUM",
+    "file": "P7504.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Missouri (Florida)",
+    "lang": "nl",
+    "via": "llm-page:GEBOORTEPLAATS",
+    "file": "P7504.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Amerikaans",
+    "lang": "nl",
+    "via": "llm-page:NATIONALITEIT",
+    "file": "P7504.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm-page:page URL slug /auteurs/mark-twain",
+    "file": "P7504.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "CC-BY-SA/GFDL",
+    "lang": "nl",
+    "via": "llm-page:footer",
+    "file": "P7504.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "nl"
+  ],
+  "birth_date": [
+   "nl"
+  ],
+  "death_date": [
+   "nl"
+  ],
+  "birth_place": [
+   "nl"
+  ],
+  "nationality": [
+   "nl"
+  ],
+  "identifier": [],
+  "license": [
+   "nl"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 510,
+   "path_count": 18,
+   "paths": [
+    {
+     "path": "years.2016[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2017[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2019[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2020[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2021[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "first_ts",
+     "n": 1,
+     "sample": "20160401162003"
+    },
+    {
+     "path": "last_ts",
+     "n": 1,
+     "sample": "20210428162423"
+    },
+    {
+     "path": "status.2016",
+     "n": 1,
+     "sample": "444244444444"
+    },
+    {
+     "path": "status.2017",
+     "n": 1,
+     "sample": "442444444444"
+    },
+    {
+     "path": "status.2019",
+     "n": 1,
+     "sample": "444444444244"
+    },
+    {
+     "path": "status.2020",
+     "n": 1,
+     "sample": "444444424444"
+    },
+    {
+     "path": "status.2021",
+     "n": 1,
+     "sample": "434344444444"
+    },
+    {
+     "path": "nav.next",
+     "n": 1,
+     "sample": "20210203101517"
+    },
+    {
+     "path": "nav.prev",
+     "n": 1,
+     "sample": "20191022122059"
+    },
+    {
+     "path": "nav.monthPrev",
+     "n": 1,
+     "sample": "20191022122059"
+    },
+    {
+     "path": "nav.monthNext",
+     "n": 1,
+     "sample": "20210203101517"
+    },
+    {
+     "path": "nav.yearPrev",
+     "n": 1,
+     "sample": "20170324042709"
+    },
+    {
+     "path": "nav.yearNext",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "nav.prev",
+     "value": "20191022122059"
+    },
+    {
+     "path": "nav.monthPrev",
+     "value": "20191022122059"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 33,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "success"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Wayback copy of the jeugdliteratuur.org author page 'Mark Twain' (Dutch): only a small facts block (birth/death date, birthplace, nationality) plus link labels (bibliotheek.be, Boekenzoeker, University Virginia, Books and Writers...) without URLs; no bio text or bibliography captured.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,24 @@
+{
+ "property": "P3984",
+ "label": "subreddit",
+ "files_read": ["pages/P3984__MarkTwain.txt"],
+ "about_entity": true,
+ "page_kind": "other",
+ "notes": "The r/MarkTwain subreddit front page: a community discussion feed about Mark Twain, with user posts, ads and sidebar. It has no structured record. The only facts are the subreddit's own metadata and work titles named in post flairs and polls.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading / subreddit title"}],
+  "name_variant": [{"value": "Samuel Clemens", "lang": "en", "via": "user post text"}],
+  "work": [
+   {"value": "Life on the Mississippi", "via": "post title"},
+   {"value": "The Adventures of Huckleberry Finn", "via": "post flair"},
+   {"value": "The Mysterious Stranger", "via": "post flair"},
+   {"value": "The Adventures of Tom Sawyer", "via": "post flair / poll"},
+   {"value": "Tom Sawyer Abroad", "via": "poll option"},
+   {"value": "Tom Sawyer, Detective", "via": "poll option"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "via": "user post text"},
+   {"value": "Following the Equator", "via": "user post text"}
+  ],
+  "identifier": [{"value": "r/MarkTwain", "via": "subreddit name"}],
+  "record_created": [{"value": "2011-07-13", "raw": "Created Jul 13, 2011", "via": "sidebar"}]
+ }
+}

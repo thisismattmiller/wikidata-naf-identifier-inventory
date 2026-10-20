@@ -1,0 +1,42 @@
+{
+ "property": "P10780",
+ "label": "Radio France person ID",
+ "files_read": ["P10780__mark-twain/embedded_opengraph.json", "P10780__mark-twain/xhr_2.json"],
+ "about_entity": true,
+ "notes": "OpenGraph og:description is a generic site template. xhr_2.json is the SvelteKit __data.json for the Personality page (deduplicated array format): no biography (chapo/bodyJson empty), but it has the personality id, topic tags and a list of podcast episodes whose descriptions mention his works and dates. One episode text has typos ('1935-1910', '1835-910'), ignored.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "fr", "via": "xhr_2.json: nodes[1] Personality.title; embedded_opengraph.json: og:title"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "Portrait de l'écrivain américain Mark Twain (1835-1910), en 1907.", "lang": "fr", "via": "xhr_2.json: document visual legend"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "Portrait de l'écrivain américain Mark Twain (1835-1910), en 1907.", "lang": "fr", "via": "xhr_2.json: document visual legend"}
+  ],
+  "occupation": [
+   {"value": "écrivain", "lang": "fr", "via": "xhr_2.json: document texts ('l'écrivain et humoriste américain Mark Twain')"},
+   {"value": "humoriste", "lang": "fr", "via": "xhr_2.json: document texts"}
+  ],
+  "nationality": [
+   {"value": "américain", "lang": "fr", "via": "xhr_2.json: document texts"}
+  ],
+  "field_of_activity": [
+   {"value": "Littérature américaine", "lang": "fr", "via": "xhr_2.json: Personality.relatedTags[0].title"}
+  ],
+  "work": [
+   {"value": "Les Aventures de Huckleberry Finn", "lang": "fr", "raw": "\"Aventures de Huckleberry Finn\" de Mark Twain (1884)", "via": "xhr_2.json: document descriptions"},
+   {"value": "Les Aventures de Tom Sawyer", "lang": "fr", "raw": "\"Aventures de Tom Sawyer\" en 1876", "via": "xhr_2.json: document descriptions"},
+   {"value": "À la dure", "lang": "fr", "via": "xhr_2.json: document 'Le Far West \"à la dure\" de Mark Twain'"},
+   {"value": "Notes sur Paris", "lang": "fr", "via": "xhr_2.json: document description"},
+   {"value": "Conrad", "lang": "fr", "via": "xhr_2.json: document 'la nouvelle \"Conrad\" écrite en 1870 par Mark Twain'"},
+   {"value": "L'infortuné fiancé d'Aurélie", "lang": "fr", "via": "xhr_2.json: document description"},
+   {"value": "Le Roman de l'Esquimaude", "lang": "fr", "via": "xhr_2.json: document description"},
+   {"value": "Sketches, New and Old", "lang": "en", "via": "xhr_2.json: image legend 'Illustration de Mark Twains's Sketches, New and Old, 1875.'"}
+  ],
+  "identifier": [
+   {"value": "2add8ef4-a079-102d-9c2c-fcfcfc001444", "via": "xhr_2.json: nodes[1] Personality.id"},
+   {"value": "mark-twain", "raw": "https://www.radiofrance.fr/personnes/mark-twain", "via": "xhr_2.json: Personality.seoCanonicalUrl; embedded_opengraph.json: og:url"}
+  ]
+ }
+}

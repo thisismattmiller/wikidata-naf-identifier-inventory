@@ -1,0 +1,18 @@
+{
+ "property": "P4457",
+ "label": "DAHR artist ID",
+ "files_read": [
+  "P4457__102301/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "Minimal OpenGraph block from the DAHR page: only og:title and site name.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:title"
+   }
+  ]
+ }
+}

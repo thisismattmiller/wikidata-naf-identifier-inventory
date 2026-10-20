@@ -1,0 +1,1187 @@
+{
+ "property": "P2963",
+ "property_label": "Goodreads author ID",
+ "files": [
+  {
+   "file": "P2963__1244/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.goodreads.com/author/show/1244"
+  },
+  {
+   "file": "P2963__1244/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.goodreads.com/author/show/1244"
+  },
+  {
+   "file": "P2963__1244/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.goodreads.com/author/show/1244"
+  },
+  {
+   "file": "P2963__1244/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://proc.ad.cpe.dotomi.com/cvx/client/direct/launcher?version=1.2.0&lid=681"
+  },
+  {
+   "file": "P2963__1244/xhr_2.img",
+   "format": "image",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://fls-na.amazon.com/1/batch/1/OP/A1PQBFHBHS6YH1:105-8005695-6457903:TVZPSK2M51SCV6HXYGDA:www.goodreads.com$jserr=j:%7B%22m%22%3A%22Script%20error.%22%2C%22c%22%3A%220%22%2C%22s%22%3A%5B%5D%2C%22csm%22%3A%22v1%20onerror%20callee%22%2C%22pageURL%22%3A%22https%3A%2F%2Fwww.goodreads.com%2Fauthor%2Fshow%2F1244%22%2C%22logLevel%22%3A%22FATAL%22%7D:322&uedata=s:%2Fuedata%2F105-8005695-6457903%2F%3Fld%26v%3Da02%26id%3DTVZPSK2M51SCV6HXYGDA%26m%3D1%26sc%3DTVZPSK2M51SCV6HXYGDA%26ue%3D0%26be%3D246%26pc%3D775%26tc%3D-258%26na_%3D-258%26fe_%3D-257%26lk_%3D-249%26_lk%3D-143%26co_%3D-143%26_co%3D-114%26sc_%3D-129%26rq_%3D-113%26rs_%3D-28%26_rs%3D-23%26dl_%3D-24%26di_%3D246%26de_%3D318%26_de%3D332%26_dc%3D775%26ld_%3D775%26ty%3D0%26rc%3D0%26ld%3D775%26t%3D1790976385007%26ctb%3D1%26ec%3D1%26csmtags%3D%7C%7Cauthor%3Ashow%3Asigned_out%7Cauthor%3Ashow%3Asigned_out%3Adesktop%7Cnonredirect:439"
+  },
+  {
+   "file": "P2963__1244/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202609290101&st=env&sjk=6732292963399259"
+  },
+  {
+   "file": "P2963__1244/xhr_4.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.goodreads.com/dfp/impression?ad_unit=goodr.auth.show.top.970x90&line_item_id=&campaign_id=3586890227&ad_device_type=desktop&impression_output=0"
+  },
+  {
+   "file": "P2963__1244/xhr_5.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.goodreads.com/dfp/impression?ad_unit=goodr.auth.fcm.1x1&ad_device_type=desktop&impression_output=3"
+  },
+  {
+   "file": "P2963__1244/xhr_6.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.goodreads.com/dfp/impression?ad_unit=goodr.auth.skin.1x1&ad_device_type=desktop&impression_output=3"
+  },
+  {
+   "file": "P2963__1244/xhr_7.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.goodreads.com/dfp/impression?ad_unit=goodr.auth.show.top.300x250&line_item_id=&campaign_id=3586890227&ad_device_type=desktop&impression_output=0"
+  },
+  {
+   "file": "P2963__1244/xhr_8.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.goodreads.com/dfp/impression?ad_unit=goodr.auth.show.cb.300x250&line_item_id=&campaign_id=3586890227&ad_device_type=desktop&impression_output=0"
+  },
+  {
+   "file": "P2963__1244/xhr_9.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.goodreads.com/dfp/impression?ad_unit=goodr.auth.show.bottom.300x250&line_item_id=&campaign_id=3586890227&ad_device_type=desktop&impression_output=0"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 2,
+  "image": 1,
+  "xml": 6
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "": 3,
+  "LLM extraction": 2,
+  "http://ogp.me/ns/fb#": 1
+ },
+ "elements": {
+  "image": [
+   {
+    "value": "https://images.gr-assets.com/authors/1322103868p5/1244.jpg",
+    "lang": null,
+    "via": "json:image",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://images.gr-assets.com/authors/1322103868p8/1244.jpg",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:image",
+    "file": "P2963.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Autobiography of Mark Twain: The Complete and Authorized Edition",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Jumping Frogs: Undiscovered, Rediscovered, and Celebrated Writings of Mark Twain",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].name; embedded_opengraph.json: og:title",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "November 30, 1835",
+    "lang": null,
+    "via": "json:birthDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].birthDate",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Born",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "April 21, 1910",
+    "lang": null,
+    "via": "json:deathDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].deathDate",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Died",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "http://www.marktwainproject.org/",
+    "lang": null,
+    "via": "json:url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/1244.Mark_Twain",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/2018.Lee_Nelson",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/series/257501-autobiography-of-mark-twain-the-complete-and-authorized-edition",
+    "lang": null,
+    "via": "json:url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/3361596.Harriet_E_Smith",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/1099514.Benjamin_Griffin",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/493453.Victor_Fischer",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/13527285.Michael_Barry_Frank",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/13929363.Amanda_Gagel",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/1402275.Sharon_K_Goetz",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/4516402.Leslie_Diane_Myrick",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/13929364.Christopher_M_Ohge",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/series/337800-jumping-frogs-undiscovered-rediscovered-and-celebrated-writings-of-ma",
+    "lang": null,
+    "via": "json:url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/8217415.Livy_Clemens",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/503038.Susy_Clemens",
+    "lang": null,
+    "via": "json:author.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   }
+  ],
+  "description": [
+   {
+    "value": "Author of The Adventures of Tom Sawyer and Adventures of Huckleberry Finn, The Innocents Abroad, Or, the New Pilgrims' Progress, and Life on the Mississippi",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens, known by the pen name Mark Twain, was an American writer, humorist and essayist. He was praised as the \"greatest humorist the United States has produced,\" with William Faulkner calling him \"the father of American literature.\" His novels include The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1884), with the latter often called the \"Great American Novel.\" Twain also wrote A Connecticut Yankee in King Arthur's Court (1889) and Pudd'nhea",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Huckleberry Finn (Adventures of Tom and Huck, #2)",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer and Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Diaries of Adam and Eve",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad, Or, the New Pilgrims' Progress",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Tom and Huck",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='BookSeries')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Autobiography of Mark Twain: The Complete and Authorized Edition",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='BookSeries')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Jumping Frogs: Undiscovered, Rediscovered, and Celebrated Writings of Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='BookSeries')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The McWilliamses (Short Stories)",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='BookSeries')].name",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:books list",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:books list",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:books list",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "llm-page:books list",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer and Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:books list",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Diaries of Adam and Eve",
+    "lang": null,
+    "via": "llm-page:books list",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": null,
+    "via": "llm-page:books list",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": null,
+    "via": "llm-page:books list",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad, Or, the New Pilgrims' Progress",
+    "lang": null,
+    "via": "llm-page:books list",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": null,
+    "via": "llm-page:books list",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age: A Tale of Today",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Tom and Huck (series)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Autobiography of Mark Twain: The Complete and Authorized Edition",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Jumping Frogs: Undiscovered, Rediscovered, and Celebrated Writings of Mark Twain",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "The McWilliamses (Short Stories)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Lee Nelson",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Adventures of Tom and Huck' author",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Harriet E. Smith",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Autobiography of Mark Twain: The Complete and Authorized Edition' author",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Griffin",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Autobiography of Mark Twain: The Complete and Authorized Edition' author",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Victor Fischer",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Autobiography of Mark Twain: The Complete and Authorized Edition' author",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Michael Barry Frank",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Autobiography of Mark Twain: The Complete and Authorized Edition' author",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Amanda Gagel",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Autobiography of Mark Twain: The Complete and Authorized Edition' author",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Sharon K. Goetz",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Autobiography of Mark Twain: The Complete and Authorized Edition' author",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Leslie Diane Myrick",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Autobiography of Mark Twain: The Complete and Authorized Edition' author",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Christopher M. Ohge",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Autobiography of Mark Twain: The Complete and Authorized Edition' author",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Livy Clemens",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Jumping Frogs: Undiscovered, Rediscovered, and Celebrated Writings of Mark Twai",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Susy Clemens",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: BookSeries 'Jumping Frogs: Undiscovered, Rediscovered, and Celebrated Writings of Mark Twai",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dudley Warner (co-author, The Gilded Age)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Robert Ingersoll (influence)",
+    "lang": null,
+    "via": "llm-page:Influences",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Ambrose Bierce (influence)",
+    "lang": null,
+    "via": "llm-page:Influences",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "E. Haldeman-Julius (influence)",
+    "lang": null,
+    "via": "llm-page:Influences",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Jacques Loeb (influence)",
+    "lang": null,
+    "via": "llm-page:Influences",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Lee Nelson (co-credited, Adventures of Tom and Huck series)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Harriet E. Smith (editor, Autobiography)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Griffin (editor, Autobiography; Jumping Frogs)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Victor Fischer (editor, Autobiography)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Michael Barry Frank (editor, Autobiography)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Amanda Gagel (editor, Autobiography)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Sharon K. Goetz (editor, Autobiography)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Leslie Diane Myrick (editor, Autobiography)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Livy Clemens (co-credited, Jumping Frogs series)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Susy Clemens (co-credited, Jumping Frogs series)",
+    "lang": null,
+    "via": "llm-page:Series",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "William Faulkner (called him 'the father of American literature')",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.marktwainproject.org/",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].url (website linked from author profile)",
+    "file": "P2963.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1244",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/1244.Mark_Twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P2963.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:bio sentence",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, The United States",
+    "lang": "en",
+    "via": "llm-page:Born",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "essayist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Literature & Fiction",
+    "lang": "en",
+    "via": "llm-page:Genre",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Short Stories",
+    "lang": "en",
+    "via": "llm-page:Genre",
+    "file": "P2963.json",
+    "uri": false
+   },
+   {
+    "value": "Biographies & Memoirs",
+    "lang": "en",
+    "via": "llm-page:Genre",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P2963.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "image": [],
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "see_also": [],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "name_variant": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "books:book ()": 3,
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 6287,
+   "path_count": 16,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 16,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@context",
+     "n": 16,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].url",
+     "n": 16,
+     "sample": "http://www.marktwainproject.org/"
+    },
+    {
+     "path": "[].name",
+     "n": 15,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].author.url[]",
+     "n": 15,
+     "sample": "https://www.goodreads.com/author/show/1244.Mark_Twain"
+    },
+    {
+     "path": "[].author.name[]",
+     "n": 15,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].image",
+     "n": 11,
+     "sample": "https://images.gr-assets.com/authors/1322103868p5/1244.jpg"
+    },
+    {
+     "path": "[].author.@type",
+     "n": 4,
+     "sample": "Person"
+    },
+    {
+     "path": "[].birthDate",
+     "n": 1,
+     "sample": "November 30, 1835"
+    },
+    {
+     "path": "[].deathDate",
+     "n": 1,
+     "sample": "April 21, 1910"
+    },
+    {
+     "path": "[].aggregateRating.@type",
+     "n": 1,
+     "sample": "AggregateRating"
+    },
+    {
+     "path": "[].aggregateRating.ratingValue",
+     "n": 1,
+     "sample": "3.87"
+    },
+    {
+     "path": "[].aggregateRating.ratingCount",
+     "n": 1,
+     "sample": "2988316"
+    },
+    {
+     "path": "[].aggregateRating.reviewCount",
+     "n": 1,
+     "sample": "81078"
+    },
+    {
+     "path": "[].author.url",
+     "n": 1,
+     "sample": "https://www.goodreads.com/author/show/1244.Mark_Twain"
+    },
+    {
+     "path": "[].author.name",
+     "n": 1,
+     "sample": "Mark Twain"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].name",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].birthDate",
+     "value": "November 30, 1835"
+    },
+    {
+     "path": "[].deathDate",
+     "value": "April 21, 1910"
+    },
+    {
+     "path": "[].url",
+     "value": "http://www.marktwainproject.org/"
+    },
+    {
+     "path": "[].url",
+     "value": "https://www.goodreads.com/author/list/1244.Mark_Twain"
+    },
+    {
+     "path": "[].author.url[]",
+     "value": "https://www.goodreads.com/author/show/1244.Mark_Twain"
+    },
+    {
+     "path": "[].author.name[]",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].name",
+     "value": "Autobiography of Mark Twain: The Complete and Authorized Edition"
+    },
+    {
+     "path": "[].url",
+     "value": "https://www.goodreads.com/series/257501-autobiography-of-mark-twain-the-complete-and-authorized-edition"
+    },
+    {
+     "path": "[].author.url[]",
+     "value": "https://www.goodreads.com/author/show/1244.Mark_Twain"
+    },
+    {
+     "path": "[].author.name[]",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].name",
+     "value": "Jumping Frogs: Undiscovered, Rediscovered, and Celebrated Writings of Mark Twain"
+    },
+    {
+     "path": "[].author.url[]",
+     "value": "https://www.goodreads.com/author/show/1244.Mark_Twain"
+    },
+    {
+     "path": "[].author.url[]",
+     "value": "https://www.goodreads.com/author/show/8217415.Livy_Clemens"
+    },
+    {
+     "path": "[].author.url[]",
+     "value": "https://www.goodreads.com/author/show/503038.Susy_Clemens"
+    },
+    {
+     "path": "[].author.name[]",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].author.name[]",
+     "value": "Livy Clemens"
+    },
+    {
+     "path": "[].author.name[]",
+     "value": "Susy Clemens"
+    },
+    {
+     "path": "[].author.url",
+     "value": "https://www.goodreads.com/author/show/1244.Mark_Twain"
+    },
+    {
+     "path": "[].author.name",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "url",
+    "url[]"
+   ]
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 552,
+   "path_count": 9,
+   "paths": [
+    {
+     "path": "[].fb:app_id",
+     "n": 1,
+     "sample": "2415071772"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Author of The Adventures of Tom Sawyer and Adventures of Huckleberry Finn, The Innocents Abroad, Or, the New Pilgrims' P"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://images.gr-assets.com/authors/1322103868p8/1244.jpg"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.goodreads.com/author/show/1244.Mark_Twain"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "books.author"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    },
+    {
+     "path": "[].@context.fb",
+     "n": 1,
+     "sample": "http://ogp.me/ns/fb#"
+    },
+    {
+     "path": "[].@context.good_reads",
+     "n": 1,
+     "sample": "http://ogp.me/ns/fb/good_reads#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.goodreads.com/author/show/1244.Mark_Twain"
+    }
+   ],
+   "language_like_keys": [
+    "fb",
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 190,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "tid",
+     "n": 1,
+     "sample": "681"
+    },
+    {
+     "path": "solution[].name",
+     "n": 1,
+     "sample": "publink"
+    },
+    {
+     "path": "solution[].src",
+     "n": 1,
+     "sample": "https://secure.cdn.fastclick.net/js/cnvr-coreid/latest/coreid.min.js"
+    },
+    {
+     "path": "solution[].configName",
+     "n": 1,
+     "sample": "publink_options"
+    },
+    {
+     "path": "solution[].config.loadAts",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "src",
+    "tid"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 18014,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "sodar_query_id",
+     "n": 1,
+     "sample": "S2fAatigMouU3LoPge6jqAQ"
+    },
+    {
+     "path": "injector_basename",
+     "n": 1,
+     "sample": "sodar2"
+    },
+    {
+     "path": "bg_hash_basename",
+     "n": 1,
+     "sample": "5zy86NbR8f54HHV5BxfElrR01oDK3KtpXmGPzuANPWw"
+    },
+    {
+     "path": "bg_binary",
+     "n": 1,
+     "sample": "woSgveO7q/iQhZj2YAGO/R2eUVvHk72SSYMBY7smMpOOJNm8AUlUMEkQzIzQRMQOyjvn8vIoAU8W6unnaAvofMyPjxKKBJDBkfDwgDljuCCiafvP9mUV8reK"
+    },
+    {
+     "path": "rc_enable",
+     "n": 1,
+     "sample": "y"
+    },
+    {
+     "path": "bg_snapshot_delay_ms",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "is_gen_204",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Goodreads author page: born/died, website, genres, influences (truncated '...more'), a bio (truncated '...more'), top 10 books (9,691 distinct works exist), series with editors, and quotes. Librarian note says more than one author shares the name.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,182 @@
+{
+ "property": "P2639",
+ "property_label": "Filmportal ID",
+ "files": [
+  {
+   "file": "P2639__5df2180863f84e09b51d8c5de7832a91/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.filmportal.de/person/mark-twain_5df2180863f84e09b51d8c5de7832a91"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 7,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P2639.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "llm-page:Other names (labelled pseudonym on page)",
+    "file": "P2639.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:Other names (labelled pseudonym on page)",
+    "file": "P2639.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:dates line",
+    "file": "P2639.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-02-21",
+    "lang": "en",
+    "via": "llm-page:dates line",
+    "file": "P2639.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, USA",
+    "lang": "en",
+    "via": "llm-page:dates line",
+    "file": "P2639.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, USA",
+    "lang": "en",
+    "via": "llm-page:dates line",
+    "file": "P2639.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "script",
+    "lang": "en",
+    "via": "llm-page:role line under name",
+    "file": "P2639.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Diaries of Adam and Eve",
+    "lang": "en",
+    "via": "llm-page:Filmography",
+    "file": "P2639.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huck Finn",
+    "lang": "en",
+    "via": "llm-page:Filmography",
+    "file": "P2639.json",
+    "uri": false
+   },
+   {
+    "value": "Tom and Hacke",
+    "lang": "en",
+    "via": "llm-page:Filmography",
+    "file": "P2639.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Filmography",
+    "file": "P2639.json",
+    "uri": false
+   },
+   {
+    "value": "The unsuspecting ones on the go",
+    "lang": "en",
+    "via": "llm-page:Filmography",
+    "file": "P2639.json",
+    "uri": false
+   },
+   {
+    "value": "The mysterious stranger",
+    "lang": "en",
+    "via": "llm-page:Filmography",
+    "file": "P2639.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:Filmography",
+    "file": "P2639.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "5df2180863f84e09b51d8c5de7832a91",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P2639.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "filmportal.de person page (English UI, machine-translated film titles) for Mark Twain with role 'script', dates/places and a filmography of German film adaptations credited as 'Template' (Vorlage = source material). Oddities: real names are labelled '(pseudonym)', and the death date is printed as 'February 21, 1910' (Twain died 21 April 1910). A 'Person Authority Record (GND)' external link is shown as a label only, no URI in the text.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

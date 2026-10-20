@@ -1,0 +1,124 @@
+{
+ "property": "P10018",
+ "property_label": "George Eastman Museum people ID",
+ "files": [
+  {
+   "file": "P10018__90541/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://collections.eastman.org/people/90541"
+  },
+  {
+   "file": "P10018__90541/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://collections.eastman.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P10018__90541/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://collections.eastman.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 5,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P10018.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": null,
+    "via": "nationality",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:line under heading",
+    "file": "P10018.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "/people/90541/mark-twain;jsessionid=8F00C98E43E7761D35DEE8255034D7C2",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "90541",
+    "lang": null,
+    "via": "llm-page:page URL https://collections.eastman.org/people/90541",
+    "file": "P10018.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "birth_date": [],
+  "death_date": [],
+  "name_preferred": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "see_also": [],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "George Eastman Museum collections people page: only the name, 'American, 1835–1910' and a 'View All Works' link; no works are listed in the rendered text.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

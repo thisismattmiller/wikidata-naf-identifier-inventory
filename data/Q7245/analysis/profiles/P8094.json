@@ -1,0 +1,529 @@
+{
+ "property": "P8094",
+ "property_label": "GeneaStar person ID",
+ "files": [
+  {
+   "file": "P8094__clemens/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://en.geneastar.org/genealogy/clemens/mark-twain"
+  },
+  {
+   "file": "P8094__clemens/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://en.geneastar.org/genealogy/clemens/mark-twain"
+  },
+  {
+   "file": "P8094__clemens/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://myfamilycominc.tt.omtrdc.net/rest/v1/delivery?client=myfamilycominc&sessionId=f63f1d73fa1d44c8baf9f66ec52b67c1&version=2.11.6"
+  },
+  {
+   "file": "P8094__clemens/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://en.geneastar.org/api/carto/clemens"
+  },
+  {
+   "file": "P8094__clemens/xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://en.geneastar.org/_fragment/core/ng-translate/arbre_v5_moins_options-arbre_v5_plus_options-gstar_fiche_cousinage-inscription-inscription_v5/en?c_version=1&cachable=1&route_origin=geneanet_core_ng_translate&ttl=900"
+  },
+  {
+   "file": "P8094__clemens/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://myfamilycominc.tt.omtrdc.net/rest/v1/delivery?client=myfamilycominc&sessionId=f63f1d73fa1d44c8baf9f66ec52b67c1&version=2.11.6"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "unknown": 1,
+  "html": 2,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://opengraphprotocol.org/schema/": 6,
+  "https://dev.twitter.com/cards#": 3,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "Mark Twain was born to a Tennessee country merchant, John Marshall Clemens (August 11, 1798 – March 24, 1847), and Jane Lampton Clemens (June 18, 1803 – October 27, 1890). John Marshall Clemens was the first of five children born to Samuel B Clemens and Pamela Goggin (1775–1844), who married on October 29, 1797 in Bedford County, Virginia.\n\nTwain was the sixth of seven children. Only three of his siblings survived childhood: his brother Orion (July 17, 1825 – December 11, 1897); Henry, who died ",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain was born to a Tennessee country merchant, John Marshall Clemens (August 11, 1798 – March 24, 1847), and Jane Lampton Clemens (June 18, 1803 – October 27, 1890). [...] Twain was the sixth of seven children.",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description (abridged)",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "American author and humorist",
+    "lang": "en",
+    "via": "llm-page:subtitle",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://geneacdn.net/bundles/geneanetgeneastar/images/celebrites/200px/clemens.jpg",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "John Marshall Clemens (1798-08-11 – 1847-03-24)",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Lampton Clemens (1803-06-18 – 1890-10-27)",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel B Clemens",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Pamela Goggin (1775–1844)",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Orion (1825-07-17 – 1897-12-11)",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Henry (1838-07-13 – 1858-06-21)",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Pamela (1827-09-19 – 1904-08-31)",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret (1830-05-31 – 1839-08-17)",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin (1832-06-08 – 1842-05-12)",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Pleasant (1828–1829)",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "John Marshall Clemens (father, 1798-08-11 – 1847-03-24)",
+    "lang": null,
+    "via": "llm-page:tree / More information",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Lampton Clemens (mother, 1803-06-18 – 1890-10-27)",
+    "lang": null,
+    "via": "llm-page:tree / More information",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel B. Clemens (paternal grandfather, 1770-1805)",
+    "lang": null,
+    "via": "llm-page:tree / More information",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Pamela Goggin (paternal grandmother, 1775-1844)",
+    "lang": null,
+    "via": "llm-page:tree / More information",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Lampton (maternal grandfather, 1770-1837)",
+    "lang": null,
+    "via": "llm-page:tree",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Casey (maternal grandmother, 1780-1818)",
+    "lang": null,
+    "via": "llm-page:tree",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Abraham Clemens (great-grandfather, -1800)",
+    "lang": null,
+    "via": "llm-page:tree",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Elizabeth Moore (great-grandmother)",
+    "lang": null,
+    "via": "llm-page:tree",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Stephen Goggin (great-grandfather, 1752-1802)",
+    "lang": null,
+    "via": "llm-page:tree",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Rachel Moorman (great-grandmother, 1753-1833)",
+    "lang": null,
+    "via": "llm-page:tree",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "William Lampton (great-grandfather, 1733-1790)",
+    "lang": null,
+    "via": "llm-page:tree",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Patsy Schooler (great-grandmother, -1811)",
+    "lang": null,
+    "via": "llm-page:tree",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "William Casey (great-grandfather, 1750-1816)",
+    "lang": null,
+    "via": "llm-page:tree",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Montgomery (great-grandmother, 1761-1844)",
+    "lang": null,
+    "via": "llm-page:tree",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens (brother, 1825-07-17 – 1897-12-11)",
+    "lang": null,
+    "via": "llm-page:More information",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Clemens (brother, 1838-07-13 – 1858-06-21)",
+    "lang": null,
+    "via": "llm-page:More information",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Pamela Clemens (sister, 1827-09-19 – 1904-08-31)",
+    "lang": null,
+    "via": "llm-page:More information",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Clemens (sister, 1830-05-31 – 1839-08-17)",
+    "lang": null,
+    "via": "llm-page:More information",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Clemens (brother, 1832-06-08 – 1842-05-12)",
+    "lang": null,
+    "via": "llm-page:More information",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "Pleasant Clemens (brother, 1828-1829)",
+    "lang": null,
+    "via": "llm-page:More information",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "clemens",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne CLEMENS",
+    "lang": "en",
+    "via": "llm-page:'Born Samuel Langhorne CLEMENS'",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:family tree",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:family tree",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Born on",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Died on",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, USA, United States",
+    "lang": "en",
+    "via": "llm-page:Born on",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, USA, United States",
+    "lang": "en",
+    "via": "llm-page:Died on",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Author",
+    "lang": "en",
+    "via": "llm-page:category under heading",
+    "file": "P8094.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:description",
+    "file": "P8094.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [
+   "en"
+  ],
+  "image": [],
+  "name_preferred": [
+   "en"
+  ],
+  "related_agent": [],
+  "identifier": [],
+  "name_variant": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 1284,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://en.geneastar.org/genealogy/clemens/mark-twain"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Geneanet"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Family tree of Mark TWAIN"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Mark Twain was born to a Tennessee country merchant, John Marshall Clemens (August 11, 1798 – March 24, 1847), and Jane "
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://geneacdn.net/bundles/geneanetgeneastar/images/celebrites/200px/clemens.jpg"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:url",
+     "value": "https://en.geneastar.org/genealogy/clemens/mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Family tree of Mark TWAIN"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Mark Twain was born to a Tennessee country merchant, John Marshall Clemens (August 11, 1798 – March 24, 1847), and Jane Lampton Clemens (June 18, 1803 – October 27, 1890). John Marshall Clemens was th"
+    },
+    {
+     "path": "[].og:image",
+     "value": "https://geneacdn.net/bundles/geneanetgeneastar/images/celebrites/200px/clemens.jpg"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 61,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "405"
+    },
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Request method 'GET' not supported"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Geneastar celebrity genealogy page: birth/death, short description, ancestor tree (4 generations) and a family paragraph; 'They are related' user list and 'same topic' celebrities ignored.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

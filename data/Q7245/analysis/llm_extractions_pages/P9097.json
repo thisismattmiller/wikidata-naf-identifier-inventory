@@ -1,0 +1,64 @@
+{
+ "property": "P9097",
+ "label": "American Academy in Rome ID",
+ "files_read": ["pages/P9097__11275911.txt", "pages/P9097__12438137.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Two Koha MARC views of authority records at the Arthur & Janet C. Ross Library (American Academy in Rome). One is the pseudonym heading Snodgrass, Quintus Curtius (11275911) and the other is Clemens, Samuel Langhorne (12438137), which is copied from LC. Both records link to id.loc.gov. The suspected login wall did not hide either record.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "lang": "en", "via": "100 heading (11275911)"},
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": "en", "via": "100 heading (12438137)"}
+  ],
+  "name_variant": [
+   {"value": "Klemens, Sami͡uėl, 1835-1910", "lang": null, "via": "400 (12438137)"},
+   {"value": "Klemens, Seĭmeul Lenghorn, 1835-1910", "lang": null, "via": "400 (12438137)"},
+   {"value": "Kʻo-lan-man-ssu, Sai-mi-erh Lang-en, 1835-1910", "lang": null, "via": "400 (12438137)"},
+   {"value": "Samuel L. Clemens", "lang": "en", "via": "670 LC data base usage (12438137)"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "en", "via": "670 DAB, 1930 (12438137)"},
+   {"value": "Quintus Curtius Snodgrass", "lang": "en", "via": "670 DAB, 1930 (12438137)"}
+  ],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "en", "via": "100 heading (12438137)"}],
+  "family_name": [{"value": "Clemens", "lang": "en", "via": "100 heading (12438137)"}],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "100 $d (both records)"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "100 $d (both records)"}],
+  "occupation": [
+   {"value": "humorist", "lang": "en", "via": "670 DAB, 1930 (12438137)"},
+   {"value": "novelist", "lang": "en", "via": "670 DAB, 1930 (12438137)"}
+  ],
+  "description": [{"value": "Works by this author are identified by the name used in the item. For a listing of other names used by this author, search also under Twain, Mark, 1835-1910", "lang": "en", "via": "663 complex see also reference (12438137)"}],
+  "related_agent": [
+   {"value": "Twain, Mark, 1835-1910 (see also)", "via": "500 (both records)"},
+   {"value": "Rev. Lyman Beecher (descendants were correspondents)", "via": "670 NUCMC (12438137)"}
+  ],
+  "same_as": [
+   {"value": "http://id.loc.gov/authorities/names/n93099461", "via": "100 link to id.loc.gov (11275911, Snodgrass)"},
+   {"value": "http://id.loc.gov/authorities/names/n93099439", "via": "100 link to id.loc.gov (12438137, Clemens)"}
+  ],
+  "identifier": [
+   {"value": "11275911", "via": "001 control number (Snodgrass)"},
+   {"value": "12438137", "via": "001 control number (Clemens)"},
+   {"value": "n93099461", "raw": "024 lccn", "via": "024 (11275911)"},
+   {"value": "n 93099439", "raw": "010 LCCN; canceled n 88274847", "via": "010 / 024 (12438137)"},
+   {"value": "n 88274847", "raw": "Canceled/invalid LC control number", "via": "010 $z (12438137)"}
+  ],
+  "source": [
+   {"value": "OCLC-CD", "lang": "en", "via": "670 (11275911)"},
+   {"value": "NUCMC data from Stowe-Day Lib. for Kinney, S. Thomson-Kinney collection, 1851-1887", "lang": "en", "via": "670 (12438137)"},
+   {"value": "LC data base, 3-30-89", "lang": "en", "via": "670 (12438137)"},
+   {"value": "DAB, 1930", "lang": "en", "via": "670 (12438137)"},
+   {"value": "ItRAAR (cataloging agency)", "via": "040 (11275911)"},
+   {"value": "DLC (cataloging agency, rda)", "via": "040 (12438137)"}
+  ],
+  "record_modified": [
+   {"value": "2024-07-22", "raw": "20240722221927.0", "via": "005 (11275911)"},
+   {"value": "2017-01-25", "raw": "20170125090503.0", "via": "005 (12438137)"}
+  ],
+  "record_created": [
+   {"value": "1995-10-09", "raw": "008 951009", "via": "008 (11275911)"},
+   {"value": "2014-06-05", "raw": "008 140605", "via": "008 (12438137)"}
+  ]
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "property": "P5068",
+ "label": "Flanders Arts Institute person ID (former scheme)",
+ "files_read": [
+  "pages/P5068__1884188.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Archived Kunstenpunt (data.kunsten.be) person page for Mark Twain: name, gender, key name 'Twain, Marc', one document about him and five stage productions based on his work. No dates.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "'Volledige naam' row"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Marc; ( - ); (auteur)",
+    "lang": "nl",
+    "via": "'Sleutelnaam' row"
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": "nl",
+    "via": "'Voornaam' row"
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": "nl",
+    "via": "'Naam' row"
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "raw": "Man",
+    "lang": "nl",
+    "via": "'Geslacht' row"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "auteur",
+    "lang": "nl",
+    "via": "'Sleutelnaam' row qualifier"
+   }
+  ],
+  "work": [
+   {
+    "value": "Koning Leopolds Alleenspraak",
+    "raw": "2010-2011",
+    "lang": "nl",
+    "via": "'Podiumproductie' table"
+   },
+   {
+    "value": "Achter het hek",
+    "raw": "2008-2009; 2006-2007",
+    "lang": "nl",
+    "via": "'Podiumproductie' table"
+   },
+   {
+    "value": "Tom Sawyer",
+    "raw": "1978-1979",
+    "lang": "nl",
+    "via": "'Podiumproductie' table"
+   },
+   {
+    "value": "Mijn vriend Huckelberry",
+    "raw": "1977-1978",
+    "lang": "nl",
+    "via": "'Podiumproductie' table"
+   }
+  ],
+  "source": [
+   {
+    "value": "Die Kurzgeschichte: Formen und Entwicklung (1967, REF)",
+    "lang": "de",
+    "via": "'Documenten over' table"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1884188",
+    "lang": null,
+    "via": "page URL people/1884188"
+   },
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "'Permalink' row"
+   }
+  ]
+ }
+}

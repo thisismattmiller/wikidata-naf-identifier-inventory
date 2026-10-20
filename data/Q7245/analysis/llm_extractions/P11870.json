@@ -1,0 +1,18 @@
+{
+ "property": "P11870",
+ "label": "The Literary Encyclopedia person ID",
+ "files_read": ["P11870__4486/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata of the Literary Encyclopedia person page; og:description is a truncated first sentence of the article; og:image is the site icon.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "en", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "description": [
+   {"value": "Mark Twain, by the end of his career, would exemplify the American ideal of...", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "identifier": [
+   {"value": "4486", "raw": "https://www.litencyc.com/php/speople.php?rec=true&UID=4486", "via": "embedded_opengraph.json: og:url"}
+  ]
+ }
+}

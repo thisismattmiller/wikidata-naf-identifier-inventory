@@ -1,0 +1,219 @@
+{
+ "property": "P7520",
+ "property_label": "Filmový přehled person or company ID",
+ "files": [
+  {
+   "file": "P7520__129546/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.filmovyprehled.cz/cs/person/129546"
+  },
+  {
+   "file": "P7520__129546/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.filmovyprehled.cz/cs/person/129546"
+  },
+  {
+   "file": "P7520__129546/alternate_1.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.filmovyprehled.cz/cs/rss/revue"
+  },
+  {
+   "file": "P7520__129546/alternate_2.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.filmovyprehled.cz/cs/rss/kalendar"
+  },
+  {
+   "file": "P7520__129546/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.filmovyprehled.cz/vendor/cookieconsent/cookieconsent.css"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 3
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P7520.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "cs",
+    "via": "llm-page:page heading",
+    "file": "P7520.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "129546",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P7520.json",
+    "uri": false
+   },
+   {
+    "value": "https://www.filmovyprehled.cz/cs/person/129546",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P7520.json",
+    "uri": true
+   }
+  ],
+  "occupation": [
+   {
+    "value": "spisovatel",
+    "lang": "cs",
+    "via": "llm-page:line under heading",
+    "file": "P7520.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "cs",
+    "via": "llm-page:Datum narození",
+    "file": "P7520.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, USA",
+    "lang": "cs",
+    "via": "llm-page:Místo narození",
+    "file": "P7520.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "cs",
+    "via": "llm-page:Datum úmrtí",
+    "file": "P7520.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, USA",
+    "lang": "cs",
+    "via": "llm-page:Místo úmrtí",
+    "file": "P7520.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Páni kluci",
+    "lang": "cs",
+    "via": "llm-page:filmografie (Předloha = source material)",
+    "file": "P7520.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "cs",
+   "en"
+  ],
+  "identifier": [],
+  "occupation": [
+   "cs"
+  ],
+  "birth_date": [
+   "cs"
+  ],
+  "birth_place": [
+   "cs"
+  ],
+  "death_date": [
+   "cs"
+  ],
+  "death_place": [
+   "cs"
+  ],
+  "work": [
+   "cs"
+  ]
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 305,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain – Filmový přehled"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.filmovyprehled.cz/cs/person/129546"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.filmovyprehled.cz/images/tpl/logo_square.png"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Filmový přehled"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "profile"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain – Filmový přehled"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Czech film database person page: occupation, birth/death dates and places, and one filmography credit (source material for 'Páni kluci', 1975).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

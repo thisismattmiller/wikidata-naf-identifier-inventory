@@ -1,0 +1,809 @@
+{
+ "property": "P12674",
+ "property_label": "Kunstenpunt Knowledge Graph ID",
+ "files": [
+  {
+   "file": "P12674__Q142191/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://kg.kunsten.be/wiki/Item:Q142191"
+  },
+  {
+   "file": "P12674__Q142191/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://kg.kunsten.be/wiki/Item:Q142191"
+  },
+  {
+   "file": "P12674__Q142191/alternate_1.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.json"
+  },
+  {
+   "file": "P12674__Q142191/alternate_2.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.n3"
+  },
+  {
+   "file": "P12674__Q142191/alternate_3.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.ttl"
+  },
+  {
+   "file": "P12674__Q142191/alternate_4.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.nt"
+  },
+  {
+   "file": "P12674__Q142191/alternate_5.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.rdf"
+  },
+  {
+   "file": "P12674__Q142191/alternate_6.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.jsonld"
+  },
+  {
+   "file": "P12674__Q142191/alternate_7.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://kg.kunsten.be/w/index.php?title=Speciaal:RecenteWijzigingen&feed=atom"
+  },
+  {
+   "file": "P12674__Q142191/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://kg.kunsten.be/wiki/Sparql"
+  },
+  {
+   "file": "P12674__Q142191/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://kg.kunsten.be/wiki/Special:EntityData/Q142191.json?revision=13769016"
+  },
+  {
+   "file": "P12674__Q142191/browser_alternate_1.json",
+   "format": "json",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.json"
+  },
+  {
+   "file": "P12674__Q142191/browser_alternate_2.ttl",
+   "format": "turtle",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.n3"
+  },
+  {
+   "file": "P12674__Q142191/browser_alternate_4.nt",
+   "format": "n-triples",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.nt"
+  },
+  {
+   "file": "P12674__Q142191/browser_alternate_5.rdf",
+   "format": "rdf-xml",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.rdf",
+   "error": "ParserError: file:///Users/m/git/wikidata-naf-identifier-inventory/data/Q7245/representations/P12674__Q142191/browser_alternate_5.rdf"
+  },
+  {
+   "file": "P12674__Q142191/browser_alternate_6.jsonld",
+   "format": "json-ld",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://kg.kunsten.be/wiki/Speciaal:Entiteitsgegevens/Q142191.jsonld"
+  },
+  {
+   "file": "P12674__Q142191/browser_alternate_7.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://kg.kunsten.be/w/index.php?title=Speciaal:RecenteWijzigingen&feed=atom"
+  },
+  {
+   "file": "P12674__Q142191/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://kg.kunsten.be/wiki/Sparql"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 10,
+  "json": 1,
+  "turtle": 1,
+  "n-triples": 1,
+  "rdf-xml": 1,
+  "json-ld": 1,
+  "feed": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 30,
+  "http://wikiba.se/ontology#": 21,
+  "http://schema.org/": 18,
+  "https://kg.kunsten.be/prop/statement/": 12,
+  "https://kg.kunsten.be/prop/direct/": 12,
+  "https://kg.kunsten.be/prop/": 12,
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "http://creativecommons.org/ns#": 3,
+  "https://kg.kunsten.be/prop/qualifier/": 3,
+  "http://www.w3.org/2000/01/rdf-schema#": 3,
+  "http://www.w3.org/2004/02/skos/core#": 3,
+  "LLM extraction": 2,
+  "http://ogp.me/ns#": 1
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "Twain Mark",
+    "lang": null,
+    "via": "json:entities.Q142191.claims.P31.mainsnak.datavalue.value.text",
+    "file": "browser_alternate_1.json",
+    "uri": false
+   },
+   {
+    "value": "Person from data.kunsten.be, ingested as an Uitvoerder",
+    "lang": "nl",
+    "via": "description",
+    "file": "browser_alternate_2.ttl",
+    "uri": false
+   },
+   {
+    "value": "Person from data.kunsten.be, ingested as an Uitvoerder",
+    "lang": "en",
+    "via": "llm-page:Dutch description",
+    "file": "P12674.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "nl",
+    "lang": null,
+    "via": "json:ntities.Q142191.claims.P31.mainsnak.datavalue.value.language",
+    "file": "browser_alternate_1.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://wikiba.se/ontology#Statement",
+    "lang": null,
+    "via": "type",
+    "file": "browser_alternate_2.ttl",
+    "uri": true
+   },
+   {
+    "value": "http://wikiba.se/ontology#BestRank",
+    "lang": null,
+    "via": "type",
+    "file": "browser_alternate_2.ttl",
+    "uri": true
+   },
+   {
+    "value": "http://schema.org/Dataset",
+    "lang": null,
+    "via": "type",
+    "file": "browser_alternate_2.ttl",
+    "uri": true
+   },
+   {
+    "value": "http://wikiba.se/ontology#Item",
+    "lang": null,
+    "via": "type",
+    "file": "browser_alternate_2.ttl",
+    "uri": true
+   }
+  ],
+  "license": [
+   {
+    "value": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "lang": null,
+    "via": "license",
+    "file": "browser_alternate_2.ttl",
+    "uri": true
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-03-30T20:11:10+00:00",
+    "lang": null,
+    "via": "dateModified",
+    "file": "browser_alternate_2.ttl",
+    "uri": false
+   },
+   {
+    "value": "2024-03-30",
+    "lang": null,
+    "via": "llm:browser_alternate_1.json: $.entities.Q142191.modified",
+    "file": "P12674.json",
+    "uri": false
+   },
+   {
+    "value": "2024-03-30",
+    "lang": "en",
+    "via": "llm-page:page footer",
+    "file": "P12674.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "label",
+    "file": "browser_alternate_2.ttl",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain Mark",
+    "lang": "nl",
+    "via": "llm:browser_alternate_1.json: $.entities.Q142191.claims.P31[0].mainsnak.datavalue.value.text",
+    "file": "P12674.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm:browser_alternate_1.json: $.entities.Q142191.claims.P75",
+    "file": "P12674.json",
+    "uri": true
+   },
+   {
+    "value": "https://data.kunsten.be/people/1884188",
+    "lang": null,
+    "via": "llm:browser_alternate_1.json: $.entities.Q142191.claims.P26",
+    "file": "P12674.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Q142191",
+    "lang": null,
+    "via": "llm:browser_alternate_1.json: $.entities.Q142191.id",
+    "file": "P12674.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [
+   "en",
+   "nl"
+  ],
+  "language": [],
+  "type": [],
+  "license": [],
+  "record_modified": [
+   "en"
+  ],
+  "name_preferred": [
+   "nl"
+  ],
+  "name_variant": [
+   "nl"
+  ],
+  "same_as": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "rank (http://wikiba.se/ontology#)": 12,
+  "P75 (https://kg.kunsten.be/prop/statement/)": 3,
+  "about (http://schema.org/)": 3,
+  "softwareVersion (http://schema.org/)": 3,
+  "version (http://schema.org/)": 3,
+  "statements (http://wikiba.se/ontology#)": 3,
+  "sitelinks (http://wikiba.se/ontology#)": 3,
+  "identifiers (http://wikiba.se/ontology#)": 3,
+  "P1 (https://kg.kunsten.be/prop/statement/)": 3,
+  "P31 (https://kg.kunsten.be/prop/statement/)": 3,
+  "P26 (https://kg.kunsten.be/prop/statement/)": 3,
+  "P27 (https://kg.kunsten.be/prop/qualifier/)": 3,
+  "P26 (https://kg.kunsten.be/prop/direct/)": 3,
+  "P1 (https://kg.kunsten.be/prop/direct/)": 3,
+  "P31 (https://kg.kunsten.be/prop/direct/)": 3,
+  "P75 (https://kg.kunsten.be/prop/direct/)": 3,
+  "P26 (https://kg.kunsten.be/prop/)": 3,
+  "P1 (https://kg.kunsten.be/prop/)": 3,
+  "P31 (https://kg.kunsten.be/prop/)": 3,
+  "P75 (https://kg.kunsten.be/prop/)": 3
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 83,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Q142191"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "browser_alternate_1.json",
+   "format": "json",
+   "size": 1822,
+   "path_count": 59,
+   "paths": [
+    {
+     "path": "entities.Q142191.pageid",
+     "n": 1,
+     "sample": "141688"
+    },
+    {
+     "path": "entities.Q142191.ns",
+     "n": 1,
+     "sample": "120"
+    },
+    {
+     "path": "entities.Q142191.title",
+     "n": 1,
+     "sample": "Item:Q142191"
+    },
+    {
+     "path": "entities.Q142191.lastrevid",
+     "n": 1,
+     "sample": "13769016"
+    },
+    {
+     "path": "entities.Q142191.modified",
+     "n": 1,
+     "sample": "2024-03-30T20:11:10Z"
+    },
+    {
+     "path": "entities.Q142191.type",
+     "n": 1,
+     "sample": "item"
+    },
+    {
+     "path": "entities.Q142191.id",
+     "n": 1,
+     "sample": "Q142191"
+    },
+    {
+     "path": "entities.Q142191.labels.nl.language",
+     "n": 1,
+     "sample": "nl"
+    },
+    {
+     "path": "entities.Q142191.labels.nl.value",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "entities.Q142191.descriptions.nl.language",
+     "n": 1,
+     "sample": "nl"
+    },
+    {
+     "path": "entities.Q142191.descriptions.nl.value",
+     "n": 1,
+     "sample": "Person from data.kunsten.be, ingested as an Uitvoerder"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].mainsnak.snaktype",
+     "n": 1,
+     "sample": "value"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].mainsnak.property",
+     "n": 1,
+     "sample": "P26"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].mainsnak.hash",
+     "n": 1,
+     "sample": "4c7727eacb89769e6261954b2aa5a86abe7f9627"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].mainsnak.datavalue.value",
+     "n": 1,
+     "sample": "https://data.kunsten.be/people/1884188"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].mainsnak.datavalue.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].mainsnak.datatype",
+     "n": 1,
+     "sample": "url"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].type",
+     "n": 1,
+     "sample": "statement"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].qualifiers.P27[].snaktype",
+     "n": 1,
+     "sample": "value"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].qualifiers.P27[].property",
+     "n": 1,
+     "sample": "P27"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].qualifiers.P27[].hash",
+     "n": 1,
+     "sample": "81e3e572b867048cacdf12a150c674e7ab29e56f"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].qualifiers.P27[].datavalue.value.entity-type",
+     "n": 1,
+     "sample": "item"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].qualifiers.P27[].datavalue.value.numeric-id",
+     "n": 1,
+     "sample": "58527"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].qualifiers.P27[].datavalue.value.id",
+     "n": 1,
+     "sample": "Q58527"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].qualifiers.P27[].datavalue.type",
+     "n": 1,
+     "sample": "wikibase-entityid"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].qualifiers.P27[].datatype",
+     "n": 1,
+     "sample": "wikibase-item"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].qualifiers-order[]",
+     "n": 1,
+     "sample": "P27"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].id",
+     "n": 1,
+     "sample": "Q142191$2684ACF4-768F-4529-84E4-F7B3D4C030D7"
+    },
+    {
+     "path": "entities.Q142191.claims.P26[].rank",
+     "n": 1,
+     "sample": "normal"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].mainsnak.snaktype",
+     "n": 1,
+     "sample": "value"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].mainsnak.property",
+     "n": 1,
+     "sample": "P1"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].mainsnak.hash",
+     "n": 1,
+     "sample": "aa3b921be5f5850c8d30c875375acbe763590944"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].mainsnak.datavalue.value.entity-type",
+     "n": 1,
+     "sample": "item"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].mainsnak.datavalue.value.numeric-id",
+     "n": 1,
+     "sample": "58543"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].mainsnak.datavalue.value.id",
+     "n": 1,
+     "sample": "Q58543"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].mainsnak.datavalue.type",
+     "n": 1,
+     "sample": "wikibase-entityid"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].mainsnak.datatype",
+     "n": 1,
+     "sample": "wikibase-item"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].type",
+     "n": 1,
+     "sample": "statement"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].id",
+     "n": 1,
+     "sample": "Q142191$9E37C037-7625-46C6-A590-AE2454F2181A"
+    },
+    {
+     "path": "entities.Q142191.claims.P1[].rank",
+     "n": 1,
+     "sample": "normal"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].mainsnak.snaktype",
+     "n": 1,
+     "sample": "value"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].mainsnak.property",
+     "n": 1,
+     "sample": "P31"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].mainsnak.hash",
+     "n": 1,
+     "sample": "219488eafc06268e61f1b6b5c7e21058480ef9fc"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].mainsnak.datavalue.value.text",
+     "n": 1,
+     "sample": "Twain Mark"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].mainsnak.datavalue.value.language",
+     "n": 1,
+     "sample": "nl"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].mainsnak.datavalue.type",
+     "n": 1,
+     "sample": "monolingualtext"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].mainsnak.datatype",
+     "n": 1,
+     "sample": "monolingualtext"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].type",
+     "n": 1,
+     "sample": "statement"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].id",
+     "n": 1,
+     "sample": "Q142191$F2364EEA-9F14-445D-B361-5F70F9C8237F"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].rank",
+     "n": 1,
+     "sample": "normal"
+    },
+    {
+     "path": "entities.Q142191.claims.P75[].mainsnak.snaktype",
+     "n": 1,
+     "sample": "value"
+    },
+    {
+     "path": "entities.Q142191.claims.P75[].mainsnak.property",
+     "n": 1,
+     "sample": "P75"
+    },
+    {
+     "path": "entities.Q142191.claims.P75[].mainsnak.hash",
+     "n": 1,
+     "sample": "e5f1e133e049033610ab5c0ce876a87c39aa5504"
+    },
+    {
+     "path": "entities.Q142191.claims.P75[].mainsnak.datavalue.value",
+     "n": 1,
+     "sample": "Q7245"
+    },
+    {
+     "path": "entities.Q142191.claims.P75[].mainsnak.datavalue.type",
+     "n": 1,
+     "sample": "string"
+    },
+    {
+     "path": "entities.Q142191.claims.P75[].mainsnak.datatype",
+     "n": 1,
+     "sample": "external-id"
+    },
+    {
+     "path": "entities.Q142191.claims.P75[].type",
+     "n": 1,
+     "sample": "statement"
+    },
+    {
+     "path": "entities.Q142191.claims.P75[].id",
+     "n": 1,
+     "sample": "Q142191$5DBEA500-9984-4316-A21C-E214E5E94FB0"
+    },
+    {
+     "path": "entities.Q142191.claims.P75[].rank",
+     "n": 1,
+     "sample": "normal"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "entities.Q142191.labels.nl.value",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "entities.Q142191.claims.P31[].mainsnak.datavalue.value.text",
+     "value": "Twain Mark"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "ns"
+   ]
+  },
+  {
+   "file": "browser_alternate_7.xml",
+   "format": "xml",
+   "size": 103784,
+   "path_count": 23,
+   "paths": [
+    {
+     "path": "feed/entry",
+     "n": 16,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/id",
+     "n": 16,
+     "sample": "https://kg.kunsten.be/w/index.php?title=Item:Q1596474&diff=16394043&oldid=16392365"
+    },
+    {
+     "path": "feed/entry/title",
+     "n": 16,
+     "sample": "Item:Q1596474"
+    },
+    {
+     "path": "feed/entry/link",
+     "n": 16,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/link@rel",
+     "n": 16,
+     "sample": "alternate"
+    },
+    {
+     "path": "feed/entry/link@type",
+     "n": 16,
+     "sample": "text/html"
+    },
+    {
+     "path": "feed/entry/link@href",
+     "n": 16,
+     "sample": "https://kg.kunsten.be/w/index.php?title=Item:Q1596474&diff=16394043&oldid=16392365"
+    },
+    {
+     "path": "feed/entry/updated",
+     "n": 16,
+     "sample": "2026-10-01T12:04:37Z"
+    },
+    {
+     "path": "feed/entry/summary",
+     "n": 16,
+     "sample": "<p><span class=\"autocomment\">wbsetclaim-create:2||1: </span> <a href=\"/wiki/Property:P43\" title=\"Property:P43\"><span cla"
+    },
+    {
+     "path": "feed/entry/summary@type",
+     "n": 16,
+     "sample": "html"
+    },
+    {
+     "path": "feed/entry/author",
+     "n": 16,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/author/name",
+     "n": 16,
+     "sample": "Christel@kunsten.be"
+    },
+    {
+     "path": "feed/link",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "feed/link@rel",
+     "n": 2,
+     "sample": "self"
+    },
+    {
+     "path": "feed/link@type",
+     "n": 2,
+     "sample": "application/atom+xml"
+    },
+    {
+     "path": "feed/link@href",
+     "n": 2,
+     "sample": "https://kg.kunsten.be/w/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=atom"
+    },
+    {
+     "path": "feed",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "feed@{http://www.w3.org/XML/1998/namespace}lang",
+     "n": 1,
+     "sample": "nl"
+    },
+    {
+     "path": "feed/id",
+     "n": 1,
+     "sample": "https://kg.kunsten.be/w/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=atom"
+    },
+    {
+     "path": "feed/title",
+     "n": 1,
+     "sample": "Knowledge Graph Kunstenpunt  - Recente wijzigingen [nl]"
+    },
+    {
+     "path": "feed/updated",
+     "n": 1,
+     "sample": "2026-10-03T04:47:28Z"
+    },
+    {
+     "path": "feed/subtitle",
+     "n": 1,
+     "sample": "Met deze feed kunt u de recentste wijzigingen in deze wiki bekijken."
+    },
+    {
+     "path": "feed/generator",
+     "n": 1,
+     "sample": "MediaWiki 1.43.10"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Wikibase item in the Kunstenpunt Knowledge Graph: Dutch label 'Mark Twain', description 'Person from data.kunsten.be, ingested as an Uitvoerder', statements including a data.kunsten.be URI and Wikidata item Q7245. Statement values shown only as local Q/P ids.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

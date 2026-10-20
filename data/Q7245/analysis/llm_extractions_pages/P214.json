@@ -1,0 +1,594 @@
+{
+ "property": "P214",
+ "label": "VIAF cluster ID",
+ "files_read": [
+  "pages/P214__16444837.txt",
+  "pages/P214__305239133.txt",
+  "pages/P214__50566653.txt",
+  "pages/P214__53367783.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Four VIAF cluster pages: 50566653 (Mark Twain main cluster), 53367783 (Clemens, Samuel Langhorne), 16444837 (Snodgrass, Quintus Curtius pseudonym) and 305239133 (Conte, Louis de pseudonym). Each shows preferred forms from contributing authorities, 5xx related names (pseudonyms, GND birth/death places, editors/translators), and a works list; main cluster lists ~250 works (capped at 40 distinct titles here). Page footer 'Last updated: 2024-09-04' refers to the dataset.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "heading of cluster 50566653"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "en",
+    "via": "heading of cluster 53367783"
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": "en",
+    "via": "heading of cluster 16444837"
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "raw": "Conte, Louis ˜deœ 1835-1910",
+    "lang": "en",
+    "via": "heading of cluster 305239133"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Твен, М. 1835-1910 Марк",
+    "lang": "ru",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "توين، مارك، 1835-1910",
+    "lang": "ar",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "טוין, מרק, 1835-1910",
+    "lang": "he",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "Твен, Марк, 1835-1910",
+    "lang": "ru",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "Twain, Mark, pseud.",
+    "lang": "en",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "Twain, M. 1835-1910 Mark",
+    "lang": "en",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "Twain, Mark (American humorist, novelist, and artist, 1835-1910)",
+    "lang": "en",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne (Mark Twain)",
+    "lang": "en",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "en",
+    "via": "heading variants"
+   },
+   {
+    "value": "De Conte, Louis, 1835-1910",
+    "lang": "en",
+    "via": "heading variants, 50566653"
+   },
+   {
+    "value": "De Conte, Louis",
+    "lang": "en",
+    "via": "heading variants, 305239133"
+   },
+   {
+    "value": "Clemens, Samuel L. (Samuel Langhorne), 1835-1910",
+    "lang": "en",
+    "via": "heading variants, 53367783"
+   },
+   {
+    "value": "Clemens, S. L., 1835-1910",
+    "lang": "en",
+    "via": "5xx related names, 50566653"
+   },
+   {
+    "value": "Clemens, Samuel Langhorn, 1835-1910",
+    "lang": "en",
+    "via": "5xx related names, 50566653"
+   },
+   {
+    "value": "Langhorne, Samuel, 1835-1910",
+    "lang": "en",
+    "via": "5xx related names, 50566653"
+   },
+   {
+    "value": "De Conte, Louis, Sieur, 1835-1910",
+    "lang": "en",
+    "via": "5xx related names, 50566653"
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": "en",
+    "via": "name forms"
+   },
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "name forms"
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": "en",
+    "via": "name forms"
+   },
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "name forms"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "5xx 'Twain, Mark ‡d 1835-1910 ‡4 pseu ‡e Pseudonym'"
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": "en",
+    "via": "5xx with ‡4 pseu"
+   },
+   {
+    "value": "Conte, Louis de",
+    "lang": "en",
+    "via": "5xx with ‡4 pseu"
+   },
+   {
+    "value": "Bothwell, J. W.",
+    "lang": "en",
+    "via": "5xx 'Bothwell, J. W. ‡d 1835-1910 ‡4 pseu ‡e Pseudonym'"
+   },
+   {
+    "value": "Alden, Jean François",
+    "lang": "en",
+    "via": "5xx related names, 50566653"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "raw": "1835-1910",
+    "lang": null,
+    "via": "‡d 1835-1910 in name headings"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "raw": "1835-1910",
+    "lang": null,
+    "via": "‡d 1835-1910 in name headings"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Mo.",
+    "lang": "en",
+    "via": "551 ‡4 ortg (gnd#placeOfBirth)"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Conn.",
+    "lang": "en",
+    "via": "551 ‡4 orts (gnd#placeOfDeath)"
+   }
+  ],
+  "description": [
+   {
+    "value": "American humorist, novelist, and artist, 1835-1910",
+    "lang": "en",
+    "via": "name qualifier 'Twain, Mark ‡g American humorist, novelist, and artist, 1835-1910'"
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Advice to little girls",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Autobiography of Mark Twain",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Baker's bluejay yarn",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Burlesque autobiography",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Cannibalism in the cars",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Captain Stormfield's visit to heaven",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The celebrated jumping frog of Calaveras County",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's court",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The diary of Adam and Eve",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "A dog's tale",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "A double-barrelled detective story",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Eve's diary",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Extracts from Adam's diary",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Fables of man",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Following the equator",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The gilded age",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The great dark",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Innocents abroad",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Is Shakespeare dead?",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Letters from the earth",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The man that corrupted Hadleyburg",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Mental telegraphy",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The million pound bank-note",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The mysterious stranger",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "No. 44, the mysterious stranger",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Old times on the Mississippi",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Personal recollections of Joan of Arc",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The prince and the pauper",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The private history of a campaign that failed",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Roughing it",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Running for Governor",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Sketches new and old",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "The stolen white elephant",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Those extraordinary twins",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "Tom Sawyer abroad",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   },
+   {
+    "value": "A tramp abroad",
+    "lang": "en",
+    "via": "Works list (clusters 50566653/53367783/16444837)"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Orion Clemens",
+    "lang": "en",
+    "via": "5xx related names, 53367783"
+   },
+   {
+    "value": "Edgar Marquess Branch (1913-)",
+    "lang": "en",
+    "via": "5xx related names, 53367783"
+   },
+   {
+    "value": "Allison R. Ensor",
+    "lang": "en",
+    "via": "5xx related names, 53367783"
+   },
+   {
+    "value": "Franklin R. Rogers",
+    "lang": "en",
+    "via": "5xx related names, 53367783"
+   },
+   {
+    "value": "Stanley Thomas Williams (1888-1956)",
+    "lang": "en",
+    "via": "5xx related names, 53367783"
+   },
+   {
+    "value": "Martin Deelen",
+    "lang": "en",
+    "via": "5xx related names, 53367783"
+   },
+   {
+    "value": "David Gantz",
+    "lang": "en",
+    "via": "5xx related names, 53367783"
+   },
+   {
+    "value": "Roger Asselineau",
+    "lang": "en",
+    "via": "5xx related names, 50566653"
+   },
+   {
+    "value": "James DeVita",
+    "lang": "en",
+    "via": "5xx related names, 50566653"
+   },
+   {
+    "value": "Wilco de Groot",
+    "lang": "en",
+    "via": "5xx related names, 50566653"
+   },
+   {
+    "value": "Anton Van Duinkerken",
+    "lang": "en",
+    "via": "5xx related names, 50566653"
+   },
+   {
+    "value": "Will Vesper",
+    "lang": "en",
+    "via": "5xx related names, 50566653"
+   },
+   {
+    "value": "Huck Finn (fictional character)",
+    "raw": "Huck Finn (postać fikcyjna)",
+    "lang": "pl",
+    "via": "5xx 'Huck Finn ‡c (postać fikcyjna)'"
+   },
+   {
+    "value": "Tomek Sawyer (fictional character)",
+    "raw": "Tomek Sawyer (postać fikcyjna)",
+    "lang": "pl",
+    "via": "5xx 'Tomek Sawyer ‡c (postać fikcyjna)'"
+   },
+   {
+    "value": "Anna Adhémar",
+    "lang": "en",
+    "via": "5xx related names, 305239133"
+   },
+   {
+    "value": "Maj Bylock",
+    "lang": "en",
+    "via": "5xx related names, 305239133"
+   },
+   {
+    "value": "Peer Guldbrandsen",
+    "lang": "en",
+    "via": "5xx related names, 305239133"
+   },
+   {
+    "value": "Robert Ingpen",
+    "lang": "en",
+    "via": "5xx related names, 305239133"
+   },
+   {
+    "value": "Ebbe Langberg",
+    "lang": "en",
+    "via": "5xx related names, 305239133"
+   },
+   {
+    "value": "Claus Loof",
+    "lang": "en",
+    "via": "5xx related names, 305239133"
+   },
+   {
+    "value": "Isidre Monés",
+    "lang": "en",
+    "via": "5xx related names, 305239133"
+   },
+   {
+    "value": "Lene Møller Jørgensen",
+    "lang": "en",
+    "via": "5xx related names, 305239133"
+   },
+   {
+    "value": "Kristen Nygaard",
+    "raw": "Nygꜳrd, Kristen ‡d f. 1931-12-25",
+    "lang": "en",
+    "via": "5xx related names, 305239133"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "Permalink"
+   },
+   {
+    "value": "http://viaf.org/viaf/53367783",
+    "lang": null,
+    "via": "Permalink"
+   },
+   {
+    "value": "http://viaf.org/viaf/16444837",
+    "lang": null,
+    "via": "Permalink"
+   },
+   {
+    "value": "http://viaf.org/viaf/305239133",
+    "lang": null,
+    "via": "Permalink"
+   },
+   {
+    "value": "urn:nbn:gr:nlg:01-A111227",
+    "lang": null,
+    "via": "‡0 on preferred form (NLG), 50566653"
+   },
+   {
+    "value": "urn:nbn:gr:nlg:01-A069925",
+    "lang": null,
+    "via": "‡0 on preferred form (NLG), 53367783"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "50566653",
+    "lang": null,
+    "via": "VIAF ID: 50566653 (Personal)"
+   },
+   {
+    "value": "53367783",
+    "lang": null,
+    "via": "VIAF ID: 53367783 (Personal)"
+   },
+   {
+    "value": "16444837",
+    "lang": null,
+    "via": "VIAF ID: 16444837 (Personal)"
+   },
+   {
+    "value": "305239133",
+    "lang": null,
+    "via": "VIAF ID: 305239133 (Personal)"
+   }
+  ]
+ }
+}

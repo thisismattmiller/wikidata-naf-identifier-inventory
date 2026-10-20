@@ -1,0 +1,1364 @@
+{
+ "property": "P7704",
+ "property_label": "Europeana entity",
+ "files": [
+  {
+   "file": "P7704__agent_base_61287_8c5ed4f1/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.europeana.eu/en/collections/person/61287-mark-twain"
+  },
+  {
+   "file": "P7704__agent_base_61287_8c5ed4f1/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.europeana.eu/en/collections/person/61287-mark-twain"
+  },
+  {
+   "file": "P7704__agent_base_61287_8c5ed4f1/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.europeana.eu/record/search.json?wskey=nLbaXYaiH&profile=facets&facet=skos_concept&query=edm_agent%3A%22http%3A%2F%2Fdata.europeana.eu%2Fagent%2F61287%22&qf=contentTier%3A%2A&rows=0&start=1"
+  },
+  {
+   "file": "P7704__agent_base_61287_8c5ed4f1/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://contentful-proxy-cache-k8s.europeana.eu/content/v1/spaces/i01duvb6kq77/environments/master?_query=EntityRelatedContent&entityUri=http%3A%2F%2Fdata.europeana.eu%2Fagent%2F61287&theme=null&query=&locale=en-GB&preview=false&limit=4"
+  },
+  {
+   "file": "P7704__agent_base_61287_8c5ed4f1/xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.europeana.eu/_api/collections/retrieve?fl=id%2CprefLabel%2CisShownBy%2Clogo%2Ctype"
+  },
+  {
+   "file": "P7704__agent_base_61287_8c5ed4f1/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://apm.eanadev.org:8200/intake/v2/rum/events"
+  },
+  {
+   "file": "P7704__agent_base_61287_8c5ed4f1/conneg_1.jsonld",
+   "format": "json-ld",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.europeana.eu/agent/base/61287"
+  },
+  {
+   "file": "P7704__agent_base_61287_8c5ed4f1/conneg_3.rdf",
+   "format": "rdf-xml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.europeana.eu/agent/base/61287"
+  },
+  {
+   "file": "P7704__agent_base_61287_8c5ed4f1/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://contentful-proxy-cache-k8s.europeana.eu/content/v1/spaces/i01duvb6kq77/environments/master?_query=EntityRelatedContent&entityUri=http%3A%2F%2Fdata.europeana.eu%2Fagent%2F61287&theme=null&query=&locale=en-GB&preview=false&limit=4"
+  },
+  {
+   "file": "P7704__agent_base_61287_8c5ed4f1/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://apm.eanadev.org:8200/intake/v2/rum/events"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 5,
+  "html": 1,
+  "json-ld": 1,
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/2004/02/skos/core#": 124,
+  "http://www.w3.org/2002/07/owl#": 66,
+  "http://ogp.me/ns#": 29,
+  "http://rdvocab.info/ElementsGr2/": 14,
+  "http://www.europeana.eu/schemas/edm/": 4,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 2,
+  "http://www.openarchives.org/ore/terms/": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://www.europeana.eu/schemas/edm/Agent",
+    "lang": null,
+    "via": "type",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "de",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "no",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Марк Твен",
+    "lang": "ru",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "fi",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "pt",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Марк Твен",
+    "lang": "bg",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Markas Tvenas",
+    "lang": "lt",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Marks Tvens",
+    "lang": "lv",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "hr",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "hu",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "sk",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "sl",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "ga",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "ca",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "sv",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Μαρκ Τουαίην",
+    "lang": "el",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "mt",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "it",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "es",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "et",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "eu",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "cs",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "pl",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "da",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "ro",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Ludvík de Conte",
+    "lang": "cs",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "cs",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Томас Джефферсон Снодграсс",
+    "lang": "ru",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Клеменс, Сэмюэл Лэнгхорн",
+    "lang": "ru",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Сьер Луи де Конт",
+    "lang": "ru",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Сэмюэл Лэнгхорн Клеменс",
+    "lang": "ru",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Μαρκ Τουέην",
+    "lang": "el",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Σάμουελ Λάνγκχορν Κλέμενς",
+    "lang": "el",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Σάμουελ Κλέμενς",
+    "lang": "el",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Μαρκ Τουέιν",
+    "lang": "el",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Thomas Jefferson Snodgrass",
+    "lang": "en",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": "it",
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "dateOfBirth",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:description line",
+    "file": "P7704.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "dateOfDeath",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:description line",
+    "file": "P7704.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "http://data.europeana.eu/concept/2948",
+    "lang": null,
+    "via": "professionOrOccupation",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "http://data.europeana.eu/concept/2953",
+    "lang": null,
+    "via": "professionOrOccupation",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "http://data.europeana.eu/concept/2939",
+    "lang": null,
+    "via": "professionOrOccupation",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "http://data.europeana.eu/concept/2966",
+    "lang": null,
+    "via": "professionOrOccupation",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "http://data.europeana.eu/concept/2955",
+    "lang": null,
+    "via": "professionOrOccupation",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:description line",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:description line",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "scriitor, satirist, umorist",
+    "lang": "ro",
+    "via": "llm-page:item contributor note",
+    "file": "P7704.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "US-amerikanischer Schriftsteller",
+    "lang": "de",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Американский писатель, журналист и общественный деятель (1835–1910)",
+    "lang": "ru",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Yhdysvaltalainen kirjailija",
+    "lang": "fi",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Amerikansk författare",
+    "lang": "sv",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Escritor, humorista e inventor norte-americano",
+    "lang": "pt",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Американски писател",
+    "lang": "bg",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Αμερικανός συγγραφέας",
+    "lang": "el",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "American author and humorist (1835–1910)",
+    "lang": "en",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Amerikāņu rakstnieks",
+    "lang": "lv",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Američki književnik",
+    "lang": "hr",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Scrittore, umorista, aforista e docente statunitense (1835-1910)",
+    "lang": "it",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Romancier, journaliste et humoriste américain (1835-1910)",
+    "lang": "fr",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Amerikai író, újságíró, humorista",
+    "lang": "hu",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Escritor estadounidense",
+    "lang": "es",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Americký spisovatel",
+    "lang": "cs",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Americký spisovateľ, satirik a humorista",
+    "lang": "sk",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Údar agus scríbhneoir grinn Meiriceánach",
+    "lang": "ga",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Amerykański pisarz, satyryk, humorysta (1835–1910)",
+    "lang": "pl",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Scriitor, satir și umorist american",
+    "lang": "ro",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Amerikaans schrijver en aforist (1835–1910)",
+    "lang": "nl",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Escriptor i humorista estatunidenc (1835–1910)",
+    "lang": "ca",
+    "via": "note",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/53367783",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/16444837",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/305239133",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n93099439",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n93099461",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/no2003079632",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://vocab.getty.edu/ulan/500020427",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://data.bnf.fr/ark:/12148/cb11927291n",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://www.idref.fr/027171876/id",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.ndl.go.jp/auth/ndlna/00459304",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://www.freebase.com/m/014635",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://g.co/kg/m/014635",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://openlibrary.org/works/OL18319A",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://libris.kb.se/resource/auth/98057",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://datos.bne.es/resource/XX945992",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://datos.bne.es/resource/XX4931266",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://data.bibliotheken.nl/id/thes/p227880145",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://data.bibliotheken.nl/id/thes/p068242964",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://livedata.bibsys.no/authority/90056487",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://kulturarvsdata.se/LSH/agents/30192",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.worldcat.org/fast/31622",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://babelnet.org/rdf/s00019709n",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://data.cervantesvirtual.com/person/778",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://nlg.okfn.gr/resource/authority/record122385",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://nlg.okfn.gr/resource/authority/record178278",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://data.carnegiehall.org/names/2088",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://lod.nl.go.kr/resource/KAC199605242",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://libris.kb.se/1zcfb5hk1bq7d78",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://dbpedia.org/resource/Mark_Twain",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:description line",
+    "file": "P7704.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Un rămășag între miliardari",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abenteuer",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "D-l Mac Wiliams și fulgerul",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing it",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Ausgewählte Skizzen",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Selections from American humour",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "A yankee at the court of King Arthur",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "The prince and the pauper : a tale for young people of all ages",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twains ausgewählte humoristische Schriften, 5. Im Gold- und Silberland",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Das vergoldete Zeitalter",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Die Abenteuer Tom Sawyers",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Die neue Pilgerfahrt",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Abenteuer und Fahrten des Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Toms Abenteuer und Streiche",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Bankovec za milijon funtov zlata",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Listek",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "The jumping frog and other stories & sketches",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "The £ 1,000,000 bank-note and other new stories",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, detective, as told by Huck Finn and other tales",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "A tramp abroad",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "More tramps abroad",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Choice bits from Mark Twain and Bret Harte",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Alex. Gh. Doinaru (1882-1933) (translator)",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "R. Freund (translator)",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Sergiu Victor Cujb (contributor)",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dudley Warner (co-author, Das vergoldete Zeitalter)",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Moritz Busch (translator)",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   },
+   {
+    "value": "Bret Harte (co-featured author, Choice bits)",
+    "lang": null,
+    "via": "llm-page:results",
+    "file": "P7704.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "61287",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P7704.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "bg",
+   "ca",
+   "cs",
+   "da",
+   "de",
+   "el",
+   "en",
+   "es",
+   "et",
+   "eu",
+   "fi",
+   "fr",
+   "ga",
+   "hr",
+   "hu",
+   "it",
+   "lt",
+   "lv",
+   "mt",
+   "nl",
+   "no",
+   "pl",
+   "pt",
+   "ro",
+   "ru",
+   "sk",
+   "sl",
+   "sv"
+  ],
+  "name_variant": [
+   "cs",
+   "el",
+   "en",
+   "it",
+   "ru"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en",
+   "ro"
+  ],
+  "description": [
+   "bg",
+   "ca",
+   "cs",
+   "de",
+   "el",
+   "en",
+   "es",
+   "fi",
+   "fr",
+   "ga",
+   "hr",
+   "hu",
+   "it",
+   "lv",
+   "nl",
+   "pl",
+   "pt",
+   "ro",
+   "ru",
+   "sk",
+   "sv"
+  ],
+  "same_as": [],
+  "nationality": [
+   "en"
+  ],
+  "work": [],
+  "related_agent": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "isShownBy (http://www.europeana.eu/schemas/edm/)": 2,
+  "isRelatedTo (http://www.europeana.eu/schemas/edm/)": 2,
+  "isAggregatedBy (http://www.openarchives.org/ore/terms/)": 2,
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 311,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "en_GB"
+    },
+    {
+     "path": "[].og:locale:alternate",
+     "n": 1,
+     "sample": "bg_BG"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.europeana.eu/en/collections/person/61287-mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "American author and humorist (1835–1910)"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:url",
+     "value": "https://www.europeana.eu/en/collections/person/61287-mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "value": "American author and humorist (1835–1910)"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 1919,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "facets[].fields[].label",
+     "n": 31,
+     "sample": "http://data.europeana.eu/concept/2841"
+    },
+    {
+     "path": "facets[].fields[].count",
+     "n": 31,
+     "sample": "17"
+    },
+    {
+     "path": "apikey",
+     "n": 1,
+     "sample": "nLbaXYaiH"
+    },
+    {
+     "path": "success",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "requestNumber",
+     "n": 1,
+     "sample": "999"
+    },
+    {
+     "path": "itemsCount",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "totalResults",
+     "n": 1,
+     "sample": "104"
+    },
+    {
+     "path": "facets[].name",
+     "n": 1,
+     "sample": "skos_concept"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 205,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "errors[].message",
+     "n": 1,
+     "sample": "Authentication failed. The access token is missing from the headers"
+    },
+    {
+     "path": "errors[].extensions.contentful.code",
+     "n": 1,
+     "sample": "ACCESS_TOKEN_MISSING"
+    },
+    {
+     "path": "errors[].extensions.contentful.requestId",
+     "n": 1,
+     "sample": "edbba1e5-1d7e-4db8-96ef-7506928d574e"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 73,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "accepted",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "errors[].message",
+     "n": 1,
+     "sample": "only POST requests are supported"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 81,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 103,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "accepted",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "errors[].message",
+     "n": 1,
+     "sample": "only POST requests are supported"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Europeana entity page for Mark Twain: a one-line description and the first 24 of 104 linked cultural-heritage items (books in Romanian, German, English, Slovene), with holding institutions and some translators.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

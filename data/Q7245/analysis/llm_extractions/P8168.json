@@ -1,0 +1,43 @@
+{
+ "property": "P8168",
+ "label": "FactGrid item ID",
+ "files_read": ["P8168__Q273620/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata from FactGrid item Q273620; og:title combines real name and pseudonym, og:description is a compact '* birth place, + death place, description' string.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Samuel Langhorne Clemens / Mark Twain", "lang": "en", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "en", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "* 1835-11-30", "lang": null, "via": "embedded_opengraph.json: og:description"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "+ 1910-04-21", "lang": null, "via": "embedded_opengraph.json: og:description"}
+  ],
+  "birth_place": [
+   {"value": "Florida, Missouri", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "death_place": [
+   {"value": "Redding, Connecticut", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "occupation": [
+   {"value": "author", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "humorist", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "nationality": [
+   {"value": "American", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "description": [
+   {"value": "American author and humorist", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "identifier": [
+   {"value": "Q273620", "via": "batch site directory (P8168__Q273620); not stated in the file itself"}
+  ]
+ }
+}

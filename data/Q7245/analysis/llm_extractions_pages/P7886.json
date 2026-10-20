@@ -1,0 +1,42 @@
+{
+ "property": "P7886",
+ "label": "Media Arts Database ID",
+ "files_read": ["pages/P7886__C415004.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Japan Media Arts Database person record C415004 'TwainMark' (individual) with an NDL authority link, birth/death years, update date and 5 related manga resources (Tom Sawyer adaptations, a manga of 'What Is Man?'). Region and language fields read Japan/Japanese, which look like record defaults rather than facts about him.",
+ "elements": {
+  "name_preferred": [
+   {"value": "TwainMark", "lang": "en", "via": "page heading"}
+  ],
+  "name_variant": [
+   {"value": "マーク・トウェイン", "lang": "ja", "via": "related resource title '…マーク・トウェインの教え'"}
+  ],
+  "birth_date": [
+   {"value": "1835", "lang": null, "via": "生年月日"}
+  ],
+  "death_date": [
+   {"value": "1910", "lang": null, "via": "没年月日"}
+  ],
+  "activity_place": [
+   {"value": "日本国", "lang": "ja", "via": "地域 (likely a record default)"}
+  ],
+  "language": [
+   {"value": "日本語", "lang": "ja", "via": "言語 (likely a record default)"}
+  ],
+  "same_as": [
+   {"value": "http://id.ndl.go.jp/auth/entity/00459304", "via": "国立国会図書館典拠ID"}
+  ],
+  "identifier": [
+   {"value": "C415004", "via": "MADB ID"}
+  ],
+  "work": [
+   {"value": "トム=ソーヤーの冒険 : 名作マンガ", "raw": "M850525 / C448731, マンガ単行本 2019-03", "lang": "ja", "via": "関連リソース"},
+   {"value": "トム・ソーヤーの冒険 = The Adventures of Tom Sawyar", "raw": "M809214 / C433090, マンガ単行本 2019-08", "lang": "ja", "via": "関連リソース"},
+   {"value": "漫画人間とは何か? : 自己啓発の劇薬 : マーク・トウェインの教え", "raw": "M862338, マンガ単行本 2022-02", "lang": "ja", "via": "関連リソース"}
+  ],
+  "record_modified": [
+   {"value": "2024-11-25", "via": "データ更新年月日"}
+  ]
+ }
+}

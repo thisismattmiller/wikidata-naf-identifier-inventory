@@ -1,0 +1,124 @@
+{
+ "property": "P6698",
+ "label": "Japan Search name ID",
+ "files_read": [
+  "pages/P6698___dc163aa8.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Japan Search Snorql DESCRIBE view of chname entity マーク・トウェイン: labels, birth/death years, Japanese description, image, Aozora Bunko link and owl:sameAs links.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja",
+    "via": "rdfs:label"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "schema:name"
+   },
+   {
+    "value": "まーく・とうぇいん",
+    "lang": "ja-Hira",
+    "via": "schema:name (kana reading)"
+   },
+   {
+    "value": "トウェイン マーク",
+    "lang": "ja",
+    "via": "schema:url label (Aozora)"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "raw": "time:1835",
+    "lang": null,
+    "via": "schema:birthDate"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "raw": "time:1910",
+    "lang": null,
+    "via": "schema:deathDate"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "作家",
+    "lang": "ja",
+    "via": "schema:description"
+   },
+   {
+    "value": "小説家",
+    "lang": "ja",
+    "via": "schema:description"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "アメリカ",
+    "lang": "ja",
+    "via": "schema:description"
+   }
+  ],
+  "description": [
+   {
+    "value": "1835-1910, アメリカの作家、小説家。",
+    "lang": "ja",
+    "via": "schema:description"
+   }
+  ],
+  "image": [
+   {
+    "value": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=350",
+    "lang": null,
+    "via": "schema:image"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://dbpedia.org/resource/Mark_Twain",
+    "lang": null,
+    "via": "owl:sameAs"
+   },
+   {
+    "value": "http://id.ndl.go.jp/auth/entity/00459304",
+    "lang": null,
+    "via": "owl:sameAs"
+   },
+   {
+    "value": "http://ja.dbpedia.org/resource/マーク・トウェイン",
+    "lang": null,
+    "via": "owl:sameAs"
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "owl:sameAs"
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "owl:sameAs"
+   },
+   {
+    "value": "https://www.aozora.gr.jp/index_pages/person1431",
+    "lang": null,
+    "via": "schema:url"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン",
+    "lang": null,
+    "via": "subject URI"
+   }
+  ]
+ }
+}

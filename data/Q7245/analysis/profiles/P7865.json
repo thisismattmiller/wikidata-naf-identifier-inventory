@@ -1,0 +1,1761 @@
+{
+ "property": "P7865",
+ "property_label": "CoBiS author ID",
+ "files": [
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/agent/95a5yja38danygu695b5yc1g68v3ccg"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/agent/95a5yja38danygu695b5yc1g68v3ccg"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/agent/95a5yja38danygu695b5yc1g68v3ccg/triples"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=de25768a9c"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_2.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=de25768a9c"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_3.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/views/template/header.html"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_4.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/views/template/searchbar.html"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_5.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/views/template/footer.html"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/lang/it"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_7.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/js/lib/cookieconsent2-310.js"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_8.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/getAgentName/95a5yja38danygu695b5yc1g68v3ccg"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_9.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/getAgent/95a5yja38danygu695b5yc1g68v3ccg"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_10.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/getAgentCreatedInstances/95a5yja38danygu695b5yc1g68v3ccg"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_11.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=%0A%20%20%20%20%20%20%20%20PREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0A%20%20%20%20%20%20%20%20PREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0A%20%20%20%20%20%20%20%20SELECT%20(SAMPLE(%3FwikiLabel)%20as%20%3FwikiLabel)%20(SAMPLE(%3Fdesc)%20as%20%3Fdesc)%20(SAMPLE(%3Fimage)%20as%20%3Fimage)%20(SAMPLE(%3FdataNascita)%20as%20%3FdataNascita)%20(SAMPLE(%3FluogoNascita)%20as%20%3FluogoNascita)%20%0A%20%20%20%20%20%20%20%20(SAMPLE(%3FdataMorte)%20as%20%3FdataMorte)%20(SAMPLE(%3FluogoMorte)%20as%20%3FluogoMorte)%20(SAMPLE(%3Fitwiki)%20as%20%3Fitwiki)%20(SAMPLE(%3Fenwiki)%20as%20%3Fenwiki)%20(SAMPLE(%3Fsbn)%20as%20%3Fsbn)%20%0A%20%20%20%20%20%20%20%20(SAMPLE(%3Fviaf)%20as%20%3Fviaf)%20(SAMPLE(%3Fdbi)%20as%20%3Fdbi)%20(SAMPLE(%3Floc)%20as%20%3Floc)%20(SAMPLE(%3Fgnd)%20as%20%3Fgnd)%20(SAMPLE(%3Fbnf)%20as%20%3Fbnf)%20%20(SAMPLE(%3FopenLibrary)%20as%20%3FopenLibrary)%20%0A%20%20%20%20%20%20%20%20(SAMPLE(%3FmusicBrainz)%20as%20%3FmusicBrainz)%20(SAMPLE(%3FIMSLP)%20as%20%3FIMSLP)%20%0A%20%20%20%20%20%20%20%20(SAMPLE(%3FprofessioneLabel)%20as%20%3FprofessioneLabel)%20%0A%20%20%20%20%20%20%20%20(SAMPLE(%3FmembroDiLabel)%20as%20%3FmembroDiLabel)%20(SAMPLE(%3FistruzioneLabel)%20as%20%3FistruzioneLabel)%0A%20%20%20%20%20%20%20%20(SAMPLE(%3Fprofessione)%20as%20%3Fprofessione)%20(SAMPLE(%3FmembroDi)%20as%20%3FmembroDi)%20(SAMPLE(%3Fistruzione)%20as%20%3Fistruzione)%0A%20%20%20%20%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20%20%20%20%20VALUES%20%3Furi%20%7Bwd%3AQ7245%7D%0A%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Furi%20rdfs%3Alabel%20%3FwikiLabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Furi%20schema%3Adescription%20%3Fdesc%20.%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP18%20%3Fimage%0A%20%20%20%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP569%20%3FdataNascita%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP19%20%3FluogoNascitaEntity%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3FluogoNascitaEntity%20rdfs%3Alabel%20%3FluogoNascita%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP570%20%3FdataMorte%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP20%20%3FluogoMorteEntity%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3FluogoMorteEntity%20rdfs%3Alabel%20%3FluogoMorte%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP648%20%3FopenLibrary%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP434%20%3FmusicBrainz%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP839%20%3FIMSLP%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP106%20%3Fprofessione%0A%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fprofessione%20rdfs%3Alabel%20%3FprofessioneLabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP463%20%3FmembroDi%0A%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3FmembroDi%20rdfs%3Alabel%20%3FmembroDiLabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP69%20%3Fistruzione%0A%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fistruzione%20rdfs%3Alabel%20%3FistruzioneLabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP396%20%3Fsbn%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP214%20%3Fviaf%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP1986%20%3Fdbi%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP244%20%3Floc%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP227%20%3Fgnd%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP268%20%3Fbnf%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Fitwikipedia%20schema%3Aabout%20%3Furi%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20FILTER(CONTAINS(STR(%3Fitwikipedia)%2C%20%27it.wikipedia.org%27))%0A%20%20%20%20%20%20%20%20%20%20%20%20BIND(STR(%3Fitwikipedia)%20as%20%3Fitwiki)%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Fenwikipedia%20schema%3Aabout%20%3Furi%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20FILTER(CONTAINS(STR(%3Fenwikipedia)%2C%20%27en.wikipedia.org%27))%0A%20%20%20%20%20%20%20%20%20%20%20%20BIND(STR(%3Fenwikipedia)%20as%20%3Fenwiki)%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7DGROUP%20BY%20%3Furi&format=json"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_12.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dbpedia.org/sparql?query=SELECT%20%3Fabstract%20WHERE%20%7B%3Fs%20%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FisPrimaryTopicOf%3E%20%3Chttp%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMark_Twain%3E%20.%20%3Fs%20%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Fabstract%3E%20%3Fabstract%20FILTER(LANG(%3Fabstract)%20%3D%20%27it%27%20%7C%7C%20LANGMATCHES(LANG(%3Fabstract)%2C%20%27it%27))%7D&format=json"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_13.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/views/template/agent.html"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_14.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/views/template/agent-books.html"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/conneg_1.json",
+   "format": "json",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/agent/95a5yja38danygu695b5yc1g68v3ccg"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/conneg_2.rdf",
+   "format": "rdf-xml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://dati.cobis.to.it/agent/95a5yja38danygu695b5yc1g68v3ccg"
+  },
+  {
+   "file": "P7865__95a5yja38danygu695b5yc1g68v3ccg/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=%0A%20%20%20%20%20%20%20%20PREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0A%20%20%20%20%20%20%20%20PREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0A%20%20%20%20%20%20%20%20SELECT%20(SAMPLE(%3FwikiLabel)%20as%20%3FwikiLabel)%20(SAMPLE(%3Fdesc)%20as%20%3Fdesc)%20(SAMPLE(%3Fimage)%20as%20%3Fimage)%20(SAMPLE(%3FdataNascita)%20as%20%3FdataNascita)%20(SAMPLE(%3FluogoNascita)%20as%20%3FluogoNascita)%20%0A%20%20%20%20%20%20%20%20(SAMPLE(%3FdataMorte)%20as%20%3FdataMorte)%20(SAMPLE(%3FluogoMorte)%20as%20%3FluogoMorte)%20(SAMPLE(%3Fitwiki)%20as%20%3Fitwiki)%20(SAMPLE(%3Fenwiki)%20as%20%3Fenwiki)%20(SAMPLE(%3Fsbn)%20as%20%3Fsbn)%20%0A%20%20%20%20%20%20%20%20(SAMPLE(%3Fviaf)%20as%20%3Fviaf)%20(SAMPLE(%3Fdbi)%20as%20%3Fdbi)%20(SAMPLE(%3Floc)%20as%20%3Floc)%20(SAMPLE(%3Fgnd)%20as%20%3Fgnd)%20(SAMPLE(%3Fbnf)%20as%20%3Fbnf)%20%20(SAMPLE(%3FopenLibrary)%20as%20%3FopenLibrary)%20%0A%20%20%20%20%20%20%20%20(SAMPLE(%3FmusicBrainz)%20as%20%3FmusicBrainz)%20(SAMPLE(%3FIMSLP)%20as%20%3FIMSLP)%20%0A%20%20%20%20%20%20%20%20(SAMPLE(%3FprofessioneLabel)%20as%20%3FprofessioneLabel)%20%0A%20%20%20%20%20%20%20%20(SAMPLE(%3FmembroDiLabel)%20as%20%3FmembroDiLabel)%20(SAMPLE(%3FistruzioneLabel)%20as%20%3FistruzioneLabel)%0A%20%20%20%20%20%20%20%20(SAMPLE(%3Fprofessione)%20as%20%3Fprofessione)%20(SAMPLE(%3FmembroDi)%20as%20%3FmembroDi)%20(SAMPLE(%3Fistruzione)%20as%20%3Fistruzione)%0A%20%20%20%20%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20%20%20%20%20VALUES%20%3Furi%20%7Bwd%3AQ7245%7D%0A%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Furi%20rdfs%3Alabel%20%3FwikiLabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Furi%20schema%3Adescription%20%3Fdesc%20.%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP18%20%3Fimage%0A%20%20%20%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP569%20%3FdataNascita%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP19%20%3FluogoNascitaEntity%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3FluogoNascitaEntity%20rdfs%3Alabel%20%3FluogoNascita%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP570%20%3FdataMorte%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP20%20%3FluogoMorteEntity%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3FluogoMorteEntity%20rdfs%3Alabel%20%3FluogoMorte%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP648%20%3FopenLibrary%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP434%20%3FmusicBrainz%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP839%20%3FIMSLP%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP106%20%3Fprofessione%0A%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fprofessione%20rdfs%3Alabel%20%3FprofessioneLabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP463%20%3FmembroDi%0A%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3FmembroDi%20rdfs%3Alabel%20%3FmembroDiLabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP69%20%3Fistruzione%0A%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%27it%2Cen%2Cfr%2Cde%27.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fistruzione%20rdfs%3Alabel%20%3FistruzioneLabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP396%20%3Fsbn%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP214%20%3Fviaf%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP1986%20%3Fdbi%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP244%20%3Floc%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP227%20%3Fgnd%20%7D%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Furi%20wdt%3AP268%20%3Fbnf%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Fitwikipedia%20schema%3Aabout%20%3Furi%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20FILTER(CONTAINS(STR(%3Fitwikipedia)%2C%20%27it.wikipedia.org%27))%0A%20%20%20%20%20%20%20%20%20%20%20%20BIND(STR(%3Fitwikipedia)%20as%20%3Fitwiki)%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Fenwikipedia%20schema%3Aabout%20%3Furi%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20FILTER(CONTAINS(STR(%3Fenwikipedia)%2C%20%27en.wikipedia.org%27))%0A%20%20%20%20%20%20%20%20%20%20%20%20BIND(STR(%3Fenwikipedia)%20as%20%3Fenwiki)%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7DGROUP%20BY%20%3Furi&format=json"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 1,
+  "text": 2,
+  "xml": 5,
+  "json": 7,
+  "unknown": 2,
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 6,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:name",
+    "file": "xhr_8.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:xhr_8.json: $.name",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "it",
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].wikiLabel",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "1835-1910 // Nato in Florida nel 1835 e morto a Redding nel 1910.",
+    "lang": null,
+    "via": "json:description",
+    "file": "xhr_9.json",
+    "uri": false
+   },
+   {
+    "value": "1835-1910 // Nato in Florida nel 1835 e morto a Redding nel 1910.",
+    "lang": "it",
+    "via": "llm:xhr_9.json: $[0].description",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "scrittore, umorista, aforista e docente statunitense (1835-1910)",
+    "lang": "it",
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].desc",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "json:wikidata",
+    "file": "xhr_9.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "json:viaf",
+    "file": "xhr_9.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/53367783",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].viaf",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "https://it.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].itwiki",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].enwiki",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].sbn",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/no2003079632",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].loc",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].gnd",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "https://catalogue.bnf.fr/ark:/12148/cb11927291n",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].bnf",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "https://openlibrary.org/authors/OL18319A",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].openLibrary",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].musicBrainz",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "https://imslp.org/wiki/Category:Twain,_Mark",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].IMSLP",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "Wikipedia",
+    "lang": null,
+    "via": "llm-page:Linked data: Interlinking",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Virtual International Authority File",
+    "lang": null,
+    "via": "llm-page:Linked data: Interlinking",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Wikidata",
+    "lang": null,
+    "via": "llm-page:Linked data: Interlinking",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Library of Congress",
+    "lang": null,
+    "via": "llm-page:Linked data: Interlinking",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Deutsche Nationalbibliothek",
+    "lang": null,
+    "via": "llm-page:Linked data: Interlinking",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "BnF Catalogue Général",
+    "lang": null,
+    "via": "llm-page:Linked data: Interlinking",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Opac SBN",
+    "lang": null,
+    "via": "llm-page:Linked data: Interlinking",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "MusicBrainz",
+    "lang": null,
+    "via": "llm-page:Linked data: Interlinking",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "IMSLP",
+    "lang": null,
+    "via": "llm-page:Linked data: Interlinking",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Open Library",
+    "lang": null,
+    "via": "llm-page:Linked data: Interlinking",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].dataNascita",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:xhr_9.json: $[0].datazioneInferita",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].dataMorte",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:xhr_9.json: $[0].datazioneInferita",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": "it",
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].luogoNascita",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "it",
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].luogoMorte",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "giornalista",
+    "lang": "it",
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].professioneLabel",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "scrittore",
+    "lang": "it",
+    "via": "llm-page:description",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "umorista",
+    "lang": "it",
+    "via": "llm-page:description",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "aforista",
+    "lang": "it",
+    "via": "llm-page:description",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "docente",
+    "lang": "it",
+    "via": "llm-page:description",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "statunitense",
+    "lang": "it",
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].desc",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "American Academy of Arts and Letters",
+    "lang": "it",
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].membroDiLabel",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Cascadilla School",
+    "lang": "en",
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].istruzioneLabel",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Cascadilla School (education)",
+    "lang": null,
+    "via": "llm-page:Istruzione",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "American Academy of Arts and Letters (member of)",
+    "lang": null,
+    "via": "llm-page:Membro di",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "IT_ICCU_CFIV_002662",
+    "lang": null,
+    "via": "llm:xhr_9.json: $[0].id",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "http://dati.cobis.to.it/agent/IT_ICCU_CFIV_002662",
+    "lang": null,
+    "via": "llm:xhr_9.json: $[0].uri",
+    "file": "P7865.json",
+    "uri": true
+   },
+   {
+    "value": "95a5yja38danygu695b5yc1g68v3ccg",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0].image",
+    "file": "P7865.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "Wikidata (SPARQL)",
+    "lang": null,
+    "via": "llm:browser_xhr_2.json: $.results.bindings[0]. (query vars wikiLabel/desc/... are Wikidata-derived)",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "A tramp abroad",
+    "lang": "en",
+    "via": "llm-page:Opere (35), first 8 shown",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer abroad",
+    "lang": "en",
+    "via": "llm-page:Opere (35), first 8 shown",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Le avventure di Huck Finn",
+    "lang": "it",
+    "via": "llm-page:Opere (35), first 8 shown",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Wilson lo zuccone",
+    "lang": "it",
+    "via": "llm-page:Opere (35), first 8 shown",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Il ranocchio saltatore e altri racconti",
+    "lang": "it",
+    "via": "llm-page:Opere (35), first 8 shown",
+    "file": "P7865.json",
+    "uri": false
+   },
+   {
+    "value": "Il furto dell'elefante bianco e altri racconti",
+    "lang": "it",
+    "via": "llm-page:Opere (35), first 8 shown",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "CC Attribuzione 4.0",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P7865.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en",
+   "it"
+  ],
+  "description": [
+   "it"
+  ],
+  "same_as": [],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "it"
+  ],
+  "death_place": [
+   "it"
+  ],
+  "occupation": [
+   "it"
+  ],
+  "nationality": [
+   "it"
+  ],
+  "related_agent": [
+   "en",
+   "it"
+  ],
+  "identifier": [],
+  "image": [],
+  "source": [],
+  "work": [
+   "en",
+   "it"
+  ],
+  "license": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 300,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "dati.cobis.to.it"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Portale bibliografico del CoBiS"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "http://dati.cobis.to.it"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "http://dati.cobis.to.it/img/logo.png"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "dati.cobis.to.it"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_3.xml",
+   "format": "xml",
+   "size": 1982,
+   "path_count": 41,
+   "paths": [
+    {
+     "path": "nav/div/ul/li",
+     "n": 9,
+     "sample": null
+    },
+    {
+     "path": "nav/div/ul/li/a",
+     "n": 9,
+     "sample": "Home"
+    },
+    {
+     "path": "nav/div/ul/li/a@class",
+     "n": 9,
+     "sample": "header-nav-item"
+    },
+    {
+     "path": "nav/div/ul/li/a@data-i18n",
+     "n": 9,
+     "sample": "home"
+    },
+    {
+     "path": "nav/div/ul/li/a@href",
+     "n": 9,
+     "sample": "/"
+    },
+    {
+     "path": "nav/div/ul/li/a@id",
+     "n": 8,
+     "sample": "home-item"
+    },
+    {
+     "path": "nav/nav/ol/li",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "nav/nav/ol/li@class",
+     "n": 2,
+     "sample": "header-nav-item breadcrumb-item p-1"
+    },
+    {
+     "path": "nav/nav/ol/li@aria-current",
+     "n": 2,
+     "sample": "page"
+    },
+    {
+     "path": "nav/nav/ol/li/span",
+     "n": 2,
+     "sample": "IT"
+    },
+    {
+     "path": "nav/nav/ol/li/span@class",
+     "n": 2,
+     "sample": "lang-link my-specific"
+    },
+    {
+     "path": "nav/nav/ol/li/span@data-lang",
+     "n": 2,
+     "sample": "it"
+    },
+    {
+     "path": "nav",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav@class",
+     "n": 1,
+     "sample": "navbar navbar-expand-lg mx-auto"
+    },
+    {
+     "path": "nav/a",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav/a@href",
+     "n": 1,
+     "sample": "/"
+    },
+    {
+     "path": "nav/a@class",
+     "n": 1,
+     "sample": "brand-logo"
+    },
+    {
+     "path": "nav/a/img",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav/a/img@src",
+     "n": 1,
+     "sample": "/img/logo-cobis-white.svg"
+    },
+    {
+     "path": "nav/a/img@class",
+     "n": 1,
+     "sample": "logo"
+    },
+    {
+     "path": "nav/button",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav/button@class",
+     "n": 1,
+     "sample": "navbar-toggler"
+    },
+    {
+     "path": "nav/button@type",
+     "n": 1,
+     "sample": "button"
+    },
+    {
+     "path": "nav/button@data-toggle",
+     "n": 1,
+     "sample": "collapse"
+    },
+    {
+     "path": "nav/button@data-target",
+     "n": 1,
+     "sample": "#navbarToggler"
+    },
+    {
+     "path": "nav/button@aria-controls",
+     "n": 1,
+     "sample": "navbarToggler"
+    },
+    {
+     "path": "nav/button@aria-expanded",
+     "n": 1,
+     "sample": "false"
+    },
+    {
+     "path": "nav/button@aria-label",
+     "n": 1,
+     "sample": "Toggle navigation"
+    },
+    {
+     "path": "nav/button/i",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav/button/i@class",
+     "n": 1,
+     "sample": "fas fa-bars fa-lg"
+    },
+    {
+     "path": "nav/div",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav/div@class",
+     "n": 1,
+     "sample": "collapse navbar-collapse"
+    },
+    {
+     "path": "nav/div@id",
+     "n": 1,
+     "sample": "navbarToggler"
+    },
+    {
+     "path": "nav/div/ul",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav/div/ul@id",
+     "n": 1,
+     "sample": "menu"
+    },
+    {
+     "path": "nav/div/ul@class",
+     "n": 1,
+     "sample": "navbar-nav ml-auto mt-2 mt-lg-0"
+    },
+    {
+     "path": "nav/nav",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav/nav@aria-label",
+     "n": 1,
+     "sample": "breadcrumb"
+    },
+    {
+     "path": "nav/nav/ol",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "nav/nav/ol@class",
+     "n": 1,
+     "sample": "breadcrumb bg-transparent"
+    },
+    {
+     "path": "nav/nav/ol@id",
+     "n": 1,
+     "sample": "lang-selector"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "nav"
+   ]
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 4214,
+   "path_count": 81,
+   "paths": [
+    {
+     "path": "logo",
+     "n": 1,
+     "sample": "logo"
+    },
+    {
+     "path": "home",
+     "n": 1,
+     "sample": "home"
+    },
+    {
+     "path": "ontology",
+     "n": 1,
+     "sample": "ontologia"
+    },
+    {
+     "path": "about",
+     "n": 1,
+     "sample": "about"
+    },
+    {
+     "path": "cobis",
+     "n": 1,
+     "sample": "CoBiS"
+    },
+    {
+     "path": "libraries",
+     "n": 1,
+     "sample": "biblioteche"
+    },
+    {
+     "path": "works",
+     "n": 1,
+     "sample": "opere"
+    },
+    {
+     "path": "authors",
+     "n": 1,
+     "sample": "autori"
+    },
+    {
+     "path": "paths",
+     "n": 1,
+     "sample": "percorsi"
+    },
+    {
+     "path": "multimedia",
+     "n": 1,
+     "sample": "multimedia"
+    },
+    {
+     "path": "guide",
+     "n": 1,
+     "sample": "guida"
+    },
+    {
+     "path": "index_title",
+     "n": 1,
+     "sample": "CoBiS Linked Open Data Portal"
+    },
+    {
+     "path": "licenses",
+     "n": 1,
+     "sample": "ove diversamente indicato, i contenuti di questo sito sono rilasciati secondo i termini della licenza"
+    },
+    {
+     "path": "licenses_cc_attr",
+     "n": 1,
+     "sample": "CC Attribuzione 4.0"
+    },
+    {
+     "path": "licenses_privacy",
+     "n": 1,
+     "sample": "Privacy Policy"
+    },
+    {
+     "path": "placeholder_search_agents",
+     "n": 1,
+     "sample": "Cerca un autore per nome o cognome..."
+    },
+    {
+     "path": "placeholder_search_agent",
+     "n": 1,
+     "sample": "Cerca un autore per nome o cognome..."
+    },
+    {
+     "path": "instance_merge_tipology",
+     "n": 1,
+     "sample": "Tipologia"
+    },
+    {
+     "path": "instance_merge_edition",
+     "n": 1,
+     "sample": "Edizione"
+    },
+    {
+     "path": "instance_merge_language",
+     "n": 1,
+     "sample": "Lingua"
+    },
+    {
+     "path": "instance_merge_pub_location",
+     "n": 1,
+     "sample": "Luogo di pubblicazione"
+    },
+    {
+     "path": "instance_merge_year",
+     "n": 1,
+     "sample": "Anno"
+    },
+    {
+     "path": "instance_merge_publisher",
+     "n": 1,
+     "sample": "Editore"
+    },
+    {
+     "path": "instance_merge_dimension",
+     "n": 1,
+     "sample": "Dimensioni"
+    },
+    {
+     "path": "instance_merge_extent",
+     "n": 1,
+     "sample": "Estensioni"
+    },
+    {
+     "path": "instance_merge_bib_level",
+     "n": 1,
+     "sample": "Natura"
+    },
+    {
+     "path": "instance_merge_subject",
+     "n": 1,
+     "sample": "Soggetto"
+    },
+    {
+     "path": "instance_merge_bib_list",
+     "n": 1,
+     "sample": "Biblioteche:"
+    },
+    {
+     "path": "instance_merge_work",
+     "n": 1,
+     "sample": "Opera"
+    },
+    {
+     "path": "instance_template_read_on",
+     "n": 1,
+     "sample": "Leggi su Internet Archive"
+    },
+    {
+     "path": "instance_merge_rdf_data",
+     "n": 1,
+     "sample": "Dati RDF"
+    },
+    {
+     "path": "instance_template_popover",
+     "n": 1,
+     "sample": "Alcune delle informazioni visualizzate in questa pagina provengono da fonti esterne distribuite nel Web. Il counter sull"
+    },
+    {
+     "path": "instance_template_work",
+     "n": 1,
+     "sample": "OPERA"
+    },
+    {
+     "path": "instance_template_related",
+     "n": 1,
+     "sample": "RISORSE COLLEGATE"
+    },
+    {
+     "path": "instance_template_part_of",
+     "n": 1,
+     "sample": "Parte di: "
+    },
+    {
+     "path": "instance_template_contains",
+     "n": 1,
+     "sample": "Contiene:"
+    },
+    {
+     "path": "instance_template_expand",
+     "n": 1,
+     "sample": "Espandi"
+    },
+    {
+     "path": "agent_popover",
+     "n": 1,
+     "sample": "Alcune delle informazioni visualizzate in questa pagina provengono da fonti esterne distribuite nel Web. Il counter sull"
+    },
+    {
+     "path": "agent_template_author",
+     "n": 1,
+     "sample": "Autore"
+    },
+    {
+     "path": "agent_template_profession",
+     "n": 1,
+     "sample": "Professione: "
+    },
+    {
+     "path": "agent_template_education",
+     "n": 1,
+     "sample": "Istruzione: "
+    },
+    {
+     "path": "agent_template_member",
+     "n": 1,
+     "sample": "Membro di: "
+    },
+    {
+     "path": "agent_template_biography",
+     "n": 1,
+     "sample": "Biografia:"
+    },
+    {
+     "path": "agent_template_read_more",
+     "n": 1,
+     "sample": "Leggi tutto"
+    },
+    {
+     "path": "agent_template_works",
+     "n": 1,
+     "sample": "Opere"
+    },
+    {
+     "path": "agent_template_rdf",
+     "n": 1,
+     "sample": "Dati RDF"
+    },
+    {
+     "path": "agent_show_more",
+     "n": 1,
+     "sample": "Carica tutte le opere"
+    },
+    {
+     "path": "agent_books_template_works",
+     "n": 1,
+     "sample": "Opere"
+    },
+    {
+     "path": "search_section_search",
+     "n": 1,
+     "sample": "Ricerca"
+    },
+    {
+     "path": "search_order_relevance",
+     "n": 1,
+     "sample": "Rilevanza"
+    },
+    {
+     "path": "search_order",
+     "n": 1,
+     "sample": "Ordine:"
+    },
+    {
+     "path": "search_order_newer_older",
+     "n": 1,
+     "sample": "Data, dal più recente"
+    },
+    {
+     "path": "search_order_older_newer",
+     "n": 1,
+     "sample": "Date, from the oldest"
+    },
+    {
+     "path": "search_order_alphabetical",
+     "n": 1,
+     "sample": "Alfabetico, A/Z"
+    },
+    {
+     "path": "search_order_alphabetical_inv",
+     "n": 1,
+     "sample": "Alfabetico, Z/A"
+    },
+    {
+     "path": "search_active_filters",
+     "n": 1,
+     "sample": "FILTRI ATTIVI"
+    },
+    {
+     "path": "search_facet_author",
+     "n": 1,
+     "sample": "Autore"
+    },
+    {
+     "path": "search_facet_date",
+     "n": 1,
+     "sample": "Data"
+    },
+    {
+     "path": "search_facet_publisher",
+     "n": 1,
+     "sample": "Editore"
+    },
+    {
+     "path": "search_facet_tipology",
+     "n": 1,
+     "sample": "Tipologia"
+    },
+    {
+     "path": "search_facet_bibliographic_level",
+     "n": 1,
+     "sample": "Natura"
+    },
+    {
+     "path": "search_facet_library",
+     "n": 1,
+     "sample": "Biblioteca"
+    },
+    {
+     "path": "search_facet_language",
+     "n": 1,
+     "sample": "Lingua"
+    },
+    {
+     "path": "search_facet_digitization",
+     "n": 1,
+     "sample": "Digitalizzazioni"
+    },
+    {
+     "path": "instance_main_merge_edition",
+     "n": 1,
+     "sample": "Unisci questa edizione dell'opera con un'altra"
+    },
+    {
+     "path": "instance_main_navigate_works",
+     "n": 1,
+     "sample": "Naviga tra tutte le opere del CoBiS"
+    },
+    {
+     "path": "instance_main_explore",
+     "n": 1,
+     "sample": "Esplora"
+    },
+    {
+     "path": "instance_biblio_find_location",
+     "n": 1,
+     "sample": "TROVA LA COLLOCAZIONE"
+    },
+    {
+     "path": "instance_biblio_libraries",
+     "n": 1,
+     "sample": "Biblioteche"
+    },
+    {
+     "path": "instance_biblio_rdf_data",
+     "n": 1,
+     "sample": "Dati RDF"
+    },
+    {
+     "path": "instance_biblio_library",
+     "n": 1,
+     "sample": "Biblioteca"
+    },
+    {
+     "path": "instance_biblio_public_transport",
+     "n": 1,
+     "sample": "Mezzi pubblici"
+    },
+    {
+     "path": "instance_biblio_hours",
+     "n": 1,
+     "sample": "Orario"
+    },
+    {
+     "path": "instance_biblio_website",
+     "n": 1,
+     "sample": "Sito internet"
+    },
+    {
+     "path": "instance_biblio_telephone",
+     "n": 1,
+     "sample": "Telefono"
+    },
+    {
+     "path": "instance_biblio_localization",
+     "n": 1,
+     "sample": "Localizzazione"
+    },
+    {
+     "path": "instance_biblio_address",
+     "n": 1,
+     "sample": "Indirizzo"
+    },
+    {
+     "path": "instance_biblio_catalogue",
+     "n": 1,
+     "sample": "Catalogo"
+    },
+    {
+     "path": "instance_biblio_services",
+     "n": 1,
+     "sample": "Servizi"
+    },
+    {
+     "path": "instance_biblio_documents",
+     "n": 1,
+     "sample": "Documenti"
+    },
+    {
+     "path": "instance_biblio_learn_more",
+     "n": 1,
+     "sample": "Scopri di più"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_8.json",
+   "format": "json",
+   "size": 21,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "name",
+     "n": 1,
+     "sample": "Mark Twain"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "name",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_9.json",
+   "format": "json",
+   "size": 292,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].uri",
+     "n": 1,
+     "sample": "http://dati.cobis.to.it/agent/IT_ICCU_CFIV_002662"
+    },
+    {
+     "path": "[].description",
+     "n": 1,
+     "sample": "1835-1910 // Nato in Florida nel 1835 e morto a Redding nel 1910."
+    },
+    {
+     "path": "[].datazioneInferita",
+     "n": 1,
+     "sample": "1835-1910 "
+    },
+    {
+     "path": "[].wikidata",
+     "n": 1,
+     "sample": "http://www.wikidata.org/entity/Q7245"
+    },
+    {
+     "path": "[].viaf",
+     "n": 1,
+     "sample": "http://viaf.org/viaf/50566653"
+    },
+    {
+     "path": "[].id",
+     "n": 1,
+     "sample": "IT_ICCU_CFIV_002662"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].description",
+     "value": "1835-1910 // Nato in Florida nel 1835 e morto a Redding nel 1910."
+    },
+    {
+     "path": "[].datazioneInferita",
+     "value": "1835-1910 "
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "uri"
+   ]
+  },
+  {
+   "file": "xhr_10.json",
+   "format": "json",
+   "size": 4297,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].workLabel",
+     "n": 35,
+     "sample": "A *tramp abroad"
+    },
+    {
+     "path": "[].inst",
+     "n": 35,
+     "sample": "http://dati.cobis.to.it/instance/mnmt87257"
+    },
+    {
+     "path": "[].year",
+     "n": 35,
+     "sample": "1880"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_12.json",
+   "format": "json",
+   "size": 119,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "head.vars[]",
+     "n": 1,
+     "sample": "abstract"
+    },
+    {
+     "path": "results.distinct",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "results.ordered",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "conneg_1.json",
+   "format": "json",
+   "size": 4,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 3066,
+   "path_count": 56,
+   "paths": [
+    {
+     "path": "head.vars[]",
+     "n": 24,
+     "sample": "wikiLabel"
+    },
+    {
+     "path": "results.bindings[].wikiLabel.xml:lang",
+     "n": 1,
+     "sample": "it"
+    },
+    {
+     "path": "results.bindings[].wikiLabel.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].wikiLabel.value",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "results.bindings[].desc.xml:lang",
+     "n": 1,
+     "sample": "it"
+    },
+    {
+     "path": "results.bindings[].desc.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].desc.value",
+     "n": 1,
+     "sample": "scrittore, umorista, aforista e docente statunitense (1835-1910)"
+    },
+    {
+     "path": "results.bindings[].image.type",
+     "n": 1,
+     "sample": "uri"
+    },
+    {
+     "path": "results.bindings[].image.value",
+     "n": 1,
+     "sample": "http://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg"
+    },
+    {
+     "path": "results.bindings[].dataNascita.datatype",
+     "n": 1,
+     "sample": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    {
+     "path": "results.bindings[].dataNascita.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].dataNascita.value",
+     "n": 1,
+     "sample": "1835-11-30T00:00:00Z"
+    },
+    {
+     "path": "results.bindings[].luogoNascita.xml:lang",
+     "n": 1,
+     "sample": "it"
+    },
+    {
+     "path": "results.bindings[].luogoNascita.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].luogoNascita.value",
+     "n": 1,
+     "sample": "Florida"
+    },
+    {
+     "path": "results.bindings[].dataMorte.datatype",
+     "n": 1,
+     "sample": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    {
+     "path": "results.bindings[].dataMorte.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].dataMorte.value",
+     "n": 1,
+     "sample": "1910-04-21T00:00:00Z"
+    },
+    {
+     "path": "results.bindings[].luogoMorte.xml:lang",
+     "n": 1,
+     "sample": "it"
+    },
+    {
+     "path": "results.bindings[].luogoMorte.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].luogoMorte.value",
+     "n": 1,
+     "sample": "Redding"
+    },
+    {
+     "path": "results.bindings[].itwiki.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].itwiki.value",
+     "n": 1,
+     "sample": "https://it.wikipedia.org/wiki/Mark_Twain"
+    },
+    {
+     "path": "results.bindings[].enwiki.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].enwiki.value",
+     "n": 1,
+     "sample": "https://en.wikipedia.org/wiki/Mark_Twain"
+    },
+    {
+     "path": "results.bindings[].sbn.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].sbn.value",
+     "n": 1,
+     "sample": "CFIV002662"
+    },
+    {
+     "path": "results.bindings[].viaf.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].viaf.value",
+     "n": 1,
+     "sample": "53367783"
+    },
+    {
+     "path": "results.bindings[].loc.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].loc.value",
+     "n": 1,
+     "sample": "no2003079632"
+    },
+    {
+     "path": "results.bindings[].gnd.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].gnd.value",
+     "n": 1,
+     "sample": "118624822"
+    },
+    {
+     "path": "results.bindings[].bnf.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].bnf.value",
+     "n": 1,
+     "sample": "11927291n"
+    },
+    {
+     "path": "results.bindings[].openLibrary.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].openLibrary.value",
+     "n": 1,
+     "sample": "OL18319A"
+    },
+    {
+     "path": "results.bindings[].musicBrainz.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].musicBrainz.value",
+     "n": 1,
+     "sample": "4d584c99-249e-493f-8c5f-d022bd8de433"
+    },
+    {
+     "path": "results.bindings[].IMSLP.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].IMSLP.value",
+     "n": 1,
+     "sample": "Category:Twain,_Mark"
+    },
+    {
+     "path": "results.bindings[].professioneLabel.xml:lang",
+     "n": 1,
+     "sample": "it"
+    },
+    {
+     "path": "results.bindings[].professioneLabel.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].professioneLabel.value",
+     "n": 1,
+     "sample": "giornalista"
+    },
+    {
+     "path": "results.bindings[].membroDiLabel.xml:lang",
+     "n": 1,
+     "sample": "it"
+    },
+    {
+     "path": "results.bindings[].membroDiLabel.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].membroDiLabel.value",
+     "n": 1,
+     "sample": "American Academy of Arts and Letters"
+    },
+    {
+     "path": "results.bindings[].istruzioneLabel.xml:lang",
+     "n": 1,
+     "sample": "en"
+    },
+    {
+     "path": "results.bindings[].istruzioneLabel.type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].istruzioneLabel.value",
+     "n": 1,
+     "sample": "Cascadilla School"
+    },
+    {
+     "path": "results.bindings[].professione.type",
+     "n": 1,
+     "sample": "uri"
+    },
+    {
+     "path": "results.bindings[].professione.value",
+     "n": 1,
+     "sample": "http://www.wikidata.org/entity/Q1930187"
+    },
+    {
+     "path": "results.bindings[].membroDi.type",
+     "n": 1,
+     "sample": "uri"
+    },
+    {
+     "path": "results.bindings[].membroDi.value",
+     "n": 1,
+     "sample": "http://www.wikidata.org/entity/Q463281"
+    },
+    {
+     "path": "results.bindings[].istruzione.type",
+     "n": 1,
+     "sample": "uri"
+    },
+    {
+     "path": "results.bindings[].istruzione.value",
+     "n": 1,
+     "sample": "http://www.wikidata.org/entity/Q5048217"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "results.bindings[].wikiLabel.value",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "results.bindings[].desc.value",
+     "value": "scrittore, umorista, aforista e docente statunitense (1835-1910)"
+    },
+    {
+     "path": "results.bindings[].image.value",
+     "value": "http://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg"
+    },
+    {
+     "path": "results.bindings[].dataNascita.value",
+     "value": "1835-11-30T00:00:00Z"
+    },
+    {
+     "path": "results.bindings[].dataMorte.value",
+     "value": "1910-04-21T00:00:00Z"
+    },
+    {
+     "path": "results.bindings[].itwiki.value",
+     "value": "https://it.wikipedia.org/wiki/Mark_Twain"
+    },
+    {
+     "path": "results.bindings[].enwiki.value",
+     "value": "https://en.wikipedia.org/wiki/Mark_Twain"
+    },
+    {
+     "path": "results.bindings[].IMSLP.value",
+     "value": "Category:Twain,_Mark"
+    }
+   ],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "CoBiS Linked Open Data author card for Mark Twain: places/dates, short description, profession, education, membership, a list of linked-data targets (names only, no URIs in the text) and the first 8 of 35 works.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

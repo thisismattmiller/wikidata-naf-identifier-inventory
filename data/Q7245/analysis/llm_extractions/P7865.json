@@ -1,0 +1,206 @@
+{
+ "property": "P7865",
+ "label": "CoBiS author ID",
+ "files_read": [
+  "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_8.json",
+  "P7865__95a5yja38danygu695b5yc1g68v3ccg/xhr_9.json",
+  "P7865__95a5yja38danygu695b5yc1g68v3ccg/browser_xhr_2.json"
+ ],
+ "about_entity": true,
+ "notes": "xhr_8 is a name stub, xhr_9 the CoBiS agent record (IT_ICCU_CFIV_002662), browser_xhr_2 a SPARQL result the page pulls from Wikidata (Italian labels). Oddities: the SPARQL VIAF (53367783) differs from xhr_9's VIAF (50566653), and its LoC id no2003079632 is not Twain's usual n79021164; birth place 'Florida' means Florida, Missouri.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "xhr_8.json: $.name"
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "it",
+    "via": "browser_xhr_2.json: $.results.bindings[0].wikiLabel"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "1835-11-30T00:00:00Z",
+    "lang": null,
+    "via": "browser_xhr_2.json: $.results.bindings[0].dataNascita"
+   },
+   {
+    "value": "1835",
+    "raw": "1835-1910",
+    "lang": null,
+    "via": "xhr_9.json: $[0].datazioneInferita"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "1910-04-21T00:00:00Z",
+    "lang": null,
+    "via": "browser_xhr_2.json: $.results.bindings[0].dataMorte"
+   },
+   {
+    "value": "1910",
+    "raw": "1835-1910",
+    "lang": null,
+    "via": "xhr_9.json: $[0].datazioneInferita"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": "it",
+    "via": "browser_xhr_2.json: $.results.bindings[0].luogoNascita"
+   },
+   {
+    "value": "Florida",
+    "raw": "Nato in Florida nel 1835",
+    "lang": "it",
+    "via": "xhr_9.json: $[0].description"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "it",
+    "via": "browser_xhr_2.json: $.results.bindings[0].luogoMorte"
+   },
+   {
+    "value": "Redding",
+    "raw": "morto a Redding nel 1910",
+    "lang": "it",
+    "via": "xhr_9.json: $[0].description"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "giornalista",
+    "lang": "it",
+    "via": "browser_xhr_2.json: $.results.bindings[0].professioneLabel",
+    "uri": "http://www.wikidata.org/entity/Q1930187"
+   }
+  ],
+  "description": [
+   {
+    "value": "1835-1910 // Nato in Florida nel 1835 e morto a Redding nel 1910.",
+    "lang": "it",
+    "via": "xhr_9.json: $[0].description"
+   },
+   {
+    "value": "scrittore, umorista, aforista e docente statunitense (1835-1910)",
+    "lang": "it",
+    "via": "browser_xhr_2.json: $.results.bindings[0].desc"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "statunitense",
+    "lang": "it",
+    "via": "browser_xhr_2.json: $.results.bindings[0].desc"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "American Academy of Arts and Letters",
+    "lang": "it",
+    "via": "browser_xhr_2.json: $.results.bindings[0].membroDiLabel",
+    "relation": "member of",
+    "uri": "http://www.wikidata.org/entity/Q463281"
+   },
+   {
+    "value": "Cascadilla School",
+    "lang": "en",
+    "via": "browser_xhr_2.json: $.results.bindings[0].istruzioneLabel",
+    "relation": "educated at",
+    "uri": "http://www.wikidata.org/entity/Q5048217"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "via": "xhr_9.json: $[0].wikidata"
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "via": "xhr_9.json: $[0].viaf"
+   },
+   {
+    "value": "http://viaf.org/viaf/53367783",
+    "raw": "53367783",
+    "via": "browser_xhr_2.json: $.results.bindings[0].viaf"
+   },
+   {
+    "value": "https://it.wikipedia.org/wiki/Mark_Twain",
+    "via": "browser_xhr_2.json: $.results.bindings[0].itwiki"
+   },
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "via": "browser_xhr_2.json: $.results.bindings[0].enwiki"
+   },
+   {
+    "value": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662",
+    "raw": "CFIV002662",
+    "via": "browser_xhr_2.json: $.results.bindings[0].sbn"
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/no2003079632",
+    "raw": "no2003079632",
+    "via": "browser_xhr_2.json: $.results.bindings[0].loc"
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "raw": "118624822",
+    "via": "browser_xhr_2.json: $.results.bindings[0].gnd"
+   },
+   {
+    "value": "https://catalogue.bnf.fr/ark:/12148/cb11927291n",
+    "raw": "11927291n",
+    "via": "browser_xhr_2.json: $.results.bindings[0].bnf"
+   },
+   {
+    "value": "https://openlibrary.org/authors/OL18319A",
+    "raw": "OL18319A",
+    "via": "browser_xhr_2.json: $.results.bindings[0].openLibrary"
+   },
+   {
+    "value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+    "raw": "4d584c99-249e-493f-8c5f-d022bd8de433",
+    "via": "browser_xhr_2.json: $.results.bindings[0].musicBrainz"
+   },
+   {
+    "value": "https://imslp.org/wiki/Category:Twain,_Mark",
+    "raw": "Category:Twain,_Mark",
+    "via": "browser_xhr_2.json: $.results.bindings[0].IMSLP"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "IT_ICCU_CFIV_002662",
+    "lang": null,
+    "via": "xhr_9.json: $[0].id"
+   },
+   {
+    "value": "http://dati.cobis.to.it/agent/IT_ICCU_CFIV_002662",
+    "lang": null,
+    "via": "xhr_9.json: $[0].uri"
+   }
+  ],
+  "image": [
+   {
+    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg",
+    "lang": null,
+    "via": "browser_xhr_2.json: $.results.bindings[0].image"
+   }
+  ],
+  "source": [
+   {
+    "value": "Wikidata (SPARQL)",
+    "lang": null,
+    "via": "browser_xhr_2.json: $.results.bindings[0]. (query vars wikiLabel/desc/... are Wikidata-derived)"
+   }
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+[project]
+name = "wikidata-naf-identifier-inventory"
+version = "0.1.0"
+description = "Inventory what each external identifier on a Wikidata name entity links to, and what machine-readable data each site exposes"
+requires-python = ">=3.14"
+dependencies = [
+    "extruct>=0.18.0",
+    "pillow>=13.0.0",
+    "pymarc>=5.4.0",
+    "pyobjc-framework-quartz>=12.2.2",
+    "rdflib>=7.6.0",
+    "truststore>=0.10.4",
+]

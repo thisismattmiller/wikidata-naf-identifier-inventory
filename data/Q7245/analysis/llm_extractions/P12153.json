@@ -1,0 +1,116 @@
+{
+ "property": "P12153",
+ "label": "FilmAffinity person or company ID",
+ "files_read": [
+  "P12153__579305177/embedded_microdata.json",
+  "P12153__579305177/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "schema.org Person microdata and OpenGraph from the FilmAffinity name page; both carry the same generated description. Microdata 'name' field oddly holds the page URL.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description ('born in 1835 in United States')"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description"
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain was a writer who was born in 1835 in United States and died in 1910 known for The Adventures of Huck Finn, A Knight in Camelot (TV), The Prince and the Pauper, Man with a Million, The Spaceman and King Arthur, The Adventures of Tom Sawyer (TV Series), The Adventures of Tom Sawyer, The Prince and the Pauper, The Adventures of Huckleberry Finn and Walt Disney's Mickey Mouse: The Prince and the Pauper",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description"
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Huck Finn",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description ('known for', film/TV adaptations)"
+   },
+   {
+    "value": "A Knight in Camelot (TV)",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description ('known for', film/TV adaptations)"
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description ('known for', film/TV adaptations)"
+   },
+   {
+    "value": "Man with a Million",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description ('known for', film/TV adaptations)"
+   },
+   {
+    "value": "The Spaceman and King Arthur",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description ('known for', film/TV adaptations)"
+   },
+   {
+    "value": "The Adventures of Tom Sawyer (TV Series)",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description ('known for', film/TV adaptations)"
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description ('known for', film/TV adaptations)"
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description ('known for', film/TV adaptations)"
+   },
+   {
+    "value": "Walt Disney's Mickey Mouse: The Prince and the Pauper",
+    "lang": "en",
+    "via": "P12153__579305177/embedded_microdata.json: $[0].description ('known for', film/TV adaptations)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "579305177",
+    "raw": "https://www.filmaffinity.com/en/name.php?name-id=579305177",
+    "lang": null,
+    "via": "P12153__579305177/embedded_microdata.json: $[0].name"
+   }
+  ],
+  "image": [
+   {
+    "value": "https://pics.filmaffinity.com/079865023306443-nm_200.jpg",
+    "lang": null,
+    "via": "P12153__579305177/embedded_microdata.json: $[0].image"
+   }
+  ]
+ }
+}

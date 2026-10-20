@@ -1,0 +1,60 @@
+{
+ "property": "P245",
+ "label": "Union List of Artist Names ID",
+ "files_read": ["pages/P245__500020427.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Getty ULAN full record display for Twain, Mark (500020427): scope note, names, nationality, roles, gender, birth/death places, biographies by contributor and sources. The note contains an evident typo ('first major published work was in 1965').",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "en", "raw": "Twain, Mark (pseudonym) (preferred,V,index,LCP)", "via": "Names list, preferred"}],
+  "name_variant": [
+   {"value": "Mark Twain", "lang": "en", "raw": "Mark Twain (pseudonym) (V,display)", "via": "Names list"},
+   {"value": "Clemens, Samuel Langhorne", "lang": "en", "raw": "Clemens, Samuel Langhorne (VBN)", "via": "Names list"},
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "Names list"},
+   {"value": "Clemens, Mark Twain", "lang": "en", "via": "Names list"}
+  ],
+  "pseudonym": [{"value": "Mark Twain", "lang": "en", "via": "Names list flagged (pseudonym)"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "en", "via": "Names list 'Clemens, Samuel Langhorne'"}],
+  "family_name": [{"value": "Clemens", "lang": "en", "via": "Names list 'Clemens, Samuel Langhorne'"}],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "record heading display biography"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "record heading display biography"}],
+  "birth_place": [{"value": "Florida (Monroe county, Missouri, United States)", "lang": "en", "via": "Birth and Death Places, Born"}],
+  "death_place": [{"value": "Redding (Fairfield county, Connecticut, United States)", "lang": "en", "via": "Birth and Death Places, Died"}],
+  "gender": [{"value": "male", "lang": "en", "via": "Gender row"}],
+  "nationality": [{"value": "American", "lang": "en", "raw": "American (preferred)", "via": "Nationalities"}],
+  "occupation": [
+   {"value": "artist", "lang": "en", "raw": "artist (preferred)", "via": "Roles"},
+   {"value": "humorist", "lang": "en", "via": "Roles"},
+   {"value": "novelist", "lang": "en", "via": "Roles"},
+   {"value": "journalist", "lang": "en", "via": "Roles"},
+   {"value": "lecturer", "lang": "en", "via": "Roles"}
+  ],
+  "description": [
+   {"value": "American author and humorist, known for such works as Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1885). His first major published work was in 1965, with \"Celebrated Jumping Frog of Calaveras County.\" Twain did not finish elementary school, but is noted as having been was awarded honorary degree by Oxford University.", "lang": "en", "via": "Note (scope note)"},
+   {"value": "American humorist, novelist, and artist, 1835-1910", "lang": "en", "via": "record heading / Biographies [VP Preferred]"}
+  ],
+  "work": [
+   {"value": "Adventures of Tom Sawyer", "raw": "(1876)", "via": "Note"},
+   {"value": "Adventures of Huckleberry Finn", "raw": "(1885)", "via": "Note"},
+   {"value": "Celebrated Jumping Frog of Calaveras County", "via": "Note"}
+  ],
+  "related_agent": [{"value": "University of Oxford (awarded him an honorary degree)", "via": "Note"}],
+  "same_as": [{"value": "http://id.loc.gov/authorities/names/n79021164", "raw": "LOC ID: n79021164; NAFL79021164", "via": "Sources and Contributors (LC Authorities)"}],
+  "identifier": [
+   {"value": "500020427", "via": "ID row"},
+   {"value": "http://vocab.getty.edu/page/ulan/500020427", "via": "Page Link row"}
+  ],
+  "image": [{"value": "Representative Images: 1, 2 (links)", "via": "page header"}],
+  "source": [
+   {"value": "BHA, Authority file (1973-)", "via": "Sources and Contributors"},
+   {"value": "Database for the Witt Checklist of Painters c. 1200-1976 (1978-)", "via": "Sources and Contributors"},
+   {"value": "Witt Computer Index database", "via": "Sources and Contributors"},
+   {"value": "Witt Library, Authority files", "via": "Sources and Contributors"},
+   {"value": "Library of Congress Authorities online (2002-) NAFL79021164, accessed 24 April 2007", "via": "Sources and Contributors"},
+   {"value": "M. Knoedler & Co. records, Finding Aid, GRI Special Collections (2012-)", "via": "Sources and Contributors"},
+   {"value": "Encyclopedia Britannica Online (2002-) accessed 24 April 2007", "via": "Sources and Contributors, Subject"},
+   {"value": "Gallery Systems (2000-) LOC ID: n79021164", "via": "Sources and Contributors, Subject"},
+   {"value": "Getty Vocabulary Program rules", "via": "Sources and Contributors"}
+  ]
+ }
+}

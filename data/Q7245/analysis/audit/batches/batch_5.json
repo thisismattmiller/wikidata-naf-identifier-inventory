@@ -1,0 +1,4591 @@
+[
+ {
+  "property": "P3987",
+  "label": "SHARE Catalogue author ID",
+  "host": "catalogo.share-cat.unina.it",
+  "domain": "library-catalogue",
+  "wikidata_values": [
+   {
+    "value": "27404",
+    "url": "https://catalogo.share-cat.unina.it/sharecat/searchNames?n_cluster_id=27404"
+   }
+  ],
+  "records": [
+   {
+    "value": "27404",
+    "url": "https://catalogo.share-cat.unina.it/sharecat/searchNames?n_cluster_id=27404",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://catalogo.share-cat.unina.it/sharecat/searchNames?n_cluster_id=27404",
+    "crawl_status": "http_error",
+    "title": "Apache Tomcat/8.5.9 - Error report",
+    "page": {
+     "chars": 117,
+     "excerpt": "HTTP Status 404 - type Status report message description The requested resource is not available. Apache Tomcat/8.5.9"
+    },
+    "screenshot": "pages/P3987__27404.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "http_error",
+   "resolved": false,
+   "wrong_page_reason": null,
+   "entity_on_page": false,
+   "has_data": false,
+   "access": "none",
+   "access_group": "no entity data",
+   "format_family": "none",
+   "formats": [],
+   "values": 0,
+   "page_text_values": 0,
+   "descriptive_values": 0,
+   "unique_share": null,
+   "uniqueness_bucket": "no descriptive data",
+   "page_text_only": false,
+   "wd_match": 0,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {},
+  "chrome_elements_parked": {},
+  "extraction_notes": {},
+  "review_verdicts": {},
+  "review_flags": []
+ },
+ {
+  "property": "P4081",
+  "label": "BHL creator ID",
+  "host": "www.biodiversitylibrary.org",
+  "domain": "research-academic",
+  "wikidata_values": [
+   {
+    "value": "40429",
+    "url": "https://www.biodiversitylibrary.org/creator/40429"
+   }
+  ],
+  "records": [
+   {
+    "value": "40429",
+    "url": "https://www.biodiversitylibrary.org/creator/40429",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.biodiversitylibrary.org/creator/40429#/titles",
+    "crawl_status": "ok",
+    "title": "Clemens, Samuel Langhorne, - Biodiversity Heritage Library",
+    "page": {
+     "chars": 2234,
+     "excerpt": "Biodiversity Heritage Library About Help FAQ Feedback Please read BHL's Acknowledgment of Harmful Content Browse by: Title Author Date Collection Contributor Full-text Catalog advanced search By \"Clemens, Samuel Langhorne, 1835-1910\" Books/Journals (1) Chapters/Articles/Treatments (0) Sort By: Title Author Year Mark Twain's Sketches, new and old View Metadata By: Clemens, Samuel Langhorne, Edition: Now first published in complete form. Publication info: Hartford, Conn, The American Pub. Company, 1887 Holding Institution: Cornell University Library Author Details Type Person Preferred Name Form Clemens, Samuel Langhorne, Dates 1835-1910 Identifiers LCCN: n79021164 LCCN: n93099439 LCCN: n93099461 LCCN: no2003079632 SNAK ARK: w65h7dgf SNAK ARK: w6dg7gd6 VIAF: 16444837 VIAF: 305239133 VIAF: 50566653 VIAF: 53367783 Wikidata: Q7245 Help Support BHL BHL's existence depends on the support of its patrons. Help us keep this free resource alive! Ways to Give Celebrating 20 Years Treasures from BHL Discover the Stories Join Our Mailing List Sign up to receive the latest news, content highlights, and promotions Subscribe Here Get Involved Ways To Contribute BHL Community Forum Harmful Content B"
+    },
+    "screenshot": "pages/P4081__40429.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page text only (page blocked for plain HTTP)",
+   "access_group": "page blocks plain clients",
+   "format_family": "page text (LLM)",
+   "formats": [
+    "html"
+   ],
+   "values": 17,
+   "page_text_values": 17,
+   "descriptive_values": 5,
+   "unique_share": 0.0,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": true,
+   "wd_match": 1,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Clemens, Samuel Langhorne,",
+      "via": "llm-page:Author Details 'Preferred Name Form'"
+     },
+     {
+      "value": "Clemens, Samuel Langhorne, 1835-1910",
+      "via": "llm-page:page heading 'By ...'"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm-page:Author Details 'Dates'"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm-page:Author Details 'Dates'"
+     }
+    ]
+   },
+   "work": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain's Sketches, new and old",
+      "via": "llm-page:Books/Journals list"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 11,
+    "from_structured": 0,
+    "from_page_text": 11,
+    "samples": [
+     {
+      "value": "LCCN: n79021164",
+      "via": "llm-page:Author Details 'Identifiers'"
+     },
+     {
+      "value": "LCCN: n93099439",
+      "via": "llm-page:Author Details 'Identifiers'"
+     },
+     {
+      "value": "LCCN: n93099461",
+      "via": "llm-page:Author Details 'Identifiers'"
+     },
+     {
+      "value": "LCCN: no2003079632",
+      "via": "llm-page:Author Details 'Identifiers'"
+     },
+     {
+      "value": "SNAK ARK: w65h7dgf",
+      "via": "llm-page:Author Details 'Identifiers'"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "40429",
+      "via": "llm-page:URL (/creator/40429)"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "author page with work list",
+    "notes": "Biodiversity Heritage Library creator page for 'Clemens, Samuel Langhorne, 1835-1910': one digitized book plus an 'Author Details' box with name form, dates and external identifiers (LCCN, SNAK ARK, VIAF, Wikidata). Identifiers are given as bare ids, not URIs."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 3
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4084",
+  "label": "MyAnimeList people ID",
+  "host": "myanimelist.net",
+  "domain": "comics-games-anime",
+  "wikidata_values": [
+   {
+    "value": "19191",
+    "url": "https://myanimelist.net/people/19191"
+   }
+  ],
+  "records": [
+   {
+    "value": "19191",
+    "url": "https://myanimelist.net/people/19191",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://myanimelist.net/people/19191",
+    "crawl_status": "ok",
+    "title": "Mark Twain - MyAnimeList.net",
+    "page": {
+     "chars": 2916,
+     "excerpt": "MyAnimeList.net Hide AdsLoginSign Up All Anime Manga Characters People Companies Manga Store News Featured Articles Forum Clubs Users Anime Manga Community Industry Watch Read Help Twain, Mark Edit Person Information Add to Favorites Birthday: Nov 30, 1835 Website: Member Favorites: 26 More: Samuel Langhorne Clemens, better known by his pen name Mark Twain, was an American author and humorist. He is most noted for his novel The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1885), the latter often called \"the Great American Novel. He is extensively quoted. During his lifetime, Twain became a friend to presidents, artists, industrialists, and European royalty. Twain enjoyed immense public popularity. His keen wit and incisive satire earned him praise from both critics and peers. William Faulkner called Twain \"the father of American literature\". Date of Death: 21.04.1910 Details News Pictures Top > People > Twain, Mark Add Voice Actor Role Voice Acting Roles No voice acting roles have been added to this person. Help improve our database by adding a voice acting role here. Add Position Anime Staff Positions Sorted by Members Tom Sawyer no Bouken add Or"
+    },
+    "screenshot": "pages/P4084__19191.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 19/26 values",
+   "access_group": "plain HTTP",
+   "format_family": "embedded markup",
+   "formats": [
+    "json",
+    "microdata",
+    "rdfa"
+   ],
+   "values": 26,
+   "page_text_values": 19,
+   "descriptive_values": 24,
+   "unique_share": 0.21,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": false,
+   "wd_match": 7,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 3,
+    "from_structured": 2,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Twain, Mark",
+      "via": "json:itemListElement.name"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_opengraph.json: $[0]['og:title']"
+     },
+     {
+      "value": "Twain, Mark",
+      "via": "llm-page:page heading"
+     }
+    ]
+   },
+   "description": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Looking for information on Mark Twain? On MyAnimeList you can learn more about their role in the anime and manga industr",
+      "via": "og:description"
+     },
+     {
+      "value": "Samuel Langhorne Clemens, better known by his pen name Mark Twain, was an American author and humorist. He is most noted",
+      "via": "llm-page:More (bio)"
+     }
+    ]
+   },
+   "image": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://cdn.myanimelist.net/images/voiceactors/1/21955.jpg",
+      "via": "og:image"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "usa",
+      "via": "json:country"
+     },
+     {
+      "value": "American",
+      "via": "llm-page:bio"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Twain, Mark",
+      "via": "llm:embedded_microdata.json: $[0].itemListElement[2].name"
+     },
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "llm-page:bio"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "19191",
+      "via": "llm:embedded_opengraph.json: $[0]['og:url']"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:bio"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:Birthday"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:Date of Death"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "author",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "humorist",
+      "via": "llm-page:bio"
+     }
+    ]
+   },
+   "work": {
+    "n": 9,
+    "from_structured": 0,
+    "from_page_text": 9,
+    "samples": [
+     {
+      "value": "The Adventures of Tom Sawyer",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "Adventures of Huckleberry Finn",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "Tom Sawyer no Bouken",
+      "via": "llm-page:Anime Staff Positions"
+     },
+     {
+      "value": "Huckleberry no Bouken",
+      "via": "llm-page:Anime Staff Positions"
+     },
+     {
+      "value": "Huckleberry Finn Monogatari",
+      "via": "llm-page:Anime Staff Positions"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "William Faulkner (called Twain 'the father of American literature')",
+      "via": "llm-page:bio"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "Breadcrumb microdata and OpenGraph tags of the MyAnimeList person page. og:description is generic site boilerplate and was not used as a description."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "biography page",
+    "notes": "MyAnimeList person page 'Twain, Mark' with birthday, death date, a short English bio and anime/manga adaptations credited to him as Original Creator / Story."
+   }
+  },
+  "review_verdicts": {
+   "extraction_noise": 1
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4104",
+  "label": "Carnegie Hall Agent ID",
+  "host": "data.carnegiehall.org",
+  "domain": "music-audio",
+  "wikidata_values": [
+   {
+    "value": "2088",
+    "url": "https://data.carnegiehall.org/names/2088/about"
+   }
+  ],
+  "records": [
+   {
+    "value": "2088",
+    "url": "https://data.carnegiehall.org/names/2088/about",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://data.carnegiehall.org/names/2088/about",
+    "crawl_status": "ok",
+    "title": "About: Samuel Langhorne Clemens",
+    "page": {
+     "chars": 780,
+     "excerpt": "Carnegie Hall Data Lab Home (current) About Experiments SPARQL Voicebox Contact Search Name: Samuel Langhorne Clemens Property Value rdf:type http://data.carnegiehall.org/model/Entity http://schema.org/Person schema:name Samuel Langhorne Clemens skos:exactMatch http://dbpedia.org/resource/Mark_Twain http://id.loc.gov/authorities/names/n79021164 https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433 http://www.wikidata.org/entity/Q7245 schema:hasOccupation speaker author rdfs:label Samuel Langhorne Clemens schema:birthDate 1835-11-30 schema:deathDate 1910-04-21 schema:birthPlace https://sws.geonames.org/4386798/ View Data As: JSON-LD | N-Triples | Turtle | N3 | XML Copyright © 2026 The Carnegie Hall Corporation | 57th Street and Seventh Avenue, New York City"
+    },
+    "screenshot": "pages/P4104__2088.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 5/17 values",
+   "access_group": "plain HTTP",
+   "format_family": "RDF",
+   "formats": [
+    "json-ld"
+   ],
+   "values": 17,
+   "page_text_values": 5,
+   "descriptive_values": 9,
+   "unique_share": 0.33,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 4,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "type": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://data.carnegiehall.org/model/Entity",
+      "via": "type"
+     },
+     {
+      "value": "http://schema.org/Person",
+      "via": "type"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "birthDate"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://sws.geonames.org/4386798/",
+      "via": "birthPlace"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "deathDate"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 4,
+    "from_structured": 2,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "http://data.carnegiehall.org/roles/946",
+      "via": "hasOccupation"
+     },
+     {
+      "value": "http://id.loc.gov/vocabulary/relators/aut",
+      "via": "hasOccupation"
+     },
+     {
+      "value": "speaker",
+      "via": "llm-page:schema:hasOccupation"
+     },
+     {
+      "value": "author",
+      "via": "llm-page:schema:hasOccupation"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "name"
+     },
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "llm-page:schema:name / rdfs:label"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 4,
+    "from_structured": 4,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://dbpedia.org/resource/Mark_Twain",
+      "via": "exactMatch"
+     },
+     {
+      "value": "http://id.loc.gov/authorities/names/n79021164",
+      "via": "exactMatch"
+     },
+     {
+      "value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+      "via": "exactMatch"
+     },
+     {
+      "value": "http://www.wikidata.org/entity/Q7245",
+      "via": "exactMatch"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "2088",
+      "via": "llm-page:page URL (data.carnegiehall.org/names/2088)"
+     }
+    ]
+   },
+   "license": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Copyright © 2026 The Carnegie Hall Corporation",
+      "via": "llm-page:footer"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "Carnegie Hall Data Lab 'About' page for Samuel Langhorne Clemens: property/value table with name, occupations, dates, birthplace (GeoNames URI) and exactMatch links."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 3
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4159",
+  "label": "WeRelate person ID",
+  "host": "www.werelate.org",
+  "domain": "genealogy",
+  "wikidata_values": [
+   {
+    "value": "Samuel_Clemens_(4)",
+    "url": "https://www.werelate.org/wiki/Person:Samuel_Clemens_%284%29"
+   }
+  ],
+  "records": [
+   {
+    "value": "Samuel_Clemens_(4)",
+    "url": "https://www.werelate.org/wiki/Person:Samuel_Clemens_%284%29",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.werelate.org/wiki/Person:Samuel_Clemens_%284%29",
+    "crawl_status": "ok",
+    "title": "Person:Samuel Clemens (4) - Genealogy",
+    "page": {
+     "chars": 9195,
+     "excerpt": "Home Search▼ List▼ Add▼ My Relate▼ Admin▼ Sign in Create account Donate Volunteer Help▼ Person:Samuel Clemens (4) Last modified 26 Mar 2017 Person Talk Edit History What links here more▼ Watchers Amelia.Gerlicher Jrm03063 Marvinmilner@hotmail.com Browse Clemens in Florida in Redding in Woodlawn Cemetery Twain in Florida in Redding in Woodlawn Cemetery Samuel Langhorne Clemens b.30 Nov 1835 Florida, Monroe, Missouri, United States d.21 Apr 1910 Redding, Fairfield, Connecticut, United States Family tree▼ Parents and Siblings (edit) F. Justice John Marshall Clemens 1798 - 1847 M. Mary Jane Lampton 1803 - 1890 m. 1823 Orion Clemens 1825 - 1897 Pamela 'Parmelia' Clemens 1827 - 1904 Pleasant Hannibal Clemens 1829 - 1829 Margaret Lampton Clemens 1830 - 1839 Benjamin L. Clemens 1832 - 1842 Samuel Langhorne Clemens 1835 - 1910 Henry Clemens 1838 - 1858 Spouse and Children (edit) H. Samuel Langhorne Clemens 1835 - 1910 W. Olivia Louise 'Livey' Langdon 1845 - 1904 m. Feb 1870 Langdon Clemens 1870 - 1872 Susy Clemens 1872 - 1896 Clara Clemens 1874 - 1962 Jean Clemens 1880 - 1909 Add another spouse & children ▼Events and Facts Name Samuel Langhorne Clemens Alt Name Mark Twain Gender Male Birth["
+    },
+    "screenshot": "pages/P4159__Samuel_Clemens__4_555a4288.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "browser / page blocked for plain HTTP only + page text for 65/108 values",
+   "access_group": "browser session only",
+   "format_family": "RDF",
+   "formats": [
+    "microdata",
+    "rdf-xml"
+   ],
+   "values": 108,
+   "page_text_values": 65,
+   "descriptive_values": 82,
+   "unique_share": 0.44,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 9,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "see_also": {
+    "n": 14,
+    "from_structured": 14,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://www.werelate.org/wiki/Person:Samuel_Clemens_%284%29",
+      "via": "json:url"
+     },
+     {
+      "value": "https://www.werelate.org/wiki/Person:John_Clemens_%284%29",
+      "via": "json:parents.url"
+     },
+     {
+      "value": "https://www.werelate.org/wiki/Person:Mary_Lampton_%282%29",
+      "via": "json:parents.url"
+     },
+     {
+      "value": "https://www.werelate.org/wiki/Person:Orion_Clemens_%281%29",
+      "via": "json:siblings.url"
+     },
+     {
+      "value": "https://www.werelate.org/wiki/Person:Pamela_Clemens_%281%29",
+      "via": "json:siblings.url"
+     }
+    ]
+   },
+   "gender": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "male",
+      "via": "json:gender"
+     },
+     {
+      "value": "Male",
+      "via": "llm-page:Gender"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 14,
+    "from_structured": 13,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "json:name"
+     },
+     {
+      "value": "Justice John Marshall Clemens",
+      "via": "json:parents.name"
+     },
+     {
+      "value": "Orion Clemens",
+      "via": "json:siblings.name"
+     },
+     {
+      "value": "Pamela 'Parmelia' Clemens",
+      "via": "json:siblings.name"
+     },
+     {
+      "value": "Pleasant Hannibal Clemens",
+      "via": "json:siblings.name"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 3,
+    "from_structured": 2,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "HistoricalEvent.html",
+      "via": "json:birth.@type"
+     },
+     {
+      "value": "1835-11-30",
+      "via": "json:birth.startDate"
+     },
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:Birth"
+     }
+    ]
+   },
+   "activity_place": {
+    "n": 9,
+    "from_structured": 1,
+    "from_page_text": 8,
+    "samples": [
+     {
+      "value": "Place",
+      "via": "json:birth.location.@type"
+     },
+     {
+      "value": "Woodlawn Cemetery, Elmira, Chemung, New York, United States",
+      "via": "llm-page:Burial"
+     },
+     {
+      "value": "Elmira, Chemung, New York, United States",
+      "via": "llm-page:Marriage"
+     },
+     {
+      "value": "Hannibal, Missouri",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "Nevada",
+      "via": "llm-page:bio"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 3,
+    "from_structured": 2,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "HistoricalEvent.html",
+      "via": "json:death.@type"
+     },
+     {
+      "value": "1910-04-21",
+      "via": "json:death.startDate"
+     },
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:Death"
+     }
+    ]
+   },
+   "type": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://web.resource.org/cc/Work",
+      "via": "type"
+     },
+     {
+      "value": "Text",
+      "via": "type"
+     }
+    ]
+   },
+   "language": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "en",
+      "via": "language"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "https://www.werelate.org/wiki/Person:Samuel_Clemens_%284%29",
+      "via": "identifier"
+     },
+     {
+      "value": "Person:Samuel Clemens (4)",
+      "via": "llm-page:page title"
+     }
+    ]
+   },
+   "work": {
+    "n": 13,
+    "from_structured": 5,
+    "from_page_text": 8,
+    "samples": [
+     {
+      "value": "https://www.werelate.org/wiki/User:Jrm03063",
+      "via": "creator"
+     },
+     {
+      "value": "Amy Johnson Crow",
+      "via": "contributor"
+     },
+     {
+      "value": "WeRelate agent",
+      "via": "contributor"
+     },
+     {
+      "value": "Amelia Morrow Gerlicher",
+      "via": "contributor"
+     },
+     {
+      "value": "Marvin Milner",
+      "via": "contributor"
+     }
+    ]
+   },
+   "license": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "http://www.gnu.org/copyleft/fdl.html",
+      "via": "rights"
+     },
+     {
+      "value": "Creative Commons Attribution/Share-Alike License",
+      "via": "llm-page:footer"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:Alt Name"
+     },
+     {
+      "value": "Samuel Clemens (4)",
+      "via": "llm-page:page title"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:bio 'known by his pen name Mark Twain'"
+     }
+    ]
+   },
+   "given_name": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Langhorne",
+      "via": "llm-page:Name"
+     }
+    ]
+   },
+   "family_name": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Clemens",
+      "via": "llm-page:Browse surname"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Florida, Monroe, Missouri, United States",
+      "via": "llm-page:Birth"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Redding, Fairfield, Connecticut, United States",
+      "via": "llm-page:Death"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 9,
+    "from_structured": 0,
+    "from_page_text": 9,
+    "samples": [
+     {
+      "value": "writer",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "humorist",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "entrepreneur",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "publisher",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "lecturer",
+      "via": "llm-page:bio"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "American",
+      "via": "llm-page:bio; Category: American writers"
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), known by his pen name Mark Twain, was an American writer,",
+      "via": "llm-page:Wikipedia-copied summary"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 19,
+    "from_structured": 0,
+    "from_page_text": 19,
+    "samples": [
+     {
+      "value": "John Marshall Clemens (father, 1798-1847)",
+      "via": "llm-page:Parents"
+     },
+     {
+      "value": "Mary Jane Lampton / Jane Lampton Clemens (mother, 1803-1890)",
+      "via": "llm-page:Parents"
+     },
+     {
+      "value": "Orion Clemens (brother, 1825-1897)",
+      "via": "llm-page:Siblings"
+     },
+     {
+      "value": "Pamela 'Parmelia' Clemens (sister, 1827-1904)",
+      "via": "llm-page:Siblings"
+     },
+     {
+      "value": "Pleasant Hannibal Clemens (brother, 1829-1829)",
+      "via": "llm-page:Siblings"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "http://www.wikidata.org/entity/Q7245",
+      "via": "llm-page:Reference Number"
+     }
+    ]
+   },
+   "source": {
+    "n": 4,
+    "from_structured": 0,
+    "from_page_text": 4,
+    "samples": [
+     {
+      "value": "Mark Twain, in Wikipedia: The Free Encyclopedia",
+      "via": "llm-page:References"
+     },
+     {
+      "value": "Mark Twain, in Find A Grave",
+      "via": "llm-page:References"
+     },
+     {
+      "value": "Kaplan, Fred. The Singular Mark Twain. Doubleday, 2007",
+      "via": "llm-page:References"
+     },
+     {
+      "value": "Lauber, John. The Inventions of Mark Twain: a Biography. Hill and Wang, 1990",
+      "via": "llm-page:References"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "2017-03-26",
+      "via": "llm-page:page header"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "biography page",
+    "notes": "WeRelate genealogy person page: vital events with places, burial, parents, siblings, spouse and children, Wikidata reference, and a Wikipedia-copied biography. Last modified 26 Mar 2017."
+   }
+  },
+  "review_verdicts": {
+   "different_entity": 13,
+   "extraction_noise": 1,
+   "equivalent": 4
+  },
+  "review_flags": [
+   {
+    "element": "https://www.werelate.org/wiki/Person:John_Clemens_%284%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Mary_Lampton_%282%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Orion_Clemens_%281%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Pamela_Clemens_%281%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Pleasant_Clemens_%282%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Margaret_Clemens_%282%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Benjamin_Clemens_%281%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Henry_Clemens_%286%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Olivia_Langdon_%281%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Langdon_Clemens_%281%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Susy_Clemens_%281%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Clara_Clemens_%281%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   },
+   {
+    "element": "https://www.werelate.org/wiki/Person:Jean_Clemens_%281%29",
+    "verdict": "different_entity",
+    "reason": "WeRelate link to a relative (parent, sibling, spouse or child)."
+   }
+  ]
+ },
+ {
+  "property": "P4223",
+  "label": "Treccani's Enciclopedia Italiana ID",
+  "host": "www.treccani.it",
+  "domain": "encyclopedia",
+  "wikidata_values": [
+   {
+    "value": "mark-twain",
+    "url": "https://www.treccani.it/enciclopedia/mark-twain_(Enciclopedia-Italiana)"
+   }
+  ],
+  "records": [
+   {
+    "value": "mark-twain",
+    "url": "https://www.treccani.it/enciclopedia/mark-twain_(Enciclopedia-Italiana)",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.treccani.it/enciclopedia/mark-twain_(Enciclopedia-Italiana)/",
+    "crawl_status": "ok",
+    "title": "TWAIN, Mark - Enciclopedia - Treccani",
+    "page": {
+     "chars": 10071,
+     "excerpt": "Salta al contenuto NAVIGA ISTITUTO FONDAZIONE PER LE AZIENDE EVENTI REGISTRATI ​ ​ Progetti internazionali Magazine Giochi Podcast Arte Cataloghi Lavora con noi ENCICLOPEDIA TWAIN, MARK TWAIN, Mark di Kenneth McKenzie Enciclopedia Italiana (1937) TAG Mississippi Mississippi Connecticut Piroscafo New york ALTRI RISULTATI DI RICERCA DAL VOCABOLARIO LEMMI CORRELATI TWAIN, Mark Pseudonimo col quale è noto lo scrittore americano Samuel Langhorne Clemens, nato a Florida (Missouri), il 30 novembre 1835, morto a Redding (Connecticut) il 21 aprile 1910. La famiglia Clemens si trasferì presto a Hannibal, sul fiume Mississippi. All'età di dodici anni gli morì il padre, e da allora il ragazzo non frequentò più la scuola; ma dalla lettura e dalla vita avventurosa acquistò non solo una profonda conoscenza dell'umanità ma pure una larga cultura letteraria. Per alcun tempo lavorò in una tipografia, e dai 17 ai 24 anni fu pilota di piroscafo sul Mississippi, adottando per pseudonimo le parole Mark Twain, usate dai piloti per indicare la profondità dell'acqua (\"segna due braccia\"). Di questo periodo della vita fece più tardi la descrizione in Life on the Mississippi (1883). Poi osservò da vicino la "
+    },
+    "screenshot": "pages/P4223__mark-twain.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 50/101 values",
+   "access_group": "plain HTTP",
+   "format_family": "embedded markup",
+   "formats": [
+    "json",
+    "rdfa"
+   ],
+   "values": 101,
+   "page_text_values": 50,
+   "descriptive_values": 42,
+   "unique_share": 0.36,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 7,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "description": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Nell'Enciclopedia Treccani troverai tutto quello che devi sapere su TWAIN, Mark. Entra subito su Treccani.it, il portale",
+      "via": "og:description"
+     },
+     {
+      "value": "Pseudonimo col quale è noto lo scrittore americano Samuel Langhorne Clemens, nato a Florida (Missouri), il 30 novembre 1",
+      "via": "llm-page:Enciclopedia Italiana (1937) article text"
+     }
+    ]
+   },
+   "image": {
+    "n": 13,
+    "from_structured": 13,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://images.treccani.it/enc/media/images/social=200x200.jpg",
+      "via": "og:image"
+     },
+     {
+      "value": "asset",
+      "via": "json:story.content.CustomAds.image.fieldtype"
+     },
+     {
+      "value": "https://a.storyblok.com/f/241562/900x401/495fe67b3d/istituto_menu.jpg",
+      "via": "json:story.content.header_menu.image.filename"
+     },
+     {
+      "value": "https://a.storyblok.com/f/241562/900x400/8b0106e312/mdd_fondazione-900x400.png",
+      "via": "json:story.content.header_menu.image.filename"
+     },
+     {
+      "value": "https://a.storyblok.com/f/241562/1360x1020/ae4e0b75fe/paladino-treccani-per-le-aziende2.jpg",
+      "via": "json:story.content.header_menu.image.filename"
+     }
+    ]
+   },
+   "see_also": {
+    "n": 35,
+    "from_structured": 35,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "/contribuzione/suggerisci-una-nuova-voce",
+      "via": "json:story.content.CustomAds.link.url"
+     },
+     {
+      "value": "/contribuzione/suggerisci-una-integrazione",
+      "via": "json:story.content.CustomAds.secondaryLink.url"
+     },
+     {
+      "value": "/istituto/",
+      "via": "json:story.content.footer_menu.items.link.url"
+     },
+     {
+      "value": "/fondazione/",
+      "via": "json:story.content.footer_menu.items.link.url"
+     },
+     {
+      "value": "/eventi/",
+      "via": "json:story.content.footer_menu.items.link.url"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "TWAIN, Mark",
+      "via": "llm:P4223__mark-twain/embedded_opengraph.json: $[0]['og:titl"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "mark-twain",
+      "via": "llm:batch folder name P4223__mark-twain (no URL in file)"
+     },
+     {
+      "value": "mark-twain_(Enciclopedia-Italiana)",
+      "via": "llm-page:page URL"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "llm-page:article first sentence"
+     },
+     {
+      "value": "M. T.",
+      "via": "llm-page:abbreviation used in article"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:'Pseudonimo col quale è noto lo scrittore americano"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:article first sentence"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:article first sentence"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Florida (Missouri)",
+      "via": "llm-page:article first sentence"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Redding (Connecticut)",
+      "via": "llm-page:article first sentence"
+     }
+    ]
+   },
+   "activity_place": {
+    "n": 4,
+    "from_structured": 0,
+    "from_page_text": 4,
+    "samples": [
+     {
+      "value": "Hannibal",
+      "via": "llm-page:article (family moved there)"
+     },
+     {
+      "value": "Mississippi",
+      "via": "llm-page:article (steamboat pilot)"
+     },
+     {
+      "value": "Far West",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "New York",
+      "via": "llm-page:TAG"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 5,
+    "from_structured": 0,
+    "from_page_text": 5,
+    "samples": [
+     {
+      "value": "scrittore",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "pilota di piroscafo",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "tipografo",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "corrispondente",
+      "via": "llm-page:article"
+     },
+     {
+      "value": "umorista",
+      "via": "llm-page:article"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "americano",
+      "via": "llm-page:article; 'statunitense' in Enciclopedie on line tea"
+     }
+    ]
+   },
+   "work": {
+    "n": 15,
+    "from_structured": 0,
+    "from_page_text": 15,
+    "samples": [
+     {
+      "value": "Life on the Mississippi",
+      "via": "llm-page:article text / Ediz."
+     },
+     {
+      "value": "The Celebrated Jumping Frog of Calaveras County and other sketches",
+      "via": "llm-page:article text / Ediz."
+     },
+     {
+      "value": "Roughing It",
+      "via": "llm-page:article text / Ediz."
+     },
+     {
+      "value": "Innocents Abroad, or The new Pilgrim's Progress",
+      "via": "llm-page:article text / Ediz."
+     },
+     {
+      "value": "A Tramp Abroad",
+      "via": "llm-page:article text / Ediz."
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 7,
+    "from_structured": 0,
+    "from_page_text": 7,
+    "samples": [
+     {
+      "value": "Kenneth McKenzie (author of the 1937 article)",
+      "via": "llm-page:byline"
+     },
+     {
+      "value": "A. Bigelow Paine (editor of the Autobiography)",
+      "via": "llm-page:Ediz."
+     },
+     {
+      "value": "T. Orsi (Italian translator of Tom Sawyer and Huckleberry Finn)",
+      "via": "llm-page:Ediz."
+     },
+     {
+      "value": "C. Clemens (author of My Father M. T., 1931)",
+      "via": "llm-page:Bibl."
+     },
+     {
+      "value": "W. D. Howells (author of My M. T., 1910)",
+      "via": "llm-page:Bibl."
+     }
+    ]
+   },
+   "source": {
+    "n": 7,
+    "from_structured": 0,
+    "from_page_text": 7,
+    "samples": [
+     {
+      "value": "Merle Johnson, A Bibliography of the works of M. T., New York 1935",
+      "via": "llm-page:Bibl."
+     },
+     {
+      "value": "Cambridge History of American Literature, IV (1921)",
+      "via": "llm-page:Bibl."
+     },
+     {
+      "value": "W. D. Howells, My M. T., reminiscences and criticisms, New York 1910",
+      "via": "llm-page:Bibl."
+     },
+     {
+      "value": "V. M. Brooks, The ordeal of M. T., 1920",
+      "via": "llm-page:Bibl."
+     },
+     {
+      "value": "C. Clemens, My Father M. T., 1931",
+      "via": "llm-page:Bibl."
+     }
+    ]
+   },
+   "record_created": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1937",
+      "via": "llm-page:byline"
+     }
+    ]
+   },
+   "license": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "© Istituto della Enciclopedia Italiana fondata da Giovanni Treccani - Riproduzione riservata",
+      "via": "llm-page:article footer"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "OpenGraph only from the Treccani Enciclopedia Italiana entry; description is generic boilerplate, image is the site logo. Only the heading name is usable."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "encyclopedia article",
+    "notes": "Full Enciclopedia Italiana (1937) article 'TWAIN, Mark' by Kenneth McKenzie: biography, works with dates, editions and bibliography. Below it, teasers of other Treccani entries (Enciclopedie on line, Enciclopedia dei Ragazzi 2006) about him, then unrelated 'Vedi anche' entries (Howells, Fónzi, etc.) which are not data."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 2
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4342",
+  "label": "Great Norwegian Encyclopedia ID",
+  "host": "snl.no",
+  "domain": "encyclopedia",
+  "wikidata_values": [
+   {
+    "value": "Mark_Twain",
+    "url": "https://wikidata-externalid-url.toolforge.org/?p=4342&url_prefix=https://snl.no/&id=Mark_Twain"
+   }
+  ],
+  "records": [
+   {
+    "value": "Mark_Twain",
+    "url": "https://wikidata-externalid-url.toolforge.org/?p=4342&url_prefix=https://snl.no/&id=Mark_Twain",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://snl.no/Mark_Twain",
+    "crawl_status": "ok",
+    "title": "Mark Twain – Store norske leksikon",
+    "page": {
+     "chars": 6092,
+     "excerpt": "Hopp til hovedinnholdet Lille norske leksikon må legge ned hvis vi ikke får penger over statsbudsjettet 😭 Leksikonet åpnet i 2024 og er siden da lest 7 millioner ganger. Hjelp oss å redde Lille norske leksikon! STORE NORSKE LEKSIKON Skriv 1 eller flere tegn for å se søkeforslag. Mark Twain Store norske leksikon Språk og litteratur Litteratur i verden Nord- og Mellom-Amerikas litteratur USAs litteratur USAs litteratur på 1800-tallet Biografi Forfatterskap Les mer i Store norske leksikon Eksterne lenker Litteratur SKREVET AV Orm Øverland UNIVERSITETET I BERGEN Faktaboks MARK TWAIN født Samuel Langhorne Clemens UTTALE klemənz FØDT 30. november 1835, Florida, Missouri, USA DØD 21. april 1910, Redding, Conneticut, USA Samuel Langhorne Clemens (Mark Twain) Av Ukjent/KF/Store norske leksikon. Lisens: Begrenset gjenbruk Mark Twain var en populær amerikansk forfatter som særlig er kjent for romanene om guttene Tom Sawyer og Huckleberry Finn. Han het egentlig Samuel Langhorne Clemens, men skrev under pseudonymet Mark Twain. Biografi Twain vokste opp i småbyen Hannibal ved Mississippi-elven i Missouri. Fra han var 12 år gammel til han var 20 arbeidet han i trykkerfaget i mange byer og begynte"
+    },
+    "screenshot": "pages/P4342__Mark_Twain.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 33/79 values",
+   "access_group": "plain HTTP",
+   "format_family": "RDF",
+   "formats": [
+    "json-ld",
+    "microdata",
+    "rdfa"
+   ],
+   "values": 79,
+   "page_text_values": 33,
+   "descriptive_values": 63,
+   "unique_share": 0.16,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": false,
+   "wd_match": 7,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens (Mark Twain)",
+      "via": "json:name"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_microdata.json: $[0].value (Faktaboks heading)"
+     }
+    ]
+   },
+   "type": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://schema.org/WebPage",
+      "via": "type"
+     }
+    ]
+   },
+   "image": {
+    "n": 3,
+    "from_structured": 2,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "https://media.snl.no/media/2254/standard_clemens-samuel.jpg",
+      "via": "og:image"
+     },
+     {
+      "value": "https://media.snl.no/media/2254/standard_compressed_clemens-samuel.jpg",
+      "via": "llm:embedded_microdata.json: $[2].contentUrl"
+     },
+     {
+      "value": "Samuel Langhorne Clemens (Mark Twain)",
+      "via": "llm-page:fact box image caption"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "llm:embedded_microdata.json: $[0].value 'født Samuel Langhor"
+     }
+    ]
+   },
+   "given_name": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Samuel Langhorne",
+      "via": "llm:embedded_microdata.json: $[0].value 'født Samuel Langhor"
+     }
+    ]
+   },
+   "family_name": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Clemens",
+      "via": "llm:embedded_microdata.json: $[0].value 'født Samuel Langhor"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_microdata.json: $[0].value 'skrev under pseudon"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm:embedded_microdata.json: $[0].value Faktaboks 'Født'"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "llm:embedded_microdata.json: $[0].value Faktaboks 'Død'"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Florida, Missouri, USA",
+      "via": "llm:embedded_microdata.json: $[0].value Faktaboks 'Født'"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Redding, Conneticut, USA",
+      "via": "llm:embedded_microdata.json: $[0].value Faktaboks 'Død'"
+     }
+    ]
+   },
+   "activity_place": {
+    "n": 6,
+    "from_structured": 5,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Hannibal",
+      "via": "llm:embedded_microdata.json: $[0].value Biografi"
+     },
+     {
+      "value": "Virginia City, Nevada",
+      "via": "llm:embedded_microdata.json: $[0].value Biografi"
+     },
+     {
+      "value": "San Francisco",
+      "via": "llm:embedded_microdata.json: $[0].value Biografi"
+     },
+     {
+      "value": "Hawaii",
+      "via": "llm:embedded_microdata.json: $[0].value Biografi"
+     },
+     {
+      "value": "Hartford, Connecticut",
+      "via": "llm:embedded_microdata.json: $[0].value Forfatterskap"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 8,
+    "from_structured": 5,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "forfatter",
+      "via": "llm:embedded_microdata.json: $[0].value 'en populær amerikan"
+     },
+     {
+      "value": "journalist",
+      "via": "llm:embedded_microdata.json: $[0].value Biografi"
+     },
+     {
+      "value": "elvelos",
+      "via": "llm:embedded_microdata.json: $[0].value Biografi"
+     },
+     {
+      "value": "foredragsholder",
+      "via": "llm:embedded_microdata.json: $[0].value Biografi"
+     },
+     {
+      "value": "humorist",
+      "via": "llm:embedded_microdata.json: $[0].value Forfatterskap"
+     }
+    ]
+   },
+   "field_of_activity": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "USAs litteratur på 1800-tallet",
+      "via": "llm:embedded_microdata.json: $[1].breadcrumb.itemListElement"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "amerikansk",
+      "via": "llm:embedded_microdata.json: $[0].value 'en populær amerikan"
+     }
+    ]
+   },
+   "description": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain var en populær amerikansk forfatter som særlig er kjent for romanene om guttene Tom Sawyer og Huckleberry Fin",
+      "via": "llm:embedded_microdata.json: $[0].value lead paragraph"
+     },
+     {
+      "value": "Mark Twain var en populær amerikansk forfatter som særlig er kjent for romanene om guttene Tom Sawyer og Huckleberry Fin",
+      "via": "llm-page:lead and Biografi"
+     }
+    ]
+   },
+   "work": {
+    "n": 30,
+    "from_structured": 15,
+    "from_page_text": 15,
+    "samples": [
+     {
+      "value": "The Celebrated Jumping Frog of Calaveras County and Other Sketches",
+      "via": "llm:embedded_microdata.json: $[0].value"
+     },
+     {
+      "value": "Innocents Abroad",
+      "via": "llm:embedded_microdata.json: $[0].value"
+     },
+     {
+      "value": "Roughing It",
+      "via": "llm:embedded_microdata.json: $[0].value"
+     },
+     {
+      "value": "The Gilded Age",
+      "via": "llm:embedded_microdata.json: $[0].value"
+     },
+     {
+      "value": "Life on the Mississippi",
+      "via": "llm:embedded_microdata.json: $[0].value"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 5,
+    "from_structured": 2,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "Orion",
+      "via": "llm:embedded_microdata.json: $[0].value 'dro så med broren O"
+     },
+     {
+      "value": "Charles Dudley Warner",
+      "via": "llm:embedded_microdata.json: $[0].value"
+     },
+     {
+      "value": "Orion Clemens (brother)",
+      "via": "llm-page:Biografi"
+     },
+     {
+      "value": "Charles Dudley Warner (neighbour, co-author of The Gilded Age)",
+      "via": "llm-page:Forfatterskap"
+     },
+     {
+      "value": "Orm Øverland (author of the article)",
+      "via": "llm-page:SKREVET AV"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Mark_Twain",
+      "via": "llm:embedded_opengraph.json: $[0]['og:url'] https://snl.no/M"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "2026-04-24",
+      "via": "llm:embedded_microdata.json: $[0].value 'Sist oppdatert'"
+     }
+    ]
+   },
+   "license": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "begrenset gjenbruk",
+      "via": "llm:embedded_microdata.json: $[0].value 'VILKÅR FOR GJENBRUK"
+     },
+     {
+      "value": "begrenset gjenbruk",
+      "via": "llm-page:VILKÅR FOR GJENBRUK"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "https://snl.no/Mark_Twain",
+      "via": "llm-page:citation line"
+     }
+    ]
+   },
+   "source": {
+    "n": 7,
+    "from_structured": 0,
+    "from_page_text": 7,
+    "samples": [
+     {
+      "value": "Emerson, Everett: Mark Twain : a literary life, 2000, isbn 0-8122-3516-9",
+      "via": "llm-page:Litteratur"
+     },
+     {
+      "value": "Kaplan, Fred: The singular Mark Twain : a biography, 2003, isbn 0-385-47715-5",
+      "via": "llm-page:Litteratur"
+     },
+     {
+      "value": "Paine, Albert Bigelow: Mark Twain : a biography, 1912, 3 b.",
+      "via": "llm-page:Litteratur"
+     },
+     {
+      "value": "Rasmussen, R. Kent: Mark Twain A to Z, 1995, isbn 0-8160-2845-1",
+      "via": "llm-page:Litteratur"
+     },
+     {
+      "value": "Robinson, Forrest G., red.: The Cambridge companion to Mark Twain, 1995, isbn 0-521-44593-0",
+      "via": "llm-page:Litteratur"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "Store norske leksikon article: microdata holds the full page text (fact box, biography, works, bibliography) plus breadcrumb, article author and image; OpenGraph gives page title and image. Death place is spelled 'Conneticut' in the source."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "encyclopedia article",
+    "notes": "Store norske leksikon article 'Mark Twain' by Orm Øverland (Universitetet i Bergen): fact box (birth/death), biography and authorship sections naming many works with years, external links and bibliography. Fact box misspells 'Conneticut'."
+   }
+  },
+  "review_verdicts": {
+   "wikidata_gap_or_error": 1,
+   "equivalent": 3
+  },
+  "review_flags": [
+   {
+    "element": "given_name",
+    "verdict": "wikidata_gap_or_error",
+    "reason": "Langhorne is Clemens's middle (given) name; the site lists it as a forename, while Wikidata gives it as family name (P734 Langhorne) and lacks it as a given name."
+   }
+  ]
+ },
+ {
+  "property": "P4343",
+  "label": "WBPLN author ID",
+  "host": "dspace.wbpublibnet.gov.in",
+  "domain": "library-catalogue",
+  "wikidata_values": [
+   {
+    "value": "Clemens, Samuel L.",
+    "url": "http://dspace.wbpublibnet.gov.in:8080/jspui/browse?type=author&order=ASC&rpp=20&value=Clemens%2C%20Samuel%20L."
+   },
+   {
+    "value": "TWAIN, MARK",
+    "url": "http://dspace.wbpublibnet.gov.in:8080/jspui/browse?type=author&order=ASC&rpp=20&value=TWAIN%2C%20MARK"
+   },
+   {
+    "value": "Twain, Mark",
+    "url": "http://dspace.wbpublibnet.gov.in:8080/jspui/browse?type=author&order=ASC&rpp=20&value=Twain%2C%20Mark"
+   }
+  ],
+  "records": [
+   {
+    "value": "Clemens, Samuel L.",
+    "url": "http://dspace.wbpublibnet.gov.in:8080/jspui/browse?type=author&order=ASC&rpp=20&value=Clemens%2C%20Samuel%20L.",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "about:blank",
+    "crawl_status": "load_failed",
+    "title": "",
+    "page": {
+     "chars": 0,
+     "excerpt": ""
+    },
+    "screenshot": null
+   },
+   {
+    "value": "TWAIN, MARK",
+    "url": "http://dspace.wbpublibnet.gov.in:8080/jspui/browse?type=author&order=ASC&rpp=20&value=TWAIN%2C%20MARK",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "chrome-error://chromewebdata/",
+    "crawl_status": "load_failed",
+    "title": "dspace.wbpublibnet.gov.in",
+    "page": {
+     "chars": 183,
+     "excerpt": "This site can’t be reached dspace.wbpublibnet.gov.in took too long to respond. Try: Checking the connection Checking the proxy and the firewall ERR_CONNECTION_TIMED_OUT Reload Details"
+    },
+    "screenshot": "pages/P4343__TWAIN_MARK_10c3788f.jpg"
+   },
+   {
+    "value": "Twain, Mark",
+    "url": "http://dspace.wbpublibnet.gov.in:8080/jspui/browse?type=author&order=ASC&rpp=20&value=Twain%2C%20Mark",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "about:blank",
+    "crawl_status": "load_failed",
+    "title": "",
+    "page": {
+     "chars": 0,
+     "excerpt": ""
+    },
+    "screenshot": null
+   }
+  ],
+  "atlas_labels": {
+   "status": "load_failed×3",
+   "resolved": false,
+   "wrong_page_reason": null,
+   "entity_on_page": false,
+   "has_data": false,
+   "access": "none",
+   "access_group": "no entity data",
+   "format_family": "none",
+   "formats": [],
+   "values": 0,
+   "page_text_values": 0,
+   "descriptive_values": 0,
+   "unique_share": null,
+   "uniqueness_bucket": "no descriptive data",
+   "page_text_only": false,
+   "wd_match": 0,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {},
+  "chrome_elements_parked": {},
+  "extraction_notes": {},
+  "review_verdicts": {},
+  "review_flags": []
+ },
+ {
+  "property": "P4359",
+  "label": "gravsted.dk ID",
+  "host": "www.gravsted.dk",
+  "domain": "genealogy",
+  "wikidata_values": [
+   {
+    "value": "marktwain",
+    "url": "https://www.gravsted.dk/person.php?navn=marktwain"
+   }
+  ],
+  "records": [
+   {
+    "value": "marktwain",
+    "url": "https://www.gravsted.dk/person.php?navn=marktwain",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.gravsted.dk/person.php?navn=marktwain",
+    "crawl_status": "ok",
+    "title": "Mark Twain",
+    "page": {
+     "chars": 2101,
+     "excerpt": "Kendtes Gravsted Forside Biografier Nyheder Portrætnyt Denne dag Links Rouletten Om siden Søgning Søg på navn: Flere søgemuligheder Persongrupper Alle personer Arkitekter & tegnere Billedkunstnere Efterlyste personer Erhvervsfolk Filmfolk Forfattere Journalister & Radio/TV Kirkens folk Kongehuse Militær- og søens folk Musikere & komponister Politikere Sangere Scenefolk Skolefolk Skuespillere Sports- og idrætsfolk Videnskabsfolk Øvrige personer © www.gravsted.dk 2003, 2026 Mark Twain f. Samuel Langhorne Clemens Amerikansk forfatter Født mandag den 30. november 1835 i Florida, Missouri, USA Død torsdag den 21. april 1910 i Redding, Connecticut, USA Mini-biografi: Voksede op ved Mississippiflodens bredder, kom i bogtrykkerlære, var senere lods på Mississippi samt guldgraver, men kom efterhånden ind i skribentvirksomhed, bl.a. som bidragyder til sin brors avis. Blev kendt som forfatter til rejseskildringer, noveller og romaner, hvor han med barok humor og satire forholder sig kritisk til amerikanske samfundsforhold. Mark Twain gik stærkt ind for ligestilling mellem sorte og hvide samt mellem de to køn. Satiriserede desuden over samfundets tiltagende materialisme og pengebegærlighed. Ma"
+    },
+    "screenshot": "pages/P4359__marktwain.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page text only (LLM over HTML)",
+   "access_group": "page text only",
+   "format_family": "page text (LLM)",
+   "formats": [
+    "html"
+   ],
+   "values": 19,
+   "page_text_values": 19,
+   "descriptive_values": 17,
+   "unique_share": 0.29,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": true,
+   "wd_match": 5,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:page heading"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "llm-page:under heading (født = born as)"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:Født"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:Død"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Florida, Missouri, USA",
+      "via": "llm-page:Født"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Redding, Connecticut, USA",
+      "via": "llm-page:Død"
+     }
+    ]
+   },
+   "activity_place": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Mississippi",
+      "via": "llm-page:mini-biography (grew up on the banks, pilot)"
+     },
+     {
+      "value": "Woodlawn Cemetery, Elmira, New York, USA",
+      "via": "llm-page:grave photo caption"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 4,
+    "from_structured": 0,
+    "from_page_text": 4,
+    "samples": [
+     {
+      "value": "forfatter",
+      "via": "llm-page:description line 'Amerikansk forfatter'"
+     },
+     {
+      "value": "lods",
+      "via": "llm-page:mini-biography"
+     },
+     {
+      "value": "guldgraver",
+      "via": "llm-page:mini-biography"
+     },
+     {
+      "value": "bogtrykkerlærling",
+      "via": "llm-page:mini-biography"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "amerikansk",
+      "via": "llm-page:description line"
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Amerikansk forfatter. Voksede op ved Mississippiflodens bredder, kom i bogtrykkerlære, var senere lods på Mississippi sa",
+      "via": "llm-page:Mini-biografi"
+     }
+    ]
+   },
+   "work": {
+    "n": 3,
+    "from_structured": 0,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "The Adventures of Tom Sawyer",
+      "via": "llm-page:mini-biography"
+     },
+     {
+      "value": "The Adventures of Huckleberry Finn",
+      "via": "llm-page:mini-biography"
+     },
+     {
+      "value": "selvbiografi (autobiography, first volume 2010)",
+      "via": "llm-page:mini-biography"
+     }
+    ]
+   },
+   "image": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Grave photo, Woodlawn Cemetery, Elmira, New York, USA 2019 (photo by Kenneth C. Zirkel, via Wikipedia)",
+      "via": "llm-page:photo caption"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "marktwain",
+      "via": "llm-page:page URL navn parameter"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "biography page",
+    "notes": "Kendtes Gravsted (Danish famous-graves site) person page for Mark Twain: birth name, dates and places with weekdays, a Danish mini-biography, and a 2019 grave photo caption (Woodlawn Cemetery, Elmira) credited to Wikipedia / Kenneth C. Zirkel."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 3
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4399",
+  "label": "Itaú Cultural ID",
+  "host": "enciclopedia.itaucultural.org.br",
+  "domain": "encyclopedia",
+  "wikidata_values": [
+   {
+    "value": "pessoa407320/mark-twain",
+    "url": "https://enciclopedia.itaucultural.org.br/pessoa407320/mark-twain"
+   }
+  ],
+  "records": [
+   {
+    "value": "pessoa407320/mark-twain",
+    "url": "https://enciclopedia.itaucultural.org.br/pessoa407320/mark-twain",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://enciclopedia.itaucultural.org.br/pessoas/28271-mark-twain",
+    "crawl_status": "ok",
+    "title": "Mark Twain | Enciclopédia Itaú Cultural",
+    "page": {
+     "chars": 911,
+     "excerpt": "TEATRO Mark Twain Por Editores da Enciclopédia Itaú Cultural Última atualização: 04.12.2024 30.11.1835 Estados Unidos / Missouri / Florida 21.04.1910 Estados Unidos / Connecticut / Redding Outras grafias do nome Samuel Clemens Atuações Escritora / Escritor Obras / Espetáculo de Teatro (2) Fontes de pesquisa (1) Como citar Espaço do Educador Compartilhando ideias e conhecimentos Inteligência Artificial da Enciclopédia Conheça a Verbeth Sobre a enciclopédia De onde vem o conteúdo que você lê aqui ISBN - 978-85-7979-060-7 © 2001 - 2026 Itaú Cultural Termos de uso e política de privacidade O Itaú Cultural utilizou recursos de incentivo fiscal por meio da lei Rouanet até 2016. Saiba mais Realização Este site utiliza cookies de acordo com os nossos Termos de Uso e Política de Privacidade e, ao continuar navegando nele, você declara estar ciente dessas condições. OK Recursos Assistivos Acessível em Libras"
+    },
+    "screenshot": "pages/P4399__pessoa407320_mark-twain_2a2bb5dd.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 11/13 values",
+   "access_group": "plain HTTP",
+   "format_family": "embedded markup",
+   "formats": [
+    "json",
+    "opengraph",
+    "rdfa"
+   ],
+   "values": 13,
+   "page_text_values": 11,
+   "descriptive_values": 9,
+   "unique_share": 0.44,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 4,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_opengraph.json: $[0]['og:title']"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:page heading"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "28271-mark-twain",
+      "via": "llm:embedded_opengraph.json: $[0]['og:url']"
+     },
+     {
+      "value": "pessoa407320",
+      "via": "llm-page:page URL"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Clemens",
+      "via": "llm-page:'Outras grafias do nome'"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:dates line under heading"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:dates line under heading"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Estados Unidos / Missouri / Florida",
+      "via": "llm-page:dates line under heading"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Estados Unidos / Connecticut / Redding",
+      "via": "llm-page:dates line under heading"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Escritora / Escritor",
+      "via": "llm-page:'Atuações'"
+     }
+    ]
+   },
+   "field_of_activity": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Teatro",
+      "via": "llm-page:section label 'TEATRO'"
+     }
+    ]
+   },
+   "source": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Fontes de pesquisa (1)",
+      "via": "llm-page:section heading (content not shown)"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "2024-12-04",
+      "via": "llm-page:byline"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "OpenGraph metadata only (title and URL). Odd: the og:url uses a different id form (pessoas/28271-mark-twain) than the Wikidata value (pessoa407320/mark-twain)."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "encyclopedia article",
+    "notes": "Enciclopédia Itaú Cultural (theatre section) person entry for Mark Twain: birth/death dates and places, other name form and role; the 2 theatre works and 1 source are only counted, not listed in the rendered text. No biography text."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 3
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4431",
+  "label": "Google Doodle",
+  "host": "doodles.google",
+  "domain": "web-social",
+  "wikidata_values": [
+   {
+    "value": "mark-twains-176th-birthday",
+    "url": "https://doodles.google/doodle/mark-twains-176th-birthday/"
+   }
+  ],
+  "records": [
+   {
+    "value": "mark-twains-176th-birthday",
+    "url": "https://doodles.google/doodle/mark-twains-176th-birthday/",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://doodles.google/doodle/mark-twains-176th-birthday/",
+    "crawl_status": "ok",
+    "title": "Mark Twain's 176th Birthday Doodle - Google Doodles",
+    "page": {
+     "chars": 2568,
+     "excerpt": "Jump to content Library Creating a Doodle About Nov 30, 2011 Mark Twain's 176th Birthday This Doodle’s Key Themes Literature Explore a Random Theme A great writer and humorist, Mark Twain once said, \"Against the assault of laughter nothing can stand.\" His characters are as sincere as they are funny and playful; his work is iconic and a part of literary history. As an author that readers around the world have adored for a century, Mark Twain is a perfect fit for a doodle! Since Google never likes to take itself too seriously, I wanted to pick a scene from Twain's work that is both recognizable and funny. The fence-painting sequence from The Adventures of Tom Sawyer seemed a perfect fit. Not only does it incorporate a little bit of mischievous humor (painting fences is certainly thrilling!) it also plays cleverly with the white space of the homepage. Alluding to a comic-book format, I drew Tom and Ben working on the fence and, therefore, spreading our famous white space across the doodle. Below you can check out the process for the process-revealing doodle! posted by Jennifer Hom Where this Doodle appeared The Doodle Mark Twain's 176th Birthday launched Nov 30, 2011 Discover more Doo"
+    },
+    "screenshot": "pages/P4431__mark-twains-176th-birthday.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 9/14 values",
+   "access_group": "plain HTTP",
+   "format_family": "RDF",
+   "formats": [
+    "json-ld",
+    "rdfa"
+   ],
+   "values": 14,
+   "page_text_values": 9,
+   "descriptive_values": 10,
+   "unique_share": 0.5,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 2,
+   "wd_mismatch": 1
+  },
+  "profile_elements": {
+   "type": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://schema.org/WebSite",
+      "via": "type"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Google Doodles",
+      "via": "name"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:page heading"
+     }
+    ]
+   },
+   "see_also": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://doodles.google/",
+      "via": "url"
+     }
+    ]
+   },
+   "description": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Learn more about the creation of Mark Twain's 176th Birthday Doodle and discover the story behind the unique artwork.",
+      "via": "og:description"
+     },
+     {
+      "value": "A great writer and humorist, Mark Twain once said, \"Against the assault of laughter nothing can stand.\" His characters a",
+      "via": "llm-page:doodle text"
+     }
+    ]
+   },
+   "image": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https:https://lh3.googleusercontent.com/_cipoj6Dn2Y9ygAMgLgOgHNfLd7dlcYlSBBsPZ9UBlfDs0dVDZmHx9RZZNuqzniHK-reT0krb9EioW82",
+      "via": "og:image"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "11-30",
+      "via": "llm-page:doodle date and title (implies 1835-11-30)"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "writer",
+      "via": "llm-page:text 'A great writer and humorist'"
+     },
+     {
+      "value": "humorist",
+      "via": "llm-page:text"
+     }
+    ]
+   },
+   "field_of_activity": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Literature",
+      "via": "llm-page:Key Themes"
+     }
+    ]
+   },
+   "work": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "The Adventures of Tom Sawyer",
+      "via": "llm-page:doodle text"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Jennifer Hom (Doodle artist / author of the post)",
+      "via": "llm-page:posted by"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "mark-twains-176th-birthday",
+      "via": "llm-page:page URL"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": false,
+    "page_kind": null,
+    "notes": "OpenGraph metadata for the Google Doodle page 'Mark Twain's 176th Birthday Doodle'. It describes the doodle artwork, not the person (no biographical facts); og:image is the doodle and has a malformed 'https:https://' prefix. Nothing extracted."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "other",
+    "notes": "Google Doodle page 'Mark Twain's 176th Birthday' (launched Nov 30, 2011) with a short blog text by Doodler Jennifer Hom about the Tom Sawyer fence-painting scene. Little biographical data beyond the birthday."
+   }
+  },
+  "review_verdicts": {
+   "extraction_noise": 2,
+   "equivalent": 1
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4432",
+  "label": "Artists of the World ID",
+  "host": "aow.degruyter.com",
+  "domain": "museum-art",
+  "wikidata_values": [
+   {
+    "value": "42600653",
+    "url": "https://aow.degruyter.com/artist/_42600653"
+   }
+  ],
+  "records": [
+   {
+    "value": "42600653",
+    "url": "https://aow.degruyter.com/artist/_42600653",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://aow.degruyter.com/artist/_42600653",
+    "crawl_status": "ok",
+    "title": "Twain, Mark - Artists of the World",
+    "page": {
+     "chars": 1477,
+     "excerpt": "Skip to main content artist SEARCH Advanced Search Not authenticated Login Twain, Mark country Honxorsxlc Ldxxbzw, Ezbunpaz First mentioned place Xgc Ywoy Last mentioned place Qna Mrnj Other names Bjtoxlxrm, Rhrrg(NAME-TYPE.bsekgocuf); Mthuxpaaw, Stscz Jlzns (NAME-TYPE.xuuzrgq) Professions Prlhpmmeo*az; Ratre*ow; Ebhirynvpnu*ug; Zivlwugsasodonwytoe*nv; Fenpxywa*az Places of activity Cxi Wavj Go to map From Aadpimc, Kwjfx (CONTRIBUTOR-ROLE.ambyan) Last modified October 2, 2026 Article published on October 2, 2026 Published in LSA PRCKY, 7382, 979 Already have access? Register GET ACCESS ARTISTS OF THE WORLD is an indispensable scholarly reference work for anyone involved in research, museums or the art trade, as a collector, curator or gallery owner. Your subscription gives you access to over 1.25 million entries on artists from all over the world and all eras. Would you like to get a first impression? Take a look at the accessible articles, such as the ones on Hieronymus Bosch , Otto Frei , or Georgia O'Keeffe . Personalized access An individual subscription to Artist of the World costs €249 | $299 | £219 (incl. VAT) per year. If you are interested in such a subscription, please co"
+    },
+    "screenshot": "pages/P4432__42600653.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 4/32 values",
+   "access_group": "plain HTTP",
+   "format_family": "RDF",
+   "formats": [
+    "json",
+    "json-ld",
+    "rdfa"
+   ],
+   "values": 32,
+   "page_text_values": 4,
+   "descriptive_values": 18,
+   "unique_share": 0.5,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 6,
+   "wd_mismatch": 1
+  },
+  "profile_elements": {
+   "type": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://schema.org/Person",
+      "via": "type"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Twain, Mark",
+      "via": "name"
+     },
+     {
+      "value": "Twain, Mark",
+      "via": "llm-page:page heading"
+     }
+    ]
+   },
+   "see_also": {
+    "n": 6,
+    "from_structured": 6,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://aow.degruyter.com/artist/_42600653",
+      "via": "url"
+     },
+     {
+      "value": "Back to home",
+      "via": "json:data.HOMEPAGE.back-to-home"
+     },
+     {
+      "value": "See all new and updated entries",
+      "via": "json:data.HOMEPAGE.see-all-new-items"
+     },
+     {
+      "value": "Contact our sales team",
+      "via": "json:data.HOMEPAGE.contact-sales"
+     },
+     {
+      "value": "See all {{ count }} publicly available entries",
+      "via": "json:data.HOMEPAGE.see-all-free-items"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "birthDate"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "deathDate"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 4,
+    "from_structured": 4,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Master Draughtsman",
+      "via": "hasOccupation"
+     },
+     {
+      "value": "10472",
+      "via": "json:occupations"
+     },
+     {
+      "value": "Occupation",
+      "via": "json:data.SEARCH-FILTER.occupation"
+     },
+     {
+      "value": "Occupations",
+      "via": "json:data.ARTICLE-PAGE.occupations"
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Discover detailed information about Twain, Mark in the online resource Artists of the World published by academic publis",
+      "via": "og:description"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Florida (Missouri)",
+      "via": "json:keywords.placeOfBirth"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Redding (Connecticut)",
+      "via": "json:keywords.placeOfDeath"
+     }
+    ]
+   },
+   "source": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Citations",
+      "via": "json:data.default.Citation"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Updated",
+      "via": "json:data.SEARCH-FILTER.updated"
+     },
+     {
+      "value": "2026-10-02",
+      "via": "llm-page:'Last modified October 2, 2026'"
+     }
+    ]
+   },
+   "gender": {
+    "n": 5,
+    "from_structured": 5,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Gender",
+      "via": "json:data.SEARCH-FILTER.gender"
+     },
+     {
+      "value": "Unknown",
+      "via": "json:data.GENDER.unknown"
+     },
+     {
+      "value": "Diverse",
+      "via": "json:data.GENDER.diverse"
+     },
+     {
+      "value": "Female",
+      "via": "json:data.GENDER.female"
+     },
+     {
+      "value": "Male",
+      "via": "json:data.GENDER.male"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Country",
+      "via": "json:data.SEARCH-FILTER.country"
+     },
+     {
+      "value": "US",
+      "via": "json:country"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "GND ID",
+      "via": "json:data.ARTICLE-PAGE.gnd"
+     }
+    ]
+   },
+   "license": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "© Walter de Gruyter GmbH {{ year }}",
+      "via": "json:data.FOOTER.copyright"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "42600653",
+      "via": "llm-page:page URL artist/_42600653"
+     }
+    ]
+   },
+   "record_created": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "2026-10-02",
+      "via": "llm-page:'Article published on October 2, 2026'"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "De Gruyter Artists of the World entry behind a paywall: heading 'Twain, Mark' is legible but all field values (country, places, other names, professions) are scrambled placeholder text for unauthenticated users; only dates are readable."
+   }
+  },
+  "review_verdicts": {
+   "wikidata_gap_or_error": 1,
+   "equivalent": 1
+  },
+  "review_flags": [
+   {
+    "element": "occupation",
+    "verdict": "wikidata_gap_or_error",
+    "reason": "The Artists of the World (AKL) record classes him as 'Master Draughtsman' (Zeichner); he drew his own sketches, e.g. in A Tramp Abroad, and Wikidata lacks the occupation. The other values (10472, Occu"
+   }
+  ]
+ },
+ {
+  "property": "P4457",
+  "label": "DAHR artist ID",
+  "host": "adp.library.ucsb.edu",
+  "domain": "music-audio",
+  "wikidata_values": [
+   {
+    "value": "102301",
+    "url": "https://adp.library.ucsb.edu/names/102301"
+   }
+  ],
+  "records": [
+   {
+    "value": "102301",
+    "url": "https://adp.library.ucsb.edu/names/102301",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/102301/Twain_Mark",
+    "crawl_status": "ok",
+    "title": "Mark Twain - Discography of American Historical Recordings",
+    "page": {
+     "chars": 6182,
+     "excerpt": "Browse Search Resources eBooks News About HOME HELP Image Source: Wikipedia Mark Twain Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), known by the pen name Mark Twain, was an American writer, humorist, and essayist. He was praised as the \"greatest humorist the United States has produced\", with William Faulkner calling him \"the father of American literature\". Twain's novels include The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1884), with the latter often called the \"Great American Novel\". He also wrote A Connecticut Yankee in King Arthur's Court (1889) and Pudd'nhead Wilson (1894) and cowrote The Gilded Age: A Tale of Today (1873) with Charles Dudley Warner. The novelist Ernest Hemingway claimed that \"All modern American literature comes from one book by Mark Twain called Huckleberry Finn.\" Twain was raised in Hannibal, Missouri, which later provided the setting for both Tom Sawyer and Huckleberry Finn. He served an apprenticeship with a printer early in his career, and then worked as a typesetter, contributing articles to his older brother Orion Clemens' newspaper. Twain then became a riverboat pilot on the Mississippi River, w"
+    },
+    "screenshot": "pages/P4457__102301.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 58/59 values",
+   "access_group": "plain HTTP",
+   "format_family": "embedded markup",
+   "formats": [
+    "opengraph",
+    "rdfa"
+   ],
+   "values": 59,
+   "page_text_values": 58,
+   "descriptive_values": 48,
+   "unique_share": 0.31,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 6,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_opengraph.json: og:title"
+     },
+     {
+      "value": "Twain, Mark",
+      "via": "llm-page:citation s.v."
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "llm-page:bio first sentence"
+     },
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "llm-page:LCNAR link label"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:bio first sentence"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:bio first sentence"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:Birth and Death Data / bio"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Florida (village in Missouri, United States of America)",
+      "via": "llm-page:Birth and Death Data"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Redding (town in Fairfield County, Connecticut, United States)",
+      "via": "llm-page:Birth and Death Data"
+     }
+    ]
+   },
+   "activity_place": {
+    "n": 5,
+    "from_structured": 0,
+    "from_page_text": 5,
+    "samples": [
+     {
+      "value": "Hannibal, Missouri",
+      "via": "llm-page:bio (raised in)"
+     },
+     {
+      "value": "Nevada",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "Virginia City",
+      "via": "llm-page:bio (Territorial Enterprise)"
+     },
+     {
+      "value": "Angels Camp, California",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "Mississippi River",
+      "via": "llm-page:bio (riverboat pilot)"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 9,
+    "from_structured": 0,
+    "from_page_text": 9,
+    "samples": [
+     {
+      "value": "writer",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "humorist",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "essayist",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "printer's apprentice / typesetter",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "riverboat pilot",
+      "via": "llm-page:bio"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "American",
+      "via": "llm-page:bio"
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), known by the pen name Mark Twain, was an American writer,",
+      "via": "llm-page:bio paragraph"
+     }
+    ]
+   },
+   "work": {
+    "n": 13,
+    "from_structured": 0,
+    "from_page_text": 13,
+    "samples": [
+     {
+      "value": "The Adventures of Tom Sawyer",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "Adventures of Huckleberry Finn",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "A Connecticut Yankee in King Arthur's Court",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "Pudd'nhead Wilson",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "The Gilded Age: A Tale of Today",
+      "via": "llm-page:bio"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 10,
+    "from_structured": 0,
+    "from_page_text": 10,
+    "samples": [
+     {
+      "value": "Charles Dudley Warner (co-author of The Gilded Age)",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "Orion Clemens (older brother)",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "Henry Huttleston Rogers (financial helper/adviser)",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "American Anti-Imperialist League (vice president 1901-1910)",
+      "via": "llm-page:bio"
+     },
+     {
+      "value": "Virginia City Territorial Enterprise (employer, journalism)",
+      "via": "llm-page:bio"
+     }
+    ]
+   },
+   "same_as": {
+    "n": 6,
+    "from_structured": 0,
+    "from_page_text": 6,
+    "samples": [
+     {
+      "value": "https://id.loc.gov/authorities/names/n79021164",
+      "via": "llm-page:Linked Open Data Sources: LCNAR"
+     },
+     {
+      "value": "https://www.wikidata.org/entity/Q7245",
+      "via": "llm-page:Linked Open Data Sources: Wikidata"
+     },
+     {
+      "value": "https://viaf.org/viaf/50566653",
+      "via": "llm-page:Linked Open Data Sources: VIAF"
+     },
+     {
+      "value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+      "via": "llm-page:Linked Open Data Sources: MusicBrainz"
+     },
+     {
+      "value": "https://vocab.getty.edu/ulan/500020427",
+      "via": "llm-page:Linked Open Data Sources: Getty ULAN"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "102301",
+      "via": "llm-page:DAHR Persistent Identifier"
+     },
+     {
+      "value": "http://adp.library.ucsb.edu/names/102301",
+      "via": "llm-page:DAHR Persistent Identifier URI"
+     }
+    ]
+   },
+   "image": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "image sourced from Wikipedia",
+      "via": "llm-page:'Image Source: Wikipedia' caption (no URL in text)"
+     }
+    ]
+   },
+   "source": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Wikipedia",
+      "via": "llm-page:bio 'Continue reading at Wikipedia' and External So"
+     }
+    ]
+   },
+   "license": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Creative Commons BY-SA (Wikipedia content)",
+      "via": "llm-page:note under linked data"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "Minimal OpenGraph block from the DAHR page: only og:title and site name."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "authority record",
+    "notes": "Discography of American Historical Recordings name page: Wikipedia-sourced bio (truncated with 'Show More'), birth/death data, a table of 7 recordings (1913-1916) of recitations of his texts with performers, and external/linked-data cross-links."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 3
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4491",
+  "label": "Isidore scholar ID",
+  "host": "isidore.science",
+  "domain": "research-academic",
+  "wikidata_values": [
+   {
+    "value": "twain_mark_auteur_du_texte",
+    "url": "https://isidore.science/a/twain_mark_auteur_du_texte"
+   }
+  ],
+  "records": [
+   {
+    "value": "twain_mark_auteur_du_texte",
+    "url": "https://isidore.science/a/twain_mark_auteur_du_texte",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "chrome-error://chromewebdata/",
+    "crawl_status": "load_failed",
+    "title": "isidore.science",
+    "page": {
+     "chars": 153,
+     "excerpt": "This site can’t be reached The connection was reset. Try: Checking the connection Checking the proxy and the firewall ERR_CONNECTION_RESET Reload Details"
+    },
+    "screenshot": "pages/P4491__twain_mark_auteur_du_texte.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "load_failed",
+   "resolved": false,
+   "wrong_page_reason": null,
+   "entity_on_page": false,
+   "has_data": false,
+   "access": "none",
+   "access_group": "no entity data",
+   "format_family": "none",
+   "formats": [],
+   "values": 0,
+   "page_text_values": 0,
+   "descriptive_values": 0,
+   "unique_share": null,
+   "uniqueness_bucket": "no descriptive data",
+   "page_text_only": false,
+   "wd_match": 0,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {},
+  "chrome_elements_parked": {},
+  "extraction_notes": {},
+  "review_verdicts": {},
+  "review_flags": []
+ },
+ {
+  "property": "P4514",
+  "label": "Africultures person ID",
+  "host": "africultures.com",
+  "domain": "government-other",
+  "wikidata_values": [
+   {
+    "value": "14576",
+    "url": "http://africultures.com/personnes/?no=14576"
+   }
+  ],
+  "records": [
+   {
+    "value": "14576",
+    "url": "http://africultures.com/personnes/?no=14576",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://africultures.com/personnes/?no=14576",
+    "crawl_status": "ok",
+    "title": "Mark Twain - Fiche Personne sur Africultures",
+    "page": {
+     "chars": 3612,
+     "excerpt": "+ Email ACCUEIL ACTU TV ZOOMS REVUE AFRISCOPE AGENDA FRANÇAIS-FACILE En ce moment Soutenir Africultures, une utopie sans cesse renouvelée Violences policières : mon père et le « panier à salade » Fiche Personne Théâtre Cinéma/TV Littérature / édition Mark Twain Ecrivain/ne LIVRES(S) Soliloque du roi Léopold (Le), satire Histoire Avant-propos de Benoît Verhaegen Traduction et introduction de Jean-Pierre Orban Début du 20è siècle : la campagne contre la gestion de l'Etat indépendant du Congo sous la souveraineté du roi Léopold II, b... Mark Twain est lié(e) à ce livre en tant que ecrivain/ne PARTAGER : Twitter Facebook Google+ LinkedIn Email Powered by FIFDA 2026 ADHÉRER, DONNER, COMMANDER Soutenez Africultures ! AFRICULTURES MÉDIAS Pavillon des Cinémas d'Afrique CANNES [AFRI'CANNES] Bradley Fiomona, lauréat du prix d’interprétation masculine à Un certain regard! Lire la vidéo From a Distance FROM A DISTANCE Afrodescendants : faut-il aimer le pays de ses parents ? Lire le podcast Vidéo YouTube YOUTUBE Germaine Acogny, pionnière de la danse contemporaine africaine Ouvrir le lien Ciné Club Afro CINÉ CLUB AFRO Talk inédit avec Serge Noukoué spécial festival de cinéma NOLLYWOOD WEEK Lire"
+    },
+    "screenshot": "pages/P4514__14576.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP + page text for 6/19 values",
+   "access_group": "plain HTTP",
+   "format_family": "RDF",
+   "formats": [
+    "json-ld",
+    "rdfa"
+   ],
+   "values": 19,
+   "page_text_values": 6,
+   "descriptive_values": 14,
+   "unique_share": 0.79,
+   "uniqueness_bucket": "mostly unique (> 60%)",
+   "page_text_only": false,
+   "wd_match": 2,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "type": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://schema.org/WebPage",
+      "via": "type"
+     }
+    ]
+   },
+   "see_also": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://africultures.com/personnes/",
+      "via": "url"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Personnes | Africultures : Twain Mark",
+      "via": "name"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "record_modified": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "2017-04-07T11:46:20+01:00",
+      "via": "dateModified"
+     }
+    ]
+   },
+   "description": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Fiche Personne Théâtre Cinéma/TV Littérature / édition Mark Twain Ecrivain/ne Livres(s) Soliloque du roi Léopold (Le), s",
+      "via": "og:description"
+     }
+    ]
+   },
+   "image": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://africultures.com/wp-content/uploads/2016/07/Aminata-2017-150x150.jpg",
+      "via": "og:image"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Twain Mark",
+      "via": "llm:embedded_opengraph.json: og:title"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Ecrivain/ne",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "field_of_activity": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Littérature / édition",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Théâtre",
+      "via": "llm-page:Fiche Personne category tabs (uncertain whether spe"
+     }
+    ]
+   },
+   "work": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Soliloque du roi Léopold (Le)",
+      "via": "llm:embedded_opengraph.json: og:description (Livres(s))"
+     },
+     {
+      "value": "Le Soliloque du roi Léopold",
+      "via": "llm-page:LIVRES(S) list"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 5,
+    "from_structured": 2,
+    "from_page_text": 3,
+    "samples": [
+     {
+      "value": "Benoît Verhaegen",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Jean-Pierre Orban",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Jean-Pierre Orban (translator and introduction, Le Soliloque du roi Léopold)",
+      "via": "llm-page:book blurb"
+     },
+     {
+      "value": "Benoît Verhaegen (foreword, Le Soliloque du roi Léopold)",
+      "via": "llm-page:book blurb"
+     },
+     {
+      "value": "Léopold II (subject of the satire)",
+      "via": "llm-page:book blurb"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "14576",
+      "via": "llm-page:page URL http://africultures.com/personnes/?no=1457"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "OpenGraph metadata of the Africultures person page; og:description is a flattened text of the page listing role (Ecrivain/ne) and one book. og:image is a generic site image (not of Twain)."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "author page with work list",
+    "notes": "Africultures 'Fiche Personne' for Mark Twain, role 'Ecrivain/ne', listing one book: the French edition of King Leopold's Soliloquy (Le Soliloque du roi Léopold) with foreword and translation credits. Rest of page is site chrome."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 2,
+   "extraction_noise": 1
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4619",
+  "label": "National Library of Brazil ID",
+  "host": "acervo.bn.gov.br",
+  "domain": "national-library",
+  "wikidata_values": [
+   {
+    "value": "000176022",
+    "url": "https://acervo.bn.gov.br/sophia_web/autoridade/detalhe/000176022"
+   }
+  ],
+  "records": [
+   {
+    "value": "000176022",
+    "url": "https://acervo.bn.gov.br/sophia_web/autoridade/detalhe/000176022",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://acervo.bn.gov.br/sophia_web/autoridade/detalhe/000176022",
+    "crawl_status": "blocked",
+    "title": "Attention Required! | Cloudflare",
+    "page": {
+     "chars": 682,
+     "excerpt": "Sorry, you have been blocked You are unable to access bn.gov.br Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a4480e2c3b7ff9b8 • Your IP: Click to reveal • Performance & security by Cloudflare"
+    },
+    "screenshot": "pages/P4619__000176022.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "blocked",
+   "resolved": false,
+   "wrong_page_reason": null,
+   "entity_on_page": false,
+   "has_data": false,
+   "access": "none",
+   "access_group": "no entity data",
+   "format_family": "none",
+   "formats": [],
+   "values": 0,
+   "page_text_values": 0,
+   "descriptive_values": 0,
+   "unique_share": null,
+   "uniqueness_bucket": "no descriptive data",
+   "page_text_only": false,
+   "wd_match": 0,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {},
+  "chrome_elements_parked": {},
+  "extraction_notes": {},
+  "review_verdicts": {},
+  "review_flags": []
+ },
+ {
+  "property": "P4629",
+  "label": "Online Books Page author ID",
+  "host": "onlinebooks.library.upenn.edu",
+  "domain": "books-literature",
+  "wikidata_values": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Twain%2C%20Mark%2C%201835-1910"
+   }
+  ],
+  "records": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Twain%2C%20Mark%2C%201835-1910",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Twain%2C%20Mark%2C%201835-1910",
+    "crawl_status": "ok",
+    "title": "Mark Twain (Twain, Mark, 1835-1910) | The Online Books Page",
+    "page": {
+     "chars": 107282,
+     "excerpt": "The Online Books Page Online Books by Mark Twain (Twain, Mark, 1835-1910) Also found under: Clemens, Samuel, 1835-1910 Online books about this author are available, as is a Wikipedia article. Twain, Mark, 1835-1910: The $30,000 Bequest, and Other Stories (Gutenberg text) Twain, Mark, 1835-1910: The $30,000 Bequest and Other Stories (Harper edition; New York: P. F. Collier and Son, ca. 1917) (multiple formats at archive.org) Twain, Mark, 1835-1910: 1601 (with commentary) (HTML at archive.org) Twain, Mark, 1835-1910: 1601 (Gutenberg text) Twain, Mark, 1835-1910: Abenteuer und Fahrten des Huckleberry Finn (in German; Stuttgart: R. Lutz, 1907), illust. by H. Schrödter (Gutenberg text and illustrated HTML) Twain, Mark, 1835-1910: The Adventures of Huckleberry Finn (multiple editions) Twain, Mark, 1835-1910: Adventures of Huckleberry Finn (Tom Sawyer's Comrade) (first American edition; New York: C. L. Webster and Co., 1885), illust. by E. W. Kemble Gutenberg text and illustrated HTML multiple formats at archive.org Twain, Mark, 1835-1910: The Adventures of Huckleberry Finn (Tom Sawyer's Comrade) (New York and London: Harper and Bros., c1912), illust. by E. W. Kemble multiple formats at a"
+    },
+    "screenshot": "pages/P4629__Twain_Mark_1835-1910_c9c28c90.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page text only (LLM over HTML)",
+   "access_group": "page text only",
+   "format_family": "page text (LLM)",
+   "formats": [
+    "html"
+   ],
+   "values": 55,
+   "page_text_values": 55,
+   "descriptive_values": 54,
+   "unique_share": 0.17,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": true,
+   "wd_match": 3,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Twain, Mark, 1835-1910",
+      "via": "llm-page:page heading in parentheses"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "llm-page:page heading 'Online Books by Mark Twain'"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Clemens, Samuel, 1835-1910",
+      "via": "llm-page:'Also found under:' line"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 2,
+    "from_structured": 0,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "Quintus Curtius Snodgrass",
+      "via": "llm-page:extended shelves work title"
+     },
+     {
+      "value": "Sieur Louis de Conte",
+      "via": "llm-page:extended shelves work title / statement of responsi"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm-page:heading dates"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm-page:heading dates"
+     }
+    ]
+   },
+   "work": {
+    "n": 40,
+    "from_structured": 0,
+    "from_page_text": 40,
+    "samples": [
+     {
+      "value": "The $30,000 Bequest, and Other Stories",
+      "via": "llm-page:work list"
+     },
+     {
+      "value": "1601",
+      "via": "llm-page:work list"
+     },
+     {
+      "value": "The Adventures of Huckleberry Finn",
+      "via": "llm-page:work list"
+     },
+     {
+      "value": "The Adventures of Tom Sawyer",
+      "via": "llm-page:work list"
+     },
+     {
+      "value": "The American Claimant",
+      "via": "llm-page:work list"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 7,
+    "from_structured": 0,
+    "from_page_text": 7,
+    "samples": [
+     {
+      "value": "Charles Dudley Warner (co-author of The Gilded Age)",
+      "via": "llm-page:work list"
+     },
+     {
+      "value": "Albert Bigelow Paine (editor)",
+      "via": "llm-page:work list (Autobiography, Letters, Mysterious Stran"
+     },
+     {
+      "value": "Olivia Langdon Clemens",
+      "via": "llm-page:extended shelves entry"
+     },
+     {
+      "value": "Orion Clemens (brother)",
+      "via": "llm-page:extended shelves entries"
+     },
+     {
+      "value": "Clara Clemens",
+      "via": "llm-page:extended shelves entry"
+     }
+    ]
+   },
+   "license": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "OBP copyrights and licenses.",
+      "via": "llm-page:page footer"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "author page with work list",
+    "notes": "The Online Books Page author listing 'Online Books by Mark Twain (Twain, Mark, 1835-1910)': a long list of freely readable editions (Gutenberg, archive.org, HathiTrust) in a curated section followed by 'Additional books from the extended shelves'. No biography; mentions a cross-reference heading and that a Wikipedia article exists, but the page text shows no URLs. Read via grep/sections (file ~108 KB)."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 2
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4657",
+  "label": "The Numbers person ID (archived)",
+  "host": "web.archive.org",
+  "domain": "film-tv",
+  "wikidata_values": [
+   {
+    "value": "966760401",
+    "url": "https://web.archive.org/web/*/https://www.the-numbers.com/person/966760401"
+   }
+  ],
+  "records": [
+   {
+    "value": "966760401",
+    "url": "https://web.archive.org/web/*/https://www.the-numbers.com/person/966760401",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://web.archive.org/web/20260000000000*/https://www.the-numbers.com/person/966760401",
+    "crawl_status": "ok",
+    "title": "Wayback Machine - Calendar of https://www.the-numbers.com/person/966760401",
+    "page": {
+     "chars": 2110,
+     "excerpt": "TEXTS VIDEO AUDIO SOFTWARE IMAGES SIGN UP | LOG IN UPLOAD Sign up for free Log in ABOUT BLOG EVENTS PROJECTS HELP DONATE CONTACT JOBS VOLUNTEER DONATE Explore more than 1 trillion web pages saved over time × Clear CalendarCollectionsChangesSummarySite MapURLs Saved 9 times between August 14, 2020 and February 24, 2026. 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 JAN 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 FEB 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 MAR 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 APR 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 MAY 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 JUN 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 JUL 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 AUG 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 SEP 1 2 3 4 5 6 7 8 9 10 11 12 13 1"
+    },
+    "screenshot": "pages/P4657__966760401.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "wrong_page",
+   "resolved": false,
+   "wrong_page_reason": "Wayback calendar page, not an archived snapshot",
+   "entity_on_page": false,
+   "has_data": false,
+   "access": "none",
+   "access_group": "no entity data",
+   "format_family": "none",
+   "formats": [],
+   "values": 0,
+   "page_text_values": 0,
+   "descriptive_values": 0,
+   "unique_share": null,
+   "uniqueness_bucket": "no descriptive data",
+   "page_text_only": false,
+   "wd_match": 0,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {},
+  "chrome_elements_parked": {},
+  "extraction_notes": {},
+  "review_verdicts": {},
+  "review_flags": []
+ },
+ {
+  "property": "P4666",
+  "label": "CineMagia person ID",
+  "host": "www.cinemagia.ro",
+  "domain": "film-tv",
+  "wikidata_values": [
+   {
+    "value": "55439",
+    "url": "https://www.cinemagia.ro/actor.php?actor_id=55439"
+   }
+  ],
+  "records": [
+   {
+    "value": "55439",
+    "url": "https://www.cinemagia.ro/actor.php?actor_id=55439",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.cinemagia.ro/actori/mark-twain-55439/",
+    "crawl_status": "ok",
+    "title": "Mark Twain - Actor - CineMagia.ro",
+    "page": {
+     "chars": 6150,
+     "excerpt": "Cinemagia.ro Descoperă filme Comedie, acţiune, dramă, ... Căutare Nu ai cont? Login / Înregistrare Cinemagia Filme Program cinema TV Timp liber În curând Camera HORNBACH Trailer Ştiri Box Office Club Forum Mark Twain 8.4 / 10 9 voturi Detalii Poze (17) Păreri (2) Wiki Poze Mark Twain Nume real: Samuel Langhorne Clemens · Locul naşterii: Florida, Missouri, USA · Data naşterii: 30.11.1835 · Data decesului: 21.04.1910 · Ocupaţie: Scriitor, actor · Zodia: Săgetător Poze (17) Toate pozele » Biografie Scriitorul american Mark Twain se numea in realitate Samuel Langhorne Clemens. S-a născut la 30 noiembrie 1835, in Florida, Missouri, S.U.A. Familia s-a mutat la Hannibal, Missouri, un loc ce i-a trezit copilului dorința de aventura. Tatăl sau, avocatul John Marshall Clemens se lansase in diverse speculații financiare si in 1847 când a murit, Twain a trebuit sa-si întrerupă studiile si sa lucreze pentru a-si ajuta familia. A lucrat pentru fratele sau mai mare Orion, care deținea câteva... mai mult Au contribuit la această pagină: BigOvi, lilianasnd Contribuie la această pagină şi câştigă DVD-uri! Filmografie - scriitor Vezi filme The War Prayer (2007) Jump (2005) Arthur's Quest (1999) Charl"
+    },
+    "screenshot": "pages/P4666__55439.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "plain HTTP, partly (page blocked for plain HTTP) + page text for 30/77 values",
+   "access_group": "plain HTTP, partly",
+   "format_family": "RDF",
+   "formats": [
+    "json",
+    "json-ld"
+   ],
+   "values": 77,
+   "page_text_values": 30,
+   "descriptive_values": 72,
+   "unique_share": 0.38,
+   "uniqueness_bucket": "mixed (30–60%)",
+   "page_text_only": false,
+   "wd_match": 7,
+   "wd_mismatch": 1
+  },
+  "profile_elements": {
+   "type": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "http://schema.org/Person",
+      "via": "type"
+     }
+    ]
+   },
+   "see_also": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://www.cinemagia.ro/actori/mark-twain-55439/",
+      "via": "url"
+     },
+     {
+      "value": "https://static.cinemagia.ro/img/resize/db/actor/05/54/39/mark-twain-966913l-600x0-w-100d8b9a.jpg",
+      "via": "image/url"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "name"
+     },
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_opengraph.json: og:title"
+     }
+    ]
+   },
+   "name_variant": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "alternateName"
+     },
+     {
+      "value": "Samuel Langhorne Clemens",
+      "via": "llm:embedded_opengraph.json: og:description ('se numea in re"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 4,
+    "from_structured": 3,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "actor",
+      "via": "jobTitle"
+     },
+     {
+      "value": "scriitor",
+      "via": "llm:embedded_opengraph.json: og:description ('Scriitorul ame"
+     },
+     {
+      "value": "navigator (pilot pe Mississippi)",
+      "via": "llm:embedded_opengraph.json: og:description ('primea brevet "
+     },
+     {
+      "value": "actor",
+      "via": "llm-page:'Ocupaţie'"
+     }
+    ]
+   },
+   "language": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "ro",
+      "via": "json:reaper.language"
+     }
+    ]
+   },
+   "pseudonym": {
+    "n": 2,
+    "from_structured": 2,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Mark Twain",
+      "via": "llm:embedded_opengraph.json: og:description ('folosea pseudo"
+     },
+     {
+      "value": "SLC",
+      "via": "llm:embedded_opengraph.json: og:description ('semnata cu pse"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835-11-30",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:'Data naşterii'"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910-04-21",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:'Data decesului'"
+     }
+    ]
+   },
+   "birth_place": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Florida, Missouri, S.U.A.",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Florida, Missouri, USA",
+      "via": "llm-page:'Locul naşterii'"
+     }
+    ]
+   },
+   "death_place": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Redding, Connecticut",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "activity_place": {
+    "n": 5,
+    "from_structured": 5,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Hannibal, Missouri",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Keokuk, Iowa",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Mississippi",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Nevada",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Hartford, Connecticut",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "nationality": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "american",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "description": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Scriitorul american Mark Twain se numea in realitate Samuel Langhorne Clemens. S-a născut la 30 noiembrie 1835, in Flori",
+      "via": "llm:embedded_opengraph.json: og:description (abridged)"
+     },
+     {
+      "value": "Scriitorul american Mark Twain se numea in realitate Samuel Langhorne Clemens. S-a născut la 30 noiembrie 1835, in Flori",
+      "via": "llm-page:Biografie"
+     }
+    ]
+   },
+   "work": {
+    "n": 38,
+    "from_structured": 15,
+    "from_page_text": 23,
+    "samples": [
+     {
+      "value": "The Celebrated Jumping Frog of Calaveras County",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "The Innocents Abroad",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Roughing It",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "The Gilded Age",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "The Adventures of Tom Sawyer",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 8,
+    "from_structured": 6,
+    "from_page_text": 2,
+    "samples": [
+     {
+      "value": "John Marshall Clemens",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Orion",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Olivia Langdon",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Susan",
+      "via": "llm:embedded_opengraph.json: og:description"
+     },
+     {
+      "value": "Jane",
+      "via": "llm:embedded_opengraph.json: og:description"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "55439",
+      "via": "llm:embedded_opengraph.json: og:url (https://www.cinemagia.r"
+     }
+    ]
+   },
+   "image": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://static.cinemagia.ro/img/resize/db/actor/05/54/39/mark-twain-966913l-600x0-w-100d8b9a.jpg",
+      "via": "llm:embedded_opengraph.json: og:image"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "OpenGraph metadata from the Cinemagia (Romanian film site) person page 55439; og:description holds a long Romanian biography. The biography contains factual slips (attributes 'Uncle Tom's Cabin' to him, says 1962 for 1862, 1889 for Hadleyburg); values were taken as stated."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "biography page",
+    "notes": "CineMagia.ro (Romanian) actor page: fact line (real name, birthplace, dates, occupation, zodiac), truncated Romanian biography, writer filmography (first ~30 adaptations shown), 'A colaborat cu' list of actors in adaptations (not personal relations, not extracted), user comments."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 2,
+   "extraction_noise": 1
+  },
+  "review_flags": []
+ },
+ {
+  "property": "P4823",
+  "label": "American National Biography ID",
+  "host": "www.anb.org",
+  "domain": "encyclopedia",
+  "wikidata_values": [
+   {
+    "value": "1600313",
+    "url": "https://anb.org/articles/1600313"
+   }
+  ],
+  "records": [
+   {
+    "value": "1600313",
+    "url": "https://anb.org/articles/1600313",
+    "wikidata_url": null,
+    "override_reason": null,
+    "final_url": "https://www.anb.org/display/10.1093/anb/9780198606697.001.0001/anb-9780198606697-e-1600313",
+    "crawl_status": "ok",
+    "title": "Twain, Mark (1835-1910), author and lecturer | American National Biography",
+    "page": {
+     "chars": 1749,
+     "excerpt": "Jump to Content Login About News Tools and Resources Subscribe Customer Services American National Biography Advanced search Occupations Cite Bookmark Share Email Article contents River Piloting on the Mississippi Twain’s Western Years The Innocents Abroad (1869) Adjusting to Domestic Life The Gilded Age (1873) Literary Friends The Adventures of Tom Sawyer (1876) Twain’s Masterpiece A Connecticut Yankee in King Arthur’s Court (1889) Tour around the World Return to the United States (1900) Literary Immortality Bibliography See also Related articles in Companion to United States History on Oxford Reference More on this topic Article Images Twain, Mark (30 November 1835–21 April 1910) Louis J. Budd https://doi.org/10.1093/anb/9780198606697.article.1600313 Published in print: 1999Published online: February 2000 Sign in Get help with access Personal account Sign in with email/username & password Save searches Add bookmarks Create annotations Sign in Register Personal accounts are created and managed on Oxford Academic. Institutional access Sign in through your institution Sign in with a library card Sign in with username / password Recommend to your librarian Institutional account manag"
+    },
+    "screenshot": "pages/P4823__1600313.jpg"
+   }
+  ],
+  "atlas_labels": {
+   "status": "ok",
+   "resolved": true,
+   "wrong_page_reason": null,
+   "entity_on_page": true,
+   "has_data": true,
+   "access": "page blocked for plain HTTP only + page text for 11/25 values",
+   "access_group": "page blocks plain clients",
+   "format_family": "embedded markup",
+   "formats": [
+    "rdfa"
+   ],
+   "values": 25,
+   "page_text_values": 11,
+   "descriptive_values": 17,
+   "unique_share": 0.24,
+   "uniqueness_bucket": "mostly repeated (< 30%)",
+   "page_text_only": false,
+   "wd_match": 4,
+   "wd_mismatch": 0
+  },
+  "profile_elements": {
+   "description": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "\"Twain, Mark (1835-1910), author and lecturer\" published on  by Oxford University Press.",
+      "via": "og:description"
+     },
+     {
+      "value": "Twain, Mark (1835-1910), author and lecturer",
+      "via": "llm-page:page title"
+     }
+    ]
+   },
+   "image": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "https://www.anb.org/cover/default",
+      "via": "og:image"
+     }
+    ]
+   },
+   "identifier": {
+    "n": 3,
+    "from_structured": 3,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "10.1093/anb/9780198606697.article.1600313",
+      "via": "identifier"
+     },
+     {
+      "value": "1600313",
+      "via": "llm:embedded_opengraph.json: $[0]['og:url']"
+     },
+     {
+      "value": "10.1093/anb/9780198606697.001.0001/anb-9780198606697-e-1600313",
+      "via": "llm:embedded_opengraph.json: $[0]['og:url'] (DOI path)"
+     }
+    ]
+   },
+   "source": {
+    "n": 3,
+    "from_structured": 2,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "http://www.anb.org/view/10.1093/anb/9780198606697.001.0001/anb-9780198606697-e-1600313",
+      "via": "source"
+     },
+     {
+      "value": "American National Biography, Oxford University Press",
+      "via": "llm:embedded_opengraph.json: $[0]['og:site_name'] / ['og:des"
+     },
+     {
+      "value": "https://doi.org/10.1093/anb/9780198606697.article.1600313",
+      "via": "llm-page:DOI line"
+     }
+    ]
+   },
+   "work": {
+    "n": 5,
+    "from_structured": 1,
+    "from_page_text": 4,
+    "samples": [
+     {
+      "value": "Louis J. Budd",
+      "via": "author"
+     },
+     {
+      "value": "The Innocents Abroad",
+      "via": "llm-page:article contents"
+     },
+     {
+      "value": "The Gilded Age",
+      "via": "llm-page:article contents"
+     },
+     {
+      "value": "The Adventures of Tom Sawyer",
+      "via": "llm-page:article contents"
+     },
+     {
+      "value": "A Connecticut Yankee in King Arthur's Court",
+      "via": "llm-page:article contents"
+     }
+    ]
+   },
+   "record_created": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "2000-02",
+      "via": "dateCreated"
+     }
+    ]
+   },
+   "name_preferred": {
+    "n": 1,
+    "from_structured": 1,
+    "from_page_text": 0,
+    "samples": [
+     {
+      "value": "Twain, Mark",
+      "via": "llm:embedded_opengraph.json: $[0]['og:title']"
+     }
+    ]
+   },
+   "birth_date": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1835",
+      "via": "llm:embedded_opengraph.json: $[0]['og:title']"
+     },
+     {
+      "value": "1835-11-30",
+      "via": "llm-page:article heading"
+     }
+    ]
+   },
+   "death_date": {
+    "n": 2,
+    "from_structured": 1,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "1910",
+      "via": "llm:embedded_opengraph.json: $[0]['og:title']"
+     },
+     {
+      "value": "1910-04-21",
+      "via": "llm-page:article heading"
+     }
+    ]
+   },
+   "occupation": {
+    "n": 3,
+    "from_structured": 2,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "author",
+      "via": "llm:embedded_opengraph.json: $[0]['og:title']"
+     },
+     {
+      "value": "lecturer",
+      "via": "llm:embedded_opengraph.json: $[0]['og:title']"
+     },
+     {
+      "value": "river pilot",
+      "via": "llm-page:article contents"
+     }
+    ]
+   },
+   "activity_place": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Mississippi",
+      "via": "llm-page:article contents"
+     }
+    ]
+   },
+   "related_agent": {
+    "n": 1,
+    "from_structured": 0,
+    "from_page_text": 1,
+    "samples": [
+     {
+      "value": "Louis J. Budd (author of the ANB article)",
+      "via": "llm-page:byline"
+     }
+    ]
+   }
+  },
+  "chrome_elements_parked": {},
+  "extraction_notes": {
+   "llm_extractions": {
+    "about_entity": true,
+    "page_kind": null,
+    "notes": "OpenGraph tags of the ANB article page. The title carries the heading, life years and occupations; og:description only repeats the title with a publisher line."
+   },
+   "llm_extractions_pages": {
+    "about_entity": true,
+    "page_kind": "biography page",
+    "notes": "ANB article landing page behind a subscription wall: only the heading, full dates, author, DOI, publication dates and the table of section headings (which name major works) are visible."
+   }
+  },
+  "review_verdicts": {
+   "equivalent": 2,
+   "extraction_noise": 2
+  },
+  "review_flags": []
+ }
+]

@@ -1,0 +1,46 @@
+{
+ "property": "P13797",
+ "label": "‎Dimensions.com element ID",
+ "files_read": ["P13797__mark-twain/embedded_opengraph.json", "P13797__mark-twain/xhr_3.json", "P13797__mark-twain/xhr_5.json", "P13797__mark-twain/xhr_9.json", "P13797__mark-twain/xhr_11.json"],
+ "about_entity": true,
+ "notes": "Dimensions.com element 'mark-twain' (height drawings): xhr_3/xhr_5/xhr_9 are the element's drawing/thumbnail/icon APIs; xhr_11 is the 'Authors & Writers' collection listing (33 people) from which only the mark-twain item was used. og:description misspells 'Clemen'. Height 5'9\" (1.75 m) is not a schema element and is recorded only here.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "en", "via": "xhr_3.json: $.element.name"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemen", "lang": "en", "via": "embedded_opengraph.json: og:description ('also known as Samuel Langhorne Clemen', sic)"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "November 30, 1835", "lang": "en", "via": "xhr_11.json: $.items[23].measurements.year"}
+  ],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "humorist", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "entrepreneur", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "publisher", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "field_of_activity": [
+   {"value": "Authors & Writers", "lang": "en", "via": "xhr_11.json: $.items[23].collection"}
+  ],
+  "nationality": [
+   {"value": "American", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "description": [
+   {"value": "Mark Twain, also known as Samuel Langhorne Clemen, was an American writer, humorist, entrepreneur, and publisher considered to be the greatest humorist of the United States as well as the father of American literature. His most famous works include The Adventures of Tom Sawyer. Mark Twain had a height of 5’9” (1.75 m).", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "identifier": [
+   {"value": "mark-twain", "via": "xhr_3.json: $.element.slug"},
+   {"value": "622286df2af6dc875ff56277", "via": "xhr_3.json: $.element.id"}
+  ],
+  "image": [
+   {"value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c2915723ea0580840b6_Dimensions-Pop-Culture-Authors-Mark-Twain-OG.jpg", "via": "embedded_opengraph.json: og:image"},
+   {"value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c39ed1a893e0ced48f7_Dimensions-Pop-Culture-Authors-Mark-Twain-Height-Comparison.svg", "via": "xhr_5.json: $.element.thumbnail"},
+   {"value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c366843fc8f2bf8e166_Dimensions-Pop-Culture-Authors-Mark-Twain-Icon.svg", "via": "xhr_9.json: $.item.thumbnailUrl"},
+   {"value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/6a5bb8f2930d16931d37da25_mark-twain-1.svg", "via": "xhr_3.json: $.element.drawings[0].url"}
+  ]
+ }
+}

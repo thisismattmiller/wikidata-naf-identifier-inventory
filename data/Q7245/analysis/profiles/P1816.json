@@ -1,0 +1,325 @@
+{
+ "property": "P1816",
+ "property_label": "National Portrait Gallery (London) person ID",
+ "files": [
+  {
+   "file": "P1816__mp54578/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.npg.org.uk/collections/search/person/mp54578/mark-twain-samuel-langhorne-clemens"
+  },
+  {
+   "file": "P1816__mp54578/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.npg.org.uk/collections/search/person/mp54578/mark-twain-samuel-langhorne-clemens"
+  },
+  {
+   "file": "P1816__mp54578/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://consent.api.osano.com/record"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P1816.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Writer",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P1816.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Writer",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (1835-1910), Writer. Sitter in 16 portraits.",
+    "lang": "en",
+    "via": "llm-page:page heading and portrait count",
+    "file": "P1816.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://collectionimages.npg.org.uk/std/mw35538/Mark-Twain.jpg",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:image",
+    "file": "P1816.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mp54578",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "https://www.npg.org.uk/collections/search/person/mp54578/mark-twain-samuel-langhorne-clemens",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P1816.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:subheading",
+    "file": "P1816.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:page heading",
+    "file": "P1816.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:page heading",
+    "file": "P1816.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Literature, Journalism and Publishing",
+    "lang": "en",
+    "via": "llm-page:Category",
+    "file": "P1816.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm-page:Place",
+    "file": "P1816.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "H. Walter Barnett (photographer of portrait)",
+    "lang": null,
+    "via": "llm-page:portrait list",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "London Stereoscopic & Photographic Company (photographer of portraits)",
+    "lang": null,
+    "via": "llm-page:portrait list",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "Elliott & Fry (photographer of portraits)",
+    "lang": null,
+    "via": "llm-page:portrait list",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Stone (photographer of portraits)",
+    "lang": null,
+    "via": "llm-page:portrait list",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "Sir John Alexander Cockburn (photographer of group portrait)",
+    "lang": null,
+    "via": "llm-page:portrait list",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "Alvin Langdon Coburn (photographer of portrait)",
+    "lang": null,
+    "via": "llm-page:portrait list",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "Harry Furniss (artist of portraits)",
+    "lang": null,
+    "via": "llm-page:portrait list",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "Sir Leslie Ward (artist of Vanity Fair caricature)",
+    "lang": null,
+    "via": "llm-page:portrait list",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "The Savage Club (group)",
+    "lang": null,
+    "via": "llm-page:Groups",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "Children's writers and illustrators (group)",
+    "lang": null,
+    "via": "llm-page:Groups",
+    "file": "P1816.json",
+    "uri": false
+   },
+   {
+    "value": "Writers and critics (group)",
+    "lang": null,
+    "via": "llm-page:Groups",
+    "file": "P1816.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "image": [],
+  "identifier": [],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "field_of_activity": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "related_agent": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 356,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain - National Portrait Gallery"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Writer\n"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://collectionimages.npg.org.uk/std/mw35538/Mark-Twain.jpg"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.npg.org.uk/collections/search/person/mp54578/mark-twain-samuel-langhorne-clemens"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain - National Portrait Gallery"
+    },
+    {
+     "path": "[].og:image",
+     "value": "https://collectionimages.npg.org.uk/std/mw35538/Mark-Twain.jpg"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.npg.org.uk/collections/search/person/mp54578/mark-twain-samuel-langhorne-clemens"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 42,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Missing Authentication Token"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "NPG person page (sitter) for Mark Twain: heading with dates and occupation, real name, list of 16 portraits with artists, media, dates and NPG numbers, plus category/groups/place tags.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

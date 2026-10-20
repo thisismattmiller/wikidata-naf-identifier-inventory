@@ -1,0 +1,276 @@
+{
+ "property": "P3154",
+ "property_label": "Runeberg author ID",
+ "files": [
+  {
+   "file": "P3154__twainmar/alternate_1.rdf",
+   "format": "rdf-xml",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://runeberg.org/rc.pl?action=rss",
+   "error": "ParserError: file:///Users/m/git/wikidata-naf-identifier-inventory/data/Q7245/representations/P3154__twainmar/alternate_1.rdf:2:27: R"
+  }
+ ],
+ "formats": {
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:description line 'Twain, Mark (1835–1910), writer, USA.'",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "sv",
+    "via": "llm-page:Links (Nordisk familjebok 1880/1906, Salmonsens 1916)",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, S. L.",
+    "lang": "sv",
+    "via": "llm-page:Links (Nordisk familjebok 1899/1923)",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "sv",
+    "via": "llm-page:life dates line",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "sv",
+    "via": "llm-page:life dates line",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:description line",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "USA",
+    "lang": "en",
+    "via": "llm-page:description line",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Twain, Mark (1835–1910), writer, USA.",
+    "lang": "en",
+    "via": "llm-page:description line",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "född 30 november 1835, död 21 april 1910. Svenska översättningar av Mark Twain finns bland annat av Carl Rupert Nyblom.",
+    "lang": "sv",
+    "via": "llm-page:text below work list",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "En droppe negerblod : Kriminalhistoria",
+    "lang": "sv",
+    "via": "llm-page:works list",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "En landstryger paa rejse",
+    "lang": "da",
+    "via": "llm-page:works list",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Fra Mississippifloden",
+    "lang": "da",
+    "via": "llm-page:works list",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Lille Toms Æventyr",
+    "lang": "da",
+    "via": "llm-page:works list",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Spionen fra Louisiana og andre fortællinger, satirer og humoresker",
+    "lang": "no",
+    "via": "llm-page:works list",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Tiggerprinsen : en fortælling for ungdom i alle aldre",
+    "lang": "no",
+    "via": "llm-page:works list",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers äfventyr",
+    "lang": "sv",
+    "via": "llm-page:works list",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Toms eventyr",
+    "lang": "da",
+    "via": "llm-page:works list",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Valda skizzer",
+    "lang": "sv",
+    "via": "llm-page:works list",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Carl Rupert Nyblom (Swedish translator)",
+    "lang": "sv",
+    "via": "llm-page:text below work list",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "Nordisk familjebok 1880, 1899, 1906, 1923 (links, URLs not shown)",
+    "lang": null,
+    "via": "llm-page:Links",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Salmonsens konversationsleksikon, 1916 (link)",
+    "lang": null,
+    "via": "llm-page:Links",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Project Gutenberg; Projekt Gutenberg-DE (links)",
+    "lang": null,
+    "via": "llm-page:Links",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "English, deutsche, français, esperanto, polski, danske, svenska Wikipedia (links)",
+    "lang": null,
+    "via": "llm-page:Links",
+    "file": "P3154.json",
+    "uri": false
+   },
+   {
+    "value": "Nationalencyklopedin; Libris; Bibliografi.dk (links)",
+    "lang": null,
+    "via": "llm-page:Links",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "twainmar",
+    "lang": null,
+    "via": "llm-page:URL https://runeberg.org/authors/twainmar.html",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2009-11-22",
+    "lang": null,
+    "via": "llm-page:page footer",
+    "file": "P3154.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en",
+   "sv"
+  ],
+  "birth_date": [
+   "sv"
+  ],
+  "death_date": [
+   "sv"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en",
+   "sv"
+  ],
+  "work": [
+   "da",
+   "no",
+   "sv"
+  ],
+  "related_agent": [
+   "sv"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Project Runeberg 'Nordic Authors' page for Mark Twain: one-line description, list of Scandinavian translations published on Runeberg, Swedish life dates line, a translator note, and links to encyclopedia articles, Wikipedias, Gutenberg, Libris etc. (link targets not shown in text).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

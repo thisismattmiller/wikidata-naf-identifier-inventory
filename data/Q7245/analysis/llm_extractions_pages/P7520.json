@@ -1,0 +1,70 @@
+{
+ "property": "P7520",
+ "label": "Filmový přehled person or company ID",
+ "files_read": [
+  "pages/P7520__129546.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "other",
+ "notes": "Czech film database person page: occupation, birth/death dates and places, and one filmography credit (source material for 'Páni kluci', 1975).",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "cs",
+    "via": "page heading"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "spisovatel",
+    "lang": "cs",
+    "via": "line under heading"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "cs",
+    "via": "Datum narození",
+    "raw": "30. 11. 1835"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, USA",
+    "lang": "cs",
+    "via": "Místo narození"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "cs",
+    "via": "Datum úmrtí",
+    "raw": "21. 4. 1910"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, USA",
+    "lang": "cs",
+    "via": "Místo úmrtí"
+   }
+  ],
+  "work": [
+   {
+    "value": "Páni kluci",
+    "lang": "cs",
+    "via": "filmografie (Předloha = source material)",
+    "raw": "1975, Předloha"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "129546",
+    "via": "page URL"
+   }
+  ]
+ }
+}

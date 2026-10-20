@@ -1,0 +1,13 @@
+{
+ "property": "P3417",
+ "label": "Quora topic ID",
+ "files_read": ["P3417__Mark-Twain-author/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the Quora topic page; only the topic title, thumbnail and URL. The '(author)' qualifier in the title is a disambiguator.",
+ "elements": {
+   "name_preferred": [{"value": "Mark Twain", "raw": "Mark Twain (author)", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+   "occupation": [{"value": "author", "raw": "Mark Twain (author)", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title'] (disambiguator)"}],
+   "image": [{"value": "https://qph.cf2.quoracdn.net/main-thumb-t-1057-200-MQdtRT8yczjUeTvfCqJYy5nJoxrSKuzb.jpeg", "via": "embedded_opengraph.json: $[0]['og:image']"}],
+   "identifier": [{"value": "Mark-Twain-author", "raw": "https://www.quora.com/topic/Mark-Twain-author", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

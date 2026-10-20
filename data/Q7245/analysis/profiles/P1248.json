@@ -1,0 +1,1972 @@
+{
+ "property": "P1248",
+ "property_label": "KulturNav-ID",
+ "files": [
+  {
+   "file": "P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38"
+  },
+  {
+   "file": "P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/alternate_1.rdf",
+   "format": "rdf-xml",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38.rdf"
+  },
+  {
+   "file": "P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/alternate_2.jsonld",
+   "format": "json-ld",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38.json-ld"
+  },
+  {
+   "file": "P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/alternate_3.json",
+   "format": "json",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38.json"
+  },
+  {
+   "file": "P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://kulturnav.org/info/api"
+  },
+  {
+   "file": "P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/xhr_1.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://kulturnav.org/ajax/menu/dbb65ec7-220c-408c-8ec2-9b8a0541c6e2"
+  },
+  {
+   "file": "P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://kulturnav.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/conneg_3.json",
+   "format": "json",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38"
+  },
+  {
+   "file": "P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://kulturnav.org/info/api"
+  },
+  {
+   "file": "P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://kulturnav.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "rdf-xml": 1,
+  "json-ld": 1,
+  "json": 2,
+  "html": 3,
+  "xml": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 109,
+  "http://schema.org/": 26,
+  "http://kulturnav.org/schema/property/": 22,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 18,
+  "http://rdaregistry.info/Elements/u/": 10,
+  "http://xmlns.com/foaf/0.1/": 9,
+  "http://www.loc.gov/mads/rdf/v1#": 8,
+  "http://www.w3.org/2002/07/owl#": 8,
+  "http://purl.org/dc/terms/": 6,
+  "http://www.w3.org/2004/02/skos/core#": 6,
+  "http://www.cidoc-crm.org/cidoc-crm/": 4,
+  "http://www.europeana.eu/schemas/edm/": 4,
+  "http://www.w3.org/2007/05/powder-s#": 2,
+  "http://www.w3.org/TR/void/": 2,
+  "http://www.w3.org/2000/01/rdf-schema#": 2,
+  "https://www.w3.org/TR/vocab-adms/#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "birth_place": [
+   {
+    "value": "http://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38#person.birth-0@event.placeReference-0",
+    "lang": null,
+    "via": "P98i_was_born/P7_took_place_at",
+    "file": "alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Florida",
+    "lang": "sv",
+    "via": "birthPlace",
+    "file": "alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "http://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38#person.death-0@event.placeReference-0",
+    "lang": null,
+    "via": "P100i_died_in/P7_took_place_at",
+    "file": "alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Redding",
+    "lang": "sv",
+    "via": "deathPlace",
+    "file": "alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://www.loc.gov/mads/rdf/v1#Authority",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://dbpedia.org/ontology/Person",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://rdaregistry.info/Elements/c/C10004",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://xmlns.com/foaf/0.1/Person",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://www.europeana.eu/schemas/edm/Agent",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://purl.org/vocab/frbr/core#Person",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Langhorne Clemens Twain",
+    "lang": "sv",
+    "via": "lastName",
+    "file": "alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "sv",
+    "via": "title",
+    "file": "alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "amerikansk författare",
+    "lang": "sv",
+    "via": "note",
+    "file": "alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "sv",
+    "via": "alternateName",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38#agent.otherName-0",
+    "lang": null,
+    "via": "alternateName (uri)",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "Twain, Mark (1835 - 1910)",
+    "lang": "sv",
+    "via": "llm:alternate_3.json: $.caption / $.properties['entity.fullCaption']",
+    "file": "P1248.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "sameAs",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://libris.kb.se/1zcfb5hk1bq7d78",
+    "lang": null,
+    "via": "sameAs",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "sameAs",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://digitaltmuseum.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38",
+    "lang": null,
+    "via": "llm:alternate_3.json: $.properties['superconcept.seeAlso'][0].value",
+    "file": "P1248.json",
+    "uri": true
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "deathDate",
+    "file": "alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "http://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38#about",
+    "lang": null,
+    "via": "describedby",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://digitaltmuseum.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38",
+    "lang": null,
+    "via": "seeAlso",
+    "file": "alternate_1.rdf",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "birthDate",
+    "file": "alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Mark",
+    "lang": "sv",
+    "via": "givenName",
+    "file": "alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": null,
+    "via": "gender",
+    "file": "alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Man",
+    "lang": "en",
+    "via": "llm:alternate_3.json: $.properties['person.gender'][0].displayValue",
+    "file": "P1248.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Adams dagbok (Teaterpjäs : verk)",
+    "lang": "sv",
+    "via": "llm:alternate_3.json: $.properties['agent.actorIn'][0].displayValue (relation: Aktör i)",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn (Scenkonstverk)",
+    "lang": "sv",
+    "via": "llm:alternate_3.json: $.properties['agent.actorIn'][1].displayValue",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finns äventyr (Teaterpjäs : verk)",
+    "lang": "sv",
+    "via": "llm:alternate_3.json: $.properties['agent.actorIn'][2].displayValue.sv",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn (Play : work)",
+    "lang": "en",
+    "via": "llm:alternate_3.json: $.properties['agent.actorIn'][2].displayValue.en",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer (Teaterpjäs : verk)",
+    "lang": "sv",
+    "via": "llm:alternate_3.json: $.properties['agent.actorIn'][3].displayValue.sv",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer (Play : work)",
+    "lang": "en",
+    "via": "llm:alternate_3.json: $.properties['agent.actorIn'][3].displayValue.en",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers äventyr (Teaterpjäs : verk)",
+    "lang": "sv",
+    "via": "llm:alternate_3.json: $.properties['agent.actorIn'][4].displayValue",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Adams dagbok",
+    "lang": null,
+    "via": "llm-page:Actor in",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Actor in",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Actor in",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers äventyr",
+    "lang": null,
+    "via": "llm-page:Actor in",
+    "file": "P1248.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "3e04abfe-5825-41af-ac3d-23a5ea3aba38",
+    "lang": null,
+    "via": "llm:alternate_3.json: $.uuid",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "DigitaltMuseum: 0210315745803",
+    "lang": null,
+    "via": "llm:alternate_3.json: $.properties['entity.alternativeId'][0] (alternativeId.system / alternativeId.id)",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "0210315745803",
+    "lang": null,
+    "via": "llm-page:See also, DigitaltMuseum id",
+    "file": "P1248.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "sv",
+    "lang": null,
+    "via": "llm:alternate_3.json: $.properties['dataset.primaryLanguage'][0].displayValue (record language, not person's)",
+    "file": "P1248.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Personer, Musikverket (Statens musikverk)",
+    "lang": "sv",
+    "via": "llm:alternate_3.json: $.properties['entity.dataset'][0].displayValue.sv",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "Persons, Musikverket (Statens musikverk – National Collections of Music, Theatre and Dance)",
+    "lang": null,
+    "via": "llm-page:Dataset / Dataset owner",
+    "file": "P1248.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2025-02-24",
+    "lang": null,
+    "via": "llm:alternate_3.json: $.createdAt",
+    "file": "P1248.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-06-04",
+    "lang": null,
+    "via": "llm:alternate_3.json: $.updatedAt",
+    "file": "P1248.json",
+    "uri": false
+   },
+   {
+    "value": "2025-06-04T16:25:47",
+    "lang": null,
+    "via": "llm-page:Last changed",
+    "file": "P1248.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "författare",
+    "lang": "sv",
+    "via": "llm-page:Description 'amerikansk författare'",
+    "file": "P1248.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "amerikansk",
+    "lang": "sv",
+    "via": "llm-page:Description 'amerikansk författare'",
+    "file": "P1248.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "birth_place": [
+   "sv"
+  ],
+  "death_place": [
+   "sv"
+  ],
+  "type": [],
+  "family_name": [
+   "sv"
+  ],
+  "name_preferred": [
+   "sv"
+  ],
+  "description": [
+   "sv"
+  ],
+  "name_variant": [
+   "sv"
+  ],
+  "same_as": [],
+  "death_date": [],
+  "see_also": [],
+  "birth_date": [],
+  "given_name": [
+   "sv"
+  ],
+  "gender": [
+   "en"
+  ],
+  "work": [
+   "en",
+   "sv"
+  ],
+  "identifier": [],
+  "language": [],
+  "source": [
+   "sv"
+  ],
+  "record_created": [],
+  "record_modified": [],
+  "occupation": [
+   "sv"
+  ],
+  "nationality": [
+   "sv"
+  ]
+ },
+ "unmapped": {
+  "agent.actorIn (http://kulturnav.org/schema/property/)": 10,
+  "entity.list (http://kulturnav.org/schema/property/)": 8,
+  "entity.fullCaption (http://kulturnav.org/schema/property/)": 2,
+  "P60598 (http://rdaregistry.info/Elements/u/)": 2,
+  "see (http://www.loc.gov/mads/rdf/v1#)": 2,
+  "definitionNote (http://www.loc.gov/mads/rdf/v1#)": 2,
+  "inDataset (http://www.w3.org/TR/void/)": 2,
+  "P60531 (http://rdaregistry.info/Elements/u/)": 2,
+  "entity.alternativeId (http://kulturnav.org/schema/property/)": 2,
+  "P60592 (http://rdaregistry.info/Elements/u/)": 2,
+  "P60593 (http://rdaregistry.info/Elements/u/)": 2,
+  "begin (http://www.europeana.eu/schemas/edm/)": 2,
+  "alternative (http://purl.org/dc/terms/)": 2,
+  "end (http://www.europeana.eu/schemas/edm/)": 2,
+  "P60599 (http://rdaregistry.info/Elements/u/)": 2,
+  "adms-status (https://www.w3.org/TR/vocab-adms/#)": 2,
+  "primarytopic (http://xmlns.com/foaf/0.1/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "alternate_3.json",
+   "format": "json",
+   "size": 14395,
+   "path_count": 358,
+   "paths": [
+    {
+     "path": "properties.agent.actorIn[].uuid",
+     "n": 5,
+     "sample": "c0969cdf-3809-4ff7-a5f3-9e9243ba537e"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.nn",
+     "n": 5,
+     "sample": "Aktør i"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.no",
+     "n": 5,
+     "sample": "Medvirker i"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.sv",
+     "n": 5,
+     "sample": "Aktör i"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.fi",
+     "n": 5,
+     "sample": "?Aktör i"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.en",
+     "n": 5,
+     "sample": "Actor in"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.et",
+     "n": 5,
+     "sample": "Osaline milles"
+    },
+    {
+     "path": "properties.agent.actorIn[].valueType",
+     "n": 5,
+     "sample": "ENTITY_REFERENCE"
+    },
+    {
+     "path": "properties.agent.actorIn[].value",
+     "n": 5,
+     "sample": "0e8da3fc-c1c9-47ab-b57f-308f54a5e07a"
+    },
+    {
+     "path": "properties.agent.actorIn[].extendedReferenceValue",
+     "n": 5,
+     "sample": "0e8da3fc-c1c9-47ab-b57f-308f54a5e07a/cdfdb888-9584-4cef-99d4-b27c99f52e02/195133e6-c712-4378-9a58-a20c62d965ea"
+    },
+    {
+     "path": "properties.agent.actorIn[].displayValue.*",
+     "n": 5,
+     "sample": "Adams dagbok (Teaterpjäs : verk)"
+    },
+    {
+     "path": "properties.agent.actorIn[].displayValue.sv",
+     "n": 5,
+     "sample": "Adams dagbok (Teaterpjäs : verk)"
+    },
+    {
+     "path": "properties.entity.list[].uuid",
+     "n": 4,
+     "sample": "fb5987e2-1ee1-4ba2-861a-5442316ab090"
+    },
+    {
+     "path": "properties.entity.list[].status",
+     "n": 4,
+     "sample": "Derived"
+    },
+    {
+     "path": "properties.entity.list[].label.nn",
+     "n": 4,
+     "sample": "Inkludert i mappe"
+    },
+    {
+     "path": "properties.entity.list[].label.no",
+     "n": 4,
+     "sample": "Inkludert i mappe"
+    },
+    {
+     "path": "properties.entity.list[].label.sv",
+     "n": 4,
+     "sample": "Ingår i mapp"
+    },
+    {
+     "path": "properties.entity.list[].label.fi",
+     "n": 4,
+     "sample": "Kansiossa"
+    },
+    {
+     "path": "properties.entity.list[].label.en",
+     "n": 4,
+     "sample": "Is in list"
+    },
+    {
+     "path": "properties.entity.list[].label.et",
+     "n": 4,
+     "sample": "On loendis"
+    },
+    {
+     "path": "properties.entity.list[].valueType",
+     "n": 4,
+     "sample": "ENTITY_REFERENCE"
+    },
+    {
+     "path": "properties.entity.list[].value",
+     "n": 4,
+     "sample": "288b1fc9-6f8a-4a60-ad9e-ab10055a0e5c"
+    },
+    {
+     "path": "properties.entity.list[].displayValue.*",
+     "n": 3,
+     "sample": "__DIMU_HARVEST (KulturIT)"
+    },
+    {
+     "path": "properties.entity.sameAs[].uuid",
+     "n": 3,
+     "sample": "870366ee-e7d2-4c05-841a-16e53ce6dad6"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.nn",
+     "n": 3,
+     "sample": "Same som"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.no",
+     "n": 3,
+     "sample": "Samme som"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.sv",
+     "n": 3,
+     "sample": "Samma som"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.fi",
+     "n": 3,
+     "sample": "Sama kuin"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.en",
+     "n": 3,
+     "sample": "Same As"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.et",
+     "n": 3,
+     "sample": "Sama kui"
+    },
+    {
+     "path": "properties.entity.sameAs[].valueType",
+     "n": 3,
+     "sample": "URL"
+    },
+    {
+     "path": "properties.entity.sameAs[].value",
+     "n": 3,
+     "sample": "https://libris.kb.se/1zcfb5hk1bq7d78"
+    },
+    {
+     "path": "properties.agent.actorIn[].displayValue.en",
+     "n": 2,
+     "sample": "Huckleberry Finn (Play : work)"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].uuid",
+     "n": 2,
+     "sample": "276c0cc8-e226-471d-b4df-ed4a3617cb35"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].status",
+     "n": 2,
+     "sample": "Synthetic"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].valueType",
+     "n": 2,
+     "sample": "ENTITY"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.uuid",
+     "n": 2,
+     "sample": "e907712d-a19b-4b93-82b7-e6288262a736"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.entityType",
+     "n": 2,
+     "sample": "DiMuImageCache"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.acl",
+     "n": 2,
+     "sample": "3d439003-bfa3-4c27-8ae3-44bdbb118ca3_SHARED"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.currentVersion",
+     "n": 2,
+     "sample": "True"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.createdAt",
+     "n": 2,
+     "sample": "Nov 19, 2025 4:24:10 PM"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.createdBy",
+     "n": 2,
+     "sample": "_system"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.updatedAt",
+     "n": 2,
+     "sample": "Sep 27, 2026 12:09:44 AM"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.updatedBy",
+     "n": 2,
+     "sample": "_system"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.inline",
+     "n": 2,
+     "sample": "True"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].uuid",
+     "n": 2,
+     "sample": "c95103e8-4b9f-47ef-a78b-f5582c520d7b"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].valueType",
+     "n": 2,
+     "sample": "ENTITY_REFERENCE"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].value",
+     "n": 2,
+     "sample": "3e04abfe-5825-41af-ac3d-23a5ea3aba38"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.*",
+     "n": 2,
+     "sample": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.sv",
+     "n": 2,
+     "sample": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "entityTypeHierarchy[]",
+     "n": 2,
+     "sample": "Agent"
+    },
+    {
+     "path": "uuid",
+     "n": 1,
+     "sample": "3e04abfe-5825-41af-ac3d-23a5ea3aba38"
+    },
+    {
+     "path": "entityType",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "acl",
+     "n": 1,
+     "sample": "3d439003-bfa3-4c27-8ae3-44bdbb118ca3_SHARED"
+    },
+    {
+     "path": "currentVersion",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "createdAt",
+     "n": 1,
+     "sample": "Feb 24, 2025 2:29:22 PM"
+    },
+    {
+     "path": "createdBy",
+     "n": 1,
+     "sample": "7b89c094-da28-4fdb-bcd2-ce0db0df923e"
+    },
+    {
+     "path": "updatedAt",
+     "n": 1,
+     "sample": "Jun 4, 2025 4:25:47 PM"
+    },
+    {
+     "path": "updatedBy",
+     "n": 1,
+     "sample": "7b89c094-da28-4fdb-bcd2-ce0db0df923e"
+    },
+    {
+     "path": "savedSource",
+     "n": 1,
+     "sample": "REFLEXIVE_UPDATE"
+    },
+    {
+     "path": "inline",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "caption.sv",
+     "n": 1,
+     "sample": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "caption.*",
+     "n": 1,
+     "sample": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.agent.otherName[].uuid",
+     "n": 1,
+     "sample": "53097747-7ef6-49f5-a5c6-1a832315f9f1"
+    },
+    {
+     "path": "properties.agent.otherName[].label.nn",
+     "n": 1,
+     "sample": "Anna namn"
+    },
+    {
+     "path": "properties.agent.otherName[].label.no",
+     "n": 1,
+     "sample": "Annet navn"
+    },
+    {
+     "path": "properties.agent.otherName[].label.sv",
+     "n": 1,
+     "sample": "Annat namn"
+    },
+    {
+     "path": "properties.agent.otherName[].label.fi",
+     "n": 1,
+     "sample": "Muu nimi"
+    },
+    {
+     "path": "properties.agent.otherName[].label.en",
+     "n": 1,
+     "sample": "Other name"
+    },
+    {
+     "path": "properties.agent.otherName[].label.et",
+     "n": 1,
+     "sample": "Muu nimi"
+    },
+    {
+     "path": "properties.agent.otherName[].valueType",
+     "n": 1,
+     "sample": "ENTITY"
+    },
+    {
+     "path": "properties.agent.otherName[].value.uuid",
+     "n": 1,
+     "sample": "88178d58-da97-4153-8161-2844a32bab6e"
+    },
+    {
+     "path": "properties.agent.otherName[].value.entityType",
+     "n": 1,
+     "sample": "OtherName"
+    },
+    {
+     "path": "properties.agent.otherName[].value.currentVersion",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "properties.agent.otherName[].value.inline",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].uuid",
+     "n": 1,
+     "sample": "64339476-98c4-4690-a16f-174ea42cee78"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.nn",
+     "n": 1,
+     "sample": "Namn"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.no",
+     "n": 1,
+     "sample": "Navn"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.sv",
+     "n": 1,
+     "sample": "Namn"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.fi",
+     "n": 1,
+     "sample": "Nimi"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.en",
+     "n": 1,
+     "sample": "Name"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.et",
+     "n": 1,
+     "sample": "Nimi"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].valueType",
+     "n": 1,
+     "sample": "TEXT"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].value.sv",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].value.*",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].uuid",
+     "n": 1,
+     "sample": "eb31b190-c7e5-4376-b52f-447ec39d0e6e"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.nn",
+     "n": 1,
+     "sample": "Namntype"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.no",
+     "n": 1,
+     "sample": "Navntype"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.sv",
+     "n": 1,
+     "sample": "Namntyp"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.fi",
+     "n": 1,
+     "sample": "?Namntyp"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.en",
+     "n": 1,
+     "sample": "Name type"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.et",
+     "n": 1,
+     "sample": "?Name type"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].valueType",
+     "n": 1,
+     "sample": "ENTITY_REFERENCE"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].value",
+     "n": 1,
+     "sample": "a748a0da-95f3-44db-8f09-3f518b2ab632"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].displayValue.no",
+     "n": 1,
+     "sample": "Navneform fra kilde"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].displayValue.en",
+     "n": 1,
+     "sample": "Name from source"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].displayValue.*",
+     "n": 1,
+     "sample": "Navneform fra kilde"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].displayValue.sv",
+     "n": 1,
+     "sample": "Namnform från källa"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].uuid",
+     "n": 1,
+     "sample": "9fd25895-df25-4e8a-bef6-c18b460dcf7e"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.nn",
+     "n": 1,
+     "sample": "Primært språk"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.no",
+     "n": 1,
+     "sample": "Primært språk"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.sv",
+     "n": 1,
+     "sample": "Primärt språk"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.fi",
+     "n": 1,
+     "sample": "?Primärt språk"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.en",
+     "n": 1,
+     "sample": "Primary language"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.et",
+     "n": 1,
+     "sample": "Algkeel"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].valueType",
+     "n": 1,
+     "sample": "ENTITY_REFERENCE"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].value",
+     "n": 1,
+     "sample": "1673a017-9190-495a-91b9-07de29c29eba"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.nn",
+     "n": 1,
+     "sample": "svensk (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.de",
+     "n": 1,
+     "sample": "Schwedisch (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.no",
+     "n": 1,
+     "sample": "svensk (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.sv",
+     "n": 1,
+     "sample": "svenska (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.en",
+     "n": 1,
+     "sample": "Swedish (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.*",
+     "n": 1,
+     "sample": "svensk (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.fr",
+     "n": 1,
+     "sample": "suédois (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.da",
+     "n": 1,
+     "sample": "Svensk (sv)"
+    },
+    {
+     "path": "properties.entity.alternativeId[].uuid",
+     "n": 1,
+     "sample": "89e27e67-512f-49df-9110-1744fbec2920"
+    },
+    {
+     "path": "properties.entity.alternativeId[].label.nn",
+     "n": 1,
+     "sample": "Alternativt id"
+    },
+    {
+     "path": "properties.entity.alternativeId[].label.no",
+     "n": 1,
+     "sample": "Alternativt id"
+    },
+    {
+     "path": "properties.entity.alternativeId[].label.sv",
+     "n": 1,
+     "sample": "Alternativt id"
+    },
+    {
+     "path": "properties.entity.alternativeId[].label.fi",
+     "n": 1,
+     "sample": "Vaihtoehtoinen tunniste"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "caption.sv",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "caption.*",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].value.sv",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].value.*",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "properties.entity.fullCaption[].value.sv",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.entity.fullCaption[].value.*",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.entity.name[].value.sv",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "properties.entity.name[].value.*",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "properties.person.birth[].value.properties.event.time[].value",
+     "value": "18351130-D"
+    },
+    {
+     "path": "properties.person.death[].value.properties.event.time[].value",
+     "value": "19100421-D"
+    },
+    {
+     "path": "properties.person.lastName[].value.sv",
+     "value": "Langhorne Clemens Twain"
+    },
+    {
+     "path": "properties.person.lastName[].value.*",
+     "value": "Langhorne Clemens Twain"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.*",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.sv",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.*",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.sv",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.superconcept.begin[].value",
+     "value": "1835-Y"
+    },
+    {
+     "path": "properties.superconcept.end[].value",
+     "value": "1910-Y"
+    }
+   ],
+   "language_like_keys": [
+    "acl",
+    "da",
+    "de",
+    "en",
+    "et",
+    "fi",
+    "fr",
+    "nn",
+    "no",
+    "sv"
+   ]
+  },
+  {
+   "file": "conneg_3.json",
+   "format": "json",
+   "size": 14395,
+   "path_count": 358,
+   "paths": [
+    {
+     "path": "properties.agent.actorIn[].uuid",
+     "n": 5,
+     "sample": "c0969cdf-3809-4ff7-a5f3-9e9243ba537e"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.nn",
+     "n": 5,
+     "sample": "Aktør i"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.no",
+     "n": 5,
+     "sample": "Medvirker i"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.sv",
+     "n": 5,
+     "sample": "Aktör i"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.fi",
+     "n": 5,
+     "sample": "?Aktör i"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.en",
+     "n": 5,
+     "sample": "Actor in"
+    },
+    {
+     "path": "properties.agent.actorIn[].label.et",
+     "n": 5,
+     "sample": "Osaline milles"
+    },
+    {
+     "path": "properties.agent.actorIn[].valueType",
+     "n": 5,
+     "sample": "ENTITY_REFERENCE"
+    },
+    {
+     "path": "properties.agent.actorIn[].value",
+     "n": 5,
+     "sample": "0e8da3fc-c1c9-47ab-b57f-308f54a5e07a"
+    },
+    {
+     "path": "properties.agent.actorIn[].extendedReferenceValue",
+     "n": 5,
+     "sample": "0e8da3fc-c1c9-47ab-b57f-308f54a5e07a/cdfdb888-9584-4cef-99d4-b27c99f52e02/195133e6-c712-4378-9a58-a20c62d965ea"
+    },
+    {
+     "path": "properties.agent.actorIn[].displayValue.*",
+     "n": 5,
+     "sample": "Adams dagbok (Teaterpjäs : verk)"
+    },
+    {
+     "path": "properties.agent.actorIn[].displayValue.sv",
+     "n": 5,
+     "sample": "Adams dagbok (Teaterpjäs : verk)"
+    },
+    {
+     "path": "properties.entity.list[].uuid",
+     "n": 4,
+     "sample": "fb5987e2-1ee1-4ba2-861a-5442316ab090"
+    },
+    {
+     "path": "properties.entity.list[].status",
+     "n": 4,
+     "sample": "Derived"
+    },
+    {
+     "path": "properties.entity.list[].label.nn",
+     "n": 4,
+     "sample": "Inkludert i mappe"
+    },
+    {
+     "path": "properties.entity.list[].label.no",
+     "n": 4,
+     "sample": "Inkludert i mappe"
+    },
+    {
+     "path": "properties.entity.list[].label.sv",
+     "n": 4,
+     "sample": "Ingår i mapp"
+    },
+    {
+     "path": "properties.entity.list[].label.fi",
+     "n": 4,
+     "sample": "Kansiossa"
+    },
+    {
+     "path": "properties.entity.list[].label.en",
+     "n": 4,
+     "sample": "Is in list"
+    },
+    {
+     "path": "properties.entity.list[].label.et",
+     "n": 4,
+     "sample": "On loendis"
+    },
+    {
+     "path": "properties.entity.list[].valueType",
+     "n": 4,
+     "sample": "ENTITY_REFERENCE"
+    },
+    {
+     "path": "properties.entity.list[].value",
+     "n": 4,
+     "sample": "288b1fc9-6f8a-4a60-ad9e-ab10055a0e5c"
+    },
+    {
+     "path": "properties.entity.list[].displayValue.*",
+     "n": 3,
+     "sample": "__DIMU_HARVEST (KulturIT)"
+    },
+    {
+     "path": "properties.entity.sameAs[].uuid",
+     "n": 3,
+     "sample": "870366ee-e7d2-4c05-841a-16e53ce6dad6"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.nn",
+     "n": 3,
+     "sample": "Same som"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.no",
+     "n": 3,
+     "sample": "Samme som"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.sv",
+     "n": 3,
+     "sample": "Samma som"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.fi",
+     "n": 3,
+     "sample": "Sama kuin"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.en",
+     "n": 3,
+     "sample": "Same As"
+    },
+    {
+     "path": "properties.entity.sameAs[].label.et",
+     "n": 3,
+     "sample": "Sama kui"
+    },
+    {
+     "path": "properties.entity.sameAs[].valueType",
+     "n": 3,
+     "sample": "URL"
+    },
+    {
+     "path": "properties.entity.sameAs[].value",
+     "n": 3,
+     "sample": "https://libris.kb.se/1zcfb5hk1bq7d78"
+    },
+    {
+     "path": "properties.agent.actorIn[].displayValue.en",
+     "n": 2,
+     "sample": "Huckleberry Finn (Play : work)"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].uuid",
+     "n": 2,
+     "sample": "3aef7bfa-f8cf-4014-ac93-6ab050c91908"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].status",
+     "n": 2,
+     "sample": "Synthetic"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].valueType",
+     "n": 2,
+     "sample": "ENTITY"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.uuid",
+     "n": 2,
+     "sample": "e907712d-a19b-4b93-82b7-e6288262a736"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.entityType",
+     "n": 2,
+     "sample": "DiMuImageCache"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.acl",
+     "n": 2,
+     "sample": "3d439003-bfa3-4c27-8ae3-44bdbb118ca3_SHARED"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.currentVersion",
+     "n": 2,
+     "sample": "True"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.createdAt",
+     "n": 2,
+     "sample": "Nov 19, 2025 4:24:10 PM"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.createdBy",
+     "n": 2,
+     "sample": "_system"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.updatedAt",
+     "n": 2,
+     "sample": "Sep 27, 2026 12:09:44 AM"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.updatedBy",
+     "n": 2,
+     "sample": "_system"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.inline",
+     "n": 2,
+     "sample": "True"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].uuid",
+     "n": 2,
+     "sample": "c95103e8-4b9f-47ef-a78b-f5582c520d7b"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].valueType",
+     "n": 2,
+     "sample": "ENTITY_REFERENCE"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].value",
+     "n": 2,
+     "sample": "3e04abfe-5825-41af-ac3d-23a5ea3aba38"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.*",
+     "n": 2,
+     "sample": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.sv",
+     "n": 2,
+     "sample": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "entityTypeHierarchy[]",
+     "n": 2,
+     "sample": "Agent"
+    },
+    {
+     "path": "uuid",
+     "n": 1,
+     "sample": "3e04abfe-5825-41af-ac3d-23a5ea3aba38"
+    },
+    {
+     "path": "entityType",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "acl",
+     "n": 1,
+     "sample": "3d439003-bfa3-4c27-8ae3-44bdbb118ca3_SHARED"
+    },
+    {
+     "path": "currentVersion",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "createdAt",
+     "n": 1,
+     "sample": "Feb 24, 2025 2:29:22 PM"
+    },
+    {
+     "path": "createdBy",
+     "n": 1,
+     "sample": "7b89c094-da28-4fdb-bcd2-ce0db0df923e"
+    },
+    {
+     "path": "updatedAt",
+     "n": 1,
+     "sample": "Jun 4, 2025 4:25:47 PM"
+    },
+    {
+     "path": "updatedBy",
+     "n": 1,
+     "sample": "7b89c094-da28-4fdb-bcd2-ce0db0df923e"
+    },
+    {
+     "path": "savedSource",
+     "n": 1,
+     "sample": "REFLEXIVE_UPDATE"
+    },
+    {
+     "path": "inline",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "caption.sv",
+     "n": 1,
+     "sample": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "caption.*",
+     "n": 1,
+     "sample": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.agent.otherName[].uuid",
+     "n": 1,
+     "sample": "53097747-7ef6-49f5-a5c6-1a832315f9f1"
+    },
+    {
+     "path": "properties.agent.otherName[].label.nn",
+     "n": 1,
+     "sample": "Anna namn"
+    },
+    {
+     "path": "properties.agent.otherName[].label.no",
+     "n": 1,
+     "sample": "Annet navn"
+    },
+    {
+     "path": "properties.agent.otherName[].label.sv",
+     "n": 1,
+     "sample": "Annat namn"
+    },
+    {
+     "path": "properties.agent.otherName[].label.fi",
+     "n": 1,
+     "sample": "Muu nimi"
+    },
+    {
+     "path": "properties.agent.otherName[].label.en",
+     "n": 1,
+     "sample": "Other name"
+    },
+    {
+     "path": "properties.agent.otherName[].label.et",
+     "n": 1,
+     "sample": "Muu nimi"
+    },
+    {
+     "path": "properties.agent.otherName[].valueType",
+     "n": 1,
+     "sample": "ENTITY"
+    },
+    {
+     "path": "properties.agent.otherName[].value.uuid",
+     "n": 1,
+     "sample": "88178d58-da97-4153-8161-2844a32bab6e"
+    },
+    {
+     "path": "properties.agent.otherName[].value.entityType",
+     "n": 1,
+     "sample": "OtherName"
+    },
+    {
+     "path": "properties.agent.otherName[].value.currentVersion",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "properties.agent.otherName[].value.inline",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].uuid",
+     "n": 1,
+     "sample": "64339476-98c4-4690-a16f-174ea42cee78"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.nn",
+     "n": 1,
+     "sample": "Namn"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.no",
+     "n": 1,
+     "sample": "Navn"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.sv",
+     "n": 1,
+     "sample": "Namn"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.fi",
+     "n": 1,
+     "sample": "Nimi"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.en",
+     "n": 1,
+     "sample": "Name"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].label.et",
+     "n": 1,
+     "sample": "Nimi"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].valueType",
+     "n": 1,
+     "sample": "TEXT"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].value.sv",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].value.*",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].uuid",
+     "n": 1,
+     "sample": "eb31b190-c7e5-4376-b52f-447ec39d0e6e"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.nn",
+     "n": 1,
+     "sample": "Namntype"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.no",
+     "n": 1,
+     "sample": "Navntype"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.sv",
+     "n": 1,
+     "sample": "Namntyp"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.fi",
+     "n": 1,
+     "sample": "?Namntyp"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.en",
+     "n": 1,
+     "sample": "Name type"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].label.et",
+     "n": 1,
+     "sample": "?Name type"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].valueType",
+     "n": 1,
+     "sample": "ENTITY_REFERENCE"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].value",
+     "n": 1,
+     "sample": "a748a0da-95f3-44db-8f09-3f518b2ab632"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].displayValue.no",
+     "n": 1,
+     "sample": "Navneform fra kilde"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].displayValue.en",
+     "n": 1,
+     "sample": "Name from source"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].displayValue.*",
+     "n": 1,
+     "sample": "Navneform fra kilde"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.otherName.type[].displayValue.sv",
+     "n": 1,
+     "sample": "Namnform från källa"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].uuid",
+     "n": 1,
+     "sample": "0888b320-72ad-4320-a502-2ef1734668a1"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.nn",
+     "n": 1,
+     "sample": "Primært språk"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.no",
+     "n": 1,
+     "sample": "Primært språk"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.sv",
+     "n": 1,
+     "sample": "Primärt språk"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.fi",
+     "n": 1,
+     "sample": "?Primärt språk"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.en",
+     "n": 1,
+     "sample": "Primary language"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].label.et",
+     "n": 1,
+     "sample": "Algkeel"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].valueType",
+     "n": 1,
+     "sample": "ENTITY_REFERENCE"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].value",
+     "n": 1,
+     "sample": "1673a017-9190-495a-91b9-07de29c29eba"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.nn",
+     "n": 1,
+     "sample": "svensk (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.de",
+     "n": 1,
+     "sample": "Schwedisch (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.no",
+     "n": 1,
+     "sample": "svensk (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.sv",
+     "n": 1,
+     "sample": "svenska (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.en",
+     "n": 1,
+     "sample": "Swedish (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.*",
+     "n": 1,
+     "sample": "svensk (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.fr",
+     "n": 1,
+     "sample": "suédois (sv)"
+    },
+    {
+     "path": "properties.dataset.primaryLanguage[].displayValue.da",
+     "n": 1,
+     "sample": "Svensk (sv)"
+    },
+    {
+     "path": "properties.entity.alternativeId[].uuid",
+     "n": 1,
+     "sample": "89e27e67-512f-49df-9110-1744fbec2920"
+    },
+    {
+     "path": "properties.entity.alternativeId[].label.nn",
+     "n": 1,
+     "sample": "Alternativt id"
+    },
+    {
+     "path": "properties.entity.alternativeId[].label.no",
+     "n": 1,
+     "sample": "Alternativt id"
+    },
+    {
+     "path": "properties.entity.alternativeId[].label.sv",
+     "n": 1,
+     "sample": "Alternativt id"
+    },
+    {
+     "path": "properties.entity.alternativeId[].label.fi",
+     "n": 1,
+     "sample": "Vaihtoehtoinen tunniste"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "caption.sv",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "caption.*",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].value.sv",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "properties.agent.otherName[].value.properties.entity.name[].value.*",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "properties.entity.fullCaption[].value.sv",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.entity.fullCaption[].value.*",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.entity.name[].value.sv",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "properties.entity.name[].value.*",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "properties.person.birth[].value.properties.event.time[].value",
+     "value": "18351130-D"
+    },
+    {
+     "path": "properties.person.death[].value.properties.event.time[].value",
+     "value": "19100421-D"
+    },
+    {
+     "path": "properties.person.lastName[].value.sv",
+     "value": "Langhorne Clemens Twain"
+    },
+    {
+     "path": "properties.person.lastName[].value.*",
+     "value": "Langhorne Clemens Twain"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.*",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.sv",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.*",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.superconcept.additionalData[].value.properties.extData.appliesTo[].displayValue.sv",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "properties.superconcept.begin[].value",
+     "value": "1835-Y"
+    },
+    {
+     "path": "properties.superconcept.end[].value",
+     "value": "1910-Y"
+    }
+   ],
+   "language_like_keys": [
+    "acl",
+    "da",
+    "de",
+    "en",
+    "et",
+    "fi",
+    "fr",
+    "nn",
+    "no",
+    "sv"
+   ]
+  }
+ ],
+ "llm_notes": "KulturNav person record from the Musikverket (Swedish performing arts) persons dataset: Swedish name and description, birth/death, gender, same-as links (VIAF, Wikidata, Libris), plays he is linked to, and a DigitaltMuseum cross-link. First/last name fields are oddly split ('Samuel Mark' / 'Langhorne Clemens Twain').",
+ "about_entity": true,
+ "chrome_elements": {}
+}

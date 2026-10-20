@@ -1,0 +1,48 @@
+{
+ "property": "P396",
+ "label": "SBN author ID",
+ "files_read": ["pages/P396__CFIV002662.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "OPAC SBN authority record (Persona) for Twain, Mark with variant forms, dates, an Italian biographical note, language, country, sources, ISNI and the SBN identifier. No work list shown on this view.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": null, "via": "record heading"}],
+  "name_variant": [
+   {"value": "Tvėn, Mark", "lang": null, "via": "FORME VARIANTI"},
+   {"value": "Clemens, Samuel Langhorne", "raw": "Clemens, Samuel Langhorne, Nome reale", "lang": null, "via": "FORME VARIANTI (Nome reale)"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "30.11.1835", "lang": "it", "via": "NOTA INFORMATIVA"},
+   {"value": "1835", "raw": "1835-1910", "lang": null, "via": "DATAZIONE"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "21.04.1910", "lang": "it", "via": "NOTA INFORMATIVA"},
+   {"value": "1910", "raw": "1835-1910", "lang": null, "via": "DATAZIONE"}
+  ],
+  "birth_place": [{"value": "Florida, Missouri", "lang": "it", "via": "NOTA INFORMATIVA"}],
+  "death_place": [{"value": "Redding, Connetticut", "lang": "it", "via": "NOTA INFORMATIVA"}],
+  "occupation": [{"value": "Scrittore", "lang": "it", "via": "NOTA INFORMATIVA"}],
+  "nationality": [
+   {"value": "STATI UNITI D'AMERICA", "lang": "it", "via": "PAESE"},
+   {"value": "americano", "raw": "Scrittore americano", "lang": "it", "via": "NOTA INFORMATIVA"}
+  ],
+  "language": [{"value": "INGLESE", "lang": "it", "via": "LINGUA"}],
+  "pseudonym": [{"value": "Mark Twain", "raw": "pseudonimo di Samuel Langhorne Clemens", "lang": "it", "via": "NOTA INFORMATIVA"}],
+  "description": [{"value": "Scrittore americano, pseudonimo di Samuel Langhorne Clemens. Nato in Florida, Missouri, il 30.11.1835 e morto a Redding, Connetticut, il 21.04.1910.", "lang": "it", "via": "NOTA INFORMATIVA"}],
+  "work": [{"value": "Pudd'nhead Wilson and those extraordinay twins", "raw": "Twain, M., Pudd'nhead Wilson and those extraordinay twins, 1969", "lang": "en", "via": "ALTRE FONTI"}],
+  "same_as": [{"value": "https://isni.org/isni/0000000121324854", "raw": "ISNI 0000 0001 2132 4854", "via": "ISNI row"}],
+  "identifier": [
+   {"value": "IT\\ICCU\\CFIV\\002662", "via": "IDENTIFICATIVO SBN"},
+   {"value": "0000 0001 2132 4854", "raw": "ISNI", "via": "ISNI row"}
+  ],
+  "source": [
+   {"value": "Catalogo in linea della Library of Congress http://catalog.loc.gov", "lang": "it", "via": "FONTI"},
+   {"value": "Catalogo in linea della Bibliothèque Nationale de France: http://catalogue.bnf.fr", "lang": "it", "via": "FONTI"},
+   {"value": "Bibliografia nazionale italiana: nuova serie del bollettino delle pubblicazioni italiane ricevute per diritto di stampa (BNCF, 1958-)", "lang": "it", "via": "FONTI"},
+   {"value": "Catalogo in linea della Deutsche Nationalbibliothek: https://www.dnb.de/EN/Benutzung/Katalog/katalogDNB_node.html", "lang": "it", "via": "FONTI"},
+   {"value": "Twain, M., Pudd'nhead Wilson and those extraordinay twins, 1969", "lang": "en", "via": "ALTRE FONTI"},
+   {"value": "REICAT", "raw": "REGOLE DI CATALOGAZIONE", "lang": null, "via": "cataloguing rules"}
+  ],
+  "record_modified": [{"value": "2024-01-26", "raw": "26/01/2024", "lang": null, "via": "DATA DI AGGIORNAMENTO"}]
+ }
+}

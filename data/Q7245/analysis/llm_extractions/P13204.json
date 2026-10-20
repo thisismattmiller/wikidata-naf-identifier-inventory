@@ -1,0 +1,15 @@
+{
+ "property": "P13204",
+ "label": "Wellcome Collection concept ID",
+ "files_read": ["P13204__chsf63dq/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the Wellcome Collection concept page; og:title is the name, og:description is generic site boilerplate and og:image a site icon (neither extracted).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}
+  ],
+  "identifier": [
+   {"value": "chsf63dq", "raw": "https://wellcomecollection.org/concepts/chsf63dq", "via": "embedded_opengraph.json: $[0]['og:url']"}
+  ]
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "property": "P1309",
+ "label": "EGAXA ID",
+ "files_read": ["P1309__vtls000823270/conneg_3.json"],
+ "about_entity": true,
+ "notes": "VIAF-style MARC21 authority record (JSON-ified MARCXML) for the Bibliotheca Alexandrina (EGAXA) source record vtls000823270, with VIAF-added 9xx fields (works, co-authors, publishers, cluster links). 998 cluster links are given as SOURCE|id codes, not URIs; only those with a well-known URI pattern were converted to same_as. The 998 link LC|n 82045653 '(Spirit)' is a different entity and was excluded.",
+ "elements": {
+  "name_preferred": [
+   {"value": "توين، مارك", "raw": "توين، مارك، 1835-1910", "lang": "ar", "via": "conneg_3.json: datafield 100 $a/$d"}
+  ],
+  "name_variant": [
+   {"value": "مارك توين", "raw": "مارك توين، 1835-1910", "lang": "ar", "via": "conneg_3.json: datafield 400 (ind1=0) $a/$d"},
+   {"value": "توين، مرك", "raw": "توين، مرك، 1835-1910", "lang": "ar", "via": "conneg_3.json: datafield 400 $a/$d"},
+   {"value": "كليمنس، صمويل لانجهورن", "raw": "كليمنس، صمويل لانجهورن، 1835-1910", "lang": "ar", "via": "conneg_3.json: datafield 400 $a/$d"},
+   {"value": "Twain, Mark", "raw": "Twain, Mark, 1835-1910", "lang": "en", "via": "conneg_3.json: datafield 700 $a/$d"},
+   {"value": "Твен, Марк", "lang": "ru", "via": "conneg_3.json: datafield 998 $a (J9U|987007269289205171)"},
+   {"value": "טוין, מרק", "lang": "he", "via": "conneg_3.json: datafield 998 $a (J9U|987007269289205171)"},
+   {"value": "Clemens, Samuel Langhorne (Mark Twain)", "lang": "en", "via": "conneg_3.json: datafield 998 $a (NYNYRILM|1598)"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "raw": "Twain, Mark, pseud.", "lang": null, "via": "conneg_3.json: datafield 998 $a/$b/$c (PTBNP|46269)"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "1835-11-30", "lang": null, "via": "conneg_3.json: datafield 046 $f"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "1910-04-21", "lang": null, "via": "conneg_3.json: datafield 046 $g"}
+  ],
+  "birth_place": [
+   {"value": "ميسوري", "lang": "ar", "via": "conneg_3.json: datafield 370 $a (bibalex); 670 $b 'ولد مارك توين في ولاية ميسوري'"}
+  ],
+  "gender": [
+   {"value": "male", "raw": "ذكر", "lang": "ar", "via": "conneg_3.json: datafield 375 $a"}
+  ],
+  "occupation": [
+   {"value": "الأدباء الأمريكيون", "lang": "ar", "via": "conneg_3.json: datafield 374 $a (bibalex)"}
+  ],
+  "field_of_activity": [
+   {"value": "الأدب الأمريكي", "lang": "ar", "via": "conneg_3.json: datafield 372 $a (bibalex)"}
+  ],
+  "language": [
+   {"value": "eng", "lang": null, "via": "conneg_3.json: datafield 377 $a"}
+  ],
+  "description": [
+   {"value": "ولد مارك توين في ولاية ميسوري عام 1835؛ أديب أمريكي شهير اسمه الحقيقي صمويل لانجهورن كليمنس؛ توفي عام 1910", "lang": "ar", "via": "conneg_3.json: datafield 670 $b (مغامرات هكلبرى فين، 2003)"}
+  ],
+  "work": [
+   {"value": "Adventures of Huckleberry Finn", "lang": "en", "via": "conneg_3.json: datafield 912 $A"},
+   {"value": "Prince and the pauper", "lang": "en", "via": "conneg_3.json: datafield 912 $A"},
+   {"value": "Adventures of Tom Sawyer", "lang": "en", "via": "conneg_3.json: datafield 912 $A"},
+   {"value": "توم سوير", "lang": "ar", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "ما الانسان", "lang": "ar", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "الفيل الابيض المسروق و قصص اخرى", "lang": "ar", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "مغامرات توم سوير", "lang": "ar", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "الامير و الفقير", "lang": "ar", "via": "conneg_3.json: datafield 910 $A; 670 $a"},
+   {"value": "مغامرات هكلبرى فن", "lang": "ar", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "مغامرات هاكلبيري فين", "lang": "ar", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "ورقة بمليون جنيه", "lang": "ar", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "يوميات ادم و حواء", "lang": "ar", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "مغامرات هكلبرى فين", "lang": "ar", "via": "conneg_3.json: datafield 910 $A; 670 $a"},
+   {"value": "مغامرات هاكلبرى فن", "lang": "ar", "via": "conneg_3.json: datafield 910 $A"}
+  ],
+  "related_agent": [
+   {"value": "السويفي، مختار، 1933-", "relation": "co-author/contributor (VIAF 950)", "lang": "ar", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "موسى، محمد العزب، 1935-", "relation": "co-author/contributor (VIAF 950)", "lang": "ar", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "قطب، محمد", "relation": "co-author/contributor (VIAF 950)", "lang": "ar", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "عبد الوهاب، جاكلين محمد", "relation": "co-author/contributor (VIAF 950)", "lang": "ar", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "غزلان، محمد عبد الرحيم", "relation": "co-author/contributor (VIAF 950)", "lang": "ar", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "مراد، حلمى", "relation": "co-author/contributor (VIAF 950)", "lang": "ar", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "حنا، فايقة جرجس", "relation": "translator", "lang": "ar", "via": "conneg_3.json: datafield 950 $A; 930 $c 'ترجمة فايقة جرجس حنا'"},
+   {"value": "تيمور، محمود، 1894-1973", "relation": "co-author/contributor (VIAF 950)", "lang": "ar", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "كيروان، آنا، 1949-2012", "relation": "co-author/contributor (VIAF 950)", "lang": "ar", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "نوية، عثمان، 1915-1980", "relation": "co-author/contributor (VIAF 955)", "lang": "ar", "via": "conneg_3.json: datafield 955 $A"},
+   {"value": "توماس، هنري، 1888-1970", "relation": "co-author/contributor (VIAF 955)", "lang": "ar", "via": "conneg_3.json: datafield 955 $A"},
+   {"value": "توماس، دانا لي، 1918-", "relation": "co-author/contributor (VIAF 955)", "lang": "ar", "via": "conneg_3.json: datafield 955 $A"}
+  ],
+  "same_as": [
+   {"value": "http://id.loc.gov/authorities/names/n79021164", "raw": "(DLC)n  79021164", "via": "conneg_3.json: datafield 700 $0; 998 $2 LC|n  79021164"},
+   {"value": "https://d-nb.info/gnd/118624822", "raw": "DNB|118624822", "via": "conneg_3.json: datafield 998 $2"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "raw": "WKP|Q7245", "via": "conneg_3.json: datafield 998 $2"},
+   {"value": "https://www.idref.fr/027171876", "raw": "SUDOC|027171876", "via": "conneg_3.json: datafield 998 $2"},
+   {"value": "https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%B1%D9%83_%D8%AA%D9%88%D9%8A%D9%86", "via": "conneg_3.json: datafield 670 $u"}
+  ],
+  "identifier": [
+   {"value": "vtls000823270", "raw": "EGAXA|vtls000823270", "via": "conneg_3.json: controlfield 001; datafield 035 $a"}
+  ],
+  "source": [
+   {"value": "مغامرات هكلبرى فين، 2003", "lang": "ar", "via": "conneg_3.json: datafield 670 $a"},
+   {"value": "ويكيبيديا، WWW، 23 أبريل 2017", "lang": "ar", "via": "conneg_3.json: datafield 670 $a"},
+   {"value": "الأمير و الفقير، 1992", "lang": "ar", "via": "conneg_3.json: datafield 670 $a"}
+  ],
+  "record_created": [
+   {"value": "2016-11-01", "raw": "161101", "via": "conneg_3.json: controlfield 008/00-05"}
+  ],
+  "record_modified": [
+   {"value": "2017-04-24", "raw": "20170424121943", "via": "conneg_3.json: controlfield 005"}
+  ]
+ }
+}

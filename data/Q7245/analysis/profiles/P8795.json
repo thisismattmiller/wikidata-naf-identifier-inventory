@@ -1,0 +1,139 @@
+{
+ "property": "P8795",
+ "property_label": "Diamond Catalog ID for persons and organisations",
+ "files": [
+  {
+   "file": "P8795__25088/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://opac.diamondrda.org/agent/25088"
+  },
+  {
+   "file": "P8795__25088/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://opac.diamondrda.org/agent/25088"
+  },
+  {
+   "file": "P8795__25088/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.diamondrda.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P8795__25088/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.diamondrda.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 28,
+  "http://ogp.me/ns#": 4,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:title",
+    "file": "P8795.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:title",
+    "file": "P8795.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:title",
+    "file": "P8795.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "25088",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:url (https://opac.diamondrda.org/agent/25088)",
+    "file": "P8795.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 213,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://opac.diamondrda.org/agent/25088"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark, 1835‒1910"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "ALKINDI4-OPAC"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark, 1835‒1910"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "OpenGraph metadata for the Diamond (ALKINDI4 OPAC) agent page; og:title is the authorized heading with dates, og:description just 'Person'.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,228 @@
+{
+ "property": "P9196",
+ "label": "BookBub author ID",
+ "files_read": [
+  "P9196__mark-twain/embedded_opengraph.json",
+  "P9196__mark-twain/browser_xhr_1.json",
+  "P9196__mark-twain/browser_xhr_2.json",
+  "P9196__mark-twain/browser_xhr_7.json"
+ ],
+ "about_entity": true,
+ "notes": "BookBub author page: browser_xhr_1 is the author profile API (name, biography, genre tags), browser_xhr_2 the author's book list, OpenGraph repeats the biography (truncated). browser_xhr_7 is a list of BookBub blog posts (not about the entity) and was ignored.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.displayName"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography ('born Samuel L. Clemens')"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "November 30, 1835",
+    "lang": null,
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "April 21, 1910",
+    "lang": null,
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "printer",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   },
+   {
+    "value": "steamboat pilot",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   },
+   {
+    "value": "humorous travel writer",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Nonfiction",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.tags[0].displayName"
+   },
+   {
+    "value": "Biographies and Memoirs",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.tags[1].displayName"
+   },
+   {
+    "value": "Humor",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.tags[2].displayName"
+   },
+   {
+    "value": "Classics",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.tags[3].displayName"
+   },
+   {
+    "value": "Literary Fiction",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.tags[4].displayName"
+   },
+   {
+    "value": "Action and Adventure",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.tags[5].displayName"
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain was born Samuel L. Clemens in Florida, Missouri on November 30, 1835. He worked as a printer for a time, and then became a steamboat pilot. He traveled in the West, writing humorous sketches for newspapers. In 1865, he wrote the short story, The Celebrated Jumping Frog of Calaveras County, which was very well received. He then began a career as a humorous travel writer and lecturer, publishing The Innocents Abroad in 1869, Roughing It in 1872, and, co-authored with Charles Dudley Warner, Gilded Age in 1873. His best-known works are The Adventures of Tom Sawyer (1876), Mississippi Writing: Life on the Mississippi (1883), and The Adventures of Huckleberry Finn (1884). He died of a heart attack on April 21, 1910.",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[0].title"
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[1].title"
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[2].title"
+   },
+   {
+    "value": "The Autobiography of Mark Twain",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[3].title"
+   },
+   {
+    "value": "The Wit and Wisdom of Mark Twain",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[5].title"
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur’s Court",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[8].title"
+   },
+   {
+    "value": "Mark Twain: Collected Tales, Sketches, Speeches, and Essays 1852–1890",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[9].title"
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[10].title"
+   },
+   {
+    "value": "Who Is Mark Twain?",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[12].title"
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[15].title"
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[18].title"
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[20].title"
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[21].title"
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   },
+   {
+    "value": "Gilded Age",
+    "lang": "en",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Charles Dudley Warner",
+    "lang": "en",
+    "relation": "co-author of Gilded Age (1873)",
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.biography"
+   },
+   {
+    "value": "Alex Ayres",
+    "lang": "en",
+    "relation": "co-author/editor of 'The Wit and Wisdom of Mark Twain'",
+    "via": "P9196__mark-twain/browser_xhr_2.json: $.books[5].authors"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "7156",
+    "lang": null,
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.authorId"
+   },
+   {
+    "value": "83294",
+    "lang": null,
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.id (profile id)"
+   },
+   {
+    "value": "mark-twain",
+    "raw": "https://www.bookbub.com/authors/mark-twain",
+    "lang": null,
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.slug"
+   }
+  ],
+  "image": [
+   {
+    "value": "https://d2rel4whvde6w7.cloudfront.net/email_assets/default_profile_image/m.png",
+    "lang": null,
+    "via": "P9196__mark-twain/browser_xhr_1.json: $.imageUrl (default placeholder 'm.png')"
+   }
+  ]
+ }
+}

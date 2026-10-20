@@ -1,0 +1,26 @@
+{
+ "property": "P4823",
+ "label": "American National Biography ID",
+ "files_read": ["pages/P4823__1600313.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "ANB article landing page behind a subscription wall: only the heading, full dates, author, DOI, publication dates and the table of section headings (which name major works) are visible.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "en", "via": "article heading"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30 November 1835", "lang": "en", "via": "article heading"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21 April 1910", "lang": "en", "via": "article heading"}],
+  "occupation": [{"value": "author", "lang": "en", "via": "page title 'author and lecturer'"}, {"value": "lecturer", "lang": "en", "via": "page title"}, {"value": "river pilot", "raw": "River Piloting on the Mississippi", "lang": "en", "via": "article contents"}],
+  "activity_place": [{"value": "Mississippi", "lang": "en", "via": "article contents"}],
+  "description": [{"value": "Twain, Mark (1835-1910), author and lecturer", "lang": "en", "via": "page title"}],
+  "work": [
+   {"value": "The Innocents Abroad", "raw": "(1869)", "lang": "en", "via": "article contents"},
+   {"value": "The Gilded Age", "raw": "(1873)", "lang": "en", "via": "article contents"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "(1876)", "lang": "en", "via": "article contents"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "(1889)", "lang": "en", "via": "article contents"}
+  ],
+  "related_agent": [{"value": "Louis J. Budd (author of the ANB article)", "via": "byline"}],
+  "identifier": [{"value": "1600313", "via": "page URL"}, {"value": "10.1093/anb/9780198606697.article.1600313", "via": "DOI line"}],
+  "source": [{"value": "https://doi.org/10.1093/anb/9780198606697.article.1600313", "raw": "Published in print: 1999 Published online: February 2000", "via": "DOI line"}],
+  "record_created": [{"value": "2000-02", "raw": "Published online: February 2000", "via": "publication line"}]
+ }
+}

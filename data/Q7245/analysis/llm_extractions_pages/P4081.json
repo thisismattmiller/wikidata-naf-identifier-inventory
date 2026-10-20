@@ -1,0 +1,39 @@
+{
+ "property": "P4081",
+ "label": "BHL creator ID",
+ "files_read": ["pages/P4081__40429.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Biodiversity Heritage Library creator page for 'Clemens, Samuel Langhorne, 1835-1910': one digitized book plus an 'Author Details' box with name form, dates and external identifiers (LCCN, SNAK ARK, VIAF, Wikidata). Identifiers are given as bare ids, not URIs.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Clemens, Samuel Langhorne,", "lang": "en", "via": "Author Details 'Preferred Name Form'"},
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": "en", "via": "page heading 'By ...'"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "1835-1910", "lang": null, "via": "Author Details 'Dates'"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "1835-1910", "lang": null, "via": "Author Details 'Dates'"}
+  ],
+  "work": [
+   {"value": "Mark Twain's Sketches, new and old", "raw": "Now first published in complete form. Hartford, Conn, The American Pub. Company, 1887; Holding Institution: Cornell University Library", "lang": "en", "via": "Books/Journals list"}
+  ],
+  "same_as": [
+   {"value": "LCCN: n79021164", "via": "Author Details 'Identifiers'"},
+   {"value": "LCCN: n93099439", "via": "Author Details 'Identifiers'"},
+   {"value": "LCCN: n93099461", "via": "Author Details 'Identifiers'"},
+   {"value": "LCCN: no2003079632", "via": "Author Details 'Identifiers'"},
+   {"value": "SNAK ARK: w65h7dgf", "via": "Author Details 'Identifiers'"},
+   {"value": "SNAK ARK: w6dg7gd6", "via": "Author Details 'Identifiers'"},
+   {"value": "VIAF: 16444837", "via": "Author Details 'Identifiers'"},
+   {"value": "VIAF: 305239133", "via": "Author Details 'Identifiers'"},
+   {"value": "VIAF: 50566653", "via": "Author Details 'Identifiers'"},
+   {"value": "VIAF: 53367783", "via": "Author Details 'Identifiers'"},
+   {"value": "Wikidata: Q7245", "via": "Author Details 'Identifiers'"}
+  ],
+  "identifier": [
+   {"value": "40429", "via": "URL (/creator/40429)"}
+  ]
+ }
+}

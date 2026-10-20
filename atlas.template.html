@@ -1,0 +1,780 @@
+<title>Wikidata Bibliographic Identifiers</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a reading column for the headers, full-bleed panels for the map and charts; the map is the hero. */
+:root {
+  --bg: #f2f3ee; --panel: #ffffff; --fg: #1a1e22; --muted: #5d6771; --line: #d6d9cf; --line-soft: #e6e8e1;
+  --accent: #1d6b86; --accent-soft: #d8e9ef;
+  --good: #2e8b57; --warn: #cf8a1c; --bad: #bf3f36; --neutral: #a3aab0;
+  --display: "Bricolage Grotesque", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  --body: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121518; --panel: #1a1f24; --fg: #e5e7e1; --muted: #9aa3ab; --line: #2d343b; --line-soft: #232a30;
+  --accent: #62b4cf; --accent-soft: #1e3640; --good: #4fb37a; --warn: #e0a43a; --bad: #e06a60; --neutral: #5f676e; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121518; --panel: #1a1f24; --fg: #e5e7e1; --muted: #9aa3ab; --line: #2d343b; --line-soft: #232a30;
+  --accent: #62b4cf; --accent-soft: #1e3640; --good: #4fb37a; --warn: #e0a43a; --bad: #e06a60; --neutral: #5f676e; color-scheme: dark }
+
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.5; margin: 0 }
+a { color: var(--accent) }
+.wrap { max-width: 1240px; margin: 0 auto; padding-block: 28px 64px; padding-inline: 20px }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; line-height: 1.1 }
+h1 { font-size: clamp(34px, 5vw, 58px); font-weight: 700; letter-spacing: -0.01em }
+h2 { font-size: clamp(22px, 2.6vw, 30px); font-weight: 700; margin-block: 0 6px }
+h3 { font-size: 17px; font-weight: 700 }
+p { max-width: 68ch }
+.lede { font-size: 17px; color: var(--fg); max-width: 78ch; margin-block: 12px 0 }
+.parts { max-width: 78ch; margin: 10px 0 0; padding-left: 22px; font-size: 16px; display: grid; gap: 3px }
+.parts a { font-weight: 600 }
+.summary p { max-width: 78ch; font-size: 16px }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted) }
+section { margin-top: 56px }
+.section-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 8px 24px; margin-bottom: 14px }
+.section-head p { color: var(--muted); margin: 0 }
+
+
+.controls { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; margin-bottom: 12px }
+.control { display: flex; align-items: center; gap: 8px; font-size: 14px }
+.control label { color: var(--muted) }
+select, button { font: inherit; font-size: 14px; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 5px 8px }
+select:focus-visible, button:focus-visible, .tile:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+button { cursor: pointer }
+button[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent) }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 2px solid var(--line); margin-bottom: 12px }
+.tabs button { border: 0; border-bottom: 3px solid transparent; border-radius: 0; background: none; padding: 8px 12px 7px; margin-bottom: -2px; font-family: var(--display); font-weight: 700; font-size: 15px; color: var(--muted) }
+.tabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent) }
+.tabs button:hover { color: var(--fg) }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden }
+.seg button { border: 0; border-radius: 0; background: var(--panel); padding: 5px 11px }
+.seg button + button { border-left: 1px solid var(--line) }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--fg) }
+.tile { cursor: pointer; stroke: var(--panel); stroke-width: 1.5; rx: 3 }
+.tile.selected { stroke: var(--fg); stroke-width: 2.5 }
+.tile.dim { opacity: 0.22 }
+.tile-label { font-size: 11px; fill: #fff; pointer-events: none; font-weight: 600; paint-order: stroke; stroke: rgba(0,0,0,0.3); stroke-width: 2px }
+.tile-label.ink { fill: var(--fg); stroke: none; font-weight: 500 }
+.stack-head { font-family: var(--display); font-weight: 700; font-size: 13px; fill: var(--fg) }
+.stack-count { font-family: var(--mono); font-size: 11px; fill: var(--muted) }
+.tree-head { fill: var(--line-soft); stroke: var(--line) }
+.map-layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 18px; align-items: start }
+@media (max-width: 900px) { .map-layout { grid-template-columns: minmax(0, 1fr) } }
+.map-panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px; min-width: 0 }
+#map { display: block; width: 100%; height: auto }
+.group-circle { fill: var(--line-soft); stroke: var(--line); stroke-width: 1 }
+.group-label { font-family: var(--display); font-weight: 700; font-size: 13px; fill: var(--fg); pointer-events: none; paint-order: stroke; stroke: var(--panel); stroke-width: 4px; stroke-linejoin: round }
+.group-count { font-family: var(--mono); font-size: 11px; fill: var(--muted); pointer-events: none }
+.leaf-label { font-size: 10px; fill: #fff; pointer-events: none; text-anchor: middle; font-weight: 600; paint-order: stroke; stroke: rgba(0,0,0,0.35); stroke-width: 2px }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; margin-top: 10px; color: var(--muted) }
+#legend { margin: 2px 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--line-soft) }
+.legend button { display: inline-flex; align-items: center; gap: 6px; border: 0; background: none; padding: 2px 4px; color: inherit }
+.legend button[aria-pressed="true"] { color: var(--fg); background: var(--accent-soft) }
+.swatch { width: 18px; height: 18px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; flex: none; color: #fff }
+.swatch.ink { color: var(--fg) }
+.swatch.dot { width: 11px; height: 11px }
+.swatch .ic { width: 12px; height: 12px; stroke-width: 2.4 }
+.ic { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.15em; flex: none }
+.tabs button .ic { width: 15px; height: 15px; margin-right: 6px; vertical-align: -2px }
+.facet h3 .ic { width: 16px; height: 16px; margin-right: 6px; vertical-align: -2px; color: var(--muted) }
+.legend .lead .ic { margin-right: 5px }
+.head-ic { fill: none; stroke: var(--fg); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; color: var(--fg); pointer-events: none }
+
+.detail { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; position: sticky; top: env(safe-area-inset-top, 0px); font-size: 14px; min-width: 0 }
+@media (max-width: 900px) { .detail { position: static } }
+.detail h3 { font-size: 19px; margin-bottom: 2px }
+.detail .host { font-family: var(--mono); font-size: 12px; color: var(--muted); word-break: break-all }
+.detail dl { display: grid; grid-template-columns: 7.5em 1fr; gap: 4px 10px; margin: 12px 0 0 }
+.detail dt { color: var(--muted) }
+.detail dd { margin: 0; min-width: 0; overflow-wrap: anywhere }
+.chips { display: flex; flex-wrap: wrap; gap: 4px }
+.chip { font-size: 12px; padding: 1px 7px; border-radius: 999px; background: var(--line-soft); border: 1px solid var(--line); white-space: nowrap }
+.chip.match { border-color: var(--good); color: var(--good) }
+.chip.partial, .chip.overlap { border-color: var(--warn); color: var(--warn) }
+.chip.mismatch { border-color: var(--bad); color: var(--bad) }
+.chip.no_overlap { border-color: var(--accent); color: var(--accent); border-style: dashed }
+.chip.site_only { border-color: var(--accent); color: var(--accent) }
+.flag { display: inline-flex; align-items: center; gap: 5px; margin-right: 10px }
+.dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block }
+.detail .empty { color: var(--muted) }
+.detail .links { margin-top: 12px; display: flex; gap: 14px; flex-wrap: wrap }
+
+.tooltip { position: fixed; pointer-events: none; background: var(--fg); color: var(--bg); padding: 7px 10px; border-radius: var(--radius); font-size: 13px; line-height: 1.35; max-width: 260px; z-index: 10; opacity: 0; transition: opacity .12s }
+.tooltip b { display: block }
+.tooltip .sub { opacity: 0.75; font-family: var(--mono); font-size: 11px }
+
+.facets { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px 28px }
+.facet h3 { margin-bottom: 6px }
+.facet .bar { display: flex; height: 22px; border-radius: 3px; overflow: hidden; background: var(--line-soft) }
+.facet .seg { height: 100%; min-width: 1px }
+.facet ul { list-style: none; padding: 0; margin: 6px 0 0; font-size: 13px; display: grid; gap: 2px }
+.facet li { display: flex; justify-content: space-between; gap: 10px; align-items: baseline }
+.facet li span:first-child { display: inline-flex; align-items: center; gap: 6px; min-width: 0 }
+.facet li b { font-variant-numeric: tabular-nums; font-weight: 600 }
+.facet li small { color: var(--muted) }
+
+.bars { width: 100%; display: block; height: auto }
+.bar-label { font-size: 12.5px; fill: var(--fg) }
+.bar-label.absent { fill: var(--muted) }
+.bar-value { font-family: var(--mono); font-size: 11px; fill: var(--muted) }
+.bar-rank { font-family: var(--mono); font-size: 11px; fill: var(--muted); text-anchor: end }
+.bar-rect { opacity: 0.9 }
+.grid-line { stroke: var(--line); stroke-dasharray: 2 3 }
+.axis-label { font-family: var(--mono); font-size: 11px; fill: var(--muted); text-anchor: middle }
+
+.heat-wrap { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px }
+table.heat { border-collapse: collapse; font-size: 13px; min-width: 760px }
+table.heat th { font-weight: 600; text-align: left; padding: 4px 8px; white-space: nowrap }
+table.heat thead th { font-family: var(--mono); font-size: 11px; color: var(--muted); font-weight: 500; writing-mode: vertical-rl; transform: rotate(180deg); text-align: left; padding: 6px 0; height: 110px; vertical-align: bottom }
+table.heat thead th:first-child { writing-mode: horizontal-tb; transform: none; height: auto; vertical-align: bottom }
+table.heat td { padding: 0; width: 34px; height: 30px; text-align: center; font-family: var(--mono); font-size: 11px; border: 1px solid var(--panel) }
+table.heat td span { display: block; width: 100%; height: 100%; line-height: 30px }
+table.heat th small { color: var(--muted); font-weight: 400 }
+
+.notes { font-size: 14px; color: var(--muted) }
+.notes p { max-width: 80ch }
+.uber { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 10px; grid-auto-flow: dense }
+.uber-el { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px 10px 9px; min-width: 0 }
+.uber-el.wide { grid-column: 1 / -1 }
+.uber-el h4 { font-family: var(--display); font-size: 14px; font-weight: 700; margin: 0 0 5px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px }
+.uber-el h4 small { font-family: var(--mono); font-size: 11px; font-weight: 400; color: var(--muted); letter-spacing: 0 }
+.chips { display: flex; flex-wrap: wrap; gap: 3px; font-size: 12px; line-height: 1.25 }
+.chip { display: inline-flex; align-items: center; gap: 4px; max-width: 100%; border: 1px solid var(--line); border-radius: 3px; padding: 1px 5px; background: var(--bg); color: var(--fg); cursor: default }
+.chip .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 42ch }
+.chip b { font-family: var(--mono); font-size: 10px; font-weight: 600; color: var(--muted); flex: none }
+.chip.wd { border-color: var(--accent); box-shadow: inset 2px 0 0 var(--accent) }
+.chip.wdonly { border-style: dashed; border-color: var(--accent); color: var(--muted) }
+.chip i.lang, .uber-key i.lang { font-style: normal; font-family: var(--mono); font-size: 9.5px; color: var(--muted); flex: none }
+.chip.hidden { display: none }
+.uber-key { margin: 0 0 10px; align-items: center; gap: 4px 8px }
+.uber-key .chip { pointer-events: none }
+.holdings { margin-top: 7px; border-top: 1px dashed var(--line); padding-top: 6px; font-size: 12px; display: grid; gap: 2px }
+.hold { display: grid; grid-template-columns: minmax(110px, 170px) 3.5em 1fr; gap: 6px; align-items: baseline; min-width: 0 }
+.hold > b { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer }
+.hold > b:hover { color: var(--accent) }
+.hold.picked > b { color: var(--accent) }
+.hold-card { position: relative; margin: 3px 0 8px; font-size: 13px; padding: 10px 14px 12px; border-color: var(--accent) }
+.hold-card h3 { font-size: 16px }
+.hold-card dl { grid-template-columns: 7.5em 1fr; margin-top: 8px; gap: 2px 10px }
+.hold-card .close { position: absolute; top: 6px; right: 8px; border: 0; background: none; font-size: 18px; line-height: 1; color: var(--muted); cursor: pointer; padding: 2px 6px }
+.hold-card .close:hover { color: var(--fg) }
+.hold .ext { text-decoration: none; font-size: 11px; color: var(--muted) }
+.hold .ext:hover { color: var(--accent) }
+.hold > small { font-family: var(--mono); font-size: 10px; color: var(--muted); text-align: right; white-space: nowrap }
+.hold > span { color: var(--muted); line-height: 1.35 }
+.hold > span .m { font-family: var(--mono); font-size: 10px; white-space: nowrap }
+.hold.hidden { display: none }
+.more { border: 0; background: none; padding: 1px 5px; font-size: 11px; font-family: var(--mono); color: var(--accent); cursor: pointer }
+.more:hover { text-decoration: underline }
+#uber-filter { font: inherit; font-size: 13px; padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--fg); width: 220px }
+.thumbs { display: flex; flex-wrap: wrap; gap: 3px; margin-bottom: 6px }
+.thumb { display: block; width: var(--thumb); height: var(--thumb); background-image: var(--sprite); background-repeat: no-repeat; background-size: var(--sprite-w) auto; border-radius: 2px; outline: 1px solid var(--line); outline-offset: -1px; image-rendering: auto }
+.thumb:hover { outline: 2px solid var(--accent); outline-offset: 0 }
+.thumb.wd { box-shadow: 0 0 0 2px var(--accent) }
+.thumb-note { font-size: 11px; color: var(--muted); font-family: var(--mono); margin: 2px 0 6px }
+.notes code { font-family: var(--mono); font-size: 12.5px }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Wikidata Bibliographic Identifiers</h1>
+    <p class="lede">The Identifier section on a Wikidata item is a useful directory of how that entity is represented in other databases, websites and systems. For building knowledge graphs and linking data these shared identifiers are potentially very powerful. But what kind of data is there, how reliable is it, what format is it provided in, what is the overlap? This analysis explores these questions for a very specific slice of Wikidata: bibliographic related names. This means a name, usually a person, that is involved in the creation of a book. I’ve singled out 1.76 million of these bibliographic names by filtering if they have a Library of Congress Name Authority Record identifier. To explore the content I’ve selected a single famous author, Mark Twain, and retrieved the data behind each of the 315 identifiers he has on his Wikidata item. This should represent the “best case scenario” of what these identifiers can potentially provide. There are six parts:</p>
+    <ol class="parts">
+      <li><a href="#map-section">Identifier Attributes</a>: all 315 identifiers broken down by different characteristics</li>
+      <li><a href="#uber-section">All Data View</a>: shows what’s available from each site and categorizes it for Mark Twain</li>
+      <li><a href="#behavior-section">Source Behavior</a>: summary of the categories</li>
+      <li><a href="#usage-section">Identifier Usage</a>: of the 1.76M, which identifiers are used</li>
+      <li><a href="#type-section">Source Type</a>: categorizes the identifier types</li>
+      <li><a href="#summary-section">Summary</a></li>
+    </ol>
+  </header>
+
+  <section id="map-section">
+    <div class="section-head">
+      <div><h2>Identifier Attributes</h2><p>One tile per identifier. Pick what to group by in the tabs, switch layout, colour by any facet; click a tile for its record.</p></div>
+    </div>
+    <nav class="tabs" id="group-tabs" role="tablist" aria-label="Group identifiers by"></nav>
+    <div class="controls">
+      <div class="control"><span>Layout</span><span class="seg" id="layout-seg" role="group" aria-label="Layout"></span></div>
+      <div class="control"><label for="color-by">Colour by</label><select id="color-by"></select></div>
+      <div class="control" id="size-control"><label for="size-by">Size by</label><select id="size-by"></select></div>
+    </div>
+    <div class="map-layout">
+      <div class="map-panel">
+        <div class="legend" id="legend"></div>
+        <svg id="map" role="img" aria-label="Circle-packed map of identifiers"></svg>
+      </div>
+      <aside class="detail" id="detail" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section id="uber-section">
+    <div class="section-head">
+      <div><h2>All Data View</h2><p>Every value the 315 sites state about Twain, merged by element and de-duplicated, with Wikidata's own values mixed in and marked. A number on a chip is how many sites state that value; hover for which ones. Long lists show the most repeated values, then each site's holdings with its first ten.</p></div>
+      <div class="control"><label for="uber-filter">Find</label><input id="uber-filter" type="search" placeholder="a value, e.g. Snodgrass" autocomplete="off"></div>
+    </div>
+    <div class="uber-key legend"><span class="chip"><span class="t">value</span><b>12</b></span> stated by 12 sites · <span class="chip wd"><span class="t">value</span><b>12</b></span> also on Wikidata · <span class="chip wdonly"><span class="t">value</span></span> Wikidata only · <i class="lang">ru</i> language of the value</div>
+    <div class="uber" id="uber"></div>
+  </section>
+
+  <section id="behavior-section">
+    <div class="section-head">
+      <div><h2>Source Behavior</h2><p>Counts of the 315 identifier properties (sites), from the crawl and the data fetches.</p></div>
+    </div>
+    <div class="facets" id="facets"></div>
+  </section>
+
+  <section id="usage-section">
+    <div class="section-head">
+      <div><h2>Identifier Usage</h2><p>Share of the <span id="p244-count"></span> Wikidata items with a Library of Congress ID (P244) that also carry each identifier, from QLever. Bars are tinted by what the Twain crawl found on that site.</p></div>
+      <div class="control"><button id="toggle-humans" aria-pressed="false">Humans only</button></div>
+    </div>
+    <div class="map-panel"><svg id="bars" class="bars" role="img" aria-label="Top identifiers on bibliographic entities"></svg></div>
+    <div class="legend" id="bars-legend"></div>
+  </section>
+
+  <section id="type-section">
+    <div class="section-head">
+      <div><h2>Source Type</h2><p>Share of the sites in each domain whose data files carried the element. Darker is more sites.</p></div>
+    </div>
+    <div class="heat-wrap"><table class="heat" id="heat"></table></div>
+  </section>
+
+  <section id="summary-section" class="summary">
+    <h2>Summary</h2>
+    <p>While the Identifiers section of a Wikidata item is mostly a mapping tool, a crosswalk between systems, there is some implied expectation that the links are being established to contribute value. The most interesting areas of comparison in my opinion are how to access data from the linked site, how that data is represented and how useful it is. Simply being able to access the external site programmatically is a basic requirement for being useful in a data ecosystem. Only about 50% of the sites would even respond to a cURL or Python request; the other half require a browser-like interaction to even serve up data. The form that data takes is also important: any sort of structure is good, of course highly semantic structure like RDF is perfect, but even just an ad-hoc JSON response would be fine. This analysis shows though that over one-third of the sites have no structure at all, just HTML. This introduces a high bar that would require parsing arbitrary HTML to produce structured data. And finally you would need a reason to want to parse it in the first place: how useful is the data? Usefulness in this case is being measured as containing information that is not present on Wikidata in some form. Not surprisingly for an author, most of the national libraries are useful in that they provide a listing of works related to Twain, compared to the majority of the sites which just repeat the same facts or a limited biography. Like most things it seems safe to say the identifiers follow the 80/20 rule, where most of the value would come from a limited set of identifiers. Regardless, simply having the place to make the connections, even if the sources don’t serve up data, is still a really valuable use case for Wikidata.</p>
+  </section>
+</div>
+<div class="tooltip" id="tooltip" role="status"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const DATA = /*__DATA__*/;
+const sites = DATA.sites;
+const byP = new Map(sites.map(s => [s.p, s]));
+
+// ---------- vocabularies ----------
+const DOMAIN_NAMES = {
+  "national-library": "National libraries", "library-catalogue": "Library catalogues", "authority-aggregator": "Authority aggregators",
+  "archives": "Archives", "museum-art": "Museums & art", "encyclopedia": "Encyclopedias", "genealogy": "Genealogy", "books-literature": "Books & literature",
+  "film-tv": "Film & TV", "music-audio": "Music & audio", "comics-games-anime": "Comics, games, anime", "web-social": "Web & social",
+  "research-academic": "Research & academic", "government-other": "Government & other", "unclassified": "Unclassified" };
+const DOMAIN_ORDER = Object.keys(DOMAIN_NAMES);
+const DOMAIN_COLORS = ["#1d6b86", "#4c8fb0", "#7a5aa6", "#9c6b2f", "#b8862b", "#3f8f6a", "#c05a7a", "#5e7d3a", "#c3533a", "#2f9aa1", "#b24d9c", "#d27e2c", "#5b6ab0", "#7f8790", "#a3aab0"];
+const ACCESS_LABELS = { "plain HTTP": "plain cURL", "HTTP with a User-Agent": "cURL with a User-Agent", "HTTP with browser headers": "cURL with browser headers", "plain HTTP, partly": "cURL, partly", "page blocks plain clients": "refuses every non-browser client", "JS-rendered page only": "served, but the record needs JavaScript", "no entity data": "nothing to get", "untested": "not tested" };
+function accessLabel(s) { return String(s).replace(/page blocks plain clients/g, "blocks every non-browser client").replace(/plain HTTP/g, "plain cURL"); }
+const ACCESS_ORDER = ["plain HTTP", "HTTP with a User-Agent", "HTTP with browser headers", "plain HTTP, partly", "page blocks plain clients", "browser session only", "JS-rendered page only", "untested", "no entity data"];
+const ACCESS_COLORS = ["#2a7f4f", "#5aa06e", "#2f7fb5", "#8bb9d1", "#c4860f", "#c2403a", "#8752c7", "#1f8a8a", "#a9adb3"];
+const FAMILY_ORDER = ["RDF", "library format", "embedded markup", "ad-hoc JSON/XML", "no structured data", "no entity data"];
+const FAMILY_COLORS = ["#1d6b86", "#7a5aa6", "#3f8f6a", "#cf8a1c", "#c05a7a", "#a3aab0"];
+const ADS_ORDER = ["ads served", "tracking only", "no third parties", "ad slots in markup, nothing loaded", "clean (no ads, no analytics)"];
+const ADS_COLORS = ["#bf3f36", "#cf8a1c", "#2e8b57", "#d4a56a", "#8fbf5a"];
+const RES_ORDER = ["ok", "login box", "wrong page", "http error", "load failed", "blocked"];
+const RES_COLORS = ["#2e8b57", "#cf8a1c", "#2f7fb5", "#bf3f36", "#8d5fc4", "#5c6670"];
+const POP_ORDER = ["≥ 25% of items", "10–25%", "1–10%", "0.1–1%", "< 0.1%"];
+const POP_COLORS = ["#0f4c5c", "#1d6b86", "#4c8fb0", "#8bb9d1", "#c7dbe6"];
+const USEFUL_ORDER = ["rich (score ≥ 20)", "substantial (10–20)", "modest (4–10)", "thin (< 4)", "nothing beyond Wikidata"];
+const USEFUL_COLORS = ["#0f4c5c", "#1d6b86", "#4c8fb0", "#8bb9d1", "#a3aab0"];
+const AUDIT_ORDER = ["his record, captured well", "his record, more on the page", "somebody else's record", "could not be reached", "not checked"];
+const AUDIT_COLORS = ["#2e8b57", "#cf8a1c", "#bf3f36", "#5c6670", "#a3aab0"];
+const WD_ORDER = ["agrees", "partly agrees", "mismatch somewhere", "nothing comparable"];
+const WD_COLORS = ["#2e8b57", "#cf8a1c", "#bf3f36", "#a3aab0"];
+
+function auditClass(s) {
+  const v = s.audit && s.audit.verdict;
+  if (!v) return AUDIT_ORDER[4];
+  return v === "incomplete" ? AUDIT_ORDER[1] : v === "wrong_record" ? AUDIT_ORDER[2] : v === "unreachable" ? AUDIT_ORDER[3] : AUDIT_ORDER[0];
+}
+function adsClass(s) {
+  if (s.ads === "ads served") return "ads served";
+  if (s.ads !== "none") return "ad slots in markup, nothing loaded";
+  if (s.third_party === 0) return "no third parties";
+  if (s.analytics > 0) return "tracking only";
+  return "clean (no ads, no analytics)";
+}
+function resClass(s) {
+  if (s.resolved) return "ok";
+  if (s.status.includes("wrong_page")) return "wrong page";
+  if (s.status.includes("login")) return "login box";
+  if (s.status.includes("http_error")) return "http error";
+  if (s.status.includes("blocked")) return "blocked";
+  return "load failed";
+}
+function popClass(s) {
+  const v = s.share ?? 0;
+  return v >= 25 ? POP_ORDER[0] : v >= 10 ? POP_ORDER[1] : v >= 1 ? POP_ORDER[2] : v >= 0.1 ? POP_ORDER[3] : POP_ORDER[4];
+}
+function usefulClass(s) {
+  const u = s.useful || 0;
+  return u >= 20 ? USEFUL_ORDER[0] : u >= 10 ? USEFUL_ORDER[1] : u >= 4 ? USEFUL_ORDER[2] : u > 0 ? USEFUL_ORDER[3] : USEFUL_ORDER[4];
+}
+function wdClass(s) {
+  const st = Object.values(s.wd || {});
+  if (!st.length) return WD_ORDER[3];
+  if (st.includes("mismatch")) return WD_ORDER[2];   // no_overlap (a work, occupation or relative Wikidata lacks) adds, it does not contradict
+  if (st.includes("match")) return st.includes("partial") ? WD_ORDER[1] : WD_ORDER[0];
+  return st.includes("partial") ? WD_ORDER[1] : WD_ORDER[3];
+}
+
+// ---------- icons (24-unit stroke glyphs) ----------
+const ICONS = {
+  landmark: '<path d="M3 22h18M5 22V11M19 22V11M9.5 22V11M14.5 22V11M2 11l10-7 10 7Z"/>',
+  "book-open": '<path d="M2 4h6a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2ZM22 4h-6a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h7Z"/>',
+  book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5ZM4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/>',
+  network: '<circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="19" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M12 7.5v4M12 11.5 6.5 17M12 11.5l5.5 5.5"/>',
+  archive: '<rect x="2" y="4" width="20" height="5" rx="1"/><path d="M4 9v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9M10 13h4"/>',
+  palette: '<circle cx="12" cy="12" r="9.5"/><circle cx="8" cy="9.5" r="1.3" fill="currentColor"/><circle cx="12" cy="6.5" r="1.3" fill="currentColor"/><circle cx="16" cy="9.5" r="1.3" fill="currentColor"/><path d="M12 21.5c-1.6 0-2.5-1-2.5-2.3 0-1.4 1-2.4 2.4-2.4h2.1a3 3 0 0 0 3-3"/>',
+  users: '<circle cx="9" cy="8" r="3.5"/><path d="M2 21v-1a6 6 0 0 1 12 0v1M16 4.5a3.5 3.5 0 0 1 0 7M22 21v-1a6 6 0 0 0-4-5.6"/>',
+  feather: '<path d="M20 4c-4-1-9 1-12 5s-4 11-4 11M4 20l9-9M8 16h5a4 4 0 0 0 3-1.5L20 10V4"/>',
+  film: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 3v18M17 3v18M3 8h4M3 16h4M17 8h4M17 16h4M7 12h10"/>',
+  music: '<path d="M9 18V6l11-2v12"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/>',
+  gamepad: '<rect x="2" y="6" width="20" height="12" rx="6"/><path d="M6 12h4M8 10v4M15 13h.01M18 11h.01"/>',
+  globe: '<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c3 3 3 16 0 19M12 2.5c-3 3-3 16 0 19"/>',
+  "graduation-cap": '<path d="M2 9l10-5 10 5-10 5ZM6 11.5V17c0 1.5 3 3 6 3s6-1.5 6-3v-5.5M22 9v6"/>',
+  building: '<rect x="4" y="2" width="16" height="20" rx="1"/><path d="M8 6h2M14 6h2M8 10h2M14 10h2M8 14h2M14 14h2M10 22v-4h4v4"/>',
+  "help-circle": '<circle cx="12" cy="12" r="9.5"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7M12 17h.01"/>',
+  unlock: '<rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 7.5-2"/>',
+  lock: '<rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',
+  "circle-half": '<circle cx="12" cy="12" r="9.5"/><path d="M12 2.5v19A9.5 9.5 0 0 0 12 2.5Z" fill="currentColor" stroke="none"/>',
+  pie: '<path d="M21.2 13.5A9.5 9.5 0 1 1 10.5 2.8M12 2.5a9.5 9.5 0 0 1 9.5 9.5H12Z"/>',
+  shield: '<path d="M12 2.5 4 5.5v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10v-6Z"/>',
+  "shield-check": '<path d="M12 2.5 4 5.5v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10v-6ZM8.5 12l2.5 2.5 4.5-5"/>',
+  cookie: '<path d="M21 12a9 9 0 1 1-9-9 3 3 0 0 0 3 3 3 3 0 0 0 3 3 3 3 0 0 0 3 3Z"/><path d="M8 10h.01M9 16h.01M14 15h.01M12 12h.01"/>',
+  monitor: '<rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/>',
+  code: '<path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/>',
+  "file-text": '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8ZM14 2v6h6M8 13h8M8 17h8"/>',
+  ban: '<circle cx="12" cy="12" r="9.5"/><path d="m5.3 5.3 13.4 13.4"/>',
+  "share-2": '<circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.6M8.2 13.2l7.6 4.6"/>',
+  tag: '<path d="M3 12.5V4a1 1 0 0 1 1-1h8.5l9 9-9.5 9.5Z"/><circle cx="7.5" cy="7.5" r="1.3" fill="currentColor"/>',
+  braces: '<path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1M16 21h1a2 2 0 0 0 2-2v-5a2 2 0 0 1 2-2 2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"/>',
+  "minus-circle": '<circle cx="12" cy="12" r="9.5"/><path d="M8 12h8"/>',
+  megaphone: '<path d="m3 11 16-6v14L3 13ZM3 11v2M19 10a2 2 0 0 1 0 4M6 13l1.5 7h3L9 13.8"/>',
+  eye: '<path d="M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>',
+  check: '<path d="m4 12.5 5 5L20 6.5"/>',
+  "layout-dashed": '<rect x="3" y="3" width="18" height="18" rx="2" stroke-dasharray="3 3"/><path d="M8 12h8"/>',
+  leaf: '<path d="M11 20A7 7 0 0 1 4 13c0-5 5-9 16-9 0 11-4 16-9 16ZM4 21c3-5 7-8 12-11"/>',
+  "user-x": '<circle cx="9" cy="8" r="3.5"/><path d="M2 21v-1a6.5 6.5 0 0 1 11-4.7M17 15l5 5M22 15l-5 5"/>',
+  "alert-triangle": '<path d="M12 3 2 20h20ZM12 10v4M12 17h.01"/>',
+  "x-octagon": '<path d="M7.9 2.5h8.2l5.4 5.4v8.2l-5.4 5.4H7.9l-5.4-5.4V7.9ZM9 9l6 6M15 9l-6 6"/>',
+  "wifi-off": '<path d="M2 8.5a16 16 0 0 1 5-3M8.5 5.3A16 16 0 0 1 22 8.5M5 12.5a11 11 0 0 1 4-2.4M11.6 9.6A11 11 0 0 1 19 12.5M8.5 16.5a6 6 0 0 1 7 0M12 20h.01M2 2l20 20"/>',
+  gem: '<path d="M6 3h12l4 6-10 12L2 9ZM2 9h20M10 3l-2 6 4 12M14 3l2 6-4 12"/>',
+  copy: '<rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/>',
+  "check-circle": '<circle cx="12" cy="12" r="9.5"/><path d="m8 12.5 3 3 5.5-6"/>',
+  "x-circle": '<circle cx="12" cy="12" r="9.5"/><path d="m9 9 6 6M15 9l-6 6"/>',
+  key: '<circle cx="7.5" cy="15.5" r="4.5"/><path d="m10.8 12.2 9.2-9.2M15 8l3 3M18 5l3 3"/>',
+  "bar-chart": '<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',
+  sparkle: '<path d="M12 3c.6 4.5 2.5 6.4 7 7-4.5.6-6.4 2.5-7 7-.6-4.5-2.5-6.4-7-7 4.5-.6 6.4-2.5 7-7ZM19 16l.6 1.8 1.9.6-1.9.6-.6 1.8-.6-1.8-1.9-.6 1.9-.6Z"/>',
+  scale: '<path d="M12 3v18M6 21h12M12 6 4 8m8-2 8 2M4 8l-2.5 6a3.5 3.5 0 0 0 5 0ZM20 8l-2.5 6a3.5 3.5 0 0 0 5 0Z"/>',
+  "clipboard-check": '<rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 4V3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1M9 13l2 2 4-4"/>',
+  link: '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1.5 1.5M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1.5-1.5"/>',
+};
+for (let n = 1; n <= 5; n++) ICONS["bars-" + n] = [1, 2, 3, 4, 5].map(i => { const h = 6 + (i - 1) * 3.5; return `<rect x="${(1.5 + (i - 1) * 4.4).toFixed(1)}" y="${(22 - h).toFixed(1)}" width="3.2" height="${h}" rx="1" ${i <= n ? 'fill="currentColor" stroke="none"' : 'opacity="0.35"'}/>`; }).join("");
+function icon(name, cls) { return `<svg class="ic${cls ? " " + cls : ""}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[name] || ICONS["help-circle"]}</svg>`; }
+function chip(color, name) { return `<span class="swatch ${textInk(color)}" style="background:${color}">${icon(name)}</span>`; }
+// SVG-side version: appends a <g> carrying the glyph, scaled from 24 units to `size` px.
+function svgIcon(sel, name, size) { return sel.append("g").attr("class", "head-ic").attr("transform", d => `scale(${size / 24})`).html(ICONS[name] || ICONS["help-circle"]); }
+const DOMAIN_ICONS = { "national-library": "landmark", "library-catalogue": "book-open", "authority-aggregator": "network", "archives": "archive", "museum-art": "palette",
+  "encyclopedia": "book", "genealogy": "users", "books-literature": "feather", "film-tv": "film", "music-audio": "music", "comics-games-anime": "gamepad",
+  "web-social": "globe", "research-academic": "graduation-cap", "government-other": "building", "unclassified": "help-circle" };
+const ACCESS_ICONS = { "plain HTTP": "unlock", "HTTP with a User-Agent": "tag", "HTTP with browser headers": "monitor", "plain HTTP, partly": "circle-half", "page blocks plain clients": "shield",
+  "browser session only": "cookie", "JS-rendered page only": "code", "untested": "help-circle", "no entity data": "ban" };
+const FAMILY_ICONS = { "RDF": "share-2", "library format": "book", "embedded markup": "tag", "ad-hoc JSON/XML": "braces", "no structured data": "file-text", "no entity data": "minus-circle" };
+const ADS_ICONS = { "ads served": "megaphone", "tracking only": "eye", "no third parties": "check", "ad slots in markup, nothing loaded": "layout-dashed", "clean (no ads, no analytics)": "leaf" };
+const RES_ICONS = { "ok": "check", "login box": "lock", "wrong page": "user-x", "http error": "alert-triangle", "load failed": "x-octagon", "blocked": "ban" };
+const POP_ICONS = { "≥ 25% of items": "bars-5", "10–25%": "bars-4", "1–10%": "bars-3", "0.1–1%": "bars-2", "< 0.1%": "bars-1" };
+const USEFUL_ICONS = { "rich (score ≥ 20)": "bars-5", "substantial (10–20)": "bars-4", "modest (4–10)": "bars-3", "thin (< 4)": "bars-2", "nothing beyond Wikidata": "minus-circle" };
+const AUDIT_ICONS = { "his record, captured well": "check-circle", "his record, more on the page": "pie", "somebody else's record": "user-x", "could not be reached": "wifi-off", "not checked": "minus-circle" };
+const WD_ICONS = { "agrees": "check-circle", "partly agrees": "circle-half", "mismatch somewhere": "x-circle", "nothing comparable": "minus-circle" };
+
+const FACETS = {
+  domain: { name: "Domain of the site", icon: "landmark", icons: DOMAIN_ICONS, order: DOMAIN_ORDER, colors: DOMAIN_COLORS, of: s => s.domain, label: k => DOMAIN_NAMES[k] || k },
+  access: { name: "How a machine can get the data", icon: "key", icons: ACCESS_ICONS, order: ACCESS_ORDER, colors: ACCESS_COLORS, of: s => s.access_group, label: k => ACCESS_LABELS[k] || k },
+  family: { name: "Kind of data serialisation", icon: "braces", icons: FAMILY_ICONS, order: FAMILY_ORDER, colors: FAMILY_COLORS, of: s => s.format_family },
+  ads: { name: "Ads and tracking", icon: "megaphone", icons: ADS_ICONS, order: ADS_ORDER, colors: ADS_COLORS, of: adsClass },
+  res: { name: "Did the page resolve", icon: "link", icons: RES_ICONS, order: RES_ORDER, colors: RES_COLORS, of: resClass },
+  pop: { name: "Popularity on bibliographic items", icon: "bar-chart", icons: POP_ICONS, order: POP_ORDER, colors: POP_COLORS, of: popClass },
+  useful: { name: "Useful beyond Wikidata", icon: "gem", icons: USEFUL_ICONS, order: USEFUL_ORDER, colors: USEFUL_COLORS, of: usefulClass },
+  wd: { name: "Agreement with Wikidata", icon: "scale", icons: WD_ICONS, order: WD_ORDER, colors: WD_COLORS, of: wdClass },
+  audit: { name: "Is the page his record?", icon: "clipboard-check", icons: AUDIT_ICONS, order: AUDIT_ORDER, colors: AUDIT_COLORS, of: auditClass },
+};
+for (const f of Object.values(FACETS)) { f.scale = d3.scaleOrdinal().domain(f.order).range(f.colors); f.label = f.label || (k => k); f.iconOf = k => (f.icons || {})[k] || f.icon; }
+const SIZES = {
+  pop: { name: "popularity on bibliographic items", of: s => 1 + Math.sqrt(s.share ?? 0) * 3 },
+  values: { name: "values about Twain", of: s => 1 + Math.sqrt(s.values) },
+  equal: { name: "equal", of: () => 1 },
+};
+
+// ---------- meta ----------
+const meta = DATA.meta;
+d3.select("#p244-count").text(d3.format(",")(meta.p244_items));
+
+// ---------- controls ----------
+const LAYOUTS = { stacks: "Stacks", treemap: "Treemap", bubbles: "Bubbles" };
+const colorSel = d3.select("#color-by"), sizeSel = d3.select("#size-by");
+colorSel.selectAll("option").data(Object.entries(FACETS)).join("option").attr("value", d => d[0]).text(d => d[1].name);
+sizeSel.selectAll("option").data(Object.entries(SIZES)).join("option").attr("value", d => d[0]).text(d => d[1].name);
+let groupBy = "domain", colorBy = "access", sizeBy = "pop", layout = "stacks", selected = null, hiddenKeys = new Set();
+try { const st = JSON.parse(localStorage.getItem("atlas-view") || "{}"); if (FACETS[st.g]) groupBy = st.g; if (FACETS[st.c]) colorBy = st.c; if (SIZES[st.s]) sizeBy = st.s; if (LAYOUTS[st.l]) layout = st.l; } catch (e) {}
+colorSel.property("value", colorBy); sizeSel.property("value", sizeBy);
+function remember() { try { localStorage.setItem("atlas-view", JSON.stringify({ g: groupBy, c: colorBy, s: sizeBy, l: layout })); } catch (e) {} }
+const tabs = d3.select("#group-tabs");
+function drawTabs() {
+  tabs.selectAll("button").data(Object.entries(FACETS)).join("button").attr("role", "tab").attr("id", d => "tab-" + d[0])
+    .attr("aria-selected", d => String(d[0] === groupBy)).html(d => icon(d[1].icon) + d[1].name)
+    .on("click", (ev, d) => { groupBy = d[0]; if (colorBy === groupBy) { colorBy = groupBy === "access" ? "family" : "access"; colorSel.property("value", colorBy); hiddenKeys = new Set(); } remember(); drawTabs(); drawMap(); });
+}
+const seg = d3.select("#layout-seg");
+function drawSeg() {
+  seg.selectAll("button").data(Object.entries(LAYOUTS)).join("button").attr("aria-pressed", d => String(d[0] === layout)).text(d => d[1])
+    .on("click", (ev, d) => { layout = d[0]; remember(); drawSeg(); drawMap(); });
+  d3.select("#size-control").style("display", layout === "stacks" ? "none" : null);
+}
+colorSel.on("change", () => { colorBy = colorSel.property("value"); hiddenKeys = new Set(); remember(); drawMap(); });
+sizeSel.on("change", () => { sizeBy = sizeSel.property("value"); remember(); drawMap(); });
+
+// ---------- map ----------
+const svg = d3.select("#map");
+const tooltip = d3.select("#tooltip");
+function shortLabel(s) {
+  let t = s.label.replace(/\s*\((.*?)\)\s*/g, " ").replace(/\b(ID|identifier|person ID|author ID|artist ID|profile ID|people ID|entity ID|person or company ID|authority ID|person\/organization ID)\b\s*$/i, "");
+  t = t.replace(/^Library of Congress Authorities/, "LC Authorities").replace(/^National Library of (?:the )?([^,]+?)(?: \((.*?)\))?( [A-Z][A-Za-z]+)?$/, (m, c, q, x) => `${c} NL${x ? x : ""}`)
+       .replace(/^Bibliothèque nationale de France/, "BnF").replace(/^Nationale Thesaurus voor Auteursnamen/, "NTA").replace(/^U\.S\. National Archives Identifier/, "US National Archives")
+       .replace(/^Encyclopædia /, "Enc. ").replace(/^Gran Enciclopèdia Catalana/, "Enc. Catalana").replace(/^Union List of Artist Names/, "ULAN");
+  return t.replace(/\s+/g, " ").trim();
+}
+function fit(text, px, size) { const max = Math.floor(px / (size * 0.56)); return text.length > max ? (max < 4 ? "" : text.slice(0, max - 1) + "…") : text; }
+function textInk(hex) { const c = d3.color(hex); if (!c) return "ink"; const l = 0.2126 * c.r + 0.7152 * c.g + 0.0722 * c.b; return l > 165 ? "ink" : ""; }
+function leafAttrs(sel, colorF) {
+  sel.attr("class", d => "tile" + (selected === d.data.p ? " selected" : "") + (hiddenKeys.has(colorF.of(d.data)) ? " dim" : ""))
+    .attr("fill", d => colorF.scale(colorF.of(d.data)))
+    .attr("tabindex", 0).attr("role", "button").attr("aria-label", d => d.data.label)
+    .on("mousemove", (ev, d) => showTip(ev, d.data)).on("mouseleave", hideTip)
+    .on("click", (ev, d) => select(d.data.p)).on("keydown", (ev, d) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(d.data.p); } });
+}
+function groupedSites(facet, colorF) {
+  // sites in each group, ordered so the colour classes read as contiguous runs, most popular first within a class
+  return d3.groups(sites, facet.of).sort((a, b) => facet.order.indexOf(a[0]) - facet.order.indexOf(b[0]))
+    .map(([k, v]) => [k, v.slice().sort((a, b) => colorF.order.indexOf(colorF.of(a)) - colorF.order.indexOf(colorF.of(b)) || (b.share ?? 0) - (a.share ?? 0))]);
+}
+
+function drawMap() {
+  const facet = FACETS[groupBy], colorF = FACETS[colorBy], sizeF = SIZES[sizeBy];
+  const width = Math.max(320, svg.node().parentNode.clientWidth - 20);
+  svg.selectAll("*").remove();
+  if (layout === "stacks") drawStacks(facet, colorF, width);
+  else if (layout === "treemap") drawTreemap(facet, colorF, sizeF, width);
+  else drawBubbles(facet, colorF, sizeF, width);
+  drawLegend(colorF);
+}
+
+// Stacks: every identifier is a labelled chip; each group is a block of chip columns, blocks flow left to right and wrap.
+function drawStacks(facet, colorF, width) {
+  const chipW = width < 520 ? 104 : 118, chipH = 20, gapX = 4, gapY = 3, headH = 34, blockGap = 22, maxRows = width < 520 ? 12 : 18;
+  const groups = groupedSites(facet, colorF).map(([k, v]) => {
+    const cols = Math.max(1, Math.ceil(v.length / maxRows)), rows = Math.ceil(v.length / cols);
+    return { key: k, items: v, cols, rows, w: cols * (chipW + gapX) - gapX, h: headH + rows * (chipH + gapY) };
+  });
+  // flow the blocks into lines
+  let x = 0, y = 0, lineH = 0;
+  for (const gp of groups) {
+    if (x > 0 && x + gp.w > width) { x = 0; y += lineH + blockGap; lineH = 0; }
+    gp.x = x; gp.y = y; x += gp.w + blockGap; lineH = Math.max(lineH, gp.h);
+  }
+  const height = y + lineH + 4;
+  svg.attr("viewBox", `0 0 ${width} ${height}`).attr("width", width).attr("height", height);
+  const blocks = svg.selectAll("g.block").data(groups).join("g").attr("class", "block").attr("transform", d => `translate(${d.x},${d.y})`);
+  blocks.each(function (d) { svgIcon(d3.select(this), facet.iconOf(d.key), 14).attr("transform", "translate(0,1) scale(0.5833)"); });
+  blocks.append("text").attr("class", "stack-head").attr("x", 19).attr("y", 13).text(d => fit(facet.label(d.key), d.w - 19, 13));
+  blocks.append("text").attr("class", "stack-count").attr("x", 0).attr("y", 27).text(d => d.items.length + (d.items.length === 1 ? " site" : " sites"));
+  const chips = blocks.selectAll("g.chip").data(d => d.items.map((s, i) => ({ data: s, i, rows: d.rows }))).join("g").attr("class", "chip-g")
+    .attr("transform", d => `translate(${Math.floor(d.i / d.rows) * (chipW + gapX)},${headH + (d.i % d.rows) * (chipH + gapY)})`);
+  leafAttrs(chips.append("rect").attr("width", chipW).attr("height", chipH), colorF);
+  chips.append("text").attr("class", d => "tile-label " + textInk(colorF.scale(colorF.of(d.data)))).attr("x", 6).attr("y", 14).text(d => fit(shortLabel(d.data), chipW - 10, 11));
+}
+
+// Treemap: area = chosen size; groups are bands with a header strip.
+function drawTreemap(facet, colorF, sizeF, width) {
+  const height = Math.round(Math.min(Math.max(width * 0.7, 460), 760));
+  svg.attr("viewBox", `0 0 ${width} ${height}`).attr("width", width).attr("height", height);
+  const groups = groupedSites(facet, colorF);
+  const root = d3.hierarchy({ children: groups.map(([k, v]) => ({ key: k, children: v })) }).sum(d => d.p ? sizeF.of(d) : 0).sort((a, b) => b.value - a.value);
+  d3.treemap().size([width, height]).paddingOuter(3).paddingTop(20).paddingInner(2).round(true)(root);
+  const grp = svg.selectAll("g.group").data(root.children).join("g").attr("class", "group");
+  grp.append("rect").attr("class", "tree-head").attr("x", d => d.x0).attr("y", d => d.y0).attr("width", d => d.x1 - d.x0).attr("height", d => d.y1 - d.y0);
+  grp.filter(d => d.x1 - d.x0 > 40).each(function (d) { svgIcon(d3.select(this), facet.iconOf(d.data.key), 14).attr("transform", `translate(${d.x0 + 5},${d.y0 + 3}) scale(0.5833)`); });
+  grp.append("text").attr("class", "stack-head").attr("x", d => d.x0 + 24).attr("y", d => d.y0 + 14).text(d => fit(`${facet.label(d.data.key)} · ${d.children.length}`, d.x1 - d.x0 - 28, 13));
+  const leaves = svg.selectAll("g.leaf").data(root.leaves()).join("g").attr("class", "leaf-g");
+  leafAttrs(leaves.append("rect").attr("x", d => d.x0).attr("y", d => d.y0).attr("width", d => Math.max(1, d.x1 - d.x0)).attr("height", d => Math.max(1, d.y1 - d.y0)), colorF);
+  leaves.filter(d => d.x1 - d.x0 > 34 && d.y1 - d.y0 > 15).append("text").attr("class", d => "tile-label " + textInk(colorF.scale(colorF.of(d.data))))
+    .attr("x", d => d.x0 + 4).attr("y", d => d.y0 + 13).text(d => fit(shortLabel(d.data), d.x1 - d.x0 - 8, 11));
+}
+
+// Bubbles: circle packing, as before.
+function drawBubbles(facet, colorF, sizeF, width) {
+  const height = Math.round(Math.min(Math.max(width * 0.72, 420), 760));
+  svg.attr("viewBox", `0 0 ${width} ${height}`).attr("width", width).attr("height", height);
+  const groups = groupedSites(facet, colorF);
+  const root = d3.hierarchy({ children: groups.map(([k, v]) => ({ key: k, children: v })) }).sum(d => d.p ? sizeF.of(d) : 0).sort((a, b) => b.value - a.value);
+  d3.pack().size([width, height]).padding(d => d.depth === 0 ? 22 : 2.5)(root);
+  const g = svg.append("g");
+  const grp = g.selectAll("g.group").data(root.children).join("g").attr("class", "group");
+  grp.append("circle").attr("class", "group-circle").attr("cx", d => d.x).attr("cy", d => d.y).attr("r", d => d.r);
+  grp.filter(d => d.r > 14).each(function (d) {
+    const label = fit(facet.label(d.data.key), Math.max(70, d.r * 2.6), 13), w = label.length * 13 * 0.56 + 18, x0 = d.x - w / 2;
+    svgIcon(d3.select(this), facet.iconOf(d.data.key), 14).attr("transform", `translate(${x0},${d.y - d.r - 16}) scale(0.5833)`);
+    d3.select(this).append("text").attr("class", "group-label").attr("x", x0 + 18).attr("y", d.y - d.r - 5).text(label);
+  });
+  grp.filter(d => d.r > 40).append("text").attr("class", "group-count").attr("x", d => d.x).attr("y", d => d.y - d.r + 13).attr("text-anchor", "middle").text(d => d.children.length + " sites");
+  leafAttrs(g.selectAll("circle.tile").data(root.leaves()).join("circle").attr("cx", d => d.x).attr("cy", d => d.y).attr("r", d => d.r), colorF);
+  g.selectAll("text.leaf-label").data(root.leaves().filter(d => d.r >= 15)).join("text").attr("class", "leaf-label")
+    .attr("x", d => d.x).attr("y", d => d.y + 3.5).text(d => fit(shortLabel(d.data), d.r * 1.8, 10));
+}
+function drawLegend(colorF) {
+  const counts = d3.rollup(sites, v => v.length, colorF.of);
+  const lg = d3.select("#legend");
+  lg.selectAll("*").remove();
+  lg.append("span").attr("class", "lead").html(icon(colorF.icon) + "Colour: " + colorF.name.replace(/\?$/, "") + ". Click a swatch to dim the rest.");
+  lg.selectAll("button").data(colorF.order.filter(k => counts.get(k))).join("button")
+    .attr("aria-pressed", k => hiddenKeys.size && !hiddenKeys.has(k) ? "true" : "false")
+    .html(k => `${chip(colorF.scale(k), colorF.iconOf(k))}${colorF.label(k)} <small>${counts.get(k)}</small>`)
+    .on("click", (ev, k) => {
+      const others = colorF.order.filter(o => o !== k);
+      if (hiddenKeys.size && !hiddenKeys.has(k) && others.every(o => hiddenKeys.has(o) || !counts.get(o))) hiddenKeys = new Set();
+      else hiddenKeys = new Set(others);
+      drawMap();
+    });
+}
+function showTip(ev, s) {
+  const pop = s.share != null ? `${s.share}% of P244 items · rank ${s.rank}` : "not counted";
+  tooltip.style("opacity", 1).html(`<b>${s.label}</b><span class="sub">${s.p} · ${s.host}</span>${DOMAIN_NAMES[s.domain] || s.domain} · ${accessLabel(s.access_group)}${s.has_data ? ` · ${s.values} values` : ""}<br>${pop}`);
+  const x = Math.min(ev.clientX + 14, window.innerWidth - 280), y = Math.min(ev.clientY + 14, window.innerHeight - 90);
+  tooltip.style("left", x + "px").style("top", y + "px");
+}
+function hideTip() { tooltip.style("opacity", 0); }
+
+// ---------- detail panel ----------
+const detail = d3.select("#detail");
+function select(p) {
+  selected = p === selected ? null : p;
+  if (selected) { try { history.replaceState(null, "", "#" + selected); } catch (e) {} }
+  svg.selectAll(".tile").classed("selected", d => d.data.p === selected);
+  renderDetail();
+}
+const TIER_NAMES = { curl: "plain cURL", ua: "cURL with a User-Agent", browser: "cURL with browser headers" };
+function clientRows(s) {
+  if (!s.client) return "";
+  const show = s.client.targets.slice(0, 4).map(t => {
+    const what = t.kind === "page" ? "the page" : `${t.format || t.kind} file`;
+    const got = Object.entries(t.got).map(([k, v]) => `${TIER_NAMES[k]}: ${v}`).join(" · ");
+    return `<span class="flag" style="display:block">${what} → ${t.tier ? `served to ${TIER_NAMES[t.tier]}` : "no client got the record"} <small style="color:var(--muted)">(${got})</small></span>`;
+  }).join("");
+  return `<br>${show}`;
+}
+function checkedText(s) {
+  const v = s.audit && s.audit.verdict;
+  if (!v) return "not independently checked";
+  if (v === "incomplete") return "The page is his record; it holds more about him than is captured here.";
+  if (v === "wrong_record") return "The page is not his record.";
+  if (v === "unreachable") return "The page could not be reached, so there was nothing to check.";
+  return "The page is his record and the values here reflect what it shows.";
+}
+function flag(on, label, color) { return `<span class="flag"><span class="dot" style="background:${on ? color : "var(--line)"}"></span>${label}</span>`; }
+function renderDetail() {
+  const s = byP.get(selected);
+  if (!s) { detail.html(`<h3>Pick an identifier</h3><p class="empty">Click any tile on the map. The panel shows what the site exposed, how it was reached, and how it compares with Wikidata.</p>`); return; }
+  detail.html(detailHtml(s));
+}
+function detailHtml(s) {
+  const chips = s.elements.length ? s.elements.map(e => `<span class="chip ${s.wd[e] || ""}" title="${s.wd[e] || "not compared"}">${e.replace(/_/g, " ")}</span>`).join("") : `<span class="empty">no entity data retrieved</span>`;
+  const WD_WORDS = { match: "agree", partial: "partly agree", mismatch: "disagree", overlap: "share some values", no_overlap: "add values Wikidata lacks", site_only: "add values Wikidata lacks", present: null, uri_or_label_only: null };
+  const wdParts = d3.rollups(Object.entries(s.wd).filter(d => WD_WORDS[d[1]]), v => v.length, d => WD_WORDS[d[1]]).map(([k, n]) => `${n} ${n === 1 ? "element" : "elements"} ${k}`);
+  const wdSummary = wdParts.length ? wdParts.join(", ") : "nothing comparable";
+  return `
+    <h3>${s.label}</h3>
+    <div class="host">${s.p} · ${s.host}</div>
+    <dl>
+      <dt>Domain</dt><dd>${DOMAIN_NAMES[s.domain] || s.domain}${s.region ? ` · ${s.region}` : ""}</dd>
+      <dt>Popularity</dt><dd>${s.share != null ? `${s.share}% of P244 items (rank ${s.rank} of ${meta.ext_id_properties})` : "—"}</dd>
+      <dt>Page</dt><dd>${s.status}${s.pages > 1 ? ` (${s.pages} pages)` : ""}${s.load_s ? ` · ${s.load_s}s load` : ""} · ${s.html_kb} KB HTML${s.wrong_page_reason ? `<br><span class="flag" style="color:var(--warn)">${s.wrong_page_reason}</span>` : ""}${s.status_note ? `<br><span class="flag">${s.status_note}</span>` : ""}</dd>
+      <dt>Walls</dt><dd>${flag(s.challenge, "challenge widget", "var(--warn)")}${flag(s.login, "login box", "var(--warn)")}${flag(s.consent, "consent banner", "var(--neutral)")}</dd>
+      <dt>Third parties</dt><dd>${flag(s.ads === "ads served", s.ad_hosts + " ad hosts", "var(--bad)")}${flag(s.analytics > 0, s.analytics + " analytics", "var(--warn)")}<span class="flag">${s.third_party} hosts total</span></dd>
+      <dt>Access</dt><dd>${accessLabel(s.access)}${clientRows(s)}</dd>
+      <dt>Formats</dt><dd>${s.formats.length ? s.formats.join(", ") : "—"}</dd>
+      <dt>Reached via</dt><dd>${s.mechanisms.length ? s.mechanisms.join("; ") : "—"}</dd>
+      <dt>Elements</dt><dd><div class="chips">${chips}</div></dd>
+      <dt>vs Wikidata</dt><dd>${wdSummary}</dd>
+      <dt>Beyond Wikidata</dt><dd>${s.useful ? `score <b>${s.useful}</b> (${usefulClass(s).replace(/ \(.*\)/, "")}) from ${s.beyond_wd} values: ${Object.entries(s.useful_by).slice(0, 6).map(([k, n]) => `${n} ${k.replace(/_/g, " ")}`).join(", ")}${Object.keys(s.useful_by).length > 6 ? ", …" : ""}` : "nothing Wikidata does not already hold"}</dd>
+      <dt>Checked</dt><dd>${checkedText(s)}</dd>
+      <dt>Volume</dt><dd>${s.values} values (${s.values - (s.page_values || 0)} from structured data, ${s.page_values || 0} read off the page) · ${s.n_elements} elements · ${s.languages} languages${s.unique_share != null && s.descriptive_values ? ` · ${Math.round(s.unique_share * 100)}% unique to this site` : ""}</dd>
+    </dl>
+    <div class="links">${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">Open the page</a>` : ""}<a href="https://www.wikidata.org/wiki/Property:${s.p}" target="_blank" rel="noopener">Property on Wikidata</a></div>`;
+}
+
+// ---------- facets ----------
+function drawFacets() {
+  const keys = ["audit", "res", "access", "family", "ads", "useful", "wd"];
+  const box = d3.select("#facets");
+  const cards = box.selectAll("div.facet").data(keys).join("div").attr("class", "facet");
+  cards.each(function (k) {
+    const f = FACETS[k];
+    const counts = d3.rollup(sites, v => v.length, f.of);
+    const rows = f.order.filter(o => counts.get(o)).map(o => ({ k: o, n: counts.get(o) }));
+    const el = d3.select(this);
+    el.html(`<h3>${icon(f.icon)}${f.name}</h3><div class="bar"></div><ul></ul>`);
+    el.select(".bar").selectAll("div").data(rows).join("div").attr("class", "seg").style("width", d => (100 * d.n / sites.length) + "%").style("background", d => f.scale(d.k)).attr("title", d => `${f.label(d.k)}: ${d.n}`);
+    el.select("ul").selectAll("li").data(rows).join("li").html(d => `<span>${chip(f.scale(d.k), f.iconOf(d.k))}${f.label(d.k)}</span><span><b>${d.n}</b> <small>${Math.round(100 * d.n / sites.length)}%</small></span>`);
+  });
+}
+
+// ---------- everything the sites say about him ----------
+const HOLD_SHOW = 12;
+function chipShow(b) { return b.wide ? 70 : 40; }
+function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
+function chipHtml(c, cls) {
+  return `<span class="chip${cls || ""}${c.wd ? " wd" : ""}" data-n="${c.n || 0}"><span class="t" title="${esc(c.v)}">${esc(c.v)}</span>${c.lang ? `<i class="lang">${esc(c.lang)}</i>` : ""}${c.n ? `<b>${c.n}</b>` : ""}</span>`;
+}
+function drawUber() {
+  const U = DATA.uber; if (!U) return;
+  const box = d3.select("#uber");
+  const blocks = box.selectAll("div.uber-el").data(U.blocks).join("div").attr("class", d => "uber-el" + (d.wide ? " wide" : "")).attr("id", d => "uber-" + d.el);
+  blocks.each(function (b) {
+    const el = d3.select(this);
+    const stats = [`${d3.format(",")(b.total)} values`, `${b.sites} sites`, `${d3.format(",")(b.distinct)} distinct`, b.list && b.chips.length ? `${b.chips.length} stated by 2+ sites` : null, b.wd_n ? `Wikidata ${b.wd_n}` : "not on Wikidata", b.wd_sites_agree ? `${b.wd_sites_agree} shared` : null].filter(Boolean).join(" · ");
+    el.html(`<h4>${b.title} <small>${stats}</small></h4>${b.sprite ? `<div class="thumbs"></div><div class="thumb-note"></div>` : ""}<div class="chips"></div>${b.list && b.holdings.length ? `<div class="holdings"></div>` : ""}`);
+    if (b.sprite) drawThumbs(el, b);
+    const chips = el.select(".chips");
+    const shown = b.sprite ? new Set(b.sprite.items.filter(x => x.i != null).map(x => x.url)) : null;   // images in the sprite need no chip
+    chips.selectAll("span.chip").data(b.chips.filter(c => !shown || !shown.has(c.v)).map((c, i) => ({ ...c, i })).concat(b.sprite ? [] : b.wd_only.map(c => ({ ...c, wdonly: true })))).join("span")
+      .attr("class", d => "chip" + (d.wd ? " wd" : "") + (d.wdonly ? " wdonly" : "")).attr("data-i", d => d.i == null ? -1 : d.i)
+      .html(d => `<span class="t">${esc(d.v)}</span>${d.lang ? `<i class="lang">${esc(d.lang)}</i>` : ""}${d.n ? `<b>${d.n}</b>` : ""}`)
+      .on("mousemove", (ev, d) => {
+        const who = d.wdonly ? "On Wikidata; no crawled site states it." : (d.p.slice(0, 14).map(p => U.labels[p] || p).join(", ") + (d.p.length > 14 ? ` and ${d.p.length - 14} more` : ""));
+        tooltip.style("opacity", 1).html(`<b>${esc(d.v)}</b>${d.lang ? `<span class="sub">language: ${esc(d.lang)}</span>` : ""}${d.wdonly ? "" : `<span class="sub">${d.n} site${d.n === 1 ? "" : "s"}${d.wd ? " · also on Wikidata" : ""}</span>`}${who}`);
+        const x = Math.min(ev.clientX + 14, window.innerWidth - 300), y = Math.min(ev.clientY + 14, window.innerHeight - 120);
+        tooltip.style("left", x + "px").style("top", y + "px");
+      }).on("mouseleave", () => tooltip.style("opacity", 0));
+    if (b.holdings.length) {
+      const h = el.select(".holdings");
+      h.selectAll("div.hold").data(b.holdings).join("div").attr("class", "hold")
+        .html(d => `<b title="${esc(U.labels[d.p] || d.p)} — click to select its tile on the map">${esc(U.labels[d.p] || d.p)}${byP.get(d.p) && byP.get(d.p).url ? ` <a class="ext" href="${esc(byP.get(d.p).url)}" target="_blank" rel="noopener" title="open the site page">↗</a>` : ""}</b><small>${d3.format(",")(d.n)}</small><span>${d.first.map(esc).join(" · ")}${d.n > d.first.length ? ` <span class="m">+${d3.format(",")(d.n - d.first.length)} more on the site</span>` : ""}</span>`)
+        .on("click", function (ev, d) {
+          if (ev.target.closest("a")) return;
+          const row = this, open = row.nextElementSibling && row.nextElementSibling.classList.contains("hold-card");
+          d3.select(row.parentNode).selectAll(".hold-card").remove(); d3.select(row.parentNode).selectAll(".hold").classed("picked", false);
+          if (open) return;
+          const s = byP.get(d.p); if (!s) return;
+          d3.select(row).classed("picked", true);
+          const card = document.createElement("div"); card.className = "detail hold-card"; card.innerHTML = detailHtml(s) + `<button class="close" title="close">×</button>`;
+          row.insertAdjacentElement("afterend", card);
+          card.querySelector(".close").addEventListener("click", () => { card.remove(); d3.select(row).classed("picked", false); });
+          if (selected !== d.p) select(d.p);
+        });
+    }
+    collapseUber(el, b);
+  });
+  d3.select("#uber-filter").on("input", function () { filterUber(this.value.trim().toLowerCase()); });
+}
+function drawThumbs(el, b) {
+  const S = b.sprite, size = 25, ok = S.items.filter(x => x.i != null), failed = S.items.filter(x => x.i == null);
+  const box = el.select(".thumbs").style("--sprite", `url(${S.file})`).style("--thumb", size + "px").style("--sprite-w", (S.cols * size) + "px");
+  box.selectAll("a.thumb").data(ok).join("a").attr("class", d => "thumb" + (d.wd ? " wd" : "")).attr("href", d => d.url).attr("target", "_blank").attr("rel", "noopener")
+    .style("background-position", d => `-${(d.i % S.cols) * size}px -${Math.floor(d.i / S.cols) * size}px`)
+    .on("mousemove", (ev, d) => {
+      const who = d.p.map(p => U_LABEL(p)).join(", ") || "Wikidata (P18)";
+      tooltip.style("opacity", 1).html(`<b>${esc(who)}${d.wd ? " · also Wikidata's image" : ""}</b><span class="sub">${d.w}×${d.h}${d.via === "browser" ? " · fetched in the browser" : ""}</span>${esc(d.url.replace(/^https?:\/\//, "").slice(0, 90))}`);
+      const x = Math.min(ev.clientX + 14, window.innerWidth - 300), y = Math.min(ev.clientY + 14, window.innerHeight - 100);
+      tooltip.style("left", x + "px").style("top", y + "px");
+    }).on("mouseleave", () => tooltip.style("opacity", 0));
+  el.select(".thumb-note").text(`${ok.length} of ${S.items.length} images; outlined = Wikidata's own; hover for the site, click for the original.${failed.length ? ` ${failed.length} could not be fetched and stay as chips below.` : ""}`);
+}
+function collapseUber(el, b) {
+  const CHIP_SHOW = chipShow(b), chips = el.selectAll(".chips .chip").classed("hidden", (d, i) => i >= CHIP_SHOW);
+  el.select(".chips .more").remove();
+  const n = chips.size();
+  if (n > CHIP_SHOW) el.select(".chips").append("button").attr("class", "more").text(`+ ${n - CHIP_SHOW + b.more} more`)
+    .on("click", function () { chips.classed("hidden", false); d3.select(this).remove(); });
+  const holds = el.selectAll(".holdings .hold").classed("hidden", (d, i) => i >= HOLD_SHOW);
+  el.select(".holdings .more").remove();
+  if (holds.size() > HOLD_SHOW) el.select(".holdings").append("button").attr("class", "more").text(`+ ${holds.size() - HOLD_SHOW} more sites`)
+    .on("click", function () { holds.classed("hidden", false); d3.select(this).remove(); });
+}
+function filterUber(q) {
+  d3.selectAll("#uber .uber-el").each(function (b) {
+    const el = d3.select(this);
+    if (!q) { collapseUber(el, b); el.style("display", null); return; }
+    el.selectAll(".chips .more, .holdings .more").remove();
+    let hits = 0;
+    el.selectAll(".chips .chip").classed("hidden", d => { const ok = d.v.toLowerCase().includes(q); if (ok) hits++; return !ok; });
+    el.selectAll(".holdings .hold").classed("hidden", d => { const ok = d.first.some(v => v.toLowerCase().includes(q)) || (U_LABEL(d.p)).toLowerCase().includes(q); if (ok) hits++; return !ok; });
+    el.style("display", hits ? null : "none");
+  });
+}
+function U_LABEL(p) { return (DATA.uber && DATA.uber.labels[p]) || p; }
+
+// ---------- landscape bars ----------
+let humansOnly = false;
+d3.select("#toggle-humans").on("click", function () { humansOnly = !humansOnly; d3.select(this).attr("aria-pressed", String(humansOnly)); drawBars(); });
+function barClass(t) {
+  const s = byP.get(t.p);
+  if (!s) return "not on Twain's item";
+  if (!s.has_data) return "crawled, no entity data";
+  return s.access_group === "plain HTTP" ? "entity data, HTTP (cURL)" : "entity data, needs browser or blocked";
+}
+const BAR_ORDER = ["entity data, HTTP (cURL)", "entity data, needs browser or blocked", "crawled, no entity data", "not on Twain's item"];
+const barColor = d3.scaleOrdinal().domain(BAR_ORDER).range(["#2e8b57", "#cf8a1c", "#a3aab0", "#5b6ab0"]);
+function drawBars() {
+  const el = d3.select("#bars");
+  const width = Math.max(320, el.node().parentNode.clientWidth - 20);
+  const rows = DATA.top.slice(0, 50);
+  const rowH = 20, left = Math.min(260, Math.max(150, width * 0.32)), right = 54, top = 22;
+  const height = top + rows.length * rowH + 8;
+  el.attr("viewBox", `0 0 ${width} ${height}`).attr("width", width).attr("height", height);
+  el.selectAll("*").remove();
+  const val = d => humansOnly ? d.human_share : d.share;
+  const x = d3.scaleLinear().domain([0, 100]).range([left, width - right]);
+  const ticks = [0, 25, 50, 75, 100];
+  el.append("g").selectAll("line").data(ticks).join("line").attr("class", "grid-line").attr("x1", d => x(d)).attr("x2", d => x(d)).attr("y1", top - 6).attr("y2", height - 8);
+  el.append("g").selectAll("text").data(ticks).join("text").attr("class", "axis-label").attr("x", d => x(d)).attr("y", top - 10).text(d => d + "%");
+  const r = el.append("g").selectAll("g").data(rows).join("g").attr("transform", (d, i) => `translate(0,${top + i * rowH})`);
+  r.append("text").attr("class", "bar-rank").attr("x", 26).attr("y", 14).text((d, i) => i + 1);
+  r.append("text").attr("class", d => "bar-label" + (byP.has(d.p) ? "" : " absent")).attr("x", 32).attr("y", 14)
+    .text(d => { const t = d.label.length > left / 7 ? d.label.slice(0, left / 7 - 1) + "…" : d.label; return t; });
+  r.append("rect").attr("class", "bar-rect").attr("x", x(0)).attr("y", 3).attr("height", rowH - 7).attr("width", d => Math.max(1, x(val(d)) - x(0))).attr("fill", d => barColor(barClass(d)))
+    .on("mousemove", (ev, d) => { tooltip.style("opacity", 1).html(`<b>${d.label}</b><span class="sub">${d.p}</span>${d3.format(",")(d.items)} items · ${d.share}% of all · ${d.human_share}% of humans<br>${barClass(d)}`); tooltip.style("left", Math.min(ev.clientX + 14, window.innerWidth - 280) + "px").style("top", Math.min(ev.clientY + 14, window.innerHeight - 90) + "px"); })
+    .on("mouseleave", hideTip).on("click", (ev, d) => { if (byP.has(d.p)) { select(d.p); document.getElementById("map-section").scrollIntoView({ behavior: "smooth", block: "start" }); } });
+  r.append("text").attr("class", "bar-value").attr("x", d => x(val(d)) + 5).attr("y", 14).text(d => val(d).toFixed(1) + "%");
+  const lg = d3.select("#bars-legend");
+  lg.selectAll("*").remove();
+  lg.selectAll("span.item").data(BAR_ORDER).join("span").attr("class", "item").html(k => `<span class="swatch dot" style="background:${barColor(k)}"></span> ${k}`);
+}
+
+// ---------- heatmap ----------
+const HEAT_ELEMENTS = ["name_preferred", "name_variant", "pseudonym", "given_name", "family_name", "birth_date", "death_date", "birth_place", "death_place", "activity_place", "gender", "occupation", "field_of_activity", "nationality", "language", "description", "work", "subject_of", "related_agent", "same_as", "image", "source"];
+function drawHeat() {
+  const groups = d3.groups(sites, s => s.domain).sort((a, b) => DOMAIN_ORDER.indexOf(a[0]) - DOMAIN_ORDER.indexOf(b[0]));
+  const table = d3.select("#heat");
+  table.html("");
+  table.append("thead").append("tr").selectAll("th").data(["domain (sites with data / sites)", ...HEAT_ELEMENTS]).join("th").text(d => d.replace(/_/g, " "));
+  const color = t => t === 0 ? "transparent" : d3.interpolateRgb("#d8e9ef", "#0f4c5c")(Math.min(1, t));
+  const tb = table.append("tbody");
+  const rows = tb.selectAll("tr").data(groups).join("tr");
+  rows.append("th").html(([k, v]) => `${DOMAIN_NAMES[k] || k} <small>${v.filter(s => s.has_data).length} / ${v.length}</small>`);
+  rows.selectAll("td").data(([k, v]) => HEAT_ELEMENTS.map(e => ({ e, n: v.filter(s => s.elements.includes(e)).length, total: v.length }))).join("td")
+    .html(d => { const t = d.n / d.total; return `<span style="background:${color(t)};color:${t > 0.5 ? "#fff" : "var(--fg)"}">${d.n ? Math.round(t * 100) : ""}</span>`; })
+    .attr("title", d => `${d.n} of ${d.total} sites give ${d.e.replace(/_/g, " ")}`);
+}
+
+// ---------- boot ----------
+function boot() {
+  const h = (location.hash || "").replace("#", "");
+  if (byP.has(h)) selected = h;
+  drawTabs(); drawSeg(); drawMap(); renderDetail(); drawUber(); drawFacets(); drawBars(); drawHeat();
+}
+boot();
+let rt;
+window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { drawMap(); drawBars(); }, 150); });
+</script>

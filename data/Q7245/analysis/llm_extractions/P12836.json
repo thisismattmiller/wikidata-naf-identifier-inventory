@@ -1,0 +1,36 @@
+{
+ "property": "P12836",
+ "label": "Douban personage ID",
+ "files_read": ["P12836__27242749/embedded_opengraph.json", "P12836__27242749/xhr_2.json"],
+ "about_entity": true,
+ "notes": "OpenGraph tags of the Douban personage page (a long Chinese biography in og:description) and xhr_2.json, the personage's works API (first 10 of 196 book subjects, titles in Chinese translation).",
+ "elements": {
+  "name_preferred": [{"value": "马克·吐温", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "name_variant": [
+   {"value": "Mark Twain", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description'] (真实姓名)"},
+   {"value": "萨缪尔·兰亨·克莱门", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description'] (真实姓名)"}
+  ],
+  "pseudonym": [{"value": "马克·吐温", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description'] (“马克·吐温”是他的笔名)"}],
+  "occupation": [
+   {"value": "作家", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"},
+   {"value": "演说家", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "nationality": [{"value": "美国", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+  "description": [{"value": "马克·吐温（Mark Twain），美国作家、演说家，真实姓名是萨缪尔·兰亨·克莱门（Samuel Langhorne Clemens）。“马克·吐温”是他的笔名，原是密西西比河水手使用的表示在航道上所测水的深度的术语。代表作品有小说《百万英镑》、《哈克贝利·费恩历险记》、《汤姆·索亚历险记》等。马克·吐温一生写了大量作品，题材涉及小说、剧本、散文、诗歌等各方面。从内容上说，他的作品批判了不合理现象或人性的丑恶之处，表达了这位当过排字工人和水手的作家强烈的正义感和对普通人民的关心；从风格上说，专家们和一般读者都认为，幽默和讽刺是他的写作特点。他经历了美国从初期资本主义到帝国主义的发展过程，其思想和创作也表现为从轻快调笑到辛辣讽刺再到悲观厌世的发展阶段，前期以辛辣的讽刺见长，到了后期语言更为暴露激烈。马克·吐温是美国批判现实主义文学的奠基人，他的主要作品已大多有中文译本。2006年，马克·吐温被美国的权威期刊《大西洋月刊》评为影响美国的100位人物第16名。", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+  "work": [
+   {"value": "汤姆・索亚历险记", "lang": "zh", "via": "xhr_2.json: $.data.items[0].subject.title"},
+   {"value": "百万英镑", "lang": "zh", "via": "xhr_2.json: $.data.items[1].subject.title"},
+   {"value": "哈克贝利·费恩历险记", "lang": "zh", "via": "xhr_2.json: $.data.items[2].subject.title"},
+   {"value": "王子与贫儿", "lang": "zh", "via": "xhr_2.json: $.data.items[3].subject.title"},
+   {"value": "马克·吐温中短篇小说选", "lang": "zh", "via": "xhr_2.json: $.data.items[4].subject.title"},
+   {"value": "汤姆·索亚历险记 哈克贝利·费恩历险记", "lang": "zh", "via": "xhr_2.json: $.data.items[5].subject.title"},
+   {"value": "亚当夏娃日记", "lang": "zh", "via": "xhr_2.json: $.data.items[6].subject.title"},
+   {"value": "竞选州长", "lang": "zh", "via": "xhr_2.json: $.data.items[7].subject.title"},
+   {"value": "马克·吐温短篇小说选集", "lang": "zh", "via": "xhr_2.json: $.data.items[8].subject.title"},
+   {"value": "神秘的陌生人", "lang": "zh", "via": "xhr_2.json: $.data.items[9].subject.title"}
+  ],
+  "image": [{"value": "https://img3.doubanio.com/view/celebrity/m/public/p12783.webp", "via": "embedded_opengraph.json: $[0]['og:image']"}],
+  "identifier": [{"value": "27242749", "raw": "https://www.douban.com/personage/27242749", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

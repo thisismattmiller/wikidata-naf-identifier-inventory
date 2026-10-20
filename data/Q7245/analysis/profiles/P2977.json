@@ -1,0 +1,186 @@
+{
+ "property": "P2977",
+ "property_label": "LBT person ID",
+ "files": [
+  {
+   "file": "P2977__MaTwain1910/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.lordbyron.org/persRec.php?&selectPerson=MaTwain1910"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:NAME AUTHORITIES 'LOC:'",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:B/BAP",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:DIED",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:description",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:description",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "American writer, author of Adventures of Huckleberry Finn (1885).",
+    "lang": "en",
+    "via": "llm-page:description line",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:description line",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm-page:NAME AUTHORITIES",
+    "file": "P2977.json",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "llm-page:NAME AUTHORITIES",
+    "file": "P2977.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "MaTwain1910",
+    "lang": null,
+    "via": "llm-page:LBT ID",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Wikipedia",
+    "lang": "en",
+    "via": "llm-page:SOURCES",
+    "file": "P2977.json",
+    "uri": false
+   },
+   {
+    "value": "Virtual International Authority File",
+    "lang": "en",
+    "via": "llm-page:SOURCES",
+    "file": "P2977.json",
+    "uri": false
+   },
+   {
+    "value": "LOC Name Authority File",
+    "lang": "en",
+    "via": "llm-page:SOURCES",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License",
+    "lang": "en",
+    "via": "llm-page:footer",
+    "file": "P2977.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "source": [
+   "en"
+  ],
+  "license": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Lord Byron and his Times person record 'Mark Twain (1835-1910)': name authorities block (LOC heading, LBT/VIAF/LOC ids), birth/death dates, sources and a one-line description. References to person/works are only link labels.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

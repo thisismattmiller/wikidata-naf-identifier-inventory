@@ -1,0 +1,42 @@
+{
+ "property": "P6173",
+ "label": "Bitraga author ID",
+ "files_read": ["pages/P6173__246.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Bitraga (Galician translation library) author record 246: name fields (with a misspelt real name 'Samoel Langhoine Clemens'), empty biography fields, and a list of original monographs with genre, language and year; the translations list is empty in the text.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "raw": "Nome: Mark; Apelidos: Twain (pseudónimo de Samoel Langhoine Clemens)", "lang": "gl", "via": "Nome / Apelidos rows"}
+  ],
+  "given_name": [
+   {"value": "Mark", "lang": "gl", "via": "Nome row"}
+  ],
+  "family_name": [
+   {"value": "Twain", "lang": "gl", "via": "Apelidos row"}
+  ],
+  "name_variant": [
+   {"value": "Samoel Langhoine Clemens", "lang": "gl", "via": "Apelidos row '(pseudónimo de Samoel Langhoine Clemens)' (sic)"}
+  ],
+  "work": [
+   {"value": "A Connecticut yankee in King Arthur's court", "raw": "LIT_Narrativa_Novela_LIX; Inglés; 1889", "lang": "en", "via": "Listaxe Monografías"},
+   {"value": "A Double Barrelled Detective Story", "raw": "1902", "lang": "en", "via": "Listaxe Monografías"},
+   {"value": "Adventures of Huckleberry Finn", "raw": "1884", "lang": "en", "via": "Listaxe Monografías"},
+   {"value": "Eve's diary", "raw": "1905", "lang": "en", "via": "Listaxe Monografías"},
+   {"value": "Extracts from Adam's Diary. Translated from the original ms.", "raw": "1904", "lang": "en", "via": "Listaxe Monografías"},
+   {"value": "Letters from the earth", "lang": "en", "via": "Listaxe Monografías"},
+   {"value": "Mark Twain's short stories", "raw": "LIT_Narrativa_Relatos; 1993", "lang": "en", "via": "Listaxe Monografías"},
+   {"value": "The adventures of Tom Sawyer", "raw": "1876", "lang": "en", "via": "Listaxe Monografías"},
+   {"value": "The mysterious stranger", "lang": "en", "via": "Listaxe Monografías"}
+  ],
+  "language": [
+   {"value": "Inglés - en", "lang": "gl", "via": "Lingua column of works list"}
+  ],
+  "activity_place": [
+   {"value": "Estados Unidos de América", "raw": "en Estados Unidos de América - en EUA", "lang": "gl", "via": "Lingua column of works list"}
+  ],
+  "identifier": [
+   {"value": "246", "via": "URL autores_ver.php?autor=246"}
+  ]
+ }
+}

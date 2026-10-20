@@ -1,0 +1,14 @@
+{
+ "property": "P7847",
+ "label": "DigitaltMuseum ID",
+ "files_read": ["P7847__0210315745803/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the DigitaltMuseum person page 'Twain, Mark (1835 - 1910)'; title and description are identical.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "raw": "Twain, Mark (1835 - 1910)", "lang": null, "via": "embedded_opengraph.json: [0].og:title"}],
+  "birth_date": [{"value": "1835", "raw": "(1835 - 1910)", "lang": null, "via": "embedded_opengraph.json: [0].og:title"}],
+  "death_date": [{"value": "1910", "raw": "(1835 - 1910)", "lang": null, "via": "embedded_opengraph.json: [0].og:title"}],
+  "identifier": [{"value": "0210315745803", "via": "embedded_opengraph.json: [0].og:url (https://digitaltmuseum.org/0210315745803/twain-mark-1835-1910)"}],
+  "image": [{"value": "https://ems.dimu.org/image/032yiVGdCbeo?dimension=250x250", "via": "embedded_opengraph.json: [0].og:image"}]
+ }
+}

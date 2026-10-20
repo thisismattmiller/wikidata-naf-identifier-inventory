@@ -1,0 +1,103 @@
+{
+ "property": "P14611",
+ "property_label": "Pontifical Urbaniana University ID",
+ "files": [
+  {
+   "file": "P14611__137048/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://opac.urbaniana.va/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=137048"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:100 heading",
+    "file": "P14611.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:100 $d",
+    "file": "P14611.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:100 $d",
+    "file": "P14611.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "137048",
+    "lang": null,
+    "via": "llm-page:001 control number",
+    "file": "P14611.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Work cat.: (OSt)111541: Melville, Herman, 1819-1891. 137045, Moby Dick; or, The whale /, ©1990, stampa 1996.",
+    "lang": "en",
+    "via": "llm-page:670",
+    "file": "P14611.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2024-12-03",
+    "lang": null,
+    "via": "llm-page:008",
+    "file": "P14611.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-12-03",
+    "lang": null,
+    "via": "llm-page:005",
+    "file": "P14611.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "source": [
+   "en"
+  ],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Minimal Koha MARC-view authority record 137048 at the Pontifical Urban University Library: heading 'Twain, Mark, 1835-1910' and a single 670 citing a Melville 'Moby Dick' catalogue record (oddly, a work by another author). No variants, links or bio.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

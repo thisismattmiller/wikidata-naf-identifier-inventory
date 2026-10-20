@@ -1,0 +1,41 @@
+{
+ "property": "P3222",
+ "label": "NE.se ID",
+ "files_read": ["pages/P3222__mark-twain.txt", "pages/P3222__samuel-clemens.txt"],
+ "about_entity": true,
+ "page_kind": "encyclopedia article",
+ "notes": "Nationalencyklopedin (Sweden) long-form article 'Mark Twain', truncated behind a paywall after the opening paragraph, plus a cross-reference stub 'Samuel Clemens' pointing to the pseudonym Mark Twain. 'Läs även om' sidebar entries (Singer, Steinbeck, Disney...) are unrelated and ignored, except the Tom Sawyer / Huckleberry Finn entries that mention Twain.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "sv", "via": "article lead 'Twain [twein], Mark'"}],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "sv", "via": "article lead 'pseudonym för Samuel Langhorne Clemens'"},
+   {"value": "Clemens, Samuel", "lang": "sv", "via": "stub article lead (samuel-clemens)"}
+  ],
+  "pseudonym": [{"value": "Mark Twain", "lang": "sv", "via": "lead 'pseudonym för Samuel Langhorne Clemens'; stub 'se pseudonymen Mark Twain'"}],
+  "given_name": [{"value": "Samuel", "lang": "sv", "via": "stub heading"}],
+  "family_name": [{"value": "Clemens", "lang": "sv", "via": "stub heading"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "född 30 november 1835", "lang": "sv", "via": "article lead"}],
+  "death_date": [{"value": "1910-04-21", "raw": "död 21 april 1910", "lang": "sv", "via": "article lead"}],
+  "activity_place": [
+   {"value": "Hannibal, Missouri", "lang": "sv", "via": "article: växte upp i"},
+   {"value": "Mississippi", "lang": "sv", "via": "article: lots på floden"}
+  ],
+  "occupation": [
+   {"value": "författare", "lang": "sv", "via": "article lead"},
+   {"value": "tidningsman", "lang": "sv", "via": "article lead"},
+   {"value": "typograf", "lang": "sv", "via": "article"},
+   {"value": "lots", "lang": "sv", "via": "article (1857-1861)"}
+  ],
+  "nationality": [{"value": "amerikansk", "lang": "sv", "via": "article lead"}],
+  "description": [{"value": "Twain [twein], Mark, pseudonym för Samuel Langhorne Clemens, född 30 november 1835, död 21 april 1910, amerikansk författare och tidningsman. Mark Twain växte upp i Hannibal, Missouri, vid stranden av Mississippi. Efter ett par år som kringresande typograf återvände han 1857 till floden, där han arbetade som lots till 1861; mark twain är fackjargong för ”två famnars djup”. Twain har berättat om denna tid i Life on the Mississippi", "raw": "truncated by paywall", "lang": "sv", "via": "article body"}],
+  "work": [
+   {"value": "Life on the Mississippi", "lang": "en", "via": "article body"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "(1876)", "lang": "en", "via": "'Läs även om' entry Tom Sawyer"},
+   {"value": "The Adventures of Huckleberry Finn", "raw": "Huckleberry Finns äventyr, utgiven 1884", "lang": "en", "via": "'Läs även om' entry"}
+  ],
+  "identifier": [
+   {"value": "mark-twain", "via": "page URL slug"},
+   {"value": "samuel-clemens", "via": "page URL slug (cross-reference stub)"}
+  ]
+ }
+}

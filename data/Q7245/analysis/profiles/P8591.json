@@ -1,0 +1,306 @@
+{
+ "property": "P8591",
+ "property_label": "Grove Music Online ID",
+ "files": [
+  {
+   "file": "P8591__A2087699/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.oxfordmusiconline.com/grovemusic/display/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-1002087699"
+  },
+  {
+   "file": "P8591__A2087699/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.oxfordmusiconline.com/grovemusic/display/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-1002087699"
+  },
+  {
+   "file": "P8591__A2087699/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://l.sharethis.com/pview?event=pview&hostname=www.oxfordmusiconline.com&location=%2Fgrovemusic%2Fdisplay%2F10.1093%2Fgmo%2F9781561592630.001.0001%2Fomo-9781561592630-e-1002087699&product=custom-share-buttons&url=https%3A%2F%2Fwww.oxfordmusiconline.com%2Fgrovemusic%2Fdisplay%2F10.1093%2Fgmo%2F9781561592630.001.0001%2Fomo-9781561592630-e-1002087699&source=sharethis.js&fcmp=false&fcmpv2=false&has_segmentio=false&title=Twain%2C%20Mark%20%7C%20Grove%20Music&cms=unknown&publisher=64ac08de0f9156001a2918be&sop=true&version=st_sop.js&lang=en&description=%22Twain%2C%20Mark%22%20published%20on%20%20by%20Oxford%20University%20Press.&ua=%22Google%20Chrome%22%3Bv%3D%22153%22%2C%20%22Not_A%20Brand%22%3Bv%3D%228%22%2C%20%22Chromium%22%3Bv%3D%22153%22&ua_mobile=false&ua_platform=macOS&ua_full_version_list=%22Google%20Chrome%22%3Bv%3D%22153.0.8010.53%22%2C%20%22Not_A%20Brand%22%3Bv%3D%228.0.0.0%22%2C%20%22Chromium%22%3Bv%3D%22153.0.8010.53%22&ua_platform_version=27.0.0&uuid=5b915642-077b-4edf-a873-136815944cbb"
+  },
+  {
+   "file": "P8591__A2087699/conneg_1.txt",
+   "format": "text",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.A2087699"
+  },
+  {
+   "file": "P8591__A2087699/conneg_2.txt",
+   "format": "text",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.A2087699"
+  },
+  {
+   "file": "P8591__A2087699/conneg_3.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.A2087699"
+  },
+  {
+   "file": "P8591__A2087699/conneg_4.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.A2087699"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 1,
+  "text": 2,
+  "unknown": 2
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 7,
+  "http://schema.org/": 6,
+  "http://purl.org/dc/terms/": 4,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "[Clemens, Samuel Langhorne] (b Florida, MO, Nov 30, 1835; d Redding, CT, April 21, 1910). American writer. An examination of his musical interests and opinions reveals two identities – the uncultivated frontiersman who often delighted in satirizing serious music, and the urbane sophisticate who spent many years abroad enjoying it. In A Tramp Abroad (Hartford, CT, 1880) he included humorous impressions (and, in some of the early editions, illustrations) of German operas, chiefly those of Wagner. ",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "10.1093/gmo/9781561592630.article.A2087699",
+    "lang": null,
+    "via": "identifier",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "omo-9781561592630-e-1002087699",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P8591.json",
+    "uri": false
+   },
+   {
+    "value": "A2087699",
+    "lang": null,
+    "via": "llm-page:DOI suffix",
+    "file": "P8591.json",
+    "uri": false
+   },
+   {
+    "value": "https://doi.org/10.1093/gmo/9781561592630.article.A2087699",
+    "lang": null,
+    "via": "llm-page:DOI line",
+    "file": "P8591.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "http://www.oxfordmusiconline.com/grovemusic/documentID/omo-9781561592630-e-1002087699",
+    "lang": null,
+    "via": "source",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   },
+   {
+    "value": "Oxford University Press",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P8591.json",
+    "uri": false
+   },
+   {
+    "value": "Michael Hovland (article author)",
+    "lang": null,
+    "via": "llm-page:byline",
+    "file": "P8591.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Michael Hovland",
+    "lang": null,
+    "via": "author",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2010-05-26",
+    "lang": null,
+    "via": "dateCreated",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P8591.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:article heading (bracketed real name)",
+    "file": "P8591.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2013-11-26",
+    "lang": null,
+    "via": "llm-page:publication line",
+    "file": "P8591.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [],
+  "identifier": [],
+  "source": [],
+  "work": [],
+  "record_created": [],
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "record_modified": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2,
+  "subject (http://purl.org/dc/terms/)": 1,
+  "about (http://schema.org/)": 1,
+  "isbn (http://schema.org/)": 1,
+  "publisher (http://schema.org/)": 1,
+  "wordCount (http://schema.org/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 540,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.oxfordmusiconline.com/grovemusic/display/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-1002087699"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Grove Music Online"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "\"Twain, Mark\" published on  by Oxford University Press."
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.oxfordmusiconline.com/grovemusic/cover/default"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "en_US"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    },
+    {
+     "path": "[].@context.fb",
+     "n": 1,
+     "sample": "http://ogp.me/ns/fb#"
+    },
+    {
+     "path": "[].@context.article",
+     "n": 1,
+     "sample": "http://ogp.me/ns/article#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "[].og:description",
+     "value": "\"Twain, Mark\" published on  by Oxford University Press."
+    }
+   ],
+   "language_like_keys": [
+    "fb",
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 160,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "fpestid",
+     "n": 1,
+     "sample": "ITOJRF7RqKKGcr5G8ROif9_bU3aId66ojOwXRVKgFu-TaefrecA3mb0XZ4MOW0Ll1lCFrA"
+    },
+    {
+     "path": "fpestid_maxage",
+     "n": 1,
+     "sample": "31536000"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "true"
+    },
+    {
+     "path": "stid",
+     "n": 1,
+     "sample": "CgsmP2rAZ+IAAAAJNtdtAw=="
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Grove Music Online article landing page behind a subscription/login wall: only the heading, author (Michael Hovland), DOI and publication dates are visible; the article body is not shown.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

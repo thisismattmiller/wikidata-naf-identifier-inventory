@@ -1,0 +1,34 @@
+{
+ "property": "P11192",
+ "label": "Piraeus Bank Group Cultural Foundation Library (A) ID",
+ "files_read": ["P11192__5c0f9afa56972ccb3e930dcf/xhr_1.json", "P11192__5c0f9afa56972ccb3e930dcf/xhr_3.json"],
+ "about_entity": true,
+ "notes": "xhr_1.json is the openABEKT authority record (UNIMARC tag 200 personal name, 'Καθιερωμένη' = authorized) for 'Twain, Mark'; xhr_3.json is a DataTables list of the 8 linked bibliographic records (Greek editions, role 070 'Συγγραφέας' = author). Titles in xhr_3 are truncated by the site; only the title part before ' / ' is kept.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "lang": null, "via": "xhr_1.json: $.titles[0].text"}
+  ],
+  "name_variant": [
+   {"value": "Μαρκ Τουεϊν", "lang": "el", "via": "xhr_3.json: $.data[0][1] (statement of responsibility)"},
+   {"value": "Μαρκ Τουέιν", "lang": "el", "via": "xhr_3.json: $.data[3][1] (statement of responsibility)"}
+  ],
+  "occupation": [
+   {"value": "Συγγραφέας", "lang": "el", "via": "xhr_3.json: $.data[*][8] (role on linked records; roles ['070'])"}
+  ],
+  "work": [
+   {"value": "Οι περιπέτειες του Τόμ Σόγιερ", "lang": "el", "via": "xhr_3.json: $.data[0][1]"},
+   {"value": "Πρίγκιπας και φτωχός", "lang": "el", "via": "xhr_3.json: $.data[1][1], [2][1], [3][1]"},
+   {"value": "Τομ Σόγερ : ή το μεγαλύτερο παιδικό δωμάτιο του...", "lang": "el", "via": "xhr_3.json: $.data[4][1] (truncated; 2018)"},
+   {"value": "Τομ Σόγιερ", "lang": "el", "via": "xhr_3.json: $.data[5][1], [6][1]"},
+   {"value": "Χοκ Φιν", "lang": "el", "via": "xhr_3.json: $.data[7][1]"}
+  ],
+  "identifier": [
+   {"value": "5c0f9afa56972ccb3e930dcf", "via": "xhr_1.json: $.entity_id / $.id"}
+  ],
+  "source": [
+   {"value": "Βιβλιοθήκη Πολιτιστικού Ιδρύματος Ομίλου Πειραιώς (Κατάλογος Α) — Φορέας δημιουργίας (creating agency), Ελλάδα", "lang": "el", "via": "xhr_1.json: $.sections.source_area.origins.values[0]"},
+   {"value": "Βιβλιοθήκη Πολιτιστικού Ιδρύματος Ομίλου Πειραιώς (Κατάλογος Α) — Φορέας μεταγραφής (transcribing agency), Ελλάδα", "lang": "el", "via": "xhr_1.json: $.sections.source_area.origins.values[1]"},
+   {"value": "Εθνικό Κέντρο Τεκμηρίωσης / Ε.Ι.Ε. — Φορέας τροποποίησης (modifying agency), Ελλάδα", "lang": "el", "via": "xhr_1.json: $.sections.source_area.origins.values[2]"}
+  ]
+ }
+}

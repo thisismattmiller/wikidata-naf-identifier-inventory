@@ -1,0 +1,86 @@
+{
+ "property": "P3788",
+ "label": "BNMM authority ID",
+ "files_read": ["pages/P3788__000024237.txt", "pages/P3788__000034486.txt", "pages/P3788__000034487.txt", "pages/P3788__000034488.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "There are four full-view authority records from the Biblioteca Nacional Mariano Moreno (Argentina), in Spanish: Twain, Mark (000024237), the pseudonym Snodgrass, Quintus Curtius (000034486), Clemens, Samuel Langhorne (000034487) and the pseudonym Conte, Louis de (000034488). Each record has a VIAF link, places, field, occupation, sex, language, see-also links and sources. The source notes contain the typo 'Ciemens'.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": "es", "via": "Nombre personal (000024237)"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "lang": "es", "via": "Nombre personal (000034486)"},
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": "es", "via": "Nombre personal (000034487)"},
+   {"value": "Conte, Louis de, 1835-1910", "lang": "es", "via": "Nombre personal (000034488)"}
+  ],
+  "name_variant": [
+   {"value": "Ciemens, Samuel Langhorne", "lang": "es", "via": "Usado por (000034487)"},
+   {"value": "De Conte, Louis, 1835-1910", "lang": "es", "via": "Usado por (000034488)"},
+   {"value": "Sieur Louis de Conte", "lang": "en", "via": "Fuente de info. (000034488)"},
+   {"value": "Quintos Curtius Snodgrass", "lang": "es", "via": "Fuente de info. DAB (000034487)"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "es", "via": "R.compl. V. además (000024237)"},
+   {"value": "Quintus Curtius Snodgrass", "lang": "es", "via": "R.compl. V. además (000034486)"},
+   {"value": "Louis de Conte", "lang": "es", "via": "R.compl. V. además (000034488)"}
+  ],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "es", "via": "Nombre personal (000034487)"}],
+  "family_name": [{"value": "Clemens", "lang": "es", "via": "Nombre personal (000034487)"}],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "n. 30 nov. 1835", "lang": "es", "via": "Fuente de info. Bompiani (000024237)"},
+   {"value": "1835", "raw": "1835-1910", "lang": null, "via": "heading dates (all records)"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "m. 21 abr. 1910", "lang": "es", "via": "Fuente de info. Bompiani (000024237)"},
+   {"value": "1910", "raw": "1835-1910", "lang": null, "via": "heading dates (all records)"}
+  ],
+  "birth_place": [
+   {"value": "Florida (Estados Unidos : Estado)", "lang": "es", "via": "Lugar asociado 'Nació en' (all records)"},
+   {"value": "Florida (Missouri)", "lang": "es", "via": "Fuente de info. Bibliotecas virtuales (000024237)"}
+  ],
+  "death_place": [
+   {"value": "Connecticut (Estados Unidos : Estado)", "lang": "es", "via": "Lugar asociado 'Murió en' (all records)"},
+   {"value": "Redding, Conn", "lang": "es", "via": "Fuente de info. Library of Congress (000024237)"}
+  ],
+  "gender": [{"value": "Varón", "lang": "es", "via": "Sexo (all records)"}],
+  "occupation": [
+   {"value": "Escritores", "lang": "es", "via": "Ocupación (000024237)"},
+   {"value": "Humoristas", "lang": "es", "via": "Ocupación (000024237)"},
+   {"value": "Escritor", "lang": "es", "via": "Ocupación (000034486/7/8)"},
+   {"value": "Humorista", "lang": "es", "via": "Ocupación (000034486/7/8)"},
+   {"value": "periodista", "lang": "es", "via": "Fuente de info. Bompiani (000024237)"},
+   {"value": "piloto de río", "lang": "es", "via": "Fuente de info. Sitio oficial (000024237)"}
+  ],
+  "field_of_activity": [{"value": "Literatura", "lang": "es", "via": "Campo de actividad (all records)"}],
+  "nationality": [{"value": "estadounidense", "lang": "es", "via": "Fuente de info. Bibliotecas virtuales (000024237)"}],
+  "language": [{"value": "inglés", "lang": "es", "via": "Idiomas asociados (all records)"}],
+  "description": [{"value": "Mark Twain es un seudónimo de Samuel Langhorne Clemens. Para obras de este autor escritas bajo su nombre real, u otros seudónimos, véase además: \"Clemens, Samuel Langhorne, 1835-1910\" \"Snodgrass, Quintus Curtius, 1835-1910\" \"Conte, Louis de, 1835-1910\"", "lang": "es", "via": "R.compl. V. además (000024237)"}],
+  "work": [{"value": "Personal recollections of Joan of Arc", "raw": "1923", "via": "Fuente de info. (000034488)"}],
+  "related_agent": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910 (real name; see also)", "via": "Véase además (000024237)"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910 (pseudonym; see also)", "via": "Véase además (000024237)"},
+   {"value": "Conte, Louis de, 1835-1910 (pseudonym; see also)", "via": "Véase además (000024237)"},
+   {"value": "Twain, Mark, 1835-1910 (see also)", "via": "Véase además (000034486/7/8)"}
+  ],
+  "same_as": [
+   {"value": "http://viaf.org/viaf/50566653", "via": "Otro ID normalizado (000024237, Twain)"},
+   {"value": "http://viaf.org/viaf/16444837", "via": "Otro ID normalizado (000034486, Snodgrass)"},
+   {"value": "http://viaf.org/viaf/53367783", "via": "Otro ID normalizado (000034487, Clemens)"},
+   {"value": "http://viaf.org/viaf/305239133", "via": "Otro ID normalizado (000034488, Conte)"}
+  ],
+  "identifier": [
+   {"value": "000024237", "via": "No. sistema (Twain, Mark)"},
+   {"value": "000034486", "via": "No. sistema (Snodgrass)"},
+   {"value": "000034487", "via": "No. sistema (Clemens)"},
+   {"value": "000034488", "via": "No. sistema (Conte)"}
+  ],
+  "source": [
+   {"value": "Bompiani. Dicc. de autores, c1973:v. 3", "lang": "es", "via": "Fuente de info. (000024237)"},
+   {"value": "WWW Sitio oficial del autor, 06 nov. 2012 (http://www.cmgww.com/historic/twain/)", "lang": "es", "via": "Fuente de info. (000024237)"},
+   {"value": "Bibliotecas virtuales, 06 nov. 2012", "lang": "es", "via": "Fuente de info. (000024237)"},
+   {"value": "Library of Congress, 28 nov. 2014: cat. aut.", "lang": "es", "via": "Fuente de info. (000024237)"},
+   {"value": "DAB, 1930", "lang": "es", "via": "Fuente de info. (000034486, 000034487)"},
+   {"value": "NUCMC data from Stowe-Day Lib. for Kinney, S. Thomson-Kinney collection, 1851-1887", "lang": "es", "via": "Fuente de info. (000034487)"},
+   {"value": "Personal recollections of Joan of Arc, 1923: port. (Sieur Louis de Conte)", "lang": "es", "via": "Fuente de info. (000034488)"}
+  ]
+ }
+}

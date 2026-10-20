@@ -1,0 +1,598 @@
+{
+ "property": "P7699",
+ "label": "National Library of Lithuania ID",
+ "files_read": [
+  "pages/P7699__LNB_V_1145_zW_959a3d74.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "VIAF 'processed' view of the National Library of Lithuania (LNB) UNIMARC authority record LNB:V*1145;=zW for Twain, Mark: dates, Lithuanian/Russian variants, notes on real name and pseudonym, occupations, places, works (541/993), sources (810), VLE link, and VIAF 998 links to other national authorities. Note: the 998 'LC|n 82045653' (Twain, Mark (Spirit)) is a different LC record matched by VIAF.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835–1910",
+    "lang": "en",
+    "via": "200 field"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Tvainas, Markas",
+    "lang": "lt",
+    "via": "400 field"
+   },
+   {
+    "value": "Tvenas, M.",
+    "lang": "lt",
+    "via": "400 field"
+   },
+   {
+    "value": "Tvenas, Markas",
+    "lang": "lt",
+    "via": "400 field"
+   },
+   {
+    "value": "Tvėnas, Morkas",
+    "lang": "lt",
+    "via": "400 field"
+   },
+   {
+    "value": "Twainas, Markas",
+    "lang": "lt",
+    "via": "400 field"
+   },
+   {
+    "value": "Твен, М.",
+    "lang": "ru",
+    "via": "400 field"
+   },
+   {
+    "value": "Твен, Марк",
+    "lang": "ru",
+    "via": "400 field"
+   },
+   {
+    "value": "Твэн, Марк",
+    "lang": "ru",
+    "via": "400 field"
+   },
+   {
+    "value": "Markas Tvainas",
+    "lang": "lt",
+    "via": "810 source usage"
+   },
+   {
+    "value": "Markas Twainas",
+    "lang": "lt",
+    "via": "810 source usage"
+   },
+   {
+    "value": "Markas Tvenas",
+    "lang": "lt",
+    "via": "810 source usage"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": "lt",
+    "via": "300 note 'slapyvardžiu – Snodgrass, Quintus Curtius'; 305"
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "lt",
+    "via": "300 note (works also written under real name Clemens)"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "d18351130",
+    "lang": null,
+    "via": "104 ‡a d18351130; 340; 640"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "d19100421",
+    "lang": null,
+    "via": "104 ‡b d19100421; 340; 640"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "US, Missouri, Florida",
+    "lang": "en",
+    "via": "640 1 ‡a US ‡b Missouri ‡d Florida"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "US, Connecticut, Redding",
+    "lang": "en",
+    "via": "640 2 ‡a US ‡b Connecticut ‡d Redding"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Rašytojas",
+    "lang": "lt",
+    "via": "340 ‡b"
+   },
+   {
+    "value": "humoristas",
+    "lang": "lt",
+    "via": "340 ‡b"
+   },
+   {
+    "value": "leidėjas",
+    "lang": "lt",
+    "via": "340 ‡b"
+   },
+   {
+    "value": "verslininkas",
+    "lang": "lt",
+    "via": "340 ‡b"
+   },
+   {
+    "value": "pedagogas",
+    "lang": "lt",
+    "via": "340 ‡b"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "US",
+    "lang": "en",
+    "via": "102 ‡a US; 947"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "101 ‡a eng; 948"
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "raw": "ba",
+    "lang": null,
+    "via": "120 ‡a ba (UNIMARC position 0 b = male)"
+   }
+  ],
+  "description": [
+   {
+    "value": "Rašytojas, humoristas, leidėjas, verslininkas, pedagogas 1835 11 30–1910 04 21",
+    "lang": "lt",
+    "via": "340 field"
+   },
+   {
+    "value": "Autoriaus kūrinius rašė tikruoju vardu – Clemens, Samuel Langhorne, ir slapyvardžiu – Snodgrass, Quintus Curtius",
+    "lang": "lt",
+    "via": "300 note"
+   }
+  ],
+  "work": [
+   {
+    "value": "The prince and the pauper",
+    "raw": "Romanas",
+    "lang": "en",
+    "via": "541 / 993 fields"
+   },
+   {
+    "value": "Letters from the earth",
+    "raw": "Ateistinė literatūra",
+    "lang": "en",
+    "via": "541 / 993 fields"
+   },
+   {
+    "value": "The adventures of Huckleberry Finn",
+    "raw": "Vaikų literatūra",
+    "lang": "en",
+    "via": "541 / 993 fields"
+   },
+   {
+    "value": "The adventures of Tom Sawyer",
+    "raw": "Vaikų literatūra",
+    "lang": "en",
+    "via": "541 / 993 fields"
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's court",
+    "raw": "Romanas",
+    "lang": "en",
+    "via": "541 / 993 fields"
+   },
+   {
+    "value": "Tom Sawyer abroad",
+    "raw": "Apysaka",
+    "lang": "en",
+    "via": "541 / 993 fields"
+   },
+   {
+    "value": "The gilded age",
+    "raw": "Romanas",
+    "lang": "en",
+    "via": "541 / 993 fields"
+   },
+   {
+    "value": "The innocents abroad",
+    "raw": "Kelionių apybraižos",
+    "lang": "en",
+    "via": "541 / 993 fields"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835–1910 (real name; 500 / 305 see also)",
+    "lang": "en",
+    "via": "500 / 305"
+   },
+   {
+    "value": "Finas, Heklberis (išgalvotas personažas / fictional character)",
+    "lang": "lt",
+    "via": "523"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "033"
+   },
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "raw": "0000000121324854",
+    "lang": null,
+    "via": "010 ‡a 0000000121324854"
+   },
+   {
+    "value": "https://www.vle.lt/straipsnis/mark-twain/",
+    "lang": null,
+    "via": "856 ‡u"
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "raw": "BNE|981060902239808606",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "J9U|987007269289205171",
+    "raw": "J9U|987007269289205171",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "NTA|227880145",
+    "raw": "NTA|227880145",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "BNF|11927291",
+    "raw": "BNF|11927291",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "SZ|118624822",
+    "raw": "SZ|118624822",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "NUKAT|n 94200767",
+    "raw": "NUKAT|n 94200767",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "SKMASNL|vtls005928524",
+    "raw": "SKMASNL|vtls005928524",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "raw": "PLWABN|9810671370605606",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "NLA|000035028957",
+    "raw": "NLA|000035028957",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "RERO|A000164542",
+    "raw": "RERO|A000164542",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "NYNYRILM|1598",
+    "raw": "NYNYRILM|1598",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "B2Q|0000005713",
+    "raw": "B2Q|0000005713",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "SELIBR|98057",
+    "raw": "SELIBR|98057",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "GRATEVE|178278",
+    "raw": "GRATEVE|178278",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "NKC|jn19981002263",
+    "raw": "NKC|jn19981002263",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "BAV|495_17906",
+    "raw": "BAV|495_17906",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "WKP|Q7245",
+    "raw": "WKP|Q7245",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "DNB|118624822",
+    "raw": "DNB|118624822",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "raw": "UIY|981014191556806886",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "raw": "NLR|RU NLR AUTH 7759057",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "CAOONL|ncf10128469",
+    "raw": "CAOONL|ncf10128469",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "XA|2080",
+    "raw": "XA|2080",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "LC|n 79021164",
+    "raw": "LC|n 79021164",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "UAE|Mill_a10002910",
+    "raw": "UAE|Mill_a10002910",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "W2Z|90056487",
+    "raw": "W2Z|90056487",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "ARBABN|000024237",
+    "raw": "ARBABN|000024237",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "SIMACOB|7830883",
+    "raw": "SIMACOB|7830883",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "NDL|00459304",
+    "raw": "NDL|00459304",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "EGAXA|vtls000823270",
+    "raw": "EGAXA|vtls000823270",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "BNCHL|10000000000000000007139",
+    "raw": "BNCHL|10000000000000000007139",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "raw": "LNB|LNC10-000002679",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "raw": "BNC|981058514999206706",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "N6I|vtls000050376",
+    "raw": "N6I|vtls000050376",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "raw": "KRNLK|KAC199605242",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "LNL|14733",
+    "raw": "LNL|14733",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "raw": "BIBSYS|90056487",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "PTBNP|46269",
+    "raw": "PTBNP|46269",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "SUDOC|027171876",
+    "raw": "SUDOC|027171876",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "DBC|87097969041957",
+    "raw": "DBC|87097969041957",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 77201",
+    "raw": "NLR|RU NLR AUTH 77201",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "VLACC|000002392",
+    "raw": "VLACC|000002392",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "NSK|000047578",
+    "raw": "NSK|000047578",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "ICCU|CFIV002662",
+    "raw": "ICCU|CFIV002662",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   },
+   {
+    "value": "NII|DA00300263",
+    "raw": "NII|DA00300263",
+    "lang": null,
+    "via": "998 / 996 VIAF source links"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "LNB:V*1145;=zW",
+    "lang": null,
+    "via": "035 ‡a (LIH)LNB:V*1145;=zW"
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "lang": null,
+    "via": "001"
+   }
+  ],
+  "source": [
+   {
+    "value": "Britannica, 15 ed., 2002, t. 12, p. 75",
+    "lang": "lt",
+    "via": "810"
+   },
+   {
+    "value": "LTE, 1983, t. 11, p. 494",
+    "lang": "lt",
+    "via": "810"
+   },
+   {
+    "value": "БСЭ, 1976, t. 25, p. 317",
+    "lang": "lt",
+    "via": "810"
+   },
+   {
+    "value": "Princas ir elgeta, [s.a.]",
+    "lang": "lt",
+    "via": "810"
+   },
+   {
+    "value": "Finno nuotykiai, 1938",
+    "lang": "lt",
+    "via": "810"
+   },
+   {
+    "value": "Fino Heklberio nuotykiai, 1996",
+    "lang": "lt",
+    "via": "810"
+   },
+   {
+    "value": "Dvi Morko Tvėno ir viena Brėt-Garto apysakos, 1904",
+    "lang": "lt",
+    "via": "810"
+   },
+   {
+    "value": "Пиар, К.О. Марк Твен, 1983",
+    "lang": "lt",
+    "via": "810"
+   },
+   {
+    "value": "Портреты детских зарубежных писателей, 2007",
+    "lang": "lt",
+    "via": "810"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1995-05-04",
+    "raw": "19950504",
+    "lang": null,
+    "via": "100 ‡a 19950504..."
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-09-19",
+    "raw": "20250919125500.1",
+    "lang": null,
+    "via": "005"
+   }
+  ]
+ }
+}

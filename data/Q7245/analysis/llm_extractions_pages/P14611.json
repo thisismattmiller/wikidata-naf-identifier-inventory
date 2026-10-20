@@ -1,0 +1,17 @@
+{
+ "property": "P14611",
+ "label": "Pontifical Urbaniana University ID",
+ "files_read": ["pages/P14611__137048.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Minimal Koha MARC-view authority record 137048 at the Pontifical Urban University Library: heading 'Twain, Mark, 1835-1910' and a single 670 citing a Melville 'Moby Dick' catalogue record (oddly, a work by another author). No variants, links or bio.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "lang": "en", "via": "100 heading"}],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "100 $d"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "100 $d"}],
+  "identifier": [{"value": "137048", "via": "001 control number"}],
+  "source": [{"value": "Work cat.: (OSt)111541: Melville, Herman, 1819-1891. 137045, Moby Dick; or, The whale /, ©1990, stampa 1996.", "lang": "en", "via": "670"}],
+  "record_created": [{"value": "2024-12-03", "raw": "008: 241203", "lang": null, "via": "008"}],
+  "record_modified": [{"value": "2024-12-03", "raw": "005: 20241203174425.0", "lang": null, "via": "005"}]
+ }
+}

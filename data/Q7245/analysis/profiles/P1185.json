@@ -1,0 +1,502 @@
+{
+ "property": "P1185",
+ "property_label": "Rodovid ID",
+ "files": [
+  {
+   "file": "P1185__231947/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://en.rodovid.org/wk/Person:231947"
+  },
+  {
+   "file": "P1185__231947/alternate_1.xml",
+   "format": "xml",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://en.rodovid.org/wk?title=Special:RecentChanges&feed=atom"
+  },
+  {
+   "file": "P1185__231947/conneg_1.xml",
+   "format": "xml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://en.rodovid.org/wk/Person:231947"
+  },
+  {
+   "file": "P1185__231947/conneg_2.xml",
+   "format": "xml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://en.rodovid.org/wk/Person:231947"
+  },
+  {
+   "file": "P1185__231947/conneg_3.xml",
+   "format": "xml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://en.rodovid.org/wk/Person:231947"
+  },
+  {
+   "file": "P1185__231947/conneg_4.xml",
+   "format": "xml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://en.rodovid.org/wk/Person:231947"
+  },
+  {
+   "file": "P1185__231947/browser_alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://en.rodovid.org/wk?title=Special:RecentChanges&feed=atom"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "xml": 5,
+  "feed": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 18,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:page heading / Full name (at birth)",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Other given names",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Full name (at birth)",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:Lineage",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "Male",
+    "lang": "en",
+    "via": "llm-page:Sex",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:Events: birth",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:Events: death",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Missouri), Missouri",
+    "lang": "en",
+    "via": "llm-page:Events: birth",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Connecticut), Connecticut",
+    "lang": "en",
+    "via": "llm-page:Events: death",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "John Marshall Clemens, 1798-1847 (father)",
+    "lang": null,
+    "via": "llm-page:Parents",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Lampton (Clemens), 1803-1890 (mother)",
+    "lang": null,
+    "via": "llm-page:Parents",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Langdon (Clemens), 1845-1904 (wife)",
+    "lang": null,
+    "via": "llm-page:Events: marriage",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Susy Clemens, 1872-1896 (daughter)",
+    "lang": null,
+    "via": "llm-page:Events: child birth",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Clara Clemens, 1874-1962 (daughter)",
+    "lang": null,
+    "via": "llm-page:Events: child birth",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Jean Clemens, 1880-1909 (daughter)",
+    "lang": null,
+    "via": "llm-page:Events: child birth",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens, 1825-1897 (brother)",
+    "lang": null,
+    "via": "llm-page:family tree",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Pamela Clemens, 1827-1904 (sister)",
+    "lang": null,
+    "via": "llm-page:family tree",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Clemens, 1830-1839 (sister)",
+    "lang": null,
+    "via": "llm-page:family tree",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Clemens, 1832-1842 (brother)",
+    "lang": null,
+    "via": "llm-page:family tree",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Clemens, 1838-1858 (brother)",
+    "lang": null,
+    "via": "llm-page:family tree",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Осип Габрилович (son-in-law, husband of Clara Clemens)",
+    "lang": null,
+    "via": "llm-page:family tree",
+    "file": "P1185.json",
+    "uri": false
+   },
+   {
+    "value": "Nina Gabrilowitsch (Clemens), 1910-1966 (granddaughter)",
+    "lang": null,
+    "via": "llm-page:family tree: Grandchildren",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "231947",
+    "lang": null,
+    "via": "llm-page:page id",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2016-03-10",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Creative Commons Attribution",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P1185.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "gender": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "related_agent": [],
+  "identifier": [],
+  "record_modified": [],
+  "license": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 216,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "script",
+     "n": 1,
+     "sample": "const SALT='85658dec0080d6a873d61a343be618752243971b9eb7b64ad71bd0b355ee8cbf';const N=14;const M=5; const COOKIE='k2';co"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "conneg_1.xml",
+   "format": "xml",
+   "size": 216,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "script",
+     "n": 1,
+     "sample": "const SALT='85658dec0080d6a873d61a343be618752243971b9eb7b64ad71bd0b355ee8cbf';const N=14;const M=5; const COOKIE='k2';co"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "conneg_2.xml",
+   "format": "xml",
+   "size": 216,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "script",
+     "n": 1,
+     "sample": "const SALT='85658dec0080d6a873d61a343be618752243971b9eb7b64ad71bd0b355ee8cbf';const N=14;const M=5; const COOKIE='k2';co"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "conneg_3.xml",
+   "format": "xml",
+   "size": 216,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "script",
+     "n": 1,
+     "sample": "const SALT='85658dec0080d6a873d61a343be618752243971b9eb7b64ad71bd0b355ee8cbf';const N=14;const M=5; const COOKIE='k2';co"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "conneg_4.xml",
+   "format": "xml",
+   "size": 216,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "script",
+     "n": 1,
+     "sample": "const SALT='85658dec0080d6a873d61a343be618752243971b9eb7b64ad71bd0b355ee8cbf';const N=14;const M=5; const COOKIE='k2';co"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_alternate_1.xml",
+   "format": "xml",
+   "size": 305393,
+   "path_count": 23,
+   "paths": [
+    {
+     "path": "feed/entry",
+     "n": 42,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/id",
+     "n": 42,
+     "sample": "https://en.rodovid.org/wk/Person:1661571"
+    },
+    {
+     "path": "feed/entry/title",
+     "n": 42,
+     "sample": "Person:1661571"
+    },
+    {
+     "path": "feed/entry/link",
+     "n": 42,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/link@rel",
+     "n": 42,
+     "sample": "alternate"
+    },
+    {
+     "path": "feed/entry/link@type",
+     "n": 42,
+     "sample": "text/html"
+    },
+    {
+     "path": "feed/entry/link@href",
+     "n": 42,
+     "sample": "https://en.rodovid.org/wk/Person:1661571"
+    },
+    {
+     "path": "feed/entry/updated",
+     "n": 42,
+     "sample": "2026-10-02T22:51:59Z"
+    },
+    {
+     "path": "feed/entry/summary",
+     "n": 42,
+     "sample": "<p><a href=\"/wk/User:%D0%A0%D0%BE%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2_C%D0%BB%D0%B0%D0%B1%D1%96%D1%86%D1%8C%D0%BA%"
+    },
+    {
+     "path": "feed/entry/summary@type",
+     "n": 42,
+     "sample": "html"
+    },
+    {
+     "path": "feed/entry/author",
+     "n": 42,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/author/name",
+     "n": 42,
+     "sample": "Ростислав Cлабіцький"
+    },
+    {
+     "path": "feed/link",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "feed/link@rel",
+     "n": 2,
+     "sample": "self"
+    },
+    {
+     "path": "feed/link@type",
+     "n": 2,
+     "sample": "application/atom+xml"
+    },
+    {
+     "path": "feed/link@href",
+     "n": 2,
+     "sample": "https://en.rodovid.org/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=atom"
+    },
+    {
+     "path": "feed",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "feed@{http://www.w3.org/XML/1998/namespace}lang",
+     "n": 1,
+     "sample": "en"
+    },
+    {
+     "path": "feed/id",
+     "n": 1,
+     "sample": "https://en.rodovid.org/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=atom"
+    },
+    {
+     "path": "feed/title",
+     "n": 1,
+     "sample": "Rodovid EN  - Recent changes [en]"
+    },
+    {
+     "path": "feed/updated",
+     "n": 1,
+     "sample": "2026-10-03T04:42:35Z"
+    },
+    {
+     "path": "feed/subtitle",
+     "n": 1,
+     "sample": "Track the most recent changes to the wiki in this feed."
+    },
+    {
+     "path": "feed/generator",
+     "n": 1,
+     "sample": "MediaWiki 1.39.17"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "A Rodovid genealogy record (Person:231947) for Samuel Langhorne Clemens. It lists sex, birth name, his other name Mark Twain, birth and death events with places, his parents, siblings, wife, children, son-in-law and granddaughter. Some values are in Russian, such as 'США' and 'Осип Габрилович'.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

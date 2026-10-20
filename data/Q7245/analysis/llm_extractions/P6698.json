@@ -1,0 +1,62 @@
+{
+ "property": "P6698",
+ "label": "Japan Search name ID",
+ "files_read": [
+  "P6698___dc163aa8/embedded_microdata.json",
+  "P6698___dc163aa8/export_3.json",
+  "P6698___dc163aa8/export_4.json",
+  "P6698___dc163aa8/export_6.json",
+  "P6698___dc163aa8/export_8.json",
+  "P6698___dc163aa8/xhr_1.json",
+  "P6698___dc163aa8/xhr_5.json",
+  "P6698___dc163aa8/conneg_4.json",
+  "P6698___dc163aa8/browser_export_3.json",
+  "P6698___dc163aa8/browser_export_4.json",
+  "P6698___dc163aa8/browser_export_6.json",
+  "P6698___dc163aa8/browser_export_8.json"
+ ],
+ "about_entity": true,
+ "notes": "conneg_4.json (RDF/JSON) and xhr_1.json (SPARQL s/p/o bindings) describe chname:マーク・トウェイン; xhr_5.json gives labels of linked resources (incl. NDL heading 'Twain, Mark, 1835-1910'); embedded_microdata.json is the Snorql page microdata. export_3/4/6/8 and browser_export_3/4/6/8 are 'illegal-param' error responses (describe of time/dbpedia URIs) with no entity data. Dates are year-only (time:1835 / time:1910).",
+ "elements": {
+  "name_preferred": [
+   {"value": "マーク・トウェイン", "lang": "ja", "via": "conneg_4.json: rdfs:label; schema:name@ja"}
+  ],
+  "name_variant": [
+   {"value": "Twain, Mark", "lang": "en", "via": "conneg_4.json: schema:name@en; xhr_1.json"},
+   {"value": "マーク・トウェイン", "lang": "ja-Kana", "via": "conneg_4.json: schema:name@ja-kana"},
+   {"value": "まーく・とうぇいん", "lang": "ja-Hira", "via": "conneg_4.json: schema:name@ja-hira"},
+   {"value": "Twain, Mark, 1835-1910", "lang": null, "via": "xhr_5.json: label of http://id.ndl.go.jp/auth/entity/00459304"},
+   {"value": "トウェイン マーク", "lang": "ja", "via": "xhr_5.json: label of https://www.aozora.gr.jp/index_pages/person1431"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "https://jpsearch.go.jp/entity/time/1835", "lang": null, "via": "conneg_4.json: schema:birthDate"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "https://jpsearch.go.jp/entity/time/1910", "lang": null, "via": "conneg_4.json: schema:deathDate"}
+  ],
+  "nationality": [
+   {"value": "アメリカ", "lang": "ja", "raw": "1835-1910, アメリカの作家、小説家。", "via": "conneg_4.json: schema:description"}
+  ],
+  "occupation": [
+   {"value": "作家", "lang": "ja", "via": "conneg_4.json: schema:description"},
+   {"value": "小説家", "lang": "ja", "via": "conneg_4.json: schema:description"}
+  ],
+  "description": [
+   {"value": "1835-1910, アメリカの作家、小説家。", "lang": "ja", "via": "conneg_4.json: schema:description"}
+  ],
+  "same_as": [
+   {"value": "http://id.ndl.go.jp/auth/entity/00459304", "via": "conneg_4.json: owl:sameAs"},
+   {"value": "http://ja.dbpedia.org/resource/マーク・トウェイン", "via": "conneg_4.json: owl:sameAs"},
+   {"value": "http://dbpedia.org/resource/Mark_Twain", "via": "conneg_4.json: owl:sameAs"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "conneg_4.json: owl:sameAs"},
+   {"value": "http://viaf.org/viaf/50566653", "via": "conneg_4.json: owl:sameAs"},
+   {"value": "https://www.aozora.gr.jp/index_pages/person1431", "via": "conneg_4.json: schema:url"}
+  ],
+  "identifier": [
+   {"value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン", "via": "conneg_4.json: subject URI"}
+  ],
+  "image": [
+   {"value": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=350", "via": "conneg_4.json: schema:image"}
+  ]
+ }
+}

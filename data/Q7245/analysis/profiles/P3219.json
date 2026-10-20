@@ -1,0 +1,1295 @@
+{
+ "property": "P3219",
+ "property_label": "Encyclopædia Universalis ID",
+ "files": [
+  {
+   "file": "P3219__mark-twain/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.universalis.fr/encyclopedie/mark-twain/"
+  },
+  {
+   "file": "P3219__mark-twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.universalis.fr/encyclopedie/mark-twain/"
+  },
+  {
+   "file": "P3219__mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.universalis.fr/encyclopedie/mark-twain/"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.id5-sync.com/api/1.0/id5-api.js"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_2.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ats.rlcdn.com/ats.js"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://captive.apple.com/hotspot-detect.html"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_4.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://0.stg.html-load.com/l/dKU3fKP9O1_zOqQ3c18rgJ4vOZ0ybZTxb5AwO5M0O5Y5cZ83"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.universalis.fr/api/?tx_apirest_api[controller]=FeUser%5CAuthentication&tx_apirest_api[action]=current&t=1790976544"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.universalis-edu.com/nomade/getRedirectionOption.php?landing=https%3A%2F%2Fwww.universalis.fr%2Fencyclopedie%2Fmark-twain%2F&id=null"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_8.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.polarbyte.com/idm/eu/forbiddenads.txt"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_9.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cmp.inmobi.com/geoip"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_10.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cmp.inmobi.com/GVL-v3/vendor-list-trimmed-v1.json"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_11.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.rlcdn.com/api/identity/envelope?pid=94"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_12.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://a.teads.tv/hb/bid-request"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_13.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://tlx.3lift.com/header/auction?lib=prebid&v=11.25.0&referrer=https%3A%2F%2Fwww.universalis.fr%2Fencyclopedie%2Fmark-twain%2F&tmax=1000&gdpr=false"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_14.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://mp.4dex.io/prebid?orgid=1201&gzip=1"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_15.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ident.mygaru.com/v2/id"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_16.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://sync6.im-apps.net/9001/pid?ref=null&page=https://www.universalis.fr/encyclopedie/mark-twain/"
+  },
+  {
+   "file": "P3219__mark-twain/xhr_17.txt",
+   "format": "empty",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://iaw-events.polarbyte.com/eu/save_event"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "text": 6,
+  "html": 1,
+  "json": 7,
+  "unknown": 1,
+  "empty": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 9,
+  "http://ogp.me/ns/article#": 2,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/WebPage",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "description": [
+   {
+    "value": "Biographie de MARK TWAIN (1835-1910). « Mark Twain » est un pseudonyme emprunté au vocabulaire des navigateurs sur le Mississippi au milieu du xix e  siècle. Ces mots, ou plutôt ce cri, annonçaient que la sonde trouvait encore un fond suffisant pour que les gros vapeurs à fond plat...",
+    "lang": "fr",
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "« Mark Twain » est un pseudonyme emprunté au vocabulaire des navigateurs sur le Mississippi au milieu du xix e siècle. Ces mots, ou plutôt ce cri, annonçaient que la sonde trouvait encore un fond suffisant pour que les gros vapeurs à fond plat...",
+    "lang": "fr",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "« Mark Twain » est un pseudonyme emprunté au vocabulaire des navigateurs sur le Mississippi au milieu du XIXe siècle. Ces mots, ou plutôt ce cri, annonçaient que la sonde trouvait encore un fond suffisant pour que les gros vapeurs à fond plat continuent leur route sans risque de s'échouer. Nom de guerre et nom de plume, nom d'aventurier en tout cas, qui évoque l'Ouest américain. Et pourtant, connu surtout en France comme l'auteur de Tom Sawyer, Mark Twain fait trop souvent figure de feuilletonis",
+    "lang": "fr",
+    "via": "llm-page:article opening",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://www.universalis.fr/_web/static/cards/biographie.jpg",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "TWAIN MARK",
+    "lang": "fr",
+    "via": "llm-page:page heading",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "fr",
+    "via": "llm-page:bio section 'Un enfant du Mississippi'",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "llm-page:first paragraph: « Mark Twain » est un pseudonyme",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Mississippi",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "Hawaii",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "New York",
+    "lang": "fr",
+    "via": "llm-page:bio (1867)",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "compositeur typographe",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "journaliste",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "pilote (Mississippi)",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "prospecteur",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "écrivain",
+    "lang": "fr",
+    "via": "llm-page:bio / classification",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "conférencier",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Littératures > Écrivains > Écrivains des Amériques > Écrivains des États-Unis d'Amérique",
+    "lang": "fr",
+    "via": "llm-page:CLASSIFICATION",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Écrivains des États-Unis d'Amérique",
+    "lang": "fr",
+    "via": "llm-page:CLASSIFICATION",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Tom Sawyer",
+    "lang": "fr",
+    "via": "llm-page:article opening",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "Les Naïfs à l'étranger (Innocents Abroad)",
+    "lang": "fr",
+    "via": "llm-page:bio",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "Les Aventures d'Huckleberry Finn",
+    "lang": "fr",
+    "via": "llm-page:AUTRES RÉFÉRENCES (fiche de lecture)",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Bernard Poli (author of the article)",
+    "lang": null,
+    "via": "llm-page:ÉCRIT PAR",
+    "file": "P3219.json",
+    "uri": false
+   },
+   {
+    "value": "Nathalie Cochoy (author of the Huckleberry Finn reading note)",
+    "lang": null,
+    "via": "llm-page:AUTRES RÉFÉRENCES",
+    "file": "P3219.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "description": [
+   "fr"
+  ],
+  "image": [],
+  "name_preferred": [
+   "fr"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "name_variant": [
+   "fr"
+  ],
+  "pseudonym": [
+   "fr"
+  ],
+  "birth_place": [
+   "fr"
+  ],
+  "death_place": [
+   "fr"
+  ],
+  "activity_place": [
+   "fr"
+  ],
+  "occupation": [
+   "fr"
+  ],
+  "field_of_activity": [
+   "fr"
+  ],
+  "nationality": [
+   "fr"
+  ],
+  "work": [
+   "fr"
+  ],
+  "related_agent": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 874,
+   "path_count": 13,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Biographie de MARK TWAIN (1835-1910)"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Biographie de MARK TWAIN (1835-1910). « Mark Twain » est un pseudonyme emprunté au vocabulaire des navigateurs sur le Mi"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.universalis.fr/encyclopedie/mark-twain/"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.universalis.fr/_web/static/cards/biographie.jpg"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "1600"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "900"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "fr_FR"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Encyclopædia Universalis"
+    },
+    {
+     "path": "[].article:section",
+     "n": 1,
+     "sample": "Biographie"
+    },
+    {
+     "path": "[].article:author",
+     "n": 1,
+     "sample": "https://www.universalis.fr/auteurs/bernard-poli/"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    },
+    {
+     "path": "[].@context.article",
+     "n": 1,
+     "sample": "http://ogp.me/ns/article#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Biographie de MARK TWAIN (1835-1910)"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Biographie de MARK TWAIN (1835-1910). « Mark Twain » est un pseudonyme emprunté au vocabulaire des navigateurs sur le Mississippi au milieu du xix e  siècle. Ces mots, ou plutôt ce cri, annonçaient qu"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.universalis.fr/encyclopedie/mark-twain/"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 69,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "code",
+     "n": 1,
+     "sample": "102"
+    },
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "AuthenticationException"
+    },
+    {
+     "path": "detailMessage",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_7.json",
+   "format": "json",
+   "size": 21,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "response",
+     "n": 1,
+     "sample": "KO"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_9.json",
+   "format": "json",
+   "size": 51,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "country",
+     "n": 1,
+     "sample": "usa"
+    },
+    {
+     "path": "region",
+     "n": 1,
+     "sample": "dc"
+    },
+    {
+     "path": "city",
+     "n": 1,
+     "sample": "washington"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_10.json",
+   "format": "json",
+   "size": 734879,
+   "path_count": 17284,
+   "paths": [
+    {
+     "path": "vendors.350.urls[].langId",
+     "n": 31,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.350.urls[].privacy",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en"
+    },
+    {
+     "path": "vendors.350.urls[].legIntClaim",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en#sec-11"
+    },
+    {
+     "path": "vendors.351.urls[].langId",
+     "n": 31,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.351.urls[].privacy",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en"
+    },
+    {
+     "path": "vendors.351.urls[].legIntClaim",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en#sec-11"
+    },
+    {
+     "path": "vendors.53.urls[].langId",
+     "n": 27,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.53.urls[].privacy",
+     "n": 27,
+     "sample": "https://www.sirdata.com/en/Privacy"
+    },
+    {
+     "path": "vendors.53.urls[].legIntClaim",
+     "n": 27,
+     "sample": "https://www.sirdata.com/en/Privacy#legitimateinterest"
+    },
+    {
+     "path": "vendors.1154.urls[].langId",
+     "n": 24,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.1154.urls[].privacy",
+     "n": 24,
+     "sample": "https://alphonso.tv/privacy/smart-tvs/smart-tv-privacy-policy-eu/"
+    },
+    {
+     "path": "vendors.1154.urls[].legIntClaim",
+     "n": 24,
+     "sample": "https://alphonso.tv/privacy/smart-tvs/smart-tv-privacy-policy-eu/"
+    },
+    {
+     "path": "vendors.755.urls[].langId",
+     "n": 23,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.755.urls[].privacy",
+     "n": 23,
+     "sample": "https://business.safety.google/privacy/"
+    },
+    {
+     "path": "vendors.755.urls[].legIntClaim",
+     "n": 23,
+     "sample": "https://policies.google.com/privacy#europeanrequirements"
+    },
+    {
+     "path": "vendors.726.urls[].langId",
+     "n": 20,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.726.urls[].privacy",
+     "n": 20,
+     "sample": "https://account.yougov.com/gb-en/account/privacy-policy"
+    },
+    {
+     "path": "vendors.726.urls[].legIntClaim",
+     "n": 20,
+     "sample": "https://account.yougov.com/gb-en/account/privacy-policy"
+    },
+    {
+     "path": "vendors.1336.urls[].langId",
+     "n": 13,
+     "sample": "cs"
+    },
+    {
+     "path": "vendors.1336.urls[].privacy",
+     "n": 13,
+     "sample": "https://www.glami.cz/info/privacy/"
+    },
+    {
+     "path": "vendors.1336.urls[].legIntClaim",
+     "n": 13,
+     "sample": "https://www.glami.cz/info/privacy/"
+    },
+    {
+     "path": "vendors.790.urls[].langId",
+     "n": 12,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.790.urls[].privacy",
+     "n": 12,
+     "sample": "https://policy.samsungrs.com/consent/eu/nsc/privacy_policy_en.html"
+    },
+    {
+     "path": "vendors.790.urls[].legIntClaim",
+     "n": 12,
+     "sample": "https://policy.samsungrs.com/consent/eu/nsc/privacy_policy_en.html#gdpr-article"
+    },
+    {
+     "path": "vendors.24.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.25.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.34.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.42.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.44.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.66.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.76.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.85.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.87.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.94.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.95.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.154.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.164.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.209.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.224.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.239.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.252.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.253.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.272.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.284.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.325.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.333.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.374.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.388.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.397.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.423.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.461.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.469.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.488.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.546.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.554.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.565.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.581.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.621.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.623.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.648.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.655.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.682.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.715.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.736.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.750.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.750.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.768.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.783.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.790.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.811.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.831.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.855.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.858.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.874.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.880.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.880.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.884.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.910.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.941.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.952.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.952.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.955.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.955.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.962.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1001.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1029.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1047.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1063.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1068.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1080.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1101.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1101.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1113.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1151.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1153.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1153.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1154.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1226.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1241.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1251.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1279.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1282.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1292.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1294.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1294.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1301.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1312.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1326.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1336.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1370.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1377.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1378.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1379.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1379.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1382.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1382.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1413.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1447.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1454.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1465.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_12.json",
+   "format": "json",
+   "size": 17,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_15.json",
+   "format": "json",
+   "size": 181,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "ip",
+     "n": 1,
+     "sample": "71.178.36.215"
+    },
+    {
+     "path": "otp",
+     "n": 1,
+     "sample": "x9yrCs5EgQe1BTo9uDThhDXoRSDV5QsACyLFksJxOoLGiM/op/BT98/UhV9Ydvm0tgr5VPHHHgB8i3U4fDB9+djw5dYpSAnr7w=="
+    },
+    {
+     "path": "carrier",
+     "n": 1,
+     "sample": "00000000-0000-0000-0000-000000000000"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ip",
+    "otp"
+   ]
+  },
+  {
+   "file": "xhr_16.json",
+   "format": "json",
+   "size": 70,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "ppid",
+     "n": 1,
+     "sample": "84dabefa8006cfc31415fef89f3a4710"
+    },
+    {
+     "path": "uid",
+     "n": 1,
+     "sample": "b.6c6bff1434ff1bbd"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "uid"
+   ]
+  }
+ ],
+ "llm_notes": "French encyclopedia article 'TWAIN MARK (1835-1910)' by Bernard Poli; only the opening sections are visible, the rest is behind a paywall. Includes a photo credit, classification, and related articles.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

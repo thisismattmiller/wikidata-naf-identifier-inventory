@@ -1,0 +1,37 @@
+{
+ "property": "P10297",
+ "label": "Google Arts & Culture entity ID",
+ "files_read": ["P10297__m014635/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the Google Arts & Culture entity page; og:description is a one-line bio, og:title the name plus site suffix.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "raw": "Mark Twain - Google Arts & Culture", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description'] 'known by his pen name Mark Twain'"}
+  ],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+   {"value": "humorist", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+   {"value": "entrepreneur", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+   {"value": "publisher", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+   {"value": "lecturer", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "nationality": [
+   {"value": "American", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "description": [
+   {"value": "Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer.", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+  ],
+  "image": [
+   {"value": "https://lh3.googleusercontent.com/ci/AL18g_SzLZatd6wVRMmUO6rp2n9m5dVCEGHHADMX0gWTs2B7SM49STplX4qwMdI_ApYURNxAyOhJQxg", "via": "embedded_opengraph.json: $[0]['og:image']"}
+  ],
+  "identifier": [
+   {"value": "m014635", "raw": "https://artsandculture.google.com/entity/mark-twain/m014635", "via": "embedded_opengraph.json: $[0]['og:url']"}
+  ]
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "property": "P11180",
+ "property_label": "Central Library of Volos authority ID",
+ "files": [
+  {
+   "file": "P11180__148/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "http://srv-vivl-volou.mag.sch.gr//cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=148"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 6,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:UNIMARC 200",
+    "file": "P11180.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": null,
+    "via": "llm-page:UNIMARC 200 part of name",
+    "file": "P11180.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "llm-page:UNIMARC 200 entry element",
+    "file": "P11180.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:UNIMARC 200 Dates",
+    "file": "P11180.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:UNIMARC 200 Dates",
+    "file": "P11180.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "148",
+    "lang": null,
+    "via": "llm-page:URL authid=148",
+    "file": "P11180.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [],
+  "given_name": [],
+  "family_name": [],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Koha MARC view (UNIMARC) of authority 148: only a 200 heading 'Twain, Mark, 1835-1910', used in 33 records. Nothing else in the record.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

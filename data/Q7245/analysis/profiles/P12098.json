@@ -1,0 +1,1226 @@
+{
+ "property": "P12098",
+ "property_label": "Kinobox person ID",
+ "files": [
+  {
+   "file": "P12098__35550/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.kinobox.cz/osobnosti/35550-mark-twain"
+  },
+  {
+   "file": "P12098__35550/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.kinobox.cz/osobnosti/35550-mark-twain"
+  },
+  {
+   "file": "P12098__35550/xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://jsc.native.azerion.com/site/1096804.js"
+  },
+  {
+   "file": "P12098__35550/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.kinobox.cz/api/ads"
+  },
+  {
+   "file": "P12098__35550/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.kinobox.cz/v1/preroll-config"
+  },
+  {
+   "file": "P12098__35550/xhr_4.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://h.seznam.cz/hit"
+  },
+  {
+   "file": "P12098__35550/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bzr.openai.com/v1/sdk/events?pid=Q4tvSqRK44tLRGMZifV8Ar&st=oaiq-web&sv=0.1.41&t=1790979101319&ec=3"
+  },
+  {
+   "file": "P12098__35550/xhr_6.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://evencoating.com/g20rrb/v2rx0vgu0cr2hecwhx"
+  },
+  {
+   "file": "P12098__35550/xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cmp.seznam.cz/check-point/v1/cmp?zoneId=358018"
+  },
+  {
+   "file": "P12098__35550/xhr_8.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json?date=20261002"
+  },
+  {
+   "file": "P12098__35550/xhr_9.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://i.connectad.io/api/v2"
+  },
+  {
+   "file": "P12098__35550/browser_xhr_1.img",
+   "format": "image",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://h.seznam.cz/hit"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "rdfa": 1,
+  "text": 1,
+  "json": 5,
+  "unknown": 2,
+  "html": 1,
+  "image": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 6,
+  "http://schema.org/": 3,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "cs",
+    "via": "llm-page:page heading",
+    "file": "P12098.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-29",
+    "lang": "cs",
+    "via": "llm-page:heading dates / Narození",
+    "file": "P12098.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://1263469901.rsc.cdn77.org/images/2023/06/23/external_file_1357429814648150692.jpg",
+    "lang": null,
+    "via": "image",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain se proslavil filmy Páni kluci, United States Steel Hour, The, Disneyland.",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Již v éře němého filmu byla Twainova díla převáděna na plátno. V roce 1920 byl uveden film Huckleberry Finn, následovaný snímkem A Connecticut Yankee in King Arthur's Court z roku 1921, který byl první filmovou adaptací tohoto románu. Ve 30. letech 20. století vznikly významné adaptace Twainových děl. Film The Adventures of Tom Sawyer z roku 1938, režírovaný Normanem Taurogem, byl první barevnou verzí tohoto příběhu...",
+    "lang": "cs",
+    "via": "llm-page:Přehled section",
+    "file": "P12098.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "cs",
+    "via": "llm-page:filmography credit '(as Samuel Clemens)' on The Prince and the Pauper (1909)",
+    "file": "P12098.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-20",
+    "lang": "cs",
+    "via": "llm-page:heading dates / Úmrtí",
+    "file": "P12098.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Scénář",
+    "lang": "cs",
+    "via": "llm-page:filmography role",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Námět",
+    "lang": "cs",
+    "via": "llm-page:filmography role",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Hraje",
+    "lang": "cs",
+    "via": "llm-page:filmography role",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Účinkuje",
+    "lang": "cs",
+    "via": "llm-page:filmography role",
+    "file": "P12098.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Páni kluci",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer & Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Sunday at the Reissmans'",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer a jeho kamarádi",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Hucka Finna",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "The Autobiography of Mark Twain",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "The War Prayer",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Jak jsem se protloukal",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Princ a chuďas",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Princ a surfař",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Rytířem na hradě Camelot",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Tom a Huck",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Huck and the King of Hearts",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Milión k jedné",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Yankee na dvoře krále Artuše",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Mark Twain",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Ten magor Wilson",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Tajemný cizinec",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Soukromé dějiny neúspěšného tažení",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "The Man That Corrupted Hadleyburg",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Astronaut na dvoře krále Artuše",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Smrt Joa Indiána",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "The £1,000,000 Bank Note",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain Tonight!",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Det er ikke appelsiner, det er heste",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "The Double-Barrelled Detective Story",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Milionová bankovka",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, Detective",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Death Disc: A Story of the Cromwellian Period",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Huck and Tom",
+    "lang": null,
+    "via": "llm-page:Kompletní filmografie (screen adaptation credit)",
+    "file": "P12098.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Norman Taurog (director, The Adventures of Tom Sawyer 1938)",
+    "lang": null,
+    "via": "llm-page:Přehled",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Mickey Rooney (lead actor, The Adventures of Huckleberry Finn 1939)",
+    "lang": null,
+    "via": "llm-page:Přehled",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Ron Howard (lead actor, Huckleberry Finn 1975)",
+    "lang": null,
+    "via": "llm-page:Přehled",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Will Vinton (director, The Adventures of Mark Twain 1985)",
+    "lang": null,
+    "via": "llm-page:Přehled",
+    "file": "P12098.json",
+    "uri": false
+   },
+   {
+    "value": "Ken Burns (documentary director)",
+    "lang": null,
+    "via": "llm-page:Přehled",
+    "file": "P12098.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "35550",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P12098.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "cs"
+  ],
+  "birth_date": [
+   "cs"
+  ],
+  "image": [],
+  "description": [
+   "cs"
+  ],
+  "name_variant": [
+   "cs"
+  ],
+  "death_date": [
+   "cs"
+  ],
+  "occupation": [
+   "cs"
+  ],
+  "work": [],
+  "related_agent": [],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 15869,
+   "path_count": 39,
+   "paths": [
+    {
+     "path": "positionInfo[].position",
+     "n": 28,
+     "sample": "11"
+    },
+    {
+     "path": "positionInfo[].provider",
+     "n": 28,
+     "sample": "sas"
+    },
+    {
+     "path": "positionInfo[].id",
+     "n": 28,
+     "sample": "halfpagead"
+    },
+    {
+     "path": "positionInfo[].sas-size",
+     "n": 28,
+     "sample": "300x600,300x300,250x250,300x250,160x600,120x600,240x400,120x240,210x210,250x360,250x600"
+    },
+    {
+     "path": "positionInfo[].bidding",
+     "n": 28,
+     "sample": "True"
+    },
+    {
+     "path": "positionInfo[].default-size",
+     "n": 28,
+     "sample": "300x600"
+    },
+    {
+     "path": "positionInfo[].branding",
+     "n": 28,
+     "sample": "False"
+    },
+    {
+     "path": "positionInfo[].sticky",
+     "n": 28,
+     "sample": "True"
+    },
+    {
+     "path": "positionInfo[].enabled",
+     "n": 28,
+     "sample": "True"
+    },
+    {
+     "path": "scripts.head",
+     "n": 1,
+     "sample": "<script>window.Ads = { config:{ \"vignetteCappingTime\":1800000,\"testingVersion\":\"C\",\"mBrandingOffsetTop\":56,\"preloadGPT\":"
+    },
+    {
+     "path": "scripts.body.11",
+     "n": 1,
+     "sample": "<div id=\"r-hpa1\" class=\"r-main m11 s_halfpagead\"><div class=\"r-head\"><span></span></div><div class=\"r-body\"><div id='hal"
+    },
+    {
+     "path": "scripts.body.12",
+     "n": 1,
+     "sample": "<div id=\"r-hpa2\" class=\"r-main m12 s_halfpagead_spodni\"><div class=\"r-head\"><span></span></div><div class=\"r-body\"><div "
+    },
+    {
+     "path": "scripts.body.18",
+     "n": 1,
+     "sample": "<div id=\"r-hpa_foto\" class=\"r-main m18 s_halfpagead_fotogalerie\"><div class=\"r-head\"><span></span></div><div class=\"r-bo"
+    },
+    {
+     "path": "scripts.body.28",
+     "n": 1,
+     "sample": "<table id=\"r-leaderboardhp\" class=\"r-main ahead s_branding\"><tr><td><div class=\"r-head\"><span></span></div><div class=\"r"
+    },
+    {
+     "path": "scripts.body.54",
+     "n": 1,
+     "sample": "<div id=\"r-wallpaper\" class=\"r-main m54 s_wallpaper\"><div class=\"r-head\"><span></span></div><div class=\"r-body\"><div id="
+    },
+    {
+     "path": "scripts.body.58",
+     "n": 1,
+     "sample": "<div id=\"r-shp480\" class=\"r-main m58 s_widesquare\"><div class=\"r-head\"><span></span></div><div class=\"r-body\"><div id='w"
+    },
+    {
+     "path": "scripts.body.60",
+     "n": 1,
+     "sample": "<div id=\"r-ws480_2\" class=\"r-main m60 s_widesquare_spodni\"><div class=\"r-head\"><span></span></div><div class=\"r-body\"><d"
+    },
+    {
+     "path": "scripts.body.74",
+     "n": 1,
+     "sample": "<table id=\"r-mbfoto\" class=\"r-main ahead s_branding_fotogalerie\"><tr><td><div class=\"r-head\"><span></span></div><div cla"
+    },
+    {
+     "path": "scripts.body.76",
+     "n": 1,
+     "sample": "<div id=\"r-clanekws\" class=\"r-main m76 s_widesquare_clankovy\"><div class=\"r-head\"><span></span></div><div class=\"r-body\""
+    },
+    {
+     "path": "scripts.body.93",
+     "n": 1,
+     "sample": "<div id=\"r-hpa3\" class=\"r-main m93 s_halfpagead_lazyload\"><div class=\"r-head\"><span></span></div><div class=\"r-body\"><di"
+    },
+    {
+     "path": "scripts.body.94",
+     "n": 1,
+     "sample": "<div id=\"r-clanekws2\" class=\"r-main m94 s_widesquare_clankovy2\"><div class=\"r-head\"><span></span></div><div class=\"r-bod"
+    },
+    {
+     "path": "scripts.body.97",
+     "n": 1,
+     "sample": "<div id=\"r-clanekws3\" class=\"r-main m97 s_widesquare_clankovy3\"><div class=\"r-head\"><span></span></div><div class=\"r-bod"
+    },
+    {
+     "path": "scripts.body.203",
+     "n": 1,
+     "sample": "<div id=\"r-touch300x250\" class=\"r-main touch-203 s_m_300x250\"><div class=\"r-head\"><span></span></div><div class=\"r-body\""
+    },
+    {
+     "path": "scripts.body.205",
+     "n": 1,
+     "sample": "<div id='m_sticky'></div>"
+    },
+    {
+     "path": "scripts.body.210",
+     "n": 1,
+     "sample": "<div id=\"r-touchpgalerry\" class=\"r-main touch-210 s_m_300x250_foto_start\"><div class=\"r-head\"><span></span></div><div cl"
+    },
+    {
+     "path": "scripts.body.211",
+     "n": 1,
+     "sample": "<div id=\"r-touch300x250article\" class=\"r-main touch-211 s_m_300x250_clankovy\"><div class=\"r-head\"><span></span></div><di"
+    },
+    {
+     "path": "scripts.body.212",
+     "n": 1,
+     "sample": "<div id=\"r-touchpgalerryend\" class=\"r-main touch-212 s_m_300x250_foto_end\"><div class=\"r-head\"><span></span></div><div c"
+    },
+    {
+     "path": "scripts.body.214",
+     "n": 1,
+     "sample": "<div id=\"r-touchpgalerrymid\" class=\"r-main touch-214 s_m_300x250_foto_mid\"><div class=\"r-head\"><span></span></div><div c"
+    },
+    {
+     "path": "scripts.body.215",
+     "n": 1,
+     "sample": "<div id=\"r-touchbranding\" class=\"r-main touch-215 s_m_branding\"><div class=\"r-head\"><span></span></div><div class=\"r-bod"
+    },
+    {
+     "path": "scripts.body.216",
+     "n": 1,
+     "sample": "<div id=\"r-touchfooter\" class=\"r-main touch-216 s_m_paticka\"><div class=\"r-head\"><span></span></div><div class=\"r-body\">"
+    },
+    {
+     "path": "scripts.body.225",
+     "n": 1,
+     "sample": "<div id='m_vignete'></div>"
+    },
+    {
+     "path": "scripts.body.228",
+     "n": 1,
+     "sample": "<div id=\"r-touch300x250art1\" class=\"r-main touch-228 s_m_300x250_clankovy_opak1\"><div class=\"r-head\"><span></span></div>"
+    },
+    {
+     "path": "scripts.body.229",
+     "n": 1,
+     "sample": "<div id=\"r-touch300x250art2\" class=\"r-main touch-229 s_m_300x250_clankovy_opak2\"><div class=\"r-head\"><span></span></div>"
+    },
+    {
+     "path": "scripts.body.230",
+     "n": 1,
+     "sample": "<div id=\"r-touch300x250art3\" class=\"r-main touch-230 s_m_300x250_clankovy_opak3\"><div class=\"r-head\"><span></span></div>"
+    },
+    {
+     "path": "scripts.body.245",
+     "n": 1,
+     "sample": "<div id=\"r-touchbrandingphoto\" class=\"r-main touch-245 s_m_branding_foto\"><div class=\"r-head\"><span></span></div><div cl"
+    },
+    {
+     "path": "scripts.body.252",
+     "n": 1,
+     "sample": "<div id=\"r-touchpgalerrymid2\" class=\"r-main touch-252 s_m_300x250_foto_mid2\"><div class=\"r-head\"><span></span></div><div"
+    },
+    {
+     "path": "scripts.body.253",
+     "n": 1,
+     "sample": "<div id=\"r-touchpgalerrymid3\" class=\"r-main touch-253 s_m_300x250_foto_mid3\"><div class=\"r-head\"><span></span></div><div"
+    },
+    {
+     "path": "scripts.body.254",
+     "n": 1,
+     "sample": "<div id=\"r-touchpgalerrymid4\" class=\"r-main touch-254 s_m_300x250_foto_mid4\"><div class=\"r-head\"><span></span></div><div"
+    },
+    {
+     "path": "scripts.foot",
+     "n": 1,
+     "sample": "<script src=\"https://1gr.cz/js/uni/paticka.js?rr=1790260374\"></script>\n\n<script>window.UniLoaded = window.UniLoaded || ["
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "sas-size"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 117,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "[].key",
+     "n": 4,
+     "sample": "article"
+    },
+    {
+     "path": "[].value",
+     "n": 4,
+     "sample": "2"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "key"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 211,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "error.message",
+     "n": 1,
+     "sample": "unknown query parameter"
+    },
+    {
+     "path": "error.type",
+     "n": 1,
+     "sample": "invalid_request_error"
+    },
+    {
+     "path": "error.param",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "error.code",
+     "n": 1,
+     "sample": "invalid_field_value"
+    },
+    {
+     "path": "error.errors[].message",
+     "n": 1,
+     "sample": "unknown query parameter"
+    },
+    {
+     "path": "error.errors[].param",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "error.errors[].code",
+     "n": 1,
+     "sample": "invalid_field_value"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_7.json",
+   "format": "json",
+   "size": 135,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "internalPartner",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "startDate",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "operatorName",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "gdprUrl",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "logoUrl",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "webName",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "showDialog",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "redirect",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_8.json",
+   "format": "json",
+   "size": 1554,
+   "path_count": 62,
+   "paths": [
+    {
+     "path": "generatedAt",
+     "n": 1,
+     "sample": "2026-10-02T15:00:30.448Z"
+    },
+    {
+     "path": "dataAsOf",
+     "n": 1,
+     "sample": "2026-10-02T00:00:00.000Z"
+    },
+    {
+     "path": "conversions.USD.EUR",
+     "n": 1,
+     "sample": "0.8908685968819599"
+    },
+    {
+     "path": "conversions.USD.USD",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "conversions.USD.JPY",
+     "n": 1,
+     "sample": "157.67483296213808"
+    },
+    {
+     "path": "conversions.USD.CZK",
+     "n": 1,
+     "sample": "21.799554565701555"
+    },
+    {
+     "path": "conversions.USD.DKK",
+     "n": 1,
+     "sample": "6.657995545657015"
+    },
+    {
+     "path": "conversions.USD.GBP",
+     "n": 1,
+     "sample": "0.7575322939866369"
+    },
+    {
+     "path": "conversions.USD.HUF",
+     "n": 1,
+     "sample": "328.89086859688194"
+    },
+    {
+     "path": "conversions.USD.PLN",
+     "n": 1,
+     "sample": "3.8997772828507795"
+    },
+    {
+     "path": "conversions.USD.RON",
+     "n": 1,
+     "sample": "4.765077951002227"
+    },
+    {
+     "path": "conversions.USD.SEK",
+     "n": 1,
+     "sample": "10.057906458797326"
+    },
+    {
+     "path": "conversions.USD.CHF",
+     "n": 1,
+     "sample": "0.8266369710467705"
+    },
+    {
+     "path": "conversions.USD.ISK",
+     "n": 1,
+     "sample": "122.0489977728285"
+    },
+    {
+     "path": "conversions.USD.NOK",
+     "n": 1,
+     "sample": "9.649443207126948"
+    },
+    {
+     "path": "conversions.USD.TRY",
+     "n": 1,
+     "sample": "49.14476614699331"
+    },
+    {
+     "path": "conversions.USD.AUD",
+     "n": 1,
+     "sample": "1.4410690423162582"
+    },
+    {
+     "path": "conversions.USD.BRL",
+     "n": 1,
+     "sample": "5.221380846325166"
+    },
+    {
+     "path": "conversions.USD.CAD",
+     "n": 1,
+     "sample": "1.4239643652561247"
+    },
+    {
+     "path": "conversions.USD.CNY",
+     "n": 1,
+     "sample": "6.7045879732739415"
+    },
+    {
+     "path": "conversions.USD.HKD",
+     "n": 1,
+     "sample": "7.847126948775056"
+    },
+    {
+     "path": "conversions.USD.IDR",
+     "n": 1,
+     "sample": "17950.39643652561"
+    },
+    {
+     "path": "conversions.USD.ILS",
+     "n": 1,
+     "sample": "3.065300668151447"
+    },
+    {
+     "path": "conversions.USD.INR",
+     "n": 1,
+     "sample": "96.32472160356346"
+    },
+    {
+     "path": "conversions.USD.KRW",
+     "n": 1,
+     "sample": "1348.2761692650333"
+    },
+    {
+     "path": "conversions.USD.MXN",
+     "n": 1,
+     "sample": "18.334610244988863"
+    },
+    {
+     "path": "conversions.USD.MYR",
+     "n": 1,
+     "sample": "4.084543429844098"
+    },
+    {
+     "path": "conversions.USD.NZD",
+     "n": 1,
+     "sample": "1.7819153674832962"
+    },
+    {
+     "path": "conversions.USD.PHP",
+     "n": 1,
+     "sample": "62.59688195991091"
+    },
+    {
+     "path": "conversions.USD.SGD",
+     "n": 1,
+     "sample": "1.2798218262806236"
+    },
+    {
+     "path": "conversions.USD.THB",
+     "n": 1,
+     "sample": "33.59465478841871"
+    },
+    {
+     "path": "conversions.USD.ZAR",
+     "n": 1,
+     "sample": "16.733986636971046"
+    },
+    {
+     "path": "conversions.GBP.EUR",
+     "n": 1,
+     "sample": "1.1760140180870955"
+    },
+    {
+     "path": "conversions.GBP.USD",
+     "n": 1,
+     "sample": "1.3200757353027648"
+    },
+    {
+     "path": "conversions.GBP.JPY",
+     "n": 1,
+     "sample": "208.14272106123505"
+    },
+    {
+     "path": "conversions.GBP.CZK",
+     "n": 1,
+     "sample": "28.777063022591225"
+    },
+    {
+     "path": "conversions.GBP.DKK",
+     "n": 1,
+     "sample": "8.789058365575718"
+    },
+    {
+     "path": "conversions.GBP.GBP",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "conversions.GBP.HUF",
+     "n": 1,
+     "sample": "434.1608551973939"
+    },
+    {
+     "path": "conversions.GBP.PLN",
+     "n": 1,
+     "sample": "5.148001364176261"
+    },
+    {
+     "path": "conversions.GBP.RON",
+     "n": 1,
+     "sample": "6.290263779944256"
+    },
+    {
+     "path": "conversions.GBP.SEK",
+     "n": 1,
+     "sample": "13.277198264203307"
+    },
+    {
+     "path": "conversions.GBP.CHF",
+     "n": 1,
+     "sample": "1.0912234073830158"
+    },
+    {
+     "path": "conversions.GBP.ISK",
+     "n": 1,
+     "sample": "161.11392047793208"
+    },
+    {
+     "path": "conversions.GBP.NOK",
+     "n": 1,
+     "sample": "12.737995836910375"
+    },
+    {
+     "path": "conversions.GBP.TRY",
+     "n": 1,
+     "sample": "64.87481330777462"
+    },
+    {
+     "path": "conversions.GBP.AUD",
+     "n": 1,
+     "sample": "1.9023202756576856"
+    },
+    {
+     "path": "conversions.GBP.BRL",
+     "n": 1,
+     "sample": "6.892618160008467"
+    },
+    {
+     "path": "conversions.GBP.CAD",
+     "n": 1,
+     "sample": "1.8797408065104135"
+    },
+    {
+     "path": "conversions.GBP.CNY",
+     "n": 1,
+     "sample": "8.850563898721672"
+    },
+    {
+     "path": "conversions.GBP.HKD",
+     "n": 1,
+     "sample": "10.358801876918372"
+    },
+    {
+     "path": "conversions.GBP.IDR",
+     "n": 1,
+     "sample": "23695.882774922673"
+    },
+    {
+     "path": "conversions.GBP.ILS",
+     "n": 1,
+     "sample": "4.046429033434078"
+    },
+    {
+     "path": "conversions.GBP.INR",
+     "n": 1,
+     "sample": "127.15592769865815"
+    },
+    {
+     "path": "conversions.GBP.KRW",
+     "n": 1,
+     "sample": "1779.8266555337339"
+    },
+    {
+     "path": "conversions.GBP.MXN",
+     "n": 1,
+     "sample": "24.203074100643278"
+    },
+    {
+     "path": "conversions.GBP.MYR",
+     "n": 1,
+     "sample": "5.391906671527525"
+    },
+    {
+     "path": "conversions.GBP.NZD",
+     "n": 1,
+     "sample": "2.3522632389778084"
+    },
+    {
+     "path": "conversions.GBP.PHP",
+     "n": 1,
+     "sample": "82.63262498088976"
+    },
+    {
+     "path": "conversions.GBP.SGD",
+     "n": 1,
+     "sample": "1.6894617383839214"
+    },
+    {
+     "path": "conversions.GBP.THB",
+     "n": 1,
+     "sample": "44.347488622064375"
+    },
+    {
+     "path": "conversions.GBP.ZAR",
+     "n": 1,
+     "sample": "22.09012971434619"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Kinobox.cz (Czech film database) person page: life dates (shown one day early: 29.11.1835 - 20.4.1910), a Czech overview of screen adaptations, and a 261-item filmography (Scénář 136, Námět 117, Hraje 7, Účinkuje 1); works capped at 40 distinct titles. 'Populární herci' etc. sidebars ignored.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

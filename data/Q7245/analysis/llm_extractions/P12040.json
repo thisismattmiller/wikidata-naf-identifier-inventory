@@ -1,0 +1,62 @@
+{
+ "property": "P12040",
+ "label": "J. Paul Getty Museum agent ID",
+ "files_read": ["P12040__person_104WZ9_c3ab502e/xhr_2.json", "P12040__person_104WZ9_c3ab502e/xhr_16.json"],
+ "about_entity": true,
+ "notes": "xhr_2.json is the Getty collection search record for person/104WZ9; xhr_16.json is the object search for the one linked object (a Harrisburg family photo album, 84.XD.1522) where he appears among many photographers. The record looks conflated: primary_name 'Langhorne', role 'Photographer', life_dates 'active Plainfield, New Jersey 1870s - 1880s' (an obscure photographer) merged with Twain's names, dates, description and ULAN link. Description also contains a typo ('1965' for 1865). Values extracted as stated.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Langhorne", "lang": "en", "via": "xhr_2.json: $.data[0].primary_name"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne", "lang": "en", "via": "xhr_2.json: $.data[0].all_names[2]"},
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "xhr_2.json: $.data[0].all_names[3]"},
+   {"value": "Clemens, Mark Twain", "lang": "en", "via": "xhr_2.json: $.data[0].all_names[4]"}
+  ],
+  "pseudonym": [
+   {"value": "Twain, Mark (pseudonym)", "lang": "en", "via": "xhr_2.json: $.data[0].all_names[0]"},
+   {"value": "Mark Twain (pseudonym)", "lang": "en", "via": "xhr_2.json: $.data[0].all_names[1]"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "{\"gte\":\"1835-01-01 00:00:00\",\"lte\":\"1835-12-31 23:59:59\"}", "lang": null, "via": "xhr_2.json: $.data[0].extra-born-date; extra-life_dates '1835 - 1910'"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "{\"gte\":\"1910-01-01 00:00:00\",\"lte\":\"1910-12-31 23:59:59\"}", "lang": null, "via": "xhr_2.json: $.data[0].extra-death-date"}
+  ],
+  "activity_place": [
+   {"value": "Plainfield, New Jersey", "lang": "en", "via": "xhr_2.json: $.data[0].life_dates ('active Plainfield, New Jersey 1870s - 1880s'; likely from a conflated photographer record)"}
+  ],
+  "occupation": [
+   {"value": "Photographer", "lang": "en", "via": "xhr_2.json: $.data[0].roles (likely conflation)"},
+   {"value": "author", "lang": "en", "via": "xhr_2.json: $.data[0].extra-description"},
+   {"value": "humorist", "lang": "en", "via": "xhr_2.json: $.data[0].extra-description"}
+  ],
+  "nationality": [
+   {"value": "American", "lang": "en", "via": "xhr_2.json: $.data[0].nationality / extra-nationality"}
+  ],
+  "description": [
+   {"value": "American author and humorist, known for such works as  Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1885). His first major published work was in 1965, with \"Celebrated Jumping Frog of Calaveras County.\" Twain did not finish elementary school, but is noted as having been was awarded honorary degree by Oxford University.", "lang": "en", "via": "xhr_2.json: $.data[0].extra-description"}
+  ],
+  "work": [
+   {"value": "Adventures of Tom Sawyer", "lang": "en", "via": "xhr_2.json: $.data[0].extra-description"},
+   {"value": "Adventures of Huckleberry Finn", "lang": "en", "via": "xhr_2.json: $.data[0].extra-description"},
+   {"value": "Celebrated Jumping Frog of Calaveras County", "lang": "en", "via": "xhr_2.json: $.data[0].extra-description"},
+   {"value": "[Cook of Harrisburg, Pennsylvania Family Album: cabinet cards and cartes-de-visite] (84.XD.1522), as one of the photographers", "lang": "en", "via": "xhr_16.json: $.data[0].primary_name / producers[11]"}
+  ],
+  "related_agent": [
+   {"value": "Oxford University", "relation": "awarded him an honorary degree", "via": "xhr_2.json: $.data[0].extra-description"}
+  ],
+  "same_as": [
+   {"value": "http://vocab.getty.edu/ulan/500020427", "via": "xhr_2.json: $.data[0].ulan_id"}
+  ],
+  "identifier": [
+   {"value": "104WZ9", "raw": "/person/104WZ9", "via": "xhr_2.json: $.data[0].slug_with_path"},
+   {"value": "person/e6aab11d-a9d5-4f7e-ad05-11680be7b04d", "via": "xhr_2.json: $.data[0].id"},
+   {"value": "15383", "via": "xhr_2.json: $.data[0].tms_id"},
+   {"value": "10138", "via": "xhr_2.json: $.data[0].dor_id"}
+  ],
+  "record_modified": [
+   {"value": "2024-01-18", "raw": "2024-01-18T22:32:33.000Z", "via": "xhr_2.json: $.data[0].last_updated--date"}
+  ]
+ }
+}

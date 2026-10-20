@@ -1,0 +1,61 @@
+{
+ "property": "P9223",
+ "label": "Provenio UUID",
+ "files_read": [
+  "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/xhr_3.json",
+  "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/xhr_4.json",
+  "P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13/xhr_6.json"
+ ],
+ "about_entity": true,
+ "notes": "xhr_3.json is the Provenio (Czech, Verbis/Kpwin-style) authority record API with MARC-like fields (a100, a400, a665, a678...) copied from the NKC national authority jn19981002263; xhr_6.json is the see/see-also hierarchy tree; xhr_4.json is an empty related-records search (0 results, about_entity false).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "raw": "Twain, Mark, 1835-1910", "lang": null, "via": "xhr_3.json: $.record.fields[a100] $a/$d; $.record.name"}
+  ],
+  "name_variant": [
+   {"value": "Mark Twain", "raw": "Mark Twain, 1835-1910", "lang": null, "via": "xhr_3.json: $.record.fields[a400] $a; xhr_6.json: $[0].nodes[2].text"},
+   {"value": "Clemens, Samuel Langhorne", "raw": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "xhr_3.json: $.record.fields[a400] $w=p $a; xhr_6.json: $[0].nodes[1].text"}
+  ],
+  "pseudonym": [
+   {"value": "Louis de Conte", "raw": "Sieur Louis de Conte", "lang": "cs", "via": "xhr_3.json: $.record.fields[a665] $a (fictitious author attributed by Twain)"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "1835", "lang": null, "via": "xhr_3.json: $.record.fields[a46] $f"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "1910", "lang": null, "via": "xhr_3.json: $.record.fields[a46] $g"}
+  ],
+  "occupation": [
+   {"value": "prozaik", "lang": "cs", "via": "xhr_3.json: $.record.fields[a678] $a"},
+   {"value": "satirik", "lang": "cs", "via": "xhr_3.json: $.record.fields[a678] $a"},
+   {"value": "humorista", "lang": "cs", "via": "xhr_3.json: $.record.fields[a678] $a"}
+  ],
+  "nationality": [
+   {"value": "Americký", "lang": "cs", "via": "xhr_3.json: $.record.fields[a678] $a"}
+  ],
+  "description": [
+   {"value": "Americký prozaik, satirik a humorista.", "lang": "cs", "via": "xhr_3.json: $.record.fields[a678] $a"}
+  ],
+  "work": [
+   {"value": "Panna ve zbroji. Životní příběhy Panny orleánské", "lang": "cs", "via": "xhr_3.json: $.record.fields[a665] $a"},
+   {"value": "Dobrodružství Hucka Finna", "lang": "cs", "via": "xhr_3.json: $.record.fields[a670] $a"}
+  ],
+  "identifier": [
+   {"value": "56f025ca-8f6b-4961-bc1a-dfa56cee0e13", "via": "xhr_3.json: $.record.id"},
+   {"value": "jn19981002263", "raw": "jn19981002263 (NKC authority id)", "via": "xhr_3.json: $.record.fields[a1]; a100 $7"}
+  ],
+  "source": [
+   {"value": "Dobrodružství Hucka Finna", "lang": "cs", "via": "xhr_3.json: $.record.fields[a670] $a"},
+   {"value": "NKC", "lang": null, "via": "xhr_3.json: $.record.fields[a670] $a"},
+   {"value": "www(Internet Medieval Sourcebook)", "lang": null, "via": "xhr_3.json: $.record.fields[a670] $a"}
+  ],
+  "record_created": [
+   {"value": "1998-01-01", "raw": "im19980101", "via": "xhr_3.json: $.record.fields[a906] $a"}
+  ],
+  "record_modified": [
+   {"value": "2018-05-24", "raw": "20180524172751.5 (labelled 'Date created', MARC 005)", "via": "xhr_3.json: $.record.fields[a5]"},
+   {"value": "2004-06-09", "raw": "op20040609", "via": "xhr_3.json: $.record.fields[a906] $a"},
+   {"value": "2001-10-09", "raw": "op20011009", "via": "xhr_3.json: $.record.fields[a906] $a"}
+  ]
+ }
+}

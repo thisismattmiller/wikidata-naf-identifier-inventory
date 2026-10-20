@@ -1,0 +1,53 @@
+{
+ "property": "P1213",
+ "label": "NLC authorities",
+ "files_read": ["pages/P1213__000205309.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "National Library of China OPAC cross-reference display for 'Mark Twain (1835-1910)'. The captured text is browser-translated from Chinese into English (Chinese-script headings appear as English or pinyin; 'Tomato, Malik' is a mistranslation of an Arabic-script form). Note: the system number shown is 000067270, while the URL's acc_sequence is 000205309.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain (1835-1910)", "raw": "translated from Chinese heading (likely 马克·吐温)", "lang": "en", "via": "Name and heading"},
+   {"value": "ma ke tu wen", "lang": "zh-Latn", "via": "Name and heading (pinyin)"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "Simply refer to (translated)"},
+   {"value": "sai miu er lang he en ke lie men si", "lang": "zh-Latn", "via": "Simply refer to"},
+   {"value": "sai miu er lang he en ke lai men si", "lang": "zh-Latn", "via": "Simply refer to"},
+   {"value": "tu wen", "lang": "zh-Latn", "via": "Simply refer to"},
+   {"value": "Samuel Langhorne Clemens (1835–1910)", "lang": "en", "via": "Simply refer to"},
+   {"value": "sa miu er lan heng ke lai men", "lang": "zh-Latn", "via": "Simply refer to"},
+   {"value": "Twain, Mark (1835-1910)", "lang": "en", "via": "Simply refer to"},
+   {"value": "Make Tuwen (1835-1910)", "lang": "zh-Latn", "via": "Simply refer to"},
+   {"value": "Твен, Марк (1835~1910)", "lang": "ru", "via": "Simply refer to"},
+   {"value": "Մարկ Տվեն (1835~1910)", "lang": "hy", "via": "Simply refer to"},
+   {"value": "טבןַ, מרק, (1835~1910)", "lang": "he", "via": "Simply refer to"},
+   {"value": "مارك توين (1835~1910)", "lang": "ar", "via": "Simply refer to"},
+   {"value": "মার্ক টোয়েইন (1835~1910)", "lang": "bn", "via": "Simply refer to"},
+   {"value": "Tomato, Malik (1835~1910)", "raw": "machine-translation artefact of a non-Latin form", "lang": "en", "via": "Simply refer to"},
+   {"value": "마크트웨인 (1835~1910)", "lang": "ko", "via": "Simply refer to"}
+  ],
+  "pseudonym": [{"value": "Mark Twain", "lang": "en", "via": "Header Notes 'used the pen name Mark Twain'"}],
+  "birth_date": [{"value": "1835", "raw": "(1835-1910)", "lang": null, "via": "heading dates"}],
+  "death_date": [{"value": "1910", "raw": "(1835-1910)", "lang": null, "via": "heading dates"}],
+  "birth_place": [{"value": "Florida, Missouri, USA", "lang": "en", "via": "Header Notes (translated)"}],
+  "occupation": [
+   {"value": "novelist", "lang": "en", "via": "Header Notes"},
+   {"value": "author", "lang": "en", "via": "Header Notes"},
+   {"value": "orator", "lang": "en", "via": "Header Notes"},
+   {"value": "typesetter", "lang": "en", "via": "Header Notes"},
+   {"value": "steamboat pilot", "lang": "en", "via": "Header Notes"}
+  ],
+  "field_of_activity": [{"value": "Foreign Literature", "lang": "en", "via": "Header Notes (translated)"}],
+  "description": [{"value": "Mark Twain, a novelist, author, and orator, was born in Florida, Missouri, USA. He worked as a typesetter and steamboat pilot. His real name was Samuel Langhorne Clemens, and he used the pen name Mark Twain. His works include *The Adventures of Tom Sawyer*, *The Gilded Age*, and *The Prince and the Pauper*.", "raw": "browser translation of Chinese note", "lang": "en", "via": "Header Notes"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "lang": "en", "via": "Header Notes"},
+   {"value": "The Gilded Age", "lang": "en", "via": "Header Notes"},
+   {"value": "The Prince and the Pauper", "lang": "en", "via": "Header Notes"}
+  ],
+  "identifier": [
+   {"value": "000067270", "via": "System number"},
+   {"value": "000205309", "via": "page URL acc_sequence"}
+  ]
+ }
+}

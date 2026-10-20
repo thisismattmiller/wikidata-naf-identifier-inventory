@@ -1,0 +1,81 @@
+{
+ "property": "P6394",
+ "label": "ELNET ID",
+ "files_read": ["P6394__a11141529/conneg_3.json"],
+ "about_entity": true,
+ "notes": "VIAF-style MARC21 authority record (JSON-ified MARCXML) for the Estonian ERRR/ELNET source record a11141529, with VIAF-added 9xx fields and 998 cluster links (SOURCE|id codes; only well-known patterns converted to URIs). One attributed title, 'Isamaa-kalender ...' (an Estonian almanac), is likely a contributor-level attribution. The 998 link LC|n 82045653 '(Spirit)' is a different entity and was excluded.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "raw": "Twain, Mark, 1835-1910.", "lang": null, "via": "conneg_3.json: datafield 100 $a/$d"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne", "raw": "Clemens, Samuel Langhorne, 1835-1910.", "lang": null, "via": "conneg_3.json: datafield 400 $a/$d"},
+   {"value": "Твен, Марк", "lang": "ru", "via": "conneg_3.json: datafield 400 $a"},
+   {"value": "Клеменс, Сэмюэл Лэнгхорн", "lang": "ru", "via": "conneg_3.json: datafield 400 $a"},
+   {"value": "Клеменс, Сэмюэл Ленгхорн", "lang": "ru", "via": "conneg_3.json: datafield 400 $a"},
+   {"value": "Твэн, Марк", "lang": "ru", "via": "conneg_3.json: datafield 400 $a"},
+   {"value": "Clemens, Samuel L. (Samuel Langhorne)", "lang": null, "via": "conneg_3.json: datafield 998 $a/$q (NTA|068242956)"},
+   {"value": "توين، مارك", "lang": "ar", "via": "conneg_3.json: datafield 998 $a (EGAXA|vtls000823270)"},
+   {"value": "טוין, מרק", "lang": "he", "via": "conneg_3.json: datafield 998 $a (J9U|987007269289205171)"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "raw": "Twain, Mark, pseud.", "lang": null, "via": "conneg_3.json: datafield 998 $a/$b/$c (PTBNP|46269); 680 $i 'kasutas kirjatöödes pseudonüümi'"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "1835-1910.", "lang": null, "via": "conneg_3.json: datafield 100 $d"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "1835-1910.", "lang": null, "via": "conneg_3.json: datafield 100 $d"}
+  ],
+  "occupation": [
+   {"value": "kirjanik", "lang": "et", "via": "conneg_3.json: datafield 680 $i"},
+   {"value": "ajakirjanik", "lang": "et", "via": "conneg_3.json: datafield 680 $i"}
+  ],
+  "nationality": [
+   {"value": "Ameerika", "lang": "et", "via": "conneg_3.json: datafield 680 $i"}
+  ],
+  "description": [
+   {"value": "Ameerika kirjanik ja ajakirjanik, kasutas kirjatöödes pseudonüümi.", "lang": "et", "via": "conneg_3.json: datafield 680 $i"},
+   {"value": "American humorist, novelist, and artist, 1835-1910", "lang": "en", "via": "conneg_3.json: datafield 998 $g (JPG|500020427, Getty ULAN)"}
+  ],
+  "work": [
+   {"value": "Adventures of Huckleberry Finn : the 1884 classic edition with original illustrations", "lang": "en", "via": "conneg_3.json: datafield 910 $A/$b"},
+   {"value": "The adventures of Tom Sawyer", "lang": "en", "via": "conneg_3.json: datafield 910/912 $A"},
+   {"value": "Selected stories", "lang": "en", "via": "conneg_3.json: datafield 912 $A"},
+   {"value": "Tom Sawyeri seiklused", "lang": "et", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Приключения Финна", "lang": "ru", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Архив семейства Евы и Адама", "lang": "ru", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Isamaa-kalender ... : üleriiklised adressid : üleriiklised teated.", "lang": "et", "via": "conneg_3.json: datafield 910 $A/$b"}
+  ],
+  "related_agent": [
+   {"value": "Kemble, Edward Windsor", "relation": "illustrator", "lang": null, "via": "conneg_3.json: datafield 950 $A; 930 $c 'illustrations by E. W. Kemble'"},
+   {"value": "Williams, True W.", "relation": "co-author/contributor (VIAF 950)", "lang": null, "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Pravdin, Boriss, 1887-1960", "relation": "co-author/contributor (VIAF 950)", "lang": null, "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Toots, Villu, 1916-1993", "relation": "co-author/contributor (VIAF 950)", "lang": null, "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Tikerpäe, Elle, 1935-1999", "relation": "co-author/contributor (VIAF 950)", "lang": null, "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Müürisepp, Mart, 1990-", "relation": "co-author/contributor (VIAF 950)", "lang": null, "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Bergmann, Anna, 1903-1972", "relation": "co-author/contributor (VIAF 950)", "lang": null, "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Engelhart, W.", "relation": "co-author/contributor (VIAF 950)", "lang": null, "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Быстров, В.", "relation": "co-author/contributor (VIAF 950)", "lang": "ru", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Sintenis, Franz, 1835-1911", "relation": "co-author/contributor (VIAF 955)", "lang": null, "via": "conneg_3.json: datafield 955 $A"}
+  ],
+  "same_as": [
+   {"value": "http://id.loc.gov/authorities/names/n79021164", "raw": "LC|n  79021164", "via": "conneg_3.json: datafield 998 $2"},
+   {"value": "http://id.loc.gov/authorities/names/n93099439", "raw": "LC|n  93099439 (Clemens, Samuel Langhorne)", "via": "conneg_3.json: datafield 998 $2"},
+   {"value": "https://d-nb.info/gnd/118624822", "raw": "DNB|118624822", "via": "conneg_3.json: datafield 998 $2"},
+   {"value": "https://d-nb.info/gnd/1106405730", "raw": "DNB|1106405730 (Clemens, Samuel Langhorne)", "via": "conneg_3.json: datafield 998 $2"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "raw": "WKP|Q7245", "via": "conneg_3.json: datafield 998 $2"},
+   {"value": "http://vocab.getty.edu/ulan/500020427", "raw": "JPG|500020427", "via": "conneg_3.json: datafield 998 $2"},
+   {"value": "https://www.idref.fr/027171876", "raw": "SUDOC|027171876", "via": "conneg_3.json: datafield 998 $2"}
+  ],
+  "identifier": [
+   {"value": "a11141529", "raw": "ERRR|a11141529", "via": "conneg_3.json: controlfield 001; datafield 035 $a"}
+  ],
+  "source": [
+   {"value": "EE, 9. kd., 1996.", "lang": "et", "via": "conneg_3.json: datafield 670 $a"}
+  ],
+  "record_created": [
+   {"value": "1999-03-10", "raw": "990310", "via": "conneg_3.json: controlfield 008/00-05"}
+  ]
+ }
+}

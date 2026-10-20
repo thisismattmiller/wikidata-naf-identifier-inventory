@@ -1,0 +1,18 @@
+{
+ "property": "P6058",
+ "label": "Larousse ID",
+ "files_read": [
+  "P6058__images_Mark_Twain_1310315_3b309994/embedded_microdata.json",
+  "P6058__images_Mark_Twain_1310315_3b309994/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "schema.org WebPage microdata and OpenGraph tags of a Larousse media (image) page for Mark Twain, not the encyclopedia article itself; the batch listed each file three times. 1310315 is the media id.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "raw": "Mark Twain – Média LAROUSSE", "lang": "fr", "via": "embedded_opengraph.json: $[0]['og:title']; embedded_microdata.json: $[0].name"}],
+  "description": [{"value": "Mark Twain, écrivain américain.", "lang": "fr", "via": "embedded_opengraph.json: $[0]['og:description']; embedded_microdata.json: $[0].description"}],
+  "occupation": [{"value": "écrivain", "lang": "fr", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+  "nationality": [{"value": "américain", "lang": "fr", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+  "image": [{"value": "https://www.larousse.fr/encyclopedie/data/vignettes/1310315-Mark_Twain.jpg", "via": "embedded_opengraph.json: $[0]['og:image']; embedded_microdata.json: $[0].image"}],
+  "identifier": [{"value": "1310315", "raw": "https://www.larousse.fr/encyclopedie/images/Mark_Twain/1310315", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

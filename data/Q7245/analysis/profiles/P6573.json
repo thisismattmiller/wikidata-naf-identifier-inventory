@@ -1,0 +1,481 @@
+{
+ "property": "P6573",
+ "property_label": "Klexikon article ID",
+ "files": [
+  {
+   "file": "P6573__Mark_Twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://klexikon.zum.de/wiki/Mark_Twain"
+  },
+  {
+   "file": "P6573__Mark_Twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://klexikon.zum.de/wiki/Mark_Twain"
+  },
+  {
+   "file": "P6573__Mark_Twain/alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://klexikon.zum.de/index.php?title=Spezial:Letzte_%C3%84nderungen&feed=atom"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "feed": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 14,
+  "http://ogp.me/ns#": 12,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "Mark Twain war ein Schriftsteller aus den USA. Er gab Bücher heraus und war ein beliebter und humorvoller Redner. Seine berühmtesten Romane handeln von Tom Sawyer und Huckleberry Finn.\n\n\nSein eigentlicher Name war Samuel Langhorne Clemens. Er wurde im Jahr 1835 geboren und wurde 74 Jahre alt. Aufgewachsen…",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain war ein Schriftsteller aus den USA. Er gab Bücher heraus und war ein beliebter und humorvoller Redner. Seine berühmtesten Romane handeln von Tom Sawyer und Huckleberry Finn. Sein eigentlicher Name war Samuel Langhorne Clemens. Er wurde im Jahr 1835 geboren und wurde 74 Jahre alt. Aufgewachsen…",
+    "lang": "de",
+    "via": "llm:embedded_opengraph.json: [0].og:description",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain was an American writer. He published books and was a popular and humorous speaker. His most famous novels are about Tom Sawyer and Huckleberry Finn. His real name was Samuel Langhorne Clemens. He was born in 1835 and lived to be 74 years old. He grew up on the Mississippi River in the southern United States. His family was poor.",
+    "lang": "en",
+    "via": "llm-page:lead (machine-translated rendering)",
+    "file": "P6573.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://upload.wikimedia.org/wikipedia/commons/2/25/Mark_Twain%2C_Brady-Handy_photo_portrait%2C_Feb_7%2C_1871%2C_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   },
+   {
+    "value": "https://upload.wikimedia.org/wikipedia/commons/2/25/Mark_Twain%2C_Brady-Handy_photo_portrait%2C_Feb_7%2C_1871%2C_cropped.jpg",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:image",
+    "file": "P6573.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "de",
+    "via": "llm:embedded_opengraph.json: [0].og:title",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P6573.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "de",
+    "via": "llm:embedded_opengraph.json: [0].og:description ('Sein eigentlicher Name war Samuel Langhorne Clemens')",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:bio 'His real name was...'",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemes",
+    "lang": "en",
+    "via": "llm-page:image caption (sic)",
+    "file": "P6573.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": "de",
+    "via": "llm:embedded_opengraph.json: [0].og:description",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "1835",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P6573.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Schriftsteller",
+    "lang": "de",
+    "via": "llm:embedded_opengraph.json: [0].og:description",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "Redner",
+    "lang": "de",
+    "via": "llm:embedded_opengraph.json: [0].og:description ('humorvoller Redner')",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:lead",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "speaker",
+    "lang": "en",
+    "via": "llm-page:lead",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "river pilot",
+    "lang": "en",
+    "via": "llm-page:pen-name section",
+    "file": "P6573.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "USA",
+    "lang": "de",
+    "via": "llm:embedded_opengraph.json: [0].og:description",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:lead",
+    "file": "P6573.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Mark_Twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:url (https://klexikon.zum.de/wiki/Mark_Twain)",
+    "file": "P6573.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Mississippi River",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "Germany",
+    "lang": "en",
+    "via": "llm-page:bio (lecture travels)",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "Switzerland",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P6573.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:What is he famous for?",
+    "file": "P6573.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:What is he famous for?",
+    "file": "P6573.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-06-15",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P6573.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [
+   "de",
+   "en"
+  ],
+  "image": [],
+  "name_preferred": [
+   "de",
+   "en"
+  ],
+  "name_variant": [
+   "de",
+   "en"
+  ],
+  "birth_date": [
+   "de",
+   "en"
+  ],
+  "occupation": [
+   "de",
+   "en"
+  ],
+  "nationality": [
+   "de",
+   "en"
+  ],
+  "identifier": [],
+  "activity_place": [
+   "en"
+  ],
+  "work": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 829,
+   "path_count": 9,
+   "paths": [
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://upload.wikimedia.org/wikipedia/commons/2/25/Mark_Twain%2C_Brady-Handy_photo_portrait%2C_Feb_7%2C_1871%2C_cropped"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "1200"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "1884"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Klexikon – das Kinderlexikon"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Mark Twain war ein Schriftsteller aus den USA. Er gab Bücher heraus und war ein beliebter und humorvoller Redner. Seine "
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://klexikon.zum.de/wiki/Mark_Twain"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:image",
+     "value": "https://upload.wikimedia.org/wikipedia/commons/2/25/Mark_Twain%2C_Brady-Handy_photo_portrait%2C_Feb_7%2C_1871%2C_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=origina"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Mark Twain war ein Schriftsteller aus den USA. Er gab Bücher heraus und war ein beliebter und humorvoller Redner. Seine berühmtesten Romane handeln von Tom Sawyer und Huckleberry Finn.\n\n\nSein eigentli"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://klexikon.zum.de/wiki/Mark_Twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 185884,
+   "path_count": 23,
+   "paths": [
+    {
+     "path": "feed/entry",
+     "n": 23,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/id",
+     "n": 23,
+     "sample": "https://klexikon.zum.de/index.php?title=B%C3%BCndnis_Sahra_Wagenknecht&diff=165677&oldid=165673"
+    },
+    {
+     "path": "feed/entry/title",
+     "n": 23,
+     "sample": "Bündnis Sahra Wagenknecht"
+    },
+    {
+     "path": "feed/entry/link",
+     "n": 23,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/link@rel",
+     "n": 23,
+     "sample": "alternate"
+    },
+    {
+     "path": "feed/entry/link@type",
+     "n": 23,
+     "sample": "text/html"
+    },
+    {
+     "path": "feed/entry/link@href",
+     "n": 23,
+     "sample": "https://klexikon.zum.de/index.php?title=B%C3%BCndnis_Sahra_Wagenknecht&diff=165677&oldid=165673"
+    },
+    {
+     "path": "feed/entry/updated",
+     "n": 23,
+     "sample": "2026-10-02T07:10:02Z"
+    },
+    {
+     "path": "feed/entry/summary",
+     "n": 23,
+     "sample": "<p></p>\n<table style=\"background-color: #fff; color: #202122;\" data-mw=\"interface\">\n\t\t\t\t<col class=\"diff-marker\" />\n\t\t\t\t"
+    },
+    {
+     "path": "feed/entry/summary@type",
+     "n": 23,
+     "sample": "html"
+    },
+    {
+     "path": "feed/entry/author",
+     "n": 23,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/author/name",
+     "n": 23,
+     "sample": "Felix Heinimann"
+    },
+    {
+     "path": "feed/link",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "feed/link@rel",
+     "n": 2,
+     "sample": "self"
+    },
+    {
+     "path": "feed/link@type",
+     "n": 2,
+     "sample": "application/atom+xml"
+    },
+    {
+     "path": "feed/link@href",
+     "n": 2,
+     "sample": "https://klexikon.zum.de/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=atom"
+    },
+    {
+     "path": "feed",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "feed@{http://www.w3.org/XML/1998/namespace}lang",
+     "n": 1,
+     "sample": "de"
+    },
+    {
+     "path": "feed/id",
+     "n": 1,
+     "sample": "https://klexikon.zum.de/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=atom"
+    },
+    {
+     "path": "feed/title",
+     "n": 1,
+     "sample": "Klexikon – das Kinderlexikon  - Letzte Änderungen [de]"
+    },
+    {
+     "path": "feed/updated",
+     "n": 1,
+     "sample": "2026-10-03T02:25:32Z"
+    },
+    {
+     "path": "feed/subtitle",
+     "n": 1,
+     "sample": "Verfolge mit diesem Feed die letzten Änderungen in Klexikon – das Kinderlexikon."
+    },
+    {
+     "path": "feed/generator",
+     "n": 1,
+     "sample": "MediaWiki 1.43.10"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Klexikon children's encyclopedia article (rendered in English via browser translation; original German) with a short bio, his famous novels and the origin of his pen name. Note image caption misspells 'Clemes'.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

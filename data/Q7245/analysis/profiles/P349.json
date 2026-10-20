@@ -1,0 +1,381 @@
+{
+ "property": "P349",
+ "property_label": "NDL Authority ID",
+ "files": [
+  {
+   "file": "P349__00459304/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://id.ndl.go.jp/auth/ndlna/00459304"
+  },
+  {
+   "file": "P349__00459304/export_1.rdf",
+   "format": "rdf-xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://id.ndl.go.jp/auth/ndlna/00459304.rdf"
+  },
+  {
+   "file": "P349__00459304/export_2.ttl",
+   "format": "turtle",
+   "kind": "export",
+   "via": "http",
+   "url": "https://id.ndl.go.jp/auth/ndlna/00459304.ttl"
+  },
+  {
+   "file": "P349__00459304/export_3.jsonld",
+   "format": "json-ld",
+   "kind": "export",
+   "via": "http",
+   "url": "https://id.ndl.go.jp/auth/ndlna/00459304.json"
+  },
+  {
+   "file": "P349__00459304/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://id.ndl.go.jp/lib/askwpd/wda/00459304"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "rdf-xml": 1,
+  "turtle": 1,
+  "json-ld": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/2008/05/skos-xl#": 24,
+  "http://purl.org/dc/terms/": 12,
+  "http://www.w3.org/2004/02/skos/core#": 9,
+  "http://www.w3.org/1999/xhtml/vocab#": 8,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 6,
+  "http://xmlns.com/foaf/0.1/": 6,
+  "http://RDVocab.info/ElementsGr2/": 6,
+  "http://www.w3.org/2000/01/rdf-schema#": 3,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://www.w3.org/2004/02/skos/core#Concept",
+    "lang": null,
+    "via": "type",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://xmlns.com/foaf/0.1/Person",
+    "lang": null,
+    "via": "type",
+    "file": "export_1.rdf",
+    "uri": true
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-11-18T10:05:16",
+    "lang": null,
+    "via": "modified",
+    "file": "export_1.rdf",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1997-03-31",
+    "lang": null,
+    "via": "created",
+    "file": "export_1.rdf",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "label",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja",
+    "via": "llm:xhr_1.json: $.results.bindings[0].wdLabel.value",
+    "file": "P349.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:Name / Title (xl:prefLabel)",
+    "file": "P349.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "本名",
+    "lang": null,
+    "via": "altLabel/description",
+    "file": "export_1.rdf",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "ミシシッピー河上の生活",
+    "lang": null,
+    "via": "source",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "LCCN: n79021164",
+    "lang": null,
+    "via": "source",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "ミシシッピー河上の生活",
+    "lang": "ja",
+    "via": "llm-page:Sources (dct:source)",
+    "file": "P349.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NDL%7C00459304#skos:Concept",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://www.wikidata.org/wiki/Q7245",
+    "lang": null,
+    "via": "llm:xhr_1.json: $.results.bindings[0].wd.value",
+    "file": "P349.json",
+    "uri": true
+   },
+   {
+    "value": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3",
+    "lang": null,
+    "via": "llm:xhr_1.json: $.results.bindings[0].wp.value",
+    "file": "P349.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/sourceID/NDL%7C00459304",
+    "lang": null,
+    "via": "llm-page:Related Links (skos:exactMatch)",
+    "file": "P349.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm-page:External Link",
+    "file": "P349.json",
+    "uri": true
+   },
+   {
+    "value": "https://ja.wikipedia.org/wiki/マーク・トウェイン",
+    "lang": null,
+    "via": "llm-page:External Link",
+    "file": "P349.json",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "dateOfBirth",
+    "file": "export_1.rdf",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "dateOfDeath",
+    "file": "export_1.rdf",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "トーウェン",
+    "lang": "ja",
+    "via": "llm-page:Variant Name(s) (xl:altLabel)",
+    "file": "P349.json",
+    "uri": false
+   },
+   {
+    "value": "トゥエン, マーク",
+    "lang": "ja",
+    "via": "llm-page:Variant Name(s) (xl:altLabel)",
+    "file": "P349.json",
+    "uri": false
+   },
+   {
+    "value": "トウェーン, マーク",
+    "lang": "ja",
+    "via": "llm-page:Variant Name(s) (xl:altLabel)",
+    "file": "P349.json",
+    "uri": false
+   },
+   {
+    "value": "トウェイン, M",
+    "lang": "ja",
+    "via": "llm-page:Variant Name(s) (xl:altLabel)",
+    "file": "P349.json",
+    "uri": false
+   },
+   {
+    "value": "トウェイン, マーク",
+    "lang": "ja",
+    "via": "llm-page:Variant Name(s) (xl:altLabel)",
+    "file": "P349.json",
+    "uri": false
+   },
+   {
+    "value": "トウェン, マーク",
+    "lang": "ja",
+    "via": "llm-page:Variant Name(s) (xl:altLabel)",
+    "file": "P349.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens Samuel, Langhorne",
+    "lang": "en",
+    "via": "llm-page:Variant Name(s) (xl:altLabel), marked 本名 (real name)",
+    "file": "P349.json",
+    "uri": false
+   },
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja",
+    "via": "llm-page:External Link: Wikidata/Wikipedia label",
+    "file": "P349.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Work(s) (is dct:creator of)",
+    "file": "P349.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:Work(s) (is dct:creator of)",
+    "file": "P349.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "00459304",
+    "lang": null,
+    "via": "llm-page:National Diet Library Authority ID row",
+    "file": "P349.json",
+    "uri": false
+   },
+   {
+    "value": "n79021164",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P349.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "record_modified": [],
+  "record_created": [],
+  "name_preferred": [
+   "en",
+   "ja"
+  ],
+  "description": [],
+  "source": [
+   "ja"
+  ],
+  "same_as": [],
+  "birth_date": [],
+  "death_date": [],
+  "name_variant": [
+   "en",
+   "ja"
+  ],
+  "work": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "altLabel/literalForm (http://www.w3.org/2008/05/skos-xl#)": 21,
+  "primaryTopic (http://xmlns.com/foaf/0.1/)": 3,
+  "prefLabel/literalForm (http://www.w3.org/2008/05/skos-xl#)": 3,
+  "inScheme (http://www.w3.org/2004/02/skos/core#)": 3
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 295,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "results.bindings[].wd.value",
+     "n": 1,
+     "sample": "https://www.wikidata.org/wiki/Q7245"
+    },
+    {
+     "path": "results.bindings[].wdLabel.value",
+     "n": 1,
+     "sample": "マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].wp.value",
+     "n": 1,
+     "sample": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "results.bindings[].wdLabel.value",
+     "value": "マーク・トウェイン"
+    }
+   ],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Web NDL Authorities personal-name record for Twain, Mark, 1835-1910, with variant names (Japanese katakana forms and real name), dates, two works, LC/VIAF links, source and record dates, plus Wikidata/Wikipedia external links.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

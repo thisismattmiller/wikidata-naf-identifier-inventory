@@ -1,0 +1,502 @@
+{
+ "property": "P7929",
+ "property_label": "Roglo person ID",
+ "files": [],
+ "formats": {},
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "fr",
+    "via": "llm-page:page heading",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "fr",
+    "via": "llm-page:page heading",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "fr",
+    "via": "llm-page:page heading",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "llm-page:alias line under heading",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Louis de Conte",
+    "lang": "fr",
+    "via": "llm-page:alias line under heading; notes: Le roman de Jeanne d'Arc written under this pseudonym",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Born line",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Died line",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Hannibal, Marion Co., Missouri (USA)",
+    "lang": "en",
+    "via": "llm-page:Born line",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Stormfield, Redding, Connecticut (USA)",
+    "lang": "en",
+    "via": "llm-page:Died line",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Elmira, Chemung Co. (New York,États-Unis)",
+    "lang": "fr",
+    "via": "llm-page:Buried line (burial place)",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Elmira, Chemung Co., New York (USA)",
+    "lang": "en",
+    "via": "llm-page:marriage line",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Hartford",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "llm-page:notes / family",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Écrivain",
+    "lang": "fr",
+    "via": "llm-page:occupation line",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "essayiste",
+    "lang": "fr",
+    "via": "llm-page:occupation line",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "humoriste",
+    "lang": "fr",
+    "via": "llm-page:occupation line",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "apprenti typographe",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "pilote de bateau à vapeur",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "chercheur d'or",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "reporter",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "correspondant de presse",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "pamphlétaire",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "américain",
+    "lang": "fr",
+    "via": "llm-page:occupation line 'Écrivain, essayiste et humoriste américain'",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Écrivain, essayiste et humoriste américain",
+    "lang": "fr",
+    "via": "llm-page:occupation line under name",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Orphelin de père à l'âge de 12 ans, Samuel Clemens exerce diverses activités : apprenti typographe, rédacteur d'articles dans le journal de son frère, pilote de bateau à vapeur sur le Mississippi. C'est de cette époque que vient son pseudonyme : alors qu'il tire la corde de sondage pour vérifier la profondeur du fleuve, son capitaine lui criait : Mark twain, mark twain !, c'est-à-dire : Marque deux sondes !. Cela signifie \"profondeur suffisante\", en anglais \"safe water\". Ne voulant pas se battre",
+    "lang": "fr",
+    "via": "llm-page:Notes section",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Les innocents à l'étranger",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "A la dure !",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Les aventures de Tom Sawyer",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Les aventures de Huckleberry Finn",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "De la religion : Dieu est-il immoral ?",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Le roman de Jeanne d'Arc",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "John Marshall Clemens 1798-1847 (father)",
+    "lang": "en",
+    "via": "llm-page:Parents",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Lampton 1803-1890 (mother)",
+    "lang": "en",
+    "via": "llm-page:Parents",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Louise Langdon 1845-1904 (wife, married 21 February 1870)",
+    "lang": "en",
+    "via": "llm-page:Spouses and children",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Langdon Clemens 1870-1872 (child)",
+    "lang": "en",
+    "via": "llm-page:Spouses and children",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Susan Clemens 1872-1896 (child)",
+    "lang": "en",
+    "via": "llm-page:Spouses and children",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Clara Langdon Clemens 1874-1962 (child)",
+    "lang": "en",
+    "via": "llm-page:Spouses and children",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Lampton Clemens 1880-1909 (child)",
+    "lang": "en",
+    "via": "llm-page:Spouses and children",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel B. Clemens ca 1770-1805 (paternal grandfather)",
+    "lang": "en",
+    "via": "llm-page:Ancestry",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Pamela Goggin 1775-1844 (paternal grandmother)",
+    "lang": "en",
+    "via": "llm-page:Ancestry",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Lampton 1770-1837 (maternal grandfather)",
+    "lang": "en",
+    "via": "llm-page:Ancestry",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Casey 1780-1818 (maternal grandmother)",
+    "lang": "en",
+    "via": "llm-page:Ancestry",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Orin Clemens 1825-1897 (sibling)",
+    "lang": "en",
+    "via": "llm-page:Siblings",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Pamela Ann Clemens 1827-1904 (sibling)",
+    "lang": "en",
+    "via": "llm-page:Siblings",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Pleasant Clemens 1828-1828 (sibling)",
+    "lang": "en",
+    "via": "llm-page:Siblings",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Lampton Clemens 1830-1839 (sibling)",
+    "lang": "en",
+    "via": "llm-page:Siblings",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Clemens 1832-1842 (sibling)",
+    "lang": "en",
+    "via": "llm-page:Siblings",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Clemens 1838-1858 (sibling)",
+    "lang": "en",
+    "via": "llm-page:Siblings",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "Mary Baker Eddy (subject of his critical book on Christian Science)",
+    "lang": "fr",
+    "via": "llm-page:notes",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "individual: N de Meyrignac (Dowling family genealogy et wikipedia, 03vii2008)",
+    "lang": "fr",
+    "via": "llm-page:Sources",
+    "file": "P7929.json",
+    "uri": false
+   },
+   {
+    "value": "family: N de Meyrignac (Dowling family genealogy, 03vii2008)",
+    "lang": "fr",
+    "via": "llm-page:Sources",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-10-02",
+    "lang": "en",
+    "via": "llm-page:footer warning (database snapshot date)",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Creative Commons 4.0 International (non-commercial, no modification, attribution)",
+    "lang": "en",
+    "via": "llm-page:footer",
+    "file": "P7929.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "fr"
+  ],
+  "given_name": [
+   "fr"
+  ],
+  "family_name": [
+   "fr"
+  ],
+  "pseudonym": [
+   "fr"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en",
+   "fr"
+  ],
+  "gender": [
+   "en"
+  ],
+  "occupation": [
+   "fr"
+  ],
+  "nationality": [
+   "fr"
+  ],
+  "description": [
+   "fr"
+  ],
+  "work": [
+   "fr"
+  ],
+  "related_agent": [
+   "en",
+   "fr"
+  ],
+  "source": [
+   "fr"
+  ],
+  "record_modified": [
+   "en"
+  ],
+  "license": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Roglo (GeneWeb) genealogy person page: name and pseudonyms, birth/death/burial events with places, parents, spouse and children, grandparents, siblings, and a long French-language biographical note. Footer says it is a copy of the Roglo base captured 2026-10-02 and gives a CC 4.0 licence.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

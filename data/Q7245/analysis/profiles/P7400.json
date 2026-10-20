@@ -1,0 +1,93 @@
+{
+ "property": "P7400",
+ "property_label": "LibraryThing author ID",
+ "files": [
+  {
+   "file": "P7400__twainmark/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.librarything.com/?highload=1"
+  },
+  {
+   "file": "P7400__twainmark/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.librarything.com/?highload=1"
+  },
+  {
+   "file": "P7400__twainmark/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.librarything.com/ajax_index_recent_activity.php"
+  },
+  {
+   "file": "P7400__twainmark/browser_xhr_1.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://www.librarything.com/ajax_index_recent_activity.php"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 1,
+  "xml": 1
+ },
+ "vocabularies": {},
+ "elements": {},
+ "element_languages": {},
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 315,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "LibraryThing.com"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.librarything.com/"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Catalog your books online | LibraryThing"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "LibraryThing catalogs your books online, easily, quickly and for free."
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "The author URL rendered LibraryThing's sign-in/marketing landing page (sign in or join, testimonials, recent activity by other users); no author record for Twain is shown. Login wall; nothing extracted.",
+ "about_entity": false,
+ "chrome_elements": {}
+}

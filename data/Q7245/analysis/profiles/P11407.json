@@ -1,0 +1,237 @@
+{
+ "property": "P11407",
+ "property_label": "Ozon person ID",
+ "files": [
+  {
+   "file": "P11407__243745/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.ozon.ru/person/tven-mark-243745/category/knigi-16500/?__rr=1&abt_att=1"
+  },
+  {
+   "file": "P11407__243745/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.ozon.ru/person/tven-mark-243745/category/knigi-16500/?__rr=1&abt_att=1"
+  },
+  {
+   "file": "P11407__243745/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.ozon.ru/person/tven-mark-243745/category/knigi-16500/?__rr=1&abt_att=1"
+  },
+  {
+   "file": "P11407__243745/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.ozon.ru/api/composer-api.bx/_action/setUserCookies"
+  },
+  {
+   "file": "P11407__243745/xhr_3.img",
+   "format": "image",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ir.ozone.ru/multimedia/empty.gif?_cb=h6hjovhg7p6"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 1,
+  "opengraph": 1,
+  "html": 1,
+  "image": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Твен Марк",
+    "lang": "ru",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P11407.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "243745",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P11407.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Флорида, штат Миссури",
+    "lang": "ru",
+    "via": "llm-page:bio teaser",
+    "file": "P11407.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Ганнибал на Миссисипи",
+    "lang": "ru",
+    "via": "llm-page:bio teaser",
+    "file": "P11407.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Родился во Флориде, штат Миссури. В городок Ганнибал на Миссисипи, будущий Санкт-Петербург самых знаменитых книг Твена...",
+    "lang": "ru",
+    "via": "llm-page:bio teaser under heading",
+    "file": "P11407.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Приключения Тома Сойера",
+    "lang": "ru",
+    "via": "llm-page:product listings",
+    "file": "P11407.json",
+    "uri": false
+   },
+   {
+    "value": "Принц и нищий",
+    "lang": "ru",
+    "via": "llm-page:product listings",
+    "file": "P11407.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:product listings",
+    "file": "P11407.json",
+    "uri": false
+   },
+   {
+    "value": "Никогда не спорьте с идиотами!",
+    "lang": "ru",
+    "via": "llm-page:product listings",
+    "file": "P11407.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Саленко Ольга Юрьевна (co-contributor, linguistic commentary for The Prince and the Pauper edition)",
+    "lang": null,
+    "via": "llm-page:product listing",
+    "file": "P11407.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "ru"
+  ],
+  "identifier": [],
+  "birth_place": [
+   "ru"
+  ],
+  "activity_place": [
+   "ru"
+  ],
+  "description": [
+   "ru"
+  ],
+  "work": [
+   "en",
+   "ru"
+  ],
+  "related_agent": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 409,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].value",
+     "n": 1,
+     "sample": "Каталог\nВезде\nВойти\nЗаказы\nИзбранное\nКорзина\n\nOzon fresh\nOzon Банк\nБилеты, отели\nДля бизнеса\nОдежда\nЭлектроника\nТовары з"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "WPHeader"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 440,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Твен Марк"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Каталог OZON собрал большой ассортимент творчества в любом удобном для вас формате. Отличный сервис и удобная доставка"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.ozon.ru/person/tven-mark-243745/"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Ozon"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Твен Марк"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Ozon (Russian online store) author page 'Твен Марк': a truncated Russian bio teaser and product listings of his books in Russian and English editions (8 shown); mostly shop chrome.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,105 @@
+{
+ "property": "P2089",
+ "property_label": "Library of Congress JukeBox ID (former scheme)",
+ "files": [
+  {
+   "file": "P2089__4347/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://web.archive.org/web/20200814075711/https://www.loc.gov/jukebox/artists/detail/id/4347"
+  },
+  {
+   "file": "P2089__4347/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://web.archive.org/web/20200814075711/http://web.archive.org/screenshot/https://www.loc.gov/jukebox/artists/detail/id/4347"
+  },
+  {
+   "file": "P2089__4347/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://wayback-api.archive.org/services/context/notices?url=https%3A%2F%2Fwww.loc.gov%2Fjukebox%2Fartists%2Fdetail%2Fid%2F4347&timestamp=20200814075711"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading / breadcrumb",
+    "file": "P2089.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Buck Fanshaw's funeral",
+    "lang": "en",
+    "via": "llm-page:recordings table (Artist Role: Author)",
+    "file": "P2089.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Harry E. Humphrey (primary performer of 'Buck Fanshaw's funeral' recitation)",
+    "lang": null,
+    "via": "llm-page:recordings table",
+    "file": "P2089.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "4347",
+    "lang": null,
+    "via": "llm-page:page URL artists/detail/id/4347",
+    "file": "P2089.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 33,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "success"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Archived National Jukebox artist page for Mark Twain listing one recording where he is credited as author: 'Buck Fanshaw's funeral', a recitation by Harry E. Humphrey (1913-04-08). No biographical data.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

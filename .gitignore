@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# the raw crawl (rendered pages and fetched representations, ~290 MB) is reproducible with crawl.py / fetch_representations.py;
+# drop these two lines to version it as well
+data/Q7245/pages/
+data/Q7245/representations/
+data/chrome_window.json
+# downloaded image originals (the sprite and manifest are kept)
+data/Q7245/analysis/images/raw/

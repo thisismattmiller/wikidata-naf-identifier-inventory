@@ -1,0 +1,113 @@
+{
+ "property": "P12749",
+ "label": "SNARC ID",
+ "files_read": ["P12749__Q69664/embedded_opengraph.json", "P12749__Q69664/browser_alternate_1.json", "P12749__Q69664/browser_alternate_2.ttl"],
+ "about_entity": true,
+ "notes": "browser_alternate_1.json is the Wikibase Special:EntityData JSON for SNARC item Q69664 (labels/aliases/claims); embedded_opengraph.json gives label + English description. Item-valued claims are SNARC-local QIDs, so their English labels were resolved by grepping browser_alternate_2.ttl (the Turtle export of the same entity) for rdfs:label.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "en", "via": "browser_alternate_1.json: $.entities.Q69664.labels.en.value"},
+   {"value": "Mark Twain", "lang": "cy", "via": "browser_alternate_1.json: $.entities.Q69664.labels.cy.value"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "browser_alternate_1.json: $.entities.Q69664.aliases.en[0].value"},
+   {"value": "Samuel L. Clemens", "lang": "en", "via": "browser_alternate_1.json: $.entities.Q69664.aliases.en[1].value"},
+   {"value": "Samuel Clemens", "lang": "en", "via": "browser_alternate_1.json: $.entities.Q69664.aliases.en[2].value"}
+  ],
+  "given_name": [
+   {"value": "Samuel", "lang": "en", "via": "browser_alternate_1.json: $..claims.P15[0] (Q55708)"},
+   {"value": "Mark", "lang": "en", "via": "browser_alternate_1.json: $..claims.P15[1] (Q56107)"}
+  ],
+  "family_name": [
+   {"value": "Twain", "lang": "en", "via": "browser_alternate_1.json: $..claims.P16[0] (Q55201)"},
+   {"value": "Clemens", "lang": "en", "via": "browser_alternate_1.json: $..claims.P16[1] (Q55212)"},
+   {"value": "Langhorne", "lang": "en", "via": "browser_alternate_1.json: $..claims.P16[2] (Q55192)"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": null, "via": "browser_alternate_1.json: $..claims.P24[0] (pseudonym)"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "+1835-11-30T00:00:00Z", "lang": null, "via": "browser_alternate_1.json: $..claims.P17[0].mainsnak.datavalue.value.time"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "+1910-04-21T00:00:00Z", "lang": null, "via": "browser_alternate_1.json: $..claims.P18[0].mainsnak.datavalue.value.time"}
+  ],
+  "birth_place": [
+   {"value": "Florida", "lang": "en", "via": "browser_alternate_1.json: $..claims.P21[0] (Q76203)"}
+  ],
+  "death_place": [
+   {"value": "Redding", "lang": "en", "via": "browser_alternate_1.json: $..claims.P22[0] (Q76310)"}
+  ],
+  "activity_place": [
+   {"value": "Mark Twain House", "lang": "en", "via": "browser_alternate_1.json: $..claims.P78[0] residence (Q99563)"}
+  ],
+  "gender": [
+   {"value": "male", "lang": "en", "via": "browser_alternate_1.json: $..claims.P13[0] (Q33)"}
+  ],
+  "occupation": [
+   {"value": "journalist", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[0] (Q258)"},
+   {"value": "travel writer", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[1] (Q50416)"},
+   {"value": "aphorist", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[2] (Q50418)"},
+   {"value": "children's writer", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[3] (Q832)"},
+   {"value": "opinion journalist", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[4] (Q50443)"},
+   {"value": "novelist", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[5] (Q828)"},
+   {"value": "prosaist", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[6] (Q50501)"},
+   {"value": "humorist", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[7] (Q808)"},
+   {"value": "autobiographer", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[8] (Q50629)"},
+   {"value": "science fiction writer", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[9] (Q50633)"},
+   {"value": "writer", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[10] (Q50180)"},
+   {"value": "teacher", "lang": "en", "via": "browser_alternate_1.json: $..claims.P25[11] (Q213)"}
+  ],
+  "language": [
+   {"value": "English", "lang": "en", "via": "browser_alternate_1.json: $..claims.P20[0] (Q1030)"},
+   {"value": "German", "lang": "en", "via": "browser_alternate_1.json: $..claims.P20[1] (Q1104)"}
+  ],
+  "description": [
+   {"value": "American author and humorist", "lang": "en", "via": "browser_alternate_1.json: $.entities.Q69664.descriptions.en.value; embedded_opengraph.json og:description"},
+   {"value": "awdur a digrifwr Americanaidd (1835-1910)", "lang": "cy", "via": "browser_alternate_1.json: $.entities.Q69664.descriptions.cy.value"}
+  ],
+  "work": [
+   {"value": "The adventures of Tom Sawyer", "lang": "en", "via": "browser_alternate_1.json: $..claims.P102[0].qualifiers.P103 (published works; NLW record 99134022802419)"}
+  ],
+  "related_agent": [
+   {"value": "Orion Clemens", "relation": "sibling", "via": "browser_alternate_1.json: $..claims.P52[0] (Q86037)"},
+   {"value": "Clara Clemens", "relation": "child", "via": "browser_alternate_1.json: $..claims.P54[0] (Q85074)"},
+   {"value": "Jean Clemens", "relation": "child", "via": "browser_alternate_1.json: $..claims.P54[1] (Q84941)"},
+   {"value": "Susy Clemens", "relation": "child", "via": "browser_alternate_1.json: $..claims.P54[2] (Q93647)"},
+   {"value": "John Marshall Clemens", "relation": "father", "via": "browser_alternate_1.json: $..claims.P53[0] (Q85221)"},
+   {"value": "Jane Lampton", "relation": "mother", "via": "browser_alternate_1.json: $..claims.P55[0] (Q94769)"},
+   {"value": "Olivia Langdon Clemens", "relation": "spouse", "via": "browser_alternate_1.json: $..claims.P56[0] (Q101911)"},
+   {"value": "Cascadilla School (Ithaca)", "relation": "educated at", "via": "browser_alternate_1.json: $..claims.P23[0] (Q74308)"}
+  ],
+  "same_as": [
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "browser_alternate_1.json: $..claims.P62[0] (wikidata URI); P2 'Q7245'"},
+   {"value": "http://viaf.org/viaf/50566653", "raw": "50566653", "via": "browser_alternate_1.json: $..claims.P10[0] (VIAF ID; URI constructed)"},
+   {"value": "https://isni.org/isni/0000000077209145", "raw": "0000 0000 7720 9145", "via": "browser_alternate_1.json: $..claims.P9[0] (ISNI; URI constructed)"},
+   {"value": "https://isni.org/isni/0000000108003124", "raw": "0000 0001 0800 3124", "via": "browser_alternate_1.json: $..claims.P9[1] (ISNI; URI constructed)"},
+   {"value": "https://isni.org/isni/0000000121324854", "raw": "0000 0001 2132 4854", "via": "browser_alternate_1.json: $..claims.P9[2] (ISNI; URI constructed)"},
+   {"value": "https://isni.org/isni/0000000368641704", "raw": "0000 0003 6864 1704", "via": "browser_alternate_1.json: $..claims.P9[3] (ISNI; URI constructed)"},
+   {"value": "http://id.loc.gov/authorities/names/n79021164", "raw": "n79021164", "via": "browser_alternate_1.json: $..claims.P11[0] (LC authority ID; URI constructed)"},
+   {"value": "http://id.loc.gov/authorities/names/n93099439", "raw": "n93099439", "via": "browser_alternate_1.json: $..claims.P11[1] (LC authority ID; URI constructed)"},
+   {"value": "http://data.bnf.fr/ark:/12148/cb11927291n", "via": "browser_alternate_1.json: $..claims.P17[0].references[0].P34 (reference URL)"}
+  ],
+  "identifier": [
+   {"value": "Q69664", "via": "browser_alternate_1.json: $.entities.Q69664.id"},
+   {"value": "clemens-samuel-langhorne-1835-1910", "via": "browser_alternate_1.json: $..claims.P12[0] (National Library of Wales Authority ID)"}
+  ],
+  "image": [
+   {"value": "MarkTwain.LOC.jpg", "via": "browser_alternate_1.json: $..claims.P31[0] (Wikimedia Commons media)"},
+   {"value": "10107/5294003", "raw": "NLW media; caption 'Mark Twain taking Hon. Degree at Oxford'", "via": "browser_alternate_1.json: $..claims.P50[0]"}
+  ],
+  "source": [
+   {"value": "BnF authorities", "lang": "en", "via": "browser_alternate_1.json: $..claims.P17/P18 references P35 (Q74535)"},
+   {"value": "Brockhaus Enzyklopädie (https://brockhaus.de/ecs/julex/article/twain-mark)", "lang": "en", "via": "browser_alternate_1.json: $..claims.P17/P18 references"},
+   {"value": "The Fine Art Archive (https://cs.isabart.org/person/16405)", "lang": "en", "via": "browser_alternate_1.json: $..claims.P17/P18 references"},
+   {"value": "Gemeinsame Normdatei", "lang": "en", "via": "browser_alternate_1.json: $..claims.P17 references P35 (Q74543)"},
+   {"value": "SNAC", "lang": "en", "via": "browser_alternate_1.json: $..claims.P17 references P35 (Q74538)"},
+   {"value": "Carnegie Hall linked open data", "lang": "en", "via": "browser_alternate_1.json: $..claims.P21 references P35 (Q75808)"}
+  ],
+  "record_modified": [
+   {"value": "2025-08-05", "raw": "2025-08-05T22:27:31Z", "via": "browser_alternate_1.json: $.entities.Q69664.modified"}
+  ]
+ }
+}

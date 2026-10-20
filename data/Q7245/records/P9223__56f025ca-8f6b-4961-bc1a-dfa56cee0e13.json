@@ -1,0 +1,879 @@
+{
+ "property": "P9223",
+ "property_label": "Provenio UUID",
+ "value": "56f025ca-8f6b-4961-bc1a-dfa56cee0e13",
+ "url": "https://provenio.cz/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13",
+ "crawled_at": "2026-10-02T22:03:16+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://provenio.cz/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13",
+ "tab_title": "Twain, Mark, 1835-1910 | Portaro",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13.jpg",
+ "elapsed_seconds": 8.5,
+ "html_file": "pages/P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13.html",
+ "text_file": "pages/P9223__56f025ca-8f6b-4961-bc1a-dfa56cee0e13.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://provenio.cz/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13",
+  "title": "Twain, Mark, 1835-1910 | Portaro",
+  "content_type": "text/html",
+  "lang": "en",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "hidden",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 200,
+   "url": "https://provenio.cz/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13",
+   "headers": {
+    "content-encoding": "gzip",
+    "content-language": "en-US",
+    "content-length": "0",
+    "content-type": "text/html;charset=UTF-8",
+    "date": "Fri, 02 Oct 2026 22:03:19 GMT",
+    "server": "Portaro/3.0.1-42144",
+    "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+    "vary": "accept-encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "0"
+   }
+  },
+  "link_elements": [
+   {
+    "rel": "alternate",
+    "type": null,
+    "href": "https://provenio.cz/?locale=cs",
+    "title": null,
+    "hreflang": "cs"
+   },
+   {
+    "rel": "alternate",
+    "type": null,
+    "href": "https://provenio.cz/?locale=en",
+    "title": null,
+    "hreflang": "en"
+   },
+   {
+    "rel": "alternate",
+    "type": null,
+    "href": "https://provenio.cz/?locale=de",
+    "title": null,
+    "hreflang": "de"
+   },
+   {
+    "rel": "alternate",
+    "type": null,
+    "href": "https://provenio.cz/?locale=fr",
+    "title": null,
+    "hreflang": "fr"
+   },
+   {
+    "rel": "search",
+    "type": "application/opensearchdescription+xml",
+    "href": "https://provenio.cz/opensearch.xml",
+    "title": "Portaro - library catalog",
+    "hreflang": null
+   }
+  ],
+  "jsonld": [],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "author",
+    "content": "Systemist a.s., KP-SYS spol. s r. o."
+   },
+   {
+    "key": "viewport",
+    "content": "width=device-width, initial-scale=1"
+   },
+   {
+    "key": "description",
+    "content": "eVerbis – A modern library catalog of books, journals, authors and other documents. Fast, user-friendly and accessible online from anywhere."
+   }
+  ],
+  "machine_links": [
+   {
+    "tag": "button",
+    "href": null,
+    "text": "MARC",
+    "title": null,
+    "type": "button",
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "button",
+    "href": null,
+    "text": "Export of all searched",
+    "title": null,
+    "type": "button",
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   }
+  ],
+  "xhr_requests": [
+   {
+    "url": "https://provenio.cz/api/gui-components/sub-search-links",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://provenio.cz/api/current-page-data/menu",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://provenio.cz/api/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13/view",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://provenio.cz/api/search?type=by-authority&recordRelatedRecord=56f025ca-8f6b-4961-bc1a-dfa56cee0e13&exports=portaroSearchItemParagraph%2CportaroSearchItemMoreParagraph",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://provenio.cz/api/directories/82427/insight?forbiddenFileCategory=1",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://provenio.cz/api/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13/hierarchies",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://provenio.cz/api/record-holdings?record=56f025ca-8f6b-4961-bc1a-dfa56cee0e13",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://provenio.cz/custom/design/style.css?v=3.0.1-42144",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1680
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/entry/start.CAHPC6YO.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 382
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DOdkgugX.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 11728
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/BuFlayix.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 944
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/QTnfLwEv.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 994
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/EwG0uMIa.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 26420
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/CQ6sa1WO.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 322
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/entry/app.I7WAH-bV.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 7372
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DDOPvF4s.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 860
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/kNaey6uv.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1508
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/TH2k-Fuy.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 5038
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/xihTtKlq.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 365
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/m2HoFxrO.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 4358
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/nodes/0.Bn08cgX3.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 75289
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/CprH1vGQ.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2371
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DYRQ-1gD.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 14209
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DUKeMgmY.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 4992
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/Xw5Wr_iG.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 339
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/6nrryWti.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 974
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/BKZx_fbJ.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 12379
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DhAQzLR3.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1728
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/BjU5Ksec.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1351
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/W_3KjeZb.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 22115
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/IconedContent.gzRQRq91.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 2712
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/pwa.DKNWHJOp.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 953
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/0.cTfTQTN2.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 72850
+   },
+   {
+    "url": "https://provenio.cz/favicon.png",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 4725
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/D0OohP-v.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1395
+   },
+   {
+    "url": "https://provenio.cz/custom/design/logo_male_bile.png",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 23621
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/Ubuntu-Regular.CIAvqzyd.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 111904
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/Ubuntu-Bold.CrQ2_aha.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 97144
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/nodes/1.D3B5G7gd.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 680
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/kSDRu0HM.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 539
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/FullscreenErrorCard.vz1O7Qa4.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1682
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/GVf6EWRW.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1359
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/B6U3Eesq.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 964
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/nodes/2.iMO9FmTJ.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 109869
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/RdaB04jW.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 24442
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/98qR4TRS.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1014434
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DbXltbpj.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 84877
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DzRQOB1x.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 4057
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/Db7FJ_qr.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2515
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/KpHeading.C9wfEvUm.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 549
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/spKt2hPJ.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 478
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DIKpwgRO.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 756
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/BU_kxusV.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 7160
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/layouts.C-7W-HJF.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1898
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/BxuH7EEt.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1038
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/CMfSWvVA.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 460
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/bits-ui.CUcWsiqJ.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 6020
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/ToVWCRCe.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 17824
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/KpUniversalForm.D-vzYYQq.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1670
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DL1LzR6z.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1523
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/yFKAiCv4.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 12126
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DFAom755.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2984
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/ResponsiveTableContainer.3MBW8xRA.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1692
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DNZx3ZQu.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3781
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/SVKIb6iC.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1748
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/server-state.DoR8Uybg.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1960
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/KpButtonStyleAnchor.CRkffd0i.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 717
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/v2aoiubs.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1248
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/BvWj10v-.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1416
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/KpSearchBar.CcHmbKOv.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 2120
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/KpBarebonesTable.Dh1RrG6r.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 881
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/BUg0GMQ1.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2183
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DMtAgSxU.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3356
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/tree.CLgG7p6w.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1151
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/file-download.yryb-3g0.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 66135
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/app-layout.B6gPr530.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 6357
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DXxuMBHo.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 711
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/ByzcWqLd.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2105
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/CqLpYJcu.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 20342
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/DdyImbWC.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 133289
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/ace-editor.BXYgxDbu.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 3345
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/homepage.DGngMEVj.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 3340
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/RecordsCarousel.r6LXzjbj.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1108
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/Cva-CuPz.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 9265
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/VTegQ0fK.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 842
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/hBR6WCZE.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2043
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/PacketaHomeDeliveryModal.BWBRbodG.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 456
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/PacketaPudoDeliveryModal.Bq217Mvi.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 456
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/B5cybI6C.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1766
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/chunks/BlK5eO7L.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2196
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/2.c9NkKLcx.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 9188
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/nodes/3.fiCqbj22.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1476
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/nodes/54.Dz9jfkIq.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1584
+   },
+   {
+    "url": "https://provenio.cz/favicon.png?v=3.0.1-42144",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 4725
+   },
+   {
+    "url": "https://provenio.cz/custom/design/knihy-4.jpg",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 28824
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/uicons-bold-rounded.BQlGeKFf.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 325096
+   },
+   {
+    "url": "https://provenio.cz/_bundle_/immutable/assets/Ubuntu-Medium.DiE5opie.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 102740
+   },
+   {
+    "url": "https://provenio.cz/api/gui-components/sub-search-links",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 375
+   },
+   {
+    "url": "https://provenio.cz/api/current-page-data/menu",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 1105
+   },
+   {
+    "url": "https://provenio.cz/api/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13/view",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 4137
+   },
+   {
+    "url": "https://provenio.cz/api/search?type=by-authority&recordRelatedRecord=56f025ca-8f6b-4961-bc1a-dfa56cee0e13&exports=portaroSearchItemParagraph%2CportaroSearchItemMoreParagraph",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 2805
+   },
+   {
+    "url": "https://provenio.cz/api/directories/82427/insight?forbiddenFileCategory=1",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 379
+   },
+   {
+    "url": "https://provenio.cz/api/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13/hierarchies",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 849
+   },
+   {
+    "url": "https://provenio.cz/api/record-holdings?record=56f025ca-8f6b-4961-bc1a-dfa56cee0e13",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 897
+   }
+  ],
+  "third_party_hosts": {},
+  "scripts": [],
+  "iframes": [],
+  "forms": [
+   {
+    "action": "https://provenio.cz/records/56f025ca-8f6b-4961-bc1a-dfa56cee0e13",
+    "method": null,
+    "id": null
+   }
+  ],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [
+    "login"
+   ],
+   "not_found_words": []
+  },
+  "text_length": 1054,
+  "html_length": 166234
+ }
+}

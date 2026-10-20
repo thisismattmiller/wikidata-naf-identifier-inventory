@@ -1,0 +1,19 @@
+{
+ "property": "P9178",
+ "label": "Biblioteca Franco Serantini ID",
+ "files_read": ["pages/P9178__22428.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Koha UNIMARC MARC view of Biblioteca Franco Serantini authority 22428 (Autore/Autrice persona) for Twain, Mark, 1835-1910, used in 1 record. Only the 200 heading with qualifier 'scrittore statunitense' is shown; control number not displayed.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "raw": "200: Twain | Mark | scrittore statunitense | 1835-1910", "lang": "it", "via": "200 Intestazione - nome personale"}],
+  "family_name": [{"value": "Twain", "lang": null, "via": "200 Elemento principale"}],
+  "given_name": [{"value": "Mark", "lang": null, "via": "200 Ulteriore elemento del nome"}],
+  "birth_date": [{"value": "1835", "lang": null, "via": "200 Date"}],
+  "death_date": [{"value": "1910", "lang": null, "via": "200 Date"}],
+  "occupation": [{"value": "scrittore", "lang": "it", "via": "200 Qualificazione"}],
+  "nationality": [{"value": "statunitense", "lang": "it", "via": "200 Qualificazione"}],
+  "description": [{"value": "scrittore statunitense", "lang": "it", "via": "200 Qualificazione, escluse le date"}],
+  "identifier": [{"value": "22428", "via": "page URL authid (not shown in record)"}]
+ }
+}

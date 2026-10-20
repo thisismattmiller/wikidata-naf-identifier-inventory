@@ -1,0 +1,531 @@
+{
+ "property": "P6298",
+ "property_label": "bgm.tv person ID",
+ "files": [
+  {
+   "file": "P6298__2529/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://bgm.tv/person/2529"
+  },
+  {
+   "file": "P6298__2529/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bgm.tv/min/g=ui?r771"
+  },
+  {
+   "file": "P6298__2529/xhr_2.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bgm.tv/js/lib/bmo/bmo.js?r771"
+  },
+  {
+   "file": "P6298__2529/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bgm.tv/js/lib/bmo/assets/manifest.local.json?r771"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "unknown": 2,
+  "json": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "zh",
+    "via": "llm-page:infobox 'Simplified Chinese name' (translated in capture; original likely 马克·吐温)",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:infobox 'Alias: Real name'; 'Second Chinese name'",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja",
+    "via": "llm-page:infobox 'Japanese name'",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "サミュエル・ラングホーン・クレメンズ",
+    "lang": "ja",
+    "via": "llm-page:infobox 'second Japanese name'",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:infobox 'Romanization'",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "llm-page:infobox 'Gender'",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:infobox 'Birthday'",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:infobox 'Died'",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Production Staff",
+    "lang": "en",
+    "via": "llm-page:'Occupation' line (site role)",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "novelist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:bio (garbled)",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm-page:bio 'a writer and novelist from the United States'",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Amara is a writer and novelist from the United States. Born in Mirezhou. 『トム・ソーヤーの马険』 is written by として知られ, and the novel written by くのやエッセーをI am a lecturer in the world, and I am the most famous person at that time.",
+    "lang": "en",
+    "via": "llm-page:bio paragraph",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "トム・ソーヤーの冒険",
+    "lang": "ja",
+    "via": "llm-page:Recently participated",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Recently participated",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "ハックルベリィの冒険",
+    "lang": "ja",
+    "via": "llm-page:Recently participated",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "Barbie as the Princess and the Pauper",
+    "lang": "en",
+    "via": "llm-page:Recently participated",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "Barbie: The Princess & the Popstar",
+    "lang": "en",
+    "via": "llm-page:Recently participated",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "William Faulkner (praised Twain)",
+    "lang": "en",
+    "via": "llm-page:bio (garbled)",
+    "file": "P6298.json",
+    "uri": false
+   },
+   {
+    "value": "Ernest Hemingway (Green Hills of Africa quote on Huckleberry Finn)",
+    "lang": "en",
+    "via": "llm-page:bio (garbled)",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "2529",
+    "lang": null,
+    "via": "llm-page:page URL /person/2529",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "© 2008-2026 Bangumi (akaChobits), some rights reserved",
+    "lang": "en",
+    "via": "llm-page:footer",
+    "file": "P6298.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en",
+   "ja",
+   "zh"
+  ],
+  "gender": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en",
+   "ja"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": [],
+  "license": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 18389,
+   "path_count": 47,
+   "paths": [
+    {
+     "path": "accessories.items[].id",
+     "n": 39,
+     "sample": "1"
+    },
+    {
+     "path": "accessories.items[].alias",
+     "n": 39,
+     "sample": "moJing"
+    },
+    {
+     "path": "accessories.items[].src",
+     "n": 39,
+     "sample": "./assets/a1.png"
+    },
+    {
+     "path": "accessories.items[].layer",
+     "n": 39,
+     "sample": "4"
+    },
+    {
+     "path": "eyes.items[].id",
+     "n": 37,
+     "sample": "1"
+    },
+    {
+     "path": "eyes.items[].alias",
+     "n": 37,
+     "sample": "eyes8"
+    },
+    {
+     "path": "eyes.items[].src",
+     "n": 37,
+     "sample": "./assets/e1.png"
+    },
+    {
+     "path": "eyes.items[].layer",
+     "n": 37,
+     "sample": "3"
+    },
+    {
+     "path": "mouth.items[].id",
+     "n": 30,
+     "sample": "1"
+    },
+    {
+     "path": "mouth.items[].alias",
+     "n": 30,
+     "sample": "jianMouth"
+    },
+    {
+     "path": "mouth.items[].src",
+     "n": 30,
+     "sample": "./assets/m1.png"
+    },
+    {
+     "path": "mouth.items[].layer",
+     "n": 30,
+     "sample": "2"
+    },
+    {
+     "path": "others.items[].id",
+     "n": 27,
+     "sample": "1"
+    },
+    {
+     "path": "others.items[].alias",
+     "n": 27,
+     "sample": "saiHong"
+    },
+    {
+     "path": "others.items[].src",
+     "n": 27,
+     "sample": "./assets/o1.png"
+    },
+    {
+     "path": "others.items[].layer",
+     "n": 27,
+     "sample": "2"
+    },
+    {
+     "path": "accessories.items[].version",
+     "n": 18,
+     "sample": "2"
+    },
+    {
+     "path": "eyes.items[].version",
+     "n": 12,
+     "sample": "2"
+    },
+    {
+     "path": "face.items[].id",
+     "n": 8,
+     "sample": "1"
+    },
+    {
+     "path": "face.items[].alias",
+     "n": 8,
+     "sample": "face1"
+    },
+    {
+     "path": "face.items[].src",
+     "n": 8,
+     "sample": "./assets/f1_v2.png"
+    },
+    {
+     "path": "face.items[].layer",
+     "n": 8,
+     "sample": "1"
+    },
+    {
+     "path": "others.items[].version",
+     "n": 8,
+     "sample": "3"
+    },
+    {
+     "path": "mouth.items[].version",
+     "n": 7,
+     "sample": "3"
+    },
+    {
+     "path": "face.items[].version",
+     "n": 3,
+     "sample": "2"
+    },
+    {
+     "path": "face.id",
+     "n": 1,
+     "sample": "f"
+    },
+    {
+     "path": "face.name",
+     "n": 1,
+     "sample": "面部"
+    },
+    {
+     "path": "face.layer",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "face.multiSelect",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "mouth.id",
+     "n": 1,
+     "sample": "m"
+    },
+    {
+     "path": "mouth.name",
+     "n": 1,
+     "sample": "嘴部"
+    },
+    {
+     "path": "mouth.layer",
+     "n": 1,
+     "sample": "2"
+    },
+    {
+     "path": "mouth.multiSelect",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "eyes.id",
+     "n": 1,
+     "sample": "e"
+    },
+    {
+     "path": "eyes.name",
+     "n": 1,
+     "sample": "眼部"
+    },
+    {
+     "path": "eyes.layer",
+     "n": 1,
+     "sample": "3"
+    },
+    {
+     "path": "eyes.multiSelect",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "accessories.id",
+     "n": 1,
+     "sample": "a"
+    },
+    {
+     "path": "accessories.name",
+     "n": 1,
+     "sample": "配饰"
+    },
+    {
+     "path": "accessories.layer",
+     "n": 1,
+     "sample": "4"
+    },
+    {
+     "path": "accessories.multiSelect",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "accessories.maxSelect",
+     "n": 1,
+     "sample": "5"
+    },
+    {
+     "path": "others.id",
+     "n": 1,
+     "sample": "o"
+    },
+    {
+     "path": "others.name",
+     "n": 1,
+     "sample": "其他"
+    },
+    {
+     "path": "others.layer",
+     "n": 1,
+     "sample": "5"
+    },
+    {
+     "path": "others.multiSelect",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "others.maxSelect",
+     "n": 1,
+     "sample": "5"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "src"
+   ]
+  }
+ ],
+ "llm_notes": "Bangumi person page 'Mark Twain' with an infobox (names in Chinese/Japanese, gender, dates), a short bio and a list of anime/book entries he is credited on. The captured text is a garbled machine translation (Chinese/Japanese to English), so the bio is barely usable.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,552 @@
+{
+ "property": "P5562",
+ "property_label": "Tebeosfera ID",
+ "files": [
+  {
+   "file": "P5562__clemens_samuel_langhorne/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.tebeosfera.com/autores/clemens_samuel_langhorne.html"
+  }
+ ],
+ "formats": {
+  "opengraph": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "es",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "es",
+    "via": "llm-page:page heading",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://www.tebeosfera.com/T3content/img/T3_autores/i/n/mark_twain.jpg",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:image']",
+    "file": "P5562.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "clemens_samuel_langhorne",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "es",
+    "via": "llm-page:Firmas",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "es",
+    "via": "llm-page:Tebeoenlaces (Wikipedia entry)",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "es",
+    "via": "llm-page:header",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "es",
+    "via": "llm-page:header",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida · Monroe · Misuri",
+    "lang": "es",
+    "via": "llm-page:header",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding · New Haven · Connecticut",
+    "lang": "es",
+    "via": "llm-page:header",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Escritor",
+    "lang": "es",
+    "via": "llm-page:header / dedicación",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Autor adaptado",
+    "lang": "es",
+    "via": "llm-page:header / dedicación",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Las aventuras de Huckleberry Finn",
+    "lang": "es",
+    "via": "llm-page:Sagas",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "El príncipe y el mendigo (saga)",
+    "lang": "es",
+    "via": "llm-page:Sagas",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "es",
+    "via": "llm-page:Sagas",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Un yanqui en la corte del rey Arturo (saga)",
+    "lang": "es",
+    "via": "llm-page:Sagas",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Las travesuras de Tom",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "El disco de la muerte",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "\"Martin\" el tonelero de Nuremberg",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Aventuras de Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Las aventuras de Huck Finn",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Una extraña aventura",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Un yanqui en la corte del rey Arturo",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "El príncipe y el mendigo",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer detective",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Aventuras en el Far West",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer a través del mundo",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "El detective distraído",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Cabezahueca Wilson",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "El elefante blanco",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Ein Yankee am Hofe König Arthurs",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Tobby und die Wunderbohne",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Çalinan taç",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finn'in serüvenleri",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Les aventures de Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer dünyayi dolasiyor",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Kral Artür'ün sarayinda",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "La alarma",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "El niño malo y el niño bueno",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "De Mark Twain",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Les aventures de Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer als Detektiv",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Abenteuer in Wildwest",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abenteuer",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "De verstrooide speurder",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Prins en bedelaar",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer op wereldreis",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Aventura en el Oeste",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Cuento del niño bueno cuento del niño malo",
+    "lang": null,
+    "via": "llm-page:Obras con dedicación artística del autor (comic adaptations)",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Andrés Álvarez (creator of the author card, 2010)",
+    "lang": "es",
+    "via": "llm-page:Creación de la ficha",
+    "file": "P5562.json",
+    "uri": false
+   },
+   {
+    "value": "Alejandro Capelo (expanded the author card)",
+    "lang": "es",
+    "via": "llm-page:Creación de la ficha",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Andrés Álvarez. Ampliada por Alejandro Capelo. (2010): \"Samuel Langhorne Clemens\" en Tebeosfera.",
+    "lang": "es",
+    "via": "llm-page:CITA DE ESTA PÁGINA",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2010",
+    "lang": "es",
+    "via": "llm-page:footer of card",
+    "file": "P5562.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "es"
+  ],
+  "image": [],
+  "identifier": [],
+  "pseudonym": [
+   "es"
+  ],
+  "name_variant": [
+   "es"
+  ],
+  "birth_date": [
+   "es"
+  ],
+  "death_date": [
+   "es"
+  ],
+  "birth_place": [
+   "es"
+  ],
+  "death_place": [
+   "es"
+  ],
+  "occupation": [
+   "es"
+  ],
+  "work": [
+   "es"
+  ],
+  "related_agent": [
+   "es"
+  ],
+  "source": [
+   "es"
+  ],
+  "record_created": [
+   "es"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 370,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.tebeosfera.com/autores/clemens_samuel_langhorne.html"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Clemens, Samuel Langhorne"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.tebeosfera.com/T3content/img/T3_autores/i/n/mark_twain.jpg"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "205"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "250"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:url",
+     "value": "https://www.tebeosfera.com/autores/clemens_samuel_langhorne.html"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Clemens, Samuel Langhorne"
+    },
+    {
+     "path": "[].og:image",
+     "value": "https://www.tebeosfera.com/T3content/img/T3_autores/i/n/mark_twain.jpg"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Tebeosfera author card 'Samuel Langhorne Clemens' (escritor / autor adaptado): exact birth/death dates and places, signature MARK TWAIN, sagas, and a year-by-year breakdown of 103 comic publications adapting his works (1943-2025) plus 1 theoretical work; 40 distinct adapted titles kept, publishers/series in raw omitted. Card created 2010 by Andrés Álvarez, expanded by Alejandro Capelo.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

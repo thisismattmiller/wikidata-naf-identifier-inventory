@@ -1,0 +1,313 @@
+{
+ "property": "P13804",
+ "property_label": "‎Sancho el Sabio Foundation ID",
+ "files": [
+  {
+   "file": "P13804__12780/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://catalogo.sanchoelsabio.eus/Authority/Record?id=12780"
+  },
+  {
+   "file": "P13804__12780/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://query.wikidata.org/sparql?query=select%20%3FP%20%3Furl_formatter%20%7B%0A%20%20%20%20%20%20%3FP%20wdt%3AP1630%20%3Furl_formatter%20.%0A%20%20%20%20%20%20values%20%3FP%20%7B%20wd%3AP214%20wd%3AP213%20wd%3AP950%20wd%3AP9984%20wd%3AP7704%20wd%3AP268%20%7D%0A%20%20%20%20%7D"
+  },
+  {
+   "file": "P13804__12780/xhr_2.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://query.wikidata.org/sparql?query=SELECT%20%3Fitem%20%3Furl%0A%20%20%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20%20%20%3Fitem%20wdt%3AP1629%20%5B%20wdt%3AP408%20wd%3AQ107492957%20%5D%20.%0A%20%20%20%20%20%20%20%20%3Fitem%20wdt%3AP1630%20%3Furl%20.%0A%20%20%20%20%20%20%7D"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "unknown": 2
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "es",
+    "via": "llm-page:Personal name field / heading",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "es",
+    "via": "llm-page:Biografía (real name)",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "es",
+    "via": "llm-page:Biografía: 'más conocido por su seudónimo Mark Twain'",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Misuri",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal (Misuri)",
+    "lang": "es",
+    "via": "llm-page:Biografía: 'Twain se crio en Hannibal'",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "río Misisipi",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "escritor",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "orador",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "humorista",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "impresor",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "cajista",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "piloto navegante",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "reportero",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "estadounidense",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens (Florida, Misuri, 30 de noviembre de 1835-Redding, Connecticut, 21 de abril de 1910), más conocido por su seudónimo Mark Twain, fue un escritor, orador y humorista estadounidense. Escribió obras de gran éxito y fama mundial como El príncipe y el mendigo o Un yanqui en la corte del Rey Arturo, pero es conocido sobre todo por su novela Las aventuras de Tom Sawyer y su secuela Las aventuras de Huckleberry Finn.",
+    "lang": "es",
+    "via": "llm-page:Biografía (first paragraph, from Spanish Wikipedia)",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "El príncipe y el mendigo",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "Un yanqui en la corte del Rey Arturo",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "Las aventuras de Tom Sawyer",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "Las aventuras de Huckleberry Finn",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "La célebre rana saltarina del condado de Calaveras",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Orion (older brother)",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Huttleston Rogers (businessman who helped resolve his finances)",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   },
+   {
+    "value": "William Faulkner (called him 'el padre de la literatura estadounidense')",
+    "lang": "es",
+    "via": "llm-page:Biografía",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://es.wikipedia.org/w/index.php?title=Mark+Twain&oldid=175567954",
+    "lang": null,
+    "via": "llm-page:Cita (Wikipedia citation) / 'Ver en Wikipedia'",
+    "file": "P13804.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "Mark Twain. (2026, 28 de septiembre). Wikipedia, La enciclopedia libre. Fecha de consulta: 00:15, octubre 3, 2026",
+    "lang": "es",
+    "via": "llm-page:Cita",
+    "file": "P13804.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "es"
+  ],
+  "name_variant": [
+   "es"
+  ],
+  "pseudonym": [
+   "es"
+  ],
+  "birth_date": [
+   "es"
+  ],
+  "death_date": [
+   "es"
+  ],
+  "birth_place": [
+   "es"
+  ],
+  "death_place": [
+   "es"
+  ],
+  "activity_place": [
+   "es"
+  ],
+  "occupation": [
+   "es"
+  ],
+  "nationality": [
+   "es"
+  ],
+  "description": [
+   "es"
+  ],
+  "work": [
+   "es"
+  ],
+  "related_agent": [
+   "es"
+  ],
+  "same_as": [],
+  "source": [
+   "es"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Sancho el Sabio Foundation catalogue authority page: personal name heading 'Twain, Mark' plus a Spanish biography quoted from Spanish Wikipedia, with a citation and a 'Ver en Wikipedia' link. Links to the MARC view and related documents are present but their content is not in the text.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

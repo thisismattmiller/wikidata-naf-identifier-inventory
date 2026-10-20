@@ -1,0 +1,430 @@
+{
+ "property": "P906",
+ "property_label": "SELIBR ID",
+ "files": [
+  {
+   "file": "P906__98057/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://libris.kb.se/1zcfb5hk1bq7d78"
+  },
+  {
+   "file": "P906__98057/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://libris.kb.se/1zcfb5hk1bq7d78"
+  },
+  {
+   "file": "P906__98057/export_1.jsonld",
+   "format": "json-ld",
+   "kind": "export",
+   "via": "http",
+   "url": "https://libris.kb.se/1zcfb5hk1bq7d78/data.jsonld",
+   "error": "FileNotFoundError: [Errno 2] No such file or directory: '/context.jsonld'"
+  },
+  {
+   "file": "P906__98057/export_2.ttl",
+   "format": "turtle",
+   "kind": "export",
+   "via": "http",
+   "url": "https://libris.kb.se/1zcfb5hk1bq7d78/data.ttl"
+  },
+  {
+   "file": "P906__98057/export_3.xml",
+   "format": "marcxml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://libris.kb.se/1zcfb5hk1bq7d78/data.rdf"
+  },
+  {
+   "file": "P906__98057/conneg_3.xml",
+   "format": "marcxml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://libris.kb.se/auth/98057"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json-ld": 1,
+  "turtle": 1,
+  "marcxml": 2
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 4,
+  "https://id.kb.se/vocab/": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "export_2.ttl",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, 1835-1910",
+    "lang": "sv",
+    "via": "llm-page:page heading 'Person'",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "https://id.kb.se/vocab/Person",
+    "lang": null,
+    "via": "type",
+    "file": "export_2.ttl",
+    "uri": true
+   }
+  ],
+  "description": [
+   {
+    "value": "1835-1910",
+    "lang": null,
+    "via": "lifeSpan",
+    "file": "export_2.ttl",
+    "uri": false
+   },
+   {
+    "value": "Skönlitterär författare och tidningsman. Mark Twain är en pseudonym för Samuel Langhorne Clemens",
+    "lang": "sv",
+    "via": "llm-page:bio note under heading",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "S. L. Clemens, 1835-1910",
+    "lang": null,
+    "via": "llm-page:Variant row",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Clemens, 1835-1910",
+    "lang": null,
+    "via": "llm-page:Variant row",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens, 1835-1910",
+    "lang": null,
+    "via": "llm-page:Variant row",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens, 1835-1910",
+    "lang": null,
+    "via": "llm-page:Variant row",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Tuein, 1835-1910",
+    "lang": null,
+    "via": "llm-page:Variant row (3 more variants collapsed behind 'Visa fler (+3)')",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "sv",
+    "via": "llm-page:bio note",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:page heading",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:page heading",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Skönlitterär författare",
+    "lang": "sv",
+    "via": "llm-page:bio note",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "tidningsman",
+    "lang": "sv",
+    "via": "llm-page:bio note",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Förenta staterna",
+    "lang": "sv",
+    "via": "llm-page:row 'Nationalitet/verksamhetsland'",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Förenta staterna",
+    "lang": "sv",
+    "via": "llm-page:row 'Nationalitet/verksamhetsland'",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Huckleberry Finns äventyr",
+    "lang": "sv",
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Den stora franska duellen",
+    "lang": "sv",
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Om myror m fl",
+    "lang": "sv",
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Priključenija Toma Sojera : Priključenija Geklʹberri Finna",
+    "lang": "ru-Latn",
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Pustolovine Toma Sawyera",
+    "lang": "bs",
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sojjerijn adal javdal ; Chakleberri Finnijn adal javdal ; Chanchüü, jaduu chüü chojor",
+    "lang": "mn-Latn",
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Œuvres",
+    "lang": "fr",
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "The diaries of Adam and Eve",
+    "lang": "en",
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Prints i nistjij : Janki pri dvore korolja Artura",
+    "lang": "ru-Latn",
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Mughāmarāt Tūm Sūyar",
+    "lang": "ar-Latn",
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:original title of translated work in Related list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's helpful hints for good living : a handbook for the damned human race",
+    "lang": "en",
+    "via": "llm-page:Related: Ämne list (Mark Twain listed as author)",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Maj Bylock (contributor, probably translator, of Huckleberry Finns äventyr, 2003)",
+    "lang": null,
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Elisabeth Helms (contributor, probably translator, of Den stora franska duellen and Om myror m fl)",
+    "lang": null,
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "Francis Lacassin (contributor, probably editor/translator, of Œuvres, 2015)",
+    "lang": null,
+    "via": "llm-page:Related: Författare/upphov list",
+    "file": "P906.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm-page:Identifikator row",
+    "file": "P906.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm-page:Identifikator row",
+    "file": "P906.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "98057",
+    "lang": null,
+    "via": "llm-page:Detaljer: Kontrollnummer",
+    "file": "P906.json",
+    "uri": false
+   },
+   {
+    "value": "https://libris.kb.se/1zcfb5hk1bq7d78#it",
+    "lang": null,
+    "via": "llm-page:Detaljer: Resursens ID / Permalänk",
+    "file": "P906.json",
+    "uri": true
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "sv"
+  ],
+  "type": [],
+  "description": [
+   "sv"
+  ],
+  "name_variant": [],
+  "pseudonym": [
+   "sv"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "sv"
+  ],
+  "nationality": [
+   "sv"
+  ],
+  "activity_place": [
+   "sv"
+  ],
+  "work": [
+   "ar-Latn",
+   "bs",
+   "en",
+   "fr",
+   "mn-Latn",
+   "ru-Latn",
+   "sv"
+  ],
+  "related_agent": [],
+  "same_as": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 317,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain, 1835-1910"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://libris.kb.se/1zcfb5hk1bq7d78"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Libris"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://libris.kb.se/dataset/images/4083ab7a85c9ac0b0ed048cfef0d7338.256.jpg?key=_I_t4QJwFu7v1qpGOnOYBA&expires=17910648"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain, 1835-1910"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Libris (Swedish national catalogue) person authority page for Mark Twain: short Swedish bio note, nationality, VIAF/ISNI identifiers, name variants (5 shown, '+3' more collapsed), plus a 'Related' sample of 10 of 822+ works by him and 10 of 241 works about him. Works about him (subject list) are not extracted as his works.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,143 @@
+{
+ "property": "P9629",
+ "property_label": "Armeniapedia ID",
+ "files": [
+  {
+   "file": "P9629__9169/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.armeniapedia.org/w139/index.php?curid=9169"
+  },
+  {
+   "file": "P9629__9169/alternate_1.rdf",
+   "format": "rdf-xml",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.armeniapedia.org/w139/index.php?title=Special:ExportRDF/Mark_Twain&xmlmime=rdf"
+  },
+  {
+   "file": "P9629__9169/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.armeniapedia.org/w139/api.php?action=query&format=json&formatversion=2&origin=*&prop=pageimages%7Cextracts&piprop=thumbnail&pithumbsize=160&exsentences=1&exintro=1&explaintext=1&pilimit=3&generator=search&gsrsearch=morelike%3AMark_Twain&gsrnamespace=0&gsrlimit=3&gsrqiprofile=classic_noboostlinks&uselang=content&smaxage=86400&maxage=86400"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "rdf-xml": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 14,
+  "http://semantic-mediawiki.org/swivt/1.0#": 5,
+  "http://www.w3.org/2000/01/rdf-schema#": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "http://armeniapedia.mywikis.wiki/wiki/Special:URIResolver/": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://semantic-mediawiki.org/swivt/1.0#Subject",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "label",
+    "file": "alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P9629.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://www.armeniapedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "page",
+    "file": "alternate_1.rdf",
+    "uri": true
+   }
+  ],
+  "work": [
+   {
+    "value": "The Lowest Animal",
+    "lang": "en",
+    "via": "llm-page:excerpt heading",
+    "file": "P9629.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "9169",
+    "lang": null,
+    "via": "llm-page:page URL curid",
+    "file": "P9629.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2007-07-26",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P9629.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "en"
+  ],
+  "same_as": [],
+  "work": [
+   "en"
+  ],
+  "identifier": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "isDefinedBy (http://www.w3.org/2000/01/rdf-schema#)": 1,
+  "wikiNamespace (http://semantic-mediawiki.org/swivt/1.0#)": 1,
+  "wikiPageContentLanguage (http://semantic-mediawiki.org/swivt/1.0#)": 1,
+  "wikiPageModificationDate (http://semantic-mediawiki.org/swivt/1.0#)": 1,
+  "Property-3AModification_date-23aux (http://armeniapedia.mywikis.wiki/wiki/Special:URIResolver/)": 1,
+  "wikiPageSortKey (http://semantic-mediawiki.org/swivt/1.0#)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 22,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "batchcomplete",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Armeniapedia wiki page 'Mark Twain' containing only a quoted excerpt from his essay 'The Lowest Animal' (which mentions an Armenian) and the category 'Non-Armenian Individuals'. No biographical facts. Last edited 2007.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

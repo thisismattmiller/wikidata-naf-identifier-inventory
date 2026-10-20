@@ -1,0 +1,348 @@
+{
+ "property": "P434",
+ "property_label": "MusicBrainz artist ID",
+ "value": "4d584c99-249e-493f-8c5f-d022bd8de433",
+ "url": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+ "crawled_at": "2026-10-02T21:11:56+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+ "tab_title": "Mark Twain - MusicBrainz",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P434__4d584c99-249e-493f-8c5f-d022bd8de433.jpg",
+ "elapsed_seconds": 4.6,
+ "html_file": "pages/P434__4d584c99-249e-493f-8c5f-d022bd8de433.html",
+ "text_file": "pages/P434__4d584c99-249e-493f-8c5f-d022bd8de433.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+  "title": "Mark Twain - MusicBrainz",
+  "content_type": "text/html",
+  "lang": "en",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 200,
+   "url": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+   "headers": {
+    "content-length": "0",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Fri, 02 Oct 2026 21:11:59 GMT",
+    "referrer-policy": "unsafe-url",
+    "server": "Plack::Handler::Starlet",
+    "x-mb-gateway": "rex",
+    "x-runtime": "0.649098"
+   }
+  },
+  "link_elements": [
+   {
+    "rel": "search",
+    "type": "application/opensearchdescription+xml",
+    "href": "https://musicbrainz.org/static/search_plugins/opensearch/musicbrainz_artist.xml",
+    "title": "MusicBrainz: Artist",
+    "hreflang": null
+   },
+   {
+    "rel": "search",
+    "type": "application/opensearchdescription+xml",
+    "href": "https://musicbrainz.org/static/search_plugins/opensearch/musicbrainz_label.xml",
+    "title": "MusicBrainz: Label",
+    "hreflang": null
+   },
+   {
+    "rel": "search",
+    "type": "application/opensearchdescription+xml",
+    "href": "https://musicbrainz.org/static/search_plugins/opensearch/musicbrainz_release.xml",
+    "title": "MusicBrainz: Release",
+    "hreflang": null
+   },
+   {
+    "rel": "search",
+    "type": "application/opensearchdescription+xml",
+    "href": "https://musicbrainz.org/static/search_plugins/opensearch/musicbrainz_track.xml",
+    "title": "MusicBrainz: Track",
+    "hreflang": null
+   }
+  ],
+  "jsonld": [
+   {
+    "types": [
+     "Person",
+     "MusicGroup"
+    ],
+    "length": 16886,
+    "content": "{\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"@context\":\"https://schema.org/docs/jsonldcontext.json\",\"sameAs\":[\"http://id.loc.gov/authorities/names/n79021164\",\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"http://snaccooperative.org/ark:/99166/w6dg7gd6\",\"http://viaf.org/viaf/50566653\",\"http://www.isni.org/0000000121324854\",\"http://www.wikidata.org/entity/Q7245\",\"https://adp.library.ucsb.edu/names/102301\",\"https://catalogue.bnf.fr/ark:/12148/cb11927291n\",\"https://d-nb.info/gnd/118624822\",\"https://imslp.org/wiki/Category:Twain,_Mark\",\"https://nla.gov.au/anbd.aut-an35028957\",\"https://www.discogs.com/artist/463414\",\"https://www.ibdb.com/person.php?id=13531\",\"https://www.imdb.com/name/nm0878494/\",\"https://www.worldcat.org/identities/lccn-n79-021164/\"],\"deathDate\":\"1910-04-21\",\"name\":\"Mark Twain\",\"album\":[{\"creditedTo\":\"Mark Twain\",\"albumProductionType\":\"http://schema.org/StudioAlbum\",\"byArtist\":{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\",\"@type\":[\"Person\",\"MusicGroup\"]},\"@type\":\"MusicAlbum\",\"name\":\"Tom Sawyer und Huckleberry Finn 1\",\"@id\":\"http://musicbrainz.org/release-group/16e3c732-b507-4252-add6-1ecc5ba2c384\"},{\"albumProductionType\":\"http://schema.org/StudioAlbum\",\"creditedTo\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/release-group/2158a51d-dd1c-4958-bea5-9db8c3a05729\",\"name\":\"Tom Sawyer und Huckleberry Finn 2\",\"@type\":\"MusicAlbum\",\"byArtist\":{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@type\":[\"Person\",\"MusicGroup\"],\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\"}},{\"albumReleaseType\":\"http://schema.org/AlbumRelease\",\"creditedTo\":\"Mark Twain\",\"name\":\"Bummel durch Europa\",\"@id\":\"http://musicbrainz.org/release-group/0189f265-7c3c-41a0-bdaa-4252a6433ee7\",\"byArtist\":{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"@type\":[\"Person\",\"MusicGroup\"]},\"@type\":\"MusicAlbum\"},{\"albumReleaseType\":\"http://schema.org/AlbumRelease\",\"creditedTo\":\"Mark Twain Uppläsare: Lars Ekborg\",\"name\":\"Tom Sawyer\",\"@id\":\"http://musicbrainz.org/release-group/9629ceb8-abd3-4a32-b44b-da41f60e2d99\",\"byArtist\":[{\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"@type\":[\"Person\",\"MusicGroup\"],\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Lars Ekborg\",\"@id\":\"http://musicbrainz.org/artist/cd29af77-c3fb-4727-a13b-9bc7bffe7ffa\"}],\"@type\":\"MusicAlbum\"},{\"@id\":\"http://musicbrainz.org/release-group/f17ae5e6-6c38-45c7-b9f9-be7838340b27\",\"name\":\"Knallkopf Wilson\",\"@type\":\"MusicAlbum\",\"byArtist\":[{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"@type\":[\"Person\",\"MusicGroup\"],\"@id\":\"http://musicbrainz.org/artist/db55ac9c-44ad-47fd-8d6b-53206689007c\",\"name\":\"Heikko Deutschmann\"}],\"creditedTo\":\"Mark Twain gelesen von Heikko Deutschmann\",\"albumReleaseType\":\"http://schema.org/AlbumRelease\"},{\"byArtist\":[{\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\",\"@type\":[\"Person\",\"MusicGroup\"],\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"@type\":[\"Person\",\"MusicGroup\"],\"@id\":\"http://musicbrainz.org/artist/be0e1e42-1e4f-4a6b-b31b-a16f7ca5e9eb\",\"name\":\"Trevor White\"}],\"@type\":\"MusicAlbum\",\"name\":\"The Adventures of Huckleberry Finn\",\"@id\":\"http://musicbrainz.org/release-group/32100808-7d72-4df2-b034-e200404cb5c2\",\"albumReleaseType\":\"http://schema.org/AlbumRelease\",\"creditedTo\":\"Mark Twain read by Trevor White\"},{\"byArtist\":[{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Tom Vogt\",\"@id\":\"http://musicbrainz.org/artist/0f1d28d0-450b-4107-b592-1fe8c9e4b528\"}],\"@type\":\"MusicAlbum\",\"name\":\"Meistererzählungen\",\"@id\":\"http://musicbrainz.org/release-group/a58f2817-7da4-473e-bcb6-5b7060f4760a\",\"albumReleaseType\":\"http://schema.org/AlbumRelease\",\"creditedTo\":\"Mark Twain gelesen von Thomas „Tom“ Vogt\"},{\"creditedTo\":\"Mark Twain gelesen von Frank Stöckle & Heidrun Warmuth\",\"albumReleaseType\":\"http://schema.org/AlbumRelease\",\"@id\":\"http://musicbrainz.org/release-group/0f5272a5-a670-4337-8551-c7c2eefcd3a7\",\"name\":\"Die Tagebücher von Adam und Eva\",\"@type\":\"MusicAlbum\",\"byArtist\":[{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"@id\":\"http://musicbrainz.org/artist/7b974056-433b-4322-840c-23e7059b24b0\",\"name\":\"Frank Stöckle\",\"@type\":[\"Person\",\"MusicGroup\"]},{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Heidrun Warmuth\",\"@id\":\"http://musicbrainz.org/artist/e6045e9e-e355-4fda-9c5c-c1f74cfe5bdc\"}]},{\"albumReleaseType\":\"http://schema.org/AlbumRelease\",\"creditedTo\":\"Mark Twain read by Nick Offerman\",\"byArtist\":[{\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\",\"@type\":[\"Person\",\"MusicGroup\"],\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"@id\":\"http://musicbrainz.org/artist/6888f5f8-67d3-4cf1-b804-9420344a3bae\",\"name\":\"Nick Offerman\",\"@type\":[\"Person\",\"MusicGroup\"]}],\"@type\":\"MusicAlbum\",\"name\":\"A Connecticut Yankee in King Arthur's Court\",\"@id\":\"http://musicbrainz.org/release-group/69cf8cbb-9bd5-4982-a77d-61f137701be2\"},{\"creditedTo\":\"Mark Twain\",\"albumReleaseType\":\"http://schema.org/AlbumRelease\",\"@type\":\"MusicAlbum\",\"byArtist\":{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},\"@id\":\"http://musicbrainz.org/release-group/2ea7efb7-2457-4868-9d32-daff7605665b\",\"name\":\"Bummel durch Europa\"},{\"albumReleaseType\":\"http://schema.org/BroadcastRelease\",\"creditedTo\":\"Mark Twain\",\"name\":\"The Adventures of Huckleberry Finn\",\"@id\":\"http://musicbrainz.org/release-group/134d86ad-e54a-4ecc-b520-daaad8bfb04b\",\"byArtist\":{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},\"@type\":\"MusicAlbum\"},{\"@type\":\"MusicAlbum\",\"byArtist\":[{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\",\"@type\":[\"Person\",\"MusicGroup\"]},{\"@type\":[\"Person\",\"MusicGroup\"],\"@id\":\"http://musicbrainz.org/artist/7bb3a271-ee72-4437-8c74-645db972c059\",\"name\":\"Emil Fillo\"}],\"@id\":\"http://musicbrainz.org/release-group/a8dbc5be-8da1-450a-8e18-60ee63f1ff78\",\"name\":\"1957: Princ a žobrák\",\"creditedTo\":\"Mark Twain, číta Emil Fillo\",\"albumReleaseType\":\"http://schema.org/BroadcastRelease\"},{\"creditedTo\":\"Mark Twain\",\"name\":\"The Adventures of Huckleberry Finn\",\"@id\":\"http://musicbrainz.org/release-group/ec041018-6319-3ca1-940c-f9a792f89e02\",\"byArtist\":{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\"},\"@type\":\"MusicAlbum\"},{\"creditedTo\":\"Mark Twain read by Norman Dietz\",\"@id\":\"http://musicbrainz.org/release-group/960b39c9-5a5f-3733-9aab-a7bcc84f4dbd\",\"name\":\"The Adventures of Tom Sawyer\",\"@type\":\"MusicAlbum\",\"byArtist\":[{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@type\":[\"Person\",\"MusicGroup\"],\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\"},{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Norman Dietz\",\"@id\":\"http://musicbrainz.org/artist/4192371c-38bf-464c-bf46-cc8d51edccbd\"}]},{\"creditedTo\":\"Mark Twain read by Patrick Fraley\",\"@type\":\"MusicAlbum\",\"byArtist\":[{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Pat Fraley\",\"@id\":\"http://musicbrainz.org/artist/d6c27a51-276d-4572-be07-8431a039d919\"}],\"@id\":\"http://musicbrainz.org/release-group/f41545a3-1f3c-4792-9525-ba61875bd375\",\"name\":\"The Adventures of Huckleberry Finn\"},{\"creditedTo\":\"Mark Twain read by Tom Parker\",\"@id\":\"http://musicbrainz.org/release-group/28e29ad1-b387-4980-b778-6d9974960bd7\",\"name\":\"The Adventures of Huckleberry Finn\",\"@type\":\"MusicAlbum\",\"byArtist\":[{\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\",\"@type\":[\"Person\",\"MusicGroup\"],\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Tom Parker\",\"@id\":\"http://musicbrainz.org/artist/0514d395-fffd-455d-a9fb-f4ba2636125c\"}]},{\"creditedTo\":\"Mark Twain gelesen von Udo Wachtveitl\",\"byArtist\":[{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\",\"@type\":[\"Person\",\"MusicGroup\"]},{\"@id\":\"http://musicbrainz.org/artist/38787cf5-6b38-4284-9cd9-cf658c1dcc9c\",\"name\":\"Udo Wachtveitl\",\"@type\":[\"Person\",\"MusicGroup\"]}],\"@type\":\"MusicAlbum\",\"name\":\"Huckleberry Finn\",\"@id\":\"http://musicbrainz.org/release-group/761749f6-1e08-444d-ab11-7f61d4eada5d\"},{\"byArtist\":[{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"@type\":[\"Person\",\"MusicGroup\"]},{\"@id\":\"http://musicbrainz.org/artist/4b0b5ec9-3913-4992-a2ab-4e4823e04cd6\",\"name\":\"Hans Eckardt\",\"@type\":[\"Person\",\"MusicGroup\"]}],\"@type\":\"MusicAlbum\",\"name\":\"Tom Sawyers Abenteuer\",\"@id\":\"http://musicbrainz.org/release-group/d3bc3e75-a4fe-4d6e-a177-38931bdb78d0\",\"creditedTo\":\"Mark Twain gelesen von Hans Eckardt\"},{\"@id\":\"http://musicbrainz.org/release-group/35a21404-39f4-41ca-9953-a13d8e7f1be8\",\"name\":\"The Adventures of Tom Sawyer\",\"@type\":\"MusicAlbum\",\"byArtist\":[{\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"@type\":[\"Person\",\"MusicGroup\"],\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"name\":\"William Dufris\",\"@id\":\"http://musicbrainz.org/artist/5fe3e1bf-ba2b-4cf6-9bf8-e6700b702b4d\",\"@type\":[\"Person\",\"MusicGroup\"]}],\"creditedTo\":\"Mark Twain read by William Dufris\"},{\"@id\":\"http://musicbrainz.org/release-group/26ea6be0-4bca-4d68-bcb9-de4289819471\",\"name\":\"Tom Sawyer\",\"@type\":\"MusicAlbum\",\"byArtist\":{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\"},\"creditedTo\":\"Mark Twain\"},{\"creditedTo\":\"Mark Twain gelesen von Harry Rowohlt\",\"@type\":\"MusicAlbum\",\"byArtist\":[{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\",\"@type\":[\"Person\",\"MusicGroup\"]},{\"name\":\"Harry Rowohlt\",\"@id\":\"http://musicbrainz.org/artist/3281d863-316f-449f-9153-e49470432558\",\"@type\":[\"Person\",\"MusicGroup\"]}],\"@id\":\"http://musicbrainz.org/release-group/c3bd0dcc-ea99-4a91-8d0c-91967e31b11b\",\"name\":\"Meine geheime Autobiographie\"},{\"@type\":\"MusicAlbum\",\"byArtist\":[{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Nick Offerman\",\"@id\":\"http://musicbrainz.org/artist/6888f5f8-67d3-4cf1-b804-9420344a3bae\"}],\"@id\":\"http://musicbrainz.org/release-group/2d24de2b-e4df-4f11-a648-cb2568e8d37f\",\"name\":\"The Adventures of Tom Sawyer\",\"creditedTo\":\"Mark Twain read by Nick Offerman\"},{\"@type\":\"MusicAlbum\",\"byArtist\":[{\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"@type\":[\"Person\",\"MusicGroup\"],\"@id\":\"http://musicbrainz.org/artist/38787cf5-6b38-4284-9cd9-cf658c1dcc9c\",\"name\":\"Udo Wachtveitl\"}],\"@id\":\"http://musicbrainz.org/release-group/dd295f28-bd37-4242-859d-18b7b6009a6f\",\"name\":\"Tom Sawyer\",\"creditedTo\":\"Mark Twain gelesen von Udo Wachtveitl\"},{\"byArtist\":{\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"@type\":[\"Person\",\"MusicGroup\"],\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},\"@type\":\"MusicAlbum\",\"name\":\"Tom Sawyer\",\"@id\":\"http://musicbrainz.org/release-group/d1e46a01-7e93-3bfe-b986-2f6299919a42\",\"creditedTo\":\"Mark Twain\"},{\"byArtist\":{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\",\"@type\":[\"Person\",\"MusicGroup\"]},\"@type\":\"MusicAlbum\",\"name\":\"Tom Sawyer, Detective\",\"@id\":\"http://musicbrainz.org/release-group/d781307f-c890-3b7b-8e49-53f8959f92d3\",\"creditedTo\":\"Mark Twain\"},{\"creditedTo\":\"Mark Twain\",\"name\":\"Tom Sawyer und Huckleberry Finn: Folge 1\",\"@id\":\"http://musicbrainz.org/release-group/836c43bb-c134-4924-b22b-b7d2dcfc8d0a\",\"byArtist\":{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@type\":[\"Person\",\"MusicGroup\"],\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\"},\"@type\":\"MusicAlbum\"},{\"name\":\"Tom Sawyer und Huckleberry Finn: Folge 2\",\"@id\":\"http://musicbrainz.org/release-group/86042563-bb6c-47ae-a9da-af7effa305c1\",\"byArtist\":{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@type\":[\"Person\",\"MusicGroup\"],\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\"},\"@type\":\"MusicAlbum\",\"creditedTo\":\"Mark Twain\"},{\"creditedTo\":\"Mark Twain\",\"@type\":\"MusicAlbum\",\"byArtist\":{\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\",\"@type\":[\"Person\",\"MusicGroup\"],\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},\"@id\":\"http://musicbrainz.org/release-group/2b78a3f4-5f15-48df-bfb1-a48d8b81743f\",\"name\":\"Die Abenteuer des Huckleberry Finn\"},{\"creditedTo\":\"Mark Twain gelesen von Peter Lustig\",\"@id\":\"http://musicbrainz.org/release-group/41688971-39b8-4f29-a63a-0716720f6007\",\"name\":\"Die Abenteuer des Tom Sawyer\",\"@type\":\"MusicAlbum\",\"byArtist\":[{\"name\":\"Mark Twain\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"@type\":[\"Person\",\"MusicGroup\"],\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\"},{\"name\":\"Peter Lustig\",\"@id\":\"http://musicbrainz.org/artist/e77630d2-20db-48ac-852d-87124088aaa1\",\"@type\":[\"Person\",\"MusicGroup\"]}]},{\"creditedTo\":\"Mark Twain\",\"@type\":\"MusicAlbum\",\"byArtist\":{\"sameAs\":\"http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502\",\"@id\":\"http://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433\",\"name\":\"Mark Twain\",\"@type\":[\"Person\",\"MusicGroup\"]},\"@id\":\"http://musicbrainz.org/release-group/598e6b7e-26fa-416f-9817-9a41e497adf4\",\"name\":\"Tom Sawyers Abentüür\"}],\"@type\":[\"Person\",\"MusicGroup\"],\"birthPlace\":{\"name\":\"Monroe County\",\"@id\":\"http://musicbrainz.org/area/079b04ff-50c6-4c30-a88b-1d3b813182aa\",\"@type\":\"AdministrativeArea\",\"containedIn\":{\"@type\":\"AdministrativeArea\",\"@id\":\"http://musicbrainz.org/area/1462269e-911b-4db3-be41-434393484e34\",\"name\":\"Missouri\",\"containedIn\":{\"@type\":\"Country\",\"name\":\"United States\",\"@id\":\"http://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98\"}}},\"alternateName\":[\"Samuel Clemens\"],\"location\":{\"@type\":\"Country\",\"name\":\"United States\",\"@id\":\"http://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98\"},\"birthDate\":\"1835-11-30\",\"deathPlace\":{\"containedIn\":{\"containedIn\":{\"@type\":\"Country\",\"@id\":\"http://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98\",\"name\":\"United States\"},\"@id\":\"http://musicbrainz.org/area/88772016-5866-496a-8de7-4340e922d663\",\"name\":\"Connecticut\",\"@type\":\"AdministrativeArea\"},\"name\":\"Redding\",\"@id\":\"http://musicbrainz.org/area/9871b7d6-f165-4e47-986c-bf385413a6bd\",\"@type\":\"City\"}}"
+   }
+  ],
+  "data_scripts": [
+   {
+    "type": "application/json",
+    "id": null,
+    "src": null,
+    "length": 117
+   },
+   {
+    "type": "application/json",
+    "id": null,
+    "src": null,
+    "length": 109
+   },
+   {
+    "type": "application/json",
+    "id": null,
+    "src": null,
+    "length": 179
+   }
+  ],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "viewport",
+    "content": "width=device-width, initial-scale=1"
+   },
+   {
+    "key": "msapplication-TileColor",
+    "content": "#f1f1f1"
+   },
+   {
+    "key": "msapplication-TileImage",
+    "content": "/static/images/favicons/mstile-144x144.png"
+   },
+   {
+    "key": "theme-color",
+    "content": "#ffffff"
+   },
+   {
+    "key": "description",
+    "content": "Samuel Clemens; US writer, humorist, entrepreneur, publisher & lecturer, Type: Person, Gender: Male, Born: 1835-11-30 in Monroe County, Died: 1910-04-21 in Redding, Area: United States"
+   }
+  ],
+  "machine_links": [
+   {
+    "tag": "a",
+    "href": "https://musicbrainz.org/doc/MusicBrainz_API",
+    "text": "MusicBrainz API",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   }
+  ],
+  "xhr_requests": [
+   {
+    "url": "https://o4508558300676097.ingest.de.sentry.io/api/4509277087465552/envelope/?sentry_key=66ce4ddac265405f4bb80b23b4952c66&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.119.2",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://static.metabrainz.org/MB/header-logo-1f7dc2a.svg",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/search-52f8034.svg",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/filter-a7c3d16.png",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/listenbrainz-02d5163.png",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/common/MB/Control/Menu-852e163.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/artist/index-2fc9d9d.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/common/ratings-c4bfc2c.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/common/banner-2adf154.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/icons-f602321.css",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/whatwg-fetch-197920e.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/public-path-002ebc3.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/common-aaaf2ca.css",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/common/jquery-global-d51ec2f.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/runtime-2308af0.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/common/sentry-acbd425.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/common-chunks-77c2659.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://static.metabrainz.org/MB/vendors-7d35b8b.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://musicbrainz.org/static/scripts/supported-browser-check.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://musicbrainz.org/static/images/favicons/site.webmanifest",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/plain",
+    "bytes": null
+   },
+   {
+    "url": "https://o4508558300676097.ingest.de.sentry.io/api/4509277087465552/envelope/?sentry_key=66ce4ddac265405f4bb80b23b4952c66&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.119.2",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://musicbrainz.org/favicon.ico",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/x-icon",
+    "bytes": null
+   }
+  ],
+  "third_party_hosts": {
+   "static.metabrainz.org": 17,
+   "o4508558300676097.ingest.de.sentry.io": 1
+  },
+  "scripts": [
+   "https://static.metabrainz.org/MB/common/MB/Control/Menu-852e163.js",
+   "https://static.metabrainz.org/MB/artist/index-2fc9d9d.js",
+   "https://static.metabrainz.org/MB/common/ratings-c4bfc2c.js",
+   "https://static.metabrainz.org/MB/common/banner-2adf154.js",
+   "https://static.metabrainz.org/MB/public-path-002ebc3.js",
+   "https://static.metabrainz.org/MB/runtime-2308af0.js",
+   "https://static.metabrainz.org/MB/whatwg-fetch-197920e.js",
+   "https://static.metabrainz.org/MB/vendors-7d35b8b.js",
+   "https://static.metabrainz.org/MB/common-chunks-77c2659.js",
+   "https://static.metabrainz.org/MB/common/jquery-global-d51ec2f.js",
+   "https://static.metabrainz.org/MB/common/sentry-acbd425.js",
+   "https://musicbrainz.org/static/scripts/supported-browser-check.js"
+  ],
+  "iframes": [],
+  "forms": [
+   {
+    "action": "https://musicbrainz.org/search",
+    "method": "get",
+    "id": null
+   },
+   {
+    "action": "https://musicbrainz.org/release_group/merge_queue?returnto=%2Fartist%2F4d584c99-249e-493f-8c5f-d022bd8de433",
+    "method": "post",
+    "id": null
+   }
+  ],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [
+    "log in",
+    "subscription",
+    "subscribe"
+   ],
+   "not_found_words": []
+  },
+  "text_length": 4363,
+  "html_length": 59431
+ }
+}

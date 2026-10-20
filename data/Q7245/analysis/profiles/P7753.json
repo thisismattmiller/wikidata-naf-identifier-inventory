@@ -1,0 +1,1477 @@
+{
+ "property": "P7753",
+ "property_label": "Projekt Gutenberg-DE author ID",
+ "files": [
+  {
+   "file": "P7753__twain/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://projekt-gutenberg.org/authors/mark-twain/"
+  },
+  {
+   "file": "P7753__twain/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://projekt-gutenberg.org/authors/mark-twain/"
+  },
+  {
+   "file": "P7753__twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://projekt-gutenberg.org/authors/mark-twain/"
+  },
+  {
+   "file": "P7753__twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://projekt-gutenberg.org/authors/mark-twain/"
+  },
+  {
+   "file": "P7753__twain/alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://projekt-gutenberg.org/feed/"
+  },
+  {
+   "file": "P7753__twain/alternate_2.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://projekt-gutenberg.org/comments/feed/"
+  },
+  {
+   "file": "P7753__twain/alternate_3.json",
+   "format": "json",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://projekt-gutenberg.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fprojekt-gutenberg.org%2Fepubs-auf-einem-lesegeraet-speichern%2F"
+  },
+  {
+   "file": "P7753__twain/alternate_4.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://projekt-gutenberg.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fprojekt-gutenberg.org%2Fepubs-auf-einem-lesegeraet-speichern%2F&format=xml"
+  },
+  {
+   "file": "P7753__twain/alternate_5.json",
+   "format": "json",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://projekt-gutenberg.org/wp-json/wp/v2/pages/2549"
+  },
+  {
+   "file": "P7753__twain/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://projekt-gutenberg.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P7753__twain/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://projekt-gutenberg.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "feed": 2,
+  "json": 2,
+  "html": 2,
+  "text": 1
+ },
+ "vocabularies": {
+  "https://ogp.me/ns#": 13,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 2,
+  "https://api.w.org/": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value page heading",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Sein eigentlicher Name ist Samuel Langhorne Clemens'",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "de",
+    "via": "llm-page:bio",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "de",
+    "via": "llm-page:bio",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Missouri)",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Connecticut)",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "New York",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Philadelphia",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Lotse auf dem Mississippi'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Hawaii",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Europa und Palästina",
+    "lang": "de",
+    "via": "llm-page:bio",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Schriftsetzer",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Lotse",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Silbersucher",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Reporter",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Verleger",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain wurde am 30.11.1835 in Florida (Missouri) geboren. Sein eigentlicher Name ist Samuel Langhorne Clemens. Der Vater starb 1847 und Twain mußte im Alter von zwölf Jahren die Schule abbrechen und begann eine Lehre als Schriftsetzer.",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value first paragraph",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain wurde am 30.11.1835 in Florida (Missouri) geboren. Sein eigentlicher Name ist Samuel Langhorne Clemens. Der Vater starb 1847 und Twain mußte im Alter von zwölf Jahren die Schule abbrechen und begann eine Lehre als Schriftsetzer. Mit 17 Jahren ging er nach New York, dann nach Philadelphia, wo er die ersten Reiseskizzen schrieb. Von 1857 bis 1860 war er Lotse auf dem Mississippi, nahm am Sezessionskrieg auf der Seite der Konföderierten teil ...",
+    "lang": "de",
+    "via": "llm-page:bio",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Die Arglosen im Ausland",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Werke u.a.'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Die Abenteuer Tom Sawyers",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Werke u.a.'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Prinz und Bettelknabe",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Werke u.a.'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Leben auf dem Mississippi",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Werke u.a.'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Abenteuer und Fahrten des Huckleberry Finn",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Werke u.a.'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Ein Yankee am Hofe des König Artus",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Werke u.a.'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Querkopf Wilson",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Werke u.a.'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Besuch eines Interviewers",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Eine grausame, fürchterliche Liebesgeschichte aus dem Mittelalter",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Eine Pferdegeschichte",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Tom der kleine Detektiv",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Prinz und Bettler",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Auszüge aus Adams Tagebuch",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Bummel durch Europa",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Der amerikanische Prätendent",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Deutsche Geschichten",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Die 1000000 Pfundnote und andere humoristische Erzählungen und Skizzen.",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Die Geschichte eines Invaliden",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Die Schrecken der deutschen Sprache",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Eine Hundegeschichte",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Erzählung eines Hundes",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Karneval des Verbrechens in Connecticut",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Skizzenbuch",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Von Adam bis Vanderbilt",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finns Abenteuer und Fahrten",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abenteuer",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abenteuer und Streiche",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Im Gold- und Silberland",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Leben auf dem Mississippi / Nach dem fernen Westen",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Meine Reise um die Welt. Erste Abteilung",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Meine Reise um die Welt – Zweite Abteilung",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Unterwegs und Daheim",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Eine skurrile Autobiografie",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Short Stories",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value 'Im Projekt Gutenberg vorhanden'",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Die Arglosen im Ausland",
+    "lang": null,
+    "via": "llm-page:Werke u.a.",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Die Abenteuer Tom Sawyers",
+    "lang": null,
+    "via": "llm-page:Werke u.a.",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Prinz und Bettelknabe",
+    "lang": null,
+    "via": "llm-page:Werke u.a.",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Leben auf dem Mississippi",
+    "lang": null,
+    "via": "llm-page:Werke u.a.",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Abenteuer und Fahrten des Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Werke u.a.",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Ein Yankee am Hofe des König Artus",
+    "lang": null,
+    "via": "llm-page:Werke u.a.",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Querkopf Wilson",
+    "lang": null,
+    "via": "llm-page:Werke u.a. / Belletristik",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Besuch eines Interviewers",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Eine grausame, fürchterliche Liebesgeschichte aus dem Mittelalter",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Eine Pferdegeschichte",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Tom der kleine Detektiv",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Prinz und Bettler",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Auszüge aus Adams Tagebuch",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Bummel durch Europa",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Der amerikanische Prätendent",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Deutsche Geschichten",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Die 1000000 Pfundnote und andere humoristische Erzählungen und Skizzen",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Die Geschichte eines Invaliden",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Die Schrecken der deutschen Sprache",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Eine Hundegeschichte",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Erzählung eines Hundes",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Karneval des Verbrechens in Connecticut",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Skizzenbuch",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Von Adam bis Vanderbilt",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finns Abenteuer und Fahrten",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abenteuer",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abenteuer und Streiche",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Im Gold- und Silberland",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Leben auf dem Mississippi / Nach dem fernen Westen",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Meine Reise um die Welt",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Unterwegs und Daheim",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Eine skurrile Autobiografie",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Short Stories",
+    "lang": null,
+    "via": "llm-page:Im Projekt Gutenberg vorhanden",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Jeannette Schneider",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Andrej Neifeld",
+    "lang": "de",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Jeannette Schneider (German translator of Eine Hundegeschichte)",
+    "lang": null,
+    "via": "llm-page:title list",
+    "file": "P7753.json",
+    "uri": false
+   },
+   {
+    "value": "Andrej Neifeld (German translator of Erzählung eines Hundes)",
+    "lang": null,
+    "via": "llm-page:title list",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "de",
+    "via": "llm-page:bio",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "de",
+    "via": "llm-page:bio",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "twain",
+    "lang": null,
+    "via": "llm-page:page URL https://www.projekt-gutenberg.org/autoren/namen/twain.html",
+    "file": "P7753.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "de"
+  ],
+  "name_variant": [
+   "de"
+  ],
+  "birth_date": [
+   "de"
+  ],
+  "death_date": [
+   "de"
+  ],
+  "birth_place": [
+   "de"
+  ],
+  "death_place": [
+   "de"
+  ],
+  "activity_place": [
+   "de"
+  ],
+  "occupation": [
+   "de"
+  ],
+  "description": [
+   "de"
+  ],
+  "work": [
+   "de",
+   "en"
+  ],
+  "related_agent": [
+   "de"
+  ],
+  "given_name": [
+   "de"
+  ],
+  "family_name": [
+   "de"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2,
+  "(no node about the entity in this file)": 1,
+  "https://api.w.org/ (https://api.w.org/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 4095,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].value",
+     "n": 3,
+     "sample": "Zum Inhalt springen\nMenü\nMenü\n\nBibliothek\n\nAlle Titel\nGenres\nMeistgelesen\nNeu in der Bibliothek\nGedruckte Klassiker\nEPUB"
+    },
+    {
+     "path": "[].@type",
+     "n": 3,
+     "sample": "WebPage"
+    },
+    {
+     "path": "[].@context",
+     "n": 3,
+     "sample": "https://schema.org"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].value",
+     "value": "Zum Inhalt springen\nMenü\nMenü\n\nBibliothek\n\nAlle Titel\nGenres\nMeistgelesen\nNeu in der Bibliothek\nGedruckte Klassiker\nEPUBs auf einem Lesegerät speichern\n\nAutoren\n\nAlle Autoren\nAutorenkalender\n\nÜber das"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 698,
+   "path_count": 14,
+   "paths": [
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "de_DE"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "EPUBs auf einem Lesegerät speichern - Projekt Gutenberg"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "E-Books"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/epubs-auf-einem-lesegeraet-speichern/"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Projekt Gutenberg"
+    },
+    {
+     "path": "[].og:updated_time",
+     "n": 1,
+     "sample": "2026-06-17T14:16:42+00:00"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-content/uploads/2026/06/Epub_logo_color.png"
+    },
+    {
+     "path": "[].og:image:secure_url",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-content/uploads/2026/06/Epub_logo_color.png"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "600"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "800"
+    },
+    {
+     "path": "[].og:image:alt",
+     "n": 1,
+     "sample": "Logo EPUB"
+    },
+    {
+     "path": "[].og:image:type",
+     "n": 1,
+     "sample": "image/png"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 30176,
+   "path_count": 30,
+   "paths": [
+    {
+     "path": "rss/channel/item",
+     "n": 7,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/title",
+     "n": 7,
+     "sample": "EPUBs, erweiterte Suche und fehlende Bücher"
+    },
+    {
+     "path": "rss/channel/item/link",
+     "n": 7,
+     "sample": "https://projekt-gutenberg.org/epubs-erweiterte-suche-und-fehlende-buecher/"
+    },
+    {
+     "path": "rss/channel/item/creator",
+     "n": 7,
+     "sample": "Sandra"
+    },
+    {
+     "path": "rss/channel/item/pubDate",
+     "n": 7,
+     "sample": "Wed, 17 Jun 2026 11:21:24 +0000"
+    },
+    {
+     "path": "rss/channel/item/category",
+     "n": 7,
+     "sample": "Features"
+    },
+    {
+     "path": "rss/channel/item/guid",
+     "n": 7,
+     "sample": "https://projekt-gutenberg.org/?p=2525"
+    },
+    {
+     "path": "rss/channel/item/guid@isPermaLink",
+     "n": 7,
+     "sample": "false"
+    },
+    {
+     "path": "rss/channel/item/description",
+     "n": 7,
+     "sample": "Seitdem wir Projekt Gutenberg Anfang 2026 übernommen haben, haben wir viel Lob erhalten. Allerdings wurde auch Kritik ge"
+    },
+    {
+     "path": "rss/channel/item/encoded",
+     "n": 7,
+     "sample": "<div class=\"gb-element-2e213bb8\">\n<p class=\"gb-text\">Seitdem wir Projekt Gutenberg Anfang 2026 übernommen haben, haben w"
+    },
+    {
+     "path": "rss/channel/link",
+     "n": 2,
+     "sample": "https://projekt-gutenberg.org"
+    },
+    {
+     "path": "rss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss@version",
+     "n": 1,
+     "sample": "2.0"
+    },
+    {
+     "path": "rss/channel",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/title",
+     "n": 1,
+     "sample": "Projekt Gutenberg"
+    },
+    {
+     "path": "rss/channel/link@href",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/feed/"
+    },
+    {
+     "path": "rss/channel/link@rel",
+     "n": 1,
+     "sample": "self"
+    },
+    {
+     "path": "rss/channel/link@type",
+     "n": 1,
+     "sample": "application/rss+xml"
+    },
+    {
+     "path": "rss/channel/description",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/lastBuildDate",
+     "n": 1,
+     "sample": "Wed, 17 Jun 2026 14:33:54 +0000"
+    },
+    {
+     "path": "rss/channel/language",
+     "n": 1,
+     "sample": "de"
+    },
+    {
+     "path": "rss/channel/updatePeriod",
+     "n": 1,
+     "sample": "hourly"
+    },
+    {
+     "path": "rss/channel/updateFrequency",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "rss/channel/generator",
+     "n": 1,
+     "sample": "https://wordpress.org/?v=7.1.2"
+    },
+    {
+     "path": "rss/channel/image",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/image/url",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-content/uploads/2026/01/cropped-Projekt-Gutenberg-Favicon-32x32.webp"
+    },
+    {
+     "path": "rss/channel/image/title",
+     "n": 1,
+     "sample": "Projekt Gutenberg"
+    },
+    {
+     "path": "rss/channel/image/link",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org"
+    },
+    {
+     "path": "rss/channel/image/width",
+     "n": 1,
+     "sample": "32"
+    },
+    {
+     "path": "rss/channel/image/height",
+     "n": 1,
+     "sample": "32"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "rss"
+   ]
+  },
+  {
+   "file": "alternate_2.xml",
+   "format": "xml",
+   "size": 734,
+   "path_count": 13,
+   "paths": [
+    {
+     "path": "rss/channel/link",
+     "n": 2,
+     "sample": "https://projekt-gutenberg.org"
+    },
+    {
+     "path": "rss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss@version",
+     "n": 1,
+     "sample": "2.0"
+    },
+    {
+     "path": "rss/channel",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/title",
+     "n": 1,
+     "sample": "Kommentare auf Projekt Gutenberg"
+    },
+    {
+     "path": "rss/channel/link@href",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/comments/feed/"
+    },
+    {
+     "path": "rss/channel/link@rel",
+     "n": 1,
+     "sample": "self"
+    },
+    {
+     "path": "rss/channel/link@type",
+     "n": 1,
+     "sample": "application/rss+xml"
+    },
+    {
+     "path": "rss/channel/description",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/lastBuildDate",
+     "n": 1,
+     "sample": "Wed, 17 Jun 2026 14:33:54 +0000"
+    },
+    {
+     "path": "rss/channel/updatePeriod",
+     "n": 1,
+     "sample": "hourly"
+    },
+    {
+     "path": "rss/channel/updateFrequency",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "rss/channel/generator",
+     "n": 1,
+     "sample": "https://wordpress.org/?v=7.1.2"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "rss"
+   ]
+  },
+  {
+   "file": "alternate_3.json",
+   "format": "json",
+   "size": 2326,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "version",
+     "n": 1,
+     "sample": "1.0"
+    },
+    {
+     "path": "provider_name",
+     "n": 1,
+     "sample": "Projekt Gutenberg"
+    },
+    {
+     "path": "provider_url",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org"
+    },
+    {
+     "path": "author_name",
+     "n": 1,
+     "sample": "Sandra"
+    },
+    {
+     "path": "author_url",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/author/sandra/"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "EPUBs auf einem Lesegerät speichern"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "rich"
+    },
+    {
+     "path": "width",
+     "n": 1,
+     "sample": "600"
+    },
+    {
+     "path": "height",
+     "n": 1,
+     "sample": "338"
+    },
+    {
+     "path": "html",
+     "n": 1,
+     "sample": "<blockquote class=\"wp-embedded-content\" data-secret=\"zqY0KIFCI8\"><a href=\"https://projekt-gutenberg.org/epubs-auf-einem-"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "alternate_5.json",
+   "format": "json",
+   "size": 7025,
+   "path_count": 40,
+   "paths": [
+    {
+     "path": "class_list[]",
+     "n": 5,
+     "sample": "post-2549"
+    },
+    {
+     "path": "id",
+     "n": 1,
+     "sample": "2549"
+    },
+    {
+     "path": "date",
+     "n": 1,
+     "sample": "2026-06-17T12:09:07"
+    },
+    {
+     "path": "date_gmt",
+     "n": 1,
+     "sample": "2026-06-17T12:09:07"
+    },
+    {
+     "path": "guid.rendered",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/?page_id=2549"
+    },
+    {
+     "path": "modified",
+     "n": 1,
+     "sample": "2026-06-17T14:16:42"
+    },
+    {
+     "path": "modified_gmt",
+     "n": 1,
+     "sample": "2026-06-17T14:16:42"
+    },
+    {
+     "path": "slug",
+     "n": 1,
+     "sample": "epubs-auf-einem-lesegeraet-speichern"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "publish"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "page"
+    },
+    {
+     "path": "link",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/epubs-auf-einem-lesegeraet-speichern/"
+    },
+    {
+     "path": "title.rendered",
+     "n": 1,
+     "sample": "EPUBs auf einem Lesegerät speichern"
+    },
+    {
+     "path": "content.rendered",
+     "n": 1,
+     "sample": "\n<div class=\"gbp-section\">\n<div class=\"gbp-section__inner gb-element-d49f4a64\">\n<div class=\"gb-element-d1fad11e\">\n<p cla"
+    },
+    {
+     "path": "content.protected",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "excerpt.rendered",
+     "n": 1,
+     "sample": "<p>E-Books EPUBs auf einem Lesegerät speichern Jedes Buch bei Projekt Gutenberg steht auch als EPUB-Download bereit. Es "
+    },
+    {
+     "path": "excerpt.protected",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "author",
+     "n": 1,
+     "sample": "2"
+    },
+    {
+     "path": "featured_media",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "parent",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "menu_order",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "comment_status",
+     "n": 1,
+     "sample": "closed"
+    },
+    {
+     "path": "ping_status",
+     "n": 1,
+     "sample": "closed"
+    },
+    {
+     "path": "template",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "meta.footnotes",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "_links.self[].href",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-json/wp/v2/pages/2549"
+    },
+    {
+     "path": "_links.self[].targetHints.allow[]",
+     "n": 1,
+     "sample": "GET"
+    },
+    {
+     "path": "_links.collection[].href",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-json/wp/v2/pages"
+    },
+    {
+     "path": "_links.about[].href",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-json/wp/v2/types/page"
+    },
+    {
+     "path": "_links.author[].embeddable",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "_links.author[].href",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-json/wp/v2/users/2"
+    },
+    {
+     "path": "_links.replies[].embeddable",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "_links.replies[].href",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-json/wp/v2/comments?post=2549"
+    },
+    {
+     "path": "_links.version-history[].count",
+     "n": 1,
+     "sample": "50"
+    },
+    {
+     "path": "_links.version-history[].href",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-json/wp/v2/pages/2549/revisions"
+    },
+    {
+     "path": "_links.predecessor-version[].id",
+     "n": 1,
+     "sample": "2628"
+    },
+    {
+     "path": "_links.predecessor-version[].href",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-json/wp/v2/pages/2549/revisions/2628"
+    },
+    {
+     "path": "_links.wp:attachment[].href",
+     "n": 1,
+     "sample": "https://projekt-gutenberg.org/wp-json/wp/v2/media?parent=2549"
+    },
+    {
+     "path": "_links.curies[].name",
+     "n": 1,
+     "sample": "wp"
+    },
+    {
+     "path": "_links.curies[].href",
+     "n": 1,
+     "sample": "https://api.w.org/{rel}"
+    },
+    {
+     "path": "_links.curies[].templated",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  }
+ ],
+ "llm_notes": "Projekt Gutenberg-DE author page: short German biography, a 'Werke u.a.' list with original and German publication years, and 29 German texts held in the project grouped by genre (capped here at 40 distinct titles total). Names two translators.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

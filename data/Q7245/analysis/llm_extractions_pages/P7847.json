@@ -1,0 +1,35 @@
+{
+ "property": "P7847",
+ "label": "DigitaltMuseum ID",
+ "files_read": ["pages/P7847__0210315745803.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "DigitaltMuseum person record mirroring the KulturNav/Musikverket authority (same UUID): names, lifespan, gender, birth/death places, same-as links and dataset metadata. Name parts are oddly split as in KulturNav.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "sv", "raw": "Twain, Mark (1835 - 1910)", "via": "heading / NAME"}],
+  "name_variant": [{"value": "Mark Twain", "lang": "sv", "via": "ALTERNATIVE NAME"}],
+  "given_name": [{"value": "Samuel Mark", "lang": "sv", "via": "FIRST NAME"}],
+  "family_name": [{"value": "Langhorne Clemens Twain", "lang": "sv", "via": "LAST NAME"}],
+  "birth_date": [{"value": "1835", "raw": "Födelse: 1835", "lang": "sv", "via": "History / LIFESPAN"}],
+  "death_date": [{"value": "1910", "raw": "Död: 1910", "lang": "sv", "via": "History / LIFESPAN"}],
+  "birth_place": [{"value": "Florida", "lang": "sv", "via": "History, Födelse"}],
+  "death_place": [{"value": "Redding", "lang": "sv", "via": "History, Död"}],
+  "gender": [{"value": "Man", "lang": "en", "via": "GENDER"}],
+  "occupation": [{"value": "författare", "lang": "sv", "via": "ABOUT 'amerikansk författare'"}],
+  "nationality": [{"value": "amerikansk", "lang": "sv", "via": "ABOUT"}],
+  "description": [{"value": "amerikansk författare", "lang": "sv", "via": "ABOUT"}],
+  "same_as": [
+   {"value": "https://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38", "via": "AUTHORITY"},
+   {"value": "https://libris.kb.se/1zcfb5hk1bq7d78", "via": "References"},
+   {"value": "http://viaf.org/viaf/50566653", "via": "References"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "References"}
+  ],
+  "identifier": [
+   {"value": "0210315745803", "via": "page URL"},
+   {"value": "3e04abfe-5825-41af-ac3d-23a5ea3aba38", "via": "UUID / References https://digitaltmuseum.org/3e04abfe-..."}
+  ],
+  "source": [{"value": "Personer, Musikverket (Statens musikverk)", "via": "PART OF DATASET / OWNER OF DATASET"}],
+  "record_created": [{"value": "2025-12-08", "raw": "December 8, 2025", "via": "DATE PUBLISHED"}],
+  "record_modified": [{"value": "2026-09-29", "raw": "September 29, 2026", "via": "DATE UPDATED"}]
+ }
+}

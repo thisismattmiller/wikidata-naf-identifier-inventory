@@ -1,0 +1,667 @@
+{
+ "property": "P13183",
+ "property_label": "JudaicaLink person (GND) ID",
+ "files": [
+  {
+   "file": "P13183__118624822/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.jewishstudies.de/en/judaicalink/data/html/gnd/118624822"
+  },
+  {
+   "file": "P13183__118624822/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "http://data.judaicalink.org/data/ep/1025705"
+  },
+  {
+   "file": "P13183__118624822/export_2.ttl",
+   "format": "turtle",
+   "kind": "export",
+   "via": "http",
+   "url": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "file": "P13183__118624822/conneg_1.jsonld",
+   "format": "json-ld",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.judaicalink.org/data/gnd/118624822"
+  },
+  {
+   "file": "P13183__118624822/conneg_2.ttl",
+   "format": "turtle",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.judaicalink.org/data/gnd/118624822"
+  },
+  {
+   "file": "P13183__118624822/conneg_3.rdf",
+   "format": "rdf-xml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.judaicalink.org/data/gnd/118624822"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 1,
+  "turtle": 2,
+  "json-ld": 1,
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/2004/02/skos/core#": 99,
+  "http://www.w3.org/2002/07/owl#": 45,
+  "http://data.judaicalink.org/ontology/": 15,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 3,
+  "http://d-nb.info/standards/elementset/gnd#": 3,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://xmlns.com/foaf/0.1/Person",
+    "lang": null,
+    "via": "type",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "118624822",
+    "lang": null,
+    "via": "gndIdentifier",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "1025705",
+    "lang": null,
+    "via": "llm-page:JudaicaLink internal link",
+    "file": "P13183.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "birthDate",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "deathDate",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://hub.culturegraph.org/entityfacts/118624822",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://www.deutsche-digitale-bibliothek.de/entity/118624822",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://www.filmportal.de/person/5DF2180863F84E09B51D8C5DE7832A91",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://kalliope-verbund.info/gnd/118624822",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://d-nb.info/gnd/118624822/about",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/n79021164",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://catalogue.bnf.fr/ark:/12148/cb11927291n",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://de.wikisource.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://www.isni.org/0000000121324854",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://dbpedia.org/resource/Mark_Twain",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://de.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "BnF cb11927291n",
+    "lang": null,
+    "via": "llm-page:Owl Same As",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "LC n79021164",
+    "lang": null,
+    "via": "llm-page:Owl Same As",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "VIAF 50566653",
+    "lang": null,
+    "via": "llm-page:Owl Same As",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "ISNI 0000000121324854",
+    "lang": null,
+    "via": "llm-page:Owl Same As",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Wikidata Q7245",
+    "lang": null,
+    "via": "llm-page:Owl Same As",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "5 D F2180863 F84 E09 B51…",
+    "lang": null,
+    "via": "llm-page:Owl Same As",
+    "file": "P13183.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Ma ke Tu wen",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twėn",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Towein, Māku",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tven, M.",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tvēns, Marks",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Touein, Maku",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twens, Marks",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tvénas, Morkas",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marc",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "T`u-wen, Ma-k`o",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tuein, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tvein, Marḳ",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twėn, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tvėn, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twen, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Ṭvena, Marka",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tvenas, Markas",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Make-Tuwen",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Touein, Māku",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tewin, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Ṭṿain, Marḳ",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Tvens, M.",
+    "lang": null,
+    "via": "altLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twėn",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Touein, Māku",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Towein, Māku",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Tvein, Marḳ",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Tvénas, Morkas",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Tvēns, Marks",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Tvėn, Mark",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Twėn, Mark",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Ṭvena, Marka",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Ṭṿain, Marḳ",
+    "lang": null,
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк",
+    "lang": "ru",
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק",
+    "lang": "he",
+    "via": "llm-page:Core Alt Label",
+    "file": "P13183.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "prefLabel",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Mo.",
+    "lang": null,
+    "via": "llm-page:Birth Location row",
+    "file": "P13183.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Conn.",
+    "lang": null,
+    "via": "llm-page:Death Location row",
+    "file": "P13183.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "gnd",
+    "lang": null,
+    "via": "llm-page:Label column for all rows",
+    "file": "P13183.json",
+    "uri": false
+   },
+   {
+    "value": "FID Portal",
+    "lang": null,
+    "via": "llm-page:Creator line",
+    "file": "P13183.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Unknown",
+    "lang": null,
+    "via": "llm-page:License line (image)",
+    "file": "P13183.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "identifier": [],
+  "birth_date": [],
+  "death_date": [],
+  "same_as": [],
+  "name_variant": [
+   "he",
+   "ru"
+  ],
+  "name_preferred": [],
+  "birth_place": [],
+  "death_place": [],
+  "source": [],
+  "license": []
+ },
+ "unmapped": {
+  "birthLocation (http://data.judaicalink.org/ontology/)": 3,
+  "birthYear (http://data.judaicalink.org/ontology/)": 3,
+  "deathLocation (http://data.judaicalink.org/ontology/)": 3,
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "JudaicaLink rendering of the GND record for Twain, Mark: birth/death years and places, owl:sameAs list (rendered as truncated labels, not full URIs) and 32 alternative labels in many scripts.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

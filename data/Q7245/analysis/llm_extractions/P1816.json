@@ -1,0 +1,52 @@
+{
+ "property": "P1816",
+ "label": "National Portrait Gallery (London) person ID",
+ "files_read": [
+  "P1816__mp54578/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph metadata from the NPG person page; og:description is just 'Writer'. URL slug reads 'mark-twain-samuel-langhorne-clemens'.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "raw": "Mark Twain - National Portrait Gallery",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:title"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Writer",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "description": [
+   {
+    "value": "Writer",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "image": [
+   {
+    "value": "https://collectionimages.npg.org.uk/std/mw35538/Mark-Twain.jpg",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:image"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mp54578",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url"
+   },
+   {
+    "value": "https://www.npg.org.uk/collections/search/person/mp54578/mark-twain-samuel-langhorne-clemens",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url"
+   }
+  ]
+ }
+}

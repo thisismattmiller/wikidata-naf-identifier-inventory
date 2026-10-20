@@ -1,0 +1,39 @@
+{
+ "property": "P3553",
+ "label": "Zhihu topic ID",
+ "files_read": ["P3553__19802601/embedded_microdata.json"],
+ "about_entity": true,
+ "notes": "schema.org Thing microdata for the Zhihu topic page '马克·吐温', with a Chinese biographical description (truncated with an ellipsis), image and Q&A counts.",
+ "elements": {
+  "name_preferred": [{"value": "马克·吐温", "lang": "zh", "via": "embedded_microdata.json: [0].name"}],
+  "name_variant": [
+   {"value": "Mark Twain", "lang": "en", "via": "embedded_microdata.json: [0].description ('英文名是Mark Twain')"},
+   {"value": "萨缪尔·兰亨·克莱门", "lang": "zh", "via": "embedded_microdata.json: [0].description ('原名萨缪尔·兰亨·克莱门')"},
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "embedded_microdata.json: [0].description ('英文名叫Samuel Langhorne Clemens')"}
+  ],
+  "birth_date": [{"value": "1835-11-30", "raw": "1835年11月30日", "lang": "zh", "via": "embedded_microdata.json: [0].description"}],
+  "death_date": [{"value": "1910-04-21", "raw": "1910年4月21日", "lang": "zh", "via": "embedded_microdata.json: [0].description"}],
+  "gender": [{"value": "male", "raw": "男", "lang": "zh", "via": "embedded_microdata.json: [0].description"}],
+  "nationality": [{"value": "美国人", "lang": "zh", "via": "embedded_microdata.json: [0].description"}],
+  "occupation": [
+   {"value": "作家", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "演说家", "lang": "zh", "via": "embedded_microdata.json: [0].description"}
+  ],
+  "description": [{"value": "马克·吐温，男，美国人，英文名是Mark Twain，生于1835年11月30日，死于1910年4月21日 ，原名萨缪尔·兰亨·克莱门，英文名叫Samuel Langhorne Clemens，作家、演说家。主要作品有《傻瓜国外旅行记》、《竞选州长》、《艰难历程》、《镀金时代》、《汤姆·索亚历险记》、《卡拉维拉斯郡著名的跳蛙》、《康涅狄格最近的狂欢节上的罪行纪实》、《国外旅游记》、《王子与乞丐》、《哈克贝利·费恩历险记》、《密西西比河上的生活》…", "lang": "zh", "via": "embedded_microdata.json: [0].description"}],
+  "work": [
+   {"value": "傻瓜国外旅行记", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "竞选州长", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "艰难历程", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "镀金时代", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "汤姆·索亚历险记", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "卡拉维拉斯郡著名的跳蛙", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "康涅狄格最近的狂欢节上的罪行纪实", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "国外旅游记", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "王子与乞丐", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "哈克贝利·费恩历险记", "lang": "zh", "via": "embedded_microdata.json: [0].description"},
+   {"value": "密西西比河上的生活", "lang": "zh", "via": "embedded_microdata.json: [0].description"}
+  ],
+  "identifier": [{"value": "19802601", "via": "embedded_microdata.json: [0].url (https://www.zhihu.com/topic/19802601)"}],
+  "image": [{"value": "https://picx.zhimg.com/v2-47d85fe31df4fa572ebdb4ebe7c1f1da_qhd.jpg?source=57bbeac9", "via": "embedded_microdata.json: [0].image"}]
+ }
+}

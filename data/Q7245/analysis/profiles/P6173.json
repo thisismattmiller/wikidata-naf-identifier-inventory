@@ -1,0 +1,193 @@
+{
+ "property": "P6173",
+ "property_label": "Bitraga author ID",
+ "files": [
+  {
+   "file": "P6173__246/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bitraga.webs.uvigo.es/bibliotraducion/style.css"
+  },
+  {
+   "file": "P6173__246/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://bitraga.webs.uvigo.es/bibliotraducion/autores_ver.php?autor=246"
+  },
+  {
+   "file": "P6173__246/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://bitraga.webs.uvigo.es/bibliotraducion/style.css"
+  }
+ ],
+ "formats": {
+  "unknown": 2,
+  "text": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "gl",
+    "via": "llm-page:Nome / Apelidos rows",
+    "file": "P6173.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": "gl",
+    "via": "llm-page:Nome row",
+    "file": "P6173.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": "gl",
+    "via": "llm-page:Apelidos row",
+    "file": "P6173.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samoel Langhoine Clemens",
+    "lang": "gl",
+    "via": "llm-page:Apelidos row '(pseudónimo de Samoel Langhoine Clemens)' (sic)",
+    "file": "P6173.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "A Connecticut yankee in King Arthur's court",
+    "lang": "en",
+    "via": "llm-page:Listaxe Monografías",
+    "file": "P6173.json",
+    "uri": false
+   },
+   {
+    "value": "A Double Barrelled Detective Story",
+    "lang": "en",
+    "via": "llm-page:Listaxe Monografías",
+    "file": "P6173.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:Listaxe Monografías",
+    "file": "P6173.json",
+    "uri": false
+   },
+   {
+    "value": "Eve's diary",
+    "lang": "en",
+    "via": "llm-page:Listaxe Monografías",
+    "file": "P6173.json",
+    "uri": false
+   },
+   {
+    "value": "Extracts from Adam's Diary. Translated from the original ms.",
+    "lang": "en",
+    "via": "llm-page:Listaxe Monografías",
+    "file": "P6173.json",
+    "uri": false
+   },
+   {
+    "value": "Letters from the earth",
+    "lang": "en",
+    "via": "llm-page:Listaxe Monografías",
+    "file": "P6173.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's short stories",
+    "lang": "en",
+    "via": "llm-page:Listaxe Monografías",
+    "file": "P6173.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Listaxe Monografías",
+    "file": "P6173.json",
+    "uri": false
+   },
+   {
+    "value": "The mysterious stranger",
+    "lang": "en",
+    "via": "llm-page:Listaxe Monografías",
+    "file": "P6173.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "Inglés - en",
+    "lang": "gl",
+    "via": "llm-page:Lingua column of works list",
+    "file": "P6173.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Estados Unidos de América",
+    "lang": "gl",
+    "via": "llm-page:Lingua column of works list",
+    "file": "P6173.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "246",
+    "lang": null,
+    "via": "llm-page:URL autores_ver.php?autor=246",
+    "file": "P6173.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "gl"
+  ],
+  "given_name": [
+   "gl"
+  ],
+  "family_name": [
+   "gl"
+  ],
+  "name_variant": [
+   "gl"
+  ],
+  "work": [
+   "en"
+  ],
+  "language": [
+   "gl"
+  ],
+  "activity_place": [
+   "gl"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Bitraga (Galician translation library) author record 246: name fields (with a misspelt real name 'Samoel Langhoine Clemens'), empty biography fields, and a list of original monographs with genre, language and year; the translations list is empty in the text.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

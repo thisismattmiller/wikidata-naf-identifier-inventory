@@ -1,0 +1,107 @@
+{
+ "property": "P7902",
+ "property_label": "Deutsche Biographie (GND) ID",
+ "files": [
+  {
+   "file": "P7902__118624822/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.deutsche-biographie.de/118624822.html"
+  },
+  {
+   "file": "P7902__118624822/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "http://www.gateway-bayern.de/opensearch?rfr_id=LinkedOpenData%3ABeacon&rft.au=%28DE-588%29118624822"
+  },
+  {
+   "file": "P7902__118624822/export_2.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.jdg-online.de/api/beacon/118624822"
+  },
+  {
+   "file": "P7902__118624822/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://www.jdg-online.de/api/beacon/118624822"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 3
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 6,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "de",
+    "via": "llm-page:page heading",
+    "file": "P7902.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Mark",
+    "lang": "de",
+    "via": "llm-page:Namensvarianten",
+    "file": "P7902.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://www.deutsche-biographie.de/gnd118624822.html",
+    "lang": null,
+    "via": "llm-page:Zitierweise citation URL",
+    "file": "P7902.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "118624822",
+    "lang": null,
+    "via": "llm-page:Normdaten",
+    "file": "P7902.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Vernetzte Angebote: Filmportal; Personen im Wien Geschichte Wiki; Blue Mountain; Kalliope-Verbund; Archivportal-D; Deutsches Literaturarchiv Marbach - Kallías; EGO European History Online; Trierer Porträtdatenbank; Simplicissimus Personenliste; DKA; BVB; BSB; Deutsche Digitale Bibliothek; SWB; OBV; GBV; Isis Bibliography; IfZ München; musiconn; FID Darstellende Kunst; IxTheo; Jahresberichte für deutsche Geschichte; BHL; National Portrait Gallery; Digiporta; Bildarchiv im Bundesarchiv",
+    "lang": "de",
+    "via": "llm-page:Vernetzte Angebote list (labels only)",
+    "file": "P7902.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "de"
+  ],
+  "name_variant": [
+   "de"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "source": [
+   "de"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "A Deutsche Biographie index entry for Twain, Mark (GND 118624822). It has no NDB/ADB article and states 'keine Angaben zu Lebensdaten', meaning no life dates are given. The page mainly offers a GND link and a long list of networked resources, such as Filmportal, Kalliope and the National Portrait Gallery, shown as labels without URLs.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

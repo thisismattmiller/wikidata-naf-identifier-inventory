@@ -1,0 +1,49 @@
+{
+ "property": "P268",
+ "label": "Bibliothèque nationale de France ID",
+ "files_read": ["pages/P268__11927291n.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "BnF catalogue général person authority 'Twain, Mark (1835-1910) pseudonyme' in public format: country, language, sex, birth/death with places, short note, rejected form, sources (incl. LC link), ISNI, ark and creation/update dates; 823 linked records as author, 245 as subject.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark (1835-1910)", "raw": "Twain, Mark (1835-1910) pseudonyme forme internationale", "lang": "fr", "via": "notice heading"}],
+  "name_variant": [
+   {"value": "Twain, Marc (1835-1910)", "raw": "< Twain, Marc (1835-1910) pseudonyme", "lang": "fr", "via": "Forme(s) rejetée(s)"},
+   {"value": "Samuel Langhorne Clemens", "lang": "fr", "via": "note 'Pseudonyme de Samuel Langhorne Clemens'"}
+  ],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "fr", "via": "note"}],
+  "family_name": [{"value": "Clemens", "lang": "fr", "via": "note"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "fr", "via": "heading flagged 'pseudonyme'; note"}],
+  "birth_date": [{"value": "1835-11-30", "lang": null, "via": "Naissance"}],
+  "death_date": [{"value": "1910-04-21", "lang": null, "via": "Mort"}],
+  "birth_place": [{"value": "Florida (Missouri, États-Unis)", "lang": "fr", "via": "Naissance"}],
+  "death_place": [{"value": "Redding (Connecticut, États-Unis)", "lang": "fr", "via": "Mort"}],
+  "gender": [{"value": "male", "raw": "Masculin", "lang": "fr", "via": "Sexe"}],
+  "occupation": [
+   {"value": "Romancier", "lang": "fr", "via": "note"},
+   {"value": "journaliste", "lang": "fr", "via": "note"},
+   {"value": "humoriste", "lang": "fr", "via": "note"},
+   {"value": "Auteur", "raw": "Responsabilité(s) exercée(s) sur les documents : Auteur", "lang": "fr", "via": "Responsabilité(s) exercée(s)"}
+  ],
+  "nationality": [{"value": "États-Unis", "lang": "fr", "via": "Pays"}],
+  "language": [{"value": "anglais", "lang": "fr", "via": "Langue(s)"}],
+  "description": [{"value": "Romancier, journaliste et humoriste. - Pseudonyme de Samuel Langhorne Clemens.", "lang": "fr", "via": "note"}],
+  "work": [{"value": "À la dure", "raw": "trad. Henri Motheré, version abrégée Anna Solal, 1979", "lang": "fr", "via": "Source(s)"}],
+  "same_as": [
+   {"value": "https://id.loc.gov/authorities/names/n79021164.html", "via": "Source(s) LC Authorities (2025-09-30)"},
+   {"value": "http://isni.org/isni/0000000121324854", "via": "Identifiant international de l'autorité (ISNI 0000 0001 2132 4854)"}
+  ],
+  "identifier": [
+   {"value": "ark:/12148/cb11927291n", "via": "Identifiant de la notice"},
+   {"value": "FRBNF11927291", "via": "Notice n°"}
+  ],
+  "source": [
+   {"value": "À la dure / Mark Twain ; traduit de l'américain par Henri Motheré ..., 1979", "lang": "fr", "via": "Source(s)"},
+   {"value": "LC Authorities : https://id.loc.gov/authorities/names/n79021164.html (2025-09-30)", "lang": "fr", "via": "Source(s)"},
+   {"value": "BN Cat. gén. : Twain (Samuel Langhorne Clemens, dit Mark)", "lang": "fr", "via": "Source(s)"},
+   {"value": "BN Cat. gén. 1960-1969 : Twain (Mark), pseud. de Samuel Langhorne Clemens", "lang": "fr", "via": "Source(s)"}
+  ],
+  "record_created": [{"value": "1976-04-08", "raw": "Création : 76/04/08", "lang": null, "via": "record footer"}],
+  "record_modified": [{"value": "2025-09-30", "raw": "Mise à jour : 25/09/30", "lang": null, "via": "record footer"}]
+ }
+}

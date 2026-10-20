@@ -1,0 +1,285 @@
+{
+ "property": "P9171",
+ "label": "RILM ID",
+ "files_read": [
+  "P9171__1598/conneg_3.json"
+ ],
+ "about_entity": true,
+ "notes": "VIAF's MARC21 copy (as JSON) of the RILM authority record NYNYRILM|1598, headed 'Clemens, Samuel Langhorne (Mark Twain)' with EDTF dates, death place, nationality and occupation. 9xx fields are VIAF enrichments: 998 = VIAF cluster member records (listed in same_as as SOURCE|id, not URIs; excluded LC n 82045653 'Twain, Mark (Spirit)', and mis-clustered NKC jx20050822002 Olivia Langdon Clemens / PLWABN Karłowicz), 996 = records VIAF kept in other clusters (not used), 910/912 = title strings VIAF derived from linked bibliographic records (used as work). VIAF 998 here also links pseudonym records (Snodgrass, Quintus Curtius; Conte, Louis de) of the same person. 370 $b with no $a is read as death place (Redding).",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Clemens, Samuel Langhorne (Mark Twain)",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][3] (tag 100 $a)"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][6] (tag 400 $a)"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "18351130",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][2] (tag 046 $f)"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "19100421",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][2] (tag 046 $g)"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, United States",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][4] (tag 370 $b)"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American (US)",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][4] (tag 370 $c)"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][5] (tag 374 $a)"
+   }
+  ],
+  "work": [
+   {
+    "value": "The prince and the pauper",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][10] (tag 993 $t)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1598",
+    "raw": "(NYNYRILM)1598",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][0] (tag 035 $a)"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-04-29T00:12:05",
+    "raw": "20250429001205",
+    "via": "conneg_3.json: controlfield 005"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "raw": "50566653 ($2 viaf)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][1] (tag 024 $a)"
+   },
+   {
+    "value": "BAV|495_17911",
+    "raw": "Snodgrass, Quintus Curtius,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][22] (tag 998 $2)"
+   },
+   {
+    "value": "BAV|495_17910",
+    "raw": "Clemens, Samuel Langhorne,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][23] (tag 998 $2)"
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][24] (tag 998 $2)"
+   },
+   {
+    "value": "SUDOC|027171876",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][25] (tag 998 $2)"
+   },
+   {
+    "value": "LC|n  93099439",
+    "raw": "Clemens, Samuel Langhorne,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][26] (tag 998 $2)"
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][27] (tag 998 $2)"
+   },
+   {
+    "value": "NLA|000035028957",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][28] (tag 998 $2)"
+   },
+   {
+    "value": "PTBNP|46269",
+    "raw": "Twain, Mark, pseud.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][29] (tag 998 $2)"
+   },
+   {
+    "value": "BNF|11927291",
+    "raw": "Twain Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][30] (tag 998 $2)"
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][31] (tag 998 $2)"
+   },
+   {
+    "value": "DBC|87097969041957",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][32] (tag 998 $2)"
+   },
+   {
+    "value": "RERO|A000164542",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][33] (tag 998 $2)"
+   },
+   {
+    "value": "BAV|495_17909",
+    "raw": "De Conte, Louis,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][34] (tag 998 $2)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "raw": "Twain M.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][35] (tag 998 $2)"
+   },
+   {
+    "value": "SKMASNL|vtls005928524",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][36] (tag 998 $2)"
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][37] (tag 998 $2)"
+   },
+   {
+    "value": "W2Z|90056487",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][38] (tag 998 $2)"
+   },
+   {
+    "value": "CAOONL|ncf10128469",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][39] (tag 998 $2)"
+   },
+   {
+    "value": "WKP|Q7245",
+    "raw": "Mark Twain",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][40] (tag 998 $2)"
+   },
+   {
+    "value": "DBC|87097968223113",
+    "raw": "Conte, Louis de",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][41] (tag 998 $2)"
+   },
+   {
+    "value": "XA|2080",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][42] (tag 998 $2)"
+   },
+   {
+    "value": "NUKAT|n  94200767",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][43] (tag 998 $2)"
+   },
+   {
+    "value": "BAV|495_17908",
+    "raw": "Conte, Louis de,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][44] (tag 998 $2)"
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][45] (tag 998 $2)"
+   },
+   {
+    "value": "JPG|500020427",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][46] (tag 998 $2)"
+   },
+   {
+    "value": "DNB|118624822",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][47] (tag 998 $2)"
+   },
+   {
+    "value": "UAE|Mill_a10002910",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][48] (tag 998 $2)"
+   },
+   {
+    "value": "ARBABN|000024237",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][49] (tag 998 $2)"
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "raw": "Twain Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][50] (tag 998 $2)"
+   },
+   {
+    "value": "SELIBR|98057",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][51] (tag 998 $2)"
+   },
+   {
+    "value": "LNL|14733",
+    "raw": "توين، مارك،",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][52] (tag 998 $2)"
+   },
+   {
+    "value": "J9U|987007269289205171",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][53] (tag 998 $2)"
+   },
+   {
+    "value": "NDL|00459304",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][57] (tag 998 $2)"
+   },
+   {
+    "value": "SZ|118624822",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][58] (tag 998 $2)"
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][59] (tag 998 $2)"
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][60] (tag 998 $2)"
+   },
+   {
+    "value": "NTA|227880145",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][61] (tag 998 $2)"
+   },
+   {
+    "value": "NTA|068242956",
+    "raw": "Clemens, Samuel L.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][62] (tag 998 $2)"
+   },
+   {
+    "value": "LNB|LNC10-000075960",
+    "raw": "Clemens, Samuel Langhorne,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][63] (tag 998 $2)"
+   }
+  ]
+ }
+}

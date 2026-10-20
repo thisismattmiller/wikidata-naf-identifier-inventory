@@ -1,0 +1,754 @@
+{
+ "property": "P11449",
+ "property_label": "TV Maze person ID",
+ "files": [
+  {
+   "file": "P11449__193191/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.tvmaze.com/people/193191/mark-twain"
+  },
+  {
+   "file": "P11449__193191/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.tvmaze.com/people/193191/mark-twain"
+  },
+  {
+   "file": "P11449__193191/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.tvmaze.com/api"
+  },
+  {
+   "file": "P11449__193191/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.tvmaze.com/stats/view?model=person&id=193191"
+  },
+  {
+   "file": "P11449__193191/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://trends.revcontent.com/api/demand/?w=141812"
+  },
+  {
+   "file": "P11449__193191/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://trends.revcontent.com/api/delivery/?is_blocked=undefined&w=141812&width=1952&rev_allow_cookies=1&site_url=https%3A%2F%2Fwww.tvmaze.com%2Fpeople%2F193191%2Fmark-twain&icr_url=&va=0&time=1790979054479&up=pc&bn=chrome&bv=153&widget_width=1200&style_id=0&&an=false&ib=false"
+  },
+  {
+   "file": "P11449__193191/xhr_4.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxULdFUyp8o3HuBTpJHr38YTkVXdAoJ39gUanK2YL2XWHxDeMJRJqRLzNiimZTEeiyGYlMNr9w9UEeqsBJtWgAjW55UX1PSACua8tRsIL-FdzJ6bTJUfQwxWAwZp6yKtsWsa23E2hg=="
+  },
+  {
+   "file": "P11449__193191/xhr_5.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWg5bi5Kdp_X-NKdGGO5WsOB3B1F1zKo6S-VJJngBnvG-qUqEUiu7F8hXPvTD7599n17jb7oaV7DwWos16putn6o0gC90Pd7FWRtsEy2GMwKF66htZZ9dsaM494_3pVV8CBoGkvMA=="
+  },
+  {
+   "file": "P11449__193191/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20261001&st=env&sjk=3291333849091953"
+  },
+  {
+   "file": "P11449__193191/browser_xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxULdFUyp8o3HuBTpJHr38YTkVXdAoJ39gUanK2YL2XWHxDeMJRJqRLzNiimZTEeiyGYlMNr9w9UEeqsBJtWgAjW55UX1PSACua8tRsIL-FdzJ6bTJUfQwxWAwZp6yKtsWsa23E2hg=="
+  },
+  {
+   "file": "P11449__193191/browser_xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWg5bi5Kdp_X-NKdGGO5WsOB3B1F1zKo6S-VJJngBnvG-qUqEUiu7F8hXPvTD7599n17jb7oaV7DwWos16putn6o0gC90Pd7FWRtsEy2GMwKF66htZZ9dsaM494_3pVV8CBoGkvMA=="
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "rdfa": 1,
+  "html": 6,
+  "json": 3
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:title",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: [3].title (breadcrumb) and [0].value",
+    "file": "P11449.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://www.tvmaze.com/people/193191/mark-twain",
+    "lang": null,
+    "via": "json:url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: [0].value 'Also known as'",
+    "file": "P11449.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: [0].value 'Birthday: 1835-11-30'",
+    "file": "P11449.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Birthday",
+    "file": "P11449.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: [0].value 'Died: 1910-04-21'",
+    "file": "P11449.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Died",
+    "file": "P11449.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: [0].value 'Born in: United States'",
+    "file": "P11449.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: [0].value 'Gender: Male'",
+    "file": "P11449.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: [0].value 'Known For' / 'Crew Credits'",
+    "file": "P11449.json",
+    "uri": false
+   },
+   {
+    "value": "Приключения Тома Сойера и Гекльберри Финна",
+    "lang": "ru",
+    "via": "llm:embedded_microdata.json: [0].value 'Known For' / 'Crew Credits'",
+    "file": "P11449.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "193191",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: [3].url (https://www.tvmaze.com/people/193191/mark-twain)",
+    "file": "P11449.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "novelist (source material)",
+    "lang": "en",
+    "via": "llm-page:Crew Credits: 'Based on the Novel Of'",
+    "file": "P11449.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "see_also": [],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "gender": [
+   "en"
+  ],
+  "work": [
+   "en",
+   "ru"
+  ],
+  "identifier": [],
+  "occupation": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 2311,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 4,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@context",
+     "n": 4,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].url",
+     "n": 3,
+     "sample": "https://www.tvmaze.com/"
+    },
+    {
+     "path": "[].title",
+     "n": 3,
+     "sample": "Home"
+    },
+    {
+     "path": "[].value",
+     "n": 1,
+     "sample": "Login Register\nMenu\n\nShows\nPeople\nNetworks\nWeb Channels\nArticles\nSchedule\nCalendar\nCountdown\nForums\n\nHome\nPeople\nMark Tw"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].value",
+     "value": "Login Register\nMenu\n\nShows\nPeople\nNetworks\nWeb Channels\nArticles\nSchedule\nCalendar\nCountdown\nForums\n\nHome\nPeople\nMark Twain\n\nMark Twain\n\nMain\nGallery\nAKAs\n\nFollow Following\n\nWe don't have a biography "
+    },
+    {
+     "path": "[].title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].url",
+     "value": "https://www.tvmaze.com/people/193191/mark-twain"
+    }
+   ],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 1346,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "cm_urls[].id",
+     "n": 5,
+     "sample": "151"
+    },
+    {
+     "path": "cm_urls[].tag",
+     "n": 5,
+     "sample": "image"
+    },
+    {
+     "path": "cm_urls[].src",
+     "n": 5,
+     "sample": "https://ssp-sync.criteo.com/user-sync/redirect?profile=342&redir=https%3A%2F%2Ftrends.revcontent.com%2Fcm%2Fpixel_sync%3"
+    },
+    {
+     "path": "cm_urls[].retry",
+     "n": 5,
+     "sample": "False"
+    },
+    {
+     "path": "rev_allow_cookies",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "criteo_rtus",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "gpc_applies",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "src",
+    "tag"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 22063,
+   "path_count": 69,
+   "paths": [
+    {
+     "path": "items[].content_tags[]",
+     "n": 38,
+     "sample": "92"
+    },
+    {
+     "path": "items[].id",
+     "n": 8,
+     "sample": "15374879"
+    },
+    {
+     "path": "items[].headline",
+     "n": 8,
+     "sample": "Dermatologist: The 1 Vitamin You Need if You Have Wrinkled Skin"
+    },
+    {
+     "path": "items[].provider",
+     "n": 8,
+     "sample": "Beauty Digest"
+    },
+    {
+     "path": "items[].url",
+     "n": 8,
+     "sample": "https://smeagol.revcontent.com/v3/sorAujEeNGk4NfSHfsZ9ieMl7XQvshqFudi_fbXF593zxTT88wvDUBR6qTX2oNEH2le_CF2doEsRTy45QUvipt"
+    },
+    {
+     "path": "items[].type",
+     "n": 8,
+     "sample": "sponsored"
+    },
+    {
+     "path": "items[].custom_class",
+     "n": 8,
+     "sample": "fa fa-link"
+    },
+    {
+     "path": "items[].campaign_id",
+     "n": 8,
+     "sample": "2505371"
+    },
+    {
+     "path": "items[].advertiser_id",
+     "n": 8,
+     "sample": "200733"
+    },
+    {
+     "path": "items[].optimize_for",
+     "n": 8,
+     "sample": "cpc"
+    },
+    {
+     "path": "items[].ecpm",
+     "n": 8,
+     "sample": "5.129690900937873"
+    },
+    {
+     "path": "items[].image",
+     "n": 8,
+     "sample": "//img.revcontent.com/?url=https://media.revcontent.com/content/images/6abf2f006513e7-46936137.jpg&static=true"
+    },
+    {
+     "path": "items[].description",
+     "n": 8,
+     "sample": "Dermatologists are urging people over 50 to check their vitamin levels—here's why it matters for aging skin."
+    },
+    {
+     "path": "items[].hash",
+     "n": 8,
+     "sample": "ww_eyJ3aWRnZXRfaWQiOjE0MTgxMiwgInBvc2l0aW9uIjoxLCAiY29udGVudF90eXBlIjoic3BvbnNvcmVkIiwgImNvbnRlbnRfaWQiOjE1Mzc0ODc5fQ"
+    },
+    {
+     "path": "demand_settings.back_button_settings.pattern[]",
+     "n": 2,
+     "sample": "back-button"
+    },
+    {
+     "path": "demand_settings.back_button_settings.triggers.tab-return.devices[]",
+     "n": 2,
+     "sample": "mobile"
+    },
+    {
+     "path": "widget_type",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "pub_id",
+     "n": 1,
+     "sample": "72670"
+    },
+    {
+     "path": "direct_sell",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "imp_uuid",
+     "n": 1,
+     "sample": "56727406-02f6-4649-ba27-44d06f5fa318"
+    },
+    {
+     "path": "test_bucket",
+     "n": 1,
+     "sample": "A"
+    },
+    {
+     "path": "isp.name",
+     "n": 1,
+     "sample": "Verizon Fios"
+    },
+    {
+     "path": "isp.connection_type",
+     "n": 1,
+     "sample": "Cable/DSL"
+    },
+    {
+     "path": "isp.ip_address",
+     "n": 1,
+     "sample": "71.178.36.215"
+    },
+    {
+     "path": "detected_geo.city",
+     "n": 1,
+     "sample": "Washington"
+    },
+    {
+     "path": "detected_geo.state",
+     "n": 1,
+     "sample": "District of Columbia"
+    },
+    {
+     "path": "detected_geo.zip",
+     "n": 1,
+     "sample": "20002"
+    },
+    {
+     "path": "detected_geo.dma",
+     "n": 1,
+     "sample": "511"
+    },
+    {
+     "path": "ui_targeting.device",
+     "n": 1,
+     "sample": "phone"
+    },
+    {
+     "path": "ui_targeting.sub_device",
+     "n": 1,
+     "sample": "android"
+    },
+    {
+     "path": "ui_targeting.browser",
+     "n": 1,
+     "sample": "chrome"
+    },
+    {
+     "path": "widget_viewable",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "demand_settings.back_button_settings.enabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "demand_settings.back_button_settings.frequencyCap",
+     "n": 1,
+     "sample": "session"
+    },
+    {
+     "path": "demand_settings.back_button_settings.pub_api_key",
+     "n": 1,
+     "sample": "8139451ae8f41ef418ba60df42fd84cf4799c387"
+    },
+    {
+     "path": "demand_settings.back_button_settings.triggers.tab-return.duration",
+     "n": 1,
+     "sample": "1500"
+    },
+    {
+     "path": "demand_settings.back_button_settings.triggers.tab-return.persist",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "demand_settings.back_button_settings.triggers.tab-return.persistMaxAge",
+     "n": 1,
+     "sample": "3600000"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.bidfloors.floors.desktop",
+     "n": 1,
+     "sample": "0.03167420814479638"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.bidfloors.floors.desktop-US",
+     "n": 1,
+     "sample": "0.04818866509900147"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.bidfloors.floors.phone",
+     "n": 1,
+     "sample": "0.1282345040097973"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.bidfloors.floors.phone-US",
+     "n": 1,
+     "sample": "0.2017527503263099"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.bidfloors.floors.tablet",
+     "n": 1,
+     "sample": "0.2777952755905512"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.bidfloors.floors.tablet-US",
+     "n": 1,
+     "sample": "0.339753466872111"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.bidfloors.updated",
+     "n": 1,
+     "sample": "1790993483"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.rtb",
+     "n": 1,
+     "sample": "495,59686,18609,194173,199511,199275,200827"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.rtb_admin",
+     "n": 1,
+     "sample": "495,59686,18609,194173,199511,199275,200827"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.rtb_deal",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "demand_settings.rtbs_settings.rtb_max",
+     "n": 1,
+     "sample": "-1"
+    },
+    {
+     "path": "demand_settings.rtbs_settings.rtb_type",
+     "n": 1,
+     "sample": "native,banner"
+    },
+    {
+     "path": "show_provider",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "latitude",
+     "n": 1,
+     "sample": "38.9034"
+    },
+    {
+     "path": "longitude",
+     "n": 1,
+     "sample": "-76.9882"
+    },
+    {
+     "path": "device_class",
+     "n": 1,
+     "sample": "rc-g-p"
+    },
+    {
+     "path": "image_ratio",
+     "n": 1,
+     "sample": "1.5:1"
+    },
+    {
+     "path": "css",
+     "n": 1,
+     "sample": "@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');\n.rc-uid-141812 * h3{\n"
+    },
+    {
+     "path": "header",
+     "n": 1,
+     "sample": "Around The Web "
+    },
+    {
+     "path": "grid.rows",
+     "n": 1,
+     "sample": "8"
+    },
+    {
+     "path": "grid.columns",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "generic_token",
+     "n": 1,
+     "sample": "2Qn4tmWymBLaOBZT9Wn8Je4LI5IcTeww4dmm4hw2AzIGDLwai0NW6Hib8xNKJsedKYgShVtpML5uK6gqhdJSH0JLv6dm5YftQlWVYUM5BbI%3D"
+    },
+    {
+     "path": "original_load",
+     "n": 1,
+     "sample": "eyJzcG9uc29yZWQiOlsxNTM3NDg3OSwxNTM3MjI2MywxNTM1NTEyMywxNTM3NTUyNywxNDIxMDE3NywxNTM2MDQwOSwxNTM2NjkyMCwxNTM1ODczNl19"
+    },
+    {
+     "path": "view",
+     "n": 1,
+     "sample": "tpt73WBxmpWbwk5W0DOQJoKPGRJVLN5Hf%252FdCsOYu30IbvVnjxdbwzFQ9WoCOMt2F5c6KuebKaLow3BIFzA9VaI7vBiVg6q5gtUZLe2YdeS%252FJ1%25"
+    },
+    {
+     "path": "brand_position",
+     "n": 1,
+     "sample": "top_right"
+    },
+    {
+     "path": "brand_label",
+     "n": 1,
+     "sample": "Ads by Revcontent"
+    },
+    {
+     "path": "brand_logo",
+     "n": 1,
+     "sample": "https://cdn.revcontent.com/assets/img/full_color.png"
+    },
+    {
+     "path": "feed_split_style",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "imp_event_endpoint",
+     "n": 1,
+     "sample": "trends.revcontent.com/event/impression"
+    },
+    {
+     "path": "view_event_endpoint",
+     "n": 1,
+     "sample": "trends.revcontent.com/event/view"
+    },
+    {
+     "path": "connection_type",
+     "n": 1,
+     "sample": "Cable/DSL"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "css",
+    "dma",
+    "id",
+    "rtb",
+    "url",
+    "zip"
+   ]
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 17702,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "sodar_query_id",
+     "n": 1,
+     "sample": "CWfAaoCRLv6Au7YP3LDo8Qk"
+    },
+    {
+     "path": "injector_basename",
+     "n": 1,
+     "sample": "sodar2"
+    },
+    {
+     "path": "bg_hash_basename",
+     "n": 1,
+     "sample": "5zy86NbR8f54HHV5BxfElrR01oDK3KtpXmGPzuANPWw"
+    },
+    {
+     "path": "bg_binary",
+     "n": 1,
+     "sample": "woSbNYLLWEgo3//ZujiFpXClGdRcY1MLFJFtvkibGm3WfWq/5PzBnzamQdeG8g0etlzhCo4Ja0iCLWMn46tLsX7i8eRBKS1n+vt6H4b4usroH3KIYuQMic0m"
+    },
+    {
+     "path": "rc_enable",
+     "n": 1,
+     "sample": "y"
+    },
+    {
+     "path": "bg_snapshot_delay_ms",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "is_gen_204",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "TVmaze person page: gender, dates, birth country, AKA, and two crew credits as source-novel author (1982 Russian Tom Sawyer/Huck Finn series, 1976 The Prince and the Pauper). No biography. Ad block is chrome.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

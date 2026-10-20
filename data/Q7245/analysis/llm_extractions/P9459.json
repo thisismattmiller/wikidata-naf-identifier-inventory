@@ -1,0 +1,11 @@
+{
+ "property": "P9459",
+ "label": "Rekhta author ID",
+ "files_read": ["P9459__mark-twain/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the author's 'all writings' page. The title and description are templated text with the name inserted; og:image is the generic site logo. 'Urdu, Hindi & English' are the collection's languages, not his.",
+ "elements": {
+   "name_preferred": [{"value": "Mark Twain", "raw": "All writings of Mark Twain | Rekhta", "lang": null, "via": "embedded_opengraph.json: $[0]['og:title'] (name segment)"}],
+   "identifier": [{"value": "mark-twain", "raw": "https://www.rekhta.org/authors/mark-twain/all", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

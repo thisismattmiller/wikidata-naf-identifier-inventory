@@ -1,0 +1,43 @@
+{
+ "property": "P349",
+ "label": "NDL Authority ID",
+ "files_read": ["pages/P349__00459304.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Web NDL Authorities personal-name record for Twain, Mark, 1835-1910, with variant names (Japanese katakana forms and real name), dates, two works, LC/VIAF links, source and record dates, plus Wikidata/Wikipedia external links.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "lang": "en", "via": "Name / Title (xl:prefLabel)"}],
+  "name_variant": [
+   {"value": "トーウェン", "lang": "ja", "via": "Variant Name(s) (xl:altLabel)"},
+   {"value": "トゥエン, マーク", "lang": "ja", "via": "Variant Name(s) (xl:altLabel)"},
+   {"value": "トウェーン, マーク", "lang": "ja", "via": "Variant Name(s) (xl:altLabel)"},
+   {"value": "トウェイン, M", "lang": "ja", "via": "Variant Name(s) (xl:altLabel)"},
+   {"value": "トウェイン, マーク", "lang": "ja", "via": "Variant Name(s) (xl:altLabel)"},
+   {"value": "トウェン, マーク", "lang": "ja", "via": "Variant Name(s) (xl:altLabel)"},
+   {"value": "Clemens Samuel, Langhorne", "raw": "Clemens Samuel, Langhorne（本名）", "lang": "en", "via": "Variant Name(s) (xl:altLabel), marked 本名 (real name)"},
+   {"value": "マーク・トウェイン", "lang": "ja", "via": "External Link: Wikidata/Wikipedia label"}
+  ],
+  "birth_date": [{"value": "1835", "raw": "1835", "lang": null, "via": "Date of Birth (rda:dateOfBirth)"}],
+  "death_date": [{"value": "1910", "raw": "1910", "lang": null, "via": "Date of Death (rda:dateOfDeath)"}],
+  "work": [
+   {"value": "The adventures of Tom Sawyer", "lang": "en", "via": "Work(s) (is dct:creator of)"},
+   {"value": "Adventures of Huckleberry Finn", "lang": "en", "via": "Work(s) (is dct:creator of)"}
+  ],
+  "same_as": [
+   {"value": "http://id.loc.gov/authorities/names/n79021164", "raw": "n79021164 (LCNAME)", "via": "Related Links (skos:exactMatch)"},
+   {"value": "http://viaf.org/viaf/sourceID/NDL%7C00459304", "raw": "NDL|00459304 (VIAF)", "via": "Related Links (skos:exactMatch)"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "raw": "Wikidata: Q7245 (マーク・トウェイン)", "via": "External Link"},
+   {"value": "https://ja.wikipedia.org/wiki/マーク・トウェイン", "raw": "Wikipedia: マーク・トウェイン", "via": "External Link"}
+  ],
+  "identifier": [
+   {"value": "00459304", "via": "National Diet Library Authority ID row"},
+   {"value": "n79021164", "raw": "LCCN: n79021164", "via": "Sources"}
+  ],
+  "source": [
+   {"value": "ミシシッピー河上の生活", "lang": "ja", "via": "Sources (dct:source)"},
+   {"value": "LCCN: n79021164", "lang": null, "via": "Sources (dct:source)"}
+  ],
+  "record_created": [{"value": "1997-03-31", "via": "Date Created (dct:created)"}],
+  "record_modified": [{"value": "2025-11-18T10:05:16", "via": "Last Updated (dct:modified)"}]
+ }
+}

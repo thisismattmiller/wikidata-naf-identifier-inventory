@@ -1,0 +1,473 @@
+{
+ "property": "P5617",
+ "property_label": "Evene ID",
+ "files": [
+  {
+   "file": "P5617__mark-twain-544/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://evene.lefigaro.fr/celebre/biographie/mark-twain"
+  },
+  {
+   "file": "P5617__mark-twain-544/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://evene.lefigaro.fr/celebre/biographie/mark-twain"
+  },
+  {
+   "file": "P5617__mark-twain-544/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://evene.lefigaro.fr/celebre/biographie/mark-twain"
+  },
+  {
+   "file": "P5617__mark-twain-544/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://collector.appconsent.io/hello"
+  },
+  {
+   "file": "P5617__mark-twain-544/xhr_2.img",
+   "format": "image",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://collector.appconsent.io/t2.gif?a=86e15e67-fd78-41d3-b341-a1df1d334793&b=8a38ee19-ebc0-0411-4258-d6e339035a6e&n=display"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "unknown": 1,
+  "image": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 33,
+  "http://opengraphprotocol.org/schema/": 10,
+  "http://schema.org/": 9,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "llm-page:page heading",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "écrivain",
+    "lang": null,
+    "via": "jobTitle",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "écrivain",
+    "lang": "fr",
+    "via": "llm-page:Biographie / anecdote",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30T00:00:00+00:09",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "fr",
+    "via": "llm-page:Né le",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21T00:00:00+00:09",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "fr",
+    "via": "llm-page:Décédé le",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://evene.lefigaro.fr/celebre/biographie/mark-twain",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://i.f1g.fr/media/cms/1200x_cropupscale/2025/12/23/21d6417f861abd3f0beb10259d691b85cf29c94897619299d103667eb14de4b5.jpg",
+    "lang": null,
+    "via": "image/url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "https://evene.lefigaro.fr/celebre/biographie/mark-twain",
+    "lang": null,
+    "via": "mainEntityOfPage",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "La Célèbre Grenouille sauteuse de Calavéras",
+    "lang": "fr",
+    "via": "llm-page:Biographie",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "Les Innocents à l'étranger",
+    "lang": "fr",
+    "via": "llm-page:Biographie",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "Un vagabond à l'étranger",
+    "lang": "fr",
+    "via": "llm-page:Biographie",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "Les Aventures de Tom Sawyer",
+    "lang": "fr",
+    "via": "llm-page:Biographie",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "Les Aventures de Huckleberry Finn",
+    "lang": "fr",
+    "via": "llm-page:Biographie",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "autobiographie complète",
+    "lang": "fr",
+    "via": "llm-page:Chroniques et anecdotes",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Américaine",
+    "lang": null,
+    "via": "nationality",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Américaine",
+    "lang": "fr",
+    "via": "llm-page:Nationalité(s)",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "https://schema.org/Male",
+    "lang": null,
+    "via": "gender",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "fr",
+    "via": "llm-page:Biographie: 'naît Samuel Langhorne Clemens, dit Mark Twain'",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": "fr",
+    "via": "llm-page:Prénom usuel",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": "fr",
+    "via": "llm-page:Nom usuel",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "État du Missouri",
+    "lang": "fr",
+    "via": "llm-page:Biographie first sentence",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "C’est dans l’État du Missouri que naît Samuel Langhorne Clemens, dit Mark Twain. Suite à la mort de son père, quand il n’a encore que 11 ans, il commence à exercer divers métiers, tous en rapport avec le journalisme. Il voyage aussi beaucoup à travers les États-Unis, découvrant les paysages qui serviront plus tard de décor à ses œuvres. Pendant la guerre de Sécession, refusant de se battre pour le maintien de l'esclavage, il s'enfuit dans les montagnes de l'Ouest. À la fin du conflit, il entame ",
+    "lang": "fr",
+    "via": "llm-page:Biographie",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Clara (daughter)",
+    "lang": "fr",
+    "via": "llm-page:Biographie / anecdote",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "Ernest Hemingway (influenced)",
+    "lang": "fr",
+    "via": "llm-page:Biographie",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "T.S. Eliot (influenced)",
+    "lang": "fr",
+    "via": "llm-page:Biographie",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "Université de Berkeley (custodian of his archives)",
+    "lang": "fr",
+    "via": "llm-page:Chroniques et anecdotes",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dickens (personnalité liée)",
+    "lang": "fr",
+    "via": "llm-page:Personnalités liées",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "Robert Louis Stevenson (personnalité liée)",
+    "lang": "fr",
+    "via": "llm-page:Personnalités liées",
+    "file": "P5617.json",
+    "uri": false
+   },
+   {
+    "value": "Thomas Stearns Eliot (personnalité liée)",
+    "lang": "fr",
+    "via": "llm-page:Personnalités liées",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain-544",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P5617.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "fr"
+  ],
+  "occupation": [
+   "fr"
+  ],
+  "birth_date": [
+   "fr"
+  ],
+  "death_date": [
+   "fr"
+  ],
+  "see_also": [],
+  "work": [
+   "fr"
+  ],
+  "nationality": [
+   "fr"
+  ],
+  "gender": [],
+  "name_variant": [
+   "fr"
+  ],
+  "given_name": [
+   "fr"
+  ],
+  "family_name": [
+   "fr"
+  ],
+  "birth_place": [
+   "fr"
+  ],
+  "description": [
+   "fr"
+  ],
+  "related_agent": [
+   "fr"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2,
+  "image/caption (http://schema.org/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 793,
+   "path_count": 14,
+   "paths": [
+    {
+     "path": "[].article:tag",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].article:section",
+     "n": 1,
+     "sample": "Célébrités"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Découvrez les biographies, anecdotes et citations des plus grandes personnalités : écrivains, philosophes, peintres, fig"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "fr_FR"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Evene"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://evene.lefigaro.fr/celebre/biographie/mark-twain"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://i.f1g.fr/media/cms/1200x630_crop/2025/12/23/21d6417f861abd3f0beb10259d691b85cf29c94897619299d103667eb14de4b5.jpg"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "414"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "274"
+    },
+    {
+     "path": "[].og:image:alt",
+     "n": 1,
+     "sample": "544.jpg"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.article",
+     "n": 1,
+     "sample": "http://ogp.me/ns/article#"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].article:tag",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://evene.lefigaro.fr/celebre/biographie/mark-twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Evene (Le Figaro) celebrity page: name fields, life dates, nationality, a French biography, a 2010 anecdote about the autobiography, one quotation and three 'related personalities'.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

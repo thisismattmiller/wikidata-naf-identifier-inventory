@@ -1,0 +1,20 @@
+{
+ "property": "P14211",
+ "label": "Library of the University of Santiago de Compostela authority ID",
+ "files_read": ["P14211__981013404171207712/xhr_13.json"],
+ "about_entity": true,
+ "notes": "Primo (Ex Libris) PNX authority record from the USC catalogue: heading, see-from tracings and control ids. The first see-from form 'Langhorne Clemens, Samuel' is an inverted variant as given.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "lang": null, "via": "xhr_13.json: $.pnx.display.heading[0]"}],
+  "name_variant": [
+   {"value": "Langhorne Clemens, Samuel, -- 1835-1910", "lang": null, "via": "xhr_13.json: $.pnx.display.see_from_tracing[0]"},
+   {"value": "Clemens, Samuel Langhorne, -- 1835-1910", "lang": null, "via": "xhr_13.json: $.pnx.display.see_from_tracing[1]"}
+  ],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "xhr_13.json: $.pnx.display.heading[0]"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "xhr_13.json: $.pnx.display.heading[0]"}],
+  "identifier": [
+   {"value": "981013404171207712", "via": "xhr_13.json: $.pnx.control.recordid[0]; $.pnx.display.source_id"},
+   {"value": "00099889", "via": "xhr_13.json: $.pnx.control.originatingSystemId"}
+  ]
+ }
+}

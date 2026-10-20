@@ -1,0 +1,40 @@
+{
+ "property": "P9707",
+ "label": "GCD creator ID",
+ "files_read": ["pages/P9707__26390.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "The Grand Comics Database creator page for Mark Twain (b. 1835). It gives birth and death dates and places, typed name variants with given and family names, a Russian name, notes on a portrait and his honorary degrees, and creators who cite him as an influence. The external links are shown only as labels, with no URLs.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "heading / Name"}],
+  "name_variant": [
+   {"value": "Samuel Clemens", "lang": "en", "via": "Other Names (Common Alternative Name)"},
+   {"value": "Samuel L. Clemens", "lang": "en", "via": "Other Names (Common Alternative Name)"},
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "Other Names (Name at Birth)"},
+   {"value": "Марк Твен", "lang": "ru", "via": "Other Names"}
+  ],
+  "given_name": [
+   {"value": "Samuel", "lang": "en", "via": "Other Names"},
+   {"value": "Samuel L.", "lang": "en", "via": "Other Names"},
+   {"value": "Samuel Langhorne", "lang": "en", "via": "Other Names (Name at Birth)"}
+  ],
+  "family_name": [{"value": "Clemens", "lang": "en", "via": "Other Names"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "1835 November 30", "lang": null, "via": "Born"}],
+  "death_date": [{"value": "1910-04-21", "raw": "1910 April 21", "lang": null, "via": "Died"}],
+  "birth_place": [{"value": "Florida, Missouri, United States", "lang": "en", "via": "Born"}],
+  "death_place": [{"value": "Redding, Connecticut, United States", "lang": "en", "via": "Died"}],
+  "description": [{"value": "Portrait photograph taken by A. F. Bradley in New York, 1907. The Mark Twain Prize for American Humor, presented by The John F. Kennedy Center for the Performing Arts, was established in 1998. Twain was awarded an honorary Doctor of Letters (D.Litt.) by Yale University in 1901 and a Doctor of Law by the University of Missouri in 1902. Oxford University awarded him a Doctorate of Law in 1907.", "lang": "en", "via": "Notes"}],
+  "related_agent": [
+   {"value": "Jay Sanford (b. 1960) (influenced by Twain)", "via": "Art Influences"},
+   {"value": "Mark Worden (b. 1951) (influenced by Twain)", "via": "Art Influences"},
+   {"value": "A. F. Bradley (portrait photographer)", "via": "Notes"},
+   {"value": "Yale University (honorary D.Litt., 1901)", "via": "Notes"},
+   {"value": "University of Missouri (Doctor of Law, 1902)", "via": "Notes"},
+   {"value": "Oxford University (Doctorate of Law, 1907)", "via": "Notes"}
+  ],
+  "identifier": [{"value": "26390", "via": "page URL /creator/26390/"}],
+  "image": [{"value": "Portrait photograph taken by A. F. Bradley in New York, 1907", "via": "Notes"}],
+  "source": [{"value": "Internet Movie Database (IMDB), Internet Speculative Fiction Database, Wikipedia", "lang": "en", "via": "external links (labels only)"}],
+  "license": [{"value": "CC BY-SA 4.0", "via": "footer"}]
+ }
+}

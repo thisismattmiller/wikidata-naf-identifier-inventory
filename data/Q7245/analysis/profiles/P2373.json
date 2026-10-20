@@ -1,0 +1,1187 @@
+{
+ "property": "P2373",
+ "property_label": "Genius artist ID",
+ "files": [
+  {
+   "file": "P2373__Mark-twain/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://genius.com/artists/Mark-twain"
+  },
+  {
+   "file": "P2373__Mark-twain/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://genius.com/artists/Mark-twain"
+  },
+  {
+   "file": "P2373__Mark-twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://genius.com/artists/Mark-twain"
+  },
+  {
+   "file": "P2373__Mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://genius.com/artists/Mark-twain"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://sessions.bugsnag.com/"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ads.assemblyexchange.com/wana/bids/request?uid=b40068da-863b-4aa0-8c39-08f1fc99fb1f"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://genius.com/api/ab_tests"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://genius.com/api/videos?artist_id=37525&page=1"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://genius.com/api/artists/37525/leaderboard?page=1&per_page=10"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ads.assemblyexchange.com/doh/sync?uid=b40068da-863b-4aa0-8c39-08f1fc99fb1f&property_id=genius.com"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_7.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://id.hadron.ad.gt/v1/hadron.json?_it=amazon&partner_id=844&sync=0&domain=genius.com&url=https://genius.com/artists/Mark-twain&v=06"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_8.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://genius.com/guiver"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_9.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.permutive.app/v2.0/batch/events?enrich=false&sdkp=true&k=e0914ae8-e7eb-4390-855c-8349b32af414"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_10.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ups.analytics.yahoo.com/ups/58813/fed?gpp_sid=-1&v=1&url=https%3A%2F%2Fgenius.com%2Fartists%2FMark-twain"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_11.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://sync6.im-apps.net/9001/pid?ref=null&page=https://genius.com/artists/Mark-twain"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_14.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202609290101&st=env&sjk=8213667734509753"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_15.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://assets.bounceexchange.com/assets/gam/342026871/12e7459b170ff9088e103d0d49549e12.br.json"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_16.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://pd.cdnwidget.com/lookup?bxwid=5453&bxdid=4791875037556221432&visitID=1790976106858565&enableUID2=true"
+  },
+  {
+   "file": "P2373__Mark-twain/xhr_17.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.intentiq.com/profiles_engine/ProfilesEngineServlet?at=46&mi=10&dpi=725014980&pt=17&dpn=1&jsver=6.253&iiqidtype=2&iiqpcid=00635b01-58b4-b463-e7cf-1bfcfbeb7c53&iiqpciddate=1790976106991&jaesc=0&jafc=0&jaensc=1&iiqlocalstorageenabled=true&tsrnd=868_1790976106996&cttl=0&gdpr_consent=undefined&gdpr=0&requestRtt=0&lastDataUpdateDate=0&testGroup=A&japbjs=true&japs=false&vrref=https%3A%2F%2Fgenius.com%2Fartists%2FMark-twain"
+  },
+  {
+   "file": "P2373__Mark-twain/browser_xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://id.hadron.ad.gt/v1/hadron.json?_it=amazon&partner_id=844&sync=0&domain=genius.com&url=https://genius.com/artists/Mark-twain&v=06"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 12,
+  "unknown": 1,
+  "text": 3
+ },
+ "vocabularies": {
+  "https://dev.twitter.com/cards#": 7,
+  "http://ogp.me/ns#": 5,
+  "http://ogp.me/ns/fb#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:itemListElement.name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:P2373__Mark-twain/embedded_opengraph.json: $[0]['og:title']",
+    "file": "P2373.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Get all the lyrics to songs by Mark Twain and join the Genius community of music scholars to learn the meaning behind the lyrics.",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://images.genius.com/4a489e7d6d9e43f8c66ae8ff43d298f3.698x698x1.png",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Mark-twain",
+    "lang": null,
+    "via": "llm:P2373__Mark-twain/embedded_opengraph.json: $[0]['og:url']",
+    "file": "P2373.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:AKA line",
+    "file": "P2373.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Thomas Jefferson Snodgrass",
+    "lang": "en",
+    "via": "llm-page:AKA line",
+    "file": "P2373.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm-page:Popular albums",
+    "file": "P2373.json",
+    "uri": false
+   },
+   {
+    "value": "Hunting the Deceitful Turkey",
+    "lang": "en",
+    "via": "llm-page:Popular albums",
+    "file": "P2373.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:Popular albums",
+    "file": "P2373.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:Popular albums / songs",
+    "file": "P2373.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm-page:Popular albums",
+    "file": "P2373.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:Popular albums",
+    "file": "P2373.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Popular songs (Chap. 1)",
+    "file": "P2373.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "description": [],
+  "image": [],
+  "identifier": [],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 694,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "[].itemListElement[].@type",
+     "n": 3,
+     "sample": "ListItem"
+    },
+    {
+     "path": "[].itemListElement[].item",
+     "n": 3,
+     "sample": "https://genius.com/"
+    },
+    {
+     "path": "[].itemListElement[].name",
+     "n": 3,
+     "sample": "Home"
+    },
+    {
+     "path": "[].itemListElement[].position",
+     "n": 3,
+     "sample": "1"
+    },
+    {
+     "path": "[].@type",
+     "n": 2,
+     "sample": "BreadcrumbList"
+    },
+    {
+     "path": "[].@context",
+     "n": 2,
+     "sample": "https://schema.org"
+    },
+    {
+     "path": "[].itemListElement.@type",
+     "n": 1,
+     "sample": "ListItem"
+    },
+    {
+     "path": "[].itemListElement.item",
+     "n": 1,
+     "sample": "https://genius.com/artists"
+    },
+    {
+     "path": "[].itemListElement.name",
+     "n": 1,
+     "sample": "⇽ Back to List of Artists"
+    },
+    {
+     "path": "[].itemListElement.position",
+     "n": 1,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].itemListElement[].item",
+     "value": "https://genius.com/artists/Mark-twain"
+    },
+    {
+     "path": "[].itemListElement[].name",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 410,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Genius"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://genius.com/artists/Mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Get all the lyrics to songs by Mark Twain and join the Genius community of music scholars to learn the meaning behind th"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://images.genius.com/4a489e7d6d9e43f8c66ae8ff43d298f3.698x698x1.png"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:url",
+     "value": "https://genius.com/artists/Mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Get all the lyrics to songs by Mark Twain and join the Genius community of music scholars to learn the meaning behind the lyrics."
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 128,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "error"
+    },
+    {
+     "path": "errors[]",
+     "n": 1,
+     "sample": "Please POST to this URL. For documentation, see http://docs.bugsnagsessiontrackingapi.apiary.io/"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 39,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "invalid version string: "
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 50,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "meta.status",
+     "n": 1,
+     "sample": "200"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 27446,
+   "path_count": 65,
+   "paths": [
+    {
+     "path": "response.videos[].dfp_kv[].values[]",
+     "n": 110,
+     "sample": "5276795984001"
+    },
+    {
+     "path": "response.videos[].dfp_kv[].name",
+     "n": 70,
+     "sample": "brightcove_video_id"
+    },
+    {
+     "path": "response.videos[]._type",
+     "n": 10,
+     "sample": "video"
+    },
+    {
+     "path": "response.videos[].api_path",
+     "n": 10,
+     "sample": "/videos/7439"
+    },
+    {
+     "path": "response.videos[].article_url",
+     "n": 10,
+     "sample": "https://genius.com/a/how-kylie-jenners-snapchat-turns-songs-into-hits"
+    },
+    {
+     "path": "response.videos[].author_list_for_display",
+     "n": 10,
+     "sample": "Steven J. Horowitz"
+    },
+    {
+     "path": "response.videos[].dek",
+     "n": 10,
+     "sample": "Artists like 6LACK, Russ, NAV, Ella Mai, and Khalid have reaped the benefits. "
+    },
+    {
+     "path": "response.videos[].description",
+     "n": 10,
+     "sample": "Imagine sifting through an entire year’s worth of someone’s Snapchats—it’s mind-numbingly mundane. A long perusal throug"
+    },
+    {
+     "path": "response.videos[].duration",
+     "n": 10,
+     "sample": "129323"
+    },
+    {
+     "path": "response.videos[].id",
+     "n": 10,
+     "sample": "7439"
+    },
+    {
+     "path": "response.videos[].poster_attributes.height",
+     "n": 10,
+     "sample": "720"
+    },
+    {
+     "path": "response.videos[].poster_attributes.width",
+     "n": 10,
+     "sample": "1280"
+    },
+    {
+     "path": "response.videos[].poster_url",
+     "n": 10,
+     "sample": "https://images.genius.com/ce741d3234aa428566f507c826db96aa.1000x563x1.jpg"
+    },
+    {
+     "path": "response.videos[].provider",
+     "n": 10,
+     "sample": "brightcove"
+    },
+    {
+     "path": "response.videos[].provider_id",
+     "n": 10,
+     "sample": "5276795984001"
+    },
+    {
+     "path": "response.videos[].provider_params[].name",
+     "n": 10,
+     "sample": "policy_key"
+    },
+    {
+     "path": "response.videos[].provider_params[].value",
+     "n": 10,
+     "sample": "BCpkADawqM1Yf2IElyF6jfI5WI9Q_UAa8Lz3mmqoN0btQzu-1LWMaRV4q6Tm7Fzh1LrovZfmf6rHqYXe_OdkLc9eTQiNrj2s_4t_gA0KfeiNKhrqNmRPrfQj"
+    },
+    {
+     "path": "response.videos[].short_title",
+     "n": 10,
+     "sample": "How Kylie Jenner’s Snapchat Helps Artists Blow Up Overnight"
+    },
+    {
+     "path": "response.videos[].title",
+     "n": 10,
+     "sample": "How Kylie Jenner’s Snapchat Turns Songs Into Hits"
+    },
+    {
+     "path": "response.videos[].type",
+     "n": 10,
+     "sample": "video"
+    },
+    {
+     "path": "response.videos[].url",
+     "n": 10,
+     "sample": "https://genius.com/videos/How-kylie-jenner-s-snapchat-helps-artists-blow-up-overnight"
+    },
+    {
+     "path": "response.videos[].video_attributes.width",
+     "n": 10,
+     "sample": "1280"
+    },
+    {
+     "path": "response.videos[].video_attributes.height",
+     "n": 10,
+     "sample": "720"
+    },
+    {
+     "path": "response.videos[].current_user_metadata.excluded_permissions[]",
+     "n": 10,
+     "sample": "view_relevance_reason"
+    },
+    {
+     "path": "response.videos[].published_at",
+     "n": 10,
+     "sample": "1484068320"
+    },
+    {
+     "path": "response.videos[].relevance",
+     "n": 10,
+     "sample": "low"
+    },
+    {
+     "path": "response.videos[].view_count",
+     "n": 10,
+     "sample": "3083718"
+    },
+    {
+     "path": "response.videos[].author._type",
+     "n": 8,
+     "sample": "user"
+    },
+    {
+     "path": "response.videos[].author.about_me_summary",
+     "n": 8,
+     "sample": "Get all the lyrics to songs by Steven J. Horowitz and join the Genius community of music scholars to learn the meaning b"
+    },
+    {
+     "path": "response.videos[].author.api_path",
+     "n": 8,
+     "sample": "/users/3098420"
+    },
+    {
+     "path": "response.videos[].author.avatar.tiny.url",
+     "n": 8,
+     "sample": "https://images.rapgenius.com/avatars/tiny/1d13512c95d590a97921dcd68e4fa8ce"
+    },
+    {
+     "path": "response.videos[].author.avatar.tiny.bounding_box.width",
+     "n": 8,
+     "sample": "16"
+    },
+    {
+     "path": "response.videos[].author.avatar.tiny.bounding_box.height",
+     "n": 8,
+     "sample": "16"
+    },
+    {
+     "path": "response.videos[].author.avatar.thumb.url",
+     "n": 8,
+     "sample": "https://images.rapgenius.com/avatars/thumb/1d13512c95d590a97921dcd68e4fa8ce"
+    },
+    {
+     "path": "response.videos[].author.avatar.thumb.bounding_box.width",
+     "n": 8,
+     "sample": "32"
+    },
+    {
+     "path": "response.videos[].author.avatar.thumb.bounding_box.height",
+     "n": 8,
+     "sample": "32"
+    },
+    {
+     "path": "response.videos[].author.avatar.small.url",
+     "n": 8,
+     "sample": "https://images.rapgenius.com/avatars/small/1d13512c95d590a97921dcd68e4fa8ce"
+    },
+    {
+     "path": "response.videos[].author.avatar.small.bounding_box.width",
+     "n": 8,
+     "sample": "100"
+    },
+    {
+     "path": "response.videos[].author.avatar.small.bounding_box.height",
+     "n": 8,
+     "sample": "100"
+    },
+    {
+     "path": "response.videos[].author.avatar.medium.url",
+     "n": 8,
+     "sample": "https://images.rapgenius.com/avatars/medium/1d13512c95d590a97921dcd68e4fa8ce"
+    },
+    {
+     "path": "response.videos[].author.avatar.medium.bounding_box.width",
+     "n": 8,
+     "sample": "300"
+    },
+    {
+     "path": "response.videos[].author.avatar.medium.bounding_box.height",
+     "n": 8,
+     "sample": "400"
+    },
+    {
+     "path": "response.videos[].author.header_image_url",
+     "n": 8,
+     "sample": "https://assets.genius.com/images/default_banner.png"
+    },
+    {
+     "path": "response.videos[].author.human_readable_role_for_display",
+     "n": 8,
+     "sample": "Verified Artist"
+    },
+    {
+     "path": "response.videos[].author.id",
+     "n": 8,
+     "sample": "3098420"
+    },
+    {
+     "path": "response.videos[].author.iq",
+     "n": 8,
+     "sample": "1808"
+    },
+    {
+     "path": "response.videos[].author.is_meme_verified",
+     "n": 8,
+     "sample": "False"
+    },
+    {
+     "path": "response.videos[].author.is_verified",
+     "n": 8,
+     "sample": "True"
+    },
+    {
+     "path": "response.videos[].author.login",
+     "n": 8,
+     "sample": "speriod"
+    },
+    {
+     "path": "response.videos[].author.name",
+     "n": 8,
+     "sample": "Steven J. Horowitz"
+    },
+    {
+     "path": "response.videos[].author.role_for_display",
+     "n": 8,
+     "sample": "verified_artist"
+    },
+    {
+     "path": "response.videos[].author.url",
+     "n": 8,
+     "sample": "https://genius.com/speriod"
+    },
+    {
+     "path": "response.videos[].author.current_user_metadata.excluded_permissions[]",
+     "n": 8,
+     "sample": "follow"
+    },
+    {
+     "path": "response.videos[].author.current_user_metadata.interactions.following",
+     "n": 8,
+     "sample": "False"
+    },
+    {
+     "path": "response.videos[].sponsorship._type",
+     "n": 8,
+     "sample": "article"
+    },
+    {
+     "path": "response.videos[].sponsorship.api_path",
+     "n": 8,
+     "sample": "/articles/1353"
+    },
+    {
+     "path": "response.videos[].sponsorship.sponsor_image",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "response.videos[].sponsorship.sponsor_image_style",
+     "n": 8,
+     "sample": "normal"
+    },
+    {
+     "path": "response.videos[].sponsorship.sponsor_link",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "response.videos[].sponsorship.sponsor_phrase",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "response.videos[].sponsorship.sponsored",
+     "n": 8,
+     "sample": "False"
+    },
+    {
+     "path": "response.videos[].author",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "response.videos[].sponsorship",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "meta.status",
+     "n": 1,
+     "sample": "200"
+    },
+    {
+     "path": "response.next_page",
+     "n": 1,
+     "sample": "2"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "dek",
+    "id",
+    "iq",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 14985,
+   "path_count": 32,
+   "paths": [
+    {
+     "path": "response.leaderboard[]._type",
+     "n": 10,
+     "sample": "user_attribution"
+    },
+    {
+     "path": "response.leaderboard[].attribution_value",
+     "n": 10,
+     "sample": "14508.0"
+    },
+    {
+     "path": "response.leaderboard[].pinned_role",
+     "n": 10,
+     "sample": null
+    },
+    {
+     "path": "response.leaderboard[].user._type",
+     "n": 10,
+     "sample": "user"
+    },
+    {
+     "path": "response.leaderboard[].user.about_me_summary",
+     "n": 10,
+     "sample": "U.S. Editor / Transcriber / Mediator\n\n\n\n\n“My name is Nobody.”Homer’s Odyssey, 9.364.\n\n\n\n\n\nCURRICULUM VITÆ  \n\n\nHistorian "
+    },
+    {
+     "path": "response.leaderboard[].user.api_path",
+     "n": 10,
+     "sample": "/users/12233752"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.tiny.url",
+     "n": 10,
+     "sample": "https://images.genius.com/avatars/tiny/6b82826f3fcc13a8765023a1999561c5"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.tiny.bounding_box.width",
+     "n": 10,
+     "sample": "16"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.tiny.bounding_box.height",
+     "n": 10,
+     "sample": "16"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.thumb.url",
+     "n": 10,
+     "sample": "https://images.genius.com/avatars/thumb/6b82826f3fcc13a8765023a1999561c5"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.thumb.bounding_box.width",
+     "n": 10,
+     "sample": "32"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.thumb.bounding_box.height",
+     "n": 10,
+     "sample": "32"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.small.url",
+     "n": 10,
+     "sample": "https://images.genius.com/avatars/small/6b82826f3fcc13a8765023a1999561c5"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.small.bounding_box.width",
+     "n": 10,
+     "sample": "100"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.small.bounding_box.height",
+     "n": 10,
+     "sample": "100"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.medium.url",
+     "n": 10,
+     "sample": "https://images.genius.com/avatars/medium/6b82826f3fcc13a8765023a1999561c5"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.medium.bounding_box.width",
+     "n": 10,
+     "sample": "300"
+    },
+    {
+     "path": "response.leaderboard[].user.avatar.medium.bounding_box.height",
+     "n": 10,
+     "sample": "400"
+    },
+    {
+     "path": "response.leaderboard[].user.header_image_url",
+     "n": 10,
+     "sample": "https://images.genius.com/299d3bb1467f1aa9e90dedce4ea9578f.1000x673x1.png"
+    },
+    {
+     "path": "response.leaderboard[].user.human_readable_role_for_display",
+     "n": 10,
+     "sample": "Editor"
+    },
+    {
+     "path": "response.leaderboard[].user.id",
+     "n": 10,
+     "sample": "12233752"
+    },
+    {
+     "path": "response.leaderboard[].user.iq",
+     "n": 10,
+     "sample": "1052943"
+    },
+    {
+     "path": "response.leaderboard[].user.is_meme_verified",
+     "n": 10,
+     "sample": "False"
+    },
+    {
+     "path": "response.leaderboard[].user.is_verified",
+     "n": 10,
+     "sample": "False"
+    },
+    {
+     "path": "response.leaderboard[].user.login",
+     "n": 10,
+     "sample": "ody"
+    },
+    {
+     "path": "response.leaderboard[].user.name",
+     "n": 10,
+     "sample": "ody§eus"
+    },
+    {
+     "path": "response.leaderboard[].user.role_for_display",
+     "n": 10,
+     "sample": "editor"
+    },
+    {
+     "path": "response.leaderboard[].user.url",
+     "n": 10,
+     "sample": "https://genius.com/ody"
+    },
+    {
+     "path": "response.leaderboard[].user.current_user_metadata.excluded_permissions[]",
+     "n": 10,
+     "sample": "follow"
+    },
+    {
+     "path": "response.leaderboard[].user.current_user_metadata.interactions.following",
+     "n": 10,
+     "sample": "False"
+    },
+    {
+     "path": "meta.status",
+     "n": 1,
+     "sample": "200"
+    },
+    {
+     "path": "response.next_page",
+     "n": 1,
+     "sample": "2"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "response.leaderboard[].user.about_me_summary",
+     "value": "I love language- I bet I’m not alone there. I love rhyme, the feeling you get when perfect words come out of your mouth in conversation, and you just smile and walk away before ruining it. Ideally. I "
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "iq",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 33,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Method Not Allowed"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_10.json",
+   "format": "json",
+   "size": 391,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "puid",
+     "n": 1,
+     "sample": "9893c2038f4cc15f3af72e4a26e0292c6ca9a1be55e5223cf8313a11df320f58"
+    },
+    {
+     "path": "vmuid",
+     "n": 1,
+     "sample": "rnB2VPiLh3VunPOqX6vpF9WKMrUOPfmAsxHn-a6CBrRg8iYdAAV8BDOaVOe8qdInNNwnd14RYkdlArrqTrlghw"
+    },
+    {
+     "path": "connectid",
+     "n": 1,
+     "sample": "rnB2VPiLh3VunPOqX6vpF9WKMrUOPfmAsxHn-a6CBrRg8iYdAAV8BDOaVOe8qdInNNwnd14RYkdlArrqTrlghw"
+    },
+    {
+     "path": "connectId",
+     "n": 1,
+     "sample": "rnB2VPiLh3VunPOqX6vpF9WKMrUOPfmAsxHn-a6CBrRg8iYdAAV8BDOaVOe8qdInNNwnd14RYkdlArrqTrlghw"
+    },
+    {
+     "path": "ttl",
+     "n": 1,
+     "sample": "24"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ttl"
+   ]
+  },
+  {
+   "file": "xhr_11.json",
+   "format": "json",
+   "size": 70,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "ppid",
+     "n": 1,
+     "sample": "84dabefa8006cfc31415fef89f3a4710"
+    },
+    {
+     "path": "uid",
+     "n": 1,
+     "sample": "b.6c6bff1434ff1bbd"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "uid"
+   ]
+  },
+  {
+   "file": "xhr_14.json",
+   "format": "json",
+   "size": 17706,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "sodar_query_id",
+     "n": 1,
+     "sample": "QWfAavStMYGGr9gPp4rvuAM"
+    },
+    {
+     "path": "injector_basename",
+     "n": 1,
+     "sample": "sodar2"
+    },
+    {
+     "path": "bg_hash_basename",
+     "n": 1,
+     "sample": "ZeuZR2wN0OgQyQwTWuSfzMFqoRjwTL9YuyfMM9TkUZY"
+    },
+    {
+     "path": "bg_binary",
+     "n": 1,
+     "sample": "RoJd/SYZV6VxvaSANXNfej+Bt+A/hpR8WAi+S9EtA4A18T6g/A3wtJ4fiEAX8Xtox62NtbQIL4gCXm4yHlTnLiMA39m2V99WIVjfXYedTwIuamLMDkHxNpNF"
+    },
+    {
+     "path": "rc_enable",
+     "n": 1,
+     "sample": "y"
+    },
+    {
+     "path": "bg_snapshot_delay_ms",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "is_gen_204",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_16.json",
+   "format": "json",
+   "size": 74,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "isPreviousCustomer",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "isSubscriber",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "isTextSubscriber",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_17.json",
+   "format": "json",
+   "size": 20,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "isOptedOut",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_7.json",
+   "format": "json",
+   "size": 208,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "base_id",
+     "n": 1,
+     "sample": "cr99DMaf7Z3132303238353731373500"
+    },
+    {
+     "path": "guid",
+     "n": 1,
+     "sample": "3VjmLcjfvRY"
+    },
+    {
+     "path": "addr",
+     "n": 1,
+     "sample": "71.178.36.215"
+    },
+    {
+     "path": "domain",
+     "n": 1,
+     "sample": "genius.com"
+    },
+    {
+     "path": "hadron_id",
+     "n": 1,
+     "sample": "060ixffjsgld5979896989e9b9d979d9b66uoooweq0ky626460646m6g6k626k6g"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Genius artist page for Mark Twain: AKA names (truncated 'See All'), popular 'songs' (chapters of his novels) and 'albums' (his books with years), scholar leaderboard. Mostly site chrome otherwise.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

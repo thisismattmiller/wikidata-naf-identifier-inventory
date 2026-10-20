@@ -1,0 +1,696 @@
+{
+ "property": "P3280",
+ "label": "BAnQ authority ID",
+ "files_read": [
+  "pages/P3280__0000005713.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "The BAnQ link resolves to VIAF's processed view of the BAnQ (B2Q) MARC authority 0000005713 for Twain, Mark, 1835-1910, including BAnQ fields (046, 370-377, 500, 670) plus VIAF-derived 9xx fields: 30+ work titles, co-author/illustrator names, publishers and cluster links to ~45 other authority files. Works capped at the distinct titles shown (34).",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "fr",
+    "via": "100"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "en",
+    "via": "500 see-also"
+   },
+   {
+    "value": "Твен, Марк",
+    "lang": "ru",
+    "via": "998 J9U"
+   },
+   {
+    "value": "טוין, מרק",
+    "lang": "he",
+    "via": "998 J9U"
+   },
+   {
+    "value": "توين، مارك",
+    "lang": "ar",
+    "via": "998 J9U/EGAXA/LNL"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne (Mark Twain)",
+    "lang": "en",
+    "via": "998 NYNYRILM"
+   },
+   {
+    "value": "Twain, Mark, pseud.",
+    "lang": "pt",
+    "via": "998 PTBNP"
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "998 WKP"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "670 Wikipedia note 'de son vrai nom Samuel Langhorne Clemens'"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "‡f 1835-11-30",
+    "lang": null,
+    "via": "046 ‡f"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "‡g 1910-04-21",
+    "lang": null,
+    "via": "046 ‡g"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri (États-Unis)",
+    "lang": "fr",
+    "via": "670 Wikipedia 2014-12-01 note"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut (États-Unis)",
+    "lang": "fr",
+    "via": "670 Wikipedia 2014-12-01 note"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "États-Unis",
+    "lang": "fr",
+    "via": "370 ‡c (associated country)"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Écrivains",
+    "lang": "fr",
+    "via": "374 ‡a (rvm)"
+   },
+   {
+    "value": "écrivain",
+    "lang": "fr",
+    "via": "670 note"
+   },
+   {
+    "value": "essayiste",
+    "lang": "fr",
+    "via": "670 note"
+   },
+   {
+    "value": "humoriste",
+    "lang": "fr",
+    "via": "670 notes"
+   }
+  ],
+  "gender": [
+   {
+    "value": "masculin",
+    "lang": "fr",
+    "via": "375"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "377"
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain, de son vrai nom Samuel Langhorne Clemens, né le 30 novembre 1835 à Florida, Missouri (en) dans le Missouri (États-Unis) et mort le 21 avril 1910 à Redding, Connecticut (États-Unis), est un écrivain, essayiste et humoriste américain. Son pseudonyme vient du cri « Mark Twain [fathoms] » signifiant « Marque deux [brasses] », utilisé par les pilotes de vapeurs sur le Mississippi",
+    "lang": "fr",
+    "via": "670 Wikipedia 2014-12-01 ‡b"
+   }
+  ],
+  "work": [
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "The innocents abroad",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Les aventures de Huckleberry Finn",
+    "lang": "fr",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Curious dream and other sketches",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Mark Twain's sketches",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Old times on the Mississippi",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "The £1,000,000 bank-note and other new stories",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "A Tramp abroad",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Eve's diary",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Adventures of Huckleberry Finn (Tom Sawyer's comrade)",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Satires & burlesques",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Roughing it",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Rambling notes of an idle excursion",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "The stolen white elephant, etc.",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Mark Twain's (burlesque) autobiography and first romance",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "The choice humorous works of Mark Twain",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "A curious experience",
+    "lang": null,
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Some funny things",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "The American claimant",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Information wanted and other sketches",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "No 44, le mystérieux étranger",
+    "lang": "fr",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Quand Satan raconte la terre au Bon Dieu (Letters from the earth)",
+    "lang": "fr",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "An idle excursion",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "A Conneticut Yankee in King Arthur's court",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Which was the dream? and other symbolic writing of the later years",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Mark Twain's library of humor",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Mark Twain's letters to his publishers, 1867-1894",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Le prince et le pauvre",
+    "lang": "fr",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Sketches",
+    "lang": "en",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": "fr",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "fr",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Les aventures de Tom Sawyer",
+    "lang": "fr",
+    "via": "910/912 titles"
+   },
+   {
+    "value": "Prince and the pauper",
+    "lang": "fr",
+    "via": "910/912 titles"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Booth Tarkington (1869-1946) (introduction writer)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "E. W. (Edward Windsor) Kemble (1861-1933) (illustrator)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Deidre S. Laiken",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "True Williams (illustrator, A Tramp abroad)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "W. Fr. Brown (illustrator, A Tramp abroad)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "B. Day (illustrateur)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "David Leisner",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Franklin R. Rogers",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Carmen Marois (1951-)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Michèle Marineau (1955-)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Shirley Bogart",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Brendan Lynch",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Bernadette Carrier",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Bruno Guévin",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Bernard Augustine De Voto (1897-1955)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "John Sutton Tuckey (1921-)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Van Gool",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Anaël Dena",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Hamlin Lewis Hill (1931-) (editor, Mark Twain's letters to his publishers)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Pablo Marcos Studio",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Victor-Lévy Beaulieu (1945-2025) (950/955 related name)",
+    "via": "950/951/955 co-author/contributor names"
+   },
+   {
+    "value": "Justin Kaplan (1925-) (subject-related name)",
+    "via": "950/951/955 co-author/contributor names"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "via": "024 ISNI"
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "raw": "WKP|Q7245",
+    "via": "998 VIAF cluster link"
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "raw": "LC|n 79021164",
+    "via": "998 VIAF cluster link"
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "raw": "DNB|118624822",
+    "via": "998 VIAF cluster link"
+   },
+   {
+    "value": "http://catalogue.bnf.fr/ark:/12148/cb11927291n",
+    "raw": "BNF|11927291",
+    "via": "998 VIAF cluster link"
+   },
+   {
+    "value": "http://www.idref.fr/027171876",
+    "raw": "SUDOC|027171876",
+    "via": "998 VIAF cluster link"
+   },
+   {
+    "value": "ARBABN|000024237",
+    "raw": "ARBABN|000024237",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "raw": "UIY|981014191556806886",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "raw": "LNB|LNC10-000002679",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "W2Z|90056487",
+    "raw": "W2Z|90056487",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NUKAT|n 94200767",
+    "raw": "NUKAT|n 94200767",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "J9U|987007269289205171",
+    "raw": "J9U|987007269289205171",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "EGAXA|vtls000823270",
+    "raw": "EGAXA|vtls000823270",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "raw": "NLR|RU NLR AUTH 7759057",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "XA|2080",
+    "raw": "XA|2080",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "SKMASNL|vtls005928524",
+    "raw": "SKMASNL|vtls005928524",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "GRATEVE|178278",
+    "raw": "GRATEVE|178278",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "SIMACOB|7830883",
+    "raw": "SIMACOB|7830883",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "raw": "PLWABN|9810671370605606",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NLA|000035028957",
+    "raw": "NLA|000035028957",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "BNCHL|10000000000000000007139",
+    "raw": "BNCHL|10000000000000000007139",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "N6I|vtls000050376",
+    "raw": "N6I|vtls000050376",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "ICCU|CFIV002662",
+    "raw": "ICCU|CFIV002662",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "raw": "BNC|981058514999206706",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "DBC|87097969041957",
+    "raw": "DBC|87097969041957",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NKC|jn19981002263",
+    "raw": "NKC|jn19981002263",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "raw": "KRNLK|KAC199605242",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "raw": "BNE|981060902239808606",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "LNL|14733",
+    "raw": "LNL|14733",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "UAE|Mill_a10002910",
+    "raw": "UAE|Mill_a10002910",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "raw": "BIBSYS|90056487",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NYNYRILM|1598",
+    "raw": "NYNYRILM|1598",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "CAOONL|ncf10128469",
+    "raw": "CAOONL|ncf10128469",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "SELIBR|98057",
+    "raw": "SELIBR|98057",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NDL|00459304",
+    "raw": "NDL|00459304",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "VLACC|000002392",
+    "raw": "VLACC|000002392",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "RERO|A000164542",
+    "raw": "RERO|A000164542",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "BAV|495_17906",
+    "raw": "BAV|495_17906",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "raw": "LIH|LNB:V-1145;=_z_W",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "PTBNP|46269",
+    "raw": "PTBNP|46269",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NSK|000047578",
+    "raw": "NSK|000047578",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NII|DA00300263",
+    "raw": "NII|DA00300263",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NTA|227880145",
+    "raw": "NTA|227880145",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "LC|n 82045653",
+    "raw": "LC|n 82045653",
+    "via": "998 VIAF cluster link (source|id; no URI given) - LC record for 'Twain, Mark (Spirit)'"
+   },
+   {
+    "value": "SZ|118624822",
+    "raw": "SZ|118624822",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 77201",
+    "raw": "NLR|RU NLR AUTH 77201",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   },
+   {
+    "value": "NTA|068242964",
+    "raw": "NTA|068242964",
+    "via": "998 VIAF cluster link (source|id; no URI given)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "0000005713",
+    "raw": "B2Q|0000005713",
+    "via": "001/035"
+   },
+   {
+    "value": "j813.4 T969",
+    "via": "083 (Dewey class number)"
+   }
+  ],
+  "source": [
+   {
+    "value": "LCNA 1977-1984",
+    "via": "670"
+   },
+   {
+    "value": "Klinck p.1099 (s.d.)",
+    "via": "670"
+   },
+   {
+    "value": "NUC vol.112 p.199 (Clemens, Samuel Langhorne)",
+    "via": "670"
+   },
+   {
+    "value": "Wallace p.90 (Clemens, Samuel Langhorne, né en Floride, humoriste)",
+    "via": "670"
+   },
+   {
+    "value": "Wikipedia 2014-12-01",
+    "via": "670"
+   },
+   {
+    "value": "Son: Life on the Mississipi",
+    "via": "670"
+   },
+   {
+    "value": "CaQMBN (cataloguing agency, rda)",
+    "via": "040"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1985-03-08",
+    "raw": "008 850308",
+    "via": "008 date entered"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2020-09-19",
+    "raw": "20200919072643",
+    "via": "005"
+   }
+  ]
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "property": "P4431",
+ "property_label": "Google Doodle",
+ "files": [
+  {
+   "file": "P4431__mark-twains-176th-birthday/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://doodles.google/doodle/mark-twains-176th-birthday/"
+  },
+  {
+   "file": "P4431__mark-twains-176th-birthday/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://doodles.google/doodle/mark-twains-176th-birthday/"
+  },
+  {
+   "file": "P4431__mark-twains-176th-birthday/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://doodles.google/doodle/mark-twains-176th-birthday/"
+  },
+  {
+   "file": "P4431__mark-twains-176th-birthday/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://doodles.google/doodle/mark-twains-176th-birthday/"
+  },
+  {
+   "file": "P4431__mark-twains-176th-birthday/conneg_2.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://doodles.google/doodle/mark-twains-176th-birthday/"
+  },
+  {
+   "file": "P4431__mark-twains-176th-birthday/conneg_3.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://doodles.google/doodle/mark-twains-176th-birthday/"
+  },
+  {
+   "file": "P4431__mark-twains-176th-birthday/conneg_4.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://doodles.google/doodle/mark-twains-176th-birthday/"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "unknown": 4
+ },
+ "vocabularies": {
+  "https://dev.twitter.com/cards#": 6,
+  "http://ogp.me/ns#": 5,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P4431.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "11-30",
+    "lang": "en",
+    "via": "llm-page:doodle date and title (implies 1835-11-30)",
+    "file": "P4431.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:text 'A great writer and humorist'",
+    "file": "P4431.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:text",
+    "file": "P4431.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Literature",
+    "lang": "en",
+    "via": "llm-page:Key Themes",
+    "file": "P4431.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "A great writer and humorist, Mark Twain once said, \"Against the assault of laughter nothing can stand.\" His characters are as sincere as they are funny and playful; his work is iconic and a part of literary history.",
+    "lang": "en",
+    "via": "llm-page:doodle text",
+    "file": "P4431.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:doodle text",
+    "file": "P4431.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Jennifer Hom (Doodle artist / author of the post)",
+    "lang": null,
+    "via": "llm-page:posted by",
+    "file": "P4431.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twains-176th-birthday",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P4431.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [],
+  "related_agent": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 4,
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 530,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain's 176th Birthday Doodle - Google Doodles"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://doodles.google/doodle/mark-twains-176th-birthday/"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https:https://lh3.googleusercontent.com/_cipoj6Dn2Y9ygAMgLgOgHNfLd7dlcYlSBBsPZ9UBlfDs0dVDZmHx9RZZNuqzniHK-reT0krb9EioW82"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Learn more about the creation of Mark Twain's 176th Birthday Doodle and discover the story behind the unique artwork."
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain's 176th Birthday Doodle - Google Doodles"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://doodles.google/doodle/mark-twains-176th-birthday/"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Learn more about the creation of Mark Twain's 176th Birthday Doodle and discover the story behind the unique artwork."
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Google Doodle page 'Mark Twain's 176th Birthday' (launched Nov 30, 2011) with a short blog text by Doodler Jennifer Hom about the Tom Sawyer fence-painting scene. Little biographical data beyond the birthday.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

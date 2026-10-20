@@ -1,0 +1,234 @@
+{
+ "property": "P7769",
+ "property_label": "Australian National Maritime Museum person ID",
+ "files": [
+  {
+   "file": "P7769__4128/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://collections.sea.museum/en/people/4128"
+  },
+  {
+   "file": "P7769__4128/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://collections.sea.museum/en/people/4128"
+  },
+  {
+   "file": "P7769__4128/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://collections.sea.museum/en/people/4128"
+  },
+  {
+   "file": "P7769__4128/alternate_1.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://collections.sea.museum/en/people/4128/rdf"
+  },
+  {
+   "file": "P7769__4128/alternate_2.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://collections.sea.museum/en/people/4128/xml"
+  },
+  {
+   "file": "P7769__4128/alternate_3.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://collections.sea.museum/en/people/4128/json"
+  },
+  {
+   "file": "P7769__4128/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://alb.reddit.com/rp?id=a2_dxr8yuf4isd3&event=PageVisit"
+  },
+  {
+   "file": "P7769__4128/xhr_2.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://mpc-prod-24-s6uit34pua-uw.a.run.app/events?cee=no"
+  },
+  {
+   "file": "P7769__4128/browser_xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://alb.reddit.com/rp?id=a2_dxr8yuf4isd3&event=PageVisit"
+  },
+  {
+   "file": "P7769__4128/browser_xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://mpc-prod-24-s6uit34pua-uw.a.run.app/events?cee=no"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 6,
+  "unknown": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 3,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/xhtml/vocab#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P7769.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "4128",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P7769.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": "en",
+    "via": "llm-page:display date",
+    "file": "P7769.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": "en",
+    "via": "llm-page:display date",
+    "file": "P7769.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:display line",
+    "file": "P7769.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "identifier": [],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 84,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "://schema.org"
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "Mark Twain"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].name",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 180,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://collections.sea.museum/en/people/4128/mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:url",
+     "value": "https://collections.sea.museum/en/people/4128/mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Minimal eMuseum person page: name, nationality and life years only, plus a 'View All Works' link; the 'Discover More' list is other people (ignored).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

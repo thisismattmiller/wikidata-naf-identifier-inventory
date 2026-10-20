@@ -1,0 +1,176 @@
+{
+ "property": "P5063",
+ "property_label": "Interlingual Index ID",
+ "files": [
+  {
+   "file": "P5063__i94739/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://globalwordnet.github.io/cili/i94739"
+  }
+ ],
+ "formats": {
+  "microdata": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0]['skos:definition']",
+    "file": "P5063.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0]['skos:definition']",
+    "file": "P5063.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0]['skos:definition']",
+    "file": "P5063.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0]['skos:definition']",
+    "file": "P5063.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0]['skos:definition']",
+    "file": "P5063.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0]['http://www.w3.org/2004/02/skos/core#definition']",
+    "file": "P5063.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://wordnet-rdf.princeton.edu/wn30/10900730-n",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0]['http://purl.org/dc/elements/1.1/source']",
+    "file": "P5063.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "i94739",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].id",
+    "file": "P5063.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Princeton WordNet 3.0 synset 10900730-n",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0]['http://purl.org/dc/elements/1.1/source']",
+    "file": "P5063.json",
+    "uri": false
+   },
+   {
+    "value": "Princeton WordNet 3.0 – 10900730-n",
+    "lang": null,
+    "via": "llm-page:Source",
+    "file": "P5063.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "source": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 407,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].id",
+     "n": 1,
+     "sample": "http://globalwordnet.org/ili/i94739"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "ili/Instance"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://globalwordnet.org"
+    },
+    {
+     "path": "[].http://www.w3.org/2004/02/skos/core#definition",
+     "n": 1,
+     "sample": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)"
+    },
+    {
+     "path": "[].status",
+     "n": 1,
+     "sample": "active"
+    },
+    {
+     "path": "[].http://purl.org/dc/elements/1.1/source",
+     "n": 1,
+     "sample": "http://wordnet-rdf.princeton.edu/wn30/10900730-n"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].http://www.w3.org/2004/02/skos/core#definition",
+     "value": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)"
+    }
+   ],
+   "language_like_keys": [
+    "id"
+   ]
+  }
+ ],
+ "llm_notes": "Collaborative Interlingual Index concept page (instance) with a single gloss describing Twain; no name label is shown on the page, only the definition, status and Princeton WordNet source.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,1226 @@
+{
+ "property": "P650",
+ "property_label": "RKDartists ID",
+ "files": [
+  {
+   "file": "P650__17169/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://research.rkd.nl/nl/detail/https%3A%2F%2Fdata.rkd.nl%2Fartists%2F17169"
+  },
+  {
+   "file": "P650__17169/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://research.rkd.nl/api/login?destination=%2Fnl%2Fdetail%2Fhttps%253A%252F%252Fdata.rkd.nl%252Fartists%252F17169"
+  },
+  {
+   "file": "P650__17169/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://research.rkd.nl/api/heartbeat"
+  },
+  {
+   "file": "P650__17169/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://research.rkd.nl/api/available-searches"
+  },
+  {
+   "file": "P650__17169/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://research.rkd.nl/api/search-navigation?null&n=null"
+  },
+  {
+   "file": "P650__17169/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://research.rkd.nl/api/detail?id=https://data.rkd.nl/artists/17169&"
+  },
+  {
+   "file": "P650__17169/conneg_1.jsonld",
+   "format": "json-ld",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://rkd.nl/artists/17169"
+  },
+  {
+   "file": "P650__17169/conneg_2.ttl",
+   "format": "turtle",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://rkd.nl/artists/17169"
+  },
+  {
+   "file": "P650__17169/conneg_3.json",
+   "format": "json",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://rkd.nl/artists/17169"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 1,
+  "json": 5,
+  "json-ld": 1,
+  "turtle": 1
+ },
+ "vocabularies": {
+  "http://www.cidoc-crm.org/cidoc-crm/": 14,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 2,
+  "http://www.w3.org/2000/01/rdf-schema#": 2,
+  "http://www.w3.org/ns/prov#": 2,
+  "http://www.w3.org/1999/xhtml/vocab#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens (Mark Twain)",
+    "lang": "en",
+    "via": "json:title.strings.en",
+    "file": "xhr_4.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens (Mark Twain)",
+    "lang": "nl",
+    "via": "json:title.strings.nl",
+    "file": "xhr_4.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
+    "lang": null,
+    "via": "type",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en",
+   "nl"
+  ],
+  "type": []
+ },
+ "unmapped": {
+  "generatedAtTime (http://www.w3.org/ns/prov#)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 237,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "authenticated",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "display_name",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "id_token",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "csrf_token",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "uid",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "is_in_rkd_range",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "authenticated_as_organization",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "banner.show",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "banner.content.en",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "banner.content.nl",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "roles_hash",
+     "n": 1,
+     "sample": "b09969f0285c5e33"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "en",
+    "nl",
+    "uid"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 8931,
+   "path_count": 236,
+   "paths": [
+    {
+     "path": "all.label.en",
+     "n": 1,
+     "sample": "All databases"
+    },
+    {
+     "path": "all.label.nl",
+     "n": 1,
+     "sample": "Alle databases"
+    },
+    {
+     "path": "rkdartists.label.en",
+     "n": 1,
+     "sample": "RKDartists"
+    },
+    {
+     "path": "rkdartists.label.nl",
+     "n": 1,
+     "sample": "RKDartists"
+    },
+    {
+     "path": "rkdartists.weight",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "rkdartists.fields.name.id",
+     "n": 1,
+     "sample": "name"
+    },
+    {
+     "path": "rkdartists.fields.name.label.en",
+     "n": 1,
+     "sample": "Name"
+    },
+    {
+     "path": "rkdartists.fields.name.label.nl",
+     "n": 1,
+     "sample": "Naam"
+    },
+    {
+     "path": "rkdartists.fields.name.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#creatorName"
+    },
+    {
+     "path": "rkdartists.fields.qualification.id",
+     "n": 1,
+     "sample": "qualification"
+    },
+    {
+     "path": "rkdartists.fields.qualification.label.en",
+     "n": 1,
+     "sample": "Qualification attribution"
+    },
+    {
+     "path": "rkdartists.fields.qualification.label.nl",
+     "n": 1,
+     "sample": "Kwalificatie toeschrijving"
+    },
+    {
+     "path": "rkdartists.fields.qualification.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#kwalificatie"
+    },
+    {
+     "path": "rkdartists.fields.school.id",
+     "n": 1,
+     "sample": "school"
+    },
+    {
+     "path": "rkdartists.fields.school.label.en",
+     "n": 1,
+     "sample": "Nationality/School"
+    },
+    {
+     "path": "rkdartists.fields.school.label.nl",
+     "n": 1,
+     "sample": "Nationaliteit/School"
+    },
+    {
+     "path": "rkdartists.fields.school.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#school_stroming"
+    },
+    {
+     "path": "rkdartists.fields.birth.id",
+     "n": 1,
+     "sample": "birth"
+    },
+    {
+     "path": "rkdartists.fields.birth.label.en",
+     "n": 1,
+     "sample": "Date of birth"
+    },
+    {
+     "path": "rkdartists.fields.birth.label.nl",
+     "n": 1,
+     "sample": "Geboortedatum"
+    },
+    {
+     "path": "rkdartists.fields.birth.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#geboortedatum_begin"
+    },
+    {
+     "path": "rkdartists.fields.death.id",
+     "n": 1,
+     "sample": "death"
+    },
+    {
+     "path": "rkdartists.fields.death.label.en",
+     "n": 1,
+     "sample": "Date of death"
+    },
+    {
+     "path": "rkdartists.fields.death.label.nl",
+     "n": 1,
+     "sample": "Sterfdatum"
+    },
+    {
+     "path": "rkdartists.fields.death.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#sterfdatum_begin"
+    },
+    {
+     "path": "rkdartists.fields.birthplace.id",
+     "n": 1,
+     "sample": "birthplace"
+    },
+    {
+     "path": "rkdartists.fields.birthplace.label.en",
+     "n": 1,
+     "sample": "Place of birth"
+    },
+    {
+     "path": "rkdartists.fields.birthplace.label.nl",
+     "n": 1,
+     "sample": "Geboorteplaats"
+    },
+    {
+     "path": "rkdartists.fields.birthplace.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#geboorteplaats"
+    },
+    {
+     "path": "rkdartists.fields.deathplace.id",
+     "n": 1,
+     "sample": "deathplace"
+    },
+    {
+     "path": "rkdartists.fields.deathplace.label.en",
+     "n": 1,
+     "sample": "Place of death"
+    },
+    {
+     "path": "rkdartists.fields.deathplace.label.nl",
+     "n": 1,
+     "sample": "Sterfplaats"
+    },
+    {
+     "path": "rkdartists.fields.deathplace.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#sterfplaats"
+    },
+    {
+     "path": "rkdartists.fields.activityplace.id",
+     "n": 1,
+     "sample": "activityplace"
+    },
+    {
+     "path": "rkdartists.fields.activityplace.label.en",
+     "n": 1,
+     "sample": "Place of activity"
+    },
+    {
+     "path": "rkdartists.fields.activityplace.label.nl",
+     "n": 1,
+     "sample": "Plaats van werkzaamheid"
+    },
+    {
+     "path": "rkdartists.fields.activityplace.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#plaats_van_werkzaamheid"
+    },
+    {
+     "path": "rkdartists.fields.gender.id",
+     "n": 1,
+     "sample": "gender"
+    },
+    {
+     "path": "rkdartists.fields.gender.label.en",
+     "n": 1,
+     "sample": "Gender"
+    },
+    {
+     "path": "rkdartists.fields.gender.label.nl",
+     "n": 1,
+     "sample": "Geslacht"
+    },
+    {
+     "path": "rkdartists.fields.gender.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#geslacht"
+    },
+    {
+     "path": "rkdartists.fields.member.id",
+     "n": 1,
+     "sample": "member"
+    },
+    {
+     "path": "rkdartists.fields.member.label.en",
+     "n": 1,
+     "sample": "Member of"
+    },
+    {
+     "path": "rkdartists.fields.member.label.nl",
+     "n": 1,
+     "sample": "Lid van"
+    },
+    {
+     "path": "rkdartists.fields.member.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#vereniging_lid"
+    },
+    {
+     "path": "rkdartists.fields.teacher.id",
+     "n": 1,
+     "sample": "teacher"
+    },
+    {
+     "path": "rkdartists.fields.teacher.label.en",
+     "n": 1,
+     "sample": "Teacher of"
+    },
+    {
+     "path": "rkdartists.fields.teacher.label.nl",
+     "n": 1,
+     "sample": "Leraar van"
+    },
+    {
+     "path": "rkdartists.fields.teacher.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#leraar_van"
+    },
+    {
+     "path": "rkdartists.fields.student.id",
+     "n": 1,
+     "sample": "student"
+    },
+    {
+     "path": "rkdartists.fields.student.label.en",
+     "n": 1,
+     "sample": "Student of"
+    },
+    {
+     "path": "rkdartists.fields.student.label.nl",
+     "n": 1,
+     "sample": "Leerling van"
+    },
+    {
+     "path": "rkdartists.fields.student.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#leerling_van"
+    },
+    {
+     "path": "rkdartists.fields.genre.id",
+     "n": 1,
+     "sample": "genre"
+    },
+    {
+     "path": "rkdartists.fields.genre.label.en",
+     "n": 1,
+     "sample": "Genre"
+    },
+    {
+     "path": "rkdartists.fields.genre.label.nl",
+     "n": 1,
+     "sample": "Genre"
+    },
+    {
+     "path": "rkdartists.fields.genre.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#onderwerp_werkvorm"
+    },
+    {
+     "path": "rkdartists.fields.subject.id",
+     "n": 1,
+     "sample": "subject"
+    },
+    {
+     "path": "rkdartists.fields.subject.label.en",
+     "n": 1,
+     "sample": "Subject"
+    },
+    {
+     "path": "rkdartists.fields.subject.label.nl",
+     "n": 1,
+     "sample": "Onderwerp"
+    },
+    {
+     "path": "rkdartists.fields.subject.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#onderwerp_trefwoord"
+    },
+    {
+     "path": "rkdartists.fields.material.id",
+     "n": 1,
+     "sample": "material"
+    },
+    {
+     "path": "rkdartists.fields.material.label.en",
+     "n": 1,
+     "sample": "Material/Technique"
+    },
+    {
+     "path": "rkdartists.fields.material.label.nl",
+     "n": 1,
+     "sample": "Materiaal/Techniek"
+    },
+    {
+     "path": "rkdartists.fields.material.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#materiaal"
+    },
+    {
+     "path": "rkdartists.fields.product.id",
+     "n": 1,
+     "sample": "product"
+    },
+    {
+     "path": "rkdartists.fields.product.label.en",
+     "n": 1,
+     "sample": "Product"
+    },
+    {
+     "path": "rkdartists.fields.product.label.nl",
+     "n": 1,
+     "sample": "Product"
+    },
+    {
+     "path": "rkdartists.fields.product.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#product"
+    },
+    {
+     "path": "rkdcollections.label.en",
+     "n": 1,
+     "sample": "RKDcollections"
+    },
+    {
+     "path": "rkdcollections.label.nl",
+     "n": 1,
+     "sample": "RKDcollections"
+    },
+    {
+     "path": "rkdcollections.weight",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "rkdexcerpts.label.en",
+     "n": 1,
+     "sample": "RKDexcerpts"
+    },
+    {
+     "path": "rkdexcerpts.label.nl",
+     "n": 1,
+     "sample": "RKDexcerpts"
+    },
+    {
+     "path": "rkdexcerpts.weight",
+     "n": 1,
+     "sample": "2"
+    },
+    {
+     "path": "rkdimages.label.en",
+     "n": 1,
+     "sample": "RKDimages"
+    },
+    {
+     "path": "rkdimages.label.nl",
+     "n": 1,
+     "sample": "RKDimages"
+    },
+    {
+     "path": "rkdimages.weight",
+     "n": 1,
+     "sample": "3"
+    },
+    {
+     "path": "rkdimages.fields.artist.id",
+     "n": 1,
+     "sample": "artist"
+    },
+    {
+     "path": "rkdimages.fields.artist.label.en",
+     "n": 1,
+     "sample": "Artist"
+    },
+    {
+     "path": "rkdimages.fields.artist.label.nl",
+     "n": 1,
+     "sample": "Kunstenaar"
+    },
+    {
+     "path": "rkdimages.fields.artist.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#naam"
+    },
+    {
+     "path": "rkdimages.fields.material.id",
+     "n": 1,
+     "sample": "material"
+    },
+    {
+     "path": "rkdimages.fields.material.label.en",
+     "n": 1,
+     "sample": "Material/technique"
+    },
+    {
+     "path": "rkdimages.fields.material.label.nl",
+     "n": 1,
+     "sample": "Materiaal/techniek"
+    },
+    {
+     "path": "rkdimages.fields.material.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#materiaal"
+    },
+    {
+     "path": "rkdimages.fields.objectcategory.id",
+     "n": 1,
+     "sample": "objectcategory"
+    },
+    {
+     "path": "rkdimages.fields.objectcategory.label.en",
+     "n": 1,
+     "sample": "Object category"
+    },
+    {
+     "path": "rkdimages.fields.objectcategory.label.nl",
+     "n": 1,
+     "sample": "Objectcategorie"
+    },
+    {
+     "path": "rkdimages.fields.objectcategory.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#objectcategorie"
+    },
+    {
+     "path": "rkdimages.fields.keyword.id",
+     "n": 1,
+     "sample": "keyword"
+    },
+    {
+     "path": "rkdimages.fields.keyword.label.en",
+     "n": 1,
+     "sample": "Keyword"
+    },
+    {
+     "path": "rkdimages.fields.keyword.label.nl",
+     "n": 1,
+     "sample": "Trefwoord"
+    },
+    {
+     "path": "rkdimages.fields.keyword.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#RKD_algemene_trefwoorden"
+    },
+    {
+     "path": "rkdimages.fields.genre.id",
+     "n": 1,
+     "sample": "genre"
+    },
+    {
+     "path": "rkdimages.fields.genre.label.en",
+     "n": 1,
+     "sample": "Genre"
+    },
+    {
+     "path": "rkdimages.fields.genre.label.nl",
+     "n": 1,
+     "sample": "Genre"
+    },
+    {
+     "path": "rkdimages.fields.genre.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#genre"
+    },
+    {
+     "path": "rkdimages.fields.made.start.id",
+     "n": 1,
+     "sample": "made.start"
+    },
+    {
+     "path": "rkdimages.fields.made.start.label.en",
+     "n": 1,
+     "sample": "Made in (start)"
+    },
+    {
+     "path": "rkdimages.fields.made.start.label.nl",
+     "n": 1,
+     "sample": "Gemaakt (begin)"
+    },
+    {
+     "path": "rkdimages.fields.made.start.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#zoekmarge_begindatum"
+    },
+    {
+     "path": "rkdimages.fields.made.end.id",
+     "n": 1,
+     "sample": "made.end"
+    },
+    {
+     "path": "rkdimages.fields.made.end.label.en",
+     "n": 1,
+     "sample": "Made in (end)"
+    },
+    {
+     "path": "rkdimages.fields.made.end.label.nl",
+     "n": 1,
+     "sample": "Gemaakt (einde)"
+    },
+    {
+     "path": "rkdimages.fields.made.end.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#zoekmarge_einddatum"
+    },
+    {
+     "path": "rkdimages.fields.drager.id",
+     "n": 1,
+     "sample": "drager"
+    },
+    {
+     "path": "rkdimages.fields.drager.label.en",
+     "n": 1,
+     "sample": "Support"
+    },
+    {
+     "path": "rkdimages.fields.drager.label.nl",
+     "n": 1,
+     "sample": "Drager"
+    },
+    {
+     "path": "rkdimages.fields.drager.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#drager"
+    },
+    {
+     "path": "rkdimages.fields.placecreated.id",
+     "n": 1,
+     "sample": "placecreated"
+    },
+    {
+     "path": "rkdimages.fields.placecreated.label.en",
+     "n": 1,
+     "sample": "Place of creation"
+    },
+    {
+     "path": "rkdimages.fields.placecreated.label.nl",
+     "n": 1,
+     "sample": "Plaats van vervaardiging"
+    },
+    {
+     "path": "rkdimages.fields.placecreated.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#vervaardigd_plaats_land"
+    },
+    {
+     "path": "rkdimages.fields.placedepicted.id",
+     "n": 1,
+     "sample": "placedepicted"
+    },
+    {
+     "path": "rkdimages.fields.placedepicted.label.en",
+     "n": 1,
+     "sample": "Depicted place"
+    },
+    {
+     "path": "rkdimages.fields.placedepicted.label.nl",
+     "n": 1,
+     "sample": "Afgebeelde plaats"
+    },
+    {
+     "path": "rkdimages.fields.placedepicted.field",
+     "n": 1,
+     "sample": "https://data rkd nl/search#plaats"
+    },
+    {
+     "path": "rkdimages.fields.collectionname.id",
+     "n": 1,
+     "sample": "collectionname"
+    },
+    {
+     "path": "rkdimages.fields.collectionname.label.en",
+     "n": 1,
+     "sample": "Collection/Owner"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "en",
+    "id",
+    "nl"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 2,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 5083,
+   "path_count": 68,
+   "paths": [
+    {
+     "path": "tree[].children[].children[].children[].type",
+     "n": 15,
+     "sample": "thesaurus-explainer"
+    },
+    {
+     "path": "tree[].children[].children[].type",
+     "n": 8,
+     "sample": "row"
+    },
+    {
+     "path": "tree[].children[].children[].label.type",
+     "n": 8,
+     "sample": "mls"
+    },
+    {
+     "path": "tree[].children[].children[].label.langCode",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].label.indentStyle",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].label.strings.en",
+     "n": 8,
+     "sample": "Nationality/school"
+    },
+    {
+     "path": "tree[].children[].children[].label.strings.nl",
+     "n": 8,
+     "sample": "Nationaliteit/school"
+    },
+    {
+     "path": "tree[].children[].children[].additionalLabel",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].information",
+     "n": 8,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].children[].langCode",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].children[].indentStyle",
+     "n": 5,
+     "sample": "small"
+    },
+    {
+     "path": "tree[].children[].children[].children[].strings.en",
+     "n": 5,
+     "sample": "1835"
+    },
+    {
+     "path": "tree[].children[].children[].children[].strings.nl",
+     "n": 5,
+     "sample": "1835"
+    },
+    {
+     "path": "tree[].children[].children[].children[].label.type",
+     "n": 4,
+     "sample": "mls"
+    },
+    {
+     "path": "tree[].children[].children[].children[].label.langCode",
+     "n": 4,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].children[].label.indentStyle",
+     "n": 4,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].children[].label.strings.en",
+     "n": 4,
+     "sample": "American"
+    },
+    {
+     "path": "tree[].children[].children[].children[].label.strings.nl",
+     "n": 4,
+     "sample": "Amerikaans"
+    },
+    {
+     "path": "tree[].type",
+     "n": 3,
+     "sample": "section"
+    },
+    {
+     "path": "tree[].label.type",
+     "n": 3,
+     "sample": "mls"
+    },
+    {
+     "path": "tree[].label.langCode",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "tree[].label.indentStyle",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "tree[].label.strings.en",
+     "n": 3,
+     "sample": "Biographical"
+    },
+    {
+     "path": "tree[].label.strings.nl",
+     "n": 3,
+     "sample": "Biografisch"
+    },
+    {
+     "path": "tree[].collapsible",
+     "n": 3,
+     "sample": "True"
+    },
+    {
+     "path": "tree[].collapsed",
+     "n": 3,
+     "sample": "False"
+    },
+    {
+     "path": "tree[].children[].type",
+     "n": 3,
+     "sample": "row-list"
+    },
+    {
+     "path": "tree[].children[].children[].children[].id",
+     "n": 3,
+     "sample": "https://data.rkd.nl/thesaurus/80198"
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].type",
+     "n": 2,
+     "sample": "internal-link"
+    },
+    {
+     "path": "title.type",
+     "n": 1,
+     "sample": "mls"
+    },
+    {
+     "path": "title.langCode",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "title.indentStyle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "title.strings.en",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens (Mark Twain)"
+    },
+    {
+     "path": "title.strings.nl",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens (Mark Twain)"
+    },
+    {
+     "path": "subtitle.type",
+     "n": 1,
+     "sample": "mls"
+    },
+    {
+     "path": "subtitle.langCode",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "subtitle.indentStyle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "subtitle.strings.en",
+     "n": 1,
+     "sample": "American"
+    },
+    {
+     "path": "subtitle.strings.nl",
+     "n": 1,
+     "sample": "Amerikaans"
+    },
+    {
+     "path": "additional_content.type",
+     "n": 1,
+     "sample": "mls"
+    },
+    {
+     "path": "additional_content.langCode",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "additional_content.indentStyle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "additional_content.strings.en",
+     "n": 1,
+     "sample": "artist"
+    },
+    {
+     "path": "additional_content.strings.nl",
+     "n": 1,
+     "sample": "kunstenaar"
+    },
+    {
+     "path": "tree[].children[].children[].children[].style",
+     "n": 1,
+     "sample": "bullet"
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].type",
+     "n": 1,
+     "sample": "list-item"
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].label.type",
+     "n": 1,
+     "sample": "mls"
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].label.langCode",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].label.indentStyle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].label.strings.en",
+     "n": 1,
+     "sample": "Witt Checklist 1978"
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].label.strings.nl",
+     "n": 1,
+     "sample": "Witt Checklist 1978"
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].href",
+     "n": 1,
+     "sample": "/detail/https%3A%2F%2Fdata.rkd.nl%2Flibrary%2F127789"
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].langCode",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].indentStyle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].strings.en",
+     "n": 1,
+     "sample": ", A checklist of painters [...]"
+    },
+    {
+     "path": "tree[].children[].children[].children[].children[].children[].strings.nl",
+     "n": 1,
+     "sample": ", A checklist of painters [...]"
+    },
+    {
+     "path": "tree[].children[].children[].children[].href.type",
+     "n": 1,
+     "sample": "mls"
+    },
+    {
+     "path": "tree[].children[].children[].children[].href.langCode",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].children[].href.indentStyle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "tree[].children[].children[].children[].href.strings.en",
+     "n": 1,
+     "sample": "https://rkd.nl/artists/17169"
+    },
+    {
+     "path": "tree[].children[].children[].children[].href.strings.nl",
+     "n": 1,
+     "sample": "https://rkd.nl/artists/17169"
+    },
+    {
+     "path": "tree[].children[].children[].children[].options.target",
+     "n": 1,
+     "sample": "_blank"
+    },
+    {
+     "path": "viewerSettings.enableDescription",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "viewerSettings.descriptionTitle.type",
+     "n": 1,
+     "sample": "mls"
+    },
+    {
+     "path": "viewerSettings.descriptionTitle.langCode",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "viewerSettings.descriptionTitle.indentStyle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "viewerSettings.descriptionTitle.strings.en",
+     "n": 1,
+     "sample": "Description"
+    },
+    {
+     "path": "viewerSettings.descriptionTitle.strings.nl",
+     "n": 1,
+     "sample": "Beschrijving"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "title.strings.en",
+     "value": "Samuel Langhorne Clemens (Mark Twain)"
+    },
+    {
+     "path": "title.strings.nl",
+     "value": "Samuel Langhorne Clemens (Mark Twain)"
+    },
+    {
+     "path": "tree[].children[].children[].children[].strings.en",
+     "value": "1835"
+    },
+    {
+     "path": "tree[].children[].children[].children[].strings.nl",
+     "value": "1835"
+    },
+    {
+     "path": "tree[].children[].children[].children[].strings.en",
+     "value": "1910"
+    },
+    {
+     "path": "tree[].children[].children[].children[].strings.nl",
+     "value": "1910"
+    }
+   ],
+   "language_like_keys": [
+    "en",
+    "id",
+    "nl"
+   ]
+  },
+  {
+   "file": "conneg_3.json",
+   "format": "json",
+   "size": 3366,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[][].termType",
+     "n": 30,
+     "sample": "NamedNode"
+    },
+    {
+     "path": "[][].value",
+     "n": 30,
+     "sample": "https://data.rkd.nl/artists/17169"
+    },
+    {
+     "path": "[][].datatype",
+     "n": 2,
+     "sample": "http://www.w3.org/2001/XMLSchema#string"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[][].value",
+     "value": "Clemens, Samuel Langhorne (Mark Twain)"
+    }
+   ],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Rendered text is only RKD Research navigation, database picker and cookie banner; the artist record itself did not render (likely a JS-loaded record), so nothing about Twain is present.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

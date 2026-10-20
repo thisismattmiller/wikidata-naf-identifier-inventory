@@ -1,0 +1,13 @@
+{
+ "property": "P8795",
+ "label": "Diamond Catalog ID for persons and organisations",
+ "files_read": ["P8795__25088/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the Diamond (ALKINDI4 OPAC) agent page; og:title is the authorized heading with dates, og:description just 'Person'.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "raw": "Twain, Mark, 1835‒1910", "lang": null, "via": "embedded_opengraph.json: [0].og:title"}],
+  "birth_date": [{"value": "1835", "raw": "1835‒1910", "lang": null, "via": "embedded_opengraph.json: [0].og:title"}],
+  "death_date": [{"value": "1910", "raw": "1835‒1910", "lang": null, "via": "embedded_opengraph.json: [0].og:title"}],
+  "identifier": [{"value": "25088", "via": "embedded_opengraph.json: [0].og:url (https://opac.diamondrda.org/agent/25088)"}]
+ }
+}

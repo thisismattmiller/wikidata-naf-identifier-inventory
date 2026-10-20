@@ -1,0 +1,950 @@
+{
+ "property": "P5731",
+ "property_label": "Angelicum ID",
+ "files": [
+  {
+   "file": "P5731__77895/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://pust.urbe.it/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=77895"
+  },
+  {
+   "file": "P5731__77895/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/js/custom/custom.js"
+  },
+  {
+   "file": "P5731__77895/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/bootstrap/includes/lang/en.inc"
+  },
+  {
+   "file": "P5731__77895/xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/bootstrap/includes/lang/default.inc"
+  },
+  {
+   "file": "P5731__77895/browser_xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/js/custom/custom.js"
+  },
+  {
+   "file": "P5731__77895/browser_xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/bootstrap/includes/lang/en.inc"
+  },
+  {
+   "file": "P5731__77895/browser_xhr_3.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://pust.urbe.it/plugin/Koha/Plugin/EDS/bootstrap/includes/lang/default.inc"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 5,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 7,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "it",
+    "via": "llm-page:100 Intestazione-Nome di persona",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "T'ŭwein, Mak'ŭ",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "トウェイン, マーク",
+    "lang": "ja",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "트웨인, 마크",
+    "lang": "ko",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tʻuēyn, Markʻ",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tivāyn, Mārk",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "吐温, 马克",
+    "lang": "zh",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温",
+    "lang": "zh",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tuvāyn, Mārk",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tvāyn, Mārk",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "تواين، مارک",
+    "lang": "fa",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Twjen, Mark",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "טוין, צרק",
+    "lang": "he",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel L.",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Klemèns, Samûèl L.",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Ma ke Tu wen",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Make Teviin",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Make Tuwen",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twėn",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "T`u-wen, Ma-k`o",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tewin, Mark",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Touain, Mark",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Touein, Maku",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Towein, Māku",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tuein, Mark",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tvein, Marḳ",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tvejn, Mark",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M. (Mark)",
+    "lang": null,
+    "via": "llm-page:400 with fuller form",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M.",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tvenas, Markas",
+    "lang": "lt",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tvens, M.",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tvénas, Morkas",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tvēns, Marks",
+    "lang": "lv",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tvèn, Marka",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, M.",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marc",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mark",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Twen, Mark",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Twens, Marks",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Twwen, Marq",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Tʻu-wen, Ma-kʻo",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Ṭvena, Marka",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Ṭṿain, Marḳ",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "טבןַ, מרק",
+    "lang": "he",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מארק",
+    "lang": "he",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק",
+    "lang": "he",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "טווען, מארק",
+    "lang": "yi",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "טוין, מרק",
+    "lang": "he",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "טװען, מארק",
+    "lang": "yi",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "טװײן, מארק",
+    "lang": "yi",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "馬克吐温",
+    "lang": "zh",
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Alden, Jean François",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "De Conte, Louis",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": null,
+    "via": "llm-page:400",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:046 Data di nascita; 100 dates",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:046 Data di morte; 100 dates",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Hannibal (Mo.)",
+    "lang": null,
+    "via": "llm-page:370",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "Hannibal, Mo.",
+    "lang": null,
+    "via": "llm-page:370",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "US",
+    "lang": null,
+    "via": "llm-page:370 (country-level values labelled as birth place)",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "llm-page:375 Sesso",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "artist",
+    "lang": "en",
+    "via": "llm-page:374 (JPG)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:374 (JPG)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "en",
+    "via": "llm-page:374 (JPG)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "novelist",
+    "lang": "en",
+    "via": "llm-page:374 (JPG)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "authors",
+    "lang": "en",
+    "via": "llm-page:374 (LC, J9U)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "humorists",
+    "lang": "en",
+    "via": "llm-page:374 (LC, J9U)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "lecturers",
+    "lang": "en",
+    "via": "llm-page:374 (LC, J9U)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:374 (UAE, JPG, N6I)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:374 (UAE, N6I, NYNYRILM)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "ecrivains",
+    "lang": "fr",
+    "via": "llm-page:374 (B2Q)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "humoristi",
+    "lang": "sk",
+    "via": "llm-page:374 (SKMASNL)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "satirici",
+    "lang": "sk",
+    "via": "llm-page:374 (SKMASNL)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "spisovatelia",
+    "lang": "sk",
+    "via": "llm-page:374 (SKMASNL)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "lektors",
+    "lang": "lv",
+    "via": "llm-page:374 (LNB)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "rakstnieks",
+    "lang": "lv",
+    "via": "llm-page:374 (LNB)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "novelistas",
+    "lang": "es",
+    "via": "llm-page:374 (BNE)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "periodistas",
+    "lang": "es",
+    "via": "llm-page:374 (BNE)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "profesores",
+    "lang": "es",
+    "via": "llm-page:374 (BNE)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "escritores",
+    "lang": "es",
+    "via": "llm-page:374 (BNE, ARBABN)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "humoristas",
+    "lang": "es",
+    "via": "llm-page:374 (BNE, ARBABN)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "pisarze amerykanscy",
+    "lang": "pl",
+    "via": "llm-page:374 (PLWABN)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "الادباء الامريكيون",
+    "lang": "ar",
+    "via": "llm-page:374 (EGAXA)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "الرواييون",
+    "lang": "ar",
+    "via": "llm-page:374 (LNL)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "الصحفيون",
+    "lang": "ar",
+    "via": "llm-page:374 (LNL)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "발명가发明傢",
+    "lang": "ko",
+    "via": "llm-page:374 (KRNLK)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "소설가小說傢",
+    "lang": "ko",
+    "via": "llm-page:374 (KRNLK)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "작가 사람 作傢",
+    "lang": "ko",
+    "via": "llm-page:374 (KRNLK)",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "humor",
+    "lang": "en",
+    "via": "llm-page:372 (LC, J9U)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "literature",
+    "lang": "en",
+    "via": "llm-page:372 (LC, J9U)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "wit and humor",
+    "lang": "en",
+    "via": "llm-page:372 (LC, J9U)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "amerikanu literatura",
+    "lang": "lv",
+    "via": "llm-page:372 (LNB)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "historia",
+    "lang": "es",
+    "via": "llm-page:372 (BNE)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "proza",
+    "lang": "sk",
+    "via": "llm-page:372 (SKMASNL)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "literatura",
+    "lang": null,
+    "via": "llm-page:372 (PLWABN, SKMASNL, ARBABN)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "الادب الامريكي",
+    "lang": "ar",
+    "via": "llm-page:372 (EGAXA)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "아동 문학儿童㒚学",
+    "lang": "ko",
+    "via": "llm-page:372 (KRNLK)",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "영미 문학英美㒚学",
+    "lang": "ko",
+    "via": "llm-page:372 (KRNLK)",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "llm-page:377 Codice di lingua",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Le avventure di Tom Sawyer",
+    "lang": "it",
+    "via": "llm-page:670 Citazione della fonte",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm-page:024 7# Numero standard o codice (uri)",
+    "file": "P5731.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "77895",
+    "lang": null,
+    "via": "llm-page:001 Numero di controllo (IT-RoAPU)",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Le avventure di Tom Sawyer / Mark Twain. - Cinisello Balsamo (Milano), 1999.",
+    "lang": null,
+    "via": "llm-page:670",
+    "file": "P5731.json",
+    "uri": false
+   },
+   {
+    "value": "IT-RoAPU/auto; modified by VIAF; cataloguing language ita; rules sbaa",
+    "lang": null,
+    "via": "llm-page:040",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2017-11-25",
+    "lang": null,
+    "via": "llm-page:008 date entered",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-11-26",
+    "lang": null,
+    "via": "llm-page:005",
+    "file": "P5731.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "it"
+  ],
+  "name_variant": [
+   "fa",
+   "he",
+   "ja",
+   "ko",
+   "lt",
+   "lv",
+   "yi",
+   "zh"
+  ],
+  "pseudonym": [],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [],
+  "gender": [
+   "en"
+  ],
+  "occupation": [
+   "ar",
+   "en",
+   "es",
+   "fr",
+   "ko",
+   "lv",
+   "pl",
+   "sk"
+  ],
+  "field_of_activity": [
+   "ar",
+   "en",
+   "es",
+   "ko",
+   "lv",
+   "sk"
+  ],
+  "language": [],
+  "work": [
+   "it"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "source": [],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Koha OPAC MARC view of the Angelicum (Pontifical University of St Thomas Aquinas) authority record 77895 for Twain, Mark, 1835-1910, with field labels in Italian; record is fully visible despite the login_wall_suspected status. Rich VIAF-derived 370/372/374/377 fields and a long list of 400 variant names.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

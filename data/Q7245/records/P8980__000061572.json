@@ -1,0 +1,586 @@
+{
+ "property": "P8980",
+ "property_label": "KANTO ID",
+ "value": "000061572",
+ "url": "https://urn.fi/URN:NBN:fi:au:finaf:000061572",
+ "crawled_at": "2026-10-02T22:00:47+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://finto.fi/finaf/fi/page/000061572",
+ "tab_title": "Twain, Mark, 1835-1910 - KANTO - Finto",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P8980__000061572.jpg",
+ "elapsed_seconds": 6.7,
+ "html_file": "pages/P8980__000061572.html",
+ "text_file": "pages/P8980__000061572.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://finto.fi/finaf/fi/page/000061572",
+  "title": "Twain, Mark, 1835-1910 - KANTO - Finto",
+  "content_type": "text/html",
+  "lang": "fi",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "hidden",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 200,
+   "url": "https://finto.fi/finaf/fi/page/000061572",
+   "headers": {
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a446fb698c5c98bb-IAD",
+    "content-encoding": "br",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Fri, 02 Oct 2026 22:00:49 GMT",
+    "last-modified": "Fri, 02 Oct 2026 15:18:32 GMT",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "priority": "u=0,i",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=zqCQ67XZvQ0rt%2Bdrgc7%2FDze4YJ5LBGL9ol%2B%2FYM0keqKushYcX06Y7DtB%2FXVGVTZAGfUV2wvH7p7dE5SFEttKj3hZuuCxmoUENDytNNQm6qcUAjtm7DfZxToY\"}]}",
+    "server": "cloudflare",
+    "server-timing": "cfExtPri",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-proxy-cache": "MISS"
+   }
+  },
+  "link_elements": [
+   {
+    "rel": "canonical",
+    "type": null,
+    "href": "https://finto.fi/finaf/fi/page/000061572",
+    "title": null,
+    "hreflang": null
+   }
+  ],
+  "jsonld": [
+   {
+    "types": [],
+    "length": 10934,
+    "content": "{\"@context\":{\"skos\":\"http://www.w3.org/2004/02/skos/core#\",\"isothes\":\"http://purl.org/iso25964/skos-thes#\",\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"owl\":\"http://www.w3.org/2002/07/owl#\",\"dct\":\"http://purl.org/dc/terms/\",\"dc11\":\"http://purl.org/dc/elements/1.1/\",\"uri\":\"@id\",\"type\":\"@type\",\"lang\":\"@language\",\"value\":\"@value\",\"graph\":\"@graph\",\"label\":\"rdfs:label\",\"prefLabel\":\"skos:prefLabel\",\"altLabel\":\"skos:altLabel\",\"hiddenLabel\":\"skos:hiddenLabel\",\"broader\":\"skos:broader\",\"narrower\":\"skos:narrower\",\"related\":\"skos:related\",\"inScheme\":\"skos:inScheme\",\"schema\":\"http://schema.org/\",\"wd\":\"http://www.wikidata.org/entity/\",\"wdt\":\"http://www.wikidata.org/prop/direct/\",\"finaf\":\"http://urn.fi/URN:NBN:fi:au:finaf:\"},\"graph\":[{\"uri\":\"http://rdaregistry.info/Elements/a/P50094\",\"label\":[{\"lang\":\"sv\",\"value\":\"har identifikator för personen\"},{\"lang\":\"se\",\"value\":\"persovnna dovddaldat\"},{\"lang\":\"fi\",\"value\":\"henkilön tunniste\"},{\"lang\":\"en\",\"value\":\"has identifier for person\"}],\"rdfs:subPropertyOf\":[{\"uri\":\"http://rdaregistry.info/Elements/a/P50382\"},{\"uri\":\"http://rdaregistry.info/Elements/a/P50383\"}],\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön merkkijonoon, joka identifioi henkilön tai esimerkiksi henkilöä edustavan auktoriteettitietueen ja erottaa henkilön muista.\"},{\"lang\":\"en\",\"value\":\"Relates a person to an appellation of person that consists of a code, number, or other string, usually independent of natural language and social naming conventions, used to identify a person.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50097\",\"label\":[{\"lang\":\"sv\",\"value\":\"har land förknippat med personen\"},{\"lang\":\"se\",\"value\":\"persovdnii laktáseaddji riika\"},{\"lang\":\"fi\",\"value\":\"henkilöön liittyvä maa\"},{\"lang\":\"en\",\"value\":\"has country associated with person\"}],\"rdfs:subPropertyOf\":{\"uri\":\"http://rdaregistry.info/Elements/a/P50346\"},\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön maahan, joka yhdistetään henkilöön.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a country with which a person is identified.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50100\",\"label\":[{\"lang\":\"sv\",\"value\":\"har verksamhetsområde för personen\"},{\"lang\":\"se\",\"value\":\"persovnna doaibmasuorgi\"},{\"lang\":\"fi\",\"value\":\"henkilön toiminta-ala\"},{\"lang\":\"en\",\"value\":\"has field of activity of person\"}],\"rdfs:subPropertyOf\":{\"uri\":\"http://rdaregistry.info/Elements/a/P50387\"},\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön alaan, jolla henkilö toimii tai on toiminut, tai jonka asiantuntija tms. hän on.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a field of endeavour, area of expertise, etc., in which a person is engaged.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50102\",\"label\":[{\"lang\":\"sv\",\"value\":\"har språk för personen\"},{\"lang\":\"se\",\"value\":\"persovnna giella\"},{\"lang\":\"fi\",\"value\":\"henkilön käyttämä kieli\"},{\"lang\":\"en\",\"value\":\"has language of person\"}],\"rdfs:subPropertyOf\":[{\"uri\":\"http://rdaregistry.info/Elements/a/P50401\"},{\"uri\":\"dct:language\"}],\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön kieleen, jota henkilö käyttää kirjoittaessaan julkaistavia, julkisesti esitettäviä tms. teoksia.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a language used by a person when writing for publication, broadcasting, etc.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50103\",\"label\":[{\"lang\":\"sv\",\"value\":\"har variantnamn för personen\"},{\"lang\":\"se\",\"value\":\"persovnna variántanamma\"},{\"lang\":\"fi\",\"value\":\"henkilön varianttinimi\"},{\"lang\":\"en\",\"value\":\"has variant name of person\"}],\"rdfs:subPropertyOf\":[{\"uri\":\"http://rdaregistry.info/Elements/a/P50111\"},{\"uri\":\"http://rdaregistry.info/Elements/a/P50415\"},{\"uri\":\"skos:altLabel\"}],\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön nimeen tai nimen muotoon, jolla henkilö tunnetaan ja joka poikkeaa ensisijaisesta nimestä tai nimen muodosta.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a name of person that is not selected for preference in a specific application or context.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50104\",\"label\":[{\"lang\":\"sv\",\"value\":\"har yrke eller sysselsättning\"},{\"lang\":\"se\",\"value\":\"persovnna ámmát dahje bargu\"},{\"lang\":\"fi\",\"value\":\"henkilön ammatti tai tehtävä\"},{\"lang\":\"en\",\"value\":\"has profession or occupation\"}],\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön alaan, jolla henkilö työskentelee tai on työskennellyt, tai joka on hänen harrastuksensa.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a vocation or avocation.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50118\",\"label\":[{\"lang\":\"sv\",\"value\":\"har dödsort\"},{\"lang\":\"se\",\"value\":\"jápminbáiki\"},{\"lang\":\"fi\",\"value\":\"kuolinpaikka\"},{\"lang\":\"en\",\"value\":\"has place of death\"}],\"rdfs:subPropertyOf\":{\"uri\":\"http://rdaregistry.info/Elements/a/P50346\"},\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön kuntaan, kaupunkiin, maakuntaan, osavaltioon ja/tai maahan, jossa henkilö kuoli.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a place where a person died.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50119\",\"label\":[{\"lang\":\"sv\",\"value\":\"har födelseort\"},{\"lang\":\"en\",\"value\":\"has place of birth\"},{\"lang\":\"se\",\"value\":\"riegádanbáiki\"},{\"lang\":\"fi\",\"value\":\"syntymäpaikka\"}],\"rdfs:subPropertyOf\":{\"uri\":\"http://rdaregistry.info/Elements/a/P50346\"},\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön kuntaan, kaupunkiin, maakuntaan, osavaltioon ja/tai maahan, jossa henkilö on syntynyt.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a place where a person was born.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50120\",\"label\":[{\"lang\":\"sv\",\"value\":\"har dödstid\"},{\"lang\":\"se\",\"value\":\"jápmináigi\"},{\"lang\":\"fi\",\"value\":\"kuolinaika\"},{\"lang\":\"en\",\"value\":\"has date of death\"}],\"rdfs:subPropertyOf\":{\"uri\":\"http://rdaregistry.info/Elements/a/P50347\"},\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön henkilön kuolinvuoteen.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a timespan during which a person died.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50121\",\"label\":[{\"lang\":\"sv\",\"value\":\"har födelsetid\"},{\"lang\":\"en\",\"value\":\"has date of birth\"},{\"lang\":\"se\",\"value\":\"riegádanáigi\"},{\"lang\":\"fi\",\"value\":\"syntymäaika\"}],\"rdfs:subPropertyOf\":{\"uri\":\"http://rdaregistry.info/Elements/a/P50347\"},\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön henkilön syntymäaikaan.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a timespan during which a person was born.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50291\",\"label\":[{\"lang\":\"en\",\"value\":\"has surname\"},{\"lang\":\"fi\",\"value\":\"sukunimi\"}],\"rdfs:subPropertyOf\":{\"uri\":\"http://rdaregistry.info/Elements/a/P50111\"},\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön nimeen, jota suku käyttää nimenä.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a name of person that is used as a family name.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50292\",\"label\":[{\"lang\":\"en\",\"value\":\"has given name\"},{\"lang\":\"fi\",\"value\":\"etunimi\"}],\"rdfs:subPropertyOf\":{\"uri\":\"http://rdaregistry.info/Elements/a/P50111\"},\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön nimeen, joka on annettu henkilölle syntymässä tai myöhempänä ajankohtana sukunimen lisäksi tai sen sijaan.\"},{\"lang\":\"en\",\"value\":\"Relates a person to a name of person given at birth or at some later point in addition to, or instead of, a surname.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/a/P50411\",\"label\":[{\"lang\":\"en\",\"value\":\"has authorized access point for person\"},{\"lang\":\"sv\",\"value\":\"auktoriserad sökingång\"},{\"lang\":\"se\",\"value\":\"geavahuvvon namma\"},{\"lang\":\"fi\",\"value\":\"käytettävä nimenmuoto\"}],\"rdfs:subPropertyOf\":[{\"uri\":\"http://rdaregistry.info/Elements/a/P50377\"},{\"uri\":\"http://rdaregistry.info/Elements/a/P50403\"},{\"uri\":\"skos:prefLabel\"}],\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää henkilön henkilön hakutietoon, joka on valittu ensisijaiseksi tietyssä sanaston merkintäjärjestelmässä.\"},{\"lang\":\"en\",\"value\":\"Relates a person to an access point for person that is selected for preference in a specific vocabulary encoding scheme.\"}]},{\"uri\":\"http://rdaregistry.info/Elements/c/C10004\",\"type\":\"owl:Class\",\"label\":[{\"lang\":\"sv\",\"value\":\"Person\"},{\"lang\":\"en\",\"value\":\"person\"},{\"lang\":\"fi\",\"value\":\"henkilö\"}]},{\"uri\":\"http://rdaregistry.info/Elements/u/P61101\",\"label\":[{\"lang\":\"en\",\"value\":\"has source consulted\"},{\"lang\":\"sv\",\"value\":\"källa\"},{\"lang\":\"se\",\"value\":\"diehtogáldu\"},{\"lang\":\"fi\",\"value\":\"tiedonlähde\"}],\"skos:definition\":[{\"lang\":\"fi\",\"value\":\"Liittää tiedonlähteen sellaiseen tiedonlähteeseen, jossa on metatietoteoksessa käytettäviä tietoja.\"},{\"lang\":\"en\",\"value\":\"Relates a resource to a resource in which there is evidence for a metadata resource.\"}]},{\"uri\":\"http://urn.fi/URN:NBN:fi:au:finaf:\",\"type\":\"skos:ConceptScheme\"},{\"uri\":\"finaf:000061572\",\"type\":[\"http://rdaregistry.info/Elements/c/C10004\",\"skos:Concept\"],\"dct:created\":{\"type\":\"http://www.w3.org/2001/XMLSchema#date\",\"value\":\"1993-09-22\"},\"dct:modified\":{\"type\":\"http://www.w3.org/2001/XMLSchema#dateTime\",\"value\":\"2025-05-16T16:12:42+03:00\"},\"http://rdaregistry.info/Elements/a/P50094\":[\"Asteri ID: 000061572\",{\"uri\":\"http://isni.org/isni/0000000121324854\"}],\"http://rdaregistry.info/Elements/a/P50097\":{\"uri\":\"http://www.yso.fi/onto/yso/p105078\"},\"http://rdaregistry.info/Elements/a/P50100\":{\"uri\":\"http://www.yso.fi/onto/yso/p4\"},\"http://rdaregistry.info/Elements/a/P50102\":[{\"uri\":\"http://lexvo.org/id/iso639-3/deu\"},{\"uri\":\"http://lexvo.org/id/iso639-3/eng\"}],\"http://rdaregistry.info/Elements/a/P50103\":{\"lang\":\"fi\",\"value\":\"Clemens, Samuel Langhorne, 1835-1910\"},\"http://rdaregistry.info/Elements/a/P50104\":[{\"uri\":\"http://urn.fi/URN:NBN:fi:au:mts:m3229\"},{\"uri\":\"http://urn.fi/URN:NBN:fi:au:mts:m3004\"},{\"uri\":\"http://urn.fi/URN:NBN:fi:au:mts:m2413\"}],\"http://rdaregistry.info/Elements/a/P50118\":{\"lang\":\"fi\",\"value\":\"Redding, Connecticut\"},\"http://rdaregistry.info/Elements/a/P50119\":{\"lang\":\"fi\",\"value\":\"Florida, Missouri\"},\"http://rdaregistry.info/Elements/a/P50120\":\"1910\",\"http://rdaregistry.info/Elements/a/P50121\":\"1835\",\"http://rdaregistry.info/Elements/a/P50291\":\"Twain\",\"http://rdaregistry.info/Elements/a/P50292\":\"Mark\",\"http://rdaregistry.info/Elements/a/P50411\":{\"lang\":\"fi\",\"value\":\"Twain, Mark, 1835-1910\"},\"http://rdaregistry.info/Elements/u/P61101\":[{\"lang\":\"fi\",\"value\":\"<a href='https://fi.wikipedia.org/wiki/Mark_Twain'>Wikipedia</a>, katsottu 22.5.2024 (Mark Twain: Mark Twain (oikealta nimeltään Samuel Langhorne Clemens, 30. marraskuuta 1835 Florida, Missouri, Yhdysvallat – 21. huhtikuuta 1910 Redding, Connecticut) oli yhdysvaltalainen kirjailija.)\"},{\"lang\":\"fi\",\"value\":\"Name authority list / The British Library\"}],\"altLabel\":{\"lang\":\"fi\",\"value\":\"Clemens, Samuel Langhorne, 1835-1910\"},\"hiddenLabel\":[{\"lang\":\"fi\",\"value\":\"Samuel Langhorne Clemens\"},{\"lang\":\"fi\",\"value\":\"Mark Twain\"}],\"inScheme\":{\"uri\":\"http://urn.fi/URN:NBN:fi:au:finaf:\"},\"prefLabel\":{\"lang\":\"fi\",\"value\":\"Twain, Mark, 1835-1910\"}}]}"
+   }
+  ],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": [
+    "og: https://ogp.me/ns#"
+   ]
+  },
+  "meta": [
+   {
+    "key": "viewport",
+    "content": "width=device-width, initial-scale=1.0"
+   },
+   {
+    "key": "format-detection",
+    "content": "telephone=no"
+   },
+   {
+    "key": "generator",
+    "content": "Skosmos 2.18"
+   },
+   {
+    "key": "title",
+    "content": "Twain, Mark, 1835-1910 - KANTO - Finto"
+   },
+   {
+    "key": "og:title",
+    "content": "Twain, Mark, 1835-1910 - KANTO - Finto"
+   },
+   {
+    "key": "description",
+    "content": "Käsite Twain, Mark, 1835-1910 sanastossa KANTO - Kansalliset toimijatiedot"
+   },
+   {
+    "key": "og:description",
+    "content": "Käsite Twain, Mark, 1835-1910 sanastossa KANTO - Kansalliset toimijatiedot"
+   },
+   {
+    "key": "og:url",
+    "content": "https://finto.fi/finaf/fi/page/000061572"
+   },
+   {
+    "key": "og:type",
+    "content": "website"
+   },
+   {
+    "key": "og:site_name",
+    "content": "Finto"
+   }
+  ],
+  "machine_links": [
+   {
+    "tag": "a",
+    "href": "https://finto.fi/rest/v1/finaf/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&format=application/rdf%2Bxml",
+    "text": "RDF/XML",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "query",
+     "path",
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://finto.fi/rest/v1/finaf/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&format=text/turtle",
+    "text": "TURTLE",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "query",
+     "path",
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://finto.fi/rest/v1/finaf/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&format=application/ld%2Bjson",
+    "text": "JSON-LD",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "query",
+     "path",
+     "text"
+    ]
+   }
+  ],
+  "xhr_requests": [
+   {
+    "url": "https://finto.fi/rest/v1/finaf/?lang=fi",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://finto.fi/rest/v1/types?lang=fi",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://finto.fi/rest/v1/finaf/mappings?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&lang=fi&clang=fi",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://finto.fi/rest/v1/finaf/hierarchy?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&lang=fi",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://api.finna.fi/v1/search?lookfor=author2_id_str_mv:%22melinda.(FI-ASTERI-N)000061572%22&field[]=shortTitle&field[]=OtherRecordLink&field[]=formats&field[]=id&field[]=year&filter[]=building:%220/NLF/%22&filter[]=finna.deduplication:%220%22&limit=100&sort=main_date_str%20desc&page=1",
+    "initiator": "xmlhttprequest",
+    "status": null,
+    "content_type": null
+   },
+   {
+    "url": "https://api.finna.fi/v1/search?lookfor=topic_id_str_mv:%22melinda.(FI-ASTERI-N)000061572%22&field[]=shortTitle&field[]=OtherRecordLink&field[]=formats&field[]=id&field[]=year&filter[]=building:%220/NLF/%22&filter[]=finna.deduplication:%220%22&limit=100&sort=main_date_str%20desc&page=1",
+    "initiator": "xmlhttprequest",
+    "status": null,
+    "content_type": null
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://finto.fi/vendor/twbs/bootstrap/dist/css/bootstrap.min.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 32402
+   },
+   {
+    "url": "https://finto.fi/vendor/davidstutz/bootstrap-multiselect/dist/css/bootstrap-multiselect.min.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 2339
+   },
+   {
+    "url": "https://finto.fi/resource/css/fira.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 667
+   },
+   {
+    "url": "https://finto.fi/vendor/vakata/jstree/dist/themes/default/style.min.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 5327
+   },
+   {
+    "url": "https://finto.fi/resource/fontawesome/css/fontawesome.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 20335
+   },
+   {
+    "url": "https://finto.fi/resource/fontawesome/css/regular.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 623
+   },
+   {
+    "url": "https://finto.fi/resource/fontawesome/css/solid.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 622
+   },
+   {
+    "url": "https://finto.fi/plugins/finaf/stylesheet.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 927
+   },
+   {
+    "url": "https://finto.fi/resource/css/finto.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 4568
+   },
+   {
+    "url": "https://finto.fi/resource/css/styles.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 15269
+   },
+   {
+    "url": "https://finto.fi/plugins/sks/stylesheet.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 943
+   },
+   {
+    "url": "https://finto.fi/vendor/components/jquery/jquery.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 36346
+   },
+   {
+    "url": "https://finto.fi/vendor/components/handlebars.js/handlebars.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 28431
+   },
+   {
+    "url": "https://finto.fi/vendor/vakata/jstree/dist/jstree.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 41039
+   },
+   {
+    "url": "https://finto.fi/vendor/twitter/typeahead.js/dist/typeahead.bundle.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 13831
+   },
+   {
+    "url": "https://finto.fi/vendor/davidstutz/bootstrap-multiselect/dist/js/bootstrap-multiselect.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 11322
+   },
+   {
+    "url": "https://finto.fi/vendor/etdsolutions/waypoints/jquery.waypoints.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3318
+   },
+   {
+    "url": "https://finto.fi/vendor/newerton/jquery-mousewheel/jquery.mousewheel.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1576
+   },
+   {
+    "url": "https://finto.fi/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 56582
+   },
+   {
+    "url": "https://finto.fi/vendor/pamelafox/lscache/lscache.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1398
+   },
+   {
+    "url": "https://finto.fi/resource/js/config.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 517
+   },
+   {
+    "url": "https://finto.fi/resource/js/hierarchy.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 6222
+   },
+   {
+    "url": "https://finto.fi/resource/js/groups.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1689
+   },
+   {
+    "url": "https://finto.fi/plugins/finaf/widget.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 5036
+   },
+   {
+    "url": "https://finto.fi/plugins/sks/widget.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2429
+   },
+   {
+    "url": "https://finto.fi/plugins/yse/yse-plugin.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1187
+   },
+   {
+    "url": "https://finto.fi/resource/js/scripts.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 7636
+   },
+   {
+    "url": "https://finto.fi/resource/js/docready.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 13994
+   },
+   {
+    "url": "https://tilasto.kansalliskirjasto.fi/piwik.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://finto.fi/resource/finto-pics/tunnus-fi.gif",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/gif",
+    "bytes": 3936
+   },
+   {
+    "url": "https://finto.fi/resource/finto-pics/vocabularies.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 1573
+   },
+   {
+    "url": "https://finto.fi/resource/finto-pics/feedback.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 1609
+   },
+   {
+    "url": "https://finto.fi/resource/finto-pics/about.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 1656
+   },
+   {
+    "url": "https://finto.fi/resource/finto-pics/help.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 3605
+   },
+   {
+    "url": "https://finto.fi/resource/pics/stripe.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 463
+   },
+   {
+    "url": "https://finto.fi/resource/fonts/woff/FiraSans-Medium.woff",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 187124
+   },
+   {
+    "url": "https://finto.fi/resource/fonts/woff/FiraSans-Regular.woff",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 183568
+   },
+   {
+    "url": "https://finto.fi/resource/fontawesome/webfonts/fa-regular-400.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 24240
+   },
+   {
+    "url": "https://finto.fi/resource/fonts/woff/FiraSans-Bold.woff",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 198380
+   },
+   {
+    "url": "https://finto.fi/vendor/vakata/jstree/dist/themes/default/throbber.gif",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/gif",
+    "bytes": 1764
+   },
+   {
+    "url": "https://finto.fi/rest/v1/finaf/?lang=fi",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 680
+   },
+   {
+    "url": "https://finto.fi/rest/v1/types?lang=fi",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 1807
+   },
+   {
+    "url": "https://finto.fi/rest/v1/finaf/mappings?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&lang=fi&clang=fi",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 3151
+   },
+   {
+    "url": "https://finto.fi/resource/finto-pics/finto-loading.gif",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/gif",
+    "bytes": 1147
+   },
+   {
+    "url": "https://finto.fi/rest/v1/finaf/hierarchy?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&lang=fi",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 619
+   },
+   {
+    "url": "https://api.finna.fi/v1/search?lookfor=author2_id_str_mv:%22melinda.(FI-ASTERI-N)000061572%22&field[]=shortTitle&field[]=OtherRecordLink&field[]=formats&field[]=id&field[]=year&filter[]=building:%220/NLF/%22&filter[]=finna.deduplication:%220%22&limit=100&sort=main_date_str%20desc&page=1",
+    "initiator": "xmlhttprequest",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://api.finna.fi/v1/search?lookfor=topic_id_str_mv:%22melinda.(FI-ASTERI-N)000061572%22&field[]=shortTitle&field[]=OtherRecordLink&field[]=formats&field[]=id&field[]=year&filter[]=building:%220/NLF/%22&filter[]=finna.deduplication:%220%22&limit=100&sort=main_date_str%20desc&page=1",
+    "initiator": "xmlhttprequest",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://finto.fi/vendor/vakata/jstree/dist/themes/default/32px.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 5960
+   },
+   {
+    "url": "https://finto.fi/favicon.ico",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/vnd.microsoft.icon",
+    "bytes": 1185
+   }
+  ],
+  "third_party_hosts": {
+   "tilasto.kansalliskirjasto.fi": 1,
+   "api.finna.fi": 2
+  },
+  "scripts": [
+   "https://tilasto.kansalliskirjasto.fi/piwik.js",
+   "https://finto.fi/vendor/components/jquery/jquery.min.js",
+   "https://finto.fi/vendor/components/handlebars.js/handlebars.min.js",
+   "https://finto.fi/vendor/vakata/jstree/dist/jstree.min.js",
+   "https://finto.fi/vendor/twitter/typeahead.js/dist/typeahead.bundle.min.js",
+   "https://finto.fi/vendor/davidstutz/bootstrap-multiselect/dist/js/bootstrap-multiselect.min.js",
+   "https://finto.fi/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.js",
+   "https://finto.fi/vendor/etdsolutions/waypoints/jquery.waypoints.min.js",
+   "https://finto.fi/vendor/newerton/jquery-mousewheel/jquery.mousewheel.min.js",
+   "https://finto.fi/vendor/pamelafox/lscache/lscache.min.js",
+   "https://finto.fi/resource/js/config.js",
+   "https://finto.fi/resource/js/hierarchy.js",
+   "https://finto.fi/resource/js/groups.js",
+   "https://finto.fi/resource/js/scripts.js",
+   "https://finto.fi/plugins/finaf/widget.js",
+   "https://finto.fi/plugins/sks/widget.js",
+   "https://finto.fi/plugins/yse/yse-plugin.js",
+   "https://finto.fi/resource/js/docready.js"
+  ],
+  "iframes": [],
+  "forms": [
+   {
+    "action": "https://finto.fi/finaf/fi/search",
+    "method": null,
+    "id": null
+   }
+  ],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [],
+   "not_found_words": []
+  },
+  "text_length": 1428,
+  "html_length": 49466
+ }
+}

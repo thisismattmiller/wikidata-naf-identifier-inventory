@@ -1,0 +1,335 @@
+{
+ "property": "P9556",
+ "property_label": "LTit person ID",
+ "value": "twain-mark__9782",
+ "url": "https://www.ltit.it/scheda/persona/twain-mark__9782",
+ "crawled_at": "2026-10-02T22:05:12+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://www.ltit.it/scheda/persona/twain-mark__9782",
+ "tab_title": "Letteratura tradotta in italia - LTit",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P9556__twain-mark__9782.jpg",
+ "elapsed_seconds": 4.6,
+ "html_file": "pages/P9556__twain-mark__9782.html",
+ "text_file": "pages/P9556__twain-mark__9782.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://www.ltit.it/scheda/persona/twain-mark__9782",
+  "title": "Letteratura tradotta in italia - LTit",
+  "content_type": "text/html",
+  "lang": null,
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "hidden",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 200,
+   "url": "https://www.ltit.it/scheda/persona/twain-mark__9782",
+   "headers": {
+    "accept-ranges": "bytes",
+    "content-encoding": "gzip",
+    "content-length": "1153",
+    "content-type": "text/html",
+    "date": "Fri, 02 Oct 2026 22:05:13 GMT",
+    "etag": "\"bfa-5e39e6be41180-gzip\"",
+    "last-modified": "Tue, 12 Jul 2022 16:47:18 GMT",
+    "server": "Apache",
+    "vary": "Accept-Encoding"
+   }
+  },
+  "link_elements": [],
+  "jsonld": [
+   {
+    "types": [
+     "Person"
+    ],
+    "length": 419,
+    "content": "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"Person\",\"name\":\"Mark Twain\",\"gender\":\"http:\\/\\/schema.org\\/Male\",\"alternateName\":\"Samuel Langhorn Clemens\",\"image\":\"https:\\/\\/admin.ltit.it\\/uploads\\/vendor\\/finnegan\\/persona\\/foto\\/download-4.jpg\",\"birthDate\":\"1835-11-30T00:00:00+00:00\",\"birthPlace\":{\"@type\":\"Place\",\"name\":\"Florida\"},\"deathDate\":\"1910-04-21T00:00:00+00:00\",\"deathPlace\":{\"@type\":\"Place\",\"name\":\"Redding\"}}"
+   }
+  ],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "viewport",
+    "content": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+   },
+   {
+    "key": "description",
+    "content": "Testi, contesti, protagonisti della mediazione letteraria in Italia"
+   },
+   {
+    "key": "theme-color",
+    "content": "#ffffff"
+   }
+  ],
+  "machine_links": [],
+  "xhr_requests": [
+   {
+    "url": "https://admin.ltit.it/api/mediazioni/latest",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://admin.ltit.it/api/progetto",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://admin.ltit.it/api/area",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://admin.ltit.it/api/modelli",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://admin.ltit.it/api/persona/twain-mark__9782",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,400i|Raleway:400,500,700,800|Roboto:400,800",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 2331
+   },
+   {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 49761
+   },
+   {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.2/js/swiper.min.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 27505
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/manifest.31ec9110ac1670801578.js",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1259
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/app.6153e5c9fb1e65745aac.js",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 17114
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/vendor.d98aea09bb549410172e.js",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 115855
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/pages/_area/ricerca.809a3f921b0b44dfdc42.js",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 9213
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/pages/_area/_modello/index.1bfd20a9eaacde59b6d1.js",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 91168
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/layouts/default.e3ceac033fd5eee6f741.js",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 17631
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/pages/scheda/_modello/_slug/index.4151ec155a81e1ee0a7d.js",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 86166
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/pages/progetto/_slug/index.8d43547caf6e959d9c1d.js",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 4338
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/pages/index.04c4e9b1602d8c9d8b51.js",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 36481
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/pages/_area/index.bdaf0fc9276ab0a7bf37.js",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 4884
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/pages/scheda/_modello/_slug/index.4151ec155a81e1ee0a7d.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://admin.ltit.it/api/mediazioni/latest",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://admin.ltit.it/api/progetto",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://admin.ltit.it/api/area",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://admin.ltit.it/api/modelli",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://www.ltit.it/favicon.ico",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/vnd.microsoft.icon",
+    "bytes": 15386
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/layouts/default.e3ceac033fd5eee6f741.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://admin.ltit.it/api/persona/twain-mark__9782",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://www.ltit.it/svg/mobile_home_logo_inglese.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 1306
+   },
+   {
+    "url": "https://www.ltit.it/svg/pagina_persone.svg?1",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 1059
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/img/logo-fondo-sociale-europeo.61a449d.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 12494
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/img/logo-pon.b20b03e.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 10453
+   },
+   {
+    "url": "https://admin.ltit.it/uploads/vendor/finnegan/persona/foto/download-4.jpg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/img/miur_logo.ff15c9e.png",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 9936
+   },
+   {
+    "url": "https://www.ltit.it/_nuxt/img/logo-futuro-in-ricerca.b0bb723.png",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 15804
+   }
+  ],
+  "third_party_hosts": {
+   "fonts.googleapis.com": 1,
+   "cdnjs.cloudflare.com": 2,
+   "admin.ltit.it": 6
+  },
+  "scripts": [
+   "https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.js",
+   "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.2/js/swiper.min.js",
+   "https://www.ltit.it/_nuxt/pages/scheda/_modello/_slug/index.4151ec155a81e1ee0a7d.js",
+   "https://www.ltit.it/_nuxt/layouts/default.e3ceac033fd5eee6f741.js",
+   "https://www.ltit.it/_nuxt/manifest.31ec9110ac1670801578.js",
+   "https://www.ltit.it/_nuxt/vendor.d98aea09bb549410172e.js",
+   "https://www.ltit.it/_nuxt/app.6153e5c9fb1e65745aac.js"
+  ],
+  "iframes": [],
+  "forms": [],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [],
+   "not_found_words": []
+  },
+  "text_length": 3893,
+  "html_length": 97110
+ }
+}

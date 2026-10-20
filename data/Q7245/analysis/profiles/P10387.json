@@ -1,0 +1,861 @@
+{
+ "property": "P10387",
+ "property_label": "Databazeknih.cz author ID",
+ "files": [
+  {
+   "file": "P10387__83/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.databazeknih.cz/autori/samuel-langhorne-clemens-83"
+  },
+  {
+   "file": "P10387__83/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.databazeknih.cz/autori/samuel-langhorne-clemens-83"
+  },
+  {
+   "file": "P10387__83/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.databazeknih.cz/autori/samuel-langhorne-clemens-83"
+  },
+  {
+   "file": "P10387__83/xhr_1.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.databazeknih.cz/mafra-ads?device=desktop"
+  },
+  {
+   "file": "P10387__83/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://prebid-eu.creativecdn.com/bidder/prebid/bids"
+  },
+  {
+   "file": "P10387__83/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json?date=20261002"
+  },
+  {
+   "file": "P10387__83/xhr_4.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://agencysignals.com/n1fw8he7vbbm8z5ufpnr35m8p"
+  },
+  {
+   "file": "P10387__83/xhr_5.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://h.seznam.cz/hit"
+  },
+  {
+   "file": "P10387__83/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cmp.seznam.cz/check-point/v1/cmp?zoneId=320653"
+  },
+  {
+   "file": "P10387__83/browser_xhr_2.img",
+   "format": "image",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://h.seznam.cz/hit"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 1,
+  "rdfa": 1,
+  "xml": 1,
+  "json": 3,
+  "unknown": 2,
+  "image": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 6,
+  "http://ogp.me/ns#": 6,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "json:itemListElement.name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "cs",
+    "via": "llm:embedded_microdata.json: [0].itemListElement[2].name",
+    "file": "P10387.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://www.databazeknih.cz/autori/samuel-langhorne-clemens-83",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://www.databazeknih.cz/img/authors/83_/83/samuel-langhorne-clemens-E0w-83.png",
+    "lang": null,
+    "via": "image",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain, vlastním jménem Samuel Langhorne Clemens (* 30.11.1835, † 21.4.1910) byl americký kriticko-realistický autor. Narodil se ve Floridě (stát Missouri). Byl jedním ze zakladatelů moderní americké prózy a iniciátorů regionální literatury (loca...",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-01-01",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:under heading",
+    "file": "P10387.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-01-01",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:under heading",
+    "file": "P10387.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "83",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: [0].itemListElement[2].item",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "https://www.databazeknih.cz/autori/samuel-langhorne-clemens-83",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: [0].itemListElement[2].item",
+    "file": "P10387.json",
+    "uri": true
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "cs",
+    "via": "llm-page:under heading",
+    "file": "P10387.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "americká",
+    "lang": "cs",
+    "via": "llm-page:under heading",
+    "file": "P10387.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Literatura světová",
+    "lang": "cs",
+    "via": "llm-page:Žánry autora",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Humor",
+    "lang": "cs",
+    "via": "llm-page:Žánry autora",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Povídky",
+    "lang": "cs",
+    "via": "llm-page:Žánry autora",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Historie",
+    "lang": "cs",
+    "via": "llm-page:Žánry autora",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružné",
+    "lang": "cs",
+    "via": "llm-page:Žánry autora",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Pro děti a mládež",
+    "lang": "cs",
+    "via": "llm-page:Žánry autora",
+    "file": "P10387.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Dobrodružství Toma Sawyera",
+    "lang": "cs",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Huckleberryho Finna",
+    "lang": "cs",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Tajemný cizinec",
+    "lang": "cs",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer na cestách",
+    "lang": "cs",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Princ a chuďas",
+    "lang": "cs",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finn & Tom Sawyer Among the Indians",
+    "lang": "en",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Toma Sawyera / Dobrodružství Huckleberryho Finna",
+    "lang": "cs",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Dopisy z planety Země",
+    "lang": "cs",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Yankee z Connecticutu na dvoře krále Artuše",
+    "lang": "cs",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Život na Mississippi",
+    "lang": "cs",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   },
+   {
+    "value": "Panna ve zbroji",
+    "lang": "cs",
+    "via": "llm-page:Knihy / Populární knihy",
+    "file": "P10387.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "cs"
+  ],
+  "type": [],
+  "see_also": [],
+  "image": [],
+  "description": [],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "pseudonym": [
+   "cs"
+  ],
+  "nationality": [
+   "cs"
+  ],
+  "field_of_activity": [
+   "cs"
+  ],
+  "work": [
+   "cs",
+   "en"
+  ]
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 905,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "[].itemListElement[].@type",
+     "n": 4,
+     "sample": "ListItem"
+    },
+    {
+     "path": "[].itemListElement[].name",
+     "n": 4,
+     "sample": "Domů"
+    },
+    {
+     "path": "[].itemListElement[].position",
+     "n": 4,
+     "sample": "1"
+    },
+    {
+     "path": "[].itemListElement[].item",
+     "n": 3,
+     "sample": "https://www.databazeknih.cz/"
+    },
+    {
+     "path": "[].@type",
+     "n": 2,
+     "sample": "BreadcrumbList"
+    },
+    {
+     "path": "[].@context",
+     "n": 2,
+     "sample": "https://schema.org"
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "Databáze knih"
+    },
+    {
+     "path": "[].url",
+     "n": 1,
+     "sample": "https://www.databazeknih.cz/"
+    },
+    {
+     "path": "[].potentialAction.@type",
+     "n": 1,
+     "sample": "SearchAction"
+    },
+    {
+     "path": "[].potentialAction.target",
+     "n": 1,
+     "sample": "https://www.databazeknih.cz/search?q={search_term_string}"
+    },
+    {
+     "path": "[].potentialAction.query-input",
+     "n": 1,
+     "sample": "required name=q"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].itemListElement[].item",
+     "value": "https://www.databazeknih.cz/autori/samuel-langhorne-clemens-83"
+    },
+    {
+     "path": "[].itemListElement[].name",
+     "value": "Samuel Langhorne Clemens"
+    }
+   ],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 284,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].price",
+     "n": 1,
+     "sample": "0.0"
+    },
+    {
+     "path": "[].adid",
+     "n": 1,
+     "sample": "TEST_ADID"
+    },
+    {
+     "path": "[].adm",
+     "n": 1,
+     "sample": "<iframe height=250 width=300 srcdoc=\"<html><body><style> body {background-color:#442844}</style><span style='color:red; "
+    },
+    {
+     "path": "[].cid",
+     "n": 1,
+     "sample": "TEST_CID"
+    },
+    {
+     "path": "[].crid",
+     "n": 1,
+     "sample": "TEST_CRID"
+    },
+    {
+     "path": "[].w",
+     "n": 1,
+     "sample": "300"
+    },
+    {
+     "path": "[].h",
+     "n": 1,
+     "sample": "250"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "adm",
+    "cid"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 1554,
+   "path_count": 62,
+   "paths": [
+    {
+     "path": "generatedAt",
+     "n": 1,
+     "sample": "2026-10-02T15:00:30.448Z"
+    },
+    {
+     "path": "dataAsOf",
+     "n": 1,
+     "sample": "2026-10-02T00:00:00.000Z"
+    },
+    {
+     "path": "conversions.USD.EUR",
+     "n": 1,
+     "sample": "0.8908685968819599"
+    },
+    {
+     "path": "conversions.USD.USD",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "conversions.USD.JPY",
+     "n": 1,
+     "sample": "157.67483296213808"
+    },
+    {
+     "path": "conversions.USD.CZK",
+     "n": 1,
+     "sample": "21.799554565701555"
+    },
+    {
+     "path": "conversions.USD.DKK",
+     "n": 1,
+     "sample": "6.657995545657015"
+    },
+    {
+     "path": "conversions.USD.GBP",
+     "n": 1,
+     "sample": "0.7575322939866369"
+    },
+    {
+     "path": "conversions.USD.HUF",
+     "n": 1,
+     "sample": "328.89086859688194"
+    },
+    {
+     "path": "conversions.USD.PLN",
+     "n": 1,
+     "sample": "3.8997772828507795"
+    },
+    {
+     "path": "conversions.USD.RON",
+     "n": 1,
+     "sample": "4.765077951002227"
+    },
+    {
+     "path": "conversions.USD.SEK",
+     "n": 1,
+     "sample": "10.057906458797326"
+    },
+    {
+     "path": "conversions.USD.CHF",
+     "n": 1,
+     "sample": "0.8266369710467705"
+    },
+    {
+     "path": "conversions.USD.ISK",
+     "n": 1,
+     "sample": "122.0489977728285"
+    },
+    {
+     "path": "conversions.USD.NOK",
+     "n": 1,
+     "sample": "9.649443207126948"
+    },
+    {
+     "path": "conversions.USD.TRY",
+     "n": 1,
+     "sample": "49.14476614699331"
+    },
+    {
+     "path": "conversions.USD.AUD",
+     "n": 1,
+     "sample": "1.4410690423162582"
+    },
+    {
+     "path": "conversions.USD.BRL",
+     "n": 1,
+     "sample": "5.221380846325166"
+    },
+    {
+     "path": "conversions.USD.CAD",
+     "n": 1,
+     "sample": "1.4239643652561247"
+    },
+    {
+     "path": "conversions.USD.CNY",
+     "n": 1,
+     "sample": "6.7045879732739415"
+    },
+    {
+     "path": "conversions.USD.HKD",
+     "n": 1,
+     "sample": "7.847126948775056"
+    },
+    {
+     "path": "conversions.USD.IDR",
+     "n": 1,
+     "sample": "17950.39643652561"
+    },
+    {
+     "path": "conversions.USD.ILS",
+     "n": 1,
+     "sample": "3.065300668151447"
+    },
+    {
+     "path": "conversions.USD.INR",
+     "n": 1,
+     "sample": "96.32472160356346"
+    },
+    {
+     "path": "conversions.USD.KRW",
+     "n": 1,
+     "sample": "1348.2761692650333"
+    },
+    {
+     "path": "conversions.USD.MXN",
+     "n": 1,
+     "sample": "18.334610244988863"
+    },
+    {
+     "path": "conversions.USD.MYR",
+     "n": 1,
+     "sample": "4.084543429844098"
+    },
+    {
+     "path": "conversions.USD.NZD",
+     "n": 1,
+     "sample": "1.7819153674832962"
+    },
+    {
+     "path": "conversions.USD.PHP",
+     "n": 1,
+     "sample": "62.59688195991091"
+    },
+    {
+     "path": "conversions.USD.SGD",
+     "n": 1,
+     "sample": "1.2798218262806236"
+    },
+    {
+     "path": "conversions.USD.THB",
+     "n": 1,
+     "sample": "33.59465478841871"
+    },
+    {
+     "path": "conversions.USD.ZAR",
+     "n": 1,
+     "sample": "16.733986636971046"
+    },
+    {
+     "path": "conversions.GBP.EUR",
+     "n": 1,
+     "sample": "1.1760140180870955"
+    },
+    {
+     "path": "conversions.GBP.USD",
+     "n": 1,
+     "sample": "1.3200757353027648"
+    },
+    {
+     "path": "conversions.GBP.JPY",
+     "n": 1,
+     "sample": "208.14272106123505"
+    },
+    {
+     "path": "conversions.GBP.CZK",
+     "n": 1,
+     "sample": "28.777063022591225"
+    },
+    {
+     "path": "conversions.GBP.DKK",
+     "n": 1,
+     "sample": "8.789058365575718"
+    },
+    {
+     "path": "conversions.GBP.GBP",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "conversions.GBP.HUF",
+     "n": 1,
+     "sample": "434.1608551973939"
+    },
+    {
+     "path": "conversions.GBP.PLN",
+     "n": 1,
+     "sample": "5.148001364176261"
+    },
+    {
+     "path": "conversions.GBP.RON",
+     "n": 1,
+     "sample": "6.290263779944256"
+    },
+    {
+     "path": "conversions.GBP.SEK",
+     "n": 1,
+     "sample": "13.277198264203307"
+    },
+    {
+     "path": "conversions.GBP.CHF",
+     "n": 1,
+     "sample": "1.0912234073830158"
+    },
+    {
+     "path": "conversions.GBP.ISK",
+     "n": 1,
+     "sample": "161.11392047793208"
+    },
+    {
+     "path": "conversions.GBP.NOK",
+     "n": 1,
+     "sample": "12.737995836910375"
+    },
+    {
+     "path": "conversions.GBP.TRY",
+     "n": 1,
+     "sample": "64.87481330777462"
+    },
+    {
+     "path": "conversions.GBP.AUD",
+     "n": 1,
+     "sample": "1.9023202756576856"
+    },
+    {
+     "path": "conversions.GBP.BRL",
+     "n": 1,
+     "sample": "6.892618160008467"
+    },
+    {
+     "path": "conversions.GBP.CAD",
+     "n": 1,
+     "sample": "1.8797408065104135"
+    },
+    {
+     "path": "conversions.GBP.CNY",
+     "n": 1,
+     "sample": "8.850563898721672"
+    },
+    {
+     "path": "conversions.GBP.HKD",
+     "n": 1,
+     "sample": "10.358801876918372"
+    },
+    {
+     "path": "conversions.GBP.IDR",
+     "n": 1,
+     "sample": "23695.882774922673"
+    },
+    {
+     "path": "conversions.GBP.ILS",
+     "n": 1,
+     "sample": "4.046429033434078"
+    },
+    {
+     "path": "conversions.GBP.INR",
+     "n": 1,
+     "sample": "127.15592769865815"
+    },
+    {
+     "path": "conversions.GBP.KRW",
+     "n": 1,
+     "sample": "1779.8266555337339"
+    },
+    {
+     "path": "conversions.GBP.MXN",
+     "n": 1,
+     "sample": "24.203074100643278"
+    },
+    {
+     "path": "conversions.GBP.MYR",
+     "n": 1,
+     "sample": "5.391906671527525"
+    },
+    {
+     "path": "conversions.GBP.NZD",
+     "n": 1,
+     "sample": "2.3522632389778084"
+    },
+    {
+     "path": "conversions.GBP.PHP",
+     "n": 1,
+     "sample": "82.63262498088976"
+    },
+    {
+     "path": "conversions.GBP.SGD",
+     "n": 1,
+     "sample": "1.6894617383839214"
+    },
+    {
+     "path": "conversions.GBP.THB",
+     "n": 1,
+     "sample": "44.347488622064375"
+    },
+    {
+     "path": "conversions.GBP.ZAR",
+     "n": 1,
+     "sample": "22.09012971434619"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 135,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "internalPartner",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "startDate",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "operatorName",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "gdprUrl",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "logoUrl",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "webName",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "showDialog",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "redirect",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Databazeknih.cz author page 'Samuel Langhorne Clemens' (Mark Twain as pseudonym): nationality and life years, a partial book list (53 books in total, 10 shown plus popular titles), genres and tags, reader comments. The biography tab text is not on this view.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

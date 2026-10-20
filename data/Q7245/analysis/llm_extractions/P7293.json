@@ -1,0 +1,538 @@
+{
+ "property": "P7293",
+ "label": "National Library of Poland MMS ID",
+ "files_read": [
+  "P7293__9810671370605606/xhr_4.json",
+  "P7293__9810671370605606/xhr_5.json"
+ ],
+ "about_entity": true,
+ "notes": "Polish National Library (data.bn.org.pl) API lists for the agent: xhr_4.json = 378 manifestations (relation Autor 366, Oryginał 11, Wg 1; languages mostly Polish/English plus Yiddish, German, Esperanto, Ukrainian...), xhr_5.json = 102 works. No person-level fields; works capped at 40 distinct titles ordered by manifestation count; related agents are cocreators with role inferred from statements of responsibility. Same data (different order) as the P1695 files.",
+ "elements": {
+  "name_variant": [
+   {
+    "value": "Mark Twain [pseud.]",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[3].manifestation_title_and_responsibility (statement of responsibility)"
+   },
+   {
+    "value": "Marek Twain",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[25].manifestation_title_and_responsibility (statement of responsibility)"
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[105].manifestation_title_and_responsibility (statement of responsibility)"
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[7].manifestation_title_and_responsibility (statement of responsibility)"
+   },
+   {
+    "value": "Maʾrq Twweʿn",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[48].manifestation_title_and_responsibility (statement of responsibility)"
+   },
+   {
+    "value": "Mark Tvejn",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[117].manifestation_title_and_responsibility (statement of responsibility)"
+   },
+   {
+    "value": "Mark Tven",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[319].manifestation_title_and_responsibility (statement of responsibility)"
+   },
+   {
+    "value": "Marc Twain",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[72].manifestation_title_and_responsibility (statement of responsibility)"
+   },
+   {
+    "value": "Marka Tvèn (Samûèl' L. Klemèns)",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[306].manifestation_title_and_responsibility (statement of responsibility)"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "raw": "Mark Twain [pseud.] (Samuel L. Clemens)",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[7].manifestation_title_and_responsibility"
+   },
+   {
+    "value": "Louis de Conte",
+    "raw": "by Louis de Conte (her page and secretary)",
+    "lang": "en",
+    "via": "xhr_5.json: $.works[*].work_title_pref (Personal recollections of Joan of Arc)"
+   },
+   {
+    "value": "Jean François Alden",
+    "raw": "freely transl. ... by Jean François Alden",
+    "lang": "en",
+    "via": "xhr_5.json: $.works[*].work_title_pref (Personal recollections of Joan of Arc)"
+   }
+  ],
+  "work": [
+   {
+    "value": "Przygody Tomka Sawyera",
+    "lang": null,
+    "via": "xhr_5.json: $.works[47].work_title_pref (manifestations: 162, first pub 1898)",
+    "raw": "original title: Adventures of Tom Sawyer"
+   },
+   {
+    "value": "Królewicz i żebrak",
+    "lang": null,
+    "via": "xhr_5.json: $.works[15].work_title_pref (manifestations: 67, first pub 1920)",
+    "raw": "original title: Prince and the pauper"
+   },
+   {
+    "value": "Pamiętniki Adama i Ewy",
+    "lang": null,
+    "via": "xhr_5.json: $.works[81].work_title_pref (manifestations: 14, first pub 1977)",
+    "raw": "original title: Diaries of Adam and Eve"
+   },
+   {
+    "value": "Życie na Missisipi",
+    "lang": null,
+    "via": "xhr_5.json: $.works[5].work_title_pref (manifestations: 5, first pub 1945)",
+    "raw": "original title: Life on the Missisippi"
+   },
+   {
+    "value": "Pod gołym niebem",
+    "lang": null,
+    "via": "xhr_5.json: $.works[14].work_title_pref (manifestations: 5, first pub 1906)",
+    "raw": "original title: Roughing it"
+   },
+   {
+    "value": "Yankes na dworze króla Artura",
+    "lang": null,
+    "via": "xhr_5.json: $.works[10].work_title_pref (manifestations: 4, first pub 1936)",
+    "raw": "original title: Yankee at the court of king Arthur"
+   },
+   {
+    "value": "Nieszczęsny narzeczony Aurelii",
+    "lang": null,
+    "via": "xhr_5.json: $.works[94].work_title_pref (manifestations: 4, first pub 1960)",
+    "raw": "original title: Aurelia's unfortunate young man"
+   },
+   {
+    "value": "Humoreski",
+    "lang": null,
+    "via": "xhr_5.json: $.works[21].work_title_pref (manifestations: 4, first pub 1879)"
+   },
+   {
+    "value": "Bajeczki dla starych dzieci",
+    "lang": null,
+    "via": "xhr_5.json: $.works[71].work_title_pref (manifestations: 4, first pub 1899)"
+   },
+   {
+    "value": "Listy z Ziemi",
+    "lang": null,
+    "via": "xhr_5.json: $.works[66].work_title_pref (manifestations: 3, first pub 1966)",
+    "raw": "original title: Listy z ziemi"
+   },
+   {
+    "value": "Pamiętniki o Joannie d'Arc spisane przez naocznego świadka Ludwika de Conte (jej pazia i sekretarza) : przetłómaczone z oryginalnego, niewydanego manuskryptu, znajdującego się w starodawnem Archiwum Francji",
+    "lang": null,
+    "via": "xhr_5.json: $.works[101].work_title_pref (manifestations: 3, first pub 1904)",
+    "raw": "original title: Personal recollections of Joan of Arc by the Sieur Louis de Conte (her page and secretary)"
+   },
+   {
+    "value": "Following the Equator : a journey around the world",
+    "lang": null,
+    "via": "xhr_5.json: $.works[11].work_title_pref (manifestations: 3, first pub 1899)"
+   },
+   {
+    "value": "Podróż międzyplanetarna",
+    "lang": null,
+    "via": "xhr_5.json: $.works[23].work_title_pref (manifestations: 3, first pub 1949)"
+   },
+   {
+    "value": "Człowiek, który zdemoralizował Hadleyburg",
+    "lang": null,
+    "via": "xhr_5.json: $.works[58].work_title_pref (manifestations: 2, first pub 1917)",
+    "raw": "original title: Man that corrupted Hadleyburg"
+   },
+   {
+    "value": "Jankes na dworze króla Artura",
+    "lang": null,
+    "via": "xhr_5.json: $.works[73].work_title_pref (manifestations: 2, first pub 1917)",
+    "raw": "original title: Connecticut Yankee in king Arthur's court"
+   },
+   {
+    "value": "Das vergoldete Zeitalter : Roman",
+    "lang": null,
+    "via": "xhr_5.json: $.works[6].work_title_pref (manifestations: 2, first pub 1876)"
+   },
+   {
+    "value": "Królewicz i żebrak : powieść",
+    "lang": null,
+    "via": "xhr_5.json: $.works[8].work_title_pref (manifestations: 2, first pub 1922)"
+   },
+   {
+    "value": "Letters",
+    "lang": null,
+    "via": "xhr_5.json: $.works[18].work_title_pref (manifestations: 2, first pub 1917)"
+   },
+   {
+    "value": "Prigodi Guka",
+    "lang": null,
+    "via": "xhr_5.json: $.works[33].work_title_pref (manifestations: 2, first pub 1908)"
+   },
+   {
+    "value": "A tramp abroad",
+    "lang": null,
+    "via": "xhr_5.json: $.works[76].work_title_pref (manifestations: 2, first pub 1906)"
+   },
+   {
+    "value": "Personal recollections of Joan of Arc : by Louis de Conte (her page and secretary) : freely transl. out of the ancient French into modern Engl. from the original unpublished manuscript in the national archives of France by Jean François Alden",
+    "lang": null,
+    "via": "xhr_5.json: $.works[77].work_title_pref (manifestations: 2, first pub 1899)"
+   },
+   {
+    "value": "Autobiografia",
+    "lang": null,
+    "via": "xhr_5.json: $.works[28].work_title_pref (manifestations: 1, first pub 1993)",
+    "raw": "original title: Autobiography"
+   },
+   {
+    "value": "Ludożerstwo w wagonach",
+    "lang": null,
+    "via": "xhr_5.json: $.works[32].work_title_pref (manifestations: 1, first pub 1994)",
+    "raw": "original title: Cannibalism in the cars"
+   },
+   {
+    "value": "Monolog króla Leopolda",
+    "lang": null,
+    "via": "xhr_5.json: $.works[35].work_title_pref (manifestations: 1, first pub 1961)",
+    "raw": "original title: King Leopold's soliloquy"
+   },
+   {
+    "value": "Wartogłowy Wilson : powieść",
+    "lang": null,
+    "via": "xhr_5.json: $.works[41].work_title_pref (manifestations: 1, first pub 1896)",
+    "raw": "original title: Tragedy of Pudd’nhead Wilson"
+   },
+   {
+    "value": "Tomek Sawyer detektywem",
+    "lang": null,
+    "via": "xhr_5.json: $.works[53].work_title_pref (manifestations: 1, first pub 2001)",
+    "raw": "original title: Tom Sawyer, detective"
+   },
+   {
+    "value": "Tajemniczy nieznajomy",
+    "lang": null,
+    "via": "xhr_5.json: $.works[54].work_title_pref (manifestations: 1, first pub 2023)",
+    "raw": "original title: Mysterious stranger"
+   },
+   {
+    "value": "Przygody Hucka Finna",
+    "lang": null,
+    "via": "xhr_5.json: $.works[56].work_title_pref (manifestations: 1, first pub 2018)",
+    "raw": "original title: Avventure di Huckleberry Finn"
+   },
+   {
+    "value": "Prostaczkowie za granicą",
+    "lang": null,
+    "via": "xhr_5.json: $.works[80].work_title_pref (manifestations: 1, first pub 1992)",
+    "raw": "original title: Innocentes abroad"
+   },
+   {
+    "value": "Uprowadzenie Księcia Margaryny",
+    "lang": null,
+    "via": "xhr_5.json: $.works[82].work_title_pref (manifestations: 1, first pub 2017)",
+    "raw": "original title: Purloining of Prince Oleomargarine"
+   },
+   {
+    "value": "Feralny krążek",
+    "lang": null,
+    "via": "xhr_5.json: $.works[87].work_title_pref (manifestations: 1, first pub 1987)",
+    "raw": "original title: Dead disk"
+   },
+   {
+    "value": "The portable Mark Twain",
+    "lang": null,
+    "via": "xhr_5.json: $.works[0].work_title_pref (manifestations: 1, first pub 1946)"
+   },
+   {
+    "value": "Izbrannye rasskazy i pamflety",
+    "lang": null,
+    "via": "xhr_5.json: $.works[1].work_title_pref (manifestations: 1, first pub 1951)"
+   },
+   {
+    "value": "Sekretarz senatora",
+    "lang": null,
+    "via": "xhr_5.json: $.works[2].work_title_pref (manifestations: 1, first pub 1935)"
+   },
+   {
+    "value": "Literary essays",
+    "lang": null,
+    "via": "xhr_5.json: $.works[3].work_title_pref (manifestations: 1, first pub 1918)"
+   },
+   {
+    "value": "Opowiadania i humoreski",
+    "lang": null,
+    "via": "xhr_5.json: $.works[4].work_title_pref (manifestations: 1, first pub 1951)"
+   },
+   {
+    "value": "Rasskazy i pamflety",
+    "lang": null,
+    "via": "xhr_5.json: $.works[7].work_title_pref (manifestations: 1, first pub 1949)"
+   },
+   {
+    "value": "The jumping frog : in English, then in French, then clawed back into a civilized language once more by patient, unremunerated toil",
+    "lang": null,
+    "via": "xhr_5.json: $.works[9].work_title_pref (manifestations: 1, first pub 1903)"
+   },
+   {
+    "value": "Humoreski i opowiadania",
+    "lang": null,
+    "via": "xhr_5.json: $.works[12].work_title_pref (manifestations: 1, first pub 1899)"
+   },
+   {
+    "value": "Książę i żebrak : sztuka wg powieści Mark Twaina",
+    "lang": null,
+    "via": "xhr_5.json: $.works[13].work_title_pref (manifestations: 1, first pub 1961)"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Tarnowski, Marceli (1899-ok. 1942)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (28 manifestations, e.g. [0]); role from manifestation_title_and_responsibility: 'przeł. Marceli Tarnowski'"
+   },
+   {
+    "value": "Tarnowski, Marceli (1899-ok. 1944)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (17 manifestations, e.g. [56]); role from manifestation_title_and_responsibility: 'przeł. Marceli Tarnowski (second heading form)'"
+   },
+   {
+    "value": "Dehnel, Tadeusz Jan (1906-1974)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (22 manifestations, e.g. [15]); role from manifestation_title_and_responsibility: 'przeł. Tadeusz Jan Dehnel'"
+   },
+   {
+    "value": "Piotrowski, Kazimierz (1911-1983)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (22 manifestations, e.g. [6]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Tarnowska, Krystyna (1917-1991)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (15 manifestations, e.g. [13]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Truszkowska, Teresa (1925-1992)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (13 manifestations, e.g. [18]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Biliński, Jan (1879-1939)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (13 manifestations, e.g. [20]); role from manifestation_title_and_responsibility: 'przeł. z ang. Jan Biliński'"
+   },
+   {
+    "value": "Łopatka, Paweł (tłumacz)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (13 manifestations, e.g. [10]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Marianowicz, Antoni (1924-2003)",
+    "relation": "translator; selector/editor",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (11 manifestations, e.g. [38]); role from manifestation_title_and_responsibility: 'tł. / wybrał i oprac. Antoni Marianowicz'"
+   },
+   {
+    "value": "Słonimski, Antoni (1895-1976)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (7 manifestations, e.g. [38]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Świderska, Alina (1875-1963)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (6 manifestations, e.g. [38]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Kubiak, Aleksandra (tłumaczka)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (6 manifestations, e.g. [45]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Kędroń, Marta",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (6 manifestations, e.g. [29]); role from manifestation_title_and_responsibility: 'przekład Marta Kędroń, Barbara Ludwiczak'"
+   },
+   {
+    "value": "Ludwiczak, Barbara",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (6 manifestations, e.g. [29]); role from manifestation_title_and_responsibility: 'przekład Marta Kędroń, Barbara Ludwiczak'"
+   },
+   {
+    "value": "Machay, Magdalena",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (5 manifestations, e.g. [40]); role from manifestation_title_and_responsibility: 'przekład Magdalena Machay'"
+   },
+   {
+    "value": "Gruszecki, A.",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [86]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Kuligowska, Agnieszka",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [23]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Siwicka, Zofia (1894-1982)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [141]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Bańkowska, Anna (1940- )",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [33]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Prażmowska, Teresa (1842-1912)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [25]); role from manifestation_title_and_responsibility: 'przekł. z oryg. T. Prażmowskiej'"
+   },
+   {
+    "value": "Feldmanowa, Maria (1874-1953)",
+    "relation": "translator (Polish adaptation, as Maria Kreczowska)",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [67]); role from manifestation_title_and_responsibility: 'spolszczyła Maria Kreczowska'"
+   },
+   {
+    "value": "Olchowicz, Maria",
+    "relation": "adapter (as 'Mol')",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (7 manifestations, e.g. [98]); role from manifestation_title_and_responsibility: 'w oprac. Mol / adapt. by Mol'"
+   },
+   {
+    "value": "Rajzen, Zalman (1887-1941)",
+    "relation": "Yiddish translator/editor",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (3 manifestations, e.g. [218]); role from manifestation_title_and_responsibility: 'ʾiybeʿrgeʿzeʿst Zalmen R-n / reʿd. Z. Rayyzeʿn'"
+   },
+   {
+    "value": "Kapłanowicz, Don (1880-1932)",
+    "relation": "Yiddish adapter",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [59]); role from manifestation_title_and_responsibility: 'baʾaʾrb. dwrk Don Qaʾplaʾnoʾwwiytš'"
+   },
+   {
+    "value": "Deržiruka, Volodimir",
+    "relation": "Ukrainian translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [178]); role from manifestation_title_and_responsibility: 'per. Volodimir Deržiruka'"
+   },
+   {
+    "value": "Busch, Moritz (1821-1899)",
+    "relation": "German translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [54]); role from manifestation_title_and_responsibility: 'ins Dt. übertr. von Moritz Busch'"
+   },
+   {
+    "value": "Grobe, Edwin (1927-2015)",
+    "relation": "Esperanto translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [17]); role from manifestation_title_and_responsibility: 'esperantigis kaj felietonigis Edwin Grobe'"
+   },
+   {
+    "value": "Kydryński, Juliusz (1921-1994)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [113]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Batko, Zbigniew (1940-2007)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [21]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Polak, Jędrzej (1958-2020)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [138]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Sokół, Jarosław (1960- )",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [4]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Beręsewicz, Paweł (1970- )",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [9]); role from manifestation_title_and_responsibility: 'przeł.'"
+   },
+   {
+    "value": "Pawlak, Małgorzata (tłumacz)",
+    "relation": "translator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [159]); role from manifestation_title_and_responsibility: 'przeł. Małgorzata Pawlak'"
+   },
+   {
+    "value": "Warner, Charles Dudley (1829-1900)",
+    "relation": "co-author",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [54]); role from manifestation_title_and_responsibility: 'von Mark Twain, Charles Dudley Warner (Das vergoldete Zeitalter)'"
+   },
+   {
+    "value": "Neider, Charles (1915-2001)",
+    "relation": "editor",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [160]); role from manifestation_title_and_responsibility: 'as arrang. and ed. ... by Charles Neider'"
+   },
+   {
+    "value": "Paine, Albert Bigelow (1861-1937)",
+    "relation": "editor",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [5]); role from manifestation_title_and_responsibility: 'ed.'"
+   },
+   {
+    "value": "De Voto, Bernard Augustine (1897-1955)",
+    "relation": "editor",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (1 manifestations, e.g. [285]); role from manifestation_title_and_responsibility: 'ed. by Bernard De Voto'"
+   },
+   {
+    "value": "Uniechowski, Antoni (1903-1976)",
+    "relation": "illustrator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (20 manifestations, e.g. [15]); role from manifestation_title_and_responsibility: 'il.'"
+   },
+   {
+    "value": "Kołodziejski, Paweł (1971- )",
+    "relation": "illustrator",
+    "lang": null,
+    "via": "xhr_4.json: $.manifestations[*].cocreator (18 manifestations, e.g. [0]); role from manifestation_title_and_responsibility: 'il.'"
+   }
+  ]
+ }
+}

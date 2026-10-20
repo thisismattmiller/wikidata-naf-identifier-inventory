@@ -1,0 +1,253 @@
+{
+ "property": "P9081",
+ "property_label": "SEARCH on line catalogue ID",
+ "files": [
+  {
+   "file": "P9081__14083/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=14083"
+  },
+  {
+   "file": "P9081__14083/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=14083"
+  },
+  {
+   "file": "P9081__14083/conneg_2.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=14083"
+  },
+  {
+   "file": "P9081__14083/conneg_3.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=14083"
+  },
+  {
+   "file": "P9081__14083/conneg_4.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=14083"
+  },
+  {
+   "file": "P9081__20770/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=20770"
+  },
+  {
+   "file": "P9081__20770/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=20770"
+  },
+  {
+   "file": "P9081__20770/conneg_2.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=20770"
+  },
+  {
+   "file": "P9081__20770/conneg_3.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=20770"
+  },
+  {
+   "file": "P9081__20770/conneg_4.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.search-libnet.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=20770"
+  }
+ ],
+ "formats": {
+  "rdfa": 2,
+  "unknown": 8
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 10,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:100 heading (record 14083)",
+    "file": "P9081.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "llm-page:100 heading (record 20770, pseudonym record)",
+    "file": "P9081.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm-page:500 see also (record 14083)",
+    "file": "P9081.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Alden, Jean François, 1835-1910",
+    "lang": null,
+    "via": "llm-page:400 (record 14083)",
+    "file": "P9081.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": null,
+    "via": "llm-page:400 (record 14083)",
+    "file": "P9081.json",
+    "uri": false
+   },
+   {
+    "value": "De Conte, Louis, 1835-1910",
+    "lang": null,
+    "via": "llm-page:400 (record 14083)",
+    "file": "P9081.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "llm-page:500 see also (record 14083)",
+    "file": "P9081.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:500 see also (record 20770)",
+    "file": "P9081.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:100 dates",
+    "file": "P9081.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:100 dates",
+    "file": "P9081.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "14083",
+    "lang": null,
+    "via": "llm-page:001 control number (Twain)",
+    "file": "P9081.json",
+    "uri": false
+   },
+   {
+    "value": "20770",
+    "lang": null,
+    "via": "llm-page:001 control number (Snodgrass)",
+    "file": "P9081.json",
+    "uri": false
+   },
+   {
+    "value": ".a10094295",
+    "lang": null,
+    "via": "llm-page:907 (Twain record)",
+    "file": "P9081.json",
+    "uri": false
+   },
+   {
+    "value": ".a10195427",
+    "lang": null,
+    "via": "llm-page:907 (Snodgrass record)",
+    "file": "P9081.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "OCLC-CD",
+    "lang": null,
+    "via": "llm-page:670 (both records)",
+    "file": "P9081.json",
+    "uri": false
+   },
+   {
+    "value": "Original cataloging agency DLC; ItRURBS",
+    "lang": null,
+    "via": "llm-page:040",
+    "file": "P9081.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1994-10-29",
+    "lang": null,
+    "via": "llm-page:008 (record 14083)",
+    "file": "P9081.json",
+    "uri": false
+   },
+   {
+    "value": "1995-10-09",
+    "lang": null,
+    "via": "llm-page:008 (record 20770)",
+    "file": "P9081.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2014-12-17",
+    "lang": null,
+    "via": "llm-page:005",
+    "file": "P9081.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [],
+  "name_variant": [],
+  "pseudonym": [],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "source": [],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Two Koha MARC-view authority records from SEARCH-LibNet (foreign academies in Rome, sourced from URBS/DLC): 14083 for Twain, Mark, 1835-1910 and 20770 for the pseudonym Snodgrass, Quintus Curtius, 1835-1910. Both fully visible, both used in 0 bibliographic records; minimal content (headings, cross-references, 670 OCLC-CD).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

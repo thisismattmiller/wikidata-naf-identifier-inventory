@@ -1,0 +1,37 @@
+{
+ "property": "P11227",
+ "label": "AniList staff ID",
+ "files_read": ["pages/P11227__114191.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "AniList staff page for Mark Twain: alternative names (incl. Japanese), birth/death, age 74, gender, 'Years active: 1863-1910' (no schema slot, kept here), hometown, a short English bio, and anime/manga adaptations credited to him as original creator/story.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "alternative names line"},
+   {"value": "マーク・トウェン", "lang": "ja", "via": "alternative names line"},
+   {"value": "マーク・トウェイン", "lang": "ja", "via": "alternative names line"},
+   {"value": "サミュエル・ラングホーン・クレメンズ", "lang": "ja", "via": "alternative names line"}
+  ],
+  "birth_date": [{"value": "1835-11-30", "raw": "Nov 30, 1835", "lang": "en", "via": "Birth"}],
+  "death_date": [{"value": "1910-04-21", "raw": "Apr 21, 1910", "lang": "en", "via": "Death"}],
+  "birth_place": [{"value": "Florida, Missouri, USA", "raw": "Hometown", "lang": "en", "via": "Hometown"}],
+  "gender": [{"value": "Male", "lang": "en", "via": "Gender"}],
+  "occupation": [
+   {"value": "author", "lang": "en", "via": "bio"},
+   {"value": "humorist", "lang": "en", "via": "bio"}
+  ],
+  "nationality": [{"value": "American", "lang": "en", "via": "bio"}],
+  "description": [{"value": "Samuel Langhorne Clemens, better known by his pen name Mark Twain, was an American author and humorist. He is most noted for his novel The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1885), the latter often called \"the Great American Novel\".", "lang": "en", "via": "bio"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "raw": "(1876)", "lang": "en", "via": "bio"},
+   {"value": "Adventures of Huckleberry Finn", "raw": "(1885)", "lang": "en", "via": "bio"},
+   {"value": "Huckleberry Finn Monogatari", "raw": "anime, Original Creator", "lang": "ja-Latn", "via": "Anime staff roles"},
+   {"value": "Huckleberry no Bouken (Movie)", "raw": "anime, Original Creator", "lang": "ja-Latn", "via": "Anime staff roles"},
+   {"value": "Tom Sawyer no Bouken", "raw": "anime and manga, Original Creator / Original Story", "lang": "ja-Latn", "via": "Anime and Manga staff roles"},
+   {"value": "Huckleberry no Bouken", "raw": "anime, Original Creator", "lang": "ja-Latn", "via": "Anime staff roles"},
+   {"value": "Ouji to Kojiki: Tensei shitara Meisaku no Shujinkou deshita", "raw": "manga, Original Story", "lang": "ja-Latn", "via": "Manga staff roles"}
+  ],
+  "identifier": [{"value": "114191", "via": "page URL staff id"}]
+ }
+}

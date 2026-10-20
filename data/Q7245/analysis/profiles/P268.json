@@ -1,0 +1,382 @@
+{
+ "property": "P268",
+ "property_label": "Bibliothèque nationale de France ID",
+ "files": [
+  {
+   "file": "P268__11927291n/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://catalogue.bnf.fr/ark:/12148/cb11927291n"
+  },
+  {
+   "file": "P268__11927291n/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://catalogue.bnf.fr/ark:/12148/cb11927291n"
+  },
+  {
+   "file": "P268__11927291n/xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://catalogue.bnf.fr/struts/js/struts2/jquery.ui.struts2.min.js?s2j=4.0.1&s2j=4.0.1"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 14,
+  "http://ogp.me/ns#": 5,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark (1835-1910)",
+    "lang": "fr",
+    "via": "llm-page:notice heading",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Marc (1835-1910)",
+    "lang": "fr",
+    "via": "llm-page:Forme(s) rejetée(s)",
+    "file": "P268.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "fr",
+    "via": "llm-page:note 'Pseudonyme de Samuel Langhorne Clemens'",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "fr",
+    "via": "llm-page:note",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "fr",
+    "via": "llm-page:note",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "llm-page:heading flagged 'pseudonyme'; note",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:Naissance",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:Mort",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Missouri, États-Unis)",
+    "lang": "fr",
+    "via": "llm-page:Naissance",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Connecticut, États-Unis)",
+    "lang": "fr",
+    "via": "llm-page:Mort",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "fr",
+    "via": "llm-page:Sexe",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Romancier",
+    "lang": "fr",
+    "via": "llm-page:note",
+    "file": "P268.json",
+    "uri": false
+   },
+   {
+    "value": "journaliste",
+    "lang": "fr",
+    "via": "llm-page:note",
+    "file": "P268.json",
+    "uri": false
+   },
+   {
+    "value": "humoriste",
+    "lang": "fr",
+    "via": "llm-page:note",
+    "file": "P268.json",
+    "uri": false
+   },
+   {
+    "value": "Auteur",
+    "lang": "fr",
+    "via": "llm-page:Responsabilité(s) exercée(s)",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "États-Unis",
+    "lang": "fr",
+    "via": "llm-page:Pays",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "anglais",
+    "lang": "fr",
+    "via": "llm-page:Langue(s)",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Romancier, journaliste et humoriste. - Pseudonyme de Samuel Langhorne Clemens.",
+    "lang": "fr",
+    "via": "llm-page:note",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "À la dure",
+    "lang": "fr",
+    "via": "llm-page:Source(s)",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://id.loc.gov/authorities/names/n79021164.html",
+    "lang": null,
+    "via": "llm-page:Source(s) LC Authorities (2025-09-30)",
+    "file": "P268.json",
+    "uri": true
+   },
+   {
+    "value": "http://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm-page:Identifiant international de l'autorité (ISNI 0000 0001 2132 4854)",
+    "file": "P268.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "ark:/12148/cb11927291n",
+    "lang": null,
+    "via": "llm-page:Identifiant de la notice",
+    "file": "P268.json",
+    "uri": false
+   },
+   {
+    "value": "FRBNF11927291",
+    "lang": null,
+    "via": "llm-page:Notice n°",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "À la dure / Mark Twain ; traduit de l'américain par Henri Motheré ..., 1979",
+    "lang": "fr",
+    "via": "llm-page:Source(s)",
+    "file": "P268.json",
+    "uri": false
+   },
+   {
+    "value": "LC Authorities : https://id.loc.gov/authorities/names/n79021164.html (2025-09-30)",
+    "lang": "fr",
+    "via": "llm-page:Source(s)",
+    "file": "P268.json",
+    "uri": false
+   },
+   {
+    "value": "BN Cat. gén. : Twain (Samuel Langhorne Clemens, dit Mark)",
+    "lang": "fr",
+    "via": "llm-page:Source(s)",
+    "file": "P268.json",
+    "uri": false
+   },
+   {
+    "value": "BN Cat. gén. 1960-1969 : Twain (Mark), pseud. de Samuel Langhorne Clemens",
+    "lang": "fr",
+    "via": "llm-page:Source(s)",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1976-04-08",
+    "lang": null,
+    "via": "llm-page:record footer",
+    "file": "P268.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-09-30",
+    "lang": null,
+    "via": "llm-page:record footer",
+    "file": "P268.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "fr"
+  ],
+  "name_variant": [
+   "fr"
+  ],
+  "given_name": [
+   "fr"
+  ],
+  "family_name": [
+   "fr"
+  ],
+  "pseudonym": [
+   "fr"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "fr"
+  ],
+  "death_place": [
+   "fr"
+  ],
+  "gender": [
+   "fr"
+  ],
+  "occupation": [
+   "fr"
+  ],
+  "nationality": [
+   "fr"
+  ],
+  "language": [
+   "fr"
+  ],
+  "description": [
+   "fr"
+  ],
+  "work": [
+   "fr"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "source": [
+   "fr"
+  ],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 530,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "BnF Catalogue général"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://catalogue.bnf.fr/images/bnf-catalogue-vignette-facebook.png"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://catalogue.bnf.fr"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Plus de 13 millions de notices bibliographiques (imprimés, documents sonores, ressources électroniques, manuscrits, obje"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "BnF catalogue général person authority 'Twain, Mark (1835-1910) pseudonyme' in public format: country, language, sex, birth/death with places, short note, rejected form, sources (incl. LC link), ISNI, ark and creation/update dates; 823 linked records as author, 245 as subject.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

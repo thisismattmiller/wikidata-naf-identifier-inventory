@@ -1,0 +1,72 @@
+{
+ "property": "P8902",
+ "label": "Archives at Yale agent ID",
+ "files_read": ["pages/P8902__people_56569_ff5e92ab.txt", "pages/P8902__people_87456_865684f7.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Two ArchivesSpace agent pages at Yale: the main 'Twain, Mark, 1835-1910' (87456) with existence dates, a one-line bio, SNAC ark, 9 linked collections and name forms; and 'Twain, Mark, (Spirit), 1835-1910' (56569), a spirit-communication heading linked only to the Charles H. Hapgood Papers.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": null, "via": "page heading (87456)"},
+   {"value": "Twain, Mark, (Spirit), 1835-1910", "lang": null, "via": "page heading (56569)"}
+  ],
+  "name_variant": [
+   {"value": "Tvėn, Mark, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Tuėĭn, Mark, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Tuwayn, Mārk, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Twayn, Mārk, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Tʻu-wen, Ma-kʻo, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Tven, M. (Mark), 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Touen, Makū, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Twain, Marek, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Make Tuwen, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Tuwen, Make, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Make Teviin, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "Твен, Марк, 1835-1910", "lang": "ru", "via": "Name Forms"},
+   {"value": "Touain, Mark, 1835-1910", "lang": null, "via": "Name Forms"},
+   {"value": "טבןַ, מרק, 1835-1910", "lang": "yi", "via": "Name Forms"},
+   {"value": "טוויין, מארק, 1835-1910", "lang": "he", "via": "Name Forms"},
+   {"value": "טוויין, מרק, 1835-1910", "lang": "he", "via": "Name Forms"},
+   {"value": "טווין, מארק, 1835-1910", "lang": "he", "via": "Name Forms"},
+   {"value": "טווין, מרק, 1835-1910", "lang": "he", "via": "Name Forms"},
+   {"value": "טווען, מארק, 1835-1910", "lang": "yi", "via": "Name Forms"},
+   {"value": "טוין, מרק, 1835-1910", "lang": "he", "via": "Name Forms"},
+   {"value": "טװען, מארק, 1835-1910", "lang": "yi", "via": "Name Forms"},
+   {"value": "טװײן, מארק, 1835-1910", "lang": "yi", "via": "Name Forms"},
+   {"value": "馬克吐温, 1835-1910", "lang": "zh", "via": "Name Forms"},
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "collection title / scope note ('best known by his pseudonym Mark Twain')"}
+  ],
+  "birth_date": [{"value": "1835-11-30", "raw": "Existence: 1835-11-30 - 1910-04-21", "lang": null, "via": "Dates"}],
+  "death_date": [{"value": "1910-04-21", "raw": "Existence: 1835-11-30 - 1910-04-21", "lang": null, "via": "Dates"}],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "Biography"},
+   {"value": "humorist", "lang": "en", "via": "Biography"},
+   {"value": "entrepreneur", "lang": "en", "via": "Biography"},
+   {"value": "publisher", "lang": "en", "via": "Biography"},
+   {"value": "lecturer", "lang": "en", "via": "Biography"}
+  ],
+  "nationality": [{"value": "American", "lang": "en", "via": "Biography"}],
+  "description": [{"value": "Mark Twain (1835-1910), American writer, humorist, entrepreneur, publisher, and lecturer.", "lang": "en", "via": "Biography"}],
+  "related_agent": [
+   {"value": "Cyril Clemens (papers about Mark Twain, YCAL MSS 5)", "via": "Found in collections"},
+   {"value": "Thomas Raynesford Lounsbury (papers, MS 1231)", "via": "Found in collections"},
+   {"value": "Frank Parsons (papers, MS 11)", "via": "Found in collections"},
+   {"value": "Joseph Hopkins Twichell (papers, YCAL MSS 755)", "via": "Found in collections"},
+   {"value": "George Leon Walker and Williston Walker (papers, RG 51)", "via": "Found in collections"},
+   {"value": "Walt Whitman (collection, YCAL MSS 202)", "via": "Found in collections"},
+   {"value": "William Dwight Whitney family (papers, MS 555)", "via": "Found in collections"},
+   {"value": "Betsy Beinecke Shirley Collection of American Children's Literature (GEN MSS 764)", "via": "Found in collections"},
+   {"value": "Charles H. Hapgood (papers, YCAL MSS 283; spirit communication)", "via": "Found in collections (56569)"},
+   {"value": "Beinecke Rare Book and Manuscript Library (holder of Samuel Langhorne Clemens Collection, YCAL MSS 852)", "via": "Found in collections"}
+  ],
+  "same_as": [
+   {"value": "http://n2t.net/ark:/99166/w6dg7gd6", "via": "SNAC Identifier (87456)"},
+   {"value": "http://n2t.net/ark:/99166/w6988t7g", "via": "SNAC Identifier (56569, Spirit heading)"}
+  ],
+  "identifier": [
+   {"value": "87456", "via": "page URL agents/people/87456"},
+   {"value": "56569", "via": "page URL agents/people/56569"}
+  ],
+  "field_of_activity": [{"value": "Authors, American -- 19th century -- Archives", "lang": "en", "via": "Additional filters: Subject"}]
+ }
+}

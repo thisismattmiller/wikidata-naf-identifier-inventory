@@ -1,0 +1,539 @@
+{
+ "property": "P10021",
+ "label": "UAE University Libraries ID",
+ "files_read": [
+  "P10021__a10002910/conneg_3.json"
+ ],
+ "about_entity": true,
+ "notes": "VIAF's MARC21 copy (as JSON) of the UAE University Libraries authority record UAE|Mill_a10002910, which is a copy of LC NAF n 79021164 (many script variants, 500 links to Clemens / Snodgrass / Conte, 663 note also naming Alden, Jean François, and 670 sources incl. Wikipedia with birth/death dates and places). 9xx fields are VIAF enrichments: 998 = VIAF cluster member records (listed in same_as as SOURCE|id, not URIs; excluded LC n 82045653 'Twain, Mark (Spirit)', and mis-clustered NKC jx20050822002 Olivia Langdon Clemens / PLWABN Karłowicz), 996 = records VIAF kept in other clusters (not used), 910/912 = title strings VIAF derived from linked bibliographic records (used as work). The real name 'Clemens, Samuel Langhorne' (500) is listed under name_variant; Snodgrass, Conte and Alden under pseudonym.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][5] (tag 100)"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Make Teviin, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][11] (tag 400)"
+   },
+   {
+    "value": "馬克吐温, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][12] (tag 400)"
+   },
+   {
+    "value": "توين، مارك، 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][13] (tag 400)"
+   },
+   {
+    "value": "טוין, מרק, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][14] (tag 400)"
+   },
+   {
+    "value": "טװען, מארק, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][15] (tag 400)"
+   },
+   {
+    "value": "טווען, מארק, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][16] (tag 400)"
+   },
+   {
+    "value": "טווין, מרק, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][17] (tag 400)"
+   },
+   {
+    "value": "טווין, מארק, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][18] (tag 400)"
+   },
+   {
+    "value": "טוויין, מרק, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][19] (tag 400)"
+   },
+   {
+    "value": "טוויין, מארק, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][20] (tag 400)"
+   },
+   {
+    "value": "טװײן, מארק, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][21] (tag 400)"
+   },
+   {
+    "value": "טבןַ, מרק, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][22] (tag 400)"
+   },
+   {
+    "value": "Твен, Марк, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][23] (tag 400)"
+   },
+   {
+    "value": "Twayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][24] (tag 400)"
+   },
+   {
+    "value": "Twain, Marek, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][25] (tag 400)"
+   },
+   {
+    "value": "Tvėn, Mark, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][26] (tag 400)"
+   },
+   {
+    "value": "Tven, M. (Mark), 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][27] (tag 400)"
+   },
+   {
+    "value": "Tʻu-wen, Ma-kʻo, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][28] (tag 400)"
+   },
+   {
+    "value": "Tuwen, Make, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][29] (tag 400)"
+   },
+   {
+    "value": "Tuwayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][30] (tag 400)"
+   },
+   {
+    "value": "Tuėĭn, Mark, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][31] (tag 400)"
+   },
+   {
+    "value": "Touen, Makū, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][32] (tag 400)"
+   },
+   {
+    "value": "مارك توين، 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][33] (tag 400)"
+   },
+   {
+    "value": "Make Tuwen, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][34] (tag 400)"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][35] (tag 500) (500 alternate identity: real name)"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][36] (tag 500)"
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][37] (tag 500)"
+   },
+   {
+    "value": "Alden, Jean François, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][38] (tag 663 $b)"
+   }
+  ],
+  "source": [
+   {
+    "value": "Alda-bar ȯnggelegsen erin caġ, 1985: v. 1, t.p. (Make Teveiin) colophon (Make Tuwen)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][39] (tag 670)"
+   },
+   {
+    "value": "رحلة الحجاج إلى الأرض المقدسة، 2013 : ص. العنوان (مارك توين)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][40] (tag 670)"
+   },
+   {
+    "value": "Wikipedia, via WWW, Oct. 18, 2011 (b. November 30, 1835 in Florida, Missouri; grew up in Hannibal, Missouri; d. April 21, 1910 in Redding, Connecticut; a writer and lecturer; wrote in genres of fiction, historical fiction, children's literature, non-fiction, travel literature, satire, essay, philosophical literature, social commentary, literary criticism)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][41] (tag 670)"
+   },
+   {
+    "value": "Przygody Huck'a, 1912: t.p. (Marek Twain)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][42] (tag 670)"
+   },
+   {
+    "value": "Personal recollections of Joan of Arc, 1923: v. 1-2, t.p. (the Sieur Louis de Conte; Jean François Alden) spine (Mark Twain)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][43] (tag 670)"
+   },
+   {
+    "value": "Mark Twain's personal recollections of Joan of Arc, 1997: CIP t.p. (Sieur Louis de Conte) p. vii (Sieur Louis de Conte shared ... initials with Samuel L. Clemens)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][44] (tag 670)"
+   },
+   {
+    "value": "Makū Touen tanpenshū, 1961.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][45] (tag 670)"
+   },
+   {
+    "value": "Geviksman, V. A. Print︠s︡ i nishchiĭ, 1984: t.p. (M. Tvena)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][46] (tag 670)"
+   },
+   {
+    "value": "DAB, 1930 (Clemens, Samuel Langhorne, 1835-1910; better known under pseud. Mark Twain; also used name Quintus Curtius Snodgrass)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][47] (tag 670)"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "b. November 30, 1835",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][41] (tag 670 $b)"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "d. April 21, 1910",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][41] (tag 670 $b)"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Mo.",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][6] (tag 370 $a)"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Conn.",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][6] (tag 370 $b)"
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal, Mo.",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][6] (tag 370 $c) (associated country/place)"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Lecturer",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][7] (tag 374 $a)"
+   },
+   {
+    "value": "Writer",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][8] (tag 374 $a)"
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][9] (tag 375 $a)"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][10] (tag 377 $a)"
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "fiction, historical fiction, children's literature, non-fiction, travel literature, satire, essay, philosophical literature, social commentary, literary criticism",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][41] (tag 670 $b)"
+   }
+  ],
+  "description": [
+   {
+    "value": "For works of this author written under other names, search also under Clemens, Samuel Langhorne, 1835-1910, Snodgrass, Quintus Curtius, 1835-1910 Conte, Louis de, 1835-1910, Alden, Jean François, 1835-1910",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][38] (tag 663)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "a10002910",
+    "raw": "(UAE)UAE|Mill.a10002910",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][0] (tag 035 $a)"
+   },
+   {
+    "value": "n  79021164",
+    "raw": "n  79021164 (LCCN; cancelled sh 89001267, no 98029431)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][1] (tag 010 $a)"
+   },
+   {
+    "value": "(OCoLC)oca00254964",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][2] (tag 035 $a)"
+   }
+  ],
+  "work": [
+   {
+    "value": "The innocents abroad",
+    "raw": "The innocents abroad.",
+    "lang": "ar",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][50] (tag 910 $A)"
+   },
+   {
+    "value": "رحلة الحجاج إلى الأرض المقدسة",
+    "raw": "رحلة الحجاج إلى الأرض المقدسة /",
+    "lang": "ar",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][51] (tag 910 $A)"
+   },
+   {
+    "value": "Lack of money is the root of all evil",
+    "raw": "Lack of money is the root of all evil.",
+    "lang": "ar",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][52] (tag 910 $A)"
+   },
+   {
+    "value": "قلة المال أصل من أصول البلاء : نصائح مارك توين للمستثمرين عن المال و الثروة",
+    "raw": "قلة المال أصل من أصول البلاء : نصائح مارك توين للمستثمرين عن المال و الثروة /",
+    "lang": "ar",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][53] (tag 910 $A)"
+   },
+   {
+    "value": "توم سوير : قصة حياة طفل",
+    "raw": "توم سوير : قصة حياة طفل /",
+    "lang": "ar",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][54] (tag 910 $A)"
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "raw": "The Adventures of Tom Sawyer /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][55] (tag 912 $A)"
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "raw": "The Adventures of Huckleberry Finn /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][56] (tag 912 $A)"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "SELIBR|98057",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][113] (tag 998 $2)"
+   },
+   {
+    "value": "LC|n  79021164",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][114] (tag 998 $2)"
+   },
+   {
+    "value": "BNCHL|10000000000000000007139",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][115] (tag 998 $2)"
+   },
+   {
+    "value": "NTA|227880145",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][116] (tag 998 $2)"
+   },
+   {
+    "value": "RERO|A000164542",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][117] (tag 998 $2)"
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][118] (tag 998 $2)"
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][119] (tag 998 $2)"
+   },
+   {
+    "value": "GRATEVE|178278",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][120] (tag 998 $2)"
+   },
+   {
+    "value": "BNF|11927291",
+    "raw": "Twain Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][121] (tag 998 $2)"
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][122] (tag 998 $2)"
+   },
+   {
+    "value": "NKC|jn19981002263",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][123] (tag 998 $2)"
+   },
+   {
+    "value": "SIMACOB|7830883",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][124] (tag 998 $2)"
+   },
+   {
+    "value": "WKP|Q7245",
+    "raw": "Mark Twain",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][125] (tag 998 $2)"
+   },
+   {
+    "value": "NLA|000035028957",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][126] (tag 998 $2)"
+   },
+   {
+    "value": "CAOONL|ncf10128469",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][127] (tag 998 $2)"
+   },
+   {
+    "value": "N6I|vtls000050376",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][128] (tag 998 $2)"
+   },
+   {
+    "value": "J9U|987007269289205171",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][129] (tag 998 $2)"
+   },
+   {
+    "value": "ARBABN|000024237",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][133] (tag 998 $2)"
+   },
+   {
+    "value": "SUDOC|027171876",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][135] (tag 998 $2)"
+   },
+   {
+    "value": "VLACC|000002392",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][136] (tag 998 $2)"
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "raw": "Twain Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][137] (tag 998 $2)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "raw": "Twain M.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][138] (tag 998 $2)"
+   },
+   {
+    "value": "SZ|118624822",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][139] (tag 998 $2)"
+   },
+   {
+    "value": "NDL|00459304",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][140] (tag 998 $2)"
+   },
+   {
+    "value": "LNL|14733",
+    "raw": "توين، مارك،",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][141] (tag 998 $2)"
+   },
+   {
+    "value": "BAV|495_17906",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][142] (tag 998 $2)"
+   },
+   {
+    "value": "EGAXA|vtls000823270",
+    "raw": "توين، مارك،",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][143] (tag 998 $2)"
+   },
+   {
+    "value": "XA|2080",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][144] (tag 998 $2)"
+   },
+   {
+    "value": "NUKAT|n  94200767",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][145] (tag 998 $2)"
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][146] (tag 998 $2)"
+   },
+   {
+    "value": "NYNYRILM|1598",
+    "raw": "Clemens, Samuel Langhorne (Mark Twain)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][147] (tag 998 $2)"
+   },
+   {
+    "value": "B2Q|0000005713",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][148] (tag 998 $2)"
+   },
+   {
+    "value": "NII|DA00300263",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][149] (tag 998 $2)"
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][150] (tag 998 $2)"
+   },
+   {
+    "value": "PTBNP|46269",
+    "raw": "Twain, Mark, pseud.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][151] (tag 998 $2)"
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][152] (tag 998 $2)"
+   },
+   {
+    "value": "SKMASNL|vtls005928524",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][153] (tag 998 $2)"
+   },
+   {
+    "value": "W2Z|90056487",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][154] (tag 998 $2)"
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][155] (tag 998 $2)"
+   },
+   {
+    "value": "NSK|000047578",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][156] (tag 998 $2)"
+   }
+  ]
+ }
+}

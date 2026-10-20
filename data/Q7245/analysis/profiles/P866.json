@@ -1,0 +1,379 @@
+{
+ "property": "P866",
+ "property_label": "Perlentaucher ID",
+ "files": [
+  {
+   "file": "P866__mark-twain/alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.perlentaucher.de/autor/mark-twain.html?r=rss"
+  }
+ ],
+ "formats": {
+  "feed": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:BOOK AUTHOR heading",
+    "file": "P866.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel (Langhorne) Clemens",
+    "lang": "en",
+    "via": "llm-page:bio: 'whose real name was Samuel (Langhorne) Clemens'",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "de",
+    "via": "llm-page:keyword list (STICHWÖRTER)",
+    "file": "P866.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, USA",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "printer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi riverboat pilot",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "gold prospector",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "reporter",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "American realism",
+    "lang": "en",
+    "via": "llm-page:bio: 'a major figure in American realism'",
+    "file": "P866.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain, whose real name was Samuel (Langhorne) Clemens, was born in 1835 in Florida, USA. Before he began writing, Twain worked as a printer, a Mississippi riverboat pilot, a gold prospector, and a reporter. As a writer, he was a major figure in American realism. His two most famous books—\"The Adventures of Tom Sawyer\" (1876) and its sequel, \"The Adventures of Huckleberry Finn\" (1884)—are considered classics of world literature. Twain died in 1910 in Redding, Connecticut.",
+    "lang": "en",
+    "via": "llm-page:bio under BOOK AUTHOR heading (machine-translated rendering)",
+    "file": "P866.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Traveling with the Unsuspecting. The Original Reports from Europe and the Holy Land",
+    "lang": "en",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "The Disappearance of Prince Oleomargarine",
+    "lang": "en",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Reports from the Imperial Council 1898/1899",
+    "lang": "en",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "The news of my death has been greatly exaggerated. My last secrets",
+    "lang": "en",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "I am the most ass-like person I have ever known. New secrets of my autobiography",
+    "lang": "en",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Meine geheime Autobiographie",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Post aus Hawaii",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Sommerwogen. Eine Liebe in Briefen",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Knallkopf Wilson",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer & Huckleberry Finn",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Bummel durch Europa",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Die schreckliche deutsche Sprache",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Bummel durch Deutschland",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finns Abenteuer",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abenteuer",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Twains Tierleben",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Eine Bluttat, ein Betrug, ein Bund fürs Leben",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Nr. 44. Der geheimnisvolle Fremde",
+    "lang": "de",
+    "via": "llm-page:book list",
+    "file": "P866.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Livy Langdon",
+    "lang": "de",
+    "via": "llm-page:keyword list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Andrew Carnegie",
+    "lang": "de",
+    "via": "llm-page:keyword list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dickens",
+    "lang": "de",
+    "via": "llm-page:keyword list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "Theodore Roosevelt",
+    "lang": "de",
+    "via": "llm-page:keyword list",
+    "file": "P866.json",
+    "uri": false
+   },
+   {
+    "value": "George Bernard Shaw",
+    "lang": "de",
+    "via": "llm-page:keyword list",
+    "file": "P866.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "de",
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "de",
+   "en"
+  ],
+  "related_agent": [
+   "de"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Perlentaucher book-author page: short bio and a list of 23 German editions with publisher, ISBN, blurbs and review-note counts, plus keyword tags. The rendered text is partly machine-translated into English (bio and first entries) and partly original German; 'born in Florida, USA' refers to Florida, Missouri as written.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

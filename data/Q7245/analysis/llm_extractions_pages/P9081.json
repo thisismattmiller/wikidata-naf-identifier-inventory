@@ -1,0 +1,43 @@
+{
+ "property": "P9081",
+ "label": "SEARCH on line catalogue ID",
+ "files_read": ["pages/P9081__14083.txt", "pages/P9081__20770.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Two Koha MARC-view authority records from SEARCH-LibNet (foreign academies in Rome, sourced from URBS/DLC): 14083 for Twain, Mark, 1835-1910 and 20770 for the pseudonym Snodgrass, Quintus Curtius, 1835-1910. Both fully visible, both used in 0 bibliographic records; minimal content (headings, cross-references, 670 OCLC-CD).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": null, "via": "100 heading (record 14083)"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "lang": null, "via": "100 heading (record 20770, pseudonym record)"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "500 see also (record 14083)"}
+  ],
+  "pseudonym": [
+   {"value": "Alden, Jean François, 1835-1910", "lang": null, "via": "400 (record 14083)"},
+   {"value": "Conte, Louis de, 1835-1910", "lang": null, "via": "400 (record 14083)"},
+   {"value": "De Conte, Louis, 1835-1910", "lang": null, "via": "400 (record 14083)"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "lang": null, "via": "500 see also (record 14083)"},
+   {"value": "Twain, Mark, 1835-1910", "lang": null, "via": "500 see also (record 20770)"}
+  ],
+  "birth_date": [{"value": "1835", "lang": null, "via": "100 dates"}],
+  "death_date": [{"value": "1910", "lang": null, "via": "100 dates"}],
+  "identifier": [
+   {"value": "14083", "via": "001 control number (Twain)"},
+   {"value": "20770", "via": "001 control number (Snodgrass)"},
+   {"value": ".a10094295", "via": "907 (Twain record)"},
+   {"value": ".a10195427", "via": "907 (Snodgrass record)"}
+  ],
+  "source": [
+   {"value": "OCLC-CD", "via": "670 (both records)"},
+   {"value": "Original cataloging agency DLC; ItRURBS", "via": "040"}
+  ],
+  "record_created": [
+   {"value": "1994-10-29", "raw": "008: 941029", "via": "008 (record 14083)"},
+   {"value": "1995-10-09", "raw": "008: 951009", "via": "008 (record 20770)"}
+  ],
+  "record_modified": [
+   {"value": "2014-12-17", "raw": "20141217214051.0 (14083); 20141217214209.0 (20770)", "via": "005"}
+  ]
+ }
+}

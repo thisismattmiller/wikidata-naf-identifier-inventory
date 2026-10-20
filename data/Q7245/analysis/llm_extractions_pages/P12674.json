@@ -1,0 +1,58 @@
+{
+ "property": "P12674",
+ "label": "Kunstenpunt Knowledge Graph ID",
+ "files_read": [
+  "pages/P12674__Q142191.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Wikibase item in the Kunstenpunt Knowledge Graph: Dutch label 'Mark Twain', description 'Person from data.kunsten.be, ingested as an Uitvoerder', statements including a data.kunsten.be URI and Wikidata item Q7245. Statement values shown only as local Q/P ids.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "Dutch label"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain Mark",
+    "lang": "nl",
+    "via": "statement P31 value 'Twain Mark (Dutch)'"
+   }
+  ],
+  "description": [
+   {
+    "value": "Person from data.kunsten.be, ingested as an Uitvoerder",
+    "lang": "en",
+    "via": "Dutch description"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://data.kunsten.be/people/1884188",
+    "via": "statement P26"
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "raw": "Q7245",
+    "via": "statement 'wikidata item'"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Q142191",
+    "via": "item heading"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-03-30",
+    "lang": "en",
+    "via": "page footer",
+    "raw": "30 March 2024, at 22:11"
+   }
+  ]
+ }
+}

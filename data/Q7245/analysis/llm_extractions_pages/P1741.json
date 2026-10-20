@@ -1,0 +1,101 @@
+{
+ "property": "P1741",
+ "label": "GTAA ID",
+ "files_read": [
+  "pages/P1741__160094.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Beeld & Geluid LOD view of GTAA person concept 160094: prefLabel, scope note 'schrijver VS', dates accepted/modified, exactMatch to Discogs and another scheme, CC0 license; 10 resources are about him.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "nl",
+    "via": "skos:prefLabel"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "skosxl:hiddenLabel / exactMatch label"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "schrijver",
+    "lang": "nl",
+    "via": "skos:scopeNote 'schrijver VS'"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "VS",
+    "lang": "nl",
+    "via": "skos:scopeNote 'schrijver VS'"
+   }
+  ],
+  "description": [
+   {
+    "value": "schrijver VS",
+    "lang": "nl",
+    "via": "skos:scopeNote"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "discogs:463414",
+    "lang": null,
+    "via": "skos:exactMatch"
+   },
+   {
+    "value": "som:524a74d7e9016bdfd700366fde1d00ba",
+    "lang": null,
+    "via": "skos:exactMatch"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "160094",
+    "lang": null,
+    "via": "skos:notation"
+   },
+   {
+    "value": "http://data.beeldengeluid.nl/gtaa/160094",
+    "lang": null,
+    "via": "subject URI"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2007-11-24",
+    "raw": "2007-11-24T14:48:58+00:00",
+    "lang": null,
+    "via": "dcterms:dateSubmitted / dateAccepted"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-05-24",
+    "raw": "2024-05-24T08:16:03+00:00",
+    "lang": null,
+    "via": "dcterms:modified"
+   }
+  ],
+  "license": [
+   {
+    "value": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "lang": null,
+    "via": "sdo:sdLicense"
+   }
+  ],
+  "source": [
+   {
+    "value": "https://www.beeldengeluid.nl/",
+    "lang": null,
+    "via": "sdo:sdPublisher"
+   }
+  ]
+ }
+}

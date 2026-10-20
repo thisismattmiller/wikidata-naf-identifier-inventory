@@ -1,0 +1,13 @@
+{
+ "property": "P7769",
+ "label": "Australian National Maritime Museum person ID",
+ "files_read": ["P7769__4128/embedded_microdata.json", "P7769__4128/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "Minimal page metadata: a schema.org Person with only a name, and OpenGraph title/URL.",
+ "elements": {
+   "name_preferred": [
+     {"value": "Mark Twain", "lang": null, "via": "embedded_microdata.json: $[0].name"}
+   ],
+   "identifier": [{"value": "4128", "raw": "https://collections.sea.museum/en/people/4128/mark-twain", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

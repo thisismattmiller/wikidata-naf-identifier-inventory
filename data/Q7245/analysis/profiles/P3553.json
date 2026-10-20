@@ -1,0 +1,970 @@
+{
+ "property": "P3553",
+ "property_label": "Zhihu topic ID",
+ "files": [
+  {
+   "file": "P3553__19802601/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.zhihu.com/topic/19802601/hot"
+  },
+  {
+   "file": "P3553__19802601/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.zhihu.com/topic/19802601/hot"
+  },
+  {
+   "file": "P3553__19802601/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.zhihu.com/api/v4/search/preset_words"
+  },
+  {
+   "file": "P3553__19802601/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.zhihu.com/api/v4/topics/19802601/wiki/edit_info"
+  },
+  {
+   "file": "P3553__19802601/xhr_3.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.zhihu.com/api/v4/topics/19802601/intro?include=content.meta.content.photos"
+  },
+  {
+   "file": "P3553__19802601/xhr_10.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.zhihu.com/sc-profiler"
+  },
+  {
+   "file": "P3553__19802601/xhr_11.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.zhihu.com/api/v3/oauth/sms/supported_countries"
+  },
+  {
+   "file": "P3553__19802601/xhr_12.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.zhihu.com/api/v3/account/api/login/qrcode"
+  },
+  {
+   "file": "P3553__19802601/xhr_13.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.zhihu.com/api/v3/oauth/captcha/v2?type=captcha_sign_in&scene=digits_login"
+  },
+  {
+   "file": "P3553__19802601/xhr_14.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch"
+  },
+  {
+   "file": "P3553__19802601/xhr_16.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://118.89.204.198/resolv?host=www.zhihu.com&os_type=web"
+  },
+  {
+   "file": "P3553__19802601/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.zhihu.com/topic/19802601"
+  },
+  {
+   "file": "P3553__19802601/conneg_2.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.zhihu.com/topic/19802601"
+  },
+  {
+   "file": "P3553__19802601/conneg_3.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.zhihu.com/topic/19802601"
+  },
+  {
+   "file": "P3553__19802601/conneg_4.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.zhihu.com/topic/19802601"
+  },
+  {
+   "file": "P3553__19802601/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://www.zhihu.com/api/v4/search/preset_words"
+  },
+  {
+   "file": "P3553__19802601/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://www.zhihu.com/api/v4/topics/19802601/intro?include=content.meta.content.photos"
+  },
+  {
+   "file": "P3553__19802601/browser_xhr_10.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://www.zhihu.com/api/v3/oauth/sms/supported_countries"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "rdfa": 1,
+  "unknown": 9,
+  "json": 7
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 3,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "马克·吐温，男，美国人，英文名是Mark Twain，生于1835年11月30日，死于1910年4月21日 ，原名萨缪尔·兰亨·克莱门，英文名叫Samuel Langhorne Clemens，作家、演说家。主要作品有《傻瓜国外旅行记》、《竞选州长》、《艰难历程》、《镀金时代》、《汤姆·索亚历险记》、《卡拉维拉斯郡著名的跳蛙》、《康涅狄格最近的狂欢节上的罪行纪实》、《国外旅游记》、《王子与乞丐》、《哈克贝利·费恩历险记》、《密西西比河上的生活》…",
+    "lang": null,
+    "via": "json:description",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温，男，美国人，英文名是Mark Twain，生于1835年11月30日，死于1910年4月21日 ，原名萨缪尔·兰亨·克莱门，英文名叫Samuel Langhorne Clemens，作家、演说家。主要作品有《傻瓜国外旅行记》、《竞选州长》、《艰难历程》、《镀金时代》、《汤姆·索亚历险记》、《卡拉维拉斯郡著名的跳蛙》、《康涅狄格最近的狂欢节上的罪行纪实》、《国外旅游记》、《王子与乞丐》、《哈克贝利·费恩历险记》、《密西西比河上的生活》…",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, male, American, born November 30, 1835, died April 21, 1910, his original name was Samuel Langhorne Clemens, and his English name was Samuel Langhorne Clemens. He was an author and orator.",
+    "lang": "en",
+    "via": "llm-page:topic introduction (machine-translated from Chinese)",
+    "file": "P3553.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://www.zhihu.com/topic/19802601",
+    "lang": null,
+    "via": "json:url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "马克·吐温",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].name",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:topic heading",
+    "file": "P3553.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://picx.zhimg.com/v2-47d85fe31df4fa572ebdb4ebe7c1f1da_qhd.jpg?source=57bbeac9",
+    "lang": null,
+    "via": "json:image",
+    "file": "embedded_microdata.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: [0].description ('英文名是Mark Twain')",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "萨缪尔·兰亨·克莱门",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description ('原名萨缪尔·兰亨·克莱门')",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: [0].description ('英文名叫Samuel Langhorne Clemens')",
+    "file": "P3553.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:intro",
+    "file": "P3553.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:intro",
+    "file": "P3553.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "llm-page:intro",
+    "file": "P3553.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "美国人",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:intro",
+    "file": "P3553.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "作家",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "演说家",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:intro",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:intro",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "orator",
+    "lang": "en",
+    "via": "llm-page:intro",
+    "file": "P3553.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "傻瓜国外旅行记",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "竞选州长",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "艰难历程",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "镀金时代",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "汤姆·索亚历险记",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "卡拉维拉斯郡著名的跳蛙",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "康涅狄格最近的狂欢节上的罪行纪实",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "国外旅游记",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "王子与乞丐",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "哈克贝利·费恩历险记",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "密西西比河上的生活",
+    "lang": "zh",
+    "via": "llm:embedded_microdata.json: [0].description",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Running for Governor",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "The Hard Road",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "The Famous Jumping Frog of Calaveras County",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "The Crimes of the Recent Carnival in Connecticut",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Travels Abroad",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Beggar",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "The Connecticut American at King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "The Million Pound Note",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Foolish Wilson",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Jan Duck",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Detective Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Travels on the Equator",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "To the Man Sitting in the Dark",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Autobiography",
+    "lang": "en",
+    "via": "llm-page:intro: major works",
+    "file": "P3553.json",
+    "uri": false
+   },
+   {
+    "value": "One million pounds (books)",
+    "lang": "en",
+    "via": "llm-page:Subtopics",
+    "file": "P3553.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "19802601",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: [0].url (https://www.zhihu.com/topic/19802601)",
+    "file": "P3553.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [
+   "en",
+   "zh"
+  ],
+  "see_also": [],
+  "name_preferred": [
+   "en",
+   "zh"
+  ],
+  "image": [],
+  "name_variant": [
+   "en",
+   "zh"
+  ],
+  "birth_date": [
+   "en",
+   "zh"
+  ],
+  "death_date": [
+   "en",
+   "zh"
+  ],
+  "gender": [
+   "en",
+   "zh"
+  ],
+  "nationality": [
+   "en",
+   "zh"
+  ],
+  "occupation": [
+   "en",
+   "zh"
+  ],
+  "work": [
+   "en",
+   "zh"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 931,
+   "path_count": 9,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "Thing"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].description",
+     "n": 1,
+     "sample": "马克·吐温，男，美国人，英文名是Mark Twain，生于1835年11月30日，死于1910年4月21日 ，原名萨缪尔·兰亨·克莱门，英文名叫Samuel Langhorne Clemens，作家、演说家。主要作品有《傻瓜国外旅行记》、《"
+    },
+    {
+     "path": "[].url",
+     "n": 1,
+     "sample": "https://www.zhihu.com/topic/19802601"
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "马克·吐温"
+    },
+    {
+     "path": "[].image",
+     "n": 1,
+     "sample": "https://picx.zhimg.com/v2-47d85fe31df4fa572ebdb4ebe7c1f1da_qhd.jpg?source=57bbeac9"
+    },
+    {
+     "path": "[].zhihu:bestAnswersCount",
+     "n": 1,
+     "sample": "1778"
+    },
+    {
+     "path": "[].zhihu:unansweredCount",
+     "n": 1,
+     "sample": "230"
+    },
+    {
+     "path": "[].zhihu:questionsCount",
+     "n": 1,
+     "sample": "230"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].description",
+     "value": "马克·吐温，男，美国人，英文名是Mark Twain，生于1835年11月30日，死于1910年4月21日 ，原名萨缪尔·兰亨·克莱门，英文名叫Samuel Langhorne Clemens，作家、演说家。主要作品有《傻瓜国外旅行记》、《竞选州长》、《艰难历程》、《镀金时代》、《汤姆·索亚历险记》、《卡拉维拉斯郡著名的跳蛙》、《康涅狄格最近的狂欢节上的罪行纪实》、《国外旅游记》、《王子与乞丐》、"
+    },
+    {
+     "path": "[].name",
+     "value": "马克·吐温"
+    }
+   ],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 38,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "can_edit",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "has_commit",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_12.json",
+   "format": "json",
+   "size": 82,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "error.code",
+     "n": 1,
+     "sample": "405"
+    },
+    {
+     "path": "error.name",
+     "n": 1,
+     "sample": "MethodNotAllowed"
+    },
+    {
+     "path": "error.message",
+     "n": 1,
+     "sample": "HTTP 方法不支持"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_13.json",
+   "format": "json",
+   "size": 257,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "script[]",
+     "n": 2,
+     "sample": "https://cstaticdun.126.net/load.min.js"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_16.json",
+   "format": "json",
+   "size": 211,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "dns[].ips[]",
+     "n": 7,
+     "sample": "116.153.78.163"
+    },
+    {
+     "path": "dns[].host",
+     "n": 1,
+     "sample": "www.zhihu.com"
+    },
+    {
+     "path": "dns[].client_ip",
+     "n": 1,
+     "sample": "81.69.206.49"
+    },
+    {
+     "path": "dns[].ttl",
+     "n": 1,
+     "sample": "50"
+    },
+    {
+     "path": "dns[].origin_ttl",
+     "n": 1,
+     "sample": "60"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ips[]",
+    "ttl"
+   ]
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 27440,
+   "path_count": 24,
+   "paths": [
+    {
+     "path": "preset_words.words[].id",
+     "n": 30,
+     "sample": "8429244297618906208"
+    },
+    {
+     "path": "preset_words.words[].type",
+     "n": 30,
+     "sample": "general"
+    },
+    {
+     "path": "preset_words.words[].query",
+     "n": 30,
+     "sample": "25岁女画师约稿被骗4万后坠亡"
+    },
+    {
+     "path": "preset_words.words[].real_query",
+     "n": 30,
+     "sample": "25岁女画师约稿被骗4万后坠亡"
+    },
+    {
+     "path": "preset_words.words[].weight",
+     "n": 30,
+     "sample": "1"
+    },
+    {
+     "path": "preset_words.words[].begin_ts",
+     "n": 30,
+     "sample": "1791004332"
+    },
+    {
+     "path": "preset_words.words[].end_ts",
+     "n": 30,
+     "sample": "1791007932"
+    },
+    {
+     "path": "preset_words.words[].valid",
+     "n": 30,
+     "sample": "1"
+    },
+    {
+     "path": "preset_words.words[].ad_commercial_json",
+     "n": 30,
+     "sample": null
+    },
+    {
+     "path": "preset_words.words[].uuid",
+     "n": 30,
+     "sample": "73c25c0a-36d9-43d2-95a2-f209e329c7c1"
+    },
+    {
+     "path": "preset_words.words[].is_force",
+     "n": 30,
+     "sample": "False"
+    },
+    {
+     "path": "preset_words.words[].attached_info",
+     "n": 30,
+     "sample": "OmsSIDJmYWYwYWRiN2FlMTIzZWY3NzNkNWIxMGJjZTkzNTJlggMgMmZhZjBhZGI3YWUxMjNlZjc3M2Q1YjEwYmNlOTM1MmXyAyBlMjY5NDNjYzkyMWViZWVm"
+    },
+    {
+     "path": "preset_words.words[].score",
+     "n": 30,
+     "sample": "0"
+    },
+    {
+     "path": "preset_words.words[].recall_source",
+     "n": 30,
+     "sample": "sapphire_top_hot"
+    },
+    {
+     "path": "preset_words.words[].source",
+     "n": 30,
+     "sample": null
+    },
+    {
+     "path": "preset_words.words[].preset_word_ad_commercial_json",
+     "n": 30,
+     "sample": null
+    },
+    {
+     "path": "preset_words.words[].request_click_id",
+     "n": 30,
+     "sample": "733b6541-a004-4614-8172-410a836eaf59"
+    },
+    {
+     "path": "preset_words.words[].label",
+     "n": 25,
+     "sample": "hot"
+    },
+    {
+     "path": "preset_words.words[].image_item.icon_url",
+     "n": 25,
+     "sample": "https://picx.zhimg.com/v2-31e3b0a5b920d516c5813145d88397b1.png"
+    },
+    {
+     "path": "preset_words.words[].image_item.width",
+     "n": 25,
+     "sample": "16"
+    },
+    {
+     "path": "preset_words.words[].image_item.height",
+     "n": 25,
+     "sample": "15"
+    },
+    {
+     "path": "preset_words.NextRequestTs",
+     "n": 1,
+     "sample": "1791004932"
+    },
+    {
+     "path": "request_hash_id",
+     "n": 1,
+     "sample": "2faf0adb7ae123ef773d5b10bce9352e"
+    },
+    {
+     "path": "attached_info",
+     "n": 1,
+     "sample": "OmsSIDJmYWYwYWRiN2FlMTIzZWY3NzNkNWIxMGJjZTkzNTJlggMgMmZhZjBhZGI3YWUxMjNlZjc3M2Q1YjEwYmNlOTM1MmXyAyBlMjY5NDNjYzkyMWViZWVm"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 89,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "error.message",
+     "n": 1,
+     "sample": "请求参数异常，请升级客户端后重试。"
+    },
+    {
+     "path": "error.code",
+     "n": 1,
+     "sample": "10003"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_10.json",
+   "format": "json",
+   "size": 11741,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "data[].is_host",
+     "n": 50,
+     "sample": "True"
+    },
+    {
+     "path": "data[].code",
+     "n": 50,
+     "sample": "+86"
+    },
+    {
+     "path": "data[].name",
+     "n": 50,
+     "sample": "中国"
+    },
+    {
+     "path": "data[].abbr",
+     "n": 50,
+     "sample": "CN"
+    },
+    {
+     "path": "count",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "version",
+     "n": 1,
+     "sample": "2026_271_12_22"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Zhihu topic page 'Mark Twain' with a short encyclopedia intro and list of major works; the captured text appears machine-translated into English (titles are back-translations of Chinese titles, e.g. 'The Prince and the Beggar', 'Foolish Wilson'). Rest of page is login prompts; parent topic 'American writer'.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

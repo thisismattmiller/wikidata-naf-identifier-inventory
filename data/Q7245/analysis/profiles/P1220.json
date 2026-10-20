@@ -1,0 +1,261 @@
+{
+ "property": "P1220",
+ "property_label": "Internet Broadway Database person ID",
+ "files": [
+  {
+   "file": "P1220__11201/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.ibdb.com/broadway-cast-staff/mark-twain-11201"
+  },
+  {
+   "file": "P1220__13531/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.ibdb.com/broadway-cast-staff/samuel-clemens-13531"
+  }
+ ],
+ "formats": {
+  "rdfa": 2
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "http://ogp.me/ns/fb#": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading (11201)",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:page heading (13531)",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:Also Known As (11201)",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Also Known As (13531)",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:Born (both pages)",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:Died (both pages)",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, USA",
+    "lang": "en",
+    "via": "llm-page:Born (11201)",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, USA",
+    "lang": "en",
+    "via": "llm-page:Died (11201)",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "Male",
+    "lang": "en",
+    "via": "llm-page:Gender",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Writer Source Material",
+    "lang": "en",
+    "via": "llm-page:role line under dates",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Is He Dead?",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "The Diary of Adam and Eve",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain Tonight!",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "Big River",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "Livin' The Life",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "Shadows of the Past",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'n-head Wilson",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Frank R. Stockton (co-source of The Apple Tree)",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "Jules Feiffer (co-source of The Apple Tree)",
+    "lang": "en",
+    "via": "llm-page:Credits",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "11201",
+    "lang": null,
+    "via": "llm-page:URL broadway-cast-staff/11201 (Mark Twain)",
+    "file": "P1220.json",
+    "uri": false
+   },
+   {
+    "value": "13531",
+    "lang": null,
+    "via": "llm-page:URL broadway-cast-staff/13531 (Samuel Clemens)",
+    "file": "P1220.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "gender": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Two IBDB person pages, 11201 'Mark Twain' and 13531 'Samuel Clemens', each cross-referencing the other as 'Also Known As'; both list the same Broadway credits as source-material writer. Only 11201 gives birth/death places.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

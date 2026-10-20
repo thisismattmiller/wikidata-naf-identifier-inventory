@@ -1,0 +1,206 @@
+{
+ "property": "P3794",
+ "property_label": "Dictionary of Sydney ID",
+ "files": [
+  {
+   "file": "P3794__person_twain_mark_ef377f75/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://dictionaryofsydney.org/person/twain_mark"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:'Name – Birth'",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Milestone 'Born'",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Milestone 'Died'",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, United States of America",
+    "lang": "en",
+    "via": "llm-page:Milestone 'Born'",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Sydney",
+    "lang": "en",
+    "via": "llm-page:Occupation 'Visitor 1895'",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Writer",
+    "lang": "en",
+    "via": "llm-page:'Occupation'",
+    "file": "P3794.json",
+    "uri": false
+   },
+   {
+    "value": "Visitor",
+    "lang": "en",
+    "via": "llm-page:'Occupation'",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Novels",
+    "lang": "en",
+    "via": "llm-page:'Subjects'",
+    "file": "P3794.json",
+    "uri": false
+   },
+   {
+    "value": "Travel writing",
+    "lang": "en",
+    "via": "llm-page:'Subjects'",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Americans",
+    "lang": "en",
+    "via": "llm-page:description / 'Subjects'",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "American author and humorist.",
+    "lang": "en",
+    "via": "llm-page:summary under heading",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Living with sharks on the Georges River (entry mentioning him)",
+    "lang": "en",
+    "via": "llm-page:'Mentioned in'",
+    "file": "P3794.json",
+    "uri": false
+   },
+   {
+    "value": "Sydney Harbour: A Cultural Landscape (entry mentioning him)",
+    "lang": "en",
+    "via": "llm-page:'Mentioned in'",
+    "file": "P3794.json",
+    "uri": false
+   },
+   {
+    "value": "Tourism (entry mentioning him)",
+    "lang": "en",
+    "via": "llm-page:'Mentioned in'",
+    "file": "P3794.json",
+    "uri": false
+   },
+   {
+    "value": "Americans (entry mentioning him)",
+    "lang": "en",
+    "via": "llm-page:'Mentioned in'",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "twain_mark",
+    "lang": null,
+    "via": "llm-page:URL (/person/twain_mark)",
+    "file": "P3794.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Dictionary of Sydney (archived 2021) person entity 'Twain, Mark': one-line description, birth/death milestones, birth name, occupation, a 'Visitor 1895' role, and links to entries that mention him and subject tags.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

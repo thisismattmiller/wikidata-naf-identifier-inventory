@@ -1,0 +1,1645 @@
+{
+ "property": "P9995",
+ "property_label": "MYmovies person ID",
+ "files": [
+  {
+   "file": "P9995__106220/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.mymovies.it/persone/mark-twain/106220/"
+  },
+  {
+   "file": "P9995__106220/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.mymovies.it/persone/mark-twain/106220/"
+  },
+  {
+   "file": "P9995__106220/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.mymovies.it/persone/mark-twain/106220/"
+  },
+  {
+   "file": "P9995__106220/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.mymovies.it/one/common/get-user-info.php"
+  },
+  {
+   "file": "P9995__106220/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://pebed.dm-event.net/"
+  },
+  {
+   "file": "P9995__106220/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.iubenda.com/cs/tcf/v3-versioned/vendorlist.179.json"
+  },
+  {
+   "file": "P9995__106220/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.iubenda.com/cs/tcf/gac-vendors.json"
+  },
+  {
+   "file": "P9995__106220/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://idb.iubenda.com/csdata?db=hits1"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 5
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 6,
+  "LLM extraction": 2,
+  "http://schema.org/": 1,
+  "http://www.w3.org/1999/xhtml/vocab#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "it",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P9995.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain (USA). Biografia, filmografia, premi, trailer, news e rassegna stampa.",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain ha lavorato come scrittore, sceneggiatore, è nato il 30 novembre 1835 ed è morto il 21 aprile 1910 all'età di 74 anni (USA).",
+    "lang": "it",
+    "via": "llm-page:bio sentence",
+    "file": "P9995.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "USA",
+    "lang": "it",
+    "via": "llm:embedded_opengraph.json: og:description ('Mark Twain (USA)')",
+    "file": "P9995.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "106220",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url (https://www.mymovies.it/persone/mark-twain/106220/)",
+    "file": "P9995.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "it",
+    "via": "llm-page:Nascita",
+    "file": "P9995.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "it",
+    "via": "llm-page:Morte",
+    "file": "P9995.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "scrittore",
+    "lang": "it",
+    "via": "llm-page:bio sentence",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "sceneggiatore",
+    "lang": "it",
+    "via": "llm-page:bio sentence",
+    "file": "P9995.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Band of Robbers",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer and Huckleberry Finn",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Le fiabe Walt Disney. Il principe e il povero-La leggenda della valle addormentata",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Le avventure di Tom Sawyer e Huck Finn",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Le avventure di Huck Finn",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Il ritorno di Tom Sawyer",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Gli innocenti vanno all'estero",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Lo straniero misterioso",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn e i suoi amici",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Il principe e il povero",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Le avventure di Tom Sawyer",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   },
+   {
+    "value": "Le avventure di Huckleberry Finn",
+    "lang": "it",
+    "via": "llm-page:Ultimi film / I film più famosi",
+    "file": "P9995.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "it"
+  ],
+  "description": [
+   "it"
+  ],
+  "nationality": [
+   "it"
+  ],
+  "identifier": [],
+  "birth_date": [
+   "it"
+  ],
+  "death_date": [
+   "it"
+  ],
+  "occupation": [
+   "it"
+  ],
+  "work": [
+   "it"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 328,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.mymovies.it/persone/mark-twain/106220/"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "MYmovies.it"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Mark Twain (USA). Biografia, filmografia, premi, trailer, news e rassegna stampa."
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "movie"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.mymovies.it/persone/mark-twain/106220/"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Mark Twain (USA). Biografia, filmografia, premi, trailer, news e rassegna stampa."
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 90,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "logged",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "iduser",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "cluster",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "adv_mode",
+     "n": 1,
+     "sample": "ALL"
+    },
+    {
+     "path": "prov",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "prov_url",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 33,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "nok"
+    },
+    {
+     "path": "error_code",
+     "n": 1,
+     "sample": "405"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 816787,
+   "path_count": 19976,
+   "paths": [
+    {
+     "path": "vendors.350.urls[].langId",
+     "n": 31,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.350.urls[].privacy",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en"
+    },
+    {
+     "path": "vendors.350.urls[].legIntClaim",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en#sec-11"
+    },
+    {
+     "path": "vendors.351.urls[].langId",
+     "n": 31,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.351.urls[].privacy",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en"
+    },
+    {
+     "path": "vendors.351.urls[].legIntClaim",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en#sec-11"
+    },
+    {
+     "path": "vendors.53.urls[].langId",
+     "n": 27,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.53.urls[].privacy",
+     "n": 27,
+     "sample": "https://www.sirdata.com/en/Privacy"
+    },
+    {
+     "path": "vendors.53.urls[].legIntClaim",
+     "n": 27,
+     "sample": "https://www.sirdata.com/en/Privacy#legitimateinterest"
+    },
+    {
+     "path": "vendors.1154.urls[].langId",
+     "n": 24,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.1154.urls[].privacy",
+     "n": 24,
+     "sample": "https://alphonso.tv/privacy/smart-tvs/smart-tv-privacy-policy-eu/"
+    },
+    {
+     "path": "vendors.1154.urls[].legIntClaim",
+     "n": 24,
+     "sample": "https://alphonso.tv/privacy/smart-tvs/smart-tv-privacy-policy-eu/"
+    },
+    {
+     "path": "vendors.755.urls[].langId",
+     "n": 23,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.755.urls[].privacy",
+     "n": 23,
+     "sample": "https://business.safety.google/privacy/"
+    },
+    {
+     "path": "vendors.755.urls[].legIntClaim",
+     "n": 23,
+     "sample": "https://policies.google.com/privacy#europeanrequirements"
+    },
+    {
+     "path": "vendors.726.urls[].langId",
+     "n": 20,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.726.urls[].privacy",
+     "n": 20,
+     "sample": "https://account.yougov.com/gb-en/account/privacy-policy"
+    },
+    {
+     "path": "vendors.726.urls[].legIntClaim",
+     "n": 20,
+     "sample": "https://account.yougov.com/gb-en/account/privacy-policy"
+    },
+    {
+     "path": "vendors.624.urls[].langId",
+     "n": 15,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.624.urls[].privacy",
+     "n": 15,
+     "sample": "https://www.norstatpanel.com/en/data-protection"
+    },
+    {
+     "path": "vendors.1336.urls[].langId",
+     "n": 13,
+     "sample": "cs"
+    },
+    {
+     "path": "vendors.1336.urls[].privacy",
+     "n": 13,
+     "sample": "https://www.glami.cz/info/privacy/"
+    },
+    {
+     "path": "vendors.1336.urls[].legIntClaim",
+     "n": 13,
+     "sample": "https://www.glami.cz/info/privacy/"
+    },
+    {
+     "path": "vendors.790.urls[].langId",
+     "n": 12,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.790.urls[].privacy",
+     "n": 12,
+     "sample": "https://policy.samsungrs.com/consent/eu/nsc/privacy_policy_en.html"
+    },
+    {
+     "path": "vendors.790.urls[].legIntClaim",
+     "n": 12,
+     "sample": "https://policy.samsungrs.com/consent/eu/nsc/privacy_policy_en.html#gdpr-article"
+    },
+    {
+     "path": "vendors.1015.urls[].langId",
+     "n": 12,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.1015.urls[].privacy",
+     "n": 12,
+     "sample": "https://policy.samsungrs.com/consent/eu/nsc/privacy_policy_en.html"
+    },
+    {
+     "path": "vendors.1015.urls[].legIntClaim",
+     "n": 12,
+     "sample": "https://policy.samsungrs.com/consent/eu/nsc/privacy_policy_en.html#gdpr-article"
+    },
+    {
+     "path": "vendors.9.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.24.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.25.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.34.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.42.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.44.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.66.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.71.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.76.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.85.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.87.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.94.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.95.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.154.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.164.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.209.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.224.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.239.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.252.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.253.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.272.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.284.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.310.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.325.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.333.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.374.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.388.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.397.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.423.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.461.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.469.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.488.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.546.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.554.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.565.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.581.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.614.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.621.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.623.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.631.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.648.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.655.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.682.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.712.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.715.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.718.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.736.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.750.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.750.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.768.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.783.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.790.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.811.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.831.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.855.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.858.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.868.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.874.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.880.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.880.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.884.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.910.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.941.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.952.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.952.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.955.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.955.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.962.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1001.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1029.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1035.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1047.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1063.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1068.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1080.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1089.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1098.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1101.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1101.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1105.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1113.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1137.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1151.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1153.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1153.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1154.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1224.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1226.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1241.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1251.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1258.purposes[]",
+     "n": 11,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 68679,
+   "path_count": 1426,
+   "paths": [
+    {
+     "path": "20.provider_name",
+     "n": 1,
+     "sample": "Eacnur"
+    },
+    {
+     "path": "20.policy_url",
+     "n": 1,
+     "sample": "https://eacnur.org/es/politica-privacidad"
+    },
+    {
+     "path": "43.provider_name",
+     "n": 1,
+     "sample": "AdPredictive"
+    },
+    {
+     "path": "43.policy_url",
+     "n": 1,
+     "sample": "https://adpredictive.com/privacy"
+    },
+    {
+     "path": "46.provider_name",
+     "n": 1,
+     "sample": "Adriver"
+    },
+    {
+     "path": "46.policy_url",
+     "n": 1,
+     "sample": "https://www.adriver.ru/about/privacy-en/"
+    },
+    {
+     "path": "55.provider_name",
+     "n": 1,
+     "sample": "Adtelligence"
+    },
+    {
+     "path": "55.policy_url",
+     "n": 1,
+     "sample": "https://adtelligence.com/en/data-privacy/"
+    },
+    {
+     "path": "57.provider_name",
+     "n": 1,
+     "sample": "Adverline"
+    },
+    {
+     "path": "57.policy_url",
+     "n": 1,
+     "sample": "https://www.adverline.com/privacy/privacy.html"
+    },
+    {
+     "path": "61.provider_name",
+     "n": 1,
+     "sample": "Artsai"
+    },
+    {
+     "path": "61.policy_url",
+     "n": 1,
+     "sample": "https://artsai.com/privacy/"
+    },
+    {
+     "path": "70.provider_name",
+     "n": 1,
+     "sample": "Akamai"
+    },
+    {
+     "path": "70.policy_url",
+     "n": 1,
+     "sample": "http://www.akamai.com/compliance/privacy"
+    },
+    {
+     "path": "83.provider_name",
+     "n": 1,
+     "sample": "Arbigo Inc."
+    },
+    {
+     "path": "83.policy_url",
+     "n": 1,
+     "sample": "http://www.arbigo.com/terms--policy.html"
+    },
+    {
+     "path": "89.provider_name",
+     "n": 1,
+     "sample": "Meta"
+    },
+    {
+     "path": "89.policy_url",
+     "n": 1,
+     "sample": "https://www.facebook.com/about/privacy/update"
+    },
+    {
+     "path": "93.provider_name",
+     "n": 1,
+     "sample": "Aunica"
+    },
+    {
+     "path": "93.policy_url",
+     "n": 1,
+     "sample": "https://aunica.com/privacy-policy/"
+    },
+    {
+     "path": "108.provider_name",
+     "n": 1,
+     "sample": "Booking.com"
+    },
+    {
+     "path": "108.policy_url",
+     "n": 1,
+     "sample": "https://www.booking.com/content/privacy.en-gb.html"
+    },
+    {
+     "path": "117.provider_name",
+     "n": 1,
+     "sample": "direct interactive"
+    },
+    {
+     "path": "117.policy_url",
+     "n": 1,
+     "sample": "https://www.apartena.net/datenschutzerklaerung.html"
+    },
+    {
+     "path": "122.provider_name",
+     "n": 1,
+     "sample": "C3 Metrics"
+    },
+    {
+     "path": "122.policy_url",
+     "n": 1,
+     "sample": "https://www.c3metrics.com/privacy-policy"
+    },
+    {
+     "path": "124.provider_name",
+     "n": 1,
+     "sample": "CapitalData"
+    },
+    {
+     "path": "124.policy_url",
+     "n": 1,
+     "sample": "https://www.capitaldata.fr/politique-de-confidentialite/"
+    },
+    {
+     "path": "135.provider_name",
+     "n": 1,
+     "sample": "ClickForce"
+    },
+    {
+     "path": "135.policy_url",
+     "n": 1,
+     "sample": "https://www.clickforce.com.tw/edcontent.php?lang=tw&tb=15"
+    },
+    {
+     "path": "143.provider_name",
+     "n": 1,
+     "sample": "Connexity"
+    },
+    {
+     "path": "143.policy_url",
+     "n": 1,
+     "sample": "http://connexity.com/gb/privacy-policy/"
+    },
+    {
+     "path": "144.provider_name",
+     "n": 1,
+     "sample": "Constant Contact"
+    },
+    {
+     "path": "144.policy_url",
+     "n": 1,
+     "sample": "https://www.constantcontact.com/legal/privacy-statement"
+    },
+    {
+     "path": "147.provider_name",
+     "n": 1,
+     "sample": "Conversive"
+    },
+    {
+     "path": "147.policy_url",
+     "n": 1,
+     "sample": "https://conversive.nl/privacy/"
+    },
+    {
+     "path": "149.provider_name",
+     "n": 1,
+     "sample": "IBM"
+    },
+    {
+     "path": "149.policy_url",
+     "n": 1,
+     "sample": "https://www.ibm.com/customer-engagement/digital-marketing/gdpr"
+    },
+    {
+     "path": "159.provider_name",
+     "n": 1,
+     "sample": "DAC"
+    },
+    {
+     "path": "159.policy_url",
+     "n": 1,
+     "sample": "http://www.dac.co.jp/english/utility/rule"
+    },
+    {
+     "path": "161.provider_name",
+     "n": 1,
+     "sample": "Roku Advertising Services"
+    },
+    {
+     "path": "161.policy_url",
+     "n": 1,
+     "sample": "https://docs.roku.com/published/userprivacypolicy/en/gb"
+    },
+    {
+     "path": "184.provider_name",
+     "n": 1,
+     "sample": "eBay"
+    },
+    {
+     "path": "184.policy_url",
+     "n": 1,
+     "sample": "https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260#section12"
+    },
+    {
+     "path": "192.provider_name",
+     "n": 1,
+     "sample": "engageBDR"
+    },
+    {
+     "path": "192.policy_url",
+     "n": 1,
+     "sample": "http://engagebdr.com/terms/EngageBDR_Buyer_Addendum_December_2015.pdf"
+    },
+    {
+     "path": "196.provider_name",
+     "n": 1,
+     "sample": "Evidon"
+    },
+    {
+     "path": "196.policy_url",
+     "n": 1,
+     "sample": "https://www.crownpeak.com/privacy"
+    },
+    {
+     "path": "211.provider_name",
+     "n": 1,
+     "sample": "Forbes"
+    },
+    {
+     "path": "211.policy_url",
+     "n": 1,
+     "sample": "https://www.forbes.com/privacy/english/"
+    },
+    {
+     "path": "228.provider_name",
+     "n": 1,
+     "sample": "Goodway Group"
+    },
+    {
+     "path": "228.policy_url",
+     "n": 1,
+     "sample": "https://goodwaygroup.com/privacy-policy/"
+    },
+    {
+     "path": "230.provider_name",
+     "n": 1,
+     "sample": "GroovinAds"
+    },
+    {
+     "path": "230.policy_url",
+     "n": 1,
+     "sample": "https://www.groovinads.com/privacy"
+    },
+    {
+     "path": "236.provider_name",
+     "n": 1,
+     "sample": "Adacado"
+    },
+    {
+     "path": "236.policy_url",
+     "n": 1,
+     "sample": "https://www.adacado.com/privacy-policy-april-25-2018/"
+    },
+    {
+     "path": "239.provider_name",
+     "n": 1,
+     "sample": "HQ GmbH"
+    },
+    {
+     "path": "239.policy_url",
+     "n": 1,
+     "sample": "https://www.hqgmbh.de/datenschutz/"
+    },
+    {
+     "path": "255.provider_name",
+     "n": 1,
+     "sample": "Innity"
+    },
+    {
+     "path": "255.policy_url",
+     "n": 1,
+     "sample": "https://www.innity.com/privacy-policy.php"
+    },
+    {
+     "path": "259.provider_name",
+     "n": 1,
+     "sample": "intelliAd"
+    },
+    {
+     "path": "259.policy_url",
+     "n": 1,
+     "sample": "https://www.intelliad.de/datenschutz"
+    },
+    {
+     "path": "266.provider_name",
+     "n": 1,
+     "sample": "Interpolls"
+    },
+    {
+     "path": "266.policy_url",
+     "n": 1,
+     "sample": "https://www.interpolls.com/privacy"
+    },
+    {
+     "path": "272.provider_name",
+     "n": 1,
+     "sample": "iProspect"
+    },
+    {
+     "path": "272.policy_url",
+     "n": 1,
+     "sample": "https://www.iprospect.com/en/ph/work/"
+    },
+    {
+     "path": "286.provider_name",
+     "n": 1,
+     "sample": "Kwanzoo"
+    },
+    {
+     "path": "286.policy_url",
+     "n": 1,
+     "sample": "https://www.kwanzoo.com/gdpr"
+    },
+    {
+     "path": "291.provider_name",
+     "n": 1,
+     "sample": "VideoStorm"
+    },
+    {
+     "path": "291.policy_url",
+     "n": 1,
+     "sample": "http://videostorm.com/privacy/"
+    },
+    {
+     "path": "311.provider_name",
+     "n": 1,
+     "sample": "Dstillery"
+    },
+    {
+     "path": "311.policy_url",
+     "n": 1,
+     "sample": "https://dstillery.com/privacy-policy/"
+    },
+    {
+     "path": "313.provider_name",
+     "n": 1,
+     "sample": "MediaMath"
+    },
+    {
+     "path": "313.policy_url",
+     "n": 1,
+     "sample": "http://www.mediamath.com/privacy-policy/"
+    },
+    {
+     "path": "314.provider_name",
+     "n": 1,
+     "sample": "Sizmek"
+    },
+    {
+     "path": "314.policy_url",
+     "n": 1,
+     "sample": "https://www.sizmek.com/privacy-policy/"
+    },
+    {
+     "path": "320.provider_name",
+     "n": 1,
+     "sample": "Merkury"
+    },
+    {
+     "path": "320.policy_url",
+     "n": 1,
+     "sample": "https://www.merkle.com/getting-know-your-privacy-rights/privacy-notice"
+    },
+    {
+     "path": "322.provider_name",
+     "n": 1,
+     "sample": "Metalyzer"
+    },
+    {
+     "path": "322.policy_url",
+     "n": 1,
+     "sample": "https://metapeople.com/datenschutz/"
+    },
+    {
+     "path": "323.provider_name",
+     "n": 1,
+     "sample": "ZMS"
+    },
+    {
+     "path": "323.policy_url",
+     "n": 1,
+     "sample": "https://zms.zalando.com/#"
+    },
+    {
+     "path": "327.provider_name",
+     "n": 1,
+     "sample": "Mixpo"
+    },
+    {
+     "path": "327.policy_url",
+     "n": 1,
+     "sample": "http://www.netsertive.com/privacy-policy/"
+    },
+    {
+     "path": "340.provider_name",
+     "n": 1,
+     "sample": "Relay42"
+    },
+    {
+     "path": "340.policy_url",
+     "n": 1,
+     "sample": "https://relay42.com/privacy"
+    },
+    {
+     "path": "358.provider_name",
+     "n": 1,
+     "sample": "Omnicom Media Group"
+    },
+    {
+     "path": "358.policy_url",
+     "n": 1,
+     "sample": "https://omnicommediagroup.com/privacy-notice/"
+    },
+    {
+     "path": "367.provider_name",
+     "n": 1,
+     "sample": "OpenSlate"
+    },
+    {
+     "path": "367.policy_url",
+     "n": 1,
+     "sample": "https://www.openslate.com/general-data-protection-regulation-gdpr-compliance-statement/"
+    },
+    {
+     "path": "370.provider_name",
+     "n": 1,
+     "sample": "Thunder"
+    },
+    {
+     "path": "370.policy_url",
+     "n": 1,
+     "sample": "https://www.makethunder.com/privacy/"
+    },
+    {
+     "path": "371.provider_name",
+     "n": 1,
+     "sample": "Parship"
+    },
+    {
+     "path": "371.policy_url",
+     "n": 1,
+     "sample": "https://www.parship.de/privacypolicy/"
+    },
+    {
+     "path": "385.provider_name",
+     "n": 1,
+     "sample": "PlatformOne"
+    },
+    {
+     "path": "385.policy_url",
+     "n": 1,
+     "sample": "https://www.platform-one.co.jp/policy/privacy"
+    },
+    {
+     "path": "407.provider_name",
+     "n": 1,
+     "sample": "Recruit JP"
+    },
+    {
+     "path": "407.policy_url",
+     "n": 1,
+     "sample": "https://www.r-ad.ne.jp/optout/"
+    },
+    {
+     "path": "415.provider_name",
+     "n": 1,
+     "sample": "Resonate"
+    },
+    {
+     "path": "415.policy_url",
+     "n": 1,
+     "sample": "https://www.resonate.com/privacy-policy/"
+    },
+    {
+     "path": "424.provider_name",
+     "n": 1,
+     "sample": "SUITE 66"
+    },
+    {
+     "path": "424.policy_url",
+     "n": 1,
+     "sample": "http://www.suite66.com/privacy-policy/"
+    },
+    {
+     "path": "429.provider_name",
+     "n": 1,
+     "sample": "adnanny.com"
+    },
+    {
+     "path": "429.policy_url",
+     "n": 1,
+     "sample": "http://adserver01.de/"
+    },
+    {
+     "path": "430.provider_name",
+     "n": 1,
+     "sample": "Scigineer"
+    },
+    {
+     "path": "430.policy_url",
+     "n": 1,
+     "sample": "https://www.scigineer.co.jp/privacy/"
+    },
+    {
+     "path": "436.provider_name",
+     "n": 1,
+     "sample": "Mediahead"
+    },
+    {
+     "path": "436.policy_url",
+     "n": 1,
+     "sample": "https://www.mediahead.com/privacy-policy"
+    },
+    {
+     "path": "445.provider_name",
+     "n": 1,
+     "sample": "SMN Corporation"
+    },
+    {
+     "path": "445.policy_url",
+     "n": 1,
+     "sample": "http://www.so-netmedia.jp/cookie/index.html"
+    },
+    {
+     "path": "469.provider_name",
+     "n": 1,
+     "sample": "Tapad"
+    },
+    {
+     "path": "469.policy_url",
+     "n": 1,
+     "sample": "https://www.tapad.com/global-privacy-notice"
+    },
+    {
+     "path": "486.provider_name",
+     "n": 1,
+     "sample": "Tradedoubler AB"
+    },
+    {
+     "path": "486.policy_url",
+     "n": 1,
+     "sample": "http://www.tradedoubler.com/en/privacy-policy/"
+    },
+    {
+     "path": "491.provider_name",
+     "n": 1,
+     "sample": "TravelClick"
+    },
+    {
+     "path": "491.policy_url",
+     "n": 1,
+     "sample": "https://www.travelclick.com/privacy-policy.html"
+    },
+    {
+     "path": "494.provider_name",
+     "n": 1,
+     "sample": "TrustArc"
+    },
+    {
+     "path": "494.policy_url",
+     "n": 1,
+     "sample": "https://www.trustarc.com/privacy-policy/"
+    },
+    {
+     "path": "495.provider_name",
+     "n": 1,
+     "sample": "TruEffect"
+    },
+    {
+     "path": "495.policy_url",
+     "n": 1,
+     "sample": "https://trueffect.com/privacy-policy/"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 62,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "code",
+     "n": 1,
+     "sample": "method not allowed"
+    },
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "allow: OPTIONS, POST"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "MYmovies.it person page for Mark Twain: birth/death dates, a one-line Italian bio and lists of latest/most famous films based on his work (Italian titles). Most of the page is site navigation and listings unrelated to him.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,50 @@
+{
+ "property": "P3417",
+ "label": "Quora topic ID",
+ "files_read": [
+  "pages/P3417__Mark-Twain-author.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "other",
+ "notes": "Quora topic page 'Mark Twain (author)' (26.1K followers): a feed of user-written Q&A snippets about Twain, his quotes and Huckleberry Finn. No biography or structured facts; only the topic name and works mentioned in user answers.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain (author)",
+    "lang": "en",
+    "via": "topic heading"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "user answer 'Samuel Clemens (Mark Twain)'"
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "user questions/answers"
+   },
+   {
+    "value": "The Innocents Abroad",
+    "raw": "“Innocent Abroad”",
+    "lang": "en",
+    "via": "user answer"
+   },
+   {
+    "value": "The United States of Lyncherdom",
+    "lang": "en",
+    "via": "user answer"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Mark-Twain-author",
+    "via": "page URL topic slug"
+   }
+  ]
+ }
+}

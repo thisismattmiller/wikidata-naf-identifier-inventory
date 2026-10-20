@@ -1,0 +1,34 @@
+{
+ "property": "P5570",
+ "label": "NooSFere author ID",
+ "files_read": ["pages/P5570__-1907129169.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "nooSFere (French SF bibliographic database) author page 'Mark TWAIN, États-Unis' with birth/death data, real name, external-resource link labels and a list of French editions with original titles. External resources are shown only as link labels (no URIs in the text).",
+ "elements": {
+  "name_preferred": [{"value": "Mark TWAIN", "lang": "fr", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "fr", "via": "Nom d'usage"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30 novembre 1835", "lang": "fr", "via": "Naissance"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21 avril 1910", "lang": "fr", "via": "Décès"}],
+  "birth_place": [{"value": "Florida, Missouri, États-Unis", "lang": "fr", "via": "Naissance"}],
+  "death_place": [{"value": "Redding, Connecticut, États-Unis", "lang": "fr", "via": "Décès"}],
+  "nationality": [{"value": "États-Unis", "lang": "fr", "via": "page heading country"}],
+  "work": [
+   {"value": "L'Étranger Mystérieux", "raw": "(2008, roman) / The Mysterious Stranger, 1916", "lang": "fr", "via": "Livres list"},
+   {"value": "The Mysterious Stranger", "raw": "1916", "lang": "en", "via": "Livres list (VO)"},
+   {"value": "Le Journal d'Eve", "raw": "(1995, roman) / Eve's Diary, 1906", "lang": "fr", "via": "Livres list"},
+   {"value": "Eve's Diary", "raw": "1906", "lang": "en", "via": "Livres list (VO)"},
+   {"value": "Mark Twain - Œuvres", "raw": "(1990, recueil de romans)", "lang": "fr", "via": "Livres list"},
+   {"value": "N° 44, le mystérieux étranger", "raw": "(2011, roman) / N° 44, the mysterious stranger, 1969", "lang": "fr", "via": "Livres list"},
+   {"value": "N° 44, the mysterious stranger", "raw": "1969", "lang": "en", "via": "Livres list (VO)"},
+   {"value": "Plus fort que Sherlock Holmès", "raw": "(1907, recueil de nouvelles, hors genre)", "lang": "fr", "via": "Livres list"},
+   {"value": "Trois mille ans chez les microbes", "raw": "(1985, roman, science-fiction) / Three Thousand Years Among the Microbes, 1905", "lang": "fr", "via": "Livres list"},
+   {"value": "Three Thousand Years Among the Microbes", "raw": "1905", "lang": "en", "via": "Livres list (VO)"},
+   {"value": "Un pari de milliardaires", "raw": "(1947, roman)", "lang": "fr", "via": "Livres list"},
+   {"value": "Un yankee à la cour du Roi Arthur", "raw": "(1949, roman, science-fiction); also listed as Un américain à la cour du Roi Arthur, Un yankee du Connecticut à la cour du Roi Arthur", "lang": "fr", "via": "Livres list"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "1889", "lang": "en", "via": "Livres list (VO)"}
+  ],
+  "identifier": [{"value": "-1907129169", "via": "page URL NumAuteur"}],
+  "source": [{"value": "Ressources externes: Wikipedia fr, Wikipedia en, Wikipedia de, Wikipedia es, Wikipedia it, SF encyclopedia, ISFDB, BDFI", "via": "Ressources externes (link labels only, no URIs)"}]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "property": "P5343",
+ "label": "Poets.org poet ID",
+ "files_read": ["pages/P5343__mark-twain.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "Academy of American Poets poet page with a short bio and a list of four poems; photo credit given.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "bio 'born Samuel Langhorne Clemens'"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": "en", "via": "bio"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910", "lang": "en", "via": "bio"}],
+  "birth_place": [{"value": "Florida, Missouri", "lang": "en", "via": "bio"}],
+  "death_place": [{"value": "near Redding, Connecticut", "lang": "en", "via": "bio"}],
+  "occupation": [{"value": "humorist", "lang": "en", "via": "bio"}, {"value": "journalist", "lang": "en", "via": "bio"}, {"value": "literary critic", "lang": "en", "via": "bio"}, {"value": "novelist", "lang": "en", "via": "bio"}, {"value": "poet", "raw": "wrote more than one hundred and twenty poems", "lang": "en", "via": "bio"}],
+  "nationality": [{"value": "American", "lang": "en", "via": "bio"}],
+  "description": [{"value": "Mark Twain was born Samuel Langhorne Clemens on November 30, 1835, in Florida, Missouri. An American humorist, journalist, literary critic, and novelist, Twain is most widely known for his novels The Adventures of Tom Sawyer (American Publishing Company, 1876) and Adventures of Huckleberry Finn (Charles L. Webster & Co., 1885). Twain also wrote more than one hundred and twenty poems during his lifetime, mostly in his later years.", "raw": "truncated", "lang": "en", "via": "bio"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "raw": "American Publishing Company, 1876", "lang": "en", "via": "bio"},
+   {"value": "Adventures of Huckleberry Finn", "raw": "Charles L. Webster & Co., 1885", "lang": "en", "via": "bio"},
+   {"value": "On the Poetry of Mark Twain with Selections from His Verse", "raw": "1966, University of Illinois Press", "lang": "en", "via": "bio"},
+   {"value": "Ode to Stephen Dowling Bots, Dec'd.", "raw": "1885", "lang": "en", "via": "poems list"},
+   {"value": "The Aged Pilot Man", "raw": "1872", "lang": "en", "via": "poems list"},
+   {"value": "The Fairy Tree of Domremy", "raw": "2018", "lang": "en", "via": "poems list"},
+   {"value": "Warm Summer Sun", "raw": "1896", "lang": "en", "via": "poems list"}
+  ],
+  "related_agent": [{"value": "AF Bradley (photographer of portrait)", "via": "Photo credit"}],
+  "image": [{"value": "portrait photo", "raw": "Photo credit: AF Bradley", "via": "photo credit"}],
+  "identifier": [{"value": "mark-twain", "via": "page URL"}]
+ }
+}

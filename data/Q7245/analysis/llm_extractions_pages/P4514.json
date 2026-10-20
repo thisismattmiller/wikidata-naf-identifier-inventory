@@ -1,0 +1,23 @@
+{
+ "property": "P4514",
+ "label": "Africultures person ID",
+ "files_read": ["pages/P4514__14576.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Africultures 'Fiche Personne' for Mark Twain, role 'Ecrivain/ne', listing one book: the French edition of King Leopold's Soliloquy (Le Soliloque du roi Léopold) with foreword and translation credits. Rest of page is site chrome.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "fr", "via": "page heading"}],
+  "occupation": [{"value": "Ecrivain/ne", "lang": "fr", "via": "role under heading"}],
+  "field_of_activity": [
+   {"value": "Théâtre", "lang": "fr", "via": "Fiche Personne category tabs (uncertain whether specific to him)"},
+   {"value": "Littérature / édition", "lang": "fr", "via": "Fiche Personne category tabs"}
+  ],
+  "work": [{"value": "Le Soliloque du roi Léopold", "raw": "Soliloque du roi Léopold (Le), satire; Histoire", "via": "LIVRES(S) list"}],
+  "related_agent": [
+   {"value": "Jean-Pierre Orban (translator and introduction, Le Soliloque du roi Léopold)", "via": "book blurb"},
+   {"value": "Benoît Verhaegen (foreword, Le Soliloque du roi Léopold)", "via": "book blurb"},
+   {"value": "Léopold II (subject of the satire)", "via": "book blurb"}
+  ],
+  "identifier": [{"value": "14576", "via": "page URL http://africultures.com/personnes/?no=14576"}]
+ }
+}

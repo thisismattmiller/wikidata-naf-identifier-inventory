@@ -1,0 +1,81 @@
+{
+ "property": "P4629",
+ "label": "Online Books Page author ID",
+ "files_read": ["pages/P4629__Twain_Mark_1835-1910_c9c28c90.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "The Online Books Page author listing 'Online Books by Mark Twain (Twain, Mark, 1835-1910)': a long list of freely readable editions (Gutenberg, archive.org, HathiTrust) in a curated section followed by 'Additional books from the extended shelves'. No biography; mentions a cross-reference heading and that a Wikipedia article exists, but the page text shows no URLs. Read via grep/sections (file ~108 KB).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": "en", "via": "page heading in parentheses"},
+   {"value": "Mark Twain", "lang": "en", "via": "page heading 'Online Books by Mark Twain'"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel, 1835-1910", "lang": "en", "via": "'Also found under:' line"}
+  ],
+  "pseudonym": [
+   {"value": "Quintus Curtius Snodgrass", "raw": "The letters of Quintus Curtius Snodgrass [pseud.]", "lang": "en", "via": "extended shelves work title"},
+   {"value": "Sieur Louis de Conte", "raw": "Personal recollections of Joan of Arc by the sieur Louis de Conte [pseud.]", "lang": "en", "via": "extended shelves work title / statement of responsibility"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "Twain, Mark, 1835-1910", "lang": null, "via": "heading dates"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "Twain, Mark, 1835-1910", "lang": null, "via": "heading dates"}
+  ],
+  "work": [
+   {"value": "The $30,000 Bequest, and Other Stories", "lang": "en", "via": "work list"},
+   {"value": "1601", "lang": "en", "via": "work list"},
+   {"value": "The Adventures of Huckleberry Finn", "raw": "first American edition; New York: C. L. Webster and Co., 1885", "lang": "en", "via": "work list"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "Hartford: American Pub. Co., 1876", "lang": "en", "via": "work list"},
+   {"value": "The American Claimant", "raw": "New York: C. L. Webster and Co., 1892", "lang": "en", "via": "work list"},
+   {"value": "The Celebrated Jumping Frog of Calaveras County, and Other Sketches", "raw": "New York: C. H. Webb, 1869", "lang": "en", "via": "work list"},
+   {"value": "Chapters From My Autobiography", "lang": "en", "via": "work list"},
+   {"value": "Christian Science", "lang": "en", "via": "work list"},
+   {"value": "Concerning the Jews", "lang": "en", "via": "work list"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "New York: Charles L. Webster and Company, 1889", "lang": "en", "via": "work list"},
+   {"value": "The Curious Republic of Gondour, and Other Whimsical Sketches", "lang": "en", "via": "work list"},
+   {"value": "A Dog's Tale", "lang": "en", "via": "work list"},
+   {"value": "A Double Barrelled Detective Story", "lang": "en", "via": "work list"},
+   {"value": "Editorial Wild Oats", "lang": "en", "via": "work list"},
+   {"value": "English As She Is Spoke", "lang": "en", "via": "work list"},
+   {"value": "Eve's Diary", "lang": "en", "via": "work list"},
+   {"value": "Extract From Captain Stormfield's Visit to Heaven", "lang": "en", "via": "work list"},
+   {"value": "Extracts From Adam's Diary", "lang": "en", "via": "work list"},
+   {"value": "Following the Equator: A Journey Around the World", "raw": "Hartford: The American Pub. Co., 1898", "lang": "en", "via": "work list"},
+   {"value": "The Gilded Age", "raw": "also by Charles Dudley Warner", "lang": "en", "via": "work list"},
+   {"value": "A Horse's Tale", "lang": "en", "via": "work list"},
+   {"value": "How to Tell a Story, and Other Essays", "lang": "en", "via": "work list"},
+   {"value": "Huck Finn and Tom Sawyer Among the Indians, and Other Unfinished Stories", "lang": "en", "via": "work list"},
+   {"value": "In Defense of Harriet Shelley, and Other Essays", "lang": "en", "via": "work list"},
+   {"value": "The Innocents Abroad", "raw": "Hartford: American Publishing Co., 1869", "lang": "en", "via": "work list"},
+   {"value": "Is Shakespeare Dead? From My Autobiography", "lang": "en", "via": "work list"},
+   {"value": "The Jumping Frog, in English, Then in French, Then Clawed Back Into a Civilized Language", "lang": "en", "via": "work list"},
+   {"value": "King Leopold's Soliloquy: A Defense of His Congo Rule", "lang": "en", "via": "work list"},
+   {"value": "The £1,000,000 Bank-Note, and Other New Stories", "lang": "en", "via": "work list"},
+   {"value": "Life on the Mississippi", "raw": "Boston: James R. Osgood and Company, 1883", "lang": "en", "via": "work list"},
+   {"value": "The Man That Corrupted Hadleyburg, and Other Stories", "lang": "en", "via": "work list"},
+   {"value": "Mark Twain's (Burlesque) Autobiography, and First Romance", "lang": "en", "via": "work list"},
+   {"value": "Mark Twain's Autobiography", "raw": "2 volumes; 1924, ed. by Albert Bigelow Paine", "lang": "en", "via": "work list"},
+   {"value": "Mark Twain's Letters", "lang": "en", "via": "work list"},
+   {"value": "Mark Twain's Speeches", "lang": "en", "via": "work list"},
+   {"value": "Merry Tales", "lang": "en", "via": "work list"},
+   {"value": "The Mysterious Stranger", "lang": "en", "via": "work list"},
+   {"value": "Personal Recollections of Joan of Arc", "lang": "en", "via": "work list"},
+   {"value": "The Prince and the Pauper", "lang": "en", "via": "work list"},
+   {"value": "Roughing It", "lang": "en", "via": "work list"}
+  ],
+  "related_agent": [
+   {"value": "Charles Dudley Warner (co-author of The Gilded Age)", "via": "work list"},
+   {"value": "Albert Bigelow Paine (editor)", "via": "work list (Autobiography, Letters, Mysterious Stranger)"},
+   {"value": "Olivia Langdon Clemens", "raw": "also by ... Olivia Langdon Clemens", "via": "extended shelves entry"},
+   {"value": "Orion Clemens (brother)", "raw": "a letter from Samuel Clemens to his brother Orion", "via": "extended shelves entries"},
+   {"value": "Clara Clemens", "via": "extended shelves entry"},
+   {"value": "E. W. Kemble (illustrator)", "via": "work list"},
+   {"value": "True Williams (illustrator)", "via": "work list"}
+  ],
+  "license": [
+   {"value": "OBP copyrights and licenses.", "lang": "en", "via": "page footer"}
+  ]
+ }
+}

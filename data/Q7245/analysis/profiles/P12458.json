@@ -1,0 +1,767 @@
+{
+ "property": "P12458",
+ "property_label": "Parsifal cluster ID",
+ "files": [
+  {
+   "file": "P12458__231550/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/searchNames?n_cluster_id=231550"
+  },
+  {
+   "file": "P12458__231550/export_1.xml",
+   "format": "xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/rdfBibframe/agents/231550.nq"
+  },
+  {
+   "file": "P12458__231550/export_2.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/search?n_cluster_id=231550;Twain%2C%20Marc"
+  },
+  {
+   "file": "P12458__231550/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/wikipedia?wkpLink=Q7245"
+  },
+  {
+   "file": "P12458__231550/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/authRecordCount?clusterId=231550"
+  },
+  {
+   "file": "P12458__231550/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/availableCharacters?n_cluster_id=231550&_=1790979165114"
+  },
+  {
+   "file": "P12458__231550/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/alphabeticalNavigator?n_cluster_id=231550&character=A&_=1790979165115"
+  },
+  {
+   "file": "P12458__231550/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://parsifal.urbe.it/parsifal/search?n_cluster_id=231550;Twain%2C%20Marc"
+  },
+  {
+   "file": "P12458__315193/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/searchNames?n_cluster_id=315193"
+  },
+  {
+   "file": "P12458__315193/export_1.xml",
+   "format": "xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/rdfBibframe/agents/315193.nq"
+  },
+  {
+   "file": "P12458__315193/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/wikipedia?wkpLink=$wkpLink"
+  },
+  {
+   "file": "P12458__315193/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/availableCharacters?n_cluster_id=315193&_=1790979172982"
+  },
+  {
+   "file": "P12458__315193/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/alphabeticalNavigator?n_cluster_id=315193&character=A&_=1790979172983"
+  },
+  {
+   "file": "P12458__323489/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/searchNames?n_cluster_id=323489"
+  },
+  {
+   "file": "P12458__323489/export_1.xml",
+   "format": "xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/rdfBibframe/agents/323489.nq"
+  },
+  {
+   "file": "P12458__323489/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/availableCharacters?n_cluster_id=323489&_=1790979180127"
+  },
+  {
+   "file": "P12458__323489/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://parsifal.urbe.it/parsifal/alphabeticalNavigator?n_cluster_id=323489&character=A&_=1790979180128"
+  }
+ ],
+ "formats": {
+  "rdfa": 3,
+  "xml": 3,
+  "html": 2,
+  "json": 9
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 38,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "image": [
+   {
+    "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "lang": null,
+    "via": "json:image",
+    "file": "xhr_1.json",
+    "uri": true
+   },
+   {
+    "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg",
+    "lang": null,
+    "via": "llm:xhr_1.json: $.image",
+    "file": "P12458.json",
+    "uri": true
+   }
+  ],
+  "description": [
+   {
+    "value": "<p><b>Mark Twain</b>, pseudonimo di <b>Samuel Langhorne Clemens</b> (Florida, 30 novembre 1835 &ndash; Redding, 21 aprile 1910), &egrave; stato uno scrittore, umorista, aforista e docente statunitense autore di capolavori riconosciuti della letteratura statunitense del XIX secolo, come <i>Le avventure di Tom Sawyer</i> e <i>Le avventure di Huckleberry Finn</i>, entrati nell'immaginario collettivo e che hanno avuto numerose trasposizioni televisive e cinematografiche.</p><p>&Egrave; considerato u",
+    "lang": null,
+    "via": "json:description",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, pseudonimo di Samuel Langhorne Clemens (Florida, 30 novembre 1835 – Redding, 21 aprile 1910), è stato uno scrittore, umorista, aforista e docente statunitense autore di capolavori riconosciuti della letteratura statunitense del XIX secolo, come Le avventure di Tom Sawyer e Le avventure di Huckleberry Finn, entrati nell'immaginario collettivo e che hanno avuto numerose trasposizioni televisive e cinematografiche. È considerato una tra le maggiori celebrità statunitensi del suo tempo: ",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description (HTML stripped)",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Scrittore, umorista, aforista e docente statunitense. Mark Twain, pseudonimo di Samuel Langhorne Clemens (Florida, 30 novembre 1835 – Redding, 21 aprile 1910), è stato uno scrittore, umorista, aforista e docente statunitense autore di capolavori riconosciuti della letteratura statunitense del XIX secolo, come Le avventure di Tom Sawyer e Le avventure di Huckleberry Finn, entrati nell'immaginario collettivo e che hanno avuto numerose trasposizioni televisive e cinematografiche.",
+    "lang": "it",
+    "via": "llm-page:Biografia e attività + Wikipedia excerpt (231550)",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:title",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.title",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "it",
+    "via": "llm-page:heading (231550)",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, pseud. di Samuel Lanhorne Clemens, 1835-1910",
+    "lang": "it",
+    "via": "llm-page:heading (315193)",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, pseud. di Samuel Langhorne Clemens, 1835-1910",
+    "lang": "it",
+    "via": "llm-page:heading (323489)",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://it.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "json:url",
+    "file": "xhr_1.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark 1835-1910",
+    "lang": "it",
+    "via": "llm-page:Forme del nome in PARSIFAL (231550)",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "it",
+    "via": "llm-page:Forme del nome in PARSIFAL (231550)",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "scrittore",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "umorista",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "aforista",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "docente",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "statunitense",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Le avventure di Tom Sawyer",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Le avventure di Huckleberry Finn",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm:xhr_4.json: $.response[0].mainTitle",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm:xhr_4.json: $.response[1].mainTitle",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Tom Sawyer. 1999",
+    "lang": "en",
+    "via": "llm:xhr_4.json: $.response[2].mainTitle",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm:xhr_4.json: $.response[0].instances[0].mainTitle",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm:xhr_4.json: $.response[1].instances[0].mainTitle",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "Autobiografia",
+    "lang": "it",
+    "via": "llm-page:Opere/Pubblicazioni (323489)",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "William Faulkner",
+    "lang": "it",
+    "via": "llm:xhr_1.json: $.description (commentator, no formal relation)",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "William Faulkner (called him the first true American writer)",
+    "lang": null,
+    "via": "llm-page:Wikipedia excerpt",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://it.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:xhr_1.json: $.url",
+    "file": "P12458.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "https://it.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:xhr_1.json: $.url (summary source)",
+    "file": "P12458.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "231550",
+    "lang": null,
+    "via": "llm-page:ID",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "315193",
+    "lang": null,
+    "via": "llm-page:ID",
+    "file": "P12458.json",
+    "uri": false
+   },
+   {
+    "value": "323489",
+    "lang": null,
+    "via": "llm-page:ID",
+    "file": "P12458.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "image": [],
+  "description": [
+   "it"
+  ],
+  "name_preferred": [
+   "it"
+  ],
+  "see_also": [],
+  "name_variant": [
+   "it"
+  ],
+  "pseudonym": [
+   "it"
+  ],
+  "birth_date": [
+   "it"
+  ],
+  "death_date": [
+   "it"
+  ],
+  "birth_place": [
+   "it"
+  ],
+  "death_place": [
+   "it"
+  ],
+  "occupation": [
+   "it"
+  ],
+  "nationality": [
+   "it"
+  ],
+  "work": [
+   "en",
+   "it"
+  ],
+  "related_agent": [
+   "it"
+  ],
+  "same_as": [],
+  "source": [],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 919,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "image",
+     "n": 1,
+     "sample": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg?utm_source=it.wikiped"
+    },
+    {
+     "path": "description",
+     "n": 1,
+     "sample": "<p><b>Mark Twain</b>, pseudonimo di <b>Samuel Langhorne Clemens</b> (Florida, 30 novembre 1835 &ndash; Redding, 21 april"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "url",
+     "n": 1,
+     "sample": "https://it.wikipedia.org/wiki/Mark_Twain"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "image",
+     "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+     "path": "description",
+     "value": "<p><b>Mark Twain</b>, pseudonimo di <b>Samuel Langhorne Clemens</b> (Florida, 30 novembre 1835 &ndash; Redding, 21 aprile 1910), &egrave; stato uno scrittore, umorista, aforista e docente statunitense"
+    },
+    {
+     "path": "title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "url",
+     "value": "https://it.wikipedia.org/wiki/Mark_Twain"
+    }
+   ],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 10,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "hits",
+     "n": 1,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 93,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "availableCharacters[]",
+     "n": 11,
+     "sample": "A"
+    },
+    {
+     "path": "otherCharacters",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 879,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "response[].instances[].pubblicationYear",
+     "n": 5,
+     "sample": "1986"
+    },
+    {
+     "path": "response[].instances[].mainTitle",
+     "n": 5,
+     "sample": "The adventures of Huckleberry Finn"
+    },
+    {
+     "path": "response[].instances[].format",
+     "n": 5,
+     "sample": "Volume"
+    },
+    {
+     "path": "response[].instances[].clusterId",
+     "n": 5,
+     "sample": "688171"
+    },
+    {
+     "path": "response[].fromManifestation",
+     "n": 3,
+     "sample": "True"
+    },
+    {
+     "path": "response[].mainTitle",
+     "n": 3,
+     "sample": "Adventures of Huckleberry Finn"
+    },
+    {
+     "path": "response[].clusterTitleId",
+     "n": 3,
+     "sample": "641288"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 2,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 61,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "availableCharacters[]",
+     "n": 3,
+     "sample": "A"
+    },
+    {
+     "path": "otherCharacters",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 346,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "response[].instances[].pubblicationYear",
+     "n": 2,
+     "sample": "1977"
+    },
+    {
+     "path": "response[].instances[].mainTitle",
+     "n": 2,
+     "sample": "Le avventure di Tom Sawyer"
+    },
+    {
+     "path": "response[].instances[].format",
+     "n": 2,
+     "sample": "Volume"
+    },
+    {
+     "path": "response[].instances[].clusterId",
+     "n": 2,
+     "sample": "686678"
+    },
+    {
+     "path": "response[].fromManifestation",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "response[].mainTitle",
+     "n": 1,
+     "sample": "Adventures of Tom Sawyer. Italiano 1987"
+    },
+    {
+     "path": "response[].clusterTitleId",
+     "n": 1,
+     "sample": "133418"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 65,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "availableCharacters[]",
+     "n": 4,
+     "sample": "A"
+    },
+    {
+     "path": "otherCharacters",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 221,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "response[].fromManifestation",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "response[].instances[].pubblicationYear",
+     "n": 1,
+     "sample": "1998"
+    },
+    {
+     "path": "response[].instances[].mainTitle",
+     "n": 1,
+     "sample": "Autobiografia"
+    },
+    {
+     "path": "response[].instances[].format",
+     "n": 1,
+     "sample": "Volume"
+    },
+    {
+     "path": "response[].instances[].clusterId",
+     "n": 1,
+     "sample": "127486"
+    },
+    {
+     "path": "response[].mainTitle",
+     "n": 1,
+     "sample": "Autobiography of Mark Twain. 1998"
+    },
+    {
+     "path": "response[].clusterTitleId",
+     "n": 1,
+     "sample": "121061"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "response[].mainTitle",
+     "value": "Autobiography of Mark Twain. 1998"
+    }
+   ],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Three Parsifal (Italian pontifical university libraries) name clusters for Twain: 231550 (main, with Italian bio and Wikipedia excerpt), 315193 and 323489 (headings 'pseud. di Samuel Lanhorne/Langhorne Clemens'); each lists a few held editions. Cluster 315193 misspells 'Lanhorne'.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

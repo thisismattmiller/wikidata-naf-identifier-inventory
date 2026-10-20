@@ -1,0 +1,135 @@
+{
+ "property": "P9178",
+ "property_label": "Biblioteca Franco Serantini ID",
+ "files": [
+  {
+   "file": "P9178__22428/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://bfsopac.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=22428"
+  },
+  {
+   "file": "P9178__22428/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bfsopac.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 3,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "it",
+    "via": "llm-page:200 Intestazione - nome personale",
+    "file": "P9178.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "llm-page:200 Elemento principale",
+    "file": "P9178.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": null,
+    "via": "llm-page:200 Ulteriore elemento del nome",
+    "file": "P9178.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:200 Date",
+    "file": "P9178.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:200 Date",
+    "file": "P9178.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "scrittore",
+    "lang": "it",
+    "via": "llm-page:200 Qualificazione",
+    "file": "P9178.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "statunitense",
+    "lang": "it",
+    "via": "llm-page:200 Qualificazione",
+    "file": "P9178.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "scrittore statunitense",
+    "lang": "it",
+    "via": "llm-page:200 Qualificazione, escluse le date",
+    "file": "P9178.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "22428",
+    "lang": null,
+    "via": "llm-page:page URL authid (not shown in record)",
+    "file": "P9178.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "it"
+  ],
+  "family_name": [],
+  "given_name": [],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "it"
+  ],
+  "nationality": [
+   "it"
+  ],
+  "description": [
+   "it"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Koha UNIMARC MARC view of Biblioteca Franco Serantini authority 22428 (Autore/Autrice persona) for Twain, Mark, 1835-1910, used in 1 record. Only the 200 heading with qualifier 'scrittore statunitense' is shown; control number not displayed.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

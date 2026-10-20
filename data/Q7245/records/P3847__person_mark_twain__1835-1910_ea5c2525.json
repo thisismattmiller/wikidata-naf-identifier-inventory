@@ -1,0 +1,642 @@
+{
+ "property": "P3847",
+ "property_label": "Open Library subject ID",
+ "value": "person:mark_twain_(1835-1910)",
+ "url": "https://openlibrary.org/subjects/person%3Amark_twain_%281835-1910%29",
+ "crawled_at": "2026-10-02T21:33:13+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://openlibrary.org/subjects/person%3Amark_twain_%281835-1910%29",
+ "tab_title": "mark twain (1835-1910) | Open Library",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P3847__person_mark_twain__1835-1910_ea5c2525.jpg",
+ "elapsed_seconds": 5.3,
+ "html_file": "pages/P3847__person_mark_twain__1835-1910_ea5c2525.html",
+ "text_file": "pages/P3847__person_mark_twain__1835-1910_ea5c2525.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://openlibrary.org/subjects/person%3Amark_twain_%281835-1910%29",
+  "title": "mark twain (1835-1910) | Open Library",
+  "content_type": "text/html",
+  "lang": "en",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 200,
+   "url": "https://openlibrary.org/subjects/person%3Amark_twain_%281835-1910%29",
+   "headers": {
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Fri, 02 Oct 2026 21:33:15 GMT",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "server": "nginx/1.30.5",
+    "vary": "Accept-Encoding",
+    "x-ol-stats": "\"IB 1 0.013 MC 1 0.008 TT 0 0.024\""
+   }
+  },
+  "link_elements": [
+   {
+    "rel": "canonical",
+    "type": null,
+    "href": "https://openlibrary.org/subjects/person:mark_twain_(1835-1910)",
+    "title": null,
+    "hreflang": null
+   },
+   {
+    "rel": "search",
+    "type": "application/opensearchdescription+xml",
+    "href": "https://openlibrary.org/static/opensearch.xml",
+    "title": "Open Library",
+    "hreflang": null
+   }
+  ],
+  "jsonld": [],
+  "data_scripts": [
+   {
+    "type": "text/json+graph",
+    "id": "graph-json-chartPubHistory",
+    "src": null,
+    "length": 1785
+   }
+  ],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "format-detection",
+    "content": "telephone=no"
+   },
+   {
+    "key": "viewport",
+    "content": "width=device-width, initial-scale=1.0"
+   },
+   {
+    "key": "theme-color",
+    "content": "#e2dcc5"
+   },
+   {
+    "key": "ol-icon-sprite",
+    "content": "/static/icons/sprite.svg?v=60ce166e04d12352faedeb840917ba95"
+   },
+   {
+    "key": "google-site-verification",
+    "content": "KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74"
+   },
+   {
+    "key": "google-site-verification",
+    "content": "vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4"
+   },
+   {
+    "key": "google-site-verification",
+    "content": "XYOJ9Uj0MBr6wk7kj1IkttXrqY-bbRstFMADTfEt354"
+   },
+   {
+    "key": "msvalidate.01",
+    "content": "8BEBECBEF537077737975A49D55B857D"
+   },
+   {
+    "key": "description",
+    "content": "Open Library is an open, editable library catalog, building towards a web page for every book ever published. Read, borrow, and discover more than 3M books for free."
+   },
+   {
+    "key": "sentry-trace",
+    "content": "9f695e2b720f43fe902af5b243f253cd-8bb76669527a976b"
+   },
+   {
+    "key": "baggage",
+    "content": "sentry-trace_id=9f695e2b720f43fe902af5b243f253cd,sentry-environment=production,sentry-release=dd037d1,sentry-public_key=a27de9a317a64432866ac301a855f04e,sentry-sample_rate=0.02"
+   }
+  ],
+  "machine_links": [
+   {
+    "tag": "a",
+    "href": "https://openlibrary.org/developers/api",
+    "text": "API Documentation",
+    "title": "Explore Open Library APIs",
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "path",
+     "text"
+    ]
+   }
+  ],
+  "xhr_requests": [
+   {
+    "url": "https://sink.archive.org/api/82/envelope/?sentry_version=7&sentry_key=8470b9d8af98fa200a09162f2e30ac87&sentry_client=sentry.javascript.browser%2F10.60.0",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://openlibrary.org/partials/SubjectPublishingHistory.json?key=%2Fsubjects%2Fperson%3Amark_twain_%281835-1910%29",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://openlibrary.org/partials/SubjectRelated.json?key=%2Fsubjects%2Fperson%3Amark_twain_%281835-1910%29",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://openlibrary.org/partials/LazyCarousel.json?query=person_key%3A%22mark_twain_%5C%281835%5C-1910%5C%29%22+language%3Aeng+-subject%3A%22content_warning%3Acover%22&sort=trending%2Ctrending_score_hourly_sum&key=&limit=20&search=false&has_fulltext_only=true&layout=carousel&fallback=person_key%3A%22mark_twain_%5C%281835%5C-1910%5C%29%22",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://openlibrary.org/static/build/css/tokens.css?v=b52db3694d88f631d977c005d04409b2",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/css/ol-components.css?v=69b158784e9258e50b844fb45e43d6a4",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/css/page-subject.css?v=4c039b916f9d61e61d8fb4d5237c985c",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/cdn/archive.org/donate.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/ia-logo.svg?v=a01876b378eb260334ee915282df715b",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/cdn/archive.org/athena.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/openlibrary-logo-tighter.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/all.js?v=c65b01c54f936538e690dc67866053a5",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/components/production/ol-components.js?v=6193b864671c881bb1b95064cb93d761",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/manifest.json?v=fbf2b3dc370d159ad53f12260ad27c9c",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://apollo.archive.org/js/container_7cLc1b4U.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://archive.org/includes/donate.php?as_page=1&referer=https%3A%2F%2Fopenlibrary.org%2Fsubjects%2Fperson%253Amark_twain_%25281835-1910%2529&platform=ol&donation-identifier=MC40NDg0NDAzMDQwNDYzNzc5",
+    "initiator": "iframe",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/icons/sprite.svg?v=60ce166e04d12352faedeb840917ba95#icon-globe",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/search-icon.svg",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/ajax-loader-bar.gif",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/gif",
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/a/olid/OL18319A-M.jpg?default=false",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/icons/avatar_author-lg.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/a/olid/OL1388362A-M.jpg?default=false",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/a/olid/OL25001A-M.jpg?default=false",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/a/olid/OL539079A-M.jpg?default=false",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/a/olid/OL388355A-M.jpg?default=false",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/a/olid/OL383062A-M.jpg?default=false",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/a/olid/OL73501A-M.jpg?default=false",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/a/olid/OL317651A-M.jpg?default=false",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/bsky.svg?v=56f9fc905ebc4c27da6d47a2bfd7734b",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/tweet.svg?v=e6566606e8c15f3f693255c1ad3ce5cd",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/github.svg?v=9707d0a9145f87116a51510eeda96ff1",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/pantheon.png?v=6a219981eade8cbd01cd10bb2123307c",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/main.2DfCDLIp.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/chunk.BLj-jMpM.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/books-api.C4riMNO-.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/ol.analytics.H3hX97AV.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/jquery.DSlugHSX.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/utils.DzlhbAEF.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/Toast.qfdEoz6M.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/Toast.DYVWyKdC.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/nonjquery_utils.CMj587y-.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/main.Dvt5hcQE.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/searchFacets.ChQDNgb5.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/components/production/assets/defineProperty-BbfpZ9Tg.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/components/production/assets/chunk-CMxvf4Kt.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/all.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://sink.archive.org/api/82/envelope/?sentry_version=7&sentry_key=8470b9d8af98fa200a09162f2e30ac87&sentry_client=sentry.javascript.browser%2F10.60.0",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://athena.archive.org/0.gif?cache_bust=0.45107158642812406&server_ms=121.20509147644043&server_name=ol-web.us.archive.org&service=ol&kind=pageview&timediff=-4&locale=en-US&referrer=-&loadtime=232&nav_to_done_ms=655&iaprop_fontSize=25.6px&iaprop_devicePixelRatio=1&version=2&count=14",
+    "initiator": "beacon",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/subjects.BDOTxSjy.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/lazy-carousel.BuW6Haog.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/carousel.DP95nytU.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/carousel.BazSSjwM.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/book-state.BvBo4arZ.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/hamburger-drawer.C5s-aRtw.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/partials/SubjectPublishingHistory.json?key=%2Fsubjects%2Fperson%3Amark_twain_%281835-1910%29",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/partials/SubjectRelated.json?key=%2Fsubjects%2Fperson%3Amark_twain_%281835-1910%29",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/partials/LazyCarousel.json?query=person_key%3A%22mark_twain_%5C%281835%5C-1910%5C%29%22+language%3Aeng+-subject%3A%22content_warning%3Acover%22&sort=trending%2Ctrending_score_hourly_sum&key=&limit=20&search=false&has_fulltext_only=true&layout=carousel&fallback=person_key%3A%22mark_twain_%5C%281835%5C-1910%5C%29%22",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/build/js/graphs.C-vSvZAY.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/openlibrary-192x192.png",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/ajax-loader.gif",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/gif",
+    "bytes": null
+   },
+   {
+    "url": "https://openlibrary.org/static/images/icons/icon_slick-arrow-right.svg",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/b/id/5702517-M.jpg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/b/id/6622539-M.jpg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/b/id/1324653-M.jpg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/b/id/11676976-M.jpg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/b/id/13223750-M.jpg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://covers.openlibrary.org/b/id/8764284-M.jpg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   }
+  ],
+  "third_party_hosts": {
+   "apollo.archive.org": 1,
+   "archive.org": 1,
+   "covers.openlibrary.org": 14,
+   "sink.archive.org": 1,
+   "athena.archive.org": 1
+  },
+  "scripts": [
+   "https://apollo.archive.org/js/container_7cLc1b4U.js",
+   "https://openlibrary.org/cdn/archive.org/donate.js",
+   "https://openlibrary.org/cdn/archive.org/athena.js",
+   "https://openlibrary.org/static/build/js/all.js?v=c65b01c54f936538e690dc67866053a5",
+   "https://openlibrary.org/static/build/components/production/ol-components.js?v=6193b864671c881bb1b95064cb93d761"
+  ],
+  "iframes": [
+   "https://archive.org/includes/donate.php?as_page=1&referer=https%3A%2F%2Fopenlibrary.org%2Fsubjects%2Fperson%253Amark_twain_%25281835-1910%2529&platform=ol&donation-identifier=MC40NDg0NDAzMDQwNDYzNzc5"
+  ],
+  "forms": [
+   {
+    "action": "https://openlibrary.org/search",
+    "method": null,
+    "id": null
+   }
+  ],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [
+    "log in",
+    "sign up"
+   ],
+   "not_found_words": []
+  },
+  "text_length": 2846,
+  "html_length": 88826
+ }
+}

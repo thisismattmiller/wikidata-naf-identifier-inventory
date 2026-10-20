@@ -1,0 +1,532 @@
+{
+ "property": "P245",
+ "property_label": "Union List of Artist Names ID",
+ "files": [
+  {
+   "file": "P245__500020427/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://vocab.getty.edu/ulan/500020427.json"
+  },
+  {
+   "file": "P245__500020427/xhr_1.img",
+   "format": "image",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "file": "P245__500020427/browser_export_1.jsonld",
+   "format": "json-ld",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://vocab.getty.edu/ulan/500020427.json"
+  }
+ ],
+ "formats": {
+  "html": 1,
+  "image": 1,
+  "json-ld": 1
+ },
+ "vocabularies": {
+  "http://www.cidoc-crm.org/cidoc-crm/": 19,
+  "http://www.w3.org/2000/01/rdf-schema#": 3,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 2,
+  "https://linked.art/ns/terms/": 1,
+  "http://www.w3.org/2004/02/skos/core#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_variant": [
+   {
+    "value": "Twain, Mark (pseudonym)",
+    "lang": null,
+    "via": "P1_is_identified_by/names|preferred term",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (pseudonym)",
+    "lang": null,
+    "via": "P1_is_identified_by/names",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "P1_is_identified_by/names",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "P1_is_identified_by/names",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Mark Twain",
+    "lang": null,
+    "via": "P1_is_identified_by/names",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Names list",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Names list",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:Names list",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Names list",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "500020427",
+    "lang": null,
+    "via": "P1_is_identified_by/Identifier",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "http://vocab.getty.edu/page/ulan/500020427",
+    "lang": null,
+    "via": "llm-page:Page Link row",
+    "file": "P245.json",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "P98i_was_born/P4_has_time-span",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": null,
+    "via": "P98i_was_born/P7_took_place_at",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Florida (Monroe county, Missouri, United States)",
+    "lang": "en",
+    "via": "llm-page:Birth and Death Places, Born",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "P100i_died_in/P4_has_time-span",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": null,
+    "via": "P100i_died_in/P7_took_place_at",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "Redding (Fairfield county, Connecticut, United States)",
+    "lang": "en",
+    "via": "llm-page:Birth and Death Places, Died",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "American humorist, novelist, and artist, 1835-1910",
+    "lang": null,
+    "via": "P67i_is_referred_to_by/biographies (literary genre) brief texts",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "American author and humorist, known for such works as Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1885). His first major published work was in 1965, with \"Celebrated Jumping Frog of Calaveras County.\" Twain did not finish elementary school, but is noted as having been was awarded honorary degree by Oxford University.",
+    "lang": "en",
+    "via": "llm-page:Note (scope note)",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "American humorist, novelist, and artist, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:record heading / Biographies [VP Preferred]",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "journalists",
+    "lang": null,
+    "via": "P2_has_type/roles",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "artists (visual artists)",
+    "lang": null,
+    "via": "P2_has_type/roles",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "humorists",
+    "lang": null,
+    "via": "P2_has_type/roles",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "novelists",
+    "lang": null,
+    "via": "P2_has_type/roles",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "lecturers",
+    "lang": null,
+    "via": "P2_has_type/roles",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "artist",
+    "lang": "en",
+    "via": "llm-page:Roles",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:Roles",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "novelist",
+    "lang": "en",
+    "via": "llm-page:Roles",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "en",
+    "via": "llm-page:Roles",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:Roles",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American (North American)",
+    "lang": null,
+    "via": "P2_has_type/nationality",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:Nationalities",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": null,
+    "via": "P2_has_type/sex role",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "llm-page:Gender row",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "Getty Vocabularies Identifier",
+    "lang": null,
+    "via": "P2_has_type/Type",
+    "file": "browser_export_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+    "lang": null,
+    "via": "type",
+    "file": "browser_export_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
+    "lang": null,
+    "via": "type",
+    "file": "browser_export_1.jsonld",
+    "uri": true
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "equivalent",
+    "file": "browser_export_1.jsonld",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "http://vocab.getty.edu/ulan/aggregations/500020427/cross_referenced",
+    "lang": null,
+    "via": "seeAlso",
+    "file": "browser_export_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://vocab.getty.edu/ulan/aggregations/500020427/related",
+    "lang": null,
+    "via": "seeAlso",
+    "file": "browser_export_1.jsonld",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:Names list, preferred",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Names list flagged (pseudonym)",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Names list 'Clemens, Samuel Langhorne'",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:Names list 'Clemens, Samuel Langhorne'",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Note",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Note",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Celebrated Jumping Frog of Calaveras County",
+    "lang": null,
+    "via": "llm-page:Note",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "University of Oxford (awarded him an honorary degree)",
+    "lang": null,
+    "via": "llm-page:Note",
+    "file": "P245.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "BHA, Authority file (1973-)",
+    "lang": null,
+    "via": "llm-page:Sources and Contributors",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Database for the Witt Checklist of Painters c. 1200-1976 (1978-)",
+    "lang": null,
+    "via": "llm-page:Sources and Contributors",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Witt Computer Index database",
+    "lang": null,
+    "via": "llm-page:Sources and Contributors",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Witt Library, Authority files",
+    "lang": null,
+    "via": "llm-page:Sources and Contributors",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Library of Congress Authorities online (2002-) NAFL79021164, accessed 24 April 2007",
+    "lang": null,
+    "via": "llm-page:Sources and Contributors",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "M. Knoedler & Co. records, Finding Aid, GRI Special Collections (2012-)",
+    "lang": null,
+    "via": "llm-page:Sources and Contributors",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Encyclopedia Britannica Online (2002-) accessed 24 April 2007",
+    "lang": null,
+    "via": "llm-page:Sources and Contributors, Subject",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Gallery Systems (2000-) LOC ID: n79021164",
+    "lang": null,
+    "via": "llm-page:Sources and Contributors, Subject",
+    "file": "P245.json",
+    "uri": false
+   },
+   {
+    "value": "Getty Vocabulary Program rules",
+    "lang": null,
+    "via": "llm-page:Sources and Contributors",
+    "file": "P245.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_variant": [
+   "en"
+  ],
+  "identifier": [],
+  "birth_date": [],
+  "birth_place": [
+   "en"
+  ],
+  "death_date": [],
+  "death_place": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "gender": [
+   "en"
+  ],
+  "type": [],
+  "same_as": [],
+  "see_also": [],
+  "name_preferred": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "work": [],
+  "related_agent": [],
+  "source": []
+ },
+ "unmapped": {
+  "inScheme (http://www.w3.org/2004/02/skos/core#)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "Getty ULAN full record display for Twain, Mark (500020427): scope note, names, nationality, roles, gender, birth/death places, biographies by contributor and sources. The note contains an evident typo ('first major published work was in 1965').",
+ "about_entity": true,
+ "chrome_elements": {}
+}

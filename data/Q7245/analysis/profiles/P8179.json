@@ -1,0 +1,2331 @@
+{
+ "property": "P8179",
+ "property_label": "Canadiana Name Authority ID",
+ "files": [
+  {
+   "file": "P8179__ncf10128469/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://viaf.org/en/processed/CAOONLncf10128469"
+  },
+  {
+   "file": "P8179__ncf10128469/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://viaf.org/en/viaf/data"
+  },
+  {
+   "file": "P8179__ncf10128469/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://viaf.org/api/auth/session"
+  },
+  {
+   "file": "P8179__ncf10128469/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.cookielaw.org/consent/65682830-e5f2-4745-8419-d4455d00dc72/65682830-e5f2-4745-8419-d4455d00dc72.json"
+  },
+  {
+   "file": "P8179__ncf10128469/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.cookielaw.org/consent/65682830-e5f2-4745-8419-d4455d00dc72/019625a7-0af5-7cc3-8ccd-ed9265f46db9/en.json"
+  },
+  {
+   "file": "P8179__ncf10128469/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.cookielaw.org/consent/65682830-e5f2-4745-8419-d4455d00dc72/019625a7-0af5-7cc3-8ccd-ed9265f46db9/bLayout-en.json"
+  },
+  {
+   "file": "P8179__ncf10128469/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json"
+  },
+  {
+   "file": "P8179__ncf10128469/xhr_6.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css"
+  },
+  {
+   "file": "P8179__ncf10128469/xhr_7.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "file": "P8179__ncf10128469/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://viaf.org/processed/CAOONLncf10128469"
+  },
+  {
+   "file": "P8179__ncf10128469/conneg_3.json",
+   "format": "json",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://viaf.org/processed/CAOONLncf10128469"
+  },
+  {
+   "file": "P8179__ncf10128469/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://viaf.org/en/viaf/data"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 2,
+  "json": 6,
+  "text": 1,
+  "svg": 1,
+  "unknown": 1,
+  "marc-json": 1
+ },
+ "vocabularies": {
+  "MARC 999": 126,
+  "MARC 921": 72,
+  "MARC 910": 66,
+  "MARC 993": 58,
+  "MARC 901": 49,
+  "MARC 998": 49,
+  "MARC 950": 45,
+  "MARC 942": 20,
+  "MARC 960": 19,
+  "MARC 920": 18,
+  "MARC 922": 17,
+  "MARC 943": 14,
+  "MARC 903": 11,
+  "MARC 912": 10,
+  "MARC 951": 9,
+  "MARC 955": 9,
+  "http://www.w3.org/1999/xhtml/vocab#": 7,
+  "MARC 940": 5,
+  "MARC 670": 3,
+  "MARC 944": 3,
+  "MARC 035": 2,
+  "MARC21 authority": 1,
+  "MARC 016": 1,
+  "MARC 040": 1,
+  "MARC 042": 1,
+  "MARC 046": 1,
+  "MARC 100": 1,
+  "MARC 370": 1,
+  "MARC 377": 1,
+  "MARC 500": 1,
+  "MARC 663": 1,
+  "MARC 700": 1,
+  "MARC 909": 1,
+  "MARC 919": 1,
+  "MARC 930": 1,
+  "MARC 947": 1,
+  "MARC 948": 1,
+  "MARC 969": 1,
+  "MARC 997": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "identifier": [
+   {
+    "value": "(CAOONL)ncf10128469",
+    "lang": null,
+    "via": "035",
+    "file": "conneg_3.json",
+    "uri": false
+   },
+   {
+    "value": "0105C0556",
+    "lang": null,
+    "via": "016",
+    "file": "conneg_3.json",
+    "uri": false
+   },
+   {
+    "value": "(CaOONL)161788",
+    "lang": null,
+    "via": "035",
+    "file": "conneg_3.json",
+    "uri": false
+   },
+   {
+    "value": "ncf10128469",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][0] (tag 035 $a)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "161788",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][2] (tag 035 $a)",
+    "file": "P8179.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "046$f",
+    "file": "conneg_3.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "046$g",
+    "file": "conneg_3.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "100",
+    "file": "conneg_3.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "377",
+    "file": "conneg_3.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "500",
+    "file": "conneg_3.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "For works of this author written under his real name, see: Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "663",
+    "file": "conneg_3.json",
+    "uri": false
+   },
+   {
+    "value": "For works of this author written under his real name, see: Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][10] (tag 663)",
+    "file": "P8179.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "His The prince and the pauper.",
+    "lang": null,
+    "via": "670",
+    "file": "conneg_3.json",
+    "uri": false
+   },
+   {
+    "value": "LC. Real name. Dates.",
+    "lang": null,
+    "via": "670",
+    "file": "conneg_3.json",
+    "uri": false
+   },
+   {
+    "value": "His Republican letters. Samuel L. Clemens.",
+    "lang": null,
+    "via": "670",
+    "file": "conneg_3.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][9] (tag 500) (see-also: real name)",
+    "file": "P8179.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][7] (tag 370 $c)",
+    "file": "P8179.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2014-09-09T13:00:59",
+    "lang": null,
+    "via": "llm:conneg_3.json: controlfield 005",
+    "file": "P8179.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1977-04-26",
+    "lang": null,
+    "via": "llm:conneg_3.json: controlfield 008",
+    "file": "P8179.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The great landslide case",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][76] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing it",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][77] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "The celebrated jumping frog of Calaveras county : and other sketches",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][78] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's library of humor",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][79] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "A tramp abroad",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][80] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Letters of Quintus Curtius Snodgrass",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][81] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "The stolen white elephant, etc",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][82] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Personal recollections of Joan of Arc : y the Sieur Louis de Conte (her page and secretary) freely translated out of the ancient French into modern English from the original unpublished manuscript in the National Archives of France by Jean François Alden by Mark Twain",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][83] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "The apprentice's dividend : being an excerpt from the autobiography of Mark Twain",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][84] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "The tragedy of Pudd'nhead Wilson : and, the comedy Those extraordinary twins",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][85] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Those extraordinary twins",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][86] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Letters from the earth",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][87] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson : and, Those extraordinary twins",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][88] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "The innocents abroad",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][89] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's complete works",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][90] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "The new pilgrims' progress",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][91] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Personal recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][92] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing it ; and, the innocents at home",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][93] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Innocents at home",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][94] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Huckleberry Finn : Tom Sayer's comrade",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][95] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Quand Satan raconte la terre au bon Dieu ; suivi de Papiers de la famille Adam et d'autres documents essentiels, Lettres from the earth",
+    "lang": "fr",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][96] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][97] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Old times on the Mississippi",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][98] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's court",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][99] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "A conversation as it was at the social fireside in the time of the Tudors : or, \"1601\"",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][100] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "1601",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][101] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's burlesque autobiography : First romance, and Memoranda",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][102] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Huckleberry Finn (Tom Sawyer's comrade)",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][103] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's letters",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][104] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Pryhody Huka",
+    "lang": "uk",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][105] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "A Yankee at the court of King Arthur",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][106] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Advice to little girls",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][107] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Advice to little girls (Compilation)",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][108] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "A double-barrelled detective story",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][109] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain zum 150. Geburtstag : eine Ausstellung der Internationalen Jugendbibliothek, München, 25. November-27. Dezember 1985",
+    "lang": "de",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][110] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn and Zombie Jim : Mark Twain's classic with crazy zombie goodness",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][111] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "A literature kit for the adventures of Huckleberry Finn by Mark Twain",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][112] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's (burlesque) autobiography and first romance",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][113] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "The £1,000,000 bank-note : and other new stories",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][114] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "The celebrated jumping frog of Calaveras county, and other sketches",
+    "lang": "en",
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][115] (tag 910 $A)",
+    "file": "P8179.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "NUKAT|n  94200767",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][447] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][448] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "ARBABN|000024237",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][450] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "XA|2080",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][451] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "SELIBR|98057",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][452] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "SIMACOB|7830883",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][453] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "SKMASNL|vtls005928524",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][454] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "BNF|11927291",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][455] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][456] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "SUDOC|027171876",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][457] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "W2Z|90056487",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][458] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "BNCHL|10000000000000000007139",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][459] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "N6I|vtls000050376",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][460] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "EGAXA|vtls000823270",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][461] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "NLA|000035028957",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][462] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "B2Q|0000005713",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][463] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "LC|n  79021164",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][464] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][465] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "NYNYRILM|1598",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][466] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "NLR|RU NLR AUTH 77201",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][467] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][468] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "GRATEVE|178278",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][469] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "BAV|495_17906",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][470] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][471] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][472] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "PTBNP|46269",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][473] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "RERO|A000164542",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][474] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][475] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "NKC|jn19981002263",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][476] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][477] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "LNL|14733",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][478] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "NDL|00459304",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][479] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "NTA|227880145",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][480] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][481] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "NTA|068242964",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][482] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "ICCU|CFIV002662",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][483] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "UAE|Mill_a10002910",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][484] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "J9U|987007269289205171",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][485] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "WKP|Q7245",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][489] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   },
+   {
+    "value": "DNB|118624822",
+    "lang": null,
+    "via": "llm:conneg_3.json: $['mx:record']['mx:datafield'][490] (tag 998 $2)",
+    "file": "P8179.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "identifier": [],
+  "birth_date": [],
+  "death_date": [],
+  "name_preferred": [],
+  "language": [],
+  "related_agent": [],
+  "description": [
+   "en"
+  ],
+  "source": [],
+  "name_variant": [],
+  "nationality": [
+   "en"
+  ],
+  "record_modified": [],
+  "record_created": [],
+  "work": [
+   "de",
+   "en",
+   "fr",
+   "uk"
+  ],
+  "same_as": []
+ },
+ "unmapped": {
+  "MARC 999": 126,
+  "MARC 921": 72,
+  "MARC 910": 66,
+  "MARC 993": 58,
+  "MARC 901": 49,
+  "MARC 998": 49,
+  "MARC 950": 45,
+  "MARC 942": 20,
+  "MARC 960": 19,
+  "MARC 920": 18,
+  "MARC 922": 17,
+  "MARC 943": 14,
+  "MARC 903": 11,
+  "MARC 912": 10,
+  "MARC 951": 9,
+  "MARC 955": 9,
+  "MARC 940": 5,
+  "MARC 944": 3,
+  "MARC 042": 1,
+  "MARC 700": 1,
+  "MARC 909": 1,
+  "MARC 919": 1,
+  "MARC 930": 1,
+  "MARC 947": 1,
+  "MARC 948": 1,
+  "MARC 969": 1,
+  "MARC 997": 1
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 2,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 5370,
+   "path_count": 130,
+   "paths": [
+    {
+     "path": "RuleSet[].Countries[]",
+     "n": 51,
+     "sample": "us"
+    },
+    {
+     "path": "RuleSet[].Id",
+     "n": 2,
+     "sample": "019625a7-0af5-7cc3-8ccd-ed9265f46db9"
+    },
+    {
+     "path": "RuleSet[].Name",
+     "n": 2,
+     "sample": "US"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.de",
+     "n": 2,
+     "sample": "de"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.pt",
+     "n": 2,
+     "sample": "pt"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.ko",
+     "n": 2,
+     "sample": "ko"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.zh-tw",
+     "n": 2,
+     "sample": "zh-tw"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.zh-hant",
+     "n": 2,
+     "sample": "zh-hant"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.zh-hans",
+     "n": 2,
+     "sample": "zh-hans"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.it",
+     "n": 2,
+     "sample": "it"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.fr",
+     "n": 2,
+     "sample": "fr"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.zh-cn",
+     "n": 2,
+     "sample": "zh-cn"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.es",
+     "n": 2,
+     "sample": "es"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.zh",
+     "n": 2,
+     "sample": "zh"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.cs",
+     "n": 2,
+     "sample": "cs"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.default",
+     "n": 2,
+     "sample": "en"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.th",
+     "n": 2,
+     "sample": "th"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.ja",
+     "n": 2,
+     "sample": "ja"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.mi",
+     "n": 2,
+     "sample": "mi"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.nl",
+     "n": 2,
+     "sample": "nl"
+    },
+    {
+     "path": "RuleSet[].LanguageSwitcherPlaceholder.ca",
+     "n": 2,
+     "sample": "ca"
+    },
+    {
+     "path": "RuleSet[].BannerPushesDown",
+     "n": 2,
+     "sample": "False"
+    },
+    {
+     "path": "RuleSet[].Default",
+     "n": 2,
+     "sample": "False"
+    },
+    {
+     "path": "RuleSet[].Global",
+     "n": 2,
+     "sample": "False"
+    },
+    {
+     "path": "RuleSet[].Type",
+     "n": 2,
+     "sample": "GDPR"
+    },
+    {
+     "path": "RuleSet[].UseGoogleVendors",
+     "n": 2,
+     "sample": "False"
+    },
+    {
+     "path": "RuleSet[].VariantEnabled",
+     "n": 2,
+     "sample": "False"
+    },
+    {
+     "path": "RuleSet[].TestEndTime",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "RuleSet[].TemplateName",
+     "n": 2,
+     "sample": "OCLC Global"
+    },
+    {
+     "path": "RuleSet[].GCEnable",
+     "n": 2,
+     "sample": "True"
+    },
+    {
+     "path": "RuleSet[].IsGPPEnabled",
+     "n": 2,
+     "sample": "False"
+    },
+    {
+     "path": "RuleSet[].EnableJWTAuthForKnownUsers",
+     "n": 2,
+     "sample": "False"
+    },
+    {
+     "path": "CookieSPAEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "CookieSameSiteNoneEnabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "CookieV2CSPEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "MultiVariantTestingEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "UseV2",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "MobileSDK",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "SkipGeolocation",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "ScriptType",
+     "n": 1,
+     "sample": "PRODUCTION"
+    },
+    {
+     "path": "Version",
+     "n": 1,
+     "sample": "202503.1.0"
+    },
+    {
+     "path": "OptanonDataJSON",
+     "n": 1,
+     "sample": "65682830-e5f2-4745-8419-d4455d00dc72"
+    },
+    {
+     "path": "GeolocationUrl",
+     "n": 1,
+     "sample": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+    },
+    {
+     "path": "BulkDomainCheckUrl",
+     "n": 1,
+     "sample": "https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck"
+    },
+    {
+     "path": "IabData.cookieVersion",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "IabData.createdTime",
+     "n": 1,
+     "sample": "2026-04-09T15:34:41.191882703"
+    },
+    {
+     "path": "IabData.updatedTime",
+     "n": 1,
+     "sample": "2026-04-09T15:34:41.191888935"
+    },
+    {
+     "path": "IabData.cmpId",
+     "n": 1,
+     "sample": "28"
+    },
+    {
+     "path": "IabData.cmpVersion",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "IabData.consentScreen",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "IabData.consentLanguage",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "IabData.vendorListVersion",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "IabData.maxVendorId",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "IabData.encodingType",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "IabData.globalVendorListUrl",
+     "n": 1,
+     "sample": "https://cdn.cookielaw.org/vendorlist/iabData.json"
+    },
+    {
+     "path": "IabV2Data.cookieVersion",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "IabV2Data.createdTime",
+     "n": 1,
+     "sample": "2026-04-09T15:34:41.300161369"
+    },
+    {
+     "path": "IabV2Data.updatedTime",
+     "n": 1,
+     "sample": "2026-04-09T15:34:41.300167961"
+    },
+    {
+     "path": "IabV2Data.cmpId",
+     "n": 1,
+     "sample": "28"
+    },
+    {
+     "path": "IabV2Data.cmpVersion",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "IabV2Data.consentScreen",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "IabV2Data.consentLanguage",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "IabV2Data.vendorListVersion",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "IabV2Data.maxVendorId",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "IabV2Data.encodingType",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "IabV2Data.globalVendorListUrl",
+     "n": 1,
+     "sample": "https://cdn.cookielaw.org/vendorlist/iab2Data.json"
+    },
+    {
+     "path": "Iab2V2Data.cookieVersion",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "Iab2V2Data.createdTime",
+     "n": 1,
+     "sample": "2026-04-09T15:34:41.409334241"
+    },
+    {
+     "path": "Iab2V2Data.updatedTime",
+     "n": 1,
+     "sample": "2026-04-09T15:34:41.409340745"
+    },
+    {
+     "path": "Iab2V2Data.cmpId",
+     "n": 1,
+     "sample": "28"
+    },
+    {
+     "path": "Iab2V2Data.cmpVersion",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "Iab2V2Data.consentScreen",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "Iab2V2Data.consentLanguage",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "Iab2V2Data.vendorListVersion",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "Iab2V2Data.maxVendorId",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "Iab2V2Data.encodingType",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "Iab2V2Data.globalVendorListUrl",
+     "n": 1,
+     "sample": "https://cdn.cookielaw.org/vendorlist/iab2V2Data.json"
+    },
+    {
+     "path": "GoogleData.vendorListVersion",
+     "n": 1,
+     "sample": "141"
+    },
+    {
+     "path": "GoogleData.googleVendorListUrl",
+     "n": 1,
+     "sample": "https://cdn.cookielaw.org/vendorlist/googleData.json"
+    },
+    {
+     "path": "ScriptDynamicLoadEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "TenantFeatures.CookieV2BannerFocus",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2RejectAll",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2GPC",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2GeolocationJsonApi",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2TCF21",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2SSR",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2SkipCategory",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2BannerLogo",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2VendorServiceScript",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.ConsentStoreConsentStrings",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.features.cmp-amazon-consent-Signal",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookiesV2TCF2.3Adoption",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2AssignTemplateRule",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.MobileAuthenticatedConsents",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2MicrosoftUET",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2GCMDMA",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookiesSameSiteNone",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2RemoveSettingsIcon",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2NewConsentReceiptAPI",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2GeneralVendors",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "TenantFeatures.CookieV2GPP",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "IsSuppressBanner",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "IsSuppressPC",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "PublisherCC",
+     "n": 1,
+     "sample": "US"
+    },
+    {
+     "path": "Domain",
+     "n": 1,
+     "sample": "viaf.org"
+    },
+    {
+     "path": "TenantGuid",
+     "n": 1,
+     "sample": "ae95f2c4-d4f7-4b4f-a299-1dd96c032e18"
+    },
+    {
+     "path": "EnvId",
+     "n": 1,
+     "sample": "app-prod"
+    },
+    {
+     "path": "RemoteActionsEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "GeoRuleGroupName",
+     "n": 1,
+     "sample": "OCLC Default Global"
+    },
+    {
+     "path": "GATrackToggle",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "GATrackAssignedCategory",
+     "n": 1,
+     "sample": "AS"
+    },
+    {
+     "path": "WebFormIntegrationEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "WebFormSrcUrl",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "WebFormWorkerUrl",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "GppData.cmpId",
+     "n": 1,
+     "sample": "28"
+    },
+    {
+     "path": "AuthenticatedConsent",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "AuthenticatedLoggedOutConsent",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "CDNLocation",
+     "n": 1,
+     "sample": "https://cdn.cookielaw.org"
+    },
+    {
+     "path": "RootDomainConsentEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "RootDomainUrl",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ca",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ja",
+    "ko",
+    "mi",
+    "nl",
+    "pt",
+    "th",
+    "zh",
+    "zh-cn",
+    "zh-hans",
+    "zh-hant",
+    "zh-tw"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 52495,
+   "path_count": 550,
+   "paths": [
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].id",
+     "n": 13,
+     "sample": "01935671-6191-7d2a-b28b-517bb1fe73c7"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].Name",
+     "n": 13,
+     "sample": "OptanonConsent"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].Host",
+     "n": 13,
+     "sample": ".viaf.org"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].IsSession",
+     "n": 13,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].Length",
+     "n": 13,
+     "sample": "365"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].description",
+     "n": 13,
+     "sample": "This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookie"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].thirdPartyDescription",
+     "n": 13,
+     "sample": "This is a CloudFoundry cookie"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].patternKey",
+     "n": 13,
+     "sample": "_cf_bm"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].thirdPartyKey",
+     "n": 13,
+     "sample": "Pattern|_cf_bm"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].firstPartyKey",
+     "n": 13,
+     "sample": "Cookie__cf_bm,Pattern|_cf_bm"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].DurationType",
+     "n": 13,
+     "sample": "1"
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].category",
+     "n": 13,
+     "sample": null
+    },
+    {
+     "path": "DomainData.Groups[].FirstPartyCookies[].isThirdParty",
+     "n": 13,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.Groups[].ShowInPopup",
+     "n": 5,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.Groups[].ShowInPopupNonIAB",
+     "n": 5,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.Groups[].ShowSDKListLink",
+     "n": 5,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.Groups[].Order",
+     "n": 5,
+     "sample": "1"
+    },
+    {
+     "path": "DomainData.Groups[].OptanonGroupId",
+     "n": 5,
+     "sample": "C0001"
+    },
+    {
+     "path": "DomainData.Groups[].Parent",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "DomainData.Groups[].ShowSubgroup",
+     "n": 5,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.Groups[].ShowSubGroupDescription",
+     "n": 5,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.Groups[].ShowSubgroupToggle",
+     "n": 5,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.Groups[].AlwaysShowCategory",
+     "n": 5,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.Groups[].GroupDescription",
+     "n": 5,
+     "sample": "These cookies are necessary for the website to function. They are usually only set in response to actions made by you wh"
+    },
+    {
+     "path": "DomainData.Groups[].GroupDescriptionOTT",
+     "n": 5,
+     "sample": "These cookies are necessary for the website to function. They are usually only set in response to actions made by you wh"
+    },
+    {
+     "path": "DomainData.Groups[].GroupNameMobile",
+     "n": 5,
+     "sample": "Strictly Necessary Cookies"
+    },
+    {
+     "path": "DomainData.Groups[].GroupNameOTT",
+     "n": 5,
+     "sample": "Strictly Necessary Cookies"
+    },
+    {
+     "path": "DomainData.Groups[].GroupName",
+     "n": 5,
+     "sample": "Strictly Necessary Cookies"
+    },
+    {
+     "path": "DomainData.Groups[].IsIabPurpose",
+     "n": 5,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.Groups[].PurposeId",
+     "n": 5,
+     "sample": "74DBF419-DC85-4374-AEEE-D30004AE1B9D"
+    },
+    {
+     "path": "DomainData.Groups[].CustomGroupId",
+     "n": 5,
+     "sample": "C0001"
+    },
+    {
+     "path": "DomainData.Groups[].GroupId",
+     "n": 5,
+     "sample": "6de27953-268b-4cfe-9bee-62fbdf718def"
+    },
+    {
+     "path": "DomainData.Groups[].Status",
+     "n": 5,
+     "sample": "always active"
+    },
+    {
+     "path": "DomainData.Groups[].IsDntEnabled",
+     "n": 5,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.Groups[].Type",
+     "n": 5,
+     "sample": "COOKIE"
+    },
+    {
+     "path": "DomainData.Groups[].DescriptionLegal",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "DomainData.Groups[].HasLegIntOptOut",
+     "n": 5,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.Groups[].HasConsentOptOut",
+     "n": 5,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.Groups[].IsGpcEnabled",
+     "n": 5,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.Groups[].VendorServices",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "DomainData.Groups[].TrackingTech",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].id",
+     "n": 2,
+     "sample": "0195260f-41af-79fd-8b80-c162e1274b0d"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].Name",
+     "n": 2,
+     "sample": "OptanonAlertBoxClosed"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].Host",
+     "n": 2,
+     "sample": "cdn.cookielaw.org"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].IsSession",
+     "n": 2,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].Length",
+     "n": 2,
+     "sample": "364"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].description",
+     "n": 2,
+     "sample": "This cookie name is associated with the Piwik open source web analytics platform. It is used to help website owners trac"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].thirdPartyDescription",
+     "n": 2,
+     "sample": "This cookie name is associated with the Piwik open source web analytics platform. It is used to help website owners trac"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].patternKey",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].thirdPartyKey",
+     "n": 2,
+     "sample": "Cookie|cdn.cookielaw.org"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].firstPartyKey",
+     "n": 2,
+     "sample": "CookieOptanonAlertBoxClosed"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].DurationType",
+     "n": 2,
+     "sample": "1"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].category",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Cookies[].isThirdParty",
+     "n": 2,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.pclifeSpanYr",
+     "n": 1,
+     "sample": "Year"
+    },
+    {
+     "path": "DomainData.pclifeSpanYrs",
+     "n": 1,
+     "sample": "Years"
+    },
+    {
+     "path": "DomainData.pclifeSpanSecs",
+     "n": 1,
+     "sample": "A few seconds"
+    },
+    {
+     "path": "DomainData.pclifeSpanWk",
+     "n": 1,
+     "sample": "Week"
+    },
+    {
+     "path": "DomainData.pclifeSpanWks",
+     "n": 1,
+     "sample": "Weeks"
+    },
+    {
+     "path": "DomainData.pccontinueWithoutAcceptText",
+     "n": 1,
+     "sample": "Continue without Accepting"
+    },
+    {
+     "path": "DomainData.pccloseButtonType",
+     "n": 1,
+     "sample": "Icon"
+    },
+    {
+     "path": "DomainData.MainText",
+     "n": 1,
+     "sample": "Cookie Preference Center"
+    },
+    {
+     "path": "DomainData.MainInfoText",
+     "n": 1,
+     "sample": "When you visit our website, it stores data on your device in what is commonly called \"cookies\"—information about how you"
+    },
+    {
+     "path": "DomainData.AboutText",
+     "n": 1,
+     "sample": "Please see our Cookie Notice for more information."
+    },
+    {
+     "path": "DomainData.AboutCookiesText",
+     "n": 1,
+     "sample": "Your Privacy"
+    },
+    {
+     "path": "DomainData.ConfirmText",
+     "n": 1,
+     "sample": "Accept all cookies"
+    },
+    {
+     "path": "DomainData.AllowAllText",
+     "n": 1,
+     "sample": "Save Settings"
+    },
+    {
+     "path": "DomainData.CookiesUsedText",
+     "n": 1,
+     "sample": "Cookies used"
+    },
+    {
+     "path": "DomainData.CookiesDescText",
+     "n": 1,
+     "sample": "Description"
+    },
+    {
+     "path": "DomainData.AboutLink",
+     "n": 1,
+     "sample": "https://policies.oclc.org/en/privacy/cookie-statement.html"
+    },
+    {
+     "path": "DomainData.ActiveText",
+     "n": 1,
+     "sample": "Active"
+    },
+    {
+     "path": "DomainData.AlwaysActiveText",
+     "n": 1,
+     "sample": "Always Active"
+    },
+    {
+     "path": "DomainData.AlwaysInactiveText",
+     "n": 1,
+     "sample": "Always Inactive"
+    },
+    {
+     "path": "DomainData.PCShowAlwaysActiveToggle",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.AlertNoticeText",
+     "n": 1,
+     "sample": "Our web pages use cookies—information about how you interact with the site. When you select “Accept all cookies,” you’re"
+    },
+    {
+     "path": "DomainData.AlertCloseText",
+     "n": 1,
+     "sample": "Close"
+    },
+    {
+     "path": "DomainData.AlertMoreInfoText",
+     "n": 1,
+     "sample": "Customize cookie settings"
+    },
+    {
+     "path": "DomainData.AlertMoreInfoTextDialog",
+     "n": 1,
+     "sample": "Customize cookie settings, Opens the preference center dialog"
+    },
+    {
+     "path": "DomainData.CookieSettingButtonText",
+     "n": 1,
+     "sample": "Customize cookie settings"
+    },
+    {
+     "path": "DomainData.AlertAllowCookiesText",
+     "n": 1,
+     "sample": "Accept all cookies"
+    },
+    {
+     "path": "DomainData.CloseShouldAcceptAllCookies",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.LastReconsentDate",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "DomainData.BannerTitle",
+     "n": 1,
+     "sample": "Cookies on OCLC websites"
+    },
+    {
+     "path": "DomainData.ForceConsent",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.BannerPushesDownPage",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.InactiveText",
+     "n": 1,
+     "sample": "Inactive"
+    },
+    {
+     "path": "DomainData.CookiesText",
+     "n": 1,
+     "sample": "Cookies"
+    },
+    {
+     "path": "DomainData.CategoriesText",
+     "n": 1,
+     "sample": "Cookie Subgroup"
+    },
+    {
+     "path": "DomainData.IsLifespanEnabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.LifespanText",
+     "n": 1,
+     "sample": "Lifespan"
+    },
+    {
+     "path": "DomainData.VendorLevelOptOut",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.HasScriptArchive",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.BannerPosition",
+     "n": 1,
+     "sample": "bottom-left"
+    },
+    {
+     "path": "DomainData.PreferenceCenterPosition",
+     "n": 1,
+     "sample": "left"
+    },
+    {
+     "path": "DomainData.PreferenceCenterConfirmText",
+     "n": 1,
+     "sample": "Save my settings"
+    },
+    {
+     "path": "DomainData.VendorListText",
+     "n": 1,
+     "sample": "List of IAB Vendors"
+    },
+    {
+     "path": "DomainData.ThirdPartyCookieListText",
+     "n": 1,
+     "sample": "Cookies Details"
+    },
+    {
+     "path": "DomainData.PreferenceCenterManagePreferencesText",
+     "n": 1,
+     "sample": " Manage Consent Preferences"
+    },
+    {
+     "path": "DomainData.PreferenceCenterMoreInfoScreenReader",
+     "n": 1,
+     "sample": "Opens in a new Tab"
+    },
+    {
+     "path": "DomainData.CookieListTitle",
+     "n": 1,
+     "sample": "Cookie List"
+    },
+    {
+     "path": "DomainData.CookieListDescription",
+     "n": 1,
+     "sample": "A cookie is a small piece of data (text file) that a website – when visited by a user – asks your browser to store on yo"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].HostName",
+     "n": 1,
+     "sample": "cdn.cookielaw.org"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].DisplayName",
+     "n": 1,
+     "sample": "cdn.cookielaw.org"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].HostId",
+     "n": 1,
+     "sample": "H48"
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].Description",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "DomainData.Groups[].Hosts[].PrivacyPolicy",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "DomainData.Language.Culture",
+     "n": 1,
+     "sample": "en"
+    },
+    {
+     "path": "DomainData.ShowPreferenceCenterCloseButton",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.CustomJs",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "DomainData.LifespanTypeText",
+     "n": 1,
+     "sample": "Session"
+    },
+    {
+     "path": "DomainData.LifespanDurationText",
+     "n": 1,
+     "sample": "days"
+    },
+    {
+     "path": "DomainData.CloseText",
+     "n": 1,
+     "sample": "Close Preference Center without saving"
+    },
+    {
+     "path": "DomainData.BannerCloseButtonText",
+     "n": 1,
+     "sample": "Close"
+    },
+    {
+     "path": "DomainData.AddLinksToCookiepedia",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.showBannerCloseButton",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.AlertLayout",
+     "n": 1,
+     "sample": "bottom"
+    },
+    {
+     "path": "DomainData.ShowAlertNotice",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.IsConsentLoggingEnabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "DomainData.IsIabEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "DomainData.IsIabThirdPartyCookieEnabled",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 12789,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "html",
+     "n": 1,
+     "sample": "<div id=\"onetrust-banner-sdk\" class=\"otFloatingRoundedCorner ot-bottom-left\" tabindex=\"0\"><div class=\"ot-sdk-container\" "
+    },
+    {
+     "path": "css",
+     "n": 1,
+     "sample": "#onetrust-banner-sdk.otFloatingRoundedCorner{position:fixed;z-index:2147483645;background-color:#fff;width:26%;max-width"
+    },
+    {
+     "path": "name",
+     "n": 1,
+     "sample": "otFloatingRoundedCorner"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "css"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 67542,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "name",
+     "n": 1,
+     "sample": "otPcPanel"
+    },
+    {
+     "path": "html",
+     "n": 1,
+     "sample": "PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY1BhbmVsIG90LWhpZGUgb3QtZmFkZS1pbiI+PGRpdiByb2xlPSJkaWFsb2ciIGFyaWEtbW9k"
+    },
+    {
+     "path": "css",
+     "n": 1,
+     "sample": "@keyframes ot-slide-in-left{from{-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0)}to{-webki"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "css"
+   ]
+  },
+  {
+   "file": "conneg_3.json",
+   "format": "json",
+   "size": 98013,
+   "path_count": 12,
+   "paths": [
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield[].code",
+     "n": 89,
+     "sample": "a"
+    },
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield[].content",
+     "n": 89,
+     "sample": "CaOONL"
+    },
+    {
+     "path": "mx:record.mx:datafield[].ind2",
+     "n": 50,
+     "sample": " "
+    },
+    {
+     "path": "mx:record.mx:datafield[].ind1",
+     "n": 50,
+     "sample": " "
+    },
+    {
+     "path": "mx:record.mx:datafield[].tag",
+     "n": 50,
+     "sample": "035"
+    },
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield.code",
+     "n": 8,
+     "sample": "a"
+    },
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield.content",
+     "n": 8,
+     "sample": "(CAOONL)ncf10128469"
+    },
+    {
+     "path": "mx:record.mx:controlfield[].tag",
+     "n": 4,
+     "sample": "001"
+    },
+    {
+     "path": "mx:record.mx:controlfield[].content",
+     "n": 4,
+     "sample": "CAOONL|ncf10128469"
+    },
+    {
+     "path": "mx:record.xmlns",
+     "n": 1,
+     "sample": "http://www.w3.org/TR/xhtml1/strict"
+    },
+    {
+     "path": "mx:record.mx:leader",
+     "n": 1,
+     "sample": "00000cz  a2200037n  45 0"
+    },
+    {
+     "path": "mx:record.xmlns:mx",
+     "n": 1,
+     "sample": "http://www.loc.gov/MARC21/slim"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield[].content",
+     "value": "Twain, Mark,"
+    },
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield[].content",
+     "value": "1835-1910"
+    },
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield[].content",
+     "value": "Clemens, Samuel Langhorne,"
+    },
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield[].content",
+     "value": "1835-1910"
+    },
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield[].content",
+     "value": "Clemens, Samuel Langhorne, 1835-1910"
+    },
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield.content",
+     "value": "His Republican letters. Samuel L. Clemens."
+    },
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield[].content",
+     "value": "Twain, Mark,"
+    },
+    {
+     "path": "mx:record.mx:datafield[].mx:subfield[].content",
+     "value": "1835-1910"
+    }
+   ],
+   "language_like_keys": [
+    "tag"
+   ]
+  }
+ ],
+ "llm_notes": "VIAF's MARC21 copy (as JSON) of the Library and Archives Canada authority record CAOONL|ncf10128469 (heading Twain, Mark, 1835-1910; 500 see-also to Clemens; 670 sources). 9xx fields are VIAF enrichments: 998 = VIAF cluster member records (listed in same_as as SOURCE|id, not URIs; excluded LC n 82045653 'Twain, Mark (Spirit)', and mis-clustered NKC jx20050822002 Olivia Langdon Clemens / PLWABN Karłowicz), 996 = records VIAF kept in other clusters (not used), 910/912 = title strings VIAF derived from linked bibliographic records (used as work). 993 fields list LAC work/expression authorities for his works (titles also covered by 910/912).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

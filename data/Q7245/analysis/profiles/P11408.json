@@ -1,0 +1,282 @@
+{
+ "property": "P11408",
+ "property_label": "Pixiv Encyclopedia ID",
+ "files": [
+  {
+   "file": "P11408___dc163aa8/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://dic.pixiv.net/a/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+  },
+  {
+   "file": "P11408___dc163aa8/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://dic.pixiv.net/a/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+  },
+  {
+   "file": "P11408___dc163aa8/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://s.pximg.net/pixpedia/soy/_next/static/8bc08ecbb6b07ecf35dfdd98702a1266e47ea301/_clientMiddlewareManifest.json"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P11408.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "アメリカ合衆国の作家。",
+    "lang": "ja",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P11408.json",
+    "uri": false
+   },
+   {
+    "value": "アメリカ合衆国の作家。本名サム・クレメンズ。トム・ソーヤーの冒険やハックルベリー・フィンの冒険の作者として知られる。アメリカを知りたければマーク・トウェインの作品を読めと言われるほど、アメリカの代名詞として一役買われている。",
+    "lang": "ja",
+    "via": "llm-page:概要",
+    "file": "P11408.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "作家",
+    "lang": "ja",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P11408.json",
+    "uri": false
+   },
+   {
+    "value": "小説家",
+    "lang": "ja",
+    "via": "llm-page:親記事 (parent article)",
+    "file": "P11408.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "アメリカ合衆国",
+    "lang": "ja",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P11408.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "7594742",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:image'] (article_id)",
+    "file": "P11408.json",
+    "uri": false
+   },
+   {
+    "value": "マーク・トウェイン",
+    "lang": null,
+    "via": "llm-page:page id (dic.pixiv.net/a/マーク・トウェイン)",
+    "file": "P11408.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "まーくとぅえいん",
+    "lang": "ja-Hira",
+    "via": "llm-page:reading under heading",
+    "file": "P11408.json",
+    "uri": false
+   },
+   {
+    "value": "マーク・トゥエイン",
+    "lang": "ja",
+    "via": "llm-page:表記違い (spelling variant)",
+    "file": "P11408.json",
+    "uri": false
+   },
+   {
+    "value": "サム・クレメンズ",
+    "lang": "ja",
+    "via": "llm-page:概要 '本名サム・クレメンズ'",
+    "file": "P11408.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": "ja",
+    "via": "llm-page:関連タグ, ハレー彗星 note",
+    "file": "P11408.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "アメリカ文学",
+    "lang": "ja",
+    "via": "llm-page:関連タグ",
+    "file": "P11408.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "トム・ソーヤーの冒険",
+    "lang": "ja",
+    "via": "llm-page:著作",
+    "file": "P11408.json",
+    "uri": false
+   },
+   {
+    "value": "ハックルベリー・フィンの冒険",
+    "lang": "ja",
+    "via": "llm-page:著作",
+    "file": "P11408.json",
+    "uri": false
+   },
+   {
+    "value": "王子と乞食",
+    "lang": "ja",
+    "via": "llm-page:著作",
+    "file": "P11408.json",
+    "uri": false
+   },
+   {
+    "value": "アーサー王宮廷のコネチカット・ヤンキー",
+    "lang": "ja",
+    "via": "llm-page:著作",
+    "file": "P11408.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "ja"
+  ],
+  "description": [
+   "ja"
+  ],
+  "occupation": [
+   "ja"
+  ],
+  "nationality": [
+   "ja"
+  ],
+  "identifier": [],
+  "name_variant": [
+   "ja",
+   "ja-Hira"
+  ],
+  "death_date": [
+   "ja"
+  ],
+  "field_of_activity": [
+   "ja"
+  ],
+  "work": [
+   "ja"
+  ]
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 407,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "マーク・トウェイン"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "/a/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "アメリカ合衆国の作家。"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "ピクシブ百科事典"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://dic.pixiv.net/ogp?article_id=7594742&mdate=1789355438"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "マーク・トウェイン"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 191,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "[].regexp",
+     "n": 1,
+     "sample": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!_next\\/)[^/.]{1,}))(?:\\/((?!_next\\/static).*))(\\\\.json)?[\\/#\\?]?$"
+    },
+    {
+     "path": "[].originalSource",
+     "n": 1,
+     "sample": "/((?!_next/static).*)"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Pixiv Encyclopedia (user-written Japanese wiki) article: short overview (American writer, real name Sam Clemens), four works, quotations and anecdotes (Halley's comet, 1910 death), a spelling variant and related tags; the rest is fan art/novel listings and site chrome.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

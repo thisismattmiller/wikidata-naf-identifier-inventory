@@ -1,0 +1,850 @@
+{
+ "property": "P7842",
+ "property_label": "Vienna History Wiki ID",
+ "files": [
+  {
+   "file": "P7842__400/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=400"
+  },
+  {
+   "file": "P7842__400/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=400"
+  },
+  {
+   "file": "P7842__400/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=400"
+  },
+  {
+   "file": "P7842__400/alternate_1.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.geschichtewiki.wien.gv.at/index.php?title=Spezial:RDF_exportieren&xmlmime=rdf"
+  },
+  {
+   "file": "P7842__400/alternate_2.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.geschichtewiki.wien.gv.at/index.php?title=Spezial:Letzte_%C3%84nderungen&feed=atom"
+  },
+  {
+   "file": "P7842__400/export_1.rdf",
+   "format": "rdf-xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.geschichtewiki.wien.gv.at/Spezial:RDF_exportieren/Mark_Twain"
+  },
+  {
+   "file": "P7842__400/browser_alternate_1.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://www.geschichtewiki.wien.gv.at/index.php?title=Spezial:RDF_exportieren&xmlmime=rdf"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 2,
+  "feed": 1,
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "http://www.geschichtewiki.wien.gv.at/Special:URIResolver/": 61,
+  "http://www.w3.org/1999/xhtml/vocab#": 30,
+  "https://schema.org/": 20,
+  "http://ogp.me/ns#": 8,
+  "http://semantic-mediawiki.org/swivt/1.0#": 7,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 4,
+  "http://www.w3.org/2004/02/skos/core#": 3,
+  "https://d-nb.info/standards/elementset/agrelon#": 3,
+  "http://www.w3.org/2000/01/rdf-schema#": 2,
+  "http://www.w3.org/2002/07/owl#": 1,
+  "https://d-nb.info/standards/elementset/gnd#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://www.w3.org/2002/07/owl#Ontology",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://semantic-mediawiki.org/swivt/1.0#Subject",
+    "lang": null,
+    "via": "type",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://www.geschichtewiki.wien.gv.at/Special:URIResolver/Category-3ACzeike",
+    "lang": null,
+    "via": "type",
+    "file": "export_1.rdf",
+    "uri": true
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2026-10-02T23:39:40+02:00",
+    "lang": null,
+    "via": "creationDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "2456497.7397454",
+    "lang": null,
+    "via": "dateCreated",
+    "file": "export_1.rdf",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "label",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "name",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "de",
+    "via": "llm-page:infobox Personenname",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://www.geschichtewiki.wien.gv.at/Mark_Twain",
+    "lang": null,
+    "via": "page",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://explore.gnd.network/gnd/118624822",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=400",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "Q7245",
+    "lang": null,
+    "via": "sameAs",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "llm-page:infobox GND ID",
+    "file": "P7842.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "alternateName",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "de",
+    "via": "llm-page:infobox Abweichende Namensform",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Schriftsteller",
+    "lang": null,
+    "via": "hasOccupation",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Schriftsteller",
+    "lang": "de",
+    "via": "llm-page:infobox Beruf",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Lotse",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Reporter",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Silbergräber",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Setzer",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://www.geschichtewiki.wien.gv.at/images/b/bc/Marktwain.jpg",
+    "lang": null,
+    "via": "image",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://www.geschichtewiki.wien.gv.at/images/thumb/b/bc/Marktwain.jpg/80px-Marktwain.jpg",
+    "lang": null,
+    "via": "thumbnailUrl",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://www.geschichtewiki.wien.gv.at/Special:URIResolver/Datei-3AMarktwain.jpg",
+    "lang": null,
+    "via": "photo",
+    "file": "export_1.rdf",
+    "uri": true
+   }
+  ],
+  "license": [
+   {
+    "value": "CC BY-NC-ND 4.0",
+    "lang": null,
+    "via": "license",
+    "file": "export_1.rdf",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "118624822",
+    "lang": null,
+    "via": "gndIdentifier",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "400",
+    "lang": null,
+    "via": "identifier",
+    "file": "export_1.rdf",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "birthDate",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "2391612.5",
+    "lang": null,
+    "via": "birthDate",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "de",
+    "via": "llm-page:infobox Geburtsdatum",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida/Missouri",
+    "lang": null,
+    "via": "birthPlace",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Florida/Missouri",
+    "lang": "de",
+    "via": "llm-page:infobox Geburtsort",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "männlich",
+    "lang": null,
+    "via": "gender",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "männlich",
+    "lang": "de",
+    "via": "llm-page:infobox Geschlecht",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-05-12",
+    "lang": null,
+    "via": "deathDate",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "2418803.5",
+    "lang": null,
+    "via": "deathDate",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "1910-05-12",
+    "lang": "de",
+    "via": "llm-page:infobox Sterbedatum and article text",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, USA",
+    "lang": null,
+    "via": "deathPlace",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Redding, Connecticut, USA",
+    "lang": "de",
+    "via": "llm-page:infobox Sterbeort",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Wien",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Kaltenleutgeben (Karlsgasse 3)",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Hotel Metropole",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Hotel Krantz am Neuen Markt",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Twain Mark (eigentlich Samuel Langhorne Clemens), * 30. November 1835 Florida/Missouri, † 12. Mai 1910 Redding, Connecticut, USA, Schriftsteller, Gattin (2. Februar 1870) Olivia Langdon † 5. Juni 1904 Florenz). Nach einer Setzerlehre war Twain als Lotse am Mississippi (1857-1860) beziehungsweise Reporter und Silbergräber in Nevada tätig (1861-1864). 1867 begann, nachdem er sich in Ostamerika eine prachtvolle Villa errichtet hatte, seine gesellschaftliche Karriere.",
+    "lang": "de",
+    "via": "llm-page:article text",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Tom Sawyer",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": "de",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Concerning the Jews",
+    "lang": "en",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "The Great Republic's Peanut Stand",
+    "lang": "en",
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Olivia Langdon (wife, married 2. Februar 1870, died 5. Juni 1904 Florenz)",
+    "lang": null,
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Clara (daughter)",
+    "lang": null,
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Jean (daughter)",
+    "lang": null,
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Theodor Leschetitzky (intended teacher of his daughters)",
+    "lang": null,
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Franz Joseph I. (received him in private audience)",
+    "lang": null,
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Wilhelm Winternitz (Kaltwasserheilanstalt used by his wife and daughter)",
+    "lang": null,
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Franz Schabratzky (Kaltenleutgeben priest, reputedly in The Mysterious Stranger)",
+    "lang": null,
+    "via": "llm-page:article",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Peter Nies (author of literature about him)",
+    "lang": null,
+    "via": "llm-page:Literatur",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Karl Stiehl (author of dissertation about him)",
+    "lang": null,
+    "via": "llm-page:Literatur",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Felix Czeike: Historisches Lexikon Wien",
+    "lang": "de",
+    "via": "llm-page:infobox Ressource",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Peter Nies: Vom Mississippi zur Donau oder ein Yankee auf Sommerfrische in Niederösterreich. In: Niederösterreichische Kulturberichte, Dezember 1985, S. 6 f.",
+    "lang": "de",
+    "via": "llm-page:Literatur",
+    "file": "P7842.json",
+    "uri": false
+   },
+   {
+    "value": "Karl Stiehl: Mark Twain in der Wiener Presse zur Zeit seines Aufenthaltes in Wien (1897-1899). Diss. Univ. Wien. Wien 1953",
+    "lang": "de",
+    "via": "llm-page:Literatur",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-07-29",
+    "lang": null,
+    "via": "llm-page:footer last edited",
+    "file": "P7842.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "record_created": [],
+  "name_preferred": [
+   "de"
+  ],
+  "same_as": [],
+  "name_variant": [
+   "de"
+  ],
+  "occupation": [
+   "de"
+  ],
+  "image": [],
+  "license": [],
+  "identifier": [],
+  "birth_date": [
+   "de"
+  ],
+  "birth_place": [
+   "de"
+  ],
+  "gender": [
+   "de"
+  ],
+  "death_date": [
+   "de"
+  ],
+  "death_place": [
+   "de"
+  ],
+  "activity_place": [
+   "de"
+  ],
+  "description": [
+   "de"
+  ],
+  "work": [
+   "de",
+   "en"
+  ],
+  "related_agent": [],
+  "source": [
+   "de"
+  ],
+  "record_modified": []
+ },
+ "unmapped": {
+  "Property-3AJubiläum (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 17,
+  "Property-3AJubiläum_Todestag (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 17,
+  "Property-3AHas_query (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 7,
+  "hasChild (https://d-nb.info/standards/elementset/agrelon#)": 2,
+  "imports (http://www.w3.org/2002/07/owl#)": 1,
+  "(og chrome: tagline / site image)": 1,
+  "isDefinedBy (http://www.w3.org/2000/01/rdf-schema#)": 1,
+  "wikiNamespace (http://semantic-mediawiki.org/swivt/1.0#)": 1,
+  "wikiPageContentLanguage (http://semantic-mediawiki.org/swivt/1.0#)": 1,
+  "Property-3ABild_vorhanden (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3ABildquelle (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "caption (https://schema.org/)": 1,
+  "Property-3AGeburtsjahr (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3AGeburtsmonat (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3AGeburtstag (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3AHistorisch (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "hasSpouse (https://d-nb.info/standards/elementset/agrelon#)": 1,
+  "isPartOf (https://schema.org/)": 1,
+  "Property-3ASeitenname_klein (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3ASterbejahr (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3ASterbemonat (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3ASterbetag (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3ATitle_Icon (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "wikiPageCreationDate (http://semantic-mediawiki.org/swivt/1.0#)": 1,
+  "Property-3ALast_editor_is (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "wikiPageModificationDate (http://semantic-mediawiki.org/swivt/1.0#)": 1,
+  "Property-3AModification_date-23aux (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3AIs_a_new_page (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "wikiPageSortKey (http://semantic-mediawiki.org/swivt/1.0#)": 1,
+  "Property-3AApproved_revision (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3AApproval_status (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3ANumber_of_revisions (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3APage_ID (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3APage_length (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1,
+  "Property-3ARevision_ID (http://www.geschichtewiki.wien.gv.at/Special:URIResolver/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 224,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.geschichtewiki.wien.gv.at/images/b/bc/Marktwain.jpg"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "1200"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "1997"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:image",
+     "value": "https://www.geschichtewiki.wien.gv.at/images/b/bc/Marktwain.jpg"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "alternate_2.xml",
+   "format": "xml",
+   "size": 291946,
+   "path_count": 23,
+   "paths": [
+    {
+     "path": "feed/entry",
+     "n": 44,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/id",
+     "n": 44,
+     "sample": "https://www.geschichtewiki.wien.gv.at/index.php?title=Datei:Gatofox_MVG_Probe_20261002.svg&diff=1177617&oldid=0"
+    },
+    {
+     "path": "feed/entry/title",
+     "n": 44,
+     "sample": "Datei:Gatofox MVG Probe 20261002.svg"
+    },
+    {
+     "path": "feed/entry/link",
+     "n": 44,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/link@rel",
+     "n": 44,
+     "sample": "alternate"
+    },
+    {
+     "path": "feed/entry/link@type",
+     "n": 44,
+     "sample": "text/html"
+    },
+    {
+     "path": "feed/entry/link@href",
+     "n": 44,
+     "sample": "https://www.geschichtewiki.wien.gv.at/index.php?title=Datei:Gatofox_MVG_Probe_20261002.svg&diff=1177617&oldid=0"
+    },
+    {
+     "path": "feed/entry/updated",
+     "n": 44,
+     "sample": "2026-10-03T00:37:58Z"
+    },
+    {
+     "path": "feed/entry/summary",
+     "n": 44,
+     "sample": "<p><a href=\"/index.php?title=Benutzer:DYN.gatofoxrce1002&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"B"
+    },
+    {
+     "path": "feed/entry/summary@type",
+     "n": 44,
+     "sample": "html"
+    },
+    {
+     "path": "feed/entry/author",
+     "n": 44,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/author/name",
+     "n": 44,
+     "sample": "DYN.gatofoxrce1002"
+    },
+    {
+     "path": "feed/link",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "feed/link@rel",
+     "n": 2,
+     "sample": "self"
+    },
+    {
+     "path": "feed/link@type",
+     "n": 2,
+     "sample": "application/atom+xml"
+    },
+    {
+     "path": "feed/link@href",
+     "n": 2,
+     "sample": "https://www.geschichtewiki.wien.gv.at/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedforma"
+    },
+    {
+     "path": "feed",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "feed@{http://www.w3.org/XML/1998/namespace}lang",
+     "n": 1,
+     "sample": "de"
+    },
+    {
+     "path": "feed/id",
+     "n": 1,
+     "sample": "https://www.geschichtewiki.wien.gv.at/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedforma"
+    },
+    {
+     "path": "feed/title",
+     "n": 1,
+     "sample": "Wien Geschichte Wiki  - Letzte Änderungen [de]"
+    },
+    {
+     "path": "feed/updated",
+     "n": 1,
+     "sample": "2026-10-03T02:12:47Z"
+    },
+    {
+     "path": "feed/subtitle",
+     "n": 1,
+     "sample": "Verfolge mit diesem Feed die letzten Änderungen in Wien Geschichte Wiki."
+    },
+    {
+     "path": "feed/generator",
+     "n": 1,
+     "sample": "MediaWiki 1.43.9"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "feed/entry/summary",
+     "value": "<p></p>\n<table style=\"background-color: #fff; color: #202122;\" data-mw=\"interface\">\n\t\t\t\t<col class=\"diff-marker\" />\n\t\t\t\t<col class=\"diff-content\" />\n\t\t\t\t<col class=\"diff-marker\" />\n\t\t\t\t<col class=\"dif"
+    },
+    {
+     "path": "feed/entry/summary",
+     "value": "<p>Die Seite wurde neu angelegt: „{{Person |Personenname=Minor, Nora |Abweichende Namensform=Hahn, Nora; Lallinger, Nora |Geschlecht=weiblich |Geburtsdatum=1910/12/07 |Geburtsort=Wien |Sterbedatum=199"
+    }
+   ],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Wien Geschichte Wiki person article with an infobox (names, gender, GND/Wikidata ids, dates, places, occupation) and a text on his 1897-1899 stay in Vienna and Kaltenleutgeben, plus literature. Note: death date given as 12. Mai 1910 (the site's value; actual is 21 April).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

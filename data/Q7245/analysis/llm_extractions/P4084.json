@@ -1,0 +1,13 @@
+{
+ "property": "P4084",
+ "label": "MyAnimeList people ID",
+ "files_read": ["P4084__19191/embedded_microdata.json", "P4084__19191/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "Breadcrumb microdata and OpenGraph tags of the MyAnimeList person page. og:description is generic site boilerplate and was not used as a description.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "name_variant": [{"value": "Twain, Mark", "lang": "en", "via": "embedded_microdata.json: $[0].itemListElement[2].name"}],
+  "image": [{"value": "https://cdn.myanimelist.net/images/voiceactors/1/21955.jpg", "via": "embedded_opengraph.json: $[0]['og:image']"}],
+  "identifier": [{"value": "19191", "raw": "https://myanimelist.net/people/19191/Mark_Twain", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

@@ -1,0 +1,534 @@
+{
+ "property": "P723",
+ "property_label": "DBNL author ID",
+ "value": "twai001",
+ "url": "https://www.dbnl.org/auteurs/auteur.php?id=twai001",
+ "crawled_at": "2026-10-02T21:12:55+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://www.dbnl.org/auteurs/auteur.php?id=twai001",
+ "tab_title": "Mark Twain - auteur - DBNL",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P723__twai001.jpg",
+ "elapsed_seconds": 5.7,
+ "html_file": "pages/P723__twai001.html",
+ "text_file": "pages/P723__twai001.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://www.dbnl.org/auteurs/auteur.php?id=twai001",
+  "title": "Mark Twain - auteur - DBNL",
+  "content_type": "text/html",
+  "lang": "nl",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 200,
+   "url": "https://www.dbnl.org/auteurs/auteur.php?id=twai001",
+   "headers": {
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "connection": "Keep-Alive",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Fri, 02 Oct 2026 21:12:58 GMT",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "keep-alive": "timeout=5, max=93",
+    "pragma": "no-cache",
+    "server": "Apache",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
+    "x-geo-country": "US",
+    "x-xss-protection": "1; mode=block"
+   }
+  },
+  "link_elements": [],
+  "jsonld": [
+   {
+    "types": [
+     "Person"
+    ],
+    "length": 734,
+    "content": "\n{\n\t\"@context\": \"https://schema.org\",\n\t\"@type\": \"Person\",\n\t\"@id\": \"https://www.dbnl.org/auteurs/auteur.php?id=twai001\",\n\t\"birthDate\": \"1835-11-30\",\n\t\"birthPlace\": {\n\t\t\"@type\": \"PostalAddress\",\n\t\t\"addressCountry\": \"Verenigde Staten\",\n\t\t\"addressLocality\": \"Missiouri\"\n\t},\n\t\"deathDate\": \"1910-04-21\",\n\t\"deathPlace\": {\n\t\t\"@type\": \"PostalAddress\",\n\t\t\"addressCountry\": \"Verenigde Staten\",\n\t\t\"addressLocality\": \"Redding\"\n\t},\n\t\"familyName\": \" Twain\",\n\t\"givenName\": [\"Mark\"],\n\t\"hasOccupation\": {\n\t\t\"@type\": \"Occupation\",\n\t\t\"name\": [\"boekdrukker/uitgever\",\"journalist/redacteur\"]\n\t},\n\t\"alternateName\": [\"Samuel Langhorne Clemens\"],\n\t\"identifier\": \"twai001\",\n\t\"name\": \"Mark Twain\",\n\t\"url\": \"https://www.dbnl.org/auteurs/auteur.php?id=twai001\"\n}\n"
+   }
+  ],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "viewport",
+    "content": "width=device-width, initial-scale=1"
+   },
+   {
+    "key": "description",
+    "content": "Digitale Bibliotheek voor de Nederlandse Letteren (The Digital Library of Dutch Literature is a collection of primary and secondary information on Dutch language and literature in its historical, societal and cultural context.)"
+   },
+   {
+    "key": "keywords",
+    "content": "dbnl, DBNL, bibliotheek, bibliotheken, digitale, digitalebibliotheek, stichting, leiden, letteren, letterkunde, literatuur, literature, taal, language, taalkunde, linguistics, neerlandistiek, nederlands, nederlandse, nederlanden, nederland, belgie, belgisch, belgische, vlaams, vlaamse, dutch, flemish, belgian, netherlands, belgium, flanders, geschiedenis, schrijvers, auteurs, geschiedenis, proza, roman, romans, epub, ebook, epubs, ebooks, toneel, drama, gedicht, gedichten, poezie, biografie, bio…"
+   },
+   {
+    "key": "dc.creator",
+    "content": "DBNL"
+   },
+   {
+    "key": "dc.publisher",
+    "content": "DBNL"
+   },
+   {
+    "key": "dc.subject",
+    "content": "Letterkunde, 20e eeuw"
+   },
+   {
+    "key": "dc.language",
+    "content": "nl"
+   },
+   {
+    "key": "title",
+    "content": "Mark Twain - auteur - DBNL"
+   },
+   {
+    "key": "og:site_name",
+    "content": "DBNL"
+   },
+   {
+    "key": "og:title",
+    "content": "Mark Twain - auteur - DBNL"
+   },
+   {
+    "key": "twitter:card",
+    "content": "summary"
+   },
+   {
+    "key": "twitter:site",
+    "content": "@dbnl"
+   },
+   {
+    "key": "twitter:title",
+    "content": "Mark Twain - auteur - DBNL"
+   }
+  ],
+  "machine_links": [],
+  "xhr_requests": [],
+  "resources": [
+   {
+    "url": "https://www.dbnl.org/css/_settings.css?20230110-1233",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1033
+   },
+   {
+    "url": "https://www.dbnl.org/css/dbnl.css?20260318-1153",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 4621
+   },
+   {
+    "url": "https://www.dbnl.org/css/header.css?20231026-1425",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 3157
+   },
+   {
+    "url": "https://www.dbnl.org/css/footer.css?20260318-1153",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1298
+   },
+   {
+    "url": "https://www.dbnl.org/css/grid.css?20200730-1624",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 826
+   },
+   {
+    "url": "https://www.dbnl.org/css/font.css?20240108-1242",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1728
+   },
+   {
+    "url": "https://www.dbnl.org/css/fixbox.css?20230327-1103",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 755
+   },
+   {
+    "url": "https://www.dbnl.org/css/subnav.css?20240108-1242",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 2150
+   },
+   {
+    "url": "https://www.dbnl.org/css/tabel.css?20240530-1439",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1565
+   },
+   {
+    "url": "https://www.dbnl.org/css/form.css?20260929-1009",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1990
+   },
+   {
+    "url": "https://www.dbnl.org/css/titelpaginas.css?20220531-749",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 517
+   },
+   {
+    "url": "https://www.dbnl.org/css/magnific.css?20231026-1425",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 2316
+   },
+   {
+    "url": "https://www.dbnl.org/css/autocomplete.css?20220112-1144",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 818
+   },
+   {
+    "url": "https://www.dbnl.org/css/fixedsticky.css?20200826-1700",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 498
+   },
+   {
+    "url": "https://www.dbnl.org/css/chosen.css?20220928-1335",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 2831
+   },
+   {
+    "url": "https://www.dbnl.org/css/tekst.css?20240108-1242",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 3198
+   },
+   {
+    "url": "https://www.dbnl.org/css/zoek.css?20231026-1425",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 932
+   },
+   {
+    "url": "https://www.dbnl.org/js/jquery-3.5.0.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 31217
+   },
+   {
+    "url": "https://www.dbnl.org/js/jquery.scrollto.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 811
+   },
+   {
+    "url": "https://www.dbnl.org/js/fixedsticky.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2096
+   },
+   {
+    "url": "https://www.dbnl.org/js/jquery.cycle.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 7404
+   },
+   {
+    "url": "https://www.dbnl.org/js/jquery-ui.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 68237
+   },
+   {
+    "url": "https://www.dbnl.org/js/jwplayer/jwplayer.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 30528
+   },
+   {
+    "url": "https://www.dbnl.org/js/jquery.media.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 6153
+   },
+   {
+    "url": "https://www.dbnl.org/js/chosen.jquery.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 6780
+   },
+   {
+    "url": "https://www.dbnl.org/js/magnific.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 13810
+   },
+   {
+    "url": "https://www.dbnl.org/css/jvectormap/jquery-jvectormap-2.0.3.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 3831
+   },
+   {
+    "url": "https://www.dbnl.org/js/ajax-chosen.jquery.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1504
+   },
+   {
+    "url": "https://www.dbnl.org/js/jvectormap/jquery-jvectormap-2.0.3.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 14366
+   },
+   {
+    "url": "https://www.dbnl.org/js/functions.js?20240304-1017",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 12099
+   },
+   {
+    "url": "https://www.dbnl.org/images/logo.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 28963
+   },
+   {
+    "url": "https://www.dbnl.org/images/icons/dbnl-menu-icon-24x24-nomargins.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 630
+   },
+   {
+    "url": "https://www.dbnl.org/images/icons/info.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 938
+   },
+   {
+    "url": "https://www.dbnl.org/images/icons/dbnl-search-icon-16x16-nomargins-white.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 574
+   },
+   {
+    "url": "https://www.dbnl.org/images/icons/boek.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 928
+   },
+   {
+    "url": "https://www.dbnl.org/images/DBNL-logo-compact-diapositief-RGB.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 2172
+   },
+   {
+    "url": "https://www.dbnl.org/images/logoklein.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 4126
+   },
+   {
+    "url": "https://www.dbnl.org/images/DBNL-logo-uitgebreid-compact-diapositief-RGB.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 20233
+   },
+   {
+    "url": "https://www.dbnl.org/images/logos_partners/KB_logo.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 11096
+   },
+   {
+    "url": "https://www.dbnl.org/images/logos_partners/TaalUnie_logo.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 4042
+   },
+   {
+    "url": "https://www.dbnl.org/images/logos_partners/bibliothecair-erfgoed-be.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 33564
+   },
+   {
+    "url": "https://www.dbnl.org/css/print.css?20220928-1335",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 988
+   },
+   {
+    "url": "https://webstatistieken.kb.nl/matomo.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://www.dbnl.org/images/dbnl-chevron-right-icon-16x16-nomargins.svg",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 599
+   },
+   {
+    "url": "https://www.dbnl.org/images/icons/icon_boven.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 602
+   },
+   {
+    "url": "https://www.dbnl.org/images/pijl.svg",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 703
+   },
+   {
+    "url": "https://www.dbnl.org/fonts/NotoSerif-Regular.ttf",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 379752
+   },
+   {
+    "url": "https://www.dbnl.org/fonts/icomoon.ttf?7p3lrb",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 2624
+   },
+   {
+    "url": "https://www.dbnl.org/fonts/NotoSans-Regular.ttf",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 306100
+   },
+   {
+    "url": "https://www.dbnl.org/images/icons/cross.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 892
+   },
+   {
+    "url": "https://webstatistieken.kb.nl/matomo.php?action_name=Mark%20Twain%20-%20auteur%20-%20DBNL&idsite=13&rec=1&r=546969&h=17&m=12&s=58&url=https%3A%2F%2Fwww.dbnl.org%2Fauteurs%2Fauteur.php%3Fid%3Dtwai001&_id=5798ef58b4cc2272&_idn=1&send_image=0&_refts=0&pv_id=OgNkpE&fa_pv=1&fa_fp[0][fa_vid]=MJH4A6&fa_fp[0][fa_fv]=1&devicePixelRatio=1&pf_net=711&pf_srv=217&pf_tfr=1&pf_dm1=845&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Google%20Chrome%22%2C%22vers",
+    "initiator": "beacon",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://webstatistieken.kb.nl/plugins/HeatmapSessionRecording/configs.php?idsite=13&trackerid=hWVwql&url=https%3A%2F%2Fwww.dbnl.org%2Fauteurs%2Fauteur.php%3Fid%3Dtwai001",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://www.dbnl.org/favicon.ico",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/vnd.microsoft.icon",
+    "bytes": 15386
+   }
+  ],
+  "third_party_hosts": {
+   "webstatistieken.kb.nl": 3
+  },
+  "scripts": [
+   "https://webstatistieken.kb.nl/matomo.js",
+   "https://www.dbnl.org/js/jquery-3.5.0.min.js",
+   "https://www.dbnl.org/js/jquery-ui.min.js",
+   "https://www.dbnl.org/js/jquery.scrollto.js",
+   "https://www.dbnl.org/js/fixedsticky.js",
+   "https://www.dbnl.org/js/jquery.cycle.min.js",
+   "https://www.dbnl.org/js/jwplayer/jwplayer.js",
+   "https://www.dbnl.org/js/jquery.media.js",
+   "https://www.dbnl.org/js/chosen.jquery.min.js",
+   "https://www.dbnl.org/js/magnific.js",
+   "https://www.dbnl.org/js/ajax-chosen.jquery.min.js",
+   "https://www.dbnl.org/js/jvectormap/jquery-jvectormap-2.0.3.min.js",
+   "https://www.dbnl.org/js/functions.js?20240304-1017",
+   "https://webstatistieken.kb.nl/plugins/HeatmapSessionRecording/configs.php?idsite=13&trackerid=hWVwql&url=https%3A%2F%2Fwww.dbnl.org%2Fauteurs%2Fauteur.php%3Fid%3Dtwai001"
+  ],
+  "iframes": [],
+  "forms": [
+   {
+    "action": "https://www.dbnl.org/zoek/solr/index.php",
+    "method": "get",
+    "id": null
+   }
+  ],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [],
+   "not_found_words": []
+  },
+  "text_length": 2533,
+  "html_length": 26864
+ }
+}

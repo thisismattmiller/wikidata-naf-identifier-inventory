@@ -1,0 +1,38 @@
+{
+ "property": "P13797",
+ "label": "‎Dimensions.com element ID",
+ "files_read": ["pages/P13797__mark-twain.txt"],
+ "about_entity": true,
+ "page_kind": "other",
+ "notes": "Dimensions.com element page (dimensioned drawings): short description, height 5'9\" (1.75 m), birth/death dates, nationality, Wikipedia links; most of the text is generic FAQ and category navigation. Description misspells 'Clemen' and lists 'The Great American Novel' as one of his works (doubtful, kept as stated).",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "Details, Given Name"},
+   {"value": "Samuel Langhorne Clemen", "lang": "en", "via": "Description (as spelled)"}
+  ],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": "en", "via": "Details, Birthday"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910 (74)", "lang": "en", "via": "Details, Death / Description"}],
+  "nationality": [{"value": "United States", "lang": "en", "via": "Details, Nationality"}],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "Description"},
+   {"value": "humorist", "lang": "en", "via": "Description"},
+   {"value": "entrepreneur", "lang": "en", "via": "Description"},
+   {"value": "publisher", "lang": "en", "via": "Description"}
+  ],
+  "description": [{"value": "Mark Twain, also known as Samuel Langhorne Clemen, was an American writer, humorist, entrepreneur, and publisher considered to be the greatest humorist of the United States as well as the father of American literature. His most famous works include The Adventures of Tom Sawyer, The Adventures of Huckleberry Finn, and The Great American Novel. Mark Twain received an honorary doctorate from Yale University in 1901 and an honorary doctorate from Oxford University in 1907. Throughout his lifetime, Mark Twain worked numerous jobs ...", "lang": "en", "raw": "truncated", "via": "Description"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "via": "Description"},
+   {"value": "The Adventures of Huckleberry Finn", "via": "Description"},
+   {"value": "The Great American Novel", "raw": "attribution doubtful", "via": "Description"}
+  ],
+  "related_agent": [
+   {"value": "Yale University (honorary doctorate, 1901)", "via": "Description"},
+   {"value": "University of Oxford (honorary doctorate, 1907)", "via": "Description"}
+  ],
+  "same_as": [{"value": "Wikipedia - Mark Twain (link label; URL not shown in text)", "via": "Links"}],
+  "identifier": [{"value": "mark-twain", "via": "page URL https://www.dimensions.com/element/mark-twain"}],
+  "image": [{"value": "Mark Twain elevations (assorted)", "raw": "Height 5’9” | 1.75 m", "via": "Drawings include"}],
+  "record_modified": [{"value": "2026-07-18", "raw": "July 18, 2026", "via": "Updated on"}]
+ }
+}

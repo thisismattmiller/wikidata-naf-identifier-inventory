@@ -1,0 +1,564 @@
+{
+ "property": "P8902",
+ "property_label": "Archives at Yale agent ID",
+ "files": [
+  {
+   "file": "P8902__people_87456_865684f7/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://archives.yale.edu/agents/people/87456"
+  },
+  {
+   "file": "P8902__people_87456_865684f7/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://archives.yale.edu/agents/people/87456"
+  },
+  {
+   "file": "P8902__people_87456_865684f7/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://banner.library.yale.edu/banner.json"
+  },
+  {
+   "file": "P8902__people_87456_865684f7/xhr_2.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://archivesspace.library.yale.edu/check_session?uri=%2Fagents%2Fpeople%2F87456"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "rdfa": 1,
+  "json": 1,
+  "unknown": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 26,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "http://n2t.net/ark:/99166/w6dg7gd6",
+    "lang": null,
+    "via": "llm-page:SNAC Identifier (87456)",
+    "file": "P8902.json",
+    "uri": true
+   },
+   {
+    "value": "http://n2t.net/ark:/99166/w6988t7g",
+    "lang": null,
+    "via": "llm-page:SNAC Identifier (56569, Spirit heading)",
+    "file": "P8902.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Tvėn, Mark, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tuėĭn, Mark, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tʻu-wen, Ma-kʻo, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M. (Mark), 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Make Tuwen, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Make Teviin, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Touain, Mark, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "טבןַ, מרק, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מארק, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מרק, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מרק, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "טווען, מארק, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "טוין, מרק, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "טװען, מארק, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "טװײן, מארק, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "馬克吐温, 1835-1910",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк, 1835-1910",
+    "lang": "ru",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "טבןַ, מרק, 1835-1910",
+    "lang": "yi",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מארק, 1835-1910",
+    "lang": "he",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מרק, 1835-1910",
+    "lang": "he",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק, 1835-1910",
+    "lang": "he",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מרק, 1835-1910",
+    "lang": "he",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "טווען, מארק, 1835-1910",
+    "lang": "yi",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "טוין, מרק, 1835-1910",
+    "lang": "he",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "טװען, מארק, 1835-1910",
+    "lang": "yi",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "טװײן, מארק, 1835-1910",
+    "lang": "yi",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "馬克吐温, 1835-1910",
+    "lang": "zh",
+    "via": "llm-page:Name Forms",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:collection title / scope note ('best known by his pseudonym Mark Twain')",
+    "file": "P8902.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain (1835-1910), American writer, humorist, entrepreneur, publisher, and lecturer.",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (1835-1910), American writer, humorist, entrepreneur, publisher, and lecturer.",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P8902.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:Dates",
+    "file": "P8902.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:Dates",
+    "file": "P8902.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "entrepreneur",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P8902.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P8902.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Cyril Clemens (papers about Mark Twain, YCAL MSS 5)",
+    "lang": null,
+    "via": "llm-page:Found in collections",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "Thomas Raynesford Lounsbury (papers, MS 1231)",
+    "lang": null,
+    "via": "llm-page:Found in collections",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "Frank Parsons (papers, MS 11)",
+    "lang": null,
+    "via": "llm-page:Found in collections",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "Joseph Hopkins Twichell (papers, YCAL MSS 755)",
+    "lang": null,
+    "via": "llm-page:Found in collections",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "George Leon Walker and Williston Walker (papers, RG 51)",
+    "lang": null,
+    "via": "llm-page:Found in collections",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "Walt Whitman (collection, YCAL MSS 202)",
+    "lang": null,
+    "via": "llm-page:Found in collections",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "William Dwight Whitney family (papers, MS 555)",
+    "lang": null,
+    "via": "llm-page:Found in collections",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "Betsy Beinecke Shirley Collection of American Children's Literature (GEN MSS 764)",
+    "lang": null,
+    "via": "llm-page:Found in collections",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "Charles H. Hapgood (papers, YCAL MSS 283; spirit communication)",
+    "lang": null,
+    "via": "llm-page:Found in collections (56569)",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "Beinecke Rare Book and Manuscript Library (holder of Samuel Langhorne Clemens Collection, YCAL MSS 852)",
+    "lang": null,
+    "via": "llm-page:Found in collections",
+    "file": "P8902.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "87456",
+    "lang": null,
+    "via": "llm-page:page URL agents/people/87456",
+    "file": "P8902.json",
+    "uri": false
+   },
+   {
+    "value": "56569",
+    "lang": null,
+    "via": "llm-page:page URL agents/people/56569",
+    "file": "P8902.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Authors, American -- 19th century -- Archives",
+    "lang": "en",
+    "via": "llm-page:Additional filters: Subject",
+    "file": "P8902.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [],
+  "same_as": [],
+  "name_variant": [
+   "en",
+   "he",
+   "ru",
+   "yi",
+   "zh"
+  ],
+  "description": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "related_agent": [],
+  "identifier": [],
+  "field_of_activity": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "('(Spirit)' heading via page text, dropped)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 46,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "version",
+     "n": 1,
+     "sample": "97"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Two ArchivesSpace agent pages at Yale: the main 'Twain, Mark, 1835-1910' (87456) with existence dates, a one-line bio, SNAC ark, 9 linked collections and name forms; and 'Twain, Mark, (Spirit), 1835-1910' (56569), a spirit-communication heading linked only to the Charles H. Hapgood Papers.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

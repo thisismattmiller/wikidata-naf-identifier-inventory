@@ -1,0 +1,26 @@
+{
+ "property": "P4104",
+ "label": "Carnegie Hall Agent ID",
+ "files_read": ["pages/P4104__2088.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Carnegie Hall Data Lab 'About' page for Samuel Langhorne Clemens: property/value table with name, occupations, dates, birthplace (GeoNames URI) and exactMatch links.",
+ "elements": {
+  "name_preferred": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "schema:name / rdfs:label"}],
+  "occupation": [
+   {"value": "speaker", "lang": "en", "via": "schema:hasOccupation"},
+   {"value": "author", "lang": "en", "via": "schema:hasOccupation"}
+  ],
+  "birth_date": [{"value": "1835-11-30", "lang": null, "via": "schema:birthDate"}],
+  "death_date": [{"value": "1910-04-21", "lang": null, "via": "schema:deathDate"}],
+  "birth_place": [{"value": "https://sws.geonames.org/4386798/", "lang": null, "via": "schema:birthPlace"}],
+  "same_as": [
+   {"value": "http://dbpedia.org/resource/Mark_Twain", "via": "skos:exactMatch"},
+   {"value": "http://id.loc.gov/authorities/names/n79021164", "via": "skos:exactMatch"},
+   {"value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433", "via": "skos:exactMatch"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "skos:exactMatch"}
+  ],
+  "identifier": [{"value": "2088", "via": "page URL (data.carnegiehall.org/names/2088)"}],
+  "license": [{"value": "Copyright © 2026 The Carnegie Hall Corporation", "lang": "en", "via": "footer"}]
+ }
+}

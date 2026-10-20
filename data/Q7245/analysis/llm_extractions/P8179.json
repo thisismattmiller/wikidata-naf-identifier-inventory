@@ -1,0 +1,550 @@
+{
+ "property": "P8179",
+ "label": "Canadiana Name Authority ID",
+ "files_read": [
+  "P8179__ncf10128469/conneg_3.json"
+ ],
+ "about_entity": true,
+ "notes": "VIAF's MARC21 copy (as JSON) of the Library and Archives Canada authority record CAOONL|ncf10128469 (heading Twain, Mark, 1835-1910; 500 see-also to Clemens; 670 sources). 9xx fields are VIAF enrichments: 998 = VIAF cluster member records (listed in same_as as SOURCE|id, not URIs; excluded LC n 82045653 'Twain, Mark (Spirit)', and mis-clustered NKC jx20050822002 Olivia Langdon Clemens / PLWABN Karłowicz), 996 = records VIAF kept in other clusters (not used), 910/912 = title strings VIAF derived from linked bibliographic records (used as work). 993 fields list LAC work/expression authorities for his works (titles also covered by 910/912).",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][6] (tag 100)"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][9] (tag 500) (see-also: real name)"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "raw": "1835",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][5] (tag 046 $f)"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "raw": "1910",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][5] (tag 046 $g)"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][7] (tag 370 $c)"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][8] (tag 377 $a)"
+   }
+  ],
+  "description": [
+   {
+    "value": "For works of this author written under his real name, see: Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][10] (tag 663)"
+   }
+  ],
+  "source": [
+   {
+    "value": "His The prince and the pauper.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][11] (tag 670 $a)"
+   },
+   {
+    "value": "LC. Real name. Dates.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][12] (tag 670 $a)"
+   },
+   {
+    "value": "His Republican letters. Samuel L. Clemens.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][13] (tag 670 $a)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "ncf10128469",
+    "raw": "(CAOONL)ncf10128469",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][0] (tag 035 $a)"
+   },
+   {
+    "value": "0105C0556",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][1] (tag 016 $a); [14] 700 $0 (CaOONL)0105C0556"
+   },
+   {
+    "value": "161788",
+    "raw": "(CaOONL)161788",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][2] (tag 035 $a)"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2014-09-09T13:00:59",
+    "raw": "20140909130059",
+    "via": "conneg_3.json: controlfield 005"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1977-04-26",
+    "raw": "770426 (008/00-05)",
+    "via": "conneg_3.json: controlfield 008"
+   }
+  ],
+  "work": [
+   {
+    "value": "The great landslide case",
+    "raw": "The great landslide case /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][76] (tag 910 $A)"
+   },
+   {
+    "value": "Roughing it",
+    "raw": "Roughing it /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][77] (tag 910 $A)"
+   },
+   {
+    "value": "The celebrated jumping frog of Calaveras county : and other sketches",
+    "raw": "The celebrated jumping frog of Calaveras county : and other sketches /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][78] (tag 910 $A)"
+   },
+   {
+    "value": "Mark Twain's library of humor",
+    "raw": "Mark Twain's library of humor /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][79] (tag 910 $A)"
+   },
+   {
+    "value": "A tramp abroad",
+    "raw": "A tramp abroad /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][80] (tag 910 $A)"
+   },
+   {
+    "value": "Letters of Quintus Curtius Snodgrass",
+    "raw": "Letters of Quintus Curtius Snodgrass /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][81] (tag 910 $A)"
+   },
+   {
+    "value": "The stolen white elephant, etc",
+    "raw": "The stolen white elephant, etc. /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][82] (tag 910 $A)"
+   },
+   {
+    "value": "Personal recollections of Joan of Arc : y the Sieur Louis de Conte (her page and secretary) freely translated out of the ancient French into modern English from the original unpublished manuscript in the National Archives of France by Jean François Alden by Mark Twain",
+    "raw": "Personal recollections of Joan of Arc / y the Sieur Louis de Conte (her page and secretary) freely translated out of the ancient French into modern English from the original unpublished manuscript in the National Archives of France by Jean François Alden by Mark Twain.",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][83] (tag 910 $A)"
+   },
+   {
+    "value": "The apprentice's dividend : being an excerpt from the autobiography of Mark Twain",
+    "raw": "The apprentice's dividend : being an excerpt from the autobiography of Mark Twain /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][84] (tag 910 $A)"
+   },
+   {
+    "value": "The tragedy of Pudd'nhead Wilson : and, the comedy Those extraordinary twins",
+    "raw": "The tragedy of Pudd'nhead Wilson ; and, the comedy Those extraordinary twins /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][85] (tag 910 $A)"
+   },
+   {
+    "value": "Those extraordinary twins",
+    "raw": "Those extraordinary twins",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][86] (tag 910 $A)"
+   },
+   {
+    "value": "Letters from the earth",
+    "raw": "Letters from the earth /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][87] (tag 910 $A)"
+   },
+   {
+    "value": "Pudd'nhead Wilson : and, Those extraordinary twins",
+    "raw": "Pudd'nhead Wilson ; and, Those extraordinary twins",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][88] (tag 910 $A)"
+   },
+   {
+    "value": "The innocents abroad",
+    "raw": "The innocents abroad /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][89] (tag 910 $A)"
+   },
+   {
+    "value": "Mark Twain's complete works",
+    "raw": "Mark Twain's complete works.",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][90] (tag 910 $A)"
+   },
+   {
+    "value": "The new pilgrims' progress",
+    "raw": "The new pilgrims' progress /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][91] (tag 910 $A)"
+   },
+   {
+    "value": "Personal recollections of Joan of Arc",
+    "raw": "Personal recollections of Joan of Arc /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][92] (tag 910 $A)"
+   },
+   {
+    "value": "Roughing it ; and, the innocents at home",
+    "raw": "Roughing it ; and, the innocents at home /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][93] (tag 910 $A)"
+   },
+   {
+    "value": "Innocents at home",
+    "raw": "Innocents at home",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][94] (tag 910 $A)"
+   },
+   {
+    "value": "The adventures of Huckleberry Finn : Tom Sayer's comrade",
+    "raw": "The adventures of Huckleberry Finn : Tom Sayer's comrade /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][95] (tag 910 $A)"
+   },
+   {
+    "value": "Quand Satan raconte la terre au bon Dieu ; suivi de Papiers de la famille Adam et d'autres documents essentiels, Lettres from the earth",
+    "raw": "Quand Satan raconte la terre au bon Dieu ; suivi de Papiers de la famille Adam et d'autres documents essentiels, Lettres from the earth /",
+    "lang": "fr",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][96] (tag 910 $A)"
+   },
+   {
+    "value": "Life on the Mississippi",
+    "raw": "Life on the Mississippi /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][97] (tag 910 $A)"
+   },
+   {
+    "value": "Old times on the Mississippi",
+    "raw": "Old times on the Mississippi /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][98] (tag 910 $A)"
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's court",
+    "raw": "A Connecticut Yankee in King Arthur's court /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][99] (tag 910 $A)"
+   },
+   {
+    "value": "A conversation as it was at the social fireside in the time of the Tudors : or, \"1601\"",
+    "raw": "A conversation as it was at the social fireside in the time of the Tudors : or, \"1601\" /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][100] (tag 910 $A)"
+   },
+   {
+    "value": "1601",
+    "raw": "1601",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][101] (tag 910 $A)"
+   },
+   {
+    "value": "Mark Twain's burlesque autobiography : First romance, and Memoranda",
+    "raw": "Mark Twain's burlesque autobiography ; First romance, and Memoranda.",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][102] (tag 910 $A)"
+   },
+   {
+    "value": "The adventures of Huckleberry Finn (Tom Sawyer's comrade)",
+    "raw": "The adventures of Huckleberry Finn (Tom Sawyer's comrade) /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][103] (tag 910 $A)"
+   },
+   {
+    "value": "Mark Twain's letters",
+    "raw": "Mark Twain's letters /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][104] (tag 910 $A)"
+   },
+   {
+    "value": "Pryhody Huka",
+    "raw": "Pryhody Huka /",
+    "lang": "uk",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][105] (tag 910 $A)"
+   },
+   {
+    "value": "A Yankee at the court of King Arthur",
+    "raw": "A Yankee at the court of King Arthur /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][106] (tag 910 $A)"
+   },
+   {
+    "value": "Advice to little girls",
+    "raw": "Advice to little girls /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][107] (tag 910 $A)"
+   },
+   {
+    "value": "Advice to little girls (Compilation)",
+    "raw": "Advice to little girls (Compilation)",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][108] (tag 910 $A)"
+   },
+   {
+    "value": "A double-barrelled detective story",
+    "raw": "A double-barrelled detective story /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][109] (tag 910 $A)"
+   },
+   {
+    "value": "Mark Twain zum 150. Geburtstag : eine Ausstellung der Internationalen Jugendbibliothek, München, 25. November-27. Dezember 1985",
+    "raw": "Mark Twain zum 150. Geburtstag : eine Ausstellung der Internationalen Jugendbibliothek, München, 25. November-27. Dezember 1985 /",
+    "lang": "de",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][110] (tag 910 $A)"
+   },
+   {
+    "value": "Adventures of Huckleberry Finn and Zombie Jim : Mark Twain's classic with crazy zombie goodness",
+    "raw": "Adventures of Huckleberry Finn and Zombie Jim : Mark Twain's classic with crazy zombie goodness /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][111] (tag 910 $A)"
+   },
+   {
+    "value": "A literature kit for the adventures of Huckleberry Finn by Mark Twain",
+    "raw": "A literature kit for the adventures of Huckleberry Finn by Mark Twain /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][112] (tag 910 $A)"
+   },
+   {
+    "value": "Mark Twain's (burlesque) autobiography and first romance",
+    "raw": "Mark Twain's (burlesque) autobiography and first romance",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][113] (tag 910 $A)"
+   },
+   {
+    "value": "The £1,000,000 bank-note : and other new stories",
+    "raw": "The £1,000,000 bank-note : and other new stories /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][114] (tag 910 $A)"
+   },
+   {
+    "value": "The celebrated jumping frog of Calaveras county, and other sketches",
+    "raw": "The celebrated jumping frog of Calaveras county, and other sketches /",
+    "lang": "en",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][115] (tag 910 $A)"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "NUKAT|n  94200767",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][447] (tag 998 $2)"
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][448] (tag 998 $2)"
+   },
+   {
+    "value": "ARBABN|000024237",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][450] (tag 998 $2)"
+   },
+   {
+    "value": "XA|2080",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][451] (tag 998 $2)"
+   },
+   {
+    "value": "SELIBR|98057",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][452] (tag 998 $2)"
+   },
+   {
+    "value": "SIMACOB|7830883",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][453] (tag 998 $2)"
+   },
+   {
+    "value": "SKMASNL|vtls005928524",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][454] (tag 998 $2)"
+   },
+   {
+    "value": "BNF|11927291",
+    "raw": "Twain Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][455] (tag 998 $2)"
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][456] (tag 998 $2)"
+   },
+   {
+    "value": "SUDOC|027171876",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][457] (tag 998 $2)"
+   },
+   {
+    "value": "W2Z|90056487",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][458] (tag 998 $2)"
+   },
+   {
+    "value": "BNCHL|10000000000000000007139",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][459] (tag 998 $2)"
+   },
+   {
+    "value": "N6I|vtls000050376",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][460] (tag 998 $2)"
+   },
+   {
+    "value": "EGAXA|vtls000823270",
+    "raw": "توين، مارك،",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][461] (tag 998 $2)"
+   },
+   {
+    "value": "NLA|000035028957",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][462] (tag 998 $2)"
+   },
+   {
+    "value": "B2Q|0000005713",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][463] (tag 998 $2)"
+   },
+   {
+    "value": "LC|n  79021164",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][464] (tag 998 $2)"
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][465] (tag 998 $2)"
+   },
+   {
+    "value": "NYNYRILM|1598",
+    "raw": "Clemens, Samuel Langhorne (Mark Twain)",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][466] (tag 998 $2)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 77201",
+    "raw": "Твен М.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][467] (tag 998 $2)"
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][468] (tag 998 $2)"
+   },
+   {
+    "value": "GRATEVE|178278",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][469] (tag 998 $2)"
+   },
+   {
+    "value": "BAV|495_17906",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][470] (tag 998 $2)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "raw": "Twain M.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][471] (tag 998 $2)"
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][472] (tag 998 $2)"
+   },
+   {
+    "value": "PTBNP|46269",
+    "raw": "Twain, Mark, pseud.",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][473] (tag 998 $2)"
+   },
+   {
+    "value": "RERO|A000164542",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][474] (tag 998 $2)"
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "raw": "Twain Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][475] (tag 998 $2)"
+   },
+   {
+    "value": "NKC|jn19981002263",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][476] (tag 998 $2)"
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][477] (tag 998 $2)"
+   },
+   {
+    "value": "LNL|14733",
+    "raw": "توين، مارك،",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][478] (tag 998 $2)"
+   },
+   {
+    "value": "NDL|00459304",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][479] (tag 998 $2)"
+   },
+   {
+    "value": "NTA|227880145",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][480] (tag 998 $2)"
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][481] (tag 998 $2)"
+   },
+   {
+    "value": "NTA|068242964",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][482] (tag 998 $2)"
+   },
+   {
+    "value": "ICCU|CFIV002662",
+    "raw": "Twain , Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][483] (tag 998 $2)"
+   },
+   {
+    "value": "UAE|Mill_a10002910",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][484] (tag 998 $2)"
+   },
+   {
+    "value": "J9U|987007269289205171",
+    "raw": "Twain, Mark,",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][485] (tag 998 $2)"
+   },
+   {
+    "value": "WKP|Q7245",
+    "raw": "Mark Twain",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][489] (tag 998 $2)"
+   },
+   {
+    "value": "DNB|118624822",
+    "raw": "Twain, Mark",
+    "via": "conneg_3.json: $['mx:record']['mx:datafield'][490] (tag 998 $2)"
+   }
+  ]
+ }
+}

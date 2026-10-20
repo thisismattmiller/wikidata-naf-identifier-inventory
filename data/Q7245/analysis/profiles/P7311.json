@@ -1,0 +1,124 @@
+{
+ "property": "P7311",
+ "property_label": "Aozora Bunko author ID",
+ "files": [],
+ "formats": {},
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain Mark",
+    "lang": "en",
+    "via": "llm-page:'Author name' row (machine-translated rendering of Japanese)",
+    "file": "P7311.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain Mark",
+    "lang": "en",
+    "via": "llm-page:'Author's name pronunciation' row (translated)",
+    "file": "P7311.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:'Romanization' row",
+    "file": "P7311.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:'year of birth' row",
+    "file": "P7311.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:'Year of death' row",
+    "file": "P7311.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:works in progress list (translated title)",
+    "file": "P7311.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:works in progress list (translated title)",
+    "file": "P7311.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:works in progress list (translated title)",
+    "file": "P7311.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Hanako Muraoka (translator)",
+    "lang": "en",
+    "via": "llm-page:works list",
+    "file": "P7311.json",
+    "uri": false
+   },
+   {
+    "value": "Koshitaro Yoshida (translator)",
+    "lang": "en",
+    "via": "llm-page:works list",
+    "file": "P7311.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1431",
+    "lang": null,
+    "via": "llm-page:page heading",
+    "file": "P7311.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Aozora Bunko author page No. 1431, rendered machine-translated into English: name, pronunciation, romanization, birth and death dates, and five Japanese translations listed as works in progress, with their translators.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

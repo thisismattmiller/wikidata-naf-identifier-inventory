@@ -1,0 +1,43 @@
+{
+ "property": "P9037",
+ "label": "BHCL UUID",
+ "files_read": ["pages/P9037__21588604-940b-429b-b46b-7fb0887f3319.txt", "pages/P9037__a84f8e03-b331-4761-a023-7d44f1903b30.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Two Portaro authority records from the Bibliography of the History of the Czech Lands: main heading Twain, Mark, 1835-1910 (with Czech description and two linked bibliographic records about him) and the pseudonym heading Conte, Louis de, 1835-1910, cross-referenced to each other.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": "cs", "via": "record heading (a84f8e03)"},
+   {"value": "Conte, Louis de, 1835-1910", "lang": "cs", "via": "record heading (21588604)"}
+  ],
+  "name_variant": [
+   {"value": "Mark Twain, 1835-1910", "lang": "cs", "via": "See: (a84f8e03)"},
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": "cs", "via": "See: (a84f8e03)"},
+   {"value": "Ludvík de Conte, 1835-1910", "lang": "cs", "via": "See: (21588604)"},
+   {"value": "Conte, Ludvík de, 1835-1910", "lang": "cs", "via": "See: (21588604)"}
+  ],
+  "pseudonym": [{"value": "Louis de Conte", "lang": "cs", "via": "See also cross-reference between the two records"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "cs", "via": "See: Clemens, Samuel Langhorne"}],
+  "family_name": [{"value": "Clemens", "lang": "cs", "via": "See: Clemens, Samuel Langhorne"}],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "heading dates"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "heading dates"}],
+  "occupation": [
+   {"value": "prozaik", "lang": "cs", "via": "description"},
+   {"value": "satirik", "lang": "cs", "via": "description"},
+   {"value": "humorista", "lang": "cs", "via": "description"}
+  ],
+  "nationality": [{"value": "americký", "lang": "cs", "via": "description"}],
+  "description": [{"value": "Americký prozaik, satirik a humorista.", "lang": "cs", "via": "record note (a84f8e03)"}],
+  "related_agent": [
+   {"value": "Thurn-Taxisové (rod) (co-subject of a bibliographic record on his stay in Prague)", "via": "Found in these records"},
+   {"value": "František Dudek (author of 'Pobyt Marka Twaina v Praze a na zámku Thurn-Taxisů ve středním Polabí', 2008, about him)", "via": "Found in these records"},
+   {"value": "Michal Křístek (author of 'Vlastní jméno osobní v uměleckém překladu: český Huckleberry Finn 1893-2003', 2008, about him)", "via": "Found in these records"}
+  ],
+  "field_of_activity": [{"value": "literatura, spisovatelé", "lang": "cs", "via": "Systematika of linked records"}],
+  "identifier": [
+   {"value": "a84f8e03-b331-4761-a023-7d44f1903b30", "via": "Permanent link (Twain, Mark)"},
+   {"value": "21588604-940b-429b-b46b-7fb0887f3319", "via": "Permanent link (Conte, Louis de)"}
+  ],
+  "license": [{"value": "CC0 1.0 Universal", "via": "footer licence statement"}]
+ }
+}

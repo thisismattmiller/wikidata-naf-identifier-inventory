@@ -1,0 +1,20 @@
+{
+ "property": "P13166",
+ "label": "PUG authority ID",
+ "files_read": ["pages/P13166__21234.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Pontifical Gregorian University (Osee Genius) authority record shown as raw MARC: only the heading 'Twain, Mark, 1835-1910', control fields and a 996 local link. No variants, sources or bio.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "lang": "en", "via": "page heading / 100 field"}],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "100 $d"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "100 $d"}],
+  "identifier": [
+   {"value": "000000021234", "via": "001"},
+   {"value": "https://oseegenius.unigre.it/pug/authResource?v=m21&uri=21234", "via": "permalink"},
+   {"value": "(OLS)http://pug/name/23783", "via": "996 $9 local link"}
+  ],
+  "record_created": [{"value": "2024-07-25", "raw": "008: 240725", "lang": null, "via": "008"}],
+  "record_modified": [{"value": "2024-07-25", "raw": "005: 20240725132145.0", "lang": null, "via": "005"}]
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "property": "P4839",
+ "label": "Wolfram Language entity code",
+ "files_read": [
+  "P4839__Entity_Concept_Clemens_4375p_2245b447/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "Generic Wolfram|Alpha OpenGraph (site description, site image); the only entity-specific content is the entity code in og:title. No name, dates or description of the person.",
+ "elements": {
+  "identifier": [
+   {
+    "value": "Entity[\"Concept\", \"Clemens::4375p\"]",
+    "raw": "Entity[\"Concept\", \"Clemens::4375p\"] - Wolfram|Alpha",
+    "lang": null,
+    "via": "P4839__Entity_Concept_Clemens_4375p_2245b447/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ]
+ }
+}

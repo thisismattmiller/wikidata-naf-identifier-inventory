@@ -1,0 +1,380 @@
+{
+ "property": "P7026",
+ "label": "Lebanese National Library ID",
+ "files_read": [
+  "P7026__14733/conneg_3.json"
+ ],
+ "about_entity": true,
+ "notes": "VIAF-style MARC21-in-JSON authority record for the Lebanese National Library heading توين، مارك، 1835-1910, with VIAF cluster fields (9xx). 998 links to other cluster members were turned into same_as URIs where a URI pattern is known (LC 'Twain, Mark (Spirit)' n82045653 excluded); others kept as identifiers. 996 entries are unmatched records and were skipped.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "توين، مارك",
+    "raw": "توين، مارك، 1835-1910",
+    "lang": "ar",
+    "dates": "1835-1910",
+    "via": "P7026__14733/conneg_3.json: datafield[3] 100 $a"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "مارك توين",
+    "raw": "مارك توين، 1835-1910",
+    "lang": "ar",
+    "via": "P7026__14733/conneg_3.json: datafield[8] 400 $a"
+   },
+   {
+    "value": "Twain, Mark",
+    "raw": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "P7026__14733/conneg_3.json: datafield[11] 700 $a (linked LC-form heading)"
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "raw": "صمويل لانغهورن كليمنس (Samuel Langhorne Clemens)",
+    "lang": "en",
+    "via": "P7026__14733/conneg_3.json: datafield[10] 678 $a (real name)"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "raw": "مارك توين (Mark Twain)",
+    "lang": "en",
+    "via": "P7026__14733/conneg_3.json: datafield[10] 678 $a"
+   },
+   {
+    "value": "Sieur Louis De Conte",
+    "raw": "لويس دى كونت (Sieur Louis De Conte)",
+    "lang": "en",
+    "via": "P7026__14733/conneg_3.json: datafield[10] 678 $a"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "18351130",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[2] 046 $f"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "19100421",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[2] 046 $g"
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "raw": "ذكر",
+    "lang": "en",
+    "via": "P7026__14733/conneg_3.json: datafield[5] 375 $a"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "الروائيون",
+    "lang": "ar",
+    "via": "P7026__14733/conneg_3.json: datafield[4] 374 $a"
+   },
+   {
+    "value": "الصحفيون",
+    "lang": "ar",
+    "via": "P7026__14733/conneg_3.json: datafield[4] 374 $a"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "أميركية",
+    "lang": "ar",
+    "via": "P7026__14733/conneg_3.json: datafield[7] 386 $a"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "raw": "eng إنكليزية",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[6] 377 $a"
+   }
+  ],
+  "description": [
+   {
+    "value": "الكاتب الأميركي صمويل لانغهورن كليمنس (Samuel Langhorne Clemens): كتب تحت الأسماء المستعارة التالية: مارك توين (Mark Twain) ولويس دى كونت (Sieur Louis De Conte).",
+    "lang": "ar",
+    "via": "P7026__14733/conneg_3.json: datafield[10] 678 $a"
+   }
+  ],
+  "work": [
+   {
+    "value": "مغامرات توم سوير",
+    "lang": "ar",
+    "via": "P7026__14733/conneg_3.json: datafield[13] 910 $A (VIAF title)"
+   },
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "P7026__14733/conneg_3.json: datafield[14] 912 $A (VIAF title)"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "حسن، ذكرى عبد الرحمن",
+    "lang": "ar",
+    "relation": "co-author/contributor (translator/reviser per 930 $c)",
+    "via": "P7026__14733/conneg_3.json: datafield[26] 950 $A"
+   },
+   {
+    "value": "محسن، فاضل حبيب",
+    "lang": "ar",
+    "relation": "co-author/contributor (translator/reviser per 930 $c)",
+    "via": "P7026__14733/conneg_3.json: datafield[27] 950 $A"
+   },
+   {
+    "value": "محمد، عبد الحق أحمد",
+    "lang": "ar",
+    "relation": "co-author/contributor (translator/reviser per 930 $c)",
+    "via": "P7026__14733/conneg_3.json: datafield[28] 950 $A"
+   },
+   {
+    "value": "سالم، منى فتحي",
+    "lang": "ar",
+    "relation": "co-author/contributor (translator/reviser per 930 $c)",
+    "via": "P7026__14733/conneg_3.json: datafield[29] 950 $A"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "raw": "LC|n  79021164",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[38] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "raw": "DNB|118624822",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[58] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "raw": "WKP|Q7245",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[59] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "https://www.nli.org.il/en/authorities/987007269289205171",
+    "raw": "J9U|987007269289205171",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[61] 998 $2 (VIAF cluster member)"
+   },
+   {
+    "value": "https://www.idref.fr/027171876",
+    "raw": "SUDOC|027171876",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[79] 998 $2 (VIAF cluster member)"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "14733",
+    "raw": "(LNL)14733",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[0] 035 $a"
+   },
+   {
+    "value": "ARBABN|000024237",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[37] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "W2Z|90056487",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[39] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[40] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "PTBNP|46269",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[41] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[42] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "B2Q|0000005713",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[43] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NUKAT|n  94200767",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[44] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NDL|00459304",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[45] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NYNYRILM|1598",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[46] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NTA|227880145",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[47] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[48] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "RERO|A000164542",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[49] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SIMACOB|7830883",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[50] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[51] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BAV|495_17906",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[52] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[53] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SELIBR|98057",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[54] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[55] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNCHL|10000000000000000007139",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[56] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 77201",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[57] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "EGAXA|vtls000823270",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[65] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[66] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[67] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "UAE|Mill_a10002910",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[68] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "N6I|vtls000050376",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[69] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NKC|jn19981002263",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[70] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "GRATEVE|178278",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[71] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "XA|2080",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[72] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SZ|118624822",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[73] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[74] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "BNF|11927291",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[75] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "SKMASNL|vtls005928524",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[76] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "CAOONL|ncf10128469",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[77] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "NLA|000035028957",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[78] 998 $2 (VIAF cluster member id)"
+   },
+   {
+    "value": "DBC|87097969041957",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: datafield[80] 998 $2 (VIAF cluster member id)"
+   }
+  ],
+  "source": [
+   {
+    "value": "مغامرات توم سوير، [د.ت]: ص.ع. (مارك توين)",
+    "lang": "ar",
+    "via": "P7026__14733/conneg_3.json: datafield[9] 670"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2010-10-21",
+    "raw": "20101021105337",
+    "lang": null,
+    "via": "P7026__14733/conneg_3.json: controlfield 005"
+   }
+  ]
+ }
+}

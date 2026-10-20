@@ -1,0 +1,963 @@
+{
+ "property": "P9964",
+ "property_label": "Kalliope-Verbund (GND) ID",
+ "files": [
+  {
+   "file": "P9964__118624822/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://kalliope-verbund.info/gnd/118624822"
+  },
+  {
+   "file": "P9964__118624822/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://kalliope-verbund.info/de/support/sru.html"
+  },
+  {
+   "file": "P9964__118624822/export_2.xml",
+   "format": "eac-cpf",
+   "kind": "export",
+   "via": "http",
+   "url": "https://kalliope-verbund.info/gnd/xmleac?eac.id=118624822"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 1,
+  "eac-cpf": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "EAC-CPF": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "identifier": [
+   {
+    "value": "118624822",
+    "lang": null,
+    "via": "eac:recordId",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "http://kalliope-verbund.info/gnd/118624822",
+    "lang": null,
+    "via": "eac:otherRecordId",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "http://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "eac:otherRecordId",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "(DE-101)118624822",
+    "lang": null,
+    "via": "eac:otherRecordId",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "(DE-588)118624822",
+    "lang": null,
+    "via": "eac:otherRecordId",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "(DE-588a)118624822",
+    "lang": null,
+    "via": "eac:otherRecordId",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "(DE-588c)4061298-3",
+    "lang": null,
+    "via": "eac:otherRecordId",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "LCAuth",
+    "lang": null,
+    "via": "eac:source",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Mark (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marc (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mark (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make (1835-1910) [chines. Namensform]",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Towein, Māku (1835-1910) [japan. Namensform]",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tvein, Marḳ (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tvėn, Mark (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tvēns, Marks (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tvens, M. (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twen, Mark (1835-1910) [lett. Namensform]",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twens, Marks (1835-1910) [lett. Namensform]",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Ṭvena, Marka (1835-1910) [Hindi-Namensform]",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tvenas, Markas (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tvénas, Morkas (1835-1910) [litauische Namensform]",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "T`u-wen, Ma-k`o (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Touein, Māku (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tuein, Mark (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tven, M. (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Ṭṿain, Marḳ (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twėn, Mark (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Touein, Maku (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Mark Twėn (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Ma ke Tu wen (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Make-Tuwen (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tewin, Mark (1835-1910) [Uigur.]",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Tho-wun, Ma-khu (1835-1910) [tib]",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Towein, Māku (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twjen, Mark (1835-1910) [mon]",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк (1835-1910) [mon]",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "טוין, צרק (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "吐温, 马克 (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温 (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "トウェイン, マーク (1835-1910)",
+    "lang": null,
+    "via": "eac:nameEntry",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marc",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mark",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Towein, Māku",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tvein, Marḳ",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tvėn, Mark",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tvēns, Marks",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tvens, M.",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Twen, Mark",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Twens, Marks",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Ṭvena, Marka",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tvenas, Markas",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tvénas, Morkas",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "T`u-wen, Ma-k`o",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Touein, Māku",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tuein, Mark",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M.",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Ṭṿain, Marḳ",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Twėn, Mark",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Touein, Maku",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twėn",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Ma ke Tu wen",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Make-Tuwen",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tewin, Mark",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Tho-wun, Ma-khu",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Twjen, Mark",
+    "lang": null,
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк",
+    "lang": "mn",
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк",
+    "lang": "ru",
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק",
+    "lang": "he",
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "טוין, צרק",
+    "lang": "he",
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "吐温, 马克",
+    "lang": "zh",
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温",
+    "lang": "zh",
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "トウェイン, マーク",
+    "lang": "ja",
+    "via": "llm-page:Verweisungen",
+    "file": "P9964.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "eac:existDates/fromDate",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "eac:existDates/toDate",
+    "file": "export_2.xml",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Mo.",
+    "lang": null,
+    "via": "eac:place[Geburtsort]",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Florida, Mo.",
+    "lang": "de",
+    "via": "llm-page:life dates line",
+    "file": "P9964.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Conn.",
+    "lang": null,
+    "via": "eac:place[Sterbeort]",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Redding, Conn.",
+    "lang": "de",
+    "via": "llm-page:life dates line",
+    "file": "P9964.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Schriftsteller",
+    "lang": null,
+    "via": "eac:occupation",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Journalist",
+    "lang": null,
+    "via": "eac:occupation",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Drucker",
+    "lang": null,
+    "via": "eac:occupation",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Lotse",
+    "lang": null,
+    "via": "eac:occupation",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Soldat",
+    "lang": null,
+    "via": "eac:occupation",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Schriftsteller",
+    "lang": "de",
+    "via": "llm-page:occupation line",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Journalist",
+    "lang": "de",
+    "via": "llm-page:occupation line",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Drucker",
+    "lang": "de",
+    "via": "llm-page:occupation line",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Lotse",
+    "lang": "de",
+    "via": "llm-page:occupation line",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Soldat",
+    "lang": "de",
+    "via": "llm-page:occupation line",
+    "file": "P9964.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Clemens, Samuel Langhorne,  (1835-1910), Wirklicher Name,",
+    "lang": null,
+    "via": "eac:cpfRelation[None]",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius,  (1835-1910), Pseudonym,",
+    "lang": null,
+    "via": "eac:cpfRelation[None]",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de,  (1835-1910), Pseudonym,",
+    "lang": null,
+    "via": "eac:cpfRelation[None]",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Bothwell, J. W.,  (1835-1910), Pseudonym,",
+    "lang": null,
+    "via": "eac:cpfRelation[None]",
+    "file": "export_2.xml",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne (1835-1910) (Wirklicher Name / real name)",
+    "lang": null,
+    "via": "llm-page:Beziehungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius (1835-1910) (Pseudonym)",
+    "lang": null,
+    "via": "llm-page:Beziehungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de (1835-1910) (Pseudonym)",
+    "lang": null,
+    "via": "llm-page:Beziehungen",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Bothwell, J. W. (1835-1910) (Pseudonym)",
+    "lang": null,
+    "via": "llm-page:Beziehungen",
+    "file": "P9964.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark (1835-1910)",
+    "lang": "de",
+    "via": "llm-page:heading",
+    "file": "P9964.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": "de",
+    "via": "llm-page:Beziehungen: Pseudonym",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de",
+    "lang": "de",
+    "via": "llm-page:Beziehungen: Pseudonym",
+    "file": "P9964.json",
+    "uri": false
+   },
+   {
+    "value": "Bothwell, J. W.",
+    "lang": "de",
+    "via": "llm-page:Beziehungen: Pseudonym",
+    "file": "P9964.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "34 Handschriften (manuscripts) in Kalliope",
+    "lang": "de",
+    "via": "llm-page:Links in Kalliope (counts only, no titles)",
+    "file": "P9964.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "llm-page:GND-ID",
+    "file": "P9964.json",
+    "uri": true
+   },
+   {
+    "value": "https://de.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm-page:Externe Quellen: Wikipedia",
+    "file": "P9964.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm-page:Externe Quellen: VIAF",
+    "file": "P9964.json",
+    "uri": true
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1988-07-01",
+    "lang": null,
+    "via": "llm-page:GND-ID line",
+    "file": "P9964.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-04-15",
+    "lang": null,
+    "via": "llm-page:GND-ID line",
+    "file": "P9964.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "identifier": [],
+  "source": [],
+  "name_variant": [
+   "he",
+   "ja",
+   "mn",
+   "ru",
+   "zh"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "de"
+  ],
+  "death_place": [
+   "de"
+  ],
+  "occupation": [
+   "de"
+  ],
+  "related_agent": [],
+  "name_preferred": [
+   "de"
+  ],
+  "pseudonym": [
+   "de"
+  ],
+  "work": [
+   "de"
+  ],
+  "same_as": [],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Kalliope person detail page for GND 118624822 'Twain, Mark (1835-1910)': dates/places, occupations, relations to real name and pseudonym records, ~40 variant name forms, counts of manuscripts (34) and other mentions (34) in Kalliope, and external links.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

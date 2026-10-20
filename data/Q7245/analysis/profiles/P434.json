@@ -1,0 +1,885 @@
+{
+ "property": "P434",
+ "property_label": "MusicBrainz artist ID",
+ "files": [
+  {
+   "file": "P434__4d584c99-249e-493f-8c5f-d022bd8de433/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433"
+  },
+  {
+   "file": "P434__4d584c99-249e-493f-8c5f-d022bd8de433/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433"
+  },
+  {
+   "file": "P434__4d584c99-249e-493f-8c5f-d022bd8de433/conneg_1.jsonld",
+   "format": "json-ld",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433"
+  }
+ ],
+ "formats": {
+  "json-ld": 2,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 104,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 4,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "same_as": [
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "http://musicbrainz.org/artist/09b5de5d-52cf-426e-b457-ceba78379502",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "http://snaccooperative.org/ark:/99166/w6dg7gd6",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "http://www.isni.org/0000000121324854",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://adp.library.ucsb.edu/names/102301",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://catalogue.bnf.fr/ark:/12148/cb11927291n",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://imslp.org/wiki/Category:Twain,_Mark",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://nla.gov.au/anbd.aut-an35028957",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://www.discogs.com/artist/463414",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://www.ibdb.com/person.php?id=13531",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://www.imdb.com/name/nm0878494/",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://www.worldcat.org/identities/lccn-n79-021164/",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "BnF Catalogue",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "DAHR",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Discogs",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "DNB",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "IBDb",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "IMDb",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "IMSLP",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Library of Congress",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "SNAC",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Trove",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "WorldCat",
+    "lang": null,
+    "via": "llm-page:External links (label only, URL not in page text)",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://schema.org/MusicGroup",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Monroe County",
+    "lang": null,
+    "via": "birthPlace",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://musicbrainz.org/area/079b04ff-50c6-4c30-a88b-1d3b813182aa",
+    "lang": null,
+    "via": "birthPlace (uri)",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "Monroe County, Missouri, United States",
+    "lang": "en",
+    "via": "llm-page:Artist information 'Born in'",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:Sort name",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:'Performance name of' line",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "United States",
+    "lang": null,
+    "via": "location",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98",
+    "lang": null,
+    "via": "location (uri)",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm-page:Artist information 'Area'",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": null,
+    "via": "deathPlace",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://musicbrainz.org/area/9871b7d6-f165-4e47-986c-bf385413a6bd",
+    "lang": null,
+    "via": "deathPlace (uri)",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "Redding, Connecticut, United States",
+    "lang": "en",
+    "via": "llm-page:Artist information 'Died in'",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Die Abenteuer des Tom Sawyer",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1957: Princ a žobrák",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer und Huckleberry Finn: Folge 2",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Meistererzählungen",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abenteuer",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer und Huckleberry Finn: Folge 1",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Bummel durch Europa",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Knallkopf Wilson",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer und Huckleberry Finn 1",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Die Tagebücher von Adam und Eva",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Meine geheime Autobiographie",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer und Huckleberry Finn 2",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, Detective",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abentüür",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Die Abenteuer des Huckleberry Finn",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": null,
+    "via": "^byArtist",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer und Huckleberry Finn",
+    "lang": "de",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Bummel durch Europa",
+    "lang": "de",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Knallkopf Wilson",
+    "lang": "de",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Meistererzählungen",
+    "lang": "de",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Die Tagebücher von Adam und Eva",
+    "lang": "de",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Princ a žobrák",
+    "lang": "sk",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abenteuer",
+    "lang": "de",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Meine geheime Autobiographie",
+    "lang": "de",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, Detective",
+    "lang": "en",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Die Abenteuer des Huckleberry Finn",
+    "lang": "de",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Die Abenteuer des Tom Sawyer",
+    "lang": "de",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Abentüür",
+    "lang": "gsw",
+    "via": "llm-page:Discography release groups",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:'Performance name of: Samuel Clemens'",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "Male",
+    "lang": "en",
+    "via": "llm-page:Artist information 'Gender'",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:heading disambiguation",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:heading disambiguation",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "entrepreneur",
+    "lang": "en",
+    "via": "llm-page:heading disambiguation",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "llm-page:heading disambiguation",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:heading disambiguation",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:Other tags",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "US / American",
+    "lang": "en",
+    "via": "llm-page:heading disambiguation",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "US writer, humorist, entrepreneur, publisher & lecturer",
+    "lang": "en",
+    "via": "llm-page:heading disambiguation comment",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Lars Ekborg (reader (Uppläsare) of 'Tom Sawyer' audiobook 2006)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Heikko Deutschmann (reader of 'Knallkopf Wilson' 2010)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Trevor White (reader of 'The Adventures of Huckleberry Finn' 2012)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Thomas „Tom“ Vogt (reader of 'Meistererzählungen' 2013)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Frank Stöckle (reader of 'Die Tagebücher von Adam und Eva' 2014)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Heidrun Warmuth (reader of 'Die Tagebücher von Adam und Eva' 2014)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Nick Offerman (reader of 'A Connecticut Yankee in King Arthur's Court' 2017 and 'The Adventures of Tom Sawyer' 2016)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Emil Fillo (reader of 'Princ a žobrák' 1957)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Norman Dietz (reader of 'The Adventures of Tom Sawyer' 1992)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Patrick Fraley (reader of 'The Adventures of Huckleberry Finn' 1999)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Parker (reader of 'The Adventures of Huckleberry Finn' 2000)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Udo Wachtveitl (reader of 'Huckleberry Finn' 2005 and 'Tom Sawyer' 2018)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Hans Eckardt (reader of 'Tom Sawyers Abenteuer' 2005)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "William Dufris (reader of 'The Adventures of Tom Sawyer' 2008)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Harry Rowohlt (reader of 'Meine geheime Autobiographie' 2012)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "Peter Lustig (reader of 'Die Abenteuer des Tom Sawyer' 2007)",
+    "lang": "en",
+    "via": "llm-page:Discography artist credit",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "4d584c99-249e-493f-8c5f-d022bd8de433",
+    "lang": null,
+    "via": "llm-page:page URL (MBID)",
+    "file": "P434.json",
+    "uri": false
+   },
+   {
+    "value": "0000000121324854",
+    "lang": null,
+    "via": "llm-page:Artist information 'ISNI code'",
+    "file": "P434.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2021-04-25",
+    "lang": null,
+    "via": "llm-page:'Last updated on 2021-04-25 08:57 UTC'",
+    "file": "P434.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "same_as": [],
+  "death_date": [],
+  "name_preferred": [
+   "en"
+  ],
+  "type": [],
+  "birth_place": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_place": [
+   "en"
+  ],
+  "work": [
+   "de",
+   "en",
+   "gsw",
+   "sk"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "gender": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "album (http://schema.org/)": 60,
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "MusicBrainz artist page for Mark Twain (performance name of Samuel Clemens) with a discography of audiobook/audio-drama release groups, an artist information box (dates, places, gender, ISNI) and external link labels (URLs not shown in page text). Birth place given as Monroe County, Missouri.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,79 @@
+{
+ "property": "P4666",
+ "label": "CineMagia person ID",
+ "files_read": ["P4666__55439/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata from the Cinemagia (Romanian film site) person page 55439; og:description holds a long Romanian biography. The biography contains factual slips (attributes 'Uncle Tom's Cabin' to him, says 1962 for 1862, 1889 for Hadleyburg); values were taken as stated.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "ro", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "ro", "via": "embedded_opengraph.json: og:description ('se numea in realitate Samuel Langhorne Clemens')"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "ro", "via": "embedded_opengraph.json: og:description ('folosea pseudonimul Mark Twain')"},
+   {"value": "SLC", "lang": "ro", "via": "embedded_opengraph.json: og:description ('semnata cu pseudonimul SLC')"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "30 noiembrie 1835", "lang": "ro", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "21 aprilie 1910", "lang": "ro", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "birth_place": [
+   {"value": "Florida, Missouri, S.U.A.", "lang": "ro", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "death_place": [
+   {"value": "Redding, Connecticut", "lang": "ro", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "activity_place": [
+   {"value": "Hannibal, Missouri", "lang": "ro", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Keokuk, Iowa", "lang": "ro", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Mississippi", "lang": "ro", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Nevada", "lang": "ro", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Hartford, Connecticut", "lang": "ro", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "occupation": [
+   {"value": "scriitor", "lang": "ro", "via": "embedded_opengraph.json: og:description ('Scriitorul american')"},
+   {"value": "navigator (pilot pe Mississippi)", "lang": "ro", "via": "embedded_opengraph.json: og:description ('primea brevet de navigator')"}
+  ],
+  "nationality": [
+   {"value": "american", "lang": "ro", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "description": [
+   {"value": "Scriitorul american Mark Twain se numea in realitate Samuel Langhorne Clemens. S-a născut la 30 noiembrie 1835, in Florida, Missouri, S.U.A. ... Mark Twain a murit la 21 aprilie 1910 in Redding, Connecticut.", "lang": "ro", "via": "embedded_opengraph.json: og:description (abridged)"}
+  ],
+  "work": [
+   {"value": "The Celebrated Jumping Frog of Calaveras County", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "The Innocents Abroad", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Roughing It", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "The Gilded Age", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "The Adventures of Tom Sawyer", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "The Prince and the Pauper", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Life on the Mississippi", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "The Adventures of Huckleberry Finn", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Memoirs of Ulysses S. Grant", "lang": "en", "via": "embedded_opengraph.json: og:description (published by him)"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "The Tragedy of Pudd'nhead Wilson", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Those Extraordinary Twins", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Following the Equator", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "The Man that Corrupted Hadleyburg", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Uncle Tom's Cabin", "lang": "en", "via": "embedded_opengraph.json: og:description (misattributed by the site)"}
+  ],
+  "related_agent": [
+   {"value": "John Marshall Clemens", "relation": "father", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Orion", "relation": "older brother", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Olivia Langdon", "relation": "spouse (m. 1870)", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Susan", "relation": "daughter (d. 1893)", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Jane", "relation": "daughter (d. 1909)", "via": "embedded_opengraph.json: og:description"},
+   {"value": "Territorial Enterprise", "relation": "employer/publication he wrote for", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "identifier": [
+   {"value": "55439", "via": "embedded_opengraph.json: og:url (https://www.cinemagia.ro/actori/mark-twain-55439/)"}
+  ],
+  "image": [
+   {"value": "https://static.cinemagia.ro/img/resize/db/actor/05/54/39/mark-twain-966913l-600x0-w-100d8b9a.jpg", "via": "embedded_opengraph.json: og:image"}
+  ]
+ }
+}

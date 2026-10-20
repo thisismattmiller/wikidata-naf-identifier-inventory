@@ -1,0 +1,27 @@
+{
+ "property": "P7311",
+ "label": "Aozora Bunko author ID",
+ "files_read": ["pages/P7311__1431.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Aozora Bunko author page No. 1431, rendered machine-translated into English: name, pronunciation, romanization, birth and death dates, and five Japanese translations listed as works in progress, with their translators.",
+ "elements": {
+  "name_preferred": [{"value": "Twain Mark", "lang": "en", "via": "'Author name' row (machine-translated rendering of Japanese)"}],
+  "name_variant": [
+   {"value": "Twain Mark", "raw": "Author's name pronunciation: Twain Mark", "lang": "en", "via": "'Author's name pronunciation' row (translated)"},
+   {"value": "Twain, Mark", "lang": "en", "via": "'Romanization' row"}
+  ],
+  "birth_date": [{"value": "1835-11-30", "lang": null, "via": "'year of birth' row"}],
+  "death_date": [{"value": "1910-04-21", "lang": null, "via": "'Year of death' row"}],
+  "work": [
+   {"value": "The Prince and the Pauper", "raw": "Work ID: 59109, translated by Hanako Muraoka", "lang": "en", "via": "works in progress list (translated title)"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "Vol. 1 Work ID 50347, Vol. 2 Work ID 50348; translated by Koshitaro Yoshida", "lang": "en", "via": "works in progress list (translated title)"},
+   {"value": "The Adventures of Huckleberry Finn", "raw": "Vol. 1 Work ID 50350, Vol. 2 Work ID 50349; translated by Koshitaro Yoshida", "lang": "en", "via": "works in progress list (translated title)"}
+  ],
+  "related_agent": [
+   {"value": "Hanako Muraoka (translator)", "lang": "en", "via": "works list"},
+   {"value": "Koshitaro Yoshida (translator)", "lang": "en", "via": "works list"}
+  ],
+  "identifier": [{"value": "1431", "raw": "List of works by author: No. 1431", "lang": null, "via": "page heading"}]
+ }
+}

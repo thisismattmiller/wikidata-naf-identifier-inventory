@@ -1,0 +1,14 @@
+{
+ "property": "P349",
+ "label": "NDL Authority ID",
+ "files_read": ["P349__00459304/xhr_1.json"],
+ "about_entity": true,
+ "notes": "xhr_1.json is a SPARQL result (Wikidata lookup made by the NDL page) linking the record to Q7245 with its Japanese label and Japanese Wikipedia article. No NDL authority data itself is in the file.",
+ "elements": {
+   "name_preferred": [{"value": "マーク・トウェイン", "lang": "ja", "via": "xhr_1.json: $.results.bindings[0].wdLabel.value"}],
+   "same_as": [
+     {"value": "https://www.wikidata.org/wiki/Q7245", "via": "xhr_1.json: $.results.bindings[0].wd.value"},
+     {"value": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3", "via": "xhr_1.json: $.results.bindings[0].wp.value"}
+   ]
+ }
+}

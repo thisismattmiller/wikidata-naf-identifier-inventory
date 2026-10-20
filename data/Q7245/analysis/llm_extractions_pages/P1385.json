@@ -1,0 +1,35 @@
+{
+ "property": "P1385",
+ "label": "Enciclopédia Açoriana ID",
+ "files_read": ["pages/P1385__10660.txt"],
+ "about_entity": true,
+ "page_kind": "encyclopedia article",
+ "notes": "Enciclopédia Açoriana entry 'Twain, Mark' (Portuguese), by Ricardo Manuel Madruga da Costa, focused on his 1867 Quaker City stop at Horta, Faial, described in The Innocents Abroad; includes a bibliography. Gives the death date as 2.4.1910, which conflicts with the usual 21 April 1910.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "pt", "via": "entry heading"}],
+  "name_variant": [{"value": "Samuel Clemens", "lang": "pt", "via": "text: 'Samuel Clemens ? este o verdadeiro nome do celebrado autor'"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30.11.1835", "lang": "pt", "via": "bracketed dates line under heading"}],
+  "death_date": [{"value": "1910-04-02", "raw": "2.4.1910", "lang": "pt", "via": "bracketed dates line under heading (likely error for 21.4.1910)"}],
+  "birth_place": [{"value": "Florida, Missouri, Estados Unidos da América", "lang": "pt", "via": "bracketed dates line 'N.'"}],
+  "death_place": [{"value": "Redding, Connecticut, Estados Unidos da América", "lang": "pt", "via": "bracketed dates line 'm.'"}],
+  "activity_place": [{"value": "Horta, ilha do Faial (Açores)", "lang": "pt", "via": "article text: 1867 stop of the Quaker City"}],
+  "occupation": [{"value": "autor", "lang": "pt", "via": "article text 'celebrado autor'"}],
+  "description": [{"value": "Efémera quanto ao acontecimento que está na sua génese, ou seja a permanência em breve escala do Quaker City pelo porto da Horta, no ano de 1867, a associação do nome de Mark Twain à ilha do Faial perdurará no entanto longamente, já que na sua obra Innocents Abroad, fixou em páginas algo desagradáveis para os visados, extensa descrição sobre aspectos que achou mais pitorescos na curta visita realizada àquela ilha...", "raw": "truncated", "lang": "pt", "via": "article first paragraph"}],
+  "work": [{"value": "Innocents Abroad", "raw": "1869", "lang": "pt", "via": "article text"}],
+  "related_agent": [
+   {"value": "New York Tribune (newspaper he wrote for)", "lang": "pt", "via": "article text"},
+   {"value": "San Francisco Daily Alta California (newspaper he wrote for)", "lang": "pt", "via": "article text"},
+   {"value": "Philadelphia Press (newspaper he wrote for)", "lang": "pt", "via": "article text"}
+  ],
+  "identifier": [{"value": "10660", "via": "page URL id parameter"}],
+  "source": [
+   {"value": "Costa, R. M. M. (1989), Açores. Western Islands. Um contributo para o estudo do turismo nos Açores", "lang": "pt", "via": "Bibl."},
+   {"value": "A Horta na rota do mais famoso cruzeiro do século XIX (1997)", "lang": "pt", "via": "Bibl."},
+   {"value": "Dabney, R. L. (compil.) [1899], Annals of the Dabney family in Fayal", "lang": "en", "via": "Bibl."},
+   {"value": "Ganzel, D. (1968), Mark Twain Abroad. The Cruise of the Quaker City", "lang": "en", "via": "Bibl."},
+   {"value": "Twain, M. (1984), The Innocents Abroad. Literary Classics of the United States", "lang": "en", "via": "Bibl."},
+   {"value": "Ricardo Manuel Madruga da Costa (entry author)", "lang": "pt", "via": "signature at end of article"}
+  ],
+  "license": [{"value": "© 2015 Direção Regional dos Assuntos Culturais - Todos os direitos reservados.", "lang": "pt", "via": "footer"}]
+ }
+}

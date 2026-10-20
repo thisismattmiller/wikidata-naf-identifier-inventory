@@ -1,0 +1,134 @@
+[
+ {"property": "P9037", "label": "BHCL UUID", "page_shows_record": "true", "captured_faithfully": false,
+  "wrong_values": [
+   "work 'https://www.hiu.cas.cz/bibliografie-dejin-ceskych-zemi' (via creator in embedded RDFa: the bibliography's home page, not a work)",
+   "name_preferred 'Bibliografii dějin Českých zemí' (via title in embedded RDFa: the site/database name)",
+   "name_preferred 'Pobyt Marka Twaina v Praze a na zámku Thurn-Taxisů ve středním Polabí' (json:result.content.name: title of a 2008 article about him; belongs in subject_of)",
+   "description 'The forgotten visit of Mark Twain to Prague with a trip to the country…' (title of the same article about him)",
+   "description '1835', '1910', '1835 1910', 'Conte, Louis de,', '1835-1910', 'Twain, Mark,', 'Mark Twain,', 'Clemens, Samuel Langhorne,' and the 'Jméno se uvádí pod příjmením …' strings (raw MARC subfield/field fragments, 30 values in total, duplicating name and date elements)"
+  ],
+  "missing": "Nothing substantial. Both authority records (Twain jn19981002263 and the Conte pseudonym jn20000701083), the Czech bio line 'Americký prozaik, satirik a humorista', the see/see-also names, the 670 sources and the linked bibliographic records about him are all reflected.",
+  "label_issues": "format_family 'embedded markup' is still wrong. The only RDFa values are the site title and the creator URL, both chrome. All the real data comes from the Portaro JSON API (xhr_3/xhr_4/xhr_5, MARC-like aNNN fields), so the format family should be 'ad-hoc JSON/XML'. 'plain HTTP' access is right, because the API files were fetched over plain HTTP. descriptive_values 60 and the 'mixed (30–60%)' uniqueness share are inflated by the 30 MARC-fragment descriptions, which duplicate the names and dates.",
+  "notable": "Partly fixed. The UI navigation and export URLs that were filed as see_also are gone. The RDFa site title and creator URL are still in the profile, as are the article title about him in name_preferred and the 30 MARC fragments in description, and the format family is still 'embedded markup'. Both Wikidata UUIDs are his: a84f8e03… is the main Twain heading and 21588604… is the pseudonym 'Conte, Louis de'.",
+  "verdict": "mislabelled", "confidence": "high"},
+
+ {"property": "P9081", "label": "SEARCH on line catalogue ID", "page_shows_record": "true", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial. The two MARC views (14083 Twain, 20770 Snodgrass pseudonym) are short and fully captured. 'Number of records used in: 0' is not recorded, which is minor.",
+  "label_issues": "",
+  "notable": "Fixed. The status is now ok×2 and resolved=true, with the note 'login wall suspected but the record rendered in full'. Both records are his: 20770 is his pseudonym heading 'Snodgrass, Quintus Curtius, 1835-1910'. Both are used in 0 bibliographic records.",
+  "verdict": "sound", "confidence": "high"},
+
+ {"property": "P9097", "label": "American Academy in Rome ID", "page_shows_record": "true", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial.",
+  "label_issues": "",
+  "notable": "Fixed. The status is now ok×2 and resolved=true. Both records are his: 11275911 is the pseudonym heading Snodgrass (LC n93099461) and 12438137 is the Clemens heading copied from LC (n93099439). 'Rev. Lyman Beecher' as related_agent comes from an NUCMC 670 collection note, a weak link that is faithfully reported.",
+  "verdict": "sound", "confidence": "high"},
+
+ {"property": "P9141", "label": "Portal da Literatura ID", "page_shows_record": "true", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Still only the truncated og:description is captured, and page_text_values is 0. The rendered page shows the following, none of which is in the profile: the life span '1835 - 1910' (no death_date); father's death in 1847; gold prospecting; 'impressor e condutor de barcos no Mississippi'; marriage in 1870 to Olívia Langdon; residence in Hartford; 'orador e humorista'; the named works As Aventuras de Huckleberry Finn, As Aventuras de Tom Sawyer, Um Yankee na Corte do Rei Artur and As Cartas da Terra; and the 'Livros escritos por Mark Twain' list of 8 Portuguese editions with years (As Bênçãos da Civilização 2019, O Solilóquio do Rei Leopoldo 2018, As Aventuras de Tom Sawyer 2011, As Aventuras de Huckleberry Finn 2009, Um Candidato Idóneo 1879, Cartas da Terra, …).",
+  "label_issues": "None material. status ok/resolved true are now right. 'embedded markup' is fair for what was captured, but it hides the fact that most of the page's information is only in the rendered text.",
+  "notable": "Partly fixed. The false login-wall status is corrected, but the page-text pass still has not run, so the biography and work list are still missing. The site lists 'Rikki-Tikki-Tavi' (2016) under 'Livros escritos por Mark Twain'; that is Kipling's story, so it is a site error.",
+  "verdict": "incomplete", "confidence": "high"},
+
+ {"property": "P9171", "label": "RILM ID", "page_shows_record": "partial", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial. The RILM MARC record is captured from VIAF's data endpoint: heading 'Clemens, Samuel Langhorne (Mark Twain)', 046 dates 1835-11-30/1910-04-21, 370 Redding, Connecticut, 374 writer, 400 'Twain, Mark', and 40 VIAF cluster members.",
+  "label_issues": "format_family 'ad-hoc JSON/XML' is still debatable. The data is VIAF's MARC21 record serialised as JSON (mx:record/mx:datafield, profiled as 'marc-json', with values via tags 035/046/100/370/374/400), so 'library format' would be truer. All other labels are right: status ok, resolved through the data, and the note 'page shell was blank'.",
+  "notable": "Mostly fixed. The false wrong_page status is gone, and the blank VIAF shell is now explained in status_note with the record resolved through its data. The format family is still 'ad-hoc JSON/XML' rather than library format. The same_as list correctly leaves out the LC Spirit heading n82045653 and the mis-clustered NKC Olivia Clemens record.",
+  "verdict": "mislabelled", "confidence": "medium"},
+
+ {"property": "P9178", "label": "Biblioteca Franco Serantini ID", "page_shows_record": "true", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial; the UNIMARC record has only the 200 heading. 'Number of records used in: 1' is not captured, which is minor.",
+  "label_issues": "status 'login_wall_suspected' and resolved=false are still wrong. 'Log in to your account' is Koha navigation, and the record (200 Twain / Mark / scrittore statunitense / 1835-1910) is fully visible and was extracted. The status should be ok and resolved true, as it now is for the other Koha sites (P9081, P9097, P9247, P9251).",
+  "notable": "Still there. The round-2 'record rendered → ok' rule did not apply here, possibly because the page title ('Entry Autore/Autrice (persona)') does not contain his name.",
+  "verdict": "mislabelled", "confidence": "high"},
+
+ {"property": "P9196", "label": "BookBub author ID", "page_shows_record": "true", "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'The Autobiography of Mark Twain', 'The Wit and Wisdom of Mark Twain', 'Mark Twain: Collected Tales, Sketches, Speeches, and Essays 1852–1890', 'Who Is Mark Twain?' (json:books.title: book titles filed as his name)",
+   "name_preferred '10 of the Best Mark Twain Books' (json:blogPosts.title: a BookBub blog post title)",
+   "see_also 'https://www.bookbub.com/blog/best-books-by-mark-twain' (json:blogPosts.url: a site blog post, not a cross-link for him)",
+   "image 'https://d2rel4whvde6w7.cloudfront.net/email_assets/default_profile_image/m.png' (BookBub's default placeholder avatar)"
+  ],
+  "missing": "Nothing substantial. The bio, genres, works and identifiers are captured. The follower count (2,214) is not, which is minor.",
+  "label_issues": "The values (55) and descriptive (46) counts, and therefore the 'mixed' uniqueness share, are inflated by the book titles and the blog title in name_preferred and by the duplicated book and blog URLs. The access string 'browser / page blocked for plain HTTP only + page text…' still reads garbled.",
+  "notable": "Still there. The previous wrong values (book titles as name_preferred, the placeholder avatar) remain, and a blog-post title and URL have been added. The profile is unclaimed and supplied by a data partner.",
+  "verdict": "mislabelled", "confidence": "medium"},
+
+ {"property": "P9223", "label": "Provenio UUID", "page_shows_record": "true", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial. This thin authority record copied from NKC jn19981002263 (bio line, 670 sources, see-references, 0 linked records) is fully captured.",
+  "label_issues": "Minor only. 15 description values are raw MARC fragments ('1835', '1910', '1835 1910', 'Twain, Mark,', '1835-1910', 'Jméno se uvádí pod příjmením …'), which duplicate the name and date elements and inflate descriptive_values (31). The bucket 'mostly repeated' is still right. format_family 'ad-hoc JSON/XML' and plain HTTP access are correct.",
+  "notable": "Mostly fixed. The '/search-form' and export-URL chrome is gone. The MARC-fragment descriptions are still there, as noise rather than wrong facts. The 665 note gives 'Louis de Conte' as a fictitious author, and it is correctly kept as a pseudonym.",
+  "verdict": "sound", "confidence": "medium"},
+
+ {"property": "P9247", "label": "Pontifical University of Salamanca ID", "page_shows_record": "true", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "'Number of records used in: 51' (holdings count) is not captured, which is minor.",
+  "label_issues": "",
+  "notable": "Fixed. The status is now ok and resolved=true. The heading is copied from the BNE, and 'Snodgrass, Quintus Curtius' is held as a 400 see-from, which is his pseudonym.",
+  "verdict": "sound", "confidence": "high"},
+
+ {"property": "P9251", "label": "Cyprus University of Technology ID", "page_shows_record": "true", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "'Number of records used in: 42' is not captured, which is minor. The record is a minimal DLC copy.",
+  "label_issues": "",
+  "notable": "Fixed. The status is now ok and resolved=true. 'too few values to judge' is fair.",
+  "verdict": "sound", "confidence": "high"},
+
+ {"property": "P9307", "label": "Fancyclopedia 3 ID", "page_shows_record": "true", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial; the stub biography is captured fully.",
+  "label_issues": "",
+  "notable": "Fixed. The og:image site logo is gone, and the format family and access are now 'page text (LLM)' / page text only. ConFrancisco and Readercon 22 are conventions (posthumous honours) filed as related_agent, which is acceptable.",
+  "verdict": "sound", "confidence": "high"},
+
+ {"property": "P9322", "label": "SVKKL authority ID", "page_shows_record": "partial", "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'Detail záznamu' (JSON-LD WebPage name: page-title chrome)",
+   "description 'Detailní zobrazení záznamu' (JSON-LD WebPage description: chrome)",
+   "type 'http://schema.org/WebPage' (page node, not about him)"
+  ],
+  "missing": "The main record p0010802 'Twain, Mark, 1835-1910' returned HTTP 404 (chrome-error page), so the profile covers only the pseudonym record 'Conte, Louis de, 1835-1910'.",
+  "label_issues": "'ok, load_failed' is accurate. resolved=true is defensible because the Conte record is his, but the atlas does not make clear that his main-name record was not read. format_family 'RDF' (JSON-LD Person node with name, birthDate, deathDate, givenName, familyName) is fine.",
+  "notable": "Partly fixed. The library and vendor home-page see_also links are gone, but the site-wide WebPage JSON-LD node still contributes 'Detail záznamu' and 'Detailní zobrazení záznamu', even though round 2 says such nodes are ignored. The Wikidata value 'p0010802-Twain-Mark-18351910' gives a 404 and should be checked for a dead or changed id. The Conte note correctly dates the fictitious narrator to 1410-1492.",
+  "verdict": "incomplete", "confidence": "medium"},
+
+ {"property": "P9459", "label": "Rekhta author ID", "page_shows_record": "true", "captured_faithfully": false,
+  "wrong_values": [
+   "image 'https://rekhta.pc.cdn.bitgravity.com/Content/Images/Quill.png' (og:image generic site logo)"
+  ],
+  "missing": "The years shown for two e-books (1963 'Hawwa Adam Aur Shaitan Ki Diary', 1995 'Tom Sayer Ke Karname') are not captured, which is minor.",
+  "label_issues": "format_family 'embedded markup' still rests on the templated OpenGraph text ('Mark Twain collection of short stories, articles, and ebooks in Urdu, Hindi & English…'), the og:title name, the og:url slug and the logo. The substantive data (5 Urdu translation titles) is page text, so 'page text (LLM)' would be more honest. 'mostly unique (> 60%)' rests on 8 descriptive values, most of them those transliterated titles, and is fine.",
+  "notable": "Partly fixed. The junk 'languages' value is gone, but the site-logo image remains, even though round 2 says logos no longer count. The page has no biography or dates; it lists only 5 Urdu translations.",
+  "verdict": "mislabelled", "confidence": "medium"},
+
+ {"property": "P9522", "label": "Biblioteca di Santa Sabina ID", "page_shows_record": "false", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "",
+  "label_issues": "",
+  "notable": "Unchanged and correctly labelled. wrong_page gives the reason 'record for a different person (Muguet, Christian)'. Authid 10370 is Christian Muguet (a French translator), so the Wikidata value is wrong. The old bibliotecasantasabina.curia.op.org host now redirects to the pust.urbe.it Angelicum Koha.",
+  "verdict": "wrong_record", "confidence": "high"},
+
+ {"property": "P9545", "label": "Encyclopedia of China (Second Edition) ID", "page_shows_record": "false", "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "",
+  "label_issues": "status 'wrong_page' with the reason 'page rendered but never mentions the entity' is still misleading. The item redirected to https://h.bkzx.cn/noAccess, page title '没有权限' ('很遗憾，您没有访问权限 您还没有登录': no access, not logged in). That is a login wall, so the status should be login_wall_suspected (unreachable). Nothing suggests that id 219657 is wrong.",
+  "notable": "Still there. A reader of the atlas would conclude that the id is bad, when the site requires login. The site's terms explicitly forbid crawling and AI use.",
+  "verdict": "mislabelled", "confidence": "high"},
+
+ {"property": "P9802", "label": "Penguin Random House author ID", "page_shows_record": "true", "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'Philip C. Stead' (JSON-LD Person node for the co-author of 'The Purloining of Prince Oleomargarine')",
+   "same_as / see_also 'https://www.penguinrandomhouse.com/authors/258795/philip-c-stead' (another person)",
+   "image 'https://images1.penguinrandomhouse.com/cover/9798217314607' (a book cover, not a portrait)"
+  ],
+  "missing": "Nothing substantial. The JSON-LD gives 9 works, and the 'Books by Mark Twain' carousel did not render as text.",
+  "label_issues": "The values and descriptive counts are slightly inflated by the Stead entries. The other labels (RDF, plain HTTP, mixed) are fine.",
+  "notable": "Partly fixed. The everesttech ad-tracking pixel URLs are gone, but the co-author's Person node is still merged into his profile (name_preferred, same_as, see_also), even though reviewers flagged it as different_entity. The relatives from the bio (Olivia Langdon Clemens, Langdon, Susy, Clara, Jean) and William Dean Howells are correctly captured.",
+  "verdict": "mislabelled", "confidence": "high"}
+]

@@ -1,0 +1,116 @@
+{
+ "property": "P10373",
+ "property_label": "Mnemosine ID",
+ "files": [
+  {
+   "file": "P10373__65013/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true"
+  }
+ ],
+ "formats": {
+  "json": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "es",
+    "via": "llm-page:'Nombre'",
+    "file": "P10373.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "es",
+    "via": "llm-page:'Variantes del nombre'",
+    "file": "P10373.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:'Fechas asociadas al nombre'",
+    "file": "P10373.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:'Fechas asociadas al nombre'",
+    "file": "P10373.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "Hombre",
+    "lang": "es",
+    "via": "llm-page:'Género'",
+    "file": "P10373.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Cuentos escogidos",
+    "lang": "es",
+    "via": "llm-page:'Recursos' / 'Persona-Obra'",
+    "file": "P10373.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "65013",
+    "lang": null,
+    "via": "llm-page:record number at top of page",
+    "file": "P10373.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "es"
+  ],
+  "name_variant": [
+   "es"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "gender": [
+   "es"
+  ],
+  "work": [
+   "es"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 3,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Mnemosine (UCM digital library of Spanish 'rare' literature 1868-1936) person record 65013 'Twain, Mark': dates, gender, birth-name variant and one linked resource (Cuentos escogidos) with role Autor.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

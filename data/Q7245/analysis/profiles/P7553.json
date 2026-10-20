@@ -1,0 +1,941 @@
+{
+ "property": "P7553",
+ "property_label": "Sinemalar person ID",
+ "files": [
+  {
+   "file": "P7553__80023/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.sinemalar.com/sanatci/80023/mark-twain"
+  },
+  {
+   "file": "P7553__80023/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.sinemalar.com/sanatci/80023/mark-twain"
+  },
+  {
+   "file": "P7553__80023/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.sinemalar.com/sanatci/80023/mark-twain"
+  },
+  {
+   "file": "P7553__80023/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.sinemalar.com/sanatci/80023/mark-twain"
+  },
+  {
+   "file": "P7553__80023/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.sinemalar.com/ajax/api/getComments?commentId=null&commentedObjectType=person&commentedObjectId=80023&sortBy=recency&page=1&limit=10&lang=tr"
+  },
+  {
+   "file": "P7553__80023/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://vm.empower.net/player/sinemalar/10409113?mode=st&m=0"
+  },
+  {
+   "file": "P7553__80023/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://id.ad-plus.com.tr/v2?client_id=xqkDY946ohWmBm3gWXDTfD&storage_ok=1"
+  },
+  {
+   "file": "P7553__80023/xhr_4.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://id5-sync.com/api/config/prebid"
+  },
+  {
+   "file": "P7553__80023/xhr_5.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxUq1lznM9czhX_7hO_ZQbrT5GoCx_ZVSbq7uuYNlGZOWyMu2QXfNxCPBYFyHFokLSzWQfU0ywYyXUGMEuVEq1WNcIHtzXXXO6ArbxcLNWmMKlSapJwM-WL-why5Lw0oQqC2GrRODQ=="
+  },
+  {
+   "file": "P7553__80023/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20261001&st=env&sjk=5925837802655530"
+  },
+  {
+   "file": "P7553__80023/xhr_7.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxVLTla4mxukhHXWjlJTse7Z7L6OkVdqFBWXDLvAG7nECvK6bXetJBHXElpOJHeS-exj8PLcekmmTRaAerYaFKWwDizjm9EuhGFKRD-mncibFXBcrzpfocB9z03xD1ysxeBq10LcBg=="
+  },
+  {
+   "file": "P7553__80023/xhr_8.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://onetag-sys.com/prebid-request"
+  },
+  {
+   "file": "P7553__80023/xhr_9.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://a.teads.tv/hb/bid-request"
+  },
+  {
+   "file": "P7553__80023/xhr_10.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://prebid-eu.creativecdn.com/bidder/prebid/bids"
+  },
+  {
+   "file": "P7553__80023/xhr_11.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ittr-us-e.eskimi.com/prebidjs"
+  },
+  {
+   "file": "P7553__80023/xhr_12.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ssp.ad-plus.com.tr/server/headerBidding"
+  },
+  {
+   "file": "P7553__80023/browser_xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://id5-sync.com/api/config/prebid"
+  },
+  {
+   "file": "P7553__80023/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://onetag-sys.com/prebid-request"
+  },
+  {
+   "file": "P7553__80023/browser_xhr_4.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxUq1lznM9czhX_7hO_ZQbrT5GoCx_ZVSbq7uuYNlGZOWyMu2QXfNxCPBYFyHFokLSzWQfU0ywYyXUGMEuVEq1WNcIHtzXXXO6ArbxcLNWmMKlSapJwM-WL-why5Lw0oQqC2GrRODQ=="
+  },
+  {
+   "file": "P7553__80023/browser_xhr_5.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxVLTla4mxukhHXWjlJTse7Z7L6OkVdqFBWXDLvAG7nECvK6bXetJBHXElpOJHeS-exj8PLcekmmTRaAerYaFKWwDizjm9EuhGFKRD-mncibFXBcrzpfocB9z03xD1ysxeBq10LcBg=="
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 8,
+  "unknown": 3,
+  "html": 5
+ },
+ "vocabularies": {
+  "http://schema.org/": 9,
+  "http://ogp.me/ns#": 7,
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:itemListElement.name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "tr",
+    "via": "llm:embedded_opengraph.json: og:title; embedded_microdata.json: itemListElement[2].name",
+    "file": "P7553.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "image": [
+   {
+    "value": "https://cdn.sinemalar.com/images/person/80023/poster/mark-twain.jpg",
+    "lang": null,
+    "via": "image",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens (30 Kasım 1835 – 21 Nisan 1910), daha çok takma adı Mark Twain olarak bilinir, Amerikalı mizahçı ve yazar.",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens (30 Kasım 1835 – 21 Nisan 1910), daha çok takma adı Mark Twain olarak bilinir, Amerikalı mizahçı ve yazar.",
+    "lang": "tr",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P7553.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Oyuncu",
+    "lang": null,
+    "via": "jobTitle",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Yönetmen",
+    "lang": null,
+    "via": "jobTitle",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Senarist",
+    "lang": null,
+    "via": "jobTitle",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Yapımcı",
+    "lang": null,
+    "via": "jobTitle",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Senarist (Kitap)",
+    "lang": null,
+    "via": "jobTitle",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "mizahçı",
+    "lang": "tr",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "yazar",
+    "lang": "tr",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "Oyuncu, Yönetmen, Senarist, Yapımcı",
+    "lang": "tr",
+    "via": "llm-page:role line under heading (site generic, doubtful)",
+    "file": "P7553.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30T00:00:00+01:55",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "tr",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P7553.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "tr",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P7553.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "tr",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P7553.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "tr",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P7553.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Amerikalı",
+    "lang": "tr",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "ABD",
+    "lang": "tr",
+    "via": "llm-page:Ülke",
+    "file": "P7553.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "80023",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:image path",
+    "file": "P7553.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:trailers",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:trailers",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer And Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:trailers",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "Tom und Hacke",
+    "lang": null,
+    "via": "llm-page:trailers",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:trailers / Öne Çıkan Yapımlar / Filmografi",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "A Modern Twain Story: The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:trailers / Öne Çıkan Yapımlar",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince And The Surfer",
+    "lang": null,
+    "via": "llm-page:trailers",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince And The Pauper",
+    "lang": null,
+    "via": "llm-page:trailers",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "Crossed Swords",
+    "lang": null,
+    "via": "llm-page:trailers",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "A Knight in Camelot",
+    "lang": null,
+    "via": "llm-page:Öne Çıkan Yapımlar",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures Of Huck Finn",
+    "lang": null,
+    "via": "llm-page:Öne Çıkan Yapımlar",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer & Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Filmografi",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer ve Arkadaşları",
+    "lang": null,
+    "via": "llm-page:Filmografi",
+    "file": "P7553.json",
+    "uri": false
+   },
+   {
+    "value": "Die Abenteuer des Huck Finn",
+    "lang": null,
+    "via": "llm-page:Filmografi",
+    "file": "P7553.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "tr"
+  ],
+  "type": [],
+  "image": [],
+  "description": [
+   "tr"
+  ],
+  "occupation": [
+   "tr"
+  ],
+  "birth_date": [
+   "tr"
+  ],
+  "name_variant": [
+   "tr"
+  ],
+  "pseudonym": [
+   "tr"
+  ],
+  "death_date": [
+   "tr"
+  ],
+  "nationality": [
+   "tr"
+  ],
+  "identifier": [],
+  "work": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 443,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].itemListElement[].@type",
+     "n": 3,
+     "sample": "ListItem"
+    },
+    {
+     "path": "[].itemListElement[].name",
+     "n": 3,
+     "sample": "Anasayfa"
+    },
+    {
+     "path": "[].itemListElement[].position",
+     "n": 3,
+     "sample": "1"
+    },
+    {
+     "path": "[].itemListElement[].item",
+     "n": 2,
+     "sample": "https://www.sinemalar.com"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "BreadcrumbList"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].itemListElement[].name",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 447,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": " Sinemalar"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "tr_TR"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://cdn.sinemalar.com/images/person/80023/poster/mark-twain.jpg"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:image:alt",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens (30 Kasım 1835 – 21 Nisan 1910), daha çok takma adı Mark Twain olarak bilinir, Amerikalı mizahç"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "profile"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:image",
+     "value": "https://cdn.sinemalar.com/images/person/80023/poster/mark-twain.jpg"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:image:alt",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Samuel Langhorne Clemens (30 Kasım 1835 – 21 Nisan 1910), daha çok takma adı Mark Twain olarak bilinir, Amerikalı mizahçı ve yazar."
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 8059,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "error",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "data.html",
+     "n": 1,
+     "sample": "<div class=\"flex-column gap-24\">\n            <div class=\"card comment-card\" data-id=\"3318972\" user-id=\"242465\" id=\"comme"
+    },
+    {
+     "path": "data.total",
+     "n": 1,
+     "sample": "2"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "data.html",
+     "value": "<div class=\"flex-column gap-24\">\n            <div class=\"card comment-card\" data-id=\"3318972\" user-id=\"242465\" id=\"comment-3318972\">\n            <div class=\"brief-item mb-8\">\n                <a class="
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 1274,
+   "path_count": 29,
+   "paths": [
+    {
+     "path": "media.level[].value",
+     "n": 7,
+     "sample": "1080"
+    },
+    {
+     "path": "media.level[].source",
+     "n": 7,
+     "sample": "https://vid.sinemalar.com/v/10409/10409113-1080.mp4"
+    },
+    {
+     "path": "namespace",
+     "n": 1,
+     "sample": "nkt"
+    },
+    {
+     "path": "addDate",
+     "n": 1,
+     "sample": "2019-05-15"
+    },
+    {
+     "path": "adSiteID",
+     "n": 1,
+     "sample": "sinemalar:site_geneli"
+    },
+    {
+     "path": "analytics.id",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "analytics.category",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "badgeLoadURL",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "catID",
+     "n": 1,
+     "sample": "8"
+    },
+    {
+     "path": "adult",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "catName",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "channelName",
+     "n": 1,
+     "sample": "sinemalar"
+    },
+    {
+     "path": "clickTag",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "contentType",
+     "n": 1,
+     "sample": "n"
+    },
+    {
+     "path": "duration",
+     "n": 1,
+     "sample": "135135"
+    },
+    {
+     "path": "media.defaultQuality",
+     "n": 1,
+     "sample": "270"
+    },
+    {
+     "path": "panoramic",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "posterURL",
+     "n": 1,
+     "sample": "https://vid.sinemalar.com/t/10409/10409113-16190_640x360.jpg"
+    },
+    {
+     "path": "relatedContentLoadURL",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "logoClickURL",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "storyboard",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "subtitleLoadURL",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "videoID",
+     "n": 1,
+     "sample": "10409113"
+    },
+    {
+     "path": "videoTitle",
+     "n": 1,
+     "sample": "The Adventures of Tom Sawyer (1938) Fragman"
+    },
+    {
+     "path": "visit.trafficOutsource",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "visit.trafficSource",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "visit.visitID",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "visit.visitInfo",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "visit.watchVideoID",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 120,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "uid",
+     "n": 1,
+     "sample": "v2|xdei1NQu6Tm_IfYbxDsDQPHi7Qv5SsgGddoqi_h_43IflkaLeSZwXb5ZUUviJ5RtKKhnrmLBIAafmQ"
+    },
+    {
+     "path": "atype",
+     "n": 1,
+     "sample": "2"
+    },
+    {
+     "path": "expiresIn",
+     "n": 1,
+     "sample": "604800"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "uid"
+   ]
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 17726,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "sodar_query_id",
+     "n": 1,
+     "sample": "22jAau_ZJNG93LoPjbS_4QU"
+    },
+    {
+     "path": "injector_basename",
+     "n": 1,
+     "sample": "sodar2"
+    },
+    {
+     "path": "bg_hash_basename",
+     "n": 1,
+     "sample": "5zy86NbR8f54HHV5BxfElrR01oDK3KtpXmGPzuANPWw"
+    },
+    {
+     "path": "bg_binary",
+     "n": 1,
+     "sample": "woSf0lm112Zt/Z1d1GXE6+UMmKlOrRwy+ax2FQSavLKhdv8jRd5TCpHD4xOLEX/oLMMARzKL75pJj8VkREY/b4pegC7GlOjzCIh3M+Lr2nohaPD9A3htkGvL"
+    },
+    {
+     "path": "rc_enable",
+     "n": 1,
+     "sample": "y"
+    },
+    {
+     "path": "bg_snapshot_delay_ms",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "is_gen_204",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_9.json",
+   "format": "json",
+   "size": 17,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_10.json",
+   "format": "json",
+   "size": 284,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].price",
+     "n": 1,
+     "sample": "0.0"
+    },
+    {
+     "path": "[].adid",
+     "n": 1,
+     "sample": "TEST_ADID"
+    },
+    {
+     "path": "[].adm",
+     "n": 1,
+     "sample": "<iframe height=250 width=300 srcdoc=\"<html><body><style> body {background-color:#442844}</style><span style='color:red; "
+    },
+    {
+     "path": "[].cid",
+     "n": 1,
+     "sample": "TEST_CID"
+    },
+    {
+     "path": "[].crid",
+     "n": 1,
+     "sample": "TEST_CRID"
+    },
+    {
+     "path": "[].w",
+     "n": 1,
+     "sample": "300"
+    },
+    {
+     "path": "[].h",
+     "n": 1,
+     "sample": "250"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "adm",
+    "cid"
+   ]
+  },
+  {
+   "file": "xhr_12.json",
+   "format": "json",
+   "size": 75,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "errorCode",
+     "n": 1,
+     "sample": "70003"
+    },
+    {
+     "path": "errorMessage",
+     "n": 1,
+     "sample": "Invalid or missing query parameters."
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 15,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "nobids",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Turkish film site artist page: birth/death dates, country, one-sentence Turkish bio, and a filmography of screen adaptations of his works with trailers. Role line 'Oyuncu, Yönetmen, Senarist, Yapımcı' (actor, director, screenwriter, producer) looks like a generic site label rather than accurate data.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,93 @@
+{
+ "property": "P4342",
+ "label": "Great Norwegian Encyclopedia ID",
+ "files_read": ["P4342__Mark_Twain/embedded_microdata.json", "P4342__Mark_Twain/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "Store norske leksikon article: microdata holds the full page text (fact box, biography, works, bibliography) plus breadcrumb, article author and image; OpenGraph gives page title and image. Death place is spelled 'Conneticut' in the source.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "nb", "via": "embedded_microdata.json: $[0].value (Faktaboks heading)"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "nb", "via": "embedded_microdata.json: $[0].value 'født Samuel Langhorne Clemens'; $[2].name"}
+  ],
+  "given_name": [
+   {"value": "Samuel Langhorne", "lang": "nb", "via": "embedded_microdata.json: $[0].value 'født Samuel Langhorne Clemens'"}
+  ],
+  "family_name": [
+   {"value": "Clemens", "lang": "nb", "via": "embedded_microdata.json: $[0].value 'født Samuel Langhorne Clemens' (Uttale: kl e mənz)"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "nb", "via": "embedded_microdata.json: $[0].value 'skrev under pseudonymet Mark Twain'"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "30. november 1835", "lang": "nb", "via": "embedded_microdata.json: $[0].value Faktaboks 'Født'"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "21. april 1910", "lang": "nb", "via": "embedded_microdata.json: $[0].value Faktaboks 'Død'"}
+  ],
+  "birth_place": [
+   {"value": "Florida, Missouri, USA", "lang": "nb", "via": "embedded_microdata.json: $[0].value Faktaboks 'Født'"}
+  ],
+  "death_place": [
+   {"value": "Redding, Conneticut, USA", "lang": "nb", "via": "embedded_microdata.json: $[0].value Faktaboks 'Død'"}
+  ],
+  "activity_place": [
+   {"value": "Hannibal", "lang": "nb", "via": "embedded_microdata.json: $[0].value Biografi"},
+   {"value": "Virginia City, Nevada", "lang": "nb", "via": "embedded_microdata.json: $[0].value Biografi"},
+   {"value": "San Francisco", "lang": "nb", "via": "embedded_microdata.json: $[0].value Biografi"},
+   {"value": "Hawaii", "lang": "nb", "via": "embedded_microdata.json: $[0].value Biografi"},
+   {"value": "Hartford, Connecticut", "lang": "nb", "via": "embedded_microdata.json: $[0].value Forfatterskap"}
+  ],
+  "occupation": [
+   {"value": "forfatter", "lang": "nb", "via": "embedded_microdata.json: $[0].value 'en populær amerikansk forfatter'"},
+   {"value": "journalist", "lang": "nb", "via": "embedded_microdata.json: $[0].value Biografi"},
+   {"value": "elvelos", "lang": "nb", "via": "embedded_microdata.json: $[0].value Biografi"},
+   {"value": "foredragsholder", "lang": "nb", "via": "embedded_microdata.json: $[0].value Biografi"},
+   {"value": "humorist", "lang": "nb", "via": "embedded_microdata.json: $[0].value Forfatterskap"}
+  ],
+  "field_of_activity": [
+   {"value": "USAs litteratur på 1800-tallet", "lang": "nb", "via": "embedded_microdata.json: $[1].breadcrumb.itemListElement[5].name"}
+  ],
+  "nationality": [
+   {"value": "amerikansk", "lang": "nb", "via": "embedded_microdata.json: $[0].value 'en populær amerikansk forfatter'"}
+  ],
+  "description": [
+   {"value": "Mark Twain var en populær amerikansk forfatter som særlig er kjent for romanene om guttene Tom Sawyer og Huckleberry Finn. Han het egentlig Samuel Langhorne Clemens, men skrev under pseudonymet Mark Twain.", "lang": "nb", "via": "embedded_microdata.json: $[0].value lead paragraph"}
+  ],
+  "work": [
+   {"value": "The Celebrated Jumping Frog of Calaveras County and Other Sketches", "raw": "The Celebrated Jumping Frog of Calaveras County and Other Sketches (1867)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Innocents Abroad", "raw": "Innocents Abroad (1869)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Roughing It", "raw": "Roughing It (1872)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "The Gilded Age", "raw": "The Gilded Age (1873)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Life on the Mississippi", "raw": "Life on the Mississippi (1883)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "The Adventures of Tom Sawyer (1876)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "The Adventures of Huckleberry Finn", "raw": "The Adventures of Huckleberry Finn (1884)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "The Prince and the Pauper", "raw": "The Prince and the Pauper (1882)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "A Connecticut Yankee in King Arthur's Court (1889)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "The Tragedy of Pudd'nhead Wilson", "raw": "The Tragedy of Pudd'nhead Wilson (1894)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Personal Recollections of Joan of Arc", "raw": "Personal Recollections of Joan of Arc (1896)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "Following the Equator", "raw": "Following the Equator (1897)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "The Man that Corrupted Hadleyburg", "raw": "The Man that Corrupted Hadleyburg (1900)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "What is Man", "raw": "What is Man (1906)", "lang": "en", "via": "embedded_microdata.json: $[0].value"},
+   {"value": "The Mysterious Stranger", "raw": "The Mysterious Stranger (1916)", "lang": "en", "via": "embedded_microdata.json: $[0].value"}
+  ],
+  "related_agent": [
+   {"value": "Orion", "relation": "brother", "lang": "nb", "via": "embedded_microdata.json: $[0].value 'dro så med broren Orion til vesten'"},
+   {"value": "Charles Dudley Warner", "relation": "neighbour and co-author of The Gilded Age", "lang": "nb", "via": "embedded_microdata.json: $[0].value"}
+  ],
+  "image": [
+   {"value": "https://media.snl.no/media/2254/standard_compressed_clemens-samuel.jpg", "raw": "Samuel Langhorne Clemens (Mark Twain)", "via": "embedded_microdata.json: $[2].contentUrl"},
+   {"value": "https://media.snl.no/media/2254/standard_clemens-samuel.jpg", "via": "embedded_opengraph.json: $[0]['og:image']"}
+  ],
+  "identifier": [
+   {"value": "Mark_Twain", "via": "embedded_opengraph.json: $[0]['og:url'] https://snl.no/Mark_Twain"}
+  ],
+  "record_modified": [
+   {"value": "2026-04-24", "raw": "24. april 2026", "via": "embedded_microdata.json: $[0].value 'Sist oppdatert'"}
+  ],
+  "license": [
+   {"value": "begrenset gjenbruk", "lang": "nb", "via": "embedded_microdata.json: $[0].value 'VILKÅR FOR GJENBRUK'"}
+  ]
+ }
+}

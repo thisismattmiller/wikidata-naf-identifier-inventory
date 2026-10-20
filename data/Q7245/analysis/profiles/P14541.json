@@ -1,0 +1,191 @@
+{
+ "property": "P14541",
+ "property_label": "Encyclopedia of China (Third Edition) ID (2026)",
+ "files": [
+  {
+   "file": "P14541__36dG5F/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.zgbk.com/ecph/member/logined?SiteID=1"
+  }
+ ],
+ "formats": {
+  "json": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "马克·吐温",
+    "lang": "zh",
+    "via": "llm-page:page heading",
+    "file": "P14541.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:subheading /Mark Twain/ and infobox",
+    "file": "P14541.json",
+    "uri": false
+   },
+   {
+    "value": "吐温，M.",
+    "lang": "zh",
+    "via": "llm-page:breadcrumb and related entries",
+    "file": "P14541.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11",
+    "lang": null,
+    "via": "llm-page:dates under heading and infobox (day 31 is invalid as printed)",
+    "file": "P14541.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:dates under heading and infobox",
+    "file": "P14541.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "美国文学",
+    "lang": "zh",
+    "via": "llm-page:breadcrumb 文学 > 外国文学 > 美国文学",
+    "file": "P14541.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "镀金时代",
+    "lang": "zh",
+    "via": "llm-page:条目图册 / 精选发现 and 相关条目",
+    "file": "P14541.json",
+    "uri": false
+   },
+   {
+    "value": "哈克贝里·费恩历险记",
+    "lang": "zh",
+    "via": "llm-page:条目图册 / 精选发现 and 相关条目",
+    "file": "P14541.json",
+    "uri": false
+   },
+   {
+    "value": "汤姆·索亚历险记",
+    "lang": "zh",
+    "via": "llm-page:条目图册 / 精选发现 and 相关条目",
+    "file": "P14541.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "周珏良 (article author)",
+    "lang": "zh",
+    "via": "llm-page:条目作者",
+    "file": "P14541.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "36dG5F",
+    "lang": null,
+    "via": "llm-page:page URL ID (not shown in page text)",
+    "file": "P14541.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2022-03-17",
+    "lang": null,
+    "via": "llm-page:article header",
+    "file": "P14541.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "zh"
+  ],
+  "name_variant": [
+   "en",
+   "zh"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "field_of_activity": [
+   "zh"
+  ],
+  "work": [
+   "zh"
+  ],
+  "related_agent": [
+   "zh"
+  ],
+  "identifier": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 82,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "ID",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "Name",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "Type",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "Login",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "BranchLogin",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "IsSample",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Encyclopedia of China (3rd ed., zgbk.com) article 马克·吐温 in the Foreign Literature section, by 周珏良. The article body and infobox values are rendered in an obfuscated font, so the extracted text is unreadable glyph noise; only the heading, English name, dates, author, update date and the readable sidebar lists are usable. Page notes the title has 3 senses (外国文学 / 中外儿童文学交流互鉴 / 北美洲).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

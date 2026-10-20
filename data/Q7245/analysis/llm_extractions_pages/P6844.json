@@ -1,0 +1,141 @@
+{
+ "property": "P6844",
+ "label": "abART person ID",
+ "files_read": [
+  "pages/P6844__16405.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "abART (Czech art archive) person page for Mark Twain: dates/places, occupations, nationality, gender, NK ČR authority id, real name, see-also Louis de Conte, and a Czech note explaining the Louis de Conte pseudonym.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "cs",
+    "via": "page heading"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain, 1835-1910",
+    "lang": "cs",
+    "via": "'Odkaz. forma' row"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "cs",
+    "via": "'Skutečné jméno' (real name) note"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": "cs",
+    "via": "'Viz též' row"
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": "cs",
+    "via": "'Historie záhlaví' note"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "30. 11. 1835",
+    "lang": "cs",
+    "via": "birth line '*'"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "21. 4. 1910",
+    "lang": "cs",
+    "via": "death line '†'"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Spojené státy (United States)",
+    "lang": "cs",
+    "via": "birth line"
+   },
+   {
+    "value": "Florida (Missouri)",
+    "lang": "cs",
+    "via": "'poznámka' row"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Connecticut, Spojené státy (United States)",
+    "lang": "cs",
+    "via": "death line"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "novinář",
+    "lang": "cs",
+    "via": "occupation line"
+   },
+   {
+    "value": "spisovatel",
+    "lang": "cs",
+    "via": "occupation line"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "americká",
+    "lang": "cs",
+    "via": "'národnost' row"
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "raw": "muž",
+    "lang": "cs",
+    "via": "'pohlaví' row"
+   }
+  ],
+  "work": [
+   {
+    "value": "Panna ve zbroji. Životní příběhy Panny orleánské",
+    "lang": "cs",
+    "via": "'Historie záhlaví' note (book attributed to Louis de Conte)"
+   }
+  ],
+  "description": [
+   {
+    "value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s iniciálami skutečného Twainova jména Samuel Langhorne Clemens.",
+    "lang": "cs",
+    "via": "'Historie záhlaví' note"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "16405",
+    "lang": null,
+    "via": "page URL person/16405"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "NK ČR authority jn19981002263",
+    "raw": "NK AUT: jn19981002263",
+    "lang": null,
+    "via": "'NK AUT' row (no URI given)"
+   }
+  ],
+  "license": [
+   {
+    "value": "Creative Commons Uveďte autora-Neužívejte dílo komerčně-Zachovejte licenci 3.0 Česká republika (CC BY-NC-SA 3.0 CZ)",
+    "lang": "cs",
+    "via": "site footer"
+   }
+  ]
+ }
+}

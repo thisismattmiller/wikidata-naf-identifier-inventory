@@ -1,0 +1,222 @@
+{
+ "property": "P13613",
+ "property_label": "Enciclopedia Galega Universal ID",
+ "files": [
+  {
+   "file": "P13613__195323/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://egu.xunta.gal/gl/termo/195323"
+  },
+  {
+   "file": "P13613__195323/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://egu.xunta.gal/gl/termo/195323"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 9,
+  "http://ogp.me/ns#": 4,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "gl",
+    "via": "llm:embedded_opengraph.json: [0].og:title",
+    "file": "P13613.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "195323",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:url (https://egu.xunta.gal/gl/termo/195323)",
+    "file": "P13613.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "gl",
+    "via": "llm-page:article text 'De nome ...'",
+    "file": "P13613.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Escritor",
+    "lang": "gl",
+    "via": "llm-page:article first word",
+    "file": "P13613.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Mississippi",
+    "lang": "gl",
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Escritor. De nome Samuel Langhorne Clemens, os recordos da súa infancia e os labores en que traballou na zona do Mississippi foron o elemento principal das súas obras. Destacan The Adventures of Tom Sawyer (1876), Huckleberry Finn (1882) e Life on the Mississipi (1883). Caracterizadas polo humor, escribiu tamén The Innocents Abroad (1869), Roughing It (1872), The Prince and the Pauper (1882) e A Connecticut Yankee In King Arthur’s Court (1889). Tras a morte da súa muller entrou nunha etapa pesim",
+    "lang": "gl",
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississipi",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee In King Arthur’s Court",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   },
+   {
+    "value": "Letters from the Earth",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "a súa muller (his wife, unnamed)",
+    "lang": null,
+    "via": "llm-page:article text",
+    "file": "P13613.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "gl"
+  ],
+  "identifier": [],
+  "name_variant": [
+   "gl"
+  ],
+  "occupation": [
+   "gl"
+  ],
+  "activity_place": [
+   "gl"
+  ],
+  "description": [
+   "gl"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 219,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "EGU - Enciclopedia Galega Universal"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://egu.xunta.gal/gl/termo/195323"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Short Galician encyclopedia entry (PERSOEIRO) for Twain, Mark: one paragraph naming his real name and main works; no dates other than work years.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

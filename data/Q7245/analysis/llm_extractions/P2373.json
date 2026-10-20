@@ -1,0 +1,35 @@
+{
+ "property": "P2373",
+ "label": "Genius artist ID",
+ "files_read": [
+  "P2373__Mark-twain/embedded_microdata.json",
+  "P2373__Mark-twain/embedded_opengraph.json",
+  "P2373__Mark-twain/xhr_5.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph + breadcrumb microdata from the Genius artist page; og:description is generic Genius boilerplate. xhr_5.json is a leaderboard of Genius contributor users (not about the entity) and was ignored.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "P2373__Mark-twain/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Mark-twain",
+    "raw": "https://genius.com/artists/Mark-twain",
+    "lang": null,
+    "via": "P2373__Mark-twain/embedded_opengraph.json: $[0]['og:url']"
+   }
+  ],
+  "image": [
+   {
+    "value": "https://images.genius.com/4a489e7d6d9e43f8c66ae8ff43d298f3.698x698x1.png",
+    "lang": null,
+    "via": "P2373__Mark-twain/embedded_opengraph.json: $[0]['og:image']"
+   }
+  ]
+ }
+}

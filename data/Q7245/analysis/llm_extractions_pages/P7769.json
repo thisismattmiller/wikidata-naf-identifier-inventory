@@ -1,0 +1,15 @@
+{
+ "property": "P7769",
+ "label": "Australian National Maritime Museum person ID",
+ "files_read": ["pages/P7769__4128.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Minimal eMuseum person page: name, nationality and life years only, plus a 'View All Works' link; the 'Discover More' list is other people (ignored).",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "birth_date": [{"value": "1835", "raw": "American, 1835 - 1910", "lang": "en", "via": "display date"}],
+  "death_date": [{"value": "1910", "raw": "American, 1835 - 1910", "lang": "en", "via": "display date"}],
+  "nationality": [{"value": "American", "lang": "en", "via": "display line"}],
+  "identifier": [{"value": "4128", "via": "page URL"}]
+ }
+}

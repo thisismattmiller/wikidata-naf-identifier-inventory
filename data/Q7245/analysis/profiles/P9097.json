@@ -1,0 +1,358 @@
+{
+ "property": "P9097",
+ "property_label": "American Academy in Rome ID",
+ "files": [
+  {
+   "file": "P9097__11275911/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=11275911"
+  },
+  {
+   "file": "P9097__11275911/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://library.aarome.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P9097__11275911/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://library.aarome.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P9097__12438137/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=12438137"
+  },
+  {
+   "file": "P9097__12438137/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://library.aarome.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "rdfa": 2,
+  "html": 2,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 20,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:100 heading (11275911)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:100 heading (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Klemens, Sami͡uėl, 1835-1910",
+    "lang": null,
+    "via": "llm-page:400 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "Klemens, Seĭmeul Lenghorn, 1835-1910",
+    "lang": null,
+    "via": "llm-page:400 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "Kʻo-lan-man-ssu, Sai-mi-erh Lang-en, 1835-1910",
+    "lang": null,
+    "via": "llm-page:400 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "llm-page:670 LC data base usage (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:670 DAB, 1930 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "Quintus Curtius Snodgrass",
+    "lang": "en",
+    "via": "llm-page:670 DAB, 1930 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:100 heading (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:100 heading (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:100 $d (both records)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:100 $d (both records)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:670 DAB, 1930 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "novelist",
+    "lang": "en",
+    "via": "llm-page:670 DAB, 1930 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Works by this author are identified by the name used in the item. For a listing of other names used by this author, search also under Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:663 complex see also reference (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Twain, Mark, 1835-1910 (see also)",
+    "lang": null,
+    "via": "llm-page:500 (both records)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "Rev. Lyman Beecher (descendants were correspondents)",
+    "lang": null,
+    "via": "llm-page:670 NUCMC (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://id.loc.gov/authorities/names/n93099461",
+    "lang": null,
+    "via": "llm-page:100 link to id.loc.gov (11275911, Snodgrass)",
+    "file": "P9097.json",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n93099439",
+    "lang": null,
+    "via": "llm-page:100 link to id.loc.gov (12438137, Clemens)",
+    "file": "P9097.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "11275911",
+    "lang": null,
+    "via": "llm-page:001 control number (Snodgrass)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "12438137",
+    "lang": null,
+    "via": "llm-page:001 control number (Clemens)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "n93099461",
+    "lang": null,
+    "via": "llm-page:024 (11275911)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "n 93099439",
+    "lang": null,
+    "via": "llm-page:010 / 024 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "n 88274847",
+    "lang": null,
+    "via": "llm-page:010 $z (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "OCLC-CD",
+    "lang": "en",
+    "via": "llm-page:670 (11275911)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "NUCMC data from Stowe-Day Lib. for Kinney, S. Thomson-Kinney collection, 1851-1887",
+    "lang": "en",
+    "via": "llm-page:670 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "LC data base, 3-30-89",
+    "lang": "en",
+    "via": "llm-page:670 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "DAB, 1930",
+    "lang": "en",
+    "via": "llm-page:670 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "ItRAAR (cataloging agency)",
+    "lang": null,
+    "via": "llm-page:040 (11275911)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "DLC (cataloging agency, rda)",
+    "lang": null,
+    "via": "llm-page:040 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-07-22",
+    "lang": null,
+    "via": "llm-page:005 (11275911)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "2017-01-25",
+    "lang": null,
+    "via": "llm-page:005 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1995-10-09",
+    "lang": null,
+    "via": "llm-page:008 (11275911)",
+    "file": "P9097.json",
+    "uri": false
+   },
+   {
+    "value": "2014-06-05",
+    "lang": null,
+    "via": "llm-page:008 (12438137)",
+    "file": "P9097.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "related_agent": [],
+  "same_as": [],
+  "identifier": [],
+  "source": [
+   "en"
+  ],
+  "record_modified": [],
+  "record_created": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Two Koha MARC views of authority records at the Arthur & Janet C. Ross Library (American Academy in Rome). One is the pseudonym heading Snodgrass, Quintus Curtius (11275911) and the other is Clemens, Samuel Langhorne (12438137), which is copied from LC. Both records link to id.loc.gov. The suspected login wall did not hide either record.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

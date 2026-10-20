@@ -1,0 +1,402 @@
+{
+ "property": "P950",
+ "property_label": "National Library of Spain SpMaBN ID",
+ "value": "XX945992",
+ "url": "https://datos.bne.es/resource/XX945992",
+ "crawled_at": "2026-10-02T21:13:35+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://datos.bne.es/persona/XX945992.html",
+ "tab_title": "datos.bne.es",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P950__XX945992.jpg",
+ "elapsed_seconds": 5.2,
+ "html_file": "pages/P950__XX945992.html",
+ "text_file": "pages/P950__XX945992.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://datos.bne.es/persona/XX945992.html",
+  "title": "datos.bne.es",
+  "content_type": "text/html",
+  "lang": "es",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 1,
+  "response_headers": {
+   "status": 200,
+   "url": "https://datos.bne.es/persona/XX945992.html",
+   "headers": {
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a446b64e9938ac9e-IAD",
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Fri, 02 Oct 2026 21:13:39 GMT",
+    "link": "<https://datos.bne.es/persona/XX945992.rdf> ; rel=\"alternate\"; type=\"application/rdf+xml\"; title=\"Structured Descriptor Document (RDF/XML format)\", <https://datos.bne.es/persona/XX945992.ttl> ; rel=\"alternate\"; type=\"text/turtle\"; title=\"Structured Descriptor Document (Turtle format)\"",
+    "priority": "u=1,i",
+    "server": "cloudflare",
+    "server-timing": "cfExtPri",
+    "vary": "Accept-Encoding"
+   }
+  },
+  "link_elements": [],
+  "jsonld": [
+   {
+    "types": [
+     "Person"
+    ],
+    "length": 120,
+    "content": "{\"@context\":\"http://schema.org\",\"@type\":\"Person\",\"name\":\"Twain, Mark (1835-1910)\",\"birthDate\":\"1835\",\"deathDate\":\"1910\"}"
+   }
+  ],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "viewport",
+    "content": "width=device-width,initial-scale=1"
+   },
+   {
+    "key": "keywords",
+    "content": "Biblioteca Nacional de España, Linked Data, Datos enlazados, Open Data, Datos abiertos, cultura, cultura heritage, patrimonio cultural, libros, digitalizaciones, videos, mapas"
+   },
+   {
+    "key": "description",
+    "content": "El portal de datos de la Biblioteca Nacional de España"
+   },
+   {
+    "key": "og:title",
+    "content": "Twain, Mark (1835-1910)"
+   },
+   {
+    "key": "og:image",
+    "content": ""
+   },
+   {
+    "key": "og:description",
+    "content": "Descubre Twain, Mark (1835-1910), en el portal de datos abiertos y enlazados de la Biblioteca Nacional de España"
+   },
+   {
+    "key": "og:url",
+    "content": ""
+   },
+   {
+    "key": "og:type",
+    "content": "website"
+   },
+   {
+    "key": "og:site_name",
+    "content": "datos.bne.es"
+   }
+  ],
+  "machine_links": [
+   {
+    "tag": "a",
+    "href": "https://datos.bne.es/resource/XX945992.ttl",
+    "text": "Obtener el registro en ttl",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "extension",
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://datos.bne.es/resource/XX945992.jsonld",
+    "text": "Obtener el registro en JSON-LD",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "extension",
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://datos.bne.es/resource/XX945992.rdf",
+    "text": "Obtener el registro en RDF/XML",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "extension",
+     "text"
+    ]
+   }
+  ],
+  "xhr_requests": [
+   {
+    "url": "https://datos.bne.es/cdn-cgi/challenge-platform/h/b/precursor/d76008a69eab/0.7699358937610749:1790971528:eFnUfTP3rIyDnrI1HKRkLhKBC93US2iZEv1gwyZATOw/a446b6425805ac9e",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://datos.bne.es/css/bootstrap-yeti.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/css/site.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/lib/modernizr.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/lib/jquery/jquery.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/img/logoBNEpositivo.jpg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/img/default_img_bne.jpg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 10642
+   },
+   {
+    "url": "https://datos.bne.es/lib/bootstrap/dist/js/bootstrap.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/img/brand_datos_bne.png",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/lib/typeahead.js/dist/typeahead.bundle.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/img/arrow-down.png",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 1007
+   },
+   {
+    "url": "http://127.0.0.1:35729/livereload.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/lib/jpages.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/lib/respond.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/js/bne.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/lib/handlebars/handlebars.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/lib/d3/d3.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700,800",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://ssl.google-analytics.com/ga.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-58SJH98",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/img/brand-datos-bne-es_PRO.svg",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/img/button_flecha.svg",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/img/volver.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://datos.bne.es/cdn-cgi/challenge-platform/h/b/precursor/d76008a69eab/0.7699358937610749:1790971528:eFnUfTP3rIyDnrI1HKRkLhKBC93US2iZEv1gwyZATOw/a446b6425805ac9e",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 318
+   },
+   {
+    "url": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=2&utmn=1399827168&utmhn=datos.bne.es&utmcs=UTF-8&utmsr=5120x1440&utmvp=1937x1236&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=datos.bne.es&utmhid=761032665&utmr=-&utmp=%2Fpersona%2FXX945992.html&utmht=1790975617746&utmac=UA-20111465-1&utmcc=__utma%3D1.1828578157.1790975609.1790975609.1790975609.1%3B%2B__utmz%3D1.1790975609.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qFAAAAAAAAAAAAAAAAAAAAAE~",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-6W194M1P76&cx=c&gtm=4e6a10h2",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-QB9T53GZFV&cx=c&gtm=4e6a10h2",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-LP2Q4G2VCH&cx=c&gtm=4e6a10h2",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   }
+  ],
+  "third_party_hosts": {
+   "127.0.0.1:35729": 1,
+   "fonts.googleapis.com": 2,
+   "ssl.google-analytics.com": 2,
+   "www.googletagmanager.com": 4
+  },
+  "scripts": [
+   "https://www.googletagmanager.com/gtag/js?id=G-LP2Q4G2VCH&cx=c&gtm=4e6a10h2",
+   "https://www.googletagmanager.com/gtag/js?id=G-QB9T53GZFV&cx=c&gtm=4e6a10h2",
+   "https://www.googletagmanager.com/gtag/js?id=G-6W194M1P76&cx=c&gtm=4e6a10h2",
+   "https://www.googletagmanager.com/gtm.js?id=GTM-58SJH98",
+   "https://ssl.google-analytics.com/ga.js",
+   "https://datos.bne.es/lib/modernizr.min.js",
+   "https://datos.bne.es/lib/jquery/jquery.min.js",
+   "https://datos.bne.es/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+   "https://datos.bne.es/lib/bootstrap/dist/js/bootstrap.min.js",
+   "https://datos.bne.es/lib/typeahead.js/dist/typeahead.bundle.min.js",
+   "https://datos.bne.es/lib/handlebars/handlebars.min.js",
+   "https://datos.bne.es/lib/d3/d3.min.js",
+   "https://datos.bne.es/lib/jpages.min.js",
+   "https://datos.bne.es/lib/respond.min.js",
+   "https://datos.bne.es/js/bne.js",
+   "http://127.0.0.1:35729/livereload.js"
+  ],
+  "iframes": [],
+  "forms": [
+   {
+    "action": "https://datos.bne.es/principalfind",
+    "method": "get",
+    "id": "main-search"
+   },
+   {
+    "action": "https://datos.bne.es/find/resultados/",
+    "method": "get",
+    "id": null
+   }
+  ],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [],
+   "not_found_words": []
+  },
+  "text_length": 3063,
+  "html_length": 140542
+ }
+}

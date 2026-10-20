@@ -1,0 +1,375 @@
+{
+ "property": "P4823",
+ "property_label": "American National Biography ID",
+ "files": [
+  {
+   "file": "P4823__1600313/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.anb.org/display/10.1093/anb/9780198606697.001.0001/anb-9780198606697-e-1600313"
+  },
+  {
+   "file": "P4823__1600313/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.anb.org/display/10.1093/anb/9780198606697.001.0001/anb-9780198606697-e-1600313"
+  },
+  {
+   "file": "P4823__1600313/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://l.sharethis.com/pview?event=pview&hostname=www.anb.org&location=%2Fdisplay%2F10.1093%2Fanb%2F9780198606697.001.0001%2Fanb-9780198606697-e-1600313&product=custom-share-buttons&url=https%3A%2F%2Fwww.anb.org%2Fdisplay%2F10.1093%2Fanb%2F9780198606697.001.0001%2Fanb-9780198606697-e-1600313&source=sharethis.js&fcmp=false&fcmpv2=false&has_segmentio=false&title=Twain%2C%20Mark%20(1835-1910)%2C%20author%20and%20lecturer%20%7C%20American%20National%20Biography&cms=unknown&publisher=64ac08de0f9156001a2918be&sop=true&version=st_sop.js&lang=en&description=%22Twain%2C%20Mark%20(1835-1910)%2C%20author%20and%20lecturer%22%20published%20on%20%20by%20Oxford%20University%20Press.&ua=%22Google%20Chrome%22%3Bv%3D%22153%22%2C%20%22Not_A%20Brand%22%3Bv%3D%228%22%2C%20%22Chromium%22%3Bv%3D%22153%22&ua_mobile=false&ua_platform=macOS&ua_full_version_list=%22Google%20Chrome%22%3Bv%3D%22153.0.8010.53%22%2C%20%22Not_A%20Brand%22%3Bv%3D%228.0.0.0%22%2C%20%22Chromium%22%3Bv%3D%22153.0.8010.53%22&ua_platform_version=27.0.0&uuid=81b5290e-f4e1-487c-aa2f-a9243493bf99"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://purl.org/dc/terms/": 221,
+  "http://www.w3.org/1999/xhtml/vocab#": 8,
+  "http://ogp.me/ns#": 7,
+  "http://schema.org/": 6,
+  "LLM extraction": 2,
+  "http://xmlns.com/foaf/0.1/": 1
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "\"Twain, Mark (1835-1910), author and lecturer\" published on  by Oxford University Press.",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark (1835-1910), author and lecturer",
+    "lang": "en",
+    "via": "llm-page:page title",
+    "file": "P4823.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "10.1093/anb/9780198606697.article.1600313",
+    "lang": null,
+    "via": "identifier",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "1600313",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P4823.json",
+    "uri": false
+   },
+   {
+    "value": "10.1093/anb/9780198606697.001.0001/anb-9780198606697-e-1600313",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url'] (DOI path)",
+    "file": "P4823.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "http://www.anb.org/view/10.1093/anb/9780198606697.001.0001/anb-9780198606697-e-1600313",
+    "lang": null,
+    "via": "source",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   },
+   {
+    "value": "American National Biography, Oxford University Press",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:site_name'] / ['og:description']",
+    "file": "P4823.json",
+    "uri": false
+   },
+   {
+    "value": "https://doi.org/10.1093/anb/9780198606697.article.1600313",
+    "lang": null,
+    "via": "llm-page:DOI line",
+    "file": "P4823.json",
+    "uri": true
+   }
+  ],
+  "work": [
+   {
+    "value": "Louis J. Budd",
+    "lang": null,
+    "via": "author",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:article contents",
+    "file": "P4823.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age",
+    "lang": "en",
+    "via": "llm-page:article contents",
+    "file": "P4823.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:article contents",
+    "file": "P4823.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:article contents",
+    "file": "P4823.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2000-02",
+    "lang": null,
+    "via": "dateCreated",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P4823.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P4823.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:article heading",
+    "file": "P4823.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P4823.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:article heading",
+    "file": "P4823.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P4823.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P4823.json",
+    "uri": false
+   },
+   {
+    "value": "river pilot",
+    "lang": "en",
+    "via": "llm-page:article contents",
+    "file": "P4823.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Mississippi",
+    "lang": "en",
+    "via": "llm-page:article contents",
+    "file": "P4823.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Louis J. Budd (author of the ANB article)",
+    "lang": null,
+    "via": "llm-page:byline",
+    "file": "P4823.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [
+   "en"
+  ],
+  "identifier": [],
+  "source": [],
+  "work": [
+   "en"
+  ],
+  "record_created": [],
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "related_agent": []
+ },
+ "unmapped": {
+  "references (http://purl.org/dc/terms/)": 213,
+  "subject (http://purl.org/dc/terms/)": 6,
+  "about (http://schema.org/)": 1,
+  "isbn (http://schema.org/)": 1,
+  "publisher (http://schema.org/)": 1,
+  "wordCount (http://schema.org/)": 1,
+  "primaryTopic (http://xmlns.com/foaf/0.1/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 562,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.anb.org/display/10.1093/anb/9780198606697.001.0001/anb-9780198606697-e-1600313"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "American National Biography"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark (1835-1910), author and lecturer"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "\"Twain, Mark (1835-1910), author and lecturer\" published on  by Oxford University Press."
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.anb.org/cover/default"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "en_US"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    },
+    {
+     "path": "[].@context.fb",
+     "n": 1,
+     "sample": "http://ogp.me/ns/fb#"
+    },
+    {
+     "path": "[].@context.article",
+     "n": 1,
+     "sample": "http://ogp.me/ns/article#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark (1835-1910), author and lecturer"
+    },
+    {
+     "path": "[].og:description",
+     "value": "\"Twain, Mark (1835-1910), author and lecturer\" published on  by Oxford University Press."
+    }
+   ],
+   "language_like_keys": [
+    "fb",
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 160,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "fpestid",
+     "n": 1,
+     "sample": "HbtJX1gBWSMMaAwHGywwgXnwm_Ueg1lKMxnFJb909fGEL2PtxPV7RgKJdxEo8Fn8hrYtuQ"
+    },
+    {
+     "path": "fpestid_maxage",
+     "n": 1,
+     "sample": "31536000"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "true"
+    },
+    {
+     "path": "stid",
+     "n": 1,
+     "sample": "CgsgpWrAZ3cAAAAJNujiAw=="
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "ANB article landing page behind a subscription wall: only the heading, full dates, author, DOI, publication dates and the table of section headings (which name major works) are visible.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

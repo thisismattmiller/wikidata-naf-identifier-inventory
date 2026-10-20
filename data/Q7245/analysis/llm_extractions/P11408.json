@@ -1,0 +1,14 @@
+{
+ "property": "P11408",
+ "label": "Pixiv Encyclopedia ID",
+ "files_read": ["P11408___dc163aa8/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the Pixiv Encyclopedia article: Japanese name and a one-line description. og:image is a generated OGP card, not a portrait.",
+ "elements": {
+   "name_preferred": [{"value": "マーク・トウェイン", "lang": "ja", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+   "description": [{"value": "アメリカ合衆国の作家。", "lang": "ja", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+   "occupation": [{"value": "作家", "lang": "ja", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+   "nationality": [{"value": "アメリカ合衆国", "lang": "ja", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+   "identifier": [{"value": "7594742", "raw": "https://dic.pixiv.net/ogp?article_id=7594742&mdate=1789355438", "via": "embedded_opengraph.json: $[0]['og:image'] (article_id)"}]
+ }
+}

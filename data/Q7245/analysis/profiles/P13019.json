@@ -1,0 +1,563 @@
+{
+ "property": "P13019",
+ "property_label": "RedBA Granada authority ID",
+ "files": [
+  {
+   "file": "P13019__58014/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://catalogo.redbagranada.es/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=58014"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 5,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 100 'Nombre personal' + 'Fechas asociadas'",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Tvėn, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Tuėĭn, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Tʻu-wen, Ma-kʻo, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M. (Mark), 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Make Tuwen, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Make Teviin, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк, 1835-1910",
+    "lang": "ru",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Touain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "טבןַ, מרק",
+    "lang": "he",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מארק",
+    "lang": "he",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מרק",
+    "lang": "he",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק",
+    "lang": "he",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מרק",
+    "lang": "he",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "טווען, מארק",
+    "lang": "yi",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "טוין, מרק",
+    "lang": "he",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "טװען, מארק",
+    "lang": "yi",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "טװײן, מארק",
+    "lang": "yi",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "馬克吐温",
+    "lang": "zh",
+    "via": "llm-page:MARC 400",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 500 / 663 (real name, linked identity)",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 500 / 663",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 500 / 663",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Alden, Jean François, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 663",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:MARC 046 Fecha de nacimiento",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:MARC 046 Fecha de fallecimiento",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Mo.)",
+    "lang": "es",
+    "via": "llm-page:MARC 370 Lugar de nacimiento",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Conn.)",
+    "lang": "es",
+    "via": "llm-page:MARC 370 Lugar de fallecimiento",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Estados Unidos",
+    "lang": "es",
+    "via": "llm-page:MARC 370 País asociado",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "hombres",
+    "lang": "es",
+    "via": "llm-page:MARC 375 Género",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Autores",
+    "lang": "es",
+    "via": "llm-page:MARC 374",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Profesores",
+    "lang": "es",
+    "via": "llm-page:MARC 374",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Humoristas",
+    "lang": "es",
+    "via": "llm-page:MARC 374",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Literatura",
+    "lang": "es",
+    "via": "llm-page:MARC 372",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Humor",
+    "lang": "es",
+    "via": "llm-page:MARC 372",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Ingenio y Humor",
+    "lang": "es",
+    "via": "llm-page:MARC 372",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Americanos",
+    "lang": "es",
+    "via": "llm-page:MARC 368 Otro tipo de designación",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "lang": null,
+    "via": "llm-page:MARC 377 Código de lengua",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "b. November 30, 1835 in Florida, Missouri; grew up in Hannibal, Missouri; d. April 21, 1910 in Redding, Connecticut; a writer and lecturer; wrote in genres of fiction, historical fiction, children's literature, non-fiction, travel literature, satire, essay, philosophical literature, social commentary, literary criticism",
+    "lang": "en",
+    "via": "llm-page:MARC 670 Wikipedia, Oct. 18, 2011 'Información encontrada'",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Personal recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Print︠s︡ i nishchiĭ",
+    "lang": null,
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Makū Touen tanpenshū",
+    "lang": null,
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Przygody Huck'a",
+    "lang": "pl",
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Alda-bar ȯnggelegsen erin caġ",
+    "lang": null,
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Vasilopoulo kai zētianopoulo",
+    "lang": null,
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Geviksman, V. A.",
+    "lang": null,
+    "via": "llm-page:MARC 670 citation",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "58014",
+    "lang": null,
+    "via": "llm-page:MARC 001 / URL authid",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "(OCoLC)oca00254964",
+    "lang": null,
+    "via": "llm-page:MARC 035",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Geviksman, V. A. Print︠s︡ i nishchiĭ, 1984: t.p. (M. Tvena)",
+    "lang": null,
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Makū Touen tanpenshū, 1961",
+    "lang": null,
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Personal recollections of Joan of Arc, 1923: v. 1-2, t.p. (the Sieur Louis de Conte; Jean François Alden) spine (Mark Twain)",
+    "lang": "en",
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "DAB, 1930: (Clemens, Samuel Langhorne, 1835-1910; better known under pseud. Mark Twain; also used name Quintus Curtius Snodgrass)",
+    "lang": "en",
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's personal recollections of Joan of Arc, 1997: CIP t.p. (Sieur Louis de Conte) p. vii (Sieur Louis de Conte shared ... initials with Samuel L. Clemens)",
+    "lang": "en",
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Przygody Huck'a, 1912: t.p. (Marek Twain)",
+    "lang": null,
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Alda-bar ȯnggelegsen erin caġ, 1985: v. 1, t.p. (Make Teveiin) colophon (Make Tuwen)",
+    "lang": null,
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Wikipedia, Oct. 18, 2011",
+    "lang": "en",
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "Vasilopoulo kai zētianopoulo, 1953: t.p. (Mark Touain)",
+    "lang": null,
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   },
+   {
+    "value": "WWW LC auth., 22-1-2019: (Twain, Mark, 1835-1910)",
+    "lang": null,
+    "via": "llm-page:MARC 670",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1979-04-18",
+    "lang": null,
+    "via": "llm-page:MARC 008",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2021-07-27",
+    "lang": null,
+    "via": "llm-page:MARC 005",
+    "file": "P13019.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [],
+  "name_variant": [
+   "he",
+   "ru",
+   "yi",
+   "zh"
+  ],
+  "pseudonym": [],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "es"
+  ],
+  "death_place": [
+   "es"
+  ],
+  "activity_place": [
+   "es"
+  ],
+  "gender": [
+   "es"
+  ],
+  "occupation": [
+   "es"
+  ],
+  "field_of_activity": [
+   "es"
+  ],
+  "nationality": [
+   "es"
+  ],
+  "language": [],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en",
+   "pl"
+  ],
+  "related_agent": [],
+  "identifier": [],
+  "source": [
+   "en"
+  ],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Koha OPAC MARC view of authority 58014 'Twain, Mark,' (copy of the LC NAF record with Spanish field labels). Full record visible despite the suspected login wall (only a cookie banner and login link in the chrome). Rich: 046 dates, 370 places, 372/374 fields and occupations, 400 script variants, 500 pseudonym links, 663 and 670 sources.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,77 @@
+{
+ "property": "P3348",
+ "label": "National Library of Greece ID",
+ "files_read": ["pages/P3348__122385.txt", "pages/P3348__178278.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Two Koha MARC-view authority records despite the login_wall flag: A069925 (old 122385) for the real person 'Clemens, Samuel Langhorne, 1835-1910' with VIAF/ISNI/LCCN links, occupations and 670 sources; and A111227 (old 178278) for the pseudonym identity 'Twain, Mark, 1835-1910' with Greek variant names. The two are cross-linked via 500 fields.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": "en", "via": "100 heading, record A069925 (authid 122385)"},
+   {"value": "Twain, Mark, 1835-1910", "lang": "en", "via": "100 heading, record A111227 (authid 178278, pseudonym)"}
+  ],
+  "name_variant": [
+   {"value": "Κλέμενς, Σάμουελ, 1835-1910", "lang": "el", "via": "400, record 122385"},
+   {"value": "Κλήμενς, Σάμουελ, 1835-1910", "lang": "el", "via": "400, record 122385"},
+   {"value": "Κλέμενς, Σάμιουελ Λάνγκορν, 1835-1910", "lang": "el", "via": "400, record 122385"},
+   {"value": "Τουαίην, Μαρκ, 1835-1910", "lang": "el", "via": "400, record 178278"},
+   {"value": "Τουέιν, Μαρκ, 1835-1910", "lang": "el", "via": "400, record 178278"},
+   {"value": "Τουαίν, Μάρκος, 1835-1910", "lang": "el", "via": "400, record 178278"},
+   {"value": "Τουαίν, Μαρκ, 1835-1910", "lang": "el", "via": "400, record 178278"}
+  ],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "en", "via": "100 heading, record 122385"}],
+  "family_name": [{"value": "Clemens", "lang": "en", "via": "100 heading, record 122385"}],
+  "pseudonym": [{"value": "Twain, Mark, 1835-1910", "lang": "en", "via": "500 'Εναλλακτική ταυτότητα' (alternate identity, RDA P50428), record 122385; 075 'Ψευδώνυμο' in record 178278"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "Birth date: 1835-11-30", "lang": null, "via": "046 in both records"}],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "Death date: 1910-04-21", "lang": null, "via": "046 in both records"},
+   {"value": "1910-04-10", "raw": "πέθανε στις 10 Απριλίου του 1910", "lang": "el", "via": "670 note from 'Οι περιπέτειες του Τομ Σόγερ, 2014' (source discrepancy)"}
+  ],
+  "birth_place": [{"value": "Φλόριντα της πολιτείας Μιζούρι", "lang": "el", "via": "670 note from 'Οι περιπέτειες του Τομ Σόγερ, 2014'"}],
+  "activity_place": [{"value": "Ηνωμένες Πολιτείες Αμερικής", "lang": "el", "via": "370 associated country, record 122385 (urn:nbn:gr:nlg:01-A273699)"}],
+  "occupation": [
+   {"value": "Συγγραφείς", "lang": "el", "via": "374, record 122385 (A209434)"},
+   {"value": "Δημοσιογράφοι", "lang": "el", "via": "374, record 122385 (A211166)"},
+   {"value": "Τυπογράφοι", "lang": "el", "via": "374, record 122385 (A216848)"}
+  ],
+  "field_of_activity": [
+   {"value": "Λογοτεχνία", "lang": "el", "via": "372, record 122385 (A209293)"},
+   {"value": "Δημοσιογραφία", "lang": "el", "via": "372, record 122385 (A211156)"},
+   {"value": "Τυπογραφία", "lang": "el", "via": "372, record 122385 (A209682)"}
+  ],
+  "nationality": [{"value": "Αμερικανός", "lang": "el", "via": "670 note 'Αμερικανός συγγραφέας'"}],
+  "language": [{"value": "eng", "raw": "Αγγλικά", "lang": "el", "via": "377 in both records"}],
+  "description": [{"value": "Samuel Langhorne Clemens (Νοέμβριος 30, 1835 - Απρίλιος 21, 1910) γνωστός με το συγγραφικό του όνομα ως Mark Twain, ήταν Αμερικάνος συγγραφέας, ευθυμογράφος, εκδότης και ομιλητής", "lang": "el", "via": "670 Wikipedia citation, both records"}],
+  "work": [
+   {"value": "Ἐλαφρόμυαλος Οὐΐλσον", "raw": "19--", "lang": "el", "via": "670 source citation"},
+   {"value": "Οι περιπέτειες του Τομ Σόγερ", "raw": "2014; also c1967 edition", "lang": "el", "via": "670 source citation"},
+   {"value": "The adventures of Tom Sawyer", "raw": "1984", "lang": "en", "via": "670 source citation, record 178278"},
+   {"value": "Ο πρίγκιπας και ο φτωχός", "raw": "1989", "lang": "el", "via": "670 source citation, record 178278"},
+   {"value": "Ἑνὸς ἑκατομμυρίου λιρῶν χαρτονόμισμα", "raw": "c1993", "lang": "el", "via": "670 source citation, record 178278"}
+  ],
+  "same_as": [
+   {"value": "http://viaf.org/viaf/53367783", "via": "024 viaf, record 122385"},
+   {"value": "https://isni.org/isni/0000000108003124", "via": "024 isni, record 122385"},
+   {"value": "http://id.loc.gov/rwo/agents/n93099439", "via": "024 lccn, record 122385"},
+   {"value": "https://en.wikipedia.org/wiki/Mark_Twain", "via": "670 URI, both records"}
+  ],
+  "identifier": [
+   {"value": "urn:nbn:gr:nlg:01-A069925", "via": "016 record control number (Clemens record)"},
+   {"value": "A122385", "via": "016 canceled control number, Clemens record"},
+   {"value": "urn:nbn:gr:nlg:01-A111227", "via": "016 record control number (Twain record)"},
+   {"value": "A178278", "via": "016 canceled control number, Twain record"},
+   {"value": "147581", "via": "999 OLD Horizon Auth #, Clemens record"},
+   {"value": "223191", "via": "999 OLD Horizon Auth #, Twain record"}
+  ],
+  "source": [
+   {"value": "LC/NACO, accessed 24 Aug 2020 (heading: Clemens, Samuel Langhorne, 1835-1910)", "lang": "el", "via": "670, record 122385"},
+   {"value": "LC/NACO, accessed 8 Jul 2020 (heading: Twain, Mark, 1835-1910)", "lang": "el", "via": "670, record 178278"},
+   {"value": "Wikipedia, accessed 25 Oct 2022", "lang": "el", "via": "670, both records"}
+  ],
+  "record_created": [{"value": "2014-10-09", "raw": "008: 141009", "lang": null, "via": "008 fixed field, both records"}],
+  "record_modified": [
+   {"value": "2024-04-04", "raw": "005: 20240404124206.0", "lang": null, "via": "005, record 122385"},
+   {"value": "2024-01-24", "raw": "005: 20240124101435.0", "lang": null, "via": "005, record 178278"}
+  ]
+ }
+}

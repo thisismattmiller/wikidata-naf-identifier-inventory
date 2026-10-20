@@ -1,0 +1,94 @@
+{
+ "property": "P13166",
+ "property_label": "PUG authority ID",
+ "files": [],
+ "formats": {},
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:page heading / 100 field",
+    "file": "P13166.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:100 $d",
+    "file": "P13166.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:100 $d",
+    "file": "P13166.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "000000021234",
+    "lang": null,
+    "via": "llm-page:001",
+    "file": "P13166.json",
+    "uri": false
+   },
+   {
+    "value": "https://oseegenius.unigre.it/pug/authResource?v=m21&uri=21234",
+    "lang": null,
+    "via": "llm-page:permalink",
+    "file": "P13166.json",
+    "uri": true
+   },
+   {
+    "value": "(OLS)http://pug/name/23783",
+    "lang": null,
+    "via": "llm-page:996 $9 local link",
+    "file": "P13166.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2024-07-25",
+    "lang": null,
+    "via": "llm-page:008",
+    "file": "P13166.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-07-25",
+    "lang": null,
+    "via": "llm-page:005",
+    "file": "P13166.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Pontifical Gregorian University (Osee Genius) authority record shown as raw MARC: only the heading 'Twain, Mark, 1835-1910', control fields and a 996 local link. No variants, sources or bio.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

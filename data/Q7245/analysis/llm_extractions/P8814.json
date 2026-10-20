@@ -1,0 +1,97 @@
+{
+ "property": "P8814",
+ "label": "WordNet 3.1 Synset ID",
+ "files_read": [
+  "P8814__10920482-n/export_2.json",
+  "P8814__10920482-n/export_5.xml"
+ ],
+ "about_entity": true,
+ "notes": "Open English WordNet synset 10920482-n (JSON and WN-LMF XML) with three lemmas and a gloss; license CC BY 4.0 from the lexicon header.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "export_2.json: $.members[2].lemma"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "export_2.json: $.members[1].lemma; export_5.xml: LexicalEntry/Lemma@writtenForm"
+   },
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "export_2.json: $.members[0].lemma; export_5.xml: LexicalEntry/Lemma@writtenForm"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "export_2.json: $.definition[0]"
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "export_2.json: $.definition[0]"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "export_2.json: $.definition[0]"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "raw": "(1835-1910)",
+    "lang": null,
+    "via": "export_2.json: $.definition[0]"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "raw": "(1835-1910)",
+    "lang": null,
+    "via": "export_2.json: $.definition[0]"
+   }
+  ],
+  "description": [
+   {
+    "value": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)",
+    "lang": "en",
+    "via": "export_2.json: $.definition[0]; export_5.xml: Synset/Definition"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "10920482-n",
+    "lang": null,
+    "via": "export_2.json: $.id"
+   },
+   {
+    "value": "oewn-10920482-n",
+    "lang": null,
+    "via": "export_5.xml: Synset@id"
+   },
+   {
+    "value": "i94739",
+    "lang": null,
+    "via": "export_2.json: $.ili (Interlingual Index)"
+   }
+  ],
+  "license": [
+   {
+    "value": "https://creativecommons.org/licenses/by/4.0",
+    "lang": null,
+    "via": "export_5.xml: Lexicon@license"
+   }
+  ]
+ }
+}

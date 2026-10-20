@@ -1,0 +1,598 @@
+{
+ "property": "P7847",
+ "property_label": "DigitaltMuseum ID",
+ "files": [
+  {
+   "file": "P7847__0210315745803/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://digitaltmuseum.org/0210315745803/twain-mark-1835-1910"
+  },
+  {
+   "file": "P7847__0210315745803/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://digitaltmuseum.org/0210315745803/twain-mark-1835-1910"
+  },
+  {
+   "file": "P7847__0210315745803/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://dok.digitaltmuseum.org/en/api"
+  },
+  {
+   "file": "P7847__0210315745803/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://apigateway.digitaltmuseum.org/cookie-consent-public-api/published_websites/digitaltmuseum.org/"
+  },
+  {
+   "file": "P7847__0210315745803/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://apigateway.digitaltmuseum.org/auths/oauth2/has-refresh-token?cache=300"
+  },
+  {
+   "file": "P7847__0210315745803/xhr_3.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://apigateway.digitaltmuseum.org/primus-translations/public/translation/CookieConsentPlatform/en/"
+  },
+  {
+   "file": "P7847__0210315745803/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://apigateway.digitaltmuseum.org/cookie-consent-public-api/published_websites/digitaltmuseum.org/"
+  },
+  {
+   "file": "P7847__0210315745803/browser_xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://apigateway.digitaltmuseum.org/primus-translations/public/translation/CookieConsentPlatform/en/"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 1,
+  "unknown": 2,
+  "json": 3
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 7,
+  "LLM extraction": 2,
+  "http://ogp.me/ns/fb#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:title",
+    "file": "P7847.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "sv",
+    "via": "llm-page:heading / NAME",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:title",
+    "file": "P7847.json",
+    "uri": false
+   },
+   {
+    "value": "1835",
+    "lang": "sv",
+    "via": "llm-page:History / LIFESPAN",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:title",
+    "file": "P7847.json",
+    "uri": false
+   },
+   {
+    "value": "1910",
+    "lang": "sv",
+    "via": "llm-page:History / LIFESPAN",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "0210315745803",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:url (https://digitaltmuseum.org/0210315745803/twain-mark-1835-1910)",
+    "file": "P7847.json",
+    "uri": false
+   },
+   {
+    "value": "3e04abfe-5825-41af-ac3d-23a5ea3aba38",
+    "lang": null,
+    "via": "llm-page:UUID / References https://digitaltmuseum.org/3e04abfe-...",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://ems.dimu.org/image/032yiVGdCbeo?dimension=250x250",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:image",
+    "file": "P7847.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "sv",
+    "via": "llm-page:ALTERNATIVE NAME",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Mark",
+    "lang": "sv",
+    "via": "llm-page:FIRST NAME",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Langhorne Clemens Twain",
+    "lang": "sv",
+    "via": "llm-page:LAST NAME",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": "sv",
+    "via": "llm-page:History, Födelse",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "sv",
+    "via": "llm-page:History, Död",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "Man",
+    "lang": "en",
+    "via": "llm-page:GENDER",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "författare",
+    "lang": "sv",
+    "via": "llm-page:ABOUT 'amerikansk författare'",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "amerikansk",
+    "lang": "sv",
+    "via": "llm-page:ABOUT",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "amerikansk författare",
+    "lang": "sv",
+    "via": "llm-page:ABOUT",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://kulturnav.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38",
+    "lang": null,
+    "via": "llm-page:AUTHORITY",
+    "file": "P7847.json",
+    "uri": true
+   },
+   {
+    "value": "https://libris.kb.se/1zcfb5hk1bq7d78",
+    "lang": null,
+    "via": "llm-page:References",
+    "file": "P7847.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm-page:References",
+    "file": "P7847.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm-page:References",
+    "file": "P7847.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "Personer, Musikverket (Statens musikverk)",
+    "lang": null,
+    "via": "llm-page:PART OF DATASET / OWNER OF DATASET",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2025-12-08",
+    "lang": null,
+    "via": "llm-page:DATE PUBLISHED",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-09-29",
+    "lang": null,
+    "via": "llm-page:DATE UPDATED",
+    "file": "P7847.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "sv"
+  ],
+  "birth_date": [
+   "sv"
+  ],
+  "death_date": [
+   "sv"
+  ],
+  "identifier": [],
+  "image": [],
+  "name_variant": [
+   "sv"
+  ],
+  "given_name": [
+   "sv"
+  ],
+  "family_name": [
+   "sv"
+  ],
+  "birth_place": [
+   "sv"
+  ],
+  "death_place": [
+   "sv"
+  ],
+  "gender": [
+   "en"
+  ],
+  "occupation": [
+   "sv"
+  ],
+  "nationality": [
+   "sv"
+  ],
+  "description": [
+   "sv"
+  ],
+  "same_as": [],
+  "source": [],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 379,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://digitaltmuseum.org/0210315745803/twain-mark-1835-1910"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://ems.dimu.org/image/032yiVGdCbeo?dimension=250x250"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "250"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "250"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Twain, Mark (1835 - 1910)"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://digitaltmuseum.org/0210315745803/twain-mark-1835-1910"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 2,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 14754,
+   "path_count": 28,
+   "paths": [
+    {
+     "path": "content[].providers[].domain[]",
+     "n": 35,
+     "sample": "*.ekultur.org"
+    },
+    {
+     "path": "content[].providers[].title",
+     "n": 19,
+     "sample": "eKultur"
+    },
+    {
+     "path": "content[].providers[].privacyUrl",
+     "n": 19,
+     "sample": "https://kulturit.no/personvern"
+    },
+    {
+     "path": "content[].providers[].description",
+     "n": 19,
+     "sample": "Fellestjenester i eKultur, som pålogging og brukerautorisering."
+    },
+    {
+     "path": "content[].providers[].translations.en.description",
+     "n": 19,
+     "sample": "Shared services in eKultur, such as login and user authorization"
+    },
+    {
+     "path": "content[].providers[].translations.nn.description",
+     "n": 19,
+     "sample": "Fellestenester i eKultur, som pålogging og brukartilgang."
+    },
+    {
+     "path": "content[].providers[].translations.sv.description",
+     "n": 19,
+     "sample": "Delade tjänster i eKultur, såsom inloggning och användarauktorisering."
+    },
+    {
+     "path": "content[].providers[].translations.es.description",
+     "n": 7,
+     "sample": "Servicios compartidos en eKultur, como inicio de sesión y autorización de usuarios."
+    },
+    {
+     "path": "content[].providers[].translations.fr.description",
+     "n": 7,
+     "sample": "Services communs dans eKultur, tels que connexion et autorisation des utilisateurs."
+    },
+    {
+     "path": "content[].providers[].translations.de.description",
+     "n": 6,
+     "sample": "Gemeinsame Dienste in eKultur, wie Anmeldung und Benutzerautorisierung."
+    },
+    {
+     "path": "content[].order",
+     "n": 3,
+     "sample": "1"
+    },
+    {
+     "path": "content[].title",
+     "n": 3,
+     "sample": "Nødvendige"
+    },
+    {
+     "path": "content[].required",
+     "n": 3,
+     "sample": "True"
+    },
+    {
+     "path": "content[].unique_id",
+     "n": 3,
+     "sample": "e7101489-32e8-40bc-a57b-a76c588defb9"
+    },
+    {
+     "path": "content[].description",
+     "n": 3,
+     "sample": "Disse tjenestene støtter opp under kjernefunksjonalitet. Vi har vurdert disse som nødvendige, og i tilfellene informasjo"
+    },
+    {
+     "path": "content[].translations.de.title",
+     "n": 3,
+     "sample": "Notwendig"
+    },
+    {
+     "path": "content[].translations.de.description",
+     "n": 3,
+     "sample": "Diese Dienste unterstützen die Kernfunktionalität. Wir haben sie als notwendig eingestuft, und in Fällen, in denen Cooki"
+    },
+    {
+     "path": "content[].translations.en.title",
+     "n": 3,
+     "sample": "Necessary"
+    },
+    {
+     "path": "content[].translations.en.description",
+     "n": 3,
+     "sample": "These services support core functionality. We have considered these to be necessary, and in cases where cookies are nece"
+    },
+    {
+     "path": "content[].translations.es.title",
+     "n": 3,
+     "sample": "Necesarios"
+    },
+    {
+     "path": "content[].translations.es.description",
+     "n": 3,
+     "sample": "Estos servicios respaldan la funcionalidad central. Los hemos considerado necesarios y, en los casos en que las cookies "
+    },
+    {
+     "path": "content[].translations.fr.title",
+     "n": 3,
+     "sample": "Nécessaires"
+    },
+    {
+     "path": "content[].translations.fr.description",
+     "n": 3,
+     "sample": "Ces services soutiennent les fonctionnalités essentielles. Nous les avons jugés nécessaires et, dans les cas où des cook"
+    },
+    {
+     "path": "content[].translations.nn.title",
+     "n": 3,
+     "sample": "Naudsynt"
+    },
+    {
+     "path": "content[].translations.nn.description",
+     "n": 3,
+     "sample": "Desse tjenestane støtter opp under kjernefunksjonalitet. Vi har vurdert dei som naudsynt, og i tilfellane informasjonkap"
+    },
+    {
+     "path": "content[].translations.sv.title",
+     "n": 3,
+     "sample": "Nödvändig"
+    },
+    {
+     "path": "content[].translations.sv.description",
+     "n": 3,
+     "sample": "Dessa tjänster stöder kärnfunktioner. Vi har ansett dessa vara nödvändiga, och i de fall där cookies är nödvändiga lagra"
+    },
+    {
+     "path": "publishedAt",
+     "n": 1,
+     "sample": "2026-07-28T07:24:50.916715"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_3.json",
+   "format": "json",
+   "size": 447,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "ccm_dialog_title",
+     "n": 1,
+     "sample": "We use cookies"
+    },
+    {
+     "path": "ccm_dialog_reject_all",
+     "n": 1,
+     "sample": "Reject all"
+    },
+    {
+     "path": "ccm_dialog_accept_selected",
+     "n": 1,
+     "sample": "Accept selected"
+    },
+    {
+     "path": "ccm_dialog_accept_all",
+     "n": 1,
+     "sample": "Accept all"
+    },
+    {
+     "path": "ccm_dialog_description",
+     "n": 1,
+     "sample": "In order for the website to function and be secure, cookies are sometimes used. Some are considered necessary, while oth"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "DigitaltMuseum person record mirroring the KulturNav/Musikverket authority (same UUID): names, lifespan, gender, birth/death places, same-as links and dataset metadata. Name parts are oddly split as in KulturNav.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

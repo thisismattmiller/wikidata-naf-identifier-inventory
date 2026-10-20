@@ -1,0 +1,73 @@
+{
+ "property": "P4342",
+ "label": "Great Norwegian Encyclopedia ID",
+ "files_read": ["pages/P4342__Mark_Twain.txt"],
+ "about_entity": true,
+ "page_kind": "encyclopedia article",
+ "notes": "Store norske leksikon article 'Mark Twain' by Orm Øverland (Universitetet i Bergen): fact box (birth/death), biography and authorship sections naming many works with years, external links and bibliography. Fact box misspells 'Conneticut'.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "nb", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "nb", "via": "Faktaboks 'født Samuel Langhorne Clemens'"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "nb", "via": "lead sentence 'skrev under pseudonymet Mark Twain'"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "nb", "via": "Faktaboks"}],
+  "family_name": [{"value": "Clemens", "lang": "nb", "raw": "UTTALE klemənz", "via": "Faktaboks"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30. november 1835", "lang": "nb", "via": "Faktaboks FØDT"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21. april 1910", "lang": "nb", "via": "Faktaboks DØD"}],
+  "birth_place": [{"value": "Florida, Missouri, USA", "lang": "nb", "via": "Faktaboks FØDT"}],
+  "death_place": [{"value": "Redding, Conneticut, USA", "lang": "nb", "via": "Faktaboks DØD"}],
+  "activity_place": [
+   {"value": "Hannibal, Missouri", "lang": "nb", "via": "Biografi (grew up)"},
+   {"value": "Virginia City, Nevada", "lang": "nb", "via": "Biografi (journalist)"},
+   {"value": "San Francisco", "lang": "nb", "via": "Biografi (journalist)"},
+   {"value": "Hawaii", "lang": "nb", "via": "Biografi (travel)"},
+   {"value": "Hartford, Connecticut", "lang": "nb", "via": "Forfatterskap (home for rest of life)"}
+  ],
+  "occupation": [
+   {"value": "forfatter", "lang": "nb", "via": "lead sentence"},
+   {"value": "journalist", "lang": "nb", "via": "Biografi"},
+   {"value": "elvelos (river pilot)", "lang": "nb", "via": "Biografi"},
+   {"value": "trykker (printer)", "lang": "nb", "raw": "arbeidet han i trykkerfaget", "via": "Biografi"},
+   {"value": "foredragsholder (lecturer)", "lang": "nb", "via": "Biografi"},
+   {"value": "humorist", "lang": "nb", "via": "Forfatterskap"}
+  ],
+  "field_of_activity": [{"value": "USAs litteratur på 1800-tallet", "lang": "nb", "via": "category breadcrumb"}],
+  "nationality": [{"value": "amerikansk", "lang": "nb", "via": "lead sentence"}],
+  "description": [{"value": "Mark Twain var en populær amerikansk forfatter som særlig er kjent for romanene om guttene Tom Sawyer og Huckleberry Finn. Han het egentlig Samuel Langhorne Clemens, men skrev under pseudonymet Mark Twain. Twain vokste opp i småbyen Hannibal ved Mississippi-elven i Missouri. Fra han var 12 år gammel til han var 20 arbeidet han i trykkerfaget i mange byer og begynte deretter i lære på ny, som elvelos på Mississippi.", "lang": "nb", "raw": "truncated", "via": "lead and Biografi"}],
+  "work": [
+   {"value": "The Celebrated Jumping Frog of Calaveras County and Other Sketches", "raw": "1867", "via": "Biografi"},
+   {"value": "Innocents Abroad", "raw": "1869", "via": "Forfatterskap"},
+   {"value": "Roughing It", "raw": "1872", "via": "Forfatterskap"},
+   {"value": "The Gilded Age", "raw": "1873, with Charles Dudley Warner", "via": "Forfatterskap"},
+   {"value": "Life on the Mississippi", "raw": "1883", "via": "Forfatterskap"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "1876", "via": "Forfatterskap"},
+   {"value": "The Adventures of Huckleberry Finn", "raw": "1884", "via": "Forfatterskap"},
+   {"value": "The Prince and the Pauper", "raw": "1882", "via": "Forfatterskap"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "1889", "via": "Forfatterskap"},
+   {"value": "The Tragedy of Pudd'nhead Wilson", "raw": "1894", "via": "Forfatterskap"},
+   {"value": "Personal Recollections of Joan of Arc", "raw": "1896", "via": "Forfatterskap"},
+   {"value": "Following the Equator", "raw": "1897", "via": "Forfatterskap"},
+   {"value": "The Man that Corrupted Hadleyburg", "raw": "1900", "via": "Forfatterskap"},
+   {"value": "What is Man", "raw": "1906", "via": "Forfatterskap"},
+   {"value": "The Mysterious Stranger", "raw": "1916, posthumous", "via": "Forfatterskap"}
+  ],
+  "related_agent": [
+   {"value": "Orion Clemens (brother)", "raw": "broren Orion", "via": "Biografi"},
+   {"value": "Charles Dudley Warner (neighbour, co-author of The Gilded Age)", "via": "Forfatterskap"},
+   {"value": "Orm Øverland (author of the article)", "via": "SKREVET AV"}
+  ],
+  "same_as": [{"value": "https://snl.no/Mark_Twain", "via": "citation line"}],
+  "identifier": [{"value": "Mark_Twain", "via": "citation URL https://snl.no/Mark_Twain"}],
+  "image": [{"value": "Samuel Langhorne Clemens (Mark Twain)", "raw": "Av Ukjent/KF/Store norske leksikon. Lisens: Begrenset gjenbruk", "via": "fact box image caption"}],
+  "source": [
+   {"value": "Emerson, Everett: Mark Twain : a literary life, 2000, isbn 0-8122-3516-9", "via": "Litteratur"},
+   {"value": "Kaplan, Fred: The singular Mark Twain : a biography, 2003, isbn 0-385-47715-5", "via": "Litteratur"},
+   {"value": "Paine, Albert Bigelow: Mark Twain : a biography, 1912, 3 b.", "via": "Litteratur"},
+   {"value": "Rasmussen, R. Kent: Mark Twain A to Z, 1995, isbn 0-8160-2845-1", "via": "Litteratur"},
+   {"value": "Robinson, Forrest G., red.: The Cambridge companion to Mark Twain, 1995, isbn 0-521-44593-0", "via": "Litteratur"},
+   {"value": "Smith, Henry Nash: Mark Twain : the development of a writer, 1962", "via": "Litteratur"},
+   {"value": "The Mark Twain Papers & project; Project Gutenberg; Western American Literature Research; NYPL Samuel Langhorne Clemens collection; Yale Samuel Langhorne Clemens Collection; Nasjonalbiblioteket", "via": "Eksterne lenker (link labels only)"}
+  ],
+  "record_modified": [{"value": "2026-04-24", "raw": "SIST OPPDATERT: 24. april 2026", "via": "article footer"}],
+  "license": [{"value": "begrenset gjenbruk", "via": "VILKÅR FOR GJENBRUK"}]
+ }
+}

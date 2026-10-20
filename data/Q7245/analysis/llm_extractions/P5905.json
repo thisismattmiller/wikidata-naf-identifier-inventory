@@ -1,0 +1,37 @@
+{
+ "property": "P5905",
+ "label": "Comic Vine ID",
+ "files_read": ["P5905__4005-58664/embedded_opengraph.json", "P5905__4005-58664/xhr_4.json"],
+ "about_entity": true,
+ "notes": "embedded_opengraph.json is page metadata for Comic Vine 4005-58664, which is a CHARACTER page (Mark Twain as a comics character) with a one-line description of the real person. xhr_4.json (405 KB) is a OneTrust cookie-consent config (about_entity false, nothing extracted).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "raw": "Mark Twain (Character) - Comic Vine ", "lang": "en", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "en", "via": "embedded_opengraph.json: og:description ('known by his pen name Mark Twain')"}
+  ],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "humorist", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "entrepreneur", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "publisher", "lang": "en", "via": "embedded_opengraph.json: og:description"},
+   {"value": "lecturer", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "nationality": [
+   {"value": "American", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "description": [
+   {"value": "Samuel Langhorne Clemens known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer.", "lang": "en", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "identifier": [
+   {"value": "4005-58664", "via": "embedded_opengraph.json: og:url (https://comicvine.gamespot.com/wd/4005-58664/)"}
+  ],
+  "image": [
+   {"value": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/114183/5170941-tumblr_meb2w5arvu1rpmkbc.jpg", "via": "embedded_opengraph.json: og:image"}
+  ]
+ }
+}

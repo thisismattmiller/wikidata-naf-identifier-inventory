@@ -1,0 +1,136 @@
+{
+ "property": "P12502",
+ "property_label": "UCA authority ID",
+ "files": [
+  {
+   "file": "P12502__15651/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://bibcatalogo.uca.es/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=15651"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 3,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "es",
+    "via": "llm-page:100 heading",
+    "file": "P12502.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "es",
+    "via": "llm-page:400",
+    "file": "P12502.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": "es",
+    "via": "llm-page:400",
+    "file": "P12502.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, 1835-1910",
+    "lang": "es",
+    "via": "llm-page:400",
+    "file": "P12502.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:100 $d",
+    "file": "P12502.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:100 $d",
+    "file": "P12502.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "15651",
+    "lang": null,
+    "via": "llm-page:001 control number",
+    "file": "P12502.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "BNE",
+    "lang": "es",
+    "via": "llm-page:670",
+    "file": "P12502.json",
+    "uri": false
+   },
+   {
+    "value": "UCA (cataloging agency)",
+    "lang": null,
+    "via": "llm-page:040",
+    "file": "P12502.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2011-05-19",
+    "lang": null,
+    "via": "llm-page:008",
+    "file": "P12502.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2013-06-06",
+    "lang": null,
+    "via": "llm-page:902 local field (date, interpretation uncertain)",
+    "file": "P12502.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "es"
+  ],
+  "name_variant": [
+   "es"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "source": [
+   "es"
+  ],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "A Koha MARC view of the Universidad de Cádiz authority record 15651 for Twain, Mark, 1835-1910, used in 34 records. It is a minimal record: a heading, three see-from variants and the source BNE. A cookie banner appears at the top, but the record was not hidden behind a login wall.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,2247 @@
+{
+ "property": "P14225",
+ "property_label": "NSK ID",
+ "files": [
+  {
+   "file": "P14225__981005677060509366/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/discovery/authfulldisplay?context=L&vid=385BUKINET_NETWORK:VU1_UNION&lang=en&docid=981005677060509366"
+  },
+  {
+   "file": "P14225__981005677060509366/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/discovery/authfulldisplay?context=L&vid=385BUKINET_NETWORK:VU1_UNION&lang=en&docid=981005677060509366"
+  },
+  {
+   "file": "P14225__981005677060509366/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/discovery/authfulldisplay?context=L&vid=385BUKINET_NETWORK:VU1_UNION&lang=en&docid=981005677060509366"
+  },
+  {
+   "file": "P14225__981005677060509366/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/primaws/rest/pub/configuration/vid/385BUKINET_NETWORK:VU1_UNION"
+  },
+  {
+   "file": "P14225__981005677060509366/xhr_2.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/primaws/rest/pub/institution/385BUKINET_NETWORK/guestJwt?isGuest=true&lang=en&targetUrl=https%253A%252F%252Fbukinet-mreza.primo.exlibrisgroup.com%252Fdiscovery%252Fauthfulldisplay%253Fcontext%253DL%2526vid%253D385BUKINET_NETWORK%253AVU1_UNION%2526lang%253Den%2526docid%253D981005677060509366&viewId=385BUKINET_NETWORK:VU1_UNION"
+  },
+  {
+   "file": "P14225__981005677060509366/xhr_3.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/discovery/custom/385BUKINET_NETWORK-VU1_UNION/html/prmExploreFooterAfter.html"
+  },
+  {
+   "file": "P14225__981005677060509366/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/primaws/rest/pub/cslFiles/vid/385BUKINET_NETWORK:VU1_UNION"
+  },
+  {
+   "file": "P14225__981005677060509366/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/primaws/rest/pub/translations/385BUKINET_NETWORK:VU1_UNION?lang=en"
+  },
+  {
+   "file": "P14225__981005677060509366/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/primaws/rest/priv/usersettings?vid=385BUKINET_NETWORK:VU1_UNION&lang=en"
+  },
+  {
+   "file": "P14225__981005677060509366/xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/primaws/rest/pub/pnxs/L/981005677060509366?vid=385BUKINET_NETWORK:VU1_UNION&lang=en&authfulldisplay=true&lang=en"
+  },
+  {
+   "file": "P14225__981005677060509366/xhr_8.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/discovery/img/svg/svg-primo-ui.svg"
+  },
+  {
+   "file": "P14225__981005677060509366/xhr_9.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/discovery/img/svg/svg-primo-actions.svg"
+  },
+  {
+   "file": "P14225__981005677060509366/browser_xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://bukinet-mreza.primo.exlibrisgroup.com/primaws/rest/pub/institution/385BUKINET_NETWORK/guestJwt?isGuest=true&lang=en&targetUrl=https%253A%252F%252Fbukinet-mreza.primo.exlibrisgroup.com%252Fdiscovery%252Fauthfulldisplay%253Fcontext%253DL%2526vid%253D385BUKINET_NETWORK%253AVU1_UNION%2526lang%253Den%2526docid%253D981005677060509366&viewId=385BUKINET_NETWORK:VU1_UNION"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 5,
+  "unknown": 2,
+  "xml": 1,
+  "svg": 2
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 23,
+  "http://ogp.me/ns#": 5,
+  "http://schema.org/": 3,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Book",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://schema.org/WebPage",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "981005677060509366",
+    "lang": null,
+    "via": "identifier/value",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "000047578",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.control.originatingSystemId",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Pravo ime autora: -- Clemens, Samuel Langhorne.",
+    "lang": "pnx",
+    "via": "json:pnx.display.note",
+    "file": "xhr_7.json",
+    "uri": false
+   },
+   {
+    "value": "Autor je objavljivao i pod pseudonimom: -- Conte, Louis de.",
+    "lang": "pnx",
+    "via": "json:pnx.display.note",
+    "file": "xhr_7.json",
+    "uri": false
+   },
+   {
+    "value": "Američki književnik, novinar, publicist. Rođen 30. 11. 1835. u Floridi, umro 21. 4. 1910. u Reddingu.",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.biographical_or_historical_data[0]",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Tven, Mark",
+    "lang": "sr",
+    "via": "llm:xhr_7.json: $.pnx.display.see_from_tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Tuen, Mark",
+    "lang": "sq",
+    "via": "llm:xhr_7.json: $.pnx.display.see_from_tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marc",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.see_from_tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M.",
+    "lang": "sr",
+    "via": "llm:xhr_7.json: $.pnx.display.see_from_tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel L.",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.see_from_tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.see_from_tracing; note 'Pravo ime autora'",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Langhorne Clemens, Samuel",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.see_from_tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Klemens, Semjuel L.",
+    "lang": "sr",
+    "via": "llm:xhr_7.json: $.pnx.display.see_from_tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark",
+    "lang": null,
+    "via": "llm-page:See from Tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Tuen, Mark",
+    "lang": null,
+    "via": "llm-page:See from Tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M.",
+    "lang": null,
+    "via": "llm-page:See from Tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Klemens, Semjuel L.",
+    "lang": null,
+    "via": "llm-page:See from Tracing",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Conte, Louis de",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.note[1] 'Autor je objavljivao i pod pseudonimom'; see_from_tracing",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": "en",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found (Personal recollection of Joan of Arc)",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Jean Francois Alden",
+    "lang": "en",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found (Personal recollection of Joan of Arc, 'translated ... by Jean Francois ",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.biographical_or_historical_data[0]",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.biographical_or_historical_data[0]",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.biographical_or_historical_data[0]",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.biographical_or_historical_data[0]",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "književnik",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.biographical_or_historical_data[0]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "novinar",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.biographical_or_historical_data[0]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "publicist",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.biographical_or_historical_data[0]",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Američki",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.biographical_or_historical_data[0]",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[0]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Doživljaji Toma Sojera",
+    "lang": "sr",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[1]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Aventurat e Tom Sojerit",
+    "lang": "sq",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[2]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Princ i prosjak",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[3]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Personal recollection of Joan of Arc",
+    "lang": "en",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[4]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "A tramp abroad",
+    "lang": "en",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[5]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Doživljaji Fina Huklberi",
+    "lang": "sr",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[6]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Doživljaji Haklberi Fina",
+    "lang": "sr",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[7]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Doživljaji Toma Sojera",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Aventurat e Tom Sojerit",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Princ i prosjak",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Personal recollection of Joan of Arc",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "A tramp abroad",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Doživljaji Fina Huklberi",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Doživljaji Haklberi Fina",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Bernard DeVoto",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[0]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Thomas Hart Benton",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[0]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Stanislav Vinaver",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[1]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Abdullah Karjagdiu",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[2]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Milan Vujaklija",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[6]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Jelisaveta Marković",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[7]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Bernard DeVoto (editor, introduction)",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Thomas Hart Benton (illustrator)",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Stanislav Vinaver (translator)",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Senadin Tursić (illustrator)",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Abdullah Karjagdiu (translator)",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Smajo Musoviqi (illustrator)",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Milan Vujaklija (translator)",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "J. Uhlik (illustrator)",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Jelisaveta Marković (translator)",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://proleksis.lzmk.hr/1722/",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.electronic_location_and_access[0]",
+    "file": "P14225.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.enciklopedija.hr/natuknica.aspx?ID=62880",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.electronic_location_and_access[1]",
+    "file": "P14225.json",
+    "uri": true
+   },
+   {
+    "value": "https://hr.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:xhr_7.json: $.pnx.display.electronic_location_and_access[2]",
+    "file": "P14225.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "Library of Congress [citirano: 6. 12. 2016.] -- Twain, Mark, 1835-1910 ; Clemens, Samuel Langhorne, 1835-1910 ; Conte, Louis de, 1835-1910 -- http://authorities.loc.gov/",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[8]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Proleksis enciklopedija online [citirano: 6. 12. 2016.] -- Mark Twain",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[9]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Hrvatska enciklopedija online [citirano: 6. 12. 2016.] -- Twain, Mark",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[10]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Wikipedija [citirano: 6. 12. 2016.] -- Mark Twain",
+    "lang": "hr",
+    "via": "llm:xhr_7.json: $.pnx.display.source_data_found[11]",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Library of Congress [citirano: 6. 12. 2016.] -- Twain, Mark, 1835-1910 ; Clemens, Samuel Langhorne, 1835-1910 ; Conte, Louis de, 1835-1910",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Proleksis enciklopedija online [citirano: 6. 12. 2016.]",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Hrvatska enciklopedija online [citirano: 6. 12. 2016.]",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   },
+   {
+    "value": "Wikipedija [citirano: 6. 12. 2016.]",
+    "lang": null,
+    "via": "llm-page:Source data found",
+    "file": "P14225.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "identifier": [],
+  "name_preferred": [],
+  "description": [
+   "hr",
+   "pnx"
+  ],
+  "name_variant": [
+   "sq",
+   "sr"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [
+   "hr"
+  ],
+  "death_date": [
+   "hr"
+  ],
+  "birth_place": [
+   "hr"
+  ],
+  "death_place": [
+   "hr"
+  ],
+  "occupation": [
+   "hr"
+  ],
+  "nationality": [
+   "hr"
+  ],
+  "work": [
+   "en",
+   "hr",
+   "sq",
+   "sr"
+  ],
+  "related_agent": [],
+  "same_as": [],
+  "source": [
+   "hr"
+  ]
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2,
+  "identifier/propertyID (http://schema.org/)": 1,
+  "mainEntity (http://schema.org/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 362,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark - Network"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Twain, Mark-personalname"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://bukinet-mreza.primo.exlibrisgroup.com/discovery/custom/thumbnails/thumbnail_385BUKINET_NETWORK-VU1_UNION.svg"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://bukinet-mreza.primo.exlibrisgroup.com"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark - Network"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Twain, Mark-personalname"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 157684,
+   "path_count": 828,
+   "paths": [
+    {
+     "path": "mapping-tables.Resource Sharing Request Parameters[].target",
+     "n": 50,
+     "sample": "No"
+    },
+    {
+     "path": "mapping-tables.Resource Sharing Request Parameters[].source1",
+     "n": 50,
+     "sample": "both"
+    },
+    {
+     "path": "mapping-tables.Resource Sharing Request Parameters[].source2",
+     "n": 50,
+     "sample": "itemAvailability"
+    },
+    {
+     "path": "mapping-tables.Resource Sharing Request Parameters[].source3",
+     "n": 50,
+     "sample": "book"
+    },
+    {
+     "path": "mapping-tables.Resource Sharing Request Parameters[].source4",
+     "n": 50,
+     "sample": "1"
+    },
+    {
+     "path": "mapping-tables.Resource Sharing Request Parameters[].source5",
+     "n": 50,
+     "sample": "No"
+    },
+    {
+     "path": "country-codes[]",
+     "n": 50,
+     "sample": "ABW"
+    },
+    {
+     "path": "mapping-tables.Voice Languages[].target",
+     "n": 49,
+     "sample": "Afrikaans"
+    },
+    {
+     "path": "mapping-tables.Voice Languages[].source1",
+     "n": 49,
+     "sample": " "
+    },
+    {
+     "path": "mapping-tables.Voice Languages[].source2",
+     "n": 46,
+     "sample": "af"
+    },
+    {
+     "path": "mapping-tables.Rapido Self Registration Optional Parameters[].target",
+     "n": 43,
+     "sample": "Yes"
+    },
+    {
+     "path": "mapping-tables.Rapido Self Registration Optional Parameters[].source2",
+     "n": 43,
+     "sample": "nui.login.selfregistrationform.title"
+    },
+    {
+     "path": "mapping-tables.Rapido Request Optional Parameters[].target",
+     "n": 33,
+     "sample": "Yes"
+    },
+    {
+     "path": "mapping-tables.Rapido Request Optional Parameters[].source1",
+     "n": 33,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Rapido Request Optional Parameters[].source2",
+     "n": 33,
+     "sample": "additionalInformation"
+    },
+    {
+     "path": "mapping-tables.Rapido Request Optional Parameters[].source5",
+     "n": 33,
+     "sample": "false"
+    },
+    {
+     "path": "mapping-tables.Personalize Your Results Disciplines Fields[].target",
+     "n": 32,
+     "sample": "agriculture_forestry"
+    },
+    {
+     "path": "mapping-tables.Personalize Your Results Disciplines Fields[].source1",
+     "n": 32,
+     "sample": "default"
+    },
+    {
+     "path": "UIComponents.drStartDay.displayOptions[]",
+     "n": 32,
+     "sample": "start_day"
+    },
+    {
+     "path": "UIComponents.drStartDay.options[]",
+     "n": 32,
+     "sample": "start_day"
+    },
+    {
+     "path": "UIComponents.drEndDay.displayOptions[]",
+     "n": 32,
+     "sample": "end_day"
+    },
+    {
+     "path": "UIComponents.drEndDay.options[]",
+     "n": 32,
+     "sample": "end_day"
+    },
+    {
+     "path": "mapping-tables.Citation Linker Definitions[].target",
+     "n": 31,
+     "sample": "Yes"
+    },
+    {
+     "path": "mapping-tables.Citation Linker Definitions[].source1",
+     "n": 31,
+     "sample": "article"
+    },
+    {
+     "path": "mapping-tables.Citation Linker Definitions[].source2",
+     "n": 31,
+     "sample": "atitle"
+    },
+    {
+     "path": "mapping-tables.Citation Linker Definitions[].source3",
+     "n": 31,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Citation Linker Definitions[].source4",
+     "n": 31,
+     "sample": "1"
+    },
+    {
+     "path": "mapping-tables.Alma To Rapido Request Status Mapping[].target",
+     "n": 31,
+     "sample": "REQUEST_CREATED_BOR"
+    },
+    {
+     "path": "mapping-tables.Alma To Rapido Request Status Mapping[].source2",
+     "n": 31,
+     "sample": "REQUESTED"
+    },
+    {
+     "path": "mapping-tables.Alma To Rapido Request Status Mapping[].source1",
+     "n": 30,
+     "sample": "Requested"
+    },
+    {
+     "path": "mapping-tables.Controlled Digital Lending Request Detailed Display[].target",
+     "n": 29,
+     "sample": "cdl_start_date"
+    },
+    {
+     "path": "mapping-tables.Controlled Digital Lending Request Detailed Display[].source1",
+     "n": 29,
+     "sample": "cdl_start_date"
+    },
+    {
+     "path": "mapping-tables.Controlled Digital Lending Request Detailed Display[].source2",
+     "n": 29,
+     "sample": "6"
+    },
+    {
+     "path": "mapping-tables.Controlled Digital Lending Request Detailed Display[].source3",
+     "n": 29,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.View Properties[].target",
+     "n": 28,
+     "sample": "true"
+    },
+    {
+     "path": "mapping-tables.View Properties[].source1",
+     "n": 28,
+     "sample": "385BUKINET_NETWORK:VU1_UNION"
+    },
+    {
+     "path": "mapping-tables.View Properties[].source2",
+     "n": 28,
+     "sample": "enable_similar_image_browse"
+    },
+    {
+     "path": "mapping-tables.Short Loan and Booking Request Detailed Display[].target",
+     "n": 27,
+     "sample": "request_type"
+    },
+    {
+     "path": "mapping-tables.Short Loan and Booking Request Detailed Display[].source1",
+     "n": 27,
+     "sample": "request_type"
+    },
+    {
+     "path": "mapping-tables.Short Loan and Booking Request Detailed Display[].source2",
+     "n": 27,
+     "sample": "1"
+    },
+    {
+     "path": "mapping-tables.Short Loan and Booking Request Detailed Display[].source3",
+     "n": 27,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Hold/Recall Request Detailed Display[].target",
+     "n": 27,
+     "sample": "request_type"
+    },
+    {
+     "path": "mapping-tables.Hold/Recall Request Detailed Display[].source1",
+     "n": 27,
+     "sample": "request_type"
+    },
+    {
+     "path": "mapping-tables.Hold/Recall Request Detailed Display[].source2",
+     "n": 27,
+     "sample": "1"
+    },
+    {
+     "path": "mapping-tables.Hold/Recall Request Detailed Display[].source3",
+     "n": 27,
+     "sample": "default"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.DiscoveryNetwork.authorityitemview[].items",
+     "n": 24,
+     "sample": "heading"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.DiscoveryNetwork.authorityitemview[].displayInViewer",
+     "n": 24,
+     "sample": "True"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.test_exl.authorityitemview[].items",
+     "n": 24,
+     "sample": "heading"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.test_exl.authorityitemview[].displayInViewer",
+     "n": 24,
+     "sample": "True"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.jsearch_slot.authorityitemview[].items",
+     "n": 24,
+     "sample": "heading"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.jsearch_slot.authorityitemview[].displayInViewer",
+     "n": 24,
+     "sample": "True"
+    },
+    {
+     "path": "mapping-tables.Request (Hold and Booking) Optional Parameters[].target",
+     "n": 24,
+     "sample": "Yes"
+    },
+    {
+     "path": "mapping-tables.Request (Hold and Booking) Optional Parameters[].source1",
+     "n": 24,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Request (Hold and Booking) Optional Parameters[].source2",
+     "n": 24,
+     "sample": "comment"
+    },
+    {
+     "path": "mapping-tables.Request (Hold and Booking) Optional Parameters[].source5",
+     "n": 24,
+     "sample": "false"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.DiscoveryNetwork.resultitemview[].items",
+     "n": 22,
+     "sample": "title,vertitle"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.DiscoveryNetwork.resultitemview[].displayInViewer",
+     "n": 22,
+     "sample": "True"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.test_exl.resultitemview[].items",
+     "n": 22,
+     "sample": "title,vertitle"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.test_exl.resultitemview[].displayInViewer",
+     "n": 22,
+     "sample": "True"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.jsearch_slot.resultitemview[].items",
+     "n": 22,
+     "sample": "title,vertitle"
+    },
+    {
+     "path": "tiles.ResultFullTileInterface.385BUKINET_NETWORK:VU1_UNION.ResultFullTileInterface.jsearch_slot.resultitemview[].displayInViewer",
+     "n": 22,
+     "sample": "True"
+    },
+    {
+     "path": "mapping-tables.Personal Setting Fields[].target",
+     "n": 22,
+     "sample": "address_1"
+    },
+    {
+     "path": "mapping-tables.Personal Setting Fields[].source1",
+     "n": 22,
+     "sample": "contact.address_1"
+    },
+    {
+     "path": "mapping-tables.Personal Setting Fields[].source2",
+     "n": 22,
+     "sample": "1"
+    },
+    {
+     "path": "mapping-tables.Personal Setting Fields[].source3",
+     "n": 22,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Fines Detailed Display[].target",
+     "n": 22,
+     "sample": "secondary_location_name"
+    },
+    {
+     "path": "mapping-tables.Fines Detailed Display[].source1",
+     "n": 22,
+     "sample": "secondary_location_name"
+    },
+    {
+     "path": "mapping-tables.Fines Detailed Display[].source2",
+     "n": 22,
+     "sample": "19"
+    },
+    {
+     "path": "mapping-tables.Fines Detailed Display[].source3",
+     "n": 22,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.ILL Request Detailed Display[].target",
+     "n": 21,
+     "sample": "request_type"
+    },
+    {
+     "path": "mapping-tables.ILL Request Detailed Display[].source1",
+     "n": 21,
+     "sample": "request_type"
+    },
+    {
+     "path": "mapping-tables.ILL Request Detailed Display[].source2",
+     "n": 21,
+     "sample": "1"
+    },
+    {
+     "path": "mapping-tables.ILL Request Detailed Display[].source3",
+     "n": 21,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Loans Detailed Display[].target",
+     "n": 20,
+     "sample": "year"
+    },
+    {
+     "path": "mapping-tables.Loans Detailed Display[].source1",
+     "n": 20,
+     "sample": "year"
+    },
+    {
+     "path": "mapping-tables.Loans Detailed Display[].source2",
+     "n": 20,
+     "sample": "1"
+    },
+    {
+     "path": "mapping-tables.Loans Detailed Display[].source3",
+     "n": 20,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Personalize Your Results Disciplines Fields[].source2",
+     "n": 18,
+     "sample": "social_sciences"
+    },
+    {
+     "path": "mapping-tables.Photocopy Request Detailed Display[].target",
+     "n": 18,
+     "sample": "request_type"
+    },
+    {
+     "path": "mapping-tables.Photocopy Request Detailed Display[].source1",
+     "n": 18,
+     "sample": "request_type"
+    },
+    {
+     "path": "mapping-tables.Photocopy Request Detailed Display[].source2",
+     "n": 18,
+     "sample": "1"
+    },
+    {
+     "path": "mapping-tables.Photocopy Request Detailed Display[].source3",
+     "n": 18,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Digitization Optional Request Parameters[].target",
+     "n": 18,
+     "sample": "Yes"
+    },
+    {
+     "path": "mapping-tables.Digitization Optional Request Parameters[].source1",
+     "n": 18,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Digitization Optional Request Parameters[].source2",
+     "n": 18,
+     "sample": "partial"
+    },
+    {
+     "path": "mapping-tables.Digitization Optional Request Parameters[].source5",
+     "n": 18,
+     "sample": "false"
+    },
+    {
+     "path": "mapping-tables.ILL Optional Request Parameters[].target",
+     "n": 16,
+     "sample": "Yes"
+    },
+    {
+     "path": "mapping-tables.ILL Optional Request Parameters[].source1",
+     "n": 16,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.ILL Optional Request Parameters[].source2",
+     "n": 16,
+     "sample": "allowed_media"
+    },
+    {
+     "path": "mapping-tables.Purchase Request Optional Parameters[].target",
+     "n": 15,
+     "sample": "No"
+    },
+    {
+     "path": "mapping-tables.Purchase Request Optional Parameters[].source1",
+     "n": 15,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Purchase Request Optional Parameters[].source2",
+     "n": 15,
+     "sample": "purchaseRequestLibrary"
+    },
+    {
+     "path": "mapping-tables.Purchase Request Optional Parameters[].source5",
+     "n": 15,
+     "sample": "false"
+    },
+    {
+     "path": "mapping-tables.Browse Lists[].target",
+     "n": 15,
+     "sample": "Yes"
+    },
+    {
+     "path": "mapping-tables.Browse Lists[].source1",
+     "n": 15,
+     "sample": "author"
+    },
+    {
+     "path": "mapping-tables.Browse Lists[].source4",
+     "n": 15,
+     "sample": "default"
+    },
+    {
+     "path": "mapping-tables.Browse Lists[].source5",
+     "n": 15,
+     "sample": "1"
+    },
+    {
+     "path": "mapping-tables.Browse Lists[].source6",
+     "n": 15,
+     "sample": "true"
+    },
+    {
+     "path": "UIComponents.1133492004UI.indexFields[]",
+     "n": 15,
+     "sample": "rtype"
+    },
+    {
+     "path": "UIComponents.1133492004UI.displayOptions[]",
+     "n": 15,
+     "sample": "any"
+    },
+    {
+     "path": "UIComponents.1133492004UI.options[]",
+     "n": 15,
+     "sample": "any"
+    },
+    {
+     "path": "UIComponents.1870476239UI.indexFields[]",
+     "n": 15,
+     "sample": "rtype"
+    },
+    {
+     "path": "UIComponents.1870476239UI.displayOptions[]",
+     "n": 15,
+     "sample": "any"
+    },
+    {
+     "path": "UIComponents.1870476239UI.options[]",
+     "n": 15,
+     "sample": "any"
+    },
+    {
+     "path": "UIComponents.1756409405UI.indexFields[]",
+     "n": 15,
+     "sample": "rtype"
+    },
+    {
+     "path": "UIComponents.1756409405UI.displayOptions[]",
+     "n": 15,
+     "sample": "any"
+    },
+    {
+     "path": "UIComponents.1756409405UI.options[]",
+     "n": 15,
+     "sample": "any"
+    },
+    {
+     "path": "UIComponents.drStartMonth.displayOptions[]",
+     "n": 13,
+     "sample": "start_month"
+    },
+    {
+     "path": "UIComponents.drStartMonth.options[]",
+     "n": 13,
+     "sample": "start_month"
+    },
+    {
+     "path": "UIComponents.drEndMonth.displayOptions[]",
+     "n": 13,
+     "sample": "end_month"
+    },
+    {
+     "path": "UIComponents.drEndMonth.options[]",
+     "n": 13,
+     "sample": "end_month"
+    },
+    {
+     "path": "mapping-tables.Full Record Services[].target",
+     "n": 12,
+     "sample": "prima.services.searchWithinJournall"
+    },
+    {
+     "path": "mapping-tables.Full Record Services[].source1",
+     "n": 12,
+     "sample": "searchWithinJournal"
+    },
+    {
+     "path": "mapping-tables.Full Record Services[].source2",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "mapping-tables.Full Record Services[].source3",
+     "n": 12,
+     "sample": "false"
+    },
+    {
+     "path": "UIComponents.1496375845UI.indexFields[]",
+     "n": 12,
+     "sample": "any"
+    },
+    {
+     "path": "UIComponents.1496375845UI.displayOptions[]",
+     "n": 12,
+     "sample": "any"
+    },
+    {
+     "path": "UIComponents.1496375845UI.options[]",
+     "n": 12,
+     "sample": "any"
+    },
+    {
+     "path": "mapping-tables.Acquisition Request Detailed Display[].target",
+     "n": 11,
+     "sample": "request_type"
+    },
+    {
+     "path": "mapping-tables.Acquisition Request Detailed Display[].source1",
+     "n": 11,
+     "sample": "request_type"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "css",
+    "en",
+    "hr",
+    "id",
+    "rta",
+    "tab",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 256823,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "beaconO22",
+     "n": 1,
+     "sample": "25"
+    },
+    {
+     "path": "locales.en-US",
+     "n": 1,
+     "sample": "<?xml version=\"1.0\" encoding=\"utf-8\"?><locale xmlns=\"http://purl.org/net/xbiblio/csl\" version=\"1.0\" xml:lang=\"en-US\">  <"
+    },
+    {
+     "path": "locales.hr-HR",
+     "n": 1,
+     "sample": "<?xml version=\"1.0\" encoding=\"utf-8\"?><locale xmlns=\"http://purl.org/net/xbiblio/csl\" version=\"1.0\" xml:lang=\"hr-HR\">  <"
+    },
+    {
+     "path": "locales.en-GB",
+     "n": 1,
+     "sample": "<?xml version=\"1.0\" encoding=\"utf-8\"?><locale xmlns=\"http://purl.org/net/xbiblio/csl\" version=\"1.0\" xml:lang=\"en-GB\">  <"
+    },
+    {
+     "path": "styles.apa",
+     "n": 1,
+     "sample": "<?xml version=\"1.0\" encoding=\"utf-8\"?><style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" demote-non-dropping"
+    },
+    {
+     "path": "styles.harvard-kings-college-london",
+     "n": 1,
+     "sample": "<?xml version=\"1.0\" encoding=\"utf-8\"?><style xmlns=\"http://purl.org/net/xbiblio/csl\" version=\"1.0\" class=\"in-text\" demot"
+    },
+    {
+     "path": "styles.iso690-full-note-en",
+     "n": 1,
+     "sample": "<?xml version=\"1.0\" encoding=\"utf-8\"?><style xmlns=\"http://purl.org/net/xbiblio/csl\" version=\"1.0\" class=\"note\" demote-n"
+    },
+    {
+     "path": "styles.modern-language-association",
+     "n": 1,
+     "sample": "<?xml version=\"1.0\" encoding=\"utf-8\"?><style xmlns=\"http://purl.org/net/xbiblio/csl\" and=\"text\" class=\"in-text\" demote-n"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "apa",
+    "en-GB",
+    "en-US",
+    "hr-HR"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 579341,
+   "path_count": 9551,
+   "paths": [
+    {
+     "path": "beaconO22",
+     "n": 1,
+     "sample": "12"
+    },
+    {
+     "path": "search-advanced.mediaType.option.abstracts",
+     "n": 1,
+     "sample": "Abstracts"
+    },
+    {
+     "path": "search-advanced.mediaType.option.acceptedmanuscript",
+     "n": 1,
+     "sample": "Accepted Manuscripts"
+    },
+    {
+     "path": "search-advanced.mediaType.option.activity",
+     "n": 1,
+     "sample": "Activity"
+    },
+    {
+     "path": "search-advanced.mediaType.option.annotations",
+     "n": 1,
+     "sample": "Annotations"
+    },
+    {
+     "path": "search-advanced.mediaType.option.any",
+     "n": 1,
+     "sample": "All items"
+    },
+    {
+     "path": "search-advanced.mediaType.option.archival_material_manuscripts",
+     "n": 1,
+     "sample": "Archival Material / Manuscripts"
+    },
+    {
+     "path": "search-advanced.mediaType.option.archival_materials",
+     "n": 1,
+     "sample": "Archival materials"
+    },
+    {
+     "path": "search-advanced.mediaType.option.articles",
+     "n": 1,
+     "sample": "Articles"
+    },
+    {
+     "path": "search-advanced.mediaType.option.assignment",
+     "n": 1,
+     "sample": "Assignment"
+    },
+    {
+     "path": "search-advanced.mediaType.option.audios",
+     "n": 1,
+     "sample": "Sound recordings"
+    },
+    {
+     "path": "search-advanced.mediaType.option.bibliographys",
+     "n": 1,
+     "sample": "Bibliographies"
+    },
+    {
+     "path": "search-advanced.mediaType.option.blog",
+     "n": 1,
+     "sample": "Blogs"
+    },
+    {
+     "path": "search-advanced.mediaType.option.book_chapters",
+     "n": 1,
+     "sample": "Book chapters"
+    },
+    {
+     "path": "search-advanced.mediaType.option.bookreview",
+     "n": 1,
+     "sample": "Book Reviews"
+    },
+    {
+     "path": "search-advanced.mediaType.option.books",
+     "n": 1,
+     "sample": "Books"
+    },
+    {
+     "path": "search-advanced.mediaType.option.casestudy",
+     "n": 1,
+     "sample": "Case study"
+    },
+    {
+     "path": "search-advanced.mediaType.option.choreography",
+     "n": 1,
+     "sample": "Choreographies"
+    },
+    {
+     "path": "search-advanced.mediaType.option.code",
+     "n": 1,
+     "sample": "Codes"
+    },
+    {
+     "path": "search-advanced.mediaType.option.collections",
+     "n": 1,
+     "sample": "Collections"
+    },
+    {
+     "path": "search-advanced.mediaType.option.computer_files",
+     "n": 1,
+     "sample": "Computer Files"
+    },
+    {
+     "path": "search-advanced.mediaType.option.conference_proceedings",
+     "n": 1,
+     "sample": "Conference Proceedings"
+    },
+    {
+     "path": "search-advanced.mediaType.option.conferencepaper",
+     "n": 1,
+     "sample": "Conference Papers"
+    },
+    {
+     "path": "search-advanced.mediaType.option.conferenceposter",
+     "n": 1,
+     "sample": "Conference Posters"
+    },
+    {
+     "path": "search-advanced.mediaType.option.conferencepresentation",
+     "n": 1,
+     "sample": "Conference Presentations"
+    },
+    {
+     "path": "search-advanced.mediaType.option.conferenceprogram",
+     "n": 1,
+     "sample": "Conference Programs"
+    },
+    {
+     "path": "search-advanced.mediaType.option.coursemodule",
+     "n": 1,
+     "sample": "Course module"
+    },
+    {
+     "path": "search-advanced.mediaType.option.creative_works",
+     "n": 1,
+     "sample": "Creative Works"
+    },
+    {
+     "path": "search-advanced.mediaType.option.dance",
+     "n": 1,
+     "sample": "Dances"
+    },
+    {
+     "path": "search-advanced.mediaType.option.databases",
+     "n": 1,
+     "sample": "Databases"
+    },
+    {
+     "path": "search-advanced.mediaType.option.datasets",
+     "n": 1,
+     "sample": "Datasets"
+    },
+    {
+     "path": "search-advanced.mediaType.option.demonstration",
+     "n": 1,
+     "sample": "Demonstration"
+    },
+    {
+     "path": "search-advanced.mediaType.option.designandarchitecture",
+     "n": 1,
+     "sample": "Design and Architectures"
+    },
+    {
+     "path": "search-advanced.mediaType.option.dictionaryentry",
+     "n": 1,
+     "sample": "Dictionary Entrys"
+    },
+    {
+     "path": "search-advanced.mediaType.option.dissertations",
+     "n": 1,
+     "sample": "Dissertations"
+    },
+    {
+     "path": "search-advanced.mediaType.option.drama",
+     "n": 1,
+     "sample": "Dramas"
+    },
+    {
+     "path": "search-advanced.mediaType.option.editorials",
+     "n": 1,
+     "sample": "Editorials"
+    },
+    {
+     "path": "search-advanced.mediaType.option.encyclopediaentry",
+     "n": 1,
+     "sample": "Encyclopedia Entrys"
+    },
+    {
+     "path": "search-advanced.mediaType.option.essay",
+     "n": 1,
+     "sample": "Essays"
+    },
+    {
+     "path": "search-advanced.mediaType.option.event",
+     "n": 1,
+     "sample": "Events"
+    },
+    {
+     "path": "search-advanced.mediaType.option.eventposter",
+     "n": 1,
+     "sample": "Event Posters"
+    },
+    {
+     "path": "search-advanced.mediaType.option.exhibitioncatalog",
+     "n": 1,
+     "sample": "Exhibition Catalogs"
+    },
+    {
+     "path": "search-advanced.mediaType.option.fiction",
+     "n": 1,
+     "sample": "Fictions"
+    },
+    {
+     "path": "search-advanced.mediaType.option.film",
+     "n": 1,
+     "sample": "Films"
+    },
+    {
+     "path": "search-advanced.mediaType.option.flashcards",
+     "n": 1,
+     "sample": "Flashcards"
+    },
+    {
+     "path": "search-advanced.mediaType.option.government_documents",
+     "n": 1,
+     "sample": "Government documents"
+    },
+    {
+     "path": "search-advanced.mediaType.option.images",
+     "n": 1,
+     "sample": "Images"
+    },
+    {
+     "path": "search-advanced.mediaType.option.journalissue",
+     "n": 1,
+     "sample": "Journal Issues"
+    },
+    {
+     "path": "search-advanced.mediaType.option.journals",
+     "n": 1,
+     "sample": "Journals"
+    },
+    {
+     "path": "search-advanced.mediaType.option.kits",
+     "n": 1,
+     "sample": "Kits"
+    },
+    {
+     "path": "search-advanced.mediaType.option.lecture",
+     "n": 1,
+     "sample": "Lecture"
+    },
+    {
+     "path": "search-advanced.mediaType.option.legal_documents",
+     "n": 1,
+     "sample": "Legal documents"
+    },
+    {
+     "path": "search-advanced.mediaType.option.letters",
+     "n": 1,
+     "sample": "Letters"
+    },
+    {
+     "path": "search-advanced.mediaType.option.magazine",
+     "n": 1,
+     "sample": "Magazines"
+    },
+    {
+     "path": "search-advanced.mediaType.option.magazinearticle",
+     "n": 1,
+     "sample": "Magazine Articles"
+    },
+    {
+     "path": "search-advanced.mediaType.option.manual",
+     "n": 1,
+     "sample": "Manual"
+    },
+    {
+     "path": "search-advanced.mediaType.option.manuscripts",
+     "n": 1,
+     "sample": "Manuscripts"
+    },
+    {
+     "path": "search-advanced.mediaType.option.maps",
+     "n": 1,
+     "sample": "Maps"
+    },
+    {
+     "path": "search-advanced.mediaType.option.market_researchs",
+     "n": 1,
+     "sample": "Market Researches"
+    },
+    {
+     "path": "search-advanced.mediaType.option.microform",
+     "n": 1,
+     "sample": "Microform"
+    },
+    {
+     "path": "search-advanced.mediaType.option.model",
+     "n": 1,
+     "sample": "Models"
+    },
+    {
+     "path": "search-advanced.mediaType.option.musicalcomposition",
+     "n": 1,
+     "sample": "Musical Compositions"
+    },
+    {
+     "path": "search-advanced.mediaType.option.musicalperformance",
+     "n": 1,
+     "sample": "Musical Performances"
+    },
+    {
+     "path": "search-advanced.mediaType.option.newmedia",
+     "n": 1,
+     "sample": "New Medias"
+    },
+    {
+     "path": "search-advanced.mediaType.option.newsletterarticle",
+     "n": 1,
+     "sample": "Newsletter Articles"
+    },
+    {
+     "path": "search-advanced.mediaType.option.newspaper_articles",
+     "n": 1,
+     "sample": "Newspaper articles"
+    },
+    {
+     "path": "search-advanced.mediaType.option.newspapers",
+     "n": 1,
+     "sample": "Newspapers"
+    },
+    {
+     "path": "search-advanced.mediaType.option.nonfiction",
+     "n": 1,
+     "sample": "Non Fictions"
+    },
+    {
+     "path": "search-advanced.mediaType.option.other",
+     "n": 1,
+     "sample": "Other"
+    },
+    {
+     "path": "search-advanced.mediaType.option.other_creative_work",
+     "n": 1,
+     "sample": "Other Creative Work"
+    },
+    {
+     "path": "search-advanced.mediaType.option.other_learning_object",
+     "n": 1,
+     "sample": "Other Learning Object"
+    },
+    {
+     "path": "search-advanced.mediaType.option.outline",
+     "n": 1,
+     "sample": "Outline"
+    },
+    {
+     "path": "search-advanced.mediaType.option.painting",
+     "n": 1,
+     "sample": "Paintings"
+    },
+    {
+     "path": "search-advanced.mediaType.option.patents",
+     "n": 1,
+     "sample": "Patents"
+    },
+    {
+     "path": "search-advanced.mediaType.option.podcast",
+     "n": 1,
+     "sample": "Podcasts"
+    },
+    {
+     "path": "search-advanced.mediaType.option.poetry",
+     "n": 1,
+     "sample": "Poetrys"
+    },
+    {
+     "path": "search-advanced.mediaType.option.preprint",
+     "n": 1,
+     "sample": "Preprints"
+    },
+    {
+     "path": "search-advanced.mediaType.option.presentation",
+     "n": 1,
+     "sample": "Presentations"
+    },
+    {
+     "path": "search-advanced.mediaType.option.questionbank",
+     "n": 1,
+     "sample": "Question bank"
+    },
+    {
+     "path": "search-advanced.mediaType.option.questionnaires",
+     "n": 1,
+     "sample": "Questionnaires"
+    },
+    {
+     "path": "search-advanced.mediaType.option.realia",
+     "n": 1,
+     "sample": "Realia"
+    },
+    {
+     "path": "search-advanced.mediaType.option.reference_entrys",
+     "n": 1,
+     "sample": "Reference entries"
+    },
+    {
+     "path": "search-advanced.mediaType.option.report",
+     "n": 1,
+     "sample": "Reports"
+    },
+    {
+     "path": "search-advanced.mediaType.option.reports",
+     "n": 1,
+     "sample": "Reports"
+    },
+    {
+     "path": "search-advanced.mediaType.option.research_datasets",
+     "n": 1,
+     "sample": "Research data sets"
+    },
+    {
+     "path": "search-advanced.mediaType.option.reviews",
+     "n": 1,
+     "sample": "Reviews"
+    },
+    {
+     "path": "search-advanced.mediaType.option.scores",
+     "n": 1,
+     "sample": "Scores"
+    },
+    {
+     "path": "search-advanced.mediaType.option.script",
+     "n": 1,
+     "sample": "Scripts"
+    },
+    {
+     "path": "search-advanced.mediaType.option.sculpture",
+     "n": 1,
+     "sample": "Sculptures"
+    },
+    {
+     "path": "search-advanced.mediaType.option.setdesign",
+     "n": 1,
+     "sample": "Set Designs"
+    },
+    {
+     "path": "search-advanced.mediaType.option.standards",
+     "n": 1,
+     "sample": "Standards"
+    },
+    {
+     "path": "search-advanced.mediaType.option.statistical_data_sets",
+     "n": 1,
+     "sample": "Statistical data sets"
+    },
+    {
+     "path": "search-advanced.mediaType.option.studyguide",
+     "n": 1,
+     "sample": "Study guide"
+    },
+    {
+     "path": "search-advanced.mediaType.option.syllabus",
+     "n": 1,
+     "sample": "Syllabus"
+    },
+    {
+     "path": "search-advanced.mediaType.option.teaching_learning",
+     "n": 1,
+     "sample": "Teaching and Learning"
+    },
+    {
+     "path": "search-advanced.mediaType.option.technical_reports",
+     "n": 1,
+     "sample": "Technical reports"
+    },
+    {
+     "path": "search-advanced.mediaType.option.technicaldocumentation",
+     "n": 1,
+     "sample": "Technical Documentations"
+    },
+    {
+     "path": "search-advanced.mediaType.option.text_resources",
+     "n": 1,
+     "sample": "Text resources"
+    },
+    {
+     "path": "search-advanced.mediaType.option.textbook",
+     "n": 1,
+     "sample": "Textbook"
+    },
+    {
+     "path": "search-advanced.mediaType.option.theater",
+     "n": 1,
+     "sample": "Theaters"
+    },
+    {
+     "path": "search-advanced.mediaType.option.thesis",
+     "n": 1,
+     "sample": "Theses"
+    },
+    {
+     "path": "search-advanced.mediaType.option.transcripts",
+     "n": 1,
+     "sample": "Transcripts"
+    },
+    {
+     "path": "search-advanced.mediaType.option.translations",
+     "n": 1,
+     "sample": "Translations"
+    },
+    {
+     "path": "search-advanced.mediaType.option.tutorial",
+     "n": 1,
+     "sample": "Tutorial"
+    },
+    {
+     "path": "search-advanced.mediaType.option.videos",
+     "n": 1,
+     "sample": "Video/Film"
+    },
+    {
+     "path": "search-advanced.mediaType.option.virtualrealityenvironment",
+     "n": 1,
+     "sample": "Virtual Reality Environments"
+    },
+    {
+     "path": "search-advanced.mediaType.option.web_resources",
+     "n": 1,
+     "sample": "Web Resources"
+    },
+    {
+     "path": "search-advanced.mediaType.option.webinar",
+     "n": 1,
+     "sample": "Webinars"
+    },
+    {
+     "path": "search-advanced.mediaType.option.workbook",
+     "n": 1,
+     "sample": "Workbook"
+    },
+    {
+     "path": "search-advanced.mediaType.option.workflow",
+     "n": 1,
+     "sample": "Workflows"
+    },
+    {
+     "path": "search-advanced.mediaType.option.workingpaper",
+     "n": 1,
+     "sample": "Working Papers"
+    },
+    {
+     "path": "search-advanced.scope.option.nui.advanced.index.lds53",
+     "n": 1,
+     "sample": "Bibliography label"
+    },
+    {
+     "path": "search-advanced.scope.option.nui.advanced.index.lds81",
+     "n": 1,
+     "sample": "Oznaka bibliografije"
+    },
+    {
+     "path": "search-advanced.scope.option.nui.advanced.index.lds56",
+     "n": 1,
+     "sample": "Publisher"
+    },
+    {
+     "path": "search-advanced.scope.option.nui.advanced.index.sub",
+     "n": 1,
+     "sample": "Subject"
+    },
+    {
+     "path": "search-advanced.scope.option.nui.advanced.index.toc",
+     "n": 1,
+     "sample": "Table of Contents"
+    },
+    {
+     "path": "search-advanced.scope.option.nui.advanced.index.title",
+     "n": 1,
+     "sample": "Title"
+    },
+    {
+     "path": "search-advanced.scope.option.nui.advanced.index.user_tags",
+     "n": 1,
+     "sample": "User tags"
+    },
+    {
+     "path": "search-advanced.scope.option.nui.advanced.index.lds51",
+     "n": 1,
+     "sample": "UDC"
+    },
+    {
+     "path": "search-advanced.scope.option.nui.advanced.index.addtitle",
+     "n": 1,
+     "sample": "Additional title"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "aa",
+    "aar",
+    "ab",
+    "abk",
+    "ace",
+    "ach",
+    "ada",
+    "add",
+    "ady",
+    "ae",
+    "af",
+    "afa",
+    "afh",
+    "afr",
+    "ain",
+    "ajm",
+    "ak",
+    "aka",
+    "akk",
+    "alb",
+    "ale",
+    "alg",
+    "all",
+    "alt",
+    "am",
+    "amh",
+    "an",
+    "and",
+    "ang",
+    "anp",
+    "any",
+    "apa",
+    "ar",
+    "ar-AE",
+    "ar-BH",
+    "ar-DZ",
+    "ar-EG",
+    "ar-IQ",
+    "ar-JO",
+    "ar-KW"
+   ]
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 17,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "beaconO22",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_7.json",
+   "format": "json",
+   "size": 2540,
+   "path_count": 13,
+   "paths": [
+    {
+     "path": "pnx.display.source_data_found[]",
+     "n": 12,
+     "sample": "Adventures of Huckleberry Finn : (Tom Sawyer's companion) / by Mark Twain ; edited, with an introduction, by Bernard DeV"
+    },
+    {
+     "path": "pnx.display.see_from_tracing[]",
+     "n": 9,
+     "sample": "Tven, Mark"
+    },
+    {
+     "path": "pnx.display.electronic_location_and_access[]",
+     "n": 3,
+     "sample": "http://proleksis.lzmk.hr/1722/ Proleksis enciklopedija online (Mark Twain)"
+    },
+    {
+     "path": "pnx.display.note[]",
+     "n": 2,
+     "sample": "Pravo ime autora: -- Clemens, Samuel Langhorne."
+    },
+    {
+     "path": "beaconO22",
+     "n": 1,
+     "sample": "263"
+    },
+    {
+     "path": "context",
+     "n": 1,
+     "sample": "L"
+    },
+    {
+     "path": "pnx.display.heading[]",
+     "n": 1,
+     "sample": "Twain, Mark"
+    },
+    {
+     "path": "pnx.display.authority_type[]",
+     "n": 1,
+     "sample": "personalname"
+    },
+    {
+     "path": "pnx.display.source_id",
+     "n": 1,
+     "sample": "981005677060509366"
+    },
+    {
+     "path": "pnx.display.biographical_or_historical_data[]",
+     "n": 1,
+     "sample": "Američki književnik, novinar, publicist. Rođen 30. 11. 1835. u Floridi, umro 21. 4. 1910. u Reddingu."
+    },
+    {
+     "path": "pnx.control.recordid[]",
+     "n": 1,
+     "sample": "981005677060509366"
+    },
+    {
+     "path": "pnx.control.originatingSystem",
+     "n": 1,
+     "sample": "OTHER"
+    },
+    {
+     "path": "pnx.control.originatingSystemId",
+     "n": 1,
+     "sample": "000047578"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "pnx.display.note[]",
+     "value": "Pravo ime autora: -- Clemens, Samuel Langhorne."
+    },
+    {
+     "path": "pnx.display.heading[]",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "pnx.display.electronic_location_and_access[]",
+     "value": "http://proleksis.lzmk.hr/1722/ Proleksis enciklopedija online (Mark Twain)"
+    },
+    {
+     "path": "pnx.display.electronic_location_and_access[]",
+     "value": "http://www.enciklopedija.hr/natuknica.aspx?ID=62880 Hrvatska enciklopedija online (Twain, Mark)"
+    },
+    {
+     "path": "pnx.display.electronic_location_and_access[]",
+     "value": "https://hr.wikipedia.org/wiki/Mark_Twain Wikipedija (Mark Twain)"
+    },
+    {
+     "path": "pnx.display.source_data_found[]",
+     "value": "Adventures of Huckleberry Finn : (Tom Sawyer's companion) / by Mark Twain ; edited, with an introduction, by Bernard DeVoto ; illustrated by Thomas Hart Benton. Norwalk, Conn., cop. 1994."
+    },
+    {
+     "path": "pnx.display.source_data_found[]",
+     "value": "Princ i prosjak / od Marc Twainea. Zagreb, [1937]."
+    },
+    {
+     "path": "pnx.display.source_data_found[]",
+     "value": "A tramp abroad : in two volumes : illustrated / by Mark Twain (Samuel L. Clemens). New York ; London, cop. 1907."
+    },
+    {
+     "path": "pnx.display.source_data_found[]",
+     "value": "Library of Congress [citirano: 6. 12. 2016.] -- Twain, Mark, 1835-1910 ; Clemens, Samuel Langhorne, 1835-1910 ; Conte, Louis de, 1835-1910 -- http://authorities.loc.gov/"
+    },
+    {
+     "path": "pnx.display.source_data_found[]",
+     "value": "Proleksis enciklopedija online [citirano: 6. 12. 2016.] -- Mark Twain"
+    },
+    {
+     "path": "pnx.display.source_data_found[]",
+     "value": "Hrvatska enciklopedija online [citirano: 6. 12. 2016.] -- Twain, Mark"
+    },
+    {
+     "path": "pnx.display.source_data_found[]",
+     "value": "Wikipedija [citirano: 6. 12. 2016.] -- Mark Twain"
+    },
+    {
+     "path": "pnx.display.see_from_tracing[]",
+     "value": "Twain, Marc"
+    },
+    {
+     "path": "pnx.display.see_from_tracing[]",
+     "value": "Clemens, Samuel L."
+    },
+    {
+     "path": "pnx.display.see_from_tracing[]",
+     "value": "Clemens, Samuel Langhorne"
+    },
+    {
+     "path": "pnx.display.see_from_tracing[]",
+     "value": "Langhorne Clemens, Samuel"
+    },
+    {
+     "path": "pnx.display.biographical_or_historical_data[]",
+     "value": "Američki književnik, novinar, publicist. Rođen 30. 11. 1835. u Floridi, umro 21. 4. 1910. u Reddingu."
+    }
+   ],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Croatian NSK authority record (Primo full display) for Twain, Mark: see-from tracings, source citations (editions with translators/illustrators, LC, Croatian encyclopedias, Wikipedia), a Croatian bio note, real name and pseudonym notes, and encyclopedia links.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

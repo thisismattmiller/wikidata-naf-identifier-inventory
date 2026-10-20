@@ -1,0 +1,571 @@
+{
+ "property": "P9556",
+ "property_label": "LTit person ID",
+ "files": [
+  {
+   "file": "P9556__twain-mark__9782/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.ltit.it/scheda/persona/twain-mark__9782"
+  },
+  {
+   "file": "P9556__twain-mark__9782/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://admin.ltit.it/api/mediazioni/latest"
+  },
+  {
+   "file": "P9556__twain-mark__9782/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://admin.ltit.it/api/progetto"
+  },
+  {
+   "file": "P9556__twain-mark__9782/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://admin.ltit.it/api/area"
+  },
+  {
+   "file": "P9556__twain-mark__9782/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://admin.ltit.it/api/modelli"
+  },
+  {
+   "file": "P9556__twain-mark__9782/xhr_5.jsonld",
+   "format": "json-ld",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://admin.ltit.it/api/persona/twain-mark__9782"
+  },
+  {
+   "file": "P9556__twain-mark__9782/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.ltit.it/scheda/persona/twain-mark__9782"
+  }
+ ],
+ "formats": {
+  "json-ld": 2,
+  "json": 4,
+  "unknown": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 8,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "it",
+    "via": "llm-page:page heading",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorn Clemens",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorn Clemens",
+    "lang": "it",
+    "via": "llm-page:Noto anche come",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://admin.ltit.it/uploads/vendor/finnegan/persona/foto/download-4.jpg",
+    "lang": null,
+    "via": "image",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30T00:00:00+00:00",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "it",
+    "via": "llm-page:heading subline",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": null,
+    "via": "birthPlace",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Florida",
+    "lang": "it",
+    "via": "llm-page:heading subline",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21T00:00:00+00:00",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "it",
+    "via": "llm-page:heading subline",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": null,
+    "via": "deathPlace",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Redding",
+    "lang": "it",
+    "via": "llm-page:heading subline",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Autore",
+    "lang": "it",
+    "via": "llm-page:Attività",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Letteratura angloamericana",
+    "lang": "it",
+    "via": "llm-page:Insiemi storico-letterari",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras Country",
+    "lang": null,
+    "via": "llm-page:OPERE",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Travelling with a Reformer",
+    "lang": null,
+    "via": "llm-page:OPERE",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "The Man Who Corrupted Hadleyburg",
+    "lang": null,
+    "via": "llm-page:OPERE",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Captain Stormfield's Visit to Heaven",
+    "lang": null,
+    "via": "llm-page:OPERE",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Letters from the Earth",
+    "lang": null,
+    "via": "llm-page:OPERE",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "The Great Dark",
+    "lang": null,
+    "via": "llm-page:OPERE",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "La grande tenebra",
+    "lang": null,
+    "via": "llm-page:OPERE TRADOTTE",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Rapporto della visita di capitan Tempesta in paradiso",
+    "lang": null,
+    "via": "llm-page:OPERE TRADOTTE / EDIZIONI",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Il famoso ranocchio salterino della contea di Calaveras",
+    "lang": null,
+    "via": "llm-page:OPERE TRADOTTE",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "L'uomo che corruppe Hadleyurg",
+    "lang": null,
+    "via": "llm-page:OPERE TRADOTTE",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Viaggio con un riformatore di costumi",
+    "lang": null,
+    "via": "llm-page:OPERE TRADOTTE",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Luca Trevisani (translator, La grande tenebra)",
+    "lang": null,
+    "via": "llm-page:OPERE TRADOTTE",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Babini, Laura (n. 1896) (translator)",
+    "lang": null,
+    "via": "llm-page:CORRELAZIONI TRADUTTORI",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Gadda Conti, Pietro (1902-1999) (translator)",
+    "lang": null,
+    "via": "llm-page:CORRELAZIONI TRADUTTORI",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Martone, Maria (1900-1990) (translator; mediator, editor of Novellieri inglesi e americani)",
+    "lang": null,
+    "via": "llm-page:CORRELAZIONI TRADUTTORI / MEDIATORI",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Montale, Eugenio (1896-1981) (translator)",
+    "lang": null,
+    "via": "llm-page:CORRELAZIONI TRADUTTORI",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Alvaro, Corrado (1895-1956) (mediator)",
+    "lang": null,
+    "via": "llm-page:CORRELAZIONI MEDIATORI",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Pagetti, Carlo (n. 1945) (mediator, editor of Il laboratorio dei sogni)",
+    "lang": null,
+    "via": "llm-page:CORRELAZIONI MEDIATORI / EDIZIONI",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Vittorini, Elio (1908-1966) (mediator, editor of Americana)",
+    "lang": null,
+    "via": "llm-page:CORRELAZIONI MEDIATORI / EDIZIONI",
+    "file": "P9556.json",
+    "uri": false
+   },
+   {
+    "value": "Edoardo Bizzarri (co-editor, Novellieri inglesi e americani)",
+    "lang": null,
+    "via": "llm-page:EDIZIONI",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "twain-mark__9782",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P9556.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "it"
+  ],
+  "name_variant": [
+   "it"
+  ],
+  "image": [],
+  "birth_date": [
+   "it"
+  ],
+  "birth_place": [
+   "it"
+  ],
+  "death_date": [
+   "it"
+  ],
+  "death_place": [
+   "it"
+  ],
+  "occupation": [
+   "it"
+  ],
+  "field_of_activity": [
+   "it"
+  ],
+  "work": [],
+  "related_agent": [],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 3741,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].area[]",
+     "n": 8,
+     "sample": "de"
+    },
+    {
+     "path": "[].modello",
+     "n": 8,
+     "sample": "persona"
+    },
+    {
+     "path": "[].slug",
+     "n": 8,
+     "sample": "spaini-alberto__91"
+    },
+    {
+     "path": "[].hash",
+     "n": 8,
+     "sample": "traiettoria-6"
+    },
+    {
+     "path": "[].anchorText",
+     "n": 8,
+     "sample": "Alberto Spaini"
+    },
+    {
+     "path": "[].autori",
+     "n": 8,
+     "sample": "Daria Biagi"
+    },
+    {
+     "path": "[].text",
+     "n": 8,
+     "sample": "Spaini e la letteratura tedescaGli anni della formazioneAlberto Spaini impara il tedesco da studente nella sua città nat"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 768,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].anchorText",
+     "n": 11,
+     "sample": "About (English)"
+    },
+    {
+     "path": "[].slug",
+     "n": 11,
+     "sample": "about"
+    },
+    {
+     "path": "[].show_in_menu",
+     "n": 11,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 5110,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "[].definizione",
+     "n": 7,
+     "sample": "tedesca"
+    },
+    {
+     "path": "[].titolo",
+     "n": 7,
+     "sample": "Letteratura in lingua tedesca"
+    },
+    {
+     "path": "[].color",
+     "n": 7,
+     "sample": "#bda948"
+    },
+    {
+     "path": "[].extra_info",
+     "n": 7,
+     "sample": "La sezione Letteratura tedesca tradotta in Italia della banca dati contiene attualmente circa l’80% dei testi pubblicati"
+    },
+    {
+     "path": "[].slug",
+     "n": 7,
+     "sample": "letteratura-tedesca"
+    },
+    {
+     "path": "[].denominazione",
+     "n": 7,
+     "sample": "Letteratura<br> tedesca"
+    },
+    {
+     "path": "[].classe",
+     "n": 7,
+     "sample": "area"
+    },
+    {
+     "path": "[].immagine",
+     "n": 7,
+     "sample": "mobile_home_logo_tedesca.svg"
+    },
+    {
+     "path": "[].api_slug",
+     "n": 7,
+     "sample": "de"
+    },
+    {
+     "path": "[].id",
+     "n": 6,
+     "sample": "4"
+    },
+    {
+     "path": "[].additional_class",
+     "n": 1,
+     "sample": "circle-all-categories"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 1947,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].s",
+     "n": 18,
+     "sample": "autore"
+    },
+    {
+     "path": "[].p",
+     "n": 18,
+     "sample": "autori"
+    },
+    {
+     "path": "[].immagine",
+     "n": 18,
+     "sample": "pagina_persone.svg?1"
+    },
+    {
+     "path": "[].sezione",
+     "n": 12,
+     "sample": "persone"
+    },
+    {
+     "path": "[].descrizioneS",
+     "n": 11,
+     "sample": "Casa editrice"
+    },
+    {
+     "path": "[].descrizioneP",
+     "n": 11,
+     "sample": "Case editrici"
+    },
+    {
+     "path": "[].titoloLista",
+     "n": 2,
+     "sample": "Forme del testo"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "LTit (Letteratura tradotta in Italia) person page for Mark Twain: dates/places, activity, real name, 6 original works, 5 Italian translations with translators, 4 Italian editions/anthologies, and correlated translators and mediators.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

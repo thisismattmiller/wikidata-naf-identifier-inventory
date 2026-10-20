@@ -1,0 +1,171 @@
+{
+ "property": "P4081",
+ "property_label": "BHL creator ID",
+ "files": [
+  {
+   "file": "P4081__40429/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.biodiversitylibrary.org/creator/40429#/titles"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Clemens, Samuel Langhorne,",
+    "lang": "en",
+    "via": "llm-page:Author Details 'Preferred Name Form'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:page heading 'By ...'",
+    "file": "P4081.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:Author Details 'Dates'",
+    "file": "P4081.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:Author Details 'Dates'",
+    "file": "P4081.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Mark Twain's Sketches, new and old",
+    "lang": "en",
+    "via": "llm-page:Books/Journals list",
+    "file": "P4081.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "LCCN: n79021164",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "LCCN: n93099439",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "LCCN: n93099461",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "LCCN: no2003079632",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "SNAK ARK: w65h7dgf",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "SNAK ARK: w6dg7gd6",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "VIAF: 16444837",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "VIAF: 305239133",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "VIAF: 50566653",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "VIAF: 53367783",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   },
+   {
+    "value": "Wikidata: Q7245",
+    "lang": null,
+    "via": "llm-page:Author Details 'Identifiers'",
+    "file": "P4081.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "40429",
+    "lang": null,
+    "via": "llm-page:URL (/creator/40429)",
+    "file": "P4081.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "work": [
+   "en"
+  ],
+  "same_as": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "Biodiversity Heritage Library creator page for 'Clemens, Samuel Langhorne, 1835-1910': one digitized book plus an 'Author Details' box with name form, dates and external identifiers (LCCN, SNAK ARK, VIAF, Wikidata). Identifiers are given as bare ids, not URIs.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

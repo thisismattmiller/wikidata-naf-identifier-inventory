@@ -1,0 +1,514 @@
+{
+ "property": "P12086",
+ "property_label": "WikiKids ID",
+ "files": [
+  {
+   "file": "P12086__Mark_Twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://wikikids.nl/Mark_Twain"
+  },
+  {
+   "file": "P12086__Mark_Twain/alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://wikikids.nl/index.php?title=Speciaal:RecenteWijzigingen&feed=atom"
+  },
+  {
+   "file": "P12086__Mark_Twain/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://wikikids.nl/api.php?action=query&format=json&prop=linkshere&titles=Categorie%3AAmerikaans%20schrijver&lhlimit=100"
+  },
+  {
+   "file": "P12086__Mark_Twain/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://wikikids.nl/api.php?action=query&format=json&prop=linkshere&titles=Categorie%3APseudoniem&lhlimit=100"
+  },
+  {
+   "file": "P12086__Mark_Twain/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://wikikids.dekenos.nl/pages/add"
+  },
+  {
+   "file": "P12086__Mark_Twain/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://wikikids.nl/api.php?action=parse&format=json&text=%7B%7BTVB%7CVerenigde%20Staten%7CLiteratuur%7Cw%3D1712%7D%7D&titles=Mark%20Twain&contentmodel=wikitext"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "feed": 1,
+  "json": 4
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 5,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "llm-page:page heading",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "nl",
+    "via": "llm-page:intro sentence",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "llm-page:intro 'beter bekend als Mark Twain'; category Pseudoniem",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "nl",
+    "via": "llm-page:intro sentence",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "nl",
+    "via": "llm-page:intro sentence",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Missouri)",
+    "lang": "nl",
+    "via": "llm-page:intro sentence",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Connecticut)",
+    "lang": "nl",
+    "via": "llm-page:intro sentence",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "schrijver",
+    "lang": "nl",
+    "via": "llm-page:intro sentence; category Amerikaans schrijver",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Amerikaans",
+    "lang": "nl",
+    "via": "llm-page:intro sentence",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens, beter bekend als Mark Twain (Florida (Missouri), 30 november 1835 – Redding (Connecticut), 21 april 1910), was een Amerikaans schrijver. Vanwege zijn grote invloed op latere schrijvers wordt Mark Twain ook wel de vader van de Amerikaanse literatuur genoemd. Tijdens zijn leven was hij goed bevriend met onder anderen diverse presidenten, wetenschappers, kunstenaars en ondernemers. Twain schreef twee belangrijke romans: De lotgevallen van Tom Sawyer (1876) en De lotgevalle",
+    "lang": "nl",
+    "via": "llm-page:article intro",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "De lotgevallen van Tom Sawyer",
+    "lang": "nl",
+    "via": "llm-page:intro",
+    "file": "P12086.json",
+    "uri": false
+   },
+   {
+    "value": "De lotgevallen van Huckleberry Finn",
+    "lang": "nl",
+    "via": "llm-page:intro",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-07-12",
+    "lang": "nl",
+    "via": "llm-page:footer",
+    "file": "P12086.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "nl"
+  ],
+  "name_variant": [
+   "nl"
+  ],
+  "pseudonym": [
+   "nl"
+  ],
+  "birth_date": [
+   "nl"
+  ],
+  "death_date": [
+   "nl"
+  ],
+  "birth_place": [
+   "nl"
+  ],
+  "death_place": [
+   "nl"
+  ],
+  "occupation": [
+   "nl"
+  ],
+  "nationality": [
+   "nl"
+  ],
+  "description": [
+   "nl"
+  ],
+  "work": [
+   "nl"
+  ],
+  "record_modified": [
+   "nl"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 451644,
+   "path_count": 23,
+   "paths": [
+    {
+     "path": "feed/entry",
+     "n": 43,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/id",
+     "n": 43,
+     "sample": "https://wikikids.nl/index.php?title=Odoorn&diff=1055903&oldid=1055901"
+    },
+    {
+     "path": "feed/entry/title",
+     "n": 43,
+     "sample": "Odoorn"
+    },
+    {
+     "path": "feed/entry/link",
+     "n": 43,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/link@rel",
+     "n": 43,
+     "sample": "alternate"
+    },
+    {
+     "path": "feed/entry/link@type",
+     "n": 43,
+     "sample": "text/html"
+    },
+    {
+     "path": "feed/entry/link@href",
+     "n": 43,
+     "sample": "https://wikikids.nl/index.php?title=Odoorn&diff=1055903&oldid=1055901"
+    },
+    {
+     "path": "feed/entry/updated",
+     "n": 43,
+     "sample": "2026-10-02T21:29:37Z"
+    },
+    {
+     "path": "feed/entry/summary",
+     "n": 43,
+     "sample": "<p></p>\n<table style=\"background-color: #fff; color: #202122;\" data-mw=\"interface\">\n\t\t\t\t<col class=\"diff-marker\" />\n\t\t\t\t"
+    },
+    {
+     "path": "feed/entry/summary@type",
+     "n": 43,
+     "sample": "html"
+    },
+    {
+     "path": "feed/entry/author",
+     "n": 43,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/author/name",
+     "n": 43,
+     "sample": "Hanssain"
+    },
+    {
+     "path": "feed/link",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "feed/link@rel",
+     "n": 2,
+     "sample": "self"
+    },
+    {
+     "path": "feed/link@type",
+     "n": 2,
+     "sample": "application/atom+xml"
+    },
+    {
+     "path": "feed/link@href",
+     "n": 2,
+     "sample": "https://wikikids.nl/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=atom"
+    },
+    {
+     "path": "feed",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "feed@{http://www.w3.org/XML/1998/namespace}lang",
+     "n": 1,
+     "sample": "nl"
+    },
+    {
+     "path": "feed/id",
+     "n": 1,
+     "sample": "https://wikikids.nl/api.php?hidebots=1&urlversion=1&days=7&limit=50&action=feedrecentchanges&feedformat=atom"
+    },
+    {
+     "path": "feed/title",
+     "n": 1,
+     "sample": "Wikikids  - Recente wijzigingen [nl]"
+    },
+    {
+     "path": "feed/updated",
+     "n": 1,
+     "sample": "2026-10-03T02:23:05Z"
+    },
+    {
+     "path": "feed/subtitle",
+     "n": 1,
+     "sample": "Met deze feed kunt u de recentste wijzigingen in deze wiki bekijken."
+    },
+    {
+     "path": "feed/generator",
+     "n": 1,
+     "sample": "MediaWiki 1.43.9"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "feed/entry/summary",
+     "value": "<p><span class=\"autocomment\">top: </span> typos fixed: Centraal Afrika → Centraal-Afrika</p>\n<table style=\"background-color: #fff; color: #202122;\" data-mw=\"interface\">\n\t\t\t\t<col class=\"diff-marker\" />"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 432,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "query.pages.71514.linkshere[].pageid",
+     "n": 5,
+     "sample": "5112"
+    },
+    {
+     "path": "query.pages.71514.linkshere[].ns",
+     "n": 5,
+     "sample": "0"
+    },
+    {
+     "path": "query.pages.71514.linkshere[].title",
+     "n": 5,
+     "sample": "Verenigde Staten"
+    },
+    {
+     "path": "batchcomplete",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "query.pages.71514.pageid",
+     "n": 1,
+     "sample": "71514"
+    },
+    {
+     "path": "query.pages.71514.ns",
+     "n": 1,
+     "sample": "14"
+    },
+    {
+     "path": "query.pages.71514.title",
+     "n": 1,
+     "sample": "Categorie:Amerikaans schrijver"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ns"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 106,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "batchcomplete",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "query.pages.130126.pageid",
+     "n": 1,
+     "sample": "130126"
+    },
+    {
+     "path": "query.pages.130126.ns",
+     "n": 1,
+     "sample": "14"
+    },
+    {
+     "path": "query.pages.130126.title",
+     "n": 1,
+     "sample": "Categorie:Pseudoniem"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ns"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 41,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "error",
+     "n": 1,
+     "sample": "Verzoek niet juist verzonden."
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 4397,
+   "path_count": 12,
+   "paths": [
+    {
+     "path": "parse.templates[].ns",
+     "n": 3,
+     "sample": "10"
+    },
+    {
+     "path": "parse.templates[].exists",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "parse.templates[].*",
+     "n": 3,
+     "sample": "Sjabloon:TVB"
+    },
+    {
+     "path": "parse.links[].ns",
+     "n": 2,
+     "sample": "4"
+    },
+    {
+     "path": "parse.links[].exists",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "parse.links[].*",
+     "n": 2,
+     "sample": "Wikikids:TVB/Portalen/Literatuur"
+    },
+    {
+     "path": "parse.images[]",
+     "n": 2,
+     "sample": "Deus_flag_United_States_KL.png"
+    },
+    {
+     "path": "warnings.main.*",
+     "n": 1,
+     "sample": "Unrecognized parameter: titles."
+    },
+    {
+     "path": "parse.title",
+     "n": 1,
+     "sample": "API"
+    },
+    {
+     "path": "parse.pageid",
+     "n": 1,
+     "sample": "186797"
+    },
+    {
+     "path": "parse.text.*",
+     "n": 1,
+     "sample": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"nl\" dir=\"ltr\"><div style=\"clear:both;\"></div>\n<hr />\n<table width=\"10"
+    },
+    {
+     "path": "parse.displaytitle",
+     "n": 1,
+     "sample": "<span class=\"mw-page-title-main\">API</span>"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ns"
+   ]
+  }
+ ],
+ "llm_notes": "Dutch WikiKids (children's wiki) article: an intro with name, dates and places, and a paragraph on Tom Sawyer / Huckleberry Finn. Other-language links are given as names only.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

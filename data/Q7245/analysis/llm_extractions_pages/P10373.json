@@ -1,0 +1,31 @@
+{
+ "property": "P10373",
+ "label": "Mnemosine ID",
+ "files_read": ["pages/P10373__65013.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Mnemosine (UCM digital library of Spanish 'rare' literature 1868-1936) person record 65013 'Twain, Mark': dates, gender, birth-name variant and one linked resource (Cuentos escogidos) with role Autor.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "lang": "es", "via": "'Nombre'"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne", "raw": "Variante: Nombre natalicio", "lang": "es", "via": "'Variantes del nombre'"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "1835-1910", "lang": null, "via": "'Fechas asociadas al nombre'"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "1835-1910", "lang": null, "via": "'Fechas asociadas al nombre'"}
+  ],
+  "gender": [
+   {"value": "Hombre", "lang": "es", "via": "'Género'"}
+  ],
+  "work": [
+   {"value": "Cuentos escogidos", "raw": "Tipo de relación: Autor", "lang": "es", "via": "'Recursos' / 'Persona-Obra'"}
+  ],
+  "identifier": [
+   {"value": "65013", "via": "record number at top of page"}
+  ]
+ }
+}

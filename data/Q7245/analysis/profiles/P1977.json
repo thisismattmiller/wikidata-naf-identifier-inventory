@@ -1,0 +1,890 @@
+{
+ "property": "P1977",
+ "property_label": "Les Archives du spectacle person ID",
+ "files": [
+  {
+   "file": "P1977__21935/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://lesarchivesduspectacle.net/p/21935-Mark-Twain"
+  },
+  {
+   "file": "P1977__21935/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://lesarchivesduspectacle.net/p/21935-Mark-Twain"
+  },
+  {
+   "file": "P1977__21935/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://lesarchivesduspectacle.net/p/21935-Mark-Twain"
+  },
+  {
+   "file": "P1977__21935/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://lesarchivesduspectacle.net/p/21935-Mark-Twain"
+  },
+  {
+   "file": "P1977__21935/alternate_1.bin",
+   "format": "unknown",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://lesarchivesduspectacle.net/rss_derniers-spectacles.php"
+  },
+  {
+   "file": "P1977__21935/alternate_2.bin",
+   "format": "unknown",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://lesarchivesduspectacle.net/rss_au-fil-du-temps.php"
+  },
+  {
+   "file": "P1977__21935/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.lesarchivesduspectacle.net/?IDX_Personne=21935"
+  },
+  {
+   "file": "P1977__21935/conneg_2.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.lesarchivesduspectacle.net/?IDX_Personne=21935"
+  },
+  {
+   "file": "P1977__21935/conneg_3.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.lesarchivesduspectacle.net/?IDX_Personne=21935"
+  },
+  {
+   "file": "P1977__21935/conneg_4.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://www.lesarchivesduspectacle.net/?IDX_Personne=21935"
+  },
+  {
+   "file": "P1977__21935/browser_alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://lesarchivesduspectacle.net/rss_derniers-spectacles.php"
+  },
+  {
+   "file": "P1977__21935/browser_alternate_2.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://lesarchivesduspectacle.net/rss_au-fil-du-temps.php"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "unknown": 6,
+  "feed": 2
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 10,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "http://ogp.me/ns/fb#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "llm-page:page heading",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": null,
+    "via": "json:gender",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].gender",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "json:birthDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "fr",
+    "via": "llm-page:line under heading",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "json:deathDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "fr",
+    "via": "llm-page:line under heading",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "21935",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "États-Unis",
+    "lang": "fr",
+    "via": "llm-page:line under heading",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Auteur",
+    "lang": "fr",
+    "via": "llm-page:role heading 'Auteur (27)'",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Le Journal intime d'Adam et Ève",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Une place au soleil",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn – Le Musical",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Cette maudite race humaine",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Lundi, l'être à deux",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Le Journal d'Adam et Ève",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Les Aventures de Tom Sawyer",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Les Aventures de Tom Sawyer – Le Musical",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Les Aventures de Huckleberry Finn – Part one",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finn",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Dompter la bicyclette",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Les Aventures de Huckleberry Finn",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Si Tom Sawyer m'était conté avec les doigts",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Le Soliloque du roi Léopold",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Les Aventures d'Huckleberry Finn",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Le Journal d'Adam, le journal d'Ève",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Quel que soit le songe",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Twain et Groucho, père et fils",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Le Cultivateur de Chicago",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Mario Aguirre Peirera (director, Le Journal intime d'Adam et Ève)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Marie-Paule Laval (director, Une place au soleil)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Hélène Cohen (director, Huckleberry Finn – Le Musical)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Gaspard Legendre (director, The Adventures of Tom Sawyer)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Philippe Robert (director, Tom Sawyer 2019)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Eram Sobhani (director, Cette maudite race humaine)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Stéphane Delaunay (conception, Lundi, l'être à deux)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Mélissa Barbaud (director, Le Journal d'Adam et Ève 2018)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "David Rozen (director, Les Aventures de Tom Sawyer – Le Musical)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Alice Faure (director, Huckleberry)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Yvan Rihs (director, Les Aventures de Huckleberry Finn – Part one)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "David Lacomblez (director, Huck Finn)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Catherine Caillaud (conception, Tom Sawyer 2014)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Virginie Boucher (director, Dompter la bicyclette)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Émilie Martinez (director, Les Aventures de Huckleberry Finn 2013)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Julien Vanbreuseghem (director, Si Tom Sawyer m'était conté avec les doigts)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Freddy Viau (director, Les Aventures de Tom Sawyer 2010)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Jacques Roman (conception, Le Soliloque du roi Léopold)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Barbara Bouley (director, Les Aventures d'Huckleberry Finn 1998)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Étienne Pommeret (director, Le Journal d'Adam, le journal d'Ève)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Jean-Claude Carrière (co-author, Quel que soit le songe)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Hanna Schygulla (conception, Quel que soit le songe)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Andrew Wilson (director, Huckleberry Finn 1996)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Alain Boublil (co-author, Le Journal d'Adam et Ève 1994)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Jean-François Prévand (director, Le Journal d'Adam et Ève 1994)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Patricia Giros (director, Tom Sawyer 1994)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Christine Théry (director, Twain et Groucho, père et fils)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   },
+   {
+    "value": "Gabriel Timmory (co-author, Le Cultivateur de Chicago)",
+    "lang": "fr",
+    "via": "llm-page:Auteur list",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "Wikipédia page (link 'Page Wikipédia', URL not shown in text)",
+    "lang": null,
+    "via": "llm-page:Voir aussi",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-02-23",
+    "lang": "fr",
+    "via": "llm-page:page footer of record",
+    "file": "P1977.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "fr"
+  ],
+  "gender": [
+   "en"
+  ],
+  "birth_date": [
+   "fr"
+  ],
+  "death_date": [
+   "fr"
+  ],
+  "identifier": [],
+  "nationality": [
+   "fr"
+  ],
+  "occupation": [
+   "fr"
+  ],
+  "work": [
+   "en",
+   "fr"
+  ],
+  "related_agent": [
+   "fr"
+  ],
+  "same_as": [],
+  "record_modified": [
+   "fr"
+  ]
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2,
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 166,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].gender",
+     "n": 1,
+     "sample": "male"
+    },
+    {
+     "path": "[].birthDate",
+     "n": 1,
+     "sample": "1835-11-30"
+    },
+    {
+     "path": "[].deathDate",
+     "n": 1,
+     "sample": "1910-04-21"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].name",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].birthDate",
+     "value": "1835-11-30"
+    },
+    {
+     "path": "[].deathDate",
+     "value": "1910-04-21"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 566,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain | Les Archives du spectacle"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Les Archives du spectacle - Un moteur de recherche pour les arts de la scène (théâtre, danse, opéra…)"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://lesarchivesduspectacle.net/img/logoAS_mini.png"
+    },
+    {
+     "path": "[].og:image:type",
+     "n": 1,
+     "sample": "image/png"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "205"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "205"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Les Archives du spectacle"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "fr_FR"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://lesarchivesduspectacle.net/p/21935-Mark-Twain"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain | Les Archives du spectacle"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://lesarchivesduspectacle.net/p/21935-Mark-Twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "browser_alternate_1.xml",
+   "format": "xml",
+   "size": 7103,
+   "path_count": 12,
+   "paths": [
+    {
+     "path": "rss/channel/item",
+     "n": 20,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/title",
+     "n": 20,
+     "sample": "Audrey Vernon - Comment épouser un milliardaire 2"
+    },
+    {
+     "path": "rss/channel/item/description",
+     "n": 20,
+     "sample": "Audrey Vernon - Comment épouser un milliardaire 2  d’Audrey Vernon conception Audrey Vernon"
+    },
+    {
+     "path": "rss/channel/item/pubDate",
+     "n": 20,
+     "sample": "Sat, 03 Oct 2026 01:20:28 +0200"
+    },
+    {
+     "path": "rss/channel/item/link",
+     "n": 20,
+     "sample": "https://lesarchivesduspectacle.net/s/180520-Audrey-Vernon-Comment-epouser-un-milliardaire-2"
+    },
+    {
+     "path": "rss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss@version",
+     "n": 1,
+     "sample": "2.0"
+    },
+    {
+     "path": "rss/channel",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/title",
+     "n": 1,
+     "sample": "Les Archives du spectacle - Les 20 derniers spectacles"
+    },
+    {
+     "path": "rss/channel/description",
+     "n": 1,
+     "sample": "Les 20 dernières fiches spectacle créées ou modifiées sur Les Archives du spectacle."
+    },
+    {
+     "path": "rss/channel/lastBuildDate",
+     "n": 1,
+     "sample": "Sat, 03 Oct 2026 01:20:28 +0200"
+    },
+    {
+     "path": "rss/channel/link",
+     "n": 1,
+     "sample": "https://lesarchivesduspectacle.net"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "rss"
+   ]
+  },
+  {
+   "file": "browser_alternate_2.xml",
+   "format": "xml",
+   "size": 7663,
+   "path_count": 12,
+   "paths": [
+    {
+     "path": "rss/channel/item",
+     "n": 20,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/title",
+     "n": 20,
+     "sample": "L'Éclat (2021/2022)"
+    },
+    {
+     "path": "rss/channel/item/description",
+     "n": 20,
+     "sample": "Enregistrement de la saison 2021/2022 de L'Éclat (Pont-Audemer)."
+    },
+    {
+     "path": "rss/channel/item/pubDate",
+     "n": 20,
+     "sample": "Fri, 02 Oct 2026 22:37:58 +0200"
+    },
+    {
+     "path": "rss/channel/item/link",
+     "n": 20,
+     "sample": "https://lesarchivesduspectacle.net/o/14854-L-Eclat/Saison:2021"
+    },
+    {
+     "path": "rss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss@version",
+     "n": 1,
+     "sample": "2.0"
+    },
+    {
+     "path": "rss/channel",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/title",
+     "n": 1,
+     "sample": "Les Archives du spectacle - Au fil du temps"
+    },
+    {
+     "path": "rss/channel/description",
+     "n": 1,
+     "sample": "Les 20 dernières programmations (saisons, festivals) enregistrées sur Les Archives du spectacle."
+    },
+    {
+     "path": "rss/channel/lastBuildDate",
+     "n": 1,
+     "sample": "Fri, 02 Oct 2026 22:37:58 +0200"
+    },
+    {
+     "path": "rss/channel/link",
+     "n": 1,
+     "sample": "https://lesarchivesduspectacle.net"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "rss"
+   ]
+  }
+ ],
+ "llm_notes": "Person page listing 27 theatre productions (1906-2024) where Mark Twain is credited as author, mostly adaptations 'd'après Mark Twain'; gives country and life dates, link to Wikipedia. Some listed shows are by other authors (Carrière, Boublil, Timmory) with Twain as co-credited source.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

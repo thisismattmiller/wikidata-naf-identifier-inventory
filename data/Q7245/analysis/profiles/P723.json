@@ -1,0 +1,402 @@
+{
+ "property": "P723",
+ "property_label": "DBNL author ID",
+ "files": [
+  {
+   "file": "P723__twai001/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.dbnl.org/auteurs/auteur.php?id=twai001"
+  },
+  {
+   "file": "P723__twai001/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.dbnl.org/auteurs/auteur.php?id=twai001"
+  },
+  {
+   "file": "P723__twai001/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.dbnl.org/auteurs/auteur.php?id=twai001"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 11,
+  "http://www.w3.org/1999/xhtml/vocab#": 6,
+  "http://ogp.me/ns#": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "nl",
+    "via": "llm-page:GEBOREN",
+    "file": "P723.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "nl",
+    "via": "llm-page:OVERLEDEN",
+    "file": "P723.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "familyName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": null,
+    "via": "givenName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "boekdrukker/uitgever",
+    "lang": null,
+    "via": "hasOccupation",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "journalist/redacteur",
+    "lang": null,
+    "via": "hasOccupation/name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "nl",
+    "via": "llm-page:NAAMSVARIANTEN",
+    "file": "P723.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "twai001",
+    "lang": null,
+    "via": "identifier",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "llm-page:page heading",
+    "file": "P723.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://www.dbnl.org/auteurs/auteur.php?id=twai001",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Missiouri",
+    "lang": "nl",
+    "via": "llm-page:GEBOREN",
+    "file": "P723.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "nl",
+    "via": "llm-page:OVERLEDEN",
+    "file": "P723.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Oorspronkelijke publicaties",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "De lotgevallen van Tom Sawyer",
+    "lang": "nl",
+    "via": "llm-page:Oorspronkelijke publicaties",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "Prins en bedelknaap",
+    "lang": "nl",
+    "via": "llm-page:Oorspronkelijke publicaties",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "De lotgevallen van Huckleberry Finn, Tom Sawyer's makker",
+    "lang": "nl",
+    "via": "llm-page:Oorspronkelijke publicaties",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer's reisavonturen",
+    "lang": "nl",
+    "via": "llm-page:Oorspronkelijke publicaties",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "De erfgenaam in Amerika",
+    "lang": "nl",
+    "via": "llm-page:Oorspronkelijke publicaties",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "De lotgevallen van Huckleberry Finn",
+    "lang": "nl",
+    "via": "llm-page:Oorspronkelijke publicaties",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "Verdere avonturen van Tom Sawyer",
+    "lang": "nl",
+    "via": "llm-page:Oorspronkelijke publicaties",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "Menscheneters op den spoortrein",
+    "lang": "nl",
+    "via": "llm-page:Teksten in andere boeken/tijdschriften",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "Gedenkschriften van een protestantschen hond",
+    "lang": "nl",
+    "via": "llm-page:Teksten in andere boeken/tijdschriften",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "De avonturen van Huckleberry Finn",
+    "lang": "nl",
+    "via": "llm-page:Teksten in andere boeken/tijdschriften",
+    "file": "P723.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Viola (reteller of 'Gedenkschriften van een protestantschen hond')",
+    "lang": "nl",
+    "via": "llm-page:Teksten in andere boeken/tijdschriften",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "Jan van Coillie, Wilma van der Pennen, Jos Staal en Herman Tromp (authors of biography source 'Lexicon van de jeugdliteratuur')",
+    "lang": "nl",
+    "via": "llm-page:Biografieën over Mark Twain",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "Johan Daisne (author of secondary literature 'Literatuur in de filmlens')",
+    "lang": "nl",
+    "via": "llm-page:Secundaire literatuur",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "Barber van de Pol (author of secondary literature 'Mark Twain in spe')",
+    "lang": "nl",
+    "via": "llm-page:Secundaire literatuur",
+    "file": "P723.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Lexicon van de jeugdliteratuur (1982-2014)",
+    "lang": "nl",
+    "via": "llm-page:Biografieën over Mark Twain",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "In Memoriam. In: Onze Stam. Jaargang 1910",
+    "lang": "nl",
+    "via": "llm-page:Secundaire literatuur",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "Johan Daisne, 'Literatuur in de filmlens', Nieuw Vlaams Tijdschrift. Jaargang 9 (1955)",
+    "lang": "nl",
+    "via": "llm-page:Secundaire literatuur",
+    "file": "P723.json",
+    "uri": false
+   },
+   {
+    "value": "Barber van de Pol, 'Barber van de Pol Galerij: 4 Mark Twain in spe', Filter. Tijdschrift over Vertalen. Jaargang 21 (2014)",
+    "lang": "nl",
+    "via": "llm-page:Secundaire literatuur",
+    "file": "P723.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "birth_date": [
+   "nl"
+  ],
+  "death_date": [
+   "nl"
+  ],
+  "family_name": [],
+  "given_name": [],
+  "occupation": [],
+  "name_variant": [
+   "nl"
+  ],
+  "identifier": [],
+  "name_preferred": [
+   "nl"
+  ],
+  "see_also": [],
+  "birth_place": [
+   "nl"
+  ],
+  "death_place": [
+   "nl"
+  ],
+  "work": [
+   "en",
+   "nl"
+  ],
+  "related_agent": [
+   "nl"
+  ],
+  "source": [
+   "nl"
+  ]
+ },
+ "unmapped": {
+  "birthPlace/addressCountry (http://schema.org/)": 1,
+  "birthPlace/addressLocality (http://schema.org/)": 1,
+  "deathPlace/addressCountry (http://schema.org/)": 1,
+  "deathPlace/addressLocality (http://schema.org/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 128,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "DBNL"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain - auteur - DBNL"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain - auteur - DBNL"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "DBNL author page for Mark Twain: short biographical data (born/died with places, name variant), list of separately published Dutch editions, texts in periodicals, a biography source and secondary literature. Birth place is spelled 'Missiouri' on the page.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

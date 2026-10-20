@@ -1,0 +1,39 @@
+{
+ "property": "P9141",
+ "label": "Portal da Literatura ID",
+ "files_read": ["P9141__757/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata from Portal da Literatura author page 757; og:description is a truncated Portuguese biography.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "raw": "Mark Twain - Portal da Literatura", "lang": "pt", "via": "embedded_opengraph.json: og:title"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "pt", "via": "embedded_opengraph.json: og:description ('cujo verdadeiro nome era Samuel Langhorne Clemens')"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "pt", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "em 1835", "lang": "pt", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "birth_place": [
+   {"value": "Florida, Missouri", "lang": "pt", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "activity_place": [
+   {"value": "Hannibal", "lang": "pt", "via": "embedded_opengraph.json: og:description ('uma pequena cidade à beira do Mississippi, onde ele viveu até os 18 anos')"}
+  ],
+  "occupation": [
+   {"value": "aprendiz de tipógrafo", "lang": "pt", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "description": [
+   {"value": "Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Florida, Missouri, em 1835. Quando tinha apenas quatro anos de idade a sua família mudou-se para Hannibal, uma pequena cidade à beira do Mississippi, onde ele viveu até os 18 anos. Pouco depois da morte do pai (em 1847) abandonou os estudos e tornou-se aprendiz de tipógrafo, escrevendo ao mesmo", "lang": "pt", "via": "embedded_opengraph.json: og:description (truncated at source)"}
+  ],
+  "identifier": [
+   {"value": "757", "via": "embedded_opengraph.json: og:url (https://www.portaldaliteratura.com/autores.php?autor=757)"}
+  ],
+  "image": [
+   {"value": "https://www.portaldaliteratura.com/assets/files_autores/757.webp", "via": "embedded_opengraph.json: og:image"}
+  ]
+ }
+}

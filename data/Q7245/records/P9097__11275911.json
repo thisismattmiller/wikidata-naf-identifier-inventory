@@ -1,0 +1,485 @@
+{
+ "property": "P9097",
+ "property_label": "American Academy in Rome ID",
+ "value": "11275911",
+ "url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=11275911",
+ "crawled_at": "2026-10-03T00:16:45+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=11275911",
+ "tab_title": "MARC view › Snodgrass, Quintus Curtius, 1835-1910 (Personal Name) › Arthur & Janet C. Ross Library catalog",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P9097__11275911.jpg",
+ "elapsed_seconds": 5.7,
+ "html_file": "pages/P9097__11275911.html",
+ "text_file": "pages/P9097__11275911.txt",
+ "status": "login_wall_suspected",
+ "page": {
+  "final_url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=11275911",
+  "title": "MARC view › Snodgrass, Quintus Curtius, 1835-1910 (Personal Name) › Arthur & Janet C. Ross Library catalog",
+  "content_type": "text/html",
+  "lang": "en",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 200,
+   "url": "https://library.aarome.org/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=11275911",
+   "headers": {
+    "cache-control": "no-cache",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a447c29e5899f9a7-IAD",
+    "content-encoding": "gzip",
+    "content-script-type": "text/javascript",
+    "content-style-type": "text/css",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Sat, 03 Oct 2026 00:16:48 GMT",
+    "pragma": "no-cache",
+    "server": "cloudflare",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "vary": "User-Agent",
+    "x-frame-options": "SAMEORIGIN"
+   }
+  },
+  "link_elements": [
+   {
+    "rel": "search",
+    "type": "application/opensearchdescription+xml",
+    "href": "https://library.aarome.org/cgi-bin/koha/opac-search.pl?format=opensearchdescription",
+    "title": "Search Arthur & Janet C. Ross Library",
+    "hreflang": null
+   },
+   {
+    "rel": "unapi-server",
+    "type": "application/xml",
+    "href": "https://library.aarome.org/cgi-bin/koha/unapi",
+    "title": "unAPI",
+    "hreflang": null
+   }
+  ],
+  "jsonld": [],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "generator",
+    "content": "Koha"
+   },
+   {
+    "key": "viewport",
+    "content": "width=device-width, initial-scale=1"
+   },
+   {
+    "key": "csrf-token",
+    "content": "b23fae2daaf1ec3d16a20215c74fdbe24627ce74,45acbea918a103c1286b1d4903275e78a2c97f03,1790986606"
+   }
+  ],
+  "machine_links": [],
+  "xhr_requests": [
+   {
+    "url": "https://library.aarome.org/cdn-cgi/rum?",
+    "initiator": "xmlhttprequest",
+    "status": 204,
+    "content_type": "text/plain"
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/css/opac_25.1106000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 51462
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/js/Gettext_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 13273
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/jquery/plugins/jstree/themes/default/style.min_25.1106000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 4185
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/fontawesome/css/fontawesome.min_25.1106000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 17198
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/fontawesome/css/brands.min_25.1106000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 4939
+   },
+   {
+    "url": "https://library.aarome.org/api/v1/contrib/coverflow/static/jquery-flipster/jquery.flipster.min.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1746
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/fontawesome/css/solid.min_25.1106000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 626
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/js/i18n_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 683
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/css/print_25.1106000.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 1512
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/images/koha-green-logo.svg",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 1784
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/fontawesome/webfonts/fa-solid-900.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 150208
+   },
+   {
+    "url": "https://github.com/bywatersolutions/web-assets/raw/master/sites/aarome/aarlogo_orange.png",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://github.com/bywatersolutions/web-assets/raw/master/sites/aarome/libraryname_text_2.png",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://github.com/bywatersolutions/web-assets/raw/master/sites/aarome/Italian_Flag.png",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://github.com/bywatersolutions/web-assets/raw/master/sites/aarome/American_Flag.png",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://fonts.googleapis.com/css?family=Roboto:400,500,700",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 1984
+   },
+   {
+    "url": "https://library.aarome.org/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 956
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/jquery/jquery-migrate-3.3.2.min_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 4465
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/enquire/enquire.min_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1613
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/js/basket_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3407
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/js/global_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 4117
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/js-cookie/js.cookie-3.0.1.min_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1123
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/dayjs/dayjs.min_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3198
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/dayjs/plugin/timezone_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1371
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/js/show-password-toggle_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 817
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/js/localcovers_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1233
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/fontfaceobserver/fontfaceobserver.min_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2026
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/js/form-submit_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 726
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/bootstrap/js/bootstrap.bundle.min_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 24031
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/jquery/jquery-3.6.0.min_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 31130
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/js/coce_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1123
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/dayjs/plugin/utc_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1264
+   },
+   {
+    "url": "https://library.aarome.org/api/v1/contrib/coverflow/static/jquery-flipster/jquery.flipster.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3424
+   },
+   {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/jquery/plugins/jstree/jstree-3.3.12.min_25.1106000.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 33111
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/images/koha-logo-navbar.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 1701
+   },
+   {
+    "url": "",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://fast.fonts.net/dv2/3/e2fbc63c-e7b1-4828-b0b6-275131d16fd0.woff?d44f19a684109620e484167aa190e8186cc3d625fd8c28589869ac472f84c5df8adddbe24a06b8fd6d4d70f773811072d7c8eebf40d9dfa8529e1cae01e118a536177d97a6aa869938546819edf7d9ea982502b326d25a7bfabfd4b053d8ed264b56a8259901fdfa2ecaa63bfe78f6ce1225c4a7eaa3bdb06434b94c5a3e279846c1ec24c4f85308d2dd9b1ecc756dad428af8f9537da01531b3b2c8e2d7f1d28de7fb9fe3955132c846be15abc800a6d797b0a9e72de0cd398503b699f2c0306b853960d54394faa2cc48a9a6cd51f1fd47ca50f85bd",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/css/fonts/NotoSans-Regular-webfont.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 17996
+   },
+   {
+    "url": "https://www.google-analytics.com/analytics.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/jquery/plugins/jstree/themes/default/throbber.gif",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/gif",
+    "bytes": 1764
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/lib/jquery/plugins/jstree/themes/default/32px.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 5960
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/css/fonts/NotoSans-Bold-webfont.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 17828
+   },
+   {
+    "url": "https://library.aarome.org/opac-tmpl/bootstrap/css/fonts/NotoSans-Italic-webfont.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 19208
+   },
+   {
+    "url": "https://library.aarome.org/cdn-cgi/rum?",
+    "initiator": "xmlhttprequest",
+    "status": 204,
+    "content_type": "text/plain",
+    "bytes": 300
+   },
+   {
+    "url": "https://github.com/bywatersolutions/web-assets/blob/master/sites/aarome/favicon.ico?raw=true",
+    "initiator": "other",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   }
+  ],
+  "third_party_hosts": {
+   "github.com": 5,
+   "fonts.googleapis.com": 1,
+   "static.cloudflareinsights.com": 1,
+   "fast.fonts.net": 1,
+   "www.google-analytics.com": 1
+  },
+  "scripts": [
+   "https://www.google-analytics.com/analytics.js",
+   "https://library.aarome.org/opac-tmpl/bootstrap/js/Gettext_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/bootstrap/js/i18n_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/lib/jquery/jquery-3.6.0.min_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/lib/jquery/jquery-migrate-3.3.2.min_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/lib/bootstrap/js/bootstrap.bundle.min_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/lib/fontfaceobserver/fontfaceobserver.min_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/lib/enquire/enquire.min_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/bootstrap/js/global_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/bootstrap/js/form-submit_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/bootstrap/js/basket_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/bootstrap/js/coce_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/bootstrap/js/localcovers_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/lib/js-cookie/js.cookie-3.0.1.min_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/bootstrap/js/show-password-toggle_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/lib/dayjs/dayjs.min_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/lib/dayjs/plugin/timezone_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/lib/dayjs/plugin/utc_25.1106000.js",
+   "https://library.aarome.org/opac-tmpl/lib/jquery/plugins/jstree/jstree-3.3.12.min_25.1106000.js",
+   "https://library.aarome.org/api/v1/contrib/coverflow/static/jquery-flipster/jquery.flipster.min.js",
+   "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+  ],
+  "iframes": [],
+  "forms": [
+   {
+    "action": "https://library.aarome.org/cgi-bin/koha/opac-search.pl",
+    "method": "get",
+    "id": "searchform"
+   },
+   {
+    "action": "https://library.aarome.org/cgi-bin/koha/opac-user.pl",
+    "method": "post",
+    "id": "modalAuth"
+   }
+  ],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 1,
+   "access_words": [
+    "login",
+    "purchase"
+   ],
+   "not_found_words": []
+  },
+  "text_length": 1772,
+  "html_length": 88572
+ }
+}

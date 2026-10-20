@@ -1,0 +1,1676 @@
+{
+ "property": "P10780",
+ "property_label": "Radio France person ID",
+ "files": [
+  {
+   "file": "P10780__mark-twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.radiofrance.fr/personnes/mark-twain"
+  },
+  {
+   "file": "P10780__mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.radiofrance.fr/personnes/mark-twain"
+  },
+  {
+   "file": "P10780__mark-twain/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://c.go-mpulse.net/api/config.json?key=WEG5J-NEMNG-DBMMB-XH7VN-GNXVV&d=www.radiofrance.fr&t=5969930&v=1.792.0&sl=0&si=9e38fe86-089f-45e6-9ef0-c1049e3f07fa-NaN&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,BFCache,LOGN&acao=&ak.ai=737870"
+  },
+  {
+   "file": "P10780__mark-twain/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.radiofrance.fr/personnes/mark-twain/__data.json?x-sveltekit-invalidated=0100"
+  },
+  {
+   "file": "P10780__mark-twain/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://via.batch.com/manifest.json"
+  },
+  {
+   "file": "P10780__mark-twain/xhr_4.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn-adm.pbstck.com/kleanads/js/kleanads-2609281033.js"
+  },
+  {
+   "file": "P10780__mark-twain/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn-adm.pbstck.com/config/03314bf5/66952816/be002bab-c5ea-4add-83d8-0728a895f1d4/69/desktop.json"
+  },
+  {
+   "file": "P10780__mark-twain/xhr_6.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ws.batch.com/web/4.4.0/ev/5FEF2F069317477BBF11B0CF472F477A"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 4,
+  "unknown": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 24,
+  "http://ogp.me/ns#": 11,
+  "LLM extraction": 2,
+  "http://ogp.me/ns/article#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: nodes[1] Personality.title; embedded_opengraph.json: og:title",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document visual legend",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:episode 4/11 blurb",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document visual legend",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "écrivain",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document texts ('l'écrivain et humoriste américain Mark Twain')",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "humoriste",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document texts",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "moraliste",
+    "lang": "fr",
+    "via": "llm-page:episode 'Mark Twain, écrivain humoriste et moraliste'",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "américain",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document texts",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Littérature américaine",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: Personality.relatedTags[0].title",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Les Aventures de Huckleberry Finn",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document descriptions",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Les Aventures de Tom Sawyer",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document descriptions",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "À la dure",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document 'Le Far West \"à la dure\" de Mark Twain'",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Notes sur Paris",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document description",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Conrad",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document 'la nouvelle \"Conrad\" écrite en 1870 par Mark Twain'",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "L'infortuné fiancé d'Aurélie",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document description",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Le Roman de l'Esquimaude",
+    "lang": "fr",
+    "via": "llm:xhr_2.json: document description",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Sketches, New and Old",
+    "lang": "en",
+    "via": "llm:xhr_2.json: image legend 'Illustration de Mark Twains's Sketches, New and Old, 1875.'",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Madame Mac Williams et le tonnerre",
+    "lang": "fr",
+    "via": "llm-page:episode blurbs",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "2add8ef4-a079-102d-9c2c-fcfcfc001444",
+    "lang": null,
+    "via": "llm:xhr_2.json: nodes[1] Personality.id",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm:xhr_2.json: Personality.seoCanonicalUrl; embedded_opengraph.json: og:url",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Marc Twain",
+    "lang": "fr",
+    "via": "llm-page:episode blurbs",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "L’œuvre de l’écrivain américain révèle une attirance pour les personnages insouciants et épris de liberté mais Mark Twain fut également un moraliste exigeant qui dénonça les cruautés de son temps.",
+    "lang": "fr",
+    "via": "llm-page:episode blurb 'Mark Twain, écrivain humoriste et moraliste' (2021)",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Percival Everett (rewrote Huckleberry Finn as 'James')",
+    "lang": null,
+    "via": "llm-page:episode blurbs",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Anne-Laure Tissut (translator of Everett's 'James', not of Twain)",
+    "lang": null,
+    "via": "llm-page:episode blurb",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Michel Bouquet (performed Mark Twain in 'Douze interviews express', 1956)",
+    "lang": null,
+    "via": "llm-page:episode 1/11",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Philippe Noiret (reader of 'L'infortuné fiancé d'Aurélie')",
+    "lang": null,
+    "via": "llm-page:episode 2/11",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Rosy Varte (performer in adaptation of 'Conrad')",
+    "lang": null,
+    "via": "llm-page:episode 3/11",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "John Taylor (commentator, 1985)",
+    "lang": null,
+    "via": "llm-page:episode 10/11",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Martin Page (commentator, 'Une vie, une oeuvre' 2013)",
+    "lang": null,
+    "via": "llm-page:episode 4/11",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Philippe Garbit (producer, 'Une Nuit avec Mark Twain')",
+    "lang": null,
+    "via": "llm-page:Apparaît sur",
+    "file": "P10780.json",
+    "uri": false
+   },
+   {
+    "value": "Ernest Hemingway (quoted)",
+    "lang": null,
+    "via": "llm-page:episode 8/11",
+    "file": "P10780.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "fr"
+  ],
+  "birth_date": [
+   "fr"
+  ],
+  "death_date": [
+   "fr"
+  ],
+  "occupation": [
+   "fr"
+  ],
+  "nationality": [
+   "fr"
+  ],
+  "field_of_activity": [
+   "fr"
+  ],
+  "work": [
+   "en",
+   "fr"
+  ],
+  "identifier": [],
+  "name_variant": [
+   "fr"
+  ],
+  "description": [
+   "fr"
+  ],
+  "related_agent": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 798,
+   "path_count": 14,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain : podcasts et actualités"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "fr_FR"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Radio France"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Écoutez tous les podcasts gratuitement en ligne. Dernières actualités et émissions de radio en replay sur Radio France. "
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.radiofrance.fr/personnes/mark-twain"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.radiofrance.fr/pikapi/images/2851911a-36f8-4b08-848f-e46921591c13/1200x680"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "1111"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "630"
+    },
+    {
+     "path": "[].og:image:type",
+     "n": 1,
+     "sample": "image/webp"
+    },
+    {
+     "path": "[].og:image:alt",
+     "n": 1,
+     "sample": "Mark Twain : podcasts et actualités"
+    },
+    {
+     "path": "[].article:publisher",
+     "n": 1,
+     "sample": "https://www.facebook.com/radiofrance/"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    },
+    {
+     "path": "[].@context.article",
+     "n": 1,
+     "sample": "http://ogp.me/ns/article#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain : podcasts et actualités"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Écoutez tous les podcasts gratuitement en ligne. Dernières actualités et émissions de radio en replay sur Radio France. Tout savoir à propos de : Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.radiofrance.fr/personnes/mark-twain"
+    },
+    {
+     "path": "[].og:image:alt",
+     "value": "Mark Twain : podcasts et actualités"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 1486,
+   "path_count": 47,
+   "paths": [
+    {
+     "path": "PageParams.customTimers[].name",
+     "n": 2,
+     "sample": "DidomiNotice"
+    },
+    {
+     "path": "PageParams.customTimers[].index",
+     "n": 2,
+     "sample": "0"
+    },
+    {
+     "path": "PageParams.customTimers[].type",
+     "n": 2,
+     "sample": "UserTiming"
+    },
+    {
+     "path": "PageParams.customTimers[].label",
+     "n": 2,
+     "sample": "custom0"
+    },
+    {
+     "path": "PageParams.customDimensions[].name",
+     "n": 2,
+     "sample": "Site"
+    },
+    {
+     "path": "PageParams.customDimensions[].index",
+     "n": 2,
+     "sample": "0"
+    },
+    {
+     "path": "PageParams.customDimensions[].type",
+     "n": 2,
+     "sample": "URLPatternType"
+    },
+    {
+     "path": "PageParams.customDimensions[].label",
+     "n": 2,
+     "sample": "cdim.Site"
+    },
+    {
+     "path": "PageParams.customDimensions[].dataType",
+     "n": 2,
+     "sample": "Text"
+    },
+    {
+     "path": "PageParams.customDimensions[].xhr_ok",
+     "n": 2,
+     "sample": "True"
+    },
+    {
+     "path": "h.key",
+     "n": 1,
+     "sample": "WEG5J-NEMNG-DBMMB-XH7VN-GNXVV"
+    },
+    {
+     "path": "h.d",
+     "n": 1,
+     "sample": "arlid:737870"
+    },
+    {
+     "path": "h.t",
+     "n": 1,
+     "sample": "1790994178651"
+    },
+    {
+     "path": "h.cr",
+     "n": 1,
+     "sample": "b0edd4c69ffec5b830c37ca88ffa2a42e89398af-9c809b91-adca9810"
+    },
+    {
+     "path": "session_id",
+     "n": 1,
+     "sample": "89b55b27-c448-45d5-9f45-70d9122d308f"
+    },
+    {
+     "path": "site_domain",
+     "n": 1,
+     "sample": "arlid:737870"
+    },
+    {
+     "path": "beacon_url",
+     "n": 1,
+     "sample": "//173bf10b.akstat.io/"
+    },
+    {
+     "path": "autorun",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "beacon_interval",
+     "n": 1,
+     "sample": "60"
+    },
+    {
+     "path": "BW.enabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "RT.cookie",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "RT.session_exp",
+     "n": 1,
+     "sample": "1800"
+    },
+    {
+     "path": "ResourceTiming.enabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "ResourceTiming.splitAtPath",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "History.enabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "History.auto",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "Errors.enabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "Errors.monitorTimeout",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "Errors.monitorEvents",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "Errors.maxErrors",
+     "n": 1,
+     "sample": "10"
+    },
+    {
+     "path": "Errors.sendAfterOnload",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "Errors.sendInterval",
+     "n": 1,
+     "sample": "10000"
+    },
+    {
+     "path": "Continuity.enabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "Continuity.waitAfterOnload",
+     "n": 1,
+     "sample": "1500"
+    },
+    {
+     "path": "PageParams.xhr",
+     "n": 1,
+     "sample": "none"
+    },
+    {
+     "path": "PageParams.pageGroups[].type",
+     "n": 1,
+     "sample": "Custom"
+    },
+    {
+     "path": "PageParams.pageGroups[].parameter1",
+     "n": 1,
+     "sample": "page_group"
+    },
+    {
+     "path": "PageParams.pageGroups[].on[]",
+     "n": 1,
+     "sample": "navigation"
+    },
+    {
+     "path": "PageParams.customTimers[].parameter2",
+     "n": 1,
+     "sample": "didomi:notice-shown"
+    },
+    {
+     "path": "PageParams.customTimers[].xhr_ok",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "PageParams.customTimers[].parameter1",
+     "n": 1,
+     "sample": "BOOMR.plugins.EventTiming.metrics.interactionToNextPaint"
+    },
+    {
+     "path": "PageParams.customDimensions[].parameter2",
+     "n": 1,
+     "sample": "/html/head/meta[@property='og:site_name']/@content"
+    },
+    {
+     "path": "PageParams.customDimensions[].varName",
+     "n": 1,
+     "sample": "navigator.deviceMemory"
+    },
+    {
+     "path": "PageParams.params",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "Akamai.enabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "Akamai.dns_prefetch_enabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "user_ip",
+     "n": 1,
+     "sample": "52c139c5f"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "cr",
+    "key",
+    "on[]",
+    "xhr"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 47461,
+   "path_count": 71,
+   "paths": [
+    {
+     "path": "nodes[].data[]",
+     "n": 68,
+     "sample": "Theme"
+    },
+    {
+     "path": "nodes[].data[][]",
+     "n": 55,
+     "sample": "2"
+    },
+    {
+     "path": "nodes[].data[].id",
+     "n": 16,
+     "sample": "4"
+    },
+    {
+     "path": "nodes[].data[].__typename",
+     "n": 13,
+     "sample": "3"
+    },
+    {
+     "path": "nodes[].data[].title",
+     "n": 12,
+     "sample": "5"
+    },
+    {
+     "path": "nodes[].data[].href",
+     "n": 12,
+     "sample": "6"
+    },
+    {
+     "path": "nodes[].data[].visual",
+     "n": 5,
+     "sample": "7"
+    },
+    {
+     "path": "nodes[].data[].parent",
+     "n": 4,
+     "sample": "22"
+    },
+    {
+     "path": "nodes[].data[].legend",
+     "n": 3,
+     "sample": "9"
+    },
+    {
+     "path": "nodes[].data[].copyright",
+     "n": 3,
+     "sample": "10"
+    },
+    {
+     "path": "nodes[].data[].dominant",
+     "n": 3,
+     "sample": "11"
+    },
+    {
+     "path": "nodes[].data[].primitiveDominant",
+     "n": 3,
+     "sample": "12"
+    },
+    {
+     "path": "nodes[].data[].luminance",
+     "n": 3,
+     "sample": "13"
+    },
+    {
+     "path": "nodes[].data[].author",
+     "n": 3,
+     "sample": "14"
+    },
+    {
+     "path": "nodes[].data[].width",
+     "n": 3,
+     "sample": "15"
+    },
+    {
+     "path": "nodes[].data[].height",
+     "n": 3,
+     "sample": "16"
+    },
+    {
+     "path": "nodes[].data[].alt",
+     "n": 3,
+     "sample": "17"
+    },
+    {
+     "path": "nodes[].data[].src",
+     "n": 3,
+     "sample": "18"
+    },
+    {
+     "path": "nodes[].data[].presets",
+     "n": 3,
+     "sample": "19"
+    },
+    {
+     "path": "nodes[].data[].isFallback",
+     "n": 3,
+     "sample": "21"
+    },
+    {
+     "path": "nodes[].uses.search_params[]",
+     "n": 3,
+     "sample": "rfdebug"
+    },
+    {
+     "path": "nodes[].data[].label",
+     "n": 3,
+     "sample": "3"
+    },
+    {
+     "path": "nodes[].data[].link",
+     "n": 3,
+     "sample": "4"
+    },
+    {
+     "path": "nodes[].type",
+     "n": 2,
+     "sample": "data"
+    },
+    {
+     "path": "nodes[].data[].station",
+     "n": 2,
+     "sample": "290"
+    },
+    {
+     "path": "nodes[].uses.url",
+     "n": 2,
+     "sample": "1"
+    },
+    {
+     "path": "nodes[].data[].seo",
+     "n": 2,
+     "sample": "510"
+    },
+    {
+     "path": "nodes[]",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "data"
+    },
+    {
+     "path": "nodes[].data[].alert",
+     "n": 1,
+     "sample": "-1"
+    },
+    {
+     "path": "nodes[].data[].categories",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "nodes[].data[].breadcrumb",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "nodes[].data[].content",
+     "n": 1,
+     "sample": "11"
+    },
+    {
+     "path": "nodes[].data[].contentType",
+     "n": 1,
+     "sample": "12"
+    },
+    {
+     "path": "nodes[].data[].displayFormat",
+     "n": 1,
+     "sample": "-1"
+    },
+    {
+     "path": "nodes[].data[].hasLocales",
+     "n": 1,
+     "sample": "51"
+    },
+    {
+     "path": "nodes[].data[].pageType",
+     "n": 1,
+     "sample": "12"
+    },
+    {
+     "path": "nodes[].data[].selectedLocale",
+     "n": 1,
+     "sample": "-1"
+    },
+    {
+     "path": "nodes[].data[].path",
+     "n": 1,
+     "sample": "14"
+    },
+    {
+     "path": "nodes[].data[].role",
+     "n": 1,
+     "sample": "15"
+    },
+    {
+     "path": "nodes[].data[].chapo",
+     "n": 1,
+     "sample": "10"
+    },
+    {
+     "path": "nodes[].data[].tags",
+     "n": 1,
+     "sample": "16"
+    },
+    {
+     "path": "nodes[].data[].bodyJson",
+     "n": 1,
+     "sample": "17"
+    },
+    {
+     "path": "nodes[].data[].seoTitle",
+     "n": 1,
+     "sample": "10"
+    },
+    {
+     "path": "nodes[].data[].seoDescription",
+     "n": 1,
+     "sample": "10"
+    },
+    {
+     "path": "nodes[].data[].seoCanonicalUrl",
+     "n": 1,
+     "sample": "18"
+    },
+    {
+     "path": "nodes[].data[].sitemap",
+     "n": 1,
+     "sample": "19"
+    },
+    {
+     "path": "nodes[].data[].highlights",
+     "n": 1,
+     "sample": "20"
+    },
+    {
+     "path": "nodes[].data[].relatedTags",
+     "n": 1,
+     "sample": "21"
+    },
+    {
+     "path": "nodes[].data[].automaticRelatedTags",
+     "n": 1,
+     "sample": "35"
+    },
+    {
+     "path": "nodes[].data[].documents",
+     "n": 1,
+     "sample": "39"
+    },
+    {
+     "path": "nodes[].data[].interpretationItems",
+     "n": 1,
+     "sample": "464"
+    },
+    {
+     "path": "nodes[].data[].pagination",
+     "n": 1,
+     "sample": "465"
+    },
+    {
+     "path": "nodes[].data[].relatedConcepts",
+     "n": 1,
+     "sample": "467"
+    },
+    {
+     "path": "nodes[].data[].items",
+     "n": 1,
+     "sample": "40"
+    },
+    {
+     "path": "nodes[].data[].next",
+     "n": 1,
+     "sample": "462"
+    },
+    {
+     "path": "nodes[].data[].prev",
+     "n": 1,
+     "sample": "-1"
+    },
+    {
+     "path": "nodes[].data[].total",
+     "n": 1,
+     "sample": "463"
+    },
+    {
+     "path": "nodes[].data[].kind",
+     "n": 1,
+     "sample": "43"
+    },
+    {
+     "path": "nodes[].data[].publishedDate",
+     "n": 1,
+     "sample": "44"
+    },
+    {
+     "path": "nodes[].data[].type",
+     "n": 1,
+     "sample": "45"
+    },
+    {
+     "path": "nodes[].data[].brand",
+     "n": 1,
+     "sample": "46"
+    },
+    {
+     "path": "nodes[].data[].conceptId",
+     "n": 1,
+     "sample": "47"
+    },
+    {
+     "path": "nodes[].data[].duration",
+     "n": 1,
+     "sample": "48"
+    },
+    {
+     "path": "nodes[].data[].endDate",
+     "n": 1,
+     "sample": "49"
+    },
+    {
+     "path": "nodes[].data[].isTimeshiftable",
+     "n": 1,
+     "sample": "51"
+    },
+    {
+     "path": "nodes[].data[].manifestation",
+     "n": 1,
+     "sample": "52"
+    },
+    {
+     "path": "nodes[].data[].startDate",
+     "n": 1,
+     "sample": "54"
+    },
+    {
+     "path": "nodes[].data[].titleProps",
+     "n": 1,
+     "sample": "55"
+    },
+    {
+     "path": "nodes[].data[].concept",
+     "n": 1,
+     "sample": "71"
+    },
+    {
+     "path": "nodes[].uses.dependencies[]",
+     "n": 1,
+     "sample": "app:pagination"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "nodes[].data[]",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "nodes[].data[]",
+     "value": "personnes/mark-twain"
+    },
+    {
+     "path": "nodes[].data[]",
+     "value": "https://www.radiofrance.fr/personnes/mark-twain"
+    }
+   ],
+   "language_like_keys": [
+    "alt",
+    "id",
+    "seo",
+    "src",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 2058,
+   "path_count": 12,
+   "paths": [
+    {
+     "path": "versions[].ver",
+     "n": 45,
+     "sample": "1.0.0-rc6"
+    },
+    {
+     "path": "shared_major_files.2[]",
+     "n": 4,
+     "sample": "batchsdk-iframe-worker-loader.js"
+    },
+    {
+     "path": "shared_major_files.4[]",
+     "n": 3,
+     "sample": "bootstrap.min.js"
+    },
+    {
+     "path": "shared_major_files.5[]",
+     "n": 3,
+     "sample": "bootstrap.min.js"
+    },
+    {
+     "path": "shared_major_files.3[]",
+     "n": 2,
+     "sample": "bootstrap.min.js"
+    },
+    {
+     "path": "format",
+     "n": 1,
+     "sample": "2"
+    },
+    {
+     "path": "shared_major_files.1[]",
+     "n": 1,
+     "sample": "bootstrap.min.js"
+    },
+    {
+     "path": "latest.1",
+     "n": 1,
+     "sample": "1.1.5"
+    },
+    {
+     "path": "latest.2",
+     "n": 1,
+     "sample": "2.3.0"
+    },
+    {
+     "path": "latest.3",
+     "n": 1,
+     "sample": "3.5.0"
+    },
+    {
+     "path": "latest.4",
+     "n": 1,
+     "sample": "4.4.0"
+    },
+    {
+     "path": "latest.5",
+     "n": 1,
+     "sample": "5.0.0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ver"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 19154,
+   "path_count": 100,
+   "paths": [
+    {
+     "path": "adUnits[].bidders[].adUnitMediaTypes[]",
+     "n": 50,
+     "sample": "Banner"
+    },
+    {
+     "path": "adUnits[].bidders[].bidder",
+     "n": 39,
+     "sample": "criteo"
+    },
+    {
+     "path": "adUnits[].sizes[][]",
+     "n": 38,
+     "sample": "970"
+    },
+    {
+     "path": "adUnits[].bidders[].params.siteId",
+     "n": 8,
+     "sample": "808986"
+    },
+    {
+     "path": "adUnits[].floors.schema.fields[]",
+     "n": 8,
+     "sample": "mediaType"
+    },
+    {
+     "path": "adUnits[].bidders[].params.placementId",
+     "n": 6,
+     "sample": "24953952"
+    },
+    {
+     "path": "adUnits[].extraAdServerSizes[][]",
+     "n": 6,
+     "sample": "5"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.bidderAliases[].bidderLabel",
+     "n": 6,
+     "sample": "gingerad"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.bidderAliases[].bidderSource",
+     "n": 6,
+     "sample": "msft"
+    },
+    {
+     "path": "refreshConfig.adUnitConfig[].specificRules[].sizes[][]",
+     "n": 6,
+     "sample": "1800"
+    },
+    {
+     "path": "adUnits[].bidders[].params.pid",
+     "n": 5,
+     "sample": "JWf9R2WgqC"
+    },
+    {
+     "path": "adUnits[].bidders[].params.supplyType",
+     "n": 5,
+     "sample": "site"
+    },
+    {
+     "path": "adUnits[].bidders[].params.pageId",
+     "n": 5,
+     "sample": "1554990"
+    },
+    {
+     "path": "adUnits[].mediaTypes[]",
+     "n": 5,
+     "sample": "Banner"
+    },
+    {
+     "path": "gamConfig.adUnitPathConfig[]",
+     "n": 5,
+     "sample": "site_name"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.priceGranularity.buckets[].increment",
+     "n": 5,
+     "sample": "0.01"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.priceGranularity.buckets[].max",
+     "n": 5,
+     "sample": "5"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.priceGranularity.buckets[].precision",
+     "n": 5,
+     "sample": "2"
+    },
+    {
+     "path": "refreshConfig.adUnitConfig[].specificRules[].bidders[]",
+     "n": 5,
+     "sample": "beop"
+    },
+    {
+     "path": "adUnits[].adFormat",
+     "n": 4,
+     "sample": "CUSTOM"
+    },
+    {
+     "path": "adUnits[].adServerAdUnitName",
+     "n": 4,
+     "sample": "banniere_haute"
+    },
+    {
+     "path": "adUnits[].adUnitName",
+     "n": 4,
+     "sample": "banniere_haute_desktop_RF"
+    },
+    {
+     "path": "adUnits[].bidders[].params.networkId",
+     "n": 4,
+     "sample": "8230"
+    },
+    {
+     "path": "adUnits[].bidders[].params.pubid",
+     "n": 4,
+     "sample": "104825"
+    },
+    {
+     "path": "adUnits[].bidders[].params.publisherSubId",
+     "n": 4,
+     "sample": "RF_radio_france_radiofrance_banniere_haute"
+    },
+    {
+     "path": "adUnits[].bidders[].params.adUnitId",
+     "n": 4,
+     "sample": "wd-hb-stdb-radiof-mpubl-pxoymmlvyd5k"
+    },
+    {
+     "path": "adUnits[].bidders[].params.assetKey",
+     "n": 4,
+     "sample": "OGY-9E67E80019AE"
+    },
+    {
+     "path": "adUnits[].bidders[].params.keywords.pos[]",
+     "n": 4,
+     "sample": "banniere_haute"
+    },
+    {
+     "path": "adUnits[].bidders[].params.code",
+     "n": 4,
+     "sample": "radiofrance.fr_rg_atf_mban_desktop"
+    },
+    {
+     "path": "adUnits[].bidders[].params.owner",
+     "n": 4,
+     "sample": "mpublicite"
+    },
+    {
+     "path": "adUnits[].bidders[].params.formatId",
+     "n": 4,
+     "sample": "70664"
+    },
+    {
+     "path": "adUnits[].bidders[].params.inventoryCode",
+     "n": 4,
+     "sample": "RadioFrance_HB_Desktop_banniere_haute"
+    },
+    {
+     "path": "adUnits[].bidders[].params.publisherId",
+     "n": 4,
+     "sample": "1"
+    },
+    {
+     "path": "adUnits[].bidders[].params.supplySourceId",
+     "n": 4,
+     "sample": "directif7510ka"
+    },
+    {
+     "path": "adUnits[].canNative",
+     "n": 4,
+     "sample": "False"
+    },
+    {
+     "path": "adUnits[].canOutstream",
+     "n": 4,
+     "sample": "False"
+    },
+    {
+     "path": "adUnits[].divId",
+     "n": 4,
+     "sample": "banniere_haute"
+    },
+    {
+     "path": "adUnits[].dynamic",
+     "n": 4,
+     "sample": "False"
+    },
+    {
+     "path": "adUnits[].floors.currency",
+     "n": 4,
+     "sample": "EUR"
+    },
+    {
+     "path": "adUnits[].floors.dynamic",
+     "n": 4,
+     "sample": "True"
+    },
+    {
+     "path": "adUnits[].floors.schema.delimiter",
+     "n": 4,
+     "sample": "|"
+    },
+    {
+     "path": "adUnits[].floors.values.*|*",
+     "n": 4,
+     "sample": "0.15"
+    },
+    {
+     "path": "adUnits[].headerBiddingEnabled",
+     "n": 4,
+     "sample": "True"
+    },
+    {
+     "path": "adUnits[].isInstream",
+     "n": 4,
+     "sample": "False"
+    },
+    {
+     "path": "adUnits[].parallax",
+     "n": 4,
+     "sample": "False"
+    },
+    {
+     "path": "adUnits[].roadblock",
+     "n": 4,
+     "sample": "master"
+    },
+    {
+     "path": "adUnits[].targeting.key",
+     "n": 4,
+     "sample": "pos"
+    },
+    {
+     "path": "adUnits[].targeting.values[]",
+     "n": 4,
+     "sample": "banniere_haute"
+    },
+    {
+     "path": "refreshConfig.adUnitConfig[].adUnitNames[]",
+     "n": 4,
+     "sample": "banniere_haute_desktop_RF"
+    },
+    {
+     "path": "adUnits[].bidders[].params.customEndpoint",
+     "n": 1,
+     "sample": "https://prebid.videostep.com/Bid/VideoAdContent"
+    },
+    {
+     "path": "adUnits[].extraAdServerSizes[]",
+     "n": 1,
+     "sample": "fluid"
+    },
+    {
+     "path": "gamConfig.networkId",
+     "n": 1,
+     "sample": "128139881"
+    },
+    {
+     "path": "lazyLoading.configName",
+     "n": 1,
+     "sample": "3 vp fetch 2 vp render - google"
+    },
+    {
+     "path": "lazyLoading.lazyLoadingGoogle.googleFetchMarginPercent",
+     "n": 1,
+     "sample": "300"
+    },
+    {
+     "path": "lazyLoading.lazyLoadingGoogle.googleMobileScaling",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "lazyLoading.lazyLoadingGoogle.googleRenderMarginPercent",
+     "n": 1,
+     "sample": "200"
+    },
+    {
+     "path": "prebidConfig.adCallTimeout",
+     "n": 1,
+     "sample": "3000"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.allowLocalStorage",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.adServerCurrency",
+     "n": 1,
+     "sample": "EUR"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.conversionRateFile",
+     "n": 1,
+     "sample": "https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.AUD",
+     "n": 1,
+     "sample": "1.5428866366366365"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.BGN",
+     "n": 1,
+     "sample": "1.8353978978978978"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.BRL",
+     "n": 1,
+     "sample": "5.119463213213213"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.CAD",
+     "n": 1,
+     "sample": "1.3743430930930929"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.CHF",
+     "n": 1,
+     "sample": "0.9126313813813813"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.CNY",
+     "n": 1,
+     "sample": "7.238551051051051"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.CZK",
+     "n": 1,
+     "sample": "23.765015015015013"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.DKK",
+     "n": 1,
+     "sample": "7.001313813813813"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.EUR",
+     "n": 1,
+     "sample": "0.9384384384384383"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.GBP",
+     "n": 1,
+     "sample": "0.8014733483483483"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.HKD",
+     "n": 1,
+     "sample": "7.82835960960961"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.HUF",
+     "n": 1,
+     "sample": "369.9793543543543"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.IDR",
+     "n": 1,
+     "sample": "16058.352102102099"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.ILS",
+     "n": 1,
+     "sample": "3.7141516516516515"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.INR",
+     "n": 1,
+     "sample": "83.42248498498498"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.ISK",
+     "n": 1,
+     "sample": "141.42267267267266"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.JPY",
+     "n": 1,
+     "sample": "153.95082582582583"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.KRW",
+     "n": 1,
+     "sample": "1383.061186186186"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.MXN",
+     "n": 1,
+     "sample": "16.56916291291291"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.MYR",
+     "n": 1,
+     "sample": "4.778997747747748"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.NOK",
+     "n": 1,
+     "sample": "10.910285285285283"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.NZD",
+     "n": 1,
+     "sample": "1.6838400900900898"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.PHP",
+     "n": 1,
+     "sample": "56.82995495495495"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.PLN",
+     "n": 1,
+     "sample": "4.029466966966966"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.RON",
+     "n": 1,
+     "sample": "4.667980480480479"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.SEK",
+     "n": 1,
+     "sample": "10.846753003003002"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.SGD",
+     "n": 1,
+     "sample": "1.3605480480480479"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.THB",
+     "n": 1,
+     "sample": "36.71546546546546"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.TRY",
+     "n": 1,
+     "sample": "32.40343468468468"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.USD",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.currency.defaultRates.USD.ZAR",
+     "n": 1,
+     "sample": "18.962743993993993"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.floors",
+     "n": 1,
+     "sample": "{}"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.realTimeData.auctionDelay",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.realTimeData.dataProviders[].name",
+     "n": 1,
+     "sample": "ias"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.realTimeData.dataProviders[].params.pubId",
+     "n": 1,
+     "sample": "931645"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.realTimeData.dataProviders[].waitForIt",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "prebidConfig.pbjsConfig.targetingBehaviors.sendKVTargetings",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "refreshConfig.adUnitConfig[].specificRules[].timer",
+     "n": 1,
+     "sample": "60"
+    },
+    {
+     "path": "refreshConfig.adUnitConfig[].timer",
+     "n": 1,
+     "sample": "45"
+    },
+    {
+     "path": "tamConfig.apsPubId",
+     "n": 1,
+     "sample": "3789"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "key",
+    "max",
+    "pid",
+    "pos[]"
+   ]
+  }
+ ],
+ "llm_notes": "Radio France personality page 'Mark Twain': a feed of ~20 podcast episodes about or adapting him (France Culture 'Une Nuit avec Mark Twain' series, Book Club on Percival Everett's 'James', etc.). No biography block; facts come from episode blurbs. Episode blurbs contain typos in his dates ('1935-1910', '1835-910'). Topic tags: Littérature américaine, Littérature audio, Discriminations - Racisme.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

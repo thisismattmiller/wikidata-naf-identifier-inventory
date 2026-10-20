@@ -1,0 +1,169 @@
+{
+ "property": "P10757",
+ "label": "Personality Database profile ID",
+ "files_read": [
+  "P10757__973/xhr_1.json",
+  "P10757__973/xhr_7.json",
+  "P10757__973/xhr_12.json"
+ ],
+ "about_entity": true,
+ "notes": "xhr_1.json is an ad-blocker/consent overlay config (page chrome, not about the entity - nothing extracted). xhr_7.json is the PDB profile 973 API record (Wikipedia-derived description, MBTI typing); xhr_12.json lists related works/fictional subcategories and other people's profiles (only works grouped under 'Mark Twain' kept).",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "xhr_7.json: $.mbti_profile"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description ('better known by his pen name Mark Twain')"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "November 30, 1835",
+    "lang": null,
+    "via": "xhr_7.json: $.wiki_description"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "April 21, 1910",
+    "lang": null,
+    "via": "xhr_7.json: $.wiki_description"
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description ('raised in')"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description"
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description"
+   },
+   {
+    "value": "entrepreneur",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description"
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description"
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description"
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Writers (Literature, Classic)",
+    "lang": "en",
+    "via": "xhr_7.json: $.subcategory"
+   },
+   {
+    "value": "Writers (Literature, English)",
+    "lang": "en",
+    "via": "xhr_7.json: $.related_subcategories"
+   },
+   {
+    "value": "United States Historical Figures",
+    "lang": "en",
+    "via": "xhr_7.json: $.related_subcategories"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description"
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), better known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. Among his novels are The Adventures of Tom Sawyer (1875) and its sequel, the Adventures of Huckleberry Finn (1885), the latter often called \"The Great American Novel\". Twain was raised in Hannibal, Missouri, which later provided the setting for Tom Sawyer and Huckleberry Finn.",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description"
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "xhr_12.json: $.data.works[?(@.group=='Mark Twain')].name"
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "xhr_12.json: $.data.works[?(@.group=='Mark Twain')].name"
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "raw": "The Adventures of Tom Sawyer (1875)",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description"
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "raw": "the Adventures of Huckleberry Finn (1885)",
+    "lang": "en",
+    "via": "xhr_7.json: $.wiki_description"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "973",
+    "lang": null,
+    "via": "xhr_7.json: $.id"
+   }
+  ],
+  "image": [
+   {
+    "value": "https://static1.personalitydatabase.net/2/pdb-images-prod/d221b003/profile_images/292e9554-8ff2-4fe1-be0a-5b6ee273e467.png",
+    "lang": null,
+    "via": "xhr_7.json: $.profile_image_url"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2015-08-19",
+    "raw": "2015-08-19 02:59:03",
+    "lang": null,
+    "via": "xhr_7.json: $.contributor_create_date"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-03-07",
+    "raw": "2025-03-07 17:46:04",
+    "lang": null,
+    "via": "xhr_7.json: $.type_updated_date (personality type update)"
+   }
+  ]
+ }
+}

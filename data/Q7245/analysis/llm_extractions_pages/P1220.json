@@ -1,0 +1,57 @@
+{
+ "property": "P1220",
+ "label": "Internet Broadway Database person ID",
+ "files_read": ["pages/P1220__11201.txt", "pages/P1220__13531.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "Two IBDB person pages, 11201 'Mark Twain' and 13531 'Samuel Clemens', each cross-referencing the other as 'Also Known As'; both list the same Broadway credits as source-material writer. Only 11201 gives birth/death places.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "en", "via": "page heading (11201)"},
+   {"value": "Samuel Clemens", "lang": "en", "via": "page heading (13531)"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Clemens", "raw": "Samuel Clemens [Birthname]", "lang": "en", "via": "Also Known As (11201)"},
+   {"value": "Mark Twain", "lang": "en", "via": "Also Known As (13531)"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "Nov 30, 1835", "lang": null, "via": "Born (both pages)"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "Apr 21, 1910", "lang": null, "via": "Died (both pages)"}
+  ],
+  "birth_place": [
+   {"value": "Florida, Missouri, USA", "lang": "en", "via": "Born (11201)"}
+  ],
+  "death_place": [
+   {"value": "Redding, Connecticut, USA", "lang": "en", "via": "Died (11201)"}
+  ],
+  "gender": [
+   {"value": "Male", "lang": "en", "via": "Gender"}
+  ],
+  "occupation": [
+   {"value": "Writer Source Material", "lang": "en", "via": "role line under dates"}
+  ],
+  "work": [
+   {"value": "Is He Dead?", "raw": "Play, Original (Dec 09, 2007 - Mar 09, 2008); Written by Mark Twain", "lang": "en", "via": "Credits"},
+   {"value": "The Diary of Adam and Eve", "raw": "basis of The Apple Tree (1966, 2006)", "lang": "en", "via": "Credits"},
+   {"value": "Mark Twain Tonight!", "raw": "From the writings and speeches of Mark Twain (1966, 1977, 2005)", "lang": "en", "via": "Credits"},
+   {"value": "Big River", "raw": "Musical; Adapted from the novel by Mark Twain (1985, 2003)", "lang": "en", "via": "Credits"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "Musical, Original (2001); Based on the novel", "lang": "en", "via": "Credits"},
+   {"value": "Livin' The Life", "raw": "Based on the 'Mississippi River stories' (1957)", "lang": "en", "via": "Credits"},
+   {"value": "A Connecticut Yankee", "raw": "Musical (1927, 1943); Based on the novel", "lang": "en", "via": "Credits"},
+   {"value": "Tom Sawyer", "raw": "Play, Original (1931); from the story", "lang": "en", "via": "Credits"},
+   {"value": "The Prince and the Pauper", "raw": "Play, Original (1920); Based on the story", "lang": "en", "via": "Credits"},
+   {"value": "Shadows of the Past", "raw": "Play, Original (1898); Based on Tom Sawyer", "lang": "en", "via": "Credits"},
+   {"value": "Pudd'n-head Wilson", "raw": "Play, Original (1895); From a story", "lang": "en", "via": "Credits"}
+  ],
+  "related_agent": [
+   {"value": "Frank R. Stockton (co-source of The Apple Tree)", "lang": "en", "via": "Credits"},
+   {"value": "Jules Feiffer (co-source of The Apple Tree)", "lang": "en", "via": "Credits"}
+  ],
+  "identifier": [
+   {"value": "11201", "via": "URL broadway-cast-staff/11201 (Mark Twain)"},
+   {"value": "13531", "via": "URL broadway-cast-staff/13531 (Samuel Clemens)"}
+  ]
+ }
+}

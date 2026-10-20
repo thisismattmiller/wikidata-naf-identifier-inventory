@@ -1,0 +1,34 @@
+{
+ "property": "P11394",
+ "label": "Internet Sacred Text Archive ID",
+ "files_read": [
+  "P11394__aor_twain_index_2d1b61e7/embedded_opengraph.json",
+  "P11394__aor_twain_index_2d1b61e7/xhr_1.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph of the Mark Twain author index page in the Age of Reason section; og:description describes the collection (five resources), not the person. xhr_1.json is only a category path ('/categories/aor-twain').",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "raw": "MARK TWAIN Books and Texts | Internet Sacred Text Archive",
+    "lang": "en",
+    "via": "P11394__aor_twain_index_2d1b61e7/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "aor/twain/index",
+    "raw": "https://sacred-texts.com/aor/twain/index.htm",
+    "lang": null,
+    "via": "P11394__aor_twain_index_2d1b61e7/embedded_opengraph.json: $[0]['og:url']"
+   },
+   {
+    "value": "aor-twain",
+    "raw": "/categories/aor-twain",
+    "lang": null,
+    "via": "P11394__aor_twain_index_2d1b61e7/xhr_1.json: $.path"
+   }
+  ]
+ }
+}

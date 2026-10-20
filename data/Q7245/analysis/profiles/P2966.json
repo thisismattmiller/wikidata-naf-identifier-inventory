@@ -1,0 +1,201 @@
+{
+ "property": "P2966",
+ "property_label": "National Library of Wales Authority ID",
+ "files": [
+  {
+   "file": "P2966__clemens-samuel-langhorne-1835-1910/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://archives.library.wales/index.php/clemens-samuel-langhorne-1835-1910"
+  },
+  {
+   "file": "P2966__clemens-samuel-langhorne-1835-1910/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cookies.library.wales/?addscript=1&site=archives.library.wales"
+  },
+  {
+   "file": "P2966__clemens-samuel-langhorne-1835-1910/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://archives.library.wales/index.php/user/clipboardStatus"
+  },
+  {
+   "file": "P2966__clemens-samuel-langhorne-1835-1910/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://apikeys.civiccomputing.com/c/v?d=archives.library.wales&p=CookieControl%20Multi-Site&v=9&k=61cf6f8a977487d8a53ea3a771239c431f99892c&format=json"
+  },
+  {
+   "file": "P2966__clemens-samuel-langhorne-1835-1910/browser_xhr_1.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://cookies.library.wales/?addscript=1&site=archives.library.wales"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "unknown": 1,
+  "html": 1,
+  "json": 1,
+  "xml": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910.",
+    "lang": "en",
+    "via": "llm-page:Authorized form of name",
+    "file": "P2966.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:dates in authorized form of name",
+    "file": "P2966.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:dates in authorized form of name",
+    "file": "P2966.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "General correspondence",
+    "lang": "en",
+    "via": "llm-page:Subject of: archival description linked to this authority",
+    "file": "P2966.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "lcnaf",
+    "lang": null,
+    "via": "llm-page:Control area: Sources",
+    "file": "P2966.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "work": [
+   "en"
+  ],
+  "source": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 327,
+   "path_count": 15,
+   "paths": [
+    {
+     "path": "valid",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "format",
+     "n": 1,
+     "sample": "fields"
+    },
+    {
+     "path": "product",
+     "n": 1,
+     "sample": "CookieControl Multi-Site"
+    },
+    {
+     "path": "version",
+     "n": 1,
+     "sample": "8"
+    },
+    {
+     "path": "domain",
+     "n": 1,
+     "sample": "archives.library.wales"
+    },
+    {
+     "path": "record_consent_state",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "geo.success",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "geo.country",
+     "n": 1,
+     "sample": "US"
+    },
+    {
+     "path": "geo.countryName",
+     "n": 1,
+     "sample": "United States"
+    },
+    {
+     "path": "geo.continent",
+     "n": 1,
+     "sample": "North America"
+    },
+    {
+     "path": "geo.european_union",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "geo.gdpr_applies",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "geo.state",
+     "n": 1,
+     "sample": "DC"
+    },
+    {
+     "path": "geo.ccpa_applies",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "geo._source",
+     "n": 1,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Minimal AtoM authority record at NLW Archives: type Person, authorized form of name, source lcnaf, and one linked archival description (General correspondence). Nothing else.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

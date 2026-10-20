@@ -1,0 +1,688 @@
+{
+ "property": "P3417",
+ "property_label": "Quora topic ID",
+ "value": "Mark-Twain-author",
+ "url": "https://www.quora.com/topic/Mark-Twain-author",
+ "crawled_at": "2026-10-02T21:31:12+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://www.quora.com/topic/Mark-Twain-author",
+ "tab_title": "Mark Twain (author) - Quora",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P3417__Mark-Twain-author.jpg",
+ "elapsed_seconds": 4.8,
+ "html_file": "pages/P3417__Mark-Twain-author.html",
+ "text_file": "pages/P3417__Mark-Twain-author.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://www.quora.com/topic/Mark-Twain-author",
+  "title": "Mark Twain (author) - Quora",
+  "content_type": "text/html",
+  "lang": "en",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 403,
+   "url": "https://www.quora.com/topic/Mark-Twain-author",
+   "headers": {
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a446d017ccb3e5ff-IAD",
+    "content-encoding": "br",
+    "content-type": "text/html",
+    "date": "Fri, 02 Oct 2026 21:31:14 GMT",
+    "etag": "W/\"6a9a09d5-bc2\"",
+    "priority": "u=1,i",
+    "server": "cloudflare",
+    "server-timing": "cfExtPri",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "x-q-stat": ",60e69034e00e8b82723db35eac1b2495,10.0.0.29,61628,71.178.36.215,,181065059559,1,1790976674.537,0.000,,.,0,0,,,,,,,275,137,10,34729,,,,,,-,"
+   }
+  },
+  "link_elements": [
+   {
+    "rel": "canonical",
+    "type": null,
+    "href": "https://www.quora.com/topic/Mark-Twain-author",
+    "title": null,
+    "hreflang": null
+   }
+  ],
+  "jsonld": [],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": [
+    "og: http://ogp.me/ns#"
+   ]
+  },
+  "meta": [
+   {
+    "key": "robots",
+    "content": "noarchive"
+   },
+   {
+    "key": "fb:app_id",
+    "content": "136609459636"
+   },
+   {
+    "key": "og:title",
+    "content": "Mark Twain (author)"
+   },
+   {
+    "key": "og:type",
+    "content": "article"
+   },
+   {
+    "key": "og:site_name",
+    "content": "Quora"
+   },
+   {
+    "key": "og:image",
+    "content": "https://qph.cf2.quoracdn.net/main-thumb-t-1057-200-MQdtRT8yczjUeTvfCqJYy5nJoxrSKuzb.jpeg"
+   },
+   {
+    "key": "og:url",
+    "content": "https://www.quora.com/topic/Mark-Twain-author"
+   },
+   {
+    "key": "twitter:card",
+    "content": "summary_large_image"
+   },
+   {
+    "key": "twitter:site",
+    "content": "@Quora"
+   },
+   {
+    "key": "twitter:url",
+    "content": "https://www.quora.com/topic/Mark-Twain-author"
+   },
+   {
+    "key": "twitter:title",
+    "content": "Mark Twain (author)"
+   },
+   {
+    "key": "twitter:description",
+    "content": ""
+   },
+   {
+    "key": "twitter:image",
+    "content": "https://qph.cf2.quoracdn.net/main-thumb-t-1057-200-MQdtRT8yczjUeTvfCqJYy5nJoxrSKuzb.jpeg"
+   },
+   {
+    "key": "fb:pages",
+    "content": "255232486973"
+   },
+   {
+    "key": "twitter:widgets:theme",
+    "content": "light"
+   }
+  ],
+  "machine_links": [],
+  "xhr_requests": [
+   {
+    "url": "https://www.quora.com/ajax/receive_POST",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://www.quora.com/graphql/gql_para_POST?q=TopicReadMultifeedLoggedOut_Query",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://www.quora.com/graphql/gql_para_POST?q=facebookAutoLogin_Query",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://www.facebook.com/x/oauth/status?client_id=136609459636&input_token&origin=1&redirect_uri=https%3A%2F%2Fwww.quora.com%2Ftopic%2FMark-Twain-author&sdk=joey&wants_cookie_data=false",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "text/plain"
+   },
+   {
+    "url": "https://www.quora.com/graphql/gql_para_POST?q=MultifeedQuery",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://www.quora.com/ajax/receive_POST",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-27-3c485d23e9a3233f.webpack",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 4745
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-vendor-27-efcbbb4581a69569.webpack",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 141657
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-component-Multifeed-27-133c506775c3d402.webpack",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 90124
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-component-TopicTab-ReadWrite-27-241abffc01cd8ee5.webpack",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 15553
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-page-TopicPageLoadable-27-7f974d8499b55794.webpack",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 12111
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-common-27-4c308776694c5511.webpack",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 283149
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-common-LoggedOut-27-068f2aa003dfc005.webpack",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 13339
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-main.css-28-8ac5ceb20b8ddf43.webpack",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 15582
+   },
+   {
+    "url": "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/cye4r/0x4AAAAAACs1vyrFg5qfMvyE/auto/fbE/new/flexible?lang=auto",
+    "initiator": "iframe",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-t-1057-100-MQdtRT8yczjUeTvfCqJYy5nJoxrSKuzb.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 3717
+   },
+   {
+    "url": "https://www.quora.com/ajax/receive_POST",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 343
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-query-ReloadableTopicFollow_topicQuery.graphql-27-0f275c57eb16b209.webpack",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 806
+   },
+   {
+    "url": "https://www.quora.com/graphql/gql_para_POST?q=TopicReadMultifeedLoggedOut_Query",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 19961
+   },
+   {
+    "url": "https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.favicon-new.ico-26-e7e93fe0a7fbc991.ico",
+    "initiator": "other",
+    "status": null,
+    "content_type": null,
+    "bytes": 7773
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-vendor-secondary-27-3646e751af6876d4.webpack",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 5615
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-component-TurnstileChallengeOverlayContent-27-3886c0b0fa131121.webpack",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 1423
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-lib-broadcast-27-f2155fb6346484ae.webpack",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 3432
+   },
+   {
+    "url": "https://www.quora.com/ads/eyeo?ch=2&rn=3.675428232209305",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/gif",
+    "bytes": 343
+   },
+   {
+    "url": "https://www.quora.com/ads/eyeo?ch=1&rn=3.675428232209305",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/gif",
+    "bytes": 343
+   },
+   {
+    "url": "https://idsync.rlcdn.com/709318.gif?partner_uid=f598df974f58551c496e32b3857495dc",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 342
+   },
+   {
+    "url": "https://vi.ml314.com/get?eid=93060&tk=XdHaq35KsYPmAPxTo4ANIKy2WMRwai1noxdleKX6DIs3d&fp=",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://accounts.google.com/gsi/client",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-common-secondary-27-c1bb77918bb10c1a.webpack",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 20098
+   },
+   {
+    "url": "https://www.quora.com/graphql/gql_para_POST?q=facebookAutoLogin_Query",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 575
+   },
+   {
+    "url": "https://accounts.google.com/gsi/style",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://connect.facebook.net/en_US/sdk.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://connect.facebook.net/en_US/bundle/sdk.js/",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://www.quora.com/security_reports/content_security_policy_violation_3RD_PARTY_POST",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 320
+   },
+   {
+    "url": "https://www.facebook.com/x/oauth/status?client_id=136609459636&input_token&origin=1&redirect_uri=https%3A%2F%2Fwww.quora.com%2Ftopic%2FMark-Twain-author&sdk=joey&wants_cookie_data=false",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "text/plain",
+    "bytes": null
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-6248f32b947688b086840f3600fa8943-lq",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 77798
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-1e01f97aa5cad15b8bb960d834834b21.webp",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 151058
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-278323786cec8ac0452007c16a53453f",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 24144
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-21ae377a0d89e2cbbf56263517362175",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 45255
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-823a174358d0c7e9efd303ef5b795623",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 458060
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-query-MultifeedQuery-27-4de9a20bcfc63d48.webpack",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 13515
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-254423883-50-wwiqetaxnvfbqwczsxfrhpwtrhydwtbz.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2338
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-1617771891-50-mpycaturrawgectepietrermjooqkzcq.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 1603
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-3165668211-50-kustesvqlcclfxxfxvykihrkyyzugjfu.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2301
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-73059017-50-rushtfyqismtuutsgmctxjljwkafowvk.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2254
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-1336634161-50-ejtynfpznmmhastsutwvawvfesmumnop.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 1026
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-40567117-50-dqscepqphhpxqcfswtjgfwhmfrgjatwf.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 1838
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-1588994261-50-cmtoimbnxthhohrxastqovdrnonyaqaf.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 1824
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-323564080-50-aachkzrqdplgovxrcxzxjcddyzvvlcdl.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2374
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-199317447-50-zzrnvfxzwoaatsavpzlujylazjvyomde.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2169
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-48515263-50-izwzsztajjxjjkzgzuuomahcettpjrsv.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 1744
+   },
+   {
+    "url": "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-component-icons-lowpri-27-b3e262ef653a5e59.webpack",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 31653
+   },
+   {
+    "url": "https://www.quora.com/graphql/gql_para_POST?q=MultifeedQuery",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 32129
+   },
+   {
+    "url": "https://www.quora.com/ajax/widget_emit_POST",
+    "initiator": "beacon",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 320
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-b892da9f1761e016b79bda06ca9eccfb",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 76645
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-5ae4e090e1e357633c45b8786fb48703",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 556621
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-a7d785e455981c92e51008196aee0872",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 97507
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-45d8bbe04756197598acc192858fbe21",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 178833
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-db4cd2f7482275b901a868ea3ebf61aa-lq",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 57545
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-59ac721a221ca1270b64168b3eceb344",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 256408
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-4b16c4e1170762ad12209c9be0df5c08",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 1359710
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-qimg-419b90656a3d09a2dcd7d81965d01b81",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": 3089085
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-37067993-50-qklmfqllsxbqbblbxkuetvaudthtvxpl.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2146
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-105019410-50-pdgjhzmxfcedenxnoaudaqjmhvflyctw.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2135
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-208406232-50-fqhmzeswxucsdifetjisluybraaxrqfp.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 1934
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-9834536-50-G2Y4sFsHpR8zQRJ5oTL3taFv70Q4VrID.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 1820
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-878633800-50-medhjfptrjlnbmmaotyyapoatidoiryo.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2206
+   },
+   {
+    "url": "https://qsf.cf2.quoracdn.net/-4-images.new_grid.profile_default.png-26-688c79556f251aa0.png",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2854
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-686916295-50-vkhktxvntgopcduiihsywhndhwatatrl.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2076
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-279397249-50-onxgebmbwxxzinwptovovvpmgafnbnqw.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2113
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-2280045359-50-ovecxyqyykjymtpdjmbvoztlapxkqbvs.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2150
+   },
+   {
+    "url": "https://qph.cf2.quoracdn.net/main-thumb-431101561-50-zcsiajlwcodecmirsuzekceopruhqtiv.jpeg",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": 2118
+   },
+   {
+    "url": "https://www.quora.com/ajax/receive_POST",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 343
+   }
+  ],
+  "third_party_hosts": {
+   "qsbr.cf2.quoracdn.net": 15,
+   "challenges.cloudflare.com": 2,
+   "qph.cf2.quoracdn.net": 33,
+   "qsf.fs.quoracdn.net": 1,
+   "idsync.rlcdn.com": 1,
+   "vi.ml314.com": 1,
+   "accounts.google.com": 2,
+   "connect.facebook.net": 2,
+   "www.facebook.com": 1,
+   "qsf.cf2.quoracdn.net": 1
+  },
+  "scripts": [
+   "https://connect.facebook.net/en_US/bundle/sdk.js/",
+   "https://vi.ml314.com/get?eid=93060&tk=XdHaq35KsYPmAPxTo4ANIKy2WMRwai1noxdleKX6DIs3d&fp=",
+   "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-27-3c485d23e9a3233f.webpack",
+   "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-vendor-27-efcbbb4581a69569.webpack",
+   "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-common-27-4c308776694c5511.webpack",
+   "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-page-TopicPageLoadable-27-7f974d8499b55794.webpack",
+   "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-component-Multifeed-27-133c506775c3d402.webpack",
+   "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-component-TopicTab-ReadWrite-27-241abffc01cd8ee5.webpack",
+   "https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-rspack-common-LoggedOut-27-068f2aa003dfc005.webpack",
+   "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit",
+   "https://accounts.google.com/gsi/client",
+   "https://connect.facebook.net/en_US/sdk.js"
+  ],
+  "iframes": [],
+  "forms": [],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [
+    "sign in"
+   ],
+   "not_found_words": []
+  },
+  "text_length": 9206,
+  "html_length": 321620
+ }
+}

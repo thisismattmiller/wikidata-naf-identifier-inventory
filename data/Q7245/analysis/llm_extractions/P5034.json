@@ -1,0 +1,265 @@
+{
+ "property": "P5034",
+ "label": "National Library of Korea ID",
+ "files_read": [
+  "P5034__KAC199605242/export_5.json"
+ ],
+ "about_entity": true,
+ "notes": "National Library of Korea LOD record (RDF/JSON) for KAC199605242 'Twain, Mark'. The nlon:create property lists 1346 work/manifestation URIs (e.g. http://lod.nl.go.kr/resource/KJU200903237) with no titles, so no work titles could be extracted; the Korean titles in dc:source are cited sources. Odd: occupation includes 발명가 (inventor).",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#prefLabel'][0]"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "클레멘스, 새뮤얼 랭혼",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][0]"
+   },
+   {
+    "value": "트웨인, 마아크",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][1]"
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "en",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][2]"
+   },
+   {
+    "value": "트웨인, 마크",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][3]"
+   },
+   {
+    "value": "클레멘스, 사무엘 랭혼",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][4]"
+   },
+   {
+    "value": "클레먼스, 새뮤얼 랭혼",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][5]"
+   },
+   {
+    "value": "토온, 마극",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][6]"
+   },
+   {
+    "value": "투원, 마커",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][7]"
+   },
+   {
+    "value": "Snodgrass, Thomas Jefferson",
+    "lang": "en",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][8]"
+   },
+   {
+    "value": "吐温, 马克",
+    "lang": "zh",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][9]"
+   },
+   {
+    "value": "스노디글래스, 토머스 제퍼슨",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][10]"
+   },
+   {
+    "value": "トウェーン, マーク",
+    "lang": "ja",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][11]"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Snodgrass, Thomas Jefferson",
+    "lang": "en",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][8] (Thomas Jefferson Snodgrass, a Twain pseudonym, recorded as altLabel)"
+   },
+   {
+    "value": "스노디글래스, 토머스 제퍼슨",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2004/02/skos/core#altLabel'][10] (Thomas Jefferson Snodgrass, a Twain pseudonym, recorded as altLabel)"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "raw": "1835",
+    "lang": null,
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://lod.nl.go.kr/ontology/birthYear'][0]"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "raw": "1910",
+    "lang": null,
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://lod.nl.go.kr/ontology/deathYear'][0]"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "미국 (플로리다)",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://schema.org/birthPlace'][0]"
+   }
+  ],
+  "gender": [
+   {
+    "value": "남성",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://schema.org/gender'][0]"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "소설가[小說家]",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://schema.org/jobTitle'][0]"
+   },
+   {
+    "value": "작가(사람)[作家]",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://schema.org/jobTitle'][1]"
+   },
+   {
+    "value": "발명가[發明家]",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://schema.org/jobTitle'][2]"
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "영미 문학[英美文學]",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://lod.nl.go.kr/ontology/fieldOfActivity'][0]"
+   },
+   {
+    "value": "아동 문학[兒童文學]",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://lod.nl.go.kr/ontology/fieldOfActivity'][1]"
+   }
+  ],
+  "language": [
+   {
+    "value": "영어",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://lod.nl.go.kr/ontology/associatedLanguage'][0]"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://dbpedia.org/resource/Mark_Twain",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][0]"
+   },
+   {
+    "value": "http://d-nb.info/gnd/118624822",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][1]"
+   },
+   {
+    "value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][2]"
+   },
+   {
+    "value": "https://id.oclc.org/worldcat/entity/E39PBJqqvmHvVjHK8C9Fr33fbd",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][3]"
+   },
+   {
+    "value": "http://data.bnf.fr/ark:/12148/cb11927291n#foaf:Person",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][4]"
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][5]"
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][6]"
+   },
+   {
+    "value": "http://vocab.getty.edu/ulan/500020427",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][7]"
+   },
+   {
+    "value": "http://www.idref.fr/027171876/id",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][8]"
+   },
+   {
+    "value": "http://www.isni.org/isni/0000000121324854",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][9]"
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][10]"
+   },
+   {
+    "value": "https://authority.bibsys.no/authority/rest/authorities/html/90056487",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][11]"
+   },
+   {
+    "value": "http://vocab.getty.edu/ulan/500020427-agent",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][12]"
+   },
+   {
+    "value": "http://libris.kb.se/resource/auth/98057",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][13]"
+   },
+   {
+    "value": "http://id.ndl.go.jp/auth/entity/00459304",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][14]"
+   },
+   {
+    "value": "http://datos.bne.es/resource/XX945992",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://www.w3.org/2002/07/owl#sameAs'][15]"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "KAC199605242",
+    "raw": "http://lod.nl.go.kr/resource/KAC199605242",
+    "via": "export_5.json: top-level subject URI"
+   },
+   {
+    "value": "ISNI 0000000121324854",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://lod.nl.go.kr/ontology/isni'][0]"
+   }
+  ],
+  "source": [
+   {
+    "value": "가상국제전거파일(VIAF) http://viaf.org/",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://purl.org/dc/elements/1.1/source'][0]"
+   },
+   {
+    "value": "세균들 사이에서 3,000년, (충남대학교출판문화원), 2022",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://purl.org/dc/elements/1.1/source'][1]"
+   },
+   {
+    "value": "(원서발췌) 허클베리 핀의 모험, (지식을만드는지식), 2023",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://purl.org/dc/elements/1.1/source'][2]"
+   },
+   {
+    "value": "톰 소여의 모험, (다락원), 2012",
+    "lang": "ko",
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://purl.org/dc/elements/1.1/source'][3]"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-06-23",
+    "raw": "2026-06-23T14:13:43",
+    "lang": null,
+    "via": "export_5.json: $['http://lod.nl.go.kr/resource/KAC199605242']['http://purl.org/dc/terms/modified'][0]"
+   }
+  ]
+ }
+}

@@ -1,0 +1,351 @@
+{
+ "property": "P13772",
+ "property_label": "Harper's tag",
+ "files": [
+  {
+   "file": "P13772__mark-twain/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://harpers.org/tag/mark-twain/"
+  },
+  {
+   "file": "P13772__mark-twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://harpers.org/tag/mark-twain/"
+  },
+  {
+   "file": "P13772__mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://harpers.org/tag/mark-twain/"
+  },
+  {
+   "file": "P13772__mark-twain/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://harpers.org/api/paywall/state"
+  },
+  {
+   "file": "P13772__mark-twain/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202609290101&st=env&sjk=2633375214223485"
+  },
+  {
+   "file": "P13772__mark-twain/xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://harpers.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P13772__mark-twain/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://harpers.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 2,
+  "html": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 8,
+  "http://schema.org/": 7,
+  "http://www.w3.org/1999/xhtml/vocab#": 7,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/CollectionPage",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://schema.org/BreadcrumbList",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://wp.harpers.org/tag/mark-twain/",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain Archives | Harper&#039;s Magazine",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P13772.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:teaser 'The enigma of Samuel Clemens'",
+    "file": "P13772.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Dreamland",
+    "lang": "en",
+    "via": "llm-page:articles listed 'by Mark Twain'",
+    "file": "P13772.json",
+    "uri": false
+   },
+   {
+    "value": "Humor",
+    "lang": "en",
+    "via": "llm-page:articles listed 'by Mark Twain'",
+    "file": "P13772.json",
+    "uri": false
+   },
+   {
+    "value": "Sitting in darkness",
+    "lang": "en",
+    "via": "llm-page:articles listed 'by Mark Twain'",
+    "file": "P13772.json",
+    "uri": false
+   },
+   {
+    "value": "Copyright piracy, circa 1872",
+    "lang": "en",
+    "via": "llm-page:articles listed 'by Mark Twain'",
+    "file": "P13772.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Carl Jensen (correspondent; customs officer in Stubbekøbing, Denmark, letter to Mark Twain postmarked October 1, 1879)",
+    "lang": "en",
+    "via": "llm-page:'Incoherence Abroad' teaser",
+    "file": "P13772.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm-page:page URL /tag/mark-twain/",
+    "file": "P13772.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "see_also": [],
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "itemListElement (http://schema.org/)": 2,
+  "isPartOf (http://schema.org/)": 1,
+  "breadcrumb (http://schema.org/)": 1,
+  "inLanguage (http://schema.org/)": 1,
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 362,
+   "path_count": 9,
+   "paths": [
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "en_US"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain Archives"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Harper's Magazine"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://wp.harpers.org/wp-content/uploads/2023/06/harpers-d-1500x500-1.jpeg"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "1500"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "[].og:image:type",
+     "n": 1,
+     "sample": "image/jpeg"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain Archives"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 139,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "granted",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "reason",
+     "n": 1,
+     "sample": "free-views"
+    },
+    {
+     "path": "institution_name",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "views_remaining",
+     "n": 1,
+     "sample": "2"
+    },
+    {
+     "path": "display_name",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "dev_mode",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "resin_session",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 17758,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "sodar_query_id",
+     "n": 1,
+     "sample": "KWfAasODBNrd3LoPzJmG6QY"
+    },
+    {
+     "path": "injector_basename",
+     "n": 1,
+     "sample": "sodar2"
+    },
+    {
+     "path": "bg_hash_basename",
+     "n": 1,
+     "sample": "5zy86NbR8f54HHV5BxfElrR01oDK3KtpXmGPzuANPWw"
+    },
+    {
+     "path": "bg_binary",
+     "n": 1,
+     "sample": "woS34osU5Ly5d8O+4cwRnbGwJqz18C6/8/+GSsZ/qhLtTQCeHw8Q0+J02s7PjO8SUMkDjorqu8UYYPRZmwGmmpUasDHA164x1ZeKvB5pLqkQY2CnqJ02B1/m"
+    },
+    {
+     "path": "rc_enable",
+     "n": 1,
+     "sample": "y"
+    },
+    {
+     "path": "bg_snapshot_delay_ms",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "is_gen_204",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Harper's Magazine tag archive 'Mark Twain' (page 1 of 9): pieces by Twain from the archive and articles about him (by Christopher Carroll, John Jeremiah Sullivan, Lewis H. Lapham etc.). No bio.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

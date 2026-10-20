@@ -1,0 +1,36 @@
+{
+ "property": "P7509",
+ "label": "Estonian biographical database ID",
+ "files_read": ["pages/P7509__289.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Estonian biographical database ISIK record 289 'Clemens, Samuel' (heading under real name): years of birth/death (given as 1835-00-00 / 1910-00-00), field of activity, pseudonym Mark Twain with source notes, and two Estonian periodicals (Postimees 1893, Sakala Lisa 1888) where he was published.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Clemens, Samuel", "lang": "et", "via": "'Nime normitud kuju' / page heading"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "et", "via": "'Pseudonüümid' (note: Postimees 1893, 42-43. - Sakala lisa 1888, 9.; Alus: Üldtuntud kirjanikunimi.)"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "1835-00-00", "lang": null, "via": "'Sünniaeg'"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "1910-00-00", "lang": null, "via": "'Surmaaeg'"}
+  ],
+  "occupation": [
+   {"value": "kirjanik", "lang": "et", "via": "'Tegevusala'"}
+  ],
+  "work": [
+   {"value": "contribution to Postimees", "raw": "Postimees, 1893 (42-43)", "lang": "et", "via": "'Väljaanded'"},
+   {"value": "contribution to Sakala Lisa", "raw": "Sakala Lisa, 1888 (9)", "lang": "et", "via": "'Väljaanded'"}
+  ],
+  "identifier": [
+   {"value": "289", "via": "URL (isik/index.php?id=289)"}
+  ],
+  "source": [
+   {"value": "Postimees 1893, 42-43. - Sakala lisa 1888, 9.", "lang": "et", "via": "pseudonym 'Märkus'"},
+   {"value": "Alus: Üldtuntud kirjanikunimi.", "lang": "et", "via": "pseudonym 'Allikas'"}
+  ]
+ }
+}

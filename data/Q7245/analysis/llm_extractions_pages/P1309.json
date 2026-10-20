@@ -1,0 +1,686 @@
+{
+ "property": "P1309",
+ "label": "EGAXA ID",
+ "files_read": [
+  "pages/P1309__vtls000823270.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "VIAF processed record for the Bibliotheca Alexandrina (EGAXA) authority vtls000823270, Arabic heading توين، مارك. Gives full dates (046), birth place, field, occupation, gender, language, Arabic variant names, 3 source citations (incl. Arabic Wikipedia), link to LC n79021164, Arabic work titles, translators/co-authors (950/955) and VIAF cluster members (998). Publishers (921) not extracted. Distinct work titles on page: 18 (capped at 40).",
+ "elements": {
+  "identifier": [
+   {
+    "value": "EGAXA|vtls000823270",
+    "via": "001"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2017-04-24",
+    "raw": "20170424121943",
+    "lang": null,
+    "via": "005"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "046 ‡f"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "046 ‡g"
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "توين، مارك",
+    "raw": "‡a توين، مارك، ‡d 1835-1910",
+    "lang": "ar",
+    "via": "100"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "ميسوري",
+    "lang": "ar",
+    "via": "370 ‡a"
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "الأدب الأمريكي",
+    "lang": "ar",
+    "via": "372"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "الأدباء الأمريكيون",
+    "lang": "ar",
+    "via": "374"
+   }
+  ],
+  "gender": [
+   {
+    "value": "ذكر",
+    "lang": "ar",
+    "via": "375"
+   }
+  ],
+  "language": [
+   {
+    "value": "en",
+    "lang": null,
+    "via": "377",
+    "raw": "eng"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "مارك توين",
+    "raw": "‡a مارك توين، ‡d 1835-1910",
+    "lang": "ar",
+    "via": "400"
+   },
+   {
+    "value": "توين، مرك",
+    "raw": "‡a توين، مرك، ‡d 1835-1910",
+    "lang": "ar",
+    "via": "400"
+   },
+   {
+    "value": "كليمنس، صمويل لانجهورن",
+    "raw": "‡a كليمنس، صمويل لانجهورن، ‡d 1835-1910",
+    "lang": "ar",
+    "via": "400"
+   }
+  ],
+  "source": [
+   {
+    "value": "مغامرات هكلبرى فين، 2003: صفحة العنوان (مارك توين) صفحة 9، الخ. (ولد مارك توين في ولاية ميسوري عام 1835؛ أديب أمريكي شهير اسمه الحقيقي صمويل لانجهورن كليمنس؛ توفي عام 1910)",
+    "lang": "ar",
+    "via": "670"
+   },
+   {
+    "value": "ويكيبيديا، WWW، 23 أبريل 2017 (مارك توين؛ ولد 30 نوفمبر 1835، توفي 21 أبريل 1910) https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%B1%D9%83_%D8%AA%D9%88%D9%8A%D9%86",
+    "lang": "ar",
+    "via": "670"
+   },
+   {
+    "value": "الأمير و الفقير، 1992: صفحة العنوان (مرك توين)",
+    "lang": "ar",
+    "via": "670"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "Twain, Mark 1835-1910 (DLC)n 79021164",
+    "raw": "‡a Twain, Mark, ‡d 1835-1910 ‡0 (DLC)n 79021164",
+    "via": "700 linked authority"
+   },
+   {
+    "value": "NII|DA00300263",
+    "raw": "‡2 NII|DA00300263",
+    "via": "996 other source record (source|id, not a URI)"
+   },
+   {
+    "value": "NSK|000047578",
+    "raw": "‡2 NSK|000047578",
+    "via": "996 other source record (source|id, not a URI)"
+   },
+   {
+    "value": "VLACC|000002392",
+    "raw": "‡2 VLACC|000002392",
+    "via": "996 other source record (source|id, not a URI)"
+   },
+   {
+    "value": "DBC|87097969041957",
+    "raw": "‡2 DBC|87097969041957",
+    "via": "996 other source record (source|id, not a URI)"
+   },
+   {
+    "value": "ICCU|CFIV002662",
+    "raw": "‡2 ICCU|CFIV002662",
+    "via": "996 other source record (source|id, not a URI)"
+   },
+   {
+    "value": "NTA|068242964",
+    "raw": "‡2 NTA|068242964",
+    "via": "996 other source record (source|id, not a URI)"
+   },
+   {
+    "value": "LC|n 79021164",
+    "raw": "‡a Twain, Mark, ‡2 LC|n 79021164 ‡3 lccn:n79-21164 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "BIBSYS|90056487",
+    "raw": "‡a Twain, Mark ‡2 BIBSYS|90056487 ‡3 viafid ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "NLA|000035028957",
+    "raw": "‡a Twain, Mark, ‡2 NLA|000035028957 ‡3 lccn:n79-21164 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "DNB|118624822",
+    "raw": "‡a Twain, Mark ‡2 DNB|118624822 ‡3 lccn:n79-21164 ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "NYNYRILM|1598",
+    "raw": "‡a Clemens, Samuel Langhorne (Mark Twain) ‡2 NYNYRILM|1598 ‡3 viafid ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 77201",
+    "raw": "‡a Твен ‡b М. ‡g Марк ‡2 NLR|RU NLR AUTH 77201 ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "XA|2080",
+    "raw": "‡a Twain, Mark ‡2 XA|2080 ‡3 single date ‡3 double date ‡3 forced",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "PTBNP|46269",
+    "raw": "‡a Twain, ‡b Mark, ‡c pseud. ‡2 PTBNP|46269 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "UIY|981014191556806886",
+    "raw": "‡a Twain, Mark, ‡2 UIY|981014191556806886 ‡3 viafid ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "UAE|Mill_a10002910",
+    "raw": "‡a Twain, Mark, ‡2 UAE|Mill_a10002910 ‡3 lccn:n79-21164 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "KRNLK|KAC199605242",
+    "raw": "‡a Twain, Mark ‡2 KRNLK|KAC199605242 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "CAOONL|ncf10128469",
+    "raw": "‡a Twain, Mark, ‡2 CAOONL|ncf10128469 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "BNCHL|10000000000000000007139",
+    "raw": "‡a Twain, Mark, ‡2 BNCHL|10000000000000000007139 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "LIH|LNB:V-1145;=_z_W",
+    "raw": "‡a Twain ‡b Mark ‡2 LIH|LNB:V-1145;=_z_W ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "BNF|11927291",
+    "raw": "‡a Twain ‡b Mark ‡2 BNF|11927291 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "LNB|LNC10-000002679",
+    "raw": "‡a Twain, Mark, ‡2 LNB|LNC10-000002679 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "NLR|RU NLR AUTH 7759057",
+    "raw": "‡a Twain ‡b M. ‡g Mark ‡2 NLR|RU NLR AUTH 7759057 ‡3 viafid ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "SELIBR|98057",
+    "raw": "‡a Twain, Mark, ‡2 SELIBR|98057 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "LC|n 82045653",
+    "raw": "‡a Twain, Mark, ‡c (Spirit) ‡2 LC|n 82045653 ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "NTA|227880145",
+    "raw": "‡a Twain, Mark, ‡2 NTA|227880145 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "WKP|Q7245",
+    "raw": "‡a Mark Twain ‡2 WKP|Q7245 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "B2Q|0000005713",
+    "raw": "‡a Twain, Mark, ‡2 B2Q|0000005713 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "GRATEVE|178278",
+    "raw": "‡a Twain, Mark, ‡2 GRATEVE|178278 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "LNL|14733",
+    "raw": "‡a توين، مارك، ‡2 LNL|14733 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "J9U|987007269289205171",
+    "raw": "‡a Twain, Mark, ‡2 J9U|987007269289205171 ‡3 lccn:n79-21164 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "RERO|A000164542",
+    "raw": "‡a Twain, Mark, ‡2 RERO|A000164542 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "SIMACOB|7830883",
+    "raw": "‡a Twain, Mark, ‡2 SIMACOB|7830883 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "BNE|981060902239808606",
+    "raw": "‡a Twain, Mark ‡2 BNE|981060902239808606 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "SKMASNL|vtls005928524",
+    "raw": "‡a Twain, Mark, ‡2 SKMASNL|vtls005928524 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "PLWABN|9810671370605606",
+    "raw": "‡a Twain, Mark ‡2 PLWABN|9810671370605606 ‡3 viafid ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "SZ|118624822",
+    "raw": "‡a Twain, Mark ‡2 SZ|118624822 ‡3 lccn:n79-21164 ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "NUKAT|n 94200767",
+    "raw": "‡a Twain, Mark ‡2 NUKAT|n 94200767 ‡3 viafid ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "BNC|981058514999206706",
+    "raw": "‡a Twain, Mark, ‡2 BNC|981058514999206706 ‡3 viafid ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "W2Z|90056487",
+    "raw": "‡a Twain, Mark ‡2 W2Z|90056487 ‡3 viafid ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "ARBABN|000024237",
+    "raw": "‡a Twain, Mark, ‡2 ARBABN|000024237 ‡3 viafid ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "BAV|495_17906",
+    "raw": "‡a Twain, Mark, ‡2 BAV|495_17906 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "SUDOC|027171876",
+    "raw": "‡a Twain, Mark, ‡2 SUDOC|027171876 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "NKC|jn19981002263",
+    "raw": "‡a Twain, Mark, ‡2 NKC|jn19981002263 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "NDL|00459304",
+    "raw": "‡a Twain, Mark, ‡2 NDL|00459304 ‡3 lccn:n79-21164 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "N6I|vtls000050376",
+    "raw": "‡a Twain, Mark, ‡2 N6I|vtls000050376 ‡3 lccn:n79-21164 ‡3 single date ‡3 double date",
+    "via": "998 VIAF cluster member (source|id, not a URI)"
+   },
+   {
+    "value": "https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%B1%D9%83_%D8%AA%D9%88%D9%8A%D9%86",
+    "via": "670 ‡u (Arabic Wikipedia)"
+   }
+  ],
+  "work": [
+   {
+    "value": "توم سوير",
+    "raw": "‡a تومسوير ‡A توم سوير / ‡l ara ‡9 7",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "ما الانسان",
+    "raw": "‡a ماالانسان ‡A ما الانسان / ‡l ara ‡9 1",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "الفيل الابيض المسروق و قصص اخرى",
+    "raw": "‡a الفيلالابيضالمسروقوقصصاخرى ‡A الفيل الابيض المسروق و قصص اخرى / ‡l ara ‡9 1",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "مغامرات توم سوير",
+    "raw": "‡a مغامراتتومسوير ‡A مغامرات توم سوير ‡l ara ‡9 8",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "الامير و الفقير",
+    "raw": "‡a الاميروالفقير ‡A الامير و الفقير / ‡l ara ‡9 4",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "مغامرات هكلبرى فن",
+    "raw": "‡a مغامراتهكلبرىفن ‡A مغامرات هكلبرى فن / ‡l ara ‡9 3",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "الامير و الفقير : قصة عالمية",
+    "raw": "‡a الاميروالفقيرقصةعالمية ‡A الامير و الفقير : ‡b قصة عالمية / ‡l ara ‡9 1",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "مغامرات هاكلبيري فين",
+    "raw": "‡a مغامراتهاكلبيريفين ‡A مغامرات هاكلبيري فين / ‡l ara ‡9 1",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "ورقة بمليون جنيه",
+    "raw": "‡a ورقةبمليونجنيه ‡A ورقة بمليون جنيه / ‡l ara ‡9 1",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "يوميات ادم و حواء",
+    "raw": "‡a يومياتادموحواء ‡A يوميات ادم و حواء / ‡l ara ‡9 1",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "مغامرات هكلبرى فين",
+    "raw": "‡a مغامراتهكلبرىفين ‡A مغامرات هكلبرى فين / ‡l ara ‡9 2",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "توم سوير : عربى-انجليزى",
+    "raw": "‡a تومسويرعربىانجليزى ‡A توم سوير : ‡b عربى-انجليزى / ‡l ara ‡9 1",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "مغامرات هاكلبرى فن",
+    "raw": "‡a مغامراتهاكلبرىفن ‡A مغامرات هاكلبرى فن ‡l ara ‡9 2",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "مغامرات هكلبرى فين : رواية للفتيان",
+    "raw": "‡a مغامراتهكلبرىفينروايةللفتيان ‡A مغامرات هكلبرى فين : ‡b رواية للفتيان / ‡l ara ‡9 1",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "مغامرات هاكلبري فين : عربي-انكليزي",
+    "raw": "‡a مغامراتهاكلبريفينعربيانكليزي ‡A مغامرات هاكلبري فين : ‡b عربي-انكليزي / ‡l ara ‡9 1",
+    "lang": "ar",
+    "via": "910 (VIAF title)"
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "raw": "‡a adventuresofhuckleberryfinn ‡A Adventures of Huckleberry Finn. ‡l ara ‡9 8",
+    "lang": "ar",
+    "via": "912 (VIAF title)"
+   },
+   {
+    "value": "Prince and the pauper",
+    "raw": "‡a princeandthepauper ‡A Prince and the pauper. ‡l ara ‡9 2",
+    "lang": "ar",
+    "via": "912 (VIAF title)"
+   },
+   {
+    "value": "Adventures of Tom Sawyer",
+    "raw": "‡a adventuresoftomsawyer ‡A Adventures of Tom Sawyer. ‡l ara ‡9 7",
+    "lang": "ar",
+    "via": "912 (VIAF title)"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "السويفي، مختار, 1933- (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "موسى، محمد العزب, 1935- (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "ثورنلي، ج (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "قطب، محمد (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "عبد الوهاب، جاكلين محمد (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "غزلان، محمد عبد الرحيم (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "عاصي، موسى (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "كورنيش، ف. هـ (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "نصار، سمير عزت (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "كيروان، آنا, 1949-2012، (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "هنت، جوديث، (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "مراد، حلمى (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "حنا، فايقة جرجس، (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "قاسم، محمود, 1949- (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "عمر، أحمد أنور (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "جبران، فرج، (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "تابرى، هانى (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "أبو مسلم، السيد (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "جودت، كريمان اسماعيل (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "تيمور، محمود, 1894-1973، (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "الامير، شوقى (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "تكلا، ميشيل (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "نسيم، ماهر (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "عبد الرحمن، فريد (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "محسن، فاضل حبيب (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "محمد، عبد الحق أحمد (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "حسن، ذكري عبد الرحمن (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "الغضبان، عادل (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "شيخاني، سمير, 1923- (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "خشفة، محمد نديم (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "حسين، ذكرى حاج (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "سالم، منى فتحي (co-author/contributor on his works)",
+    "lang": null,
+    "via": "950"
+   },
+   {
+    "value": "دار النهضة للترجمة و خدمات رجال الأعمال، (corporate co-author/contributor)",
+    "lang": null,
+    "via": "951"
+   },
+   {
+    "value": "مصر وزارة التربية و التعليم ادارة الثقافة العامة (corporate co-author/contributor)",
+    "lang": null,
+    "via": "951"
+   },
+   {
+    "value": "نوية، عثمان, 1915-1980 (related name)",
+    "lang": null,
+    "via": "955"
+   },
+   {
+    "value": "بدران، محمد (related name)",
+    "lang": null,
+    "via": "955"
+   },
+   {
+    "value": "توماس، دانا لي, 1918- (related name)",
+    "lang": null,
+    "via": "955"
+   },
+   {
+    "value": "توماس، هنري, 1888-1970 (related name)",
+    "lang": null,
+    "via": "955"
+   },
+   {
+    "value": "بلدنزا، فرانك، (related name)",
+    "lang": null,
+    "via": "955"
+   },
+   {
+    "value": "سعيد، جميل، (related name)",
+    "lang": null,
+    "via": "955"
+   },
+   {
+    "value": "فايقة جرجس حنا (translator)",
+    "lang": "ar",
+    "via": "930 statement of responsibility"
+   }
+  ],
+  "description": [
+   {
+    "value": "ولد مارك توين في ولاية ميسوري عام 1835؛ أديب أمريكي شهير اسمه الحقيقي صمويل لانجهورن كليمنس؛ توفي عام 1910",
+    "lang": "ar",
+    "via": "670 ‡b (source note)"
+   }
+  ]
+ }
+}

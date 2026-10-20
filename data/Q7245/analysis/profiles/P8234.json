@@ -1,0 +1,212 @@
+{
+ "property": "P8234",
+ "property_label": "LiederNet author ID",
+ "files": [
+  {
+   "file": "P8234__10589/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.lieder.net/lieder/get_author_texts.html?AuthorId=10589"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:Author heading",
+    "file": "P8234.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "S. Clemens",
+    "lang": "en",
+    "via": "llm-page:page title line 'Texts by S. Clemens set in Art Songs and Choral Works'",
+    "file": "P8234.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:line under Author heading",
+    "file": "P8234.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:Author heading",
+    "file": "P8234.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:Author heading",
+    "file": "P8234.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "A Tramp Abroad",
+    "lang": "en",
+    "via": "llm-page:Text Collections",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:Text Collections",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "Punch, Brothers, Punch",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "Advice to Little Girls",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "Ode to Stephen Dowling Bots, dec'd",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "Letter to Saint Andrew",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "The lorelei",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "The Tyranny of Party",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "Bills",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "Sometimes I wonder",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "Warm summer sun",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "They call me Jenny in Lorraine",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "The rats were devouring the house",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   },
+   {
+    "value": "Now lift up thy head, give me men-at-arms",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "G. Bachlund (composer who set his texts)",
+    "lang": "en",
+    "via": "llm-page:texts list",
+    "file": "P8234.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2023-05-10",
+    "lang": "en",
+    "via": "llm-page:page footer",
+    "file": "P8234.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "record_modified": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "LiederNet Archive text-author page: name with dates, pseudonym, two text collections and an index of his texts set in art songs/choral works (mostly by composer G. Bachlund). No biography or external links.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

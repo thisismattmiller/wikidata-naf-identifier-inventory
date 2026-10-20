@@ -1,0 +1,1949 @@
+{
+ "property": "P13797",
+ "property_label": "‎Dimensions.com element ID",
+ "files": [
+  {
+   "file": "P13797__mark-twain/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.dimensions.com/element/mark-twain"
+  },
+  {
+   "file": "P13797__mark-twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.dimensions.com/element/mark-twain"
+  },
+  {
+   "file": "P13797__mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.dimensions.com/element/mark-twain"
+  },
+  {
+   "file": "P13797__mark-twain/alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.dimensions.com/element/rss.xml"
+  },
+  {
+   "file": "P13797__mark-twain/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://client.memberstack.com/app-member"
+  },
+  {
+   "file": "P13797__mark-twain/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://console.dimensions.com/api/public/pro/search-color?path=%2Felement%2Fmark-twain"
+  },
+  {
+   "file": "P13797__mark-twain/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://project--d1cd1e56-a320-46ee-9e06-a697c1288ad8-dev.lovable.app/api/public/pro/create-preview-data?slug=mark-twain"
+  },
+  {
+   "file": "P13797__mark-twain/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://project--d1cd1e56-a320-46ee-9e06-a697c1288ad8.lovable.app/api/public/pro/common-questions-data?element=mark-twain"
+  },
+  {
+   "file": "P13797__mark-twain/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://project--d1cd1e56-a320-46ee-9e06-a697c1288ad8-dev.lovable.app/api/public/pro/element-files?slug=mark-twain"
+  },
+  {
+   "file": "P13797__mark-twain/xhr_7.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/6a5bb8f2930d16931d37da25_mark-twain-1.svg"
+  },
+  {
+   "file": "P13797__mark-twain/xhr_8.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://project--d1cd1e56-a320-46ee-9e06-a697c1288ad8-dev.lovable.app/api/public/pro/page-grids-data?mode=more&limit=32&classification=culture"
+  },
+  {
+   "file": "P13797__mark-twain/xhr_9.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://project--d1cd1e56-a320-46ee-9e06-a697c1288ad8-dev.lovable.app/api/public/pro/page-grids-data?mode=element-icon&slug=mark-twain"
+  },
+  {
+   "file": "P13797__mark-twain/xhr_10.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://project--d1cd1e56-a320-46ee-9e06-a697c1288ad8-dev.lovable.app/api/public/pro/collection-grid-data?element=mark-twain&offset=0&limit=1"
+  },
+  {
+   "file": "P13797__mark-twain/xhr_11.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://project--d1cd1e56-a320-46ee-9e06-a697c1288ad8-dev.lovable.app/api/public/pro/collection-grid-data?element=mark-twain&sort=az&dir=asc&seed=201725063&offset=0&limit=40"
+  },
+  {
+   "file": "P13797__mark-twain/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://client.memberstack.com/app-member"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "feed": 1,
+  "json": 10,
+  "svg": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 4,
+  "http://schema.org/": 3,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Dataset",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain Drawings & Dimensions",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:element.name",
+    "file": "xhr_3.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:xhr_3.json: $.element.name",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain, also known as Samuel Langhorne Clemen, was an American writer, humorist, entrepreneur, and publisher considered to be the greatest humorist of the United States as well as the father of American literature. His most famous works include The Adventures of Tom Sawyer.",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, also known as Samuel Langhorne Clemen, was an American writer, humorist, entrepreneur, and publisher considered to be the greatest humorist of the United States as well as the father of American literature. His most famous works include The Adventures of Tom Sawyer. Mark Twain had a height of 5’9” (1.75 m).",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, also known as Samuel Langhorne Clemen, was an American writer, humorist, entrepreneur, and publisher considered to be the greatest humorist of the United States as well as the father of American literature. His most famous works include The Adventures of Tom Sawyer. Mark Twain had a height of 5’9” (1.75 m).",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, also known as Samuel Langhorne Clemen, was an American writer, humorist, entrepreneur, and publisher considered to be the greatest humorist of the United States as well as the father of American literature. His most famous works include The Adventures of Tom Sawyer, The Adventures of Huckleberry Finn, and The Great American Novel. Mark Twain received an honorary doctorate from Yale University in 1901 and an honorary doctorate from Oxford University in 1907. Throughout his lifetime, M",
+    "lang": "en",
+    "via": "llm-page:Description",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c2915723ea0580840b6_Dimensions-Pop-Culture-Authors-Mark-Twain-OG.jpg",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "subject_of": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:items.title (record title)",
+    "file": "xhr_11.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemen",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description ('also known as Samuel Langhorne Clemen', sic)",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:Details, Given Name",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm:xhr_11.json: $.items[23].measurements.year",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "entrepreneur",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Authors & Writers",
+    "lang": "en",
+    "via": "llm:xhr_11.json: $.items[23].collection",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm-page:Details, Nationality",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Description",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Description",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "The Great American Novel",
+    "lang": null,
+    "via": "llm-page:Description",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.element.slug",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "622286df2af6dc875ff56277",
+    "lang": null,
+    "via": "llm:xhr_3.json: $.element.id",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Details, Death / Description",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Yale University (honorary doctorate, 1901)",
+    "lang": null,
+    "via": "llm-page:Description",
+    "file": "P13797.json",
+    "uri": false
+   },
+   {
+    "value": "University of Oxford (honorary doctorate, 1907)",
+    "lang": null,
+    "via": "llm-page:Description",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "Wikipedia - Mark Twain (link label; URL not shown in text)",
+    "lang": null,
+    "via": "llm-page:Links",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-07-18",
+    "lang": null,
+    "via": "llm-page:Updated on",
+    "file": "P13797.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "image": [],
+  "subject_of": [],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "identifier": [],
+  "death_date": [
+   "en"
+  ],
+  "related_agent": [],
+  "same_as": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "sourceOrganization (http://schema.org/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 646,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain Dimensions & Drawings | Dimensions.com"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Mark Twain, also known as Samuel Langhorne Clemen, was an American writer, humorist, entrepreneur, and publisher conside"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c2915723ea0580840b6_Dimensions-Pop-Culture-Authors-Mark"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain Dimensions & Drawings | Dimensions.com"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Mark Twain, also known as Samuel Langhorne Clemen, was an American writer, humorist, entrepreneur, and publisher considered to be the greatest humorist of the United States as well as the father of Am"
+    },
+    {
+     "path": "[].og:image",
+     "value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c2915723ea0580840b6_Dimensions-Pop-Culture-Authors-Mark-Twain-OG.jpg"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 109192,
+   "path_count": 23,
+   "paths": [
+    {
+     "path": "rss/channel/item",
+     "n": 100,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/title",
+     "n": 100,
+     "sample": "IKEA Yllevad Collage Frame Dimensions & Drawings | Dimensions.com"
+    },
+    {
+     "path": "rss/channel/item/link",
+     "n": 100,
+     "sample": "https://www.dimensions.com/element/ikea-yllevad-collage-frame"
+    },
+    {
+     "path": "rss/channel/item/guid",
+     "n": 100,
+     "sample": "https://www.dimensions.com/element/ikea-yllevad-collage-frame"
+    },
+    {
+     "path": "rss/channel/item/description",
+     "n": 100,
+     "sample": "The best way to display a bunch of pictures at a time is with the IKEA Yllevad Collage Frame. However, you can only do f"
+    },
+    {
+     "path": "rss/channel/item/pubDate",
+     "n": 100,
+     "sample": "Fri, 02 Oct 2026 23:38:05 GMT"
+    },
+    {
+     "path": "rss/channel/item/content",
+     "n": 100,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/content@url",
+     "n": 100,
+     "sample": "https://uploads-ssl.webflow.com/5b44edefca321a1e2d0c2aa6/625d7cbc338e32039705631b_Dimensions-Objects-Picture-Frames-IKEA"
+    },
+    {
+     "path": "rss/channel/item/content@medium",
+     "n": 100,
+     "sample": "image"
+    },
+    {
+     "path": "rss/channel/item/thumbnail",
+     "n": 100,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/thumbnail@url",
+     "n": 100,
+     "sample": "https://uploads-ssl.webflow.com/5b44edefca321a1e2d0c2aa6/625d7cbc338e32039705631b_Dimensions-Objects-Picture-Frames-IKEA"
+    },
+    {
+     "path": "rss/channel/link",
+     "n": 2,
+     "sample": "https://www.dimensions.com"
+    },
+    {
+     "path": "rss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss@version",
+     "n": 1,
+     "sample": "2.0"
+    },
+    {
+     "path": "rss/channel",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/title",
+     "n": 1,
+     "sample": "Dimensions.com"
+    },
+    {
+     "path": "rss/channel/description",
+     "n": 1,
+     "sample": "A comprehensive reference database of dimensioned drawings documenting the standard measurements and sizes of the everyd"
+    },
+    {
+     "path": "rss/channel/pubDate",
+     "n": 1,
+     "sample": "Sun, 27 Sep 2026 07:33:26 GMT"
+    },
+    {
+     "path": "rss/channel/ttl",
+     "n": 1,
+     "sample": "1440"
+    },
+    {
+     "path": "rss/channel/generator",
+     "n": 1,
+     "sample": "Webflow"
+    },
+    {
+     "path": "rss/channel/link@href",
+     "n": 1,
+     "sample": "https://www.dimensions.com/element/rss.xml"
+    },
+    {
+     "path": "rss/channel/link@rel",
+     "n": 1,
+     "sample": "self"
+    },
+    {
+     "path": "rss/channel/link@type",
+     "n": 1,
+     "sample": "application/rss+xml"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "rss"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 55,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Must pass an API key via x-api-key header"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 143,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "ok",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "master.primary",
+     "n": 1,
+     "sample": "#1b7fff"
+    },
+    {
+     "path": "master.secondary",
+     "n": 1,
+     "sample": "#43a7ff"
+    },
+    {
+     "path": "source",
+     "n": 1,
+     "sample": "elements"
+    },
+    {
+     "path": "slug",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "primary",
+     "n": 1,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "secondary",
+     "n": 1,
+     "sample": "#d685ff"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ok"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 1005,
+   "path_count": 20,
+   "paths": [
+    {
+     "path": "element.drawings[].index",
+     "n": 3,
+     "sample": "1"
+    },
+    {
+     "path": "element.drawings[].url",
+     "n": 3,
+     "sample": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/6a5bb8f2930d16931d37da25_mark-twain-1.svg"
+    },
+    {
+     "path": "element.drawings[].label",
+     "n": 3,
+     "sample": "Elevation 1"
+    },
+    {
+     "path": "element.drawings[].bucket",
+     "n": 3,
+     "sample": "elevation"
+    },
+    {
+     "path": "element.drawings[].sizeCm",
+     "n": 3,
+     "sample": "177.6"
+    },
+    {
+     "path": "element.drawings[].widthCm",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "ok",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "element.id",
+     "n": 1,
+     "sample": "622286df2af6dc875ff56277"
+    },
+    {
+     "path": "element.slug",
+     "n": 1,
+     "sample": "mark-twain"
+    },
+    {
+     "path": "element.name",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "element.drawing1Url",
+     "n": 1,
+     "sample": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/6a5bb8f2930d16931d37da25_mark-twain-1.svg"
+    },
+    {
+     "path": "element.drawing1Index",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "element.trialEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "element.viewMode",
+     "n": 1,
+     "sample": "elevation"
+    },
+    {
+     "path": "element.classification.name",
+     "n": 1,
+     "sample": "Culture"
+    },
+    {
+     "path": "element.classification.slug",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "element.classification.color",
+     "n": 1,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "element.classification.secondary",
+     "n": 1,
+     "sample": "#d685ff"
+    },
+    {
+     "path": "element.collection.name",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "element.collection.slug",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "element.slug",
+     "value": "mark-twain"
+    },
+    {
+     "path": "element.name",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "element.drawing1Url",
+     "value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/6a5bb8f2930d16931d37da25_mark-twain-1.svg"
+    },
+    {
+     "path": "element.drawings[].url",
+     "value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/6a5bb8f2930d16931d37da25_mark-twain-1.svg"
+    },
+    {
+     "path": "element.drawings[].url",
+     "value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/6a5bb8f2930d16931d37da21_mark-twain-2.svg"
+    },
+    {
+     "path": "element.drawings[].url",
+     "value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/6a5bb8f2930d16931d37da1e_mark-twain-3.svg"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "ok",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 7674,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "sections[].questions[].q",
+     "n": 15,
+     "sample": "How do authors get their ideas?"
+    },
+    {
+     "path": "sections[].questions[].a",
+     "n": 15,
+     "sample": "Authors derive ideas from diverse sources: personal experiences, observations of the world around them, history, mytholo"
+    },
+    {
+     "path": "sections[].name",
+     "n": 5,
+     "sample": "Authors & Writers"
+    },
+    {
+     "path": "sections[].slug",
+     "n": 5,
+     "sample": "authors-writers"
+    },
+    {
+     "path": "sections[].isParent",
+     "n": 5,
+     "sample": "True"
+    },
+    {
+     "path": "ok",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "primary",
+     "n": 1,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "secondary",
+     "n": 1,
+     "sample": "#d685ff"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ok"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 480,
+   "path_count": 18,
+   "paths": [
+    {
+     "path": "ok",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "membershipActive",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "element.id",
+     "n": 1,
+     "sample": "622286df2af6dc875ff56277"
+    },
+    {
+     "path": "element.slug",
+     "n": 1,
+     "sample": "mark-twain"
+    },
+    {
+     "path": "element.name",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "element.thumbnail",
+     "n": 1,
+     "sample": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c39ed1a893e0ced48f7_Dimensions-Pop-Culture-Authors-Mark"
+    },
+    {
+     "path": "element.classification.name",
+     "n": 1,
+     "sample": "Culture"
+    },
+    {
+     "path": "element.classification.slug",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "element.classification.color",
+     "n": 1,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "element.files.base2d",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "element.files.base3d",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "element.files.jpg",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "element.files.objMesh",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "element.files.fbx",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "element.files.glb",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "element.files.revit",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "element.has2d",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "element.has3d",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "element.slug",
+     "value": "mark-twain"
+    },
+    {
+     "path": "element.name",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "element.thumbnail",
+     "value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c39ed1a893e0ced48f7_Dimensions-Pop-Culture-Authors-Mark-Twain-Height-Comparison.svg"
+    }
+   ],
+   "language_like_keys": [
+    "fbx",
+    "glb",
+    "id",
+    "jpg",
+    "ok"
+   ]
+  },
+  {
+   "file": "xhr_8.json",
+   "format": "json",
+   "size": 12288,
+   "path_count": 15,
+   "paths": [
+    {
+     "path": "items[].itemId",
+     "n": 32,
+     "sample": "5de5ddbfeee2050f5241d954"
+    },
+    {
+     "path": "items[].itemType",
+     "n": 32,
+     "sample": "collection"
+    },
+    {
+     "path": "items[].slug",
+     "n": 32,
+     "sample": "doctor-who"
+    },
+    {
+     "path": "items[].title",
+     "n": 32,
+     "sample": "Doctor Who"
+    },
+    {
+     "path": "items[].thumbnailUrl",
+     "n": 32,
+     "sample": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/63787f30e86a4569492b2e16_Dimensions-Culture-Doctor-Who-Icon."
+    },
+    {
+     "path": "items[].classification",
+     "n": 32,
+     "sample": "Culture"
+    },
+    {
+     "path": "items[].classificationSlug",
+     "n": 32,
+     "sample": "culture"
+    },
+    {
+     "path": "items[].classificationColor",
+     "n": 32,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "items[].comingSoon",
+     "n": 32,
+     "sample": "False"
+    },
+    {
+     "path": "ok",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "mode",
+     "n": 1,
+     "sample": "more"
+    },
+    {
+     "path": "primary",
+     "n": 1,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "secondary",
+     "n": 1,
+     "sample": "#d685ff"
+    },
+    {
+     "path": "classificationName",
+     "n": 1,
+     "sample": "Culture"
+    },
+    {
+     "path": "classificationSlug",
+     "n": 1,
+     "sample": "culture"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ok"
+   ]
+  },
+  {
+   "file": "xhr_9.json",
+   "format": "json",
+   "size": 463,
+   "path_count": 14,
+   "paths": [
+    {
+     "path": "ok",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "mode",
+     "n": 1,
+     "sample": "element-icon"
+    },
+    {
+     "path": "item.itemId",
+     "n": 1,
+     "sample": "622286df2af6dc875ff56277"
+    },
+    {
+     "path": "item.slug",
+     "n": 1,
+     "sample": "mark-twain"
+    },
+    {
+     "path": "item.title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "item.thumbnailUrl",
+     "n": 1,
+     "sample": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c366843fc8f2bf8e166_Dimensions-Pop-Culture-Authors-Mark"
+    },
+    {
+     "path": "item.thumbnail3dUrl",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "item.has3d",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "item.hasDrawing1",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "item.classificationName",
+     "n": 1,
+     "sample": "Culture"
+    },
+    {
+     "path": "item.classificationSlug",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "item.classificationColor",
+     "n": 1,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "primary",
+     "n": 1,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "secondary",
+     "n": 1,
+     "sample": "#d685ff"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "item.slug",
+     "value": "mark-twain"
+    },
+    {
+     "path": "item.title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "item.thumbnailUrl",
+     "value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c366843fc8f2bf8e166_Dimensions-Pop-Culture-Authors-Mark-Twain-Icon.svg"
+    }
+   ],
+   "language_like_keys": [
+    "ok"
+   ]
+  },
+  {
+   "file": "xhr_10.json",
+   "format": "json",
+   "size": 1545,
+   "path_count": 45,
+   "paths": [
+    {
+     "path": "meta.sortOptions[].key",
+     "n": 4,
+     "sample": "popularity"
+    },
+    {
+     "path": "meta.sortOptions[].label",
+     "n": 4,
+     "sample": "Popularity"
+    },
+    {
+     "path": "ok",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "sort",
+     "n": 1,
+     "sample": "az"
+    },
+    {
+     "path": "dir",
+     "n": 1,
+     "sample": "desc"
+    },
+    {
+     "path": "seed",
+     "n": 1,
+     "sample": "default"
+    },
+    {
+     "path": "offset",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "limit",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "total",
+     "n": 1,
+     "sample": "33"
+    },
+    {
+     "path": "hasMore",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "meta.collectionId",
+     "n": 1,
+     "sample": "62228526930c9e57f96dbc87"
+    },
+    {
+     "path": "meta.name",
+     "n": 1,
+     "sample": "Authors & Writers"
+    },
+    {
+     "path": "meta.slug",
+     "n": 1,
+     "sample": "authors-writers"
+    },
+    {
+     "path": "meta.description",
+     "n": 1,
+     "sample": "Authors are individuals who craft narratives, insights, or information using the medium of language. They can be storyte"
+    },
+    {
+     "path": "meta.primary",
+     "n": 1,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "meta.secondary",
+     "n": 1,
+     "sample": "#d685ff"
+    },
+    {
+     "path": "meta.classificationName",
+     "n": 1,
+     "sample": "Culture"
+    },
+    {
+     "path": "meta.classificationSlug",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "meta.typologiesEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "meta.threeDToggle",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "items[].itemId",
+     "n": 1,
+     "sample": "6222870f73ac16910e286184"
+    },
+    {
+     "path": "items[].itemType",
+     "n": 1,
+     "sample": "element"
+    },
+    {
+     "path": "items[].slug",
+     "n": 1,
+     "sample": "aldous-huxley"
+    },
+    {
+     "path": "items[].title",
+     "n": 1,
+     "sample": "Aldous Huxley"
+    },
+    {
+     "path": "items[].thumbnailUrl",
+     "n": 1,
+     "sample": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/6228ee4dee35757c269c8cd3_Dimensions-Pop-Culture-Authors-Aldo"
+    },
+    {
+     "path": "items[].thumbnail3dUrl",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "items[].has3d",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "items[].hasDrawing1",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "items[].hasGuide",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "items[].download2dBase",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "items[].download3dBase",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "items[].classification",
+     "n": 1,
+     "sample": "Culture"
+    },
+    {
+     "path": "items[].classificationSlug",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "items[].classificationColor",
+     "n": 1,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "items[].collection",
+     "n": 1,
+     "sample": "Authors & Writers"
+    },
+    {
+     "path": "items[].collectionSlug",
+     "n": 1,
+     "sample": "authors-writers"
+    },
+    {
+     "path": "items[].typology",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.height",
+     "n": 1,
+     "sample": "6’5” | 1.96 m"
+    },
+    {
+     "path": "items[].measurements.width",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.depth",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.length",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.area",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.weight",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.year",
+     "n": 1,
+     "sample": "July 26, 1894"
+    },
+    {
+     "path": "items[].popularityRank",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "dir",
+    "key",
+    "ok"
+   ]
+  },
+  {
+   "file": "xhr_11.json",
+   "format": "json",
+   "size": 25057,
+   "path_count": 45,
+   "paths": [
+    {
+     "path": "items[].itemId",
+     "n": 33,
+     "sample": "6222870f73ac16910e286184"
+    },
+    {
+     "path": "items[].itemType",
+     "n": 33,
+     "sample": "element"
+    },
+    {
+     "path": "items[].slug",
+     "n": 33,
+     "sample": "aldous-huxley"
+    },
+    {
+     "path": "items[].title",
+     "n": 33,
+     "sample": "Aldous Huxley"
+    },
+    {
+     "path": "items[].thumbnailUrl",
+     "n": 33,
+     "sample": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/6228ee4dee35757c269c8cd3_Dimensions-Pop-Culture-Authors-Aldo"
+    },
+    {
+     "path": "items[].thumbnail3dUrl",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "items[].has3d",
+     "n": 33,
+     "sample": "False"
+    },
+    {
+     "path": "items[].hasDrawing1",
+     "n": 33,
+     "sample": "True"
+    },
+    {
+     "path": "items[].hasGuide",
+     "n": 33,
+     "sample": "False"
+    },
+    {
+     "path": "items[].download2dBase",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "items[].download3dBase",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "items[].classification",
+     "n": 33,
+     "sample": "Culture"
+    },
+    {
+     "path": "items[].classificationSlug",
+     "n": 33,
+     "sample": "culture"
+    },
+    {
+     "path": "items[].classificationColor",
+     "n": 33,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "items[].collection",
+     "n": 33,
+     "sample": "Authors & Writers"
+    },
+    {
+     "path": "items[].collectionSlug",
+     "n": 33,
+     "sample": "authors-writers"
+    },
+    {
+     "path": "items[].typology",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.height",
+     "n": 33,
+     "sample": "6’5” | 1.96 m"
+    },
+    {
+     "path": "items[].measurements.width",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.depth",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.length",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.area",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.weight",
+     "n": 33,
+     "sample": null
+    },
+    {
+     "path": "items[].measurements.year",
+     "n": 33,
+     "sample": "July 26, 1894"
+    },
+    {
+     "path": "items[].popularityRank",
+     "n": 33,
+     "sample": "6"
+    },
+    {
+     "path": "meta.sortOptions[].key",
+     "n": 4,
+     "sample": "popularity"
+    },
+    {
+     "path": "meta.sortOptions[].label",
+     "n": 4,
+     "sample": "Popularity"
+    },
+    {
+     "path": "ok",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "sort",
+     "n": 1,
+     "sample": "az"
+    },
+    {
+     "path": "dir",
+     "n": 1,
+     "sample": "asc"
+    },
+    {
+     "path": "seed",
+     "n": 1,
+     "sample": "201725063"
+    },
+    {
+     "path": "offset",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "limit",
+     "n": 1,
+     "sample": "40"
+    },
+    {
+     "path": "total",
+     "n": 1,
+     "sample": "33"
+    },
+    {
+     "path": "hasMore",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "meta.collectionId",
+     "n": 1,
+     "sample": "62228526930c9e57f96dbc87"
+    },
+    {
+     "path": "meta.name",
+     "n": 1,
+     "sample": "Authors & Writers"
+    },
+    {
+     "path": "meta.slug",
+     "n": 1,
+     "sample": "authors-writers"
+    },
+    {
+     "path": "meta.description",
+     "n": 1,
+     "sample": "Authors are individuals who craft narratives, insights, or information using the medium of language. They can be storyte"
+    },
+    {
+     "path": "meta.primary",
+     "n": 1,
+     "sample": "#c346ff"
+    },
+    {
+     "path": "meta.secondary",
+     "n": 1,
+     "sample": "#d685ff"
+    },
+    {
+     "path": "meta.classificationName",
+     "n": 1,
+     "sample": "Culture"
+    },
+    {
+     "path": "meta.classificationSlug",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "meta.typologiesEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "meta.threeDToggle",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "items[].slug",
+     "value": "mark-twain"
+    },
+    {
+     "path": "items[].title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "items[].thumbnailUrl",
+     "value": "https://cdn.prod.website-files.com/5b44edefca321a1e2d0c2aa6/62278c366843fc8f2bf8e166_Dimensions-Pop-Culture-Authors-Mark-Twain-Icon.svg"
+    },
+    {
+     "path": "items[].measurements.year",
+     "value": "November 30, 1835"
+    }
+   ],
+   "language_like_keys": [
+    "dir",
+    "key",
+    "ok"
+   ]
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 5223,
+   "path_count": 58,
+   "paths": [
+    {
+     "path": "data.app.contentGroups[].plans[].id",
+     "n": 24,
+     "sample": "pln_dimensions-team-saky0id6"
+    },
+    {
+     "path": "data.app.plans[].id",
+     "n": 10,
+     "sample": "pln_dimensions-team-saky0id6"
+    },
+    {
+     "path": "data.app.plans[].name",
+     "n": 10,
+     "sample": "Dimensions Team"
+    },
+    {
+     "path": "data.app.plans[].description",
+     "n": 10,
+     "sample": "Monthly free test of Dimensions Pro"
+    },
+    {
+     "path": "data.app.plans[].priority",
+     "n": 10,
+     "sample": "4"
+    },
+    {
+     "path": "data.app.plans[].prices[].id",
+     "n": 4,
+     "sample": "prc_dimensions-pro-standard-monthly--uv9o0cs7"
+    },
+    {
+     "path": "data.app.plans[].prices[].amount",
+     "n": 4,
+     "sample": "18"
+    },
+    {
+     "path": "data.app.plans[].prices[].interval.type",
+     "n": 4,
+     "sample": "MONTHLY"
+    },
+    {
+     "path": "data.app.plans[].prices[].interval.count",
+     "n": 4,
+     "sample": "1"
+    },
+    {
+     "path": "data.app.plans[].prices[].name",
+     "n": 4,
+     "sample": "Dimensions Pro - Standard (Monthly)"
+    },
+    {
+     "path": "data.app.plans[].prices[].type",
+     "n": 4,
+     "sample": "SUBSCRIPTION"
+    },
+    {
+     "path": "data.app.plans[].prices[].status",
+     "n": 4,
+     "sample": "ACTIVE"
+    },
+    {
+     "path": "data.app.plans[].prices[].currency",
+     "n": 4,
+     "sample": "usd"
+    },
+    {
+     "path": "data.app.customFields[].order",
+     "n": 4,
+     "sample": "0"
+    },
+    {
+     "path": "data.app.customFields[].label",
+     "n": 4,
+     "sample": "First Name"
+    },
+    {
+     "path": "data.app.customFields[].key",
+     "n": 4,
+     "sample": "name"
+    },
+    {
+     "path": "data.app.customFields[].hidden",
+     "n": 4,
+     "sample": "False"
+    },
+    {
+     "path": "data.app.customFields[].visibility",
+     "n": 4,
+     "sample": "PRIVATE"
+    },
+    {
+     "path": "data.app.customFields[].restrictToAdmin",
+     "n": 4,
+     "sample": "False"
+    },
+    {
+     "path": "data.app.id",
+     "n": 1,
+     "sample": "app_clf6ehdez00ji0uni4ari1f12"
+    },
+    {
+     "path": "data.app.name",
+     "n": 1,
+     "sample": "Dimensions.com"
+    },
+    {
+     "path": "data.app.mode",
+     "n": 1,
+     "sample": "live"
+    },
+    {
+     "path": "data.app.contentGroups[].id",
+     "n": 1,
+     "sample": "rgp_clf6gj4nv00l30unif9axflc5"
+    },
+    {
+     "path": "data.app.contentGroups[].name",
+     "n": 1,
+     "sample": "Pro"
+    },
+    {
+     "path": "data.app.contentGroups[].key",
+     "n": 1,
+     "sample": "pro"
+    },
+    {
+     "path": "data.app.contentGroups[].allowAllMembers",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "data.app.contentGroups[].activeMemberHasAccess",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "data.app.contentGroups[].redirect",
+     "n": 1,
+     "sample": "users/login"
+    },
+    {
+     "path": "data.app.allowMemberSelfDelete",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "data.app.analyticsEnabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "data.app.captchaRequired",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "data.app.authProviders[].provider",
+     "n": 1,
+     "sample": "google"
+    },
+    {
+     "path": "data.app.authProviders[].icon",
+     "n": 1,
+     "sample": "https://ms-application-assets.s3.amazonaws.com/social-auth-logos/Google__G__Logo.svg"
+    },
+    {
+     "path": "data.app.authProviders[].name",
+     "n": 1,
+     "sample": "Google"
+    },
+    {
+     "path": "data.app.additionalAuthMethods.passwordless.enabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "data.app.additionalAuthMethods.passwordless.isDefault",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "data.app.ssoSignupButtonURL",
+     "n": 1,
+     "sample": "https://www.dimensions.com/pro/signup"
+    },
+    {
+     "path": "data.app.isPaid",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "data.app.branding.logo",
+     "n": 1,
+     "sample": "https://ms-application-assets.s3.amazonaws.com/images/app_clf6ehdez00ji0uni4ari1f12/464861-logo.png"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.primaryButton",
+     "n": 1,
+     "sample": "#1b7fff"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.secondaryButton",
+     "n": 1,
+     "sample": "#1B6DE8"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.background",
+     "n": 1,
+     "sample": "#ffffff"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.errorBackground",
+     "n": 1,
+     "sample": "#f6e1e1"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.text",
+     "n": 1,
+     "sample": "#0A0A0A"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.primaryButtonText",
+     "n": 1,
+     "sample": "#ffffff"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.titles",
+     "n": 1,
+     "sample": "#0A0A0A"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.subtitles",
+     "n": 1,
+     "sample": "#0A0A0A"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.links",
+     "n": 1,
+     "sample": "#0A0A0A"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.borderColor",
+     "n": 1,
+     "sample": "#C9C9C9"
+    },
+    {
+     "path": "data.app.branding.colors.lightMode.shadowColor",
+     "n": 1,
+     "sample": "#000000"
+    },
+    {
+     "path": "data.app.branding.style.fontSize",
+     "n": 1,
+     "sample": "MEDIUM"
+    },
+    {
+     "path": "data.app.branding.style.buttonCorners",
+     "n": 1,
+     "sample": "SOFT"
+    },
+    {
+     "path": "data.app.branding.style.buttonBorders",
+     "n": 1,
+     "sample": "NONE"
+    },
+    {
+     "path": "data.app.branding.style.buttonShadows",
+     "n": 1,
+     "sample": "NONE"
+    },
+    {
+     "path": "data.app.branding.style.componentCorners",
+     "n": 1,
+     "sample": "SOFT"
+    },
+    {
+     "path": "data.app.branding.style.componentBorders",
+     "n": 1,
+     "sample": "THIN"
+    },
+    {
+     "path": "data.app.branding.style.componentShadows",
+     "n": 1,
+     "sample": "SMALL"
+    },
+    {
+     "path": "data.member",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "key"
+   ]
+  }
+ ],
+ "llm_notes": "Dimensions.com element page (dimensioned drawings): short description, height 5'9\" (1.75 m), birth/death dates, nationality, Wikipedia links; most of the text is generic FAQ and category navigation. Description misspells 'Clemen' and lists 'The Great American Novel' as one of his works (doubtful, kept as stated).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

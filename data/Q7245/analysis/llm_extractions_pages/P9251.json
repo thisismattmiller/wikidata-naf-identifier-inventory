@@ -1,0 +1,70 @@
+{
+ "property": "P9251",
+ "label": "Cyprus University of Technology ID",
+ "files_read": [
+  "pages/P9251__80852.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Koha OPAC MARC view of authority 80852 'Twain, Mark, 1835-1910' (copied from DLC); minimal record with only 001/003/005/008/040/100/907, used in 42 records. Not actually blocked by a login wall.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "100 field"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "raw": "1835-1910",
+    "lang": null,
+    "via": "100 $d"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "raw": "1835-1910",
+    "lang": null,
+    "via": "100 $d"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "80852",
+    "lang": null,
+    "via": "001 control number"
+   },
+   {
+    "value": ".a10916143",
+    "lang": null,
+    "via": "907 field (legacy system id)"
+   }
+  ],
+  "source": [
+   {
+    "value": "DLC",
+    "lang": null,
+    "via": "040 cataloging source (language of cataloging: eng)"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2014-03-11",
+    "raw": "140311",
+    "lang": null,
+    "via": "008 field"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2020-11-25",
+    "raw": "20201125000629.0",
+    "lang": null,
+    "via": "005 field"
+   }
+  ]
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "property": "P9322",
+ "label": "SVKKL authority ID",
+ "files_read": ["pages/P9322__0208796-Conte-Louis-de-18351910.txt", "pages/P9322__p0010802-Twain-Mark-18351910.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Kladno IPAC authority record for the pseudonym 'Conte, Louis de, 1835-1910' with variant names, see-also to Twain, Mark, sources and a Czech note explaining the pseudonym. The Twain, Mark record (p0010802) returned HTTP 404.",
+ "elements": {
+  "name_preferred": [{"value": "Conte, Louis de, 1835-1910", "lang": null, "via": "Osobní jméno"}],
+  "name_variant": [
+   {"value": "Ludvík de Conte, 1835-1910", "lang": "cs", "via": "Jiné jméno"},
+   {"value": "Conte, Ludvík de, 1835-1910", "lang": "cs", "via": "Jiné jméno"},
+   {"value": "Twain, Mark, 1835-1910", "lang": null, "via": "Viz též"}
+  ],
+  "pseudonym": [{"value": "Sieur Louis de Conte", "raw": "Iniciály celého jména Sieur Louis de Conte se shodují s iniciálami skutečného Twainova jména Samuel Langhorne Clemens.", "lang": "cs", "via": "Poznámka"}],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "heading dates"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "heading dates"}],
+  "description": [{"value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s iniciálami skutečného Twainova jména Samuel Langhorne Clemens.", "lang": "cs", "via": "Poznámka"}],
+  "work": [{"value": "Panna ve zbroji. Životní příběhy Panny orleánské", "lang": "cs", "via": "Poznámka"}],
+  "related_agent": [{"value": "Twain, Mark, 1835-1910 (see also; real author behind the pseudonym)", "lang": "cs", "via": "Viz též"}],
+  "identifier": [{"value": "0208796", "raw": "kl_us_auth-0208796", "via": "page URL"}],
+  "source": [
+   {"value": "www(Internet Medieval Sourcebook)", "lang": null, "via": "Zdroj dat"},
+   {"value": "LC (Names)", "lang": null, "via": "Zdroj dat"},
+   {"value": "NKC-PH", "lang": null, "via": "Zdroj dat"},
+   {"value": "Databáze národních autorit NK ČR", "lang": "cs", "via": "Odkazy"}
+  ]
+ }
+}

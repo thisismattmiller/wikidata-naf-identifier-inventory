@@ -1,0 +1,261 @@
+{
+ "property": "P1280",
+ "property_label": "CONOR.SI ID",
+ "files": [
+  {
+   "file": "P1280__7830883/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://plus-legacy.cobiss.net/cobiss/si/sl/conor/7830883"
+  },
+  {
+   "file": "P1280__7830883/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://plus-legacy.cobiss.net/cobiss/si/sl/conor/7830883"
+  },
+  {
+   "file": "P1280__7830883/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://plus-legacy.cobiss.net/cobiss/si/sl/conor/7830883"
+  },
+  {
+   "file": "P1280__7830883/browser_xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://plus-legacy.cobiss.net/cobiss/si/sl/conor/7830883"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 2
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "sl",
+    "via": "llm-page:'Osebno ime' field",
+    "file": "P1280.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Tven, Mark",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marc",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M.",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "Tuen, Mark",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, M.",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "Twen, Mark",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "Langhorne Clemens, Samuel",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena (real name)",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena (real name)",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel L.",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena (real name)",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "L. Clemens, Samuel",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena (real name)",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "Twain",
+    "lang": "sl",
+    "via": "llm-page:Variante osebnega imena",
+    "file": "P1280.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P1280.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P1280.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "pisatelj",
+    "lang": "sl",
+    "via": "llm-page:Opombe",
+    "file": "P1280.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "sl",
+    "via": "llm-page:Opombe",
+    "file": "P1280.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Združene države Amerike",
+    "lang": "sl",
+    "via": "llm-page:'Država' field",
+    "file": "P1280.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "angleški",
+    "lang": "sl",
+    "via": "llm-page:'Jezik, ki ga upor. oseba/korp.' field",
+    "file": "P1280.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Ameriški pisatelj in humorist",
+    "lang": "sl",
+    "via": "llm-page:Opombe",
+    "file": "P1280.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "7830883",
+    "lang": null,
+    "via": "llm-page:CONOR.SI-ID field",
+    "file": "P1280.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "sl"
+  ],
+  "name_variant": [
+   "sl"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "sl"
+  ],
+  "nationality": [
+   "sl"
+  ],
+  "language": [
+   "sl"
+  ],
+  "description": [
+   "sl"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 239,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "CONOR.SI – normativna datoteka osebnih in korporativnih imen :: COBISS Plus"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "CONOR.SI – normativna datoteka osebnih in korporativnih imen"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "CONOR.SI (Slovenian COBISS) authority record: heading, variant names including real-name forms, country, language, a note 'Ameriški pisatelj in humorist', and the CONOR.SI-ID.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

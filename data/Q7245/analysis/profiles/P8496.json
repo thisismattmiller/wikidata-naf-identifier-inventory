@@ -1,0 +1,147 @@
+{
+ "property": "P8496",
+ "property_label": "Archive Site Trinity College Cambridge ID",
+ "files": [
+  {
+   "file": "P8496__clemens-samuel-langhorne-1835-1910-author-and-lecturer-pen-n_7123170c/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://archives.trin.cam.ac.uk/index.php/clemens-samuel-langhorne-1835-1910-author-and-lecturer-pen-name-mark-twain"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 6,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Clemens, Samuel Langhorne (1835-1910) author and lecturer, pen name Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Authorized form of name",
+    "file": "P8496.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Other form(s) of name",
+    "file": "P8496.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:Dates of existence",
+    "file": "P8496.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:Dates of existence",
+    "file": "P8496.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:Authorized form of name",
+    "file": "P8496.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:Authorized form of name",
+    "file": "P8496.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Letters from Samuel Langhorne Clemens to F.W.H. Myers",
+    "lang": "en",
+    "via": "llm-page:'Subject of' list (archival description)",
+    "file": "P8496.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Clemens, Cyril (1902-1999) author, cousin of Samuel Clemens (family)",
+    "lang": "en",
+    "via": "llm-page:Relationships area",
+    "file": "P8496.json",
+    "uri": false
+   },
+   {
+    "value": "F.W.H. Myers (correspondent)",
+    "lang": "en",
+    "via": "llm-page:'Subject of' list",
+    "file": "P8496.json",
+    "uri": false
+   },
+   {
+    "value": "Adila d’Arányi / Elizabeth Trevelyan (letter mentioning him)",
+    "lang": "en",
+    "via": "llm-page:'Subject of' list",
+    "file": "P8496.json",
+    "uri": false
+   },
+   {
+    "value": "Emmeline Pethick / F. W. Lawrence (letter mentioning him)",
+    "lang": "en",
+    "via": "llm-page:'Subject of' list",
+    "file": "P8496.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "clemens-samuel-langhorne-1835-1910-author-and-lecturer-pen-name-mark-twain",
+    "lang": null,
+    "via": "llm-page:URL slug",
+    "file": "P8496.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "AtoM authority record at Trinity College Cambridge archives for Clemens, Samuel Langhorne: authorized name, pseudonym, dates, one family relationship, and the three archival descriptions he is subject of (letters).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

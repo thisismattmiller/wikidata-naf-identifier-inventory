@@ -1,0 +1,178 @@
+{
+ "property": "P8980",
+ "label": "KANTO ID",
+ "files_read": [
+  "P8980__000061572/browser_xhr_2.json"
+ ],
+ "about_entity": true,
+ "notes": "Finna search-API response (per manifest, lookfor=topic_id_str_mv:\"melinda.(FI-ASTERI-N)000061572\", National Library of Finland) listing 33 bibliographic records that have Twain as SUBJECT (e.g. 'The life of Mark Twain' 2022, 'Huck Finn among the critics' 1984, 'Mark Twain, Dr. Oliver Wendell Holmes, and the head readers' 2023, theatre review '[Teatteriarvostelu:Huckleberry Finn]'). Records carry only shortTitle/formats/id/year, no person-level data and no authorship, so nothing is extracted; some hits are Twain texts (e.g. 'The war prayer', 'Omaelämäkertani') but the response does not attribute them to him. The 33 search hits are works with him as subject; they were added as subject_of outside the model pass.",
+ "elements": {
+  "subject_of": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Kun ammuin norsun ja muita esseitä",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Mark Twain, Dr. Oliver Wendell Holmes, and the head readers",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Jenkkejä maailmalla",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The life of Mark Twain",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Answers to correspondents",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The celebrated jumping frog of Calaveras County",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Political economy",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The office bore",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The five boons of life",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Captain Stormfield's visit to heaven",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "A ghost story",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The siamese twins",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The stolen white elephant",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "How I edited an agricultural paper",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The Capitoline Venus",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The war prayer",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The man that corrupted Hadleyburg",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The $30,000 bequest",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Was it heaven? Or hell?",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Omaelämäkertani",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Vanhaa Välimerta ristiin rastiin",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Poikakirjojen klassikko Huckleberry Finn",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "The Mark Twain collection of Nick Karanovich",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Soittoa pimeässä",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Mark my words",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Huck Finn among the critics",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "I Mark Twains hjulspår",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Kansojen kirjallisuus",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Historian suurmiehiä",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Luotsina Mississippi-joella",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "Luotsina Mississippi-joella",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   },
+   {
+    "value": "[Teatteriarvostelu:Huckleberry Finn]",
+    "lang": null,
+    "via": "json:records[].title (Finna subject search; added deterministically, not by the model)"
+   }
+  ]
+ }
+}

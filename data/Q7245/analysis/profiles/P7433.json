@@ -1,0 +1,1164 @@
+{
+ "property": "P7433",
+ "property_label": "FantLab author ID",
+ "files": [
+  {
+   "file": "P7433__1540/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://fantlab.ru/autor1540"
+  },
+  {
+   "file": "P7433__1540/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://fantlab.ru/autor1540"
+  },
+  {
+   "file": "P7433__1540/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://fantlab.ru/autor1540"
+  },
+  {
+   "file": "P7433__1540/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.fantlab.ru/search-ids.json"
+  },
+  {
+   "file": "P7433__1540/conneg_1.json",
+   "format": "json",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://fantlab.ru/autor1540"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 2
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 6,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Марк Твен",
+    "lang": null,
+    "via": "json:name",
+    "file": "conneg_1.json",
+    "uri": false
+   },
+   {
+    "value": "Сэмюэл Лэнгхорн Клеменс",
+    "lang": null,
+    "via": "json:name_pseudonyms.name",
+    "file": "conneg_1.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Марк Твен",
+    "lang": "ru",
+    "via": "llm-page:bibliography section headings",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://fantlab.ru/images/autors/1540?r=1748597984",
+    "lang": null,
+    "via": "json:image",
+    "file": "embedded_microdata.json",
+    "uri": true
+   }
+  ],
+  "occupation": [
+   {
+    "value": "писатель",
+    "lang": null,
+    "via": "json:jobTitle",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "typesetter",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "newspaper publisher",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "riverboat pilot",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "prospector",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "llm-page:biography (founded publishing firm 1884)",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "USA",
+    "lang": null,
+    "via": "json:nationality",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "USA",
+    "lang": "en",
+    "via": "llm-page:'Country' row",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "json:birthDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:'Was born' row",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "json:deathday",
+    "file": "conneg_1.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:'Died' row",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-05-30 12:39:43",
+    "lang": null,
+    "via": "json:last_modified",
+    "file": "conneg_1.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "m",
+    "lang": "sex",
+    "via": "json:sex",
+    "file": "conneg_1.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "//fantlab.ru/autor1540",
+    "lang": null,
+    "via": "json:url",
+    "file": "conneg_1.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:'Real name' row",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal",
+    "lang": "en",
+    "via": "llm-page:biography (childhood, newspaper)",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Mescatine and Keokuk, Iowa",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "en",
+    "via": "llm-page:biography (1861, silver mines)",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City",
+    "lang": "en",
+    "via": "llm-page:biography (Territorial Enterprise)",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco",
+    "lang": "en",
+    "via": "llm-page:biography (1864)",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Hawaii",
+    "lang": "en",
+    "via": "llm-page:biography (1866 correspondent)",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Hartford, Connecticut",
+    "lang": "en",
+    "via": "llm-page:biography (lived 20 years from 1871)",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Europe",
+    "lang": "en",
+    "via": "llm-page:biography (1891-1900)",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Redding, Connecticut",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Realism",
+    "lang": "en",
+    "via": "llm-page:Genres box",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "science fiction / fantasy elements",
+    "lang": "en",
+    "via": "llm-page:biography section 'Fantasy in the author's work'",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "English",
+    "lang": "en",
+    "via": "llm-page:'Languages of works' row",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain was an American writer. He was born on November 30, 1835, in Florida, Missouri. He spent his childhood in the town of Hannibal on the Mississippi. He was apprenticed to a typesetter, and later published a newspaper with his brother in Hannibal, then in Mescatine and Keokuk, Iowa. In 1857, he became an apprentice pilot, fulfilling his childhood dream of \"knowing the river,\" and in April 1859, he received his pilot's license. In 1861, he moved to Nevada...",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Приключения Тома Сойера / The Adventures of Tom Sawyer",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Приключения Гекльберри Финна / Adventures of Huckleberry Finn",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Налегке / Roughing It",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Позолоченный век (Повесть наших дней) / The Gilded Age: A Tale of Today",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Старые времена на Миссисипи / Old Times on the Mississippi",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Пешком по Европе / A Tramp Abroad",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Принц и нищий / The Prince and the Pauper",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Жизнь на Миссисипи / Life on the Mississippi",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Янки из Коннектикута при дворе короля Артура / A Connecticut Yankee in King Arthur's Court",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Американский претендент / The American Claimant",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Личные воспоминания о Жанне д'Арк сьера Луи де Конта, её пажа и секретаря / Personal Recollections of Joan of Arc by the Sieur Louis de Conte",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "По экватору / Following the Equator",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "A Horse's Tale",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "№ 44, Таинственный незнакомец / No. 44, The Mysterious Stranger",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finn and Tom Sawyer among the Indians",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Романы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Простаки дома / The Innocents at Home",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Простофиля Вильсон / Pudd'nhead Wilson",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Том Сойер за границей / Tom Sawyer Abroad",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Том Сойер — сыщик / Tom Sawyer, Detective",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Заговор Тома Сойера / Tom Sawyer's Conspiracy",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Детектив с двойным прицелом / A Double-Barrelled Detective Story",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Путешествие капитана Стормфилда в рай / Captain Stormfield's Visit to Heaven",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Таинственный незнакомец / The Mysterious Stranger",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Три тысячи лет среди микробов / Three Thousand Years Among the Microbes",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "The Refuge of the Derelicts",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Which Was It?",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Повести",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Библия в изложении Марка Твена / The Bible According to Mark Twain: Writings on Heaven, Eden, and the Flood",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Циклы произведений",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Дневники Адама и Евы / Diaries of Adam and Eve",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Циклы произведений",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Дневник Адама / Extracts from Adam's Diary",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Циклы произведений",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Дневник Евы / Eve's Diary",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Циклы произведений",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Автобиография / Autobiography of Mark Twain",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Мемуары и автобиографии",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Похищение принца Олеомаргарина / The Purloining of Prince Oleomargarine",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Сказки",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "A Couple of Poems by Twain and Moore",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Поэзия",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Ah Sin",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Пьесы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "У гробницы святого Вагнера / At the Shrine of St. Wagner",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Эссе",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Моя автобиография / A Burlesque Biography",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Рассказы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "План города Парижа / Map of Paris",
+    "lang": "ru",
+    "via": "llm-page:FantLab bibliography: Рассказы",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "The Man that Corrupted Hadleyburg",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Letters from the Earth",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Olivia Langdon (wife, married 1870-02-02)",
+    "lang": null,
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Langdon (brother-in-law, friend)",
+    "lang": null,
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "C. L. Webster (husband of his niece, nominal head of his publishing firm)",
+    "lang": null,
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Jean (daughter, d. 1909)",
+    "lang": null,
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Susie (daughter, d. 1896)",
+    "lang": null,
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Clara (daughter, published Letters from the Earth 1962)",
+    "lang": null,
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "W. S. Grant (author of Memoirs published by Twain's firm)",
+    "lang": null,
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Чарльз Д. Уорнер / C. D. Warner (co-author, The Gilded Age)",
+    "lang": null,
+    "via": "llm-page:bibliography / biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Ли Нельсон (co-author, Huck Finn and Tom Sawyer among the Indians)",
+    "lang": null,
+    "via": "llm-page:bibliography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Филип Стед (co-author, The Purloining of Prince Oleomargarine)",
+    "lang": null,
+    "via": "llm-page:bibliography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Томас Мур (co-author, A Couple of Poems by Twain and Moore)",
+    "lang": null,
+    "via": "llm-page:bibliography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Фрэнсис Брет Гарт (co-author, Ah Sin)",
+    "lang": null,
+    "via": "llm-page:bibliography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Territorial Enterprise (newspaper, staff from 1862)",
+    "lang": null,
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Alta California (newspaper, correspondent)",
+    "lang": null,
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   },
+   {
+    "value": "Oxford University (Doctor of Literature 1907)",
+    "lang": null,
+    "via": "llm-page:biography",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1540",
+    "lang": null,
+    "via": "llm-page:page URL autor1540",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Based on Internet materials",
+    "lang": null,
+    "via": "llm-page:biography credit",
+    "file": "P7433.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en",
+   "ru"
+  ],
+  "image": [],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "record_modified": [],
+  "gender": [
+   "sex"
+  ],
+  "see_also": [],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "language": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en",
+   "ru"
+  ],
+  "related_agent": [],
+  "identifier": [],
+  "source": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 363,
+   "path_count": 9,
+   "paths": [
+    {
+     "path": "[].award[]",
+     "n": 2,
+     "sample": "https://fantlab.ru/award638#c11777"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].image",
+     "n": 1,
+     "sample": "https://fantlab.ru/images/autors/1540?r=1748597984"
+    },
+    {
+     "path": "[].jobTitle",
+     "n": 1,
+     "sample": "писатель"
+    },
+    {
+     "path": "[].nationality",
+     "n": 1,
+     "sample": "USA"
+    },
+    {
+     "path": "[].birthDate",
+     "n": 1,
+     "sample": "1835-11-30"
+    },
+    {
+     "path": "[].bdeathDate",
+     "n": 1,
+     "sample": "1910-04-21"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].name",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].birthDate",
+     "value": "1835-11-30"
+    },
+    {
+     "path": "[].bdeathDate",
+     "value": "1910-04-21"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 865,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "fantlab.ru"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Марк Твен"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Марк Твен (Mark Twain) — американский писатель. Родился 30 ноября 1835 в поселке Флорида (шт. Миссури). Детство провёл в"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https:/images/autors/1540"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://fantlab.ru/autor1540"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "books.author"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Марк Твен"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Марк Твен (Mark Twain) — американский писатель. Родился 30 ноября 1835 в поселке Флорида (шт. Миссури). Детство провёл в городке Ханнибал на Миссисипи. Был учеником наборщика, позднее вместе с братом "
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 39,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "conneg_1.json",
+   "format": "json",
+   "size": 1297,
+   "path_count": 28,
+   "paths": [
+    {
+     "path": "anons",
+     "n": 1,
+     "sample": "Марк Твен (Mark Twain) — американский писатель. Родился 30 ноября 1835 в поселке Флорида (шт. Миссури). Детство провёл в"
+    },
+    {
+     "path": "autor_id",
+     "n": 1,
+     "sample": "1540"
+    },
+    {
+     "path": "birthday",
+     "n": 1,
+     "sample": "1835-11-30"
+    },
+    {
+     "path": "country_id",
+     "n": 1,
+     "sample": "2"
+    },
+    {
+     "path": "country_name",
+     "n": 1,
+     "sample": "США"
+    },
+    {
+     "path": "deathday",
+     "n": 1,
+     "sample": "1910-04-21"
+    },
+    {
+     "path": "fantastic",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "id",
+     "n": 1,
+     "sample": "1540"
+    },
+    {
+     "path": "image",
+     "n": 1,
+     "sample": "/images/autors/1540"
+    },
+    {
+     "path": "image_preview",
+     "n": 1,
+     "sample": "/images/autors/small/1540"
+    },
+    {
+     "path": "is_opened",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "last_modified",
+     "n": 1,
+     "sample": "2025-05-30 12:39:43"
+    },
+    {
+     "path": "last_modified_iso",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "name",
+     "n": 1,
+     "sample": "Марк Твен"
+    },
+    {
+     "path": "name_orig",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "name_pseudonyms[].id",
+     "n": 1,
+     "sample": "711"
+    },
+    {
+     "path": "name_pseudonyms[].is_real",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "name_pseudonyms[].name",
+     "n": 1,
+     "sample": "Сэмюэл Лэнгхорн Клеменс"
+    },
+    {
+     "path": "name_pseudonyms[].name_orig",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "name_rp",
+     "n": 1,
+     "sample": "Марка Твена"
+    },
+    {
+     "path": "name_short",
+     "n": 1,
+     "sample": "Твен, Марк"
+    },
+    {
+     "path": "sex",
+     "n": 1,
+     "sample": "m"
+    },
+    {
+     "path": "stat.editioncount",
+     "n": 1,
+     "sample": "1068"
+    },
+    {
+     "path": "stat.markcount",
+     "n": 1,
+     "sample": "27874"
+    },
+    {
+     "path": "stat.moviecount",
+     "n": 1,
+     "sample": "27"
+    },
+    {
+     "path": "stat.responsecount",
+     "n": 1,
+     "sample": "361"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "autor"
+    },
+    {
+     "path": "url",
+     "n": 1,
+     "sample": "//fantlab.ru/autor1540"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "anons",
+     "value": "Марк Твен (Mark Twain) — американский писатель. Родился 30 ноября 1835 в поселке Флорида (шт. Миссури). Детство провёл в городке Ханнибал на Миссисипи. Был учеником наборщика, позднее вместе с братом "
+    },
+    {
+     "path": "birthday",
+     "value": "1835-11-30"
+    },
+    {
+     "path": "deathday",
+     "value": "1910-04-21"
+    },
+    {
+     "path": "name",
+     "value": "Марк Твен"
+    },
+    {
+     "path": "name_orig",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "name_pseudonyms[].name_orig",
+     "value": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "name_rp",
+     "value": "Марка Твена"
+    },
+    {
+     "path": "name_short",
+     "value": "Твен, Марк"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "sex",
+    "url"
+   ]
+  }
+ ],
+ "llm_notes": "FantLab (Russian SF/fantasy lab) author page, rendered via machine translation for the bio part (English) while the bibliography stays in Russian: country, language, dates, real name, long biography with a section on fantastic elements, 2 awards, and a very large bibliography (~516 dated entries across novels, novellas, stories, essays, articles, plays etc.); only 40 works kept. Counts: 361 reviews, 1068 publications, 27 film adaptations.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,83 @@
+{
+ "property": "P14225",
+ "label": "NSK ID",
+ "files_read": ["P14225__981005677060509366/embedded_opengraph.json", "P14225__981005677060509366/xhr_7.json"],
+ "about_entity": true,
+ "notes": "xhr_7.json is the Primo (Ex Libris) authority PNX record from the Croatian BUKINET network (NSK), with heading, see-from tracings, notes, sources and biographical note in Croatian; embedded_opengraph.json only repeats the heading.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "lang": null, "via": "xhr_7.json: $.pnx.display.heading[0]; embedded_opengraph.json: og:title"}
+  ],
+  "name_variant": [
+   {"value": "Tven, Mark", "lang": "sr", "via": "xhr_7.json: $.pnx.display.see_from_tracing"},
+   {"value": "Tuen, Mark", "lang": "sq", "via": "xhr_7.json: $.pnx.display.see_from_tracing"},
+   {"value": "Twain, Marc", "lang": null, "via": "xhr_7.json: $.pnx.display.see_from_tracing"},
+   {"value": "Tven, M.", "lang": "sr", "via": "xhr_7.json: $.pnx.display.see_from_tracing"},
+   {"value": "Clemens, Samuel L.", "lang": null, "via": "xhr_7.json: $.pnx.display.see_from_tracing"},
+   {"value": "Clemens, Samuel Langhorne", "lang": null, "via": "xhr_7.json: $.pnx.display.see_from_tracing; note 'Pravo ime autora'"},
+   {"value": "Langhorne Clemens, Samuel", "lang": null, "via": "xhr_7.json: $.pnx.display.see_from_tracing"},
+   {"value": "Klemens, Semjuel L.", "lang": "sr", "via": "xhr_7.json: $.pnx.display.see_from_tracing"}
+  ],
+  "pseudonym": [
+   {"value": "Conte, Louis de", "lang": null, "via": "xhr_7.json: $.pnx.display.note[1] 'Autor je objavljivao i pod pseudonimom'; see_from_tracing"},
+   {"value": "Sieur Louis de Conte", "lang": "en", "via": "xhr_7.json: $.pnx.display.source_data_found (Personal recollection of Joan of Arc)"},
+   {"value": "Jean Francois Alden", "lang": "en", "via": "xhr_7.json: $.pnx.display.source_data_found (Personal recollection of Joan of Arc, 'translated ... by Jean Francois Alden')"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "30. 11. 1835.", "lang": "hr", "via": "xhr_7.json: $.pnx.display.biographical_or_historical_data[0]"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "21. 4. 1910.", "lang": "hr", "via": "xhr_7.json: $.pnx.display.biographical_or_historical_data[0]"}
+  ],
+  "birth_place": [
+   {"value": "Florida", "raw": "u Floridi", "lang": "hr", "via": "xhr_7.json: $.pnx.display.biographical_or_historical_data[0]"}
+  ],
+  "death_place": [
+   {"value": "Redding", "raw": "u Reddingu", "lang": "hr", "via": "xhr_7.json: $.pnx.display.biographical_or_historical_data[0]"}
+  ],
+  "occupation": [
+   {"value": "književnik", "lang": "hr", "via": "xhr_7.json: $.pnx.display.biographical_or_historical_data[0]"},
+   {"value": "novinar", "lang": "hr", "via": "xhr_7.json: $.pnx.display.biographical_or_historical_data[0]"},
+   {"value": "publicist", "lang": "hr", "via": "xhr_7.json: $.pnx.display.biographical_or_historical_data[0]"}
+  ],
+  "nationality": [
+   {"value": "Američki", "lang": "hr", "via": "xhr_7.json: $.pnx.display.biographical_or_historical_data[0]"}
+  ],
+  "description": [
+   {"value": "Američki književnik, novinar, publicist. Rođen 30. 11. 1835. u Floridi, umro 21. 4. 1910. u Reddingu.", "lang": "hr", "via": "xhr_7.json: $.pnx.display.biographical_or_historical_data[0]"}
+  ],
+  "work": [
+   {"value": "Adventures of Huckleberry Finn", "lang": "en", "via": "xhr_7.json: $.pnx.display.source_data_found[0]"},
+   {"value": "Doživljaji Toma Sojera", "lang": "sr", "via": "xhr_7.json: $.pnx.display.source_data_found[1]"},
+   {"value": "Aventurat e Tom Sojerit", "lang": "sq", "via": "xhr_7.json: $.pnx.display.source_data_found[2]"},
+   {"value": "Princ i prosjak", "lang": "hr", "via": "xhr_7.json: $.pnx.display.source_data_found[3]"},
+   {"value": "Personal recollection of Joan of Arc", "lang": "en", "via": "xhr_7.json: $.pnx.display.source_data_found[4]"},
+   {"value": "A tramp abroad", "lang": "en", "via": "xhr_7.json: $.pnx.display.source_data_found[5]"},
+   {"value": "Doživljaji Fina Huklberi", "lang": "sr", "via": "xhr_7.json: $.pnx.display.source_data_found[6]"},
+   {"value": "Doživljaji Haklberi Fina", "lang": "sr", "via": "xhr_7.json: $.pnx.display.source_data_found[7]"}
+  ],
+  "related_agent": [
+   {"value": "Bernard DeVoto", "relation": "editor (Adventures of Huckleberry Finn, 1994)", "lang": null, "via": "xhr_7.json: $.pnx.display.source_data_found[0]"},
+   {"value": "Thomas Hart Benton", "relation": "illustrator (Adventures of Huckleberry Finn, 1994)", "lang": null, "via": "xhr_7.json: $.pnx.display.source_data_found[0]"},
+   {"value": "Stanislav Vinaver", "relation": "translator (Doživljaji Toma Sojera, 1984)", "lang": null, "via": "xhr_7.json: $.pnx.display.source_data_found[1]"},
+   {"value": "Abdullah Karjagdiu", "relation": "translator (Aventurat e Tom Sojerit, 1989)", "lang": null, "via": "xhr_7.json: $.pnx.display.source_data_found[2]"},
+   {"value": "Milan Vujaklija", "relation": "translator (Doživljaji Fina Huklberi, 1933)", "lang": null, "via": "xhr_7.json: $.pnx.display.source_data_found[6]"},
+   {"value": "Jelisaveta Marković", "relation": "translator (Doživljaji Haklberi Fina, 1952)", "lang": null, "via": "xhr_7.json: $.pnx.display.source_data_found[7]"}
+  ],
+  "same_as": [
+   {"value": "http://proleksis.lzmk.hr/1722/", "via": "xhr_7.json: $.pnx.display.electronic_location_and_access[0]"},
+   {"value": "http://www.enciklopedija.hr/natuknica.aspx?ID=62880", "via": "xhr_7.json: $.pnx.display.electronic_location_and_access[1]"},
+   {"value": "https://hr.wikipedia.org/wiki/Mark_Twain", "via": "xhr_7.json: $.pnx.display.electronic_location_and_access[2]"}
+  ],
+  "identifier": [
+   {"value": "981005677060509366", "via": "xhr_7.json: $.pnx.control.recordid[0]; $.pnx.display.source_id"},
+   {"value": "000047578", "raw": "originatingSystemId", "via": "xhr_7.json: $.pnx.control.originatingSystemId"}
+  ],
+  "source": [
+   {"value": "Library of Congress [citirano: 6. 12. 2016.] -- Twain, Mark, 1835-1910 ; Clemens, Samuel Langhorne, 1835-1910 ; Conte, Louis de, 1835-1910 -- http://authorities.loc.gov/", "lang": "hr", "via": "xhr_7.json: $.pnx.display.source_data_found[8]"},
+   {"value": "Proleksis enciklopedija online [citirano: 6. 12. 2016.] -- Mark Twain", "lang": "hr", "via": "xhr_7.json: $.pnx.display.source_data_found[9]"},
+   {"value": "Hrvatska enciklopedija online [citirano: 6. 12. 2016.] -- Twain, Mark", "lang": "hr", "via": "xhr_7.json: $.pnx.display.source_data_found[10]"},
+   {"value": "Wikipedija [citirano: 6. 12. 2016.] -- Mark Twain", "lang": "hr", "via": "xhr_7.json: $.pnx.display.source_data_found[11]"}
+  ]
+ }
+}

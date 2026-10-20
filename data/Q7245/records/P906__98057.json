@@ -1,0 +1,683 @@
+{
+ "property": "P906",
+ "property_label": "SELIBR ID",
+ "value": "98057",
+ "url": "https://libris.kb.se/auth/98057",
+ "crawled_at": "2026-10-02T21:13:10+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://libris.kb.se/1zcfb5hk1bq7d78",
+ "tab_title": "Mark Twain, 1835-1910 | Libris",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P906__98057.jpg",
+ "elapsed_seconds": 6.2,
+ "html_file": "pages/P906__98057.html",
+ "text_file": "pages/P906__98057.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://libris.kb.se/1zcfb5hk1bq7d78",
+  "title": "Mark Twain, 1835-1910 | Libris",
+  "content_type": "text/html",
+  "lang": "sv",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 2,
+  "response_headers": {
+   "status": 200,
+   "url": "https://libris.kb.se/1zcfb5hk1bq7d78",
+   "headers": {
+    "cache-control": "no-cache",
+    "content-encoding": "gzip",
+    "content-location": "https://libris.kb.se/1zcfb5hk1bq7d78/data.jsonld",
+    "content-profile": "<https://id.kb.se/sys/context/kbv>",
+    "content-type": "application/ld+json;charset=utf-8",
+    "date": "Fri, 02 Oct 2026 21:13:14 GMT",
+    "document": "https://libris.kb.se/1zcfb5hk1bq7d78",
+    "etag": "W/\"-6309737408:34662254285\"",
+    "link": "<https://id.kb.se/sys/context/kbv>; rel=\"profile\", <https://libris.kb.se/1zcfb5hk1bq7d78>; rel=describedby",
+    "referrer-policy": "no-referrer",
+    "server": "nginx/1.14.1",
+    "vary": "Accept, Accept-Profile",
+    "x-content-type-options": "nosniff"
+   }
+  },
+  "link_elements": [
+   {
+    "rel": "unapi-server",
+    "type": "application/xml",
+    "href": "https://libris.kb.se/api/sv/cite",
+    "title": null,
+    "hreflang": null
+   }
+  ],
+  "jsonld": [],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "viewport",
+    "content": "width=device-width, initial-scale=1"
+   },
+   {
+    "key": "og:title",
+    "content": "Mark Twain, 1835-1910"
+   },
+   {
+    "key": "og:url",
+    "content": "https://libris.kb.se/1zcfb5hk1bq7d78"
+   },
+   {
+    "key": "og:site_name",
+    "content": "Libris"
+   },
+   {
+    "key": "og:image",
+    "content": "https://libris.kb.se/dataset/images/4083ab7a85c9ac0b0ed048cfef0d7338.256.jpg?key=_I_t4QJwFu7v1qpGOnOYBA&expires=1791064800"
+   }
+  ],
+  "machine_links": [
+   {
+    "tag": "a",
+    "href": "https://libris.kb.se/1zcfb5hk1bq7d78/data.jsonld",
+    "text": "JSON-LD",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "extension",
+     "path",
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://libris.kb.se/1zcfb5hk1bq7d78/data.ttl",
+    "text": "Turtle",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "extension",
+     "path",
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://libris.kb.se/1zcfb5hk1bq7d78/data.rdf",
+    "text": "RDF/XML",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "extension",
+     "path",
+     "text"
+    ]
+   }
+  ],
+  "xhr_requests": [],
+  "resources": [
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/0.DuqRvQfd.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/AppMenuContent.BAVXzpUi.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/homepage.DXeH8buF.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/2.DOrvfCus.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/SearchMapping.CU8dbvMZ.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/AppBar.cMLo-6bO.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/DecoratedData.iTUEy5Se.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/remote-functions.DoNymXYp.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/arrow-right-short.DOcFIXTY.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/_page.DR-jrStg.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/Spinner.Cr7mQpCu.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/SuperSearchWrapper.BY6npSnb.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/HoldingsContent.-W4z5jkQ.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 955
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/7.Hp9sFupn.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 2111
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/TableOfContents.fAgJ6f5j.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 493
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/entry/start.CjmB15x_.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/Ct1Y3YYp.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/853SNlfz.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/entry/app.BqxMjpp4.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/kNaey6uv.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DuKeip1q.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DiYAC1o6.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/nodes/0.CKX-UwoI.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DsGYSXOQ.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/KSxifpTR.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/BW5V7I9M.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/PA3x8yRp.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/yg-8RqMi.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/BHzwfb5Z.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/iRXXbnz1.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DxhXfDmP.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/nodes/2.CBYhTi4k.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/Dn7TuAur.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/mw82m1fL.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/C7Gtb_84.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/CRROyoCd.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/0fg477sJ.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DQ3eeMTl.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/BdG34-mm.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/BjijeQeQ2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DwEs3Ifh2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/D9RuIJ6A.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/CzNulV6J.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/ma0maspR.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DOA3xku7.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/nodes/4.C5R1nFpV.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 380
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/nodes/7.CXE5UgUE.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 13369
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/CXGyIdjI2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 447
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DhIOCZHq2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1469
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DQIAG-WK2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 4399
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DcJ8TAXf2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 58177
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/CkG-3yf-2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 753
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/DyHvTI6L2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 744
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/VtU3OeUV2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2463
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/CZSnl_yF2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 466
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/Ciqws_qA2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 6505
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/B_rFpzoE2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 11078
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/BXbTmP2h.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/CLU5MNQ82.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 659
+   },
+   {
+    "url": "https://analytics.kb.se/matomo.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/assets/kb_logo_text_black.DhFQuwZD.svg",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 18310
+   },
+   {
+    "url": "https://libris.kb.se/dataset/images/4083ab7a85c9ac0b0ed048cfef0d7338.256.jpg?key=_I_t4QJwFu7v1qpGOnOYBA&expires=1791064800",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 10848
+   },
+   {
+    "url": "https://libris.kb.se/dataset/images/08338d120faa898f9bf45fc75985ce2e.128.jpg?key=coPMr95r3HKiJyUM6Le54A&expires=1791064800",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 4694
+   },
+   {
+    "url": "https://libris.kb.se/fonts/Inter-Medium.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 114468
+   },
+   {
+    "url": "https://libris.kb.se/fonts/Inter-Regular.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 111491
+   },
+   {
+    "url": "https://libris.kb.se/fonts/Inter-SemiBold.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 115051
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/nodes/1.se6jeZeN.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 508
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/BGU0vymK.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/CCvxQx1T.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 5252
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/D1Pyo7dH2.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 131697
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/B1fdDY152.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 5268
+   },
+   {
+    "url": "https://libris.kb.se/_app/immutable/chunks/D-k3sV452.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1043
+   },
+   {
+    "url": "https://libris.kb.se/fonts/InterDisplay-Medium.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 113535
+   },
+   {
+    "url": "https://libris.kb.se/favicon.png",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 2663
+   },
+   {
+    "url": "https://libris.kb.se/favicon.svg",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 618
+   }
+  ],
+  "third_party_hosts": {
+   "analytics.kb.se": 1
+  },
+  "scripts": [
+   "https://analytics.kb.se/matomo.js"
+  ],
+  "iframes": [],
+  "forms": [
+   {
+    "action": "https://libris.kb.se/find",
+    "method": null,
+    "id": "appbar-lg-search-form"
+   }
+  ],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [],
+   "not_found_words": []
+  },
+  "text_length": 3692,
+  "html_length": 395207
+ }
+}

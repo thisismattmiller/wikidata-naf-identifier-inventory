@@ -1,0 +1,42 @@
+{
+ "property": "P9141",
+ "label": "Portal da Literatura ID",
+ "files_read": ["pages/P9141__757.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Portuguese literature-portal author page for Mark Twain: dates 1835-1910, a short Portuguese biography and a list of 8 books (Portuguese editions with years). Rest of the page is news, login box and site navigation.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "pt", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "pt", "via": "bio ('cujo verdadeiro nome era Samuel Langhorne Clemens')"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "pt", "via": "bio (real name Samuel Langhorne Clemens)"}],
+  "birth_date": [{"value": "1835", "raw": "1835 - 1910; nasceu ... em 1835", "lang": null, "via": "dates under heading; bio"}],
+  "death_date": [{"value": "1910", "raw": "1835 - 1910; Morreu em 1910", "lang": null, "via": "dates under heading; bio"}],
+  "birth_place": [{"value": "Florida, Missouri", "raw": "nasceu na Florida, Missouri", "lang": "pt", "via": "bio"}],
+  "activity_place": [
+   {"value": "Hannibal", "raw": "a sua família mudou-se para Hannibal, uma pequena cidade à beira do Mississippi, onde ele viveu até os 18 anos", "lang": "pt", "via": "bio"},
+   {"value": "Hartford", "raw": "passou a viver em Hartford", "lang": "pt", "via": "bio"}
+  ],
+  "occupation": [
+   {"value": "aprendiz de tipógrafo", "lang": "pt", "via": "bio"},
+   {"value": "impressor", "lang": "pt", "via": "bio"},
+   {"value": "condutor de barcos no Mississippi", "lang": "pt", "via": "bio"},
+   {"value": "jornalista", "raw": "abandonou o jornalismo", "lang": "pt", "via": "bio"},
+   {"value": "orador", "lang": "pt", "via": "bio"},
+   {"value": "humorista", "lang": "pt", "via": "bio"}
+  ],
+  "description": [{"value": "Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Florida, Missouri, em 1835. Quando tinha apenas quatro anos de idade a sua família mudou-se para Hannibal, uma pequena cidade à beira do Mississippi, onde ele viveu até os 18 anos. Pouco depois da morte do pai (em 1847) abandonou os estudos e tornou-se aprendiz de tipógrafo, escrevendo ao mesmo tempo alguns artigos para um jornal de um dos seus irmãos...", "raw": "truncated", "lang": "pt", "via": "'Biografia' section"}],
+  "work": [
+   {"value": "Clássicos da Literatura em BD - Livro 5: As Aventuras de Tom Sawyer", "raw": "(2020)", "lang": "pt", "via": "'Livros escritos por Mark Twain'"},
+   {"value": "As Bênçãos da Civilização", "raw": "(2019)", "lang": "pt", "via": "'Livros escritos por Mark Twain'"},
+   {"value": "O Solilóquio do Rei Leopoldo", "raw": "(2018)", "lang": "pt", "via": "'Livros escritos por Mark Twain'"},
+   {"value": "Rikki-Tikki-Tavi", "raw": "(2016)", "lang": "pt", "via": "'Livros escritos por Mark Twain' (as listed by the site)"},
+   {"value": "As Aventuras de Tom Sawyer", "raw": "(2011); also named in bio", "lang": "pt", "via": "'Livros escritos por Mark Twain'"},
+   {"value": "As Aventuras de Huckleberry Finn", "raw": "(2009); also named in bio", "lang": "pt", "via": "'Livros escritos por Mark Twain'"},
+   {"value": "Um Candidato Idóneo", "raw": "(1879)", "lang": "pt", "via": "'Livros escritos por Mark Twain'"},
+   {"value": "Cartas da Terra", "raw": "(); bio: 'As Cartas da Terra'", "lang": "pt", "via": "'Livros escritos por Mark Twain'; bio"},
+   {"value": "Um Yankee na Corte do Rei Artur", "lang": "pt", "via": "bio"}
+  ],
+  "related_agent": [{"value": "Olívia Langdon (wife, m. 1870)", "via": "bio ('Em 1870 casou-se com Olívia Langdon')"}],
+  "identifier": [{"value": "757", "raw": "autores.php?autor=757", "via": "page URL"}]
+ }
+}

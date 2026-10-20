@@ -1,0 +1,55 @@
+{
+ "property": "P9807",
+ "label": "SNK ID",
+ "files_read": [
+  "P9807__150076/browser_xhr_1.json",
+  "P9807__150076/browser_xhr_2.json",
+  "P9807__150076/browser_xhr_3.json",
+  "P9807__150076/browser_xhr_4.json",
+  "P9807__150076/browser_xhr_5.json",
+  "P9807__150076/browser_xhr_6.json",
+  "P9807__150076/browser_xhr_7.json",
+  "P9807__150076/browser_xhr_8.json",
+  "P9807__150076/browser_xhr_9.json"
+ ],
+ "about_entity": true,
+ "notes": "browser_xhr_1.json is the SNK VuFind authority relation graph (Twain 150076 linked to real-name record Clemens 211033) with a Slovak bio string; that is the only site data extracted. browser_xhr_2.json is a Wikidata wbsearchentities result list for 'Mark Twain' (many entities); browser_xhr_3.json is the Wikidata entity Q7245 fetched by a page widget (third-party Wikidata data, not SNK's own, so not extracted); browser_xhr_4-9.json are Wikidata entities for other items (Olivia Langdon Clemens, asteroid, crater, painting, Star Trek character, documentary) - not about the entity. Several files were listed more than once in the batch.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[0].name (marc_tag 100)"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[1].name (marc_tag 500, 'Skutočné meno')"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "30. november 1835", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[0].bio"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "21. apríl 1910", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[0].bio"}
+  ],
+  "birth_place": [
+   {"value": "Florida, Missouri, Spojené štáty americké", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[0].bio"}
+  ],
+  "death_place": [
+   {"value": "Redding, Connecticut, Spojené štáty americké", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[0].bio"}
+  ],
+  "nationality": [
+   {"value": "Americký", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[0].bio"}
+  ],
+  "occupation": [
+   {"value": "spisovateľ", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[0].bio"},
+   {"value": "satirik", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[0].bio"},
+   {"value": "humorista", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[0].bio"}
+  ],
+  "description": [
+   {"value": "Americký spisovateľ, satirik, humorista, * 30. november 1835, Florida, Missouri, Spojené štáty americké - † 21. apríl 1910, Redding, Connecticut, Spojené štáty americké", "lang": "sk", "via": "browser_xhr_1.json: $.nodes[0].bio"}
+  ],
+  "related_agent": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "relation": "Skutočné meno (real name), SNK authority 211033", "via": "browser_xhr_1.json: $.links[0], $.nodes[1]"}
+  ],
+  "identifier": [
+   {"value": "150076", "raw": "/vufind/AuthorityRecord/150076", "via": "browser_xhr_1.json: $.nodes[0].id / url"},
+   {"value": "211033", "raw": "/vufind/AuthorityRecord/211033", "via": "browser_xhr_1.json: $.nodes[1].id (real-name record)"}
+  ]
+ }
+}

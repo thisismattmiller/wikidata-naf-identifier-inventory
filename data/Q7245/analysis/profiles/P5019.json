@@ -1,0 +1,385 @@
+{
+ "property": "P5019",
+ "property_label": "Brockhaus Enzyklopädie online ID",
+ "files": [
+  {
+   "file": "P5019__twain-mark/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://brockhaus.de/ecs/enzy/article/twain-mark"
+  },
+  {
+   "file": "P5019__twain-mark/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://brockhaus.de/ecs/api/auth"
+  },
+  {
+   "file": "P5019__twain-mark/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://brockhaus.de/ecs/api/user/schools"
+  },
+  {
+   "file": "P5019__twain-mark/xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://brockhaus.de/ecs/enzy?_rsc=9a_l2tZkMNBJOb6p"
+  },
+  {
+   "file": "P5019__twain-mark/xhr_4.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://brockhaus.de/ecs/enzy/article/ein-yankee-aus-connecticut-an-k%C3%B6nig-artus-hof?_rsc=jMyI6lL_2lWumJn4"
+  },
+  {
+   "file": "P5019__twain-mark/xhr_5.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://brockhaus.de/ecs/enzy/article/tom-sawyers-abenteuer?_rsc=jMyI6lL_2lWumJn4"
+  },
+  {
+   "file": "P5019__twain-mark/xhr_6.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://brockhaus.de/ecs/enzy/article/huckleberry-finns-abenteuer-20?_rsc=jMyI6lL_2lWumJn4"
+  },
+  {
+   "file": "P5019__twain-mark/xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ct.pinterest.com/user/?tid=2612949192382&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU5HRTFNR0l6TnprdE5qQTNPUzAwWXpVMkxXSmpNVFV0WmpkbU16TXlNRE0yTjJRdw%22%7D&cb=1790977167665&dep=2%2CPAGE_LOAD"
+  },
+  {
+   "file": "P5019__twain-mark/xhr_8.img",
+   "format": "image",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ct.pinterest.com/v3/?tid=2612949192382&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU5HRTFNR0l6TnprdE5qQTNPUzAwWXpVMkxXSmpNVFV0WmpkbU16TXlNRE0yTjJRdw%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fbrockhaus.de%2Fecs%2Fenzy%2Farticle%2Ftwain-mark%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A1440%2C%22sw%22%3A5120%2C%22mh%22%3A%22340b6cee%22%2C%22is_eu%22%3Afalse%2C%22epikDataSource%22%3Anull%2C%22derivedEpikDataSource%22%3Anull%2C%22unauthIdDataSource%22%3A%22fpc%22%2C%22architecture%22%3A%22arm%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Google%20Chrome%22%2C%22version%22%3A%22153%22%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%228%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22153%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22macOS%22%2C%22platformVersion%22%3A%2227.0.0%22%2C%22uaFullVersion%22%3A%22153.0.8010.53%22%7D&cb=1790977167665"
+  },
+  {
+   "file": "P5019__twain-mark/xhr_9.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://brockhaus.de/ecs/enzy?_rsc=jMyI6lL_2lWumJn4"
+  },
+  {
+   "file": "P5019__twain-mark/browser_xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://brockhaus.de/ecs/enzy/article/ein-yankee-aus-connecticut-an-k%C3%B6nig-artus-hof?_rsc=jMyI6lL_2lWumJn4"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "json": 3,
+  "html": 6,
+  "image": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:article header line",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:article header line",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:article header line",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:article header line",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Missouri)",
+    "lang": "en",
+    "via": "llm-page:article header line",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Connecticut)",
+    "lang": "en",
+    "via": "llm-page:article header line",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:article header line",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "literature",
+    "lang": "en",
+    "via": "llm-page:article subject tag",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:article header line",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Twain [tweɪn], Mark, actually Samuel Langhorne Clemens [ˈklemənz], American writer, * 30.11.1835 in Florida (Missouri), † 21.4.1910 in Redding (Connecticut). Mark Twain became best known for his books about the adventures of Tom Sawyer and Huckleberry Finn, in which he humorously illuminates American society.",
+    "lang": "en",
+    "via": "llm-page:article teaser",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:'Also interesting' sidebar",
+    "file": "P5019.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:'Also interesting' sidebar",
+    "file": "P5019.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee at King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:'Also interesting' sidebar",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "twain-mark",
+    "lang": null,
+    "via": "llm-page:URL",
+    "file": "P5019.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 20,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "isLoggedIn",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 26,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Unauthorized"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_7.json",
+   "format": "json",
+   "size": 439,
+   "path_count": 17,
+   "paths": [
+    {
+     "path": "aemEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "aemFnLnEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "aemPhEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "aemGeEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "aemDbEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "aemLocEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "aemExternalIdEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "aemProductMetadataEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "ctEpikIframeEnabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "chromeNewUserAgentEnabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "isEu",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "isUtilizingAdvertiser1pEnabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "aemStorageEnabled",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "isRestrictedRegion",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "gaClientIdEnabled",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "mdFrequency",
+     "n": 1,
+     "sample": "0.0"
+    },
+    {
+     "path": "piaaEndPoint",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Brockhaus article 'Mark Twain' (rendered in English, apparently machine-translated) showing only the free teaser: header line with real name, dates and places plus one sentence; the rest is behind a subscription ('Try it for free'). The 'Also interesting' sidebar lists other people (Wolfe, Brooks, Leacock, Warner, Doyle...) which is chrome; only the three Twain novel entries are kept as works.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

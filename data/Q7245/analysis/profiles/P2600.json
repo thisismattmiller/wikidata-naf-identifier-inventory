@@ -1,0 +1,1875 @@
+{
+ "property": "P2600",
+ "property_label": "Geni profile ID",
+ "files": [
+  {
+   "file": "P2600__4239183543700124287/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.geni.com/people/Mark-Twain/4239183543700124287"
+  },
+  {
+   "file": "P2600__4239183543700124287/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.geni.com/people/Mark-Twain/4239183543700124287"
+  },
+  {
+   "file": "P2600__4239183543700124287/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "opengraph": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "record_modified": [
+   {
+    "value": "2025-07-13T13:34:27-07:00",
+    "lang": null,
+    "via": "json:dateModified",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "2025-07-13",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].dateModified",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://media.geni.com/p14/80/f2/7b/c6/534448681f23deab/534448681f23deab_medium.jpg?hash=40ac6e68830fcfba6785c252ac2c439ccb05d58c22be389ad960830f5ee70a13.1791097199",
+    "lang": null,
+    "via": "json:mainEntity.image",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://media.geni.com/p14/80/f2/7b/c6/534448681f23deab/534448681f23deab_medium.jpg",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.image",
+    "file": "P2600.json",
+    "uri": true
+   },
+   {
+    "value": "https://media.geni.com/p14/87/a0/43/94/534448681f3e134f/mark_twain_by_af_bradley_large.jpg",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:image']",
+    "file": "P2600.json",
+    "uri": true
+   },
+   {
+    "value": "https://commons.wikimedia.org/wiki/File:Mark_Twain_by_AF_Bradley.jpg",
+    "lang": null,
+    "via": "llm-page:profile photo caption",
+    "file": "P2600.json",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://www.geni.com/people/Mark-Twain/4239183543700124287",
+    "lang": null,
+    "via": "json:mainEntity.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:mainEntity.name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "json:mainEntity.name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.name[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:profile heading",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "json:mainEntity.deathDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (California Biographical Index Cards transcription)",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens\n\nSon of John Marshall Clemens and Jane Lampton\nMark Twain, whose real name was Samuel Langhorne Clemens, was known as America’s “greatest humorist.”\nHis first occupation was as an apprentice for a local printer, the Missouri Courier, at the age of 13. Twain then moved on as a typesetter after his elder brother bought the Hannibal Journal just three years later. He periodically contributed his own sketches and articles. Clemens first utilized the pseudonym, Mark Twain, in",
+    "lang": null,
+    "via": "json:mainEntity.description",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "מארק טוויין\n\nלידה 30 בנובמבר 1835 ארצות הברית פלורידה, מיזורי פטירה 21 באפריל 1910 (בגיל 74) קונטיקט רדינג, קונטיקט שם לידה סמואל לנגהורן קלמנס עיסוק סופר, מרצה בן/בת זוג Olivia Langdon Clemens צאצאים Susy Clemens, Clara Clemens, Jean Clemens לאום אמריקני שפות היצירה אנגלית, גרמנית יצירות בולטות הרפתקאותיו של האקלברי פין, הרפתקאותיו של תום סויר\n\nסַמוּאֵל לַנְגְהוֹרְן קְלֶמֶנְס (באנגלית: Samuel Langhorne Clemens), נודע בשם העט שלו מַארְק טְוֵויְין (Mark Twain;‏ 30 בנובמבר 1835 – 21 באפריל 1910) ה",
+    "lang": null,
+    "via": "json:mainEntity.description",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "https://no.wikipedia.org/wiki/Mark_Twain\n\nSamuel Langhorne Clemens (1835–1910), kjent under sitt litterære pseudonym Mark Twain, var en amerikansk humorist, forfatter, journalist og foreleser. Han er mest kjent for sine romaner om Huckleberry Finn og Tom Sawyer, og forfatteren William Faulkner betegnet i sin tid Twain som «den amerikanske litteraturens far». Foruten romaner skrev han også reiseskildringer og samfunnskritiske reportasjer om korrupsjon og klasseskiller i samtiden.\n\nPseudonymet Mar",
+    "lang": null,
+    "via": "json:mainEntity.description",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "Mark Twain, whose real name was Samuel Langhorne Clemens, was known as America's \"greatest humorist.\"",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "סמואל לנגהורן קלמנס, נודע בשם העט שלו מארק טוויין (30 בנובמבר 1835 – 21 באפריל 1910) היה סופר והומוריסט אמריקני שיצירותיו נודעות בהומור הציני שלהן, בסאטירה החברתית החריפה, בתיאור הריאליסטי של מקומות ושפה ובהתנגדות לצביעות ולדיכוי.",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens (1835–1910), kjent under sitt litterære pseudonym Mark Twain, var en amerikansk humorist, forfatter, journalist og foreleser.",
+    "lang": "no",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[2]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Genealogy profile for Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, whose real name was Samuel Langhorne Clemens, was known as America's \"greatest humorist.\" His first occupation was as an apprentice for a local printer, the Missouri Courier, at the age of 13. Twain then moved on as a typesetter after his elder brother bought the Hannibal Journal just three years later. He periodically contributed his own sketches and articles. Clemens first utilized the pseudonym, Mark Twain, in 1863 in the Enterprise...",
+    "lang": "en",
+    "via": "llm-page:About Mark Twain",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "סַמוּאֵל לַנְגְהוֹרְן קְלֶמֶנְס (באנגלית: Samuel Langhorne Clemens), נודע בשם העט שלו מַארְק טְוֵויְין (Mark Twain; 30 בנובמבר 1835 – 21 באפריל 1910) היה סופר והומוריסט אמריקני...",
+    "lang": "he",
+    "via": "llm-page:About Mark Twain (עברית)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens (1835–1910), kjent under sitt litterære pseudonym Mark Twain, var en amerikansk humorist, forfatter, journalist og foreleser. Han er mest kjent for sine romaner om Huckleberry Finn og Tom Sawyer...",
+    "lang": "nb",
+    "via": "llm-page:Om Mark Twain (Norsk)",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.name[1]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (1880 census transcription)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Sammy Clemens",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (1910 census transcription)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "מארק טוויין",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1] (first line)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "סמואל לנגהורן קלמנס",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1] (שם לידה)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "שמואל לנגהורן קלמנס",
+    "lang": "he",
+    "via": "llm-page:heading line 'Hebrew:'",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Самюэль Клеменс",
+    "lang": "ru",
+    "via": "llm-page:heading line 'Russian:'",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.name[1]",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.name[1]",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Josh",
+    "lang": "en",
+    "via": "llm-page:About section (Baetzhold bio)",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:profile 'Birthdate'; timeline",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.birthPlace.name",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Florida, Missouri",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Florida, Monroe Co., MO USA",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (census transcriptions)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "פלורידה, מיזורי",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Florida, Monroe County, Missouri, United States",
+    "lang": "en",
+    "via": "llm-page:Timeline 'Birth of Mark Twain'",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (Death Location)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "רדינג, קונטיקט",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Stormfield House, Redding, Fairfield County, Connecticut, United States",
+    "lang": "en",
+    "via": "llm-page:profile 'Death'",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "St. Louis, Missouri",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[2]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Buffalo",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Hartford, Connecticut",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Elmira, N.Y.",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Redding, Fairfield, Connecticut",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (Home in 1910)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Woodlawn Cemetery, Elmira, Chemung County, New York, United States",
+    "lang": "en",
+    "via": "llm-page:profile 'Place of Burial'",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Elmira, New York, United States",
+    "lang": "en",
+    "via": "llm-page:profile 'Current Location'",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "en",
+    "via": "llm-page:About (1850 census; bios)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "St Louis, Missouri",
+    "lang": "en",
+    "via": "llm-page:About (1860 census)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Buffalo, Erie, New York",
+    "lang": "en",
+    "via": "llm-page:About (1870 census)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City, Nevada",
+    "lang": "en",
+    "via": "llm-page:About (Baetzhold bio)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco",
+    "lang": "en",
+    "via": "llm-page:About (Baetzhold bio)",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (census transcription)",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "satirist",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "no",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[2]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "typesetter",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "printer",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "סופר",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1] (עיסוק)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "מרצה",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1] (עיסוק)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "printer / typesetter",
+    "lang": "en",
+    "via": "llm-page:About bios",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "steamboat pilot",
+    "lang": "en",
+    "via": "llm-page:About bios",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "journalist / newspaper editor",
+    "lang": "en",
+    "via": "llm-page:About bios",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "סופר, מרצה",
+    "lang": "he",
+    "via": "llm-page:Hebrew Wikipedia extract 'עיסוק'",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "אמריקני",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1] (לאום)",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "אנגלית",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1] (שפות היצירה)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "גרמנית",
+    "lang": "he",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[1] (שפות היצירה)",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age: A Tale of Today",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Sketches New and Old",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Old Times on the Mississippi",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "1601: Conversation, as it was by the Social Fireside, in the Time of the Tudors",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The American Claimant",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Those Extraordinary Twins",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The £1,000,000 Bank Note and Other New Stories",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, Detective",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Concerning the Jews",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Is He Dead?",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The Man That Corrupted Hadleyburg",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "To the Person Sitting in Darkness",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "A Double Barrelled Detective Story",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "A Dog's Tale",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Extracts from Adam's Diary",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "King Leopold's Soliloquy",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The War Prayer",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The $30,000 Bequest and Other Stories",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "What Is Man?",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Eve's Diary",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Christian Science",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "A Horse's Tale",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Is Shakespeare Dead?",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Captain Stormfield's Visit to Heaven",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Letters from the Earth",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Autobiography",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "General Washington's Negro Body-Servant",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "My Late Senatorial Secretaryship",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Memoranda",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's (Burlesque) Autobiography and First Romance",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Some Learned Fables for Good Old Boys and Girls",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "A Murder, a Mystery, and a Marriage",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "A True Story and the Recent Carnival of Crime",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The Invalid's Story",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Punch, Brothers, Punch! and other Sketches",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "The Great Revolution in Pitcairn",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Merry Tales",
+    "lang": "en",
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "John Marshall Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.parent[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.parent[1]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Louise Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.spouse",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.sibling[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Permelia Ann Moffett",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.sibling[1]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Pleasant Hannibal Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.sibling[2]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Lampton Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.sibling[3]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Lampton Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.sibling[4]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.sibling[5]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "John Pinkton Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.sibling[6]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Langdon Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.children[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Susan \"Susy\" Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.children[1]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Clara Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.children[2]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Jean Clemens",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.children[3]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "John Marshall Clemens (father)",
+    "lang": null,
+    "via": "llm-page:Immediate Family",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Clemens / Jane Lampton (mother)",
+    "lang": null,
+    "via": "llm-page:Immediate Family; About",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Louise Clemens / Olivia Langdon (wife, m. 1870)",
+    "lang": null,
+    "via": "llm-page:Immediate Family; About",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Langdon Clemens (son, b. 1870-11-07 Elmira)",
+    "lang": null,
+    "via": "llm-page:Immediate Family; Timeline",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Susan \"Susy\" Clemens (daughter, b. 1872-03-19 Elmira)",
+    "lang": null,
+    "via": "llm-page:Immediate Family; Timeline",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Clara Clemens (daughter, b. 1874-06-08)",
+    "lang": null,
+    "via": "llm-page:Immediate Family; Timeline",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Jean Clemens (daughter, b. 1880-07-26 Hartford)",
+    "lang": null,
+    "via": "llm-page:Immediate Family; Timeline",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens (brother)",
+    "lang": null,
+    "via": "llm-page:Immediate Family",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Permelia Ann Moffett (sister)",
+    "lang": null,
+    "via": "llm-page:Immediate Family",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Pleasant Hannibal Clemens (brother)",
+    "lang": null,
+    "via": "llm-page:Immediate Family",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Lampton Clemens (sister)",
+    "lang": null,
+    "via": "llm-page:Immediate Family",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Lampton Clemens (brother)",
+    "lang": null,
+    "via": "llm-page:Immediate Family",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Clemens (younger brother)",
+    "lang": null,
+    "via": "llm-page:About",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Albert Bigelow Paine (autobiography dictation; editor of The Writings of Mark Twain)",
+    "lang": null,
+    "via": "llm-page:About",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Bernard DeVoto (editor, The Portable Mark Twain; Letters from the Earth)",
+    "lang": null,
+    "via": "llm-page:About: BIBLIOGRAPHY",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dudley Warner (co-author, The Gilded Age)",
+    "lang": null,
+    "via": "llm-page:About (Baetzhold bio)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "H. G. Baetzhold (author of bio text)",
+    "lang": null,
+    "via": "llm-page:About",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Polar Star Lodge No. 79 A.F.&A.M., St. Louis (Freemason member, 1861)",
+    "lang": null,
+    "via": "llm-page:About",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Buffalo Express (editor and part-owner)",
+    "lang": null,
+    "via": "llm-page:About",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City Territorial Enterprise (correspondent)",
+    "lang": null,
+    "via": "llm-page:About",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://www.wikitree.com/wiki/Clemens-1",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.familysearch.org/tree/person/LZJ1-TLQ",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": true
+   },
+   {
+    "value": "http://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": true
+   },
+   {
+    "value": "https://no.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[2]",
+    "file": "P2600.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.biography.com/articles/Mark-Twain-9512564",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.notablebiographies.com/Tu-We/Twain-Mark.html",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "4239183543700124287",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.url",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "1880 United States Federal Census",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "1900 United States Federal Census",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "1910 United States Federal Census",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "California, Biographical Index Cards, 1781-1990",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[0]",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "http://www.jstor.org/stable/40915421",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].mainEntity.description[2]",
+    "file": "P2600.json",
+    "uri": true
+   },
+   {
+    "value": "Wikipedia; Find-A-Grave",
+    "lang": null,
+    "via": "llm-page:About section",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "subject_of": [
+   {
+    "value": "Benson, Adolph B. \"Mark Twain's Contacts with Scandinavia.\" Scandinavian Studies and Notes 14, no. 7 (1937): 159-67",
+    "lang": "en",
+    "via": "llm-page:Norwegian section",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Anderson, Frederick, and Sanderson, K. M., eds., Mark Twain: The Critical Heritage (1972)",
+    "lang": "en",
+    "via": "llm-page:About: Bibliography (Baetzhold)",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Blair, Walter, Mark Twain and Huck Finn (1960)",
+    "lang": "en",
+    "via": "llm-page:About: Bibliography",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Bridgman, Richard, Traveling with Mark Twain (1987)",
+    "lang": "en",
+    "via": "llm-page:About: Bibliography",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Brooks, Van Wyck, Ordeal of Mark Twain (1933)",
+    "lang": "en",
+    "via": "llm-page:About: Bibliography",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Budd, Louis J., ed., Critical Essays on Mark Twain (1983)",
+    "lang": "en",
+    "via": "llm-page:About: Bibliography",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "De Voto, Bernard, Mark Twain's America (1932)",
+    "lang": "en",
+    "via": "llm-page:About: Bibliography",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Jews, by Dan Vogel",
+    "lang": "he",
+    "via": "llm-page:Hebrew section",
+    "file": "P2600.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain Tonight (one-man show by Hal Holbrook)",
+    "lang": "en",
+    "via": "llm-page:About (legacy)",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Public domain (profile photo)",
+    "lang": null,
+    "via": "llm-page:photo caption",
+    "file": "P2600.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "record_modified": [],
+  "image": [],
+  "see_also": [],
+  "name_preferred": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "description": [
+   "en",
+   "he",
+   "nb",
+   "no"
+  ],
+  "name_variant": [
+   "en",
+   "he",
+   "ru"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [
+   "en",
+   "he"
+  ],
+  "birth_place": [
+   "en",
+   "he"
+  ],
+  "death_place": [
+   "en",
+   "he"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "gender": [
+   "en"
+  ],
+  "occupation": [
+   "en",
+   "he",
+   "no"
+  ],
+  "nationality": [
+   "en",
+   "he"
+  ],
+  "language": [
+   "he"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [],
+  "same_as": [],
+  "identifier": [],
+  "source": [],
+  "subject_of": [
+   "en",
+   "he"
+  ],
+  "license": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 53984,
+   "path_count": 30,
+   "paths": [
+    {
+     "path": "[].mainEntity.sibling[].@type",
+     "n": 7,
+     "sample": "Person"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "n": 7,
+     "sample": "https://www.geni.com/people/Orion-Clemens/4396769219860122824"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "n": 7,
+     "sample": "Orion Clemens"
+    },
+    {
+     "path": "[].mainEntity.children[].@type",
+     "n": 4,
+     "sample": "Person"
+    },
+    {
+     "path": "[].mainEntity.children[].image",
+     "n": 4,
+     "sample": "https://media.geni.com/3d/05/c4/0a/4096164519230082001/mez58fep/3d05c40a8957fc86_small.jpg?hash=93311463e75ca8a7e5f72f1c"
+    },
+    {
+     "path": "[].mainEntity.children[].url",
+     "n": 4,
+     "sample": "https://www.geni.com/people/Langdon-Clemens/4396943116170023704"
+    },
+    {
+     "path": "[].mainEntity.children[].name",
+     "n": 4,
+     "sample": "Langdon Clemens"
+    },
+    {
+     "path": "[].mainEntity.name[]",
+     "n": 3,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].mainEntity.description[]",
+     "n": 3,
+     "sample": "Samuel Langhorne Clemens\n\nSon of John Marshall Clemens and Jane Lampton\nMark Twain, whose real name was Samuel Langhorne"
+    },
+    {
+     "path": "[].mainEntity.parent[].@type",
+     "n": 2,
+     "sample": "Person"
+    },
+    {
+     "path": "[].mainEntity.parent[].image",
+     "n": 2,
+     "sample": "https://media.geni.com/p13/5e/6f/2a/8c/5344485c7d38b66c/89a869b2-ac9f-4cd1-99f9-74ab4619d428_4_5005_c_small.jpg?hash=e89"
+    },
+    {
+     "path": "[].mainEntity.parent[].url",
+     "n": 2,
+     "sample": "https://www.geni.com/people/John-Marshall-Clemens/6000000003031916155"
+    },
+    {
+     "path": "[].mainEntity.parent[].name",
+     "n": 2,
+     "sample": "John Marshall Clemens"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "WebPage"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].dateModified",
+     "n": 1,
+     "sample": "2025-07-13T13:34:27-07:00"
+    },
+    {
+     "path": "[].mainEntity.@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].mainEntity.image",
+     "n": 1,
+     "sample": "https://media.geni.com/p14/80/f2/7b/c6/534448681f23deab/534448681f23deab_medium.jpg?hash=40ac6e68830fcfba6785c252ac2c439"
+    },
+    {
+     "path": "[].mainEntity.url",
+     "n": 1,
+     "sample": "https://www.geni.com/people/Mark-Twain/4239183543700124287"
+    },
+    {
+     "path": "[].mainEntity.birthDate",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].mainEntity.birthPlace.@type",
+     "n": 1,
+     "sample": "Place"
+    },
+    {
+     "path": "[].mainEntity.birthPlace.name",
+     "n": 1,
+     "sample": "United States"
+    },
+    {
+     "path": "[].mainEntity.birthPlace.address.@type",
+     "n": 1,
+     "sample": "PostalAddress"
+    },
+    {
+     "path": "[].mainEntity.birthPlace.address.addressCountry",
+     "n": 1,
+     "sample": "United States"
+    },
+    {
+     "path": "[].mainEntity.deathDate",
+     "n": 1,
+     "sample": "1910-04-21"
+    },
+    {
+     "path": "[].mainEntity.spouse.@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].mainEntity.spouse.image",
+     "n": 1,
+     "sample": "https://media.geni.com/p6/8677/1285/53444836a680ec81/180px-Olivia_Langdon_Clemens_small.png?hash=b0a0b3cd1e7a49dab0b10e8"
+    },
+    {
+     "path": "[].mainEntity.spouse.url",
+     "n": 1,
+     "sample": "https://www.geni.com/people/Olivia-Clemens/6000000003123062282"
+    },
+    {
+     "path": "[].mainEntity.spouse.name",
+     "n": 1,
+     "sample": "Olivia Louise Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].image",
+     "n": 1,
+     "sample": "https://media.geni.com/p6/8677/1285/53444836a6aa48f7/pamela_clemens_small.jpg?hash=4b7d069bb8eeaed944f820691c676dcbea8cc"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].mainEntity.url",
+     "value": "https://www.geni.com/people/Mark-Twain/4239183543700124287"
+    },
+    {
+     "path": "[].mainEntity.name[]",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].mainEntity.name[]",
+     "value": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "[].mainEntity.deathDate",
+     "value": "1910-04-21"
+    },
+    {
+     "path": "[].mainEntity.parent[].url",
+     "value": "https://www.geni.com/people/John-Marshall-Clemens/6000000003031916155"
+    },
+    {
+     "path": "[].mainEntity.parent[].name",
+     "value": "John Marshall Clemens"
+    },
+    {
+     "path": "[].mainEntity.parent[].url",
+     "value": "https://www.geni.com/people/Jane-Clemens/6000000003031922022"
+    },
+    {
+     "path": "[].mainEntity.parent[].name",
+     "value": "Jane Clemens"
+    },
+    {
+     "path": "[].mainEntity.spouse.image",
+     "value": "https://media.geni.com/p6/8677/1285/53444836a680ec81/180px-Olivia_Langdon_Clemens_small.png?hash=b0a0b3cd1e7a49dab0b10e81abca75f6bd23c19e3412a0f1a6f2f9ce19f51f8d.1791097199"
+    },
+    {
+     "path": "[].mainEntity.spouse.url",
+     "value": "https://www.geni.com/people/Olivia-Clemens/6000000003123062282"
+    },
+    {
+     "path": "[].mainEntity.spouse.name",
+     "value": "Olivia Louise Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.geni.com/people/Orion-Clemens/4396769219860122824"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Orion Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].image",
+     "value": "https://media.geni.com/p6/8677/1285/53444836a6aa48f7/pamela_clemens_small.jpg?hash=4b7d069bb8eeaed944f820691c676dcbea8cc5a7eef4f3d242b0db18b8d9520b.1791097199"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.geni.com/people/Pleasant-Clemens/6000000003123187086"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Pleasant Hannibal Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.geni.com/people/Margaret-Clemens/4403771317470041239"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Margaret Lampton Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.geni.com/people/Benjamin-Clemens/4403773270750065559"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Benjamin Lampton Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.geni.com/people/Henry-Clemens/6000000055167095910"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Henry Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.geni.com/people/John-Clemens/6000000016169002745"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "John Pinkton Clemens"
+    },
+    {
+     "path": "[].mainEntity.description[]",
+     "value": "Samuel Langhorne Clemens\n\nSon of John Marshall Clemens and Jane Lampton\nMark Twain, whose real name was Samuel Langhorne Clemens, was known as America’s “greatest humorist.”\nHis first occupation was a"
+    },
+    {
+     "path": "[].mainEntity.description[]",
+     "value": "מארק טוויין\n\nלידה 30 בנובמבר 1835 ארצות הברית פלורידה, מיזורי פטירה 21 באפריל 1910 (בגיל 74) קונטיקט רדינג, קונטיקט שם לידה סמואל לנגהורן קלמנס עיסוק סופר, מרצה בן/בת זוג Olivia Langdon Clemens צאצאים"
+    },
+    {
+     "path": "[].mainEntity.description[]",
+     "value": "https://no.wikipedia.org/wiki/Mark_Twain\n\nSamuel Langhorne Clemens (1835–1910), kjent under sitt litterære pseudonym Mark Twain, var en amerikansk humorist, forfatter, journalist og foreleser. Han er "
+    },
+    {
+     "path": "[].mainEntity.children[].url",
+     "value": "https://www.geni.com/people/Langdon-Clemens/4396943116170023704"
+    },
+    {
+     "path": "[].mainEntity.children[].name",
+     "value": "Langdon Clemens"
+    },
+    {
+     "path": "[].mainEntity.children[].image",
+     "value": "https://media.geni.com/p14/e8/40/47/01/534448690ecb9f79/susy_clemens1885_small.jpg?hash=c663c4a55305c927a80ed43d6c8aa52065b3736566bbc9bf9362c2b4d08ce8f9.1791097199"
+    },
+    {
+     "path": "[].mainEntity.children[].url",
+     "value": "https://www.geni.com/people/Olivia-Clemens/6000000003123242466"
+    },
+    {
+     "path": "[].mainEntity.children[].name",
+     "value": "Olivia Susan \"Susy\" Clemens"
+    },
+    {
+     "path": "[].mainEntity.children[].image",
+     "value": "https://media.geni.com/p14/df/73/16/9b/534448690cd6ad04/clara_clemens_small.jpg?hash=61ac2fb73cd66b00533fc3172abca1d0023c72ed3dba4e54ffbc2d6f93eb42e3.1791097199"
+    },
+    {
+     "path": "[].mainEntity.children[].url",
+     "value": "https://www.geni.com/people/Clara-Clemens/6000000003123075882"
+    },
+    {
+     "path": "[].mainEntity.children[].name",
+     "value": "Clara Clemens"
+    },
+    {
+     "path": "[].mainEntity.children[].image",
+     "value": "https://media.geni.com/p14/c2/a1/f3/e8/534448690ecd29b8/jean_lampton_clemens_small.jpg?hash=148a9b9e5cb4383d97e2bb3fcb4360d409c1b4a143ef2dbdd6cdecb98058393c.1791097199"
+    },
+    {
+     "path": "[].mainEntity.children[].url",
+     "value": "https://www.geni.com/people/Jean-Clemens/6000000003123281130"
+    },
+    {
+     "path": "[].mainEntity.children[].name",
+     "value": "Jean Clemens"
+    }
+   ],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 685,
+   "path_count": 12,
+   "paths": [
+    {
+     "path": "[].fb:app_id",
+     "n": 1,
+     "sample": "2492196975"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "geni_family_tree"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Genealogy profile for Mark Twain"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://media.geni.com/p14/87/a0/43/94/534448681f3e134f/mark_twain_by_af_bradley_large.jpg?hash=fd18dade1780d9acb952f728"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "342"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "480"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.geni.com/people/Mark-Twain/4239183543700124287"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "geni_family_tree:relative"
+    },
+    {
+     "path": "[].@context.fb",
+     "n": 1,
+     "sample": "http://ogp.me/ns/fb#"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    },
+    {
+     "path": "[].@context.geni_family_tree",
+     "n": 1,
+     "sample": "http://ogp.me/ns/fb/geni_family_tree#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Genealogy profile for Mark Twain"
+    },
+    {
+     "path": "[].og:image",
+     "value": "https://media.geni.com/p14/87/a0/43/94/534448681f3e134f/mark_twain_by_af_bradley_large.jpg?hash=fd18dade1780d9acb952f72865815d267fed5e7c19e35bc0dfd8fafc98285e88.1791097199&width=342&height=480"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.geni.com/people/Mark-Twain/4239183543700124287"
+    }
+   ],
+   "language_like_keys": [
+    "fb",
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 3,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Geni World Family Tree profile 'Samuel Langhorne Clemens (1835 - 1910)' / Mark Twain: vital facts, immediate family, a long user-contributed 'About' section (English bios, a 66-title bibliography, census/passport/marriage record transcriptions, Hebrew and Norwegian Wikipedia extracts) and a timeline. The page shows far more works than the 40 kept; the 'Immediate Family' sidebar shows the logged-in viewer's relationship to his wife ('8th cousin twice removed'), which is not data about him.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,39 @@
+{
+ "property": "P9247",
+ "label": "Pontifical University of Salamanca ID",
+ "files_read": ["pages/P9247__30717.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Koha MARC view of UPSA authority 30717 'Twain, Mark, 1835-1910' with two see-from tracings (Clemens; Snodgrass, Quintus Curtius) and a 670 source citing the Biblioteca Nacional authorities; used in 51 records. Despite the login_wall_suspected status the record is fully visible.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": null, "via": "MARC 100 $a $d"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "lang": null, "via": "MARC 400"}
+  ],
+  "pseudonym": [
+   {"value": "Snodgrass, Quintus Curtius", "lang": null, "via": "MARC 400 see-from tracing"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "1835-1910.", "lang": null, "via": "MARC 100 $d"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "1835-1910.", "lang": null, "via": "MARC 100 $d"}
+  ],
+  "identifier": [
+   {"value": "30717", "via": "MARC 001"},
+   {"value": ".a10470979", "via": "MARC 907 (cataloguer code / legacy record no.)"}
+  ],
+  "source": [
+   {"value": "En Autoridades de la Biblioteca Nacional: Twain, Mark (1835-1910)", "lang": "es", "via": "MARC 670"}
+  ],
+  "record_created": [
+   {"value": "2003-10-03", "raw": "008: 031003", "via": "MARC 008 date entered"}
+  ],
+  "record_modified": [
+   {"value": "2018-02-14", "raw": "20180214201017.0", "via": "MARC 005"}
+  ]
+ }
+}

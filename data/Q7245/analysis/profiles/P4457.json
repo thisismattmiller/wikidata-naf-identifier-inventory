@@ -1,0 +1,551 @@
+{
+ "property": "P4457",
+ "property_label": "DAHR artist ID",
+ "files": [
+  {
+   "file": "P4457__102301/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/102301/Twain_Mark"
+  },
+  {
+   "file": "P4457__102301/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/102301/Twain_Mark"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:citation s.v.",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:bio first sentence",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:LCNAR link label",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:bio first sentence",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:bio first sentence",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Birth and Death Data / bio",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (village in Missouri, United States of America)",
+    "lang": "en",
+    "via": "llm-page:Birth and Death Data",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (town in Fairfield County, Connecticut, United States)",
+    "lang": "en",
+    "via": "llm-page:Birth and Death Data",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "en",
+    "via": "llm-page:bio (raised in)",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City",
+    "lang": "en",
+    "via": "llm-page:bio (Territorial Enterprise)",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Angels Camp, California",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi River",
+    "lang": "en",
+    "via": "llm-page:bio (riverboat pilot)",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "essayist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "printer's apprentice / typesetter",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "riverboat pilot",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "miner",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "speaker / lecturer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:Roles Represented in DAHR",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), known by the pen name Mark Twain, was an American writer, humorist, and essayist. He was praised as the \"greatest humorist the United States has produced\", with William Faulkner calling him \"the father of American literature\". Twain's novels include The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1884), with the latter often called the \"Great American Novel\". He also wrote A Connecticut Yankee in K",
+    "lang": "en",
+    "via": "llm-page:bio paragraph",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age: A Tale of Today",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "King Leopold's Soliloquy",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Buck Fanshaw's funeral",
+    "lang": "en",
+    "via": "llm-page:Recordings table",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "How Tom whitewashed the fence",
+    "lang": "en",
+    "via": "llm-page:Recordings table",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Our guide in Genoa",
+    "lang": "en",
+    "via": "llm-page:Recordings table",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer : Selection",
+    "lang": "en",
+    "via": "llm-page:Recordings table",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Innocents abroad : Selection",
+    "lang": "en",
+    "via": "llm-page:Recordings table",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Charles Dudley Warner (co-author of The Gilded Age)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens (older brother)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Huttleston Rogers (financial helper/adviser)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "American Anti-Imperialist League (vice president 1901-1910)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City Territorial Enterprise (employer, journalism)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Harry E. Humphrey (recitation performer of his text)",
+    "lang": null,
+    "via": "llm-page:Recordings table",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "William Sterling Battis (recitation performer of his texts)",
+    "lang": null,
+    "via": "llm-page:Recordings table",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Victor (record company)",
+    "lang": null,
+    "via": "llm-page:Recordings table",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Columbia (record company)",
+    "lang": null,
+    "via": "llm-page:Recordings table",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "Edison (record company)",
+    "lang": null,
+    "via": "llm-page:Recordings table",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://id.loc.gov/authorities/names/n79021164",
+    "lang": null,
+    "via": "llm-page:Linked Open Data Sources: LCNAR",
+    "file": "P4457.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm-page:Linked Open Data Sources: Wikidata",
+    "file": "P4457.json",
+    "uri": true
+   },
+   {
+    "value": "https://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm-page:Linked Open Data Sources: VIAF",
+    "file": "P4457.json",
+    "uri": true
+   },
+   {
+    "value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+    "lang": null,
+    "via": "llm-page:Linked Open Data Sources: MusicBrainz",
+    "file": "P4457.json",
+    "uri": true
+   },
+   {
+    "value": "https://vocab.getty.edu/ulan/500020427",
+    "lang": null,
+    "via": "llm-page:Linked Open Data Sources: Getty ULAN",
+    "file": "P4457.json",
+    "uri": true
+   },
+   {
+    "value": "https://id.worldcat.org/fast/31622",
+    "lang": null,
+    "via": "llm-page:Linked Open Data Sources: Fast",
+    "file": "P4457.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "102301",
+    "lang": null,
+    "via": "llm-page:DAHR Persistent Identifier",
+    "file": "P4457.json",
+    "uri": false
+   },
+   {
+    "value": "http://adp.library.ucsb.edu/names/102301",
+    "lang": null,
+    "via": "llm-page:DAHR Persistent Identifier URI",
+    "file": "P4457.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "Wikipedia",
+    "lang": null,
+    "via": "llm-page:bio 'Continue reading at Wikipedia' and External Sources",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Creative Commons BY-SA (Wikipedia content)",
+    "lang": null,
+    "via": "llm-page:note under linked data",
+    "file": "P4457.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [],
+  "same_as": [],
+  "identifier": [],
+  "source": [],
+  "license": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 153,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Discography of American Historical Recordings"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Discography of American Historical Recordings name page: Wikipedia-sourced bio (truncated with 'Show More'), birth/death data, a table of 7 recordings (1913-1916) of recitations of his texts with performers, and external/linked-data cross-links.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

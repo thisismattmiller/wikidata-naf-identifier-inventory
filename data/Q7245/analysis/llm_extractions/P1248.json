@@ -1,0 +1,45 @@
+{
+ "property": "P1248",
+ "label": "KulturNav-ID",
+ "files_read": ["P1248__3e04abfe-5825-41af-ac3d-23a5ea3aba38/alternate_3.json"],
+ "about_entity": true,
+ "notes": "KulturNav native JSON entity record (Person) for Twain, Mark (1835 - 1910) in the Swedish Musikverket persons dataset. Odd: given/family names are split oddly ('Samuel Mark' / 'Langhorne Clemens Twain'); birth place is just 'Florida' (Florida, Missouri), death place 'Redding'; works are linked via 'Aktör i' (actor in) to stage works based on his books.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "sv", "via": "alternate_3.json: $.properties['entity.name'][0].value.sv"}],
+  "name_variant": [
+   {"value": "Mark Twain", "lang": "sv", "via": "alternate_3.json: $.properties['agent.otherName'][0].value.properties['entity.name'][0].value (name type: Namnform från källa)"},
+   {"value": "Twain, Mark (1835 - 1910)", "lang": "sv", "via": "alternate_3.json: $.caption / $.properties['entity.fullCaption']"}
+  ],
+  "given_name": [{"value": "Samuel Mark", "lang": "sv", "via": "alternate_3.json: $.properties['person.firstName'][0].value"}],
+  "family_name": [{"value": "Langhorne Clemens Twain", "lang": "sv", "via": "alternate_3.json: $.properties['person.lastName'][0].value"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "18351130-D", "lang": null, "via": "alternate_3.json: $.properties['person.birth'][0].value.properties['event.time'][0].value"}],
+  "death_date": [{"value": "1910-04-21", "raw": "19100421-D", "lang": null, "via": "alternate_3.json: $.properties['person.death'][0].value.properties['event.time'][0].value"}],
+  "birth_place": [{"value": "Florida", "lang": "sv", "via": "alternate_3.json: $.properties['person.birth'][0]...['placeReference.placeString'][0].value"}],
+  "death_place": [{"value": "Redding", "lang": "sv", "via": "alternate_3.json: $.properties['person.death'][0]...['placeReference.placeString'][0].value"}],
+  "gender": [{"value": "Man", "raw": "Man (sv) / Man (en) / Mann (no)", "lang": "en", "via": "alternate_3.json: $.properties['person.gender'][0].displayValue"}],
+  "description": [{"value": "amerikansk författare", "lang": "sv", "via": "alternate_3.json: $.properties['entity.description'][0].value.sv"}],
+  "work": [
+   {"value": "Adams dagbok (Teaterpjäs : verk)", "lang": "sv", "via": "alternate_3.json: $.properties['agent.actorIn'][0].displayValue (relation: Aktör i)"},
+   {"value": "Huckleberry Finn (Scenkonstverk)", "lang": "sv", "via": "alternate_3.json: $.properties['agent.actorIn'][1].displayValue"},
+   {"value": "Huckleberry Finns äventyr (Teaterpjäs : verk)", "lang": "sv", "via": "alternate_3.json: $.properties['agent.actorIn'][2].displayValue.sv"},
+   {"value": "Huckleberry Finn (Play : work)", "lang": "en", "via": "alternate_3.json: $.properties['agent.actorIn'][2].displayValue.en"},
+   {"value": "Tom Sawyer (Teaterpjäs : verk)", "lang": "sv", "via": "alternate_3.json: $.properties['agent.actorIn'][3].displayValue.sv"},
+   {"value": "Tom Sawyer (Play : work)", "lang": "en", "via": "alternate_3.json: $.properties['agent.actorIn'][3].displayValue.en"},
+   {"value": "Tom Sawyers äventyr (Teaterpjäs : verk)", "lang": "sv", "via": "alternate_3.json: $.properties['agent.actorIn'][4].displayValue"}
+  ],
+  "same_as": [
+   {"value": "https://libris.kb.se/1zcfb5hk1bq7d78", "via": "alternate_3.json: $.properties['entity.sameAs'][0].value"},
+   {"value": "http://viaf.org/viaf/50566653", "via": "alternate_3.json: $.properties['entity.sameAs'][1].value"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "alternate_3.json: $.properties['entity.sameAs'][2].value"},
+   {"value": "https://digitaltmuseum.org/3e04abfe-5825-41af-ac3d-23a5ea3aba38", "via": "alternate_3.json: $.properties['superconcept.seeAlso'][0].value"}
+  ],
+  "identifier": [
+   {"value": "3e04abfe-5825-41af-ac3d-23a5ea3aba38", "via": "alternate_3.json: $.uuid"},
+   {"value": "DigitaltMuseum: 0210315745803", "via": "alternate_3.json: $.properties['entity.alternativeId'][0] (alternativeId.system / alternativeId.id)"}
+  ],
+  "language": [{"value": "sv", "raw": "svenska (sv)", "lang": null, "via": "alternate_3.json: $.properties['dataset.primaryLanguage'][0].displayValue (record language, not person's)"}],
+  "source": [{"value": "Personer, Musikverket (Statens musikverk)", "lang": "sv", "via": "alternate_3.json: $.properties['entity.dataset'][0].displayValue.sv"}],
+  "record_created": [{"value": "2025-02-24", "raw": "Feb 24, 2025 2:29:22 PM", "lang": null, "via": "alternate_3.json: $.createdAt"}],
+  "record_modified": [{"value": "2025-06-04", "raw": "Jun 4, 2025 4:25:47 PM", "lang": null, "via": "alternate_3.json: $.updatedAt"}]
+ }
+}

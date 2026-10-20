@@ -1,0 +1,40 @@
+{
+ "property": "P7553",
+ "label": "Sinemalar person ID",
+ "files_read": ["P7553__80023/embedded_microdata.json", "P7553__80023/embedded_opengraph.json", "P7553__80023/xhr_1.json"],
+ "about_entity": true,
+ "notes": "embedded_microdata.json is a breadcrumb list ending in 'Mark Twain'; embedded_opengraph.json has name, poster image and a Turkish one-line bio. xhr_1.json is an HTML fragment of two user comments (not site data), so nothing was extracted from it.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "tr", "via": "embedded_opengraph.json: og:title; embedded_microdata.json: itemListElement[2].name"}
+  ],
+  "name_variant": [
+   {"value": "Samuel Langhorne Clemens", "lang": "tr", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": "tr", "raw": "daha çok takma adı Mark Twain olarak bilinir", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "30 Kasım 1835", "lang": "tr", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "21 Nisan 1910", "lang": "tr", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "nationality": [
+   {"value": "Amerikalı", "lang": "tr", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "occupation": [
+   {"value": "mizahçı", "lang": "tr", "via": "embedded_opengraph.json: og:description"},
+   {"value": "yazar", "lang": "tr", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "description": [
+   {"value": "Samuel Langhorne Clemens (30 Kasım 1835 – 21 Nisan 1910), daha çok takma adı Mark Twain olarak bilinir, Amerikalı mizahçı ve yazar.", "lang": "tr", "via": "embedded_opengraph.json: og:description"}
+  ],
+  "identifier": [
+   {"value": "80023", "raw": "https://cdn.sinemalar.com/images/person/80023/poster/mark-twain.jpg", "via": "embedded_opengraph.json: og:image path"}
+  ],
+  "image": [
+   {"value": "https://cdn.sinemalar.com/images/person/80023/poster/mark-twain.jpg", "via": "embedded_opengraph.json: og:image"}
+  ]
+ }
+}

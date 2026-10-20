@@ -1,0 +1,80 @@
+{
+ "property": "P9802",
+ "label": "Penguin Random House author ID",
+ "files_read": [
+  "P9802__31611/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph block from the PRH author page; og:description is a truncated bio. og:image is a book cover, not a portrait.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "raw": "Mark Twain | Penguin Random House",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:title"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:description ('born Samuel Clemens')"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "description": [
+   {
+    "value": "MARK TWAIN, considered one of the greatest writers in American literature, was born Samuel Clemens in Florida, Missouri, in 1835, and died in Redding, Connecticut in 1910.",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "31611",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url"
+   },
+   {
+    "value": "https://www.penguinrandomhouse.com/authors/31611/mark-twain",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2156 @@
+{
+ "property": "P648",
+ "property_label": "Open Library ID",
+ "files": [
+  {
+   "file": "P648__OL18319A/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://openlibrary.org/authors/OL18319A/Mark_Twain?mode=all"
+  },
+  {
+   "file": "P648__OL18319A/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://openlibrary.org/authors/OL18319A/Mark_Twain?mode=all"
+  },
+  {
+   "file": "P648__OL18319A/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://openlibrary.org/authors/OL18319A/Mark_Twain?mode=all"
+  },
+  {
+   "file": "P648__OL18319A/export_1.rdf",
+   "format": "rdf-xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://openlibrary.org/authors/OL18319A.rdf"
+  },
+  {
+   "file": "P648__OL18319A/export_2.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://openlibrary.org/authors/OL18319A.json"
+  },
+  {
+   "file": "P648__OL18319A/export_3.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://openlibrary.org/developers/api"
+  },
+  {
+   "file": "P648__OL18319A/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://openlibrary.org/developers/api"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "rdf-xml": 1,
+  "json": 1,
+  "html": 2
+ },
+ "vocabularies": {
+  "http://rdvocab.info/ElementsGr2/": 68,
+  "http://ogp.me/ns#": 6,
+  "http://xmlns.com/foaf/0.1/": 4,
+  "http://www.w3.org/2002/07/owl#": 3,
+  "http://purl.org/dc/terms/": 2,
+  "http://purl.org/vocab/bio/0.1/": 2,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "http://open.vocab.org/terms/": 1,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad (The Works of Mark Twain)",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:export_2.json: $.name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm:export_2.json: $.marc[0] (100 $a)",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain, born Samuel Langhorne Clemens, was a prolific American author and humorist. Twain is best known for his novels Adventures of Huckleberry Finn (1884), which has been called \"the Great American Novel\", and The Adventures of Tom Sawyer (1876). He is extensively quoted. Twain was a friend to presidents, artists, industrialists, and European royalty. (Source.)",
+    "lang": null,
+    "via": "json:description",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, born Samuel Langhorne Clemens, was a prolific American author and humorist. Twain is best known for his novels Adventures of Huckleberry Finn  (1884), which has been called \"the Great American Novel\", and The Adventures of Tom Sawyer  (1876). He is extensively quoted. Twain was a friend to presidents, artists, industrialists, and European royalty. ([Source][1].) \n\n[1]:http://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "biographicalInformation",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, born Samuel Langhorne Clemens, was a prolific American author and humorist. Twain is best known for his novels Adventures of Huckleberry Finn  (1884), which has been called \"the Great American Novel\", and The Adventures of Tom Sawyer  (1876). He is extensively quoted. Twain was a friend to presidents, artists, industrialists, and European royalty. ([Source][1].) \r\n\r\n[1]:http://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": "bio",
+    "via": "json:bio",
+    "file": "export_2.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, born Samuel Langhorne Clemens, was a prolific American author and humorist. Twain is best known for his novels Adventures of Huckleberry Finn  (1884), which has been called \"the Great American Novel\", and The Adventures of Tom Sawyer  (1876). He is extensively quoted. Twain was a friend to presidents, artists, industrialists, and European royalty.",
+    "lang": "en",
+    "via": "llm:export_2.json: $.bio",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, born Samuel Langhorne Clemens, was a prolific American author and humorist. Twain is best known for his novels Adventures of Huckleberry Finn (1884), which has been called \"the Great American Novel\", and The Adventures of Tom Sawyer (1876). He is extensively quoted. Twain was a friend to presidents, artists, industrialists, and European royalty.",
+    "lang": "en",
+    "via": "llm-page:bio paragraph (Source.)",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "American author and humorist (1835–1910)",
+    "lang": "en",
+    "via": "llm-page:short description above Born/Died",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://covers.openlibrary.org/a/id/11564855-M.jpg",
+    "lang": null,
+    "via": "json:image",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://covers.openlibrary.org/a/id/11564855-L.jpg",
+    "lang": null,
+    "via": "json:image",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://covers.openlibrary.org/b/id/15081964-M.jpg",
+    "lang": null,
+    "via": "json:image",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://covers.openlibrary.org/b/id/11564855-M.jpg",
+    "lang": null,
+    "via": "depiction",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://covers.openlibrary.org/b/id/14418219-M.jpg",
+    "lang": null,
+    "via": "depiction",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://covers.openlibrary.org/b/id/6282256-M.jpg",
+    "lang": null,
+    "via": "depiction",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://covers.openlibrary.org/a/id/14418219-L.jpg",
+    "lang": null,
+    "via": "llm:export_2.json: $.photos[1]",
+    "file": "P648.json",
+    "uri": true
+   },
+   {
+    "value": "https://covers.openlibrary.org/a/id/6282256-L.jpg",
+    "lang": null,
+    "via": "llm:export_2.json: $.photos[2]",
+    "file": "P648.json",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "30 November 1835",
+    "lang": null,
+    "via": "json:birthDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm:export_2.json: $.birth_date; embedded_microdata.json: $[0].birthDate",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "21 April 1910",
+    "lang": null,
+    "via": "json:deathDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm:export_2.json: $.death_date; embedded_microdata.json: $[0].deathDate",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://bookbrainz.org/author/83280dda-c02e-4f45-a44a-092226e6e8c7",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.goodreads.com/author/show/1244",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000077209145",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.imdb.com/name/nm0878494",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.librarything.com/author/twainmark",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://librivox.org/author/9",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://musicbrainz.org/artist/4d584c99-249e-493f-8c5f-d022bd8de433",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.gutenberg.org/ebooks/author/53",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.wikidata.org/wiki/Q7245",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://inventaire.io/entity/wd:Q7245",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "http://isni.org/isni/0000000077209145",
+    "lang": null,
+    "via": "sameAs",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "sameAs",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "sameAs",
+    "file": "export_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://id.sbn.it/af/CFIV002662",
+    "lang": null,
+    "via": "llm-page:ID Numbers",
+    "file": "P648.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens Samuel",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "M. Twain",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Marc Twain",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Clemens",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis Conte",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Марк Твен",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, Zerrin Ozalp Oztarhan, Muge Kalender, Azadeh Ramezani",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, O. Henry , Edgar Allan Poe, Jack London",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain R.D. Gooder",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel & Kipling, Rudyard",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain; And Notes Introduction Editor Charles Neider",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel and Robert Louis Stevenson CLEMENS",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark Day, A. Grove;",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark / Richard Sadler (Adapted by) Twain",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark 1835-1910 Selections 1 Twain",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "TWAIN, Mark; LAWRENCE, D.H.; ORWELL, George; SANDBURG, Carl",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "editor Mark Twain; Charles Neider",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, and Vogel, Malvina G (Edited by)",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark; Clemens, Cyril [Editor]; Sandburg, Carl [Foreword]",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain Patricia Hutchinson",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel (twain, Mark); illustrated by Guilbeau, Honore",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel (twain, Mark)",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "ed Mark twain; Dixon Wecter",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark Hugo, Victor",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, Johanna Spyri, Anna Sewell, Hans Christian Andersen By Mark Twain, Johanna Spyri, Anna Sewell, Hans Christian Andersen",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, Illustrated By Donald McKay",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne (Mark Twain); Bradley, Sculley; Beatty, Richmond Croom; Long, E Hudson (Editors)",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne (Mark Twain)",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain,Wilkie Collins,John Brougham",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (Samuel L. Clemens) and Charles Dudley Warner",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (Samuel L. Clemens)",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain and Charles Dudley Warner",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "mark Twain\". George Ade, James Whitcomb Riley, Joel Chandler Harris, \"mr. Dooley",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens and Jo Polseno",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, Josh Billings, Robt. J. Burdette, Alex Sweet and Melville D. Landon",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens and Charles D. Warner",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens & Clara Gabrilowitsch",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark and Warner, Charles Dudley",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, Illustrated by Cover Art",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens Mark Twain",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark (With an introduction by Roy Blount, Jr.)",
+    "lang": null,
+    "via": "json:alternateName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "(mei) Ma, ke tu wen",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "(mei) Tuwen, Make",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Ma ke tu wen",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Make Tuwen",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "MakeTuwen",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Māku Tuein",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Richmond Croom Beatty",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Sameul Langhorne Clemens",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Sculley Bradley",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tu wen",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tuwen Make",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "М.Твен",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Mark Tawain",
+    "lang": null,
+    "via": "variantNameForThePerson",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "(mei) Ma, ke tu wen",
+    "lang": "zh-Latn",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "(mei) Tuwen, Make",
+    "lang": "zh-Latn",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens Samuel",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "M. Twain",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Ma ke tu wen",
+    "lang": "zh-Latn",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Make Tuwen",
+    "lang": "zh-Latn",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "MakeTuwen",
+    "lang": "zh-Latn",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Marc Twain",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Māku Tuein",
+    "lang": "ja-Latn",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Sameul Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Tu wen",
+    "lang": "zh-Latn",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwen Make",
+    "lang": "zh-Latn",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "М.Твен",
+    "lang": "ru",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Марк Твен",
+    "lang": "ru",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel (twain, Mark)",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne (Mark Twain)",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (Samuel L. Clemens)",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Tawain",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens Mark Twain",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://openlibrary.org/works/OL53918W/A_Tramp_Abroad?edition=key%3A/books/OL45615036M",
+    "lang": null,
+    "via": "json:url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-01-04T14:40:05.201851",
+    "lang": null,
+    "via": "modified",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "2026-01-04",
+    "lang": null,
+    "via": "llm:export_2.json: $.last_modified.value",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2008-04-01T03:28:50.625462",
+    "lang": null,
+    "via": "created",
+    "file": "export_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "2008-04-01",
+    "lang": null,
+    "via": "llm:export_2.json: $.created.value",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://xmlns.com/foaf/0.1/Person",
+    "lang": null,
+    "via": "type",
+    "file": "export_1.rdf",
+    "uri": true
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:export_2.json: $.title = '(pseud)' with $.personal_name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis Conte",
+    "lang": "en",
+    "via": "llm:export_2.json: $.alternate_names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": null,
+    "via": "llm-page:Alternative names",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm:export_2.json: $.bio ('born Samuel Langhorne Clemens')",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm:export_2.json: $.bio ('born Samuel Langhorne Clemens')",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm:export_2.json: $.bio",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm:export_2.json: $.bio",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm:export_2.json: $.bio",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "American Claimant",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, Detective",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd’nhead Wilson",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad (The Works of Mark Twain)",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Masters of the Macabre",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "The gilded age",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Puddnhead Wilson: and Those Extraordinary Twins",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "The mysterious stranger and other stories",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[?(@type=='Book')].name",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad",
+    "lang": "en",
+    "via": "llm-page:works list (Most Editions)",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Charles Dudley Warner",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: Book 'The gilded age' author",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dudley Warner (co-author, The gilded age)",
+    "lang": null,
+    "via": "llm-page:works list",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "John D. Seelye (co-credited, Tom Sawyer)",
+    "lang": null,
+    "via": "llm-page:works list",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Edmund Reiss (co-credited, The mysterious stranger and other stories)",
+    "lang": null,
+    "via": "llm-page:works list",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Neider (editor)",
+    "lang": null,
+    "via": "llm-page:Alternative names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Dixon Wecter (editor)",
+    "lang": null,
+    "via": "llm-page:Alternative names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Sculley Bradley (editor)",
+    "lang": null,
+    "via": "llm-page:Alternative names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Richmond Croom Beatty (editor)",
+    "lang": null,
+    "via": "llm-page:Alternative names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "E. Hudson Long (editor)",
+    "lang": null,
+    "via": "llm-page:Alternative names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Cyril Clemens (editor)",
+    "lang": null,
+    "via": "llm-page:Alternative names",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Clara Gabrilowitsch (co-credited)",
+    "lang": null,
+    "via": "llm-page:Alternative names",
+    "file": "P648.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "OL18319A",
+    "lang": null,
+    "via": "llm:export_2.json: $.key (/authors/OL18319A)",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "https://openlibrary.org/authors/OL18319A/Mark_Twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P648.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "http://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:export_2.json: $.bio ([Source][1])",
+    "file": "P648.json",
+    "uri": true
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Fiction",
+    "lang": "en",
+    "via": "llm-page:SUBJECTS facet",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Children's fiction",
+    "lang": "en",
+    "via": "llm-page:SUBJECTS facet",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "American literature",
+    "lang": "en",
+    "via": "llm-page:SUBJECTS facet",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Juvenile fiction",
+    "lang": "en",
+    "via": "llm-page:SUBJECTS facet",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Description and travel",
+    "lang": "en",
+    "via": "llm-page:SUBJECTS facet",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "American Humorous stories",
+    "lang": "en",
+    "via": "llm-page:SUBJECTS facet",
+    "file": "P648.json",
+    "uri": false
+   },
+   {
+    "value": "Short stories",
+    "lang": "en",
+    "via": "llm-page:SUBJECTS facet",
+    "file": "P648.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "description": [
+   "bio",
+   "en"
+  ],
+  "image": [],
+  "birth_date": [],
+  "death_date": [],
+  "same_as": [],
+  "name_variant": [
+   "en",
+   "ja-Latn",
+   "ru",
+   "zh-Latn"
+  ],
+  "see_also": [],
+  "record_modified": [],
+  "record_created": [],
+  "type": [],
+  "pseudonym": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": [],
+  "source": [],
+  "field_of_activity": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2,
+  "event (http://purl.org/vocab/bio/0.1/)": 2,
+  "('(Spirit)' heading via page text, dropped)": 2,
+  "versionnumber (http://open.vocab.org/terms/)": 1,
+  "titleOfThePerson (http://rdvocab.info/ElementsGr2/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 13429,
+   "path_count": 14,
+   "paths": [
+    {
+     "path": "[].knowsAbout[]",
+     "n": 50,
+     "sample": "Fiction"
+    },
+    {
+     "path": "[].alternateName[]",
+     "n": 50,
+     "sample": "(mei) Ma, ke tu wen"
+    },
+    {
+     "path": "[].@type",
+     "n": 21,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@context",
+     "n": 21,
+     "sample": "https://schema.org"
+    },
+    {
+     "path": "[].name",
+     "n": 21,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].image",
+     "n": 20,
+     "sample": "https://covers.openlibrary.org/b/id/15208262-M.jpg"
+    },
+    {
+     "path": "[].url",
+     "n": 20,
+     "sample": "https://openlibrary.org/works/OL53908W/Adventures_of_Huckleberry_Finn?edition=key%3A/books/OL61449700M"
+    },
+    {
+     "path": "[].author.value",
+     "n": 20,
+     "sample": "by Mark Twain"
+    },
+    {
+     "path": "[].author.@type",
+     "n": 20,
+     "sample": "Organization"
+    },
+    {
+     "path": "[].sameAs[]",
+     "n": 12,
+     "sample": "https://bookbrainz.org/author/83280dda-c02e-4f45-a44a-092226e6e8c7"
+    },
+    {
+     "path": "[].image[]",
+     "n": 4,
+     "sample": "https://covers.openlibrary.org/a/id/11564855-M.jpg"
+    },
+    {
+     "path": "[].birthDate[]",
+     "n": 2,
+     "sample": "30 November 1835"
+    },
+    {
+     "path": "[].deathDate[]",
+     "n": 2,
+     "sample": "21 April 1910"
+    },
+    {
+     "path": "[].description",
+     "n": 1,
+     "sample": "Mark Twain, born Samuel Langhorne Clemens, was a prolific American author and humorist. Twain is best known for his nove"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].name",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].description",
+     "value": "Mark Twain, born Samuel Langhorne Clemens, was a prolific American author and humorist. Twain is best known for his novels Adventures of Huckleberry Finn (1884), which has been called \"the Great Ameri"
+    },
+    {
+     "path": "[].birthDate[]",
+     "value": "30 November 1835"
+    },
+    {
+     "path": "[].birthDate[]",
+     "value": "30 November 1835"
+    },
+    {
+     "path": "[].deathDate[]",
+     "value": "21 April 1910"
+    },
+    {
+     "path": "[].deathDate[]",
+     "value": "21 April 1910"
+    },
+    {
+     "path": "[].knowsAbout[]",
+     "value": "Twain, mark, 1835-1910"
+    },
+    {
+     "path": "[].sameAs[]",
+     "value": "https://www.librarything.com/author/twainmark"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Clemens Samuel"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "M. Twain"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Marc Twain"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Sameul Langhorne Clemens"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Samuel Clemens"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Samuel L. Clemens"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "М.Твен"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Марк Твен"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark Twain, Zerrin Ozalp Oztarhan, Muge Kalender, Azadeh Ramezani"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark Twain, O. Henry , Edgar Allan Poe, Jack London"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark Twain R.D. Gooder"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Clemens, Samuel & Kipling, Rudyard"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Clemens, Samuel"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark Twain; And Notes Introduction Editor Charles Neider"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Samuel and Robert Louis Stevenson CLEMENS"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Samuel CLEMENS"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Twain, Mark Day, A. Grove;"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark / Richard Sadler (Adapted by) Twain"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark 1835-1910 Selections 1 Twain"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "TWAIN, Mark; LAWRENCE, D.H.; ORWELL, George; SANDBURG, Carl"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "TWAIN, Mark"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "editor Mark Twain; Charles Neider"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Twain, Mark, and Vogel, Malvina G (Edited by)"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Twain, Mark; Clemens, Cyril [Editor]; Sandburg, Carl [Foreword]"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark Twain Patricia Hutchinson"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Clemens, Samuel (twain, Mark); illustrated by Guilbeau, Honore"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Clemens, Samuel (twain, Mark)"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "ed Mark twain; Dixon Wecter"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Twain, Mark Hugo, Victor"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark Twain, Johanna Spyri, Anna Sewell, Hans Christian Andersen By Mark Twain, Johanna Spyri, Anna Sewell, Hans Christian Andersen"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Twain, Mark, Illustrated By Donald McKay"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Clemens, Samuel Langhorne (Mark Twain); Bradley, Sculley; Beatty, Richmond Croom; Long, E Hudson (Editors)"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Clemens, Samuel Langhorne (Mark Twain)"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark Twain,Wilkie Collins,John Brougham"
+    },
+    {
+     "path": "[].alternateName[]",
+     "value": "Mark Twain (Samuel L. Clemens) and Charles Dudley Warner"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].name",
+     "value": "A Tramp Abroad (The Works of Mark Twain)"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Bram Stoker, Washington Irving, Saki, Charles Dickens, Edgar Allan Poe, Guy de Maupassant, Robert Louis Stevenson, Mark Twain, Bram Stroker, and 20 others"
+    },
+    {
+     "path": "[].author.value",
+     "value": "by Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 541,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain | Open Library"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://covers.openlibrary.org/a/id/11564855-L.jpg"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://openlibrary.org/authors/OL18319A/Mark_Twain"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Open Library"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Author of Adventures of Huckleberry Finn, The Adventures of Tom Sawyer, A Connecticut Yankee in King Arthur's Court, The"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "books.author"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain | Open Library"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://openlibrary.org/authors/OL18319A/Mark_Twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "export_2.json",
+   "format": "json",
+   "size": 11565,
+   "path_count": 30,
+   "paths": [
+    {
+     "path": "source_records[]",
+     "n": 50,
+     "sample": "amazon:1374839787"
+    },
+    {
+     "path": "alternate_names[]",
+     "n": 50,
+     "sample": "(mei) Ma, ke tu wen"
+    },
+    {
+     "path": "photos[]",
+     "n": 4,
+     "sample": "11564855"
+    },
+    {
+     "path": "birth_date",
+     "n": 1,
+     "sample": "30 November 1835"
+    },
+    {
+     "path": "name",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "type.key",
+     "n": 1,
+     "sample": "/type/author"
+    },
+    {
+     "path": "key",
+     "n": 1,
+     "sample": "/authors/OL18319A"
+    },
+    {
+     "path": "death_date",
+     "n": 1,
+     "sample": "21 April 1910"
+    },
+    {
+     "path": "personal_name",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "photograph",
+     "n": 1,
+     "sample": "/static/files//697/OL2622189A_photograph_1212404607766697.jpg"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "(pseud)"
+    },
+    {
+     "path": "bio",
+     "n": 1,
+     "sample": "Mark Twain, born Samuel Langhorne Clemens, was a prolific American author and humorist. Twain is best known for his nove"
+    },
+    {
+     "path": "marc[]",
+     "n": 1,
+     "sample": "1 \u001faTwain, Mark,\u001fd1835-1910.\u001e"
+    },
+    {
+     "path": "remote_ids.isni",
+     "n": 1,
+     "sample": "0000000077209145"
+    },
+    {
+     "path": "remote_ids.librivox",
+     "n": 1,
+     "sample": "9"
+    },
+    {
+     "path": "remote_ids.project_gutenberg",
+     "n": 1,
+     "sample": "53"
+    },
+    {
+     "path": "remote_ids.viaf",
+     "n": 1,
+     "sample": "50566653"
+    },
+    {
+     "path": "remote_ids.wikidata",
+     "n": 1,
+     "sample": "Q7245"
+    },
+    {
+     "path": "remote_ids.bookbrainz",
+     "n": 1,
+     "sample": "83280dda-c02e-4f45-a44a-092226e6e8c7"
+    },
+    {
+     "path": "remote_ids.musicbrainz",
+     "n": 1,
+     "sample": "4d584c99-249e-493f-8c5f-d022bd8de433"
+    },
+    {
+     "path": "remote_ids.goodreads",
+     "n": 1,
+     "sample": "1244"
+    },
+    {
+     "path": "remote_ids.imdb",
+     "n": 1,
+     "sample": "nm0878494"
+    },
+    {
+     "path": "remote_ids.librarything",
+     "n": 1,
+     "sample": "twainmark"
+    },
+    {
+     "path": "remote_ids.opac_sbn",
+     "n": 1,
+     "sample": "CFIV002662"
+    },
+    {
+     "path": "latest_revision",
+     "n": 1,
+     "sample": "89"
+    },
+    {
+     "path": "revision",
+     "n": 1,
+     "sample": "89"
+    },
+    {
+     "path": "created.type",
+     "n": 1,
+     "sample": "/type/datetime"
+    },
+    {
+     "path": "created.value",
+     "n": 1,
+     "sample": "2008-04-01T03:28:50.625462"
+    },
+    {
+     "path": "last_modified.type",
+     "n": 1,
+     "sample": "/type/datetime"
+    },
+    {
+     "path": "last_modified.value",
+     "n": 1,
+     "sample": "2026-01-04T14:40:05.201851"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "birth_date",
+     "value": "30 November 1835"
+    },
+    {
+     "path": "name",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "death_date",
+     "value": "21 April 1910"
+    },
+    {
+     "path": "personal_name",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "bio",
+     "value": "Mark Twain, born Samuel Langhorne Clemens, was a prolific American author and humorist. Twain is best known for his novels Adventures of Huckleberry Finn  (1884), which has been called \"the Great Amer"
+    },
+    {
+     "path": "marc[]",
+     "value": "1 \u001faTwain, Mark,\u001fd1835-1910.\u001e"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Clemens Samuel"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "M. Twain"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Marc Twain"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Sameul Langhorne Clemens"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Samuel Clemens"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Samuel L. Clemens"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "М.Твен"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Марк Твен"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark Twain, Zerrin Ozalp Oztarhan, Muge Kalender, Azadeh Ramezani"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark Twain, O. Henry , Edgar Allan Poe, Jack London"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark Twain R.D. Gooder"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Clemens, Samuel & Kipling, Rudyard"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Clemens, Samuel"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark Twain; And Notes Introduction Editor Charles Neider"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Samuel and Robert Louis Stevenson CLEMENS"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Samuel CLEMENS"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Twain, Mark Day, A. Grove;"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark / Richard Sadler (Adapted by) Twain"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark 1835-1910 Selections 1 Twain"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "TWAIN, Mark; LAWRENCE, D.H.; ORWELL, George; SANDBURG, Carl"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "TWAIN, Mark"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "editor Mark Twain; Charles Neider"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Twain, Mark, and Vogel, Malvina G (Edited by)"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Twain, Mark; Clemens, Cyril [Editor]; Sandburg, Carl [Foreword]"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark Twain Patricia Hutchinson"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Clemens, Samuel (twain, Mark); illustrated by Guilbeau, Honore"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Clemens, Samuel (twain, Mark)"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "ed Mark twain; Dixon Wecter"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Twain, Mark Hugo, Victor"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark Twain, Johanna Spyri, Anna Sewell, Hans Christian Andersen By Mark Twain, Johanna Spyri, Anna Sewell, Hans Christian Andersen"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Twain, Mark, Illustrated By Donald McKay"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Clemens, Samuel Langhorne (Mark Twain); Bradley, Sculley; Beatty, Richmond Croom; Long, E Hudson (Editors)"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Clemens, Samuel Langhorne (Mark Twain)"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark Twain,Wilkie Collins,John Brougham"
+    },
+    {
+     "path": "alternate_names[]",
+     "value": "Mark Twain (Samuel L. Clemens) and Charles Dudley Warner"
+    },
+    {
+     "path": "remote_ids.librarything",
+     "value": "twainmark"
+    }
+   ],
+   "language_like_keys": [
+    "bio",
+    "key"
+   ]
+  }
+ ],
+ "llm_notes": "Open Library author page OL18319A: short bio, 7423 works (first 20 shown, sorted by most editions), birth/death, subject/place/people/time facets drawn from his books, ID cross-links and a long 'Alternative names' list. Many alternative names are noisy statements-of-responsibility mixing co-authors/editors (e.g. 'Mark Twain, O. Henry, Edgar Allan Poe, Jack London'); only clean name forms kept. Some 'first published' years are bogus (1817, 1758, 1800), so years omitted. 'Richmond Croom Beatty' and 'Sculley Bradley' appear as alternative names but are editors.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

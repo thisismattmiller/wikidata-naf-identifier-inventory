@@ -1,0 +1,882 @@
+{
+ "property": "P8980",
+ "property_label": "KANTO ID",
+ "files": [
+  {
+   "file": "P8980__000061572/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://finto.fi/finaf/fi/page/000061572"
+  },
+  {
+   "file": "P8980__000061572/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://finto.fi/finaf/fi/page/000061572"
+  },
+  {
+   "file": "P8980__000061572/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://finto.fi/finaf/fi/page/000061572"
+  },
+  {
+   "file": "P8980__000061572/export_1.rdf",
+   "format": "rdf-xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://finto.fi/rest/v1/finaf/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&format=application/rdf%2Bxml"
+  },
+  {
+   "file": "P8980__000061572/export_2.ttl",
+   "format": "turtle",
+   "kind": "export",
+   "via": "http",
+   "url": "https://finto.fi/rest/v1/finaf/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&format=text/turtle"
+  },
+  {
+   "file": "P8980__000061572/export_3.jsonld",
+   "format": "json-ld",
+   "kind": "export",
+   "via": "http",
+   "url": "https://finto.fi/rest/v1/finaf/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&format=application/ld%2Bjson"
+  },
+  {
+   "file": "P8980__000061572/xhr_1.jsonld",
+   "format": "json-ld",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://finto.fi/rest/v1/finaf/?lang=fi"
+  },
+  {
+   "file": "P8980__000061572/xhr_2.jsonld",
+   "format": "json-ld",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://finto.fi/rest/v1/types?lang=fi"
+  },
+  {
+   "file": "P8980__000061572/xhr_3.jsonld",
+   "format": "json-ld",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://finto.fi/rest/v1/finaf/mappings?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&lang=fi&clang=fi"
+  },
+  {
+   "file": "P8980__000061572/xhr_4.jsonld",
+   "format": "json-ld",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://finto.fi/rest/v1/finaf/hierarchy?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Afinaf%3A000061572&lang=fi"
+  },
+  {
+   "file": "P8980__000061572/xhr_5.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.finna.fi/v1/search?lookfor=author2_id_str_mv:%22melinda.(FI-ASTERI-N)000061572%22&field[]=shortTitle&field[]=OtherRecordLink&field[]=formats&field[]=id&field[]=year&filter[]=building:%220/NLF/%22&filter[]=finna.deduplication:%220%22&limit=100&sort=main_date_str%20desc&page=1"
+  },
+  {
+   "file": "P8980__000061572/xhr_6.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.finna.fi/v1/search?lookfor=topic_id_str_mv:%22melinda.(FI-ASTERI-N)000061572%22&field[]=shortTitle&field[]=OtherRecordLink&field[]=formats&field[]=id&field[]=year&filter[]=building:%220/NLF/%22&filter[]=finna.deduplication:%220%22&limit=100&sort=main_date_str%20desc&page=1"
+  },
+  {
+   "file": "P8980__000061572/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.finna.fi/v1/search?lookfor=author2_id_str_mv:%22melinda.(FI-ASTERI-N)000061572%22&field[]=shortTitle&field[]=OtherRecordLink&field[]=formats&field[]=id&field[]=year&filter[]=building:%220/NLF/%22&filter[]=finna.deduplication:%220%22&limit=100&sort=main_date_str%20desc&page=1"
+  },
+  {
+   "file": "P8980__000061572/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.finna.fi/v1/search?lookfor=topic_id_str_mv:%22melinda.(FI-ASTERI-N)000061572%22&field[]=shortTitle&field[]=OtherRecordLink&field[]=formats&field[]=id&field[]=year&filter[]=building:%220/NLF/%22&filter[]=finna.deduplication:%220%22&limit=100&sort=main_date_str%20desc&page=1"
+  }
+ ],
+ "formats": {
+  "json-ld": 6,
+  "opengraph": 1,
+  "rdfa": 1,
+  "rdf-xml": 1,
+  "turtle": 1,
+  "html": 2,
+  "json": 2
+ },
+ "vocabularies": {
+  "http://rdaregistry.info/Elements/a/": 68,
+  "http://www.w3.org/2004/02/skos/core#": 22,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 8,
+  "http://purl.org/dc/terms/": 8,
+  "http://rdaregistry.info/Elements/u/": 8,
+  "https://ogp.me/ns#": 5,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "Person",
+    "lang": "sv",
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://rdaregistry.info/Elements/c/C10004",
+    "lang": null,
+    "via": "type (uri)",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.w3.org/2004/02/skos/core#Concept",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "record_created": [
+   {
+    "value": "1993-09-22",
+    "lang": null,
+    "via": "created",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-05-16T16:12:42+03:00",
+    "lang": null,
+    "via": "modified",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "2025-05-16",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "http://www.yso.fi/onto/yso/p105078",
+    "lang": null,
+    "via": "P50097",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "Yhdysvallat",
+    "lang": "fi",
+    "via": "llm-page:HENKILÖÖN LIITTYVÄ MAA",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "http://www.yso.fi/onto/yso/p4",
+    "lang": null,
+    "via": "P50100",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "kaunokirjallisuus",
+    "lang": "fi",
+    "via": "llm-page:HENKILÖN TOIMINTA-ALA",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "http://lexvo.org/id/iso639-3/deu",
+    "lang": null,
+    "via": "P50102",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://lexvo.org/id/iso639-3/eng",
+    "lang": null,
+    "via": "P50102",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "englanti",
+    "lang": "fi",
+    "via": "llm-page:HENKILÖN KÄYTTÄMÄ KIELI",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "saksa",
+    "lang": "fi",
+    "via": "llm-page:HENKILÖN KÄYTTÄMÄ KIELI",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "http://urn.fi/URN:NBN:fi:au:mts:m3229",
+    "lang": null,
+    "via": "P50104",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://urn.fi/URN:NBN:fi:au:mts:m3004",
+    "lang": null,
+    "via": "P50104",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://urn.fi/URN:NBN:fi:au:mts:m2413",
+    "lang": null,
+    "via": "P50104",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "kirjailija",
+    "lang": "fi",
+    "via": "llm-page:HENKILÖN AMMATTI TAI TEHTÄVÄ",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "kolumnisti",
+    "lang": "fi",
+    "via": "llm-page:HENKILÖN AMMATTI TAI TEHTÄVÄ",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "opettaja",
+    "lang": "fi",
+    "via": "llm-page:HENKILÖN AMMATTI TAI TEHTÄVÄ",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut",
+    "lang": "fi",
+    "via": "P50118",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "fi",
+    "via": "P50119",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "P50120",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "fi",
+    "via": "llm-page:KUOLINAIKA / TIEDONLÄHDE",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "P50121",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "fi",
+    "via": "llm-page:SYNTYMÄAIKA / TIEDONLÄHDE",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "fi",
+    "via": "P50411",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:KÄYTETTÄVÄ NIMENMUOTO",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "fi",
+    "via": "altLabel",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "fi",
+    "via": "hiddenLabel",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "fi",
+    "via": "hiddenLabel",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm-page:HENKILÖN VARIANTTINIMI",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "subject_of": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Kun ammuin norsun ja muita esseitä",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, Dr. Oliver Wendell Holmes, and the head readers",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Jenkkejä maailmalla",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The life of Mark Twain",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Answers to correspondents",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The celebrated jumping frog of Calaveras County",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Political economy",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The office bore",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The five boons of life",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Captain Stormfield's visit to heaven",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "A ghost story",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The siamese twins",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The stolen white elephant",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "How I edited an agricultural paper",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The Capitoline Venus",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The war prayer",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The man that corrupted Hadleyburg",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The $30,000 bequest",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Was it heaven? Or hell?",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Omaelämäkertani",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Vanhaa Välimerta ristiin rastiin",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Poikakirjojen klassikko Huckleberry Finn",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "The Mark Twain collection of Nick Karanovich",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Soittoa pimeässä",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Mark my words",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finn among the critics",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "I Mark Twains hjulspår",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Kansojen kirjallisuus",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Historian suurmiehiä",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Luotsina Mississippi-joella",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "[Teatteriarvostelu:Huckleberry Finn]",
+    "lang": null,
+    "via": "llm:json:records[].title (Finna subject search; added deterministically, not by the model)",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain (oikealta nimeltään Samuel Langhorne Clemens, 30. marraskuuta 1835 Florida, Missouri, Yhdysvallat – 21. huhtikuuta 1910 Redding, Connecticut) oli yhdysvaltalainen kirjailija.",
+    "lang": "fi",
+    "via": "llm-page:TIEDONLÄHDE (Wikipedia, katsottu 22.5.2024)",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm-page:HENKILÖN TUNNISTE",
+    "file": "P8980.json",
+    "uri": true
+   },
+   {
+    "value": "http://urn.fi/URN:NBN:fi:au:finaf:000061572",
+    "lang": null,
+    "via": "llm-page:URI",
+    "file": "P8980.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "000061572",
+    "lang": null,
+    "via": "llm-page:HENKILÖN TUNNISTE",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Wikipedia, katsottu 22.5.2024",
+    "lang": null,
+    "via": "llm-page:TIEDONLÄHDE",
+    "file": "P8980.json",
+    "uri": false
+   },
+   {
+    "value": "Name authority list / The British Library",
+    "lang": null,
+    "via": "llm-page:TIEDONLÄHDE",
+    "file": "P8980.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [
+   "sv"
+  ],
+  "record_created": [],
+  "record_modified": [],
+  "nationality": [
+   "fi"
+  ],
+  "field_of_activity": [
+   "fi"
+  ],
+  "language": [
+   "fi"
+  ],
+  "occupation": [
+   "fi"
+  ],
+  "death_place": [
+   "fi"
+  ],
+  "birth_place": [
+   "fi"
+  ],
+  "death_date": [
+   "fi"
+  ],
+  "birth_date": [
+   "fi"
+  ],
+  "name_preferred": [
+   "fi"
+  ],
+  "name_variant": [
+   "fi"
+  ],
+  "subject_of": [],
+  "description": [
+   "fi"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "source": []
+ },
+ "unmapped": {
+  "P50094 (http://rdaregistry.info/Elements/a/)": 8,
+  "P61101 (http://rdaregistry.info/Elements/u/)": 8,
+  "P50103 (http://rdaregistry.info/Elements/a/)": 4,
+  "P50291 (http://rdaregistry.info/Elements/a/)": 4,
+  "P50292 (http://rdaregistry.info/Elements/a/)": 4,
+  "inScheme (http://www.w3.org/2004/02/skos/core#)": 4,
+  "(no node about the entity in this file)": 2,
+  "(og chrome: tagline / site image)": 1,
+  "broaderTransitive (http://www.w3.org/2004/02/skos/core#)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 318,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark, 1835-1910 - KANTO - Finto"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Käsite Twain, Mark, 1835-1910 sanastossa KANTO - Kansalliset toimijatiedot"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://finto.fi/finaf/fi/page/000061572"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Finto"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark, 1835-1910 - KANTO - Finto"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Käsite Twain, Mark, 1835-1910 sanastossa KANTO - Kansalliset toimijatiedot"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 20276,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "records[].formats[].value",
+     "n": 103,
+     "sample": "0/Book/"
+    },
+    {
+     "path": "records[].formats[].translated",
+     "n": 103,
+     "sample": "Kirja"
+    },
+    {
+     "path": "records[].shortTitle",
+     "n": 50,
+     "sample": "James"
+    },
+    {
+     "path": "records[].id",
+     "n": 50,
+     "sample": "fikka.5923067"
+    },
+    {
+     "path": "records[].year",
+     "n": 50,
+     "sample": "2026"
+    },
+    {
+     "path": "resultCount",
+     "n": 1,
+     "sample": "355"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "OK"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "records[].shortTitle",
+     "value": "100 Quotes by Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 6197,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "records[].formats[].value",
+     "n": 66,
+     "sample": "0/Book/"
+    },
+    {
+     "path": "records[].formats[].translated",
+     "n": 66,
+     "sample": "Kirja"
+    },
+    {
+     "path": "records[].shortTitle",
+     "n": 33,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "records[].id",
+     "n": 33,
+     "sample": "fikka.5855814"
+    },
+    {
+     "path": "records[].year",
+     "n": 32,
+     "sample": "2025"
+    },
+    {
+     "path": "resultCount",
+     "n": 1,
+     "sample": "33"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "OK"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "records[].shortTitle",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "records[].shortTitle",
+     "value": "Mark Twain, Dr. Oliver Wendell Holmes, and the head readers"
+    },
+    {
+     "path": "records[].shortTitle",
+     "value": "The life of Mark Twain"
+    },
+    {
+     "path": "records[].shortTitle",
+     "value": "The Mark Twain collection of Nick Karanovich"
+    },
+    {
+     "path": "records[].shortTitle",
+     "value": "I Mark Twains hjulspår"
+    }
+   ],
+   "language_like_keys": [
+    "id"
+   ]
+  }
+ ],
+ "llm_notes": "Finto display of the KANTO (Finnish national agent) authority record Twain, Mark, 1835-1910: names, dates, places, occupations, languages, ISNI and Asteri ID, a Finnish Wikipedia-derived source note, creation/modification dates.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,227 @@
+[
+ {
+  "property": "P213",
+  "label": "ISNI",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'Twain, Mark ((Spirit))' (llm-page, from the Spirit record 0000000077209145)",
+   "work 'Mark Twain returns' (llm-page 'Titles row of Twain, Mark ((Spirit)) record'; channelled book, not his)",
+   "identifier '0000000077209145' (llm-page 'ISNI row (Twain, Mark ((Spirit)))')",
+   "name_preferred 'ISNI 0000 0001 0797 3778' / 'ISNI 0000 0001 0800 0249' / 'ISNI 0000 0001 0800 3124' / 'ISNI 0000 0001 2132 4854' / 'ISNI 0000 0003 6864 1704' (rdfs:label = identifier strings, not names)",
+   "work 'Gangsta' (UMG contributor credit on 0000000121324854, a site-side conflation, not a work of his)"
+  ],
+  "missing": "Nothing substantial. Name lists, related identities, the DAB/LC/NUCMC/Wikipedia notes and the Sources rows of the five genuine records are captured.",
+  "label_issues": "None of the labels is now wrong: status 'ok×5, wrong_page' with the '(Spirit)' reason, resolved true, browser only, RDF and 'mostly repeated' fit. The value counts (174, 90 from page text) still include the Spirit-derived page-text values.",
+  "notable": "Partly fixed. The Spirit record is now labelled wrong_page and its structured data is dropped. But the page-text pass still puts its heading, its title 'Mark Twain returns' and its ISNI into the profile, and the rdfs:label 'ISNI 0000 ...' strings still count as preferred names. Wikidata P213 0000000077209145 is the 'Twain, Mark ((Spirit))' ISNI and should be removed or deprecated on Q7245.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P268",
+  "label": "Bibliothèque nationale de France ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Minor: the linked-record counts on the page ('auteur (823)', 'sujet (245)', 'notices liées (1039)', works of the author (9)) are not in the profile. The Intermarc/Unimarc and data.bnf.fr RDF views were not harvested, so all values are page text.",
+  "label_issues": "None. 'page text only (LLM over HTML)', 'page text (LLM)', page_text_only true and 'mostly repeated' are now right.",
+  "notable": "Fixed. The og:description site tagline and the social-card logo are gone, and the format and access labels now say page text.",
+  "verdict": "sound",
+  "confidence": "high"
+ },
+ {
+  "property": "P409",
+  "label": "Libraries Australia ID",
+  "page_shows_record": "false",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "No record. VIAF answers 'Processed record not found'.",
+  "label_issues": "status http_error, resolved false, access none and format none are right. The status_note 'record not found: dead identifier' goes too far. The archived VIAF BAV record (P1017 page, 998 field) lists 'NLA|000035028957' as a matched heading of his cluster, so the identifier is probably valid and it is the viaf.org/processed formatter route that no longer works. 'formatter URL no longer resolves' would be more accurate.",
+  "notable": "Fixed. challenge_suspected is now http_error / not found. The Wikidata formatter for P409 routes through viaf.org/processed/NLA|..., which no longer resolves, so the value cannot be checked this way. That says nothing about whether the value itself is wrong.",
+  "verdict": "unreachable",
+  "confidence": "medium"
+ },
+ {
+  "property": "P535",
+  "label": "Find a Grave memorial ID",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'Mark Twain V Veteran Famous memorial' (badges concatenated into the name)"
+  ],
+  "missing": "There is still no page-text pass (page_text_values 0, no extraction notes), so the profile has only 6 descriptive values. Missing: burial 'Woodlawn Cemetery, Elmira, Chemung County, New York', plot 'Section G' and GPS 42.1062584/-76.8254623 (1048); cenotaph at 'Eternal Valley Memorial Park, Newhall, California', plot 'Mark Twain Garden' (19697); ORIGINAL NAME 'Samuel Langhorne Clemens'; birth date 30 Nov 1835; occupations 'Author, Humorist, Entrepreneur, Publisher, and Lecturer'; family members with their roles (now dropped entirely rather than kept as related_agent).",
+  "label_issues": "None wrong. Status 'ok×2' with the note 'login wall suspected but the record rendered in full', plain HTTP and embedded markup fit. The 'mostly unique' bucket rests on just 6 descriptive values.",
+  "notable": "Partly fixed. The login-wall status is fixed, and the relatives' names, dates, memorial links and thumbnails are gone. The badge-polluted name remains, and the burial/cenotaph data, the site's most distinctive facts, is still not captured. Both IDs are legitimately his: 1048 is the grave and 19697 is a cenotaph.",
+  "verdict": "incomplete",
+  "confidence": "high"
+ },
+ {
+  "property": "P646",
+  "label": "Freebase ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial. The knowledge panel facts, books and family are captured.",
+  "label_issues": "None. 'page text only', 'page text (LLM)' and page_text_only true are now right.",
+  "notable": "Fixed. The Google logo is gone and the labels say page text. Freebase is defunct, and the kgmid opens a Google search page with a knowledge panel, not a Freebase record. The panel's 'Died ... Stormfield' is his house in Redding, Connecticut, which explains the one wd_mismatch.",
+  "verdict": "sound",
+  "confidence": "high"
+ },
+ {
+  "property": "P650",
+  "label": "RKDartists ID",
+  "page_shows_record": "partial",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "The record's content sits in representations/P650__17169/xhr_4.json (the detail API) and is still not reduced: born '1835', died '1910', nationality/school 'American'/'Amerikaans', qualification 'artist', reference 'Witt Checklist 1978' / 'BD/RKD/Witt Microfiches', last updated 2016-02-10. The profile has only the title 'Samuel Langhorne Clemens (Mark Twain)' and the type E21_Person.",
+  "label_issues": "status ok / entity_on_page true, although the rendered page is a JS shell (cookie banner and navigation only; the LLM says about_entity false). access 'plain HTTP' overstates what plain HTTP gives: the label only. The real data needs the browser XHR detail API.",
+  "notable": "Partly fixed. The five junk search-field URIs are gone and the bucket is correctly 'too few values to judge'. But the real record data is still not captured.",
+  "verdict": "incomplete",
+  "confidence": "high"
+ },
+ {
+  "property": "P839",
+  "label": "IMSLP ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "The collapsed lists ('Name in Other Languages ... [36 more...]', 'Aliases ... [46 more...]', 'Authorities ... [17 more...]') are still captured only as their visible first items. For example, the alias 'Quintus Curtius Snodgrass' and the further authority ids (GND etc.) are absent.",
+  "label_issues": "None. 'page text (LLM)' / page_text_only true now fit.",
+  "notable": "Partly fixed. The format label now says page text. The collapsed name, alias and authority lists are still missing. IMSLP's ISNI link is 0000000368641704, the Jean François Alden pseudonym ISNI.",
+  "verdict": "incomplete",
+  "confidence": "medium"
+ },
+ {
+  "property": "P866",
+  "label": "Perlentaucher ID",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "work 'Traveling with the Unsuspecting. The Original Reports from Europe and the Holy Land', 'The Disappearance of Prince Oleomargarine', 'Reports from the Imperial Council 1898/1899', 'The news of my death has been greatly exaggerated. My last secrets', 'I am the most ass-like person I have ever known. New secrets of my autobiography', 'The Mysterious Stranger' (Chrome machine translations of the German titles, not site data)",
+   "related_agent 'Andrew Carnegie', 'Charles Dickens', 'Theodore Roosevelt', 'George Bernard Shaw' (STICHWÖRTER subject keywords of the books, not people related to him)"
+  ],
+  "missing": "Translators/editors per edition (e.g. Alexander Pechmann), publishers, ISBNs and review-note counts per book.",
+  "label_issues": "None. 'page text only' / 'page text (LLM)' fit.",
+  "notable": "Still there. The page was captured partly auto-translated into English, so the work list mixes English renderings with German originals ('Post aus Hawaii', 'Knallkopf Wilson'), and the keyword tags are still related agents. The bio says born 'in Florida, USA', meaning Florida, Missouri.",
+  "verdict": "incomplete",
+  "confidence": "medium"
+ },
+ {
+  "property": "P947",
+  "label": "RSL ID (person)",
+  "page_shows_record": "partial",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "The crawled page is still an Aleph results list with one hit, 'Твен, Марк (1835-1910)'. The full authority record (see-from variants, real name, sources) was never opened, so the profile is just the heading, the years and the system number.",
+  "label_issues": "status 'ok' with no note does not say the formatter lands on a search-results list rather than the record.",
+  "notable": "Still there (unchanged).",
+  "verdict": "incomplete",
+  "confidence": "medium"
+ },
+ {
+  "property": "P950",
+  "label": "National Library of Spain SpMaBN ID",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "description 'Descubre Twain, Mark (1835-1910), en el portal de datos abiertos y enlazados de la Biblioteca Nacional de España' and 'Descubre Langhorne Clemens, Samuel (1835-1910), en el portal ...' (og:description boilerplate)",
+   "family_name 'Snodgrass, Quintus Curtius' and 'Clemens, Samuel Langhorne' (P5012 headings mis-slotted as family name)",
+   "related_agent: 127 bare datos.bne.es person URIs via OP5001 (e.g. XX2258036), no names",
+   "work: 12 bare resource URIs via OP3005 (e.g. a4821154, bimo0002036040), no titles",
+   "work 'The autobiography of Mark Twain' (listed by the page under 'Obras sobre la persona', so it belongs in subject_of)"
+  ],
+  "missing": "The counts 'Autor de 127 Obras / Tema en 3 Obras / Participa en 12 Ediciones' and the per-work edition counts (e.g. Huckleberry Finn 145 ediciones). The related body 'Academia Estadounidense de las Artes y las Letras' is not visible in the profile.",
+  "label_issues": "uniqueness_bucket 'mostly unique (> 60%)' (0.83) is still inflated by about 139 bare BNE URIs that no other site could state. On real descriptive values it would be far lower, likely 'mixed' or 'mostly repeated'.",
+  "notable": "Still there. The OpenGraph fix did not catch this record-specific og:description. The pseudonym/real-name headings still sit in family_name, and the bare URIs still drive the uniqueness figure. Both BNE records (XX945992 'Twain, Mark', XX4931266 'Langhorne Clemens, Samuel') are his.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P1006",
+  "label": "Nationale Thesaurus voor Auteursnamen ID",
+  "page_shows_record": "partial",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'p227880145' (schema:name of a resource that does not exist)",
+   "description 'Resource Twain, Mark in dataset KB-data created by KB, nationale bibliotheek.' (og:description boilerplate)",
+   "image 'https://data.bibliotheken.nl/imgs/avatars/d/672debfa0186c41e75ea68de.png' (og:image dataset avatar, not him)",
+   "subject_of 'KB-data' / 'https://data.bibliotheken.nl/KB/Production' (the dataset, chrome)",
+   "see_also browser URL for p227880145 (dead resource)"
+  ],
+  "missing": "Nothing substantial for p068242964. The authored, about and contributor lists are captured; the contributor list is truncated by SHOW MORE.",
+  "label_issues": "status 'ok, http_error' with 'record not found: dead identifier' is now right. The value counts and the 'mostly unique' bucket still include the chrome values above.",
+  "notable": "Partly fixed. The dead p227880145 is now labelled http_error, but its schema:name and browser URL, the og:description, the dataset avatar (a site logo the fix should have dropped) and the subjectOf dataset are still in the profile. Wikidata P1006 227880145 does not exist in the KB dataset and should be checked or deprecated. NTA p068242964 is sameAs VIAF 280780420 (probably a superseded cluster) and links the real-name record p068242956, which Wikidata lacks.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P1017",
+  "label": "Vatican Library ID (former scheme)",
+  "page_shows_record": "partial",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "identifier 'ADV11275910' (asserted although its record was never seen; its crawl URL was overridden to the ADV10188047 snapshot)",
+   "same_as 'LC|n 82045653' (998 matched heading 'Twain, Mark (Spirit)', the channelled-book heading, not him)"
+  ],
+  "missing": "Nothing substantial for ADV10188047.",
+  "label_issues": "status 'ok×2' / resolved true is still wrong for ADV11275910. Its records entry has url and final_url equal to the ADV10188047 Wayback snapshot, and the two page files are byte-identical (same md5), so the second value was never checked. It should be load_failed or unverified, and resolved should be partial.",
+  "notable": "Partly fixed. The 996 non-match ids are gone and same_as now holds only the 30 matched 998 headings. But one of those is the LC '(Spirit)' heading that VIAF had clustered with him. The ADV11275910 override problem is still there; whether that id is his record is unknown.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P1207",
+  "label": "NUKAT ID",
+  "page_shows_record": "partial",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "The page is still a Koha authority search result with one hit, showing the heading, the see-from list and the control number. The full record behind 'Details' (670 sources, notes) was not opened, and the holdings count '932 records' is not in the profile.",
+  "label_issues": "status 'ok' with no note hides that the landing page is a search-results list reached through a toolforge redirect.",
+  "notable": "Still there (unchanged).",
+  "verdict": "incomplete",
+  "confidence": "medium"
+ },
+ {
+  "property": "P1213",
+  "label": "NLC authorities",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'Mark Twain (1835-1910)' and name_variant 'Samuel Langhorne Clemens' / 'Samuel Langhorne Clemens (1835–1910)' ('Simply refer to (translated)'): Chrome's English rendering of Chinese-script headings",
+   "field_of_activity 'Foreign Literature', the description and the occupations: translations of the Chinese header notes, not the site's text"
+  ],
+  "missing": "The original Chinese-script headings and the Chinese 'Header Notes' text. Only pinyin and non-Chinese scripts survive.",
+  "label_issues": "None.",
+  "notable": "Still there. The page was captured through browser auto-translation, so the values are an English rendering, not NLC data. The record's system number is 000067270, while the Wikidata value 000205309 is an acc_sequence.",
+  "verdict": "incomplete",
+  "confidence": "medium"
+ },
+ {
+  "property": "P1225",
+  "label": "U.S. National Archives Identifier",
+  "page_shows_record": "true",
+  "captured_faithfully": false,
+  "wrong_values": [
+   "name_preferred 'Charles L. Webster and Samuel L. Clemens vs. Milan E. Ellsworth', '121992 - Improvement in Adjustable and Detachable Straps for Garments - Samuel L. Clemens', 'Portrait of Mark Twain', 'Entry From 1850 Census For Samuel L. Clemens' (titles of linked description records, not names)",
+   "name_preferred 'Tuein, Mark,', 'Tven, Mark,', 'Conte, Louis de,', 'De Conte, Louis,', 'Twain, Marek,' (variantPersonNames slotted as preferred)",
+   "birth_date '1835-01-01', death_date '1910-12-31' / '1910-01-01' (logicalDate range placeholders, not real dates)"
+  ],
+  "missing": "Nothing substantial.",
+  "label_issues": "None clearly wrong now. 'mixed (30–60%)' (0.34) is plausible, though still slightly inflated by the record titles counted as names.",
+  "notable": "Partly fixed. The dozens of other people's birth and death years are gone (birth_date n=2, death_date n=3), so the bucket fell from 0.70 to 0.34. The record titles still count as preferred names, and the range placeholders are still dates. NARA keeps separate authorities for the real name (10574508) and the pseudonym (10581697); both are his.",
+  "verdict": "mislabelled",
+  "confidence": "high"
+ },
+ {
+  "property": "P1280",
+  "label": "CONOR.SI ID",
+  "page_shows_record": "true",
+  "captured_faithfully": true,
+  "wrong_values": [],
+  "missing": "Nothing substantial.",
+  "label_issues": "None. 'page text only' / 'page text (LLM)' are now right.",
+  "notable": "Fixed. The og:description database tagline is gone, and the format and access labels now say page text.",
+  "verdict": "sound",
+  "confidence": "high"
+ }
+]

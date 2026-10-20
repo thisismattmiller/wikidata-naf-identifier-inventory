@@ -1,0 +1,1310 @@
+{
+ "property": "P10400",
+ "property_label": "CBDB.cz author ID",
+ "files": [
+  {
+   "file": "P10400__298/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.cbdb.cz/autor-298-mark-twain"
+  },
+  {
+   "file": "P10400__298/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.cbdb.cz/autor-298-mark-twain"
+  },
+  {
+   "file": "P10400__298/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.cbdb.cz/autor-298-mark-twain"
+  },
+  {
+   "file": "P10400__298/alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.cbdb.cz/rss"
+  },
+  {
+   "file": "P10400__298/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json?date=20261002"
+  },
+  {
+   "file": "P10400__298/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://i.connectad.io/api/v2"
+  },
+  {
+   "file": "P10400__298/xhr_3.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://mp.4dex.io/prebid"
+  },
+  {
+   "file": "P10400__298/xhr_4.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://onetag-sys.com/prebid-request"
+  },
+  {
+   "file": "P10400__298/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://prebid-eu.creativecdn.com/bidder/prebid/bids"
+  },
+  {
+   "file": "P10400__298/xhr_6.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ice.360yield-basic.com/2218/pb"
+  },
+  {
+   "file": "P10400__298/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://onetag-sys.com/prebid-request"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 1,
+  "rdfa": 1,
+  "feed": 1,
+  "json": 3,
+  "html": 1,
+  "text": 2,
+  "unknown": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 8,
+  "http://www.w3.org/1999/xhtml/vocab#": 7,
+  "http://opengraphprotocol.org/schema/": 6,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "record_created": [
+   {
+    "value": "2015-02-19T19:45:13+01:00",
+    "lang": null,
+    "via": "json:comment.dateCreated",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "2010-03-15T21:53:35+01:00",
+    "lang": null,
+    "via": "json:comment.dateCreated",
+    "file": "embedded_microdata.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Přečetl jsem si jeho životopis na wikipedii a z odstavce Závěr života vyplývá ( i když to tam uvedeno není ), že byl Twain pedofil.",
+    "lang": null,
+    "via": "json:comment.text",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Kromě toho, že miluju příběhy Toma Sawyera už od dob, kdy jsme je četli na základce, tak jsem nedávno četla Twainovy povídky v knížce \"Geniální podivíni\" a musim říct, že jsem se dlouho tak nenasmála :o)) Zjištění, že je Twain neuvěřitelně vtipný autor, mě docela potěšilo.",
+    "lang": null,
+    "via": "json:comment.text",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Tento významný americký spisovatel, jehož vlastním jméno bylo Samuel Langhorne Clemens, se narodil jako třetí ze čtyř přeživších dětí Johna a Jane Clemensových. Když byl ještě dítě, rodina se přestěhovala do městečka Hannibal v Missouri. Město a jeho obyvatelé posloužili Clemensovi později jako námět pro mnoho prací, speciálně pro Dobrodružství Toma Sawyera.",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Spisovatel Mark Twain - veškeré informace na jednom místě (životopis, seznam knih, komentáře, hodnocení a mnoho dalšího) to je databáze knih ČBDB.cz.",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Tento významný americký spisovatel, jehož vlastním jméno bylo Samuel Langhorne Clemens, se narodil jako třetí ze čtyř přeživších dětí Johna a Jane Clemensových. Když byl ještě dítě, rodina se přestěhovala do městečka Hannibal v Missouri. Město a jeho obyvatelé posloužili Clemensovi později jako námět pro mnoho prací, speciálně pro Dobrodružství Toma Sawyera. V roce 1847, kdy Samuelovi bylo 12 let, zemřel jeho otec. Samuelův starší bratr Orion zakoupil brzy poté noviny Hannibal Journal...",
+    "lang": "cs",
+    "via": "llm-page:Životopis - Mark Twain",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://www.cbdb.cz/autor-298-mark-twain",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "cs",
+    "via": "llm-page:page heading",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Missouri), USA",
+    "lang": null,
+    "via": "birthPlace",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Florida (Missouri), USA",
+    "lang": "cs",
+    "via": "llm-page:Narozen/a v",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Writer",
+    "lang": null,
+    "via": "hasOccupation",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "spisovatel",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "pomocník tiskaře",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "kormidelník parníku",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "novinář",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://www.cbdb.cz/img.php?id=298&type=author&size=preview",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal v Missouri",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "St. Louis",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City v Nevadě",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "americký",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Dobrodružné",
+    "lang": "cs",
+    "via": "llm-page:genre stats",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Román",
+    "lang": "cs",
+    "via": "llm-page:genre stats",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Dětské",
+    "lang": "cs",
+    "via": "llm-page:genre stats",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "John Clemens (father)",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Clemens (mother)",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens (older brother)",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Hannibal Journal (newspaper he contributed to)",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Kapitán Sellers (river pilot whose pseudonym Mark Twain he took over)",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "New Orleans True Delta (newspaper that printed his satire)",
+    "lang": "cs",
+    "via": "llm-page:Životopis",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Tom Sawyer / Dobrodružství Toma Sawyera",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Americký nápadník",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Amerika se směje",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Huckleberryho Finna",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Huckleberryho Finna (komiks)",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Toma Sawyera",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Toma Sawyera (komiks)",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Toma Sawyera - Grafický román",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Toma Sawyera / Dobrodružství Huckleberryho Finna",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Dobrodružství Toma Sawyera a Huckleberryho Finna",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Dopisy z planety Země",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Evin deník",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Jak zahnat splín",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Johanka z Arku",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain - Autobiografie I.",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain - Autobiografie II.",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Milionová bankovka",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Milionová bankovka a jiné povídky",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Našinci na cestách",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Nejlepší příběhy o koních",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Panna Orleánská",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Panna ve zbroji",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Povídky",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Pozlacený věk",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Princ a chuďas",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Princ a chuďas / Yankee z Connecticutu na dvoře krále Artuše",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Skákavý žabák / The Jumping Frog",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Skákavý žabák a jiné prózy",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Huckleberry Finn (zrcadlová četba)",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Tajemný cizinec",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer detektivem",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer detektivem a jiné povídky",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer na cestách",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer na cestách a jiné prózy",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Vybrané humoresky",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Yankee z Connecticutu na dvoře krále Artuše",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Ze země dolaru",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Život na Mississippi",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Ztracený princ Margarín",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer - Zrcadlová četba",
+    "lang": "cs",
+    "via": "llm-page:Co napsal/a Mark Twain?",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "298",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P10400.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "record_created": [],
+  "description": [
+   "cs"
+  ],
+  "type": [],
+  "see_also": [],
+  "name_preferred": [
+   "cs"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "cs"
+  ],
+  "occupation": [
+   "cs"
+  ],
+  "image": [],
+  "name_variant": [
+   "cs"
+  ],
+  "pseudonym": [
+   "cs"
+  ],
+  "activity_place": [
+   "cs"
+  ],
+  "nationality": [
+   "cs"
+  ],
+  "field_of_activity": [
+   "cs"
+  ],
+  "related_agent": [
+   "cs"
+  ],
+  "work": [
+   "cs"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "mainEntity (http://schema.org/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 2142,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "[].comment[].@type",
+     "n": 4,
+     "sample": "Comment"
+    },
+    {
+     "path": "[].comment[].author.@type",
+     "n": 4,
+     "sample": "Person"
+    },
+    {
+     "path": "[].comment[].author.name",
+     "n": 4,
+     "sample": "vladislaus"
+    },
+    {
+     "path": "[].comment[].author.url",
+     "n": 4,
+     "sample": "https://www.cbdb.cz/uzivatel-10797-vladislaus"
+    },
+    {
+     "path": "[].comment[].dateCreated",
+     "n": 4,
+     "sample": "2015-02-19T19:45:13+01:00"
+    },
+    {
+     "path": "[].comment[].text",
+     "n": 4,
+     "sample": "Přečetl jsem si jeho životopis na wikipedii a z odstavce Závěr života vyplývá ( i když to tam uvedeno není ), že byl Twa"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "https://schema.org"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].comment[].text",
+     "value": "Přečetl jsem si jeho životopis na wikipedii a z odstavce Závěr života vyplývá ( i když to tam uvedeno není ), že byl Twain pedofil."
+    },
+    {
+     "path": "[].comment[].text",
+     "value": "Kromě toho, že miluju příběhy Toma Sawyera už od dob, kdy jsme je četli na základce, tak jsem nedávno četla Twainovy povídky v knížce \"Geniální podivíni\" a musim říct, že jsem se dlouho tak nenasmála "
+    }
+   ],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 9655,
+   "path_count": 24,
+   "paths": [
+    {
+     "path": "rss/channel/item",
+     "n": 10,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/title",
+     "n": 10,
+     "sample": "Krátký film o Číhošti"
+    },
+    {
+     "path": "rss/channel/item/link",
+     "n": 10,
+     "sample": "https://www.cbdb.cz/recenze-2273-kratky-film-o-cihosti"
+    },
+    {
+     "path": "rss/channel/item/guid",
+     "n": 10,
+     "sample": "https://www.cbdb.cz/recenze-2273-kratky-film-o-cihosti"
+    },
+    {
+     "path": "rss/channel/item/description",
+     "n": 10,
+     "sample": "O umučení pátera Toufara bylo napsáno hodně. Tak mnoho, že se už člověku nechce o takové hrůze číst. A kolik bylo takový"
+    },
+    {
+     "path": "rss/channel/item/pubDate",
+     "n": 10,
+     "sample": "Thu, 01 Oct 2026 06:32:49"
+    },
+    {
+     "path": "rss/channel/item/enclosure",
+     "n": 10,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/enclosure@url",
+     "n": 10,
+     "sample": "https://www.cbdb.cz/reviews/2273.jpg"
+    },
+    {
+     "path": "rss/channel/item/enclosure@type",
+     "n": 10,
+     "sample": "image/jpeg"
+    },
+    {
+     "path": "rss/channel/link",
+     "n": 2,
+     "sample": "https://www.cbdb.cz"
+    },
+    {
+     "path": "rss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss@version",
+     "n": 1,
+     "sample": "2.0"
+    },
+    {
+     "path": "rss/channel",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/title",
+     "n": 1,
+     "sample": "ČBDB.cz - Booxy"
+    },
+    {
+     "path": "rss/channel/webMaster",
+     "n": 1,
+     "sample": "info@cbdb.cz"
+    },
+    {
+     "path": "rss/channel/docs",
+     "n": 1,
+     "sample": "http://backend.userland.com/rss"
+    },
+    {
+     "path": "rss/channel/lastBuildDate",
+     "n": 1,
+     "sample": "Sat, 03 Oct 2026 02:22:44 GMT"
+    },
+    {
+     "path": "rss/channel/link@href",
+     "n": 1,
+     "sample": "https://www.cbdb.cz/rss"
+    },
+    {
+     "path": "rss/channel/link@rel",
+     "n": 1,
+     "sample": "self"
+    },
+    {
+     "path": "rss/channel/link@type",
+     "n": 1,
+     "sample": "application/rss+xml"
+    },
+    {
+     "path": "rss/channel/image",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/image/url",
+     "n": 1,
+     "sample": "https://www.cbdb.cz/grafika/logo.png"
+    },
+    {
+     "path": "rss/channel/image/title",
+     "n": 1,
+     "sample": "ČBDB.cz"
+    },
+    {
+     "path": "rss/channel/image/link",
+     "n": 1,
+     "sample": "https://www.cbdb.cz"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "rss"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 1554,
+   "path_count": 62,
+   "paths": [
+    {
+     "path": "generatedAt",
+     "n": 1,
+     "sample": "2026-10-02T15:00:30.448Z"
+    },
+    {
+     "path": "dataAsOf",
+     "n": 1,
+     "sample": "2026-10-02T00:00:00.000Z"
+    },
+    {
+     "path": "conversions.USD.EUR",
+     "n": 1,
+     "sample": "0.8908685968819599"
+    },
+    {
+     "path": "conversions.USD.USD",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "conversions.USD.JPY",
+     "n": 1,
+     "sample": "157.67483296213808"
+    },
+    {
+     "path": "conversions.USD.CZK",
+     "n": 1,
+     "sample": "21.799554565701555"
+    },
+    {
+     "path": "conversions.USD.DKK",
+     "n": 1,
+     "sample": "6.657995545657015"
+    },
+    {
+     "path": "conversions.USD.GBP",
+     "n": 1,
+     "sample": "0.7575322939866369"
+    },
+    {
+     "path": "conversions.USD.HUF",
+     "n": 1,
+     "sample": "328.89086859688194"
+    },
+    {
+     "path": "conversions.USD.PLN",
+     "n": 1,
+     "sample": "3.8997772828507795"
+    },
+    {
+     "path": "conversions.USD.RON",
+     "n": 1,
+     "sample": "4.765077951002227"
+    },
+    {
+     "path": "conversions.USD.SEK",
+     "n": 1,
+     "sample": "10.057906458797326"
+    },
+    {
+     "path": "conversions.USD.CHF",
+     "n": 1,
+     "sample": "0.8266369710467705"
+    },
+    {
+     "path": "conversions.USD.ISK",
+     "n": 1,
+     "sample": "122.0489977728285"
+    },
+    {
+     "path": "conversions.USD.NOK",
+     "n": 1,
+     "sample": "9.649443207126948"
+    },
+    {
+     "path": "conversions.USD.TRY",
+     "n": 1,
+     "sample": "49.14476614699331"
+    },
+    {
+     "path": "conversions.USD.AUD",
+     "n": 1,
+     "sample": "1.4410690423162582"
+    },
+    {
+     "path": "conversions.USD.BRL",
+     "n": 1,
+     "sample": "5.221380846325166"
+    },
+    {
+     "path": "conversions.USD.CAD",
+     "n": 1,
+     "sample": "1.4239643652561247"
+    },
+    {
+     "path": "conversions.USD.CNY",
+     "n": 1,
+     "sample": "6.7045879732739415"
+    },
+    {
+     "path": "conversions.USD.HKD",
+     "n": 1,
+     "sample": "7.847126948775056"
+    },
+    {
+     "path": "conversions.USD.IDR",
+     "n": 1,
+     "sample": "17950.39643652561"
+    },
+    {
+     "path": "conversions.USD.ILS",
+     "n": 1,
+     "sample": "3.065300668151447"
+    },
+    {
+     "path": "conversions.USD.INR",
+     "n": 1,
+     "sample": "96.32472160356346"
+    },
+    {
+     "path": "conversions.USD.KRW",
+     "n": 1,
+     "sample": "1348.2761692650333"
+    },
+    {
+     "path": "conversions.USD.MXN",
+     "n": 1,
+     "sample": "18.334610244988863"
+    },
+    {
+     "path": "conversions.USD.MYR",
+     "n": 1,
+     "sample": "4.084543429844098"
+    },
+    {
+     "path": "conversions.USD.NZD",
+     "n": 1,
+     "sample": "1.7819153674832962"
+    },
+    {
+     "path": "conversions.USD.PHP",
+     "n": 1,
+     "sample": "62.59688195991091"
+    },
+    {
+     "path": "conversions.USD.SGD",
+     "n": 1,
+     "sample": "1.2798218262806236"
+    },
+    {
+     "path": "conversions.USD.THB",
+     "n": 1,
+     "sample": "33.59465478841871"
+    },
+    {
+     "path": "conversions.USD.ZAR",
+     "n": 1,
+     "sample": "16.733986636971046"
+    },
+    {
+     "path": "conversions.GBP.EUR",
+     "n": 1,
+     "sample": "1.1760140180870955"
+    },
+    {
+     "path": "conversions.GBP.USD",
+     "n": 1,
+     "sample": "1.3200757353027648"
+    },
+    {
+     "path": "conversions.GBP.JPY",
+     "n": 1,
+     "sample": "208.14272106123505"
+    },
+    {
+     "path": "conversions.GBP.CZK",
+     "n": 1,
+     "sample": "28.777063022591225"
+    },
+    {
+     "path": "conversions.GBP.DKK",
+     "n": 1,
+     "sample": "8.789058365575718"
+    },
+    {
+     "path": "conversions.GBP.GBP",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "conversions.GBP.HUF",
+     "n": 1,
+     "sample": "434.1608551973939"
+    },
+    {
+     "path": "conversions.GBP.PLN",
+     "n": 1,
+     "sample": "5.148001364176261"
+    },
+    {
+     "path": "conversions.GBP.RON",
+     "n": 1,
+     "sample": "6.290263779944256"
+    },
+    {
+     "path": "conversions.GBP.SEK",
+     "n": 1,
+     "sample": "13.277198264203307"
+    },
+    {
+     "path": "conversions.GBP.CHF",
+     "n": 1,
+     "sample": "1.0912234073830158"
+    },
+    {
+     "path": "conversions.GBP.ISK",
+     "n": 1,
+     "sample": "161.11392047793208"
+    },
+    {
+     "path": "conversions.GBP.NOK",
+     "n": 1,
+     "sample": "12.737995836910375"
+    },
+    {
+     "path": "conversions.GBP.TRY",
+     "n": 1,
+     "sample": "64.87481330777462"
+    },
+    {
+     "path": "conversions.GBP.AUD",
+     "n": 1,
+     "sample": "1.9023202756576856"
+    },
+    {
+     "path": "conversions.GBP.BRL",
+     "n": 1,
+     "sample": "6.892618160008467"
+    },
+    {
+     "path": "conversions.GBP.CAD",
+     "n": 1,
+     "sample": "1.8797408065104135"
+    },
+    {
+     "path": "conversions.GBP.CNY",
+     "n": 1,
+     "sample": "8.850563898721672"
+    },
+    {
+     "path": "conversions.GBP.HKD",
+     "n": 1,
+     "sample": "10.358801876918372"
+    },
+    {
+     "path": "conversions.GBP.IDR",
+     "n": 1,
+     "sample": "23695.882774922673"
+    },
+    {
+     "path": "conversions.GBP.ILS",
+     "n": 1,
+     "sample": "4.046429033434078"
+    },
+    {
+     "path": "conversions.GBP.INR",
+     "n": 1,
+     "sample": "127.15592769865815"
+    },
+    {
+     "path": "conversions.GBP.KRW",
+     "n": 1,
+     "sample": "1779.8266555337339"
+    },
+    {
+     "path": "conversions.GBP.MXN",
+     "n": 1,
+     "sample": "24.203074100643278"
+    },
+    {
+     "path": "conversions.GBP.MYR",
+     "n": 1,
+     "sample": "5.391906671527525"
+    },
+    {
+     "path": "conversions.GBP.NZD",
+     "n": 1,
+     "sample": "2.3522632389778084"
+    },
+    {
+     "path": "conversions.GBP.PHP",
+     "n": 1,
+     "sample": "82.63262498088976"
+    },
+    {
+     "path": "conversions.GBP.SGD",
+     "n": 1,
+     "sample": "1.6894617383839214"
+    },
+    {
+     "path": "conversions.GBP.THB",
+     "n": 1,
+     "sample": "44.347488622064375"
+    },
+    {
+     "path": "conversions.GBP.ZAR",
+     "n": 1,
+     "sample": "22.09012971434619"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 284,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].price",
+     "n": 1,
+     "sample": "0.0"
+    },
+    {
+     "path": "[].adid",
+     "n": 1,
+     "sample": "TEST_ADID"
+    },
+    {
+     "path": "[].adm",
+     "n": 1,
+     "sample": "<iframe height=250 width=300 srcdoc=\"<html><body><style> body {background-color:#442844}</style><span style='color:red; "
+    },
+    {
+     "path": "[].cid",
+     "n": 1,
+     "sample": "TEST_CID"
+    },
+    {
+     "path": "[].crid",
+     "n": 1,
+     "sample": "TEST_CRID"
+    },
+    {
+     "path": "[].w",
+     "n": 1,
+     "sample": "300"
+    },
+    {
+     "path": "[].h",
+     "n": 1,
+     "sample": "250"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "adm",
+    "cid"
+   ]
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 15,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "nobids",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "ČBDB.cz author page 'Mark Twain' with exact birth/death dates, birthplace, a long Czech biography (contributed by user Gwaihir) including the origin of the pseudonym, and an alphabetical list of 46 books (Czech editions; 40 distinct titles kept). Reader comments are not data.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

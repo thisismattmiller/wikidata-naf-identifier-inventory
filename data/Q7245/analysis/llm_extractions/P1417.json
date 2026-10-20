@@ -1,0 +1,27 @@
+{
+ "property": "P1417",
+ "label": "Encyclopædia Britannica Online ID",
+ "files_read": ["P1417__biography_Mark-Twain_b70a07ac/embedded_opengraph.json", "P1417__biography_Mark-Twain_b70a07ac/browser_xhr_3.json"],
+ "about_entity": true,
+ "notes": "embedded_opengraph.json is the biography page metadata (title, one-line description, portrait). browser_xhr_3.json is the config for Britannica's AI study-helper prompts; it only adds the short description 'American writer'.",
+ "elements": {
+   "name_preferred": [{"value": "Mark Twain", "raw": "Mark Twain | Books, Cause of Death, Quotes, House, & Famous Works | Britannica", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title'] (name segment)"}],
+   "description": [
+     {"value": "Mark Twain was a humorist, journalist, lecturer, and novelist who remains best known for his adventure stories of American boyhood. His novels include The Adventures of Tom Sawyer and Adventure of Huckleberry Finn.", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+   ],
+   "occupation": [
+     {"value": "humorist", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+     {"value": "journalist", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+     {"value": "lecturer", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+     {"value": "novelist", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+     {"value": "writer", "raw": "Mark Twain - American writer", "lang": "en", "via": "browser_xhr_3.json: $[*].prompt"}
+   ],
+   "nationality": [{"value": "American", "raw": "Mark Twain - American writer", "lang": "en", "via": "browser_xhr_3.json: $[*].prompt"}],
+   "work": [
+     {"value": "The Adventures of Tom Sawyer", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+     {"value": "Adventures of Huckleberry Finn", "raw": "Adventure of Huckleberry Finn", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+   ],
+   "image": [{"value": "https://cdn.britannica.com/83/136283-050-9C9D6ED8/Mark-Twain-1907.jpg", "via": "embedded_opengraph.json: $[0]['og:image']"}],
+   "identifier": [{"value": "biography/Mark-Twain", "raw": "https://www.britannica.com/biography/Mark-Twain", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

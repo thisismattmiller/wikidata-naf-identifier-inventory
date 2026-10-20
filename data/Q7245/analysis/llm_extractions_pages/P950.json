@@ -1,0 +1,63 @@
+{
+ "property": "P950",
+ "label": "National Library of Spain SpMaBN ID",
+ "files_read": ["pages/P950__XX4931266.txt", "pages/P950__XX945992.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Two datos.bne.es person pages: XX945992 (Twain, Mark) with birth/death places, professions, related body and a paged work list (127 works as author, 3 about, 12 editions participated; only page 1 of 11 shown); XX4931266 is a thin record for 'Langhorne Clemens, Samuel (1835-1910)' with only years.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark (1835-1910)", "lang": null, "via": "heading of XX945992"},
+   {"value": "Langhorne Clemens, Samuel (1835-1910)", "lang": null, "via": "heading of XX4931266"}
+  ],
+  "birth_date": [{"value": "1835", "lang": null, "via": "Año de nacimiento (both records)"}],
+  "death_date": [{"value": "1910", "lang": null, "via": "Año de fallecimiento (both records)"}],
+  "birth_place": [{"value": "Estados Unidos, Missouri (Estado), Monroe (Condado), Florida", "lang": "es", "via": "Lugar de nacimiento"}],
+  "death_place": [{"value": "Estados Unidos, Connecticut (Estado), Fairfield (Condado), Redding", "lang": "es", "via": "Lugar de fallecimiento"}],
+  "occupation": [
+   {"value": "Periodistas", "lang": "es", "via": "Categoría profesional"},
+   {"value": "Humoristas", "lang": "es", "via": "Categoría profesional"},
+   {"value": "Profesores", "lang": "es", "via": "Categoría profesional"},
+   {"value": "Escritores", "lang": "es", "via": "Categoría profesional"},
+   {"value": "Novelistas", "lang": "es", "via": "Categoría profesional"}
+  ],
+  "field_of_activity": [{"value": "Historia", "lang": "es", "via": "Campo de actividad"}],
+  "language": [{"value": "Inglés", "lang": "es", "via": "Lengua"}],
+  "related_agent": [
+   {"value": "Academia Estadounidense de las Artes y las Letras (organismo o grupo relacionado)", "lang": "es", "via": "Organismo o grupo relacionado"},
+   {"value": "Coy, Juan José (author of a work about him: Mark Twain, o El sentimiento trágico del humor)", "lang": "es", "via": "Obras sobre la persona"},
+   {"value": "Dickens, Charles (co-contributor: Cuento de Navidad; Oliverio Twist)", "lang": "es", "via": "Obras en las que participa"},
+   {"value": "Whitman, Walt (co-contributor: Hojas de hierba (selección))", "lang": "es", "via": "Obras en las que participa"},
+   {"value": "González Cremona, Juan Manuel (Las aventuras de Tom Sawyer ; Tom Sawyer a ...)", "lang": "es", "via": "Obras en las que participa"},
+   {"value": "Clemen, Gina D. B. (The celebrated jumping frog of Calaveras county ...)", "lang": "es", "via": "Obras en las que participa"},
+   {"value": "Sotillos, Eugenio (Tom Sawyer, 1989)", "lang": "es", "via": "Obras en las que participa"},
+   {"value": "Vidal Sales, José Antonio (Un yanqui en la corte del Rey Arturo Príncipe y ...)", "lang": "es", "via": "Obras en las que participa"}
+  ],
+  "work": [
+   {"value": "The adventures of Tom Sawyer", "raw": "(130 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "The adventures of Huckleberry Finn", "raw": "(145 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "The prince and the pauper", "raw": "(124 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "Connecticut yankee in King Arthur's court", "raw": "(69 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "Cuentos", "raw": "(1 edición)", "lang": "es", "via": "Sus obras"},
+   {"value": "Extracts from Adam's diary", "raw": "(30 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "Tom Sawyer, detective", "raw": "(56 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "Letters from the earth", "raw": "(6 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "Reflections on religion", "raw": "(5 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "The mysterious stranger", "raw": "(13 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "Eve's diary", "raw": "(5 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "The man that corrupted Hadleyburg", "raw": "(9 ediciones)", "lang": "en", "via": "Sus obras"},
+   {"value": "The autobiography of Mark Twain", "raw": "(1 versión)", "lang": "en", "via": "Obras sobre la persona"},
+   {"value": "El paraíso de los gatos y otros cuentos gatunos", "raw": "2013", "lang": "es", "via": "Obras en las que participa"},
+   {"value": "Huckleberry Finn", "raw": "D.L. 2009, Video", "lang": "es", "via": "Obras en las que participa"},
+   {"value": "Los mejores cuentos norteamericanos", "raw": "2017", "lang": "es", "via": "Obras en las que participa"},
+   {"value": "Maestros norteamericanos", "raw": "[1967]", "lang": "es", "via": "Obras en las que participa"},
+   {"value": "The celebrated jumping frog of Calaveras county", "raw": "2004, 2006 (Clemen, Gina D. B.)", "lang": "en", "via": "Obras en las que participa"},
+   {"value": "Un yanqui en la corte del Rey Arturo Príncipe y ...", "raw": "D.L. 2009", "lang": "es", "via": "Obras en las que participa"}
+  ],
+  "identifier": [
+   {"value": "XX945992", "via": "page URL / record"},
+   {"value": "XX4931266", "via": "page URL / record (Langhorne Clemens, Samuel)"}
+  ],
+  "record_modified": [{"value": "2026-06-17", "raw": "Fecha de actualización de datos: 17/06/2026", "lang": "es", "via": "site data update date"}]
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "property": "P14214",
+ "label": "Foto Atlas taxonomy ID",
+ "files_read": [
+  "P14214__7008/embedded_microdata.json",
+  "P14214__7008/embedded_opengraph.json",
+  "P14214__7008/alternate_3.xml",
+  "P14214__7008/alternate_4.json"
+ ],
+ "about_entity": true,
+ "notes": "Foto Atlas (Turkish historic photo site) WordPress subject-taxonomy term 'Mark Twain': microdata holds page text with a Turkish Wikipedia lead, the Wikidata QID and the English Wikidata description; alternate_4 is the WP REST term, alternate_3 the RSS feed of its one linked photo (III. Ahmet Sebili ve Çeşmesi, not of Twain). og:image is that photo, so not used.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "P14214__7008/alternate_4.json: $.name"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "tr",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "tr",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value ('takma adı Mark Twain')"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "raw": "(1835–1910)",
+    "lang": null,
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "raw": "(1835–1910)",
+    "lang": null,
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Amerikalı",
+    "lang": "tr",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "mizahçı",
+    "lang": "tr",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   },
+   {
+    "value": "satirist",
+    "lang": "tr",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   },
+   {
+    "value": "roman yazarı",
+    "lang": "tr",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   },
+   {
+    "value": "yazar",
+    "lang": "tr",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   },
+   {
+    "value": "öğretmen",
+    "lang": "tr",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens, daha çok takma adı Mark Twain olarak bilinir, Amerikalı mizahçı, satirist, roman yazarı, yazar ve öğretmen.",
+    "lang": "tr",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   },
+   {
+    "value": "American author and humorist (1835–1910)",
+    "lang": "en",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "raw": "Wikidata Q7245",
+    "lang": null,
+    "via": "P14214__7008/embedded_microdata.json: $[0].value"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "7008",
+    "lang": null,
+    "via": "P14214__7008/alternate_4.json: $.id"
+   },
+   {
+    "value": "mark-twain",
+    "raw": "https://fotoatlas.net/konu/mark-twain/",
+    "lang": null,
+    "via": "P14214__7008/alternate_4.json: $.slug"
+   }
+  ],
+  "source": [
+   {
+    "value": "Wikipedia (tr)",
+    "lang": "tr",
+    "via": "P14214__7008/embedded_microdata.json: $[0].value ('Kaynak: Wikipedia (tr)')"
+   }
+  ]
+ }
+}

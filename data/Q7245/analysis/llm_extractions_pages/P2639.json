@@ -1,0 +1,30 @@
+{
+ "property": "P2639",
+ "label": "Filmportal ID",
+ "files_read": ["pages/P2639__5df2180863f84e09b51d8c5de7832a91.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "filmportal.de person page (English UI, machine-translated film titles) for Mark Twain with role 'script', dates/places and a filmography of German film adaptations credited as 'Template' (Vorlage = source material). Oddities: real names are labelled '(pseudonym)', and the death date is printed as 'February 21, 1910' (Twain died 21 April 1910). A 'Person Authority Record (GND)' external link is shown as a label only, no URI in the text.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [
+   {"value": "Samuel L. Clemens", "raw": "Samuel L. Clemens (pseudonym)", "lang": "en", "via": "Other names (labelled pseudonym on page)"},
+   {"value": "Samuel Langhorne Clemens", "raw": "Samuel Langhorne Clemens (pseudonym)", "lang": "en", "via": "Other names (labelled pseudonym on page)"}
+  ],
+  "birth_date": [{"value": "1835-11-30", "raw": "30.11.1835", "lang": null, "via": "dates line"}],
+  "death_date": [{"value": "1910-02-21", "raw": "February 21, 1910 (as printed; conflicts with the known 1910-04-21)", "lang": "en", "via": "dates line"}],
+  "birth_place": [{"value": "Florida, Missouri, USA", "lang": "en", "via": "dates line"}],
+  "death_place": [{"value": "Redding, Connecticut, USA", "lang": "en", "via": "dates line"}],
+  "occupation": [{"value": "script", "lang": "en", "via": "role line under name"}],
+  "work": [
+   {"value": "The Diaries of Adam and Eve", "raw": "2018-2023, Template", "lang": "en", "via": "Filmography"},
+   {"value": "The Adventures of Huck Finn", "raw": "2011/2012, Template", "lang": "en", "via": "Filmography"},
+   {"value": "Tom and Hacke", "raw": "2011/2012, Template", "lang": "en", "via": "Filmography"},
+   {"value": "Tom Sawyer", "raw": "2010/2011, Template", "lang": "en", "via": "Filmography"},
+   {"value": "The unsuspecting ones on the go", "raw": "1997/1998, Template (machine-translated title)", "lang": "en", "via": "Filmography"},
+   {"value": "The mysterious stranger", "raw": "1981/1982, Template", "lang": "en", "via": "Filmography"},
+   {"value": "The Prince and the Pauper", "raw": "1937, Template", "lang": "en", "via": "Filmography"}
+  ],
+  "identifier": [{"value": "5df2180863f84e09b51d8c5de7832a91", "via": "page URL"}]
+ }
+}

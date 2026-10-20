@@ -1,0 +1,328 @@
+{
+ "property": "P1296",
+ "property_label": "Gran Enciclopèdia Catalana ID (former scheme)",
+ "files": [
+  {
+   "file": "P1296__0040443/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/mark-twain"
+  },
+  {
+   "file": "P1296__0040443/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20261001&st=env&sjk=8223667101654131"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "ca",
+    "via": "llm-page:page heading",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "ca",
+    "via": "llm-page:article first sentence",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "ca",
+    "via": "llm-page:heading dates line",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "ca",
+    "via": "llm-page:heading dates line",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "ca",
+    "via": "llm-page:heading dates line",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut",
+    "lang": "ca",
+    "via": "llm-page:heading dates line",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Mississipí",
+    "lang": "ca",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "escriptor",
+    "lang": "ca",
+    "via": "llm-page:article first sentence",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Literatura",
+    "lang": "ca",
+    "via": "llm-page:Metadades – Matèria",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "nord-americà",
+    "lang": "ca",
+    "via": "llm-page:article first sentence",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Nom amb què és conegut Samuel Langhorne Clemens, escriptor nord-americà. Els records de la seva infància, arran de restar orfe a dotze anys, i les diverses tasques acomplertes a la regió del Mississipí foren l’element principal de les seves obres: Life on the Mississipi (1883), The Adventures of Tom Sawyer (1876; traducció catalana de J.Carner, 1918) i Huckleberry Finn (1882). Col·laborà en el Territorial Enterprise...",
+    "lang": "ca",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Life on the Mississipi",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain of the Enterprise",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd’nhead Wilson",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "Mysterious Stranger",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "Autobiografia",
+    "lang": "ca",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "J. Carner (Catalan translator of The Adventures of Tom Sawyer)",
+    "lang": "ca",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   },
+   {
+    "value": "Territorial Enterprise (newspaper he contributed to)",
+    "lang": "ca",
+    "via": "llm-page:article text",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "ec-gec-0040443",
+    "lang": null,
+    "via": "llm-page:URL",
+    "file": "P1296.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "ca"
+  ],
+  "name_variant": [
+   "ca"
+  ],
+  "birth_date": [
+   "ca"
+  ],
+  "death_date": [
+   "ca"
+  ],
+  "birth_place": [
+   "ca"
+  ],
+  "death_place": [
+   "ca"
+  ],
+  "activity_place": [
+   "ca"
+  ],
+  "occupation": [
+   "ca"
+  ],
+  "field_of_activity": [
+   "ca"
+  ],
+  "nationality": [
+   "ca"
+  ],
+  "description": [
+   "ca"
+  ],
+  "work": [
+   "ca",
+   "en"
+  ],
+  "related_agent": [
+   "ca"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 17734,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "sodar_query_id",
+     "n": 1,
+     "sample": "GmfAau3fB4Ldu7YP19imuQg"
+    },
+    {
+     "path": "injector_basename",
+     "n": 1,
+     "sample": "sodar2"
+    },
+    {
+     "path": "bg_hash_basename",
+     "n": 1,
+     "sample": "5zy86NbR8f54HHV5BxfElrR01oDK3KtpXmGPzuANPWw"
+    },
+    {
+     "path": "bg_binary",
+     "n": 1,
+     "sample": "woS/hDHAMvYx22fZQBLydIF1ewzApscPT8wV2gAIzsihXkZ27/PL75i2ZwiVyl1ZGnIaBP10wlU+9SQtvPXh2lv+S27qXhPKFSDrt0HTxELWu4EXISHue2xl"
+    },
+    {
+     "path": "rc_enable",
+     "n": 1,
+     "sample": "y"
+    },
+    {
+     "path": "bg_snapshot_delay_ms",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "is_gen_204",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "enciclopedia.cat article 'Mark Twain' in Catalan: birth/death places and dates, real name, and a paragraph on his life and works. Some dates in the text are as given by the source (e.g. Huckleberry Finn 1882, Pudd'nhead Wilson 1884).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

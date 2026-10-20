@@ -1,0 +1,228 @@
+{
+ "property": "P7886",
+ "property_label": "Media Arts Database ID",
+ "files": [
+  {
+   "file": "P7886__C415004/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://mediaarts-db.artmuseums.go.jp/id/C415004.rdf"
+  },
+  {
+   "file": "P7886__C415004/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://mediaarts-db.artmuseums.go.jp/sparql"
+  },
+  {
+   "file": "P7886__C415004/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://mediaarts-db.artmuseums.go.jp/sparql"
+  }
+ ],
+ "formats": {
+  "html": 1,
+  "json": 2
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "TwainMark",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P7886.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja",
+    "via": "llm-page:related resource title '…マーク・トウェインの教え'",
+    "file": "P7886.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:生年月日",
+    "file": "P7886.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:没年月日",
+    "file": "P7886.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "日本国",
+    "lang": "ja",
+    "via": "llm-page:地域 (likely a record default)",
+    "file": "P7886.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "日本語",
+    "lang": "ja",
+    "via": "llm-page:言語 (likely a record default)",
+    "file": "P7886.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://id.ndl.go.jp/auth/entity/00459304",
+    "lang": null,
+    "via": "llm-page:国立国会図書館典拠ID",
+    "file": "P7886.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "C415004",
+    "lang": null,
+    "via": "llm-page:MADB ID",
+    "file": "P7886.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "トム=ソーヤーの冒険 : 名作マンガ",
+    "lang": "ja",
+    "via": "llm-page:関連リソース",
+    "file": "P7886.json",
+    "uri": false
+   },
+   {
+    "value": "トム・ソーヤーの冒険 = The Adventures of Tom Sawyar",
+    "lang": "ja",
+    "via": "llm-page:関連リソース",
+    "file": "P7886.json",
+    "uri": false
+   },
+   {
+    "value": "漫画人間とは何か? : 自己啓発の劇薬 : マーク・トウェインの教え",
+    "lang": "ja",
+    "via": "llm-page:関連リソース",
+    "file": "P7886.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-11-25",
+    "lang": null,
+    "via": "llm-page:データ更新年月日",
+    "file": "P7886.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "ja"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "activity_place": [
+   "ja"
+  ],
+  "language": [
+   "ja"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "work": [
+   "ja"
+  ],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 203,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "code",
+     "n": 1,
+     "sample": "MissingParameterException"
+    },
+    {
+     "path": "requestId",
+     "n": 1,
+     "sample": "90d07fca-d260-bede-e067-a7fdbab12d11"
+    },
+    {
+     "path": "detailedMessage",
+     "n": 1,
+     "sample": "Missing 'query' parameter for GET request"
+    },
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Missing 'query' parameter for GET request"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 203,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "code",
+     "n": 1,
+     "sample": "MissingParameterException"
+    },
+    {
+     "path": "requestId",
+     "n": 1,
+     "sample": "06d08036-e2b3-1447-f892-f103b21fb396"
+    },
+    {
+     "path": "detailedMessage",
+     "n": 1,
+     "sample": "Missing 'query' parameter for GET request"
+    },
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Missing 'query' parameter for GET request"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Japan Media Arts Database person record C415004 'TwainMark' (individual) with an NDL authority link, birth/death years, update date and 5 related manga resources (Tom Sawyer adaptations, a manga of 'What Is Man?'). Region and language fields read Japan/Japanese, which look like record defaults rather than facts about him.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

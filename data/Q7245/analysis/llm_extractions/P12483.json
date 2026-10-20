@@ -1,0 +1,39 @@
+{
+ "property": "P12483",
+ "label": "PMB – Personen der Moderne Basis person ID",
+ "files_read": ["P12483__26252/embedded_opengraph.json", "P12483__26252/browser_export_2.json"],
+ "about_entity": true,
+ "notes": "OpenGraph page metadata plus the APIS REST API JSON for person 26252 (dates, gender, professions, collections, sameAs links, created/updated). first_name is null; 'published' is false.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": null, "via": "browser_export_2.json: $.name; embedded_opengraph.json: [0].og:title"}],
+  "birth_date": [{"value": "1835-11-30", "lang": null, "via": "browser_export_2.json: $.start_date"}],
+  "death_date": [{"value": "1910-04-21", "lang": null, "via": "browser_export_2.json: $.end_date"}],
+  "gender": [{"value": "male", "lang": null, "via": "browser_export_2.json: $.gender"}],
+  "occupation": [
+   {"value": "Schriftsteller/Schriftstellerin", "lang": "de", "via": "browser_export_2.json: $.profession[0].label (id 90)"},
+   {"value": "Journalist/Journalistin", "lang": "de", "via": "browser_export_2.json: $.profession[1].label (id 99)"}
+  ],
+  "same_as": [
+   {"value": "https://d-nb.info/gnd/118624822", "via": "browser_export_2.json: $.sameAs[1]"},
+   {"value": "https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26252.html", "via": "browser_export_2.json: $.sameAs[2]"},
+   {"value": "https://fackel.oeaw.ac.at/?p=fackelp49745", "via": "browser_export_2.json: $.sameAs[3]"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "via": "browser_export_2.json: $.sameAs[4]"},
+   {"value": "https://de.wikipedia.org/wiki/Mark_Twain", "via": "browser_export_2.json: $.sameAs[5]"},
+   {"value": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=400", "via": "browser_export_2.json: $.sameAs[6]"},
+   {"value": "https://schaubuehne.oeaw.ac.at/register.html?author=268", "via": "browser_export_2.json: $.sameAs[7]"},
+   {"value": "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb26252.html", "via": "browser_export_2.json: $.sameAs[8]"}
+  ],
+  "identifier": [
+   {"value": "26252", "via": "browser_export_2.json: $.id"},
+   {"value": "https://pmb.acdh.oeaw.ac.at/entity/26252/", "via": "browser_export_2.json: $.sameAs[0]; embedded_opengraph.json: [0].og:url"}
+  ],
+  "image": [{"value": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg", "via": "browser_export_2.json: $.img_url; embedded_opengraph.json: [0].og:image"}],
+  "source": [
+   {"value": "Der Brenner", "lang": "de", "via": "browser_export_2.json: $.collection[0].label (PMB collection in which he appears)"},
+   {"value": "Die Schaubühne", "lang": "de", "via": "browser_export_2.json: $.collection[1].label"},
+   {"value": "Karl Kraus: Die Fackel", "lang": "de", "via": "browser_export_2.json: $.collection[2].label"}
+  ],
+  "record_created": [{"value": "2024-01-22", "raw": "2024-01-22T09:29:54.174900+01:00", "via": "browser_export_2.json: $.created"}],
+  "record_modified": [{"value": "2025-06-02", "raw": "2025-06-02T13:36:47.798268+02:00", "via": "browser_export_2.json: $.updated"}]
+ }
+}

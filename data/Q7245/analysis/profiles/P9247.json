@@ -1,0 +1,135 @@
+{
+ "property": "P9247",
+ "property_label": "Pontifical University of Salamanca ID",
+ "files": [
+  {
+   "file": "P9247__30717/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://catalogo.upsa.es/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=30717"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 3,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 100 $a $d",
+    "file": "P9247.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P9247.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "llm-page:MARC 400",
+    "file": "P9247.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": null,
+    "via": "llm-page:MARC 400 see-from tracing",
+    "file": "P9247.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:MARC 100 $d",
+    "file": "P9247.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:MARC 100 $d",
+    "file": "P9247.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "30717",
+    "lang": null,
+    "via": "llm-page:MARC 001",
+    "file": "P9247.json",
+    "uri": false
+   },
+   {
+    "value": ".a10470979",
+    "lang": null,
+    "via": "llm-page:MARC 907 (cataloguer code / legacy record no.)",
+    "file": "P9247.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "En Autoridades de la Biblioteca Nacional: Twain, Mark (1835-1910)",
+    "lang": "es",
+    "via": "llm-page:MARC 670",
+    "file": "P9247.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2003-10-03",
+    "lang": null,
+    "via": "llm-page:MARC 008 date entered",
+    "file": "P9247.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2018-02-14",
+    "lang": null,
+    "via": "llm-page:MARC 005",
+    "file": "P9247.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [],
+  "name_variant": [],
+  "pseudonym": [],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "source": [
+   "es"
+  ],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Koha MARC view of UPSA authority 30717 'Twain, Mark, 1835-1910' with two see-from tracings (Clemens; Snodgrass, Quintus Curtius) and a 670 source citing the Biblioteca Nacional authorities; used in 51 records. Despite the login_wall_suspected status the record is fully visible.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

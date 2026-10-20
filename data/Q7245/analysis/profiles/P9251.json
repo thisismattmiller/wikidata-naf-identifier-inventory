@@ -1,0 +1,108 @@
+{
+ "property": "P9251",
+ "property_label": "Cyprus University of Technology ID",
+ "files": [
+  {
+   "file": "P9251__80852/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://libraryopac.cut.ac.cy/cgi-bin/koha/opac-authoritiesdetail.pl?marc=1&authid=80852"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 8,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:100 field",
+    "file": "P9251.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:100 $d",
+    "file": "P9251.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:100 $d",
+    "file": "P9251.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "80852",
+    "lang": null,
+    "via": "llm-page:001 control number",
+    "file": "P9251.json",
+    "uri": false
+   },
+   {
+    "value": ".a10916143",
+    "lang": null,
+    "via": "llm-page:907 field (legacy system id)",
+    "file": "P9251.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "DLC",
+    "lang": null,
+    "via": "llm-page:040 cataloging source (language of cataloging: eng)",
+    "file": "P9251.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2014-03-11",
+    "lang": null,
+    "via": "llm-page:008 field",
+    "file": "P9251.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2020-11-25",
+    "lang": null,
+    "via": "llm-page:005 field",
+    "file": "P9251.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "source": [],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Koha OPAC MARC view of authority 80852 'Twain, Mark, 1835-1910' (copied from DLC); minimal record with only 001/003/005/008/040/100/907, used in 42 records. Not actually blocked by a login wall.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

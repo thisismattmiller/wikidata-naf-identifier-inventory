@@ -1,0 +1,34 @@
+{
+ "property": "P1280",
+ "label": "CONOR.SI ID",
+ "files_read": ["pages/P1280__7830883.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "CONOR.SI (Slovenian COBISS) authority record: heading, variant names including real-name forms, country, language, a note 'Ameriški pisatelj in humorist', and the CONOR.SI-ID.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "lang": "sl", "via": "'Osebno ime' field"}],
+  "name_variant": [
+   {"value": "Tven, Mark", "lang": "sl", "via": "Variante osebnega imena"},
+   {"value": "Twain, Marc", "lang": "sl", "via": "Variante osebnega imena"},
+   {"value": "Tven, M.", "lang": "sl", "via": "Variante osebnega imena"},
+   {"value": "Tuen, Mark", "lang": "sl", "via": "Variante osebnega imena"},
+   {"value": "Twain, M.", "lang": "sl", "via": "Variante osebnega imena"},
+   {"value": "Twen, Mark", "lang": "sl", "via": "Variante osebnega imena"},
+   {"value": "Langhorne Clemens, Samuel", "raw": "Langhorne Clemens, Samuel (pravo ime)", "lang": "sl", "via": "Variante osebnega imena (real name)"},
+   {"value": "Clemens, Samuel Langhorne", "raw": "Clemens, Samuel Langhorne (pravo ime)", "lang": "sl", "via": "Variante osebnega imena (real name)"},
+   {"value": "Clemens, Samuel L.", "raw": "Clemens, Samuel L. (pravo ime)", "lang": "sl", "via": "Variante osebnega imena (real name)"},
+   {"value": "L. Clemens, Samuel", "raw": "L. Clemens, Samuel (pravo ime)", "lang": "sl", "via": "Variante osebnega imena (real name)"},
+   {"value": "Twain", "lang": "sl", "via": "Variante osebnega imena"}
+  ],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "heading dates"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "heading dates"}],
+  "occupation": [
+   {"value": "pisatelj", "lang": "sl", "via": "Opombe"},
+   {"value": "humorist", "lang": "sl", "via": "Opombe"}
+  ],
+  "nationality": [{"value": "Združene države Amerike", "lang": "sl", "via": "'Država' field"}],
+  "language": [{"value": "angleški", "lang": "sl", "via": "'Jezik, ki ga upor. oseba/korp.' field"}],
+  "description": [{"value": "Ameriški pisatelj in humorist", "lang": "sl", "via": "Opombe"}],
+  "identifier": [{"value": "7830883", "raw": "CONOR.SI-ID 7830883", "lang": null, "via": "CONOR.SI-ID field"}]
+ }
+}

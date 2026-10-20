@@ -1,0 +1,46 @@
+{
+ "property": "P5739",
+ "label": "Pontificia Università della Santa Croce ID",
+ "files_read": ["pages/P5739__80295.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Koha OPAC MARC view of the PUSC (IT-RoPUS) personal-name authority 'Twain, Mark, 1835-1910', shown both as labelled fields and raw MARC; carries Wikidata/VIAF/ISNI ids, coded dates, Wikidata-linked birth/death places, gender, language, a See-from for Clemens and Jean Francois Alden, sources and Wikipedia links. Used in 2 bib records.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "raw": "100 1# $a Twain, Mark, $d 1835-1910", "lang": null, "via": "MARC 100"}],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "MARC 400"},
+   {"value": "Alden, Jean François, 1835-1910", "lang": null, "via": "MARC 400"}
+  ],
+  "pseudonym": [{"value": "Alden, Jean François", "raw": "400 1# $a Alden, Jean François, $d 1835-1910", "lang": null, "via": "MARC 400 (see-from tracing)"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "046 $f 18351130", "lang": null, "via": "MARC 046"}],
+  "death_date": [{"value": "1910-04-21", "raw": "046 $g 19100421", "lang": null, "via": "MARC 046"}],
+  "birth_place": [{"value": "Florida, Missouri (Stati Uniti)", "raw": "370 $a; $0 http://www.wikidata.org/entity/Q537803", "lang": "it", "via": "MARC 370 $a"}],
+  "death_place": [{"value": "Redding, Connecticut (Stati Uniti)", "raw": "370 $b; $0 http://www.wikidata.org/entity/Q2018185", "lang": "it", "via": "MARC 370 $b"}],
+  "gender": [{"value": "uomo", "lang": "it", "via": "MARC 375"}],
+  "language": [{"value": "eng", "raw": "377 $a eng $l inglese", "lang": "it", "via": "MARC 377"}],
+  "occupation": [
+   {"value": "scrittore", "lang": "it", "via": "MARC 678"},
+   {"value": "umorista", "lang": "it", "via": "MARC 678"},
+   {"value": "aforista", "lang": "it", "via": "MARC 678"},
+   {"value": "docente", "lang": "it", "via": "MARC 678"}
+  ],
+  "nationality": [{"value": "statunitense", "lang": "it", "via": "MARC 678"}],
+  "description": [{"value": "Scrittore, umorista, aforista e docente statunitense.", "lang": "it", "via": "MARC 678"}],
+  "work": [{"value": "Un yankee del Connecticut alla corte di re Artù", "raw": "670 $a Un yankee del Connecticut alla corte di re Artù, 1962: $b frontespizio (Mark Twain)", "lang": "it", "via": "MARC 670 source citation"}],
+  "same_as": [
+   {"value": "http://www.wikidata.org/entity/Q7245", "raw": "024 7# $2 wikidata $a Q7245", "via": "MARC 024"},
+   {"value": "http://viaf.org/viaf/50566653", "raw": "024 7# $2 viaf $a 50566653", "via": "MARC 024"},
+   {"value": "https://isni.org/isni/0000000121324854", "raw": "024 7# $2 isni $a 0000000121324854", "via": "MARC 024"},
+   {"value": "http://id.loc.gov/authorities/names/n79021164", "via": "MARC 670 $u"},
+   {"value": "https://it.wikipedia.org/wiki/Mark_Twain", "via": "MARC 856"},
+   {"value": "https://en.wikipedia.org/wiki/Mark_Twain", "via": "MARC 856"}
+  ],
+  "identifier": [{"value": "80295", "raw": "001 80295; 003 IT-RoPUS", "via": "MARC 001"}],
+  "source": [
+   {"value": "Un yankee del Connecticut alla corte di re Artù, 1962: frontespizio (Mark Twain)", "lang": "it", "via": "MARC 670"},
+   {"value": "Library of Congress, consultata il 7 maggio 2020: (Twain, Mark, 1835-1910)", "lang": "it", "via": "MARC 670"}
+  ],
+  "record_created": [{"value": "2011-05-01", "raw": "008 110501...", "via": "MARC 008 positions 00-05"}],
+  "record_modified": [{"value": "2022-09-28", "raw": "005 20220928094402.0", "via": "MARC 005"}]
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "property": "P3365",
+ "label": "Treccani ID",
+ "files_read": [
+  "P3365__mark-twain/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph only from the Treccani encyclopedia entry; og:description is generic portal boilerplate, og:image is the site logo. Only the heading name is usable.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "raw": "Twain, Mark - Enciclopedia - Treccani",
+    "lang": "it",
+    "via": "P3365__mark-twain/embedded_opengraph.json: $[0]['og:title'] (before ' - Enciclopedia - Treccani')"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "batch folder name P3365__mark-twain (no URL in file)"
+   }
+  ]
+ }
+}

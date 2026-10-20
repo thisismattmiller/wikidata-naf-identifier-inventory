@@ -1,0 +1,191 @@
+{
+ "property": "P11496",
+ "label": "CiNii Research ID",
+ "files_read": [
+  "P11496__1140000791666601344/embedded_opengraph.json",
+  "P11496__1140000791666601344/xhr_5.json",
+  "P11496__1140000791666601344/xhr_9.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph of the CiNii Research person page, xhr_5 = first 5 of 2006 related books where crid 1981993809649634716 (Twain, Mark) is creator, xhr_9 = openBD/ONIX record for one of those books with a Japanese author biography. Odd: the page resolves to crid 1981993809649634716, not the Wikidata ID 1140000791666601344.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "raw": "Twain, Mark | CiNii Research",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:title; xhr_5.json: creatorList[].name"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja",
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].PersonName.content",
+    "reading": "マーク トウェイン"
+   },
+   {
+    "value": "サミュエル・ラングホーン・クレメンズ",
+    "lang": "ja",
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].BiographicalNote ('本名')"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "1835年11月30日",
+    "lang": null,
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].BiographicalNote"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "1910年4月21日",
+    "lang": null,
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].BiographicalNote"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "ミズーリ州フロリダ",
+    "lang": "ja",
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].BiographicalNote"
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "ハンニバル",
+    "lang": "ja",
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].BiographicalNote (moved there aged 4)"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "作家",
+    "lang": "ja",
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].BiographicalNote"
+   },
+   {
+    "value": "水先案内人",
+    "lang": "ja",
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].BiographicalNote (Mississippi river pilot, 1857)"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "アメリカ",
+    "raw": "アメリカの作家",
+    "lang": "ja",
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].BiographicalNote"
+   }
+  ],
+  "description": [
+   {
+    "value": "アメリカの作家。1835年11月30日ミズーリ州フロリダ生まれ。本名サミュエル・ラングホーン・クレメンズ。4歳のとき、ミシシッピー河畔のハンニバルに移住し、12歳で父を失い、印刷屋に奉公する。1857年ミシシッピー川の水先案内人を経て、1861年新聞社に勤めマーク・トウェイン名で文筆活動に入る。『トム・ソーヤーの冒険』（1876年）や『ハックルベリ・フィンの冒険』（1884年）など幼年時代の自伝的小説で20世紀アメリカ文学に影響を与える。その後も冒険や自然の要素を取り入れた小説のほかに、エッセイ、旅行記など数多くの作品を発表し、当時のアメリカで最も人気のある作家となった。1910年4月21日、74歳で死去。",
+    "lang": "ja",
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].BiographicalNote"
+   }
+  ],
+  "work": [
+   {
+    "value": "ハックルベリー・フィンの冒険",
+    "raw": "ハックルベリー・フィンの冒険 (小鳥遊書房, 2025)",
+    "lang": "ja",
+    "via": "xhr_5.json: $.relatedItems[].title"
+   },
+   {
+    "value": "The illustrated Mark Twain and the Buffalo Express : 10 stories and over a century of sketches",
+    "raw": "The illustrated Mark Twain and the Buffalo Express : 10 stories and over a century of sketches (North Country Books, 2024)",
+    "lang": "en",
+    "via": "xhr_5.json: $.relatedItems[].title"
+   },
+   {
+    "value": "James : a novel",
+    "raw": "James : a novel (Doubleday, 2024)",
+    "lang": "en",
+    "via": "xhr_5.json: $.relatedItems[].title"
+   },
+   {
+    "value": "Mark Twain's tales of the macabre & mysterious",
+    "raw": "Mark Twain's tales of the macabre & mysterious (Lyons Press, 2024)",
+    "lang": "en",
+    "via": "xhr_5.json: $.relatedItems[].title"
+   },
+   {
+    "value": "Pudd'nhead Wilson : manuscript and revised versions with \"Those extraordinary twins\"",
+    "raw": "Pudd'nhead Wilson : manuscript and revised versions with \"Those extraordinary twins\" (University of California Press, 2024)",
+    "lang": "en",
+    "via": "xhr_5.json: $.relatedItems[].title"
+   },
+   {
+    "value": "Pudd'nhead Wilson : manuscript and revised versions with Those extraordinary twins",
+    "raw": "Pudd'nhead Wilson : manuscript and revised versions with Those extraordinary twins (University of California Press, 2024)",
+    "lang": "en",
+    "via": "xhr_5.json: $.relatedItems[].title"
+   },
+   {
+    "value": "トム・ソーヤーの冒険",
+    "raw": "『トム・ソーヤーの冒険』（1876年）",
+    "lang": "ja",
+    "via": "xhr_9.json: $[0].onix.DescriptiveDetail.Contributor[0].BiographicalNote"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "市川, 亮平",
+    "lang": null,
+    "via": "xhr_5.json: $.relatedItems[].creatorList",
+    "relation": "co-creator of 'ハックルベリー・フィンの冒険'",
+    "crid": "1981149384739077269"
+   },
+   {
+    "value": "Reigstad, Thomas J.",
+    "lang": null,
+    "via": "xhr_5.json: $.relatedItems[].creatorList",
+    "relation": "co-creator of 'The illustrated Mark Twain and the Buffalo Express : 10 stories and over a century of sketches'",
+    "crid": "1981433050919212420"
+   },
+   {
+    "value": "Skandera-Trombley, Laura E.",
+    "lang": null,
+    "via": "xhr_5.json: $.relatedItems[].creatorList",
+    "relation": "co-creator of 'The illustrated Mark Twain and the Buffalo Express : 10 stories and over a century of sketches'",
+    "crid": "1980586434767648128"
+   },
+   {
+    "value": "Everett, Percival",
+    "lang": null,
+    "via": "xhr_5.json: $.relatedItems[].creatorList",
+    "relation": "co-creator of 'James : a novel'",
+    "crid": "1981712335775138944"
+   },
+   {
+    "value": "Rasmussen, R. Kent",
+    "lang": null,
+    "via": "xhr_5.json: $.relatedItems[].creatorList",
+    "relation": "co-creator of 'Mark Twain's tales of the macabre & mysterious'",
+    "crid": "1981712334673282093"
+   },
+   {
+    "value": "Griffin, Benjamin",
+    "lang": null,
+    "via": "xhr_5.json: $.relatedItems[].creatorList",
+    "relation": "co-creator of 'Pudd'nhead Wilson : manuscript and revised versions with \"Those extraordinary twins\"'",
+    "crid": "1981712334690198213"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1981993809649634716",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url; xhr_5.json: $.localIdentifier"
+   },
+   {
+    "value": "https://cir.nii.ac.jp/crid/1981993809649634716",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url"
+   }
+  ]
+ }
+}

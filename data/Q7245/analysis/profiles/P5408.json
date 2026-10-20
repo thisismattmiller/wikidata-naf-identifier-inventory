@@ -1,0 +1,859 @@
+{
+ "property": "P5408",
+ "property_label": "Fantastic Fiction author ID",
+ "files": [
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.fantasticfiction.com/t/mark-twain/"
+  },
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://clu.fantasticfiction.com/clu"
+  },
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/xhr_2.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://id5-sync.com/api/config/prebid"
+  },
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxUeohZOQqYGUEWQCMlxpVUnMJeFC-Yyk3K_XeGZDFODE_gwx-K9M-2JWbBZwmCCv5LCCawOh9s7-2o-BmkdZdirUp0ooCQnuEAqTonxUhFoMjpQZYrjTweA4ZoejH0WOQGDDrvrUg=="
+  },
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/xhr_4.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://rtb.openx.net/openrtbb/prebidjs"
+  },
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/xhr_5.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://onetag-sys.com/prebid-request"
+  },
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/xhr_6.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://rt.marphezis.com/hb"
+  },
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/xhr_7.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ad.360yield.com/2096/pb"
+  },
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/browser_xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://id5-sync.com/api/config/prebid"
+  },
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://onetag-sys.com/prebid-request"
+  },
+  {
+   "file": "P5408__t_mark-twain_afeb0f29/browser_xhr_5.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxUeohZOQqYGUEWQCMlxpVUnMJeFC-Yyk3K_XeGZDFODE_gwx-K9M-2JWbBZwmCCv5LCCawOh9s7-2o-BmkdZdirUp0ooCQnuEAqTonxUhFoMjpQZYrjTweA4ZoejH0WOQGDDrvrUg=="
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json": 2,
+  "unknown": 4,
+  "html": 3,
+  "text": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].name",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:parenthetical under heading",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Thomas Jefferson Snodgrass",
+    "lang": "en",
+    "via": "llm-page:line under heading",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:biography: 'first began using the pseudonym Mark Twain'",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:biography first sentence",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "en",
+    "via": "llm-page:biography first sentence",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:biography last sentence",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Stormfield, near Redding, Connecticut",
+    "lang": "en",
+    "via": "llm-page:biography last sentence",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "New York",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Philadelphia",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "St. Louis",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Cincinnati",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Carson City",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada Territory",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Hawaii",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Europe",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Buffalo, New York",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Hartfort, Connecticut",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Redding, Connecticut",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "apprentice printer",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "itinerant printer",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "steamboat pilot",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "prospector",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "newspaper correspondent",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Children's Fiction",
+    "lang": "en",
+    "via": "llm-page:Genres",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Science Fiction",
+    "lang": "en",
+    "via": "llm-page:Genres",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Literary Fiction",
+    "lang": "en",
+    "via": "llm-page:Genres",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Historical",
+    "lang": "en",
+    "via": "llm-page:Genres",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain was born Samuel Langhorne Clemens on November 30, 1835, in Florida, Missouri; his family moved to the port town of Hannibal four years later. His father, an unsuccessful farmer, died when Twain was eleven. Soon afterward the boy began working as an apprentice printer, and by age sixteen he was writing newspaper sketches. He left Hannibal at eighteen to work as an itinerant printer in New York, Philadelphia, St. Louis, and Cincinnati. From 1857 to 1861 he worked on Mississippi steamboa",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Series: Huck Finn And Tom Sawyer",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:Series: Huck Finn And Tom Sawyer",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad, By Huck Finn",
+    "lang": "en",
+    "via": "llm-page:Series: Huck Finn And Tom Sawyer",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, Detective",
+    "lang": "en",
+    "via": "llm-page:Series: Huck Finn And Tom Sawyer",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finn and Tom Sawyer Among the Indians",
+    "lang": "en",
+    "via": "llm-page:Series: Huck Finn And Tom Sawyer",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Extracts from Adam's Diary",
+    "lang": "en",
+    "via": "llm-page:Series: Diaries of Adam and Eve",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Eve's Diary",
+    "lang": "en",
+    "via": "llm-page:Series: Diaries of Adam and Eve",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Diaries of Adam and Eve",
+    "lang": "en",
+    "via": "llm-page:Series: Diaries of Adam and Eve",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The American Claimant",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "A Horse's Tale",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Thomas Jefferson Snodgrass",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Colonel Sellers",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Eye Openers",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Screamers",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Curious Dreams, and Other Sketches",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Sketches",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Sketches, New and Old",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Stolen White Elephant",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Merry Tales",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The 1,000,000 Pound Bank-Note",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Man That Corrupted Hadleyburg",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Alonzo Fitz",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The $30,000 Bequest",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "California Sketches",
+    "lang": "en",
+    "via": "llm-page:Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Cannibalism in the Cars",
+    "lang": "en",
+    "via": "llm-page:Novellas and Short Stories",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Luck",
+    "lang": "en",
+    "via": "llm-page:Novellas and Short Stories",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "A Double Barrelled Detective Story",
+    "lang": "en",
+    "via": "llm-page:Novellas and Short Stories",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "A Dog's Tale",
+    "lang": "en",
+    "via": "llm-page:Novellas and Short Stories",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "King Leopold's Soliloquy",
+    "lang": "en",
+    "via": "llm-page:Novellas and Short Stories",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Captain Stormfield's Visit to Heaven",
+    "lang": "en",
+    "via": "llm-page:Novellas and Short Stories",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "A Murder, A Mystery, and a Marriage",
+    "lang": "en",
+    "via": "llm-page:Novellas and Short Stories",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "The Purloining of Prince Oleomargarine",
+    "lang": "en",
+    "via": "llm-page:Novellas and Short Stories",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm-page:biography text",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Orion Clemens (brother; secretary to the Nevada Territory)",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Livy Langdon (wife)",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Susy (daughter, died 1896)",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Jean (daughter)",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dudley Warner (co-author, The Gilded Age)",
+    "lang": "en",
+    "via": "llm-page:biography / Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "William Dean Howells (close associate)",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Bret Harte (close associate; co-author, California Sketches)",
+    "lang": "en",
+    "via": "llm-page:biography / Collections",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "George Washington Cable (close associate)",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Ulysses S. Grant (memoirs published by Twain's company, 1885)",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Michele Israel Harper (co-credited, Personal Recollections of Joan of Arc)",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Neider (co-credited, The Adventures of Colonel Sellers)",
+    "lang": "en",
+    "via": "llm-page:Novels",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Philip Stead (co-author, The Purloining of Prince Oleomargarine)",
+    "lang": "en",
+    "via": "llm-page:Novellas and Short Stories",
+    "file": "P5408.json",
+    "uri": false
+   },
+   {
+    "value": "Golden Era (literary magazine he contributed to)",
+    "lang": "en",
+    "via": "llm-page:biography",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "t/mark-twain",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P5408.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 88,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "Mark Twain"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].name",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 37,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "country",
+     "n": 1,
+     "sample": "US"
+    },
+    {
+     "path": "region",
+     "n": 1,
+     "sample": "undefined"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 15,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "nobids",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Fantastic Fiction author page: long English biography, name/pseudonym line, genres, and a bibliography grouped by series, novels, collections and short stories (about 55 titles; non-fiction and omnibus sections collapsed). Works capped at 40; anthology/omnibus items and further bio-mentioned titles (Innocents Abroad, Roughing It, A Tramp Abroad, Following the Equator, What Is Man?, The War Prayer, To the Person Sitting in Darkness) omitted from the cap.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

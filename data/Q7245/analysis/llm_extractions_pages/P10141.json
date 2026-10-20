@@ -1,0 +1,17 @@
+{
+ "property": "P10141",
+ "label": "Academy of Athens authority ID",
+ "files_read": ["pages/P10141__59334.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Koha UNIMARC MARC view of Academy of Athens Library authority 59334 (Πρόσωπα) for Twain, Mark, 1835-1910, used in 5 records. Minimal record: only the 200 heading and the 801 originating source; the control number itself is not displayed.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "raw": "200: Twain | Mark | 1835-1910", "lang": null, "via": "200 ΚΑΘΙΕΡΩΜΕΝΟ ΣΗΜΕΙΟ ΠΡΟΣΒΑΣΗΣ"}],
+  "family_name": [{"value": "Twain", "lang": null, "via": "200 $a"}],
+  "given_name": [{"value": "Mark", "lang": null, "via": "200 $b"}],
+  "birth_date": [{"value": "1835", "lang": null, "via": "200 dates"}],
+  "death_date": [{"value": "1910", "lang": null, "via": "200 dates"}],
+  "identifier": [{"value": "59334", "via": "page URL authid (not shown in record)"}],
+  "source": [{"value": "GR-AtACA (country GR)", "via": "801 ΠΗΓΗ ΠΡΟΕΛΕΥΣΗΣ"}]
+ }
+}

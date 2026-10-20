@@ -1,0 +1,2644 @@
+{
+ "property": "P1695",
+ "property_label": "NLP ID",
+ "files": [
+  {
+   "file": "P1695__a0000001179912/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://dbn.bn.org.pl/descriptor-details/a0000001179912"
+  },
+  {
+   "file": "P1695__a0000001179912/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://dbn.bn.org.pl/descriptor-details/a0000001179912"
+  },
+  {
+   "file": "P1695__a0000001179912/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://dbn.bn.org.pl/descriptor-details/a0000001179912"
+  },
+  {
+   "file": "P1695__a0000001179912/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://dbn.bn.org.pl/api/swagger-ui/index.html"
+  },
+  {
+   "file": "P1695__a0000001179912/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dbn.bn.org.pl/manifest.json?ts=1790976003912"
+  },
+  {
+   "file": "P1695__a0000001179912/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dbn.bn.org.pl/khw/a0000001179912"
+  },
+  {
+   "file": "P1695__a0000001179912/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dbn.bn.org.pl/search-service/manifestations/0/500?name=Twain,+Mark+(1835-1910)"
+  },
+  {
+   "file": "P1695__a0000001179912/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dbn.bn.org.pl/lod/getAdditionalInformation?bnId=a0000001179912&descriptor=personal_descriptor&language=pl&viafId=50566653&wikidataId="
+  },
+  {
+   "file": "P1695__a0000001179912/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://dbn.bn.org.pl/search-service/works/0/500?name=Twain,+Mark+(1835-1910)"
+  },
+  {
+   "file": "P1695__a0000001179912/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://dbn.bn.org.pl/descriptor-details/a0000001179912"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 1,
+  "json": 5,
+  "unknown": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 24,
+  "http://ogp.me/ns#": 5,
+  "http://www.w3.org/1999/xhtml/vocab#": 3,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "a0000001179912",
+    "lang": null,
+    "via": "identifier",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "p 2004409463",
+    "lang": null,
+    "via": "llm-page:numer kontrolny",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "9810671370605606",
+    "lang": null,
+    "via": "llm-page:MMS ID",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark (1835-1910)",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark (1835-1910)",
+    "lang": "pl",
+    "via": "llm-page:nazwa preferowana",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Alden, Jean François",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel L.",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "De Conte, Louis",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Klemèns, Samûèl L.",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Touain, Mark",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tvejn, Mark",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Tvèn, Marka",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, M.",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marc",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mark",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twen, Mark",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twweʿn, Maʾrq",
+    "lang": null,
+    "via": "alternateName",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain [pseud.]",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[0].manifestation_title_and_responsibility (statement of responsibility)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Marek Twain",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[35].manifestation_title_and_responsibility (statement of responsibility)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[186].manifestation_title_and_responsibility (statement of responsibility)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[67].manifestation_title_and_responsibility (statement of responsibility)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Maʾrq Twweʿn",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[48].manifestation_title_and_responsibility (statement of responsibility)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Tvejn",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[121].manifestation_title_and_responsibility (statement of responsibility)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Tven",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[17].manifestation_title_and_responsibility (statement of responsibility)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Marc Twain",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[12].manifestation_title_and_responsibility (statement of responsibility)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Marka Tvèn (Samûèl' L. Klemèns)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[191].manifestation_title_and_responsibility (statement of responsibility)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Tven",
+    "lang": "uk",
+    "via": "llm-page:citation",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Touain",
+    "lang": null,
+    "via": "llm-page:citation",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twen",
+    "lang": null,
+    "via": "llm-page:citation",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Marek Twain",
+    "lang": "pl",
+    "via": "llm-page:citation",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "pl",
+    "via": "llm-page:Wikidane: Imię i nazwisko przy urodzeniu",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://www.wikidata.org/wiki/Q7245",
+    "lang": null,
+    "via": "sameAs",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "0000000107973778, 0000000077209145, 0000000108003124, 0000000108000249",
+    "lang": null,
+    "via": "json:bindings.ISNI",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm-page:Wikidane block",
+    "file": "P1695.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/16444837",
+    "lang": null,
+    "via": "llm-page:Wikidane VIAF",
+    "file": "P1695.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/305239133",
+    "lang": null,
+    "via": "llm-page:Wikidane VIAF",
+    "file": "P1695.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/53367783",
+    "lang": null,
+    "via": "llm-page:Wikidane VIAF",
+    "file": "P1695.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000107973778",
+    "lang": null,
+    "via": "llm-page:Wikidane ISNI",
+    "file": "P1695.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000108003124",
+    "lang": null,
+    "via": "llm-page:Wikidane ISNI",
+    "file": "P1695.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000108000249",
+    "lang": null,
+    "via": "llm-page:Wikidane ISNI",
+    "file": "P1695.json",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30T00:00:00Z",
+    "lang": null,
+    "via": "json:bindings.dateOfBirth",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:Wikidane: Data urodzenia",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21T00:00:00Z",
+    "lang": null,
+    "via": "json:bindings.dateOfDeath",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:Wikidane: Data śmierci",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "mężczyzna",
+    "lang": null,
+    "via": "gender",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "mężczyzna",
+    "lang": "pl",
+    "via": "llm-page:płeć",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Pisarze amerykańscy",
+    "lang": null,
+    "via": "jobTitle",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "pisarz, nauczyciel, drukarz, Pilot morski, dziennikarz, pisarz podróżnik, aforysta, pisarz dziecięcy, żołnierz, publicysta, powieściopisarz, wykładowca, prozaik, humorysta, autor autobiografii, pisarz science-fiction",
+    "lang": null,
+    "via": "json:bindings.occupation",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "Pisarze amerykańscy",
+    "lang": "pl",
+    "via": "llm-page:zajęcie / zawód",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "pisarz",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "nauczyciel",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "drukarz",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Pilot morski",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "dziennikarz",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "pisarz podróżnik",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "aforysta",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "pisarz dziecięcy",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "żołnierz",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "publicysta",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "powieściopisarz",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "wykładowca",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "prozaik",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "humorysta",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "autor autobiografii",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "pisarz science-fiction",
+    "lang": "pl",
+    "via": "llm-page:Wikidane",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg, http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Twain%20by%20AF%20Bradley.jpg",
+    "lang": null,
+    "via": "json:bindings.image",
+    "file": "xhr_5.json",
+    "uri": true
+   },
+   {
+    "value": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mark_Twain_by_AF_Bradley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "lang": null,
+    "via": "json:image.imageUrl",
+    "file": "xhr_5.json",
+    "uri": true
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": null,
+    "via": "json:bindings.placeOfBirth",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "Florida",
+    "lang": "pl",
+    "via": "llm-page:Wikidane: Miejsce urodzenia",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": null,
+    "via": "json:bindings.placeOfDeath",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "Redding",
+    "lang": "pl",
+    "via": "llm-page:Wikidane: Miejsce śmierci",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "J. W. Bothwell, Thomas Jefferson Snodgrass, Sieur Louis de Conte",
+    "lang": null,
+    "via": "json:bindings.pseudonym",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[100].manifestation_title_and_responsibility",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Louis de Conte",
+    "lang": "en",
+    "via": "llm:xhr_6.json: $.works[*].work_title_pref (Personal recollections of Joan of Arc)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Jean François Alden",
+    "lang": "en",
+    "via": "llm:xhr_6.json: $.works[*].work_title_pref (Personal recollections of Joan of Arc)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Alden, Jean François",
+    "lang": null,
+    "via": "llm-page:warianty nazwy",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": null,
+    "via": "llm-page:Wikidane: Pseudonim; citation",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "J. W. Bothwell",
+    "lang": null,
+    "via": "llm-page:Wikidane: Pseudonim",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Thomas Jefferson Snodgrass",
+    "lang": null,
+    "via": "llm-page:Wikidane: Pseudonim",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Stany Zjednoczone",
+    "lang": null,
+    "via": "json:bindings.countryOfCitizenship",
+    "file": "xhr_5.json",
+    "uri": false
+   },
+   {
+    "value": "Stany Zjednoczone",
+    "lang": "pl",
+    "via": "llm-page:Wikidane: Obywatelstwo",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Przygody Tomka Sawyera",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[79].work_title_pref (manifestations: 162, first pub 1898)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Królewicz i żebrak",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[83].work_title_pref (manifestations: 67, first pub 1920)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Pamiętniki Adama i Ewy",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[6].work_title_pref (manifestations: 14, first pub 1977)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Życie na Missisipi",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[21].work_title_pref (manifestations: 5, first pub 1945)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Pod gołym niebem",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[80].work_title_pref (manifestations: 5, first pub 1906)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Nieszczęsny narzeczony Aurelii",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[13].work_title_pref (manifestations: 4, first pub 1960)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Yankes na dworze króla Artura",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[34].work_title_pref (manifestations: 4, first pub 1936)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Humoreski",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[19].work_title_pref (manifestations: 4, first pub 1879)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Bajeczki dla starych dzieci",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[39].work_title_pref (manifestations: 4, first pub 1899)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Listy z Ziemi",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[57].work_title_pref (manifestations: 3, first pub 1966)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Pamiętniki o Joannie d'Arc spisane przez naocznego świadka Ludwika de Conte (jej pazia i sekretarza) : przetłómaczone z oryginalnego, niewydanego manuskryptu, znajdującego się w starodawnem Archiwum Francji",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[72].work_title_pref (manifestations: 3, first pub 1904)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator : a journey around the world",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[59].work_title_pref (manifestations: 3, first pub 1899)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Podróż międzyplanetarna",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[62].work_title_pref (manifestations: 3, first pub 1949)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Jankes na dworze króla Artura",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[28].work_title_pref (manifestations: 2, first pub 1917)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Człowiek, który zdemoralizował Hadleyburg",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[64].work_title_pref (manifestations: 2, first pub 1917)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Personal recollections of Joan of Arc : by Louis de Conte (her page and secretary) : freely transl. out of the ancient French into modern Engl. from the original unpublished manuscript in the national archives of France by Jean François Alden",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[0].work_title_pref (manifestations: 2, first pub 1899)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Prigodi Guka",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[11].work_title_pref (manifestations: 2, first pub 1908)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Letters",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[14].work_title_pref (manifestations: 2, first pub 1917)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Das vergoldete Zeitalter : Roman",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[24].work_title_pref (manifestations: 2, first pub 1876)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Królewicz i żebrak : powieść",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[84].work_title_pref (manifestations: 2, first pub 1922)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "A tramp abroad",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[91].work_title_pref (manifestations: 2, first pub 1906)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Uprowadzenie Księcia Margaryny",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[10].work_title_pref (manifestations: 1, first pub 2017)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Wartogłowy Wilson : powieść",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[29].work_title_pref (manifestations: 1, first pub 1896)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Przygody Hucka Finna",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[31].work_title_pref (manifestations: 1, first pub 2018)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Monolog króla Leopolda",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[54].work_title_pref (manifestations: 1, first pub 1961)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Feralny krążek",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[55].work_title_pref (manifestations: 1, first pub 1987)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Ludożerstwo w wagonach",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[58].work_title_pref (manifestations: 1, first pub 1994)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Tomek Sawyer detektywem",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[65].work_title_pref (manifestations: 1, first pub 2001)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Autobiografia",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[92].work_title_pref (manifestations: 1, first pub 1993)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Tajemniczy nieznajomy",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[99].work_title_pref (manifestations: 1, first pub 2023)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Prostaczkowie za granicą",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[100].work_title_pref (manifestations: 1, first pub 1992)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Opowiadania",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[1].work_title_pref (manifestations: 1, first pub 1923)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Biały słoń",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[2].work_title_pref (manifestations: 1, first pub 1991)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "What is man?",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[3].work_title_pref (manifestations: 1, first pub 1937)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Skradziony biały słoń : humoreska",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[4].work_title_pref (manifestations: 1, first pub 1909)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Opowiadania i humoreski",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[5].work_title_pref (manifestations: 1, first pub 1951)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Die Million-Pfundnote und andere Erzählungen",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[7].work_title_pref (manifestations: 1, first pub 1970)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "\"Biały słoń\" i inne humoreski",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[8].work_title_pref (manifestations: 1, first pub 1913)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Książę i żebrak",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[12].work_title_pref (manifestations: 1, first pub 1995)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain : [wybór opowiadań i fragmentów tekstów]",
+    "lang": null,
+    "via": "llm:xhr_6.json: $.works[15].work_title_pref (manifestations: 1, first pub 1994)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Joanna d'Arc w osobistych wspomnieniach Sieur Louisa de Conte",
+    "lang": null,
+    "via": "llm-page:źródło / cytata bibliograficzna",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Opovìdannja ta pamfleti",
+    "lang": null,
+    "via": "llm-page:citation",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Prigkēpas kai zēetianos",
+    "lang": null,
+    "via": "llm-page:citation",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Przygody Toma Sojera",
+    "lang": null,
+    "via": "llm-page:citation",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Przygody Hucka",
+    "lang": null,
+    "via": "llm-page:Wikidane: Najbardziej znane dzieła",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Tarnowski, Marceli (1899-ok. 1942)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (28 manifestations, e.g. [0]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Tarnowski, Marceli (1899-ok. 1944)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (17 manifestations, e.g. [31]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Dehnel, Tadeusz Jan (1906-1974)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (22 manifestations, e.g. [2]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Piotrowski, Kazimierz (1911-1983)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (22 manifestations, e.g. [20]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Tarnowska, Krystyna (1917-1991)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (15 manifestations, e.g. [19]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Truszkowska, Teresa (1925-1992)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (13 manifestations, e.g. [4]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Biliński, Jan (1879-1939)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (13 manifestations, e.g. [5]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Łopatka, Paweł (tłumacz)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (13 manifestations, e.g. [60]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Marianowicz, Antoni (1924-2003)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (11 manifestations, e.g. [13]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Słonimski, Antoni (1895-1976)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (7 manifestations, e.g. [83]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Świderska, Alina (1875-1963)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (6 manifestations, e.g. [13]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Kubiak, Aleksandra (tłumaczka)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (6 manifestations, e.g. [42]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Kędroń, Marta",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (6 manifestations, e.g. [61]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Ludwiczak, Barbara",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (6 manifestations, e.g. [61]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Machay, Magdalena",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (5 manifestations, e.g. [9]); role from manifestation_title_and_responsibi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Gruszecki, A.",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [27]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Kuligowska, Agnieszka",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [50]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Siwicka, Zofia (1894-1982)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [52]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Bańkowska, Anna (1940- )",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [88]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Prażmowska, Teresa (1842-1912)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [101]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Feldmanowa, Maria (1874-1953)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (4 manifestations, e.g. [24]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Olchowicz, Maria",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (7 manifestations, e.g. [206]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Rajzen, Zalman (1887-1941)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (3 manifestations, e.g. [98]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Kapłanowicz, Don (1880-1932)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [48]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Deržiruka, Volodimir",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [121]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Busch, Moritz (1821-1899)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [79]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Grobe, Edwin (1927-2015)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [21]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Kydryński, Juliusz (1921-1994)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [78]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Batko, Zbigniew (1940-2007)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [54]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Polak, Jędrzej (1958-2020)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [96]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Sokół, Jarosław (1960- )",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [104]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Beręsewicz, Paweł (1970- )",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [158]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Pawlak, Małgorzata (tłumacz)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [71]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Warner, Charles Dudley (1829-1900)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [79]); role from manifestation_title_and_responsib",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Neider, Charles (1915-2001)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [1]); role from manifestation_title_and_responsibi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Paine, Albert Bigelow (1861-1937)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (2 manifestations, e.g. [142]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "De Voto, Bernard Augustine (1897-1955)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (1 manifestations, e.g. [242]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Uniechowski, Antoni (1903-1976)",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (20 manifestations, e.g. [26]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Kołodziejski, Paweł (1971- )",
+    "lang": null,
+    "via": "llm:xhr_4.json: $.manifestations[*].cocreator (18 manifestations, e.g. [47]); role from manifestation_title_and_responsi",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finn (postać fikcyjna) (associated fictional character)",
+    "lang": null,
+    "via": "llm-page:osoba powiązana",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Tomek Sawyer (postać fikcyjna) (associated fictional character)",
+    "lang": null,
+    "via": "llm-page:osoba powiązana",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "John Marshall Clemens (father)",
+    "lang": null,
+    "via": "llm-page:Wikidane: Ojciec",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Lampton Clemens (mother)",
+    "lang": null,
+    "via": "llm-page:Wikidane: Matka",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens (sibling)",
+    "lang": null,
+    "via": "llm-page:Wikidane: Rodzeństwo",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Langdon Clemens (spouse)",
+    "lang": null,
+    "via": "llm-page:Wikidane: Małżonek",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Jean Clemens (child)",
+    "lang": null,
+    "via": "llm-page:Wikidane: Dziecko",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Susy Clemens (child)",
+    "lang": null,
+    "via": "llm-page:Wikidane: Dziecko",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Amerykańska Akademia Sztuki i Literatury (member)",
+    "lang": null,
+    "via": "llm-page:Wikidane: Członek organizacji",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Cascadilla School (studied at)",
+    "lang": null,
+    "via": "llm-page:Wikidane: Studiował(a) na",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Tarnowski, Marceli (1899-ok. 1942) (frequent co-contributor in BN catalogue)",
+    "lang": null,
+    "via": "llm-page:statistics: osoba/instytucja",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Piotrowski, Kazimierz (1911-1983) (frequent co-contributor)",
+    "lang": null,
+    "via": "llm-page:statistics",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Dehnel, Tadeusz Jan (1906-1974) (frequent co-contributor)",
+    "lang": null,
+    "via": "llm-page:statistics",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Uniechowski, Antoni (1903-1976) (frequent co-contributor)",
+    "lang": null,
+    "via": "llm-page:statistics",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Łopatka, Paweł (tłumacz) (translator)",
+    "lang": null,
+    "via": "llm-page:statistics",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Stany Zjednoczone (USA)",
+    "lang": "pl",
+    "via": "llm-page:miejsce powiązane (kraj)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain Birthplace State Historic Site",
+    "lang": "pl",
+    "via": "llm-page:Wikidane: Miejsce zamieszkania",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain House",
+    "lang": "pl",
+    "via": "llm-page:Wikidane: Miejsce zamieszkania",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Literatura",
+    "lang": "pl",
+    "via": "llm-page:obszar działalności",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "humor",
+    "lang": "pl",
+    "via": "llm-page:Wikidane: Dziedzina",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "angielski",
+    "lang": "pl",
+    "via": "llm-page:język",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "język niemiecki",
+    "lang": "pl",
+    "via": "llm-page:Wikidane: Używane języki",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Wikipedia",
+    "lang": null,
+    "via": "llm-page:źródło (preferred name)",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "EPop.",
+    "lang": null,
+    "via": "llm-page:źródło / cytata bibliograficzna",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "MSPS",
+    "lang": null,
+    "via": "llm-page:źródło",
+    "file": "P1695.json",
+    "uri": false
+   },
+   {
+    "value": "PB",
+    "lang": null,
+    "via": "llm-page:źródło",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2005-01-20",
+    "lang": null,
+    "via": "llm-page:data utworzenia",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-11-25",
+    "lang": null,
+    "via": "llm-page:data aktualizacji",
+    "file": "P1695.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "identifier": [],
+  "name_preferred": [
+   "pl"
+  ],
+  "name_variant": [
+   "pl",
+   "uk"
+  ],
+  "same_as": [],
+  "birth_date": [],
+  "death_date": [],
+  "gender": [
+   "pl"
+  ],
+  "occupation": [
+   "pl"
+  ],
+  "image": [],
+  "birth_place": [
+   "pl"
+  ],
+  "death_place": [
+   "pl"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "nationality": [
+   "pl"
+  ],
+  "work": [],
+  "related_agent": [],
+  "activity_place": [
+   "pl"
+  ],
+  "field_of_activity": [
+   "pl"
+  ],
+  "language": [
+   "pl"
+  ],
+  "source": [],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 3,
+  "('(Spirit)' heading via page text, dropped)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 305,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Deskryptory Biblioteki Narodowej (DBN)"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Przeglądaj bazę danych Deskryptorów Biblioteki Narodowej i MeSH-POL (Medical Subject Headings-POL)."
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "/assets/logo-DEZ2RXYU.jpg"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 540,
+   "path_count": 13,
+   "paths": [
+    {
+     "path": "icons[].src",
+     "n": 2,
+     "sample": "bn-logo-192x192.png"
+    },
+    {
+     "path": "icons[].sizes",
+     "n": 2,
+     "sample": "192x192"
+    },
+    {
+     "path": "icons[].type",
+     "n": 2,
+     "sample": "image/png"
+    },
+    {
+     "path": "short_name",
+     "n": 1,
+     "sample": "DBN"
+    },
+    {
+     "path": "version",
+     "n": 1,
+     "sample": "2.2.1"
+    },
+    {
+     "path": "name",
+     "n": 1,
+     "sample": "Deskryptory Biblioteki Narodowej (DBN)"
+    },
+    {
+     "path": "description",
+     "n": 1,
+     "sample": "Baza danych Deskryptorów Biblioteki Narodowej (DBN) i MeSH-Pol."
+    },
+    {
+     "path": "id",
+     "n": 1,
+     "sample": "/"
+    },
+    {
+     "path": "scope",
+     "n": 1,
+     "sample": "/"
+    },
+    {
+     "path": "start_url",
+     "n": 1,
+     "sample": "/"
+    },
+    {
+     "path": "display",
+     "n": 1,
+     "sample": "standalone"
+    },
+    {
+     "path": "theme_color",
+     "n": 1,
+     "sample": "#000000"
+    },
+    {
+     "path": "background_color",
+     "n": 1,
+     "sample": "#ffffff"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "src"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 2642,
+   "path_count": 46,
+   "paths": [
+    {
+     "path": "alternateNames[]",
+     "n": 15,
+     "sample": "Alden, Jean François"
+    },
+    {
+     "path": "jsonFieldValues.alternateNamesForFuzzySearch[]",
+     "n": 15,
+     "sample": "Alden Jean François"
+    },
+    {
+     "path": "jsonFieldValues.sourceDataFound[]",
+     "n": 8,
+     "sample": "EPop."
+    },
+    {
+     "path": "jsonFieldValues.systemControlNumber[]",
+     "n": 2,
+     "sample": "(PL)a0000001179912"
+    },
+    {
+     "path": "jsonFieldValues.relatedPerson[].dataAssociated",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "jsonFieldValues.relatedPerson[].hasControlNumber",
+     "n": 2,
+     "sample": "True"
+    },
+    {
+     "path": "jsonFieldValues.relatedPerson[].preferredName",
+     "n": 2,
+     "sample": "Huck Finn (postać fikcyjna)"
+    },
+    {
+     "path": "jsonFieldValues.relatedPerson[].type",
+     "n": 2,
+     "sample": "personal_descriptor"
+    },
+    {
+     "path": "jsonFieldValues.relatedPerson[].nlpId",
+     "n": 2,
+     "sample": "a0000003623739"
+    },
+    {
+     "path": "nlpId",
+     "n": 1,
+     "sample": "a0000001179912"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "personal_descriptor"
+    },
+    {
+     "path": "preferredName",
+     "n": 1,
+     "sample": "Twain, Mark (1835-1910)"
+    },
+    {
+     "path": "externalIds[].stringValue",
+     "n": 1,
+     "sample": "http://viaf.org/viaf/50566653"
+    },
+    {
+     "path": "externalIds[].dataAssociated",
+     "n": 1,
+     "sample": "viaf"
+    },
+    {
+     "path": "mmsId",
+     "n": 1,
+     "sample": "9810671370605606"
+    },
+    {
+     "path": "controlNumber",
+     "n": 1,
+     "sample": "p 2004409463"
+    },
+    {
+     "path": "createdTime",
+     "n": 1,
+     "sample": "2005-01-20"
+    },
+    {
+     "path": "updatedTime",
+     "n": 1,
+     "sample": "2024-11-25"
+    },
+    {
+     "path": "sourceName",
+     "n": 1,
+     "sample": "DBN"
+    },
+    {
+     "path": "jsonFieldValues.occupation[].dataAssociated",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "jsonFieldValues.occupation[].hasControlNumber",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "jsonFieldValues.occupation[].preferredName",
+     "n": 1,
+     "sample": "Pisarze amerykańscy"
+    },
+    {
+     "path": "jsonFieldValues.occupation[].type",
+     "n": 1,
+     "sample": "subject_descriptor"
+    },
+    {
+     "path": "jsonFieldValues.occupation[].nlpId",
+     "n": 1,
+     "sample": "a0000002277697"
+    },
+    {
+     "path": "jsonFieldValues.gender[].stringValue",
+     "n": 1,
+     "sample": "mężczyzna"
+    },
+    {
+     "path": "jsonFieldValues.gender[].dataAssociated",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "jsonFieldValues.dateOfDeath",
+     "n": 1,
+     "sample": "1910"
+    },
+    {
+     "path": "jsonFieldValues.preferredNameForFuzzySearch",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "jsonFieldValues.associatedPlaceCountry[].dataAssociated",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "jsonFieldValues.associatedPlaceCountry[].hasControlNumber",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "jsonFieldValues.associatedPlaceCountry[].preferredName",
+     "n": 1,
+     "sample": "Stany Zjednoczone (USA)"
+    },
+    {
+     "path": "jsonFieldValues.associatedPlaceCountry[].type",
+     "n": 1,
+     "sample": "geographic_descriptor"
+    },
+    {
+     "path": "jsonFieldValues.associatedPlaceCountry[].nlpId",
+     "n": 1,
+     "sample": "a0000001017565"
+    },
+    {
+     "path": "jsonFieldValues.dateOfBirth",
+     "n": 1,
+     "sample": "1835"
+    },
+    {
+     "path": "jsonFieldValues.associatedLanguage[]",
+     "n": 1,
+     "sample": "angielski"
+    },
+    {
+     "path": "jsonFieldValues.dateOfDeathYear[]",
+     "n": 1,
+     "sample": "1910"
+    },
+    {
+     "path": "jsonFieldValues.startOfActivity",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "jsonFieldValues.dateOfTermination",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "jsonFieldValues.dateOfBirthYear[]",
+     "n": 1,
+     "sample": "1835"
+    },
+    {
+     "path": "jsonFieldValues.fieldOfActivity[].dataAssociated",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "jsonFieldValues.fieldOfActivity[].hasControlNumber",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "jsonFieldValues.fieldOfActivity[].preferredName",
+     "n": 1,
+     "sample": "Literatura"
+    },
+    {
+     "path": "jsonFieldValues.fieldOfActivity[].type",
+     "n": 1,
+     "sample": "genre_descriptor"
+    },
+    {
+     "path": "jsonFieldValues.fieldOfActivity[].nlpId",
+     "n": 1,
+     "sample": "a0000001003574"
+    },
+    {
+     "path": "jsonFieldValues.endOfActivity",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "jsonFieldValues.dateOfEstablishment",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "preferredName",
+     "value": "Twain, Mark (1835-1910)"
+    },
+    {
+     "path": "alternateNames[]",
+     "value": "Clemens, Samuel L."
+    },
+    {
+     "path": "alternateNames[]",
+     "value": "Clemens, Samuel Langhorne"
+    },
+    {
+     "path": "alternateNames[]",
+     "value": "Twain, M."
+    },
+    {
+     "path": "alternateNames[]",
+     "value": "Twain, Marc"
+    },
+    {
+     "path": "alternateNames[]",
+     "value": "Twain, Marek"
+    },
+    {
+     "path": "jsonFieldValues.dateOfDeath",
+     "value": "1910"
+    },
+    {
+     "path": "jsonFieldValues.preferredNameForFuzzySearch",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "jsonFieldValues.dateOfBirth",
+     "value": "1835"
+    },
+    {
+     "path": "jsonFieldValues.sourceDataFound[]",
+     "value": "Joanna d'Arc w osobistych wspomnieniach Sieur Louisa de Conte (jej giermka i sekretarza) : swobodnego przekładu ze starofrancuskiego [...] dokonał Jean François Alden / Mark Twain [pseud.]. - Gdańsk, "
+    },
+    {
+     "path": "jsonFieldValues.sourceDataFound[]",
+     "value": "Przygody Tomka Sawyera / Marek Twain [pseud.]. - Kraków, [1946]."
+    },
+    {
+     "path": "jsonFieldValues.alternateNamesForFuzzySearch[]",
+     "value": "Clemens Samuel L."
+    },
+    {
+     "path": "jsonFieldValues.alternateNamesForFuzzySearch[]",
+     "value": "Clemens Samuel Langhorne"
+    },
+    {
+     "path": "jsonFieldValues.alternateNamesForFuzzySearch[]",
+     "value": "M. Twain"
+    },
+    {
+     "path": "jsonFieldValues.alternateNamesForFuzzySearch[]",
+     "value": "Marc Twain"
+    },
+    {
+     "path": "jsonFieldValues.alternateNamesForFuzzySearch[]",
+     "value": "Marek Twain"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 168407,
+   "path_count": 14,
+   "paths": [
+    {
+     "path": "manifestations[].cocreator[]",
+     "n": 63,
+     "sample": "Tarnowski, Marceli (1899-ok. 1942)"
+    },
+    {
+     "path": "manifestations[].relation[]",
+     "n": 50,
+     "sample": "Autor"
+    },
+    {
+     "path": "manifestations[].manifestation_publication_year",
+     "n": 50,
+     "sample": "1998"
+    },
+    {
+     "path": "manifestations[].manifestation_language[]",
+     "n": 50,
+     "sample": "polski"
+    },
+    {
+     "path": "manifestations[].manifestation_country[]",
+     "n": 50,
+     "sample": "Polska (POL)"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "n": 50,
+     "sample": "[Przygody Hucka / Mark Twain [pseud.] ; przeł. Marceli Tarnowski.]"
+    },
+    {
+     "path": "manifestations[].manifestation_nlp_id",
+     "n": 50,
+     "sample": "b0000001235238"
+    },
+    {
+     "path": "manifestations[].manifestation_mms_id",
+     "n": 50,
+     "sample": "991009014579705066"
+    },
+    {
+     "path": "manifestations[].publisher[]",
+     "n": 32,
+     "sample": "Wydawnictwo Zielona Sowa"
+    },
+    {
+     "path": "pageHits",
+     "n": 1,
+     "sample": "378"
+    },
+    {
+     "path": "pageNumber",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "pageSize",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "totalPages",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "totalHits",
+     "n": 1,
+     "sample": "378"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Hucka / Mark Twain [pseud.] ; przeł. Marceli Tarnowski.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[The autobiography of Mark Twain : including chapters now published for the first time / as arrang. and ed. with an introd. and notes by Charles Neider.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Królewicz i żebrak / Mark Twain [pseud.] ; przeł. [z ang.] Tadeusz Jan Dehnel ; [il. Katarzyna Słowiańska].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Książę i żebrak / Mark Twain.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Pamiętniki Adama i Ewy / Mark Twain [pseudonim] ; przełożyła Teresa Truszkowska.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Tomka Sawyera / Mark Twain ; [przekład Jan Biliński ; ilustracje Aleksandra Michalska-Szwagierczak].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Monolog króla Leopolda / Mark Twain ; [wstęp J. Stroynowski].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Tomka Sawyera / Mark Twain.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Joanna d'Arc w osobistych wspomnieniach pana Louisa de Conte, jej giermka i sekretarza : wolnego przekładu ze starofrancuskiego na współczesną angielszczyznę, z nierozpowszechnionego dotąd drukiem rę"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Hucka / Mark Twain ; przekład Magdalena Machay ; opracowała Agnieszka Sabak ; [ilustracje Jolanta Ludwikowska].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Jankes na dworze króla Artura / Mark Twain [pseud.] ; przeł. [z ang.] Agnieszka Kreczmar.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Hucka Finna / Mark Twain [pseud.] ; przeł. [z ang.] Jolanta Konsztowicz.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[\"Krotochwilna autobiografja\" i inne opowiadania / Marc Twain.]"
+    },
+    {
+     "path": "manifestations[].cocreator[]",
+     "value": "Srokowski, Jerzy (1910-1975)"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Opowiadania i humoreski / Mark Twain ; [tł. z ang. A. Marianowicz i A. Świderska ; il. J. Srokowskiego].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Tomka Sawyera / Mark Twain ; przeł Maciej Miłkowski.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[The adventures of Huckleberry Finn / by Mark Twain.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Aforyzmy niepokorne / aut. Mark Twain ; wybór Aga Paszkot-Zgaga.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Tomka Sawyera / Mark Twain ; [il. Małgorzata Goździewicz].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Pod gołym niebem / Mark Twain ; tł. Krystyna Tarnowska ; [il. Mieczysław Majewski].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Tomka Sawyera / Mark Twain ; przeł. [z ang.] Kazimierz Piotrowski.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[La aventuroj de Toĉjo Saŭjero : roman-felietono. 2 / de usona verkisto Mark Twain (1835-1910) ; esperantigis kaj felietonigis Edwin Grobe.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Pamiętniki Adama i Ewy / Mark Twain [pseud. ; przekł. z ang. Teresy Truszkowskiej ; oprac. graf. Jerzy Treutler].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Hucka / Mark Twain [pseud.] ; przeł. [z ang.] Krystyna Tarnowska [il. w tekście, na okł. i wyklejkach Katarzyna Słowiańska.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Książę i żebrak / Mark Twain [pseud.] ; spolszczyła [z ang.] Maria Kreczowska ; [oprac. Danuta Sadkowska].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[The adventures of Tom Sawyer / Mark Twain ; adapt. by Wanda Skarżyńska.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Królewicz i żebrak / Mark Twain ; przeł. Tadeusz Jan Dehnel ; [il. Antoni Uniechowski].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Humoreski. T. 2 / Mark Twain ; przeł. A. Gruszecki.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Tom Sawyers bedrifter / [według] [Mark Twain].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Królewicz i żebrak / Mark Twain ; przeł. Tadeusz Jan Dehnel ; [il. Antoni Uniechowski].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Mark Twain : [wybór opowiadań i fragmentów tekstów] / [red. Paweł Bielecki].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Książę i żebrak / Mark Twain ; [wg przekładu Marcelego Tarnowskiego].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Tomek Sawyer ajentem śledczym : z angielskiego Marka Twain'a.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[The devil's race-track : Mark Twain's great dark writings : the best from \"Which was the dream?\" and \"Fables of man\" / ed. by John S. Tuckey.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Pamiętniki Adama i Ewy / Mark Twain [pseud. ; tł. Teresa Truszkowska].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Bajeczki dla starych dzieci / Marek Twain.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Królewicz i żebrak / Mark Twain [pseud.] ; przeł. [z ang.] Tadeusz Jan Dehnel ; [il. Antoniego Uniechowskiego].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Królewicz i żebrak / Mark Twain ; przeł. [z ang.] Tadeusz Jan Dehnel.]"
+    },
+    {
+     "path": "manifestations[].cocreator[]",
+     "value": "Rousseau, Henri (1844-1910)"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Pamiętniki Adama i Ewy / Mark Twain ; tł. Teresy Truszkowskiej ; wykorzystano malarstwo Henri Rousseau ; oprac. graf. Urszuli Kurtiak.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Tomka Sawyera / Mark Twain ; przeł. Kazimierz Piotrowski.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Tomka Sawyera / Mark Twain [pseud.] ; przeł. [z ang.] Kazimierz Piotrowski ; [il. w tekście, na okł. i wyklejkach Katarzyna Słowiańska.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Królewicz i żebrak / Mark Twain ; przeł. [z ang.] Tadeusz Jan Dehnel; [il. Antoniego Uniechowskiego; wstęp Ewa Kieruzalska].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Tomka Sawyera / Mark Twain ; [tłumaczenie Aleksandra Kubiak ; opracowanie Agnieszka Nożyńska-Demianiuk].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Tomka Sawyera : powieść dla młodzieży / Mark Twain [pseud.], (Samuel L[anghorne] Clemens) [nazw.] ; [przeł. Marceli Tarnowski].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Pamiętniki Adama i Ewy / Mark Twain ; przeł. Teresa Truszkowska.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Skradziony biały słoń : humoreska / Mark Twain [pseud.].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Mark Twain's letters. Vol. 1, 1853-1866 / ed. Edgar Marquess Branch, Michael B. Frank, Kenneth M. Sanderson.]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Tomek Sawyer detektywem / Mark Twain ; przeł. Ireneusz Socha ; [il. Paweł Kołodziejski].]"
+    },
+    {
+     "path": "manifestations[].manifestation_title_and_responsibility",
+     "value": "[Przygody Tomka Sawyera / Mark Twain ; przełożył Marceli Tarnowski.]"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 10981,
+   "path_count": 32,
+   "paths": [
+    {
+     "path": "id",
+     "n": 1,
+     "sample": "Q7245"
+    },
+    {
+     "path": "bindings.image",
+     "n": 1,
+     "sample": "http://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg, http://commons.wikimedia.org/wiki/Special:FilePath"
+    },
+    {
+     "path": "bindings.dateOfBirth",
+     "n": 1,
+     "sample": "1835-11-30T00:00:00Z"
+    },
+    {
+     "path": "bindings.placeOfBirth",
+     "n": 1,
+     "sample": "Florida"
+    },
+    {
+     "path": "bindings.dateOfDeath",
+     "n": 1,
+     "sample": "1910-04-21T00:00:00Z"
+    },
+    {
+     "path": "bindings.placeOfDeath",
+     "n": 1,
+     "sample": "Redding"
+    },
+    {
+     "path": "bindings.occupation",
+     "n": 1,
+     "sample": "pisarz, nauczyciel, drukarz, Pilot morski, dziennikarz, pisarz podróżnik, aforysta, pisarz dziecięcy, żołnierz, publicys"
+    },
+    {
+     "path": "bindings.notableWork",
+     "n": 1,
+     "sample": "Przygody Hucka, Przygody Tomka Sawyera"
+    },
+    {
+     "path": "bindings.fieldOfWork",
+     "n": 1,
+     "sample": "literatura, humor"
+    },
+    {
+     "path": "bindings.pseudonym",
+     "n": 1,
+     "sample": "J. W. Bothwell, Thomas Jefferson Snodgrass, Sieur Louis de Conte"
+    },
+    {
+     "path": "bindings.birthName",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "bindings.nameInNativeLanguage",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "bindings.countryOfCitizenship",
+     "n": 1,
+     "sample": "Stany Zjednoczone"
+    },
+    {
+     "path": "bindings.residence",
+     "n": 1,
+     "sample": "Mark Twain Birthplace State Historic Site, Mark Twain House"
+    },
+    {
+     "path": "bindings.languagesSpokenWrittenOrSigned",
+     "n": 1,
+     "sample": "język niemiecki, język angielski"
+    },
+    {
+     "path": "bindings.awardReceived",
+     "n": 1,
+     "sample": "tytuł doktora honoris causa Yale University, member of the Nevada Newspaper Hall of Fame"
+    },
+    {
+     "path": "bindings.signature",
+     "n": 1,
+     "sample": "http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Twain%20Signatures-2.svg"
+    },
+    {
+     "path": "bindings.memberOf",
+     "n": 1,
+     "sample": "Amerykańska Akademia Sztuki i Literatury"
+    },
+    {
+     "path": "bindings.educatedAt",
+     "n": 1,
+     "sample": "Cascadilla School"
+    },
+    {
+     "path": "bindings.sexOrGender",
+     "n": 1,
+     "sample": "mężczyzna"
+    },
+    {
+     "path": "bindings.religion",
+     "n": 1,
+     "sample": "sceptycyzm"
+    },
+    {
+     "path": "bindings.father",
+     "n": 1,
+     "sample": "John Marshall Clemens"
+    },
+    {
+     "path": "bindings.mother",
+     "n": 1,
+     "sample": "Jane Lampton Clemens"
+    },
+    {
+     "path": "bindings.sibling",
+     "n": 1,
+     "sample": "Orion Clemens"
+    },
+    {
+     "path": "bindings.spouse",
+     "n": 1,
+     "sample": "Olivia Langdon Clemens"
+    },
+    {
+     "path": "bindings.child",
+     "n": 1,
+     "sample": "Jean Clemens, Susy Clemens"
+    },
+    {
+     "path": "bindings.ISNI",
+     "n": 1,
+     "sample": "0000000107973778, 0000000077209145, 0000000108003124, 0000000108000249"
+    },
+    {
+     "path": "bindings.VIAFID",
+     "n": 1,
+     "sample": "16444837, 50566653, 305239133, 53367783"
+    },
+    {
+     "path": "image.author",
+     "n": 1,
+     "sample": "A.F. Bradley, New York"
+    },
+    {
+     "path": "image.imageUrl",
+     "n": 1,
+     "sample": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mark_Twain_by_AF_Bradley.jpg?utm_source=commons.wikimedia.org&utm_ca"
+    },
+    {
+     "path": "image.encodedImage",
+     "n": 1,
+     "sample": "/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/"
+    },
+    {
+     "path": "image.imageType",
+     "n": 1,
+     "sample": "jpg"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "bindings.image",
+     "value": "http://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg, http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Twain%20by%20AF%20Bradley.jpg"
+    },
+    {
+     "path": "bindings.dateOfBirth",
+     "value": "1835-11-30T00:00:00Z"
+    },
+    {
+     "path": "bindings.dateOfDeath",
+     "value": "1910-04-21T00:00:00Z"
+    },
+    {
+     "path": "bindings.birthName",
+     "value": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "bindings.nameInNativeLanguage",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "bindings.residence",
+     "value": "Mark Twain Birthplace State Historic Site, Mark Twain House"
+    },
+    {
+     "path": "bindings.signature",
+     "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Twain%20Signatures-2.svg"
+    },
+    {
+     "path": "bindings.father",
+     "value": "John Marshall Clemens"
+    },
+    {
+     "path": "bindings.mother",
+     "value": "Jane Lampton Clemens"
+    },
+    {
+     "path": "bindings.sibling",
+     "value": "Orion Clemens"
+    },
+    {
+     "path": "bindings.spouse",
+     "value": "Olivia Langdon Clemens"
+    },
+    {
+     "path": "bindings.child",
+     "value": "Jean Clemens, Susy Clemens"
+    },
+    {
+     "path": "image.imageUrl",
+     "value": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mark_Twain_by_AF_Bradley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+   ],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 36530,
+   "path_count": 14,
+   "paths": [
+    {
+     "path": "works[].form[]",
+     "n": 59,
+     "sample": "Książki"
+    },
+    {
+     "path": "works[].work_title_pref",
+     "n": 50,
+     "sample": "Personal recollections of Joan of Arc : by Louis de Conte (her page and secretary) : freely transl. out of the ancient F"
+    },
+    {
+     "path": "works[].work_title_of_orig_pref",
+     "n": 50,
+     "sample": "Personal recollections of Joan of Arc : by Louis de Conte (her page and secretary) : freely transl. out of the ancient F"
+    },
+    {
+     "path": "works[].work_manifestation_count",
+     "n": 50,
+     "sample": "2"
+    },
+    {
+     "path": "works[].work_first_pub_or_creation_date",
+     "n": 50,
+     "sample": "1899"
+    },
+    {
+     "path": "works[].work_subject[]",
+     "n": 41,
+     "sample": "Joanna d'Arc (święta ; 1412-1431)"
+    },
+    {
+     "path": "works[].work_isbn[]",
+     "n": 29,
+     "sample": "8385305025"
+    },
+    {
+     "path": "works[].work_genre[]",
+     "n": 14,
+     "sample": "Broszura"
+    },
+    {
+     "path": "works[].work_domain[]",
+     "n": 5,
+     "sample": "Edukacja i pedagogika"
+    },
+    {
+     "path": "pageHits",
+     "n": 1,
+     "sample": "102"
+    },
+    {
+     "path": "pageNumber",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "pageSize",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "totalPages",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "totalHits",
+     "n": 1,
+     "sample": "102"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "works[].work_subject[]",
+     "value": "Twain, Mark (1835-1910). Diaries of Adam and Eve"
+    },
+    {
+     "path": "works[].work_subject[]",
+     "value": "Twain, Mark (1835-1910)"
+    },
+    {
+     "path": "works[].work_title_pref",
+     "value": "Mark Twain : [wybór opowiadań i fragmentów tekstów]"
+    },
+    {
+     "path": "works[].work_title_of_orig_pref",
+     "value": "Mark Twain : [wybór opowiadań i fragmentów tekstów]"
+    },
+    {
+     "path": "works[].work_title_pref",
+     "value": "Mark Twain's picture of his America"
+    },
+    {
+     "path": "works[].work_title_of_orig_pref",
+     "value": "Mark Twain's picture of his America"
+    },
+    {
+     "path": "works[].work_subject[]",
+     "value": "Twain, Mark (1835-1910)"
+    },
+    {
+     "path": "works[].work_subject[]",
+     "value": "Twain, Mark (1835-1910). Adventures of Huckleberry Finn"
+    },
+    {
+     "path": "works[].work_title_pref",
+     "value": "Tomek Sawyer ajentem śledczym : z angielskiego Marka Twain'a"
+    },
+    {
+     "path": "works[].work_title_of_orig_pref",
+     "value": "Tomek Sawyer ajentem śledczym : z angielskiego Marka Twain'a"
+    },
+    {
+     "path": "works[].work_subject[]",
+     "value": "Twain, Mark (1835-1910)"
+    }
+   ],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "National Library of Poland DBN personal descriptor: preferred name, variants (12 more collapsed), dates, identifiers, MARC-derived details and citations, plus publication statistics and a Wikidata-derived ('Wikidane', Q7245) block.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

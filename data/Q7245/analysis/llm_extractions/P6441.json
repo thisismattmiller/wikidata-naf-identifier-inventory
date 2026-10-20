@@ -1,0 +1,39 @@
+{
+ "property": "P6441",
+ "label": "Douban author ID",
+ "files_read": ["P6441__4507366/embedded_opengraph.json", "P6441__4507366/xhr_2.json"],
+ "about_entity": true,
+ "notes": "embedded_opengraph.json is the Douban personage page metadata with a long Chinese biography; xhr_2.json lists his books on Douban (10 of 196 items). Odd: og:url points to personage/27242749, not the author id 4507366.",
+ "elements": {
+   "name_preferred": [{"value": "马克·吐温", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+   "name_variant": [
+     {"value": "Mark Twain", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"},
+     {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description'] (真实姓名)"},
+     {"value": "萨缪尔·兰亨·克莱门", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description'] (真实姓名)"}
+   ],
+   "pseudonym": [{"value": "马克·吐温", "raw": "“马克·吐温”是他的笔名", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+   "occupation": [
+     {"value": "作家", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"},
+     {"value": "演说家", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"},
+     {"value": "排字工人", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"},
+     {"value": "水手", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"}
+   ],
+   "nationality": [{"value": "美国", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+   "field_of_activity": [{"value": "批判现实主义文学", "raw": "美国批判现实主义文学的奠基人", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description']"}],
+   "description": [{"value": "马克·吐温（Mark Twain），美国作家、演说家，真实姓名是萨缪尔·兰亨·克莱门（Samuel Langhorne Clemens）。“马克·吐温”是他的笔名，原是密西西比河水手使用的表示在航道上所测水的深度的术语。代表作品有小说《百万英镑》、《哈克贝利·费恩历险记》、《汤姆·索亚历险记》等。", "lang": "zh", "via": "embedded_opengraph.json: $[0]['og:description'] (first sentences)"}],
+   "work": [
+     {"value": "汤姆・索亚历险记", "lang": "zh", "via": "xhr_2.json: $.data.items[0].subject.title"},
+     {"value": "百万英镑", "lang": "zh", "via": "xhr_2.json: $.data.items[1].subject.title"},
+     {"value": "哈克贝利·费恩历险记", "lang": "zh", "via": "xhr_2.json: $.data.items[2].subject.title"},
+     {"value": "王子与贫儿", "lang": "zh", "via": "xhr_2.json: $.data.items[3].subject.title"},
+     {"value": "马克·吐温中短篇小说选", "lang": "zh", "via": "xhr_2.json: $.data.items[4].subject.title"},
+     {"value": "汤姆·索亚历险记 哈克贝利·费恩历险记", "lang": "zh", "via": "xhr_2.json: $.data.items[5].subject.title"},
+     {"value": "亚当夏娃日记", "lang": "zh", "via": "xhr_2.json: $.data.items[6].subject.title"},
+     {"value": "竞选州长", "lang": "zh", "via": "xhr_2.json: $.data.items[7].subject.title"},
+     {"value": "马克·吐温短篇小说选集", "lang": "zh", "via": "xhr_2.json: $.data.items[8].subject.title"},
+     {"value": "神秘的陌生人", "lang": "zh", "via": "xhr_2.json: $.data.items[9].subject.title"}
+   ],
+   "image": [{"value": "https://img3.doubanio.com/view/celebrity/m/public/p12783.webp", "via": "embedded_opengraph.json: $[0]['og:image']"}],
+   "identifier": [{"value": "27242749", "raw": "https://www.douban.com/personage/27242749", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

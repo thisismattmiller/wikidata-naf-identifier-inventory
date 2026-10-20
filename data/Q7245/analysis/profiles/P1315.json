@@ -1,0 +1,694 @@
+{
+ "property": "P1315",
+ "property_label": "NLA Trove people ID",
+ "files": [
+  {
+   "file": "P1315__802244/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://trove.nla.gov.au/people/802244"
+  },
+  {
+   "file": "P1315__802244/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://trove.nla.gov.au/api/configuration/environment"
+  },
+  {
+   "file": "P1315__802244/xhr_8.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://trove.nla.gov.au/api/search/-1?terms=exact_creator%3A%22Twain%2C%20Mark%20%281835-1910%29%22"
+  },
+  {
+   "file": "P1315__802244/xhr_9.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://trove.nla.gov.au/api/search/-1?terms=exact_subject%3A%22Twain%2C%20Mark%20%281835-1910%29%22"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/configuration/environment"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/configuration/application"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/people/802244"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/configuration/alerts?deliverySystem=discovery"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/list/containing/personOrOrg/802244"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/annotation/person/802244"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/people/Clemens%2C%20Samuel%20Langhorne%2C%201835-1910"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_8.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/search/-1?terms=exact_creator%3A%22Twain%2C%20Mark%20%281835-1910%29%22"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_9.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/search/-1?terms=exact_subject%3A%22Twain%2C%20Mark%20%281835-1910%29%22"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_10.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/people/Conte%2C%20Louis%20de%2C%201835-1910"
+  },
+  {
+   "file": "P1315__802244/browser_xhr_11.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://trove.nla.gov.au/api/people/Snodgrass%2C%20Quintus%20Curtius%2C%201835-1910"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 1,
+  "unknown": 2,
+  "json": 11
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark (1835-1910)",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P1315.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne (1835-1910)",
+    "lang": "en",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Tvėn, Mark (1835-1910)",
+    "lang": "ru-Latn",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Tuėĭn, Mark (1835-1910)",
+    "lang": "ru-Latn",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk (1835-1910)",
+    "lang": "ar-Latn",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk (1835-1910)",
+    "lang": "ar-Latn",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Tʻu-wen, Ma-kʻo (1835-1910)",
+    "lang": "zh-Latn",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M. (Mark) (1835-1910)",
+    "lang": "ru-Latn",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū (1835-1910)",
+    "lang": "ja-Latn",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek (1835-1910)",
+    "lang": "pl",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Make Tuwen (1835-1910)",
+    "lang": "zh-Latn",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make (1835-1910)",
+    "lang": "zh-Latn",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Make Teviin (1835-1910)",
+    "lang": "mn-Latn",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк (1835-1910)",
+    "lang": "ru",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "טבןַ, מרק (1835-1910)",
+    "lang": "he",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מארק (1835-1910)",
+    "lang": "he",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "טוויין, מרק (1835-1910)",
+    "lang": "he",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק (1835-1910)",
+    "lang": "he",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מרק (1835-1910)",
+    "lang": "he",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "טווען, מארק (1835-1910)",
+    "lang": "yi",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "טוין, מרק (1835-1910)",
+    "lang": "he",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "טװען, מארק (1835-1910)",
+    "lang": "yi",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "טװײן, מארק (1835-1910)",
+    "lang": "yi",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "馬克吐温 (1835-1910)",
+    "lang": "zh",
+    "via": "llm-page:Also known as",
+    "file": "P1315.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Snodgrass, Quintus Curtius (1835-1910)",
+    "lang": "en",
+    "via": "llm-page:Also known as; see also",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Alden, Jean François (1835-1910)",
+    "lang": "en",
+    "via": "llm-page:Also known as; source data (Personal recollections of Joan of Arc)",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:see also",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": "en",
+    "via": "llm-page:source data (Personal recollections of Joan of Arc)",
+    "file": "P1315.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P1315.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P1315.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Print︠s︡ i nishchiĭ",
+    "lang": "ru-Latn",
+    "via": "llm-page:source data",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Makū Touen tanpenshū",
+    "lang": "ja-Latn",
+    "via": "llm-page:source data",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Personal recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:source data",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Przygody Huck'a",
+    "lang": "pl",
+    "via": "llm-page:source data",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Alda-bar ȯnggelegsen erin caġ",
+    "lang": "mn-Latn",
+    "via": "llm-page:source data",
+    "file": "P1315.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910 (see also, real name)",
+    "lang": "en",
+    "via": "llm-page:Related: see also",
+    "file": "P1315.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://nla.gov.au/anbd.aut-an35028957",
+    "lang": null,
+    "via": "llm-page:Libraries Australia link",
+    "file": "P1315.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "http://nla.gov.au/nla.party-802244",
+    "lang": null,
+    "via": "llm-page:NLA Persistent Identifier",
+    "file": "P1315.json",
+    "uri": true
+   },
+   {
+    "value": "802244",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P1315.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "DAB, 1930 (Clemens, Samuel Langhorne, 1835-1910; better known under pseud. Mark Twain; also used name Quintus Curtius Snodgrass)",
+    "lang": "en",
+    "via": "llm-page:source data list",
+    "file": "P1315.json",
+    "uri": false
+   },
+   {
+    "value": "Contributed by Libraries Australia",
+    "lang": "en",
+    "via": "llm-page:About",
+    "file": "P1315.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "ar-Latn",
+   "en",
+   "he",
+   "ja-Latn",
+   "mn-Latn",
+   "pl",
+   "ru",
+   "ru-Latn",
+   "yi",
+   "zh",
+   "zh-Latn"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "work": [
+   "en",
+   "ja-Latn",
+   "mn-Latn",
+   "pl",
+   "ru-Latn"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "source": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "e47b3b660d2d904f0890945381316c2f"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "f049c81f5aba013dd660a66085849211"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_3.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "c9884a4485847941a2ad6224e9e9801a"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_4.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "690abe6b2f2ae574c59c4145ea196448"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_5.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "8e65c159f4869902d054c41c2522a712"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_6.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "eb4cd568c633a34d140a8a48f115692a"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_7.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "bc69cb3f58af297f54c7af4d902d924c"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_8.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "fdab2844e7a0dd4923fe1f1b60096e61"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_9.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "6217891dcf70c3228ccc697cf367134b"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_10.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "e547cf67a5d8c01e8132b250a0960a7f"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_11.json",
+   "format": "json",
+   "size": 96,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "No API key found in request"
+    },
+    {
+     "path": "request_id",
+     "n": 1,
+     "sample": "0524d87e8c73f5510289d525d0b0a445"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Trove People & Organisations record 'Twain, Mark (1835-1910)' contributed by Libraries Australia: 670-style source data, a long 'Also known as' list in many scripts, persistent identifiers, and see-also links to Clemens, Louis de Conte and Quintus Curtius Snodgrass identities. Shows 1372 resources by and 1391 about.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

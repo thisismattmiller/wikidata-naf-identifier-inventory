@@ -1,0 +1,47 @@
+{
+ "property": "P646",
+ "label": "Freebase ID",
+ "files_read": ["pages/P646__m_014635_c221906b.txt"],
+ "about_entity": true,
+ "page_kind": "search results",
+ "notes": "A Google Search results page resolved from the Freebase kgmid /m/014635. It contains a Knowledge Graph panel for Mark Twain (born, died, full name, spouse, children, books, plays) plus web, social and video results. Only the knowledge panel and its book and play lists were extracted. Snippets from social media were ignored.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "knowledge panel heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "knowledge panel 'Full name'"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "en", "via": "knowledge panel description ('known by the pen name Mark Twain')"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": null, "via": "knowledge panel 'Born'"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910 (age 74 years)", "lang": null, "via": "knowledge panel 'Died'"}],
+  "birth_place": [{"value": "Florida, MO", "lang": "en", "via": "knowledge panel 'Born'"}],
+  "death_place": [{"value": "Stormfield", "lang": "en", "via": "knowledge panel 'Died'"}],
+  "occupation": [
+   {"value": "Writer", "lang": "en", "via": "knowledge panel subtitle"},
+   {"value": "humorist", "lang": "en", "via": "knowledge panel description"},
+   {"value": "essayist", "lang": "en", "via": "knowledge panel description"}
+  ],
+  "nationality": [{"value": "American", "lang": "en", "via": "knowledge panel description"}],
+  "description": [{"value": "Samuel Langhorne Clemens, known by the pen name Mark Twain, was an American writer, humorist, and essayist. He has been praised as the \"greatest humorist the United States has produced\", with William Faulkner calling him \"the father of American literature\".", "lang": "en", "via": "knowledge panel Description (sourced from Wikipedia)"}],
+  "work": [
+   {"value": "Adventures of Huckleberry Finn", "raw": "1884", "via": "Books list"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "1876", "via": "Books list"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "1889", "via": "Books list"},
+   {"value": "The Celebrated Jumping Frog of Calaveras County", "raw": "1865", "via": "Books list"},
+   {"value": "The Mysterious Stranger", "raw": "1916", "via": "Books list"},
+   {"value": "The Gilded Age: A Tale of Today", "raw": "1873", "via": "Books list"},
+   {"value": "Life on the Mississippi", "raw": "1883", "via": "Books list"},
+   {"value": "Roughing It", "raw": "1872", "via": "Books list"},
+   {"value": "The Innocents Abroad", "raw": "1869", "via": "Books list"},
+   {"value": "Is He Dead?", "raw": "2007", "via": "Plays list"},
+   {"value": "The Prince and the Pauper", "raw": "1881", "via": "Plays list"}
+  ],
+  "related_agent": [
+   {"value": "Olivia Langdon Clemens (spouse, m. 1870–1904)", "via": "knowledge panel 'Spouse'"},
+   {"value": "Clara Clemens (child)", "via": "knowledge panel 'Children'"},
+   {"value": "Langdon Clemens (child)", "via": "knowledge panel 'Children'"},
+   {"value": "Jean Clemens (child)", "via": "knowledge panel 'Children'"},
+   {"value": "Susy Clemens (child)", "via": "knowledge panel 'Children'"}
+  ],
+  "same_as": [{"value": "https://en.wikipedia.org/wiki/Mark_Twain", "via": "web result / description source"}],
+  "identifier": [{"value": "/m/014635", "via": "kgmid in page URL"}],
+  "source": [{"value": "Wikipedia", "lang": "en", "via": "knowledge panel description attribution"}]
+ }
+}

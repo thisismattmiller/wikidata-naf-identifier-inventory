@@ -1,0 +1,814 @@
+{
+ "property": "P6645",
+ "property_label": "Stedelijk Museum Amsterdam ID",
+ "files": [
+  {
+   "file": "P6645__132574-mark-twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.stedelijk.nl/nl/collectie/maker/132574-mark-twain"
+  },
+  {
+   "file": "P6645__132574-mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.stedelijk.nl/nl/collectie/maker/132574-mark-twain"
+  },
+  {
+   "file": "P6645__132574-mark-twain/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://widget.enviso.io/src/components/assets/translations/nl.json"
+  },
+  {
+   "file": "P6645__132574-mark-twain/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.enviso.io/ticketwidgetapi/venue"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 2
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 25,
+  "http://ogp.me/ns#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P6645.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "nl",
+    "via": "llm-page:page heading",
+    "file": "P6645.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "132574",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P6645.json",
+    "uri": false
+   },
+   {
+    "value": "https://www.stedelijk.nl/nl/collectie/maker/132574-mark-twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P6645.json",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": "nl",
+    "via": "llm-page:GEBOREN",
+    "file": "P6645.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": "nl",
+    "via": "llm-page:OVERLEDEN",
+    "file": "P6645.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Dobrodruzstva Huckleberryho Finna.",
+    "lang": "sk",
+    "via": "llm-page:Meer werk van deze maker",
+    "file": "P6645.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn by Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Meer werk van deze maker",
+    "file": "P6645.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Kellenberger, L. (graphic designer of 1954 edition)",
+    "lang": "nl",
+    "via": "llm-page:Meer werk van deze maker",
+    "file": "P6645.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en",
+   "nl"
+  ],
+  "identifier": [],
+  "birth_date": [
+   "nl"
+  ],
+  "death_date": [
+   "nl"
+  ],
+  "work": [
+   "en",
+   "sk"
+  ],
+  "related_agent": [
+   "nl"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 163,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.stedelijk.nl/nl/collectie/maker/132574-mark-twain"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.stedelijk.nl/nl/collectie/maker/132574-mark-twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 57646,
+   "path_count": 1038,
+   "paths": [
+    {
+     "path": "1234",
+     "n": 1,
+     "sample": "1234"
+    },
+    {
+     "path": "January",
+     "n": 1,
+     "sample": "januari"
+    },
+    {
+     "path": "February",
+     "n": 1,
+     "sample": "februari"
+    },
+    {
+     "path": "March",
+     "n": 1,
+     "sample": "maart"
+    },
+    {
+     "path": "April",
+     "n": 1,
+     "sample": "april"
+    },
+    {
+     "path": "May",
+     "n": 1,
+     "sample": "mei"
+    },
+    {
+     "path": "June",
+     "n": 1,
+     "sample": "juni"
+    },
+    {
+     "path": "July",
+     "n": 1,
+     "sample": "juli"
+    },
+    {
+     "path": "August",
+     "n": 1,
+     "sample": "augustus"
+    },
+    {
+     "path": "September",
+     "n": 1,
+     "sample": "september"
+    },
+    {
+     "path": "October",
+     "n": 1,
+     "sample": "oktober"
+    },
+    {
+     "path": "November",
+     "n": 1,
+     "sample": "november"
+    },
+    {
+     "path": "December",
+     "n": 1,
+     "sample": "december"
+    },
+    {
+     "path": "MO",
+     "n": 1,
+     "sample": "MA"
+    },
+    {
+     "path": "TU",
+     "n": 1,
+     "sample": "DI"
+    },
+    {
+     "path": "WE",
+     "n": 1,
+     "sample": "WO"
+    },
+    {
+     "path": "TH",
+     "n": 1,
+     "sample": "DO"
+    },
+    {
+     "path": "FR",
+     "n": 1,
+     "sample": "VR"
+    },
+    {
+     "path": "SA",
+     "n": 1,
+     "sample": "ZA"
+    },
+    {
+     "path": "SU",
+     "n": 1,
+     "sample": "ZO"
+    },
+    {
+     "path": "Monday",
+     "n": 1,
+     "sample": "Maandag"
+    },
+    {
+     "path": "Tuesday",
+     "n": 1,
+     "sample": "Dinsdag"
+    },
+    {
+     "path": "Wednesday",
+     "n": 1,
+     "sample": "Woensdag"
+    },
+    {
+     "path": "Thursday",
+     "n": 1,
+     "sample": "Donderdag"
+    },
+    {
+     "path": "Friday",
+     "n": 1,
+     "sample": "Vrijdag"
+    },
+    {
+     "path": "Saturday",
+     "n": 1,
+     "sample": "Zaterdag"
+    },
+    {
+     "path": "Sunday",
+     "n": 1,
+     "sample": "Zondag"
+    },
+    {
+     "path": "Invalid month",
+     "n": 1,
+     "sample": "Ongeldige maand"
+    },
+    {
+     "path": "My Order",
+     "n": 1,
+     "sample": "Mijn Bestelling"
+    },
+    {
+     "path": "Please select a ticket to proceed.",
+     "n": 1,
+     "sample": "Selecteer a.u.b. een ticket om verder te gaan."
+    },
+    {
+     "path": "Amount of {0} tickets",
+     "n": 1,
+     "sample": "Aantal {0}-tickets"
+    },
+    {
+     "path": "First name",
+     "n": 1,
+     "sample": "Voornaam"
+    },
+    {
+     "path": "Last name",
+     "n": 1,
+     "sample": "Achternaam"
+    },
+    {
+     "path": "Email",
+     "n": 1,
+     "sample": "E-mail"
+    },
+    {
+     "path": "Phone",
+     "n": 1,
+     "sample": "Telefoonnummer"
+    },
+    {
+     "path": "Street name",
+     "n": 1,
+     "sample": "Straatnaam"
+    },
+    {
+     "path": "House number",
+     "n": 1,
+     "sample": "Huisnummer"
+    },
+    {
+     "path": "Postal code",
+     "n": 1,
+     "sample": "Postcode"
+    },
+    {
+     "path": "City",
+     "n": 1,
+     "sample": "Woonplaats"
+    },
+    {
+     "path": "Country",
+     "n": 1,
+     "sample": "Land"
+    },
+    {
+     "path": "Ypres",
+     "n": 1,
+     "sample": "Ieper"
+    },
+    {
+     "path": "Don't forget to fill in your first name.",
+     "n": 1,
+     "sample": "Vergeet niet om uw voornaam in te vullen."
+    },
+    {
+     "path": "We'll also need your last name.",
+     "n": 1,
+     "sample": "We hebben ook uw achternaam nodig."
+    },
+    {
+     "path": "Please fill in a correct email address so you'll receive your tickets.",
+     "n": 1,
+     "sample": "Gelieve een geldig e-mailadres in te vullen zodat u uw tickets kunt ontvangen."
+    },
+    {
+     "path": "Make sure this is correct so you'll receive your tickets.",
+     "n": 1,
+     "sample": "Zorg dat dit zeker correct is zodat u uw tickets kunt ontvangen."
+    },
+    {
+     "path": "Please agree to {0}.",
+     "n": 1,
+     "sample": "Ga a.u.b. akkoord met {0}."
+    },
+    {
+     "path": "Please agree to {0} and {1}.",
+     "n": 1,
+     "sample": "Ga a.u.b. akkoord met {0} en {1}."
+    },
+    {
+     "path": "I agree to {0}",
+     "n": 1,
+     "sample": "Ik ga akkoord met {0}"
+    },
+    {
+     "path": "the terms of agreement",
+     "n": 1,
+     "sample": "de voorwaarden van de overeenkomst"
+    },
+    {
+     "path": "My Information",
+     "n": 1,
+     "sample": "Mijn Informatie"
+    },
+    {
+     "path": "Save changes",
+     "n": 1,
+     "sample": "Wijzigingen opslaan"
+    },
+    {
+     "path": "We require this info to send the tickets to the correct person.",
+     "n": 1,
+     "sample": "We hebben deze info nodig om de tickets naar de correcte persoon te sturen."
+    },
+    {
+     "path": "Subtotal",
+     "n": 1,
+     "sample": "Subtotaal"
+    },
+    {
+     "path": "Reduction",
+     "n": 1,
+     "sample": "Korting"
+    },
+    {
+     "path": "Total",
+     "n": 1,
+     "sample": "Totaal"
+    },
+    {
+     "path": "Free",
+     "n": 1,
+     "sample": "Gratis"
+    },
+    {
+     "path": "There are no tickets available.",
+     "n": 1,
+     "sample": "Er zijn geen tickets beschikbaar."
+    },
+    {
+     "path": "Select your tickets below.",
+     "n": 1,
+     "sample": "Selecteer uw tickets hieronder."
+    },
+    {
+     "path": "Available time slots for {0}",
+     "n": 1,
+     "sample": "Beschikbare tijdsloten voor {0}"
+    },
+    {
+     "path": "Date & time",
+     "n": 1,
+     "sample": "Datum & tijd"
+    },
+    {
+     "path": "Please select the date of your visit",
+     "n": 1,
+     "sample": "Gelieve de datum van uw bezoek te selecteren"
+    },
+    {
+     "path": "Please select the date and time of your visit",
+     "n": 1,
+     "sample": "Gelieve de datum en het tijdstip van uw bezoek te selecteren"
+    },
+    {
+     "path": "Please select a ticket before you can proceed.",
+     "n": 1,
+     "sample": "Selecteer a.u.b. een ticket om verder te gaan."
+    },
+    {
+     "path": "Tickets",
+     "n": 1,
+     "sample": "Tickets"
+    },
+    {
+     "path": "Choose date & time",
+     "n": 1,
+     "sample": "Kies datum & tijd"
+    },
+    {
+     "path": "Confirm order",
+     "n": 1,
+     "sample": "Bevestig bestelling"
+    },
+    {
+     "path": "My info",
+     "n": 1,
+     "sample": "Mijn info"
+    },
+    {
+     "path": "Reserve tickets",
+     "n": 1,
+     "sample": "Reserveer tickets"
+    },
+    {
+     "path": "Payment",
+     "n": 1,
+     "sample": "Betaling"
+    },
+    {
+     "path": "Info",
+     "n": 1,
+     "sample": "Info"
+    },
+    {
+     "path": "Pay",
+     "n": 1,
+     "sample": "Betalen"
+    },
+    {
+     "path": "Initializing payment, please wait...",
+     "n": 1,
+     "sample": "Betaling initialiseren, even geduld a.u.b."
+    },
+    {
+     "path": "Verifying payment, please wait...",
+     "n": 1,
+     "sample": "Betaling verifiëren, even geduld a.u.b."
+    },
+    {
+     "path": "Could not load the security check. Please check your connection and try again.",
+     "n": 1,
+     "sample": "Kan de beveiligingscontrole niet laden. Gelieve uw verbinding te controleren en opnieuw te proberen."
+    },
+    {
+     "path": "You almost have your tickets!",
+     "n": 1,
+     "sample": "U hebt bijna uw tickets!"
+    },
+    {
+     "path": "We're looking forward to your visit!",
+     "n": 1,
+     "sample": "Wij kijken uit naar uw bezoek!"
+    },
+    {
+     "path": "Order ID",
+     "n": 1,
+     "sample": "Bestelnummer"
+    },
+    {
+     "path": "Your tickets have been ordered and will be sent to {0}. Make sure to save your order ID and to check your email.",
+     "n": 1,
+     "sample": "Uw tickets zijn besteld en worden verzonden naar {0}. Sla zeker uw bestellingsnummer op en controleer uw e-mail."
+    },
+    {
+     "path": "Your tickets have been reserved and a reservation email will be sent to {0}. Make sure to save your order ID and to check your email.",
+     "n": 1,
+     "sample": "Uw tickets zijn gereserveerd en er wordt een e-mail met reservering naar {0} verzonden. Zorg ervoor dat u uw bestelnumme"
+    },
+    {
+     "path": "Your payment has been accepted, but it's still pending. As soon as the payment is complete, your tickets will be sent to {0}. Make sure to save your order ID and to check your email.",
+     "n": 1,
+     "sample": "Uw betaling werd aanvaard, maar is nog hangende. Van zodra de betaling voltooid is, zullen de tickets verstuurd worden n"
+    },
+    {
+     "path": "Please select a date/timeslot.",
+     "n": 1,
+     "sample": "Selecteer a.u.b. een datum/tijdslot."
+    },
+    {
+     "path": "Please select a timeslot.",
+     "n": 1,
+     "sample": "Selecteer a.u.b. een tijdslot."
+    },
+    {
+     "path": "Please select a date.",
+     "n": 1,
+     "sample": "Selecteer a.u.b. een datum."
+    },
+    {
+     "path": "Afghanistan",
+     "n": 1,
+     "sample": "Afghanistan"
+    },
+    {
+     "path": "Åland Islands",
+     "n": 1,
+     "sample": "Aland eilanden"
+    },
+    {
+     "path": "Albania",
+     "n": 1,
+     "sample": "Albanië"
+    },
+    {
+     "path": "Algeria",
+     "n": 1,
+     "sample": "Algerije"
+    },
+    {
+     "path": "American Samoa",
+     "n": 1,
+     "sample": "Amerikaans Samoa"
+    },
+    {
+     "path": "Andorra",
+     "n": 1,
+     "sample": "Andorra"
+    },
+    {
+     "path": "Angola",
+     "n": 1,
+     "sample": "Angola"
+    },
+    {
+     "path": "Anguilla",
+     "n": 1,
+     "sample": "Anguilla"
+    },
+    {
+     "path": "Antarctica",
+     "n": 1,
+     "sample": "Antarctica"
+    },
+    {
+     "path": "Antigua and Barbuda",
+     "n": 1,
+     "sample": "Antigua en Barbuda"
+    },
+    {
+     "path": "Argentina",
+     "n": 1,
+     "sample": "Argentinië"
+    },
+    {
+     "path": "Armenia",
+     "n": 1,
+     "sample": "Armenië"
+    },
+    {
+     "path": "Aruba",
+     "n": 1,
+     "sample": "Aruba"
+    },
+    {
+     "path": "Australia",
+     "n": 1,
+     "sample": "Australië"
+    },
+    {
+     "path": "Austria",
+     "n": 1,
+     "sample": "Oostenrijk"
+    },
+    {
+     "path": "Azerbaijan",
+     "n": 1,
+     "sample": "Azerbeidzjan"
+    },
+    {
+     "path": "Bahamas",
+     "n": 1,
+     "sample": "Bahama's"
+    },
+    {
+     "path": "Bahrain",
+     "n": 1,
+     "sample": "Bahrein"
+    },
+    {
+     "path": "Bangladesh",
+     "n": 1,
+     "sample": "Bangladesh"
+    },
+    {
+     "path": "Barbados",
+     "n": 1,
+     "sample": "Barbados"
+    },
+    {
+     "path": "Belarus",
+     "n": 1,
+     "sample": "Wit-Rusland"
+    },
+    {
+     "path": "Belgium",
+     "n": 1,
+     "sample": "België"
+    },
+    {
+     "path": "Belize",
+     "n": 1,
+     "sample": "Belize"
+    },
+    {
+     "path": "Benin",
+     "n": 1,
+     "sample": "Benin"
+    },
+    {
+     "path": "Bermuda",
+     "n": 1,
+     "sample": "Bermuda"
+    },
+    {
+     "path": "Bhutan",
+     "n": 1,
+     "sample": "Bhutan"
+    },
+    {
+     "path": "Bolivia (Plurinational State of)",
+     "n": 1,
+     "sample": "Bolivia (Plurinationale Staat)"
+    },
+    {
+     "path": "Bolivia, Plurinational State of",
+     "n": 1,
+     "sample": "Bolivia (Plurinationale Staat)"
+    },
+    {
+     "path": "Bonaire, Sint Eustatius and Saba",
+     "n": 1,
+     "sample": "Bonaire, Sint-Eustatius en Saba"
+    },
+    {
+     "path": "Bosnia and Herzegovina",
+     "n": 1,
+     "sample": "Bosnië-Hercegovina"
+    },
+    {
+     "path": "Botswana",
+     "n": 1,
+     "sample": "Botswana"
+    },
+    {
+     "path": "Bouvet Island",
+     "n": 1,
+     "sample": "Bouvet eiland"
+    },
+    {
+     "path": "Brazil",
+     "n": 1,
+     "sample": "Brazilië"
+    },
+    {
+     "path": "British Indian Ocean Territory",
+     "n": 1,
+     "sample": "Brits-Indisch oceaan gebied"
+    },
+    {
+     "path": "Brunei Darussalam",
+     "n": 1,
+     "sample": "Brunei Darussalam"
+    },
+    {
+     "path": "Bulgaria",
+     "n": 1,
+     "sample": "Bulgarije"
+    },
+    {
+     "path": "Burkina Faso",
+     "n": 1,
+     "sample": "Burkina Faso"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "and",
+    "day",
+    "min",
+    "ms",
+    "sec"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 23,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Forbidden"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Stedelijk Museum collection maker page 'MARK TWAIN' with birth/death years and two collection objects (graphic design book covers) linked to him.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

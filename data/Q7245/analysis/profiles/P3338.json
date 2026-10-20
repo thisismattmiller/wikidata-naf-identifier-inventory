@@ -1,0 +1,7085 @@
+{
+ "property": "P3338",
+ "property_label": "Encyclopedia of Surfing ID",
+ "files": [
+  {
+   "file": "P3338__twain-mark/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.eos.surf/encyclopedia/twain-mark"
+  },
+  {
+   "file": "P3338__twain-mark/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.eos.surf/encyclopedia/twain-mark"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://f1hjpcr4.apicdn.sanity.io/v2022-11-15/data/query/production?query=%0A++%7B%0A++++++%22theLatest%22%3A+*%5B_type+in+%5B%27eos%27%2C+%27hos%27%2C%27interview%27%2C%27contest%27%2C%27surfboard%27%2C%27video%27%2C%27joint%27%2C%27feature%27%5D+%26%26+%28dateTime%28meta.latestDate%29+%3E+dateTime%28now%28%29%29+-+60+*+60+*+24+*+30+*+4+%7C%7C+%28dateTime%28_updatedAt%29+%3E+dateTime%28now%28%29%29+-+60*60*24*30*4+%26%26+defined%28meta.latestDate%29%29+%7C%7C+dateTime%28_createdAt%29+%3E+dateTime%28now%28%29%29+-+60*60*24*30*4%29+%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29%5D%7C+order%28dateTime%28meta.latestDate%29+desc%29+%7C+order%28dateTime%28_createdAt%29+desc%29+%7C+order%28_score+desc%29%5B0...30%5D%7B%0A++++++++title%2C%0A++++++++%22latestDate%22%3A+meta.latestDate%2C%0A++++++++%22date%22%3A+select%28%0A++++++++++defined%28meta.latestDate%29+%26%26+meta.latestDate+%21%3D+%27%27+%3D%3E+dateTime%28meta.latestDate%29%2C%0A++++++++++dateTime%28_updatedAt%29+%3E+dateTime%28now%28%29%29+-+60*60*24*30*4+%3D%3E+_updatedAt%2C%0A++++++++++dateTime%28_createdAt%29+%3E+dateTime%28now%28%29%29+-+60*60*24*30*4+%3D%3E+_createdAt%2C%0A++++++++%29%2C%0A++++++++%22env%22%3A+select%28%0A++++++++++_type+%3D%3D+%27eos%27+%3D%3E+%22Encyclopedia+of+Surfing%22%2C%0A++++++++++_type+%3D%3D+%27hos%27+%3D%3E+%22History+of+Surfing%22%2C%0A++++++++++_type+%3D%3D+%27interview%27+%3D%3E+%22Interview%22%2C%0A++++++++++_type+%3D%3D+%27contest%27+%3D%3E+%22Contest%22%2C%0A++++++++++_type+%3D%3D+%27surfboard%27+%3D%3E+%22Surfboard%22%2C%0A++++++++++_type+%3D%3D+%27video%27+%3D%3E+%22Video%22%2C%0A++++++++++_type+%3D%3D+%27joint%27+%3D%3E+%22Sunday+Joint%22%2C%0A++++++++++_type+%3D%3D+%27feature%27+%3D%3E+%22Feature%22%0A++++++++%29%2C%0A++++++++%22status%22%3A+select%28%0A++++++++++_type+%3D%3D+%27video%27+%3D%3E+%22Watch%22%2C%0A++++++++++dateTime%28_createdAt%29+%3E+dateTime%28now%28%29%29+-+60*60*24*30*4+%3D%3E+%22New%22%2C%0A++++++++++%22Updated%22%0A++++++++%29%2C%0A++++++++%22slug%22%3A+select%28%0A++++++++++_type+%3D%3D+%27eos%27+%3D%3E+%22%2Fencyclopedia%2F%22+%2B+slug.current%2C%0A++++++++++_type+%3D%3D+%27hos%27+%3D%3E+%22%2Fhistory%2F%22+%2B+*%5B_type+%3D%3D+%27hos_chapter%27+%26%26+%21%28_id+in+path%28%22drafts.**%22%29%29+%26%26+references%28%5E._id%29%5D%5B0%5D.slug.current+%2B+%22%2F%22+%2B+slug.current%2C%0A++++++++++_type+%3D%3D+%27interview%27+%3D%3E+%22%2Finterview%2F%22+%2B+slug.current%2C%0A++++++++++_type+%3D%3D+%27contest%27+%3D%3E+%22%2Fcontest%2F%22+%2B+slug.current%2C%0A++++++++++_type+%3D%3D+%27surfboard%27+%3D%3E+%22%2Fsurfboards%2F%22+%2B+slug.current%2C%0A++++++++++_type+%3D%3D+%27video%27+%3D%3E+%22%2Fvideos%2F%22+%2B+slug.current%2C%0A++++++++++_type+%3D%3D+%27joint%27+%3D%3E+%22%2Fjoint%2F%22+%2B+slug.current%2C%0A++++++++++_type+%3D%3D+%27feature%27+%3D%3E+%22%2Ffeature%2F%22+%2B+slug.current%0A++++++++%29%0A++++++%7D%0A++%7D%0A&returnQuery=false"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://f1hjpcr4.apicdn.sanity.io/v2022-11-15/data/query/production?query=%0A++%7B%0A++++%22header%22%3A+*%5B_type+%3D%3D+%22headerSettings%22+%26%26+_id+%3D%3D+%22headerSettings%22%5D%5B0%5D%7B%0A++++++desktop%5B%5D%7B%0A++++++++%0A++_key%2C%0A++_type%2C%0A++title%2C%0A++url%2C%0A++%22page%22%3A+page-%3E%7B%0A++++%0A++%22type%22%3A+_type%2C%0A++%22slug%22%3A+slug.current%2C%0A++%0A++%7D%0A++%2C%0A++++++%7D%2C%0A++++++mobile%5B%5D%7B%0A++++++++++%0A++_key%2C%0A++_type%2C%0A++title%2C%0A++url%2C%0A++%22page%22%3A+page-%3E%7B%0A++++%0A++%22type%22%3A+_type%2C%0A++%22slug%22%3A+slug.current%2C%0A++%0A++%7D%0A++%2C%0A++++++%7D%2C%0A++++%7D%2C%0A++++%22seo%22%3A+*%5B_type+%3D%3D+%22generalSettings%22+%26%26+_id+%3D%3D+%22generalSettings%22%5D%5B0%5D%7B%0A++++++%22title%22%3A+siteTitle%2C%0A++++++%22description%22%3A+siteDescription%2C%0A++++++metaDesc%2C%0A++++++shareTitle%2C%0A++++++shareDesc%2C%0A++++++%22shareGraphic%22%3A+shareGraphic%7B%0A++++++++%0A++asset%2C%0A++crop%2C%0A++customRatio%2C%0A++hotspot%2C%0A++%22alt%22%3A+coalesce%28alt%2C+asset-%3EaltText%29%2C%0A++...%28asset-%3E%7B%0A++++%22url%22%3A+url%2C%0A++++%22width%22%3A+metadata.dimensions.width%2C%0A++++%22height%22%3A+metadata.dimensions.height%2C%0A++++%22id%22%3A+assetId%2C%0A++++%22type%22%3A+mimeType%2C%0A++++%22aspectRatio%22%3A+metadata.dimensions.aspectRatio%2C%0A++++%22lqip%22%3A+metadata.lqip%2C%0A++%7D%29%0A%2C%0A++++++%7D%0A++++%7D%2C%0A++%7D%0A&returnQuery=false"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/api/recharge/products?id=101"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/api/auth/user"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_5.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/svgs/eos-icon.svg"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_6.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/svgs/signup.svg"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_7.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/svgs/donate.svg"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_8.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/svgs/arrow_drop_down_fill.svg"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_9.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/svgs/login.svg"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_10.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/svgs/search.svg"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_11.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/svgs/grid.svg"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_12.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/svgs/spinner.svg"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_13.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/search.json"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_14.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/index.json"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_15.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/account/auth.json?action=sign_in"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_16.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/subscribe.json"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_17.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/donate.json"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_18.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/encyclopedia/cook-james.json?slug=cook-james"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_19.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/encyclopedia/books-and-surfing.json?slug=books-and-surfing"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_20.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/encyclopedia/kook.json?slug=kook"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_21.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/encyclopedia/london-jack.json?slug=london-jack"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_22.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/feature/1849-rare-sport-at-ohonoo-by-herman-melville.json?slug=1849-rare-sport-at-ohonoo-by-herman-melville"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_23.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/feature/1873-they-seek-a-very-high-roller-by-isabella-bird.json?slug=1873-they-seek-a-very-high-roller-by-isabella-bird"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_24.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/history/out-of-the-blue/a-sport-in-decline2.json?chapter=out-of-the-blue&slug=a-sport-in-decline2"
+  },
+  {
+   "file": "P3338__twain-mark/xhr_25.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/history/gliding-return/london.json?chapter=gliding-return&slug=london"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 17,
+  "svg": 8
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 9,
+  "http://ogp.me/ns/article#": 2,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/xhtml/vocab#": 1
+ },
+ "elements": {
+  "same_as": [
+   {
+    "value": "encyclopedia",
+    "lang": "env",
+    "via": "json:pageProps.page.relatedContent.eos.env",
+    "file": "xhr_18.json",
+    "uri": false
+   },
+   {
+    "value": "Waikiki, 1910 Photo: AR Gurrey",
+    "lang": "alt",
+    "via": "json:pageProps.page.grid.alt",
+    "file": "xhr_25.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "eos",
+    "via": "json:pageProps.page.relatedContent.eos.title",
+    "file": "xhr_18.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "json:pageProps.aToZ.t.title",
+    "file": "xhr_18.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": ", 1875). A dispatch sent by Mark Twain in 1866 to the",
+    "lang": null,
+    "via": "json:pageProps.page.content.children.text",
+    "file": "xhr_19.json",
+    "uri": false
+   },
+   {
+    "value": "newspaper included an account of Twain's failed attempt at surfing, and was later reprinted in his 1872 book",
+    "lang": null,
+    "via": "json:pageProps.page.content.children.text",
+    "file": "xhr_19.json",
+    "uri": false
+   },
+   {
+    "value": ". \"The board struck the bottom in three-quarters of a second without any cargo,\" Twain wrote, \"and I struck the bottom about the same time, with a couple of barrels of water in me.\"",
+    "lang": null,
+    "via": "json:pageProps.page.content.children.text",
+    "file": "xhr_19.json",
+    "uri": false
+   },
+   {
+    "value": "travelogue); it reads as a how-to guide, a primer on wave formation, and an ode to the surfer mystique. Waves are described as \"bull-mouthed monsters,\" and Irish-Hawaiian surfing master George Freeth is a \"sea-god, calm and superb . . . a brown Mercury.\" American writer Mark Twain, 40 years earlier, had also visited Hawaii, tried surfing, and written about the experience. But where Twain's account is short, humorous, and offhanded, London's is long, reverent, and awestruck.",
+    "lang": null,
+    "via": "json:pageProps.page.content.children.text",
+    "file": "xhr_21.json",
+    "uri": false
+   },
+   {
+    "value": "A Lahaina source in 1848 wrote that “every little idle imp and lounger about the town devotes time [to] sporting in the surf,” and another Lahaina visitor noted that “both men and women, girls and boys, have time for this diversion . . . and the chiefs [also] take a turn or two.” An American observer four years later declared that surfing was “rapidly passing out of existence” and was now practiced “mostly by children,” but when writer Mark Twain visited a Big Island beach in 1872, he found “a l",
+    "lang": null,
+    "via": "json:pageProps.page.content.children.text",
+    "file": "xhr_24.json",
+    "uri": false
+   },
+   {
+    "value": "Given the evidence, there’s no real way to make the case that surfing “vanished,” as later accounts would have it—not when six riders can be assembled together at short notice, on one beach, on one island. The sport indeed suffered a grievous loss in raw numbers. The Native Hawaiian population was cut by 90 percent in just over a hundred years, and the number of surfers was no doubt reduced by a similar amount and then some. But the sport was still pursued, especially in outlying areas less visi",
+    "lang": null,
+    "via": "json:pageProps.page.content.children.text",
+    "file": "xhr_24.json",
+    "uri": false
+   },
+   {
+    "value": "Visitors to Hawaii almost all became surfing advocates to one degree or another. “Surf Board Riders,” a two-minute reel produced by the Thomas Edison Company in 1906, showed a group of surfers riding at Waikiki; it played in nickelodeons as far east as New Jersey. One year later, Jack London, living high on royalties from his adventure novels like",
+    "lang": null,
+    "via": "json:pageProps.page.content.children.text",
+    "file": "xhr_25.json",
+    "uri": false
+   },
+   {
+    "value": "London, furthermore, helped undermine the belief that surfing required a race-based aptitude. This idea had been around since Westerners first arrived in Hawaii, and was given credence by no less a personage than writer Mark Twain. While visiting Hawaii in 1866, Twain gave surfing a try, failed, and dolefully closed out a short account of the experience by saying that “none but the natives ever master the art of surf-bathing thoroughly.” London himself was a true believer in differences between ",
+    "lang": null,
+    "via": "json:pageProps.page.content.children.text",
+    "file": "xhr_25.json",
+    "uri": false
+   },
+   {
+    "value": "Ford’s efforts continued. In 1908 he founded the Outrigger Canoe and Surfboard Club, surfing’s first organization, for the purpose of “developing the great sport of surfing in Hawaii.” At first little more than a surfboard depository and open-air lounge, the men’s-only club was located on a swampy one-and-a-half-acre beachfront plot between the Seaside and Moana Hotels, with a clubhouse built from a discarded grass shack carted over from a nearby zoo. Later upgrades included a wood-frame clubhou",
+    "lang": null,
+    "via": "json:pageProps.page.content.children.text",
+    "file": "xhr_25.json",
+    "uri": false
+   },
+   {
+    "value": "Revered American writer and wit, born Samuel Clemens (1835) in ...",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P3338.json",
+    "uri": false
+   },
+   {
+    "value": "Revered American writer and wit, born Samuel Clemens (1835) in Florida, Missouri; author of Tom Sawyer (1876) and Huckleberry Finn (1884), and one of the first Americans, in 1866, to offer a published account of surfing—or \"surf-bathing\" as Twain called it. Twain, 30, was virtually unknown when he visited the Kona Coast on the Big Island of Hawaii as a $20-dollar-an-article travel correspondent fo...",
+    "lang": "en",
+    "via": "llm-page:entry text",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://cdn.sanity.io/images/f1hjpcr4/production/caf6219f2f2aefceb3f7c5ce2dc646b60c2b6e2b-900x506.jpg",
+    "lang": null,
+    "via": "json:pageProps.page.grid.url",
+    "file": "xhr_25.json",
+    "uri": true
+   }
+  ],
+  "image": [
+   {
+    "value": "https://cdn.sanity.io/images/f1hjpcr4/production/e1d1dd968c44a9b65a3109749a6c2b0fcb8140c0-900x857.jpg?w=1200&h=675&fit=crop&crop=entropy&q=60",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:image']",
+    "file": "P3338.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "twain-mark",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2012-05-10T21:34:31Z",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['article:published_time']",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2023-09-29T17:38:31Z",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['article:modified_time']",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:entry text 'born Samuel Clemens'",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:entry text",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "en",
+    "via": "llm-page:entry text",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Kona Coast, Big Island of Hawaii",
+    "lang": "en",
+    "via": "llm-page:entry text (visit 1866)",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:entry text",
+    "file": "P3338.json",
+    "uri": false
+   },
+   {
+    "value": "travel correspondent",
+    "lang": "en",
+    "via": "llm-page:entry text",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:entry text",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:entry text",
+    "file": "P3338.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:entry text",
+    "file": "P3338.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm-page:image captions",
+    "file": "P3338.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "same_as": [
+   "alt",
+   "env"
+  ],
+  "name_preferred": [
+   "en",
+   "eos"
+  ],
+  "description": [
+   "en"
+  ],
+  "see_also": [],
+  "image": [],
+  "identifier": [],
+  "record_created": [],
+  "record_modified": [],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "birth_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 694,
+   "path_count": 13,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Revered American writer and wit, born Samuel Clemens (1835) in ..."
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://eos.surf/encyclopedia/twain-mark"
+    },
+    {
+     "path": "[].article:published_time",
+     "n": 1,
+     "sample": "2012-05-10T21:34:31Z"
+    },
+    {
+     "path": "[].article:modified_time",
+     "n": 1,
+     "sample": "2023-09-29T17:38:31Z"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/e1d1dd968c44a9b65a3109749a6c2b0fcb8140c0-900x857.jpg?w=1200&h=675&fit=c"
+    },
+    {
+     "path": "[].og:image:alt",
+     "n": 1,
+     "sample": "Twain, Mark"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "1200"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "675"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    },
+    {
+     "path": "[].@context.article",
+     "n": 1,
+     "sample": "http://ogp.me/ns/article#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Revered American writer and wit, born Samuel Clemens (1835) in ..."
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://eos.surf/encyclopedia/twain-mark"
+    },
+    {
+     "path": "[].og:image:alt",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 6950,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "result.theLatest[].date",
+     "n": 30,
+     "sample": null
+    },
+    {
+     "path": "result.theLatest[].env",
+     "n": 30,
+     "sample": "Sunday Joint"
+    },
+    {
+     "path": "result.theLatest[].latestDate",
+     "n": 30,
+     "sample": "2026-09-29 10:21"
+    },
+    {
+     "path": "result.theLatest[].slug",
+     "n": 30,
+     "sample": "/joint/archive-curious-9-27-2026-surfing-101---any-fool-can-know-the-point-is-to-understand"
+    },
+    {
+     "path": "result.theLatest[].status",
+     "n": 30,
+     "sample": "New"
+    },
+    {
+     "path": "result.theLatest[].title",
+     "n": 30,
+     "sample": "ARCHIVE CURIOUS, 9-27-2026: SURFING 101 - \"ANY FOOL CAN KNOW. THE POINT IS TO UNDERSTAND.\""
+    },
+    {
+     "path": "syncTags[]",
+     "n": 9,
+     "sample": "s1:ubknwQ"
+    },
+    {
+     "path": "ms",
+     "n": 1,
+     "sample": "18"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "env",
+    "ms"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 2047,
+   "path_count": 22,
+   "paths": [
+    {
+     "path": "syncTags[]",
+     "n": 3,
+     "sample": "s1:8ti0Eg"
+    },
+    {
+     "path": "result.header.desktop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "result.header.mobile",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "result.seo.description",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing is a nonprofit organization dedicated to researching, archiving, and presenting surf history and"
+    },
+    {
+     "path": "result.seo.metaDesc",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing is a nonprofit organization dedicated to researching, archiving, and presenting surf history and"
+    },
+    {
+     "path": "result.seo.shareDesc",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "result.seo.shareGraphic.alt",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "result.seo.shareGraphic.aspectRatio",
+     "n": 1,
+     "sample": "1.7777777777777777"
+    },
+    {
+     "path": "result.seo.shareGraphic.asset._ref",
+     "n": 1,
+     "sample": "image-d1c7938185b91a5faabf3aeef665d10db7ef56d0-2400x1350-png"
+    },
+    {
+     "path": "result.seo.shareGraphic.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "result.seo.shareGraphic.crop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "result.seo.shareGraphic.customRatio",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "result.seo.shareGraphic.height",
+     "n": 1,
+     "sample": "1350"
+    },
+    {
+     "path": "result.seo.shareGraphic.hotspot",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "result.seo.shareGraphic.id",
+     "n": 1,
+     "sample": "d1c7938185b91a5faabf3aeef665d10db7ef56d0"
+    },
+    {
+     "path": "result.seo.shareGraphic.lqip",
+     "n": 1,
+     "sample": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAADAElEQVQokR2Sz09bBQCA3/"
+    },
+    {
+     "path": "result.seo.shareGraphic.type",
+     "n": 1,
+     "sample": "image/png"
+    },
+    {
+     "path": "result.seo.shareGraphic.url",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/d1c7938185b91a5faabf3aeef665d10db7ef56d0-2400x1350.png"
+    },
+    {
+     "path": "result.seo.shareGraphic.width",
+     "n": 1,
+     "sample": "2400"
+    },
+    {
+     "path": "result.seo.shareTitle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "result.seo.title",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing"
+    },
+    {
+     "path": "ms",
+     "n": 1,
+     "sample": "8"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "alt",
+    "id",
+    "ms",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 1479,
+   "path_count": 28,
+   "paths": [
+    {
+     "path": "product.variants[].dimensions.weight",
+     "n": 3,
+     "sample": "0"
+    },
+    {
+     "path": "product.variants[].dimensions.weight_unit",
+     "n": 3,
+     "sample": "g"
+    },
+    {
+     "path": "product.variants[].external_variant_id",
+     "n": 3,
+     "sample": "103"
+    },
+    {
+     "path": "product.variants[].image.large",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "product.variants[].image.medium",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "product.variants[].image.original",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "product.variants[].image.small",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "product.variants[].option_values[].label",
+     "n": 3,
+     "sample": "monthly"
+    },
+    {
+     "path": "product.variants[].prices.compare_at_price",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "product.variants[].prices.unit_price",
+     "n": 3,
+     "sample": "0.00"
+    },
+    {
+     "path": "product.variants[].requires_shipping",
+     "n": 3,
+     "sample": "False"
+    },
+    {
+     "path": "product.variants[].sku",
+     "n": 3,
+     "sample": "EOSMONTRIAL"
+    },
+    {
+     "path": "product.variants[].tax_code",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "product.variants[].taxable",
+     "n": 3,
+     "sample": "False"
+    },
+    {
+     "path": "product.variants[].title",
+     "n": 3,
+     "sample": "EOS Monthly"
+    },
+    {
+     "path": "product.options[].values[].label",
+     "n": 2,
+     "sample": "monthly"
+    },
+    {
+     "path": "product.options[].values[].position",
+     "n": 2,
+     "sample": "0"
+    },
+    {
+     "path": "product.brand",
+     "n": 1,
+     "sample": "EOS"
+    },
+    {
+     "path": "product.description",
+     "n": 1,
+     "sample": "EOS subscription Trial"
+    },
+    {
+     "path": "product.external_created_at",
+     "n": 1,
+     "sample": "2023-06-28T14:44:15.827775+00:00"
+    },
+    {
+     "path": "product.external_product_id",
+     "n": 1,
+     "sample": "101"
+    },
+    {
+     "path": "product.external_updated_at",
+     "n": 1,
+     "sample": "2023-10-23T13:44:19+00:00"
+    },
+    {
+     "path": "product.options[].name",
+     "n": 1,
+     "sample": "Frequency"
+    },
+    {
+     "path": "product.options[].position",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "product.published_at",
+     "n": 1,
+     "sample": "2023-06-28T14:44:12+00:00"
+    },
+    {
+     "path": "product.requires_shipping",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "product.title",
+     "n": 1,
+     "sample": "14 day free trial"
+    },
+    {
+     "path": "product.vendor",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "sku"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 32,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "user",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "accessToken",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_13.json",
+   "format": "json",
+   "size": 2177,
+   "path_count": 26,
+   "paths": [
+    {
+     "path": "pageProps.page.env",
+     "n": 1,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page._type",
+     "n": 1,
+     "sample": "page"
+    },
+    {
+     "path": "pageProps.page.slug.current",
+     "n": 1,
+     "sample": "search"
+    },
+    {
+     "path": "pageProps.page.title",
+     "n": 1,
+     "sample": "Search EOS"
+    },
+    {
+     "path": "pageProps.site.header.desktop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.header.mobile",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.description",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing is a nonprofit organization dedicated to researching, archiving, and presenting surf history and"
+    },
+    {
+     "path": "pageProps.site.seo.metaDesc",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing is a nonprofit organization dedicated to researching, archiving, and presenting surf history and"
+    },
+    {
+     "path": "pageProps.site.seo.shareDesc",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.alt",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.aspectRatio",
+     "n": 1,
+     "sample": "1.7777777777777777"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.asset._ref",
+     "n": 1,
+     "sample": "image-d1c7938185b91a5faabf3aeef665d10db7ef56d0-2400x1350-png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.crop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.customRatio",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.height",
+     "n": 1,
+     "sample": "1350"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.hotspot",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.id",
+     "n": 1,
+     "sample": "d1c7938185b91a5faabf3aeef665d10db7ef56d0"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.lqip",
+     "n": 1,
+     "sample": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAADAElEQVQokR2Sz09bBQCA3/"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.type",
+     "n": 1,
+     "sample": "image/png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.url",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/d1c7938185b91a5faabf3aeef665d10db7ef56d0-2400x1350.png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.width",
+     "n": 1,
+     "sample": "2400"
+    },
+    {
+     "path": "pageProps.site.seo.shareTitle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.title",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing"
+    },
+    {
+     "path": "pageProps.url",
+     "n": 1,
+     "sample": "https://www.eos.surf/_next/data/79a2K4INYGyG_k_8Avpt8/search.json"
+    },
+    {
+     "path": "__N_SSP",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_14.json",
+   "format": "json",
+   "size": 91953,
+   "path_count": 51,
+   "paths": [
+    {
+     "path": "pageProps.data[].caption",
+     "n": 50,
+     "sample": "1970 World Surfing Championships, Women, Round One"
+    },
+    {
+     "path": "pageProps.data[].image.alt",
+     "n": 50,
+     "sample": "Photo: Brian Bielmann "
+    },
+    {
+     "path": "pageProps.data[].image.aspectRatio",
+     "n": 50,
+     "sample": "1.3333333333333333"
+    },
+    {
+     "path": "pageProps.data[].image.asset._ref",
+     "n": 50,
+     "sample": "image-4f022e8df4b9bd046b8b17359dd02f7376c266a6-1000x750-jpg"
+    },
+    {
+     "path": "pageProps.data[].image.asset._type",
+     "n": 50,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.data[].image.customRatio",
+     "n": 50,
+     "sample": null
+    },
+    {
+     "path": "pageProps.data[].image.height",
+     "n": 50,
+     "sample": "750"
+    },
+    {
+     "path": "pageProps.data[].image.id",
+     "n": 50,
+     "sample": "4f022e8df4b9bd046b8b17359dd02f7376c266a6"
+    },
+    {
+     "path": "pageProps.data[].image.lqip",
+     "n": 50,
+     "sample": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2"
+    },
+    {
+     "path": "pageProps.data[].image.type",
+     "n": 50,
+     "sample": "image/jpeg"
+    },
+    {
+     "path": "pageProps.data[].image.url",
+     "n": 50,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/4f022e8df4b9bd046b8b17359dd02f7376c266a6-1000x750.jpg"
+    },
+    {
+     "path": "pageProps.data[].image.width",
+     "n": 50,
+     "sample": "1000"
+    },
+    {
+     "path": "pageProps.data[].slug",
+     "n": 50,
+     "sample": "/videos/1970-world-surfing-championships-women-round-one"
+    },
+    {
+     "path": "pageProps.data[].subtitle",
+     "n": 50,
+     "sample": "Video"
+    },
+    {
+     "path": "pageProps.data[].image.crop",
+     "n": 49,
+     "sample": null
+    },
+    {
+     "path": "pageProps.data[].image.hotspot",
+     "n": 49,
+     "sample": null
+    },
+    {
+     "path": "pageProps.data[].chapter",
+     "n": 10,
+     "sample": "long-division"
+    },
+    {
+     "path": "pageProps.page.env",
+     "n": 1,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.tight",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.site.header.desktop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.header.mobile",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.description",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing is a nonprofit organization dedicated to researching, archiving, and presenting surf history and"
+    },
+    {
+     "path": "pageProps.site.seo.metaDesc",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing is a nonprofit organization dedicated to researching, archiving, and presenting surf history and"
+    },
+    {
+     "path": "pageProps.site.seo.shareDesc",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.alt",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.aspectRatio",
+     "n": 1,
+     "sample": "1.7777777777777777"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.asset._ref",
+     "n": 1,
+     "sample": "image-d1c7938185b91a5faabf3aeef665d10db7ef56d0-2400x1350-png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.crop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.customRatio",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.height",
+     "n": 1,
+     "sample": "1350"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.hotspot",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.id",
+     "n": 1,
+     "sample": "d1c7938185b91a5faabf3aeef665d10db7ef56d0"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.lqip",
+     "n": 1,
+     "sample": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAADAElEQVQokR2Sz09bBQCA3/"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.type",
+     "n": 1,
+     "sample": "image/png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.url",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/d1c7938185b91a5faabf3aeef665d10db7ef56d0-2400x1350.png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.width",
+     "n": 1,
+     "sample": "2400"
+    },
+    {
+     "path": "pageProps.site.seo.shareTitle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.title",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing"
+    },
+    {
+     "path": "pageProps.data[].image.crop._type",
+     "n": 1,
+     "sample": "sanity.imageCrop"
+    },
+    {
+     "path": "pageProps.data[].image.crop.bottom",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.data[].image.crop.left",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.data[].image.crop.right",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.data[].image.crop.top",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.data[].image.hotspot._type",
+     "n": 1,
+     "sample": "sanity.imageHotspot"
+    },
+    {
+     "path": "pageProps.data[].image.hotspot.height",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "pageProps.data[].image.hotspot.width",
+     "n": 1,
+     "sample": "0.5239726027397253"
+    },
+    {
+     "path": "pageProps.data[].image.hotspot.x",
+     "n": 1,
+     "sample": "0.40239726027397227"
+    },
+    {
+     "path": "pageProps.data[].image.hotspot.y",
+     "n": 1,
+     "sample": "0.5"
+    },
+    {
+     "path": "pageProps.preview",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "__N_SSG",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "top",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_15.json",
+   "format": "json",
+   "size": 51,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "pageProps.page.env",
+     "n": 1,
+     "sample": "aux"
+    },
+    {
+     "path": "__N_SSG",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "env"
+   ]
+  },
+  {
+   "file": "xhr_16.json",
+   "format": "json",
+   "size": 4742,
+   "path_count": 84,
+   "paths": [
+    {
+     "path": "pageProps.subscriptions.plans[].features[]",
+     "n": 6,
+     "sample": "Two weeks free"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].cost",
+     "n": 2,
+     "sample": "5.00"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].description[]._key",
+     "n": 2,
+     "sample": "62844295a055"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].description[]._type",
+     "n": 2,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].description[].children[]._key",
+     "n": 2,
+     "sample": "31b27786ef6b"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].description[].children[]._type",
+     "n": 2,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].description[].children[].text",
+     "n": 2,
+     "sample": "Monthly payments"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].description[].style",
+     "n": 2,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].sanityTitle",
+     "n": 2,
+     "sample": "Monthly"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].trialVariantId",
+     "n": 2,
+     "sample": "103"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].variantId",
+     "n": 2,
+     "sample": "101"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].external_variant_id",
+     "n": 2,
+     "sample": "101"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].external_product_id",
+     "n": 2,
+     "sample": "100"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].prices.compare_at_price",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].prices.unit_price",
+     "n": 2,
+     "sample": "5.00"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].option_values[].label",
+     "n": 2,
+     "sample": "monthly"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].trialProduct.external_variant_id",
+     "n": 2,
+     "sample": "103"
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].trialProduct.prices.compare_at_price",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "pageProps.subscriptions.plans[].trialProduct.prices.unit_price",
+     "n": 2,
+     "sample": "0.00"
+    },
+    {
+     "path": "pageProps.gift.plans[].features[]",
+     "n": 2,
+     "sample": "One-year subscription"
+    },
+    {
+     "path": "pageProps.page.byline[].children[]._key",
+     "n": 2,
+     "sample": "258deb1ba550"
+    },
+    {
+     "path": "pageProps.page.byline[].children[]._type",
+     "n": 2,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.byline[].children[].text",
+     "n": 2,
+     "sample": "Independent surf media. Zero ads. Two-week free trial. \n"
+    },
+    {
+     "path": "pageProps.preview",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.subscriptions.productId",
+     "n": 1,
+     "sample": "100"
+    },
+    {
+     "path": "pageProps.subscriptions.title",
+     "n": 1,
+     "sample": "EOS Subscription"
+    },
+    {
+     "path": "pageProps.subscriptions.trialProductId",
+     "n": 1,
+     "sample": "101"
+    },
+    {
+     "path": "pageProps.gift.plans[].cost",
+     "n": 1,
+     "sample": "50.00"
+    },
+    {
+     "path": "pageProps.gift.plans[].description[]._key",
+     "n": 1,
+     "sample": "1dd0e33edda9"
+    },
+    {
+     "path": "pageProps.gift.plans[].description[]._type",
+     "n": 1,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.gift.plans[].description[].children[]._key",
+     "n": 1,
+     "sample": "77440df4ae5a"
+    },
+    {
+     "path": "pageProps.gift.plans[].description[].children[]._type",
+     "n": 1,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.gift.plans[].description[].children[].text",
+     "n": 1,
+     "sample": "Share the stoke!"
+    },
+    {
+     "path": "pageProps.gift.plans[].description[].style",
+     "n": 1,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.gift.plans[].sanityTitle",
+     "n": 1,
+     "sample": "Gift EOS"
+    },
+    {
+     "path": "pageProps.gift.plans[].trialVariantId",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.gift.plans[].variantId",
+     "n": 1,
+     "sample": "105"
+    },
+    {
+     "path": "pageProps.gift.plans[].external_variant_id",
+     "n": 1,
+     "sample": "105"
+    },
+    {
+     "path": "pageProps.gift.plans[].prices.compare_at_price",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.gift.plans[].prices.unit_price",
+     "n": 1,
+     "sample": "50.00"
+    },
+    {
+     "path": "pageProps.gift.productId",
+     "n": 1,
+     "sample": "102"
+    },
+    {
+     "path": "pageProps.gift.title",
+     "n": 1,
+     "sample": "The Gift of EOS"
+    },
+    {
+     "path": "pageProps.page._createdAt",
+     "n": 1,
+     "sample": "2023-10-20T11:02:29Z"
+    },
+    {
+     "path": "pageProps.page._id",
+     "n": 1,
+     "sample": "subscribePage"
+    },
+    {
+     "path": "pageProps.page._rev",
+     "n": 1,
+     "sample": "4bYhXyIln5IlUJNP8hXrSs"
+    },
+    {
+     "path": "pageProps.page._system.base.id",
+     "n": 1,
+     "sample": "subscribePage"
+    },
+    {
+     "path": "pageProps.page._system.base.rev",
+     "n": 1,
+     "sample": "H6DuWZoZPEC93MaHRu9lVw"
+    },
+    {
+     "path": "pageProps.page._type",
+     "n": 1,
+     "sample": "subscribePage"
+    },
+    {
+     "path": "pageProps.page._updatedAt",
+     "n": 1,
+     "sample": "2025-12-29T01:56:07Z"
+    },
+    {
+     "path": "pageProps.page.byline[]._key",
+     "n": 1,
+     "sample": "7abc04ba7fdb"
+    },
+    {
+     "path": "pageProps.page.byline[]._type",
+     "n": 1,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.byline[].children[].marks[]",
+     "n": 1,
+     "sample": "strong"
+    },
+    {
+     "path": "pageProps.page.byline[].style",
+     "n": 1,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.content",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.env",
+     "n": 1,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.excerpt",
+     "n": 1,
+     "sample": "Independent surf media. Zero ads. Two-week free trial. \nPlans start at $5, cancel anytime—give it a try!"
+    },
+    {
+     "path": "pageProps.page.id",
+     "n": 1,
+     "sample": "subscribePage"
+    },
+    {
+     "path": "pageProps.page.ogExcerpt",
+     "n": 1,
+     "sample": "Independent surf media. Zero ads. Two-week free trial. \nPlans start at $5, cancel anytime—give it a try!"
+    },
+    {
+     "path": "pageProps.page.ogImage",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.seo",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.slug.current",
+     "n": 1,
+     "sample": "subscribe"
+    },
+    {
+     "path": "pageProps.page.staff",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.title",
+     "n": 1,
+     "sample": "Subscribe to EOS"
+    },
+    {
+     "path": "pageProps.site.header.desktop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.header.mobile",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.description",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing is a nonprofit organization dedicated to researching, archiving, and presenting surf history and"
+    },
+    {
+     "path": "pageProps.site.seo.metaDesc",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing is a nonprofit organization dedicated to researching, archiving, and presenting surf history and"
+    },
+    {
+     "path": "pageProps.site.seo.shareDesc",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.alt",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.aspectRatio",
+     "n": 1,
+     "sample": "1.7777777777777777"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.asset._ref",
+     "n": 1,
+     "sample": "image-d1c7938185b91a5faabf3aeef665d10db7ef56d0-2400x1350-png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.crop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.customRatio",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.height",
+     "n": 1,
+     "sample": "1350"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.hotspot",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.id",
+     "n": 1,
+     "sample": "d1c7938185b91a5faabf3aeef665d10db7ef56d0"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.lqip",
+     "n": 1,
+     "sample": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAADAElEQVQokR2Sz09bBQCA3/"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.type",
+     "n": 1,
+     "sample": "image/png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.url",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/d1c7938185b91a5faabf3aeef665d10db7ef56d0-2400x1350.png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.width",
+     "n": 1,
+     "sample": "2400"
+    },
+    {
+     "path": "pageProps.site.seo.shareTitle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.title",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing"
+    },
+    {
+     "path": "__N_SSG",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "rev",
+    "seo",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_17.json",
+   "format": "json",
+   "size": 3032,
+   "path_count": 28,
+   "paths": [
+    {
+     "path": "pageProps.page.donationPages[].slug",
+     "n": 9,
+     "sample": "/donate/donors/2025-eos-donors"
+    },
+    {
+     "path": "pageProps.page.donationPages[].title",
+     "n": 9,
+     "sample": "2025 EOS DONORS"
+    },
+    {
+     "path": "pageProps.preview",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.env",
+     "n": 1,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.excerpt",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing has no corporate backing or advertisers, the\n          site is 100% funded by subscribers and do"
+    },
+    {
+     "path": "pageProps.page.ogUrl",
+     "n": 1,
+     "sample": "donate"
+    },
+    {
+     "path": "pageProps.page.title",
+     "n": 1,
+     "sample": "Help Make Surf History - Donate to EOS!"
+    },
+    {
+     "path": "pageProps.site.header.desktop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.header.mobile",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.description",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing is a nonprofit organization dedicated to researching, archiving, and presenting surf history and"
+    },
+    {
+     "path": "pageProps.site.seo.metaDesc",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing is a nonprofit organization dedicated to researching, archiving, and presenting surf history and"
+    },
+    {
+     "path": "pageProps.site.seo.shareDesc",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.alt",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.aspectRatio",
+     "n": 1,
+     "sample": "1.7777777777777777"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.asset._ref",
+     "n": 1,
+     "sample": "image-d1c7938185b91a5faabf3aeef665d10db7ef56d0-2400x1350-png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.crop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.customRatio",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.height",
+     "n": 1,
+     "sample": "1350"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.hotspot",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.id",
+     "n": 1,
+     "sample": "d1c7938185b91a5faabf3aeef665d10db7ef56d0"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.lqip",
+     "n": 1,
+     "sample": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAADAElEQVQokR2Sz09bBQCA3/"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.type",
+     "n": 1,
+     "sample": "image/png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.url",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/d1c7938185b91a5faabf3aeef665d10db7ef56d0-2400x1350.png"
+    },
+    {
+     "path": "pageProps.site.seo.shareGraphic.width",
+     "n": 1,
+     "sample": "2400"
+    },
+    {
+     "path": "pageProps.site.seo.shareTitle",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.site.seo.title",
+     "n": 1,
+     "sample": "Encyclopedia of Surfing"
+    },
+    {
+     "path": "__N_SSG",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_18.json",
+   "format": "json",
+   "size": 114762,
+   "path_count": 245,
+   "paths": [
+    {
+     "path": "pageProps.aToZ.a[].index",
+     "n": 50,
+     "sample": "a"
+    },
+    {
+     "path": "pageProps.aToZ.a[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/a-frame-2"
+    },
+    {
+     "path": "pageProps.aToZ.a[].title",
+     "n": 50,
+     "sample": "A-frame"
+    },
+    {
+     "path": "pageProps.aToZ.b[].index",
+     "n": 50,
+     "sample": "b"
+    },
+    {
+     "path": "pageProps.aToZ.b[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/backdoor"
+    },
+    {
+     "path": "pageProps.aToZ.b[].title",
+     "n": 50,
+     "sample": "backdoor"
+    },
+    {
+     "path": "pageProps.aToZ.c[].index",
+     "n": 50,
+     "sample": "c"
+    },
+    {
+     "path": "pageProps.aToZ.c[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/caballito"
+    },
+    {
+     "path": "pageProps.aToZ.c[].title",
+     "n": 50,
+     "sample": "caballito"
+    },
+    {
+     "path": "pageProps.aToZ.d[].index",
+     "n": 50,
+     "sample": "d"
+    },
+    {
+     "path": "pageProps.aToZ.d[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/dale-dick"
+    },
+    {
+     "path": "pageProps.aToZ.d[].title",
+     "n": 50,
+     "sample": "Dale, Dick"
+    },
+    {
+     "path": "pageProps.aToZ.g[].index",
+     "n": 50,
+     "sample": "g"
+    },
+    {
+     "path": "pageProps.aToZ.g[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/gabaldon-nick"
+    },
+    {
+     "path": "pageProps.aToZ.g[].title",
+     "n": 50,
+     "sample": "Gabaldon, Nick"
+    },
+    {
+     "path": "pageProps.aToZ.h[].index",
+     "n": 50,
+     "sample": "h"
+    },
+    {
+     "path": "pageProps.aToZ.h[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/h2o"
+    },
+    {
+     "path": "pageProps.aToZ.h[].title",
+     "n": 50,
+     "sample": "H2O magazine"
+    },
+    {
+     "path": "pageProps.aToZ.k[].index",
+     "n": 50,
+     "sample": "k"
+    },
+    {
+     "path": "pageProps.aToZ.k[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/kaena-point"
+    },
+    {
+     "path": "pageProps.aToZ.k[].title",
+     "n": 50,
+     "sample": "Kaena Point"
+    },
+    {
+     "path": "pageProps.aToZ.m[].index",
+     "n": 50,
+     "sample": "m"
+    },
+    {
+     "path": "pageProps.aToZ.m[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/maalaea"
+    },
+    {
+     "path": "pageProps.aToZ.m[].title",
+     "n": 50,
+     "sample": "Maalaea"
+    },
+    {
+     "path": "pageProps.aToZ.p[].index",
+     "n": 50,
+     "sample": "p"
+    },
+    {
+     "path": "pageProps.aToZ.p[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/cole-peter"
+    },
+    {
+     "path": "pageProps.aToZ.p[].title",
+     "n": 50,
+     "sample": "Cole, Peter"
+    },
+    {
+     "path": "pageProps.aToZ.r[].index",
+     "n": 50,
+     "sample": "r"
+    },
+    {
+     "path": "pageProps.aToZ.r[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/race-racism-and-surfing"
+    },
+    {
+     "path": "pageProps.aToZ.r[].title",
+     "n": 50,
+     "sample": "race, racism and surfing"
+    },
+    {
+     "path": "pageProps.aToZ.s[].index",
+     "n": 50,
+     "sample": "s"
+    },
+    {
+     "path": "pageProps.aToZ.s[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/surf-city"
+    },
+    {
+     "path": "pageProps.aToZ.s[].title",
+     "n": 50,
+     "sample": "\"Surf City\""
+    },
+    {
+     "path": "pageProps.aToZ.w[].index",
+     "n": 50,
+     "sample": "w"
+    },
+    {
+     "path": "pageProps.aToZ.w[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/wipe-out"
+    },
+    {
+     "path": "pageProps.aToZ.w[].title",
+     "n": 50,
+     "sample": "\"Wipe Out\""
+    },
+    {
+     "path": "pageProps.aToZ.l[].index",
+     "n": 49,
+     "sample": "l"
+    },
+    {
+     "path": "pageProps.aToZ.l[].slug",
+     "n": 49,
+     "sample": "/encyclopedia/lacroix-kathy"
+    },
+    {
+     "path": "pageProps.aToZ.l[].title",
+     "n": 49,
+     "sample": "LaCroix, Kathy"
+    },
+    {
+     "path": "pageProps.aToZ.t[].index",
+     "n": 45,
+     "sample": "t"
+    },
+    {
+     "path": "pageProps.aToZ.t[].slug",
+     "n": 45,
+     "sample": "/encyclopedia/tabeling-mike"
+    },
+    {
+     "path": "pageProps.aToZ.t[].title",
+     "n": 45,
+     "sample": "Tabeling, Mike"
+    },
+    {
+     "path": "pageProps.aToZ.f[].index",
+     "n": 40,
+     "sample": "f"
+    },
+    {
+     "path": "pageProps.aToZ.f[].slug",
+     "n": 40,
+     "sample": "/encyclopedia/5050-rail"
+    },
+    {
+     "path": "pageProps.aToZ.f[].title",
+     "n": 40,
+     "sample": "50/50 rail"
+    },
+    {
+     "path": "pageProps.aToZ.n[].index",
+     "n": 34,
+     "sample": "n"
+    },
+    {
+     "path": "pageProps.aToZ.n[].slug",
+     "n": 34,
+     "sample": "/encyclopedia/napoleon-anona-naone"
+    },
+    {
+     "path": "pageProps.aToZ.n[].title",
+     "n": 34,
+     "sample": "Napoleon, Anona Naone"
+    },
+    {
+     "path": "pageProps.aToZ.e[].index",
+     "n": 32,
+     "sample": "e"
+    },
+    {
+     "path": "pageProps.aToZ.e[].slug",
+     "n": 32,
+     "sample": "/encyclopedia/east-coast-of-america"
+    },
+    {
+     "path": "pageProps.aToZ.e[].title",
+     "n": 32,
+     "sample": "East Coast of America"
+    },
+    {
+     "path": "pageProps.aToZ.o[].index",
+     "n": 31,
+     "sample": "o"
+    },
+    {
+     "path": "pageProps.aToZ.o[].slug",
+     "n": 31,
+     "sample": "/encyclopedia/obrien-jamie"
+    },
+    {
+     "path": "pageProps.aToZ.o[].title",
+     "n": 31,
+     "sample": "O'Brien, Jamie"
+    },
+    {
+     "path": "pageProps.aToZ.j[].index",
+     "n": 20,
+     "sample": "j"
+    },
+    {
+     "path": "pageProps.aToZ.j[].slug",
+     "n": 20,
+     "sample": "/encyclopedia/jackman-dave"
+    },
+    {
+     "path": "pageProps.aToZ.j[].title",
+     "n": 20,
+     "sample": "Jackman, Dave"
+    },
+    {
+     "path": "pageProps.aToZ.v[].index",
+     "n": 20,
+     "sample": "v"
+    },
+    {
+     "path": "pageProps.aToZ.v[].slug",
+     "n": 20,
+     "sample": "/encyclopedia/valluzzi-bruce"
+    },
+    {
+     "path": "pageProps.aToZ.v[].title",
+     "n": 20,
+     "sample": "Valluzzi, Bruce"
+    },
+    {
+     "path": "pageProps.aToZ.i[].index",
+     "n": 19,
+     "sample": "i"
+    },
+    {
+     "path": "pageProps.aToZ.i[].slug",
+     "n": 19,
+     "sample": "/encyclopedia/iceland"
+    },
+    {
+     "path": "pageProps.aToZ.i[].title",
+     "n": 19,
+     "sample": "Iceland"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._key",
+     "n": 16,
+     "sample": "d37134cd8edd0"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._type",
+     "n": 16,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "n": 16,
+     "sample": "Eighteenth-century English sea captain and Pacific Ocean explorer whose voyages led to European colonization throughout "
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].env",
+     "n": 13,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].id",
+     "n": 13,
+     "sample": "feature-115762"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].slug",
+     "n": 13,
+     "sample": "/feature/is-surfing-hip-by-sam-george-1998"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].status",
+     "n": 13,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].title",
+     "n": 13,
+     "sample": "\"IS SURFING HIP?\" by SAM GEORGE (1998)"
+    },
+    {
+     "path": "pageProps.page.content[].children[].marks[]",
+     "n": 7,
+     "sample": "em"
+    },
+    {
+     "path": "pageProps.aToZ.q[].index",
+     "n": 7,
+     "sample": "q"
+    },
+    {
+     "path": "pageProps.aToZ.q[].slug",
+     "n": 7,
+     "sample": "/encyclopedia/quasimoto"
+    },
+    {
+     "path": "pageProps.aToZ.q[].title",
+     "n": 7,
+     "sample": "quasimoto"
+    },
+    {
+     "path": "pageProps.aToZ.y[].index",
+     "n": 7,
+     "sample": "y"
+    },
+    {
+     "path": "pageProps.aToZ.y[].slug",
+     "n": 7,
+     "sample": "/encyclopedia/yater-renolds"
+    },
+    {
+     "path": "pageProps.aToZ.y[].title",
+     "n": 7,
+     "sample": "Yater, Renny"
+    },
+    {
+     "path": "pageProps.page.content[]._key",
+     "n": 6,
+     "sample": "d37134cd8edd"
+    },
+    {
+     "path": "pageProps.page.content[]._type",
+     "n": 6,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.content[].style",
+     "n": 6,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].env",
+     "n": 6,
+     "sample": "encyclopedia"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].id",
+     "n": 6,
+     "sample": "eos-84"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "n": 6,
+     "sample": "/encyclopedia/hawaii"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].status",
+     "n": 6,
+     "sample": "notPublished"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "n": 6,
+     "sample": "Hawaii"
+    },
+    {
+     "path": "pageProps.aToZ.u[].index",
+     "n": 4,
+     "sample": "u"
+    },
+    {
+     "path": "pageProps.aToZ.u[].slug",
+     "n": 4,
+     "sample": "/encyclopedia/uluwatu"
+    },
+    {
+     "path": "pageProps.aToZ.u[].title",
+     "n": 4,
+     "sample": "Uluwatu"
+    },
+    {
+     "path": "pageProps.aToZ.z[].index",
+     "n": 3,
+     "sample": "z"
+    },
+    {
+     "path": "pageProps.aToZ.z[].slug",
+     "n": 3,
+     "sample": "/encyclopedia/zahn-tommy"
+    },
+    {
+     "path": "pageProps.aToZ.z[].title",
+     "n": 3,
+     "sample": "Zahn, Tommy"
+    },
+    {
+     "path": "pageProps.page.meta.personType[]._key",
+     "n": 2,
+     "sample": "printMedia"
+    },
+    {
+     "path": "pageProps.page.meta.personType[]._type",
+     "n": 2,
+     "sample": "tag"
+    },
+    {
+     "path": "pageProps.page.meta.personType[].label",
+     "n": 2,
+     "sample": "Print media: writer/editor/publisher"
+    },
+    {
+     "path": "pageProps.page.meta.personType[].value",
+     "n": 2,
+     "sample": "printMedia"
+    },
+    {
+     "path": "pageProps.page.people.personType[]._key",
+     "n": 2,
+     "sample": "printMedia"
+    },
+    {
+     "path": "pageProps.page.people.personType[]._type",
+     "n": 2,
+     "sample": "tag"
+    },
+    {
+     "path": "pageProps.page.people.personType[].label",
+     "n": 2,
+     "sample": "Print media: writer/editor/publisher"
+    },
+    {
+     "path": "pageProps.page.people.personType[].value",
+     "n": 2,
+     "sample": "printMedia"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].chapter",
+     "n": 2,
+     "sample": "out-of-the-blue"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].env",
+     "n": 2,
+     "sample": "history"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].id",
+     "n": 2,
+     "sample": "hos-section-40"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].slug",
+     "n": 2,
+     "sample": "the-new-god-doesnt-surf-explorers-and-missionaries-come-to-hawaii"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].status",
+     "n": 2,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].title",
+     "n": 2,
+     "sample": "Lono Wept"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].env",
+     "n": 2,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].id",
+     "n": 2,
+     "sample": "joint-108815"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].slug",
+     "n": 2,
+     "sample": "/joint/sunday-joint-2-6-2022-our-most-supreme-pleasure"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].status",
+     "n": 2,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].title",
+     "n": 2,
+     "sample": "SUNDAY JOINT, 2-6-2022: OUR MOST SUPREME PLEASURE"
+    },
+    {
+     "path": "pageProps.page._createdAt",
+     "n": 1,
+     "sample": "2012-05-10T21:34:27Z"
+    },
+    {
+     "path": "pageProps.page._id",
+     "n": 1,
+     "sample": "eos-604"
+    },
+    {
+     "path": "pageProps.page._rev",
+     "n": 1,
+     "sample": "oq2sXSpEU9DFoyHpFwu1hx"
+    },
+    {
+     "path": "pageProps.page._type",
+     "n": 1,
+     "sample": "eos"
+    },
+    {
+     "path": "pageProps.page._updatedAt",
+     "n": 1,
+     "sample": "2023-11-08T15:49:15Z"
+    },
+    {
+     "path": "pageProps.page.env",
+     "n": 1,
+     "sample": "eos"
+    },
+    {
+     "path": "pageProps.page.excerpt",
+     "n": 1,
+     "sample": "Eighteenth-century English sea captain and Pacific Ocean explorer whose voyages led to European colonization throughout "
+    },
+    {
+     "path": "pageProps.page.featVideo",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "pageProps.aToZ.t[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.aToZ.t[].title",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "seo",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_19.json",
+   "format": "json",
+   "size": 141975,
+   "path_count": 242,
+   "paths": [
+    {
+     "path": "pageProps.page.content[].children[]._key",
+     "n": 142,
+     "sample": "fca4b980cc250"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._type",
+     "n": 142,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "n": 142,
+     "sample": "Film, video, magazines, television, and the internet have proven to be the most popular media outlets for surfing, but t"
+    },
+    {
+     "path": "pageProps.page.content[].children[].marks[]",
+     "n": 66,
+     "sample": "em"
+    },
+    {
+     "path": "pageProps.aToZ.a[].index",
+     "n": 50,
+     "sample": "a"
+    },
+    {
+     "path": "pageProps.aToZ.a[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/a-frame-2"
+    },
+    {
+     "path": "pageProps.aToZ.a[].title",
+     "n": 50,
+     "sample": "A-frame"
+    },
+    {
+     "path": "pageProps.aToZ.b[].index",
+     "n": 50,
+     "sample": "b"
+    },
+    {
+     "path": "pageProps.aToZ.b[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/backdoor"
+    },
+    {
+     "path": "pageProps.aToZ.b[].title",
+     "n": 50,
+     "sample": "backdoor"
+    },
+    {
+     "path": "pageProps.aToZ.c[].index",
+     "n": 50,
+     "sample": "c"
+    },
+    {
+     "path": "pageProps.aToZ.c[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/caballito"
+    },
+    {
+     "path": "pageProps.aToZ.c[].title",
+     "n": 50,
+     "sample": "caballito"
+    },
+    {
+     "path": "pageProps.aToZ.d[].index",
+     "n": 50,
+     "sample": "d"
+    },
+    {
+     "path": "pageProps.aToZ.d[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/dale-dick"
+    },
+    {
+     "path": "pageProps.aToZ.d[].title",
+     "n": 50,
+     "sample": "Dale, Dick"
+    },
+    {
+     "path": "pageProps.aToZ.g[].index",
+     "n": 50,
+     "sample": "g"
+    },
+    {
+     "path": "pageProps.aToZ.g[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/gabaldon-nick"
+    },
+    {
+     "path": "pageProps.aToZ.g[].title",
+     "n": 50,
+     "sample": "Gabaldon, Nick"
+    },
+    {
+     "path": "pageProps.aToZ.h[].index",
+     "n": 50,
+     "sample": "h"
+    },
+    {
+     "path": "pageProps.aToZ.h[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/h2o"
+    },
+    {
+     "path": "pageProps.aToZ.h[].title",
+     "n": 50,
+     "sample": "H2O magazine"
+    },
+    {
+     "path": "pageProps.aToZ.k[].index",
+     "n": 50,
+     "sample": "k"
+    },
+    {
+     "path": "pageProps.aToZ.k[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/kaena-point"
+    },
+    {
+     "path": "pageProps.aToZ.k[].title",
+     "n": 50,
+     "sample": "Kaena Point"
+    },
+    {
+     "path": "pageProps.aToZ.m[].index",
+     "n": 50,
+     "sample": "m"
+    },
+    {
+     "path": "pageProps.aToZ.m[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/maalaea"
+    },
+    {
+     "path": "pageProps.aToZ.m[].title",
+     "n": 50,
+     "sample": "Maalaea"
+    },
+    {
+     "path": "pageProps.aToZ.p[].index",
+     "n": 50,
+     "sample": "p"
+    },
+    {
+     "path": "pageProps.aToZ.p[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/cole-peter"
+    },
+    {
+     "path": "pageProps.aToZ.p[].title",
+     "n": 50,
+     "sample": "Cole, Peter"
+    },
+    {
+     "path": "pageProps.aToZ.r[].index",
+     "n": 50,
+     "sample": "r"
+    },
+    {
+     "path": "pageProps.aToZ.r[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/race-racism-and-surfing"
+    },
+    {
+     "path": "pageProps.aToZ.r[].title",
+     "n": 50,
+     "sample": "race, racism and surfing"
+    },
+    {
+     "path": "pageProps.aToZ.s[].index",
+     "n": 50,
+     "sample": "s"
+    },
+    {
+     "path": "pageProps.aToZ.s[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/surf-city"
+    },
+    {
+     "path": "pageProps.aToZ.s[].title",
+     "n": 50,
+     "sample": "\"Surf City\""
+    },
+    {
+     "path": "pageProps.aToZ.w[].index",
+     "n": 50,
+     "sample": "w"
+    },
+    {
+     "path": "pageProps.aToZ.w[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/wipe-out"
+    },
+    {
+     "path": "pageProps.aToZ.w[].title",
+     "n": 50,
+     "sample": "\"Wipe Out\""
+    },
+    {
+     "path": "pageProps.aToZ.l[].index",
+     "n": 49,
+     "sample": "l"
+    },
+    {
+     "path": "pageProps.aToZ.l[].slug",
+     "n": 49,
+     "sample": "/encyclopedia/lacroix-kathy"
+    },
+    {
+     "path": "pageProps.aToZ.l[].title",
+     "n": 49,
+     "sample": "LaCroix, Kathy"
+    },
+    {
+     "path": "pageProps.aToZ.t[].index",
+     "n": 45,
+     "sample": "t"
+    },
+    {
+     "path": "pageProps.aToZ.t[].slug",
+     "n": 45,
+     "sample": "/encyclopedia/tabeling-mike"
+    },
+    {
+     "path": "pageProps.aToZ.t[].title",
+     "n": 45,
+     "sample": "Tabeling, Mike"
+    },
+    {
+     "path": "pageProps.aToZ.f[].index",
+     "n": 40,
+     "sample": "f"
+    },
+    {
+     "path": "pageProps.aToZ.f[].slug",
+     "n": 40,
+     "sample": "/encyclopedia/5050-rail"
+    },
+    {
+     "path": "pageProps.aToZ.f[].title",
+     "n": 40,
+     "sample": "50/50 rail"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].env",
+     "n": 39,
+     "sample": "encyclopedia"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].id",
+     "n": 39,
+     "sample": "eos-266"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "n": 39,
+     "sample": "/encyclopedia/ball-john-doc"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].status",
+     "n": 39,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "n": 39,
+     "sample": "Ball, John “Doc”"
+    },
+    {
+     "path": "pageProps.aToZ.n[].index",
+     "n": 34,
+     "sample": "n"
+    },
+    {
+     "path": "pageProps.aToZ.n[].slug",
+     "n": 34,
+     "sample": "/encyclopedia/napoleon-anona-naone"
+    },
+    {
+     "path": "pageProps.aToZ.n[].title",
+     "n": 34,
+     "sample": "Napoleon, Anona Naone"
+    },
+    {
+     "path": "pageProps.aToZ.e[].index",
+     "n": 32,
+     "sample": "e"
+    },
+    {
+     "path": "pageProps.aToZ.e[].slug",
+     "n": 32,
+     "sample": "/encyclopedia/east-coast-of-america"
+    },
+    {
+     "path": "pageProps.aToZ.e[].title",
+     "n": 32,
+     "sample": "East Coast of America"
+    },
+    {
+     "path": "pageProps.aToZ.o[].index",
+     "n": 31,
+     "sample": "o"
+    },
+    {
+     "path": "pageProps.aToZ.o[].slug",
+     "n": 31,
+     "sample": "/encyclopedia/obrien-jamie"
+    },
+    {
+     "path": "pageProps.aToZ.o[].title",
+     "n": 31,
+     "sample": "O'Brien, Jamie"
+    },
+    {
+     "path": "pageProps.aToZ.j[].index",
+     "n": 20,
+     "sample": "j"
+    },
+    {
+     "path": "pageProps.aToZ.j[].slug",
+     "n": 20,
+     "sample": "/encyclopedia/jackman-dave"
+    },
+    {
+     "path": "pageProps.aToZ.j[].title",
+     "n": 20,
+     "sample": "Jackman, Dave"
+    },
+    {
+     "path": "pageProps.aToZ.v[].index",
+     "n": 20,
+     "sample": "v"
+    },
+    {
+     "path": "pageProps.aToZ.v[].slug",
+     "n": 20,
+     "sample": "/encyclopedia/valluzzi-bruce"
+    },
+    {
+     "path": "pageProps.aToZ.v[].title",
+     "n": 20,
+     "sample": "Valluzzi, Bruce"
+    },
+    {
+     "path": "pageProps.aToZ.i[].index",
+     "n": 19,
+     "sample": "i"
+    },
+    {
+     "path": "pageProps.aToZ.i[].slug",
+     "n": 19,
+     "sample": "/encyclopedia/iceland"
+    },
+    {
+     "path": "pageProps.aToZ.i[].title",
+     "n": 19,
+     "sample": "Iceland"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].env",
+     "n": 18,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].id",
+     "n": 18,
+     "sample": "feature-37738"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].slug",
+     "n": 18,
+     "sample": "/feature/manual-of-surfboard-technique-by-tom-blake-1935"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].status",
+     "n": 18,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].title",
+     "n": 18,
+     "sample": "\"MANUAL OF SURFBOARD TECHNIQUE\" by TOM BLAKE (1935)"
+    },
+    {
+     "path": "pageProps.page.content[]._key",
+     "n": 13,
+     "sample": "fca4b980cc25"
+    },
+    {
+     "path": "pageProps.page.content[]._type",
+     "n": 13,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.content[].style",
+     "n": 13,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].env",
+     "n": 7,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].id",
+     "n": 7,
+     "sample": "a08e7824-3bfc-4a3d-97a8-9ed11dfa41de"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].slug",
+     "n": 7,
+     "sample": "/joint/archive-curious-2-1-2026-i-am-surfer-hear-me-roar"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].status",
+     "n": 7,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].title",
+     "n": 7,
+     "sample": "ARCHIVE CURIOUS, 2-1-2026: I AM SURFER, HEAR ME ROAR"
+    },
+    {
+     "path": "pageProps.aToZ.q[].index",
+     "n": 7,
+     "sample": "q"
+    },
+    {
+     "path": "pageProps.aToZ.q[].slug",
+     "n": 7,
+     "sample": "/encyclopedia/quasimoto"
+    },
+    {
+     "path": "pageProps.aToZ.q[].title",
+     "n": 7,
+     "sample": "quasimoto"
+    },
+    {
+     "path": "pageProps.aToZ.y[].index",
+     "n": 7,
+     "sample": "y"
+    },
+    {
+     "path": "pageProps.aToZ.y[].slug",
+     "n": 7,
+     "sample": "/encyclopedia/yater-renolds"
+    },
+    {
+     "path": "pageProps.aToZ.y[].title",
+     "n": 7,
+     "sample": "Yater, Renny"
+    },
+    {
+     "path": "pageProps.page.grid[].alt",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].aspectRatio",
+     "n": 6,
+     "sample": "0.5985714285714285"
+    },
+    {
+     "path": "pageProps.page.grid[].asset._ref",
+     "n": 6,
+     "sample": "image-9742089283cb255b4f1df95bd74ed06dda226a95-419x700-jpg"
+    },
+    {
+     "path": "pageProps.page.grid[].asset._type",
+     "n": 6,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.grid[].caption",
+     "n": 6,
+     "sample": "The Complete Book of Surfing, 1965"
+    },
+    {
+     "path": "pageProps.page.grid[].captionPosition",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].crop",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].customRatio",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].height",
+     "n": 6,
+     "sample": "700"
+    },
+    {
+     "path": "pageProps.page.grid[].hotspot",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].id",
+     "n": 6,
+     "sample": "9742089283cb255b4f1df95bd74ed06dda226a95"
+    },
+    {
+     "path": "pageProps.page.grid[].lqip",
+     "n": 6,
+     "sample": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2"
+    },
+    {
+     "path": "pageProps.page.grid[].quoteColor",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].type",
+     "n": 6,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.grid[].url",
+     "n": 6,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/9742089283cb255b4f1df95bd74ed06dda226a95-419x700.jpg"
+    },
+    {
+     "path": "pageProps.page.grid[].width",
+     "n": 6,
+     "sample": "419"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[]._key",
+     "n": 6,
+     "sample": "ZztGyD1pWq3UKdC5pjSnni"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[]._type",
+     "n": 6,
+     "sample": "figure"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].asset._ref",
+     "n": 6,
+     "sample": "image-9742089283cb255b4f1df95bd74ed06dda226a95-419x700-jpg"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].asset._type",
+     "n": 6,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].caption",
+     "n": 6,
+     "sample": "The Complete Book of Surfing, 1965"
+    },
+    {
+     "path": "pageProps.page.relatedContent.interview[].env",
+     "n": 6,
+     "sample": "interview"
+    },
+    {
+     "path": "pageProps.page.relatedContent.interview[].id",
+     "n": 6,
+     "sample": "interview-224"
+    },
+    {
+     "path": "pageProps.page.relatedContent.interview[].slug",
+     "n": 6,
+     "sample": "/interview/daniel-duane"
+    },
+    {
+     "path": "pageProps.page.relatedContent.interview[].status",
+     "n": 6,
+     "sample": "notPublished"
+    },
+    {
+     "path": "pageProps.page.relatedContent.interview[].title",
+     "n": 6,
+     "sample": "Daniel Duane"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].chapter",
+     "n": 4,
+     "sample": "the-ten-year-boom"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].env",
+     "n": 4,
+     "sample": "history"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].id",
+     "n": 4,
+     "sample": "hos-section-2"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "value": ", 1875). A dispatch sent by Mark Twain in 1866 to the "
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "value": " newspaper included an account of Twain's failed attempt at surfing, and was later reprinted in his 1872 book "
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "value": ". \"The board struck the bottom in three-quarters of a second without any cargo,\" Twain wrote, \"and I struck the bottom about the same time, with a couple of barrels of water in me.\""
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "pageProps.aToZ.t[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.aToZ.t[].title",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "rev",
+    "seo",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_20.json",
+   "format": "json",
+   "size": 118143,
+   "path_count": 267,
+   "paths": [
+    {
+     "path": "pageProps.aToZ.a[].index",
+     "n": 50,
+     "sample": "a"
+    },
+    {
+     "path": "pageProps.aToZ.a[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/a-frame-2"
+    },
+    {
+     "path": "pageProps.aToZ.a[].title",
+     "n": 50,
+     "sample": "A-frame"
+    },
+    {
+     "path": "pageProps.aToZ.b[].index",
+     "n": 50,
+     "sample": "b"
+    },
+    {
+     "path": "pageProps.aToZ.b[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/backdoor"
+    },
+    {
+     "path": "pageProps.aToZ.b[].title",
+     "n": 50,
+     "sample": "backdoor"
+    },
+    {
+     "path": "pageProps.aToZ.c[].index",
+     "n": 50,
+     "sample": "c"
+    },
+    {
+     "path": "pageProps.aToZ.c[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/caballito"
+    },
+    {
+     "path": "pageProps.aToZ.c[].title",
+     "n": 50,
+     "sample": "caballito"
+    },
+    {
+     "path": "pageProps.aToZ.d[].index",
+     "n": 50,
+     "sample": "d"
+    },
+    {
+     "path": "pageProps.aToZ.d[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/dale-dick"
+    },
+    {
+     "path": "pageProps.aToZ.d[].title",
+     "n": 50,
+     "sample": "Dale, Dick"
+    },
+    {
+     "path": "pageProps.aToZ.g[].index",
+     "n": 50,
+     "sample": "g"
+    },
+    {
+     "path": "pageProps.aToZ.g[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/gabaldon-nick"
+    },
+    {
+     "path": "pageProps.aToZ.g[].title",
+     "n": 50,
+     "sample": "Gabaldon, Nick"
+    },
+    {
+     "path": "pageProps.aToZ.h[].index",
+     "n": 50,
+     "sample": "h"
+    },
+    {
+     "path": "pageProps.aToZ.h[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/h2o"
+    },
+    {
+     "path": "pageProps.aToZ.h[].title",
+     "n": 50,
+     "sample": "H2O magazine"
+    },
+    {
+     "path": "pageProps.aToZ.k[].index",
+     "n": 50,
+     "sample": "k"
+    },
+    {
+     "path": "pageProps.aToZ.k[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/kaena-point"
+    },
+    {
+     "path": "pageProps.aToZ.k[].title",
+     "n": 50,
+     "sample": "Kaena Point"
+    },
+    {
+     "path": "pageProps.aToZ.m[].index",
+     "n": 50,
+     "sample": "m"
+    },
+    {
+     "path": "pageProps.aToZ.m[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/maalaea"
+    },
+    {
+     "path": "pageProps.aToZ.m[].title",
+     "n": 50,
+     "sample": "Maalaea"
+    },
+    {
+     "path": "pageProps.aToZ.p[].index",
+     "n": 50,
+     "sample": "p"
+    },
+    {
+     "path": "pageProps.aToZ.p[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/cole-peter"
+    },
+    {
+     "path": "pageProps.aToZ.p[].title",
+     "n": 50,
+     "sample": "Cole, Peter"
+    },
+    {
+     "path": "pageProps.aToZ.r[].index",
+     "n": 50,
+     "sample": "r"
+    },
+    {
+     "path": "pageProps.aToZ.r[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/race-racism-and-surfing"
+    },
+    {
+     "path": "pageProps.aToZ.r[].title",
+     "n": 50,
+     "sample": "race, racism and surfing"
+    },
+    {
+     "path": "pageProps.aToZ.s[].index",
+     "n": 50,
+     "sample": "s"
+    },
+    {
+     "path": "pageProps.aToZ.s[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/surf-city"
+    },
+    {
+     "path": "pageProps.aToZ.s[].title",
+     "n": 50,
+     "sample": "\"Surf City\""
+    },
+    {
+     "path": "pageProps.aToZ.w[].index",
+     "n": 50,
+     "sample": "w"
+    },
+    {
+     "path": "pageProps.aToZ.w[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/wipe-out"
+    },
+    {
+     "path": "pageProps.aToZ.w[].title",
+     "n": 50,
+     "sample": "\"Wipe Out\""
+    },
+    {
+     "path": "pageProps.aToZ.l[].index",
+     "n": 49,
+     "sample": "l"
+    },
+    {
+     "path": "pageProps.aToZ.l[].slug",
+     "n": 49,
+     "sample": "/encyclopedia/lacroix-kathy"
+    },
+    {
+     "path": "pageProps.aToZ.l[].title",
+     "n": 49,
+     "sample": "LaCroix, Kathy"
+    },
+    {
+     "path": "pageProps.aToZ.t[].index",
+     "n": 45,
+     "sample": "t"
+    },
+    {
+     "path": "pageProps.aToZ.t[].slug",
+     "n": 45,
+     "sample": "/encyclopedia/tabeling-mike"
+    },
+    {
+     "path": "pageProps.aToZ.t[].title",
+     "n": 45,
+     "sample": "Tabeling, Mike"
+    },
+    {
+     "path": "pageProps.aToZ.f[].index",
+     "n": 40,
+     "sample": "f"
+    },
+    {
+     "path": "pageProps.aToZ.f[].slug",
+     "n": 40,
+     "sample": "/encyclopedia/5050-rail"
+    },
+    {
+     "path": "pageProps.aToZ.f[].title",
+     "n": 40,
+     "sample": "50/50 rail"
+    },
+    {
+     "path": "pageProps.aToZ.n[].index",
+     "n": 34,
+     "sample": "n"
+    },
+    {
+     "path": "pageProps.aToZ.n[].slug",
+     "n": 34,
+     "sample": "/encyclopedia/napoleon-anona-naone"
+    },
+    {
+     "path": "pageProps.aToZ.n[].title",
+     "n": 34,
+     "sample": "Napoleon, Anona Naone"
+    },
+    {
+     "path": "pageProps.aToZ.e[].index",
+     "n": 32,
+     "sample": "e"
+    },
+    {
+     "path": "pageProps.aToZ.e[].slug",
+     "n": 32,
+     "sample": "/encyclopedia/east-coast-of-america"
+    },
+    {
+     "path": "pageProps.aToZ.e[].title",
+     "n": 32,
+     "sample": "East Coast of America"
+    },
+    {
+     "path": "pageProps.aToZ.o[].index",
+     "n": 31,
+     "sample": "o"
+    },
+    {
+     "path": "pageProps.aToZ.o[].slug",
+     "n": 31,
+     "sample": "/encyclopedia/obrien-jamie"
+    },
+    {
+     "path": "pageProps.aToZ.o[].title",
+     "n": 31,
+     "sample": "O'Brien, Jamie"
+    },
+    {
+     "path": "pageProps.aToZ.j[].index",
+     "n": 20,
+     "sample": "j"
+    },
+    {
+     "path": "pageProps.aToZ.j[].slug",
+     "n": 20,
+     "sample": "/encyclopedia/jackman-dave"
+    },
+    {
+     "path": "pageProps.aToZ.j[].title",
+     "n": 20,
+     "sample": "Jackman, Dave"
+    },
+    {
+     "path": "pageProps.aToZ.v[].index",
+     "n": 20,
+     "sample": "v"
+    },
+    {
+     "path": "pageProps.aToZ.v[].slug",
+     "n": 20,
+     "sample": "/encyclopedia/valluzzi-bruce"
+    },
+    {
+     "path": "pageProps.aToZ.v[].title",
+     "n": 20,
+     "sample": "Valluzzi, Bruce"
+    },
+    {
+     "path": "pageProps.aToZ.i[].index",
+     "n": 19,
+     "sample": "i"
+    },
+    {
+     "path": "pageProps.aToZ.i[].slug",
+     "n": 19,
+     "sample": "/encyclopedia/iceland"
+    },
+    {
+     "path": "pageProps.aToZ.i[].title",
+     "n": 19,
+     "sample": "Iceland"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._key",
+     "n": 13,
+     "sample": "304541f0d5bd0"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._type",
+     "n": 13,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "n": 13,
+     "sample": "Timeless derogatory surfing term, generally applied to rank beginners, but also used for any surfer thought to be in vio"
+    },
+    {
+     "path": "pageProps.aToZ.q[].index",
+     "n": 7,
+     "sample": "q"
+    },
+    {
+     "path": "pageProps.aToZ.q[].slug",
+     "n": 7,
+     "sample": "/encyclopedia/quasimoto"
+    },
+    {
+     "path": "pageProps.aToZ.q[].title",
+     "n": 7,
+     "sample": "quasimoto"
+    },
+    {
+     "path": "pageProps.aToZ.y[].index",
+     "n": 7,
+     "sample": "y"
+    },
+    {
+     "path": "pageProps.aToZ.y[].slug",
+     "n": 7,
+     "sample": "/encyclopedia/yater-renolds"
+    },
+    {
+     "path": "pageProps.aToZ.y[].title",
+     "n": 7,
+     "sample": "Yater, Renny"
+    },
+    {
+     "path": "pageProps.page.content[]._key",
+     "n": 6,
+     "sample": "304541f0d5bd"
+    },
+    {
+     "path": "pageProps.page.content[]._type",
+     "n": 6,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.content[].style",
+     "n": 6,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.grid[].alt",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].aspectRatio",
+     "n": 6,
+     "sample": "1.4195583596214512"
+    },
+    {
+     "path": "pageProps.page.grid[].asset._ref",
+     "n": 6,
+     "sample": "image-f6d639037e6e5ba719eef0f8ae06a1833f3fb79c-900x634-jpg"
+    },
+    {
+     "path": "pageProps.page.grid[].asset._type",
+     "n": 6,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.grid[].caption",
+     "n": 6,
+     "sample": "The Cardiff Kook"
+    },
+    {
+     "path": "pageProps.page.grid[].captionPosition",
+     "n": 6,
+     "sample": "bottom-left"
+    },
+    {
+     "path": "pageProps.page.grid[].customRatio",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].height",
+     "n": 6,
+     "sample": "634"
+    },
+    {
+     "path": "pageProps.page.grid[].id",
+     "n": 6,
+     "sample": "f6d639037e6e5ba719eef0f8ae06a1833f3fb79c"
+    },
+    {
+     "path": "pageProps.page.grid[].lqip",
+     "n": 6,
+     "sample": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2"
+    },
+    {
+     "path": "pageProps.page.grid[].quoteColor",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].type",
+     "n": 6,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.grid[].url",
+     "n": 6,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/f6d639037e6e5ba719eef0f8ae06a1833f3fb79c-900x634.jpg"
+    },
+    {
+     "path": "pageProps.page.grid[].width",
+     "n": 6,
+     "sample": "900"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[]._key",
+     "n": 6,
+     "sample": "deDLVfD1yllsF3fontywL4"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[]._type",
+     "n": 6,
+     "sample": "figure"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].asset._ref",
+     "n": 6,
+     "sample": "image-f6d639037e6e5ba719eef0f8ae06a1833f3fb79c-900x634-jpg"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].asset._type",
+     "n": 6,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].caption",
+     "n": 6,
+     "sample": "The Cardiff Kook"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].env",
+     "n": 5,
+     "sample": "encyclopedia"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].id",
+     "n": 5,
+     "sample": "eos-1744"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "n": 5,
+     "sample": "/encyclopedia/cardiff-kook"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].status",
+     "n": 5,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "n": 5,
+     "sample": "Cardiff Kook"
+    },
+    {
+     "path": "pageProps.page.relatedContent.video[].env",
+     "n": 5,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.video[].id",
+     "n": 5,
+     "sample": "video-1093"
+    },
+    {
+     "path": "pageProps.page.relatedContent.video[].slug",
+     "n": 5,
+     "sample": "/videos/video-kookslams-reject-1-tandem"
+    },
+    {
+     "path": "pageProps.page.relatedContent.video[].status",
+     "n": 5,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.video[].title",
+     "n": 5,
+     "sample": "Kookslams Reject #1: Tandem"
+    },
+    {
+     "path": "pageProps.page.content[].children[].marks[]",
+     "n": 4,
+     "sample": "em"
+    },
+    {
+     "path": "pageProps.page.grid[].crop",
+     "n": 4,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].hotspot",
+     "n": 4,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.meta.searchTerms[]",
+     "n": 4,
+     "sample": "beginning surfer"
+    },
+    {
+     "path": "pageProps.aToZ.u[].index",
+     "n": 4,
+     "sample": "u"
+    },
+    {
+     "path": "pageProps.aToZ.u[].slug",
+     "n": 4,
+     "sample": "/encyclopedia/uluwatu"
+    },
+    {
+     "path": "pageProps.aToZ.u[].title",
+     "n": 4,
+     "sample": "Uluwatu"
+    },
+    {
+     "path": "pageProps.aToZ.z[].index",
+     "n": 3,
+     "sample": "z"
+    },
+    {
+     "path": "pageProps.aToZ.z[].slug",
+     "n": 3,
+     "sample": "/encyclopedia/zahn-tommy"
+    },
+    {
+     "path": "pageProps.aToZ.z[].title",
+     "n": 3,
+     "sample": "Zahn, Tommy"
+    },
+    {
+     "path": "pageProps.page.grid[].crop._type",
+     "n": 2,
+     "sample": "sanity.imageCrop"
+    },
+    {
+     "path": "pageProps.page.grid[].crop.bottom",
+     "n": 2,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.page.grid[].crop.left",
+     "n": 2,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.page.grid[].crop.right",
+     "n": 2,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.page.grid[].crop.top",
+     "n": 2,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.page.grid[].hotspot._type",
+     "n": 2,
+     "sample": "sanity.imageHotspot"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "pageProps.aToZ.t[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.aToZ.t[].title",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "seo",
+    "top",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_21.json",
+   "format": "json",
+   "size": 122022,
+   "path_count": 282,
+   "paths": [
+    {
+     "path": "pageProps.aToZ.a[].index",
+     "n": 50,
+     "sample": "a"
+    },
+    {
+     "path": "pageProps.aToZ.a[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/a-frame-2"
+    },
+    {
+     "path": "pageProps.aToZ.a[].title",
+     "n": 50,
+     "sample": "A-frame"
+    },
+    {
+     "path": "pageProps.aToZ.b[].index",
+     "n": 50,
+     "sample": "b"
+    },
+    {
+     "path": "pageProps.aToZ.b[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/backdoor"
+    },
+    {
+     "path": "pageProps.aToZ.b[].title",
+     "n": 50,
+     "sample": "backdoor"
+    },
+    {
+     "path": "pageProps.aToZ.c[].index",
+     "n": 50,
+     "sample": "c"
+    },
+    {
+     "path": "pageProps.aToZ.c[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/caballito"
+    },
+    {
+     "path": "pageProps.aToZ.c[].title",
+     "n": 50,
+     "sample": "caballito"
+    },
+    {
+     "path": "pageProps.aToZ.d[].index",
+     "n": 50,
+     "sample": "d"
+    },
+    {
+     "path": "pageProps.aToZ.d[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/dale-dick"
+    },
+    {
+     "path": "pageProps.aToZ.d[].title",
+     "n": 50,
+     "sample": "Dale, Dick"
+    },
+    {
+     "path": "pageProps.aToZ.g[].index",
+     "n": 50,
+     "sample": "g"
+    },
+    {
+     "path": "pageProps.aToZ.g[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/gabaldon-nick"
+    },
+    {
+     "path": "pageProps.aToZ.g[].title",
+     "n": 50,
+     "sample": "Gabaldon, Nick"
+    },
+    {
+     "path": "pageProps.aToZ.h[].index",
+     "n": 50,
+     "sample": "h"
+    },
+    {
+     "path": "pageProps.aToZ.h[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/h2o"
+    },
+    {
+     "path": "pageProps.aToZ.h[].title",
+     "n": 50,
+     "sample": "H2O magazine"
+    },
+    {
+     "path": "pageProps.aToZ.k[].index",
+     "n": 50,
+     "sample": "k"
+    },
+    {
+     "path": "pageProps.aToZ.k[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/kaena-point"
+    },
+    {
+     "path": "pageProps.aToZ.k[].title",
+     "n": 50,
+     "sample": "Kaena Point"
+    },
+    {
+     "path": "pageProps.aToZ.m[].index",
+     "n": 50,
+     "sample": "m"
+    },
+    {
+     "path": "pageProps.aToZ.m[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/maalaea"
+    },
+    {
+     "path": "pageProps.aToZ.m[].title",
+     "n": 50,
+     "sample": "Maalaea"
+    },
+    {
+     "path": "pageProps.aToZ.p[].index",
+     "n": 50,
+     "sample": "p"
+    },
+    {
+     "path": "pageProps.aToZ.p[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/cole-peter"
+    },
+    {
+     "path": "pageProps.aToZ.p[].title",
+     "n": 50,
+     "sample": "Cole, Peter"
+    },
+    {
+     "path": "pageProps.aToZ.r[].index",
+     "n": 50,
+     "sample": "r"
+    },
+    {
+     "path": "pageProps.aToZ.r[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/race-racism-and-surfing"
+    },
+    {
+     "path": "pageProps.aToZ.r[].title",
+     "n": 50,
+     "sample": "race, racism and surfing"
+    },
+    {
+     "path": "pageProps.aToZ.s[].index",
+     "n": 50,
+     "sample": "s"
+    },
+    {
+     "path": "pageProps.aToZ.s[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/surf-city"
+    },
+    {
+     "path": "pageProps.aToZ.s[].title",
+     "n": 50,
+     "sample": "\"Surf City\""
+    },
+    {
+     "path": "pageProps.aToZ.w[].index",
+     "n": 50,
+     "sample": "w"
+    },
+    {
+     "path": "pageProps.aToZ.w[].slug",
+     "n": 50,
+     "sample": "/encyclopedia/wipe-out"
+    },
+    {
+     "path": "pageProps.aToZ.w[].title",
+     "n": 50,
+     "sample": "\"Wipe Out\""
+    },
+    {
+     "path": "pageProps.aToZ.l[].index",
+     "n": 49,
+     "sample": "l"
+    },
+    {
+     "path": "pageProps.aToZ.l[].slug",
+     "n": 49,
+     "sample": "/encyclopedia/lacroix-kathy"
+    },
+    {
+     "path": "pageProps.aToZ.l[].title",
+     "n": 49,
+     "sample": "LaCroix, Kathy"
+    },
+    {
+     "path": "pageProps.aToZ.t[].index",
+     "n": 45,
+     "sample": "t"
+    },
+    {
+     "path": "pageProps.aToZ.t[].slug",
+     "n": 45,
+     "sample": "/encyclopedia/tabeling-mike"
+    },
+    {
+     "path": "pageProps.aToZ.t[].title",
+     "n": 45,
+     "sample": "Tabeling, Mike"
+    },
+    {
+     "path": "pageProps.aToZ.f[].index",
+     "n": 40,
+     "sample": "f"
+    },
+    {
+     "path": "pageProps.aToZ.f[].slug",
+     "n": 40,
+     "sample": "/encyclopedia/5050-rail"
+    },
+    {
+     "path": "pageProps.aToZ.f[].title",
+     "n": 40,
+     "sample": "50/50 rail"
+    },
+    {
+     "path": "pageProps.aToZ.n[].index",
+     "n": 34,
+     "sample": "n"
+    },
+    {
+     "path": "pageProps.aToZ.n[].slug",
+     "n": 34,
+     "sample": "/encyclopedia/napoleon-anona-naone"
+    },
+    {
+     "path": "pageProps.aToZ.n[].title",
+     "n": 34,
+     "sample": "Napoleon, Anona Naone"
+    },
+    {
+     "path": "pageProps.aToZ.e[].index",
+     "n": 32,
+     "sample": "e"
+    },
+    {
+     "path": "pageProps.aToZ.e[].slug",
+     "n": 32,
+     "sample": "/encyclopedia/east-coast-of-america"
+    },
+    {
+     "path": "pageProps.aToZ.e[].title",
+     "n": 32,
+     "sample": "East Coast of America"
+    },
+    {
+     "path": "pageProps.aToZ.o[].index",
+     "n": 31,
+     "sample": "o"
+    },
+    {
+     "path": "pageProps.aToZ.o[].slug",
+     "n": 31,
+     "sample": "/encyclopedia/obrien-jamie"
+    },
+    {
+     "path": "pageProps.aToZ.o[].title",
+     "n": 31,
+     "sample": "O'Brien, Jamie"
+    },
+    {
+     "path": "pageProps.aToZ.j[].index",
+     "n": 20,
+     "sample": "j"
+    },
+    {
+     "path": "pageProps.aToZ.j[].slug",
+     "n": 20,
+     "sample": "/encyclopedia/jackman-dave"
+    },
+    {
+     "path": "pageProps.aToZ.j[].title",
+     "n": 20,
+     "sample": "Jackman, Dave"
+    },
+    {
+     "path": "pageProps.aToZ.v[].index",
+     "n": 20,
+     "sample": "v"
+    },
+    {
+     "path": "pageProps.aToZ.v[].slug",
+     "n": 20,
+     "sample": "/encyclopedia/valluzzi-bruce"
+    },
+    {
+     "path": "pageProps.aToZ.v[].title",
+     "n": 20,
+     "sample": "Valluzzi, Bruce"
+    },
+    {
+     "path": "pageProps.aToZ.i[].index",
+     "n": 19,
+     "sample": "i"
+    },
+    {
+     "path": "pageProps.aToZ.i[].slug",
+     "n": 19,
+     "sample": "/encyclopedia/iceland"
+    },
+    {
+     "path": "pageProps.aToZ.i[].title",
+     "n": 19,
+     "sample": "Iceland"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._key",
+     "n": 13,
+     "sample": "5f0833c2212b0"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._type",
+     "n": 13,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "n": 13,
+     "sample": "Wildly popular American novelist (1876–1916) from the San Francisco Bay Area, best known as the author of adventure book"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].env",
+     "n": 7,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].id",
+     "n": 7,
+     "sample": "feature-88457"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].slug",
+     "n": 7,
+     "sample": "/feature/a-royal-sport-jack-london"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].status",
+     "n": 7,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].title",
+     "n": 7,
+     "sample": "\"A ROYAL SPORT,\" JACK LONDON'S OPERATIC ODE TO SURFING"
+    },
+    {
+     "path": "pageProps.aToZ.q[].index",
+     "n": 7,
+     "sample": "q"
+    },
+    {
+     "path": "pageProps.aToZ.q[].slug",
+     "n": 7,
+     "sample": "/encyclopedia/quasimoto"
+    },
+    {
+     "path": "pageProps.aToZ.q[].title",
+     "n": 7,
+     "sample": "quasimoto"
+    },
+    {
+     "path": "pageProps.aToZ.y[].index",
+     "n": 7,
+     "sample": "y"
+    },
+    {
+     "path": "pageProps.aToZ.y[].slug",
+     "n": 7,
+     "sample": "/encyclopedia/yater-renolds"
+    },
+    {
+     "path": "pageProps.aToZ.y[].title",
+     "n": 7,
+     "sample": "Yater, Renny"
+    },
+    {
+     "path": "pageProps.page.grid[].alt",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].aspectRatio",
+     "n": 6,
+     "sample": "1.7766497461928934"
+    },
+    {
+     "path": "pageProps.page.grid[].asset._ref",
+     "n": 6,
+     "sample": "image-315a504bc2a6d42837a74e2e91c0292aab51290c-700x394-jpg"
+    },
+    {
+     "path": "pageProps.page.grid[].asset._type",
+     "n": 6,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.grid[].caption",
+     "n": 6,
+     "sample": "Cover detail from Jack London's \"Cruise of the Snark\""
+    },
+    {
+     "path": "pageProps.page.grid[].captionPosition",
+     "n": 6,
+     "sample": "bottom-left"
+    },
+    {
+     "path": "pageProps.page.grid[].customRatio",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].height",
+     "n": 6,
+     "sample": "394"
+    },
+    {
+     "path": "pageProps.page.grid[].id",
+     "n": 6,
+     "sample": "315a504bc2a6d42837a74e2e91c0292aab51290c"
+    },
+    {
+     "path": "pageProps.page.grid[].lqip",
+     "n": 6,
+     "sample": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2"
+    },
+    {
+     "path": "pageProps.page.grid[].quoteColor",
+     "n": 6,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].type",
+     "n": 6,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.grid[].url",
+     "n": 6,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/315a504bc2a6d42837a74e2e91c0292aab51290c-700x394.jpg"
+    },
+    {
+     "path": "pageProps.page.grid[].width",
+     "n": 6,
+     "sample": "700"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[]._key",
+     "n": 6,
+     "sample": "deDLVfD1yllsF3fonuBVxl"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[]._type",
+     "n": 6,
+     "sample": "figure"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].asset._ref",
+     "n": 6,
+     "sample": "image-315a504bc2a6d42837a74e2e91c0292aab51290c-700x394-jpg"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].asset._type",
+     "n": 6,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].caption",
+     "n": 6,
+     "sample": "Cover detail from Jack London's \"Cruise of the Snark\""
+    },
+    {
+     "path": "pageProps.page.meta.searchTerms[]",
+     "n": 6,
+     "sample": "London"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].env",
+     "n": 6,
+     "sample": "encyclopedia"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].id",
+     "n": 6,
+     "sample": "eos-319"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "n": 6,
+     "sample": "/encyclopedia/beachboys"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].status",
+     "n": 6,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "n": 6,
+     "sample": "beachboys"
+    },
+    {
+     "path": "pageProps.page.content[]._key",
+     "n": 5,
+     "sample": "5f0833c2212b"
+    },
+    {
+     "path": "pageProps.page.content[]._type",
+     "n": 5,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.content[].children[].marks[]",
+     "n": 5,
+     "sample": "em"
+    },
+    {
+     "path": "pageProps.page.content[].style",
+     "n": 5,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].chapter",
+     "n": 5,
+     "sample": "out-of-the-blue"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].env",
+     "n": 5,
+     "sample": "history"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].id",
+     "n": 5,
+     "sample": "hos-section-160"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].slug",
+     "n": 5,
+     "sample": "a-sport-in-decline2"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].status",
+     "n": 5,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].title",
+     "n": 5,
+     "sample": "A Sport in Decline"
+    },
+    {
+     "path": "pageProps.page.grid[].crop._type",
+     "n": 4,
+     "sample": "sanity.imageCrop"
+    },
+    {
+     "path": "pageProps.page.grid[].crop.bottom",
+     "n": 4,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.page.grid[].crop.left",
+     "n": 4,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.page.grid[].crop.right",
+     "n": 4,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.page.grid[].crop.top",
+     "n": 4,
+     "sample": "0"
+    },
+    {
+     "path": "pageProps.page.grid[].hotspot._type",
+     "n": 4,
+     "sample": "sanity.imageHotspot"
+    },
+    {
+     "path": "pageProps.page.grid[].hotspot.height",
+     "n": 4,
+     "sample": "0.6002618168217306"
+    },
+    {
+     "path": "pageProps.page.grid[].hotspot.width",
+     "n": 4,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "value": " travelogue); it reads as a how-to guide, a primer on wave formation, and an ode to the surfer mystique. Waves are described as \"bull-mouthed monsters,\" and Irish-Hawaiian surfing master George Freeth"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].label",
+     "value": "1900-1910"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].value",
+     "value": "1900-1910"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].label",
+     "value": "1910-1920"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].value",
+     "value": "1910-1920"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "pageProps.aToZ.t[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.aToZ.t[].title",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "rev",
+    "seo",
+    "top",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_22.json",
+   "format": "json",
+   "size": 18974,
+   "path_count": 148,
+   "paths": [
+    {
+     "path": "pageProps.page.content[]._key",
+     "n": 20,
+     "sample": "63226371309c"
+    },
+    {
+     "path": "pageProps.page.content[]._type",
+     "n": 20,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._key",
+     "n": 20,
+     "sample": "63226371309c0"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._type",
+     "n": 20,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "n": 20,
+     "sample": "American novelist Herman Melville (1819–1891) went to sea at age 18 as a merchant marine, worked on a whaler, served wit"
+    },
+    {
+     "path": "pageProps.page.content[].style",
+     "n": 20,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].env",
+     "n": 19,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].id",
+     "n": 19,
+     "sample": "feature-94378"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].slug",
+     "n": 19,
+     "sample": "/feature/hawaiian-legend-bird-maiden-turns-unfaithful-surfer-to-stone"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].status",
+     "n": 19,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].title",
+     "n": 19,
+     "sample": "\"FAITHLESS LOVER TURNED TO STONE,\" ANCIENT HAWAIIAN LOVE-GONE-BAD SURFING LEGEND"
+    },
+    {
+     "path": "pageProps.page.meta.searchTerms[]",
+     "n": 7,
+     "sample": "19th century"
+    },
+    {
+     "path": "pageProps.page.content[].children[].marks[]",
+     "n": 3,
+     "sample": "em"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].env",
+     "n": 2,
+     "sample": "encyclopedia"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].id",
+     "n": 2,
+     "sample": "eos-206"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "n": 2,
+     "sample": "/encyclopedia/alaia-board"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].status",
+     "n": 2,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "n": 2,
+     "sample": "alaia board"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].env",
+     "n": 2,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].id",
+     "n": 2,
+     "sample": "joint-92167"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].slug",
+     "n": 2,
+     "sample": "/joint/sunday-joint-10-11-2020"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].status",
+     "n": 2,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].title",
+     "n": 2,
+     "sample": "SUNDAY JOINT, 10-11-2020: GIDGET, \"NINTH WAVE,\" HERMAN MELVILLE"
+    },
+    {
+     "path": "pageProps.page._createdAt",
+     "n": 1,
+     "sample": "2020-09-14T11:12:45Z"
+    },
+    {
+     "path": "pageProps.page._id",
+     "n": 1,
+     "sample": "feature-91072"
+    },
+    {
+     "path": "pageProps.page._rev",
+     "n": 1,
+     "sample": "bdz618yNJ4GsLaJ67WO8CH"
+    },
+    {
+     "path": "pageProps.page._system.base.id",
+     "n": 1,
+     "sample": "feature-91072"
+    },
+    {
+     "path": "pageProps.page._system.base.rev",
+     "n": 1,
+     "sample": "oq2sXSpEU9DFoyHpFwuBhD"
+    },
+    {
+     "path": "pageProps.page._type",
+     "n": 1,
+     "sample": "feature"
+    },
+    {
+     "path": "pageProps.page._updatedAt",
+     "n": 1,
+     "sample": "2025-11-16T00:51:16Z"
+    },
+    {
+     "path": "pageProps.page.env",
+     "n": 1,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.excerpt",
+     "n": 1,
+     "sample": "American novelist Herman Melville (1819–1891) went to sea at age 18 as a merchant marine, worked on a whaler, served wit"
+    },
+    {
+     "path": "pageProps.page.featVideo",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage.alt",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage.aspectRatio",
+     "n": 1,
+     "sample": "1.4598540145985401"
+    },
+    {
+     "path": "pageProps.page.featuredImage.asset._ref",
+     "n": 1,
+     "sample": "image-2fc27df5ff583648d33ab1bfd8853447a51d9f51-1600x1096-jpg"
+    },
+    {
+     "path": "pageProps.page.featuredImage.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.featuredImage.crop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage.customRatio",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage.height",
+     "n": 1,
+     "sample": "1096"
+    },
+    {
+     "path": "pageProps.page.featuredImage.hotspot",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage.id",
+     "n": 1,
+     "sample": "2fc27df5ff583648d33ab1bfd8853447a51d9f51"
+    },
+    {
+     "path": "pageProps.page.featuredImage.lqip",
+     "n": 1,
+     "sample": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2"
+    },
+    {
+     "path": "pageProps.page.featuredImage.type",
+     "n": 1,
+     "sample": "image/jpeg"
+    },
+    {
+     "path": "pageProps.page.featuredImage.url",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/2fc27df5ff583648d33ab1bfd8853447a51d9f51-1600x1096.jpg"
+    },
+    {
+     "path": "pageProps.page.featuredImage.width",
+     "n": 1,
+     "sample": "1600"
+    },
+    {
+     "path": "pageProps.page.grid",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridImage",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridVids",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.id",
+     "n": 1,
+     "sample": "feature-91072"
+    },
+    {
+     "path": "pageProps.page.media._type",
+     "n": 1,
+     "sample": "eosMedia"
+    },
+    {
+     "path": "pageProps.page.media.featImage._type",
+     "n": 1,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.media.featImage.asset._ref",
+     "n": 1,
+     "sample": "image-2fc27df5ff583648d33ab1bfd8853447a51d9f51-1600x1096-jpg"
+    },
+    {
+     "path": "pageProps.page.media.featImage.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.meta._type",
+     "n": 1,
+     "sample": "eosMeta"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._key",
+     "n": 1,
+     "sample": "ed5714311df8"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._ref",
+     "n": 1,
+     "sample": "bbef5c27-ea2c-4689-97c5-369d0a65094b"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.credits",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.homepage",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.homepageGrid",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.index",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.links",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.meta",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.search",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.text",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.year",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[]._key",
+     "n": 1,
+     "sample": "other"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[]._type",
+     "n": 1,
+     "sample": "tag"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[].label",
+     "n": 1,
+     "sample": "Other"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[].value",
+     "n": 1,
+     "sample": "other"
+    },
+    {
+     "path": "pageProps.page.meta.decade[]._key",
+     "n": 1,
+     "sample": "KgJ3iX7N"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].label",
+     "n": 1,
+     "sample": "pre-1900"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].value",
+     "n": 1,
+     "sample": "pre-1900"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[]._key",
+     "n": 1,
+     "sample": "nkPd6HCB"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[].label",
+     "n": 1,
+     "sample": "Culture"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[].value",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "pageProps.page.meta.seo._type",
+     "n": 1,
+     "sample": "seo"
+    },
+    {
+     "path": "pageProps.page.meta.seo.metaDesc",
+     "n": 1,
+     "sample": "Primary literary source from 1849, Herman Melville’s Mardi: and a Voyage Thither includes an early fictionalized descrip"
+    },
+    {
+     "path": "pageProps.page.meta.seo.metaTitle",
+     "n": 1,
+     "sample": "Herman Melville’s 1849 Account of Surfing in “Mardi,” Chapter 90 (“Rare Sport at Ohonoo”)"
+    },
+    {
+     "path": "pageProps.page.meta.status.draft",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.status.publish",
+     "n": 1,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.meta.year[]",
+     "n": 1,
+     "sample": "1849"
+    },
+    {
+     "path": "pageProps.page.ogExcerpt",
+     "n": 1,
+     "sample": "American novelist Herman Melville (1819–1891) went to sea at ag..."
+    },
+    {
+     "path": "pageProps.page.ogImage",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/2fc27df5ff583648d33ab1bfd8853447a51d9f51-1600x1096.jpg"
+    },
+    {
+     "path": "pageProps.page.ogUrl",
+     "n": 1,
+     "sample": "feature/1849-rare-sport-at-ohonoo-by-herman-melville"
+    },
+    {
+     "path": "pageProps.page.people.dates.birthYear",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.birthYear2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.birthYear3",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.birthYear4",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.deathYear",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.deathYear2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.deathYear3",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.deathYear4",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.name1",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.name2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.name3",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.name4",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.gender",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.personType",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.continent",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.continent1",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.continent2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.nation",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.nation1",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.nation2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.states",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.states1",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.states2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.relatedContent.contest",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].chapter",
+     "n": 1,
+     "sample": "out-of-the-blue"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].env",
+     "n": 1,
+     "sample": "history"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].id",
+     "n": 1,
+     "sample": "hos-section-159"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].slug",
+     "n": 1,
+     "sample": "surfboards-for-everybody"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].status",
+     "n": 1,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].title",
+     "n": 1,
+     "sample": "A Surfboard for Everybody"
+    },
+    {
+     "path": "pageProps.page.relatedContent.interview",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.relatedContent.surfboard",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.relatedContent.video",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.seo",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "rev",
+    "seo",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_23.json",
+   "format": "json",
+   "size": 17415,
+   "path_count": 152,
+   "paths": [
+    {
+     "path": "pageProps.page.relatedContent.feature[].env",
+     "n": 18,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].id",
+     "n": 18,
+     "sample": "feature-94378"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].slug",
+     "n": 18,
+     "sample": "/feature/hawaiian-legend-bird-maiden-turns-unfaithful-surfer-to-stone"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].status",
+     "n": 18,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].title",
+     "n": 18,
+     "sample": "\"FAITHLESS LOVER TURNED TO STONE,\" ANCIENT HAWAIIAN LOVE-GONE-BAD SURFING LEGEND"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._key",
+     "n": 14,
+     "sample": "e020789303510"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._type",
+     "n": 14,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "n": 14,
+     "sample": "British explorer and writer Isabella Bird, the first woman elected to the Royal Geographical Society, visited Hawaii in "
+    },
+    {
+     "path": "pageProps.page.meta.searchTerms[]",
+     "n": 11,
+     "sample": "pacific passages"
+    },
+    {
+     "path": "pageProps.page.content[]._key",
+     "n": 7,
+     "sample": "e02078930351"
+    },
+    {
+     "path": "pageProps.page.content[]._type",
+     "n": 7,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.content[].style",
+     "n": 7,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.content[].children[].marks[]",
+     "n": 5,
+     "sample": "em"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].chapter",
+     "n": 3,
+     "sample": "out-of-the-blue"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].env",
+     "n": 3,
+     "sample": "history"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].id",
+     "n": 3,
+     "sample": "hos-section-160"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].slug",
+     "n": 3,
+     "sample": "a-sport-in-decline2"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].status",
+     "n": 3,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].title",
+     "n": 3,
+     "sample": "A Sport in Decline"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].env",
+     "n": 2,
+     "sample": "encyclopedia"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].id",
+     "n": 2,
+     "sample": "eos-86"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "n": 2,
+     "sample": "/encyclopedia/hawaii-the-big-island"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].status",
+     "n": 2,
+     "sample": "notPublished"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "n": 2,
+     "sample": "Hawaii, the Big Island"
+    },
+    {
+     "path": "pageProps.page._createdAt",
+     "n": 1,
+     "sample": "2020-08-19T10:19:42Z"
+    },
+    {
+     "path": "pageProps.page._id",
+     "n": 1,
+     "sample": "feature-80518"
+    },
+    {
+     "path": "pageProps.page._rev",
+     "n": 1,
+     "sample": "zxs22b2zXiT2SYR5f3JBgz"
+    },
+    {
+     "path": "pageProps.page._system.base.id",
+     "n": 1,
+     "sample": "feature-80518"
+    },
+    {
+     "path": "pageProps.page._system.base.rev",
+     "n": 1,
+     "sample": "oq2sXSpEU9DFoyHpFwuBhD"
+    },
+    {
+     "path": "pageProps.page._type",
+     "n": 1,
+     "sample": "feature"
+    },
+    {
+     "path": "pageProps.page._updatedAt",
+     "n": 1,
+     "sample": "2025-11-24T00:11:49Z"
+    },
+    {
+     "path": "pageProps.page.env",
+     "n": 1,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.excerpt",
+     "n": 1,
+     "sample": "British explorer and writer Isabella Bird, the first woman elected to the Royal Geographical Society, visited Hawaii in "
+    },
+    {
+     "path": "pageProps.page.featVideo",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage.alt",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage.aspectRatio",
+     "n": 1,
+     "sample": "1.7777777777777777"
+    },
+    {
+     "path": "pageProps.page.featuredImage.asset._ref",
+     "n": 1,
+     "sample": "image-eed1a27cdc2dcba659b722ea7176120f56b1d3d8-1600x900-jpg"
+    },
+    {
+     "path": "pageProps.page.featuredImage.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.featuredImage.crop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage.customRatio",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage.height",
+     "n": 1,
+     "sample": "900"
+    },
+    {
+     "path": "pageProps.page.featuredImage.hotspot",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage.id",
+     "n": 1,
+     "sample": "eed1a27cdc2dcba659b722ea7176120f56b1d3d8"
+    },
+    {
+     "path": "pageProps.page.featuredImage.lqip",
+     "n": 1,
+     "sample": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2"
+    },
+    {
+     "path": "pageProps.page.featuredImage.type",
+     "n": 1,
+     "sample": "image/jpeg"
+    },
+    {
+     "path": "pageProps.page.featuredImage.url",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/eed1a27cdc2dcba659b722ea7176120f56b1d3d8-1600x900.jpg"
+    },
+    {
+     "path": "pageProps.page.featuredImage.width",
+     "n": 1,
+     "sample": "1600"
+    },
+    {
+     "path": "pageProps.page.grid",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridImage",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridVids",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.id",
+     "n": 1,
+     "sample": "feature-80518"
+    },
+    {
+     "path": "pageProps.page.media._type",
+     "n": 1,
+     "sample": "eosMedia"
+    },
+    {
+     "path": "pageProps.page.media.featImage._type",
+     "n": 1,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.media.featImage.asset._ref",
+     "n": 1,
+     "sample": "image-eed1a27cdc2dcba659b722ea7176120f56b1d3d8-1600x900-jpg"
+    },
+    {
+     "path": "pageProps.page.media.featImage.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._key",
+     "n": 1,
+     "sample": "ae7b1c135e76"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._ref",
+     "n": 1,
+     "sample": "9330f8b7-21a5-4cf2-b91c-a30f62505b58"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.credits",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.homepage",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.homepageGrid",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.index",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.links",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.meta",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.search",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.text",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.year",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.continent",
+     "n": 1,
+     "sample": "northAmerica"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[]._key",
+     "n": 1,
+     "sample": "other"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[]._type",
+     "n": 1,
+     "sample": "tag"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[].label",
+     "n": 1,
+     "sample": "Other"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[].value",
+     "n": 1,
+     "sample": "other"
+    },
+    {
+     "path": "pageProps.page.meta.decade[]._key",
+     "n": 1,
+     "sample": "pre-1900"
+    },
+    {
+     "path": "pageProps.page.meta.decade[]._type",
+     "n": 1,
+     "sample": "tag"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].label",
+     "n": 1,
+     "sample": "pre-1900"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].value",
+     "n": 1,
+     "sample": "pre-1900"
+    },
+    {
+     "path": "pageProps.page.meta.nation",
+     "n": 1,
+     "sample": "United States"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[]._key",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[]._type",
+     "n": 1,
+     "sample": "tag"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[].label",
+     "n": 1,
+     "sample": "Culture"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[].value",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "pageProps.page.meta.seo._type",
+     "n": 1,
+     "sample": "seo"
+    },
+    {
+     "path": "pageProps.page.meta.seo.metaDesc",
+     "n": 1,
+     "sample": "In this 1873 passage from Six Months in the Sandwich Islands, British traveler Isabella Bird describes a surf-bathing ex"
+    },
+    {
+     "path": "pageProps.page.meta.seo.metaTitle",
+     "n": 1,
+     "sample": "Isabella Bird on Hawaiian surf-bathing (1873)"
+    },
+    {
+     "path": "pageProps.page.meta.states",
+     "n": 1,
+     "sample": "Hawaii"
+    },
+    {
+     "path": "pageProps.page.meta.status.draft",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.status.publish",
+     "n": 1,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.meta.year[]",
+     "n": 1,
+     "sample": "1873"
+    },
+    {
+     "path": "pageProps.page.ogExcerpt",
+     "n": 1,
+     "sample": "British explorer and writer Isabella Bird, the first woman elec..."
+    },
+    {
+     "path": "pageProps.page.ogImage",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/eed1a27cdc2dcba659b722ea7176120f56b1d3d8-1600x900.jpg"
+    },
+    {
+     "path": "pageProps.page.ogUrl",
+     "n": 1,
+     "sample": "feature/1873-they-seek-a-very-high-roller-by-isabella-bird"
+    },
+    {
+     "path": "pageProps.page.people.dates.birthYear",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.birthYear2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.birthYear3",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.birthYear4",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.deathYear",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.deathYear2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.deathYear3",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.deathYear4",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.name1",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.name2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.name3",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.dates.name4",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.gender",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.people.personType",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.continent",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.continent1",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.continent2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.nation",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.nation1",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.nation2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.states",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.states1",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.place.states2",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.relatedContent.contest",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.relatedContent.interview",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].env",
+     "n": 1,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].id",
+     "n": 1,
+     "sample": "joint-92719"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].slug",
+     "n": 1,
+     "sample": "/joint/sunday-joint-11-1-2020"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].status",
+     "n": 1,
+     "sample": "published"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "rev",
+    "seo",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_24.json",
+   "format": "json",
+   "size": 20813,
+   "path_count": 182,
+   "paths": [
+    {
+     "path": "pageProps.page.relatedContent.feature[].env",
+     "n": 15,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].id",
+     "n": 15,
+     "sample": "feature-79075"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].slug",
+     "n": 15,
+     "sample": "/feature/1817-22-polynesian-researches-by-william-ellis"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].status",
+     "n": 15,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].title",
+     "n": 15,
+     "sample": "1817–22: POLYNESIAN RESEARCHES, BY WILLIAM ELLIS"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._key",
+     "n": 9,
+     "sample": "7b818adb05ca0"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._type",
+     "n": 9,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "n": 9,
+     "sample": "Syphilis and cholera, new laws and prohibitions, endless work hours, overthrow and annexation—all these things conspired"
+    },
+    {
+     "path": "pageProps.page.meta.searchTerms[]",
+     "n": 9,
+     "sample": "mark twain"
+    },
+    {
+     "path": "pageProps.page.chapter.relSections[].slug",
+     "n": 7,
+     "sample": "surfing-in-1000-bc"
+    },
+    {
+     "path": "pageProps.page.chapter.relSections[].title",
+     "n": 7,
+     "sample": "Surfing in 1000 BC"
+    },
+    {
+     "path": "pageProps.page.content[]._key",
+     "n": 5,
+     "sample": "7b818adb05ca"
+    },
+    {
+     "path": "pageProps.page.content[]._type",
+     "n": 5,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.content[].style",
+     "n": 5,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].chapter",
+     "n": 5,
+     "sample": "gliding-return"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].env",
+     "n": 5,
+     "sample": "history"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].id",
+     "n": 5,
+     "sample": "hos-section-1"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].slug",
+     "n": 5,
+     "sample": "a-fine-little-revival"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].status",
+     "n": 5,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].title",
+     "n": 5,
+     "sample": "A Fine Little Revival"
+    },
+    {
+     "path": "pageProps.page.grid[].alt",
+     "n": 3,
+     "sample": "Hawaiian surfer, around 1890. "
+    },
+    {
+     "path": "pageProps.page.grid[].aspectRatio",
+     "n": 3,
+     "sample": "1.7786561264822134"
+    },
+    {
+     "path": "pageProps.page.grid[].asset._ref",
+     "n": 3,
+     "sample": "image-30e752481bbd234052662a88576579ea820b0dc3-900x506-jpg"
+    },
+    {
+     "path": "pageProps.page.grid[].asset._type",
+     "n": 3,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.grid[].caption",
+     "n": 3,
+     "sample": "Hawaiian surfer, around 1890. "
+    },
+    {
+     "path": "pageProps.page.grid[].captionPosition",
+     "n": 3,
+     "sample": "bottom-left"
+    },
+    {
+     "path": "pageProps.page.grid[].crop",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].customRatio",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].height",
+     "n": 3,
+     "sample": "506"
+    },
+    {
+     "path": "pageProps.page.grid[].hotspot",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].id",
+     "n": 3,
+     "sample": "30e752481bbd234052662a88576579ea820b0dc3"
+    },
+    {
+     "path": "pageProps.page.grid[].lqip",
+     "n": 3,
+     "sample": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2"
+    },
+    {
+     "path": "pageProps.page.grid[].quoteColor",
+     "n": 3,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.grid[].type",
+     "n": 3,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.grid[].url",
+     "n": 3,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/30e752481bbd234052662a88576579ea820b0dc3-900x506.jpg"
+    },
+    {
+     "path": "pageProps.page.grid[].width",
+     "n": 3,
+     "sample": "900"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[]._key",
+     "n": 3,
+     "sample": "BOB3b4BnGH983udUJx0Yaq"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[]._type",
+     "n": 3,
+     "sample": "figure"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].alt",
+     "n": 3,
+     "sample": "Hawaiian surfer, around 1890. "
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].asset._ref",
+     "n": 3,
+     "sample": "image-30e752481bbd234052662a88576579ea820b0dc3-900x506-jpg"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].asset._type",
+     "n": 3,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].caption",
+     "n": 3,
+     "sample": "Hawaiian surfer, around 1890. "
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].captionPosition",
+     "n": 3,
+     "sample": "bottom-left"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].quoteColor",
+     "n": 3,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].env",
+     "n": 3,
+     "sample": "encyclopedia"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].id",
+     "n": 3,
+     "sample": "eos-454"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "n": 3,
+     "sample": "/encyclopedia/london-jack"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].status",
+     "n": 3,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "n": 3,
+     "sample": "London, Jack"
+    },
+    {
+     "path": "pageProps.page.content[].children[].marks[]",
+     "n": 2,
+     "sample": "em"
+    },
+    {
+     "path": "pageProps.page._createdAt",
+     "n": 1,
+     "sample": "2022-07-18T16:15:22Z"
+    },
+    {
+     "path": "pageProps.page._id",
+     "n": 1,
+     "sample": "hos-section-160"
+    },
+    {
+     "path": "pageProps.page._rev",
+     "n": 1,
+     "sample": "40Hi1KuiUJrfb3zDVh9zAX"
+    },
+    {
+     "path": "pageProps.page._type",
+     "n": 1,
+     "sample": "hos"
+    },
+    {
+     "path": "pageProps.page._updatedAt",
+     "n": 1,
+     "sample": "2024-04-18T11:18:12Z"
+    },
+    {
+     "path": "pageProps.page.chapter.number",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "pageProps.page.chapter.slug",
+     "n": 1,
+     "sample": "out-of-the-blue"
+    },
+    {
+     "path": "pageProps.page.chapter.title",
+     "n": 1,
+     "sample": "Out of the Blue"
+    },
+    {
+     "path": "pageProps.page.env",
+     "n": 1,
+     "sample": "hos"
+    },
+    {
+     "path": "pageProps.page.excerpt",
+     "n": 1,
+     "sample": "Syphilis and cholera, new laws and prohibitions, endless work hours, overthrow and annexation—all these things conspired"
+    },
+    {
+     "path": "pageProps.page.featVideo",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredQuote[]._key",
+     "n": 1,
+     "sample": "06b133149dea"
+    },
+    {
+     "path": "pageProps.page.featuredQuote[]._type",
+     "n": 1,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.featuredQuote[].children[]._key",
+     "n": 1,
+     "sample": "06b133149dea0"
+    },
+    {
+     "path": "pageProps.page.featuredQuote[].children[]._type",
+     "n": 1,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.featuredQuote[].children[].text",
+     "n": 1,
+     "sample": "The islanders' skill level dropped off; most riding was now done either prone or kneeling. “Old surf-riders,” one writer"
+    },
+    {
+     "path": "pageProps.page.featuredQuote[].style",
+     "n": 1,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.gridImage.alt",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridImage.aspectRatio",
+     "n": 1,
+     "sample": "1.607717041800643"
+    },
+    {
+     "path": "pageProps.page.gridImage.asset._ref",
+     "n": 1,
+     "sample": "image-c89001839f78d5b5258d2b126d0618f6f3227701-500x311-jpg"
+    },
+    {
+     "path": "pageProps.page.gridImage.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.gridImage.crop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridImage.customRatio",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridImage.height",
+     "n": 1,
+     "sample": "311"
+    },
+    {
+     "path": "pageProps.page.gridImage.hotspot",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridImage.id",
+     "n": 1,
+     "sample": "c89001839f78d5b5258d2b126d0618f6f3227701"
+    },
+    {
+     "path": "pageProps.page.gridImage.lqip",
+     "n": 1,
+     "sample": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2"
+    },
+    {
+     "path": "pageProps.page.gridImage.type",
+     "n": 1,
+     "sample": "image/jpeg"
+    },
+    {
+     "path": "pageProps.page.gridImage.url",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/c89001839f78d5b5258d2b126d0618f6f3227701-500x311.jpg"
+    },
+    {
+     "path": "pageProps.page.gridImage.width",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "pageProps.page.gridVids",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.id",
+     "n": 1,
+     "sample": "hos-section-160"
+    },
+    {
+     "path": "pageProps.page.media.gridImage._type",
+     "n": 1,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.media.gridImage.asset._ref",
+     "n": 1,
+     "sample": "image-c89001839f78d5b5258d2b126d0618f6f3227701-500x311-jpg"
+    },
+    {
+     "path": "pageProps.page.media.gridImage.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.media.poster._type",
+     "n": 1,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.media.poster.asset._ref",
+     "n": 1,
+     "sample": "image-228e479f6eb6f2396fb8565032eb64e635c0fa86-1778x1000-jpg"
+    },
+    {
+     "path": "pageProps.page.media.poster.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.media.quoteColor",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.media.quotePosition",
+     "n": 1,
+     "sample": "top-left"
+    },
+    {
+     "path": "pageProps.page.meta._type",
+     "n": 1,
+     "sample": "eosMeta"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._key",
+     "n": 1,
+     "sample": "5bf7bcce291c"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._ref",
+     "n": 1,
+     "sample": "5ea7675b-2468-4460-aefc-99cc24c1e655"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.credits",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.homepage",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.homepageGrid",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.index",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.links",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.meta",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.search",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.text",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.year",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.continent",
+     "n": 1,
+     "sample": "northAmerica"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[]._key",
+     "n": 1,
+     "sample": "BOB3b4BnGH983udUJx0Ypg"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[].label",
+     "n": 1,
+     "sample": "Other"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[].value",
+     "n": 1,
+     "sample": "other"
+    },
+    {
+     "path": "pageProps.page.meta.decade[]._key",
+     "n": 1,
+     "sample": "BOB3b4BnGH983udUJx0Yjk"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].label",
+     "n": 1,
+     "sample": "pre-1900"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].value",
+     "n": 1,
+     "sample": "pre-1900"
+    },
+    {
+     "path": "pageProps.page.meta.hosChapterNumber",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "pageProps.page.meta.metaComplete",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.nation",
+     "n": 1,
+     "sample": "United States"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[]._key",
+     "n": 1,
+     "sample": "BOB3b4BnGH983udUJx0Ymi"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[].label",
+     "n": 1,
+     "sample": "Culture"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[].value",
+     "n": 1,
+     "sample": "culture"
+    },
+    {
+     "path": "pageProps.page.meta.public",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.states",
+     "n": 1,
+     "sample": "Hawaii"
+    },
+    {
+     "path": "pageProps.page.meta.status.draft",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "value": "A Lahaina source in 1848 wrote that “every little idle imp and lounger about the town devotes time [to] sporting in the surf,” and another Lahaina visitor noted that “both men and women, girls and boy"
+    },
+    {
+     "path": "pageProps.page.meta.searchTerms[]",
+     "value": "mark twain"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "seo",
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_25.json",
+   "format": "json",
+   "size": 32428,
+   "path_count": 191,
+   "paths": [
+    {
+     "path": "pageProps.page.content[].children[]._key",
+     "n": 45,
+     "sample": "943c5f465ab30"
+    },
+    {
+     "path": "pageProps.page.content[].children[]._type",
+     "n": 45,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "n": 45,
+     "sample": "Visitors to Hawaii almost all became surfing advocates to one degree or another. “Surf Board Riders,” a two-minute reel "
+    },
+    {
+     "path": "pageProps.page.chapter.relSections[].slug",
+     "n": 18,
+     "sample": "a-fine-little-revival"
+    },
+    {
+     "path": "pageProps.page.chapter.relSections[].title",
+     "n": 18,
+     "sample": "A Fine Little Revival"
+    },
+    {
+     "path": "pageProps.page.content[].children[].marks[]",
+     "n": 17,
+     "sample": "em"
+    },
+    {
+     "path": "pageProps.page.meta.searchTerms[]",
+     "n": 14,
+     "sample": "jack london"
+    },
+    {
+     "path": "pageProps.page.content[]._key",
+     "n": 13,
+     "sample": "943c5f465ab3"
+    },
+    {
+     "path": "pageProps.page.content[]._type",
+     "n": 13,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.content[].style",
+     "n": 13,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].env",
+     "n": 11,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].id",
+     "n": 11,
+     "sample": "2ea1ee28-e0ba-4e5e-9ca0-7c4729b49ff4"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].slug",
+     "n": 11,
+     "sample": "/feature/a-boys-paradise-in-the-pacific-alexander-hume-ford-1908"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].status",
+     "n": 11,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.feature[].title",
+     "n": 11,
+     "sample": "\"A BOY'S PARADISE IN THE PACIFIC,\" ALEXANDER HUME FORD (1908)"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].env",
+     "n": 9,
+     "sample": "encyclopedia"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].id",
+     "n": 9,
+     "sample": "eos-1085"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "n": 9,
+     "sample": "/encyclopedia/ford-alexander-hume"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].status",
+     "n": 9,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "n": 9,
+     "sample": "Ford, Alexander Hume"
+    },
+    {
+     "path": "pageProps.page.grid[].alt",
+     "n": 5,
+     "sample": "Jack London "
+    },
+    {
+     "path": "pageProps.page.grid[].aspectRatio",
+     "n": 5,
+     "sample": "1.7786561264822134"
+    },
+    {
+     "path": "pageProps.page.grid[].asset._ref",
+     "n": 5,
+     "sample": "image-2eb4f7a959cf05535e2a4be74e6d5934475d521c-900x506-jpg"
+    },
+    {
+     "path": "pageProps.page.grid[].asset._type",
+     "n": 5,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.grid[].caption",
+     "n": 5,
+     "sample": "Jack London "
+    },
+    {
+     "path": "pageProps.page.grid[].captionPosition",
+     "n": 5,
+     "sample": "top-right"
+    },
+    {
+     "path": "pageProps.page.grid[].crop",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].customRatio",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].height",
+     "n": 5,
+     "sample": "506"
+    },
+    {
+     "path": "pageProps.page.grid[].hotspot",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.grid[].id",
+     "n": 5,
+     "sample": "2eb4f7a959cf05535e2a4be74e6d5934475d521c"
+    },
+    {
+     "path": "pageProps.page.grid[].lqip",
+     "n": 5,
+     "sample": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2"
+    },
+    {
+     "path": "pageProps.page.grid[].quoteColor",
+     "n": 5,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.grid[].type",
+     "n": 5,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.grid[].url",
+     "n": 5,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/2eb4f7a959cf05535e2a4be74e6d5934475d521c-900x506.jpg"
+    },
+    {
+     "path": "pageProps.page.grid[].width",
+     "n": 5,
+     "sample": "900"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[]._key",
+     "n": 5,
+     "sample": "TFl72cmNgysS3Fc3C7L4b0"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[]._type",
+     "n": 5,
+     "sample": "figure"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].alt",
+     "n": 5,
+     "sample": "Jack London "
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].asset._ref",
+     "n": 5,
+     "sample": "image-2eb4f7a959cf05535e2a4be74e6d5934475d521c-900x506-jpg"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].asset._type",
+     "n": 5,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].caption",
+     "n": 5,
+     "sample": "Jack London "
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].captionPosition",
+     "n": 5,
+     "sample": "top-right"
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].quoteColor",
+     "n": 5,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.year[]",
+     "n": 4,
+     "sample": "1907"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].chapter",
+     "n": 3,
+     "sample": "gliding-return"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].env",
+     "n": 3,
+     "sample": "history"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].id",
+     "n": 3,
+     "sample": "hos-section-1"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].slug",
+     "n": 3,
+     "sample": "a-fine-little-revival"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].status",
+     "n": 3,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.hos[].title",
+     "n": 3,
+     "sample": "A Fine Little Revival"
+    },
+    {
+     "path": "pageProps.page.meta.decade[]._key",
+     "n": 2,
+     "sample": "TFl72cmNgysS3Fc3C7L4qa"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].label",
+     "n": 2,
+     "sample": "1900-1910"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].value",
+     "n": 2,
+     "sample": "1900-1910"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].env",
+     "n": 2,
+     "sample": "aux"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].id",
+     "n": 2,
+     "sample": "joint-88776"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].slug",
+     "n": 2,
+     "sample": "/joint/sunday-joint-8-30-2020-the-jack-charmian-show-bull-mouthed-monsters-the-color-purple"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].status",
+     "n": 2,
+     "sample": "published"
+    },
+    {
+     "path": "pageProps.page.relatedContent.joint[].title",
+     "n": 2,
+     "sample": "SUNDAY JOINT, 8-30-2020: JACK & CHARMIAN LONDON RIDE \"BULL-MOUTHED MONSTERS\""
+    },
+    {
+     "path": "pageProps.page._createdAt",
+     "n": 1,
+     "sample": "2022-07-18T16:15:20Z"
+    },
+    {
+     "path": "pageProps.page._id",
+     "n": 1,
+     "sample": "hos-section-10"
+    },
+    {
+     "path": "pageProps.page._rev",
+     "n": 1,
+     "sample": "hITx24RN1iiLRghWZv6jxg"
+    },
+    {
+     "path": "pageProps.page._type",
+     "n": 1,
+     "sample": "hos"
+    },
+    {
+     "path": "pageProps.page._updatedAt",
+     "n": 1,
+     "sample": "2024-09-24T20:29:23Z"
+    },
+    {
+     "path": "pageProps.page.chapter.number",
+     "n": 1,
+     "sample": "2"
+    },
+    {
+     "path": "pageProps.page.chapter.slug",
+     "n": 1,
+     "sample": "gliding-return"
+    },
+    {
+     "path": "pageProps.page.chapter.title",
+     "n": 1,
+     "sample": "Gliding Return"
+    },
+    {
+     "path": "pageProps.page.env",
+     "n": 1,
+     "sample": "hos"
+    },
+    {
+     "path": "pageProps.page.excerpt",
+     "n": 1,
+     "sample": "Visitors to Hawaii almost all became surfing advocates to one degree or another. “Surf Board Riders,” a two-minute reel "
+    },
+    {
+     "path": "pageProps.page.featVideo",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredImage",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.featuredQuote[]._key",
+     "n": 1,
+     "sample": "06c826f2a835"
+    },
+    {
+     "path": "pageProps.page.featuredQuote[]._type",
+     "n": 1,
+     "sample": "block"
+    },
+    {
+     "path": "pageProps.page.featuredQuote[].children[]._key",
+     "n": 1,
+     "sample": "06c826f2a8350"
+    },
+    {
+     "path": "pageProps.page.featuredQuote[].children[]._type",
+     "n": 1,
+     "sample": "span"
+    },
+    {
+     "path": "pageProps.page.featuredQuote[].children[].text",
+     "n": 1,
+     "sample": "The godfather of he-man prose, London really let go in his article, with plenty of flexed-bicep adjectives and metaphors"
+    },
+    {
+     "path": "pageProps.page.featuredQuote[].style",
+     "n": 1,
+     "sample": "normal"
+    },
+    {
+     "path": "pageProps.page.gridImage.alt",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridImage.aspectRatio",
+     "n": 1,
+     "sample": "1.607717041800643"
+    },
+    {
+     "path": "pageProps.page.gridImage.asset._ref",
+     "n": 1,
+     "sample": "image-e55bf2d17aa76bf24e763870eeed9b3b8e93dc5e-500x311-jpg"
+    },
+    {
+     "path": "pageProps.page.gridImage.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.gridImage.crop",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridImage.customRatio",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridImage.height",
+     "n": 1,
+     "sample": "311"
+    },
+    {
+     "path": "pageProps.page.gridImage.hotspot",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.gridImage.id",
+     "n": 1,
+     "sample": "e55bf2d17aa76bf24e763870eeed9b3b8e93dc5e"
+    },
+    {
+     "path": "pageProps.page.gridImage.lqip",
+     "n": 1,
+     "sample": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2"
+    },
+    {
+     "path": "pageProps.page.gridImage.type",
+     "n": 1,
+     "sample": "image/jpeg"
+    },
+    {
+     "path": "pageProps.page.gridImage.url",
+     "n": 1,
+     "sample": "https://cdn.sanity.io/images/f1hjpcr4/production/e55bf2d17aa76bf24e763870eeed9b3b8e93dc5e-500x311.jpg"
+    },
+    {
+     "path": "pageProps.page.gridImage.width",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "pageProps.page.gridVids",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "pageProps.page.id",
+     "n": 1,
+     "sample": "hos-section-10"
+    },
+    {
+     "path": "pageProps.page.media.gridImage._type",
+     "n": 1,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.media.gridImage.asset._ref",
+     "n": 1,
+     "sample": "image-e55bf2d17aa76bf24e763870eeed9b3b8e93dc5e-500x311-jpg"
+    },
+    {
+     "path": "pageProps.page.media.gridImage.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.media.poster._type",
+     "n": 1,
+     "sample": "image"
+    },
+    {
+     "path": "pageProps.page.media.poster.asset._ref",
+     "n": 1,
+     "sample": "image-d7a7f11393297c7244faf9767676aab4bfb49891-2800x1575-jpg"
+    },
+    {
+     "path": "pageProps.page.media.poster.asset._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.meta._type",
+     "n": 1,
+     "sample": "eosMeta"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._key",
+     "n": 1,
+     "sample": "e4809a2051cd"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._ref",
+     "n": 1,
+     "sample": "5ea7675b-2468-4460-aefc-99cc24c1e655"
+    },
+    {
+     "path": "pageProps.page.meta.author[]._type",
+     "n": 1,
+     "sample": "reference"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.credits",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.homepage",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.homepageGrid",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.index",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.links",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.meta",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.search",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.text",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.checklist.year",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "pageProps.page.meta.continent",
+     "n": 1,
+     "sample": "northAmerica"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[]._key",
+     "n": 1,
+     "sample": "TFl72cmNgysS3Fc3C7L4oM"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[].label",
+     "n": 1,
+     "sample": "Other"
+    },
+    {
+     "path": "pageProps.page.meta.cultureType[].value",
+     "n": 1,
+     "sample": "other"
+    },
+    {
+     "path": "pageProps.page.meta.hosChapterNumber",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "pageProps.page.meta.latestDate",
+     "n": 1,
+     "sample": "2024-09-24 13:29"
+    },
+    {
+     "path": "pageProps.page.meta.metaComplete",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "pageProps.page.meta.nation",
+     "n": 1,
+     "sample": "United States"
+    },
+    {
+     "path": "pageProps.page.meta.pageType[]._key",
+     "n": 1,
+     "sample": "TFl72cmNgysS3Fc3C7L4m8"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "value": "London, furthermore, helped undermine the belief that surfing required a race-based aptitude. This idea had been around since Westerners first arrived in Hawaii, and was given credence by no less a pe"
+    },
+    {
+     "path": "pageProps.page.content[].children[].text",
+     "value": "Ford’s efforts continued. In 1908 he founded the Outrigger Canoe and Surfboard Club, surfing’s first organization, for the purpose of “developing the great sport of surfing in Hawaii.” At first little"
+    },
+    {
+     "path": "pageProps.page.grid[].alt",
+     "value": "Waikiki, 1910 Photo: AR Gurrey  "
+    },
+    {
+     "path": "pageProps.page.grid[].caption",
+     "value": "Waikiki, 1910 Photo: AR Gurrey  "
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].alt",
+     "value": "Waikiki, 1910 Photo: AR Gurrey  "
+    },
+    {
+     "path": "pageProps.page.media.imageGrid[].caption",
+     "value": "Waikiki, 1910 Photo: AR Gurrey  "
+    },
+    {
+     "path": "pageProps.page.meta.decade[].label",
+     "value": "1900-1910"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].value",
+     "value": "1900-1910"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].label",
+     "value": "1910-1920"
+    },
+    {
+     "path": "pageProps.page.meta.decade[].value",
+     "value": "1910-1920"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].slug",
+     "value": "/encyclopedia/twain-mark"
+    },
+    {
+     "path": "pageProps.page.relatedContent.eos[].title",
+     "value": "Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "alt",
+    "env",
+    "id",
+    "seo",
+    "url"
+   ]
+  }
+ ],
+ "llm_notes": "Encyclopedia of Surfing entry 'Twain, Mark'; only the opening paragraph is visible, the rest (and images) is behind a subscription paywall. Most of the page is an A-D entry index sidebar.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,336 @@
+{
+ "property": "P1385",
+ "property_label": "Enciclopédia Açoriana ID",
+ "files": [
+  {
+   "file": "P1385__10660/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://culturacores.azores.gov.pt/ea/pesquisa/Default.aspx?id=10660"
+  },
+  {
+   "file": "P1385__10660/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://l.sharethis.com/pview?event=pview&hostname=culturacores.azores.gov.pt&location=%2Fea%2Fpesquisa%2FDefault.aspx&product=inline-share-buttons&url=https%3A%2F%2Fculturacores.azores.gov.pt%2Fea%2Fpesquisa%2FDefault.aspx%3Fid%3D10660&source=sharethis.js&fcmp=false&fcmpv2=false&has_segmentio=false&title=Dire%C3%A7%C3%A3o%20Regional%20da%20Cultura&cms=unknown&publisher=5d67a07c5fea9f001288d814&sop=true&version=st_sop.js&lang=en&ua=%22Google%20Chrome%22%3Bv%3D%22153%22%2C%20%22Not_A%20Brand%22%3Bv%3D%228%22%2C%20%22Chromium%22%3Bv%3D%22153%22&ua_mobile=false&ua_platform=macOS&ua_full_version_list=%22Google%20Chrome%22%3Bv%3D%22153.0.8010.53%22%2C%20%22Not_A%20Brand%22%3Bv%3D%228.0.0.0%22%2C%20%22Chromium%22%3Bv%3D%22153.0.8010.53%22&ua_platform_version=27.0.0&uuid=1db952cd-71f9-4027-b1cc-ffc88d699685"
+  },
+  {
+   "file": "P1385__10660/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://culturacores.azores.gov.pt/cdn-cgi/rum?"
+  },
+  {
+   "file": "P1385__10660/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://culturacores.azores.gov.pt/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "json": 1,
+  "html": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "pt",
+    "via": "llm-page:entry heading",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "pt",
+    "via": "llm-page:text: 'Samuel Clemens ? este o verdadeiro nome do celebrado autor'",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "pt",
+    "via": "llm-page:bracketed dates line under heading",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-02",
+    "lang": "pt",
+    "via": "llm-page:bracketed dates line under heading (likely error for 21.4.1910)",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, Estados Unidos da América",
+    "lang": "pt",
+    "via": "llm-page:bracketed dates line 'N.'",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, Estados Unidos da América",
+    "lang": "pt",
+    "via": "llm-page:bracketed dates line 'm.'",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Horta, ilha do Faial (Açores)",
+    "lang": "pt",
+    "via": "llm-page:article text: 1867 stop of the Quaker City",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "autor",
+    "lang": "pt",
+    "via": "llm-page:article text 'celebrado autor'",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Efémera quanto ao acontecimento que está na sua génese, ou seja a permanência em breve escala do Quaker City pelo porto da Horta, no ano de 1867, a associação do nome de Mark Twain à ilha do Faial perdurará no entanto longamente, já que na sua obra Innocents Abroad, fixou em páginas algo desagradáveis para os visados, extensa descrição sobre aspectos que achou mais pitorescos na curta visita realizada àquela ilha...",
+    "lang": "pt",
+    "via": "llm-page:article first paragraph",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Innocents Abroad",
+    "lang": "pt",
+    "via": "llm-page:article text",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "New York Tribune (newspaper he wrote for)",
+    "lang": "pt",
+    "via": "llm-page:article text",
+    "file": "P1385.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco Daily Alta California (newspaper he wrote for)",
+    "lang": "pt",
+    "via": "llm-page:article text",
+    "file": "P1385.json",
+    "uri": false
+   },
+   {
+    "value": "Philadelphia Press (newspaper he wrote for)",
+    "lang": "pt",
+    "via": "llm-page:article text",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "10660",
+    "lang": null,
+    "via": "llm-page:page URL id parameter",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Costa, R. M. M. (1989), Açores. Western Islands. Um contributo para o estudo do turismo nos Açores",
+    "lang": "pt",
+    "via": "llm-page:Bibl.",
+    "file": "P1385.json",
+    "uri": false
+   },
+   {
+    "value": "A Horta na rota do mais famoso cruzeiro do século XIX (1997)",
+    "lang": "pt",
+    "via": "llm-page:Bibl.",
+    "file": "P1385.json",
+    "uri": false
+   },
+   {
+    "value": "Dabney, R. L. (compil.) [1899], Annals of the Dabney family in Fayal",
+    "lang": "en",
+    "via": "llm-page:Bibl.",
+    "file": "P1385.json",
+    "uri": false
+   },
+   {
+    "value": "Ganzel, D. (1968), Mark Twain Abroad. The Cruise of the Quaker City",
+    "lang": "en",
+    "via": "llm-page:Bibl.",
+    "file": "P1385.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, M. (1984), The Innocents Abroad. Literary Classics of the United States",
+    "lang": "en",
+    "via": "llm-page:Bibl.",
+    "file": "P1385.json",
+    "uri": false
+   },
+   {
+    "value": "Ricardo Manuel Madruga da Costa (entry author)",
+    "lang": "pt",
+    "via": "llm-page:signature at end of article",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "© 2015 Direção Regional dos Assuntos Culturais - Todos os direitos reservados.",
+    "lang": "pt",
+    "via": "llm-page:footer",
+    "file": "P1385.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "pt"
+  ],
+  "name_variant": [
+   "pt"
+  ],
+  "birth_date": [
+   "pt"
+  ],
+  "death_date": [
+   "pt"
+  ],
+  "birth_place": [
+   "pt"
+  ],
+  "death_place": [
+   "pt"
+  ],
+  "activity_place": [
+   "pt"
+  ],
+  "occupation": [
+   "pt"
+  ],
+  "description": [
+   "pt"
+  ],
+  "work": [
+   "pt"
+  ],
+  "related_agent": [
+   "pt"
+  ],
+  "identifier": [],
+  "source": [
+   "en",
+   "pt"
+  ],
+  "license": [
+   "pt"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 216,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Cultura Açores"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "pt_PT"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://culturacores.azores.gov.pt/img/facebook-share.jpg"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 161,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "fpestid",
+     "n": 1,
+     "sample": "cN4puc1UjRbtrTy5zidX3fjapRci5l1dYoQGaB8ssAUZ2E4u-_HoY4V2kbVHbviW7WYfIg"
+    },
+    {
+     "path": "fpestid_maxage",
+     "n": 1,
+     "sample": "31536000"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "false"
+    },
+    {
+     "path": "stid",
+     "n": 1,
+     "sample": "CgsF+GrAZykAAAAJSKu7Aw=="
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Enciclopédia Açoriana entry 'Twain, Mark' (Portuguese), by Ricardo Manuel Madruga da Costa, focused on his 1867 Quaker City stop at Horta, Faial, described in The Innocents Abroad; includes a bibliography. Gives the death date as 2.4.1910, which conflicts with the usual 21 April 1910.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,12 @@
+{
+ "property": "P8591",
+ "label": "Grove Music Online ID",
+ "files_read": ["P8591__A2087699/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the Grove article: inverted heading and DOI-based URL. og:description is a boilerplate publisher line with a missing date; og:image is a default cover.",
+ "elements": {
+   "name_preferred": [{"value": "Twain, Mark", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+   "identifier": [{"value": "omo-9781561592630-e-1002087699", "raw": "https://www.oxfordmusiconline.com/grovemusic/display/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-1002087699", "via": "embedded_opengraph.json: $[0]['og:url']"}],
+   "source": [{"value": "Oxford University Press", "raw": "\"Twain, Mark\" published on  by Oxford University Press.", "via": "embedded_opengraph.json: $[0]['og:description']"}]
+ }
+}

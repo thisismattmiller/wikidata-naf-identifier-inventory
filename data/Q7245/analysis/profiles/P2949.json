@@ -1,0 +1,1081 @@
+{
+ "property": "P2949",
+ "property_label": "WikiTree person ID",
+ "files": [
+  {
+   "file": "P2949__Clemens-1/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.wikitree.com/wiki/Clemens-1"
+  },
+  {
+   "file": "P2949__Clemens-1/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.wikitree.com/wiki/Clemens-1"
+  },
+  {
+   "file": "P2949__Clemens-1/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.wikitree.com/wiki/Clemens-1"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "opengraph": 1,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 7,
+  "http://ogp.me/ns#": 2,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "see_also": [
+   {
+    "value": "https://www.wikitree.com/wiki/Clemens-1",
+    "lang": null,
+    "via": "json:url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.wikitree.com/wiki/Clemens-12",
+    "lang": null,
+    "via": "json:mainEntity.children.url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-09-24",
+    "lang": null,
+    "via": "json:dateModified",
+    "file": "embedded_microdata.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens (1835 - 1910)",
+    "lang": null,
+    "via": "json:mainEntity.name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Langdon Samuel Clemens",
+    "lang": null,
+    "via": "json:mainEntity.children.name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "json:mainEntity.birthDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:header 'Born'",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "json:mainEntity.deathDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:header 'Died'",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel",
+    "lang": null,
+    "via": "json:mainEntity.givenName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel",
+    "lang": "en",
+    "via": "llm-page:heading",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": null,
+    "via": "json:mainEntity.familyName",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:heading / WikiTree > C > Clemens",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": null,
+    "via": "json:mainEntity.gender",
+    "file": "embedded_microdata.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne \"Mark Twain\" Clemens aka Twain",
+    "lang": "en",
+    "via": "llm-page:family box name line",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clemens",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Lampton Clemens",
+    "lang": "en",
+    "via": "llm-page:comment by Lisa Ankrum",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Samuell Clemens",
+    "lang": "en",
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Saul L Clemens",
+    "lang": "en",
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Monroe, Missouri, United States",
+    "lang": "en",
+    "via": "llm-page:header 'Born'",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Fairfield, Connecticut, United States",
+    "lang": "en",
+    "via": "llm-page:header 'Died'",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "en",
+    "via": "llm-page:Biography / Categories",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "St. Louis, Missouri",
+    "lang": "en",
+    "via": "llm-page:Biography (1853)",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "New York City",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Philadelphia, Pennsylvania",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Cincinnati, Ohio",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Carson City, Nevada",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Hartford, Connecticut",
+    "lang": "en",
+    "via": "llm-page:Biography / Sources / Categories",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Elmira, New York",
+    "lang": "en",
+    "via": "llm-page:Biography / Categories",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Buffalo, New York",
+    "lang": "en",
+    "via": "llm-page:comment by Ken Morgan",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Florence, Italy",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Europe",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Author",
+    "lang": "en",
+    "via": "llm-page:Biography subtitle",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Lecturer",
+    "lang": "en",
+    "via": "llm-page:Biography subtitle",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Humorist",
+    "lang": "en",
+    "via": "llm-page:Biography subtitle",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "printer's apprentice / typesetter",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "riverboat pilot",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "reporter",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Children's Authors / Novelists",
+    "lang": "en",
+    "via": "llm-page:Categories",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm-page:Categories 'United States, Authors'",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel L. Clemens aka Mark Twain — Author, Lecturer and Humorist. Samuel was born November 30, 1835 in Missouri. He was the son of John Clemens. Samuel was named for his grandfather Samuel Clemens and a Clemens family friend from Virginia named Langhorne. Though he was born in Florida, Missouri, he grew up in Hannibal, Missouri, along the Mississippi River. Samuel was a sickly child for the first seven years of his life. John M. Clemens, Samuel's father, died of pneumonia on March 24, 1847...",
+    "lang": "en",
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "A Gallant Fireman",
+    "lang": null,
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age",
+    "lang": null,
+    "via": "llm-page:Biography list",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Old Times on the Mississippi",
+    "lang": null,
+    "via": "llm-page:Biography list",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Biography list",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": null,
+    "via": "llm-page:Biography list",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Biography list",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": null,
+    "via": "llm-page:Biography list",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Those Extraordinary Twins",
+    "lang": null,
+    "via": "llm-page:Biography list",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "llm-page:Sources (Mark Twain House note)",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "John Marshall Clemens (1798-1847) (father)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Casey (Lampton) Clemens (1803-1890) (mother)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Lampton Clemens (sister)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens (brother)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Pamela Ann (Clemens) Moffett (sister)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Pleasant Clemens (brother)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin L Clemens (brother)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Clemens (brother; died 1858 after the steamer Pennsylvania explosion)",
+    "lang": null,
+    "via": "llm-page:family box / Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Louise (Langdon) Clemens (wife, married 2 Feb 1870, Elmira)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Langdon Samuel Clemens (son)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Susan Clemens (daughter)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Clara Langdon (Clemens) Gabrilowitsch (daughter)",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Jane Lampton Clemens (daughter; 'Jean')",
+    "lang": null,
+    "via": "llm-page:family box",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel B Clemens (paternal grandfather)",
+    "lang": null,
+    "via": "llm-page:ancestors",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Parmelia Goggin (paternal grandmother)",
+    "lang": null,
+    "via": "llm-page:ancestors",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin Lampton (maternal grandfather)",
+    "lang": null,
+    "via": "llm-page:ancestors",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Peggy Casey (maternal grandmother)",
+    "lang": null,
+    "via": "llm-page:ancestors",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "William Moffett (brother-in-law)",
+    "lang": null,
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Farrar Browne / Artemus Ward (mentor)",
+    "lang": null,
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Isabel Lyon (secretary)",
+    "lang": null,
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Nina (granddaughter, daughter of Clara)",
+    "lang": null,
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Marion Rangers (Confederate unit he served with for two weeks)",
+    "lang": null,
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Missouri Courier (employer, printer's apprentice)",
+    "lang": null,
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City Territorial Enterprise (employer, reporter)",
+    "lang": null,
+    "via": "llm-page:Biography",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Buffalo Morning Express (employer)",
+    "lang": null,
+    "via": "llm-page:comment",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Cornelia Welsh Foote (correspondent, 1887 letter)",
+    "lang": null,
+    "via": "llm-page:comment",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": true
+   },
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.findagrave.com/memorial/1048/mark-twain",
+    "lang": null,
+    "via": "llm-page:Sources footnote 3",
+    "file": "P2949.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Clemens-1",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "United States Passport Applications, 1795-1925 (FamilySearch ark:/61903/1:1:Q24F-8WZN)",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "United States Confederate Officers Card Index, 1861-1865 (FamilySearch ark:/61903/1:1:73DY-N56Z)",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Find a Grave Memorial #1048",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "National Historic Landmark application, Mark Twain House #66000884",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "HABS CT-359",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "United States Census 1850, 1880, 1900, 1910 (FamilySearch)",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "Paullin, Charles O. 'Mark Twain's Virginia Kin.' William and Mary Quarterly 15(3), 1935",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": false
+   },
+   {
+    "value": "A Guide to the Papers of Mark Twain, 1862-1946, University of Virginia Library accession 6314",
+    "lang": null,
+    "via": "llm-page:Sources",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2009-01-06",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P2949.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "see_also": [],
+  "record_modified": [],
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "gender": [],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [],
+  "related_agent": [],
+  "same_as": [],
+  "identifier": [],
+  "source": [],
+  "record_created": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 2392,
+   "path_count": 28,
+   "paths": [
+    {
+     "path": "[].mainEntity.sibling[].@type",
+     "n": 6,
+     "sample": "Person"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "n": 6,
+     "sample": "https://www.wikitree.com/wiki/Clemens-7"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "n": 6,
+     "sample": "Margaret Lampton Clemens"
+    },
+    {
+     "path": "[].mainEntity.children[].@type",
+     "n": 4,
+     "sample": "Person"
+    },
+    {
+     "path": "[].mainEntity.children[].url",
+     "n": 4,
+     "sample": "https://www.wikitree.com/wiki/Clemens-12"
+    },
+    {
+     "path": "[].mainEntity.children[].name",
+     "n": 4,
+     "sample": "Langdon Samuel Clemens"
+    },
+    {
+     "path": "[].mainEntity.parent[].@type",
+     "n": 2,
+     "sample": "Person"
+    },
+    {
+     "path": "[].mainEntity.parent[].url",
+     "n": 2,
+     "sample": "https://www.wikitree.com/wiki/Clemens-2"
+    },
+    {
+     "path": "[].mainEntity.parent[].name",
+     "n": 2,
+     "sample": "John Marshall Clemens"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "WebPage"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].url",
+     "n": 1,
+     "sample": "https://www.wikitree.com/wiki/Clemens-1"
+    },
+    {
+     "path": "[].dateModified",
+     "n": 1,
+     "sample": "2026-09-24"
+    },
+    {
+     "path": "[].mainEntity.@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].mainEntity.name",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens (1835 - 1910)"
+    },
+    {
+     "path": "[].mainEntity.birthDate",
+     "n": 1,
+     "sample": "1835-11-30"
+    },
+    {
+     "path": "[].mainEntity.birthPlace.@type",
+     "n": 1,
+     "sample": "Place"
+    },
+    {
+     "path": "[].mainEntity.birthPlace.name",
+     "n": 1,
+     "sample": "Florida, Monroe, Missouri, United States"
+    },
+    {
+     "path": "[].mainEntity.deathDate",
+     "n": 1,
+     "sample": "1910-04-21"
+    },
+    {
+     "path": "[].mainEntity.deathPlace.@type",
+     "n": 1,
+     "sample": "Place"
+    },
+    {
+     "path": "[].mainEntity.deathPlace.name",
+     "n": 1,
+     "sample": "Redding, Fairfield, Connecticut, United States"
+    },
+    {
+     "path": "[].mainEntity.givenName",
+     "n": 1,
+     "sample": "Samuel"
+    },
+    {
+     "path": "[].mainEntity.additionalName",
+     "n": 1,
+     "sample": "Langhorne"
+    },
+    {
+     "path": "[].mainEntity.familyName",
+     "n": 1,
+     "sample": "Clemens"
+    },
+    {
+     "path": "[].mainEntity.gender",
+     "n": 1,
+     "sample": "male"
+    },
+    {
+     "path": "[].mainEntity.spouse.@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].mainEntity.spouse.url",
+     "n": 1,
+     "sample": "https://www.wikitree.com/wiki/Langdon-1"
+    },
+    {
+     "path": "[].mainEntity.spouse.name",
+     "n": 1,
+     "sample": "Olivia Louise (Langdon) Clemens"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-1"
+    },
+    {
+     "path": "[].mainEntity.name",
+     "value": "Samuel Langhorne Clemens (1835 - 1910)"
+    },
+    {
+     "path": "[].mainEntity.birthDate",
+     "value": "1835-11-30"
+    },
+    {
+     "path": "[].mainEntity.deathDate",
+     "value": "1910-04-21"
+    },
+    {
+     "path": "[].mainEntity.familyName",
+     "value": "Clemens"
+    },
+    {
+     "path": "[].mainEntity.parent[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-2"
+    },
+    {
+     "path": "[].mainEntity.parent[].name",
+     "value": "John Marshall Clemens"
+    },
+    {
+     "path": "[].mainEntity.parent[].name",
+     "value": "Jane Casey (Lampton) Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-7"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Margaret Lampton Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-3"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Orion Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-6"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Pamela Ann (Clemens) Moffett"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-9"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Pleasant Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-8"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Benjamin L Clemens"
+    },
+    {
+     "path": "[].mainEntity.sibling[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-5"
+    },
+    {
+     "path": "[].mainEntity.sibling[].name",
+     "value": "Henry Clemens"
+    },
+    {
+     "path": "[].mainEntity.spouse.name",
+     "value": "Olivia Louise (Langdon) Clemens"
+    },
+    {
+     "path": "[].mainEntity.children[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-12"
+    },
+    {
+     "path": "[].mainEntity.children[].name",
+     "value": "Langdon Samuel Clemens"
+    },
+    {
+     "path": "[].mainEntity.children[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-13"
+    },
+    {
+     "path": "[].mainEntity.children[].name",
+     "value": "Olivia Susan Clemens"
+    },
+    {
+     "path": "[].mainEntity.children[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-14"
+    },
+    {
+     "path": "[].mainEntity.children[].name",
+     "value": "Clara Langdon (Clemens) Gabrilowitsch"
+    },
+    {
+     "path": "[].mainEntity.children[].url",
+     "value": "https://www.wikitree.com/wiki/Clemens-15"
+    },
+    {
+     "path": "[].mainEntity.children[].name",
+     "value": "Jane Lampton Clemens"
+    }
+   ],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 142,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.wikitree.com/images/og-image.png"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "WikiTree profile Clemens-1: vital data, immediate family and four generations of ancestors, a long community-written biography, sources (census, passport, Find a Grave), links to Wikidata/Wikipedia, photos, DNA matches, comments and categories. Ancestors beyond parents/grandparents are not listed as related agents.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

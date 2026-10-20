@@ -1,0 +1,13 @@
+{
+ "property": "P9495",
+ "label": "National Historical Museums of Sweden ID",
+ "files_read": ["P9495__person_FE94A400-1095-4FA3-873A-712CFB13D288_4836b6ff/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the SHM collections person page. The name is mis-parsed by the source (family name 'Langhorne, Mark Twain', given name 'Clemens Samuel'); kept as given. Description mentions a Wikidata link but gives no URI; 1 related object.",
+ "elements": {
+  "name_preferred": [{"value": "Langhorne, Mark Twain, Clemens Samuel", "lang": "sv", "via": "embedded_opengraph.json: [0].og:title"}],
+  "given_name": [{"value": "Clemens Samuel", "lang": "sv", "via": "embedded_opengraph.json: [0].og:description ('Förnamn: Clemens Samuel')"}],
+  "family_name": [{"value": "Langhorne, Mark Twain", "lang": "sv", "via": "embedded_opengraph.json: [0].og:description ('Efternamn: Langhorne, Mark Twain')"}],
+  "identifier": [{"value": "FE94A400-1095-4FA3-873A-712CFB13D288", "via": "embedded_opengraph.json: [0].og:url (https://samlingar.shm.se/person/FE94A400-1095-4FA3-873A-712CFB13D288)"}]
+ }
+}

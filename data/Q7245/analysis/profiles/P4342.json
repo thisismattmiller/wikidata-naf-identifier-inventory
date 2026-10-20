@@ -1,0 +1,909 @@
+{
+ "property": "P4342",
+ "property_label": "Great Norwegian Encyclopedia ID",
+ "files": [
+  {
+   "file": "P4342__Mark_Twain/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://snl.no/Mark_Twain"
+  },
+  {
+   "file": "P4342__Mark_Twain/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://snl.no/Mark_Twain"
+  },
+  {
+   "file": "P4342__Mark_Twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://snl.no/Mark_Twain"
+  },
+  {
+   "file": "P4342__Mark_Twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://snl.no/Mark_Twain"
+  },
+  {
+   "file": "P4342__Mark_Twain/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://snl.no/.announcements?v=2"
+  },
+  {
+   "file": "P4342__Mark_Twain/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://wikidata-externalid-url.toolforge.org/?p=4342&url_prefix=https://snl.no/&id=Mark_Twain"
+  },
+  {
+   "file": "P4342__Mark_Twain/conneg_2.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://wikidata-externalid-url.toolforge.org/?p=4342&url_prefix=https://snl.no/&id=Mark_Twain"
+  },
+  {
+   "file": "P4342__Mark_Twain/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://snl.no/.announcements?v=2"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "unknown": 3,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "http://schema.org/": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens (Mark Twain)",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value (Faktaboks heading)",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://schema.org/WebPage",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value 'født Samuel Langhorne Clemens'; $[2].name",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value 'født Samuel Langhorne Clemens'",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value 'født Samuel Langhorne Clemens' (Uttale: kl e mənz)",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value 'skrev under pseudonymet Mark Twain'",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Faktaboks 'Født'",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Faktaboks 'Død'",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, USA",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Faktaboks 'Født'",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Conneticut, USA",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Faktaboks 'Død'",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City, Nevada",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Hawaii",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Hartford, Connecticut",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "nb",
+    "via": "llm-page:Biografi (grew up)",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "forfatter",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value 'en populær amerikansk forfatter'",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "elvelos",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "foredragsholder",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "elvelos (river pilot)",
+    "lang": "nb",
+    "via": "llm-page:Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "trykker (printer)",
+    "lang": "nb",
+    "via": "llm-page:Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "foredragsholder (lecturer)",
+    "lang": "nb",
+    "via": "llm-page:Biografi",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "USAs litteratur på 1800-tallet",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[1].breadcrumb.itemListElement[5].name",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "amerikansk",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value 'en populær amerikansk forfatter'",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain var en populær amerikansk forfatter som særlig er kjent for romanene om guttene Tom Sawyer og Huckleberry Finn. Han het egentlig Samuel Langhorne Clemens, men skrev under pseudonymet Mark Twain.",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value lead paragraph",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain var en populær amerikansk forfatter som særlig er kjent for romanene om guttene Tom Sawyer og Huckleberry Finn. Han het egentlig Samuel Langhorne Clemens, men skrev under pseudonymet Mark Twain. Twain vokste opp i småbyen Hannibal ved Mississippi-elven i Missouri. Fra han var 12 år gammel til han var 20 arbeidet han i trykkerfaget i mange byer og begynte deretter i lære på ny, som elvelos på Mississippi.",
+    "lang": "nb",
+    "via": "llm-page:lead and Biografi",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County and Other Sketches",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Innocents Abroad",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Man that Corrupted Hadleyburg",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "What is Man",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County and Other Sketches",
+    "lang": null,
+    "via": "llm-page:Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Innocents Abroad",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd'nhead Wilson",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Man that Corrupted Hadleyburg",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "What is Man",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Orion",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value 'dro så med broren Orion til vesten'",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dudley Warner",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens (brother)",
+    "lang": null,
+    "via": "llm-page:Biografi",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dudley Warner (neighbour, co-author of The Gilded Age)",
+    "lang": null,
+    "via": "llm-page:Forfatterskap",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Orm Øverland (author of the article)",
+    "lang": null,
+    "via": "llm-page:SKREVET AV",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://media.snl.no/media/2254/standard_compressed_clemens-samuel.jpg",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[2].contentUrl",
+    "file": "P4342.json",
+    "uri": true
+   },
+   {
+    "value": "https://media.snl.no/media/2254/standard_clemens-samuel.jpg",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:image']",
+    "file": "P4342.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Mark_Twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url'] https://snl.no/Mark_Twain",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-04-24",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[0].value 'Sist oppdatert'",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "begrenset gjenbruk",
+    "lang": "nb",
+    "via": "llm:embedded_microdata.json: $[0].value 'VILKÅR FOR GJENBRUK'",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "begrenset gjenbruk",
+    "lang": null,
+    "via": "llm-page:VILKÅR FOR GJENBRUK",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://snl.no/Mark_Twain",
+    "lang": null,
+    "via": "llm-page:citation line",
+    "file": "P4342.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "Emerson, Everett: Mark Twain : a literary life, 2000, isbn 0-8122-3516-9",
+    "lang": null,
+    "via": "llm-page:Litteratur",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Kaplan, Fred: The singular Mark Twain : a biography, 2003, isbn 0-385-47715-5",
+    "lang": null,
+    "via": "llm-page:Litteratur",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Paine, Albert Bigelow: Mark Twain : a biography, 1912, 3 b.",
+    "lang": null,
+    "via": "llm-page:Litteratur",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Rasmussen, R. Kent: Mark Twain A to Z, 1995, isbn 0-8160-2845-1",
+    "lang": null,
+    "via": "llm-page:Litteratur",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Robinson, Forrest G., red.: The Cambridge companion to Mark Twain, 1995, isbn 0-521-44593-0",
+    "lang": null,
+    "via": "llm-page:Litteratur",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "Smith, Henry Nash: Mark Twain : the development of a writer, 1962",
+    "lang": null,
+    "via": "llm-page:Litteratur",
+    "file": "P4342.json",
+    "uri": false
+   },
+   {
+    "value": "The Mark Twain Papers & project; Project Gutenberg; Western American Literature Research; NYPL Samuel Langhorne Clemens collection; Yale Samuel Langhorne Clemens Collection; Nasjonalbiblioteket",
+    "lang": null,
+    "via": "llm-page:Eksterne lenker (link labels only)",
+    "file": "P4342.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "nb"
+  ],
+  "type": [],
+  "name_variant": [
+   "nb"
+  ],
+  "given_name": [
+   "nb"
+  ],
+  "family_name": [
+   "nb"
+  ],
+  "pseudonym": [
+   "nb"
+  ],
+  "birth_date": [
+   "nb"
+  ],
+  "death_date": [
+   "nb"
+  ],
+  "birth_place": [
+   "nb"
+  ],
+  "death_place": [
+   "nb"
+  ],
+  "activity_place": [
+   "nb"
+  ],
+  "occupation": [
+   "nb"
+  ],
+  "field_of_activity": [
+   "nb"
+  ],
+  "nationality": [
+   "nb"
+  ],
+  "description": [
+   "nb"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "nb"
+  ],
+  "image": [],
+  "identifier": [],
+  "record_modified": [],
+  "license": [
+   "nb"
+  ],
+  "same_as": [],
+  "source": []
+ },
+ "unmapped": {
+  "reviewedBy (http://schema.org/)": 1,
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 8123,
+   "path_count": 14,
+   "paths": [
+    {
+     "path": "[].breadcrumb.itemListElement[].@type",
+     "n": 6,
+     "sample": "ListItem"
+    },
+    {
+     "path": "[].breadcrumb.itemListElement[].item",
+     "n": 6,
+     "sample": "https://snl.no/"
+    },
+    {
+     "path": "[].breadcrumb.itemListElement[].name",
+     "n": 6,
+     "sample": "Store norske leksikon"
+    },
+    {
+     "path": "[].breadcrumb.itemListElement[].position",
+     "n": 6,
+     "sample": "1"
+    },
+    {
+     "path": "[].@type",
+     "n": 3,
+     "sample": "WebPage"
+    },
+    {
+     "path": "[].@context",
+     "n": 3,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].value",
+     "n": 1,
+     "sample": "Hopp til hovedinnholdet\nLille norske leksikon må legge ned hvis vi ikke får penger over statsbudsjettet 😭\nLeksikonet åpn"
+    },
+    {
+     "path": "[].breadcrumb.@type",
+     "n": 1,
+     "sample": "BreadcrumbList"
+    },
+    {
+     "path": "[].author.@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].author.name",
+     "n": 1,
+     "sample": "Orm Øverland"
+    },
+    {
+     "path": "[].contentUrl",
+     "n": 1,
+     "sample": "https://media.snl.no/media/2254/standard_compressed_clemens-samuel.jpg"
+    },
+    {
+     "path": "[].caption",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens (Mark Twain)"
+    },
+    {
+     "path": "[].author",
+     "n": 1,
+     "sample": "https://meta.snl.no/Bilete_fr%C3%A5_papirleksikonet"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].value",
+     "value": "Hopp til hovedinnholdet\nLille norske leksikon må legge ned hvis vi ikke får penger over statsbudsjettet 😭\nLeksikonet åpnet i 2024 og er siden da lest 7 millioner ganger. Hjelp oss å redde Lille norske"
+    },
+    {
+     "path": "[].contentUrl",
+     "value": "https://media.snl.no/media/2254/standard_compressed_clemens-samuel.jpg"
+    },
+    {
+     "path": "[].name",
+     "value": "Samuel Langhorne Clemens (Mark Twain)"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 295,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain – Store norske leksikon"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Store norske leksikon"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://snl.no/Mark_Twain"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://media.snl.no/media/2254/standard_clemens-samuel.jpg"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain – Store norske leksikon"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://snl.no/Mark_Twain"
+    },
+    {
+     "path": "[].og:image",
+     "value": "https://media.snl.no/media/2254/standard_clemens-samuel.jpg"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 945,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "announcements[].id",
+     "n": 1,
+     "sample": "116"
+    },
+    {
+     "path": "announcements[].html",
+     "n": 1,
+     "sample": "<div class=\"notice notice--fullwidth notice--closeable\" role=\"alert\"\n  id=\"notice_116\"\n>\n    <div class=\"l-wrapper\">\n  <"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  }
+ ],
+ "llm_notes": "Store norske leksikon article 'Mark Twain' by Orm Øverland (Universitetet i Bergen): fact box (birth/death), biography and authorship sections naming many works with years, external links and bibliography. Fact box misspells 'Conneticut'.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

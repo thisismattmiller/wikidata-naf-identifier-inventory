@@ -1,0 +1,36 @@
+{
+ "property": "P11870",
+ "label": "The Literary Encyclopedia person ID",
+ "files_read": ["pages/P11870__4486.txt"],
+ "about_entity": true,
+ "page_kind": "encyclopedia article",
+ "notes": "Literary Encyclopedia article 'Mark Twain' by Louis J. Budd: fact panel (dates, activity span, places, genres, activities) and the opening of a 2778-word article; the rest is behind a login/subscription wall.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "Born 30 Nov 1835", "lang": "en", "via": "Dates"}],
+  "death_date": [{"value": "1910-04-21", "raw": "Died 21 Apr 1910", "lang": "en", "via": "Dates"}],
+  "birth_place": [{"value": "United States", "raw": "Born in United States", "lang": "en", "via": "Places"}],
+  "activity_place": [{"value": "United States", "raw": "Active in United States; Activity 1863-1910", "lang": "en", "via": "Places / Dates"}],
+  "occupation": [
+   {"value": "Essayist", "lang": "en", "via": "Activities: Primary"},
+   {"value": "Humorist", "lang": "en", "via": "Activities: Primary"},
+   {"value": "Lecturer", "lang": "en", "via": "Activities: Primary"},
+   {"value": "Novelist", "lang": "en", "via": "Activities: Primary"},
+   {"value": "Satirist", "lang": "en", "via": "Activities: Primary"},
+   {"value": "Story-writer", "lang": "en", "via": "Activities: Primary"},
+   {"value": "Travel writer", "lang": "en", "via": "Activities: Primary"},
+   {"value": "Autobiographer", "lang": "en", "via": "Activities: Other"},
+   {"value": "Children's/Young Adult writer", "lang": "en", "via": "Activities: Other"},
+   {"value": "Journalist", "lang": "en", "via": "Activities: Other"},
+   {"value": "Letter-writer/ Diarist", "lang": "en", "via": "Activities: Other"},
+   {"value": "Playwright / Dramatist", "lang": "en", "via": "Activities: Other"},
+   {"value": "Publisher", "lang": "en", "via": "Activities: Other"}
+  ],
+  "field_of_activity": [{"value": "Fable", "lang": "en", "via": "Genres and Modes"}],
+  "description": [{"value": "Mark Twain, by the end of his career, would exemplify the American ideal of intellectual, social, and financial mobility. Sketchily educated, he rose to eminence as a literary figure, internationally honored as not just a humorist but also both a public oracle and a fabulist. Born into a raw, near-frontier community, he climbed the social scale to a position of lavish respectability as head of a family that would travel widely in first class, although his financial situation was often precarious throughout his life...", "raw": "truncated (article behind login)", "lang": "en", "via": "article opening"}],
+  "related_agent": [{"value": "Louis J. Budd (Duke University) (author of the article)", "via": "byline"}],
+  "identifier": [{"value": "4486", "via": "citation URL UID=4486"}],
+  "source": [{"value": "Budd, Louis J. \"Mark Twain\". The Literary Encyclopedia. First published 26 July 2005", "via": "Citation"}],
+  "record_created": [{"value": "2005-07-26", "raw": "First published 26 July 2005", "via": "Citation"}]
+ }
+}

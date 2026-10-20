@@ -1,0 +1,18 @@
+{
+ "property": "P5859",
+ "label": "Adelphi author ID",
+ "files_read": ["pages/P5859__1022.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Adelphi (Italian publisher) catalogue page for Mark Twain listing a single volume, 'In cerca di guai' (Italian translation of Roughing It), with blurb, translator and editions. No biography.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "it", "via": "page heading"}],
+  "work": [{"value": "In cerca di guai", "raw": "Biblioteca Adelphi, 269, 1993, pp. 532; Adelphi eBook 2016", "via": "catalogue list"}],
+  "related_agent": [
+   {"value": "Giulia Arborio Mella (translator of In cerca di guai)", "via": "catalogue list"},
+   {"value": "Orion (brother, Secretary of the Nevada Territory)", "via": "book blurb"}
+  ],
+  "activity_place": [{"value": "Far West / Nevada", "raw": "Nel 1861 Mark Twain parte per il Far West al seguito del fratello Orion, nominato Segretario del Territorio del Nevada", "lang": "it", "via": "book blurb"}],
+  "identifier": [{"value": "1022", "via": "page URL (catalogo/autore/1022)"}]
+ }
+}

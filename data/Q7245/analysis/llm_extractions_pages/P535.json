@@ -1,0 +1,62 @@
+{
+ "property": "P535",
+ "label": "Find a Grave memorial ID",
+ "files_read": ["pages/P535__1048.txt", "pages/P535__19697.txt"],
+ "about_entity": true,
+ "page_kind": "biography page",
+ "notes": "Two Find a Grave 'Famous memorial' pages for Mark Twain: 1048 is his burial at Woodlawn Cemetery, Elmira NY (with full family list and inscription); 19697 is a cenotaph at Eternal Valley Memorial Park, Newhall CA (Mark Twain Garden). Both carry the same truncated bio by 'Angela'; the 'VETERAN' badge is shown on both.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "memorial heading (both memorials)"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "'ORIGINAL NAME' field (both memorials); also inscription on 1048"}],
+  "given_name": [{"value": "Samuel Langhorne", "lang": "en", "via": "'ORIGINAL NAME' field"}],
+  "family_name": [{"value": "Clemens", "lang": "en", "via": "'ORIGINAL NAME' field"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "en", "via": "inscription on memorial 1048 ('Samuel Langhorne Clemens / Mark Twain')"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30 Nov 1835", "lang": null, "via": "'BIRTH' field (both memorials)"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21 Apr 1910 (aged 74)", "lang": null, "via": "'DEATH' field (both memorials)"}],
+  "birth_place": [{"value": "Florida, Monroe County, Missouri, USA", "lang": "en", "via": "'BIRTH' field"}],
+  "death_place": [{"value": "Redding, Fairfield County, Connecticut, USA", "lang": "en", "via": "'DEATH' field"}],
+  "activity_place": [
+   {"value": "Woodlawn Cemetery, Elmira, Chemung County, New York, USA", "raw": "burial; plot Section G; GPS 42.1062584, -76.8254623", "lang": "en", "via": "'BURIAL' field, memorial 1048"},
+   {"value": "Eternal Valley Memorial Park, Newhall, Los Angeles County, California, USA", "raw": "cenotaph; plot Mark Twain Garden; GPS 34.3634491, -118.5093918", "lang": "en", "via": "'CENOTAPH' field, memorial 19697"},
+   {"value": "Hannibal", "raw": "his family moved from Florida to nearby Hannibal on the Mississippi River where he grew up", "lang": "en", "via": "bio"},
+   {"value": "New York City; Philadelphia; St. Louis; Cincinnati", "raw": "worked as a printer in New York City, Philadelphia, St. Louis, and Cincinnati", "lang": "en", "via": "bio"}
+  ],
+  "occupation": [
+   {"value": "Author", "lang": "en", "via": "bio tagline 'Author, Humorist, Entrepreneur, Publisher, and Lecturer.'"},
+   {"value": "Humorist", "lang": "en", "via": "bio tagline"},
+   {"value": "Entrepreneur", "lang": "en", "via": "bio tagline"},
+   {"value": "Publisher", "lang": "en", "via": "bio tagline"},
+   {"value": "Lecturer", "lang": "en", "via": "bio tagline"},
+   {"value": "printer's apprentice / typesetter / printer", "lang": "en", "via": "bio"},
+   {"value": "Mississippi riverboat pilot", "lang": "en", "via": "bio"},
+   {"value": "Veteran", "raw": "VETERAN", "lang": "en", "via": "badge under heading"}
+  ],
+  "description": [{"value": "Author, Humorist, Entrepreneur, Publisher, and Lecturer. Samuel Langhorne Clemens was born on November 30, 1835, in Florida, Missouri. When he was 4 years old, his family moved from Florida to nearby Hannibal on the Mississippi River where he grew up on the waterfront. His father, John Marshall Clemens, was an attorney and judge who died of pneumonia in 1847 when Clemens was 11. The following year, Samuel left school after the fifth grade to become a printer's apprentice...", "raw": "truncated (page itself truncates the bio behind 'Read More'); Bio by: Angela", "lang": "en", "via": "memorial bio"}],
+  "work": [{"value": "Hannibal Journal (contributions)", "raw": "contributing articles and humorous sketches to the Hannibal Journal", "lang": "en", "via": "bio"}],
+  "related_agent": [
+   {"value": "John Marshall Clemens (father, 1798-1847; attorney and judge)", "via": "Family Members: Parents; bio"},
+   {"value": "Jane Lampton Clemens (mother, 1803-1890)", "via": "Family Members: Parents"},
+   {"value": "Olivia Iona Louise \"Livy\" Langdon Clemens (spouse, 1845-1904, m. 1870)", "via": "Family Members: Spouse"},
+   {"value": "Orion Clemens (brother, 1825-1897; owner of the Hannibal Journal)", "via": "Family Members: Siblings; bio"},
+   {"value": "Pamela Ann Clemens Moffett (sister, 1827-1904)", "via": "Family Members: Siblings"},
+   {"value": "Pleasant Hannibal Clemens (brother, 1828-1829)", "via": "Family Members: Siblings"},
+   {"value": "Margaret Lampton Clemens (sister, 1830-1839)", "via": "Family Members: Siblings"},
+   {"value": "Benjamin Clemens (brother, 1831-1842)", "via": "Family Members: Siblings"},
+   {"value": "Henry Clemens (brother, 1838-1858)", "via": "Family Members: Siblings"},
+   {"value": "Langdon Clemens (son, 1870-1872)", "via": "Family Members: Children"},
+   {"value": "Olivia Susan \"Susy\" Clemens (daughter, 1872-1896)", "via": "Family Members: Children"},
+   {"value": "Clara Langdon Clemens Samossoud (daughter, 1874-1962)", "via": "Family Members: Children"},
+   {"value": "Jean Lampton Clemens (daughter, 1880-1909)", "via": "Family Members: Children"}
+  ],
+  "identifier": [
+   {"value": "1048", "raw": "Find a Grave Memorial ID: 1048 (burial memorial)", "via": "'MEMORIAL ID' field"},
+   {"value": "19697", "raw": "Find a Grave Memorial ID: 19697 (cenotaph memorial)", "via": "'MEMORIAL ID' field"}
+  ],
+  "image": [{"value": "memorial photos (5 on 1048, 6 on 19697)", "raw": "Photo added by Sun WIshers", "via": "photo header"}],
+  "source": [{"value": "Bio by: Angela", "via": "bio credit"}],
+  "record_created": [
+   {"value": "1998-04-25", "raw": "Added: 25 Apr 1998 (memorial 1048)", "via": "footer 'Added'"},
+   {"value": "2001-01-21", "raw": "Added: 21 Jan 2001 (memorial 19697)", "via": "footer 'Added'"}
+  ]
+ }
+}

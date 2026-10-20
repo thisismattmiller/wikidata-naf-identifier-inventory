@@ -1,0 +1,54 @@
+{
+ "property": "P269",
+ "label": "IdRef ID",
+ "files_read": ["pages/P269__027171876.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "IdRef (Sudoc) person authority record 027171876 for Twain, Mark (1835-1910), with variant access points, dates, gender, note, external identifiers and sources. Linked-references section is collapsed.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark (1835-1910)", "lang": "fr", "via": "Point d'accès autorisé (marked Pseudonyme)"}],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne", "lang": "en", "via": "Variantes de point d'accès (Nom à l'état civil)"},
+   {"value": "吐温, 马克", "lang": "zh", "via": "Variantes de point d'accès (Pseudonyme)"},
+   {"value": "Twain, Marc", "lang": "fr", "via": "Variantes de point d'accès (Pseudonyme)"}
+  ],
+  "pseudonym": [{"value": "Mark Twain", "lang": "fr", "via": "Point d'accès autorisé labelled Pseudonyme; note 'Pseudonyme de Samuel Langhorne Clemens'"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30 /  11 /  1835", "lang": null, "via": "Information: Date de naissance"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21 /  04 /  1910", "lang": null, "via": "Information: Date de mort"}],
+  "gender": [{"value": "Masculin", "lang": "fr", "via": "Information: Genre"}],
+  "occupation": [
+   {"value": "journaliste", "lang": "fr", "via": "Note publique d'information"},
+   {"value": "romancier", "lang": "fr", "via": "Note publique d'information"},
+   {"value": "humoriste", "lang": "fr", "via": "Note publique d'information"}
+  ],
+  "nationality": [{"value": "Etats-Unis d'Amérique", "lang": "fr", "via": "Information: Pays"}],
+  "language": [{"value": "anglais", "lang": "fr", "via": "Information: Langue d'expression"}],
+  "description": [{"value": "Journaliste, romancier et humoriste américain. Pseudonyme de Samuel Langhorne Clemens", "lang": "fr", "via": "Notes: Note publique d'information"}],
+  "work": [
+   {"value": "N° 44, le mystérieux étranger : un conte ancien trouvé dans une cruche et traduit librement de cette cruche", "raw": "N ̊ 44, le mystérieux étranger ... / Mark Twain ; traduction de l'anglais (États-Unis) et postface par Bernard Hoepffner, impr. 2011", "lang": "fr", "via": "Source list"},
+   {"value": "À la dure", "raw": "À la dure / Mark Twain ; traduit de l'américain par Henri Motheré ; version abrégée par Anna Solal ; illustrations par Albert Richter, 1979", "lang": "fr", "via": "Source list"}
+  ],
+  "related_agent": [
+   {"value": "Bernard Hoepffner (translator, postface)", "via": "Source: N° 44, le mystérieux étranger"},
+   {"value": "Henri Motheré (translator)", "via": "Source: À la dure"},
+   {"value": "Anna Solal (abridger)", "via": "Source: À la dure"},
+   {"value": "Albert Richter (illustrator)", "via": "Source: À la dure"}
+  ],
+  "same_as": [
+   {"value": "http://viaf.org/viaf/50566653", "via": "Identifiants externes: VIAF"},
+   {"value": "https://fr.wikipedia.org/wiki/Mark_Twain", "via": "Identifiants externes: Wikipédia"},
+   {"value": "http://catalogue.bnf.fr/ark:/12148/cb11927291n", "via": "Identifiants externes: ARK BNF"},
+   {"value": "https://isni.org/isni/0000000121324854", "raw": "0000000121324854", "via": "Identifiants externes: ISNI"}
+  ],
+  "identifier": [
+   {"value": "027171876", "via": "Identifiant pérenne de la notice"},
+   {"value": "http://www.idref.fr/027171876/id", "via": "URI de l'entité"}
+  ],
+  "source": [
+   {"value": "BN Cat. gén.: Twain (Samuel Langhorne Clemens, dit Mark)", "via": "Source"},
+   {"value": "BN Cat. gén. 1960-1969: Twain (Mark), pseud. de Samuel Langhorne Clemens", "via": "Source"},
+   {"value": "LCNA 1987-1994: Twain, Mark, 1835-1910", "via": "Source"}
+  ],
+  "license": [{"value": "Licence Etalab", "via": "footer: Utilisation des données"}]
+ }
+}

@@ -1,0 +1,314 @@
+{
+ "property": "P11870",
+ "property_label": "The Literary Encyclopedia person ID",
+ "files": [
+  {
+   "file": "P11870__4486/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.litencyc.com/php/speople.php?rec=true&UID=4486"
+  },
+  {
+   "file": "P11870__4486/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.litencyc.com/php/speople.php?rec=true&UID=4486"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 4,
+  "http://www.w3.org/1999/xhtml/vocab#": 3,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain, by the end of his career, would exemplify the American ideal of...",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, by the end of his career, would exemplify the American ideal of intellectual, social, and financial mobility. Sketchily educated, he rose to eminence as a literary figure, internationally honored as not just a humorist but also both a public oracle and a fabulist. Born into a raw, near-frontier community, he climbed the social scale to a position of lavish respectability as head of a family that would travel widely in first class, although his financial situation was often precarious",
+    "lang": "en",
+    "via": "llm-page:article opening",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "4486",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Dates",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Dates",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm-page:Places",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm-page:Places / Dates",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Essayist",
+    "lang": "en",
+    "via": "llm-page:Activities: Primary",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Humorist",
+    "lang": "en",
+    "via": "llm-page:Activities: Primary",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Lecturer",
+    "lang": "en",
+    "via": "llm-page:Activities: Primary",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Novelist",
+    "lang": "en",
+    "via": "llm-page:Activities: Primary",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Satirist",
+    "lang": "en",
+    "via": "llm-page:Activities: Primary",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Story-writer",
+    "lang": "en",
+    "via": "llm-page:Activities: Primary",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Travel writer",
+    "lang": "en",
+    "via": "llm-page:Activities: Primary",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Autobiographer",
+    "lang": "en",
+    "via": "llm-page:Activities: Other",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Children's/Young Adult writer",
+    "lang": "en",
+    "via": "llm-page:Activities: Other",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Journalist",
+    "lang": "en",
+    "via": "llm-page:Activities: Other",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Letter-writer/ Diarist",
+    "lang": "en",
+    "via": "llm-page:Activities: Other",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Playwright / Dramatist",
+    "lang": "en",
+    "via": "llm-page:Activities: Other",
+    "file": "P11870.json",
+    "uri": false
+   },
+   {
+    "value": "Publisher",
+    "lang": "en",
+    "via": "llm-page:Activities: Other",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Fable",
+    "lang": "en",
+    "via": "llm-page:Genres and Modes",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Louis J. Budd (Duke University) (author of the article)",
+    "lang": null,
+    "via": "llm-page:byline",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Budd, Louis J. \"Mark Twain\". The Literary Encyclopedia. First published 26 July 2005",
+    "lang": null,
+    "via": "llm-page:Citation",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2005-07-26",
+    "lang": null,
+    "via": "llm-page:Citation",
+    "file": "P11870.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "identifier": [],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "related_agent": [],
+  "source": [],
+  "record_created": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 337,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.litencyc.com/php/speople.php?rec=true&UID=4486"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Mark Twain, by the end of his career, would exemplify the American ideal of..."
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.litencyc.com/images/v3_site/litencyc_icon.png"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Mark Twain, by the end of his career, would exemplify the American ideal of..."
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Literary Encyclopedia article 'Mark Twain' by Louis J. Budd: fact panel (dates, activity span, places, genres, activities) and the opening of a 2778-word article; the rest is behind a login/subscription wall.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

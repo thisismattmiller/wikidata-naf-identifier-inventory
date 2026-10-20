@@ -1,0 +1,103 @@
+{
+ "property": "P6821",
+ "property_label": "Alvin ID",
+ "files": [
+  {
+   "file": "P6821__alvin-person_9458_d5b1f1f9/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-person%3A9458&dswid=-7483"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm-page:record heading",
+    "file": "P6821.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorn",
+    "lang": "en",
+    "via": "llm-page:Alternative names (sic)",
+    "file": "P6821.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:Living period",
+    "file": "P6821.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:Living period",
+    "file": "P6821.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Author",
+    "lang": "en",
+    "via": "llm-page:Occupation",
+    "file": "P6821.json",
+    "uri": false
+   },
+   {
+    "value": "Typographer",
+    "lang": "en",
+    "via": "llm-page:Occupation",
+    "file": "P6821.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "alvin-person:9458",
+    "lang": null,
+    "via": "llm-page:Identifiers",
+    "file": "P6821.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "Alvin portal person record alvin-person:9458 'Twain, Mark, 1835-1910' with occupations, birth/death years, one alternative name, and 1 related resource; visible despite the login button.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,15 @@
+{
+ "property": "P11407",
+ "label": "Ozon person ID",
+ "files_read": ["P11407__243745/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata for the Ozon person page; og:title is the person's name in Russian, og:description is generic store boilerplate (not a bio, not extracted).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Твен Марк", "lang": "ru", "via": "embedded_opengraph.json: $[0]['og:title']"}
+  ],
+  "identifier": [
+   {"value": "243745", "raw": "https://www.ozon.ru/person/tven-mark-243745/", "via": "embedded_opengraph.json: $[0]['og:url']"}
+  ]
+ }
+}

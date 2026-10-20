@@ -1,0 +1,35 @@
+{
+ "property": "P3847",
+ "label": "Open Library subject ID",
+ "files_read": ["P3847__person_mark_twain__1835-1910_ea5c2525/xhr_1.json", "P3847__person_mark_twain__1835-1910_ea5c2525/xhr_2.json", "P3847__person_mark_twain__1835-1910_ea5c2525/xhr_3.json"],
+ "about_entity": true,
+ "notes": "HTML partials for the Open Library subject page 'person:mark_twain_(1835-1910)': xhr_1 is a publishing-history chart (edition counts per year), xhr_2 the related-subjects facets, xhr_3 a carousel of books ABOUT the subject (biographies/criticism, not his works, so no work values taken). Little person data; co-occurring People facets recorded as related_agent.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain (1835-1910)", "raw": "/subjects/person:mark_twain_(1835-1910)", "lang": "en", "via": "xhr_1.json/xhr_2.json: data-key attribute of div#subjectPublishingHistory / div#subjectRelatedFacets"}
+  ],
+  "name_variant": [
+   {"value": "Twain, Mark, 1835-1910", "lang": "en", "via": "xhr_2.json: Subjects facet ol-chip href=/subjects/twain_mark_1835-1910"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "mark_twain_(1835-1910)", "lang": null, "via": "xhr_1.json: data-key"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "mark_twain_(1835-1910)", "lang": null, "via": "xhr_1.json: data-key"}
+  ],
+  "identifier": [
+   {"value": "person:mark_twain_(1835-1910)", "via": "xhr_1.json: data-key; xhr_3.json carousel data-config q=person_key:\"mark_twain_(1835-1910)\""}
+  ],
+  "related_agent": [
+   {"value": "Henry James (1843-1916)", "relation": "co-occurring subject (People facet)", "via": "xhr_2.json: People facet"},
+   {"value": "Herman Melville (1819-1891)", "relation": "co-occurring subject (People facet)", "via": "xhr_2.json: People facet"},
+   {"value": "William Dean Howells (1837-1920)", "relation": "co-occurring subject (People facet)", "via": "xhr_2.json: People facet"},
+   {"value": "Ernest Hemingway (1899-1961)", "relation": "co-occurring subject (People facet)", "via": "xhr_2.json: People facet"},
+   {"value": "Theodore Roosevelt (1858-1919)", "relation": "co-occurring subject (People facet)", "via": "xhr_2.json: People facet"},
+   {"value": "Nathaniel Hawthorne (1804-1864)", "relation": "co-occurring subject (People facet)", "via": "xhr_2.json: People facet"},
+   {"value": "Edgar Allan Poe (1809-1849)", "relation": "co-occurring subject (People facet)", "via": "xhr_2.json: People facet"},
+   {"value": "Harriet Beecher Stowe (1811-1896)", "relation": "co-occurring subject (People facet)", "via": "xhr_2.json: People facet"},
+   {"value": "Abraham Lincoln (1809-1865)", "relation": "co-occurring subject (People facet)", "via": "xhr_2.json: People facet"}
+  ]
+ }
+}

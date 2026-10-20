@@ -1,0 +1,698 @@
+{
+ "property": "P1953",
+ "property_label": "Discogs artist ID",
+ "files": [
+  {
+   "file": "P1953__463414/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.discogs.com/artist/463414-Mark-Twain-2?redirected=true"
+  },
+  {
+   "file": "P1953__463414/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.discogs.com/artist/463414-Mark-Twain-2?redirected=true"
+  },
+  {
+   "file": "P1953__463414/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.discogs.com/artist/463414-Mark-Twain-2?redirected=true"
+  },
+  {
+   "file": "P1953__463414/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.discogs.com/artist/463414-Mark-Twain-2?anv=Marc%20Twain&filter_anv=1"
+  },
+  {
+   "file": "P1953__463414/xhr_1.img",
+   "format": "image",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ad-delivery.net/px.gif?ch=1&e=0.03224907490106543"
+  },
+  {
+   "file": "P1953__463414/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202609290101&st=env&sjk=547706998632288"
+  },
+  {
+   "file": "P1953__463414/xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.btloader.com/country?o=5150306120761344"
+  },
+  {
+   "file": "P1953__463414/xhr_8.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.btloader.com/pv?nlf=false&tid=jrozQmZZO4-8IKflbLO6G-a0fe7dd5a9&sid=EcescuhgV-18JYSaxID-a0fe7dd5a9&cv=2.1.196&upapi=true"
+  },
+  {
+   "file": "P1953__463414/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://www.discogs.com/artist/463414-Mark-Twain-2?anv=Marc%20Twain&filter_anv=1"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 2,
+  "image": 1,
+  "json": 2,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 6,
+  "http://www.w3.org/1999/xhtml/vocab#": 5,
+  "https://dev.twitter.com/cards#": 5,
+  "http://schema.org/": 4,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/MusicGroup",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain (2)",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain (2)",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://i.discogs.com/UDjlkL85y_VvV6URr7DXksewWzQWItxtfrBEQ8-oibc/rs:fit/g:sm/q:90/h:599/w:481/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2MzQx/NC0xMTQ5MDg3NDAy/LmpwZWc.jpeg",
+    "lang": null,
+    "via": "image",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "American humorist, novelist, writer and lecturer, born 30 November 1835 in Florida, Missouri, USA and died 21 April 1910 in Redding, Connecticut, USA.\r<br>",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "American humorist, novelist, writer and lecturer, born 30 November 1835 in Florida, Missouri, USA and died 21 April 1910 in Redding, Connecticut, USA.",
+    "lang": "en",
+    "via": "llm-page:Profile",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "463414",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url (https://www.discogs.com/artist/463414-Mark-Twain-2)",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "a463414",
+    "lang": null,
+    "via": "llm-page:artist id under variations",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:Real Name / Aliases",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "⠠⠍⠜⠅⠀⠠⠞⠺⠁⠔",
+    "lang": "en-Brai",
+    "via": "llm-page:Variations",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Marc Twain",
+    "lang": null,
+    "via": "llm-page:Variations",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "llm-page:Variations",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "М. Твен",
+    "lang": "ru",
+    "via": "llm-page:Variations",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Марк Твен",
+    "lang": "ru",
+    "via": "llm-page:Variations",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Profile",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Profile",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, USA",
+    "lang": "en",
+    "via": "llm-page:Profile",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, USA",
+    "lang": "en",
+    "via": "llm-page:Profile",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:Profile",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "novelist",
+    "lang": "en",
+    "via": "llm-page:Profile",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:Profile",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:Profile",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:Profile",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Длинные Ночи На Большой Реке",
+    "lang": "ru",
+    "via": "llm-page:master releases / Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Последнее Приключение",
+    "lang": "ru",
+    "via": "llm-page:master releases",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Четверо На Одном Плоту",
+    "lang": "ru",
+    "via": "llm-page:master releases / Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Scenes From American Novels",
+    "lang": "en",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Und Huckleberry Finn 1.Folge",
+    "lang": "de",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Und Huckleberry Finn 2.Folge - Auf Gefährlicher Entdeckungsfahrt",
+    "lang": "de",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "de",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Short Stories Of Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Prinț Și Cerșetor",
+    "lang": "ro",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Life On The Mississippi",
+    "lang": "en",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's America",
+    "lang": "en",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Том Сойер",
+    "lang": "bg",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "The Legend of Sleepy Hollow And Other Stories",
+    "lang": "en",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Und Huckleberry Finn I - Das Abenteuer Auf Dem Kirchhof Und Noch Vieles Mehr",
+    "lang": "de",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Und Huckleberry Finn 3 - Das Abenteuer In Der Höhle, Die Schatztruhe",
+    "lang": "de",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Und Huckleberry Finn - Das Abenteuer Um Eine Gestohlene Erbschaft",
+    "lang": "de",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Und Huckleberry Finn IV - Vagabundenleben Und Das Abenteuer Auf Dem Schiffswrack",
+    "lang": "de",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer - Huckleberry Finn",
+    "lang": "de",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson And Those Extraordinary Twins",
+    "lang": "en",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finns Abenteuer",
+    "lang": "de",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Huck, Jim And A Raft Of Troubles",
+    "lang": "en",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Die Abenteuer Des Huckleberry Finn 1",
+    "lang": "de",
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Kurt Vethake (co-credited / adapter on Tom Sawyer and Huckleberry Finns Abenteuer)",
+    "lang": null,
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Salem Ludwig (reader)",
+    "lang": null,
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Hiram Sherman (reader/co-credited)",
+    "lang": null,
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Ed Begley (reader)",
+    "lang": null,
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Will Geer (reader)",
+    "lang": null,
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "The Mind's Eye (co-credited production)",
+    "lang": null,
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Maral (co-credited)",
+    "lang": null,
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Ruth Scheerbarth (co-credited)",
+    "lang": null,
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   },
+   {
+    "value": "Livingston Gilbert (braille-credited co-artist on Pudd'nhead Wilson)",
+    "lang": null,
+    "via": "llm-page:Albums",
+    "file": "P1953.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "en"
+  ],
+  "image": [],
+  "description": [
+   "en"
+  ],
+  "identifier": [],
+  "name_variant": [
+   "en",
+   "en-Brai",
+   "ru"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "work": [
+   "bg",
+   "de",
+   "en",
+   "ro",
+   "ru"
+  ],
+  "related_agent": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 3,
+  "member (http://schema.org/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 535,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://i.discogs.com/UDjlkL85y_VvV6URr7DXksewWzQWItxtfrBEQ8-oibc/rs:fit/g:sm/q:90/h:599/w:481/czM6Ly9kaXNjb2dz/LWRhdGFi"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Discogs"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain (2)"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.discogs.com/artist/463414-Mark-Twain-2"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Explore the discography of Mark Twain (2). Shop for vinyl, CDs, and more from Mark Twain (2) on Discogs."
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "music.musician"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain (2)"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.discogs.com/artist/463414-Mark-Twain-2"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Explore the discography of Mark Twain (2). Shop for vinyl, CDs, and more from Mark Twain (2) on Discogs."
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 17606,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "sodar_query_id",
+     "n": 1,
+     "sample": "OmfAau2xGMrV3LoPm9WxwQU"
+    },
+    {
+     "path": "injector_basename",
+     "n": 1,
+     "sample": "sodar2"
+    },
+    {
+     "path": "bg_hash_basename",
+     "n": 1,
+     "sample": "5zy86NbR8f54HHV5BxfElrR01oDK3KtpXmGPzuANPWw"
+    },
+    {
+     "path": "bg_binary",
+     "n": 1,
+     "sample": "woS6DzMih8tdxm95VuNorxP48+4GqpiYGf0MIu+KJqulcFqflyjpzlaa0OZ5Bg95hxYXs5xbI3sevl6I8ZHi/QPVx+irOU9ouqbtacpHlH38npnnqwvBV+ei"
+    },
+    {
+     "path": "rc_enable",
+     "n": 1,
+     "sample": "y"
+    },
+    {
+     "path": "bg_snapshot_delay_ms",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "is_gen_204",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_7.json",
+   "format": "json",
+   "size": 37,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "country",
+     "n": 1,
+     "sample": "US"
+    },
+    {
+     "path": "isRestricted",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Discogs artist page 'Mark Twain (2)' with real name, short profile, name variations, and a discography (171 releases, 200 credits; first 25 shown) of audio recordings/adaptations of his works in several languages. Only the first page of releases is in the text. 'Sites' lists Wikipedia and adp.library.ucsb.edu links but the URLs are not in the text. Braille co-artist name decoded from braille.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

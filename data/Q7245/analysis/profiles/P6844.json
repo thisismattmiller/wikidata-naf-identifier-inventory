@@ -1,0 +1,258 @@
+{
+ "property": "P6844",
+ "property_label": "abART person ID",
+ "files": [
+  {
+   "file": "P6844__16405/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cs.isabart.org/api/ajax/cart_get_data.php"
+  }
+ ],
+ "formats": {
+  "json": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "cs",
+    "via": "llm-page:page heading",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain, 1835-1910",
+    "lang": "cs",
+    "via": "llm-page:'Odkaz. forma' row",
+    "file": "P6844.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "cs",
+    "via": "llm-page:'Skutečné jméno' (real name) note",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": "cs",
+    "via": "llm-page:'Viz též' row",
+    "file": "P6844.json",
+    "uri": false
+   },
+   {
+    "value": "Sieur Louis de Conte",
+    "lang": "cs",
+    "via": "llm-page:'Historie záhlaví' note",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "cs",
+    "via": "llm-page:birth line '*'",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "cs",
+    "via": "llm-page:death line '†'",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Spojené státy (United States)",
+    "lang": "cs",
+    "via": "llm-page:birth line",
+    "file": "P6844.json",
+    "uri": false
+   },
+   {
+    "value": "Florida (Missouri)",
+    "lang": "cs",
+    "via": "llm-page:'poznámka' row",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Connecticut, Spojené státy (United States)",
+    "lang": "cs",
+    "via": "llm-page:death line",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "novinář",
+    "lang": "cs",
+    "via": "llm-page:occupation line",
+    "file": "P6844.json",
+    "uri": false
+   },
+   {
+    "value": "spisovatel",
+    "lang": "cs",
+    "via": "llm-page:occupation line",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "americká",
+    "lang": "cs",
+    "via": "llm-page:'národnost' row",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": "cs",
+    "via": "llm-page:'pohlaví' row",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Panna ve zbroji. Životní příběhy Panny orleánské",
+    "lang": "cs",
+    "via": "llm-page:'Historie záhlaví' note (book attributed to Louis de Conte)",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Louis de Conte (1410-1492) je fiktivní autor Marka Twaina, jemuž připisuje autorství knihy Panna ve zbroji. Životní příběhy Panny orleánské. Iniciály celého jména Sieur Louis de Conte se shodují s iniciálami skutečného Twainova jména Samuel Langhorne Clemens.",
+    "lang": "cs",
+    "via": "llm-page:'Historie záhlaví' note",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "16405",
+    "lang": null,
+    "via": "llm-page:page URL person/16405",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "NK ČR authority jn19981002263",
+    "lang": null,
+    "via": "llm-page:'NK AUT' row (no URI given)",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Creative Commons Uveďte autora-Neužívejte dílo komerčně-Zachovejte licenci 3.0 Česká republika (CC BY-NC-SA 3.0 CZ)",
+    "lang": "cs",
+    "via": "llm-page:site footer",
+    "file": "P6844.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "cs"
+  ],
+  "name_variant": [
+   "cs"
+  ],
+  "pseudonym": [
+   "cs"
+  ],
+  "birth_date": [
+   "cs"
+  ],
+  "death_date": [
+   "cs"
+  ],
+  "birth_place": [
+   "cs"
+  ],
+  "death_place": [
+   "cs"
+  ],
+  "occupation": [
+   "cs"
+  ],
+  "nationality": [
+   "cs"
+  ],
+  "gender": [
+   "cs"
+  ],
+  "work": [
+   "cs"
+  ],
+  "description": [
+   "cs"
+  ],
+  "identifier": [],
+  "same_as": [],
+  "license": [
+   "cs"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 91,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "session_id",
+     "n": 1,
+     "sample": "q6ahcub032h9emj0rf78shgf7q"
+    },
+    {
+     "path": "countCallPage",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "cartCount",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "abART (Czech art archive) person page for Mark Twain: dates/places, occupations, nationality, gender, NK ČR authority id, real name, see-also Louis de Conte, and a Czech note explaining the Louis de Conte pseudonym.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

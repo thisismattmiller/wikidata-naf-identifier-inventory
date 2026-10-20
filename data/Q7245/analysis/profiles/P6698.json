@@ -1,0 +1,2040 @@
+{
+ "property": "P6698",
+ "property_label": "Japan Search name ID",
+ "files": [
+  {
+   "file": "P6698___dc163aa8/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https://jpsearch.go.jp/entity/chname/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+  },
+  {
+   "file": "P6698___dc163aa8/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https://jpsearch.go.jp/entity/chname/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+  },
+  {
+   "file": "P6698___dc163aa8/export_1.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https%3A%2F%2Fjpsearch.go.jp%2Fterm%2Ftype%2FAgent"
+  },
+  {
+   "file": "P6698___dc163aa8/export_2.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https%3A%2F%2Fjpsearch.go.jp%2Fterm%2Ftype%2FPerson"
+  },
+  {
+   "file": "P6698___dc163aa8/export_3.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https%3A%2F%2Fjpsearch.go.jp%2Fentity%2Ftime%2F1835"
+  },
+  {
+   "file": "P6698___dc163aa8/export_4.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https%3A%2F%2Fjpsearch.go.jp%2Fentity%2Ftime%2F1910"
+  },
+  {
+   "file": "P6698___dc163aa8/export_5.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https%3A%2F%2Fjpsearch.go.jp%2Fentity%2Fchname%2F"
+  },
+  {
+   "file": "P6698___dc163aa8/export_6.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=http%3A%2F%2Fdbpedia.org%2Fresource%2FMark_Twain"
+  },
+  {
+   "file": "P6698___dc163aa8/export_7.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=http%3A%2F%2Fid.ndl.go.jp%2Fauth%2Fentity%2F00459304"
+  },
+  {
+   "file": "P6698___dc163aa8/export_8.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=http%3A%2F%2Fja.dbpedia.org%2Fresource%2F%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+  },
+  {
+   "file": "P6698___dc163aa8/export_9.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=http%3A%2F%2Fviaf.org%2Fviaf%2F50566653"
+  },
+  {
+   "file": "P6698___dc163aa8/export_10.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ7245"
+  },
+  {
+   "file": "P6698___dc163aa8/export_11.json",
+   "format": "json",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/"
+  },
+  {
+   "file": "P6698___dc163aa8/export_12.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql"
+  },
+  {
+   "file": "P6698___dc163aa8/export_13.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/api/sparql-explain/"
+  },
+  {
+   "file": "P6698___dc163aa8/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/?output=json&query=define%20sql%3Adescribe-mode%20%22CBD%22%0ADESCRIBE%20%3Chttps%3A%2F%2Fjpsearch.go.jp%2Fentity%2Fchname%2F%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3%3E"
+  },
+  {
+   "file": "P6698___dc163aa8/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/?output=json&query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0Aselect%20*%20where%20%7B%3Chttps%3A%2F%2Fwww.aozora.gr.jp%2Findex_pages%2Fperson1431%3E%20schema%3Aversion%20%3Fvurl%20.%20%3Fvurl%20schema%3AinLanguage%20%3Fvlang%20.%20%3Fvlang%20schema%3Aname%20%3Flanglabel%20.%20FILTER(lang(%3Flanglabel)%3D%27en%27)%7D"
+  },
+  {
+   "file": "P6698___dc163aa8/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/?output=json&query=SELECT%20%3Ftype%20WHERE%20%7B%3Chttps%3A%2F%2Fwww.aozora.gr.jp%2Findex_pages%2Fperson1431%3E%20a%20%3Ftype%20.%7D"
+  },
+  {
+   "file": "P6698___dc163aa8/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/?output=json&query=SELECT%20%3Fdataset%20(count(%3Fs)%20as%20%3Fcount)%20WHERE%20%7B%0A%09%3Fs%0A%09%09jps%3AaccessInfo%2Fschema%3Aprovider%20%3Chttps%3A%2F%2Fjpsearch.go.jp%2Fentity%2Fchname%2F%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3%3E%3B%0A%09%09jps%3AsourceInfo%2Fschema%3Aprovider%20%3Fdataset%0A%7D%20GROUP%20BY%20%3Fdataset%20ORDER%20BY%20desc(%3Fcount)"
+  },
+  {
+   "file": "P6698___dc163aa8/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/rdf/sparql/?output=json&query=SELECT%20DISTINCT%20%3Fs%20%3Fo%20%3Fen%20WHERE%20%7B%20bind(%3Chttps%3A%2F%2Fjpsearch.go.jp%2Fentity%2Fchname%2F%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3%3E%20as%20%3Furi)%20%7B%3Furi%20%3Fq%20%3Fs%20.%7D%20UNION%20%7B%3Chttps%3A%2F%2Fjpsearch.go.jp%2Fentity%2Fchname%2F%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3%3E%20%3Fp%20%5B%3Chttps%3A%2F%2Fjpsearch.go.jp%2Fterm%2Fproperty%23relationType%3E%20%3Fs%5D%7D%20UNION%20%7B%3Chttps%3A%2F%2Fjpsearch.go.jp%2Fentity%2Fchname%2F%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3%23accessinfo%3E%20%3Fq%20%3Fs%20%7D%20UNION%20%7B%3Chttps%3A%2F%2Fjpsearch.go.jp%2Fentity%2Fchname%2F%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3%23sourceinfo%3E%20%3Fq%20%3Fs%20%7D%20%3Fs%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label%3E%20%3Fo%20.OPTIONAL%20%7B%3Fs%20%3Chttp%3A%2F%2Fschema.org%2Fname%3E%20%3Fen%20.%20FILTER(lang(%3Fen)%3D%22en%22)%7D%7D"
+  },
+  {
+   "file": "P6698___dc163aa8/conneg_1.jsonld",
+   "format": "json-ld",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/entity/chname/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+  },
+  {
+   "file": "P6698___dc163aa8/conneg_2.ttl",
+   "format": "turtle",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/entity/chname/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+  },
+  {
+   "file": "P6698___dc163aa8/conneg_3.rdf",
+   "format": "rdf-xml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/entity/chname/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+  },
+  {
+   "file": "P6698___dc163aa8/conneg_4.json",
+   "format": "json",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://jpsearch.go.jp/entity/chname/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_1.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https%3A%2F%2Fjpsearch.go.jp%2Fterm%2Ftype%2FAgent"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_2.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https%3A%2F%2Fjpsearch.go.jp%2Fterm%2Ftype%2FPerson"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_3.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https%3A%2F%2Fjpsearch.go.jp%2Fentity%2Ftime%2F1835"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_4.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https%3A%2F%2Fjpsearch.go.jp%2Fentity%2Ftime%2F1910"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_5.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https%3A%2F%2Fjpsearch.go.jp%2Fentity%2Fchname%2F"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_6.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=http%3A%2F%2Fdbpedia.org%2Fresource%2FMark_Twain"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_7.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=http%3A%2F%2Fid.ndl.go.jp%2Fauth%2Fentity%2F00459304"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_8.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=http%3A%2F%2Fja.dbpedia.org%2Fresource%2F%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%B3"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_9.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=http%3A%2F%2Fviaf.org%2Fviaf%2F50566653"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_10.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ7245"
+  },
+  {
+   "file": "P6698___dc163aa8/browser_export_11.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://jpsearch.go.jp/rdf/sparql/easy/"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "rdfa": 1,
+  "json": 28,
+  "html": 2,
+  "json-ld": 1,
+  "turtle": 1,
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "http://schema.org/": 27,
+  "http://www.w3.org/2002/07/owl#": 15,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 6,
+  "http://www.w3.org/2000/01/rdf-schema#": 6,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "マーク・トウェイン: Description of chname:マーク・トウェイン - Snorql for Japan Search",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "マーク・トウェイン",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "name",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "まーく・とうぇいん",
+    "lang": "ja-hira",
+    "via": "name",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja-kana",
+    "via": "name",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   },
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja",
+    "via": "name",
+    "file": "conneg_1.jsonld",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン",
+    "lang": null,
+    "via": "json:about",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "1835-1910, アメリカの作家、小説家。",
+    "lang": null,
+    "via": "json:description",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1835-1910, アメリカの作家、小説家。",
+    "lang": "ja",
+    "via": "llm:conneg_4.json: schema:description",
+    "file": "P6698.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "time:1835 (1835)",
+    "lang": null,
+    "via": "json:birthDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "https://jpsearch.go.jp/entity/time/1835",
+    "lang": null,
+    "via": "birthDate",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:conneg_4.json: schema:birthDate",
+    "file": "P6698.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "time:1910 (1910)",
+    "lang": null,
+    "via": "json:deathDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "https://jpsearch.go.jp/entity/time/1910",
+    "lang": null,
+    "via": "deathDate",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:conneg_4.json: schema:deathDate",
+    "file": "P6698.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=350",
+    "lang": null,
+    "via": "json:image",
+    "file": "embedded_microdata.json",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://www.aozora.gr.jp/index_pages/person1431 (トウェイン マーク)",
+    "lang": null,
+    "via": "json:url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.aozora.gr.jp/index_pages/person1431",
+    "lang": null,
+    "via": "url",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   }
+  ],
+  "type": [
+   {
+    "value": "https://jpsearch.go.jp/term/type/Person",
+    "lang": null,
+    "via": "type",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://jpsearch.go.jp/term/type/Agent",
+    "lang": null,
+    "via": "type",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://dbpedia.org/resource/Mark_Twain",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://ja.dbpedia.org/resource/マーク・トウェイン",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "http://id.ndl.go.jp/auth/entity/00459304",
+    "lang": null,
+    "via": "sameAs",
+    "file": "conneg_1.jsonld",
+    "uri": true
+   },
+   {
+    "value": "https://www.aozora.gr.jp/index_pages/person1431",
+    "lang": null,
+    "via": "llm:conneg_4.json: schema:url",
+    "file": "P6698.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm:conneg_4.json: schema:name@en; xhr_1.json",
+    "file": "P6698.json",
+    "uri": false
+   },
+   {
+    "value": "マーク・トウェイン",
+    "lang": "ja-Kana",
+    "via": "llm:conneg_4.json: schema:name@ja-kana",
+    "file": "P6698.json",
+    "uri": false
+   },
+   {
+    "value": "まーく・とうぇいん",
+    "lang": "ja-Hira",
+    "via": "llm:conneg_4.json: schema:name@ja-hira",
+    "file": "P6698.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_5.json: label of http://id.ndl.go.jp/auth/entity/00459304",
+    "file": "P6698.json",
+    "uri": false
+   },
+   {
+    "value": "トウェイン マーク",
+    "lang": "ja",
+    "via": "llm:xhr_5.json: label of https://www.aozora.gr.jp/index_pages/person1431",
+    "file": "P6698.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "アメリカ",
+    "lang": "ja",
+    "via": "llm:conneg_4.json: schema:description",
+    "file": "P6698.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "作家",
+    "lang": "ja",
+    "via": "llm:conneg_4.json: schema:description",
+    "file": "P6698.json",
+    "uri": false
+   },
+   {
+    "value": "小説家",
+    "lang": "ja",
+    "via": "llm:conneg_4.json: schema:description",
+    "file": "P6698.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン",
+    "lang": null,
+    "via": "llm:conneg_4.json: subject URI",
+    "file": "P6698.json",
+    "uri": true
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en",
+   "ja",
+   "ja-hira",
+   "ja-kana"
+  ],
+  "description": [
+   "ja"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "image": [],
+  "see_also": [],
+  "type": [],
+  "same_as": [],
+  "name_variant": [
+   "en",
+   "ja",
+   "ja-Hira",
+   "ja-Kana"
+  ],
+  "nationality": [
+   "ja"
+  ],
+  "occupation": [
+   "ja"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "isDefinedBy (http://www.w3.org/2000/01/rdf-schema#)": 3,
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 1034,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "[].name[]",
+     "n": 4,
+     "sample": "Twain, Mark"
+    },
+    {
+     "path": "[].id",
+     "n": 2,
+     "sample": "https://jpsearch.go.jp/rdf/sparql/easy/?describe=https://jpsearch.go.jp/entity/chname/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%"
+    },
+    {
+     "path": "[].@type",
+     "n": 2,
+     "sample": "WebPage"
+    },
+    {
+     "path": "[].@context",
+     "n": 2,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "マーク・トウェイン: Description of chname:マーク・トウェイン - Snorql for Japan Search"
+    },
+    {
+     "path": "[].about",
+     "n": 1,
+     "sample": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "[].birthDate",
+     "n": 1,
+     "sample": "time:1835 (1835)"
+    },
+    {
+     "path": "[].deathDate",
+     "n": 1,
+     "sample": "time:1910 (1910)"
+    },
+    {
+     "path": "[].description",
+     "n": 1,
+     "sample": "1835-1910, アメリカの作家、小説家。"
+    },
+    {
+     "path": "[].image",
+     "n": 1,
+     "sample": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=350"
+    },
+    {
+     "path": "[].url",
+     "n": 1,
+     "sample": "https://www.aozora.gr.jp/index_pages/person1431 (トウェイン マーク)"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].name",
+     "value": "マーク・トウェイン: Description of chname:マーク・トウェイン - Snorql for Japan Search"
+    },
+    {
+     "path": "[].about",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "[].id",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "[].name[]",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "[].name[]",
+     "value": "マーク・トウェイン"
+    },
+    {
+     "path": "[].name[]",
+     "value": "マーク・トウェイン"
+    },
+    {
+     "path": "[].birthDate",
+     "value": "time:1835 (1835)"
+    },
+    {
+     "path": "[].deathDate",
+     "value": "time:1910 (1910)"
+    },
+    {
+     "path": "[].description",
+     "value": "1835-1910, アメリカの作家、小説家。"
+    },
+    {
+     "path": "[].image",
+     "value": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=350"
+    },
+    {
+     "path": "[].url",
+     "value": "https://www.aozora.gr.jp/index_pages/person1431 (トウェイン マーク)"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "url"
+   ]
+  },
+  {
+   "file": "export_1.json",
+   "format": "json",
+   "size": 214,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=https://jpsearch.go.jp/term/type/Agent}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=https://jpsearch.go.jp/term/type/Agent}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:35.423 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "export_2.json",
+   "format": "json",
+   "size": 216,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=https://jpsearch.go.jp/term/type/Person}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=https://jpsearch.go.jp/term/type/Person}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:36.085 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "export_3.json",
+   "format": "json",
+   "size": 216,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=https://jpsearch.go.jp/entity/time/1835}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=https://jpsearch.go.jp/entity/time/1835}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:37.140 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "detail",
+     "value": "parameter:{describe=https://jpsearch.go.jp/entity/time/1835}"
+    },
+    {
+     "path": "info[]",
+     "value": "{describe=https://jpsearch.go.jp/entity/time/1835}"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "export_4.json",
+   "format": "json",
+   "size": 216,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=https://jpsearch.go.jp/entity/time/1910}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=https://jpsearch.go.jp/entity/time/1910}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:38.089 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "detail",
+     "value": "parameter:{describe=https://jpsearch.go.jp/entity/time/1910}"
+    },
+    {
+     "path": "info[]",
+     "value": "{describe=https://jpsearch.go.jp/entity/time/1910}"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "export_5.json",
+   "format": "json",
+   "size": 212,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=https://jpsearch.go.jp/entity/chname/}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=https://jpsearch.go.jp/entity/chname/}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:39.093 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "export_6.json",
+   "format": "json",
+   "size": 214,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=http://dbpedia.org/resource/Mark_Twain}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=http://dbpedia.org/resource/Mark_Twain}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:40.099 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "detail",
+     "value": "parameter:{describe=http://dbpedia.org/resource/Mark_Twain}"
+    },
+    {
+     "path": "info[]",
+     "value": "{describe=http://dbpedia.org/resource/Mark_Twain}"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "export_7.json",
+   "format": "json",
+   "size": 218,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=http://id.ndl.go.jp/auth/entity/00459304}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=http://id.ndl.go.jp/auth/entity/00459304}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:41.100 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "export_8.json",
+   "format": "json",
+   "size": 254,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=http://ja.dbpedia.org/resource/マーク・トウェイン}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=http://ja.dbpedia.org/resource/マーク・トウェイン}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:42.395 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "detail",
+     "value": "parameter:{describe=http://ja.dbpedia.org/resource/マーク・トウェイン}"
+    },
+    {
+     "path": "info[]",
+     "value": "{describe=http://ja.dbpedia.org/resource/マーク・トウェイン}"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "export_9.json",
+   "format": "json",
+   "size": 196,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=http://viaf.org/viaf/50566653}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=http://viaf.org/viaf/50566653}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:43.110 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "export_10.json",
+   "format": "json",
+   "size": 210,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=http://www.wikidata.org/entity/Q7245}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=http://www.wikidata.org/entity/Q7245}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:44.103 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "export_11.json",
+   "format": "json",
+   "size": 126,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:empty"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "empty"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 11:25:45.103 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 5562,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "results.bindings[].s.type",
+     "n": 18,
+     "sample": "uri"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "n": 18,
+     "sample": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].p.type",
+     "n": 18,
+     "sample": "uri"
+    },
+    {
+     "path": "results.bindings[].p.value",
+     "n": 18,
+     "sample": "http://schema.org/name"
+    },
+    {
+     "path": "results.bindings[].o.type",
+     "n": 18,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "n": 18,
+     "sample": "まーく・とうぇいん"
+    },
+    {
+     "path": "results.bindings[].o.lang",
+     "n": 4,
+     "sample": "ja-hira"
+    },
+    {
+     "path": "head.vars[]",
+     "n": 3,
+     "sample": "s"
+    },
+    {
+     "path": "results.distinct",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "results.ordered",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "https://jpsearch.go.jp/entity/time/1910"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=350"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "http://ja.dbpedia.org/resource/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "http://dbpedia.org/resource/Mark_Twain"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "1835-1910, アメリカの作家、小説家。"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "https://jpsearch.go.jp/entity/time/1835"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 137,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "head.vars[]",
+     "n": 3,
+     "sample": "vurl"
+    },
+    {
+     "path": "results.distinct",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "results.ordered",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 115,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "head.vars[]",
+     "n": 1,
+     "sample": "type"
+    },
+    {
+     "path": "results.distinct",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "results.ordered",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 127,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "head.vars[]",
+     "n": 2,
+     "sample": "dataset"
+    },
+    {
+     "path": "results.distinct",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "results.ordered",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 1317,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "results.bindings[].s.type",
+     "n": 7,
+     "sample": "uri"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "n": 7,
+     "sample": "https://jpsearch.go.jp/entity/time/1835"
+    },
+    {
+     "path": "results.bindings[].o.type",
+     "n": 7,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "n": 7,
+     "sample": "1835年"
+    },
+    {
+     "path": "head.vars[]",
+     "n": 3,
+     "sample": "s"
+    },
+    {
+     "path": "results.bindings[].en.type",
+     "n": 3,
+     "sample": "literal"
+    },
+    {
+     "path": "results.bindings[].en.xml:lang",
+     "n": 3,
+     "sample": "en"
+    },
+    {
+     "path": "results.bindings[].en.value",
+     "n": 3,
+     "sample": "1835"
+    },
+    {
+     "path": "results.distinct",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "results.ordered",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/time/1835"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "1835年"
+    },
+    {
+     "path": "results.bindings[].en.value",
+     "value": "1835"
+    },
+    {
+     "path": "results.bindings[].s.value",
+     "value": "https://jpsearch.go.jp/entity/time/1910"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "1910年"
+    },
+    {
+     "path": "results.bindings[].en.value",
+     "value": "1910"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "results.bindings[].en.value",
+     "value": "Twain"
+    },
+    {
+     "path": "results.bindings[].o.value",
+     "value": "トウェイン マーク"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "conneg_4.json",
+   "format": "json",
+   "size": 2184,
+   "path_count": 21,
+   "paths": [
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/2002/07/owl#sameAs[].type",
+     "n": 5,
+     "sample": "uri"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/2002/07/owl#sameAs[].value",
+     "n": 5,
+     "sample": "http://id.ndl.go.jp/auth/entity/00459304"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/name[].type",
+     "n": 4,
+     "sample": "literal"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/name[].value",
+     "n": 4,
+     "sample": "まーく・とうぇいん"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/name[].lang",
+     "n": 4,
+     "sample": "ja-hira"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/1999/02/22-rdf-syntax-ns#type[].type",
+     "n": 2,
+     "sample": "uri"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/1999/02/22-rdf-syntax-ns#type[].value",
+     "n": 2,
+     "sample": "https://jpsearch.go.jp/term/type/Agent"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/2000/01/rdf-schema#label[].type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/2000/01/rdf-schema#label[].value",
+     "n": 1,
+     "sample": "マーク・トウェイン"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/2000/01/rdf-schema#isDefinedBy[].type",
+     "n": 1,
+     "sample": "uri"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/2000/01/rdf-schema#isDefinedBy[].value",
+     "n": 1,
+     "sample": "https://jpsearch.go.jp/entity/chname/"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/birthDate[].type",
+     "n": 1,
+     "sample": "uri"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/birthDate[].value",
+     "n": 1,
+     "sample": "https://jpsearch.go.jp/entity/time/1835"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/deathDate[].type",
+     "n": 1,
+     "sample": "uri"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/deathDate[].value",
+     "n": 1,
+     "sample": "https://jpsearch.go.jp/entity/time/1910"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/url[].type",
+     "n": 1,
+     "sample": "uri"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/url[].value",
+     "n": 1,
+     "sample": "https://www.aozora.gr.jp/index_pages/person1431"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/description[].type",
+     "n": 1,
+     "sample": "literal"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/description[].value",
+     "n": 1,
+     "sample": "1835-1910, アメリカの作家、小説家。"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/image[].type",
+     "n": 1,
+     "sample": "uri"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/image[].value",
+     "n": 1,
+     "sample": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=350"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/2000/01/rdf-schema#label[].value",
+     "value": "マーク・トウェイン"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/birthDate[].value",
+     "value": "https://jpsearch.go.jp/entity/time/1835"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/deathDate[].value",
+     "value": "https://jpsearch.go.jp/entity/time/1910"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/2002/07/owl#sameAs[].value",
+     "value": "http://ja.dbpedia.org/resource/マーク・トウェイン"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://www.w3.org/2002/07/owl#sameAs[].value",
+     "value": "http://dbpedia.org/resource/Mark_Twain"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/name[].value",
+     "value": "マーク・トウェイン"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/name[].value",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/name[].value",
+     "value": "マーク・トウェイン"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/description[].value",
+     "value": "1835-1910, アメリカの作家、小説家。"
+    },
+    {
+     "path": "https://jpsearch.go.jp/entity/chname/マーク・トウェイン.http://schema.org/image[].value",
+     "value": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=350"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_1.json",
+   "format": "json",
+   "size": 214,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=https://jpsearch.go.jp/term/type/Agent}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=https://jpsearch.go.jp/term/type/Agent}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:12:50.971 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_2.json",
+   "format": "json",
+   "size": 216,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=https://jpsearch.go.jp/term/type/Person}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=https://jpsearch.go.jp/term/type/Person}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:12:52.013 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_3.json",
+   "format": "json",
+   "size": 216,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=https://jpsearch.go.jp/entity/time/1835}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=https://jpsearch.go.jp/entity/time/1835}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:12:53.361 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "detail",
+     "value": "parameter:{describe=https://jpsearch.go.jp/entity/time/1835}"
+    },
+    {
+     "path": "info[]",
+     "value": "{describe=https://jpsearch.go.jp/entity/time/1835}"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_4.json",
+   "format": "json",
+   "size": 216,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=https://jpsearch.go.jp/entity/time/1910}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=https://jpsearch.go.jp/entity/time/1910}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:12:54.401 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "detail",
+     "value": "parameter:{describe=https://jpsearch.go.jp/entity/time/1910}"
+    },
+    {
+     "path": "info[]",
+     "value": "{describe=https://jpsearch.go.jp/entity/time/1910}"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_5.json",
+   "format": "json",
+   "size": 212,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=https://jpsearch.go.jp/entity/chname/}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=https://jpsearch.go.jp/entity/chname/}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:12:55.829 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_6.json",
+   "format": "json",
+   "size": 214,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=http://dbpedia.org/resource/Mark_Twain}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=http://dbpedia.org/resource/Mark_Twain}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:12:57.163 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "detail",
+     "value": "parameter:{describe=http://dbpedia.org/resource/Mark_Twain}"
+    },
+    {
+     "path": "info[]",
+     "value": "{describe=http://dbpedia.org/resource/Mark_Twain}"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_7.json",
+   "format": "json",
+   "size": 218,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=http://id.ndl.go.jp/auth/entity/00459304}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=http://id.ndl.go.jp/auth/entity/00459304}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:12:58.480 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_8.json",
+   "format": "json",
+   "size": 254,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=http://ja.dbpedia.org/resource/マーク・トウェイン}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=http://ja.dbpedia.org/resource/マーク・トウェイン}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:12:59.511 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "detail",
+     "value": "parameter:{describe=http://ja.dbpedia.org/resource/マーク・トウェイン}"
+    },
+    {
+     "path": "info[]",
+     "value": "{describe=http://ja.dbpedia.org/resource/マーク・トウェイン}"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_9.json",
+   "format": "json",
+   "size": 196,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=http://viaf.org/viaf/50566653}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=http://viaf.org/viaf/50566653}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:13:00.858 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_10.json",
+   "format": "json",
+   "size": 210,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:{describe=http://www.wikidata.org/entity/Q7245}"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "{describe=http://www.wikidata.org/entity/Q7245}"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:13:01.889 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_export_11.json",
+   "format": "json",
+   "size": 126,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "detail",
+     "n": 1,
+     "sample": "parameter:empty"
+    },
+    {
+     "path": "info[]",
+     "n": 1,
+     "sample": "empty"
+    },
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "2026/10/03 15:13:03.242 JST"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "illegal-param"
+    },
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Japan Search Snorql DESCRIBE view of chname entity マーク・トウェイン: labels, birth/death years, Japanese description, image, Aozora Bunko link and owl:sameAs links.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

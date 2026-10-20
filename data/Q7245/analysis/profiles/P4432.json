@@ -1,0 +1,1054 @@
+{
+ "property": "P4432",
+ "property_label": "Artists of the World ID",
+ "files": [
+  {
+   "file": "P4432__42600653/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://aow.degruyter.com/artist/_42600653"
+  },
+  {
+   "file": "P4432__42600653/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://aow.degruyter.com/artist/_42600653"
+  },
+  {
+   "file": "P4432__42600653/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://aow.degruyter.com/artist/_42600653"
+  },
+  {
+   "file": "P4432__42600653/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://aow.degruyter.com/backend/login/validateUser"
+  },
+  {
+   "file": "P4432__42600653/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://aow.degruyter.com/backend/entry/_42600653?t=1790977056255"
+  },
+  {
+   "file": "P4432__42600653/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://aow.degruyter.com/wp/wp-content/locales-production/en/common.json?ts=1790977056"
+  },
+  {
+   "file": "P4432__42600653/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://jovis.de/ip-country/"
+  },
+  {
+   "file": "P4432__42600653/xhr_5.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://aow.degruyter.com/assets/degruyter-logo.svg"
+  },
+  {
+   "file": "P4432__42600653/xhr_6.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://aow.degruyter.com/assets/icons/clipboard-icon.svg"
+  },
+  {
+   "file": "P4432__42600653/xhr_7.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://aow.degruyter.com/assets/icons/up-icon.svg"
+  },
+  {
+   "file": "P4432__42600653/xhr_8.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://aow.degruyter.com/assets/icons/not-icon.svg"
+  },
+  {
+   "file": "P4432__42600653/xhr_9.svg",
+   "format": "svg",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://aow.degruyter.com/assets/icons/triangle.svg"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 4,
+  "svg": 5
+ },
+ "vocabularies": {
+  "http://schema.org/": 6,
+  "http://ogp.me/ns#": 4,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P4432.json",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://aow.degruyter.com/artist/_42600653",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Master Draughtsman",
+    "lang": null,
+    "via": "hasOccupation",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "10472",
+    "lang": null,
+    "via": "json:occupations",
+    "file": "xhr_2.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida (Missouri)",
+    "lang": null,
+    "via": "json:keywords.placeOfBirth",
+    "file": "xhr_2.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding (Connecticut)",
+    "lang": null,
+    "via": "json:keywords.placeOfDeath",
+    "file": "xhr_2.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "42600653",
+    "lang": null,
+    "via": "llm-page:page URL artist/_42600653",
+    "file": "P4432.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2026-10-02",
+    "lang": null,
+    "via": "llm-page:'Article published on October 2, 2026'",
+    "file": "P4432.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-10-02",
+    "lang": null,
+    "via": "llm-page:'Last modified October 2, 2026'",
+    "file": "P4432.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "en"
+  ],
+  "see_also": [],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [],
+  "birth_place": [],
+  "death_place": [],
+  "identifier": [],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 363,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark - Artists of the World"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Discover detailed information about Twain, Mark in the online resource Artists of the World published by academic publis"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://https://aow.degruyter.com/artist/_42600653"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "profile"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark - Artists of the World"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Discover detailed information about Twain, Mark in the online resource Artists of the World published by academic publisher De Gruyter Brill."
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 81,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "Cannot GET /login/validateUser"
+    },
+    {
+     "path": "error",
+     "n": 1,
+     "sample": "Not Found"
+    },
+    {
+     "path": "statusCode",
+     "n": 1,
+     "sample": "404"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 452,
+   "path_count": 15,
+   "paths": [
+    {
+     "path": "_id",
+     "n": 1,
+     "sample": "_42600653"
+    },
+    {
+     "path": "entryType",
+     "n": 1,
+     "sample": "artist"
+    },
+    {
+     "path": "name",
+     "n": 1,
+     "sample": "Twain, Mark"
+    },
+    {
+     "path": "keywords.placeOfBirth[]",
+     "n": 1,
+     "sample": "Florida (Missouri)"
+    },
+    {
+     "path": "keywords.placeOfDeath[]",
+     "n": 1,
+     "sample": "Redding (Connecticut)"
+    },
+    {
+     "path": "meta.pubDate",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "meta.correctedDate",
+     "n": 1,
+     "sample": "2013-12-09T00:00:00.000Z"
+    },
+    {
+     "path": "isFreeAccess",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "occupations[]",
+     "n": 1,
+     "sample": "10472"
+    },
+    {
+     "path": "_occupations[]._id",
+     "n": 1,
+     "sample": "10472"
+    },
+    {
+     "path": "_occupations[].enName",
+     "n": 1,
+     "sample": "Master Draughtsman"
+    },
+    {
+     "path": "_occupations[].deName",
+     "n": 1,
+     "sample": "Zeichner*in"
+    },
+    {
+     "path": "dateStart[]",
+     "n": 1,
+     "sample": "1835-11-30T00:00:00.000Z"
+    },
+    {
+     "path": "dateEnd[]",
+     "n": 1,
+     "sample": "1910-04-21T00:00:00.000Z"
+    },
+    {
+     "path": "isAuthorized",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "name",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "dateStart[]",
+     "value": "1835-11-30T00:00:00.000Z"
+    },
+    {
+     "path": "dateEnd[]",
+     "value": "1910-04-21T00:00:00.000Z"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 20864,
+   "path_count": 349,
+   "paths": [
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "200"
+    },
+    {
+     "path": "data.default.cite-options",
+     "n": 1,
+     "sample": "Cite Options"
+    },
+    {
+     "path": "data.default.resultsPerPage",
+     "n": 1,
+     "sample": "Results per page"
+    },
+    {
+     "path": "data.default.of",
+     "n": 1,
+     "sample": "of"
+    },
+    {
+     "path": "data.default.Explore",
+     "n": 1,
+     "sample": "Explore"
+    },
+    {
+     "path": "data.default.Exact",
+     "n": 1,
+     "sample": "Exact"
+    },
+    {
+     "path": "data.default.YYYY",
+     "n": 1,
+     "sample": "YYYY"
+    },
+    {
+     "path": "data.default.Map settings",
+     "n": 1,
+     "sample": "Map settings"
+    },
+    {
+     "path": "data.default.Geographic Data",
+     "n": 1,
+     "sample": "Geographic Data"
+    },
+    {
+     "path": "data.default.Entry Not Found",
+     "n": 1,
+     "sample": "Entry Not Found"
+    },
+    {
+     "path": "data.default.Apply",
+     "n": 1,
+     "sample": "Apply"
+    },
+    {
+     "path": "data.default.Not found",
+     "n": 1,
+     "sample": "not found"
+    },
+    {
+     "path": "data.default.Report an issue",
+     "n": 1,
+     "sample": "Report an issue"
+    },
+    {
+     "path": "data.default.nameVariationModalTitle1",
+     "n": 1,
+     "sample": "Name Variations for"
+    },
+    {
+     "path": "data.default.noData",
+     "n": 1,
+     "sample": "No data found"
+    },
+    {
+     "path": "data.default.Get Access",
+     "n": 1,
+     "sample": "Get Access"
+    },
+    {
+     "path": "data.default.payWallNotAuthorized",
+     "n": 1,
+     "sample": "You don't have access to this content!"
+    },
+    {
+     "path": "data.default.navBarText",
+     "n": 1,
+     "sample": "Artists of the World"
+    },
+    {
+     "path": "data.default.Artists of the World",
+     "n": 1,
+     "sample": "Artists of the World"
+    },
+    {
+     "path": "data.default.itemsPerPage",
+     "n": 1,
+     "sample": "Items per page"
+    },
+    {
+     "path": "data.default.results",
+     "n": 1,
+     "sample": "results"
+    },
+    {
+     "path": "data.default.nextResult",
+     "n": 1,
+     "sample": "nextResult"
+    },
+    {
+     "path": "data.default.prevResult",
+     "n": 1,
+     "sample": "prevResult"
+    },
+    {
+     "path": "data.default.searchResults",
+     "n": 1,
+     "sample": "Search Results"
+    },
+    {
+     "path": "data.default.backToTop",
+     "n": 1,
+     "sample": "Back To Top"
+    },
+    {
+     "path": "data.default.salesTeam",
+     "n": 1,
+     "sample": "salesTeam"
+    },
+    {
+     "path": "data.default.inclVat",
+     "n": 1,
+     "sample": "inclVat"
+    },
+    {
+     "path": "data.default.Email",
+     "n": 1,
+     "sample": "Email"
+    },
+    {
+     "path": "data.default.Alphabetical Search",
+     "n": 1,
+     "sample": "Alphabetical Search"
+    },
+    {
+     "path": "data.default.Type",
+     "n": 1,
+     "sample": "Type"
+    },
+    {
+     "path": "data.default.payWallTitle",
+     "n": 1,
+     "sample": "Get access to „Artists of the World“"
+    },
+    {
+     "path": "data.default.Allgemeines Künstlerlexikon",
+     "n": 1,
+     "sample": "Allgemeines Künstlerlexikon"
+    },
+    {
+     "path": "data.default.help",
+     "n": 1,
+     "sample": "Help"
+    },
+    {
+     "path": "data.default.Sign out",
+     "n": 1,
+     "sample": "Sign out"
+    },
+    {
+     "path": "data.default.Sign in via Institution",
+     "n": 1,
+     "sample": "Sign in via Institution"
+    },
+    {
+     "path": "data.default.Sign in",
+     "n": 1,
+     "sample": "Sign in"
+    },
+    {
+     "path": "data.default.Sign up",
+     "n": 1,
+     "sample": "Sign up"
+    },
+    {
+     "path": "data.default.Alphabetical",
+     "n": 1,
+     "sample": "Alphabetical"
+    },
+    {
+     "path": "data.default.Advanced",
+     "n": 1,
+     "sample": "Advanced"
+    },
+    {
+     "path": "data.default.Standard",
+     "n": 1,
+     "sample": "Standard"
+    },
+    {
+     "path": "data.default.Symbols and Signs",
+     "n": 1,
+     "sample": "Symbols and Signs"
+    },
+    {
+     "path": "data.default.Abbreviations",
+     "n": 1,
+     "sample": "Abbreviations"
+    },
+    {
+     "path": "data.default.Praemonenda",
+     "n": 1,
+     "sample": "Praemonenda"
+    },
+    {
+     "path": "data.default.Italian",
+     "n": 1,
+     "sample": "Italian"
+    },
+    {
+     "path": "data.default.Russian",
+     "n": 1,
+     "sample": "Russian"
+    },
+    {
+     "path": "data.default.French",
+     "n": 1,
+     "sample": "French"
+    },
+    {
+     "path": "data.default.English",
+     "n": 1,
+     "sample": "English"
+    },
+    {
+     "path": "data.default.German",
+     "n": 1,
+     "sample": "German"
+    },
+    {
+     "path": "data.default.Latin",
+     "n": 1,
+     "sample": "Latin"
+    },
+    {
+     "path": "data.default.Created by",
+     "n": 1,
+     "sample": "Created by"
+    },
+    {
+     "path": "data.default.Find on page",
+     "n": 1,
+     "sample": "Find on page"
+    },
+    {
+     "path": "data.default.Overview",
+     "n": 1,
+     "sample": "Overview"
+    },
+    {
+     "path": "data.default.PND-ID",
+     "n": 1,
+     "sample": "PND-ID"
+    },
+    {
+     "path": "data.default.Place Cited",
+     "n": 1,
+     "sample": "Place Cited"
+    },
+    {
+     "path": "data.default.Date Cited",
+     "n": 1,
+     "sample": "Date Cited"
+    },
+    {
+     "path": "data.default.Geographical data",
+     "n": 1,
+     "sample": "Geographical data"
+    },
+    {
+     "path": "data.default.scope",
+     "n": 1,
+     "sample": "Scope"
+    },
+    {
+     "path": "data.default.in",
+     "n": 1,
+     "sample": "in"
+    },
+    {
+     "path": "data.default.Citation",
+     "n": 1,
+     "sample": "Citations"
+    },
+    {
+     "path": "data.default.Lemma with lines",
+     "n": 1,
+     "sample": "Lemma with lines"
+    },
+    {
+     "path": "data.default.Download",
+     "n": 1,
+     "sample": "Download"
+    },
+    {
+     "path": "data.default.Copied",
+     "n": 1,
+     "sample": "Copied"
+    },
+    {
+     "path": "data.default.Style",
+     "n": 1,
+     "sample": "Style"
+    },
+    {
+     "path": "data.default.Cite",
+     "n": 1,
+     "sample": "Cite"
+    },
+    {
+     "path": "data.default.News",
+     "n": 1,
+     "sample": "News"
+    },
+    {
+     "path": "data.default.Logged Out Successfully",
+     "n": 1,
+     "sample": "Logged Out Successfully"
+    },
+    {
+     "path": "data.default.Logged Out",
+     "n": 1,
+     "sample": "Logged Out"
+    },
+    {
+     "path": "data.default.Logged In Successfully",
+     "n": 1,
+     "sample": "Logged In Successfully"
+    },
+    {
+     "path": "data.default.Title",
+     "n": 1,
+     "sample": "Artist"
+    },
+    {
+     "path": "data.HOMEPAGE.back-to-home",
+     "n": 1,
+     "sample": "Back to home"
+    },
+    {
+     "path": "data.HOMEPAGE.see-all-new-items",
+     "n": 1,
+     "sample": "See all new and updated entries"
+    },
+    {
+     "path": "data.HOMEPAGE.contact-sales",
+     "n": 1,
+     "sample": "Contact our sales team"
+    },
+    {
+     "path": "data.HOMEPAGE.see-all-free-items",
+     "n": 1,
+     "sample": "See all {{ count }} publicly available entries"
+    },
+    {
+     "path": "data.HOMEPAGE.home-title",
+     "n": 1,
+     "sample": "The world’s largest artists database featuring {{ count }} entries"
+    },
+    {
+     "path": "data.SEARCH.search-type",
+     "n": 1,
+     "sample": "Search type"
+    },
+    {
+     "path": "data.SEARCH.load-more-button",
+     "n": 1,
+     "sample": "Load more results"
+    },
+    {
+     "path": "data.SEARCH.add-term",
+     "n": 1,
+     "sample": "Add search field"
+    },
+    {
+     "path": "data.SEARCH.no-autocomplete-results",
+     "n": 1,
+     "sample": "No matching results"
+    },
+    {
+     "path": "data.SEARCH.no-entries-found",
+     "n": 1,
+     "sample": "No matching entries could be found for your search. Please try a different search category or check the filters you may "
+    },
+    {
+     "path": "data.SEARCH.Result",
+     "n": 1,
+     "sample": "result"
+    },
+    {
+     "path": "data.SEARCH.for",
+     "n": 1,
+     "sample": "for"
+    },
+    {
+     "path": "data.SEARCH.Results",
+     "n": 1,
+     "sample": "results"
+    },
+    {
+     "path": "data.SEARCH.SEARCH.range-from",
+     "n": 1,
+     "sample": "From YYYY"
+    },
+    {
+     "path": "data.SEARCH.advanced-search",
+     "n": 1,
+     "sample": "Advanced Search"
+    },
+    {
+     "path": "data.SEARCH.clear",
+     "n": 1,
+     "sample": "Clear"
+    },
+    {
+     "path": "data.SEARCH.search-button",
+     "n": 1,
+     "sample": "Search"
+    },
+    {
+     "path": "data.SEARCH.enter-search-term",
+     "n": 1,
+     "sample": "Enter search term ..."
+    },
+    {
+     "path": "data.SEARCH.add-row",
+     "n": 1,
+     "sample": "Add Row"
+    },
+    {
+     "path": "data.SEARCH.NOT",
+     "n": 1,
+     "sample": "NOT"
+    },
+    {
+     "path": "data.SEARCH.OR",
+     "n": 1,
+     "sample": "OR"
+    },
+    {
+     "path": "data.SEARCH.AND",
+     "n": 1,
+     "sample": "AND"
+    },
+    {
+     "path": "data.SEARCH-FILTER.updated",
+     "n": 1,
+     "sample": "Updated"
+    },
+    {
+     "path": "data.SEARCH-FILTER.new",
+     "n": 1,
+     "sample": "New"
+    },
+    {
+     "path": "data.SEARCH-FILTER.recently-edited",
+     "n": 1,
+     "sample": "Recently edited"
+    },
+    {
+     "path": "data.SEARCH-FILTER.NULL",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "data.SEARCH-FILTER.active-until-family",
+     "n": 1,
+     "sample": "Last mentioned"
+    },
+    {
+     "path": "data.SEARCH-FILTER.active-from-family",
+     "n": 1,
+     "sample": "First mentioned"
+    },
+    {
+     "path": "data.SEARCH-FILTER.disbanded-group",
+     "n": 1,
+     "sample": "Disbanded"
+    },
+    {
+     "path": "data.SEARCH-FILTER.founded-group",
+     "n": 1,
+     "sample": "Founded"
+    },
+    {
+     "path": "data.SEARCH-FILTER.first-mentioned-group-family",
+     "n": 1,
+     "sample": "First mentioned"
+    },
+    {
+     "path": "data.SEARCH-FILTER.last-mentioned-group-family",
+     "n": 1,
+     "sample": "Last mentioned"
+    },
+    {
+     "path": "data.SEARCH-FILTER.name",
+     "n": 1,
+     "sample": "Artist, Family, Group"
+    },
+    {
+     "path": "data.SEARCH-FILTER.year",
+     "n": 1,
+     "sample": "Year of birth"
+    },
+    {
+     "path": "data.SEARCH-FILTER.place-end",
+     "n": 1,
+     "sample": "Place of death"
+    },
+    {
+     "path": "data.SEARCH-FILTER.place-start",
+     "n": 1,
+     "sample": "Place of birth"
+    },
+    {
+     "path": "data.SEARCH-FILTER.date-end",
+     "n": 1,
+     "sample": "Year of death"
+    },
+    {
+     "path": "data.SEARCH-FILTER.date-start",
+     "n": 1,
+     "sample": "Year of birth"
+    },
+    {
+     "path": "data.SEARCH-FILTER.access-type",
+     "n": 1,
+     "sample": "Access"
+    },
+    {
+     "path": "data.SEARCH-FILTER.year-of-death",
+     "n": 1,
+     "sample": "Year of death"
+    },
+    {
+     "path": "data.SEARCH-FILTER.family-active",
+     "n": 1,
+     "sample": "Year of first activity"
+    },
+    {
+     "path": "data.SEARCH-FILTER.dateStart-year",
+     "n": 1,
+     "sample": "Year"
+    },
+    {
+     "path": "data.SEARCH-FILTER.dateStart-to",
+     "n": 1,
+     "sample": "To"
+    },
+    {
+     "path": "data.SEARCH-FILTER.dateStart-from",
+     "n": 1,
+     "sample": "From"
+    },
+    {
+     "path": "data.SEARCH-FILTER.founding-year",
+     "n": 1,
+     "sample": "Year of foundation"
+    },
+    {
+     "path": "data.SEARCH-FILTER.all-content",
+     "n": 1,
+     "sample": "All Content"
+    },
+    {
+     "path": "data.SEARCH-FILTER.group",
+     "n": 1,
+     "sample": "Artist group"
+    },
+    {
+     "path": "data.SEARCH-FILTER.family",
+     "n": 1,
+     "sample": "Artist family"
+    },
+    {
+     "path": "data.SEARCH-FILTER.entry-type-artist",
+     "n": 1,
+     "sample": "Artist"
+    },
+    {
+     "path": "data.SEARCH-FILTER.entry-type-family",
+     "n": 1,
+     "sample": "Family"
+    },
+    {
+     "path": "data.SEARCH-FILTER.entry-type-group",
+     "n": 1,
+     "sample": "Group"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "add-row",
+    "add-term",
+    "akl",
+    "for",
+    "gnd",
+    "in",
+    "new",
+    "of",
+    "um",
+    "vor"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 37,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "ip",
+     "n": 1,
+     "sample": "71.178.36.215"
+    },
+    {
+     "path": "country",
+     "n": 1,
+     "sample": "US"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ip"
+   ]
+  }
+ ],
+ "llm_notes": "De Gruyter Artists of the World entry behind a paywall: heading 'Twain, Mark' is legible but all field values (country, places, other names, professions) are scrambled placeholder text for unauthenticated users; only dates are readable.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

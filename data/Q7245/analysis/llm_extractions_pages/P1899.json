@@ -1,0 +1,27 @@
+{
+ "property": "P1899",
+ "label": "LibriVox author ID",
+ "files_read": ["pages/P1899__9.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "A LibriVox author page for Mark Twain (1835 - 1910) with a short Wikipedia-style bio and a 'Wiki - Mark Twain' link. The page reports 270 matching recordings, but the work list itself was not rendered in the captured text.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "bio first sentence"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "en", "via": "bio ('better known by his pen name Mark Twain')"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": null, "via": "bio"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910", "lang": null, "via": "bio"}],
+  "occupation": [
+   {"value": "author", "lang": "en", "via": "bio"},
+   {"value": "humorist", "lang": "en", "via": "bio"}
+  ],
+  "nationality": [{"value": "American", "lang": "en", "via": "bio"}],
+  "description": [{"value": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), better known by his pen name Mark Twain, was an American author and humorist. He is most noted for his novel The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1885), the latter often called \"the Great American Novel.\"", "lang": "en", "via": "bio"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "raw": "(1876)", "via": "bio"},
+   {"value": "Adventures of Huckleberry Finn", "raw": "(1885)", "via": "bio"}
+  ],
+  "identifier": [{"value": "9", "via": "page URL /author/9"}],
+  "source": [{"value": "Wiki - Mark Twain", "via": "Links (label only, no URL in text)"}]
+ }
+}

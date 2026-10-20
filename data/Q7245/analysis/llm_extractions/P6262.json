@@ -1,0 +1,107 @@
+{
+ "property": "P6262",
+ "label": "Fandom article ID",
+ "files_read": [
+  "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json",
+  "P6262__disney_Mark_Twain_502e4c91/browser_xhr_7.json",
+  "P6262__disney_Mark_Twain_502e4c91/browser_xhr_8.json"
+ ],
+ "about_entity": true,
+ "notes": "Disney Wiki (Fandom) article OpenGraph; og:description is the article lead (truncated) and lists Disney adaptations. browser_xhr_7/8 are ad-bidding responses (404 / no_bid), not about the entity.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description'] (birth name)"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description'] ('better known by his pen name')"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description']"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description']"
+   },
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description']"
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description']"
+   },
+   {
+    "value": "entrepreneur",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description']"
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description']"
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description']"
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens, better known by his pen name, Mark Twain, was an American author writer, humorist, entrepreneur, publisher, and lecturer, best known for his books, such as The Adventures of Tom Sawyer and The Adventures of Huckleberry Finn.",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description'] (first sentence)"
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description']"
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:description']"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "disney:Mark_Twain",
+    "raw": "https://disney.fandom.com/wiki/Mark_Twain",
+    "lang": null,
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:url']"
+   }
+  ],
+  "image": [
+   {
+    "value": "https://static.wikia.nocookie.net/disney/images/5/55/MarkTwain.jpg/revision/latest?cb=20210330094146",
+    "lang": null,
+    "via": "P6262__disney_Mark_Twain_502e4c91/embedded_opengraph.json: $[0]['og:image']"
+   }
+  ]
+ }
+}

@@ -1,0 +1,714 @@
+{
+ "property": "P1006",
+ "property_label": "Nationale Thesaurus voor Auteursnamen ID",
+ "value": "068242964",
+ "url": "https://data.bibliotheken.nl/id/thes/p068242964",
+ "crawled_at": "2026-10-02T21:13:46+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp068242964",
+ "tab_title": "Twain, Mark - KB-data - KB - KB, nationale bibliotheek",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P1006__068242964.jpg",
+ "elapsed_seconds": 5.7,
+ "html_file": "pages/P1006__068242964.html",
+ "text_file": "pages/P1006__068242964.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp068242964",
+  "title": "Twain, Mark - KB-data - KB - KB, nationale bibliotheek",
+  "content_type": "text/html",
+  "lang": "en",
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": {
+   "status": 200,
+   "url": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp068242964",
+   "headers": {
+    "access-control-allow-headers": "*",
+    "access-control-allow-methods": "GET,POST",
+    "access-control-allow-origin": "*",
+    "alt-svc": "h3=\":443\";ma=60;",
+    "cache-control": "no-cache, no-store, must-revalidate",
+    "content-length": "240290",
+    "content-security-policy": "script-src 'strict-dynamic' 'nonce-XVOO2qsr0A951tSAoVn5eg==' 'unsafe-inline' http: https: 'wasm-unsafe-eval'; object-src 'none'; base-uri 'none'; require-trusted-types-for 'script';",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Fri, 02 Oct 2026 21:13:49 GMT",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-triply-api": "https://api.bibliotheken.nl"
+   }
+  },
+  "link_elements": [
+   {
+    "rel": "search",
+    "type": "application/opensearchdescription+xml",
+    "href": "https://data.bibliotheken.nl/opensearch.xml",
+    "title": "KB, nationale bibliotheek",
+    "hreflang": null
+   },
+   {
+    "rel": "canonical",
+    "type": null,
+    "href": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp068242964",
+    "title": null,
+    "hreflang": null
+   }
+  ],
+  "jsonld": [
+   {
+    "types": [
+     "WebPage"
+    ],
+    "length": 2787,
+    "content": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"WebPage\",\n   \"url\": \"https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp068242964\",\n   \"mainEntity\": {\n    \"@id\": \"http://data.bibliotheken.nl/id/thes/p068242964\",\n    \"@type\": \"Person\",\n    \"name\": \"Twain, Mark\",\n    \"subjectOf\": {\n     \"@type\": \"Dataset\",\n     \"@id\": \"https://data.bibliotheken.nl/KB/Production\",\n     \"name\": \"KB-data\",\n     \"description\": \"Data.bibliotheken.nl is de linked data publishing portal van de KB, nationale bibliotheek van Nederland. Deze portal geeft toegang tot alle Linked Open Data (LOD) zoals beschikbaar gesteld door de KB. Alle data is beschikbaar onder de [CC0-licentie](http://creativecommons.org/publicdomain/zero/1.0/). </br></br>\\n\\n* [Nederlandse Bibliografie Totaal (NBT)](https://data.bibliotheken.nl/KB/-/stories/Nederlandse-Bibliografie-Totaal-NBT) </br>\\n* [Brinkman trefwoordenthesaurus KB](https://data.bibliotheken.nl/KB/-/stories/Brinkman-trefwoordenthesaurus)</br>\\n* [Corporatiethesaurus KB](https://data.bibliotheken.nl/KB/-/stories/Corporatiethesaurus-van-de-KB) </br>\\n* [Nederlandse Thesaurus van Auteursnamen (NTA)](https://data.bibliotheken.nl/KB/-/stories/NTA) </br>\\n* [Short Title Catalogue of the Netherlands (STCN)](https://data.bibliotheken.nl/KB/-/stories/STCN): </br>\\n     * [STCN Titelbeschrijvingen](https://data.bibliotheken.nl/KB/-/stories/STCN-Titelbeschrijvingen)</br>\\n     * [STCN Drukkers- en verkopersthesaurus](https://data.bibliotheken.nl/KB/-/stories/STCN-printers)</br>\\n     * [STCN Persoonsnamen](https://data.bibliotheken.nl/KB/-/stories/STCN-persons)</br>\\n     * [Overige thesauri uit de STCN](https://data.bibliotheken.nl/KB/-/stories/STCN-thes)</br>\\n* Digitale Bibliotheek voor de Nederlandse Letteren (DBNL): </br>\\n    * [DBNL Titelbeschrijvingen](https://data.bibliotheken.nl/KB/-/stories/Titels-DBNL) </br>\\n    * [DBNL Auteursthesaurus](https://data.bibliotheken.nl/KB/-/stories/Thesaurus-Auteurs-DBNL) </br>\\n* [Centsprenten](https://data.bibliotheken.nl/KB/-/stories/Centsprenten)</br>\\n* [Alba Amicorum](https://data.bibliotheken.nl/KB/-/stories/Alba-amicorum-van-de-Koninklijke-Bibliot)</br>\\n* [Gemeenschappelijke Trefwoordenthesaurus (GTT)](https://data.bibliotheken.nl/KB/-/stories/Gemeenschappelijke-Trefwoordenthesaurus-) <i>in gebruik tot 2012</i></br>\\n* [KBcode](https://data.bibliotheken.nl/KB/-/stories/Thesaurus-KBcode) </br>\",\n     \"license\": \"CC0 1.0\"\n    },\n    \"url\": \"https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp068242964\"\n   },\n   \"speakable\": {\n    \"@type\": \"SpeakableSpecification\",\n    \"xpath\": [\n     \"/html/head/title\",\n     \"/html/head/meta[@name='description']/@content\"\n    ]\n   }\n  }"
+   }
+  ],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "viewport",
+    "content": "width=device-width, initial-scale=1, minimum-scale=1"
+   },
+   {
+    "key": "csp-nonce",
+    "content": ""
+   },
+   {
+    "key": "theme-color",
+    "content": "#ef6079"
+   },
+   {
+    "key": "og:type",
+    "content": "schema:Thing"
+   },
+   {
+    "key": "og:site_name",
+    "content": "KB, nationale bibliotheek: Gebouwd met woorden. Gevormd door mensen"
+   },
+   {
+    "key": "og:locale",
+    "content": "en_US"
+   },
+   {
+    "key": "og:image",
+    "content": "https://data.bibliotheken.nl/imgs/avatars/d/672debfa0186c41e75ea68de.png?v=2"
+   },
+   {
+    "key": "twitter:image",
+    "content": "https://data.bibliotheken.nl/imgs/avatars/d/672debfa0186c41e75ea68de.png?v=2"
+   },
+   {
+    "key": "og:image:alt",
+    "content": "Twain, Mark"
+   },
+   {
+    "key": "twitter:image:alt",
+    "content": "Twain, Mark"
+   },
+   {
+    "key": "twitter:card",
+    "content": "summary"
+   },
+   {
+    "key": "og:title",
+    "content": "Twain, Mark"
+   },
+   {
+    "key": "twitter:title",
+    "content": "Twain, Mark"
+   },
+   {
+    "key": "og:description",
+    "content": "Resource Twain, Mark in dataset KB-data created by KB, nationale bibliotheek."
+   },
+   {
+    "key": "twitter:description",
+    "content": "Resource Twain, Mark in dataset KB-data created by KB, nationale bibliotheek."
+   },
+   {
+    "key": "og:url",
+    "content": "https://data.bibliotheken.nl/KB/Production/browser?resource=http%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fthes%2Fp068242964"
+   }
+  ],
+  "machine_links": [
+   {
+    "tag": "a",
+    "href": "https://data.bibliotheken.nl/KB/Production/sparql",
+    "text": "SPARQL",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "path",
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://docs.triply.cc/triply-api",
+    "text": "API reference",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   }
+  ],
+  "xhr_requests": [
+   {
+    "url": "https://data.bibliotheken.nl/_api/_console/sparql?label=hasShacl",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://data.bibliotheken.nl/_api/_console/sparql?label=hasInstances",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://data.bibliotheken.nl/_api/datasets/KB/Production?verbose=",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://plausible.io/api/event",
+    "initiator": "fetch",
+    "status": 202,
+    "content_type": "text/plain"
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://data.bibliotheken.nl/assets/roboto-latin-400-normal-BqEyEoaF.woff2",
+    "initiator": "link",
+    "status": 200,
+    "content_type": null,
+    "bytes": 22184
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/roboto-latin-500-normal-7RbcRiD8.woff2",
+    "initiator": "link",
+    "status": 200,
+    "content_type": null,
+    "bytes": 22500
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/chunk-Bj-mKKzh.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 905
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/dist-BuHjWnbt.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 390
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/preload-helper-DdG5uEyn.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 863
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/isArrayLikeObject-CQmsDJV-.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3914
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/index-DCQYGkj1.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1115787
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/reduce-BxiChcHF.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 580
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_getTag-Dl0FzuQY.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 784
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_baseEach-BhNLkGko.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3021
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/isEmpty-RAJkTqEK.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 614
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/getEachDeep-D4SldUhc.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2221
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/isString-DH9mgHyG.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 467
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/compact-DtjtUk4-.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 414
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/merge-CI6z3y-g.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 940
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/GeoProject-CALuyHth.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 67601
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_hasUnicode-MmYj3PfD.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 441
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_baseSlice-DPA9hy9E.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 465
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/empty-C94LGAo0.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3930
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_baseUniq-CrINkcVH.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 956
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/mapValues-ChyZOo0s.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 499
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/toInteger-D-M3Mz_a.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 532
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/jsx-runtime-Dpj1w2fG.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 594
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/dist-BhdpB0Z3.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 7696
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/toNumber-tBE0uZoe.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 685
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/dist-BEtMMhgp.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1030
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/src-S_TUWo86.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 132407
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/last-CXVQKIFJ.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 377
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/uniqBy--D4xO9x3.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 448
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/react-BCPjk5Gn.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2903
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/prefixUtils-Bh18SXv8.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 3123
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/FontAwesomeIcon-wH02g-pA.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 78476
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_arrayEach-CHOyYg2Y.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 400
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/Button-XOSJiBNv.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 14493
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/lib-C_-HisKF.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 8382
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/decode-IWgx3N1L.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 17070
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/groupBy-Bp9Zpbrk.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 627
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/cloneDeep-RfY9-gs7.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 402
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_baseExtremum-BuolDtUO.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 488
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/classnames-Df9x18lI.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 737
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_baseClone-ZKZQ5Jf-.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1589
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/src-D89shxPC.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 19002
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/utils-C4glbE3W.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 259280
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_baseGt-CBdR5Dc2.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 342
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/min-QG1Rl-dp.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 868
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/map-Dt5EHGAR.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 518
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/flatten-MWPGeAwN.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 403
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/throttle-B4KpbEk1.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 544
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/now-Bu95d8I6.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 400
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/negate-BYa382JW.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 487
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_flatRest-D5YR7ZTw.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 459
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/pickBy-DynI4ONC.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 504
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_basePickBy-DKjCRikC.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 680
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/debounce-zDpE5LrV.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 815
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/prop-types-DNw21MYm.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 800
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/react-dom-B_1H2_KT.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1479
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/_baseIsEqual-krBslGEr.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 4558
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/react-redux-LPWrl1Us.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 1829
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/SparqlVisualizationContext-D83HTZG5.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2026
+   },
+   {
+    "url": "https://data.bibliotheken.nl/imgs/logos/logo.svg?v=3",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": 1892
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/FontAwesomeIcon-BQCiN7bw.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 2387
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/react-7atJfoMu.js",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 721
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/index-BoQA_v7I.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": 42384
+   },
+   {
+    "url": "https://data.bibliotheken.nl/assets/roboto-latin-700-normal-BZpUvMxY.woff2",
+    "initiator": "css",
+    "status": 200,
+    "content_type": null,
+    "bytes": 22540
+   },
+   {
+    "url": "https://plausible.io/js/script.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://data.bibliotheken.nl/_api/_console/sparql?label=hasShacl",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 305
+   },
+   {
+    "url": "https://data.bibliotheken.nl/_api/_console/sparql?label=hasInstances",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 304
+   },
+   {
+    "url": "https://data.bibliotheken.nl/_api/datasets/KB/Production?verbose=",
+    "initiator": "fetch",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 3499
+   },
+   {
+    "url": "https://plausible.io/api/event",
+    "initiator": "fetch",
+    "status": 202,
+    "content_type": "text/plain",
+    "bytes": null
+   },
+   {
+    "url": "https://data.bibliotheken.nl/imgs/logos/logo.svg?v=3",
+    "initiator": "other",
+    "status": 200,
+    "content_type": "image/svg+xml",
+    "bytes": null
+   }
+  ],
+  "third_party_hosts": {
+   "plausible.io": 2
+  },
+  "scripts": [
+   "https://data.bibliotheken.nl/assets/index-DCQYGkj1.js",
+   "https://plausible.io/js/script.js"
+  ],
+  "iframes": [],
+  "forms": [],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [
+    "login"
+   ],
+   "not_found_words": []
+  },
+  "text_length": 9180,
+  "html_length": 240943
+ }
+}

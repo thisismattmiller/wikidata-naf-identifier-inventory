@@ -1,0 +1,190 @@
+{
+ "property": "P4839",
+ "property_label": "Wolfram Language entity code",
+ "files": [
+  {
+   "file": "P4839__Entity_Concept_Clemens_4375p_2245b447/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.wolframalpha.com/input?i=Entity%5B%22Concept%22%2C+%22Clemens%3A%3A4375p%22%5D"
+  },
+  {
+   "file": "P4839__Entity_Concept_Clemens_4375p_2245b447/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.wolframalpha.com/input?i=Entity%5B%22Concept%22%2C+%22Clemens%3A%3A4375p%22%5D"
+  },
+  {
+   "file": "P4839__Entity_Concept_Clemens_4375p_2245b447/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://products.wolframalpha.com/api"
+  },
+  {
+   "file": "P4839__Entity_Concept_Clemens_4375p_2245b447/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.wolframalpha.com/n/v1/api/randomizer"
+  },
+  {
+   "file": "P4839__Entity_Concept_Clemens_4375p_2245b447/xhr_2.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.wolframalpha.com/_next/static/css/3e5e2c10614026a5.css"
+  },
+  {
+   "file": "P4839__Entity_Concept_Clemens_4375p_2245b447/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://products.wolframalpha.com/api"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 2,
+  "json": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "identifier": [
+   {
+    "value": "Entity[\"Concept\", \"Clemens::4375p\"]",
+    "lang": null,
+    "via": "llm:P4839__Entity_Concept_Clemens_4375p_2245b447/embedded_opengraph.json: $[0]['og:title']",
+    "file": "P4839.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 452,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.wolframalpha.com"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Entity[\"Concept\", \"Clemens::4375p\"] - Wolfram|Alpha"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Wolfram|Alpha brings expert-level knowledge and capabilities to the broadest possible range of people—spanning all profe"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "/_next/static/images/share_9016222d6b2fadaacc58b484cb3edace.png"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Entity[\"Concept\", \"Clemens::4375p\"] - Wolfram|Alpha"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 354,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "en.id",
+     "n": 1,
+     "sample": "5193"
+    },
+    {
+     "path": "en.query",
+     "n": 1,
+     "sample": "slow cookers with capacity > 1 gallon"
+    },
+    {
+     "path": "es.id",
+     "n": 1,
+     "sample": "1036"
+    },
+    {
+     "path": "es.query",
+     "n": 1,
+     "sample": "puntos de inflexión x^3 - 3 x^2 + 1"
+    },
+    {
+     "path": "ja.id",
+     "n": 1,
+     "sample": "45"
+    },
+    {
+     "path": "ja.query",
+     "n": 1,
+     "sample": "0<x<1, y=x^2 と y=x の間の領域を y軸の周りで回転"
+    },
+    {
+     "path": "ko.id",
+     "n": 1,
+     "sample": "1244"
+    },
+    {
+     "path": "ko.query",
+     "n": 1,
+     "sample": "(x^2+2x+3)(x^2+3x+4)(x+3) 계산하기"
+    },
+    {
+     "path": "zh.id",
+     "n": 1,
+     "sample": "1200"
+    },
+    {
+     "path": "zh.query",
+     "n": 1,
+     "sample": "两个均值之间的差值的假设检验"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  }
+ ],
+ "llm_notes": "Wolfram|Alpha query for Entity[\"Concept\", \"Clemens::4375p\"] returned no result, only the 'Try the following' input-not-understood help text. Nothing about the person is shown.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

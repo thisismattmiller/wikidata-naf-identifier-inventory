@@ -1,0 +1,510 @@
+{
+ "property": "P2924",
+ "property_label": "Great Russian Encyclopedia Online ID (2017)",
+ "files": [
+  {
+   "file": "P2924__4184391/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://web.archive.org/web/20250619225214/https://old.bigenc.ru/literature/text/4184391",
+   "error": "JSONLDException: invalid remote context"
+  },
+  {
+   "file": "P2924__4184391/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://web.archive.org/web/20250619225214/https://old.bigenc.ru/literature/text/4184391"
+  },
+  {
+   "file": "P2924__4184391/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://web.archive.org/__wb/sparkline?output=json&url=https%3A%2F%2Fold.bigenc.ru%2Fliterature%2Ftext%2F4184391&collection=web&nav=20250619225214"
+  },
+  {
+   "file": "P2924__4184391/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://web.archive.org/web/20250619225214/http://web.archive.org/screenshot/https://old.bigenc.ru/literature/text/4184391"
+  },
+  {
+   "file": "P2924__4184391/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://wayback-api.archive.org/services/context/notices?url=https%3A%2F%2Fold.bigenc.ru%2Fliterature%2Ftext%2F4184391&timestamp=20250619225214"
+  },
+  {
+   "file": "P2924__4184391/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://web.archive.org/web/20250619225214/https://old.bigenc.ru/json/get_section_page"
+  },
+  {
+   "file": "P2924__4184391/xhr_5.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://web.archive.org/web/20250619225214/https://old.bigenc.ru/literature/text/4184391"
+  },
+  {
+   "file": "P2924__4184391/xhr_6.img",
+   "format": "image",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://web.archive.org/web/20250619224700/https://kraken.rambler.ru/cnt/v2/"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "rdfa": 1,
+  "json": 3,
+  "html": 2,
+  "image": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Твен Марк",
+    "lang": "ru",
+    "via": "llm-page:article heading",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain",
+    "lang": "en",
+    "via": "llm-page:article heading parenthesis",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "Сэмюэл Ленгхорн Клеменс",
+    "lang": "ru",
+    "via": "llm-page:article heading ('наст. имя и фам.')",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:article heading",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:article heading",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:article heading",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Флорида, штат Миссури",
+    "lang": "ru",
+    "via": "llm-page:article heading",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Реддинг, штат Коннектикут",
+    "lang": "ru",
+    "via": "llm-page:article heading",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "американский",
+    "lang": "ru",
+    "via": "llm-page:article heading ('амер. писатель')",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "писатель",
+    "lang": "ru",
+    "via": "llm-page:article heading",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "типографский рабочий",
+    "lang": "ru",
+    "via": "llm-page:bio",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "старатель",
+    "lang": "ru",
+    "via": "llm-page:bio",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "лоцман",
+    "lang": "ru",
+    "via": "llm-page:bio",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "журналист",
+    "lang": "ru",
+    "via": "llm-page:bio",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "ТВЕН (Twain) Марк (псевд.; наст. имя и фам. Сэмюэл Ленгхорн Клеменс, Clemens) (30.11.1835, Флорида, штат Миссури – 21.4.1910, Реддинг, штат Коннектикут), амер. писатель. Родился в семье судьи. Рано потеряв отца, оставил школу, сменил много профессий – от типографского рабочего, старателя до лоцмана и журналиста. Известность Т. принёс юмористич. рассказ на фольклорный сюжет «Знаменитая скачущая лягушка из Калавераса»",
+    "lang": "ru",
+    "via": "llm-page:article opening (soft hyphens removed)",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The celebrated jumping frog of Calaveras country",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "Innocents abroad",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing it",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "The gilded age",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "Sketches new and old",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississipi",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "The prince and the pauper",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut yankee in King Arthur’s court",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "The mysterious stranger",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "Letters from the Earth",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd’nhead Wilson",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "The American claimant",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "Personal recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "Following the equator",
+    "lang": "en",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Ч. Д. Уорнер (co-author of 'The gilded age')",
+    "lang": "ru",
+    "via": "llm-page:article body",
+    "file": "P2924.json",
+    "uri": false
+   },
+   {
+    "value": "О. Е. Осовский (article author)",
+    "lang": "ru",
+    "via": "llm-page:'Авторы' line",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "4184391",
+    "lang": null,
+    "via": "llm-page:page URL literature/text/4184391",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Большая российская энциклопедия 2004–2017",
+    "lang": "ru",
+    "via": "llm-page:page header",
+    "file": "P2924.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "ru"
+  ],
+  "name_variant": [
+   "en",
+   "ru"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "ru"
+  ],
+  "death_place": [
+   "ru"
+  ],
+  "nationality": [
+   "ru"
+  ],
+  "occupation": [
+   "ru"
+  ],
+  "description": [
+   "ru"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "ru"
+  ],
+  "identifier": [],
+  "source": [
+   "ru"
+  ]
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 455,
+   "path_count": 16,
+   "paths": [
+    {
+     "path": "years.2023[]",
+     "n": 12,
+     "sample": "2"
+    },
+    {
+     "path": "years.2024[]",
+     "n": 12,
+     "sample": "1"
+    },
+    {
+     "path": "years.2025[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "years.2026[]",
+     "n": 12,
+     "sample": "0"
+    },
+    {
+     "path": "first_ts",
+     "n": 1,
+     "sample": "20230123194811"
+    },
+    {
+     "path": "last_ts",
+     "n": 1,
+     "sample": "20260428061029"
+    },
+    {
+     "path": "status.2023",
+     "n": 1,
+     "sample": "324444444444"
+    },
+    {
+     "path": "status.2024",
+     "n": 1,
+     "sample": "244422444442"
+    },
+    {
+     "path": "status.2025",
+     "n": 1,
+     "sample": "444442424444"
+    },
+    {
+     "path": "status.2026",
+     "n": 1,
+     "sample": "444344444444"
+    },
+    {
+     "path": "nav.next",
+     "n": 1,
+     "sample": "20250822232428"
+    },
+    {
+     "path": "nav.prev",
+     "n": 1,
+     "sample": "20241203215534"
+    },
+    {
+     "path": "nav.monthPrev",
+     "n": 1,
+     "sample": "20241203215534"
+    },
+    {
+     "path": "nav.monthNext",
+     "n": 1,
+     "sample": "20250822232428"
+    },
+    {
+     "path": "nav.yearPrev",
+     "n": 1,
+     "sample": "20240615210009"
+    },
+    {
+     "path": "nav.yearNext",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 33,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "success"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 29,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "error",
+     "n": 1,
+     "sample": "section not found"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Archived old.bigenc.ru article 'ТВЕН МАРК' by О. Е. Осовский (Great Russian Encyclopedia): dates/places, real name, career and a survey of works with Russian translation years. The frame0 file is only a Yandex tracking-frame error page with script, no content.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

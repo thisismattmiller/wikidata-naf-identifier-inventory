@@ -1,0 +1,19 @@
+{
+ "property": "P6645",
+ "label": "Stedelijk Museum Amsterdam ID",
+ "files_read": ["pages/P6645__132574-mark-twain.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Stedelijk Museum collection maker page 'MARK TWAIN' with birth/death years and two collection objects (graphic design book covers) linked to him.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "raw": "MARK TWAIN", "lang": "nl", "via": "page heading"}],
+  "birth_date": [{"value": "1835", "lang": "nl", "via": "GEBOREN"}],
+  "death_date": [{"value": "1910", "lang": "nl", "via": "OVERLEDEN"}],
+  "work": [
+   {"value": "Dobrodruzstva Huckleberryho Finna.", "raw": "DOBRODRUZSTVA HUCKLEBERRYHO FINNA.; KELLENBERGER, L.; GRAFISCHE VORMGEVING; 1954", "lang": "sk", "via": "Meer werk van deze maker"},
+   {"value": "The Adventures of Huckleberry Finn by Mark Twain", "raw": "THE ADVENTURES OF HUCKLEBERRY FINN BY MARK TWAIN; ONBEKEND; GRAFISCHE VORMGEVING; 1933", "lang": "en", "via": "Meer werk van deze maker"}
+  ],
+  "related_agent": [{"value": "Kellenberger, L. (graphic designer of 1954 edition)", "lang": "nl", "via": "Meer werk van deze maker"}],
+  "identifier": [{"value": "132574", "via": "page URL"}]
+ }
+}

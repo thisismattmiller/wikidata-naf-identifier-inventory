@@ -1,0 +1,56 @@
+{
+ "property": "P12597",
+ "label": "museum-digital person/organization ID",
+ "files_read": ["pages/P12597__69516.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "museum-digital md:term person entry: name, birth/death years, an English Wikipedia-sourced description (dated 11.08.2021), two linked museum objects, and a references block with 10 external authority ids.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "Name (English) / Short name"}, {"value": "Mark Twain (1835-1910)", "lang": "en", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "Short Description"}],
+  "pseudonym": [{"value": "Mark Twain", "raw": "known by his pen name Mark Twain", "lang": "en", "via": "Short Description"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "Year of birth 1835; November 30, 1835", "lang": "en", "via": "Year of birth row / Short Description"}],
+  "death_date": [{"value": "1910-04-21", "raw": "Year of death 1910; April 21, 1910", "lang": "en", "via": "Year of death row / Short Description"}],
+  "activity_place": [
+   {"value": "Hannibal, Missouri", "lang": "en", "via": "Short Description (raised in)"},
+   {"value": "Mississippi River", "lang": "en", "via": "Short Description"},
+   {"value": "Nevada", "lang": "en", "via": "Short Description"},
+   {"value": "Angels Camp, California", "lang": "en", "via": "Short Description"}
+  ],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "Short Description"}, {"value": "humorist", "lang": "en", "via": "Short Description"},
+   {"value": "entrepreneur", "lang": "en", "via": "Short Description"}, {"value": "publisher", "lang": "en", "via": "Short Description"},
+   {"value": "lecturer", "lang": "en", "via": "Short Description"}, {"value": "typesetter", "lang": "en", "via": "Short Description"},
+   {"value": "riverboat pilot", "lang": "en", "via": "Short Description"}, {"value": "journalist", "lang": "en", "via": "Short Description"},
+   {"value": "miner", "lang": "en", "via": "Short Description"}
+  ],
+  "nationality": [{"value": "American", "lang": "en", "via": "Short Description"}],
+  "description": [{"value": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the \"greatest humorist the United States has produced,\" and William Faulkner called him \"the father of American literature\". His novels include The Adventures of Tom Sawyer (1876) and its sequel, the Adventures of Huckleberry Finn (1884), the latter often called \"The Great American Novel\"...", "raw": "truncated; quoted from en.wikipedia.org 11.08.2021", "lang": "en", "via": "Short Description"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "raw": "1876", "lang": "en", "via": "Short Description"},
+   {"value": "Adventures of Huckleberry Finn", "raw": "1884", "lang": "en", "via": "Short Description"},
+   {"value": "The Celebrated Jumping Frog of Calaveras County", "raw": "1865", "lang": "en", "via": "Short Description"},
+   {"value": "A tramp abroad", "lang": "en", "via": "linked museum object"}
+  ],
+  "related_agent": [
+   {"value": "Orion Clemens (older brother)", "via": "Short Description"},
+   {"value": "Virginia City Territorial Enterprise (journalism employer)", "via": "Short Description"},
+   {"value": "Sholes & Glidden Typewriter, Remington Mod. 1 (linked museum object)", "via": "linked objects"}
+  ],
+  "same_as": [
+   {"value": "XX945992", "raw": "bne", "via": "References"},
+   {"value": "11927291n", "raw": "bnf", "via": "References"},
+   {"value": "https://d-nb.info/gnd/118624822", "raw": "gnd 118624822", "via": "References"},
+   {"value": "http://id.loc.gov/authorities/names/n79021164", "raw": "loc n79021164", "via": "References"},
+   {"value": "00459304", "raw": "ndl", "via": "References"},
+   {"value": "mp54578", "raw": "npg", "via": "References"},
+   {"value": "17169", "raw": "rkd", "via": "References"},
+   {"value": "http://vocab.getty.edu/page/ulan/500020427", "raw": "ulan 500020427", "via": "References"},
+   {"value": "http://viaf.org/viaf/50566653", "raw": "viaf 50566653", "via": "References"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "raw": "wikidata Q7245", "via": "References"}
+  ],
+  "identifier": [{"value": "69516", "via": "Query URL"}, {"value": "https://term.museum-digital.de/md-de/persinst/69516", "via": "Query URLs"}],
+  "source": [{"value": "en.wikipedia.org (11.08.2021)", "via": "Short Description attribution"}],
+  "record_modified": [{"value": "2022-09-21", "raw": "Status: Checked; Last update: 2022/09/21", "lang": null, "via": "status line"}]
+ }
+}

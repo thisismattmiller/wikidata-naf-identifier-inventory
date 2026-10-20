@@ -1,0 +1,25 @@
+{
+ "property": "P12502",
+ "label": "UCA authority ID",
+ "files_read": ["pages/P12502__15651.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "A Koha MARC view of the Universidad de Cádiz authority record 15651 for Twain, Mark, 1835-1910, used in 34 records. It is a minimal record: a heading, three see-from variants and the source BNE. A cookie banner appears at the top, but the record was not hidden behind a login wall.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "lang": "es", "via": "100 heading"}],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": "es", "via": "400"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "lang": "es", "via": "400"},
+   {"value": "Twain, 1835-1910", "lang": "es", "via": "400"}
+  ],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "100 $d"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "100 $d"}],
+  "identifier": [{"value": "15651", "via": "001 control number"}],
+  "source": [
+   {"value": "BNE", "lang": "es", "via": "670"},
+   {"value": "UCA (cataloging agency)", "via": "040"}
+  ],
+  "record_created": [{"value": "2011-05-19", "raw": "008 110519", "via": "008"}],
+  "record_modified": [{"value": "2013-06-06", "raw": "902: 130606", "via": "902 local field (date, interpretation uncertain)"}]
+ }
+}

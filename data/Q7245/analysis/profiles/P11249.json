@@ -1,0 +1,282 @@
+{
+ "property": "P11249",
+ "property_label": "KBR person ID",
+ "files": [
+  {
+   "file": "P11249__14147734/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://opac.kbr.be/LIBRARY/doc/SYRACUSE-AUT/14147734"
+  },
+  {
+   "file": "P11249__14147734/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://opac.kbr.be/LIBRARY/doc/SYRACUSE-AUT/14147734"
+  },
+  {
+   "file": "P11249__14147734/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://opac.kbr.be/LIBRARY/doc/SYRACUSE-AUT/14147734"
+  },
+  {
+   "file": "P11249__14147734/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.kbr.be/Portal/Recherche/OpenFind.svc/GetLightSelection"
+  },
+  {
+   "file": "P11249__14147734/xhr_2.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.kbr.be/ComponentConfig.ashx?name=PasswordReveal"
+  },
+  {
+   "file": "P11249__14147734/xhr_3.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.kbr.be/ComponentConfig.ashx?name=PortalSessionPopups"
+  },
+  {
+   "file": "P11249__14147734/xhr_4.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.kbr.be/Portal/Recherche/Sarasvati.svc/More"
+  },
+  {
+   "file": "P11249__14147734/xhr_5.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.kbr.be/ComponentConfig.ashx?name=CookiesManagement"
+  },
+  {
+   "file": "P11249__14147734/xhr_6.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://query.wikidata.org/sparql?query=SELECT%20%3Fimage%20WHERE%20%7B%3Fsubject%20wdt%3AP213%20%220000000121324854%22%20%3B%20wdt%3AP18%20%3Fimage%20.%7D%20limit%20100"
+  },
+  {
+   "file": "P11249__14147734/xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.kbr.be/CookiesPreferencesService.svc/GetCookiesPreferences"
+  },
+  {
+   "file": "P11249__14147734/xhr_8.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.kbr.be/ComponentConfig.ashx?name=JsonForm"
+  },
+  {
+   "file": "P11249__14147734/browser_xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.kbr.be/Portal/Recherche/OpenFind.svc/GetLightSelection"
+  },
+  {
+   "file": "P11249__14147734/browser_xhr_4.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.kbr.be/Portal/Recherche/Sarasvati.svc/More"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 4,
+  "unknown": 5,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 24,
+  "http://ogp.me/ns#": 5,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P11249.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "nl",
+    "via": "llm-page:heading",
+    "file": "P11249.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P11249.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P11249.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "14147734",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P11249.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "nl",
+    "via": "llm-page:Variante naamsvormen",
+    "file": "P11249.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "novelist",
+    "lang": "en",
+    "via": "llm-page:Biografische gegevens",
+    "file": "P11249.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm-page:ISNI row",
+    "file": "P11249.json",
+    "uri": true
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "nl"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "name_variant": [
+   "nl"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "same_as": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1,
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 357,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "nl_BE"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark 1835-1910 - p"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://opac.kbr.be/Library/doc/SYRACUSE-AUT/14147734/twain-mark-1835-1910-p"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://opac.kbr.be/ui/250297330004/skins/default/portal/front/images/General/DocType/APEP_LARGE.png"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark 1835-1910 - p"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://opac.kbr.be/Library/doc/SYRACUSE-AUT/14147734/twain-mark-1835-1910-p"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_7.json",
+   "format": "json",
+   "size": 3082,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "message",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "success",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "d",
+     "n": 1,
+     "sample": "{\"_model_\":{\"AnalyticsTracking\":{\"key\":\"AnalyticsTracking\",\"label\":\"Publieksmeting\",\"labelResourceKey\":\"JsonForm_BaseCoo"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "KBR (Royal Library of Belgium) OPAC person authority: heading, dates, 'novelist', ISNI and variant name; a Wikimedia Commons image is referenced.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

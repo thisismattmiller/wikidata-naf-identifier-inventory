@@ -1,0 +1,769 @@
+{
+ "property": "P1938",
+ "property_label": "Project Gutenberg author ID",
+ "files": [
+  {
+   "file": "P1938__53/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.gutenberg.org/ebooks/author/53"
+  },
+  {
+   "file": "P1938__53/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.gutenberg.org/ebooks/author/53"
+  },
+  {
+   "file": "P1938__53/alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.gutenberg.org/ebooks/author/53.opds"
+  },
+  {
+   "file": "P1938__53/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://gutenberg.org/ebooks/author/53"
+  },
+  {
+   "file": "P1938__53/conneg_2.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://gutenberg.org/ebooks/author/53"
+  },
+  {
+   "file": "P1938__53/conneg_3.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://gutenberg.org/ebooks/author/53"
+  },
+  {
+   "file": "P1938__53/conneg_4.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://gutenberg.org/ebooks/author/53"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "feed": 1,
+  "unknown": 4
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 6,
+  "LLM extraction": 2,
+  "http://ogp.me/ns/fb#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/title; embedded_opengraph.json: og:title",
+    "file": "P1938.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/content",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Alias line",
+    "file": "P1938.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer, Complete",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator: A Journey Around the World",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age: A Tale of Today",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title (with Charles Dudley Warner)",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Chapters from My Autobiography",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Sketches New and Old",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger, and Other Stories",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "What Is Man? and Other Essays",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Eve's Diary, Complete",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Entire Project Gutenberg Works of Mark Twain",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Speeches",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Fenimore Cooper's Literary Offences",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": "en",
+    "via": "llm:alternate_1.xml: /feed/entry/title",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer, Complete",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator: A Journey Around the World",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age: A Tale of Today",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Chapters from My Autobiography",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd'nhead Wilson",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Sketches New and Old",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger, and Other Stories",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "What Is Man? and Other Essays",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Eve's Diary, Complete",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Best American Humorous Short Stories",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "The Entire Project Gutenberg Works of Mark Twain",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's Speeches",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Fenimore Cooper's Literary Offences",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": null,
+    "via": "llm-page:book list",
+    "file": "P1938.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Charles Dudley Warner",
+    "lang": null,
+    "via": "llm:alternate_1.xml: /feed/entry[title='The Gilded Age: A Tale of Today']/content",
+    "file": "P1938.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dudley Warner (co-author of The Gilded Age)",
+    "lang": null,
+    "via": "llm-page:book list author line",
+    "file": "P1938.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm:alternate_1.xml: /feed/entry[1]/id (See also: en.wikipedia)",
+    "file": "P1938.json",
+    "uri": true
+   },
+   {
+    "value": "en.wikipedia (link labelled 'See also: en.wikipedia'; URL not shown in text)",
+    "lang": null,
+    "via": "llm-page:See also line",
+    "file": "P1938.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "53",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url; alternate_1.xml: /feed/id",
+    "file": "P1938.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [],
+  "same_as": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 391,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Books by Twain, Mark"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Project Gutenberg offers 79,520 free eBooks for iPhone, iPad, Kobo, Android and Kindle."
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.gutenberg.org/pics/logo-144x144.png"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.gutenberg.org/ebooks/author/53"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Project Gutenberg"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Books by Twain, Mark"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 59440,
+   "path_count": 27,
+   "paths": [
+    {
+     "path": "feed/entry/link",
+     "n": 52,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/link@type",
+     "n": 52,
+     "sample": "text/html"
+    },
+    {
+     "path": "feed/entry/link@rel",
+     "n": 52,
+     "sample": "subsection"
+    },
+    {
+     "path": "feed/entry/link@href",
+     "n": 52,
+     "sample": "https://en.wikipedia.org/wiki/Mark_Twain"
+    },
+    {
+     "path": "feed/entry",
+     "n": 26,
+     "sample": null
+    },
+    {
+     "path": "feed/entry/updated",
+     "n": 26,
+     "sample": "2026-10-03T02:23:52Z"
+    },
+    {
+     "path": "feed/entry/id",
+     "n": 26,
+     "sample": "https://en.wikipedia.org/wiki/Mark_Twain"
+    },
+    {
+     "path": "feed/entry/title",
+     "n": 26,
+     "sample": "See also: en.wikipedia"
+    },
+    {
+     "path": "feed/entry/content",
+     "n": 25,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content@type",
+     "n": 25,
+     "sample": "text"
+    },
+    {
+     "path": "feed/link",
+     "n": 5,
+     "sample": null
+    },
+    {
+     "path": "feed/link@rel",
+     "n": 5,
+     "sample": "search"
+    },
+    {
+     "path": "feed/link@type",
+     "n": 5,
+     "sample": "application/opensearchdescription+xml"
+    },
+    {
+     "path": "feed/link@title",
+     "n": 5,
+     "sample": "Project Gutenberg Catalog Search"
+    },
+    {
+     "path": "feed/link@href",
+     "n": 5,
+     "sample": "https://www.gutenberg.org/catalog/osd-books.xml"
+    },
+    {
+     "path": "feed",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "feed/id",
+     "n": 1,
+     "sample": "http://www.gutenberg.org/ebooks/author/53.opds"
+    },
+    {
+     "path": "feed/updated",
+     "n": 1,
+     "sample": "2026-10-03T02:23:52Z"
+    },
+    {
+     "path": "feed/title",
+     "n": 1,
+     "sample": "Books by Twain, Mark"
+    },
+    {
+     "path": "feed/subtitle",
+     "n": 1,
+     "sample": "Free eBooks since 1971."
+    },
+    {
+     "path": "feed/author",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "feed/author/name",
+     "n": 1,
+     "sample": "Project Gutenberg"
+    },
+    {
+     "path": "feed/author/uri",
+     "n": 1,
+     "sample": "https://www.gutenberg.org"
+    },
+    {
+     "path": "feed/author/email",
+     "n": 1,
+     "sample": "webmaster@gutenberg.org"
+    },
+    {
+     "path": "feed/icon",
+     "n": 1,
+     "sample": "https://www.gutenberg.org/gutenberg/favicon.ico"
+    },
+    {
+     "path": "feed/itemsPerPage",
+     "n": 1,
+     "sample": "25"
+    },
+    {
+     "path": "feed/startIndex",
+     "n": 1,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "feed/title",
+     "value": "Books by Twain, Mark"
+    },
+    {
+     "path": "feed/entry/id",
+     "value": "https://en.wikipedia.org/wiki/Mark_Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain and Charles Dudley Warner"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/title",
+     "value": "The Entire Project Gutenberg Works of Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/title",
+     "value": "Mark Twain's Speeches"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "feed/entry/content",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Project Gutenberg author listing 'Books by Twain, Mark' sorted by popularity, first 25 of more results (paginated), with an alias and a Wikipedia link. Download counts only; no bio.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

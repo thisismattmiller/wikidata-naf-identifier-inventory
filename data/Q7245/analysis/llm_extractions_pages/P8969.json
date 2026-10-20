@@ -1,0 +1,23 @@
+{
+ "property": "P8969",
+ "label": "CINE21 person ID",
+ "files_read": ["pages/P8969__50754.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "A CINE21 (Korean film magazine) person page for 마크 트웨인 / Mark Twain. It gives an alternate name, birth date and sex, and lists two films credited to him as original author: the Huckleberry Finn adaptations of 1993 and 1960.",
+ "elements": {
+  "name_preferred": [
+   {"value": "마크 트웨인", "lang": "ko", "via": "page heading"},
+   {"value": "Mark Twain", "lang": "en", "via": "romanised heading"}
+  ],
+  "name_variant": [{"value": "Samuel Clemens", "lang": "en", "via": "다른 이름 (other names)"}],
+  "birth_date": [{"value": "1835-11-30", "lang": null, "via": "생년월일 (date of birth)"}],
+  "gender": [{"value": "남", "lang": "ko", "via": "성별 (sex)"}],
+  "occupation": [{"value": "원작 (original author)", "lang": "ko", "via": "참여작품 role"}],
+  "work": [
+   {"value": "허클베리 핀의 모험", "raw": "(1993) 원작", "lang": "ko", "via": "참여작품 - 영화"},
+   {"value": "허클베리 핀의 모험", "raw": "(1960) 원작", "lang": "ko", "via": "참여작품 - 영화"}
+  ],
+  "identifier": [{"value": "50754", "via": "page URL person_id"}]
+ }
+}

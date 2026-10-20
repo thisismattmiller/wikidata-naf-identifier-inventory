@@ -1,0 +1,286 @@
+{
+ "property": "P7507",
+ "property_label": "Ben Yehuda author ID",
+ "files": [
+  {
+   "file": "P7507__332/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://benyehuda.org/author/332"
+  },
+  {
+   "file": "P7507__332/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://benyehuda.org/author/332"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 9,
+  "LLM extraction": 2,
+  "http://ogp.me/ns#": 1
+ },
+ "elements": {
+  "image": [
+   {
+    "value": "https://s3.amazonaws.com/bybeprod/authorities/profile_images/000/000/332/thumb/Mark_Twain_686.jpg?1528397736",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: [0].og:image",
+    "file": "P7507.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "מארק טוויין",
+    "lang": "he",
+    "via": "llm-page:page heading",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:life years under heading",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:life years under heading",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "סופר",
+    "lang": "he",
+    "via": "llm-page:bio sentence",
+    "file": "P7507.json",
+    "uri": false
+   },
+   {
+    "value": "הומוריסט",
+    "lang": "he",
+    "via": "llm-page:bio sentence",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "אמריקני",
+    "lang": "he",
+    "via": "llm-page:bio sentence (\"סופר והומוריסט אמריקני\")",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "היה סופר והומוריסט אמריקני שיצירותיו נודעות בהומור הציני שלהן, בסאטירה החברתית החריפה, בתיאור הריאליסטי של מקומות ושפה ובהתנגדות לצביעות ולדיכוי.",
+    "lang": "he",
+    "via": "llm-page:bio paragraph (excerpt from Hebrew Wikipedia, \"להמשך הערך בויקיפדיה\")",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "בן המלך והעני",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list",
+    "file": "P7507.json",
+    "uri": false
+   },
+   {
+    "value": "מאורעות תום",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list",
+    "file": "P7507.json",
+    "uri": false
+   },
+   {
+    "value": "הקלברי פין",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list",
+    "file": "P7507.json",
+    "uri": false
+   },
+   {
+    "value": "עלילות הקלברי פין",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list",
+    "file": "P7507.json",
+    "uri": false
+   },
+   {
+    "value": "שולחן המלך (פרק ז' מתוך “בן המלך והעני”)",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "יהודה גור (translator of בן המלך והעני)",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list",
+    "file": "P7507.json",
+    "uri": false
+   },
+   {
+    "value": "ישראל חיים טביוב (translator of מאורעות תום)",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list",
+    "file": "P7507.json",
+    "uri": false
+   },
+   {
+    "value": "פאלק הלפרין (translator of הקלברי פין)",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list",
+    "file": "P7507.json",
+    "uri": false
+   },
+   {
+    "value": "אוריאל אופק (translator of עלילות הקלברי פין)",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list (\"בתרגום\" line)",
+    "file": "P7507.json",
+    "uri": false
+   },
+   {
+    "value": "אהרן דוד מרקסון (translator of שולחן המלך (פרק ז' מתוך “בן המלך והעני”))",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list",
+    "file": "P7507.json",
+    "uri": false
+   },
+   {
+    "value": "אהרן דוד מרקסון (translator of בן המלך והעני)",
+    "lang": "he",
+    "via": "llm-page:\"בכותרים שלו\" work list",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "עברית (translations)",
+    "lang": "he",
+    "via": "llm-page:all listed works are Hebrew translations (\"(תרגום)\")",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "332",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Hebrew Wikipedia",
+    "lang": "he",
+    "via": "llm-page:link after bio",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "נחלת הכלל",
+    "lang": "he",
+    "via": "llm-page:rights badge under heading",
+    "file": "P7507.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "image": [],
+  "name_preferred": [
+   "he"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "he"
+  ],
+  "nationality": [
+   "he"
+  ],
+  "description": [
+   "he"
+  ],
+  "work": [
+   "he"
+  ],
+  "related_agent": [
+   "he"
+  ],
+  "language": [
+   "he"
+  ],
+  "identifier": [],
+  "source": [
+   "he"
+  ],
+  "license": [
+   "he"
+  ]
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 178,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "//s3.amazonaws.com/bybeprod/authorities/profile_images/000/000/332/thumb/Mark_Twain_686.jpg?1528397736"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:image",
+     "value": "//s3.amazonaws.com/bybeprod/authorities/profile_images/000/000/332/thumb/Mark_Twain_686.jpg?1528397736"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Project Ben-Yehuda author page (Hebrew) for Mark Twain: heading with life years, a one-sentence Hebrew bio excerpted from Wikipedia, public-domain status, and 6 Hebrew translations of his prose with translator and edition details. No external links/identifiers are listed (\"אין עדיין קישוריות מאושרות\").",
+ "about_entity": true,
+ "chrome_elements": {}
+}

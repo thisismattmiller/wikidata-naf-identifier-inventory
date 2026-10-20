@@ -1,0 +1,60 @@
+{
+ "property": "P947",
+ "property_label": "RSL ID (person)",
+ "files": [],
+ "formats": {},
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Твен, Марк (1835-1910)",
+    "lang": "ru",
+    "via": "llm-page:results list Heading",
+    "file": "P947.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:results list Heading",
+    "file": "P947.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:results list Heading",
+    "file": "P947.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "000083946",
+    "lang": null,
+    "via": "llm-page:'Results for System Number= 000083946'",
+    "file": "P947.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "ru"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Aleph results list for system number 000083946 in the RSL directory of persons: a single hit with heading 'Твен, Марк (1835-1910)'; the full record is not opened.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

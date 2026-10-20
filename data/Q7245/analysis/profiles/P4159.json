@@ -1,0 +1,1069 @@
+{
+ "property": "P4159",
+ "property_label": "WeRelate person ID",
+ "files": [
+  {
+   "file": "P4159__Samuel_Clemens__4_555a4288/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.werelate.org/wiki/Person:Samuel_Clemens_%284%29"
+  },
+  {
+   "file": "P4159__Samuel_Clemens__4_555a4288/alternate_1.html",
+   "format": "html",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.werelate.org/w/index.php?title=Person:Samuel_Clemens_%284%29&action=creativecommons"
+  },
+  {
+   "file": "P4159__Samuel_Clemens__4_555a4288/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20261001&st=env&sjk=4500604238951864"
+  },
+  {
+   "file": "P4159__Samuel_Clemens__4_555a4288/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.werelate.org/cdn-cgi/rum?"
+  },
+  {
+   "file": "P4159__Samuel_Clemens__4_555a4288/browser_alternate_1.rdf",
+   "format": "rdf-xml",
+   "kind": "alternate",
+   "via": "browser",
+   "url": "https://www.werelate.org/w/index.php?title=Person:Samuel_Clemens_%284%29&action=creativecommons"
+  },
+  {
+   "file": "P4159__Samuel_Clemens__4_555a4288/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://www.werelate.org/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "html": 2,
+  "json": 1,
+  "rdf-xml": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://purl.org/dc/elements/1.1/": 13,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "http://web.resource.org/cc/": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "see_also": [
+   {
+    "value": "https://www.werelate.org/wiki/Person:Samuel_Clemens_%284%29",
+    "lang": null,
+    "via": "json:url",
+    "file": "embedded_microdata.json",
+    "uri": true
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": null,
+    "via": "json:gender",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Male",
+    "lang": "en",
+    "via": "llm-page:Gender",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Clemens (4)",
+    "lang": null,
+    "via": "title",
+    "file": "browser_alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:Events and Facts: Name / heading",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "json:birth.startDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Birth",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "json:death.startDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Death",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://web.resource.org/cc/Work",
+    "lang": null,
+    "via": "type",
+    "file": "browser_alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "Text",
+    "lang": null,
+    "via": "type",
+    "file": "browser_alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "en",
+    "lang": null,
+    "via": "language",
+    "file": "browser_alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "https://www.werelate.org/wiki/Person:Samuel_Clemens_%284%29",
+    "lang": null,
+    "via": "identifier",
+    "file": "browser_alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Person:Samuel Clemens (4)",
+    "lang": null,
+    "via": "llm-page:page title",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "https://www.werelate.org/wiki/User:Jrm03063",
+    "lang": null,
+    "via": "creator",
+    "file": "browser_alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "Amy Johnson Crow",
+    "lang": null,
+    "via": "contributor",
+    "file": "browser_alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "WeRelate agent",
+    "lang": null,
+    "via": "contributor",
+    "file": "browser_alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Amelia Morrow Gerlicher",
+    "lang": null,
+    "via": "contributor",
+    "file": "browser_alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Marvin Milner",
+    "lang": null,
+    "via": "contributor",
+    "file": "browser_alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "http://www.gnu.org/copyleft/fdl.html",
+    "lang": null,
+    "via": "rights",
+    "file": "browser_alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "Creative Commons Attribution/Share-Alike License",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:Alt Name",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Clemens (4)",
+    "lang": "en",
+    "via": "llm-page:page title",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:bio 'known by his pen name Mark Twain'",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Name",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:Browse surname",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Monroe, Missouri, United States",
+    "lang": "en",
+    "via": "llm-page:Birth",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Fairfield, Connecticut, United States",
+    "lang": "en",
+    "via": "llm-page:Death",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Woodlawn Cemetery, Elmira, Chemung, New York, United States",
+    "lang": "en",
+    "via": "llm-page:Burial",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Elmira, Chemung, New York, United States",
+    "lang": "en",
+    "via": "llm-page:Marriage",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "San Francisco, California",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Hartford, CT",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "New York City; Philadelphia; St. Louis; Cincinnati",
+    "lang": "en",
+    "via": "llm-page:bio (worked as printer)",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "entrepreneur",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "printer / typesetter",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "riverboat pilot",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "miner",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:bio; Category: American writers",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the \"greatest humorist the United States has produced\", and William Faulkner called him \"the father of American literature\". His novels include The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1884)...",
+    "lang": "en",
+    "via": "llm-page:Wikipedia-copied summary",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "John Marshall Clemens (father, 1798-1847)",
+    "lang": null,
+    "via": "llm-page:Parents",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Mary Jane Lampton / Jane Lampton Clemens (mother, 1803-1890)",
+    "lang": null,
+    "via": "llm-page:Parents",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Orion Clemens (brother, 1825-1897)",
+    "lang": null,
+    "via": "llm-page:Siblings",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Pamela 'Parmelia' Clemens (sister, 1827-1904)",
+    "lang": null,
+    "via": "llm-page:Siblings",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Pleasant Hannibal Clemens (brother, 1829-1829)",
+    "lang": null,
+    "via": "llm-page:Siblings",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Margaret Lampton Clemens (sister, 1830-1839)",
+    "lang": null,
+    "via": "llm-page:Siblings",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Benjamin L. Clemens (brother, 1832-1842)",
+    "lang": null,
+    "via": "llm-page:Siblings",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Clemens (brother, 1838-1858)",
+    "lang": null,
+    "via": "llm-page:Siblings",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Louise 'Livey' Langdon (wife, 1845-1904, m. Feb 1870)",
+    "lang": null,
+    "via": "llm-page:Spouse",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Langdon Clemens (son, 1870-1872)",
+    "lang": null,
+    "via": "llm-page:Children",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Susy Clemens (daughter, 1872-1896)",
+    "lang": null,
+    "via": "llm-page:Children",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Clara Clemens (daughter, 1874-1962)",
+    "lang": null,
+    "via": "llm-page:Children",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Jean Clemens (daughter, 1880-1909)",
+    "lang": null,
+    "via": "llm-page:Children",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Langdon (brother-in-law)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Horace E. Bixby (steamboat pilot mentor)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Huttleston Rogers (financier who helped him)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Society for Psychical Research (early member)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City Territorial Enterprise (employer)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Hannibal Journal (employer)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm-page:Reference Number",
+    "file": "P4159.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "Mark Twain, in Wikipedia: The Free Encyclopedia",
+    "lang": null,
+    "via": "llm-page:References",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, in Find A Grave",
+    "lang": null,
+    "via": "llm-page:References",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Kaplan, Fred. The Singular Mark Twain. Doubleday, 2007",
+    "lang": null,
+    "via": "llm-page:References",
+    "file": "P4159.json",
+    "uri": false
+   },
+   {
+    "value": "Lauber, John. The Inventions of Mark Twain: a Biography. Hill and Wang, 1990",
+    "lang": null,
+    "via": "llm-page:References",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2017-03-26",
+    "lang": null,
+    "via": "llm-page:page header",
+    "file": "P4159.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "see_also": [],
+  "gender": [
+   "en"
+  ],
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "type": [],
+  "language": [],
+  "identifier": [],
+  "work": [],
+  "license": [],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "related_agent": [],
+  "same_as": [],
+  "source": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "publisher (http://purl.org/dc/elements/1.1/)": 1,
+  "format (http://purl.org/dc/elements/1.1/)": 1,
+  "date (http://purl.org/dc/elements/1.1/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 3020,
+   "path_count": 33,
+   "paths": [
+    {
+     "path": "[].siblings[].@type",
+     "n": 6,
+     "sample": "HistoricalPerson.html"
+    },
+    {
+     "path": "[].siblings[].url",
+     "n": 6,
+     "sample": "https://www.werelate.org/wiki/Person:Orion_Clemens_%281%29"
+    },
+    {
+     "path": "[].siblings[].name",
+     "n": 6,
+     "sample": "Orion Clemens"
+    },
+    {
+     "path": "[].children[].@type",
+     "n": 4,
+     "sample": "HistoricalPerson.html"
+    },
+    {
+     "path": "[].children[].url",
+     "n": 4,
+     "sample": "https://www.werelate.org/wiki/Person:Langdon_Clemens_%281%29"
+    },
+    {
+     "path": "[].children[].name",
+     "n": 4,
+     "sample": "Langdon Clemens"
+    },
+    {
+     "path": "[].parents[].@type",
+     "n": 2,
+     "sample": "HistoricalPerson.html"
+    },
+    {
+     "path": "[].parents[].url",
+     "n": 2,
+     "sample": "https://www.werelate.org/wiki/Person:John_Clemens_%284%29"
+    },
+    {
+     "path": "[].parents[].name",
+     "n": 2,
+     "sample": "Justice John Marshall Clemens"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "HistoricalPerson.html"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://historical-data.org"
+    },
+    {
+     "path": "[].url",
+     "n": 1,
+     "sample": "https://www.werelate.org/wiki/Person:Samuel_Clemens_%284%29"
+    },
+    {
+     "path": "[].gender",
+     "n": 1,
+     "sample": "male"
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "[].birth.@type",
+     "n": 1,
+     "sample": "HistoricalEvent.html"
+    },
+    {
+     "path": "[].birth.startDate",
+     "n": 1,
+     "sample": "1835-11-30"
+    },
+    {
+     "path": "[].birth.location.@type",
+     "n": 1,
+     "sample": "Place"
+    },
+    {
+     "path": "[].birth.location.name",
+     "n": 1,
+     "sample": "Florida, Monroe, Missouri, United States"
+    },
+    {
+     "path": "[].birth.location.address.@type",
+     "n": 1,
+     "sample": "PostalAddress"
+    },
+    {
+     "path": "[].birth.location.address.addressLocality",
+     "n": 1,
+     "sample": "Florida"
+    },
+    {
+     "path": "[].birth.location.address.addressRegion",
+     "n": 1,
+     "sample": "Missouri"
+    },
+    {
+     "path": "[].birth.location.address.addressCountry",
+     "n": 1,
+     "sample": "United States"
+    },
+    {
+     "path": "[].death.@type",
+     "n": 1,
+     "sample": "HistoricalEvent.html"
+    },
+    {
+     "path": "[].death.startDate",
+     "n": 1,
+     "sample": "1910-04-21"
+    },
+    {
+     "path": "[].death.location.@type",
+     "n": 1,
+     "sample": "Place"
+    },
+    {
+     "path": "[].death.location.name",
+     "n": 1,
+     "sample": "Redding, Fairfield, Connecticut, United States"
+    },
+    {
+     "path": "[].death.location.address.@type",
+     "n": 1,
+     "sample": "PostalAddress"
+    },
+    {
+     "path": "[].death.location.address.addressLocality",
+     "n": 1,
+     "sample": "Redding"
+    },
+    {
+     "path": "[].death.location.address.addressRegion",
+     "n": 1,
+     "sample": "Connecticut"
+    },
+    {
+     "path": "[].death.location.address.addressCountry",
+     "n": 1,
+     "sample": "United States"
+    },
+    {
+     "path": "[].spouses.@type",
+     "n": 1,
+     "sample": "HistoricalPerson.html"
+    },
+    {
+     "path": "[].spouses.url",
+     "n": 1,
+     "sample": "https://www.werelate.org/wiki/Person:Olivia_Langdon_%281%29"
+    },
+    {
+     "path": "[].spouses.name",
+     "n": 1,
+     "sample": "Olivia Louise 'Livey' Langdon"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].url",
+     "value": "https://www.werelate.org/wiki/Person:Samuel_Clemens_%284%29"
+    },
+    {
+     "path": "[].name",
+     "value": "Samuel Langhorne Clemens"
+    },
+    {
+     "path": "[].birth.startDate",
+     "value": "1835-11-30"
+    },
+    {
+     "path": "[].death.startDate",
+     "value": "1910-04-21"
+    },
+    {
+     "path": "[].parents[].url",
+     "value": "https://www.werelate.org/wiki/Person:John_Clemens_%284%29"
+    },
+    {
+     "path": "[].parents[].name",
+     "value": "Justice John Marshall Clemens"
+    },
+    {
+     "path": "[].siblings[].url",
+     "value": "https://www.werelate.org/wiki/Person:Orion_Clemens_%281%29"
+    },
+    {
+     "path": "[].siblings[].name",
+     "value": "Orion Clemens"
+    },
+    {
+     "path": "[].siblings[].url",
+     "value": "https://www.werelate.org/wiki/Person:Pamela_Clemens_%281%29"
+    },
+    {
+     "path": "[].siblings[].name",
+     "value": "Pamela 'Parmelia' Clemens"
+    },
+    {
+     "path": "[].siblings[].url",
+     "value": "https://www.werelate.org/wiki/Person:Pleasant_Clemens_%282%29"
+    },
+    {
+     "path": "[].siblings[].name",
+     "value": "Pleasant Hannibal Clemens"
+    },
+    {
+     "path": "[].siblings[].url",
+     "value": "https://www.werelate.org/wiki/Person:Margaret_Clemens_%282%29"
+    },
+    {
+     "path": "[].siblings[].name",
+     "value": "Margaret Lampton Clemens"
+    },
+    {
+     "path": "[].siblings[].url",
+     "value": "https://www.werelate.org/wiki/Person:Benjamin_Clemens_%281%29"
+    },
+    {
+     "path": "[].siblings[].name",
+     "value": "Benjamin L. Clemens"
+    },
+    {
+     "path": "[].siblings[].url",
+     "value": "https://www.werelate.org/wiki/Person:Henry_Clemens_%286%29"
+    },
+    {
+     "path": "[].siblings[].name",
+     "value": "Henry Clemens"
+    },
+    {
+     "path": "[].children[].url",
+     "value": "https://www.werelate.org/wiki/Person:Langdon_Clemens_%281%29"
+    },
+    {
+     "path": "[].children[].name",
+     "value": "Langdon Clemens"
+    },
+    {
+     "path": "[].children[].url",
+     "value": "https://www.werelate.org/wiki/Person:Susy_Clemens_%281%29"
+    },
+    {
+     "path": "[].children[].name",
+     "value": "Susy Clemens"
+    },
+    {
+     "path": "[].children[].url",
+     "value": "https://www.werelate.org/wiki/Person:Clara_Clemens_%281%29"
+    },
+    {
+     "path": "[].children[].name",
+     "value": "Clara Clemens"
+    },
+    {
+     "path": "[].children[].url",
+     "value": "https://www.werelate.org/wiki/Person:Jean_Clemens_%281%29"
+    },
+    {
+     "path": "[].children[].name",
+     "value": "Jean Clemens"
+    }
+   ],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 18054,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "sodar_query_id",
+     "n": 1,
+     "sample": "cGfAaprqD8KckucPvv2RsQs"
+    },
+    {
+     "path": "injector_basename",
+     "n": 1,
+     "sample": "sodar2"
+    },
+    {
+     "path": "bg_hash_basename",
+     "n": 1,
+     "sample": "ZeuZR2wN0OgQyQwTWuSfzMFqoRjwTL9YuyfMM9TkUZY"
+    },
+    {
+     "path": "bg_binary",
+     "n": 1,
+     "sample": "RoJtUwS2aEbFucSF3s8UnU0bL9SbW4Biff+D7yUGBCz6MHcedpqrEqCYpH8zOnzHvhaQdpxXktnrwA7/vuQbb1gJoWPLTZUHsZOtVqxoGUNKSE+RUl7Oxcgy"
+    },
+    {
+     "path": "rc_enable",
+     "n": 1,
+     "sample": "y"
+    },
+    {
+     "path": "bg_snapshot_delay_ms",
+     "n": 1,
+     "sample": "500"
+    },
+    {
+     "path": "is_gen_204",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "WeRelate genealogy person page: vital events with places, burial, parents, siblings, spouse and children, Wikidata reference, and a Wikipedia-copied biography. Last modified 26 Mar 2017.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

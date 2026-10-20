@@ -1,0 +1,882 @@
+{
+ "property": "P2607",
+ "property_label": "BookBrainz author ID",
+ "files": [
+  {
+   "file": "P2607__83280dda-c02e-4f45-a44a-092226e6e8c7/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://bookbrainz.org/author/83280dda-c02e-4f45-a44a-092226e6e8c7"
+  },
+  {
+   "file": "P2607__83280dda-c02e-4f45-a44a-092226e6e8c7/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bookbrainz.org/wikidata/Q7245/wikipedia-extract?language=en"
+  },
+  {
+   "file": "P2607__83280dda-c02e-4f45-a44a-092226e6e8c7/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://bookbrainz.org/external-service/critiquebrainz/refresh"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "json": 1,
+  "html": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/xhtml/vocab#": 1
+ },
+ "elements": {
+  "language": [
+   {
+    "value": "en",
+    "lang": null,
+    "via": "json:article.language",
+    "file": "xhr_1.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:article.title",
+    "file": "xhr_1.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.title / $.article.title",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract (<b>Samuel Langhorne Clemens</b>)",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:Sort Name",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract ('raised in Hannibal, Missouri')",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi River",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract (riverboat pilot)",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract (Territorial Enterprise)",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Angels Camp, California",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "essayist",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "typesetter",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "riverboat pilot",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "miner",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "speaker",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "entrepreneur",
+    "lang": "en",
+    "via": "llm-page:Annotation",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "llm-page:Annotation",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:Annotation",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), known by the pen name Mark Twain, was an American writer, humorist, and essayist.",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract (first sentence)",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain was the pen name of Samuel Langhorne Clemens, an American writer, humorist, entrepreneur, publisher, and lecturer.",
+    "lang": "en",
+    "via": "llm-page:Annotation",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age: A Tale of Today",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "King Leopold's Soliloquy",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Autobiography of Mark Twain",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Autobiography of Mark Twain, Volume 1: The Complete and Authoritative Edition",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd'nhead Wilson",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "What Is Man? and Other Essays",
+    "lang": null,
+    "via": "llm-page:Editions",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, Detective",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing It",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The $30,000 Bequest, and Other Stories",
+    "lang": null,
+    "via": "llm-page:Editions",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain: Five Novels",
+    "lang": null,
+    "via": "llm-page:Editions",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Œuvres",
+    "lang": null,
+    "via": "llm-page:Editions",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Stolen White Elephant",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Eve’s Diary",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Extracts From Adam’s Diary",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Is Shakespeare Dead?",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Bee",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Italian Without a Master",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "A Dog’s Tale",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Death of Jean",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "How to Tell a Story",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Concerning Tobacco",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Advice to Little Girls",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Taming the Bicycle",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Million Pound Bank Note",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The McWilliamses and the Burglar Alarm",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Californian’s Tale",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "My Watch: An Instructive Little Tale",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Aurelia's Unfortunate Young Man",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "English as She Is Taught",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Turning-Point of My Life",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "The Five Boons of Life",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Was It Heaven? or Hell?",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finns Abenteuer",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Orion Clemens",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Dudley Warner",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Henry Huttleston Rogers",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "American Anti-Imperialist League",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Territorial Enterprise",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "William Faulkner",
+    "lang": "en",
+    "via": "llm:xhr_1.json: $.extract",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Charles Neider (editor of The Autobiography of Mark Twain / Autobiographie)",
+    "lang": null,
+    "via": "llm-page:Editions / Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Lore Krüger (German translator of Huckleberry Finns Abenteuer and Der Prinz und der Bettelknabe)",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Gramowski (German translator of Die Abenteuer des Huckleberry Finn)",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Baruch (German translator of Autobiographie: zusammengestellt von Charles Neider)",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "Bischof / Binde (revisers of German translations: Eine Rigibesteigung, Das Interview, Die Millionen-Pfund-Note, Meine Uhr, Mr. Bloke's Artikel, Der berühmte Springfrosch)",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "William Dean Howells (subject of his essay 'William Dean Howells')",
+    "lang": null,
+    "via": "llm-page:Relationships",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "154450",
+    "lang": null,
+    "via": "llm:xhr_1.json: $.pageid",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "83280dda-c02e-4f45-a44a-092226e6e8c7",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Annotation",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:Annotation",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "Male",
+    "lang": "en",
+    "via": "llm-page:Gender field",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Monroe County",
+    "lang": "en",
+    "via": "llm-page:Place of birth",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "en",
+    "via": "llm-page:Place of death",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm-page:Identifiers",
+    "file": "P2607.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "llm-page:Identifiers",
+    "file": "P2607.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.librarything.com/author/twainmark",
+    "lang": null,
+    "via": "llm-page:Identifiers",
+    "file": "P2607.json",
+    "uri": true
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-09-22",
+    "lang": null,
+    "via": "llm-page:Last Modified",
+    "file": "P2607.json",
+    "uri": false
+   },
+   {
+    "value": "2020-10-06",
+    "lang": null,
+    "via": "llm-page:annotation block",
+    "file": "P2607.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "language": [],
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "activity_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": [],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "gender": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "same_as": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 3758,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "article.language",
+     "n": 1,
+     "sample": "en"
+    },
+    {
+     "path": "article.title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "pageid",
+     "n": 1,
+     "sample": "154450"
+    },
+    {
+     "path": "ns",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "extract",
+     "n": 1,
+     "sample": "<p class=\"mw-empty-elt\">\n\n\n</p>\n\n<p><b>Samuel Langhorne Clemens</b> (November 30, 1835 – April 21, 1910), known by the p"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "article.title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "extract",
+     "value": "<p class=\"mw-empty-elt\">\n\n\n</p>\n\n<p><b>Samuel Langhorne Clemens</b> (November 30, 1835 – April 21, 1910), known by the pen name <b>Mark Twain</b>, was an American writer, humorist, and essayist. He ha"
+    }
+   ],
+   "language_like_keys": [
+    "ns"
+   ]
+  }
+ ],
+ "llm_notes": "BookBrainz author entity: names, gender, birth/death dates and places, a one-line annotation, ~33 editions, ~100 'wrote'/'provided story for' work relationships (capped here at 40 distinct titles) and identifiers (LibraryThing, VIAF, Wikidata). Edition list oddly includes 'Oliver Twist' (Dickens), omitted here as a misattribution.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

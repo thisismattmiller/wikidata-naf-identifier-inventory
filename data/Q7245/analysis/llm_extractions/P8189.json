@@ -1,0 +1,35 @@
+{
+ "property": "P8189",
+ "label": "J9U entity ID",
+ "files_read": [
+  "P8189__987007269289205171/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph only from the National Library of Israel authority page: og:title carries the heading with dates; og:image is a generic PersonalName placeholder.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "raw": "Twain, Mark, 1835-1910 | The National Library of Israel",
+    "lang": "en",
+    "via": "P8189__987007269289205171/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "raw": "1835-1910",
+    "lang": null,
+    "via": "P8189__987007269289205171/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "raw": "1835-1910",
+    "lang": null,
+    "via": "P8189__987007269289205171/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ]
+ }
+}

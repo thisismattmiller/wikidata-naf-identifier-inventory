@@ -1,0 +1,186 @@
+{
+ "property": "P7574",
+ "property_label": "Swedish Royal Theater Archive",
+ "files": [
+  {
+   "file": "P7574__Person_5752_b1fc05d9/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.dramaten.se/rollboken?detail=Person/5752/"
+  },
+  {
+   "file": "P7574__Person_5752_b1fc05d9/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.dramaten.se/rollboken?detail=Person/5752/"
+  },
+  {
+   "file": "P7574__Person_5752_b1fc05d9/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ticket-api.dramaten.se/api/v1/cart"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 25,
+  "http://ogp.me/ns#": 3
+ },
+ "elements": {},
+ "element_languages": {},
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 127,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Rollboken"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 363,
+   "path_count": 19,
+   "paths": [
+    {
+     "path": "success",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "errorMessage",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "errorNumber",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "data.id",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "data.date",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "data.performances",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "data.giftCertificates",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "data.payments",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "data.amount",
+     "n": 1,
+     "sample": "0.0"
+    },
+    {
+     "path": "data.amountDue",
+     "n": 1,
+     "sample": "0.0"
+    },
+    {
+     "path": "data.discount",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "data.promoCodeActive",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "data.priceDiscounted",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "data.hasActivatedPricingRule",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "data.sessionExpiration",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "data.vat",
+     "n": 1,
+     "sample": "0.0"
+    },
+    {
+     "path": "data.promotionMessages",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "data.itemCount",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "data.hasReturnedTickets",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "vat"
+   ]
+  }
+ ],
+ "llm_notes": null,
+ "about_entity": false,
+ "chrome_elements": {}
+}

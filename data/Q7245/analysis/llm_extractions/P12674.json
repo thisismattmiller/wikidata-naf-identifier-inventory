@@ -1,0 +1,28 @@
+{
+ "property": "P12674",
+ "label": "Kunstenpunt Knowledge Graph ID",
+ "files_read": ["P12674__Q142191/browser_alternate_1.json"],
+ "about_entity": true,
+ "notes": "Wikibase entity JSON for Kunstenpunt item Q142191 (ingested from data.kunsten.be as an 'Uitvoerder'/performer). Local property semantics inferred: P26 = data.kunsten.be URL (qualifier P27 -> Q58527), P31 = name as monolingual text, P75 = Wikidata QID, P1 -> Q58543 (unlabelled local class).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "nl", "via": "browser_alternate_1.json: $.entities.Q142191.labels.nl"}
+  ],
+  "name_variant": [
+   {"value": "Twain Mark", "lang": "nl", "via": "browser_alternate_1.json: $.entities.Q142191.claims.P31[0].mainsnak.datavalue.value.text"}
+  ],
+  "description": [
+   {"value": "Person from data.kunsten.be, ingested as an Uitvoerder", "lang": "nl", "via": "browser_alternate_1.json: $.entities.Q142191.descriptions.nl"}
+  ],
+  "same_as": [
+   {"value": "http://www.wikidata.org/entity/Q7245", "raw": "Q7245", "via": "browser_alternate_1.json: $.entities.Q142191.claims.P75"},
+   {"value": "https://data.kunsten.be/people/1884188", "via": "browser_alternate_1.json: $.entities.Q142191.claims.P26"}
+  ],
+  "identifier": [
+   {"value": "Q142191", "via": "browser_alternate_1.json: $.entities.Q142191.id"}
+  ],
+  "record_modified": [
+   {"value": "2024-03-30", "raw": "2024-03-30T20:11:10Z", "via": "browser_alternate_1.json: $.entities.Q142191.modified"}
+  ]
+ }
+}

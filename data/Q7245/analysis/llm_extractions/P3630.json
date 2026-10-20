@@ -1,0 +1,83 @@
+{
+ "property": "P3630",
+ "label": "Babelio author ID",
+ "files_read": [
+  "P3630__3982/embedded_microdata.json",
+  "P3630__3982/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "schema.org Person microdata and OpenGraph from the Babelio author page (French); og:description is a truncated French biography.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "embedded_microdata.json: $[0].name[0]"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "fr",
+    "via": "embedded_opengraph.json: og:description ('né Samuel Langhorne Clemens')"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "écrivain",
+    "lang": "fr",
+    "via": "embedded_opengraph.json: og:description"
+   },
+   {
+    "value": "essayiste",
+    "lang": "fr",
+    "via": "embedded_opengraph.json: og:description"
+   },
+   {
+    "value": "humoriste",
+    "lang": "fr",
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "américain",
+    "lang": "fr",
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain né Samuel Langhorne Clemens est un écrivain, essayiste et humoriste américain.",
+    "lang": "fr",
+    "via": "embedded_opengraph.json: og:description"
+   }
+  ],
+  "work": [
+   {
+    "value": "Les Aventures de Tom Sawyer",
+    "lang": "fr",
+    "via": "embedded_opengraph.json: og:title ('auteur de ...')"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "3982",
+    "lang": null,
+    "via": "embedded_microdata.json: $[0].url"
+   },
+   {
+    "value": "https://www.babelio.com/auteur/Mark-Twain/3982",
+    "lang": null,
+    "via": "embedded_microdata.json: $[0].url"
+   }
+  ],
+  "image": [
+   {
+    "value": "https://www.babelio.com/users/AVT_Mark-Twain_4120.jpg",
+    "lang": null,
+    "via": "embedded_microdata.json: $[0].image"
+   }
+  ]
+ }
+}

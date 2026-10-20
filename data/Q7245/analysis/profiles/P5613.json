@@ -1,0 +1,197 @@
+{
+ "property": "P5613",
+ "property_label": "Bibliothèque de la Pléiade ID",
+ "files": [
+  {
+   "file": "P5613__Mark-Twain/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.la-pleiade.fr/auteurs/mark-twain"
+  },
+  {
+   "file": "P5613__Mark-Twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.la-pleiade.fr/auteurs/mark-twain"
+  },
+  {
+   "file": "P5613__Mark-Twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.la-pleiade.fr/auteurs/mark-twain"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 19,
+  "http://schema.org/": 3,
+  "http://ogp.me/ns#": 3,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/WebPage",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "fr",
+    "via": "llm:P5613__Mark-Twain/embedded_opengraph.json: $[0]['og:title']",
+    "file": "P5613.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm:P5613__Mark-Twain/embedded_opengraph.json: $[0]['og:url']",
+    "file": "P5613.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "États-Unis",
+    "lang": "fr",
+    "via": "llm-page:Pays",
+    "file": "P5613.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Œuvres",
+    "lang": "fr",
+    "via": "llm-page:Les livres de Mark Twain",
+    "file": "P5613.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "fr"
+  ],
+  "identifier": [],
+  "nationality": [
+   "fr"
+  ],
+  "work": [
+   "fr"
+  ]
+ },
+ "unmapped": {
+  "breadcrumb (http://schema.org/)": 1,
+  "publisher (http://schema.org/)": 1,
+  "isAccessibleForFree (http://schema.org/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 583,
+   "path_count": 13,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "La Pléiade"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.la-pleiade.fr/auteurs/mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].@context.content",
+     "n": 1,
+     "sample": "http://purl.org/rss/1.0/modules/content/"
+    },
+    {
+     "path": "[].@context.dc",
+     "n": 1,
+     "sample": "http://purl.org/dc/terms/"
+    },
+    {
+     "path": "[].@context.foaf",
+     "n": 1,
+     "sample": "http://xmlns.com/foaf/0.1/"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    },
+    {
+     "path": "[].@context.rdfs",
+     "n": 1,
+     "sample": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+     "path": "[].@context.schema",
+     "n": 1,
+     "sample": "http://schema.org/"
+    },
+    {
+     "path": "[].@context.sioc",
+     "n": 1,
+     "sample": "http://rdfs.org/sioc/ns#"
+    },
+    {
+     "path": "[].@context.sioct",
+     "n": 1,
+     "sample": "http://rdfs.org/sioc/types#"
+    },
+    {
+     "path": "[].@context.skos",
+     "n": 1,
+     "sample": "http://www.w3.org/2004/02/skos/core#"
+    },
+    {
+     "path": "[].@context.xsd",
+     "n": 1,
+     "sample": "http://www.w3.org/2001/XMLSchema#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:url",
+     "value": "https://www.la-pleiade.fr/auteurs/mark-twain"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "dc",
+    "og",
+    "xsd"
+   ]
+  }
+ ],
+ "llm_notes": "La Pléiade author page 'Mark TWAIN' giving only his country and one book ('Œuvres'); the rest is navigation and newsletter chrome.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,327 @@
+{
+ "property": "P1741",
+ "property_label": "GTAA ID",
+ "files": [
+  {
+   "file": "P1741__160094/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://data.beeldengeluid.nl/gtaa/160094"
+  },
+  {
+   "file": "P1741__160094/export_1.ttl",
+   "format": "turtle",
+   "kind": "export",
+   "via": "http",
+   "url": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  {
+   "file": "P1741__160094/export_2.ttl",
+   "format": "turtle",
+   "kind": "export",
+   "via": "http",
+   "url": "http://www.w3.org/2000/01/rdf-schema#Resource"
+  },
+  {
+   "file": "P1741__160094/export_3.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://cat.apis.beeldengeluid.nl/sparql"
+  },
+  {
+   "file": "P1741__160094/conneg_1.jsonld",
+   "format": "json-ld",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.beeldengeluid.nl/gtaa/160094"
+  },
+  {
+   "file": "P1741__160094/conneg_2.ttl",
+   "format": "turtle",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.beeldengeluid.nl/gtaa/160094"
+  },
+  {
+   "file": "P1741__160094/conneg_3.rdf",
+   "format": "rdf-xml",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.beeldengeluid.nl/gtaa/160094"
+  },
+  {
+   "file": "P1741__160094/conneg_4.jsonld",
+   "format": "json-ld",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://data.beeldengeluid.nl/gtaa/160094"
+  }
+ ],
+ "formats": {
+  "json-ld": 3,
+  "turtle": 3,
+  "html": 1,
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 40,
+  "http://www.w3.org/2004/02/skos/core#": 35,
+  "http://www.w3.org/2008/05/skos-xl#": 20,
+  "http://purl.org/dc/terms/": 15,
+  "http://data.beeldengeluid.nl/schema/thes#": 10,
+  "https://schema.org/": 10,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.w3.org/2008/05/skos-xl#Label",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "Thing",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "https://schema.org/Thing",
+    "lang": null,
+    "via": "type (uri)",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.w3.org/2004/02/skos/core#Concept",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "https://schema.org/Person",
+    "lang": null,
+    "via": "type (uri)",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-05-24T08:16:03+00:00",
+    "lang": null,
+    "via": "modified",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "2024-05-24",
+    "lang": null,
+    "via": "llm-page:dcterms:modified",
+    "file": "P1741.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://api.discogs.com/artists/463414",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "https://data.muziekschatten.nl/som/524a74d7e9016bdfd700366fde1d00ba",
+    "lang": null,
+    "via": "exactMatch",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "discogs:463414",
+    "lang": null,
+    "via": "llm-page:skos:exactMatch",
+    "file": "P1741.json",
+    "uri": false
+   },
+   {
+    "value": "som:524a74d7e9016bdfd700366fde1d00ba",
+    "lang": null,
+    "via": "llm-page:skos:exactMatch",
+    "file": "P1741.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "nl",
+    "via": "prefLabel",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "http://data.beeldengeluid.nl/gtaa/160094/label/7b16941a-6b20-450d-ae2f-f5220c78936a",
+    "lang": null,
+    "via": "prefLabel",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "description": [
+   {
+    "value": "schrijver VS",
+    "lang": "nl",
+    "via": "scopeNote",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "http://data.beeldengeluid.nl/gtaa/160094/label/2d9a45ed-41b8-4dad-89ef-ef0c3cdcc841",
+    "lang": null,
+    "via": "hiddenLabel",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:skosxl:hiddenLabel / exactMatch label",
+    "file": "P1741.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "schrijver",
+    "lang": "nl",
+    "via": "llm-page:skos:scopeNote 'schrijver VS'",
+    "file": "P1741.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "VS",
+    "lang": "nl",
+    "via": "llm-page:skos:scopeNote 'schrijver VS'",
+    "file": "P1741.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "160094",
+    "lang": null,
+    "via": "llm-page:skos:notation",
+    "file": "P1741.json",
+    "uri": false
+   },
+   {
+    "value": "http://data.beeldengeluid.nl/gtaa/160094",
+    "lang": null,
+    "via": "llm-page:subject URI",
+    "file": "P1741.json",
+    "uri": true
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2007-11-24",
+    "lang": null,
+    "via": "llm-page:dcterms:dateSubmitted / dateAccepted",
+    "file": "P1741.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "lang": null,
+    "via": "llm-page:sdo:sdLicense",
+    "file": "P1741.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "https://www.beeldengeluid.nl/",
+    "lang": null,
+    "via": "llm-page:sdo:sdPublisher",
+    "file": "P1741.json",
+    "uri": true
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "record_modified": [],
+  "same_as": [],
+  "name_preferred": [
+   "nl"
+  ],
+  "description": [
+   "nl"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "occupation": [
+   "nl"
+  ],
+  "nationality": [
+   "nl"
+  ],
+  "identifier": [],
+  "record_created": [],
+  "license": [],
+  "source": []
+ },
+ "unmapped": {
+  "literalForm (http://www.w3.org/2008/05/skos-xl#)": 10,
+  "inSet (http://data.beeldengeluid.nl/schema/thes#)": 5,
+  "status (http://data.beeldengeluid.nl/schema/thes#)": 5,
+  "dateAccepted (http://purl.org/dc/terms/)": 5,
+  "dateSubmitted (http://purl.org/dc/terms/)": 5,
+  "inScheme (http://www.w3.org/2004/02/skos/core#)": 5,
+  "notation (http://www.w3.org/2004/02/skos/core#)": 5,
+  "hiddenLabel/literalForm (http://www.w3.org/2008/05/skos-xl#)": 5,
+  "prefLabel/literalForm (http://www.w3.org/2008/05/skos-xl#)": 5,
+  "sdLicense (https://schema.org/)": 5,
+  "sdPublisher (https://schema.org/)": 5,
+  "(no node about the entity in this file)": 2
+ },
+ "json_profiles": [],
+ "llm_notes": "Beeld & Geluid LOD view of GTAA person concept 160094: prefLabel, scope note 'schrijver VS', dates accepted/modified, exactMatch to Discogs and another scheme, CC0 license; 10 resources are about him.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

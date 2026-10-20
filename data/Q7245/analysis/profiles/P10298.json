@@ -1,0 +1,165 @@
+{
+ "property": "P10298",
+ "property_label": "Sceneweb artist ID",
+ "files": [
+  {
+   "file": "P10298__76862/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://sceneweb.no/nb/artist/76862/Mark_Twain"
+  }
+ ],
+ "formats": {
+  "opengraph": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P10298.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "nb",
+    "via": "llm-page:page heading",
+    "file": "P10298.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "76862",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P10298.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Amerikansk",
+    "lang": "nb",
+    "via": "llm-page:Nasjonalitet",
+    "file": "P10298.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "Mann",
+    "lang": "nb",
+    "via": "llm-page:Kjønn",
+    "file": "P10298.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Tom Sawyer",
+    "lang": "nb",
+    "via": "llm-page:Tekster list",
+    "file": "P10298.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Det Norske Teatret (staged Tom Sawyer, 1948)",
+    "lang": null,
+    "via": "llm-page:Tekster list",
+    "file": "P10298.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2017-09-07",
+    "lang": null,
+    "via": "llm-page:Opprettet",
+    "file": "P10298.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2017-09-07",
+    "lang": null,
+    "via": "llm-page:Sist endret",
+    "file": "P10298.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "nb"
+  ],
+  "identifier": [],
+  "nationality": [
+   "nb"
+  ],
+  "gender": [
+   "nb"
+  ],
+  "work": [
+   "nb"
+  ],
+  "related_agent": [],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 170,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://sceneweb.no/nb/artist/76862/Mark_Twain"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:url",
+     "value": "https://sceneweb.no/nb/artist/76862/Mark_Twain"
+    },
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Sceneweb (Norwegian performing-arts database) person record: object id, nationality, gender, record dates, counts of productions (2) and works (1), and one attached programme PDF for Det Norske Teatret's Tom Sawyer (1948).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

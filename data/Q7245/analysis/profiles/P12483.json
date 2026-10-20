@@ -1,0 +1,736 @@
+{
+ "property": "P12483",
+ "property_label": "PMB – Personen der Moderne Basis person ID",
+ "files": [
+  {
+   "file": "P12483__26252/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/26252/detail"
+  },
+  {
+   "file": "P12483__26252/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/26252/detail"
+  },
+  {
+   "file": "P12483__26252/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://pmb.acdh.oeaw.ac.at/export/"
+  },
+  {
+   "file": "P12483__26252/export_2.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://pmb.acdh.oeaw.ac.at/apis/api/entities/person/26252/"
+  },
+  {
+   "file": "P12483__26252/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://pmb.acdh.oeaw.ac.at/export/"
+  },
+  {
+   "file": "P12483__26252/browser_export_2.json",
+   "format": "json",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://pmb.acdh.oeaw.ac.at/apis/api/entities/person/26252/"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 3,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/xhtml/vocab#": 1
+ },
+ "elements": {
+  "see_also": [
+   {
+    "value": "https://pmb.acdh.oeaw.ac.at/apis/api/entities/person/26252/",
+    "lang": null,
+    "via": "json:url",
+    "file": "browser_export_2.json",
+    "uri": true
+   }
+  ],
+  "subject_of": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:name (record title)",
+    "file": "browser_export_2.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2024-01-22T09:29:54.174900+01:00",
+    "lang": null,
+    "via": "json:created",
+    "file": "browser_export_2.json",
+    "uri": false
+   },
+   {
+    "value": "2024-01-22",
+    "lang": null,
+    "via": "llm:browser_export_2.json: $.created",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-06-02T13:36:47.798268+02:00",
+    "lang": null,
+    "via": "json:updated",
+    "file": "browser_export_2.json",
+    "uri": false
+   },
+   {
+    "value": "2025-06-02",
+    "lang": null,
+    "via": "llm:browser_export_2.json: $.updated",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "male",
+    "lang": null,
+    "via": "json:gender",
+    "file": "browser_export_2.json",
+    "uri": false
+   },
+   {
+    "value": "male",
+    "lang": "en",
+    "via": "llm-page:Gender row",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://pmb.acdh.oeaw.ac.at/entity/26252/",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "browser_export_2.json",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "browser_export_2.json",
+    "uri": true
+   },
+   {
+    "value": "https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26252.html",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "browser_export_2.json",
+    "uri": true
+   },
+   {
+    "value": "https://fackel.oeaw.ac.at/?p=fackelp49745",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "browser_export_2.json",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "browser_export_2.json",
+    "uri": true
+   },
+   {
+    "value": "https://de.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "browser_export_2.json",
+    "uri": true
+   },
+   {
+    "value": "https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=400",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "browser_export_2.json",
+    "uri": true
+   },
+   {
+    "value": "https://schaubuehne.oeaw.ac.at/register.html?author=268",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "browser_export_2.json",
+    "uri": true
+   },
+   {
+    "value": "https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb26252.html",
+    "lang": null,
+    "via": "json:sameAs",
+    "file": "browser_export_2.json",
+    "uri": true
+   },
+   {
+    "value": "gnd",
+    "lang": null,
+    "via": "llm-page:Verknüpfte Datensätze",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "wikidata",
+    "lang": null,
+    "via": "llm-page:Verknüpfte Datensätze",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "wikipedia",
+    "lang": null,
+    "via": "llm-page:Verknüpfte Datensätze",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "wiengeschichtewiki",
+    "lang": null,
+    "via": "llm-page:Verknüpfte Datensätze",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "schnitzler-lektueren / fackel / schaubuehne / schnitzler-tagebuch",
+    "lang": null,
+    "via": "llm-page:Verknüpfte Datensätze",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm:browser_export_2.json: $.name; embedded_opengraph.json: [0].og:title",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "de",
+    "via": "llm-page:Name row",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm:browser_export_2.json: $.start_date",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm:browser_export_2.json: $.end_date",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Schriftsteller/Schriftstellerin",
+    "lang": "de",
+    "via": "llm:browser_export_2.json: $.profession[0].label (id 90)",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "Journalist/Journalistin",
+    "lang": "de",
+    "via": "llm:browser_export_2.json: $.profession[1].label (id 99)",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "26252",
+    "lang": null,
+    "via": "llm:browser_export_2.json: $.id",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "https://pmb.acdh.oeaw.ac.at/entity/26252/",
+    "lang": null,
+    "via": "llm:browser_export_2.json: $.sameAs[0]; embedded_opengraph.json: [0].og:url",
+    "file": "P12483.json",
+    "uri": true
+   }
+  ],
+  "image": [
+   {
+    "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg",
+    "lang": null,
+    "via": "llm:browser_export_2.json: $.img_url; embedded_opengraph.json: [0].og:image",
+    "file": "P12483.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "Der Brenner",
+    "lang": "de",
+    "via": "llm:browser_export_2.json: $.collection[0].label (PMB collection in which he appears)",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "Die Schaubühne",
+    "lang": "de",
+    "via": "llm:browser_export_2.json: $.collection[1].label",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "Karl Kraus: Die Fackel",
+    "lang": "de",
+    "via": "llm:browser_export_2.json: $.collection[2].label",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "de",
+    "via": "llm-page:anderer Name / Label table (birth name)",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "de",
+    "via": "llm-page:Label table, Person_Geburtsname_Vorname",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "de",
+    "via": "llm-page:Label table, Person_Geburtsname_Nachname",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": "de",
+    "via": "llm-page:Place relation 'geboren in'",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "de",
+    "via": "llm-page:Place relation 'gestorben in'",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hotel Metropole [Wien]",
+    "lang": "de",
+    "via": "llm-page:Place relations",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "Hotel Kaiserin Elisabeth [Bad Ischl]",
+    "lang": "de",
+    "via": "llm-page:Place relations",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Ausgewählte Skizzen",
+    "lang": "de",
+    "via": "llm-page:Work relations 'hat geschaffen'",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "Wie ich ein landwirtschaftliches Blatt herausgab",
+    "lang": "de",
+    "via": "llm-page:Work relations 'hat geschaffen'",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Der Brenner (collection in which he appears)",
+    "lang": null,
+    "via": "llm-page:Sammlungen",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "Die Schaubühne (collection in which he appears)",
+    "lang": null,
+    "via": "llm-page:Sammlungen",
+    "file": "P12483.json",
+    "uri": false
+   },
+   {
+    "value": "Karl Kraus: Die Fackel (collection in which he appears)",
+    "lang": null,
+    "via": "llm-page:Sammlungen",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "CC BY 4.0",
+    "lang": null,
+    "via": "llm-page:footer 'Lizenz der Inhalte'",
+    "file": "P12483.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "see_also": [],
+  "subject_of": [],
+  "record_created": [],
+  "record_modified": [],
+  "gender": [
+   "en"
+  ],
+  "same_as": [],
+  "name_preferred": [
+   "de"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "de"
+  ],
+  "identifier": [],
+  "image": [],
+  "source": [
+   "de"
+  ],
+  "name_variant": [
+   "de"
+  ],
+  "given_name": [
+   "de"
+  ],
+  "family_name": [
+   "de"
+  ],
+  "birth_place": [
+   "de"
+  ],
+  "death_place": [
+   "de"
+  ],
+  "activity_place": [
+   "de"
+  ],
+  "work": [
+   "de"
+  ],
+  "related_agent": [],
+  "license": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 338,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://pmb.acdh.oeaw.ac.at/entity/26252/"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "PMB – Personen der Moderne Basis"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:image",
+     "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "browser_export_2.json",
+   "format": "json",
+   "size": 1798,
+   "path_count": 31,
+   "paths": [
+    {
+     "path": "sameAs[]",
+     "n": 9,
+     "sample": "https://pmb.acdh.oeaw.ac.at/entity/26252/"
+    },
+    {
+     "path": "collection[].id",
+     "n": 3,
+     "sample": "35"
+    },
+    {
+     "path": "collection[].label",
+     "n": 3,
+     "sample": "Der Brenner"
+    },
+    {
+     "path": "collection[].url",
+     "n": 3,
+     "sample": "https://pmb.acdh.oeaw.ac.at/apis/api/metainfo/collection/35/"
+    },
+    {
+     "path": "profession[].id",
+     "n": 2,
+     "sample": "90"
+    },
+    {
+     "path": "profession[].label",
+     "n": 2,
+     "sample": "Schriftsteller/Schriftstellerin"
+    },
+    {
+     "path": "profession[].url",
+     "n": 2,
+     "sample": "https://pmb.acdh.oeaw.ac.at/apis/api/vocabularies/professiontype/90/"
+    },
+    {
+     "path": "profession[].parent_id",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "url",
+     "n": 1,
+     "sample": "https://pmb.acdh.oeaw.ac.at/apis/api/entities/person/26252/"
+    },
+    {
+     "path": "id",
+     "n": 1,
+     "sample": "26252"
+    },
+    {
+     "path": "name",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "review",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "start_date",
+     "n": 1,
+     "sample": "1835-11-30"
+    },
+    {
+     "path": "start_start_date",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "start_end_date",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "end_date",
+     "n": 1,
+     "sample": "1910-04-21"
+    },
+    {
+     "path": "end_start_date",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "end_end_date",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "start_date_written",
+     "n": 1,
+     "sample": "1835-11-30"
+    },
+    {
+     "path": "end_date_written",
+     "n": 1,
+     "sample": "1910-04-21"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "references",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "notes",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "published",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "created",
+     "n": 1,
+     "sample": "2024-01-22T09:29:54.174900+01:00"
+    },
+    {
+     "path": "updated",
+     "n": 1,
+     "sample": "2025-06-02T13:36:47.798268+02:00"
+    },
+    {
+     "path": "img_url",
+     "n": 1,
+     "sample": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg"
+    },
+    {
+     "path": "img_last_checked",
+     "n": 1,
+     "sample": "2025-06-02T13:36:47.797830+02:00"
+    },
+    {
+     "path": "first_name",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "gender",
+     "n": 1,
+     "sample": "male"
+    },
+    {
+     "path": "source",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "name",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "start_date",
+     "value": "1835-11-30"
+    },
+    {
+     "path": "end_date",
+     "value": "1910-04-21"
+    },
+    {
+     "path": "start_date_written",
+     "value": "1835-11-30"
+    },
+    {
+     "path": "end_date_written",
+     "value": "1910-04-21"
+    },
+    {
+     "path": "img_url",
+     "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/MarkTwain.LOC.jpg/250px-MarkTwain.LOC.jpg"
+    },
+    {
+     "path": "sameAs[]",
+     "value": "https://de.wikipedia.org/wiki/Mark_Twain"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "url"
+   ]
+  }
+ ],
+ "llm_notes": "PMB (ACDH, Vienna) person entity: name, birth name labels, gender, life dates, occupations, linked datasets (names only, no URLs), collections, place relations (birth, death, stays in Vienna and Bad Ischl hotels) and two work relations; CC BY 4.0.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

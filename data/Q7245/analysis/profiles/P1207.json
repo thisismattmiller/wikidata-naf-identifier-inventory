@@ -1,0 +1,143 @@
+{
+ "property": "P1207",
+ "property_label": "NUKAT ID",
+ "files": [
+  {
+   "file": "P1207__n94200767/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://katalog.nukat.edu.pl/cgi-bin/koha/opac-authorities-home.pl?op=do_search&type=opac&operator=exact&value=n%20%2094200767&marclist=lc-card-number&and_or=&excluding=&order_by="
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark (1835-1910)",
+    "lang": "pl",
+    "via": "llm-page:Hasło osobowe (authorized heading)",
+    "file": "P1207.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "llm-page:used for/see from",
+    "file": "P1207.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark",
+    "lang": null,
+    "via": "llm-page:used for/see from",
+    "file": "P1207.json",
+    "uri": false
+   },
+   {
+    "value": "Touain, Mark",
+    "lang": null,
+    "via": "llm-page:used for/see from",
+    "file": "P1207.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek",
+    "lang": "pl",
+    "via": "llm-page:used for/see from",
+    "file": "P1207.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel L.",
+    "lang": null,
+    "via": "llm-page:used for/see from",
+    "file": "P1207.json",
+    "uri": false
+   },
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "llm-page:used for/see from",
+    "file": "P1207.json",
+    "uri": false
+   },
+   {
+    "value": "Tvèn, Mark",
+    "lang": null,
+    "via": "llm-page:used for/see from",
+    "file": "P1207.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Alden, Jean François",
+    "lang": null,
+    "via": "llm-page:used for/see from",
+    "file": "P1207.json",
+    "uri": false
+   },
+   {
+    "value": "De Conte, Louis",
+    "lang": null,
+    "via": "llm-page:used for/see from",
+    "file": "P1207.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P1207.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:heading dates",
+    "file": "P1207.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "n 94200767",
+    "lang": null,
+    "via": "llm-page:Control number",
+    "file": "P1207.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "pl"
+  ],
+  "name_variant": [
+   "pl"
+  ],
+  "pseudonym": [],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "NUKAT (Polish union catalogue) Koha authority search results page with exactly 1 hit: the authorized personal heading Twain, Mark (1835-1910), control number n 94200767, with its see-from references and 932 linked records. Only the summary row is shown, not the full record.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

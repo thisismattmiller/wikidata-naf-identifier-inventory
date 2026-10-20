@@ -1,0 +1,217 @@
+{
+ "property": "P5739",
+ "label": "Pontificia Università della Santa Croce ID",
+ "files_read": [
+  "P5739__80295/xhr_4.json"
+ ],
+ "about_entity": true,
+ "notes": "Koha-style API response wrapping a MARC21 authority record (IT-RoPUS 80295) for Twain, Mark, 1835-1910; RDA, Italian cataloguing language. ISNI given (0000000121324854) differs from the one Open Library gives.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "raw": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "xhr_4.json: $.records[0].marcxml 100 $a/$d"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "raw": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": "en",
+    "via": "xhr_4.json: $.records[0].marcxml 400 $a"
+   },
+   {
+    "value": "Alden, Jean François",
+    "raw": "Alden, Jean François, 1835-1910",
+    "lang": "fr",
+    "via": "xhr_4.json: $.records[0].marcxml 400 $a"
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Alden, Jean François",
+    "lang": "fr",
+    "via": "xhr_4.json: $.records[0].marcxml 400 $a"
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Mark",
+    "lang": null,
+    "via": "xhr_4.json: $.records[0].marcxml 100 $a"
+   },
+   {
+    "value": "Samuel Langhorne",
+    "lang": null,
+    "via": "xhr_4.json: $.records[0].marcxml 400 $a"
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Twain",
+    "lang": null,
+    "via": "xhr_4.json: $.records[0].marcxml 100 $a"
+   },
+   {
+    "value": "Clemens",
+    "lang": null,
+    "via": "xhr_4.json: $.records[0].marcxml 400 $a"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "raw": "18351130",
+    "lang": null,
+    "via": "xhr_4.json: $.records[0].marcxml 046 $f"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "raw": "19100421",
+    "lang": null,
+    "via": "xhr_4.json: $.records[0].marcxml 046 $g"
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri (Stati Uniti)",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 370 $a",
+    "uri": "http://www.wikidata.org/entity/Q537803"
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut (Stati Uniti)",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 370 $b",
+    "uri": "http://www.wikidata.org/entity/Q2018185"
+   }
+  ],
+  "gender": [
+   {
+    "value": "uomo",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 375 $a"
+   }
+  ],
+  "language": [
+   {
+    "value": "eng",
+    "raw": "eng / inglese",
+    "lang": null,
+    "via": "xhr_4.json: $.records[0].marcxml 377 $a/$l"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "scrittore",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 678 $a"
+   },
+   {
+    "value": "umorista",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 678 $a"
+   },
+   {
+    "value": "aforista",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 678 $a"
+   },
+   {
+    "value": "docente",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 678 $a"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "statunitense",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 678 $a"
+   }
+  ],
+  "description": [
+   {
+    "value": "Scrittore, umorista, aforista e docente statunitense.",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 678 $a"
+   }
+  ],
+  "work": [
+   {
+    "value": "Un yankee del Connecticut alla corte di re Artù",
+    "raw": "Un yankee del Connecticut alla corte di re Artù, 1962:",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 670 $a"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "via": "xhr_4.json: $.records[0].marcxml 024 $2 wikidata"
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "via": "xhr_4.json: $.records[0].marcxml 024 $2 viaf"
+   },
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "raw": "0000000121324854",
+    "via": "xhr_4.json: $.records[0].marcxml 024 $2 isni"
+   },
+   {
+    "value": "http://id.loc.gov/authorities/names/n79021164",
+    "via": "xhr_4.json: $.records[0].marcxml 670 $u"
+   },
+   {
+    "value": "https://it.wikipedia.org/wiki/Mark_Twain",
+    "via": "xhr_4.json: $.records[0].marcxml 856 $u"
+   },
+   {
+    "value": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "via": "xhr_4.json: $.records[0].marcxml 856 $u"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "80295",
+    "lang": null,
+    "via": "xhr_4.json: $.records[0].marcxml 001 (003 IT-RoPUS)"
+   }
+  ],
+  "source": [
+   {
+    "value": "Un yankee del Connecticut alla corte di re Artù, 1962: frontespizio (Mark Twain)",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 670"
+   },
+   {
+    "value": "Library of Congress, consultata il 7 maggio 2020: (Twain, Mark, 1835-1910)",
+    "lang": "it",
+    "via": "xhr_4.json: $.records[0].marcxml 670"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2022-09-28",
+    "raw": "20220928094402.0",
+    "lang": null,
+    "via": "xhr_4.json: $.records[0].marcxml 005"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2011-05-01",
+    "raw": "110501",
+    "lang": null,
+    "via": "xhr_4.json: $.records[0].marcxml 008/00-05"
+   }
+  ]
+ }
+}

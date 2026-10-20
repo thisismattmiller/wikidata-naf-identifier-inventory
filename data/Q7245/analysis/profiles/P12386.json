@@ -1,0 +1,548 @@
+{
+ "property": "P12386",
+ "property_label": "Dansk Forfatterleksikon ID",
+ "files": [
+  {
+   "file": "P12386__u3043/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://danskforfatterleksikon.dk/1850u/u3043.htm"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/ns/rdfa#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "da",
+    "via": "llm-page:page heading 'Samuel Langhorne Clemens (1835-1910)'",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Mark",
+    "lang": "da",
+    "via": "llm-page:header line 'Twain, Mark (pseudonym)' and author line of entries",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": "da",
+    "via": "llm-page:author line of entries (e.g. Mark Twains bedste, 1953) and dramatic performance list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel L.",
+    "lang": "da",
+    "via": "llm-page:author line of 1956 Illustrerede Klassikere entries",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Tvain",
+    "lang": "da",
+    "via": "llm-page:title statement of 1882 anthology entry",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel L. Clement",
+    "lang": "da",
+    "via": "llm-page:title statement of 1890 entry En Yankee hos Ridderne om det runde Bord",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel M. Clemens",
+    "lang": "da",
+    "via": "llm-page:author line of 1945 entry Ude i Nevada",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "da",
+    "via": "llm-page:page heading",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "da",
+    "via": "llm-page:page heading",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "da",
+    "via": "llm-page:header line under name",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:page heading",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:page heading",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "engelsk",
+    "lang": "da",
+    "via": "llm-page:header row 'Sprog: engelsk'",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Sprog: engelsk. Twain, Mark (pseudonym). Note: At sammenligne forskellige oversættelser af Mark Twain er vanskelig, dels findes der flere engelske udgaver af fortællingerne, og dels kan oversættelsen på forskellig måde være forkortet. Bemærk: Forfatterens faglitterære bøger er ikke medtaget.",
+    "lang": "da",
+    "via": "llm-page:header block and note",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Udvalgte Skitser",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Udvalgte Arbejder",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Naive Reisende",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Lille Toms Æventyr",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Erindringer fra en Fodtur i Europa",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "En Landstryger paa Rejse",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Nye Skitser",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Paa Reiser",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Skildringer og Skitser",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyers Æventyr",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Fyrsten og Tiggeren",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Den stjaalne, hvide Elefant og andre nye Skitser",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Fra Mississippifloden",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twains mærkelige Drøm",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Løst og Fast",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finns Hændelser",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Forgyldt",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "En Yankee hos Ridderne om det runde Bord",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Million-Sedlen m. fl. Skitser",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Arvingerne fra Amerika",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Paa Rejse med en Reformator",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain i Udvalg",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Toms Eventyr",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Tom som Opdager",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Fjolle-Wilson",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Lystige Historier",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "For Lud og koldt Vand",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Civiliserede Menneskeædere og andre Fortællinger",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Den store franske Duel og andre Historier",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Evas Dagbog",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Ude i Nevada og andre Fortællinger",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Blandt Mormoner og andre Historier",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twains bedste",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Kaptajnen i paradis",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain fortæller",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Livet på Mississippi",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "En yankee ved kong Arthurs hof",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "En dråbe negerblod",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Jagten på den svigefulde kalkun og andre historier",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Millionpundsedlen og andre fortællinger",
+    "lang": "da",
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Charles Dudley Warner (co-author of Forgyldt)",
+    "lang": null,
+    "via": "llm-page:work list entry 1886",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Robert Watt (translator)",
+    "lang": null,
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "C. L. With (translator)",
+    "lang": null,
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "H. H. Gjødvad (translator)",
+    "lang": null,
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Orla Lundbo (translator/editor)",
+    "lang": null,
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Jesper Ewald (translator)",
+    "lang": null,
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Ole Storm (translator)",
+    "lang": null,
+    "via": "llm-page:work list",
+    "file": "P12386.json",
+    "uri": false
+   },
+   {
+    "value": "Clara Rosenberg (adapter/translator of radio play En Begravelse, 1933)",
+    "lang": null,
+    "via": "llm-page:Dramatik opført på danske teatre",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "u3043",
+    "lang": null,
+    "via": "llm-page:page footer",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Bibliografi over oversættelser til dansk 1800-1900 af prosafiktion fra de germanske og romanske sprog. Ved Erland Munch-Petersen. Rosenkilde og Bagger, 1976 (EMP)",
+    "lang": "da",
+    "via": "llm-page:footer key to numbers",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-07-05",
+    "lang": "da",
+    "via": "llm-page:page footer",
+    "file": "P12386.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "da"
+  ],
+  "name_variant": [
+   "da"
+  ],
+  "given_name": [
+   "da"
+  ],
+  "family_name": [
+   "da"
+  ],
+  "pseudonym": [
+   "da"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "language": [
+   "da"
+  ],
+  "description": [
+   "da"
+  ],
+  "work": [
+   "da"
+  ],
+  "related_agent": [],
+  "identifier": [],
+  "source": [
+   "da"
+  ],
+  "record_modified": [
+   "da"
+  ]
+ },
+ "unmapped": {
+  "usesVocabulary (http://www.w3.org/ns/rdfa#)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "Danish bibliography page (Udenlandske forfattere til oversat skønlitteratur indtil 1975) for Samuel Langhorne Clemens / Mark Twain: a short header (name, dates, language, pseudonym, note) followed by a very long chronological list of Danish translations 1873-1975 (books, anthology contributions, contents), with a per-year production chart and a list of dramatic performances in Danish theatres. Links to 'International forfatterbibliografi' and Danish Wikipedia are shown as link text only, without URLs. Read via grep around hits (file ~315 KB).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

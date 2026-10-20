@@ -1,0 +1,514 @@
+{
+ "property": "P10297",
+ "property_label": "Google Arts & Culture entity ID",
+ "files": [
+  {
+   "file": "P10297__m014635/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://artsandculture.google.com/entity/m014635"
+  },
+  {
+   "file": "P10297__m014635/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://artsandculture.google.com/entity/m014635"
+  },
+  {
+   "file": "P10297__m014635/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://artsandculture.google.com/entity/m014635"
+  },
+  {
+   "file": "P10297__m014635/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://artsandculture.google.com/api/pref?hl=en&_reqid=65251&rt=j"
+  },
+  {
+   "file": "P10297__m014635/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+  },
+  {
+   "file": "P10297__m014635/xhr_3.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://waa-pa.clients6.google.com/$rpc/google.internal.waa.v1.Waa/Create"
+  },
+  {
+   "file": "P10297__m014635/xhr_4.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://artsandculture.google.com/api/favorite/precache?hl=en&_reqid=165251&rt=j"
+  },
+  {
+   "file": "P10297__m014635/browser_xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://artsandculture.google.com/api/pref?hl=en&_reqid=65251&rt=j"
+  },
+  {
+   "file": "P10297__m014635/browser_xhr_2.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://artsandculture.google.com/api/favorite/precache?hl=en&_reqid=165251&rt=j"
+  },
+  {
+   "file": "P10297__m014635/browser_xhr_3.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://artsandculture.google.com/api/achievements/get?hl=en&_reqid=265251&rt=j"
+  },
+  {
+   "file": "P10297__m014635/browser_xhr_4.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "unknown": 5,
+  "html": 3
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 12,
+  "http://schema.org/": 4,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "https://dev.twitter.com/cards#": 2,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the \"greatest humorist the United States has produced,\" and William Faulkner called him \"the father of American literature\". His novels include The Adventures of Tom Sawyer and its sequel, the Adventures of Huckleberry Finn, the latter often called \"The Great American Novel\". Twain was raised in Hannibal, Missouri, which later provided the setting ",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American \nwriter, humorist, entrepreneur, publisher, and lecturer.",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer.",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was lauded as the \"greatest humorist the United States has produced,\" and William Faulkner called him \"the father of American literature\". His novels include The Adventures of Tom Sawyer and its sequel, the Adventures of Huckleberry Finn, the latter often called \"The Great American Novel\". Twain was raised in Hannibal, Missouri...",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://lh3.googleusercontent.com/ci/AL18g_SzLZatd6wVRMmUO6rp2n9m5dVCEGHHADMX0gWTs2B7SM49STplX4qwMdI_ApYURNxAyOhJQxg",
+    "lang": null,
+    "via": "image",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://lh3.googleusercontent.com/ci/AL18g_QToiDiBsI7VS7m2OJ0mIELmwr2yEX8HRCrsStDLPkJ20EgDBGIX7F45KFp4WMQ7WmdzJ5cQN5L",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   },
+   {
+    "value": "https://lh3.googleusercontent.com/ci/AL18g_SBhWQmSU-qODNPXtvJJhEWshYUNDPQFAAxJ6IfjGCyiEY4kK-x2cUIddlDVfWeZaa_Jopgpwc",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   },
+   {
+    "value": "https://lh3.googleusercontent.com/ci/AL18g_SowOXk-df75QoZuqChdMyo9udmzR3wUz1vG3SaEJI-94BUiaU7SMp7qRCJIh8aI4rnbH_Ocg",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   },
+   {
+    "value": "https://lh3.googleusercontent.com/ci/AL18g_SRLAz43RodFpK2QgQvz7GZ5gn0pIfTVKry9Jd9HQ54Q4nKtwEd-gciHWRkjuf3SOca481ShA",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   },
+   {
+    "value": "https://lh3.googleusercontent.com/ci/AL18g_Q0Pm1ONoSE27UEad9jylSK1wvpU7S0_z6gKA7b1rHa3zniSeI8hkHKpCh-4EVc5VWF8S4ki_za",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://artsandculture.google.com/entity/mark-twain/m014635",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description'] 'known by his pen name Mark Twain'",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "writer",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "entrepreneur",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "publisher",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "typesetter",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "riverboat pilot",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "miner",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "journalist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:description']",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "m014635",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:dates under heading",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:dates under heading",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal, Missouri",
+    "lang": "en",
+    "via": "llm-page:bio (raised)",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi River",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City",
+    "lang": "en",
+    "via": "llm-page:bio (Territorial Enterprise)",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "Angels Camp, California",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Orion Clemens (older brother)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City Territorial Enterprise (newspaper he wrote for)",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   },
+   {
+    "value": "William Faulkner (called him 'the father of American literature')",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P10297.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "name_preferred": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "image": [],
+  "see_also": [],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "identifier": [],
+  "birth_date": [],
+  "death_date": [],
+  "activity_place": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 563,
+   "path_count": 8,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain - Google Arts & Culture"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American \nwriter, humorist, entrepreneur, publisher, "
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://lh3.googleusercontent.com/ci/AL18g_SzLZatd6wVRMmUO6rp2n9m5dVCEGHHADMX0gWTs2B7SM49STplX4qwMdI_ApYURNxAyOhJQxg"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "en"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://artsandculture.google.com/entity/mark-twain/m014635"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Google Arts & Culture"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain - Google Arts & Culture"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American \nwriter, humorist, entrepreneur, publisher, and lecturer."
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://artsandculture.google.com/entity/mark-twain/m014635"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Google Arts & Culture historical-figure entity page: name, life dates, a two-paragraph Wikipedia-style bio, and a '6 items' strip of which only one quote card is in the text.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

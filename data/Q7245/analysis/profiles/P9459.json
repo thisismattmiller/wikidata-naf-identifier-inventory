@@ -1,0 +1,679 @@
+{
+ "property": "P9459",
+ "property_label": "Rekhta author ID",
+ "files": [
+  {
+   "file": "P9459__mark-twain/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.rekhta.org/authors/mark-twain"
+  },
+  {
+   "file": "P9459__mark-twain/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.rekhta.org/authors/mark-twain"
+  },
+  {
+   "file": "P9459__mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.rekhta.org/authors/mark-twain"
+  },
+  {
+   "file": "P9459__mark-twain/xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdnvc.netcoresmartech.com/vc/prod/wntoken.txt?ts=1790978689682"
+  },
+  {
+   "file": "P9459__mark-twain/xhr_2.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdnvc.netcoresmartech.com/vc/prod/wntoken_bd6f931364b4fcf4323fb49f030abc7d.txt?ts=1790978689683"
+  },
+  {
+   "file": "P9459__mark-twain/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.ipgeolocation.io/ipgeo?apiKey=ffcf2b8e30604b72a1822959875ede15"
+  },
+  {
+   "file": "P9459__mark-twain/xhr_4.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.rekhta.org/home/UserTrack"
+  },
+  {
+   "file": "P9459__mark-twain/xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://psegment.netcoresmartech.com/user_exists?c=ADGMOT35CHFLVDHBJNIG50K96AASNJF6OKBCLI58IH6V5S5CREAG&uuid=8923d279-55c5-4499-aeef-c2d556f5955d&l=true"
+  },
+  {
+   "file": "P9459__mark-twain/xhr_7.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://twa.netcoresmartech.com/dispatch?user_key=ADGMOT35CHFLVDHBJNIG50K96AASNJF6OKBCLI58IH6V5S5CREAG&customer_key=&uuid=8923d279-55c5-4499-aeef-c2d556f5955d&siteid=bd6f931364b4fcf4323fb49f030abc7d&browser=chrome&sid=1790978691360&visit=new&pts=0&sts=0&url=https%3A%2F%2Fwww.rekhta.org%2Fauthors%2Fmark-twain&tx=1790978691360&npv=0&title=All%20writings%20of%20Mark%20Twain%20%7C%20Rekhta&usertimings=1790978691364&web_activity=1"
+  },
+  {
+   "file": "P9459__mark-twain/xhr_9.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://twa.netcoresmartech.com/df?user_key=ADGMOT35CHFLVDHBJNIG50K96AASNJF6OKBCLI58IH6V5S5CREAG"
+  },
+  {
+   "file": "P9459__mark-twain/xhr_10.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.rekhta.org/Home/footer?lang=1"
+  },
+  {
+   "file": "P9459__mark-twain/xhr_11.xml",
+   "format": "xml",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://rekhtacards.pc.cdn.bitgravity.com/cards/?pageid=ce5fd721-3f00-4984-92e8-144e552e48d0&moduleid=f69818de-2d2a-48f4-b061-097131b5c336&lang=1"
+  },
+  {
+   "file": "P9459__mark-twain/browser_xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://world.rekhta.org/User/Api_Ui_EntityTotalFollowers"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "text": 3,
+  "json": 3,
+  "html": 2,
+  "xml": 2
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 6,
+  "LLM extraction": 2,
+  "http://ogp.me/ns/fb#": 1
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "Mark Twain collection of short stories, articles, and ebooks in Urdu, Hindi & English. Read more about Mark Twain and access their famous audio, video, and ebooks.”",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://rekhta.pc.cdn.bitgravity.com/Content/Images/Quill.png",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:title'] (name segment)",
+    "file": "P9459.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P9459.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P9459.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Chikne Chikne Paat",
+    "lang": "ur-Latn",
+    "via": "llm-page:E-book list",
+    "file": "P9459.json",
+    "uri": false
+   },
+   {
+    "value": "Ek Dariya Ek Kahani",
+    "lang": "ur-Latn",
+    "via": "llm-page:E-book list",
+    "file": "P9459.json",
+    "uri": false
+   },
+   {
+    "value": "Hawwa Adam Aur Shaitan Ki Diary",
+    "lang": "ur-Latn",
+    "via": "llm-page:E-book list",
+    "file": "P9459.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn Ke Karname",
+    "lang": "ur-Latn",
+    "via": "llm-page:E-book list",
+    "file": "P9459.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sayer Ke Karname",
+    "lang": "ur-Latn",
+    "via": "llm-page:E-book list",
+    "file": "P9459.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [],
+  "image": [],
+  "name_preferred": [
+   "en"
+  ],
+  "identifier": [],
+  "work": [
+   "ur-Latn"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 320,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "WebSite"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "https://schema.org"
+    },
+    {
+     "path": "[].url",
+     "n": 1,
+     "sample": "https://www.rekhta.org"
+    },
+    {
+     "path": "[].potentialAction.@type",
+     "n": 1,
+     "sample": "SearchAction"
+    },
+    {
+     "path": "[].potentialAction.target",
+     "n": 1,
+     "sample": "https://www.rekhta.org/search/all?q={search_term_string}"
+    },
+    {
+     "path": "[].potentialAction.query-input.valueRequired",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "[].potentialAction.query-input.valueName",
+     "n": 1,
+     "sample": "search_term_string"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 493,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Rekhta"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://rekhta.pc.cdn.bitgravity.com/Content/Images/Quill.png"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Mark Twain collection of short stories, articles, and ebooks in Urdu, Hindi & English. Read more about Mark Twain and ac"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.rekhta.org/authors/mark-twain/all"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "All writings of Mark Twain | Rekhta"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:description",
+     "value": "Mark Twain collection of short stories, articles, and ebooks in Urdu, Hindi & English. Read more about Mark Twain and access their famous audio, video, and ebooks.”  "
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.rekhta.org/authors/mark-twain/all"
+    },
+    {
+     "path": "[].og:title",
+     "value": "All writings of Mark Twain | Rekhta"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 1550,
+   "path_count": 55,
+   "paths": [
+    {
+     "path": "ip",
+     "n": 1,
+     "sample": "71.178.36.215"
+    },
+    {
+     "path": "continent_code",
+     "n": 1,
+     "sample": "NA"
+    },
+    {
+     "path": "continent_name",
+     "n": 1,
+     "sample": "North America"
+    },
+    {
+     "path": "country_code2",
+     "n": 1,
+     "sample": "US"
+    },
+    {
+     "path": "country_code3",
+     "n": 1,
+     "sample": "USA"
+    },
+    {
+     "path": "country_name",
+     "n": 1,
+     "sample": "United States"
+    },
+    {
+     "path": "country_name_official",
+     "n": 1,
+     "sample": "United States of America"
+    },
+    {
+     "path": "country_capital",
+     "n": 1,
+     "sample": "Washington, D.C."
+    },
+    {
+     "path": "state_prov",
+     "n": 1,
+     "sample": "District of Columbia"
+    },
+    {
+     "path": "state_code",
+     "n": 1,
+     "sample": "US-DC"
+    },
+    {
+     "path": "district",
+     "n": 1,
+     "sample": "District of Columbia"
+    },
+    {
+     "path": "city",
+     "n": 1,
+     "sample": "Washington"
+    },
+    {
+     "path": "zipcode",
+     "n": 1,
+     "sample": "20004"
+    },
+    {
+     "path": "latitude",
+     "n": 1,
+     "sample": "38.89037"
+    },
+    {
+     "path": "longitude",
+     "n": 1,
+     "sample": "-77.03196"
+    },
+    {
+     "path": "is_eu",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "country_flag",
+     "n": 1,
+     "sample": "https://ipgeolocation.io/static/flags/us_64.png"
+    },
+    {
+     "path": "geoname_id",
+     "n": 1,
+     "sample": "4140682"
+    },
+    {
+     "path": "country_emoji",
+     "n": 1,
+     "sample": "🇺🇸"
+    },
+    {
+     "path": "calling_code",
+     "n": 1,
+     "sample": "+1"
+    },
+    {
+     "path": "country_tld",
+     "n": 1,
+     "sample": ".us"
+    },
+    {
+     "path": "languages",
+     "n": 1,
+     "sample": "en-US,es-US,haw,fr"
+    },
+    {
+     "path": "isp",
+     "n": 1,
+     "sample": "Verizon Business"
+    },
+    {
+     "path": "connection_type",
+     "n": 1,
+     "sample": "Fiber"
+    },
+    {
+     "path": "organization",
+     "n": 1,
+     "sample": "Verizon Business"
+    },
+    {
+     "path": "asn",
+     "n": 1,
+     "sample": "AS701"
+    },
+    {
+     "path": "currency.code",
+     "n": 1,
+     "sample": "USD"
+    },
+    {
+     "path": "currency.name",
+     "n": 1,
+     "sample": "US Dollar"
+    },
+    {
+     "path": "currency.symbol",
+     "n": 1,
+     "sample": "$"
+    },
+    {
+     "path": "time_zone.name",
+     "n": 1,
+     "sample": "America/New_York"
+    },
+    {
+     "path": "time_zone.offset",
+     "n": 1,
+     "sample": "-5"
+    },
+    {
+     "path": "time_zone.offset_with_dst",
+     "n": 1,
+     "sample": "-4"
+    },
+    {
+     "path": "time_zone.current_time",
+     "n": 1,
+     "sample": "2026-10-02 22:30:59.401-0400"
+    },
+    {
+     "path": "time_zone.current_time_unix",
+     "n": 1,
+     "sample": "1790994659.401"
+    },
+    {
+     "path": "time_zone.current_tz_abbreviation",
+     "n": 1,
+     "sample": "EDT"
+    },
+    {
+     "path": "time_zone.current_tz_full_name",
+     "n": 1,
+     "sample": "Eastern Daylight Time"
+    },
+    {
+     "path": "time_zone.standard_tz_abbreviation",
+     "n": 1,
+     "sample": "EST"
+    },
+    {
+     "path": "time_zone.standard_tz_full_name",
+     "n": 1,
+     "sample": "Eastern Standard Time"
+    },
+    {
+     "path": "time_zone.is_dst",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "time_zone.dst_savings",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "time_zone.dst_exists",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "time_zone.dst_tz_abbreviation",
+     "n": 1,
+     "sample": "EDT"
+    },
+    {
+     "path": "time_zone.dst_tz_full_name",
+     "n": 1,
+     "sample": "Eastern Daylight Time"
+    },
+    {
+     "path": "time_zone.dst_start.utc_time",
+     "n": 1,
+     "sample": "2026-03-08 TIME 07"
+    },
+    {
+     "path": "time_zone.dst_start.duration",
+     "n": 1,
+     "sample": "+1H"
+    },
+    {
+     "path": "time_zone.dst_start.gap",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "time_zone.dst_start.dateTimeAfter",
+     "n": 1,
+     "sample": "2026-03-08 TIME 03"
+    },
+    {
+     "path": "time_zone.dst_start.dateTimeBefore",
+     "n": 1,
+     "sample": "2026-03-08 TIME 02"
+    },
+    {
+     "path": "time_zone.dst_start.overlap",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "time_zone.dst_end.utc_time",
+     "n": 1,
+     "sample": "2026-11-01 TIME 06"
+    },
+    {
+     "path": "time_zone.dst_end.duration",
+     "n": 1,
+     "sample": "-1H"
+    },
+    {
+     "path": "time_zone.dst_end.gap",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "time_zone.dst_end.dateTimeAfter",
+     "n": 1,
+     "sample": "2026-11-01 TIME 01"
+    },
+    {
+     "path": "time_zone.dst_end.dateTimeBefore",
+     "n": 1,
+     "sample": "2026-11-01 TIME 02"
+    },
+    {
+     "path": "time_zone.dst_end.overlap",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "asn",
+    "gap",
+    "ip",
+    "isp"
+   ]
+  },
+  {
+   "file": "xhr_5.json",
+   "format": "json",
+   "size": 158,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "data.ids",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "data.loc.ci",
+     "n": 1,
+     "sample": "washington"
+    },
+    {
+     "path": "data.loc.co",
+     "n": 1,
+     "sample": "united states"
+    },
+    {
+     "path": "data.loc.re",
+     "n": 1,
+     "sample": "district of columbia"
+    },
+    {
+     "path": "message",
+     "n": 1,
+     "sample": "user attribute for list and segment"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "200"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "ci",
+    "co",
+    "ids",
+    "re"
+   ]
+  },
+  {
+   "file": "xhr_9.json",
+   "format": "json",
+   "size": 57,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "type",
+     "n": 1,
+     "sample": "error"
+    },
+    {
+     "path": "msg",
+     "n": 1,
+     "sample": "Subdomain not enabled"
+    },
+    {
+     "path": "code",
+     "n": 1,
+     "sample": "200"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "msg"
+   ]
+  }
+ ],
+ "llm_notes": "Rekhta author page listing 5 Urdu e-books of Twain translations (transliterated titles); no biography or dates.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

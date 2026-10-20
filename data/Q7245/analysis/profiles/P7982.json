@@ -1,0 +1,357 @@
+{
+ "property": "P7982",
+ "property_label": "Hrvatska enciklopedija ID",
+ "files": [
+  {
+   "file": "P7982__62880/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.enciklopedija.hr/clanak/twain-mark"
+  },
+  {
+   "file": "P7982__62880/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.enciklopedija.hr/clanak/twain-mark"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "hr",
+    "via": "llm-page:article heading",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "hr",
+    "via": "llm-page:article text '(pravo ime Samuel Langhorne Clemens)'",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:header 'Rođen(a)'",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:header 'Umr(la)o'",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida",
+    "lang": "hr",
+    "via": "llm-page:header 'Rođen(a)'",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding",
+    "lang": "hr",
+    "via": "llm-page:header 'Umr(la)o'",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Mississippi",
+    "lang": "hr",
+    "via": "llm-page:article text 'Odrastao uz obale rijeke Mississippi'",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "književnik",
+    "lang": "hr",
+    "via": "llm-page:header 'američki književnik'",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "tiskarski šegrt",
+    "lang": "hr",
+    "via": "llm-page:article text (od 1848)",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "tiskarski slagar",
+    "lang": "hr",
+    "via": "llm-page:article text (od 1853)",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "riječni pilot",
+    "lang": "hr",
+    "via": "llm-page:article text (1859)",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "američka književnost",
+    "lang": "hr",
+    "via": "llm-page:header 'struka(e)'",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "američki",
+    "lang": "hr",
+    "via": "llm-page:header 'američki književnik'",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Twain [twẹin], Mark [mα:ɹk] (pravo ime Samuel Langhorne Clemens [kle'mənz]), američki književnik (Florida, 30. XI. 1835 – Redding, 21. IV. 1910). Odrastao uz obale rijeke Mississippi; obrazovanje nakon 12. godine života stjecao uglavnom u tiskarama i novinskim redakcijama. Radio mnoge poslove: bio tiskarski šegrt (od 1848), putujući tiskarski slagar (od 1853); pomoćnik riječnoga pilota na Mississippiju (1856), riječni pilot (1859). Nakon izbijanja građanskoga rata (1861) otišao na američki zapad",
+    "lang": "hr",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Celebrated Jumping Frog of Calaveras County",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur’s Court",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd’nhead Wilson",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer Abroad",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "Personal Recollections of Joan of Arc",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, Detective",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "The £1,000.000 Bank-Note and Other New Stories",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "The Man That Corrupted Hadleyburg and Other Stories and Sketches",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "62880",
+    "lang": null,
+    "via": "llm-page:URL enciklopedija.hr/clanak/62880",
+    "file": "P7982.json",
+    "uri": false
+   },
+   {
+    "value": "twain-mark",
+    "lang": null,
+    "via": "llm-page:citation URL https://www.enciklopedija.hr/clanak/twain-mark",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Twain, Mark. Hrvatska enciklopedija, mrežno izdanje. Leksikografski zavod Miroslav Krleža, 2013. – 2026.",
+    "lang": "hr",
+    "via": "llm-page:Citiranje",
+    "file": "P7982.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "hr"
+  ],
+  "name_variant": [
+   "hr"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "hr"
+  ],
+  "death_place": [
+   "hr"
+  ],
+  "activity_place": [
+   "hr"
+  ],
+  "occupation": [
+   "hr"
+  ],
+  "field_of_activity": [
+   "hr"
+  ],
+  "nationality": [
+   "hr"
+  ],
+  "description": [
+   "hr"
+  ],
+  "work": [
+   "en"
+  ],
+  "identifier": [],
+  "source": [
+   "hr"
+  ]
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 215,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Hrvatska enciklopedija"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.enciklopedija.hr/"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Hrvatska enciklopedija"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "Croatian Encyclopedia (online edition) article 'TWAIN, Mark' with a header box (field, short description, birth/death) and a long biographical/critical paragraph listing major works with Croatian and English titles; ends with a citation line.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

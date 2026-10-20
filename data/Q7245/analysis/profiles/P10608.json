@@ -1,0 +1,886 @@
+{
+ "property": "P10608",
+ "property_label": "FID performing arts ID",
+ "files": [
+  {
+   "file": "P10608__agent_gnd_118624822_19534cb8/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.performing-arts.eu/discovery/agent/gnd_118624822"
+  },
+  {
+   "file": "P10608__agent_gnd_118624822_19534cb8/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://data.judaicalink.org/data/gnd/118624822"
+  },
+  {
+   "file": "P10608__agent_gnd_118624822_19534cb8/export_2.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.performing-arts.eu/discovery/agent/gnd_118624822/Export"
+  },
+  {
+   "file": "P10608__agent_gnd_118624822_19534cb8/export_3.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.performing-arts.eu/discovery/agent/gnd_118624822/Export?style=ExtEdm"
+  },
+  {
+   "file": "P10608__agent_gnd_118624822_19534cb8/export_4.xml",
+   "format": "xml",
+   "kind": "export",
+   "via": "http",
+   "url": "https://www.performing-arts.eu/sitemap.xml"
+  },
+  {
+   "file": "P10608__agent_gnd_118624822_19534cb8/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://www.performing-arts.eu/discovery/agent/gnd_118624822/Export"
+  },
+  {
+   "file": "P10608__agent_gnd_118624822_19534cb8/browser_export_2.rdf",
+   "format": "rdf-xml",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://www.performing-arts.eu/discovery/agent/gnd_118624822/Export?style=ExtEdm"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 4,
+  "xml": 1,
+  "rdf-xml": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/2004/02/skos/core#": 38,
+  "http://schema.org/": 8,
+  "http://www.w3.org/2002/07/owl#": 8,
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "http://rdaregistry.info/Elements/u/": 3,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 2,
+  "http://www.w3.org/ns/rdfa#": 1,
+  "http://www.europeana.eu/schemas/edm/": 1,
+  "http://xmlns.com/foaf/0.1/": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Product",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   },
+   {
+    "value": "http://xmlns.com/foaf/0.1/Person",
+    "lang": null,
+    "via": "type",
+    "file": "browser_export_2.rdf",
+    "uri": true
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Mo.",
+    "lang": null,
+    "via": "birthPlace",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Florida, Mo.",
+    "lang": "de",
+    "via": "llm-page:Lebensdaten",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Conn.",
+    "lang": null,
+    "via": "deathPlace",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Redding, Conn.",
+    "lang": "de",
+    "via": "llm-page:Lebensdaten",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "prefLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Marc",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tuwen, Make",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Towein, Māku",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tvein, Marḳ",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tvėn, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tvēns, Marks",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tvens, M.",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twen, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twens, Marks",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Ṭvena, Marka",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tvenas, Markas",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tvénas, Morkas",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mārk",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mārk",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "T`u-wen, Ma-k`o",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Touein, Māku",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Touen, Makū",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tuein, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tven, M.",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Ṭṿain, Marḳ",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twėn, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Touein, Maku",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Mark Twėn",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Ma ke Tu wen",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Make-Tuwen",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tewin, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twjen, Mark",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "טוין, צרק",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "吐温, 马克",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "トウェイン, マーク",
+    "lang": null,
+    "via": "altLabel",
+    "file": "browser_export_2.rdf",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "llm-page:Real Identity",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Tho-wun, Ma-khu",
+    "lang": null,
+    "via": "llm-page:Name variants",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "トウェイン, マーク",
+    "lang": "ja",
+    "via": "llm-page:Name variants",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк",
+    "lang": "ru",
+    "via": "llm-page:Name variants",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "吐温, 马克",
+    "lang": "zh",
+    "via": "llm-page:Name variants",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "马克·吐温",
+    "lang": "zh",
+    "via": "llm-page:Name variants",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "טוין, צרק",
+    "lang": "he",
+    "via": "llm-page:Name variants",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "טווין, מארק",
+    "lang": "he",
+    "via": "llm-page:Name variants",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://isni.org/isni/0000000368641704",
+    "lang": null,
+    "via": "sameAs",
+    "file": "browser_export_2.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://dbpedia.org/resource/Mark_Twain",
+    "lang": null,
+    "via": "sameAs",
+    "file": "browser_export_2.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "sameAs",
+    "file": "browser_export_2.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "sameAs",
+    "file": "browser_export_2.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://www.wikidata.org/entity/Q7245",
+    "lang": null,
+    "via": "sameAs",
+    "file": "browser_export_2.rdf",
+    "uri": true
+   },
+   {
+    "value": "http://id.loc.gov/rwo/agents/n79021164",
+    "lang": null,
+    "via": "sameAs",
+    "file": "browser_export_2.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://www.filmportal.de/5DF2180863F84E09B51D8C5DE7832A91",
+    "lang": null,
+    "via": "sameAs",
+    "file": "browser_export_2.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://d-nb.info/gnd/118624822",
+    "lang": null,
+    "via": "sameAs",
+    "file": "browser_export_2.rdf",
+    "uri": true
+   }
+  ],
+  "image": [
+   {
+    "value": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=270",
+    "lang": null,
+    "via": "depiction",
+    "file": "browser_export_2.rdf",
+    "uri": true
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Conte, Louis de",
+    "lang": null,
+    "via": "llm-page:Pseudonym",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Bothwell, J. W.",
+    "lang": null,
+    "via": "llm-page:Pseudonym",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": null,
+    "via": "llm-page:Pseudonym",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "USA",
+    "lang": null,
+    "via": "llm-page:Geographic Area Code",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "Männlich",
+    "lang": "de",
+    "via": "llm-page:Gender",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Schriftsteller",
+    "lang": "de",
+    "via": "llm-page:Occupation",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Journalist",
+    "lang": "de",
+    "via": "llm-page:Occupation",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Drucker",
+    "lang": "de",
+    "via": "llm-page:Occupation",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Lotse",
+    "lang": "de",
+    "via": "llm-page:Occupation",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Soldat",
+    "lang": "de",
+    "via": "llm-page:Occupation",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Personen zu Literaturgeschichte (Schriftsteller)",
+    "lang": "de",
+    "via": "llm-page:GND Subject Category",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The gilded age",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Im Gold- und Silberland und andere Erzählungen",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "The celebrated jumping frog of Calaveras County",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Der amerikanische Prätendent",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "The tragedy of Pudd'nhead Wilson",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Durch dick und dünn",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Christian science",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Huckleberry Finn (Tom Sawyer's comrade)",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Ein Yankee am Hofe des Königs Artus",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "The man that corrupted Hadleyburg",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "The American claimant",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Roughing it",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Bummel durch Europa",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "A tramp abroad",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Der Querkopf Wilson",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Selections from American humour",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "The innocents abroad",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "Leben auf dem Mississippi",
+    "lang": null,
+    "via": "llm-page:Publications",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "gnd_118624822",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P10608.json",
+    "uri": false
+   },
+   {
+    "value": "118624822",
+    "lang": null,
+    "via": "llm-page:GND Identifier",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "German National Library (GND) via lobid-gnd",
+    "lang": null,
+    "via": "llm-page:Data Provider",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2025-04-15",
+    "lang": null,
+    "via": "llm-page:Provider Details",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "CC0 1.0",
+    "lang": null,
+    "via": "llm-page:Metadata license",
+    "file": "P10608.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "birth_date": [],
+  "birth_place": [
+   "de"
+  ],
+  "death_date": [],
+  "death_place": [
+   "de"
+  ],
+  "name_preferred": [],
+  "name_variant": [
+   "he",
+   "ja",
+   "ru",
+   "zh"
+  ],
+  "same_as": [],
+  "image": [],
+  "pseudonym": [],
+  "activity_place": [],
+  "gender": [
+   "de"
+  ],
+  "occupation": [
+   "de"
+  ],
+  "field_of_activity": [
+   "de"
+  ],
+  "work": [],
+  "identifier": [],
+  "source": [],
+  "record_modified": [],
+  "license": []
+ },
+ "unmapped": {
+  "nofollow (http://schema.org/)": 3,
+  "context (http://schema.org/)": 1,
+  "usesVocabulary (http://www.w3.org/ns/rdfa#)": 1,
+  "P60468 (http://rdaregistry.info/Elements/u/)": 1,
+  "P60598 (http://rdaregistry.info/Elements/u/)": 1,
+  "P60599 (http://rdaregistry.info/Elements/u/)": 1,
+  "hasType (http://www.europeana.eu/schemas/edm/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "export_4.xml",
+   "format": "xml",
+   "size": 112587,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "urlset/url",
+     "n": 560,
+     "sample": null
+    },
+    {
+     "path": "urlset/url/loc",
+     "n": 560,
+     "sample": "https://www.performing-arts.eu/"
+    },
+    {
+     "path": "urlset/url/lastmod",
+     "n": 560,
+     "sample": "2024-12-06"
+    },
+    {
+     "path": "urlset",
+     "n": 1,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "FID Darstellende Kunst detailed view of the GND person record (via lobid-gnd): occupations, life dates/places, publications, pseudonyms, real identity, many name variants and external links (several shown as link text only).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

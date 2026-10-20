@@ -1,0 +1,5224 @@
+{
+ "property": "P396",
+ "property_label": "SBN author ID",
+ "files": [
+  {
+   "file": "P396__CFIV002662/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662?core=autoriall"
+  },
+  {
+   "file": "P396__CFIV002662/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662?core=autoriall"
+  },
+  {
+   "file": "P396__CFIV002662/export_1.bin",
+   "format": "unknown",
+   "kind": "export",
+   "via": "http",
+   "url": "https://opac.sbn.it/c/opac/autori/unimarc?groupId=20122&id=CFIV002662&core=autoriall"
+  },
+  {
+   "file": "P396__CFIV002662/export_2.mrc",
+   "format": "marc-binary",
+   "kind": "export",
+   "via": "http",
+   "url": "https://opac.sbn.it/c/opac/autori/unimarc/export?id=CFIV002662"
+  },
+  {
+   "file": "P396__CFIV002662/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=%40liferay%2Ffrontend-js-state-web%401.0.3%2FState"
+  },
+  {
+   "file": "P396__CFIV002662/xhr_2.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-web%2Fliferay%2Fdelegate%2Fdelegate.es%2Cfrontend-js-web%2Fliferay%2Ftoast%2Fcommands%2FOpenToast.es"
+  },
+  {
+   "file": "P396__CFIV002662/xhr_3.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-tabs-support-web%402.0.0%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/xhr_4.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-tooltip-support-web%404.0.3%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/xhr_5.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=remote-app-support-web%402.0.0%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/xhr_6.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-alert-support-web%402.0.0%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/xhr_7.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-collapse-support-web%402.0.0%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/xhr_8.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-dropdown-support-web%402.0.0%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/xhr_9.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://opac.sbn.it/o/opac-api/title?id=CFIV002662&core=autoriall&page=1"
+  },
+  {
+   "file": "P396__CFIV002662/xhr_10.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css"
+  },
+  {
+   "file": "P396__CFIV002662/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662?core=autoriall"
+  },
+  {
+   "file": "P396__CFIV002662/conneg_2.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662?core=autoriall"
+  },
+  {
+   "file": "P396__CFIV002662/conneg_3.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662?core=autoriall"
+  },
+  {
+   "file": "P396__CFIV002662/conneg_4.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662?core=autoriall"
+  },
+  {
+   "file": "P396__CFIV002662/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://opac.sbn.it/c/opac/autori/unimarc?groupId=20122&id=CFIV002662&core=autoriall"
+  },
+  {
+   "file": "P396__CFIV002662/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=%40liferay%2Ffrontend-js-state-web%401.0.3%2FState"
+  },
+  {
+   "file": "P396__CFIV002662/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-web%2Fliferay%2Fdelegate%2Fdelegate.es%2Cfrontend-js-web%2Fliferay%2Ftoast%2Fcommands%2FOpenToast.es"
+  },
+  {
+   "file": "P396__CFIV002662/browser_xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-tabs-support-web%402.0.0%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/browser_xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-tooltip-support-web%404.0.3%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/browser_xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=remote-app-support-web%402.0.0%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/browser_xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-alert-support-web%402.0.0%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/browser_xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-collapse-support-web%402.0.0%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/browser_xhr_8.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.sbn.it/o/js_resolve_modules?modules=frontend-js-dropdown-support-web%402.0.0%2Findex"
+  },
+  {
+   "file": "P396__CFIV002662/browser_xhr_9.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://opac.sbn.it/o/opac-api/title?id=CFIV002662&core=autoriall&page=1"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "unknown": 14,
+  "marc-binary": 1,
+  "text": 1,
+  "html": 1,
+  "json": 9
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 9,
+  "http://www.w3.org/1999/xhtml/vocab#": 6,
+  "MARC 400": 2,
+  "LLM extraction": 2,
+  "MARC21 authority": 1,
+  "MARC 024": 1,
+  "MARC 100": 1,
+  "MARC 678": 1
+ },
+ "elements": {
+  "identifier": [
+   {
+    "value": "0000000121324854",
+    "lang": null,
+    "via": "024",
+    "file": "export_2.mrc",
+    "uri": false
+   },
+   {
+    "value": "CFIV002662",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: $.data.results[0].links.top[0].id",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "IT\\ICCU\\CFIV\\002662",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: Identificativo SBN",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "https://opac.sbn.it/bid/CFIV002662",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: permalink href",
+    "file": "P396.json",
+    "uri": true
+   },
+   {
+    "value": "0000 0001 2132 4854",
+    "lang": null,
+    "via": "llm-page:ISNI row",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Twain, , Mark",
+    "lang": null,
+    "via": "100",
+    "file": "export_2.mrc",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "json:data.results.title",
+    "file": "browser_xhr_9.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "1835-1910 // Scrittore americano, pseudonimo di Samuel Langhorne Clemens. Nato in Florida, Missouri, il 30.11.1835 e morto a Redding, Connetticut, il 21.04.1910.",
+    "lang": null,
+    "via": "678",
+    "file": "export_2.mrc",
+    "uri": false
+   },
+   {
+    "value": "Scrittore americano, pseudonimo di Samuel Langhorne Clemens. Nato in Florida, Missouri, il 30.11.1835 e morto a Redding, Connetticut, il 21.04.1910.",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Nota informativa",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Tvėn, , Mark",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.mrc",
+    "uri": false
+   },
+   {
+    "value": "Clemens, , Samuel Langhorne",
+    "lang": null,
+    "via": "400",
+    "file": "export_2.mrc",
+    "uri": false
+   },
+   {
+    "value": "Tvėn, Mark",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: $.data.results[0].contents[0].body[0][1].contents[0].value (Forme varianti)",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: $.data.results[0].contents[0].body[0][1].contents[1].value (Forme varianti, marked as real name)",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: Forme varianti 'Clemens, Samuel Langhorne, Nome reale'",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: Forme varianti 'Clemens, Samuel Langhorne, Nome reale'",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Nota informativa",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: Nota informativa",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: Datazione",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "it",
+    "via": "llm-page:NOTA INFORMATIVA",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: Nota informativa",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: Datazione",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "it",
+    "via": "llm-page:NOTA INFORMATIVA",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Nota informativa ('Nato in Florida, Missouri')",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connetticut",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Nota informativa ('morto a Redding, Connetticut')",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Scrittore",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Nota informativa ('Scrittore americano')",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "STATI UNITI D'AMERICA",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Paese",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "americano",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Nota informativa",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "language": [
+   {
+    "value": "INGLESE",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Lingua",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Pudd'nhead Wilson and those extraordinay twins",
+    "lang": "en",
+    "via": "llm:browser_xhr_9.json: Altre fonti",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: ISNI table-links[0].href",
+    "file": "P396.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm-page:ISNI row",
+    "file": "P396.json",
+    "uri": true
+   }
+  ],
+  "source": [
+   {
+    "value": "Catalogo in linea della Library of Congress http://catalog.loc.gov",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Fonti[0]",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "Catalogo in linea della Bibliothèque Nationale de France: http://catalogue.bnf.fr",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Fonti[1]",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "Bibliografia nazionale italiana: nuova serie del bollettino delle pubblicazioni italiane ricevute per diritto di stampa a cura della Biblioteca nazionale centrale di Firenze. A. 1, n. 1 (gen. 1958)- Firenze, Centro nazionale per il catalogo unico delle biblioteche italiane e per le informazioni bibliografiche, 1958- (CDROM",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Fonti[2]",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "Catalogo in linea della Deutsche Nationalbibliothek: https://www.dnb.de/EN/Benutzung/Katalog/katalogDNB_node.html",
+    "lang": "it",
+    "via": "llm:browser_xhr_9.json: Fonti[3]",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, M., Pudd'nhead Wilson and those extraordinay twins, 1969",
+    "lang": "en",
+    "via": "llm:browser_xhr_9.json: Altre fonti",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "Bibliografia nazionale italiana: nuova serie del bollettino delle pubblicazioni italiane ricevute per diritto di stampa (BNCF, 1958-)",
+    "lang": "it",
+    "via": "llm-page:FONTI",
+    "file": "P396.json",
+    "uri": false
+   },
+   {
+    "value": "REICAT",
+    "lang": null,
+    "via": "llm-page:cataloguing rules",
+    "file": "P396.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-01-26",
+    "lang": null,
+    "via": "llm:browser_xhr_9.json: Data di aggiornamento",
+    "file": "P396.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "identifier": [],
+  "name_preferred": [],
+  "description": [
+   "it"
+  ],
+  "name_variant": [],
+  "given_name": [],
+  "family_name": [],
+  "pseudonym": [
+   "it"
+  ],
+  "birth_date": [
+   "it"
+  ],
+  "death_date": [
+   "it"
+  ],
+  "birth_place": [
+   "it"
+  ],
+  "death_place": [
+   "it"
+  ],
+  "occupation": [
+   "it"
+  ],
+  "nationality": [
+   "it"
+  ],
+  "language": [
+   "it"
+  ],
+  "work": [
+   "en"
+  ],
+  "same_as": [],
+  "source": [
+   "en",
+   "it"
+  ],
+  "record_modified": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 441,
+   "path_count": 9,
+   "paths": [
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "it_IT"
+    },
+    {
+     "path": "[].og:locale:alternate",
+     "n": 1,
+     "sample": "en_US"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "OPAC SBN"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Risultati Autori - OPAC SBN"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/CFIV002662"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Catalogo del Servizio Bibliotecario Nazionale"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "/o/iccu-sbn-theme/images/social-card/opac-social-card.jpg"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 1130,
+   "path_count": 9,
+   "paths": [
+    {
+     "path": "resolvedModules[]",
+     "n": 3,
+     "sample": "@liferay/frontend-js-state-web@1.0.3/SubscriberMap"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/State"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/deepFreeze",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/deepFreeze"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/SubscriberMap",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/SubscriberMap"
+    },
+    {
+     "path": "moduleMap.@liferay/frontend-js-state-web@1.0.3/State../SubscriberMap",
+     "n": 1,
+     "sample": "@liferay/frontend-js-state-web@1.0.3/SubscriberMap"
+    },
+    {
+     "path": "moduleMap.@liferay/frontend-js-state-web@1.0.3/State../deepFreeze",
+     "n": 1,
+     "sample": "@liferay/frontend-js-state-web@1.0.3/deepFreeze"
+    },
+    {
+     "path": "moduleFlags.@liferay/frontend-js-state-web@1.0.3/State.esModule",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "moduleFlags.@liferay/frontend-js-state-web@1.0.3/deepFreeze.esModule",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "moduleFlags.@liferay/frontend-js-state-web@1.0.3/SubscriberMap.esModule",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 32376,
+   "path_count": 236,
+   "paths": [
+    {
+     "path": "resolvedModules[]",
+     "n": 50,
+     "sample": "frontend-js-web@5.0.5/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$warning@4.0.3/warning",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$warning@4.0.3/warning"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/bridge/frontend-js-web/liferay/delegate/delegate.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/bridge/frontend-js-web/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/delegate/delegate.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/browser",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/browser"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/State"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/button@3.6.0/lib/Group",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.6.0/lib/Group"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/index"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$dom-align@1.10.4/dist-node/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$dom-align@1.10.4/dist-node/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/deepFreeze",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/deepFreeze"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useInternalState",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useInternalState"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/button@3.6.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.6.0/lib/index"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/SubscriberMap",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/SubscriberMap"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/usePrevious",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/usePrevious"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/toast/commands/OpenToast.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/toast/commands/OpenToast.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/button@3.6.0/lib/ButtonWithIcon",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.6.0/lib/ButtonWithIcon"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/link@3.2.0/lib/Context",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/link@3.2.0/lib/Context"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/icon@3.1.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/icon@3.1.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/button@3.6.0/lib/Button",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.6.0/lib/Button"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/build_fragment",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/build_fragment"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useThunk",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useThunk"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$classnames@2.3.1/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$classnames@2.3.1/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useLiferayState",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useLiferayState"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/link@3.2.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/link@3.2.0/lib/index"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$object-assign@4.1.1/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$object-assign@4.1.1/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/bridge/frontend-js-web/liferay/toast/commands/OpenToast.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/bridge/frontend-js-web/liferay/toast/commands/OpenToast.es"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/getEllipsisItems",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/getEllipsisItems"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/render",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/render"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/TooltipProvider",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/TooltipProvider"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/index"
+    },
+    {
+     "path": "configMap.frontend-js-web/liferay/toast/commands/OpenToast.es.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.frontend-js-web/liferay/toast/commands/OpenToast.es.value",
+     "n": 1,
+     "sample": "frontend-js-web@5.0.5/bridge/frontend-js-web/liferay/toast/commands/OpenToast.es"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib.value",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/alert@3.26.0/lib/index"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib.value",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/layout@3.3.0/lib/index"
+    },
+    {
+     "path": "configMap.frontend-taglib-clay$dom-align@1.10.4/dist-web.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.frontend-taglib-clay$dom-align@1.10.4/dist-web.value",
+     "n": 1,
+     "sample": "frontend-taglib-clay$dom-align@1.10.4/dist-web/index"
+    },
+    {
+     "path": "configMap.frontend-taglib-clay$dom-align@1.10.4/dist-node.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.frontend-taglib-clay$dom-align@1.10.4/dist-node.value",
+     "n": 1,
+     "sample": "frontend-taglib-clay$dom-align@1.10.4/dist-node/index"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/button@3.6.0/lib.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/button@3.6.0/lib.value",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/button@3.6.0/lib/index"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/icon@3.1.0/lib.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/icon@3.1.0/lib.value",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/icon@3.1.0/lib/index"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/link@3.2.0/lib.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/link@3.2.0/lib.value",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/link@3.2.0/lib/index"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib.value",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index"
+    },
+    {
+     "path": "configMap.frontend-js-web/liferay/delegate/delegate.es.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.frontend-js-web/liferay/delegate/delegate.es.value",
+     "n": 1,
+     "sample": "frontend-js-web@5.0.5/bridge/frontend-js-web/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib.exactMatch",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "configMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib.value",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/index"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer.liferay!frontend-js-react-web$classnames",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$classnames@2.3.1/index"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer.liferay!frontend-js-react-web$react",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton.@frontend-taglib-clay$clayui/link",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/link@3.2.0/lib/index"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton.liferay!frontend-js-react-web$react",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton.@frontend-taglib-clay$clayui/button",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/button@3.6.0/lib/index"
+    },
+    {
+     "path": "moduleMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout.liferay!frontend-js-react-web$react",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "moduleMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout../useIsMounted",
+     "n": 1,
+     "sample": "@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../sub",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../observeRect",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../setElementFullHeight",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../FocusScope",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../useMousePosition",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../MouseSafeArea",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../Keys",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../useDebounce",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../LinkOrButton",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../useInternalState",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/useInternalState"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../getEllipsisItems",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/getEllipsisItems"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../useFocusManagement",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../Portal",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index../delegate",
+     "n": 1,
+     "sample": "@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate"
+    },
+    {
+     "path": "moduleMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe.liferay!frontend-js-react-web$react",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "moduleMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe../useIsMounted",
+     "n": 1,
+     "sample": "@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted"
+    },
+    {
+     "path": "moduleMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener.liferay!frontend-js-react-web$react",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "moduleMap.frontend-js-web@5.0.5/bridge/frontend-js-web/liferay/delegate/delegate.es.frontend-js-web/liferay/delegate/delegate.es",
+     "n": 1,
+     "sample": "frontend-js-web@5.0.5/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "moduleMap.liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min.liferay!frontend-js-react-web$react",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "moduleMap.liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min.liferay!frontend-js-react-web$object-assign",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$object-assign@4.1.1/index"
+    },
+    {
+     "path": "moduleMap.liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min.liferay!frontend-js-react-web$scheduler",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$scheduler@0.18.0/index"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col.liferay!frontend-js-react-web$classnames",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$classnames@2.3.1/index"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col.liferay!frontend-js-react-web$react",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "moduleMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip.liferay!frontend-js-react-web$classnames",
+     "n": 1,
+     "sample": "liferay!frontend-js-react-web$classnames@2.3.1/index"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "es",
+    "min"
+   ]
+  },
+  {
+   "file": "browser_xhr_3.json",
+   "format": "json",
+   "size": 81828,
+   "path_count": 612,
+   "paths": [
+    {
+     "path": "resolvedModules[]",
+     "n": 50,
+     "sample": "frontend-js-web@5.0.5/liferay/aop/AOP.es"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/core",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/core"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Input",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Input"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/post_form.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/post_form.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/get_form_element.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/get_form_element.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_dom",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_dom"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/breakpoints",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/breakpoints"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/in_browser_view",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/in_browser_view"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$warning@4.0.3/warning",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$warning@4.0.3/warning"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/PortletBase.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/PortletBase.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/browser",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/browser"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/all/component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/all/component"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/events/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/events/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/async/async",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/async/async"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/string/string",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/string/string"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/types",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/types"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/add_params",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/add_params"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/deepFreeze",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/deepFreeze"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/aop/AOP.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/aop/AOP.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_portlet_id",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_portlet_id"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/debounce/debounce.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/debounce/debounce.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_tablet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_tablet"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted"
+    },
+    {
+     "path": "pathMap.frontend-js-tabs-support-web@2.0.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-tabs-support-web@2.0.0/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/align",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/align"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/Config",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/Config"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/Component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/Component"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/build_fragment",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/build_fragment"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_element",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_element"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/set_form_values.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/set_form_values.es"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/array/array",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/array/array"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$object-assign@4.1.1/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$object-assign@4.1.1/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandle",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandle"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/fetch.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/fetch.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventEmitter"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/index"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/session.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/session.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/toggle_disabled",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/toggle_disabled"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_object",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_object"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/delegate/delegate.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/button@3.6.0/lib/Group",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.6.0/lib/Group"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Form",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Form"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/normalize_friendly_url",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/normalize_friendly_url"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$dom-align@1.10.4/dist-node/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$dom-align@1.10.4/dist-node/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/index.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/index.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Select",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Select"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/autosize/autosize.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/autosize/autosize.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/DualListBox",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/DualListBox"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "es",
+    "min"
+   ]
+  },
+  {
+   "file": "browser_xhr_4.json",
+   "format": "json",
+   "size": 82102,
+   "path_count": 615,
+   "paths": [
+    {
+     "path": "resolvedModules[]",
+     "n": 50,
+     "sample": "liferay!frontend-js-react-web$classnames@2.3.1/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/core",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/core"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Input",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Input"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/post_form.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/post_form.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/get_form_element.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/get_form_element.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_dom",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_dom"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/breakpoints",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/breakpoints"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/in_browser_view",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/in_browser_view"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$warning@4.0.3/warning",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$warning@4.0.3/warning"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/PortletBase.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/PortletBase.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/browser",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/browser"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/all/component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/all/component"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/events/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/events/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/async/async",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/async/async"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/string/string",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/string/string"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/types",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/types"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandler"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/add_params",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/add_params"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/deepFreeze",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/deepFreeze"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/aop/AOP.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/aop/AOP.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_portlet_id",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_portlet_id"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/debounce/debounce.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/debounce/debounce.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_tablet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_tablet"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/align",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/align"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/Config",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/Config"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/Component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/Component"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/build_fragment",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/build_fragment"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_element",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_element"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/set_form_values.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/set_form_values.es"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed"
+    },
+    {
+     "path": "pathMap.frontend-js-tooltip-support-web@4.0.3/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-tooltip-support-web@4.0.3/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/array/array",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/array/array"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$object-assign@4.1.1/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$object-assign@4.1.1/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandle",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandle"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/fetch.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/fetch.es"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventEmitter"
+    },
+    {
+     "path": "pathMap.frontend-js-tooltip-support-web@4.0.3/reducer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-tooltip-support-web@4.0.3/reducer"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/index"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/session.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/session.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/toggle_disabled",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/toggle_disabled"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_object",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_object"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/delegate/delegate.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/button@3.6.0/lib/Group",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.6.0/lib/Group"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Form",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Form"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/normalize_friendly_url",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/normalize_friendly_url"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$dom-align@1.10.4/dist-node/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$dom-align@1.10.4/dist-node/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/events"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/index.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/index.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Select",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Select"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/autosize/autosize.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/autosize/autosize.es"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "es",
+    "min"
+   ]
+  },
+  {
+   "file": "browser_xhr_5.json",
+   "format": "json",
+   "size": 81428,
+   "path_count": 609,
+   "paths": [
+    {
+     "path": "resolvedModules[]",
+     "n": 50,
+     "sample": "frontend-js-web@5.0.5/liferay/aop/AOP.es"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/core",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/core"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Input",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Input"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/post_form.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/post_form.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/get_form_element.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/get_form_element.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_dom",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_dom"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/breakpoints",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/breakpoints"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/in_browser_view",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/in_browser_view"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$warning@4.0.3/warning",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$warning@4.0.3/warning"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/PortletBase.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/PortletBase.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/browser",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/browser"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/all/component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/all/component"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/events/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/events/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/async/async",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/async/async"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/string/string",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/string/string"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/types",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/types"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/add_params",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/add_params"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/deepFreeze",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/deepFreeze"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/aop/AOP.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/aop/AOP.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_portlet_id",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_portlet_id"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/debounce/debounce.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/debounce/debounce.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_tablet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_tablet"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/align",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/align"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/Config",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/Config"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/Component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/Component"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/build_fragment",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/build_fragment"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_element",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_element"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/set_form_values.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/set_form_values.es"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/array/array",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/array/array"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$object-assign@4.1.1/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$object-assign@4.1.1/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandle",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandle"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/fetch.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/fetch.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventEmitter"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/index"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/session.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/session.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/toggle_disabled",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/toggle_disabled"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_object",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_object"
+    },
+    {
+     "path": "pathMap.remote-app-support-web@2.0.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/remote-app-support-web@2.0.0/index"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/delegate/delegate.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/button@3.6.0/lib/Group",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.6.0/lib/Group"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Form",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Form"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/normalize_friendly_url",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/normalize_friendly_url"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$dom-align@1.10.4/dist-node/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$dom-align@1.10.4/dist-node/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/index.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/index.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Select",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Select"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/autosize/autosize.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/autosize/autosize.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/DualListBox",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/DualListBox"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "es",
+    "min"
+   ]
+  },
+  {
+   "file": "browser_xhr_6.json",
+   "format": "json",
+   "size": 81463,
+   "path_count": 609,
+   "paths": [
+    {
+     "path": "resolvedModules[]",
+     "n": 50,
+     "sample": "frontend-js-web@5.0.5/liferay/aop/AOP.es"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/core",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/core"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Input",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Input"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/post_form.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/post_form.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/get_form_element.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/get_form_element.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_dom",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_dom"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/breakpoints",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/breakpoints"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/in_browser_view",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/in_browser_view"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$warning@4.0.3/warning",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$warning@4.0.3/warning"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/PortletBase.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/PortletBase.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/browser",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/browser"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/all/component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/all/component"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/events/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/events/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/async/async",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/async/async"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/string/string",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/string/string"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/types",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/types"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/add_params",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/add_params"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/deepFreeze",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/deepFreeze"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/aop/AOP.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/aop/AOP.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_portlet_id",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_portlet_id"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/debounce/debounce.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/debounce/debounce.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_tablet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_tablet"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/align",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/align"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/Config",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/Config"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/Component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/Component"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/build_fragment",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/build_fragment"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_element",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_element"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/set_form_values.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/set_form_values.es"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/array/array",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/array/array"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$object-assign@4.1.1/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$object-assign@4.1.1/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandle",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandle"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/fetch.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/fetch.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventEmitter"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/index"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/session.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/session.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/toggle_disabled",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/toggle_disabled"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_object",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_object"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/delegate/delegate.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/button@3.6.0/lib/Group",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.6.0/lib/Group"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Form",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Form"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/normalize_friendly_url",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/normalize_friendly_url"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$dom-align@1.10.4/dist-node/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$dom-align@1.10.4/dist-node/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/index.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/index.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Select",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Select"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/autosize/autosize.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/autosize/autosize.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/DualListBox",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/DualListBox"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/index"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "es",
+    "min"
+   ]
+  },
+  {
+   "file": "browser_xhr_7.json",
+   "format": "json",
+   "size": 81900,
+   "path_count": 612,
+   "paths": [
+    {
+     "path": "resolvedModules[]",
+     "n": 50,
+     "sample": "frontend-js-web@5.0.5/liferay/aop/AOP.es"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/core",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/core"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Input",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Input"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/post_form.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/post_form.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/get_form_element.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/get_form_element.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_dom",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_dom"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/breakpoints",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/breakpoints"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/in_browser_view",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/in_browser_view"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$warning@4.0.3/warning",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$warning@4.0.3/warning"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/PortletBase.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/PortletBase.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/browser",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/browser"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/all/component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/all/component"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/events/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/events/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/async/async",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/async/async"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/string/string",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/string/string"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/types",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/types"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/add_params",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/add_params"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/deepFreeze",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/deepFreeze"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/aop/AOP.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/aop/AOP.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_portlet_id",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_portlet_id"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/debounce/debounce.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/debounce/debounce.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_tablet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_tablet"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/align",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/align"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/Config",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/Config"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/Component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/Component"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/build_fragment",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/build_fragment"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_element",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_element"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/set_form_values.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/set_form_values.es"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/array/array",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/array/array"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$object-assign@4.1.1/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$object-assign@4.1.1/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandle",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandle"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/fetch.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/fetch.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventEmitter"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content"
+    },
+    {
+     "path": "pathMap.frontend-js-collapse-support-web@2.0.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-collapse-support-web@2.0.0/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/index"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/session.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/session.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/toggle_disabled",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/toggle_disabled"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_object",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_object"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/delegate/delegate.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/button@3.6.0/lib/Group",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.6.0/lib/Group"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Form",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Form"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/normalize_friendly_url",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/normalize_friendly_url"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$dom-align@1.10.4/dist-node/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$dom-align@1.10.4/dist-node/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/index.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/index.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Select",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Select"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/autosize/autosize.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/autosize/autosize.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/DualListBox",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/DualListBox"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "es",
+    "min"
+   ]
+  },
+  {
+   "file": "browser_xhr_8.json",
+   "format": "json",
+   "size": 82644,
+   "path_count": 618,
+   "paths": [
+    {
+     "path": "resolvedModules[]",
+     "n": 50,
+     "sample": "frontend-js-dropdown-support-web$dom-align@1.10.4/dist-node/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRegistry"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/core",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/core"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Input",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Input"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/post_form.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/post_form.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/get_form_element.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/get_form_element.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_dom",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_dom"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/breakpoints",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/breakpoints"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/in_browser_view",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/in_browser_view"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$warning@4.0.3/warning",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$warning@4.0.3/warning"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/disposable/Disposable"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Keys"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/PortletBase.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/PortletBase.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Hook"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/ItemSelectorDialog.es"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/browser",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/browser"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/ContainerFluid"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEvalStyles"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentRenderer"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/useModal"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/all/component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/all/component"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/sub"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/events/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/events/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/sync/sync"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/async/async",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/async/async"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Context"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/string/string",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/string/string"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Row"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/FocusScope"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/types",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/types"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useDebounce"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/add_params",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/add_params"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/ComponentDataManager"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/deepFreeze",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/deepFreeze"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Provider"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/aop/AOP.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/aop/AOP.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/MouseSafeArea"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/delegate"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/object_to_form_data.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/setElementFullHeight"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_portlet_id",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_portlet_id"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Radio"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventHandler"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/ToastContainer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_resource_url.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/debounce/debounce.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/debounce/debounce.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/loading-indicator@3.2.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useFocusManagement"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_tablet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_tablet"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useIsMounted"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/align",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/align"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/Config",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/Config"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/useMousePosition"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-component@2.16.8/lib/Component",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-component@2.16.8/lib/Component"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/build_fragment",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/build_fragment"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/get_element",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/get_element"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/Portal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/form/set_form_values.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/form/set_form_values.es"
+    },
+    {
+     "path": "pathMap.frontend-js-dropdown-support-web$dom-align@1.10.4/dist-node/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-dropdown-support-web$dom-align@1.10.4/dist-node/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/domNamed"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal@2.16.8/lib/array/array",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal@2.16.8/lib/array/array"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$object-assign@4.1.1/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$object-assign@4.1.1/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-state@2.16.8/lib/State",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-state@2.16.8/lib/State"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/DomEventEmitterProxy"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Container"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventHandle",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventHandle"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/SelectWithOption"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/fetch.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/fetch.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/events/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/events/EventEmitter"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useInterval"
+    },
+    {
+     "path": "pathMap.frontend-js-node-shims$process@0.11.10/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-node-shims$process@0.11.10/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Content"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/index"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/factoryWithThrowingShims"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/alert@3.26.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/session.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/session.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/LinkOrButton"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useTimeout"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/toggle_disabled",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/toggle_disabled"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/is_object",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/is_object"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$prop-types@15.7.2/lib/ReactPropTypesSecret"
+    },
+    {
+     "path": "pathMap.frontend-js-dropdown-support-web@2.0.0/DropdownProvider",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-dropdown-support-web@2.0.0/DropdownProvider"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useStateSafe"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-react-web@5.0.4/js/hooks/useEventListener"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Modal"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Footer"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react-dom@16.12.0/cjs/react-dom.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/delegate/delegate.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/delegate/delegate.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Col"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/tooltip@3.29.0/lib/Tooltip"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/modal@3.29.0/lib/Body"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/cjs/react.production.min"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/EventEmitter"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/shared@3.29.0/lib/observeRect"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/modal/commands/OpenSimpleInputModal.es"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/portlet_url/create_action_url.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/button@3.6.0/lib/Group",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/button@3.6.0/lib/Group"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/index"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/layout@3.3.0/lib/Sheet"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Form",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Form"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/liferay/util/normalize_friendly_url",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/liferay/util/normalize_friendly_url"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$scheduler@0.18.0/cjs/scheduler.production.min"
+    },
+    {
+     "path": "pathMap.liferay!frontend-js-react-web$react@16.12.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/liferay!frontend-js-react-web$react@16.12.0/index"
+    },
+    {
+     "path": "pathMap.frontend-taglib-clay$dom-align@1.10.4/dist-node/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-taglib-clay$dom-align@1.10.4/dist-node/index"
+    },
+    {
+     "path": "pathMap.frontend-js-dropdown-support-web@2.0.0/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-dropdown-support-web@2.0.0/index"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-events@2.16.8/lib/events",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-events@2.16.8/lib/events"
+    },
+    {
+     "path": "pathMap.frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-metal-web$metal-dom@2.16.8/lib/globalEval"
+    },
+    {
+     "path": "pathMap.@liferay/frontend-js-state-web@1.0.3/index",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@liferay/frontend-js-state-web@1.0.3/index"
+    },
+    {
+     "path": "pathMap.frontend-js-web@5.0.5/index.es",
+     "n": 1,
+     "sample": "/o/js/resolved-module/frontend-js-web@5.0.5/index.es"
+    },
+    {
+     "path": "pathMap.@frontend-taglib-clay$clayui/form@3.29.0/lib/Select",
+     "n": 1,
+     "sample": "/o/js/resolved-module/@frontend-taglib-clay$clayui/form@3.29.0/lib/Select"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "es",
+    "min"
+   ]
+  },
+  {
+   "file": "browser_xhr_9.json",
+   "format": "json",
+   "size": 4223,
+   "path_count": 40,
+   "paths": [
+    {
+     "path": "data.results[].contents[].body[][].type",
+     "n": 22,
+     "sample": "table-title"
+    },
+    {
+     "path": "data.results[].contents[].body[][].value",
+     "n": 17,
+     "sample": "Forme varianti"
+    },
+    {
+     "path": "data.results[].contents[].body[][].contents[].type",
+     "n": 8,
+     "sample": "table-text"
+    },
+    {
+     "path": "data.results[].contents[].body[][].contents[].value",
+     "n": 8,
+     "sample": " Tvėn, Mark"
+    },
+    {
+     "path": "data.results[].links.top[].type",
+     "n": 5,
+     "sample": "bookmark"
+    },
+    {
+     "path": "data.results[].links.top[].icon",
+     "n": 4,
+     "sample": "bookmark_border"
+    },
+    {
+     "path": "data.results[].links.top[].href",
+     "n": 4,
+     "sample": "#"
+    },
+    {
+     "path": "data.results[].links.top[].id",
+     "n": 3,
+     "sample": "CFIV002662"
+    },
+    {
+     "path": "data.links[].type",
+     "n": 2,
+     "sample": "print-all"
+    },
+    {
+     "path": "data.links[].icon",
+     "n": 2,
+     "sample": "print"
+    },
+    {
+     "path": "data.links[].href",
+     "n": 2,
+     "sample": "#"
+    },
+    {
+     "path": "data.results[].links.top[].links[].type",
+     "n": 2,
+     "sample": "dropdown-item"
+    },
+    {
+     "path": "data.results[].links.top[].links[].label",
+     "n": 2,
+     "sample": "UNIMARC"
+    },
+    {
+     "path": "data.results[].links.top[].links[].href",
+     "n": 2,
+     "sample": "/c/opac/autori/unimarc?groupId=20122&id=CFIV002662"
+    },
+    {
+     "path": "status",
+     "n": 1,
+     "sample": "success"
+    },
+    {
+     "path": "data.pagination.total",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "data.pagination.current",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "data.pagination.max",
+     "n": 1,
+     "sample": "4"
+    },
+    {
+     "path": "data.total",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "data.filters[].name",
+     "n": 1,
+     "sample": "formato_elet"
+    },
+    {
+     "path": "data.filters[].value",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "data.filters[].label",
+     "n": 1,
+     "sample": "1 documento"
+    },
+    {
+     "path": "data.filters[].class",
+     "n": 1,
+     "sample": "btn-commons-w"
+    },
+    {
+     "path": "data.results[].index",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "data.results[].total",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "data.results[].numselected",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "data.results[].labelquery",
+     "n": 1,
+     "sample": "Id: CFIV002662"
+    },
+    {
+     "path": "data.results[].id",
+     "n": 1,
+     "sample": "ITICCUCFIV002662"
+    },
+    {
+     "path": "data.results[].pretitle",
+     "n": 1,
+     "sample": "Persona"
+    },
+    {
+     "path": "data.results[].title",
+     "n": 1,
+     "sample": "Twain, Mark"
+    },
+    {
+     "path": "data.results[].links.top[].title",
+     "n": 1,
+     "sample": "Twain, Mark"
+    },
+    {
+     "path": "data.results[].links.top[].linkType",
+     "n": 1,
+     "sample": "permalink"
+    },
+    {
+     "path": "data.results[].links.top[].links[].append",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "data.results[].links.mid[].type",
+     "n": 1,
+     "sample": "button"
+    },
+    {
+     "path": "data.results[].links.mid[].target",
+     "n": 1,
+     "sample": "_blank"
+    },
+    {
+     "path": "data.results[].links.mid[].label",
+     "n": 1,
+     "sample": "Documenti collegati"
+    },
+    {
+     "path": "data.results[].links.mid[].href",
+     "n": 1,
+     "sample": "/c/search/opac?groupId=20122&item:5032:BID=CFIV002662"
+    },
+    {
+     "path": "data.results[].contents[].type",
+     "n": 1,
+     "sample": "table"
+    },
+    {
+     "path": "data.results[].contents[].body[][].values[].href",
+     "n": 1,
+     "sample": "http://isni.org/isni/0000000121324854"
+    },
+    {
+     "path": "data.results[].contents[].body[][].values[].value",
+     "n": 1,
+     "sample": "0000 0001 2132 4854"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "data.results[].title",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "data.results[].links.top[].title",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "data.results[].contents[].body[][].contents[].value",
+     "value": " Clemens, Samuel Langhorne, Nome reale"
+    },
+    {
+     "path": "data.results[].contents[].body[][].value",
+     "value": "1835-1910 "
+    },
+    {
+     "path": "data.results[].contents[].body[][].value",
+     "value": "Scrittore americano, pseudonimo di Samuel Langhorne Clemens. Nato in Florida, Missouri, il 30.11.1835 e morto a Redding, Connetticut, il 21.04.1910."
+    },
+    {
+     "path": "data.results[].contents[].body[][].contents[].value",
+     "value": "Twain, M., Pudd'nhead Wilson and those extraordinay twins, 1969"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "max"
+   ]
+  }
+ ],
+ "llm_notes": "OPAC SBN authority record (Persona) for Twain, Mark with variant forms, dates, an Italian biographical note, language, country, sources, ISNI and the SBN identifier. No work list shown on this view.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

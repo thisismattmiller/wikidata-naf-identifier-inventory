@@ -1,0 +1,187 @@
+{
+ "property": "P8969",
+ "property_label": "CINE21 person ID",
+ "files": [
+  {
+   "file": "P8969__50754/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://cine21.com/db/person/info/?person_id=50754"
+  },
+  {
+   "file": "P8969__50754/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://cine21.com/db/person/info/?person_id=50754"
+  },
+  {
+   "file": "P8969__50754/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://cine21.com/db/person/info/?person_id=50754"
+  },
+  {
+   "file": "P8969__50754/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cine21.com/dable_worker.js"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "unknown": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "마크 트웨인",
+    "lang": "ko",
+    "via": "llm-page:page heading",
+    "file": "P8969.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:romanised heading",
+    "file": "P8969.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:다른 이름 (other names)",
+    "file": "P8969.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:생년월일 (date of birth)",
+    "file": "P8969.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "남",
+    "lang": "ko",
+    "via": "llm-page:성별 (sex)",
+    "file": "P8969.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "원작 (original author)",
+    "lang": "ko",
+    "via": "llm-page:참여작품 role",
+    "file": "P8969.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "허클베리 핀의 모험",
+    "lang": "ko",
+    "via": "llm-page:참여작품 - 영화",
+    "file": "P8969.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "50754",
+    "lang": null,
+    "via": "llm-page:page URL person_id",
+    "file": "P8969.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en",
+   "ko"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "gender": [
+   "ko"
+  ],
+  "occupation": [
+   "ko"
+  ],
+  "work": [
+   "ko"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2,
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 308,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "씨네21"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "대한민국 최고 영화전문매체"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://image.cine21.com/www1/common/cine21_logoicon.jpg"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://cine21.com/db/person/info/?person_id=50754"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  }
+ ],
+ "llm_notes": "A CINE21 (Korean film magazine) person page for 마크 트웨인 / Mark Twain. It gives an alternate name, birth date and sex, and lists two films credited to him as original author: the Huckleberry Finn adaptations of 1993 and 1960.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

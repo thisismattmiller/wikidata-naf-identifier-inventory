@@ -1,0 +1,402 @@
+{
+ "property": "P3430",
+ "property_label": "SNAC ARK ID",
+ "value": "w65h7dgf",
+ "url": "https://snaccooperative.org/ark:/99166/w65h7dgf",
+ "crawled_at": "2026-10-02T21:31:17+00:00",
+ "load_timed_out": false,
+ "tab_url": "https://snaccooperative.org/ark:/99166/w65h7dgf",
+ "tab_title": "Twain, Mark, 1835-1910 - Social Networks and Archival Context",
+ "challenge_paused_seconds": 0.0,
+ "screenshot_file": "pages/P3430__w65h7dgf.jpg",
+ "elapsed_seconds": 9.6,
+ "html_file": "pages/P3430__w65h7dgf.html",
+ "text_file": "pages/P3430__w65h7dgf.txt",
+ "status": "ok",
+ "page": {
+  "final_url": "https://snaccooperative.org/ark:/99166/w65h7dgf",
+  "title": "Twain, Mark, 1835-1910 - Social Networks and Archival Context",
+  "content_type": "text/html",
+  "lang": null,
+  "charset": "UTF-8",
+  "ready_state": "complete",
+  "visibility": "visible",
+  "http_status": 200,
+  "redirect_count": 0,
+  "response_headers": null,
+  "link_elements": [
+   {
+    "rel": "canonical",
+    "type": null,
+    "href": "https://snaccooperative.org/view/85302594",
+    "title": null,
+    "hreflang": null
+   }
+  ],
+  "jsonld": [],
+  "data_scripts": [],
+  "microdata": {
+   "itemscope_count": 0,
+   "itemtypes": []
+  },
+  "rdfa": {
+   "typeof_count": 0,
+   "typeofs": [],
+   "property_count": 0,
+   "vocab": [],
+   "prefix": []
+  },
+  "meta": [
+   {
+    "key": "viewport",
+    "content": "initial-scale = 1.0"
+   }
+  ],
+  "machine_links": [
+   {
+    "tag": "a",
+    "href": "https://snaccooperative.org/api_help",
+    "text": "Rest API Commands",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "button",
+    "href": null,
+    "text": "Export",
+    "title": null,
+    "type": "button",
+    "rel": null,
+    "reasons": [
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://snaccooperative.org/download/85302594?type=constellation_json",
+    "text": "JSON",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "query",
+     "path",
+     "text"
+    ]
+   },
+   {
+    "tag": "a",
+    "href": "https://snaccooperative.org/download/85302594?type=eac-cpf",
+    "text": "EAC-CPF XML",
+    "title": null,
+    "type": null,
+    "rel": null,
+    "reasons": [
+     "query",
+     "path",
+     "text"
+    ]
+   }
+  ],
+  "xhr_requests": [
+   {
+    "url": "https://query.wikidata.org/sparql?format=json&query=SELECT%20?_image%20WHERE%20{?q%20wdt:P3430%20%22w6dg7gd6%22.OPTIONAL%20{%20?q%20wdt:P18%20?_image.}}",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   },
+   {
+    "url": "https://commons.wikimedia.org/w/api.php?format=json&action=query&prop=revisions&rvprop=content&origin=*&titles=File:MarkTwain.LOC.jpg",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json"
+   }
+  ],
+  "resources": [
+   {
+    "url": "https://code.jquery.com/jquery-2.1.4.min.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": null
+   },
+   {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 8127
+   },
+   {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": 1516
+   },
+   {
+    "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": 3513
+   },
+   {
+    "url": "https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.6.2/tinymce.min.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 113161
+   },
+   {
+    "url": "https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css",
+    "initiator": "link",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://snaccooperative.org/css/snac.css",
+    "initiator": "link",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js",
+    "initiator": "script",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://snaccooperative.org/css/hrt/icons.css",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "text/css",
+    "bytes": null
+   },
+   {
+    "url": "https://snaccooperative.org/javascript/wikipedia_image.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 7759
+   },
+   {
+    "url": "https://snaccooperative.org/javascript/select_loaders.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 16550
+   },
+   {
+    "url": "https://snaccooperative.org/javascript/feedback.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 11027
+   },
+   {
+    "url": "https://snaccooperative.org/javascript/message_current_editor.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 2845
+   },
+   {
+    "url": "https://snaccooperative.org/javascript/scripts.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 10725
+   },
+   {
+    "url": "https://snaccooperative.org/javascript/tabcollapse.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 10354
+   },
+   {
+    "url": "https://snaccooperative.org/javascript/html2canvas.js",
+    "initiator": "script",
+    "status": 200,
+    "content_type": "text/javascript",
+    "bytes": 127440
+   },
+   {
+    "url": "https://fonts.googleapis.com/css?family=Roboto:300,400",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://fonts.googleapis.com/css?family=Droid+Sans:400",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://fonts.googleapis.com/css?family=Crimson+Text:400,800",
+    "initiator": "css",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   },
+   {
+    "url": "https://snaccooperative.org/images/paper_dolls_art2.png",
+    "initiator": "img",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 47070
+   },
+   {
+    "url": "https://query.wikidata.org/sparql?format=json&query=SELECT%20?_image%20WHERE%20{?q%20wdt:P3430%20%22w6dg7gd6%22.OPTIONAL%20{%20?q%20wdt:P18%20?_image.}}",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://snaccooperative.org/css/hrt/icons.png",
+    "initiator": "css",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 34496
+   },
+   {
+    "url": "https://snaccooperative.org/favicon.ico",
+    "initiator": "other",
+    "status": 404,
+    "content_type": "text/html",
+    "bytes": 10961
+   },
+   {
+    "url": "https://commons.wikimedia.org/w/api.php?format=json&action=query&prop=revisions&rvprop=content&origin=*&titles=File:MarkTwain.LOC.jpg",
+    "initiator": "xmlhttprequest",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": null
+   },
+   {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=300",
+    "initiator": "img",
+    "status": null,
+    "content_type": null,
+    "bytes": null
+   }
+  ],
+  "third_party_hosts": {
+   "code.jquery.com": 1,
+   "maxcdn.bootstrapcdn.com": 4,
+   "cdnjs.cloudflare.com": 4,
+   "cdn.datatables.net": 4,
+   "npmcdn.com": 2,
+   "fonts.googleapis.com": 3,
+   "query.wikidata.org": 1,
+   "commons.wikimedia.org": 2
+  },
+  "scripts": [
+   "https://code.jquery.com/jquery-2.1.4.min.js",
+   "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js",
+   "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js",
+   "https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js",
+   "https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.6.2/tinymce.min.js",
+   "https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js",
+   "https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js",
+   "https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js",
+   "https://snaccooperative.org/javascript/wikipedia_image.js",
+   "https://snaccooperative.org/javascript/select_loaders.js",
+   "https://snaccooperative.org/javascript/html2canvas.js",
+   "https://snaccooperative.org/javascript/feedback.js",
+   "https://snaccooperative.org/javascript/message_current_editor.js",
+   "https://snaccooperative.org/javascript/scripts.js",
+   "https://snaccooperative.org/javascript/tabcollapse.js"
+  ],
+  "iframes": [],
+  "forms": [
+   {
+    "action": "https://snaccooperative.org/ark:/99166/w65h7dgf",
+    "method": null,
+    "id": "feedback_form"
+   }
+  ],
+  "signals": {
+   "challenge_title": false,
+   "challenge_elements": [
+    ".g-recaptcha"
+   ],
+   "challenge_words": [],
+   "password_inputs": 0,
+   "access_words": [
+    "login"
+   ],
+   "not_found_words": []
+  },
+  "text_length": 2189,
+  "html_length": 718870
+ }
+}

@@ -1,0 +1,223 @@
+{
+ "property": "P9001",
+ "label": "Literary Encyclopedia ID",
+ "files_read": [
+  "pages/P9001__b-2091__frame0.txt",
+  "pages/P9001__b-2091__frame1.txt",
+  "pages/P9001__b-2091__frame2.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "encyclopedia article",
+ "notes": "Frameset page of the Soviet 'Литературная энциклопедия' (vol. 11, 1939; FEB-web): frame0 is the site header, frame1 an alphabetical navigation list, frame2 the full Russian article 'ТВЕН Марк' by Е. Немеровская with a critical survey of his works and a bibliography.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Твен Марк",
+    "raw": "ТВЕН Марк",
+    "lang": "ru",
+    "via": "article heading (frame2)"
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "article heading bracket"
+   },
+   {
+    "value": "Самуэль Ланггорн Клеменс",
+    "lang": "ru",
+    "via": "article heading bracket ('псевдоним Самуэля Ланггорна Клеменса')"
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "raw": "1835—1910",
+    "lang": null,
+    "via": "article heading"
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "raw": "1835—1910",
+    "lang": null,
+    "via": "article heading"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "американский",
+    "lang": "ru",
+    "via": "article first sentence"
+   }
+  ],
+  "occupation": [
+   {
+    "value": "писатель",
+    "lang": "ru",
+    "via": "article first sentence"
+   },
+   {
+    "value": "журналист",
+    "lang": "ru",
+    "via": "article bio ('начал с журналистики', correspondent of 'Alta California')"
+   }
+  ],
+  "description": [
+   {
+    "value": "ТВЕН Марк [Mark Twain (1835—1910), псевдоним Самуэля Ланггорна Клеменса] — американский писатель. Р. в семье мелкого торговца. Участвовал в гражданской войне сперва на стороне конфедератов, а потом на стороне федеральных армий; оставался затем до конца жизни страстным противником рабовладения. Свою лит-ую деятельность Т., как и большинство американских писателей начал с журналистики. В 1867 он совершил длительное путешествие на туристском пароходе в качестве корреспондента крупной газеты «Alta California».",
+    "raw": "truncated",
+    "lang": "ru",
+    "via": "article opening (frame2)"
+   }
+  ],
+  "work": [
+   {
+    "value": "The innocents abroad",
+    "raw": "Простодушные за границей, 1869",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "A tramp abroad",
+    "raw": "Путешествие за границу, 1880",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "The celebrated jumping frog of Calaveras Country",
+    "raw": "Знаменитая скачущая лягушка, напис. 1865, изд. 1867",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "raw": "Приключения Тома Сойера, напис. 1875, изд. 1876",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "raw": "Приключения Геккльберри Финна, 1884",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "Tom Sawyer abroad",
+    "raw": "Том Сойер за границей, 1894",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "Tom Sawyer Detective",
+    "raw": "Том Сойер сыщик, 1896",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "The prince and the pauper",
+    "raw": "Принц и нищий, 1881",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "Jankee at the Court of King Arthur",
+    "raw": "Янки при дворе короля Артура, 1889",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "The American claimant",
+    "raw": "Американский претендент, 1892",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "The tragedy of puddinhead Wilson",
+    "raw": "Уильсон Мякинная голова, 1894",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "The man, that corrupted Hadleyburg",
+    "raw": "Человек, подкупивший Гейдльбург, напис. 1898, изд. 1900",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "Captain Stromfield’s visit to heaven",
+    "raw": "Путешествие капитана Стромфильда на небо, напис. 1868, изд. 1909",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "Personal recollections of Joan of Arc",
+    "raw": "Жанна д’Арк, 1896",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "What is man",
+    "raw": "Что такое человек, напис. 1898, изд. 1906",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "The mysterious stranger",
+    "raw": "Таинственный незнакомец, напис. 1898, изд. 1916",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "Mark Twain’s Autobiography",
+    "raw": "Автобиография, 1924",
+    "lang": "en",
+    "via": "article body (frame2)"
+   },
+   {
+    "value": "Mark Twain’s notebook",
+    "raw": "1935, ed. A. B. Paine",
+    "lang": "en",
+    "via": "article body (frame2)"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Е. Немеровская (author of the article)",
+    "lang": "ru",
+    "via": "article signature"
+   },
+   {
+    "value": "A. B. Paine (editor of Letters and Notebook; biographer)",
+    "lang": "en",
+    "via": "bibliography"
+   },
+   {
+    "value": "W. D. Howells (author of 'My Mark Twain')",
+    "lang": "en",
+    "via": "bibliography"
+   },
+   {
+    "value": "Alta California (newspaper he was correspondent for)",
+    "lang": "ru",
+    "via": "article body"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "b-2091",
+    "lang": null,
+    "via": "page file id / URL"
+   }
+  ],
+  "source": [
+   {
+    "value": "Литературная энциклопедия: Алфавитная часть",
+    "lang": "ru",
+    "via": "site header (frame0)"
+   }
+  ]
+ }
+}

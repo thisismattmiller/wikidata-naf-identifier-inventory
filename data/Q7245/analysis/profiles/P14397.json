@@ -1,0 +1,343 @@
+{
+ "property": "P14397",
+ "property_label": "‎Darwin Correspondence ID",
+ "files": [
+  {
+   "file": "P14397__5393/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=nameregs/nameregs_5393.xml"
+  },
+  {
+   "file": "P14397__5393/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=nameregs/nameregs_5393.xml"
+  },
+  {
+   "file": "P14397__5393/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.darwinproject.ac.uk/letter/?docId=nameregs/nameregs_5393.xml"
+  },
+  {
+   "file": "P14397__5393/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.darwinproject.ac.uk/letters-timeline-json"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 3,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P14397.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P14397.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P14397.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:description: 'Wrote under the pen name Mark Twain.'",
+    "file": "P14397.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:dates under heading",
+    "file": "P14397.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:dates under heading",
+    "file": "P14397.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:description",
+    "file": "P14397.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:description",
+    "file": "P14397.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:description",
+    "file": "P14397.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "American author and lecturer. Wrote under the pen name Mark Twain.",
+    "lang": "en",
+    "via": "llm-page:description under dates",
+    "file": "P14397.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "ANB: American national biography. Edited by John A. Garraty and Mark C. Carnes. 24 vols. and supplement. New York and Oxford: Oxford University Press. 1999–2002.",
+    "lang": "en",
+    "via": "llm-page:Source / Bibliography section",
+    "file": "P14397.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "source": [
+   "en"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 690,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 7,
+     "sample": "Breadcrumb"
+    },
+    {
+     "path": "[].@context",
+     "n": 7,
+     "sample": "https://data-vocabulary.org"
+    },
+    {
+     "path": "[].value",
+     "n": 4,
+     "sample": "advanced search ›"
+    },
+    {
+     "path": "[].title[]",
+     "n": 2,
+     "sample": "Home"
+    },
+    {
+     "path": "[].url",
+     "n": 1,
+     "sample": "/"
+    },
+    {
+     "path": "[].target",
+     "n": 1,
+     "sample": "/search?q="
+    },
+    {
+     "path": "[].query-input.valueName",
+     "n": 1,
+     "sample": "keyword"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 185,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Darwin Correspondence Project"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.darwinproject.ac.uk/letter"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 6139974,
+   "path_count": 15,
+   "paths": [
+    {
+     "path": "letters[].search-correspondent-id[]",
+     "n": 103,
+     "sample": "1037"
+    },
+    {
+     "path": "letters[].id",
+     "n": 50,
+     "sample": "DCP-LETT-1"
+    },
+    {
+     "path": "letters[].path",
+     "n": 50,
+     "sample": "/letter/?docId=letters/DCP-LETT-1.xml"
+    },
+    {
+     "path": "letters[].title",
+     "n": 50,
+     "sample": "From Mary Congreve   27 October [1821]"
+    },
+    {
+     "path": "letters[].dateStart",
+     "n": 50,
+     "sample": "1821-10-27"
+    },
+    {
+     "path": "letters[].summary",
+     "n": 50,
+     "sample": "<p>Writes about London plays; wishes CD had been of the party.</p>"
+    },
+    {
+     "path": "letters[].dateEnd",
+     "n": 6,
+     "sample": "1823-06-30"
+    },
+    {
+     "path": "requestURI",
+     "n": 1,
+     "sample": "/search?f1-document-type=letter&f3-entry-cancelled=No&rmode=json&sort=date"
+    },
+    {
+     "path": "dateTimeFormat",
+     "n": 1,
+     "sample": "iso8601"
+    },
+    {
+     "path": "statistics[].letter[].count",
+     "n": 1,
+     "sample": "15239"
+    },
+    {
+     "path": "statistics[].letter[].darwinSent",
+     "n": 1,
+     "sample": "8151"
+    },
+    {
+     "path": "statistics[].letter[].darwinReceived",
+     "n": 1,
+     "sample": "6714"
+    },
+    {
+     "path": "statistics[].letter[].3rdParty",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "statistics[].people[].count",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "statistics[].bibliographies[].count",
+     "n": 1,
+     "sample": "0"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  }
+ ],
+ "llm_notes": "Darwin Correspondence Project name-register entry: name, dates, a one-line description and its source (ANB). Almost all of the text is site navigation; the entry notes there is no associated correspondence.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

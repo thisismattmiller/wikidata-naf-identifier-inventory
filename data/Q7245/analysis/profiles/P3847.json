@@ -1,0 +1,260 @@
+{
+ "property": "P3847",
+ "property_label": "Open Library subject ID",
+ "files": [
+  {
+   "file": "P3847__person_mark_twain__1835-1910_ea5c2525/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://openlibrary.org/subjects/person%3Amark_twain_%281835-1910%29"
+  },
+  {
+   "file": "P3847__person_mark_twain__1835-1910_ea5c2525/export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "http",
+   "url": "https://openlibrary.org/developers/api"
+  },
+  {
+   "file": "P3847__person_mark_twain__1835-1910_ea5c2525/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://openlibrary.org/partials/SubjectPublishingHistory.json?key=%2Fsubjects%2Fperson%3Amark_twain_%281835-1910%29"
+  },
+  {
+   "file": "P3847__person_mark_twain__1835-1910_ea5c2525/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://openlibrary.org/partials/SubjectRelated.json?key=%2Fsubjects%2Fperson%3Amark_twain_%281835-1910%29"
+  },
+  {
+   "file": "P3847__person_mark_twain__1835-1910_ea5c2525/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://openlibrary.org/partials/LazyCarousel.json?query=person_key%3A%22mark_twain_%5C%281835%5C-1910%5C%29%22+language%3Aeng+-subject%3A%22content_warning%3Acover%22&sort=trending%2Ctrending_score_hourly_sum&key=&limit=20&search=false&has_fulltext_only=true&layout=carousel&fallback=person_key%3A%22mark_twain_%5C%281835%5C-1910%5C%29%22"
+  },
+  {
+   "file": "P3847__person_mark_twain__1835-1910_ea5c2525/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://openlibrary.org/developers/api"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "html": 2,
+  "json": 3
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain (1835-1910)",
+    "lang": "en",
+    "via": "llm:xhr_1.json/xhr_2.json: data-key attribute of div#subjectPublishingHistory / div#subjectRelatedFacets",
+    "file": "P3847.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "en",
+    "via": "llm:xhr_2.json: Subjects facet ol-chip href=/subjects/twain_mark_1835-1910",
+    "file": "P3847.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:xhr_1.json: data-key",
+    "file": "P3847.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:xhr_1.json: data-key",
+    "file": "P3847.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "person:mark_twain_(1835-1910)",
+    "lang": null,
+    "via": "llm:xhr_1.json: data-key; xhr_3.json carousel data-config q=person_key:\"mark_twain_(1835-1910)\"",
+    "file": "P3847.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Henry James (1843-1916)",
+    "lang": null,
+    "via": "llm:xhr_2.json: People facet",
+    "file": "P3847.json",
+    "uri": false
+   },
+   {
+    "value": "Herman Melville (1819-1891)",
+    "lang": null,
+    "via": "llm:xhr_2.json: People facet",
+    "file": "P3847.json",
+    "uri": false
+   },
+   {
+    "value": "William Dean Howells (1837-1920)",
+    "lang": null,
+    "via": "llm:xhr_2.json: People facet",
+    "file": "P3847.json",
+    "uri": false
+   },
+   {
+    "value": "Ernest Hemingway (1899-1961)",
+    "lang": null,
+    "via": "llm:xhr_2.json: People facet",
+    "file": "P3847.json",
+    "uri": false
+   },
+   {
+    "value": "Theodore Roosevelt (1858-1919)",
+    "lang": null,
+    "via": "llm:xhr_2.json: People facet",
+    "file": "P3847.json",
+    "uri": false
+   },
+   {
+    "value": "Nathaniel Hawthorne (1804-1864)",
+    "lang": null,
+    "via": "llm:xhr_2.json: People facet",
+    "file": "P3847.json",
+    "uri": false
+   },
+   {
+    "value": "Edgar Allan Poe (1809-1849)",
+    "lang": null,
+    "via": "llm:xhr_2.json: People facet",
+    "file": "P3847.json",
+    "uri": false
+   },
+   {
+    "value": "Harriet Beecher Stowe (1811-1896)",
+    "lang": null,
+    "via": "llm:xhr_2.json: People facet",
+    "file": "P3847.json",
+    "uri": false
+   },
+   {
+    "value": "Abraham Lincoln (1809-1865)",
+    "lang": null,
+    "via": "llm:xhr_2.json: People facet",
+    "file": "P3847.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:Notable Authors list (Mark Twain)",
+    "file": "P3847.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "identifier": [],
+  "related_agent": [],
+  "work": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 3065,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "partials",
+     "n": 1,
+     "sample": "<div id=\"subjectPublishingHistory\"\n     data-async-load=\"false\"\n     data-key=\"&#34;/subjects/person:mark_twain_(1835-19"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "partials",
+     "value": "<div id=\"subjectPublishingHistory\"\n     data-async-load=\"false\"\n     data-key=\"&#34;/subjects/person:mark_twain_(1835-1910)&#34;\">\n    <div class=\"head\">\n        <h2 class=\"inline\">Publishing History<"
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 10114,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "partials",
+     "n": 1,
+     "sample": "<div id=\"subjectRelatedFacets\"\n     data-async-load=\"false\"\n     data-key=\"&#34;/subjects/person:mark_twain_(1835-1910)&"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "partials",
+     "value": "<div id=\"subjectRelatedFacets\"\n     data-async-load=\"false\"\n     data-key=\"&#34;/subjects/person:mark_twain_(1835-1910)&#34;\">\n    <div class=\"head\" id=\"subjectRelated\">\n        <h2>Related...</h2>\n  "
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 29188,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "partials",
+     "n": 1,
+     "sample": "        <div class=\"carousel-section\">\n            <div class=\"carousel-container carousel-container-decorated\">\n       "
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "partials",
+     "value": "        <div class=\"carousel-section\">\n            <div class=\"carousel-container carousel-container-decorated\">\n                <div class=\"carousel   carousel--progressively-enhanced\"\n              "
+    }
+   ],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Open Library subject page for the person-subject 'mark twain (1835-1910)' (1053 works about him); book cover carousel had no readable titles. Offers related subjects, places, people, times and a 'Notable Authors' list of works about him (these are works about him, not by him, except the 'Mark Twain - Adventures of Huckleberry Finn' entry).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

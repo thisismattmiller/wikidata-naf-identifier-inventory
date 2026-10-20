@@ -1,0 +1,13 @@
+{
+ "property": "P11249",
+ "label": "KBR person ID",
+ "files_read": ["P11249__14147734/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph tags of the KBR OPAC authority page (SYRACUSE-AUT). The title holds the heading with life years and a trailing record-type code ' - p' (person).",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "raw": "Twain, Mark 1835-1910 - p", "lang": null, "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "identifier": [{"value": "14147734", "raw": "https://opac.kbr.be/Library/doc/SYRACUSE-AUT/14147734/twain-mark-1835-1910-p", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "property": "P11496",
+ "label": "CiNii Research ID",
+ "files_read": ["pages/P11496__1140000791666601344.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "CiNii Research researcher/author page 'Twain, Mark': first page of 2006 related books (list capped at 1000 results) plus a details block with CRID, NII author ID and cross-links. The CRID shown (1981993809649634716) differs from the CRID in the requested URL (1140000791666601344) - presumably a redirect/merge. 'James : a novel' (Percival Everett) is listed with Twain as contributor but is not his work.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": "en", "via": "page heading"}],
+  "work": [
+   {"value": "ハックルベリー・フィンの冒険", "raw": "Twain, Mark; 市川, 亮平 小鳥遊書房 2025", "lang": "ja", "via": "Related Books list"},
+   {"value": "The illustrated Mark Twain and the Buffalo Express : 10 stories and over a century of sketches", "raw": "North Country Books 2024", "lang": "en", "via": "Related Books list"},
+   {"value": "Slowly I turned : Twain and Niagara Falls", "lang": "en", "via": "Related Books list (sub-entry)"},
+   {"value": "Mark Twain's tales of the macabre & mysterious", "raw": "Lyons Press 2024", "lang": "en", "via": "Related Books list"},
+   {"value": "A bloody massacre", "lang": "en", "via": "Related Books list (sub-entry)"},
+   {"value": "Pudd'nhead Wilson : manuscript and revised versions with \"Those extraordinary twins\"", "raw": "University of California Press 2024", "lang": "en", "via": "Related Books list"},
+   {"value": "The works of Mark Twain, volume 10", "lang": "en", "via": "Related Books list (series entry)"}
+  ],
+  "related_agent": [
+   {"value": "市川, 亮平 (co-contributor, presumably translator of ハックルベリー・フィンの冒険)", "via": "Related Books list"},
+   {"value": "Reigstad, Thomas J. (co-author/editor of The illustrated Mark Twain and the Buffalo Express)", "via": "Related Books list"},
+   {"value": "Skandera-Trombley, Laura E. (co-author/editor of The illustrated Mark Twain and the Buffalo Express)", "via": "Related Books list"},
+   {"value": "Everett, Percival (author of James : a novel, listed together with Twain)", "via": "Related Books list"},
+   {"value": "Rasmussen, R. Kent (co-contributor, presumably editor of Mark Twain's tales of the macabre & mysterious)", "via": "Related Books list"},
+   {"value": "Griffin, Benjamin (co-contributor, presumably editor of Pudd'nhead Wilson manuscript edition)", "via": "Related Books list"}
+  ],
+  "same_as": [
+   {"value": "https://ci.nii.ac.jp/author/DA00300263#entity", "via": "Details: Web Site"},
+   {"value": "https://ci.nii.ac.jp/author/DA03513635#entity", "via": "Details: Web Site"},
+   {"value": "https://ci.nii.ac.jp/author/DA04621156#entity", "via": "Details: Web Site"},
+   {"value": "https://viaf.org/viaf/NII%7CDA00300263", "via": "Details: Web Site"}
+  ],
+  "identifier": [
+   {"value": "1981993809649634716", "via": "Details: CRID"},
+   {"value": "DA00300263", "via": "Details: Author ID"}
+  ],
+  "source": [{"value": "NACSIS-CAT/ILL", "via": "Details: Data Source"}, {"value": "CiNii Books", "via": "Details: Data Source"}]
+ }
+}

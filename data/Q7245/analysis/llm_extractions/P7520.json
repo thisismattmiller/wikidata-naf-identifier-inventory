@@ -1,0 +1,31 @@
+{
+ "property": "P7520",
+ "label": "Filmový přehled person or company ID",
+ "files_read": [
+  "P7520__129546/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph block from the person page; og:image is the site logo, not a portrait.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "raw": "Mark Twain – Filmový přehled",
+    "lang": "en",
+    "via": "embedded_opengraph.json: og:title"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "129546",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url"
+   },
+   {
+    "value": "https://www.filmovyprehled.cz/cs/person/129546",
+    "lang": null,
+    "via": "embedded_opengraph.json: og:url"
+   }
+  ]
+ }
+}

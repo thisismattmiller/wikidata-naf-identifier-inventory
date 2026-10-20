@@ -1,0 +1,1359 @@
+{
+ "property": "P2435",
+ "property_label": "PORT person ID",
+ "files": [
+  {
+   "file": "P2435__403320/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://port.hu/adatlap/szemely/mark-twain/person-403320"
+  },
+  {
+   "file": "P2435__403320/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://port.hu/adatlap/szemely/mark-twain/person-403320"
+  },
+  {
+   "file": "P2435__403320/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://port.hu/adatlap/szemely/mark-twain/person-403320"
+  },
+  {
+   "file": "P2435__403320/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cmp.inmobi.com/geoip"
+  },
+  {
+   "file": "P2435__403320/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cmp.inmobi.com/GVL-v3/vendor-list-trimmed-v1.json"
+  },
+  {
+   "file": "P2435__403320/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cmp.inmobi.com/us-mspa/v1/purposes-national-en.json"
+  },
+  {
+   "file": "P2435__403320/xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cmp.inmobi.com/google-basic-consent/v1/purposes-en.json"
+  },
+  {
+   "file": "P2435__403320/xhr_5.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.cmp.inmobi.com/?log=%7B%22accountId%22%3A%224z9XXyvnuPTjK%22%2C%22domain%22%3A%22port.hu%22%2C%22publisher%22%3A%22PORT%22%2C%22cmpId%22%3A10%2C%22cmpVersion%22%3A%222.61%22%2C%22displayType%22%3A%22uspui%3Adonotsell%22%2C%22configurationHashCode%22%3A%22L8OpwvAGgVw9%2FQ5WbcFLGg%22%2C%22tagVersion%22%3A%22V3%22%2C%22gvlVersion%22%3A3%2C%22siteUuid%22%3A%225e3fd045-9d9a-4a3c-b6d9-23baf6152488%22%2C%22browserName%22%3A%22Chrome%22%2C%22deviceType%22%3A%22pc%22%2C%22cmpPlatform%22%3A%22Mac%20OS%22%2C%22pageFormat%22%3A%22HTTP%22%2C%22country%22%3A%22usa%22%2C%22region%22%3A%22dc%22%2C%22city%22%3A%22washington%22%2C%22configs%22%3A%7B%22gbcApplicable%22%3Atrue%2C%22themeUuid%22%3A%2274f1c6ae-bae8-480f-beec-f1e91f02cb9a%22%2C%22language%22%3A%22hu%22%2C%22copApplicable%22%3Afalse%2C%22advancedApplicable%22%3Atrue%7D%2C%22existingCMPStatus%22%3Anull%2C%22existingGBCStatus%22%3Anull%2C%22existingConfigs%22%3A%7B%7D%2C%22manualTrigger%22%3Afalse%2C%22clientTimestamp%22%3A1790976115780%2C%22operationType%22%3A%22init%22%2C%22sessionId%22%3A%22MSPA-1rdyn6fmidu16owxnlea%22%7D"
+  },
+  {
+   "file": "P2435__403320/xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://iap.cdn.indexvas.hu/deploy.json"
+  },
+  {
+   "file": "P2435__403320/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://port.hu/jump/person-403320"
+  },
+  {
+   "file": "P2435__403320/conneg_2.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://port.hu/jump/person-403320"
+  },
+  {
+   "file": "P2435__403320/conneg_3.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://port.hu/jump/person-403320"
+  },
+  {
+   "file": "P2435__403320/conneg_4.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://port.hu/jump/person-403320"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 5,
+  "text": 1,
+  "unknown": 4
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 10,
+  "http://ogp.me/ns#": 5,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "hu",
+    "via": "llm-page:page heading",
+    "file": "P2435.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "író, forgatókönyvíró, rendező",
+    "lang": null,
+    "via": "json:jobTitle",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "író",
+    "lang": "hu",
+    "via": "llm-page:subheading",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "forgatókönyvíró",
+    "lang": "hu",
+    "via": "llm-page:subheading",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "rendező",
+    "lang": "hu",
+    "via": "llm-page:subheading",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "újságíró",
+    "lang": "hu",
+    "via": "llm-page:bio",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "hajós",
+    "lang": "hu",
+    "via": "llm-page:bio",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "katona",
+    "lang": "hu",
+    "via": "llm-page:bio",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "aranyásó",
+    "lang": "hu",
+    "via": "llm-page:bio",
+    "file": "P2435.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "json:birthDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Amerikai Egyesült Államok, Florida, Missouri",
+    "lang": null,
+    "via": "json:birthPlace",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Amerikai Egyesült Államok, Florida, Missouri",
+    "lang": "hu",
+    "via": "llm-page:Született",
+    "file": "P2435.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "json:deathDate",
+    "file": "embedded_microdata.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Amerikai Egyesült Államok, Redding, Connecticut",
+    "lang": null,
+    "via": "json:deathPlace",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Amerikai Egyesült Államok, Redding, Connecticut",
+    "lang": "hu",
+    "via": "llm-page:Meghalt",
+    "file": "P2435.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens néven született 1835-ben Missouri államban. 13 éves korában vesztette el édesapját, eleinte újságíróként dolgozott, de volt hajós, katona és aranyásó is. Ismertebb munkái: Tom Sawyer kalandjai, Huckleberry Finn kalandjai, Egy jenki Arthur király udvarában, Koldus és királyfi. 1910 áprilisában szívrohamban hunyt el, 74 évesen.",
+    "lang": null,
+    "via": "json:description",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens n&eacute;ven sz&uuml;letett 1835-ben Missouri &aacute;llamban. 13 &eacute;ves kor&aacute;ban vesztette el &eacute;desapj&aacute;t, eleinte &uacute;js&aacute;g&iacute;r&oacute;k&eacute;nt dolgozott, de volt haj&oacute;s, katona &eacute;s arany&aacute;s&oacute; is. Ismertebb munk&aacute;i: Tom Sawyer kalandjai, Huckleberry Finn kalandjai, Egy jenki Arthur kir&aacute;ly udvar&aacute;ban, Koldus &eacute;s kir&aacute;lyfi. 1910 &aacute;prilis&aacute;ban sz&iacute;vrohamban hu",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Samuel Langhorne Clemens néven született 1835-ben Missouri államban. 13 éves korában vesztette el édesapját, eleinte újságíróként dolgozott, de volt hajós, katona és aranyásó is. Ismertebb munkái: Tom Sawyer kalandjai, Huckleberry Finn kalandjai, Egy jenki Arthur király udvarában, Koldus és királyfi. 1910 áprilisában szívrohamban hunyt el, 74 évesen.",
+    "lang": "hu",
+    "via": "llm-page:bio paragraph",
+    "file": "P2435.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "férfi",
+    "lang": null,
+    "via": "json:gender",
+    "file": "embedded_microdata.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "hu",
+    "via": "llm-page:bio 'Samuel Langhorne Clemens néven született'",
+    "file": "P2435.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Tom Sawyer kalandjai",
+    "lang": "hu",
+    "via": "llm-page:bio 'Ismertebb munkái'",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn kalandjai",
+    "lang": "hu",
+    "via": "llm-page:bio 'Ismertebb munkái'",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Egy jenki Arthur király udvarában",
+    "lang": "hu",
+    "via": "llm-page:bio 'Ismertebb munkái'",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Koldus és királyfi",
+    "lang": "hu",
+    "via": "llm-page:bio 'Ismertebb munkái'",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer és Huckleberry Finn",
+    "lang": "hu",
+    "via": "llm-page:Filmography (író = writer, adaptations)",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Tom és Huck",
+    "lang": "hu",
+    "via": "llm-page:Filmography (író = writer, adaptations)",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finn kalandjai",
+    "lang": "hu",
+    "via": "llm-page:Filmography (író = writer, adaptations)",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": "hu",
+    "via": "llm-page:Filmography (író = writer, adaptations)",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Barbie, a Hercegnő és a Koldus",
+    "lang": "hu",
+    "via": "llm-page:Filmography (író = writer, adaptations)",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Szörfös és királyfi",
+    "lang": "hu",
+    "via": "llm-page:Filmography (író = writer, adaptations)",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Időgéppel a lovagkorba",
+    "lang": "hu",
+    "via": "llm-page:Filmography (író = writer, adaptations)",
+    "file": "P2435.json",
+    "uri": false
+   },
+   {
+    "value": "Charlie szellem története",
+    "lang": "hu",
+    "via": "llm-page:Filmography (író = writer, adaptations)",
+    "file": "P2435.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "403320",
+    "lang": null,
+    "via": "llm-page:page URL person-403320",
+    "file": "P2435.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "hu"
+  ],
+  "occupation": [
+   "hu"
+  ],
+  "birth_date": [],
+  "birth_place": [
+   "hu"
+  ],
+  "death_date": [],
+  "death_place": [
+   "hu"
+  ],
+  "description": [
+   "hu"
+  ],
+  "gender": [],
+  "name_variant": [
+   "hu"
+  ],
+  "work": [
+   "hu"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 823,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "[].id",
+     "n": 1,
+     "sample": "http://port.hu/adatlap/szemely/mark-twain/person-403320"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "Person"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].jobTitle",
+     "n": 1,
+     "sample": "író, forgatókönyvíró, rendező "
+    },
+    {
+     "path": "[].birthDate",
+     "n": 1,
+     "sample": "1835-11-30"
+    },
+    {
+     "path": "[].birthPlace",
+     "n": 1,
+     "sample": "Amerikai Egyesült Államok, Florida, Missouri"
+    },
+    {
+     "path": "[].deathDate",
+     "n": 1,
+     "sample": "1910-04-21"
+    },
+    {
+     "path": "[].deathPlace",
+     "n": 1,
+     "sample": "Amerikai Egyesült Államok, Redding, Connecticut"
+    },
+    {
+     "path": "[].description",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens néven született 1835-ben Missouri államban. 13 éves korában vesztette el édesapját, eleinte újs"
+    },
+    {
+     "path": "[].gender",
+     "n": 1,
+     "sample": "férfi"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].id",
+     "value": "http://port.hu/adatlap/szemely/mark-twain/person-403320"
+    },
+    {
+     "path": "[].name",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].birthDate",
+     "value": "1835-11-30"
+    },
+    {
+     "path": "[].deathDate",
+     "value": "1910-04-21"
+    },
+    {
+     "path": "[].description",
+     "value": "Samuel Langhorne Clemens néven született 1835-ben Missouri államban. 13 éves korában vesztette el édesapját, eleinte újságíróként dolgozott, de volt hajós, katona és aranyásó is. Ismertebb munkái: Tom"
+    }
+   ],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 757,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "PORT.hu"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "http://port.hu/adatlap/szemely/mark-twain/person-403320"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Samuel Langhorne Clemens n&eacute;ven sz&uuml;letett 1835-ben Missouri &aacute;llamban. 13 &eacute;ves kor&aacute;ban ve"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "value": "http://port.hu/adatlap/szemely/mark-twain/person-403320"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Samuel Langhorne Clemens n&eacute;ven sz&uuml;letett 1835-ben Missouri &aacute;llamban. 13 &eacute;ves kor&aacute;ban vesztette el &eacute;desapj&aacute;t, eleinte &uacute;js&aacute;g&iacute;r&oacute;"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 51,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "country",
+     "n": 1,
+     "sample": "usa"
+    },
+    {
+     "path": "region",
+     "n": 1,
+     "sample": "dc"
+    },
+    {
+     "path": "city",
+     "n": 1,
+     "sample": "washington"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 734879,
+   "path_count": 17284,
+   "paths": [
+    {
+     "path": "vendors.350.urls[].langId",
+     "n": 31,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.350.urls[].privacy",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en"
+    },
+    {
+     "path": "vendors.350.urls[].legIntClaim",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en#sec-11"
+    },
+    {
+     "path": "vendors.351.urls[].langId",
+     "n": 31,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.351.urls[].privacy",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en"
+    },
+    {
+     "path": "vendors.351.urls[].legIntClaim",
+     "n": 31,
+     "sample": "https://samba.tv/users/privacy-policy?lang=en#sec-11"
+    },
+    {
+     "path": "vendors.53.urls[].langId",
+     "n": 27,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.53.urls[].privacy",
+     "n": 27,
+     "sample": "https://www.sirdata.com/en/Privacy"
+    },
+    {
+     "path": "vendors.53.urls[].legIntClaim",
+     "n": 27,
+     "sample": "https://www.sirdata.com/en/Privacy#legitimateinterest"
+    },
+    {
+     "path": "vendors.1154.urls[].langId",
+     "n": 24,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.1154.urls[].privacy",
+     "n": 24,
+     "sample": "https://alphonso.tv/privacy/smart-tvs/smart-tv-privacy-policy-eu/"
+    },
+    {
+     "path": "vendors.1154.urls[].legIntClaim",
+     "n": 24,
+     "sample": "https://alphonso.tv/privacy/smart-tvs/smart-tv-privacy-policy-eu/"
+    },
+    {
+     "path": "vendors.755.urls[].langId",
+     "n": 23,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.755.urls[].privacy",
+     "n": 23,
+     "sample": "https://business.safety.google/privacy/"
+    },
+    {
+     "path": "vendors.755.urls[].legIntClaim",
+     "n": 23,
+     "sample": "https://policies.google.com/privacy#europeanrequirements"
+    },
+    {
+     "path": "vendors.726.urls[].langId",
+     "n": 20,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.726.urls[].privacy",
+     "n": 20,
+     "sample": "https://account.yougov.com/gb-en/account/privacy-policy"
+    },
+    {
+     "path": "vendors.726.urls[].legIntClaim",
+     "n": 20,
+     "sample": "https://account.yougov.com/gb-en/account/privacy-policy"
+    },
+    {
+     "path": "vendors.1336.urls[].langId",
+     "n": 13,
+     "sample": "cs"
+    },
+    {
+     "path": "vendors.1336.urls[].privacy",
+     "n": 13,
+     "sample": "https://www.glami.cz/info/privacy/"
+    },
+    {
+     "path": "vendors.1336.urls[].legIntClaim",
+     "n": 13,
+     "sample": "https://www.glami.cz/info/privacy/"
+    },
+    {
+     "path": "vendors.790.urls[].langId",
+     "n": 12,
+     "sample": "en"
+    },
+    {
+     "path": "vendors.790.urls[].privacy",
+     "n": 12,
+     "sample": "https://policy.samsungrs.com/consent/eu/nsc/privacy_policy_en.html"
+    },
+    {
+     "path": "vendors.790.urls[].legIntClaim",
+     "n": 12,
+     "sample": "https://policy.samsungrs.com/consent/eu/nsc/privacy_policy_en.html#gdpr-article"
+    },
+    {
+     "path": "vendors.24.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.25.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.34.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.42.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.44.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.66.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.76.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.85.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.87.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.94.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.95.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.154.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.164.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.209.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.224.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.239.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.252.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.253.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.272.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.284.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.325.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.333.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.374.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.388.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.397.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.423.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.461.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.469.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.488.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.546.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.554.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.565.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.581.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.621.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.623.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.648.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.655.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.682.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.715.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.736.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.750.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.750.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.768.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.783.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.790.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.811.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.831.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.855.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.858.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.874.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.880.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.880.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.884.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.910.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.941.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.952.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.952.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.955.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.955.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.962.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1001.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1029.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1047.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1063.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1068.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1080.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1101.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1101.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1113.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1151.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1153.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1153.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1154.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1226.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1241.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1251.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1279.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1282.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1292.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1294.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1294.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1301.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1312.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1326.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1336.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1370.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1377.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1378.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1379.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1379.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1382.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1382.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1413.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1447.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1454.purposes[]",
+     "n": 11,
+     "sample": "1"
+    },
+    {
+     "path": "vendors.1465.dataDeclaration[]",
+     "n": 11,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 10662,
+   "path_count": 16,
+   "paths": [
+    {
+     "path": "purposes[].purposes[].id",
+     "n": 16,
+     "sample": "1"
+    },
+    {
+     "path": "purposes[].purposes[].order",
+     "n": 16,
+     "sample": "1"
+    },
+    {
+     "path": "purposes[].purposes[].title",
+     "n": 16,
+     "sample": "SensitiveDataProcessing"
+    },
+    {
+     "path": "purposes[].purposes[].description",
+     "n": 16,
+     "sample": "I want to opt-out of processing of my Sensitive Personal Data Revealing Racial or Ethnic Origin."
+    },
+    {
+     "path": "purposes[].purposes[].portal.title",
+     "n": 16,
+     "sample": "Racial or Ethnic Origin"
+    },
+    {
+     "path": "purposes[].purposes[].portal.description",
+     "n": 16,
+     "sample": "I want to opt-out of processing of my Sensitive Personal Data Revealing Racial or Ethnic Origin."
+    },
+    {
+     "path": "purposes[].id",
+     "n": 6,
+     "sample": "1"
+    },
+    {
+     "path": "purposes[].category",
+     "n": 6,
+     "sample": "Share"
+    },
+    {
+     "path": "purposes[].defaultValue",
+     "n": 6,
+     "sample": "False"
+    },
+    {
+     "path": "purposes[].portal.title",
+     "n": 6,
+     "sample": "Sharing Opt-Out"
+    },
+    {
+     "path": "purposes[].portal.description",
+     "n": 6,
+     "sample": "I want to opt-out of the Sharing of my Personal Data."
+    },
+    {
+     "path": "purposes[].consentBanner.title",
+     "n": 6,
+     "sample": "Personal Data Processing Opt Outs"
+    },
+    {
+     "path": "purposes[].consentBanner.description",
+     "n": 6,
+     "sample": "I want to opt-out of the Sharing of my personal data."
+    },
+    {
+     "path": "version",
+     "n": 1,
+     "sample": "v1"
+    },
+    {
+     "path": "jurisdiction",
+     "n": 1,
+     "sample": "national"
+    },
+    {
+     "path": "language",
+     "n": 1,
+     "sample": "en"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_4.json",
+   "format": "json",
+   "size": 2741,
+   "path_count": 10,
+   "paths": [
+    {
+     "path": "purposes[].id",
+     "n": 7,
+     "sample": "1"
+    },
+    {
+     "path": "purposes[].portal.title",
+     "n": 7,
+     "sample": "Consent for storage related to advertising like cookies on web or device identifiers in apps by Google."
+    },
+    {
+     "path": "purposes[].banner.title",
+     "n": 7,
+     "sample": "I want to allow Google to enable storage related to advertising like cookies on web or device identifiers in apps."
+    },
+    {
+     "path": "portal.defaultValues[]",
+     "n": 2,
+     "sample": "GRANTED"
+    },
+    {
+     "path": "version",
+     "n": 1,
+     "sample": "v1"
+    },
+    {
+     "path": "language",
+     "n": 1,
+     "sample": "en"
+    },
+    {
+     "path": "banner.title",
+     "n": 1,
+     "sample": "We value your privacy"
+    },
+    {
+     "path": "banner.sectionTitle",
+     "n": 1,
+     "sample": "Google consents"
+    },
+    {
+     "path": "banner.description",
+     "n": 1,
+     "sample": "Please note that this website/app uses one or more Google services and may gather and store information including but no"
+    },
+    {
+     "path": "banner.confirm",
+     "n": 1,
+     "sample": "Confirm"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_6.json",
+   "format": "json",
+   "size": 55,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "timestamp",
+     "n": 1,
+     "sample": "1999999814"
+    },
+    {
+     "path": "version",
+     "n": 1,
+     "sample": "4.8.39.56"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "PORT.hu (Hungarian) person page: occupations, birth/death data, short Hungarian bio, filmography as writer (39 films, 11 theatre items; first 11 shown) and two user comments. Large consent banner precedes the record.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

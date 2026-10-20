@@ -1,0 +1,49 @@
+{
+ "batch": 11,
+ "items": [
+  {
+   "kind": "element",
+   "property": "P1248",
+   "site": "KulturNav-ID",
+   "element": "language",
+   "status": "mismatch",
+   "site_values": "sv",
+   "wikidata_values": "English ‖ German",
+   "site_via": "llm:alternate_3.json: $.properties['dataset.primaryLanguage'][0].displayValue (record language, not person's)",
+   "index": 1775
+  },
+  {
+   "kind": "element",
+   "property": "P8179",
+   "site": "Canadiana Name Authority ID",
+   "element": "related_agent",
+   "status": "no_overlap",
+   "site_values": "Clemens, Samuel Langhorne, 1835-1910",
+   "wikidata_values": "Olivia Langdon Clemens ‖ Susy Clemens ‖ Clara Clemens ‖ Jean Clemens ‖ John Marshall Clemens ‖ Jane Lampton Clemens ‖ Orion Clemens ‖ Pamela Ann Clemens",
+   "site_via": "500",
+   "index": 1776
+  },
+  {
+   "kind": "element",
+   "property": "P10021",
+   "site": "UAE University Libraries ID",
+   "element": "related_agent",
+   "status": "no_overlap",
+   "site_values": "Clemens, Samuel Langhorne, 1835-1910 ‖ Snodgrass, Quintus Curtius, 1835-1910 ‖ Conte, Louis de, 1835-1910",
+   "wikidata_values": "Olivia Langdon Clemens ‖ Susy Clemens ‖ Clara Clemens ‖ Jean Clemens ‖ John Marshall Clemens ‖ Jane Lampton Clemens ‖ Orion Clemens ‖ Pamela Ann Clemens",
+   "site_via": "500",
+   "index": 1777
+  },
+  {
+   "kind": "crosslink",
+   "property": "P269",
+   "site": "IdRef ID",
+   "link": "http://www.idref.fr/027171876/id",
+   "via": "llm-page:URI de l'entité",
+   "target_system": "IdRef ID",
+   "target_value": "027171876/id",
+   "wikidata_verdict": "not an id of that system",
+   "index": 1778
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "property": "P8313",
+ "label": "Lex ID",
+ "files_read": ["P8313__Mark_Twain/embedded_microdata.json"],
+ "about_entity": true,
+ "notes": "Lex.dk (Den Store Danske) article microdata: breadcrumb taxonomy, article authors (Jan Nordby Gretlund / Den Store Danske, not related agents) and an image object. No article text is included.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Mark Twain", "lang": "da", "via": "embedded_microdata.json: $[1].name 'Mark Twain. Udateret fotografi.'"}
+  ],
+  "field_of_activity": [
+   {"value": "Amerikansk litteratur", "lang": "da", "via": "embedded_microdata.json: $[0].breadcrumb.itemListElement[3].name"},
+   {"value": "Amerikanske forfattere 1880-1914", "lang": "da", "via": "embedded_microdata.json: $[0].breadcrumb.itemListElement[4].name"}
+  ],
+  "image": [
+   {"value": "https://media.lex.dk/media/13017/standard_compressed_Mark_Twain.jpg", "raw": "Mark Twain. Udateret fotografi.", "via": "embedded_microdata.json: $[1].contentUrl"}
+  ],
+  "license": [
+   {"value": "https://lex.dk/.licenses/restricted", "via": "embedded_microdata.json: $[1].license (image)"}
+  ]
+ }
+}

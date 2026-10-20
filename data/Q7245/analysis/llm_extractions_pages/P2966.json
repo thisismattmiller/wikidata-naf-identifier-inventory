@@ -1,0 +1,15 @@
+{
+ "property": "P2966",
+ "label": "National Library of Wales Authority ID",
+ "files_read": ["pages/P2966__clemens-samuel-langhorne-1835-1910.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Minimal AtoM authority record at NLW Archives: type Person, authorized form of name, source lcnaf, and one linked archival description (General correspondence). Nothing else.",
+ "elements": {
+  "name_preferred": [{"value": "Clemens, Samuel Langhorne, 1835-1910.", "lang": "en", "via": "Authorized form of name"}],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "dates in authorized form of name"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "dates in authorized form of name"}],
+  "work": [{"value": "General correspondence", "lang": "en", "via": "Subject of: archival description linked to this authority"}],
+  "source": [{"value": "lcnaf", "via": "Control area: Sources"}]
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "property": "P9141",
+ "property_label": "Portal da Literatura ID",
+ "files": [
+  {
+   "file": "P9141__757/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.portaldaliteratura.com/autores.php?autor=757"
+  },
+  {
+   "file": "P9141__757/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.portaldaliteratura.com/autores.php?autor=757"
+  },
+  {
+   "file": "P9141__757/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.portaldaliteratura.com/lib/social/ajax.php"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 6,
+  "LLM extraction": 2,
+  "http://ogp.me/ns/fb#": 1
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Florida, Missouri, em 1835. Quando tinha apenas quatro anos de idade a sua família mudou-se para Hannibal, uma pequena cidade à beira do Mississippi, onde ele viveu até os 18 anos. Pouco depois da morte do pai (em 1847) abandonou os estudos e tornou-se aprendiz de tipógrafo, escrevendo ao mesmo",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Florida, Missouri, em 1835. Quando tinha apenas quatro anos de idade a sua família mudou-se para Hannibal, uma pequena cidade à beira do Mississippi, onde ele viveu até os 18 anos. Pouco depois da morte do pai (em 1847) abandonou os estudos e tornou-se aprendiz de tipógrafo, escrevendo ao mesmo",
+    "lang": "pt",
+    "via": "llm:embedded_opengraph.json: og:description (truncated at source)",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Florida, Missouri, em 1835. Quando tinha apenas quatro anos de idade a sua família mudou-se para Hannibal, uma pequena cidade à beira do Mississippi, onde ele viveu até os 18 anos. Pouco depois da morte do pai (em 1847) abandonou os estudos e tornou-se aprendiz de tipógrafo, escrevendo ao mesmo tempo alguns artigos para um jornal de um dos seus irmãos...",
+    "lang": "pt",
+    "via": "llm-page:'Biografia' section",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://www.portaldaliteratura.com/assets/files_autores/757.webp",
+    "lang": null,
+    "via": "og:image",
+    "file": "embedded_rdfa.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "pt",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "pt",
+    "via": "llm:embedded_opengraph.json: og:description ('cujo verdadeiro nome era Samuel Langhorne Clemens')",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "pt",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": "pt",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:dates under heading; bio",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri",
+    "lang": "pt",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal",
+    "lang": "pt",
+    "via": "llm:embedded_opengraph.json: og:description ('uma pequena cidade à beira do Mississippi, onde ele viveu até os 18 anos')",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "Hartford",
+    "lang": "pt",
+    "via": "llm-page:bio",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "aprendiz de tipógrafo",
+    "lang": "pt",
+    "via": "llm:embedded_opengraph.json: og:description",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "impressor",
+    "lang": "pt",
+    "via": "llm-page:bio",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "condutor de barcos no Mississippi",
+    "lang": "pt",
+    "via": "llm-page:bio",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "jornalista",
+    "lang": "pt",
+    "via": "llm-page:bio",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "orador",
+    "lang": "pt",
+    "via": "llm-page:bio",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "humorista",
+    "lang": "pt",
+    "via": "llm-page:bio",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "757",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url (https://www.portaldaliteratura.com/autores.php?autor=757)",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:dates under heading; bio",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Clássicos da Literatura em BD - Livro 5: As Aventuras de Tom Sawyer",
+    "lang": "pt",
+    "via": "llm-page:'Livros escritos por Mark Twain'",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "As Bênçãos da Civilização",
+    "lang": "pt",
+    "via": "llm-page:'Livros escritos por Mark Twain'",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "O Solilóquio do Rei Leopoldo",
+    "lang": "pt",
+    "via": "llm-page:'Livros escritos por Mark Twain'",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "Rikki-Tikki-Tavi",
+    "lang": "pt",
+    "via": "llm-page:'Livros escritos por Mark Twain' (as listed by the site)",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "As Aventuras de Tom Sawyer",
+    "lang": "pt",
+    "via": "llm-page:'Livros escritos por Mark Twain'",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "As Aventuras de Huckleberry Finn",
+    "lang": "pt",
+    "via": "llm-page:'Livros escritos por Mark Twain'",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "Um Candidato Idóneo",
+    "lang": "pt",
+    "via": "llm-page:'Livros escritos por Mark Twain'",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "Cartas da Terra",
+    "lang": "pt",
+    "via": "llm-page:'Livros escritos por Mark Twain'; bio",
+    "file": "P9141.json",
+    "uri": false
+   },
+   {
+    "value": "Um Yankee na Corte do Rei Artur",
+    "lang": "pt",
+    "via": "llm-page:bio",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Olívia Langdon (wife, m. 1870)",
+    "lang": null,
+    "via": "llm-page:bio ('Em 1870 casou-se com Olívia Langdon')",
+    "file": "P9141.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [
+   "pt"
+  ],
+  "image": [],
+  "name_preferred": [
+   "pt"
+  ],
+  "name_variant": [
+   "pt"
+  ],
+  "pseudonym": [
+   "pt"
+  ],
+  "birth_date": [
+   "pt"
+  ],
+  "birth_place": [
+   "pt"
+  ],
+  "activity_place": [
+   "pt"
+  ],
+  "occupation": [
+   "pt"
+  ],
+  "identifier": [],
+  "death_date": [],
+  "work": [
+   "pt"
+  ],
+  "related_agent": []
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 724,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Portal da Literatura"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain - Portal da Literatura"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Florida, Missouri, em 1835. Quando tinha apenas"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.portaldaliteratura.com/autores.php?autor=757"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.portaldaliteratura.com/assets/files_autores/757.webp"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain - Portal da Literatura"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Mark Twain, cujo verdadeiro nome era Samuel Langhorne Clemens, nasceu na Florida, Missouri, em 1835. Quando tinha apenas quatro anos de idade a sua família mudou-se para Hannibal, uma pequena cidade à"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 17,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "success",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Portuguese literature-portal author page for Mark Twain: dates 1835-1910, a short Portuguese biography and a list of 8 books (Portuguese editions with years). Rest of the page is news, login box and site navigation.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

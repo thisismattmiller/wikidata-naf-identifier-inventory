@@ -1,0 +1,68 @@
+{
+ "property": "P10298",
+ "label": "Sceneweb artist ID",
+ "files_read": [
+  "pages/P10298__76862.txt"
+ ],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Sceneweb (Norwegian performing-arts database) person record: object id, nationality, gender, record dates, counts of productions (2) and works (1), and one attached programme PDF for Det Norske Teatret's Tom Sawyer (1948).",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "nb",
+    "via": "page heading"
+   }
+  ],
+  "nationality": [
+   {
+    "value": "Amerikansk",
+    "lang": "nb",
+    "via": "Nasjonalitet"
+   }
+  ],
+  "gender": [
+   {
+    "value": "Mann",
+    "lang": "nb",
+    "via": "Kjønn"
+   }
+  ],
+  "work": [
+   {
+    "value": "Tom Sawyer",
+    "raw": "Det Norske Teatrets produksjon Tom Sawyer (1948), programme PDF",
+    "lang": "nb",
+    "via": "Tekster list"
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Det Norske Teatret (staged Tom Sawyer, 1948)",
+    "via": "Tekster list"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "76862",
+    "raw": "(Objekt ID 76862)",
+    "via": "Informasjon"
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2017-09-07",
+    "raw": "07.09.2017",
+    "via": "Opprettet"
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2017-09-07",
+    "raw": "07.09.2017",
+    "via": "Sist endret"
+   }
+  ]
+ }
+}

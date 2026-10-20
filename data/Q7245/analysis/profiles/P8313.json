@@ -1,0 +1,704 @@
+{
+ "property": "P8313",
+ "property_label": "Lex ID",
+ "files": [
+  {
+   "file": "P8313__Mark_Twain/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://lex.dk/Mark_Twain"
+  },
+  {
+   "file": "P8313__Mark_Twain/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://lex.dk/Mark_Twain"
+  },
+  {
+   "file": "P8313__Mark_Twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://lex.dk/Mark_Twain"
+  },
+  {
+   "file": "P8313__Mark_Twain/xhr_1.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://lex.dk/.announcements?v=2"
+  },
+  {
+   "file": "P8313__Mark_Twain/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://policy.app.cookieinformation.com/cookie-data/lex.dk/cabl.json"
+  },
+  {
+   "file": "P8313__Mark_Twain/conneg_1.bin",
+   "format": "unknown",
+   "kind": "conneg",
+   "via": "http",
+   "url": "https://wikidata-externalid-url.toolforge.org/?p=8313&url_prefix=https://lex.dk/&id=Mark_Twain"
+  },
+  {
+   "file": "P8313__Mark_Twain/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://lex.dk/.announcements?v=2"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "json-ld": 1,
+  "rdfa": 1,
+  "unknown": 2,
+  "json": 2
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "http://www.w3.org/1999/xhtml/vocab#": 4,
+  "LLM extraction": 2,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain. Udateret fotografi.",
+    "lang": null,
+    "via": "json:name",
+    "file": "embedded_microdata.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "da",
+    "via": "llm:embedded_microdata.json: $[1].name 'Mark Twain. Udateret fotografi.'",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "https://lex.dk/.licenses/restricted",
+    "lang": null,
+    "via": "json:license",
+    "file": "embedded_microdata.json",
+    "uri": true
+   },
+   {
+    "value": "begrænset genbrug",
+    "lang": "da",
+    "via": "llm-page:VILKÅR FOR GENBRUG",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Licens: Begrænset anvendelse (image)",
+    "lang": "da",
+    "via": "llm-page:image credit",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://schema.org/WebPage",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Amerikansk litteratur",
+    "lang": "da",
+    "via": "llm:embedded_microdata.json: $[0].breadcrumb.itemListElement[3].name",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Amerikanske forfattere 1880-1914",
+    "lang": "da",
+    "via": "llm:embedded_microdata.json: $[0].breadcrumb.itemListElement[4].name",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://media.lex.dk/media/13017/standard_compressed_Mark_Twain.jpg",
+    "lang": null,
+    "via": "llm:embedded_microdata.json: $[1].contentUrl",
+    "file": "P8313.json",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "da",
+    "via": "llm-page:Faktaboks",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "da",
+    "via": "llm-page:article: 'begyndte han i 1863 at skrive under mærket \"Mark Twain\" (et lodsudtryk)'",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "da",
+    "via": "llm-page:Faktaboks FØDT",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "da",
+    "via": "llm-page:Faktaboks DØD",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Missouri",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi River",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Nevada",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Virginia City",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Australien",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Indien",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Sydafrika",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Europa",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "amerikansk",
+    "lang": "da",
+    "via": "llm-page:article first sentence",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "forfatter",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "bogtrykker (lære)",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "lods",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "sølvgraver",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain var en amerikansk forfatter. Mark Twain er amerikansk litteraturs største humorist og efter manges mening væsentligste forfatter. Han voksede op i Missouri i en hverdag præget af raceadskillelse og slaveri. På grund af faderens død kom han som 12-årig i lære som bogtrykker, senere arbejdede han som lods på Mississippi River. Da Den Amerikanske Borgerkrig brød ud, drog han til Nevada, skildret i Roughing It (1872, da. uddrag i Udvalgte Skitser, 1874).",
+    "lang": "da",
+    "via": "llm-page:article opening",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Roughing It",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Udvalgte Skitser",
+    "lang": "da",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Jim Smiley and His Jumping Frog",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Naive Reisende",
+    "lang": "da",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "A Tramp Abroad",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "The Gilded Age",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Forgyldt",
+    "lang": "da",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Lille Toms Æventyr",
+    "lang": "da",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Fyrsten og Tiggeren",
+    "lang": "da",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Fra Mississippifloden",
+    "lang": "da",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finns Hændelser",
+    "lang": "da",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "The Tragedy of Pudd'nhead Wilson",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "En Dråbe Negerblod",
+    "lang": "da",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "En Yankee hos Ridderne om det runde Bord",
+    "lang": "da",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Following the Equator",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "More Tramps Abroad",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "The Man that Corrupted Hadleyburg",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "What Is Man?",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "The Mysterious Stranger",
+    "lang": "en",
+    "via": "llm-page:article text",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "C.D. Warner (1829-1900) (co-author, The Gilded Age)",
+    "lang": "da",
+    "via": "llm-page:article",
+    "file": "P8313.json",
+    "uri": false
+   },
+   {
+    "value": "Jan Nordby Gretlund (article author)",
+    "lang": "da",
+    "via": "llm-page:SKREVET AF",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Den Store Danske",
+    "lang": "da",
+    "via": "llm-page:ARTIKLEN INDEHOLDER TEKST FRA",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2023-05-22",
+    "lang": "da",
+    "via": "llm-page:SENEST ÆNDRET",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "Mark_Twain",
+    "lang": null,
+    "via": "llm-page:page URL https://lex.dk/Mark_Twain",
+    "file": "P8313.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "da"
+  ],
+  "license": [
+   "da"
+  ],
+  "type": [],
+  "field_of_activity": [
+   "da"
+  ],
+  "image": [],
+  "name_variant": [
+   "da"
+  ],
+  "pseudonym": [
+   "da"
+  ],
+  "birth_date": [
+   "da"
+  ],
+  "death_date": [
+   "da"
+  ],
+  "activity_place": [
+   "da"
+  ],
+  "nationality": [
+   "da"
+  ],
+  "occupation": [
+   "da"
+  ],
+  "description": [
+   "da"
+  ],
+  "work": [
+   "da",
+   "en"
+  ],
+  "related_agent": [
+   "da"
+  ],
+  "source": [
+   "da"
+  ],
+  "record_modified": [
+   "da"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 1271,
+   "path_count": 14,
+   "paths": [
+    {
+     "path": "[].breadcrumb.itemListElement[].@type",
+     "n": 5,
+     "sample": "ListItem"
+    },
+    {
+     "path": "[].breadcrumb.itemListElement[].item",
+     "n": 5,
+     "sample": "https://lex.dk/"
+    },
+    {
+     "path": "[].breadcrumb.itemListElement[].name",
+     "n": 5,
+     "sample": "Lex"
+    },
+    {
+     "path": "[].breadcrumb.itemListElement[].position",
+     "n": 5,
+     "sample": "1"
+    },
+    {
+     "path": "[].@type",
+     "n": 2,
+     "sample": "Article"
+    },
+    {
+     "path": "[].@context",
+     "n": 2,
+     "sample": "http://schema.org"
+    },
+    {
+     "path": "[].author[].@type",
+     "n": 2,
+     "sample": "Person"
+    },
+    {
+     "path": "[].author[].name",
+     "n": 2,
+     "sample": "Jan Nordby Gretlund"
+    },
+    {
+     "path": "[].breadcrumb.@type",
+     "n": 1,
+     "sample": "BreadcrumbList"
+    },
+    {
+     "path": "[].contentUrl",
+     "n": 1,
+     "sample": "https://media.lex.dk/media/13017/standard_compressed_Mark_Twain.jpg"
+    },
+    {
+     "path": "[].caption",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].name",
+     "n": 1,
+     "sample": "Mark Twain. Udateret fotografi."
+    },
+    {
+     "path": "[].author",
+     "n": 1,
+     "sample": "Gyldendal"
+    },
+    {
+     "path": "[].license",
+     "n": 1,
+     "sample": "https://lex.dk/.licenses/restricted"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].contentUrl",
+     "value": "https://media.lex.dk/media/13017/standard_compressed_Mark_Twain.jpg"
+    },
+    {
+     "path": "[].name",
+     "value": "Mark Twain. Udateret fotografi."
+    }
+   ],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 601,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "cookies[].name",
+     "n": 7,
+     "sample": "__session_id"
+    },
+    {
+     "path": "cookies[].domain",
+     "n": 7,
+     "sample": ".lex.dk"
+    },
+    {
+     "path": "cookies[].category",
+     "n": 7,
+     "sample": "cookie_cat_necessary"
+    },
+    {
+     "path": "metadata.last_updated",
+     "n": 1,
+     "sample": "2026-09-08T11:09:05.678Z"
+    },
+    {
+     "path": "metadata.autoblocking_enabled",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 20,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Lex.dk (Danish national encyclopedia) article by Jan Nordby Gretlund with a fact box (birth name, dates), an image credit, a full Danish biography with English and Danish work titles, and revision info. Cookie banner and 'recent changes' sidebar are chrome.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

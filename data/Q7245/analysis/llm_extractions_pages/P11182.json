@@ -1,0 +1,63 @@
+{
+ "property": "P11182",
+ "label": "UOM ID",
+ "files_read": ["pages/P11182__78439.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Koha OPAC MARC view of University of Macedonia (Thessaloniki) Library authority 78439, a copy of the LC NAF record n 79021164 for Twain, Mark, 1835-1910, used in 7 records. Fully visible; includes 400 variants, 500 links to Clemens/Snodgrass/Conte and 670 source notes.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark, 1835-1910", "lang": "en", "via": "100 HEADING--PERSONAL NAME"}],
+  "name_variant": [
+   {"value": "Tvėn, Mark, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Tuėĭn, Mark, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Tuwayn, Mārk, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Twayn, Mārk, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Tʻu-wen, Ma-kʻo, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Tven, M. (Mark), 1835-1910", "lang": null, "via": "400"},
+   {"value": "Touen, Makū, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Twain, Marek, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Make Tuwen, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Tuwen, Make, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Make Teviin, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "500 see also; 663"}
+  ],
+  "pseudonym": [
+   {"value": "Alden, Jean François, 1835-1910", "lang": null, "via": "400"},
+   {"value": "Snodgrass, Quintus Curtius, 1835-1910", "lang": null, "via": "500 see also; 663"},
+   {"value": "Conte, Louis de, 1835-1910", "lang": null, "via": "500 see also"},
+   {"value": "Louis de Conte, 1835-1910", "lang": null, "via": "663 heading referred to"},
+   {"value": "Sieur Louis de Conte", "lang": "en", "via": "670 Personal recollections of Joan of Arc"}
+  ],
+  "birth_date": [{"value": "1835", "lang": null, "via": "100 dates"}],
+  "death_date": [{"value": "1910", "lang": null, "via": "100 dates"}],
+  "description": [{"value": "Clemens, Samuel Langhorne, 1835-1910; better known under pseud. Mark Twain; also used name Quintus Curtius Snodgrass. For works of this author written under other names, search also under Clemens, Samuel Langhorne; Snodgrass, Quintus Curtius; Louis de Conte.", "lang": "en", "via": "670 DAB 1930 and 663 note"}],
+  "work": [
+   {"value": "Print͡s i nishchiĭ", "raw": "Geviksman, V. A. Print͡s i nishchiĭ, 1984 (t.p.: M. Tvena)", "lang": null, "via": "670"},
+   {"value": "Makū Touen tanpenshū", "raw": "His Makū Touen tanpenshū, 1961", "lang": null, "via": "670"},
+   {"value": "Personal recollections of Joan of Arc", "raw": "His Personal recollections of Joan of Arc, 1923; Mark Twain's personal recollections of Joan of Arc, 1997", "lang": "en", "via": "670"},
+   {"value": "Przygody Huck'a", "raw": "Przygody Huck'a, 1912 (t.p.: Marek Twain)", "lang": "pl", "via": "670"},
+   {"value": "Alda-bar ȯnggelegsen erin caġ", "raw": "Alda-bar ȯnggelegsen erin caġ, 1985 (Make Teveiin; Make Tuwen)", "lang": null, "via": "670"}
+  ],
+  "identifier": [
+   {"value": "78439", "via": "001 control field (GrThPMO)"},
+   {"value": "n 79021164", "via": "010 LC control number; 035"},
+   {"value": "sh 89001267", "raw": "canceled/invalid LCCN", "via": "010 $z"},
+   {"value": "no 98029431", "raw": "canceled/invalid LCCN", "via": "010 $z"},
+   {"value": "hzn232482", "via": "035 system control number"},
+   {"value": "(OCoLC)oca00254964", "via": "035 system control number"},
+   {"value": "PS1300-PS1348", "raw": "LC classification", "via": "053"}
+  ],
+  "source": [
+   {"value": "Geviksman, V. A. Print͡s i nishchiĭ, 1984", "via": "670"},
+   {"value": "His Makū Touen tanpenshū, 1961", "via": "670"},
+   {"value": "His Personal recollections of Joan of Arc, 1923", "via": "670"},
+   {"value": "DAB, 1930", "via": "670"},
+   {"value": "Mark Twain's personal recollections of Joan of Arc, 1997", "via": "670"},
+   {"value": "Przygody Huck'a, 1912", "via": "670"},
+   {"value": "Alda-bar ȯnggelegsen erin caġ, 1985", "via": "670"},
+   {"value": "Original cataloging agency DLC; modifying agencies MdU, InU, PPiU, OCoLC", "via": "040"}
+  ],
+  "record_created": [{"value": "2008-06-18", "raw": "008: 080618", "via": "008 date entered"}],
+  "record_modified": [{"value": "2015-11-10", "raw": "20151110101902.0", "via": "005"}]
+ }
+}

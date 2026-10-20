@@ -1,0 +1,165 @@
+{
+ "property": "P1899",
+ "property_label": "LibriVox author ID",
+ "files": [
+  {
+   "file": "P1899__9/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://librivox.org/author/9"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:bio first sentence",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:bio ('better known by his pen name Mark Twain')",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P1899.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), better known by his pen name Mark Twain, was an American author and humorist. He is most noted for his novel The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1885), the latter often called \"the Great American Novel.\"",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P1899.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:bio",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "9",
+    "lang": null,
+    "via": "llm-page:page URL /author/9",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Wiki - Mark Twain",
+    "lang": null,
+    "via": "llm-page:Links (label only, no URL in text)",
+    "file": "P1899.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [],
+  "identifier": [],
+  "source": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "A LibriVox author page for Mark Twain (1835 - 1910) with a short Wikipedia-style bio and a 'Wiki - Mark Twain' link. The page reports 270 matching recordings, but the work list itself was not rendered in the captured text.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

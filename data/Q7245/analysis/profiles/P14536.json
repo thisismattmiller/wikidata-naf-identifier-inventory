@@ -1,0 +1,318 @@
+{
+ "property": "P14536",
+ "property_label": "FES digital collections entity ID",
+ "files": [
+  {
+   "file": "P14536__345483/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://collections.fes.de/345483"
+  },
+  {
+   "file": "P14536__345483/alternate_1.xml",
+   "format": "mods",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://collections.fes.de/rss"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "mods": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "en",
+    "via": "llm-page:index heading",
+    "file": "P14536.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:header 'born'",
+    "file": "P14536.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:header 'died'",
+    "file": "P14536.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Mo.",
+    "lang": "en",
+    "via": "llm-page:header 'born ... in'",
+    "file": "P14536.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Conn.",
+    "lang": "en",
+    "via": "llm-page:header 'died ... in'",
+    "file": "P14536.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm-page:'Country' row",
+    "file": "P14536.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Schriftsteller",
+    "lang": "de",
+    "via": "llm-page:'Profession' row",
+    "file": "P14536.json",
+    "uri": false
+   },
+   {
+    "value": "Journalist",
+    "lang": "de",
+    "via": "llm-page:'Profession' row",
+    "file": "P14536.json",
+    "uri": false
+   },
+   {
+    "value": "Drucker",
+    "lang": "de",
+    "via": "llm-page:'Profession' row",
+    "file": "P14536.json",
+    "uri": false
+   },
+   {
+    "value": "Lotse",
+    "lang": "de",
+    "via": "llm-page:'Profession' row",
+    "file": "P14536.json",
+    "uri": false
+   },
+   {
+    "value": "Soldat",
+    "lang": "de",
+    "via": "llm-page:'Profession' row",
+    "file": "P14536.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "345483",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P14536.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "GND",
+    "lang": null,
+    "via": "llm-page:'Source: GND' line",
+    "file": "P14536.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "occupation": [
+   "de"
+  ],
+  "identifier": [],
+  "source": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 56218,
+   "path_count": 27,
+   "paths": [
+    {
+     "path": "rss/channel/item",
+     "n": 50,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/link",
+     "n": 50,
+     "sample": "https://collections.fes.de/id/2185899"
+    },
+    {
+     "path": "rss/channel/item/title",
+     "n": 50,
+     "sample": "The quiet internet takeover"
+    },
+    {
+     "path": "rss/channel/item/date.issued",
+     "n": 50,
+     "sample": "2026"
+    },
+    {
+     "path": "rss/channel/item/guid",
+     "n": 50,
+     "sample": "https://collections.fes.de/id/2185899"
+    },
+    {
+     "path": "rss/channel/item/pubDate",
+     "n": 50,
+     "sample": "Fri, 16 Oct 2026 16:54:00 +0200"
+    },
+    {
+     "path": "rss/channel/item/content",
+     "n": 50,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/content@url",
+     "n": 50,
+     "sample": "https://collections.fes.de/download/webcache/304/2185902"
+    },
+    {
+     "path": "rss/channel/item/content@height",
+     "n": 50,
+     "sample": "500"
+    },
+    {
+     "path": "rss/channel/item/content@width",
+     "n": 50,
+     "sample": "304"
+    },
+    {
+     "path": "rss/channel/item/thumbnail",
+     "n": 50,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/thumbnail@url",
+     "n": 50,
+     "sample": "https://collections.fes.de/download/webcache/128/2185902"
+    },
+    {
+     "path": "rss/channel/item/thumbnail@height",
+     "n": 50,
+     "sample": "210"
+    },
+    {
+     "path": "rss/channel/item/thumbnail@width",
+     "n": 50,
+     "sample": "128"
+    },
+    {
+     "path": "rss/channel/item/description",
+     "n": 50,
+     "sample": "<p><a href=\"https://collections.fes.de/id/2185899\"><img align=\"left\" width=\"128px\" border=\"0\" hspace=\"15\" src=\"https://c"
+    },
+    {
+     "path": "rss/channel/item/creator",
+     "n": 32,
+     "sample": "1980-"
+    },
+    {
+     "path": "rss/channel/link",
+     "n": 2,
+     "sample": "https://collections.fes.de/rss"
+    },
+    {
+     "path": "rss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss@version",
+     "n": 1,
+     "sample": "2.0"
+    },
+    {
+     "path": "rss/channel",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel@{http://www.microsoft.com/schemas/rss/core/2005/internal}lastdownloaderror",
+     "n": 1,
+     "sample": "None"
+    },
+    {
+     "path": "rss/channel/title",
+     "n": 1,
+     "sample": "Digitale Sammlungen der Friedrich-Ebert-Stiftung: die neuesten Digitalisate"
+    },
+    {
+     "path": "rss/channel/description",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/language",
+     "n": 1,
+     "sample": "de-DE"
+    },
+    {
+     "path": "rss/channel/link@rel",
+     "n": 1,
+     "sample": "self"
+    },
+    {
+     "path": "rss/channel/link@type",
+     "n": 1,
+     "sample": "application/rss+xml"
+    },
+    {
+     "path": "rss/channel/link@href",
+     "n": 1,
+     "sample": "https://collections.fes.de/rss"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "rss"
+   ]
+  }
+ ],
+ "llm_notes": "FES digital collections person-index page for Twain, Mark: a GND-sourced header (dates, places, country, professions) followed by 199 newspaper issues (1878-1940) mentioning him; the 'authors/collaborators' facets are newspaper editors, not people related to Twain.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

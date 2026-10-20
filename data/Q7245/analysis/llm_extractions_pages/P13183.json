@@ -1,0 +1,45 @@
+{
+ "property": "P13183",
+ "label": "JudaicaLink person (GND) ID",
+ "files_read": ["pages/P13183__118624822.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "JudaicaLink rendering of the GND record for Twain, Mark: birth/death years and places, owl:sameAs list (rendered as truncated labels, not full URIs) and 32 alternative labels in many scripts.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "lang": null, "via": "Core Pref Label / heading"}],
+  "name_variant": [
+   {"value": "Ma ke Tu wen", "via": "Core Alt Label", "lang": null}, {"value": "Make-Tuwen", "via": "Core Alt Label", "lang": null},
+   {"value": "Mark Twain", "via": "Core Alt Label", "lang": null}, {"value": "Mark Twėn", "via": "Core Alt Label", "lang": null},
+   {"value": "T`u-wen, Ma-k`o", "via": "Core Alt Label", "lang": null}, {"value": "Tewin, Mark", "via": "Core Alt Label", "lang": null},
+   {"value": "Touein, Maku", "via": "Core Alt Label", "lang": null}, {"value": "Touein, Māku", "via": "Core Alt Label", "lang": null},
+   {"value": "Touen, Makū", "via": "Core Alt Label", "lang": null}, {"value": "Towein, Māku", "via": "Core Alt Label", "lang": null},
+   {"value": "Tuein, Mark", "via": "Core Alt Label", "lang": null}, {"value": "Tuwayn, Mārk", "via": "Core Alt Label", "lang": null},
+   {"value": "Tuwen, Make", "via": "Core Alt Label", "lang": null}, {"value": "Tvein, Marḳ", "via": "Core Alt Label", "lang": null},
+   {"value": "Tven, M.", "via": "Core Alt Label", "lang": null}, {"value": "Tven, Mark", "via": "Core Alt Label", "lang": null},
+   {"value": "Tvenas, Markas", "via": "Core Alt Label", "lang": null}, {"value": "Tvens, M.", "via": "Core Alt Label", "lang": null},
+   {"value": "Tvénas, Morkas", "via": "Core Alt Label", "lang": null}, {"value": "Tvēns, Marks", "via": "Core Alt Label", "lang": null},
+   {"value": "Tvėn, Mark", "via": "Core Alt Label", "lang": null}, {"value": "Twain, Marc", "via": "Core Alt Label", "lang": null},
+   {"value": "Twain, Marek", "via": "Core Alt Label", "lang": null}, {"value": "Twayn, Mark", "via": "Core Alt Label", "lang": null},
+   {"value": "Twayn, Mārk", "via": "Core Alt Label", "lang": null}, {"value": "Twen, Mark", "via": "Core Alt Label", "lang": null},
+   {"value": "Twens, Marks", "via": "Core Alt Label", "lang": null}, {"value": "Twėn, Mark", "via": "Core Alt Label", "lang": null},
+   {"value": "Ṭvena, Marka", "via": "Core Alt Label", "lang": null}, {"value": "Ṭṿain, Marḳ", "via": "Core Alt Label", "lang": null},
+   {"value": "Твен, Марк", "via": "Core Alt Label", "lang": "ru"}, {"value": "טווין, מארק", "via": "Core Alt Label", "lang": "he"}
+  ],
+  "birth_date": [{"value": "1835", "lang": null, "via": "Birth Date / Birth Year rows"}],
+  "death_date": [{"value": "1910", "lang": null, "via": "Death Date row"}],
+  "birth_place": [{"value": "Florida, Mo.", "lang": null, "via": "Birth Location row"}],
+  "death_place": [{"value": "Redding, Conn.", "lang": null, "via": "Death Location row"}],
+  "same_as": [
+   {"value": "BnF cb11927291n", "raw": "Cb11927291n (label only)", "via": "Owl Same As"},
+   {"value": "LC n79021164", "raw": "N79021164 (label only)", "via": "Owl Same As"},
+   {"value": "VIAF 50566653", "raw": "50566653 (label only)", "via": "Owl Same As"},
+   {"value": "ISNI 0000000121324854", "raw": "0000000121324854 (label only)", "via": "Owl Same As"},
+   {"value": "Wikidata Q7245", "raw": "Q7245 (label only)", "via": "Owl Same As"},
+   {"value": "5 D F2180863 F84 E09 B51…", "raw": "truncated label, unidentified", "via": "Owl Same As"}
+  ],
+  "identifier": [{"value": "118624822", "via": "Gnd Identifier row"}, {"value": "1025705", "raw": "is Represents of / is Owl Same As of", "via": "JudaicaLink internal link"}],
+  "image": [{"value": "image from https://commons.wikimedia.org", "via": "Creator line (no file URL shown)"}],
+  "source": [{"value": "gnd", "via": "Label column for all rows"}, {"value": "FID Portal", "via": "Creator line"}],
+  "license": [{"value": "Unknown", "via": "License line (image)"}]
+ }
+}

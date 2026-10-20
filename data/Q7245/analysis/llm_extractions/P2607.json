@@ -1,0 +1,53 @@
+{
+ "property": "P2607",
+ "label": "BookBrainz author ID",
+ "files_read": ["P2607__83280dda-c02e-4f45-a44a-092226e6e8c7/xhr_1.json"],
+ "about_entity": true,
+ "notes": "Not BookBrainz data itself: an XHR returning the English Wikipedia lead extract (pageid 154450, 'Mark Twain') that the BookBrainz author page embeds. All values below come from that HTML extract.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "xhr_1.json: $.title / $.article.title"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "en", "via": "xhr_1.json: $.extract (<b>Samuel Langhorne Clemens</b>)"}],
+  "pseudonym": [{"value": "Mark Twain", "raw": "known by the pen name Mark Twain", "lang": "en", "via": "xhr_1.json: $.extract"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "November 30, 1835", "lang": null, "via": "xhr_1.json: $.extract"}],
+  "death_date": [{"value": "1910-04-21", "raw": "April 21, 1910", "lang": null, "via": "xhr_1.json: $.extract"}],
+  "activity_place": [
+   {"value": "Hannibal, Missouri", "lang": "en", "via": "xhr_1.json: $.extract ('raised in Hannibal, Missouri')"},
+   {"value": "Mississippi River", "lang": "en", "via": "xhr_1.json: $.extract (riverboat pilot)"},
+   {"value": "Nevada", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "Virginia City", "lang": "en", "via": "xhr_1.json: $.extract (Territorial Enterprise)"},
+   {"value": "Angels Camp, California", "lang": "en", "via": "xhr_1.json: $.extract"}
+  ],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "humorist", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "essayist", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "typesetter", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "riverboat pilot", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "miner", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "journalist", "raw": "turning to journalism", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "speaker", "lang": "en", "via": "xhr_1.json: $.extract"}
+  ],
+  "nationality": [{"value": "American", "lang": "en", "via": "xhr_1.json: $.extract"}],
+  "language": [{"value": "en", "raw": "en", "lang": null, "via": "xhr_1.json: $.article.language (language of the article, not necessarily of the person)"}],
+  "description": [{"value": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), known by the pen name Mark Twain, was an American writer, humorist, and essayist.", "lang": "en", "via": "xhr_1.json: $.extract (first sentence)"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "raw": "The Adventures of Tom Sawyer (1876)", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "Adventures of Huckleberry Finn", "raw": "Adventures of Huckleberry Finn (1884)", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "raw": "(1889)", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "Pudd'nhead Wilson", "raw": "(1894)", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "The Gilded Age: A Tale of Today", "raw": "(1873) cowritten with Charles Dudley Warner", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "Life on the Mississippi", "raw": "(1883)", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "The Celebrated Jumping Frog of Calaveras County", "raw": "published in 1865", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "King Leopold's Soliloquy", "raw": "1905", "lang": "en", "via": "xhr_1.json: $.extract"}
+  ],
+  "related_agent": [
+   {"value": "Orion Clemens", "relation": "older brother; Twain contributed articles to his newspaper", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "Charles Dudley Warner", "relation": "co-author of The Gilded Age", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "Henry Huttleston Rogers", "relation": "Standard Oil executive who helped manage his finances and copyrights", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "American Anti-Imperialist League", "relation": "vice president 1901–1910", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "Territorial Enterprise", "relation": "newspaper (Virginia City) he wrote for as a journalist", "lang": "en", "via": "xhr_1.json: $.extract"},
+   {"value": "William Faulkner", "relation": "called him 'the father of American literature'", "lang": "en", "via": "xhr_1.json: $.extract"}
+  ],
+  "identifier": [{"value": "154450", "raw": "Wikipedia pageid (en), not the BookBrainz id", "via": "xhr_1.json: $.pageid"}]
+ }
+}

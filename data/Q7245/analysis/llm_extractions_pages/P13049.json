@@ -1,0 +1,30 @@
+{
+ "property": "P13049",
+ "label": "DDB person (GND) ID",
+ "files_read": ["pages/P13049__1106405730.txt", "pages/P13049__118624822.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "Two Deutsche Digitale Bibliothek person pages: GND 118624822 (Mark Twain; 579 objects, 57 about him) and GND 1106405730 (Samuel Langhorne Clemens, real-name record; 1 object). Both give occupations, dates/places, pseudonyms; external links shown as link text only.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "de", "via": "heading, page 118624822"}, {"value": "Samuel Langhorne Clemens", "lang": "de", "via": "heading, page 1106405730"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "de", "via": "Wirklicher Name (118624822)"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "de", "via": "Pseudonym (1106405730)"}, {"value": "Quintus Curtius Snodgrass", "lang": "de", "via": "Pseudonym (both)"}, {"value": "Louis de Conte", "lang": "de", "via": "Pseudonym (both)"}, {"value": "J. W. Bothwell", "lang": "de", "via": "Pseudonym (both)"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30. November 1835", "lang": "de", "via": "Geboren"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21. April 1910", "lang": "de", "via": "Gestorben"}],
+  "birth_place": [{"value": "Florida, Mo.", "lang": "de", "via": "Geboren"}],
+  "death_place": [{"value": "Redding, Conn.", "lang": "de", "via": "Gestorben"}],
+  "occupation": [{"value": "Schriftsteller", "lang": "de", "via": "subtitle"}, {"value": "Journalist", "lang": "de", "via": "subtitle"}, {"value": "Drucker", "lang": "de", "via": "subtitle"}, {"value": "Lotse", "lang": "de", "via": "subtitle"}, {"value": "Soldat", "lang": "de", "via": "subtitle"}, {"value": "Übersetzer", "lang": "de", "via": "subtitle (1106405730 only)"}],
+  "work": [
+   {"value": "The Innocents abroad or The new pilgrims Progress, Vol. 2", "via": "Werke (118624822)"},
+   {"value": "The Adventures of Tom Sawyer", "raw": "The Adventures of Tom Sawyer, [Hauptw].", "via": "Werke"},
+   {"value": "Tom Sawyers Abenteuer", "via": "Werke"},
+   {"value": "Detektiv am Mississippi : Huck Finn erzählt e. Abenteuer mit Tom Sawyer", "via": "Werke"},
+   {"value": "Tom Sawyer a Frantík Finn : volná dramatisace knihy Marka Twaina", "raw": "Osvobozené Divadlo, premiera 10. února 1937 = Tom Sawyers grosses Abenteuer", "via": "Werke (1106405730)"}
+  ],
+  "related_agent": [{"value": "Osvobozené Divadlo (theatre staging a dramatisation, 1937)", "via": "Werke (1106405730)"}],
+  "description": [{"value": "Schriftsteller, Journalist, Drucker, Lotse, Soldat", "lang": "de", "via": "subtitle under heading"}],
+  "identifier": [{"value": "118624822", "via": "page URL (GND)"}, {"value": "1106405730", "via": "page URL (GND)"}],
+  "image": [{"value": "Portrait from Wikimedia Commons (Unknown author, Public Domain)", "raw": "Urheber*in: Unknown author | Quelle: Wikimedia Commons | Public Domain", "via": "image credit (118624822)"}],
+  "same_as": [{"value": "https://d-nb.info/gnd/118624822", "raw": "link text 'GND im Katalog der DNB'", "via": "Externe Links"}, {"value": "https://d-nb.info/gnd/1106405730", "raw": "link text 'GND im Katalog der DNB'", "via": "Externe Links"}]
+ }
+}

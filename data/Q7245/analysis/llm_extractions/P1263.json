@@ -1,0 +1,33 @@
+{
+ "property": "P1263",
+ "label": "NNDB people ID",
+ "files_read": [
+  "P1263__452_000022386_5c08bc1a/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph metadata only from the NNDB person page: title, URL and portrait image. No biographical text.",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "P1263__452_000022386_5c08bc1a/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "452/000022386",
+    "raw": "https://www.nndb.com/people/452/000022386/",
+    "lang": null,
+    "via": "P1263__452_000022386_5c08bc1a/embedded_opengraph.json: $[0]['og:url']"
+   }
+  ],
+  "image": [
+   {
+    "value": "https://www.nndb.com/people/452/000022386/mark-twain-port.gif",
+    "lang": null,
+    "via": "P1263__452_000022386_5c08bc1a/embedded_opengraph.json: $[0]['og:image']"
+   }
+  ]
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "property": "P723",
+ "label": "DBNL author ID",
+ "files_read": ["pages/P723__twai001.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "DBNL author page for Mark Twain: short biographical data (born/died with places, name variant), list of separately published Dutch editions, texts in periodicals, a biography source and secondary literature. Birth place is spelled 'Missiouri' on the page.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "nl", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "nl", "via": "NAAMSVARIANTEN"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30 november 1835", "lang": "nl", "via": "GEBOREN"}],
+  "birth_place": [{"value": "Missiouri", "lang": "nl", "via": "GEBOREN"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21 april 1910", "lang": "nl", "via": "OVERLEDEN"}],
+  "death_place": [{"value": "Redding", "lang": "nl", "via": "OVERLEDEN"}],
+  "work": [
+   {"value": "The adventures of Tom Sawyer", "lang": "en", "via": "Oorspronkelijke publicaties"},
+   {"value": "De lotgevallen van Tom Sawyer", "raw": "1877", "lang": "nl", "via": "Oorspronkelijke publicaties"},
+   {"value": "Prins en bedelknaap", "raw": "1882", "lang": "nl", "via": "Oorspronkelijke publicaties"},
+   {"value": "De lotgevallen van Huckleberry Finn, Tom Sawyer's makker", "raw": "1885", "lang": "nl", "via": "Oorspronkelijke publicaties"},
+   {"value": "Tom Sawyer's reisavonturen", "raw": "1905", "lang": "nl", "via": "Oorspronkelijke publicaties"},
+   {"value": "De erfgenaam in Amerika", "raw": "1908", "lang": "nl", "via": "Oorspronkelijke publicaties"},
+   {"value": "De lotgevallen van Huckleberry Finn", "raw": "1946", "lang": "nl", "via": "Oorspronkelijke publicaties"},
+   {"value": "Verdere avonturen van Tom Sawyer", "raw": "1955", "lang": "nl", "via": "Oorspronkelijke publicaties"},
+   {"value": "Menscheneters op den spoortrein", "raw": "In: Biekorf. Jaargang 18, 1907", "lang": "nl", "via": "Teksten in andere boeken/tijdschriften"},
+   {"value": "Gedenkschriften van een protestantschen hond", "raw": "Mark Twain naverteld door Viola. In: De Hollandsche Lelie. Jaargang 23, 1909-1910", "lang": "nl", "via": "Teksten in andere boeken/tijdschriften"},
+   {"value": "De avonturen van Huckleberry Finn", "raw": "24/25 De avonturen van Huckleberry Finn (1)/(2), In: Lezen doet je goed. Leerjaar 7b, 2023", "lang": "nl", "via": "Teksten in andere boeken/tijdschriften"}
+  ],
+  "related_agent": [
+   {"value": "Viola (reteller of 'Gedenkschriften van een protestantschen hond')", "lang": "nl", "via": "Teksten in andere boeken/tijdschriften"},
+   {"value": "Jan van Coillie, Wilma van der Pennen, Jos Staal en Herman Tromp (authors of biography source 'Lexicon van de jeugdliteratuur')", "lang": "nl", "via": "Biografieën over Mark Twain"},
+   {"value": "Johan Daisne (author of secondary literature 'Literatuur in de filmlens')", "lang": "nl", "via": "Secundaire literatuur"},
+   {"value": "Barber van de Pol (author of secondary literature 'Mark Twain in spe')", "lang": "nl", "via": "Secundaire literatuur"}
+  ],
+  "source": [
+   {"value": "Lexicon van de jeugdliteratuur (1982-2014)", "lang": "nl", "via": "Biografieën over Mark Twain"},
+   {"value": "In Memoriam. In: Onze Stam. Jaargang 1910", "lang": "nl", "via": "Secundaire literatuur"},
+   {"value": "Johan Daisne, 'Literatuur in de filmlens', Nieuw Vlaams Tijdschrift. Jaargang 9 (1955)", "lang": "nl", "via": "Secundaire literatuur"},
+   {"value": "Barber van de Pol, 'Barber van de Pol Galerij: 4 Mark Twain in spe', Filter. Tijdschrift over Vertalen. Jaargang 21 (2014)", "lang": "nl", "via": "Secundaire literatuur"}
+  ],
+  "identifier": [{"value": "twai001", "via": "page URL"}]
+ }
+}

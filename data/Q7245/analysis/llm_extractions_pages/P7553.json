@@ -1,0 +1,39 @@
+{
+ "property": "P7553",
+ "label": "Sinemalar person ID",
+ "files_read": ["pages/P7553__80023.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Turkish film site artist page: birth/death dates, country, one-sentence Turkish bio, and a filmography of screen adaptations of his works with trailers. Role line 'Oyuncu, Yönetmen, Senarist, Yapımcı' (actor, director, screenwriter, producer) looks like a generic site label rather than accurate data.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "tr", "via": "page heading"}],
+  "name_variant": [{"value": "Samuel Langhorne Clemens", "lang": "tr", "via": "Biyografi"}],
+  "pseudonym": [{"value": "Mark Twain", "lang": "tr", "via": "Biyografi 'takma adı Mark Twain'"}],
+  "birth_date": [{"value": "1835-11-30", "raw": "30 Kasım 1835", "lang": "tr", "via": "Doğum Tarihi"}],
+  "death_date": [{"value": "1910-04-21", "raw": "21 Nisan 1910", "lang": "tr", "via": "Ölüm Tarihi"}],
+  "nationality": [{"value": "ABD", "lang": "tr", "via": "Ülke"}],
+  "occupation": [
+   {"value": "mizahçı", "lang": "tr", "via": "Biyografi"},
+   {"value": "yazar", "lang": "tr", "via": "Biyografi"},
+   {"value": "Oyuncu, Yönetmen, Senarist, Yapımcı", "lang": "tr", "via": "role line under heading (site generic, doubtful)"}
+  ],
+  "description": [{"value": "Samuel Langhorne Clemens (30 Kasım 1835 – 21 Nisan 1910), daha çok takma adı Mark Twain olarak bilinir, Amerikalı mizahçı ve yazar.", "lang": "tr", "via": "Mark Twain Biyografisi"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "raw": "1938 film (trailer)", "via": "trailers"},
+   {"value": "The Adventures of Huckleberry Finn", "raw": "1939 film (trailer)", "via": "trailers"},
+   {"value": "Tom Sawyer And Huckleberry Finn", "raw": "2014 film", "via": "trailers"},
+   {"value": "Tom und Hacke", "raw": "2012 film", "via": "trailers"},
+   {"value": "Tom Sawyer", "raw": "2011 film", "via": "trailers / Öne Çıkan Yapımlar / Filmografi"},
+   {"value": "A Modern Twain Story: The Prince and the Pauper", "raw": "2007", "via": "trailers / Öne Çıkan Yapımlar"},
+   {"value": "The Prince And The Surfer", "via": "trailers"},
+   {"value": "The Prince And The Pauper", "via": "trailers"},
+   {"value": "Crossed Swords", "via": "trailers"},
+   {"value": "A Knight in Camelot", "raw": "1998", "via": "Öne Çıkan Yapımlar"},
+   {"value": "The Adventures Of Huck Finn", "raw": "1993", "via": "Öne Çıkan Yapımlar"},
+   {"value": "Tom Sawyer & Huckleberry Finn", "via": "Filmografi"},
+   {"value": "Tom Sawyer ve Arkadaşları", "via": "Filmografi"},
+   {"value": "Die Abenteuer des Huck Finn", "via": "Filmografi"}
+  ],
+  "identifier": [{"value": "80023", "via": "page URL https://www.sinemalar.com/sanatci/80023"}]
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "property": "P4359",
+ "property_label": "gravsted.dk ID",
+ "files": [],
+ "formats": {},
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "da",
+    "via": "llm-page:page heading",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "da",
+    "via": "llm-page:under heading (født = born as)",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "da",
+    "via": "llm-page:Født",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "da",
+    "via": "llm-page:Død",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, USA",
+    "lang": "da",
+    "via": "llm-page:Født",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, USA",
+    "lang": "da",
+    "via": "llm-page:Død",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Mississippi",
+    "lang": "da",
+    "via": "llm-page:mini-biography (grew up on the banks, pilot)",
+    "file": "P4359.json",
+    "uri": false
+   },
+   {
+    "value": "Woodlawn Cemetery, Elmira, New York, USA",
+    "lang": "da",
+    "via": "llm-page:grave photo caption",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "forfatter",
+    "lang": "da",
+    "via": "llm-page:description line 'Amerikansk forfatter'",
+    "file": "P4359.json",
+    "uri": false
+   },
+   {
+    "value": "lods",
+    "lang": "da",
+    "via": "llm-page:mini-biography",
+    "file": "P4359.json",
+    "uri": false
+   },
+   {
+    "value": "guldgraver",
+    "lang": "da",
+    "via": "llm-page:mini-biography",
+    "file": "P4359.json",
+    "uri": false
+   },
+   {
+    "value": "bogtrykkerlærling",
+    "lang": "da",
+    "via": "llm-page:mini-biography",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "amerikansk",
+    "lang": "da",
+    "via": "llm-page:description line",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Amerikansk forfatter. Voksede op ved Mississippiflodens bredder, kom i bogtrykkerlære, var senere lods på Mississippi samt guldgraver, men kom efterhånden ind i skribentvirksomhed, bl.a. som bidragyder til sin brors avis. Blev kendt som forfatter til rejseskildringer, noveller og romaner, hvor han med barok humor og satire forholder sig kritisk til amerikanske samfundsforhold. Mark Twain gik stærkt ind for ligestilling mellem sorte og hvide samt mellem de to køn.",
+    "lang": "da",
+    "via": "llm-page:Mini-biografi",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:mini-biography",
+    "file": "P4359.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:mini-biography",
+    "file": "P4359.json",
+    "uri": false
+   },
+   {
+    "value": "selvbiografi (autobiography, first volume 2010)",
+    "lang": "da",
+    "via": "llm-page:mini-biography",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "marktwain",
+    "lang": null,
+    "via": "llm-page:page URL navn parameter",
+    "file": "P4359.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "da"
+  ],
+  "name_variant": [
+   "da"
+  ],
+  "birth_date": [
+   "da"
+  ],
+  "death_date": [
+   "da"
+  ],
+  "birth_place": [
+   "da"
+  ],
+  "death_place": [
+   "da"
+  ],
+  "activity_place": [
+   "da"
+  ],
+  "occupation": [
+   "da"
+  ],
+  "nationality": [
+   "da"
+  ],
+  "description": [
+   "da"
+  ],
+  "work": [
+   "da",
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {},
+ "json_profiles": [],
+ "llm_notes": "Kendtes Gravsted (Danish famous-graves site) person page for Mark Twain: birth name, dates and places with weekdays, a Danish mini-biography, and a 2019 grave photo caption (Woodlawn Cemetery, Elmira) credited to Wikipedia / Kenneth C. Zirkel.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

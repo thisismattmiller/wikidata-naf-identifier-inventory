@@ -1,0 +1,60 @@
+{
+ "property": "P866",
+ "label": "Perlentaucher ID",
+ "files_read": ["pages/P866__mark-twain.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Perlentaucher book-author page: short bio and a list of 23 German editions with publisher, ISBN, blurbs and review-note counts, plus keyword tags. The rendered text is partly machine-translated into English (bio and first entries) and partly original German; 'born in Florida, USA' refers to Florida, Missouri as written.",
+ "elements": {
+  "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "BOOK AUTHOR heading"}],
+  "name_variant": [
+   {"value": "Samuel (Langhorne) Clemens", "lang": "en", "via": "bio: 'whose real name was Samuel (Langhorne) Clemens'"},
+   {"value": "Twain, Mark", "lang": "de", "via": "keyword list (STICHWÖRTER)"}
+  ],
+  "birth_date": [{"value": "1835", "raw": "born in 1835", "lang": "en", "via": "bio"}],
+  "death_date": [{"value": "1910", "raw": "died in 1910", "lang": "en", "via": "bio"}],
+  "birth_place": [{"value": "Florida, USA", "lang": "en", "via": "bio"}],
+  "death_place": [{"value": "Redding, Connecticut", "lang": "en", "via": "bio"}],
+  "occupation": [
+   {"value": "printer", "lang": "en", "via": "bio"},
+   {"value": "Mississippi riverboat pilot", "lang": "en", "via": "bio"},
+   {"value": "gold prospector", "lang": "en", "via": "bio"},
+   {"value": "reporter", "lang": "en", "via": "bio"},
+   {"value": "writer", "lang": "en", "via": "bio"}
+  ],
+  "field_of_activity": [{"value": "American realism", "lang": "en", "via": "bio: 'a major figure in American realism'"}],
+  "description": [{"value": "Mark Twain, whose real name was Samuel (Langhorne) Clemens, was born in 1835 in Florida, USA. Before he began writing, Twain worked as a printer, a Mississippi riverboat pilot, a gold prospector, and a reporter. As a writer, he was a major figure in American realism. His two most famous books—\"The Adventures of Tom Sawyer\" (1876) and its sequel, \"The Adventures of Huckleberry Finn\" (1884)—are considered classics of world literature. Twain died in 1910 in Redding, Connecticut.", "lang": "en", "via": "bio under BOOK AUTHOR heading (machine-translated rendering)"}],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer", "raw": "1876", "lang": "en", "via": "bio"},
+   {"value": "The Adventures of Huckleberry Finn", "raw": "1884", "lang": "en", "via": "bio"},
+   {"value": "Traveling with the Unsuspecting. The Original Reports from Europe and the Holy Land", "raw": "Mare Verlag, Hamburg 2021", "lang": "en", "via": "book list"},
+   {"value": "The Disappearance of Prince Oleomargarine", "raw": "with Philip C. Stead; Knesebeck 2018", "lang": "en", "via": "book list"},
+   {"value": "Reports from the Imperial Council 1898/1899", "raw": "Residenz Verlag 2017", "lang": "en", "via": "book list"},
+   {"value": "The news of my death has been greatly exaggerated. My last secrets", "raw": "Aufbau 2017", "lang": "en", "via": "book list"},
+   {"value": "I am the most ass-like person I have ever known. New secrets of my autobiography", "raw": "Aufbau 2014", "lang": "en", "via": "book list"},
+   {"value": "The Mysterious Stranger", "raw": "radio play 2013; Atak graphic adaptation, Carlsen 2012", "lang": "en", "via": "book list"},
+   {"value": "Meine geheime Autobiographie", "raw": "rendered 'My Secret Autobiography', Aufbau 2012", "lang": "de", "via": "book list"},
+   {"value": "Post aus Hawaii", "raw": "Mare 2010", "lang": "de", "via": "book list"},
+   {"value": "Sommerwogen. Eine Liebe in Briefen", "raw": "Aufbau 2010", "lang": "de", "via": "book list"},
+   {"value": "Knallkopf Wilson", "raw": "Roman, Manesse 2010", "lang": "de", "via": "book list"},
+   {"value": "Tom Sawyer & Huckleberry Finn", "raw": "Hanser 2010", "lang": "de", "via": "book list"},
+   {"value": "Bummel durch Europa", "raw": "DHV 2005/2006", "lang": "de", "via": "book list"},
+   {"value": "Die schreckliche deutsche Sprache", "raw": "DHV 2006", "lang": "de", "via": "book list"},
+   {"value": "Huckleberry Finn", "raw": "Roof Music 2005", "lang": "de", "via": "book list"},
+   {"value": "Bummel durch Deutschland", "raw": "Edition Büchergilde 2004", "lang": "de", "via": "book list"},
+   {"value": "Huckleberry Finns Abenteuer", "raw": "DHV 2003", "lang": "de", "via": "book list"},
+   {"value": "Tom Sawyers Abenteuer", "raw": "Diogenes 2002; Gerstenberg 2001", "lang": "de", "via": "book list"},
+   {"value": "Twains Tierleben", "raw": "Zweitausendeins 2002", "lang": "de", "via": "book list"},
+   {"value": "Tom Sawyer", "raw": "Roof Music 2002", "lang": "de", "via": "book list"},
+   {"value": "Eine Bluttat, ein Betrug, ein Bund fürs Leben", "raw": "DVA 2001", "lang": "de", "via": "book list"},
+   {"value": "Nr. 44. Der geheimnisvolle Fremde", "raw": "Roman, Tropen 1999", "lang": "de", "via": "book list"}
+  ],
+  "related_agent": [
+   {"value": "Livy Langdon", "raw": "Langdon, Livy", "lang": "de", "via": "keyword list"},
+   {"value": "Andrew Carnegie", "raw": "Carnegie, Andrew", "lang": "de", "via": "keyword list"},
+   {"value": "Charles Dickens", "raw": "Dickens, Charles", "lang": "de", "via": "keyword list"},
+   {"value": "Theodore Roosevelt", "raw": "Roosevelt, Theodore", "lang": "de", "via": "keyword list"},
+   {"value": "George Bernard Shaw", "raw": "Shaw, George Bernard", "lang": "de", "via": "keyword list"}
+  ]
+ }
+}

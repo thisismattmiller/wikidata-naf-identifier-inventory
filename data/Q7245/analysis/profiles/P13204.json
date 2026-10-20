@@ -1,0 +1,418 @@
+{
+ "property": "P13204",
+ "property_label": "Wellcome Collection concept ID",
+ "files": [
+  {
+   "file": "P13204__chsf63dq/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://wellcomecollection.org/concepts/chsf63dq"
+  },
+  {
+   "file": "P13204__chsf63dq/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://wellcomecollection.org/concepts/chsf63dq"
+  },
+  {
+   "file": "P13204__chsf63dq/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://wellcomecollection.org/concepts/chsf63dq"
+  },
+  {
+   "file": "P13204__chsf63dq/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://apikeys.civiccomputing.com/c/v?d=wellcomecollection.org&p=CookieControl%20Multi-Site&v=9&k=53591d5416d4340cbaa15afd62bd1a13999c91af&format=json"
+  },
+  {
+   "file": "P13204__chsf63dq/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://46ccd9422f0641989fa09ac7c9e404c2.apm.eu-west-1.aws.cloud.es.io/config/v1/rum/agents?service.name=content-webapp&service.environment=prod"
+  },
+  {
+   "file": "P13204__chsf63dq/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://46ccd9422f0641989fa09ac7c9e404c2.apm.eu-west-1.aws.cloud.es.io/intake/v2/rum/events"
+  },
+  {
+   "file": "P13204__chsf63dq/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://46ccd9422f0641989fa09ac7c9e404c2.apm.eu-west-1.aws.cloud.es.io/intake/v2/rum/events"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 4
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 9,
+  "http://ogp.me/ns#": 6,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "description": [
+   {
+    "value": "Find books, manuscripts, paintings, illustrations, photos and unpublished archives about Mark Twain, many of them with free online access.",
+    "lang": null,
+    "via": "og:description",
+    "file": "embedded_rdfa.json",
+    "uri": false
+   },
+   {
+    "value": "American author and humorist (1835–1910)",
+    "lang": "en",
+    "via": "llm-page:description under heading",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "chsf63dq",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:description",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:description",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:description",
+    "file": "P13204.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:description",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:description",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Literature",
+    "lang": "en",
+    "via": "llm-page:Field of work",
+    "file": "P13204.json",
+    "uri": false
+   },
+   {
+    "value": "Wit and Humor",
+    "lang": "en",
+    "via": "llm-page:Field of work",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Life on the Mississippi",
+    "lang": "en",
+    "via": "llm-page:Works from the collections",
+    "file": "P13204.json",
+    "uri": false
+   },
+   {
+    "value": "\"The man who thought himself a woman\" and other queer nineteenth-century short stories",
+    "lang": "en",
+    "via": "llm-page:Works from the collections",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Christopher Looby (editor of anthology containing his work)",
+    "lang": null,
+    "via": "llm-page:Works from the collections",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Creative Commons Attribution 4.0 International Licence",
+    "lang": null,
+    "via": "llm-page:footer",
+    "file": "P13204.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "description": [
+   "en"
+  ],
+  "name_preferred": [
+   "en"
+  ],
+  "identifier": [],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "field_of_activity": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [],
+  "license": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 454,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Wellcome Collection"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Find books, manuscripts, paintings, illustrations, photos and unpublished archives about Mark Twain, many of them with f"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://wellcomecollection.org/concepts/chsf63dq"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://i.wellcomecollection.org/assets/icons/square_icon.png"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Find books, manuscripts, paintings, illustrations, photos and unpublished archives about Mark Twain, many of them with free online access."
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 327,
+   "path_count": 15,
+   "paths": [
+    {
+     "path": "valid",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "format",
+     "n": 1,
+     "sample": "fields"
+    },
+    {
+     "path": "product",
+     "n": 1,
+     "sample": "CookieControl Multi-Site"
+    },
+    {
+     "path": "version",
+     "n": 1,
+     "sample": "9"
+    },
+    {
+     "path": "domain",
+     "n": 1,
+     "sample": "wellcomecollection.org"
+    },
+    {
+     "path": "record_consent_state",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "geo.success",
+     "n": 1,
+     "sample": "1"
+    },
+    {
+     "path": "geo.country",
+     "n": 1,
+     "sample": "US"
+    },
+    {
+     "path": "geo.countryName",
+     "n": 1,
+     "sample": "United States"
+    },
+    {
+     "path": "geo.continent",
+     "n": 1,
+     "sample": "North America"
+    },
+    {
+     "path": "geo.european_union",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "geo.gdpr_applies",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "geo.state",
+     "n": 1,
+     "sample": "DC"
+    },
+    {
+     "path": "geo.ccpa_applies",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "geo._source",
+     "n": 1,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 3,
+   "path_count": 0,
+   "paths": [],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 73,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "accepted",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "errors[].message",
+     "n": 1,
+     "sample": "only POST requests are supported"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 103,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "accepted",
+     "n": 1,
+     "sample": "0"
+    },
+    {
+     "path": "errors[].message",
+     "n": 1,
+     "sample": "only POST requests are supported"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Wellcome Collection concept page: heading, short description, fields of work, Wikidata link (URL not in text), 4 images and 2 works by/featuring him.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

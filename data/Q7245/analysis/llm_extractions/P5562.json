@@ -1,0 +1,12 @@
+{
+ "property": "P5562",
+ "label": "Tebeosfera ID",
+ "files_read": ["P5562__clemens_samuel_langhorne/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph tags of the Tebeosfera author page. The record is headed under the real name; og:description is empty. The image file is named mark_twain.jpg.",
+ "elements": {
+  "name_preferred": [{"value": "Clemens, Samuel Langhorne", "lang": "es", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "image": [{"value": "https://www.tebeosfera.com/T3content/img/T3_autores/i/n/mark_twain.jpg", "via": "embedded_opengraph.json: $[0]['og:image']"}],
+  "identifier": [{"value": "clemens_samuel_langhorne", "raw": "https://www.tebeosfera.com/autores/clemens_samuel_langhorne.html", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

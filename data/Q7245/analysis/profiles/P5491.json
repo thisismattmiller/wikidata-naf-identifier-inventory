@@ -1,0 +1,592 @@
+{
+ "property": "P5491",
+ "property_label": "BD Gest' author ID",
+ "files": [
+  {
+   "file": "P5491__20036/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.bedetheque.com/auteur-20036-BD-Twain-Mark.html"
+  },
+  {
+   "file": "P5491__20036/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.bedetheque.com/auteur-20036-BD-Twain-Mark.html"
+  },
+  {
+   "file": "P5491__20036/alternate_1.xml",
+   "format": "feed",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://www.bdgest.com/rss"
+  },
+  {
+   "file": "P5491__20036/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.bedetheque.com/ajax/set_page_vue?s=BEL&r=Auteurs&os=Mac%20OS%20X&d=Desktop&sc=5120x1440&b=Chrome&from="
+  },
+  {
+   "file": "P5491__20036/xhr_2.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.bedetheque.com/cdn-cgi/rum?"
+  },
+  {
+   "file": "P5491__20036/browser_xhr_2.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://www.bedetheque.com/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "feed": 1,
+  "html": 2,
+  "text": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "http://www.w3.org/1999/xhtml/vocab#": 2,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "fr",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "20036",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url (https://www.bedetheque.com/auteur-20036-BD-Twain-Mark.html)",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://www.bedetheque.com/media/Photos/Photo_20036.png",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:image",
+    "file": "P5491.json",
+    "uri": true
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "fr",
+    "via": "llm-page:Prénom",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "fr",
+    "via": "llm-page:Nom",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Twain, Mark",
+    "lang": "fr",
+    "via": "llm-page:Pseudo",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:Naissance",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:Décès",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "ÉTATS-UNIS",
+    "lang": "fr",
+    "via": "llm-page:Naissance (country)",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain (1835-1910) est revenu plusieurs fois dans sa carrière aux héros qu’il avait créés en 1876, Tom Sawyer et Huckleberry Finn, écrivant des “romans pour enfants pour adultes”. Les aventures de Tom Sawyer puis Les aventures de Huckleberry Finn, ce dernier opus raconté à la première personne par Huck, sont novatrices dans leur langage, et dans leur perception lucide des débordements pré-adolescents. Ces deux chefs-d’oeuvre majeurs de la littérature américaine seront suivis de trois courts ",
+    "lang": "fr",
+    "via": "llm-page:Sa biographie",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Les aventures de Tom Sawyer",
+    "lang": "fr",
+    "via": "llm-page:biography",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Les aventures de Huckleberry Finn",
+    "lang": "fr",
+    "via": "llm-page:biography",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer détective",
+    "lang": "fr",
+    "via": "llm-page:biography",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Aventures de Huckleberry Finn (Les)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Chefs-d'Œuvre de la littérature en bandes dessinées (Les)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Grands classiques (De La Fuente)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Grands Classiques de la littérature en bande dessinée (Les)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finn",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn (Les Aventures de) (Lefèbvre)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Huckleberry Finn (Les Aventures de) (Mattotti)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Samedi Jeunesse",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer (Les Aventures de) (Akita/Istin)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer (Les Aventures de) (Greantori)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer (Les Aventures de) (Kuma)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer (Les Aventures de) (Leduc-Dardill)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer (Les Aventures de) (Lefèbvre/Morvan/Voulyzé)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer (Les Aventures de) (Shirosaki)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer (Les nouvelles aventures de)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Tom Sawyer, Détective",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Walt Disney (France Loisirs)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Aventuras de Tom Sawyer (As)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Biblioteca RTP - Clássicos em Banda Desenhada",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Classics Illustrated (1990)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Clássicos da Literatura em BD",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Clássicos em Quadradinhos",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Dell Junior Treasury (1955 - 1957)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Huck Finn (en allemand)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Joyas Literarias Juveniles",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Maravilhas da Literatura",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Maravillas de la Literatura",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Marvel Classics Comics (1976)",
+    "lang": null,
+    "via": "llm-page:Sa bibliographie: comic series, role Adaptation (source author)",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Nicollet (subject of '(AUT) Nicollet' monograph series listing him)",
+    "lang": null,
+    "via": "llm-page:Documents, Monographies, Biographies",
+    "file": "P5491.json",
+    "uri": false
+   },
+   {
+    "value": "Sarbacane (source of biography text)",
+    "lang": null,
+    "via": "llm-page:biography credit",
+    "file": "P5491.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://fr.wikipedia.org/wiki/Mark_Twain",
+    "lang": null,
+    "via": "llm-page:Site internet",
+    "file": "P5491.json",
+    "uri": true
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "fr"
+  ],
+  "identifier": [],
+  "image": [],
+  "given_name": [
+   "fr"
+  ],
+  "family_name": [
+   "fr"
+  ],
+  "pseudonym": [
+   "fr"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "fr"
+  ],
+  "description": [
+   "fr"
+  ],
+  "work": [
+   "fr"
+  ],
+  "related_agent": [],
+  "same_as": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 2
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 379,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Twain, Mark - Bibliographie, BD, photo, biographie"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://www.bedetheque.com/media/Photos/Photo_20036.png"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.bedetheque.com/auteur-20036-BD-Twain-Mark.html"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Tout sur l'auteur BD Twain, Mark : biographie, bibliographie"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Twain, Mark - Bibliographie, BD, photo, biographie"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://www.bedetheque.com/auteur-20036-BD-Twain-Mark.html"
+    },
+    {
+     "path": "[].og:description",
+     "value": "Tout sur l'auteur BD Twain, Mark : biographie, bibliographie"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "alternate_1.xml",
+   "format": "xml",
+   "size": 76905,
+   "path_count": 17,
+   "paths": [
+    {
+     "path": "rss/channel/item",
+     "n": 50,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/item/title",
+     "n": 50,
+     "sample": "Preview : Silent Rose - Six notes sous terre"
+    },
+    {
+     "path": "rss/channel/item/link",
+     "n": 50,
+     "sample": "https://www.bdgest.com/preview/detail/id/4881/source/rss"
+    },
+    {
+     "path": "rss/channel/item/pubDate",
+     "n": 50,
+     "sample": "Fri, 02 Oct 2026 00:00:00 +0200"
+    },
+    {
+     "path": "rss/channel/item/description",
+     "n": 50,
+     "sample": "<blockquote><img src=\"https://www.bdgest.com/prepub/thb_couv/4881_couv.jpg\" width=\"100\" align=\"left\" hspace=\"15\"/>La mus"
+    },
+    {
+     "path": "rss",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss@version",
+     "n": 1,
+     "sample": "2.0"
+    },
+    {
+     "path": "rss/channel",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "rss/channel/title",
+     "n": 1,
+     "sample": "BD Gest'"
+    },
+    {
+     "path": "rss/channel/link",
+     "n": 1,
+     "sample": "https://www.bdgest.com/"
+    },
+    {
+     "path": "rss/channel/description",
+     "n": 1,
+     "sample": "L'actualite BD du site www.bdgest.com"
+    },
+    {
+     "path": "rss/channel/language",
+     "n": 1,
+     "sample": "fr"
+    },
+    {
+     "path": "rss/channel/copyright",
+     "n": 1,
+     "sample": "Copyright 2013 Home Solutions All rights reserved."
+    },
+    {
+     "path": "rss/channel/pubDate",
+     "n": 1,
+     "sample": "Fri, 02 Oct 2026 00:00:00 +0200"
+    },
+    {
+     "path": "rss/channel/lastBuildDate",
+     "n": 1,
+     "sample": "Fri, 02 Oct 2026 00:00:00 +0200"
+    },
+    {
+     "path": "rss/channel/webMaster",
+     "n": 1,
+     "sample": "info@bdgest.com (BD Gest')"
+    },
+    {
+     "path": "rss/channel/category",
+     "n": 1,
+     "sample": "BD"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "rss"
+   ]
+  }
+ ],
+ "llm_notes": "Bedetheque author page 20036 'Twain, Mark': name/pseudonym fields, birth/death, a short bio (© Sarbacane) and a bibliography of comic series where he is credited for the adapted source text (role 'Adaptation'), plus one monograph series '(AUT) Nicollet'. 'Les auteurs à lire aussi' (Defoe, Stevenson) is sidebar, not data.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

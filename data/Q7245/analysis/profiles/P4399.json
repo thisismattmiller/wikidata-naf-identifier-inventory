@@ -1,0 +1,252 @@
+{
+ "property": "P4399",
+ "property_label": "Itaú Cultural ID",
+ "files": [
+  {
+   "file": "P4399__pessoa407320_mark-twain_2a2bb5dd/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://enciclopedia.itaucultural.org.br/pessoas/28271-mark-twain"
+  },
+  {
+   "file": "P4399__pessoa407320_mark-twain_2a2bb5dd/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://enciclopedia.itaucultural.org.br/pessoas/28271-mark-twain"
+  },
+  {
+   "file": "P4399__pessoa407320_mark-twain_2a2bb5dd/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://plugin.handtalk.me/remote-config/fe5df737ab2477f4765a25cddb4a5b71.json"
+  }
+ ],
+ "formats": {
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 5,
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:title']",
+    "file": "P4399.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "pt",
+    "via": "llm-page:page heading",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "28271-mark-twain",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: $[0]['og:url']",
+    "file": "P4399.json",
+    "uri": false
+   },
+   {
+    "value": "pessoa407320",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "pt",
+    "via": "llm-page:'Outras grafias do nome'",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "llm-page:dates line under heading",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "llm-page:dates line under heading",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Estados Unidos / Missouri / Florida",
+    "lang": "pt",
+    "via": "llm-page:dates line under heading",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Estados Unidos / Connecticut / Redding",
+    "lang": "pt",
+    "via": "llm-page:dates line under heading",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Escritora / Escritor",
+    "lang": "pt",
+    "via": "llm-page:'Atuações'",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ],
+  "field_of_activity": [
+   {
+    "value": "Teatro",
+    "lang": "pt",
+    "via": "llm-page:section label 'TEATRO'",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Fontes de pesquisa (1)",
+    "lang": "pt",
+    "via": "llm-page:section heading (content not shown)",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-12-04",
+    "lang": "pt",
+    "via": "llm-page:byline",
+    "file": "P4399.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "pt"
+  ],
+  "identifier": [],
+  "name_variant": [
+   "pt"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "birth_place": [
+   "pt"
+  ],
+  "death_place": [
+   "pt"
+  ],
+  "occupation": [
+   "pt"
+  ],
+  "field_of_activity": [
+   "pt"
+  ],
+  "source": [
+   "pt"
+  ],
+  "record_modified": [
+   "pt"
+  ]
+ },
+ "unmapped": {},
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 263,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "pt_BR"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Enciclopédia Itaú Cultural"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://enciclopedia.itaucultural.org.br/pessoas/28271-mark-twain"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "article"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "[].og:url",
+     "value": "https://enciclopedia.itaucultural.org.br/pessoas/28271-mark-twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 63,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "isMajority",
+     "n": 1,
+     "sample": "False"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Enciclopédia Itaú Cultural (theatre section) person entry for Mark Twain: birth/death dates and places, other name form and role; the 2 theatre works and 1 source are only counted, not listed in the rendered text. No biography text.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

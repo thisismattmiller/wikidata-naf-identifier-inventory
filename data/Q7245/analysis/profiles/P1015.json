@@ -1,0 +1,233 @@
+{
+ "property": "P1015",
+ "property_label": "BIBSYS ID",
+ "files": [],
+ "formats": {},
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "llm-page:'Personal name'",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Conte, Louis de",
+    "lang": null,
+    "via": "llm-page:'Personal name (See From Tracing)'",
+    "file": "P1015.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel L., 1835-1910",
+    "lang": null,
+    "via": "llm-page:'Personal name (See From Tracing)'",
+    "file": "P1015.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "llm-page:'Personal name (See From Tracing)'",
+    "file": "P1015.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm-page:'Personal name (See From Tracing)'",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Twain, Mark",
+    "lang": "nb",
+    "via": "llm-page:678$a",
+    "file": "P1015.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de",
+    "lang": null,
+    "via": "llm-page:See From Tracing",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:'Dates associated with a name'",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:'Dates associated with a name'",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "gender": [
+   {
+    "value": "m",
+    "lang": null,
+    "via": "llm-page:'Gender'",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "am.",
+    "lang": "nb",
+    "via": "llm-page:386",
+    "file": "P1015.json",
+    "uri": false
+   },
+   {
+    "value": "US",
+    "lang": null,
+    "via": "llm-page:043$c country code",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Psevdonym for Samuel Langhorne Clemens",
+    "lang": "nb",
+    "via": "llm-page:678$a",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://id.bs.no/bibbi/37170",
+    "lang": null,
+    "via": "llm-page:'bibbi'",
+    "file": "P1015.json",
+    "uri": true
+   },
+   {
+    "value": "http://hdl.handle.net/11250/2341303",
+    "lang": null,
+    "via": "llm-page:'handle'",
+    "file": "P1015.json",
+    "uri": true
+   },
+   {
+    "value": "https://isni.org/isni/0000000121324854",
+    "lang": null,
+    "via": "llm-page:'isni'",
+    "file": "P1015.json",
+    "uri": true
+   },
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm-page:'viaf'",
+    "file": "P1015.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "90056487",
+    "lang": null,
+    "via": "llm-page:'System control number' / 'scn'",
+    "file": "P1015.json",
+    "uri": false
+   },
+   {
+    "value": "x90056487",
+    "lang": null,
+    "via": "llm-page:'autid'",
+    "file": "P1015.json",
+    "uri": false
+   },
+   {
+    "value": "oai:bibsys.no:authority:90056487",
+    "lang": null,
+    "via": "llm-page:'scn'",
+    "file": "P1015.json",
+    "uri": false
+   },
+   {
+    "value": "724f3aa4-6299-4250-ada2-f663c6fa691e",
+    "lang": null,
+    "via": "llm-page:024$a",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "NO-TrBIB",
+    "lang": null,
+    "via": "llm-page:040",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2013-04-25",
+    "lang": null,
+    "via": "llm-page:'Created date'",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2026-06-15",
+    "lang": null,
+    "via": "llm-page:'Last update date'",
+    "file": "P1015.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [],
+  "name_variant": [],
+  "pseudonym": [
+   "nb"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "gender": [],
+  "nationality": [
+   "nb"
+  ],
+  "description": [
+   "nb"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "source": [],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "('(Spirit)' heading via page text, dropped)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "BIBSYS / Norwegian authority file HTML field table for record 90056487 'Twain, Mark, 1835-1910': variant names, gender, nationality, a 678 note stating it is a pseudonym for Samuel Langhorne Clemens, and links to BIBBI, handle, ISNI (two) and VIAF.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

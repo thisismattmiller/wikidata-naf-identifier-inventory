@@ -1,0 +1,214 @@
+{
+ "property": "P5859",
+ "property_label": "Adelphi author ID",
+ "files": [
+  {
+   "file": "P5859__1022/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.adelphi.it/catalogo/autore/1022"
+  },
+  {
+   "file": "P5859__1022/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.adelphi.it/catalogo/autore/1022"
+  },
+  {
+   "file": "P5859__1022/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.adelphi.it/catalogo/autore/1022"
+  },
+  {
+   "file": "P5859__1022/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.adelphi.it/spool/autocomplete.products.json"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "json": 1
+ },
+ "vocabularies": {
+  "http://ogp.me/ns#": 6,
+  "LLM extraction": 2,
+  "https://github.com/andreaganduglia/": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "it",
+    "via": "llm:embedded_opengraph.json: og:title",
+    "file": "P5859.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1022",
+    "lang": null,
+    "via": "llm:embedded_opengraph.json: og:url",
+    "file": "P5859.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "In cerca di guai",
+    "lang": null,
+    "via": "llm-page:catalogue list",
+    "file": "P5859.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Giulia Arborio Mella (translator of In cerca di guai)",
+    "lang": null,
+    "via": "llm-page:catalogue list",
+    "file": "P5859.json",
+    "uri": false
+   },
+   {
+    "value": "Orion (brother, Secretary of the Nevada Territory)",
+    "lang": null,
+    "via": "llm-page:book blurb",
+    "file": "P5859.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Far West / Nevada",
+    "lang": "it",
+    "via": "llm-page:book blurb",
+    "file": "P5859.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "it"
+  ],
+  "identifier": [],
+  "work": [],
+  "related_agent": [],
+  "activity_place": [
+   "it"
+  ]
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1,
+  "(og chrome: tagline / site image)": 1,
+  "dpr-detector (https://github.com/andreaganduglia/)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 253,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "Adelphi Edizioni"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "it_IT"
+    },
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.adelphi.it/catalogo/autore/1022"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "website"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 689070,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "[].type",
+     "n": 50,
+     "sample": "books"
+    },
+    {
+     "path": "[].url",
+     "n": 50,
+     "sample": "/catalogo/libro/9378e67f-e075-4c94-abab-71c15ebad6a3"
+    },
+    {
+     "path": "[].title",
+     "n": 50,
+     "sample": "Sion, Texas"
+    },
+    {
+     "path": "[].subtitle",
+     "n": 50,
+     "sample": "Alla ricerca di una terra promessa"
+    },
+    {
+     "path": "[].authors",
+     "n": 50,
+     "sample": "Rachel Cockerell"
+    },
+    {
+     "path": "[].keywords",
+     "n": 50,
+     "sample": null
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "url"
+   ]
+  }
+ ],
+ "llm_notes": "Adelphi (Italian publisher) catalogue page for Mark Twain listing a single volume, 'In cerca di guai' (Italian translation of Roughing It), with blurb, translator and editions. No biography.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

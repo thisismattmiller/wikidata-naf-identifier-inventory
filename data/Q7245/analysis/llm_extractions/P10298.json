@@ -1,0 +1,11 @@
+{
+ "property": "P10298",
+ "label": "Sceneweb artist ID",
+ "files_read": ["P10298__76862/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph metadata only: name and URL of the Sceneweb artist page.",
+ "elements": {
+   "name_preferred": [{"value": "Mark Twain", "lang": null, "via": "embedded_opengraph.json: $[0]['og:title']"}],
+   "identifier": [{"value": "76862", "raw": "https://sceneweb.no/nb/artist/76862/Mark_Twain", "via": "embedded_opengraph.json: $[0]['og:url']"}]
+ }
+}

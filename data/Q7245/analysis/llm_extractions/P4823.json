@@ -1,0 +1,21 @@
+{
+ "property": "P4823",
+ "label": "American National Biography ID",
+ "files_read": ["P4823__1600313/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "OpenGraph tags of the ANB article page. The title carries the heading, life years and occupations; og:description only repeats the title with a publisher line.",
+ "elements": {
+  "name_preferred": [{"value": "Twain, Mark", "raw": "Twain, Mark (1835-1910), author and lecturer", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "birth_date": [{"value": "1835", "raw": "1835-1910", "lang": null, "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "death_date": [{"value": "1910", "raw": "1835-1910", "lang": null, "via": "embedded_opengraph.json: $[0]['og:title']"}],
+  "occupation": [
+   {"value": "author", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"},
+   {"value": "lecturer", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:title']"}
+  ],
+  "identifier": [
+   {"value": "1600313", "raw": "https://www.anb.org/display/10.1093/anb/9780198606697.001.0001/anb-9780198606697-e-1600313", "via": "embedded_opengraph.json: $[0]['og:url']"},
+   {"value": "10.1093/anb/9780198606697.001.0001/anb-9780198606697-e-1600313", "via": "embedded_opengraph.json: $[0]['og:url'] (DOI path)"}
+  ],
+  "source": [{"value": "American National Biography, Oxford University Press", "via": "embedded_opengraph.json: $[0]['og:site_name'] / ['og:description']"}]
+ }
+}

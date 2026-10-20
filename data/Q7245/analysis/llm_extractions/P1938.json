@@ -1,0 +1,47 @@
+{
+ "property": "P1938",
+ "label": "Project Gutenberg author ID",
+ "files_read": ["P1938__53/embedded_opengraph.json", "P1938__53/alternate_1.xml"],
+ "about_entity": true,
+ "notes": "OpenGraph is page chrome (og:description is the generic site tagline). alternate_1.xml is the OPDS (Atom) feed for author 53, first page of 25 books, plus a 'See also' entry linking to English Wikipedia. One listed book ('The Best American Humorous Short Stories') is an anthology whose entry gives a download count instead of an author, so it is not attributed.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "lang": "en", "raw": "Books by Twain, Mark", "via": "alternate_1.xml: /feed/title; embedded_opengraph.json: og:title"}
+  ],
+  "name_variant": [
+   {"value": "Mark Twain", "lang": "en", "via": "alternate_1.xml: /feed/entry/content"}
+  ],
+  "work": [
+   {"value": "The Adventures of Tom Sawyer, Complete", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "The Adventures of Tom Sawyer", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "Adventures of Huckleberry Finn", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "Life on the Mississippi", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "The Prince and the Pauper", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "A Connecticut Yankee in King Arthur's Court", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "Roughing It", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "The Innocents Abroad", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "Following the Equator: A Journey Around the World", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "The Gilded Age: A Tale of Today", "lang": "en", "via": "alternate_1.xml: /feed/entry/title (with Charles Dudley Warner)"},
+   {"value": "Chapters from My Autobiography", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "A Tramp Abroad", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "The Tragedy of Pudd'nhead Wilson", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "Sketches New and Old", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "The Mysterious Stranger, and Other Stories", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "What Is Man? and Other Essays", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "Eve's Diary, Complete", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "The Entire Project Gutenberg Works of Mark Twain", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "Mark Twain's Speeches", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "Fenimore Cooper's Literary Offences", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"},
+   {"value": "Tom Sawyer Abroad", "lang": "en", "via": "alternate_1.xml: /feed/entry/title"}
+  ],
+  "related_agent": [
+   {"value": "Charles Dudley Warner", "relation": "co-author of The Gilded Age", "via": "alternate_1.xml: /feed/entry[title='The Gilded Age: A Tale of Today']/content"}
+  ],
+  "same_as": [
+   {"value": "https://en.wikipedia.org/wiki/Mark_Twain", "via": "alternate_1.xml: /feed/entry[1]/id (See also: en.wikipedia)"}
+  ],
+  "identifier": [
+   {"value": "53", "raw": "https://www.gutenberg.org/ebooks/author/53", "via": "embedded_opengraph.json: og:url; alternate_1.xml: /feed/id"}
+  ]
+ }
+}

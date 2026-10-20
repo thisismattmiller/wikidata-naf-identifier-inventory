@@ -1,0 +1,139 @@
+{
+ "property": "P9918",
+ "property_label": "Kallías ID",
+ "files": [
+  {
+   "file": "P9918__PE00001314/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.dla-marbach.de/find/opac/id/PE00001314"
+  }
+ ],
+ "formats": {
+  "rdfa": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark",
+    "lang": "de",
+    "via": "llm-page:page heading",
+    "file": "P9918.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm-page:page heading",
+    "file": "P9918.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm-page:page heading",
+    "file": "P9918.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Schriftsteller",
+    "lang": "de",
+    "via": "llm-page:line under heading",
+    "file": "P9918.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "Wikipedia (link, URL not shown)",
+    "lang": null,
+    "via": "llm-page:Andere Fundorte",
+    "file": "P9918.json",
+    "uri": false
+   },
+   {
+    "value": "Filmportal (link, URL not shown)",
+    "lang": null,
+    "via": "llm-page:Andere Fundorte",
+    "file": "P9918.json",
+    "uri": false
+   },
+   {
+    "value": "GND (link, URL not shown)",
+    "lang": null,
+    "via": "llm-page:Andere Fundorte",
+    "file": "P9918.json",
+    "uri": false
+   },
+   {
+    "value": "Wikidata (link, URL not shown)",
+    "lang": null,
+    "via": "llm-page:Andere Fundorte",
+    "file": "P9918.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "PE00001314",
+    "lang": null,
+    "via": "llm-page:URL dla-marbach.de/find/opac/id/PE00001314",
+    "file": "P9918.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Werke (10) - work list link, titles not shown",
+    "lang": "de",
+    "via": "llm-page:Werkbeziehungen",
+    "file": "P9918.json",
+    "uri": false
+   }
+  ],
+  "license": [
+   {
+    "value": "Public domain (image)",
+    "lang": "en",
+    "via": "llm-page:image caption",
+    "file": "P9918.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "de"
+  ],
+  "birth_date": [],
+  "death_date": [],
+  "occupation": [
+   "de"
+  ],
+  "same_as": [],
+  "identifier": [],
+  "work": [
+   "de"
+  ],
+  "license": [
+   "en"
+  ]
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "DLA Marbach Kallías person page: heading with dates, one-word occupation, counts of holdings by/about him (98 printed, 2 manuscripts, etc.; 187 items in total), a Wikimedia Commons portrait, and outbound links to Wikipedia, Filmportal, GND and Wikidata (link targets not in the page text). 'Weitere Details' not expanded.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

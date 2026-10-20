@@ -1,0 +1,1626 @@
+{
+ "property": "P345",
+ "property_label": "IMDb ID",
+ "files": [
+  {
+   "file": "P345__nm0878494/embedded_json-ld.json",
+   "format": "json-ld",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.imdb.com/name/nm0878494/"
+  },
+  {
+   "file": "P345__nm0878494/embedded_opengraph.json",
+   "format": "opengraph",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.imdb.com/name/nm0878494/"
+  },
+  {
+   "file": "P345__nm0878494/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.imdb.com/name/nm0878494/"
+  },
+  {
+   "file": "P345__nm0878494/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://api.graphql.imdb.com/"
+  },
+  {
+   "file": "P345__nm0878494/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://fb423e1ef94f.d0a40594.us-east-1.token.awswaf.com/fb423e1ef94f/c3382d439950/inputs?client=browser"
+  },
+  {
+   "file": "P345__nm0878494/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://geo.privacymanager.io/"
+  },
+  {
+   "file": "P345__nm0878494/xhr_22.bin",
+   "format": "unknown",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://id.hadron.ad.gt/v1/hadron.json?_it=amazon&partner_id=745&sync=0&domain=www.imdb.com&url=https://www.imdb.com/name/nm0878494/&v=06"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=SLATE_RELATED_VIDEO_IDS&variables=%7B%22autoStartVideo%22%3Atrue%2C%22locale%22%3A%22en-US%22%2C%22pageType%22%3A%22name%22%2C%22skipAds%22%3Afalse%2C%22subPageType%22%3A%22main%22%2C%22useV2Ad%22%3Atrue%2C%22userAgent%22%3A%22Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F153.0.0.0%20Safari%2F537.36%22%2C%22viconst%22%3A%22vi1488101145%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%22c7b46a478e7e9f42ae9ef303cf9954bb8d51db1092e2c4c55b88461c004f7dca%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=ProAppUpsell&variables=%7B%22locale%22%3A%22en-US%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%22e0d50af43113321f7e9ea4f77f6e60ab16c4f52d99ad30c480dbf2a203b1242f%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_4.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=TitlesUserRatings&variables=%7B%22idArray%22%3A%5B%22tt31100378%22%2C%22tt6420504%22%2C%22tt10147302%22%2C%22tt13912396%22%5D%2C%22locale%22%3A%22en-US%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%226fc68f3472b1df2ab36554a4f95bc493b1f1107b22285b9885872e86e5c2d543%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_5.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=TitlesUserRatings&variables=%7B%22idArray%22%3A%5B%22tt6977212%22%5D%2C%22locale%22%3A%22en-US%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%226fc68f3472b1df2ab36554a4f95bc493b1f1107b22285b9885872e86e5c2d543%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_6.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=TitlesUserRatings&variables=%7B%22idArray%22%3A%5B%22tt11197574%22%2C%22tt9249092%22%2C%22tt24856784%22%2C%22tt30252572%22%2C%22tt14635892%22%2C%22tt13814962%22%2C%22tt34913315%22%2C%22tt12293308%22%2C%22tt37282551%22%2C%22tt4029234%22%2C%22tt5666046%22%2C%22tt30252497%22%2C%22tt37282431%22%2C%22tt6924668%22%2C%22tt15806996%22%5D%2C%22locale%22%3A%22en-US%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%226fc68f3472b1df2ab36554a4f95bc493b1f1107b22285b9885872e86e5c2d543%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_7.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=FavoritePeopleCount&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%22ef3940230cd7af7be7a33a7ceeab53fc098cc185c3f39113dcb784f831220b71%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_8.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=TitlesUserRatings&variables=%7B%22idArray%22%3A%5B%22tt0001008%22%2C%22tt0000586%22%5D%2C%22locale%22%3A%22en-US%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%226fc68f3472b1df2ab36554a4f95bc493b1f1107b22285b9885872e86e5c2d543%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_9.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=TitlesUserRatings&variables=%7B%22idArray%22%3A%5B%22tt0311429%22%2C%22tt0138074%22%5D%2C%22locale%22%3A%22en-US%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%226fc68f3472b1df2ab36554a4f95bc493b1f1107b22285b9885872e86e5c2d543%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_11.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=UserFollowedInterests&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%22817e9e4f9ee4535f598d80444dbf926be2da7dcbb699f319f4a9a69fd07ef961%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_12.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://caching.graphql.imdb.com/?operationName=ListCollectionConnection&variables=%7B%22first%22%3A6%2C%22itemId%22%3A%22nm0878494%22%2C%22locale%22%3A%22en-US%22%2C%22topListType%22%3A%22EDITORIAL%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%22f68eeecb42a6e05454febe70686e7c20a5f0809a29148d074f7ee3b150469e0b%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_13.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=AmazonAccountPoolConversionPromptStatus&variables=%7B%22locale%22%3A%22en-US%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%22d462cff75ed76119c133b45d6146fe96ff5aa0268ee45b1f1fa4cc23dac8275c%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_14.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=NavBarFlyoutCTA&variables=%7B%22isLoggedIn%22%3Atrue%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%222a375844cd5537a920b43e49cdc95896542dc46aa8429e66b407bbe8a749b9c0%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_15.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=ListCollectionConnection&variables=%7B%22first%22%3A6%2C%22itemId%22%3A%22nm0878494%22%2C%22locale%22%3A%22en-US%22%2C%22topListType%22%3A%22ALL%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%22f68eeecb42a6e05454febe70686e7c20a5f0809a29148d074f7ee3b150469e0b%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_16.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://caching.graphql.imdb.com/?operationName=NameMainProjectsInDev&variables=%7B%22first%22%3A5%2C%22locale%22%3A%22en-US%22%2C%22nconst%22%3A%22nm0878494%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%2219507cdb3883a63d0e4e2a231ceb4c2835e1e76f68445a4a749a6787ba9f5aeb%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_17.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=NameUserPolls&variables=%7B%22itemId%22%3A%22nm0878494%22%2C%22locale%22%3A%22en-US%22%2C%22pollCount%22%3A6%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%2272a2767304e9e2c2fbc47296f0f1888abc76f3f4667062a6f536810ba82dc9c5%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_18.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=RVI_Items&variables=%7B%22count%22%3A15%2C%22locale%22%3A%22en-US%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%2232eda43bfa1053f69036b945638fc4a0ae6cc4a2429de224b3185f8b0e37717b%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_19.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=ReactionsForEntities&variables=%7B%22aggregateEntityIds%22%3A%5B%22vi1488101145%22%2C%22vi2026898457%22%5D%2C%22userEntityIds%22%3A%5B%22vi1488101145%22%2C%22vi2026898457%22%5D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%2260c3e6ca9f78c1562108efac862e83d46807e873ed461a3692959fa4c9a780e8%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_20.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://api.graphql.imdb.com/?operationName=SLATE_RELATED_VIDEOS&variables=%7B%22autoStartVideo%22%3Atrue%2C%22locale%22%3A%22en-US%22%2C%22pageType%22%3A%22name%22%2C%22skipAds%22%3Afalse%2C%22subPageType%22%3A%22main%22%2C%22useV2Ad%22%3Atrue%2C%22userAgent%22%3A%22Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F153.0.0.0%20Safari%2F537.36%22%2C%22viconsts%22%3A%5B%22vi2481505049%22%2C%22vi2852568857%22%2C%22vi2694691865%22%5D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%226fc7788ca69a3a5bca3f31cf81604b2340b451e3f38de71a020f4036746b9400%22%2C%22version%22%3A1%7D%7D"
+  },
+  {
+   "file": "P345__nm0878494/browser_xhr_21.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://id.hadron.ad.gt/v1/hadron.json?_it=amazon&partner_id=745&sync=0&domain=www.imdb.com&url=https://www.imdb.com/name/nm0878494/&v=06"
+  }
+ ],
+ "formats": {
+  "json-ld": 1,
+  "opengraph": 1,
+  "rdfa": 1,
+  "html": 1,
+  "json": 22,
+  "unknown": 1
+ },
+ "vocabularies": {
+  "http://www.w3.org/1999/xhtml/vocab#": 31,
+  "http://opengraphprotocol.org/schema/": 17,
+  "http://schema.org/": 9,
+  "https://dev.twitter.com/cards#": 6,
+  "": 4,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "type": [
+   {
+    "value": "http://schema.org/Person",
+    "lang": null,
+    "via": "type",
+    "file": "embedded_json-ld.json",
+    "uri": true
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://www.imdb.com/name/nm0878494/",
+    "lang": null,
+    "via": "url",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "https://m.media-amazon.com/images/M/MV5BZDBjOGYxYzktMjM1YS00ZTRmLTk3NjUtOTUxY2RlMDg5YTY4XkEyXkFqcGc@._V1_.jpg",
+    "lang": null,
+    "via": "json:data.name.featuredPolls.edges.node.primaryImage.image.url",
+    "file": "browser_xhr_17.json",
+    "uri": true
+   },
+   {
+    "value": "https://m.media-amazon.com/images/M/MV5BMTc3NzcyMjU3MF5BMl5BanBnXkFtZTgwNDg2OTI1MDE@._V1_.jpg",
+    "lang": null,
+    "via": "json:data.recentlyViewedItems.edges.node.primaryImage.url",
+    "file": "browser_xhr_18.json",
+    "uri": true
+   }
+  ],
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "name",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "image": [
+   {
+    "value": "https://m.media-amazon.com/images/M/MV5BMTc3NzcyMjU3MF5BMl5BanBnXkFtZTgwNDg2OTI1MDE@._V1_.jpg",
+    "lang": null,
+    "via": "image",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Mark Twain. Writer: Big River. Mark Twain, born Samuel Langhorne Clemens in Florida, Missouri in 1835, grew up in Hannibal. He was a steamboat pilot on the Mississippi River. Throughout his career, Twain served as a writer, lecturer, reporter, editor, printer, and prospector. Twain took his pen name from an alert cry used on his steamboat - &quot;by the mark, twain&quot;.",
+    "lang": null,
+    "via": "description",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "json:data.recentlyViewedItems.edges.node.nameText.text",
+    "file": "browser_xhr_18.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain, born Samuel Langhorne Clemens in Florida, Missouri in 1835, grew up in Hannibal. He was a steamboat pilot on the Mississippi River. Throughout his career, Twain served as a writer, lecturer, reporter, editor, printer, and prospector. Twain took his pen name from an alert cry used on his steamboat - \"by the mark, twain\".",
+    "lang": "en",
+    "via": "llm-page:bio blurb",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "Writer",
+    "lang": null,
+    "via": "jobTitle",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Actor",
+    "lang": null,
+    "via": "jobTitle",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Additional Crew",
+    "lang": null,
+    "via": "jobTitle",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "Writer",
+    "lang": "en",
+    "via": "llm-page:heading roles",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "Actor",
+    "lang": "en",
+    "via": "llm-page:heading roles",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "Additional Crew",
+    "lang": "en",
+    "via": "llm-page:heading roles",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "steamboat pilot",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "lecturer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "reporter",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "editor",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "printer",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "prospector",
+    "lang": "en",
+    "via": "llm-page:bio",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": null,
+    "via": "birthDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Born",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": null,
+    "via": "deathDate",
+    "file": "embedded_json-ld.json",
+    "uri": false
+   },
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Died",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Clemens",
+    "lang": "en",
+    "via": "llm-page:Personal details: Alternative names",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "Sam",
+    "lang": "en",
+    "via": "llm-page:Nickname",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida, Missouri, USA",
+    "lang": "en",
+    "via": "llm-page:Personal details: Born",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "death_place": [
+   {
+    "value": "Redding, Connecticut, USA",
+    "lang": "en",
+    "via": "llm-page:Personal details: Died",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "activity_place": [
+   {
+    "value": "Hannibal",
+    "lang": "en",
+    "via": "llm-page:bio sentence 'grew up in Hannibal'",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "Mississippi River",
+    "lang": "en",
+    "via": "llm-page:bio sentence",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:credits / Known for",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:credits",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": null,
+    "via": "llm-page:credits",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "The Diaries of Adam and Eve",
+    "lang": null,
+    "via": "llm-page:credits",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": null,
+    "via": "llm-page:credits",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "Joan of Arc",
+    "lang": null,
+    "via": "llm-page:Other works",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "Big River",
+    "lang": null,
+    "via": "llm-page:Known for (adaptation)",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "Lionizing Murderers",
+    "lang": null,
+    "via": "llm-page:Known for",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "The Purloining of Prince Oleomargarine",
+    "lang": null,
+    "via": "llm-page:Projects in development",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "Day of the Stranger",
+    "lang": null,
+    "via": "llm-page:credits",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Olivia Langdon (spouse, February 2, 1870 - June 5, 1904)",
+    "lang": null,
+    "via": "llm-page:Spouse",
+    "file": "P345.json",
+    "uri": false
+   },
+   {
+    "value": "Olivia Susan \"Susy\" Clemens (child)",
+    "lang": null,
+    "via": "llm-page:Children",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "nm0878494",
+    "lang": null,
+    "via": "llm-page:page URL",
+    "file": "P345.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "Mark Twain Project; Official site (CMG Worldwide)",
+    "lang": null,
+    "via": "llm-page:Official sites",
+    "file": "P345.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "type": [],
+  "see_also": [],
+  "name_preferred": [
+   "en"
+  ],
+  "image": [],
+  "description": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "death_place": [
+   "en"
+  ],
+  "activity_place": [
+   "en"
+  ],
+  "work": [],
+  "related_agent": [],
+  "identifier": [],
+  "source": []
+ },
+ "unmapped": {
+  "(og chrome: tagline / site image)": 4,
+  "imdb:pageConst ()": 1,
+  "imdb:pageRequestId ()": 1,
+  "imdb:pageType ()": 1,
+  "imdb:subPageType ()": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_opengraph.json",
+   "format": "json",
+   "size": 573,
+   "path_count": 11,
+   "paths": [
+    {
+     "path": "[].og:url",
+     "n": 1,
+     "sample": "https://www.imdb.com/name/nm0878494/"
+    },
+    {
+     "path": "[].og:site_name",
+     "n": 1,
+     "sample": "IMDb"
+    },
+    {
+     "path": "[].og:title",
+     "n": 1,
+     "sample": "Mark Twain | Writer, Actor, Additional Crew"
+    },
+    {
+     "path": "[].og:description",
+     "n": 1,
+     "sample": "Known for: Big River, Lionizing Murderers, The Adventures of Huckleberry Finn"
+    },
+    {
+     "path": "[].og:image",
+     "n": 1,
+     "sample": "https://m.media-amazon.com/images/M/MV5BMTc3NzcyMjU3MF5BMl5BanBnXkFtZTgwNDg2OTI1MDE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+     "path": "[].og:image:height",
+     "n": 1,
+     "sample": "1335.0717079530639"
+    },
+    {
+     "path": "[].og:image:width",
+     "n": 1,
+     "sample": "1000"
+    },
+    {
+     "path": "[].og:locale",
+     "n": 1,
+     "sample": "en_US"
+    },
+    {
+     "path": "[].og:locale:alternate",
+     "n": 1,
+     "sample": "es_ES"
+    },
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "profile"
+    },
+    {
+     "path": "[].@context.og",
+     "n": 1,
+     "sample": "http://ogp.me/ns#"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "[].og:title",
+     "value": "Mark Twain | Writer, Actor, Additional Crew"
+    }
+   ],
+   "language_like_keys": [
+    "og"
+   ]
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 765,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "challenge.input",
+     "n": 1,
+     "sample": "496be4e2-d297-425e-8324-af4a2106982d:EQoAtb5f12A1GAAA:i2Qi1CFdycqCtWXIv/A5esQ/8eXSZ3fs40i3LUN3jjDfaH4BXOzT2zGMC0YyrdEBln"
+    },
+    {
+     "path": "challenge.region",
+     "n": 1,
+     "sample": "us-east-1"
+    },
+    {
+     "path": "challenge_type",
+     "n": 1,
+     "sample": "h7b0c470f0cfe3a80a9e26526ad185f484f6817d0832712a4a37a908786a6a67f"
+    },
+    {
+     "path": "difficulty",
+     "n": 1,
+     "sample": "8"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 30,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "country",
+     "n": 1,
+     "sample": "US"
+    },
+    {
+     "path": "region",
+     "n": 1,
+     "sample": "DC"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_1.json",
+   "format": "json",
+   "size": 450,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "errors[].message",
+     "n": 1,
+     "sample": "Internal server error"
+    },
+    {
+     "path": "errors[].extensions.code",
+     "n": 1,
+     "sample": "INTERNAL_SERVER_ERROR"
+    },
+    {
+     "path": "errors[].extensions.errorType",
+     "n": 1,
+     "sample": "SERVER"
+    },
+    {
+     "path": "errors[].extensions.isRetryable",
+     "n": 1,
+     "sample": "True"
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_2.json",
+   "format": "json",
+   "size": 4272,
+   "path_count": 6,
+   "paths": [
+    {
+     "path": "data.video.relatedVideos.edges[].node.id",
+     "n": 21,
+     "sample": "vi2481505049"
+    },
+    {
+     "path": "data.video.webVideoAdRequest.requestUrl",
+     "n": 1,
+     "sample": "https://api.imdb.us-east-1.prod.mario.imdbtv.amazon.dev/2021-01-01/ads"
+    },
+    {
+     "path": "data.video.webVideoAdRequest.requestBody",
+     "n": 1,
+     "sample": "{\"request\":{\"context\":{\"device\":{\"ext\":{},\"geo\":{\"country\":\"US\"},\"ip\":\"71.178.36.0\",\"lang\":\"EN\",\"lmt\":0,\"os\":0,\"ua\":\"Moz"
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    },
+    {
+     "path": "extensions.entitlements.fields.Query.video",
+     "n": 1,
+     "sample": "DENY"
+    },
+    {
+     "path": "extensions.entitlements.inUse",
+     "n": 1,
+     "sample": "True"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "data.video.webVideoAdRequest.requestBody",
+     "value": "{\"request\":{\"context\":{\"device\":{\"ext\":{},\"geo\":{\"country\":\"US\"},\"ip\":\"71.178.36.0\",\"lang\":\"EN\",\"lmt\":0,\"os\":0,\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gec"
+    }
+   ],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "browser_xhr_3.json",
+   "format": "json",
+   "size": 410,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "data.user.proStatus.hasSubscription",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_4.json",
+   "format": "json",
+   "size": 535,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "data.titles[].id",
+     "n": 4,
+     "sample": "tt31100378"
+    },
+    {
+     "path": "data.titles[].userRating",
+     "n": 4,
+     "sample": null
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "browser_xhr_5.json",
+   "format": "json",
+   "size": 421,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "data.titles[].id",
+     "n": 1,
+     "sample": "tt6977212"
+    },
+    {
+     "path": "data.titles[].userRating",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "browser_xhr_6.json",
+   "format": "json",
+   "size": 950,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "data.titles[].id",
+     "n": 15,
+     "sample": "tt11197574"
+    },
+    {
+     "path": "data.titles[].userRating",
+     "n": 15,
+     "sample": null
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "browser_xhr_7.json",
+   "format": "json",
+   "size": 381,
+   "path_count": 2,
+   "paths": [
+    {
+     "path": "data.predefinedList",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_8.json",
+   "format": "json",
+   "size": 458,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "data.titles[].id",
+     "n": 2,
+     "sample": "tt0001008"
+    },
+    {
+     "path": "data.titles[].userRating",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "browser_xhr_9.json",
+   "format": "json",
+   "size": 458,
+   "path_count": 3,
+   "paths": [
+    {
+     "path": "data.titles[].id",
+     "n": 2,
+     "sample": "tt0311429"
+    },
+    {
+     "path": "data.titles[].userRating",
+     "n": 2,
+     "sample": null
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "browser_xhr_11.json",
+   "format": "json",
+   "size": 358,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_12.json",
+   "format": "json",
+   "size": 390,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_13.json",
+   "format": "json",
+   "size": 478,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "data.user.amazonAccountPoolConversionPromptStatus.shouldShow",
+     "n": 1,
+     "sample": "False"
+    },
+    {
+     "path": "data.user.amazonAccountPoolConversionPromptStatus.suppressedUntil",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "data.user.amazonAccountPoolConversionPromptStatus.interstitial",
+     "n": 1,
+     "sample": null
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "browser_xhr_14.json",
+   "format": "json",
+   "size": 671,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "data.callToAction.navbarProFlyout.action.label.text",
+     "n": 1,
+     "sample": "Try IMDbPro for FREE"
+    },
+    {
+     "path": "data.callToAction.navbarProFlyout.action.url",
+     "n": 1,
+     "sample": "https://pro.imdb.com/login/ap?u=/login/lwa&imdbPageAction=signUp&rf=cons_nb_hm&ref_=cons_nb_hm"
+    },
+    {
+     "path": "data.callToAction.navbarProFlyout.backgroundImage.url",
+     "n": 1,
+     "sample": "https://m.media-amazon.com/images/G/01/imdb/images/navbar/imdbpro_navbar_Q1_2024.png"
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "url"
+   ]
+  },
+  {
+   "file": "browser_xhr_15.json",
+   "format": "json",
+   "size": 3447,
+   "path_count": 13,
+   "paths": [
+    {
+     "path": "data.topListsForItem.edges[].node.id",
+     "n": 6,
+     "sample": "ls569454023"
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.lastModifiedDate",
+     "n": 6,
+     "sample": "2023-06-29T12:03:59Z"
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.createdDate",
+     "n": 6,
+     "sample": "2023-04-07T15:13:39Z"
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.author.profileId",
+     "n": 6,
+     "sample": "p.35fpa4qclwyvozqjrtakxbsrzi"
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.name.originalText",
+     "n": 6,
+     "sample": "Great Writers "
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.listType.id",
+     "n": 6,
+     "sample": "PEOPLE"
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.primaryImage.image.url",
+     "n": 6,
+     "sample": "https://m.media-amazon.com/images/M/MV5BYTNkYmQ5ODgtZjNiMy00MWIxLWI0YzgtODljMjI0YTk2YWI0XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.primaryImage.image.height",
+     "n": 6,
+     "sample": "1532"
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.primaryImage.image.width",
+     "n": 6,
+     "sample": "1094"
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.primaryImage.image.caption.plainText",
+     "n": 6,
+     "sample": "Edgar Allan Poe"
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.items.total",
+     "n": 6,
+     "sample": "32"
+    },
+    {
+     "path": "data.topListsForItem.edges[].node.visibility.id",
+     "n": 6,
+     "sample": "PUBLIC"
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "url"
+   ]
+  },
+  {
+   "file": "browser_xhr_16.json",
+   "format": "json",
+   "size": 895,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "data.name.projectsInDevelopment.edges[].node.title.id",
+     "n": 5,
+     "sample": "tt31100378"
+    },
+    {
+     "path": "data.name.projectsInDevelopment.edges[].node.title.titleText.text",
+     "n": 5,
+     "sample": "Big River"
+    },
+    {
+     "path": "data.name.projectsInDevelopment.total",
+     "n": 1,
+     "sample": "6"
+    },
+    {
+     "path": "data.name.projectsInDevelopment.pageInfo.endCursor",
+     "n": 1,
+     "sample": "bm0wODc4NDk0L3R0OTA3MTYzNi93cml0ZXI="
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "browser_xhr_17.json",
+   "format": "json",
+   "size": 2405,
+   "path_count": 7,
+   "paths": [
+    {
+     "path": "data.name.featuredPolls.edges[].node.id",
+     "n": 6,
+     "sample": "EH5mYyIqxi8"
+    },
+    {
+     "path": "data.name.featuredPolls.edges[].node.question.originalText.plainText",
+     "n": 6,
+     "sample": "Top 25 Memorial Day Quotes by Famous Personalities"
+    },
+    {
+     "path": "data.name.featuredPolls.edges[].node.primaryImage.image.url",
+     "n": 6,
+     "sample": "https://m.media-amazon.com/images/M/MV5BMTA3OTE5Nzg5MjdeQTJeQWpwZ15BbWU3MDk3NzI3ODE@._V1_.jpg"
+    },
+    {
+     "path": "data.name.featuredPolls.edges[].node.primaryImage.image.height",
+     "n": 6,
+     "sample": "400"
+    },
+    {
+     "path": "data.name.featuredPolls.edges[].node.primaryImage.image.width",
+     "n": 6,
+     "sample": "322"
+    },
+    {
+     "path": "data.name.featuredPolls.edges[].node.primaryImage.image.caption.plainText",
+     "n": 6,
+     "sample": "Barack Obama"
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "data.name.featuredPolls.edges[].node.question.originalText.plainText",
+     "value": "Mark Twain — Writer"
+    },
+    {
+     "path": "data.name.featuredPolls.edges[].node.primaryImage.image.caption.plainText",
+     "value": "The Adventures of Mark Twain (1985)"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "url"
+   ]
+  },
+  {
+   "file": "browser_xhr_18.json",
+   "format": "json",
+   "size": 1938,
+   "path_count": 12,
+   "paths": [
+    {
+     "path": "data.recentlyViewedItems.edges[].node.__typename",
+     "n": 4,
+     "sample": "Name"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.id",
+     "n": 4,
+     "sample": "nm0878494"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.primaryImage.caption.plainText",
+     "n": 4,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.primaryImage.url",
+     "n": 4,
+     "sample": "https://m.media-amazon.com/images/M/MV5BMTc3NzcyMjU3MF5BMl5BanBnXkFtZTgwNDg2OTI1MDE@._V1_.jpg"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.primaryImage.height",
+     "n": 4,
+     "sample": "2048"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.primaryImage.width",
+     "n": 4,
+     "sample": "1534"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.titleText.text",
+     "n": 3,
+     "sample": "Paperback Romance"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.titleType.id",
+     "n": 3,
+     "sample": "movie"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.originalTitleText.text",
+     "n": 3,
+     "sample": "Lucky Break"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.primaryImage.type",
+     "n": 3,
+     "sample": "poster"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.nameText.text",
+     "n": 1,
+     "sample": "Mark Twain"
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "data.recentlyViewedItems.edges[].node.nameText.text",
+     "value": "Mark Twain"
+    },
+    {
+     "path": "data.recentlyViewedItems.edges[].node.primaryImage.caption.plainText",
+     "value": "Mark Twain"
+    }
+   ],
+   "language_like_keys": [
+    "id",
+    "url"
+   ]
+  },
+  {
+   "file": "browser_xhr_19.json",
+   "format": "json",
+   "size": 4295,
+   "path_count": 16,
+   "paths": [
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].reactionSummaries[].reaction.language.id",
+     "n": 14,
+     "sample": "en-US"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].reactionSummaries[].reaction.language.text",
+     "n": 14,
+     "sample": "English (United States)"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].reactionSummaries[].reaction.reactionId",
+     "n": 14,
+     "sample": "interesting.thumbsup"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].reactionSummaries[].reaction.text",
+     "n": 14,
+     "sample": "Thumbs up"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].reactionSummaries[].reaction.id",
+     "n": 14,
+     "sample": "aW50ZXJlc3RpbmcudGh1bWJzdXAuZW4tVVM="
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].reactionSummaries[].count",
+     "n": 14,
+     "sample": "2"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].reactionSummaries[].displayCount.value",
+     "n": 14,
+     "sample": "2"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].reactionSummaries[].displayCount.language",
+     "n": 14,
+     "sample": "en-US"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].aggregateCount",
+     "n": 4,
+     "sample": "2"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].displayCount.value",
+     "n": 4,
+     "sample": "2"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].displayCount.language",
+     "n": 4,
+     "sample": "en-US"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].groupId",
+     "n": 4,
+     "sample": "INTERESTING"
+    },
+    {
+     "path": "data.aggregateEntities[].reactionsSummary.reactionSummaryGroups[].selectionType",
+     "n": 4,
+     "sample": "SINGLE"
+    },
+    {
+     "path": "data.aggregateEntities[].entityId",
+     "n": 2,
+     "sample": "vi1488101145"
+    },
+    {
+     "path": "data.userEntities[].entityId",
+     "n": 2,
+     "sample": "vi1488101145"
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "browser_xhr_20.json",
+   "format": "json",
+   "size": 17902,
+   "path_count": 29,
+   "paths": [
+    {
+     "path": "data.videos[].playbackURLs[].displayName.value",
+     "n": 9,
+     "sample": "SD"
+    },
+    {
+     "path": "data.videos[].playbackURLs[].displayName.language",
+     "n": 9,
+     "sample": "en-US"
+    },
+    {
+     "path": "data.videos[].playbackURLs[].videoMimeType",
+     "n": 9,
+     "sample": "MP4"
+    },
+    {
+     "path": "data.videos[].playbackURLs[].videoDefinition",
+     "n": 9,
+     "sample": "DEF_SD"
+    },
+    {
+     "path": "data.videos[].playbackURLs[].url",
+     "n": 9,
+     "sample": "https://imdb-video.media-imdb.com/vi2481505049/1434659454657-dx9ykf-1637253404515.mp4?Expires=1791089860&Signature=dd11O"
+    },
+    {
+     "path": "data.videos[].playbackURLs[].metricDimensions[].name",
+     "n": 9,
+     "sample": "encoder"
+    },
+    {
+     "path": "data.videos[].playbackURLs[].metricDimensions[].value",
+     "n": 9,
+     "sample": "ETS"
+    },
+    {
+     "path": "data.videos[].id",
+     "n": 3,
+     "sample": "vi2481505049"
+    },
+    {
+     "path": "data.videos[].createdDate",
+     "n": 3,
+     "sample": "2021-11-18T16:36:44.118Z"
+    },
+    {
+     "path": "data.videos[].isMature",
+     "n": 3,
+     "sample": "False"
+    },
+    {
+     "path": "data.videos[].runtime.value",
+     "n": 3,
+     "sample": "127"
+    },
+    {
+     "path": "data.videos[].name.value",
+     "n": 3,
+     "sample": "Official Trailer"
+    },
+    {
+     "path": "data.videos[].name.language",
+     "n": 3,
+     "sample": "en"
+    },
+    {
+     "path": "data.videos[].description.value",
+     "n": 3,
+     "sample": "In 1870s New Mexico, a half-breed kills a bigoted sheriff in self-defense but the posse that eventually hunts him finds "
+    },
+    {
+     "path": "data.videos[].description.language",
+     "n": 3,
+     "sample": "en"
+    },
+    {
+     "path": "data.videos[].recommendedTimedTextTrack",
+     "n": 3,
+     "sample": null
+    },
+    {
+     "path": "data.videos[].thumbnail.url",
+     "n": 3,
+     "sample": "https://m.media-amazon.com/images/M/MV5BZjQ4Y2UzZWQtYjU4ZC00M2E1LThmYjMtZjM4NDA3NjliZDk1XkEyXkFqcGdeQWxiaWFtb250._V1_.jp"
+    },
+    {
+     "path": "data.videos[].thumbnail.height",
+     "n": 3,
+     "sample": "480"
+    },
+    {
+     "path": "data.videos[].thumbnail.width",
+     "n": 3,
+     "sample": "638"
+    },
+    {
+     "path": "data.videos[].primaryTitle.id",
+     "n": 3,
+     "sample": "tt0066907"
+    },
+    {
+     "path": "data.videos[].primaryTitle.titleText.text",
+     "n": 3,
+     "sample": "Chato's Land"
+    },
+    {
+     "path": "data.videos[].primaryTitle.originalTitleText.text",
+     "n": 3,
+     "sample": "Chato's Land"
+    },
+    {
+     "path": "data.videos[].primaryTitle.releaseYear.year",
+     "n": 3,
+     "sample": "1972"
+    },
+    {
+     "path": "data.videos[].primaryTitle.titleType.canHaveEpisodes",
+     "n": 3,
+     "sample": "False"
+    },
+    {
+     "path": "data.videos[].contentType.id",
+     "n": 3,
+     "sample": "amzn1.imdb.video.contenttype.trailer"
+    },
+    {
+     "path": "data.videos[].contentType.displayName.value",
+     "n": 3,
+     "sample": "Trailer"
+    },
+    {
+     "path": "data.videos[].webVideoAdRequest.requestUrl",
+     "n": 3,
+     "sample": "https://api.imdb.us-east-1.prod.mario.imdbtv.amazon.dev/2021-01-01/ads"
+    },
+    {
+     "path": "data.videos[].webVideoAdRequest.requestBody",
+     "n": 3,
+     "sample": "{\"request\":{\"context\":{\"device\":{\"ext\":{},\"geo\":{\"country\":\"US\"},\"ip\":\"71.178.36.0\",\"lang\":\"EN\",\"lmt\":0,\"os\":0,\"ua\":\"Moz"
+    },
+    {
+     "path": "extensions.disclaimer",
+     "n": 1,
+     "sample": "Public, commercial, and/or non-private use of the IMDb data provided by this API is not allowed. For limited non-commerc"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": [
+    "id",
+    "url"
+   ]
+  },
+  {
+   "file": "browser_xhr_21.json",
+   "format": "json",
+   "size": 206,
+   "path_count": 5,
+   "paths": [
+    {
+     "path": "base_id",
+     "n": 1,
+     "sample": "cr99DMaf7Z3132303238353731373500"
+    },
+    {
+     "path": "guid",
+     "n": 1,
+     "sample": "3VjmZ9KjHRY"
+    },
+    {
+     "path": "addr",
+     "n": 1,
+     "sample": "71.178.36.215"
+    },
+    {
+     "path": "domain",
+     "n": 1,
+     "sample": "imdb.com"
+    },
+    {
+     "path": "hadron_id",
+     "n": 1,
+     "sample": "060ixffjsgld5979896989e9b9d979d9b66uoooweq0ky626460646m6g6k626k6g"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "IMDb name page for Mark Twain: short bio, born/died, personal details (alt name, height, spouse, child, nickname), trivia and a filmography of adaptations (230 writer credits; only the first page of credits is shown).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

@@ -1,0 +1,35 @@
+{
+ "property": "P13049",
+ "label": "DDB person (GND) ID",
+ "files_read": [
+  "P13049__1106405730/embedded_opengraph.json"
+ ],
+ "about_entity": true,
+ "notes": "OpenGraph only from the Deutsche Digitale Bibliothek person page for GND 1106405730, titled with the real name Samuel Langhorne Clemens (a GND record distinct from the main 'Twain, Mark' GND 118624822).",
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "raw": "Samuel Langhorne Clemens - Deutsche Digitale Bibliothek",
+    "lang": "de",
+    "via": "P13049__1106405730/embedded_opengraph.json: $[0]['og:title']"
+   }
+  ],
+  "identifier": [
+   {
+    "value": "1106405730",
+    "raw": "https://www.deutsche-digitale-bibliothek.de/person/gnd/1106405730",
+    "lang": null,
+    "via": "P13049__1106405730/embedded_opengraph.json: $[0]['og:url']"
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://d-nb.info/gnd/1106405730",
+    "raw": "https://www.deutsche-digitale-bibliothek.de/person/gnd/1106405730",
+    "lang": null,
+    "via": "P13049__1106405730/embedded_opengraph.json: $[0]['og:url'] (GND id in DDB URL)"
+   }
+  ]
+ }
+}

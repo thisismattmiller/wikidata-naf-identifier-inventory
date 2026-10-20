@@ -1,0 +1,103 @@
+{
+ "property": "P12386",
+ "label": "Dansk Forfatterleksikon ID",
+ "files_read": ["pages/P12386__u3043.txt"],
+ "about_entity": true,
+ "page_kind": "author page with work list",
+ "notes": "Danish bibliography page (Udenlandske forfattere til oversat skønlitteratur indtil 1975) for Samuel Langhorne Clemens / Mark Twain: a short header (name, dates, language, pseudonym, note) followed by a very long chronological list of Danish translations 1873-1975 (books, anthology contributions, contents), with a per-year production chart and a list of dramatic performances in Danish theatres. Links to 'International forfatterbibliografi' and Danish Wikipedia are shown as link text only, without URLs. Read via grep around hits (file ~315 KB).",
+ "elements": {
+  "name_preferred": [
+   {"value": "Samuel Langhorne Clemens", "lang": "da", "via": "page heading 'Samuel Langhorne Clemens (1835-1910)'"}
+  ],
+  "name_variant": [
+   {"value": "Twain, Mark", "lang": "da", "via": "header line 'Twain, Mark (pseudonym)' and author line of entries"},
+   {"value": "Clemens, Samuel Langhorne", "lang": "da", "via": "author line of entries (e.g. Mark Twains bedste, 1953) and dramatic performance list"},
+   {"value": "Clemens, Samuel L.", "lang": "da", "via": "author line of 1956 Illustrerede Klassikere entries"},
+   {"value": "Mark Tvain", "lang": "da", "raw": "En Begravelse. Af Mark Tvain.", "via": "title statement of 1882 anthology entry"},
+   {"value": "Samuel L. Clement", "lang": "da", "raw": "Af Mark Twain (Samuel L. Clement)", "via": "title statement of 1890 entry En Yankee hos Ridderne om det runde Bord"},
+   {"value": "Samuel M. Clemens", "lang": "da", "raw": "Twain, Mark - Samuel M. Clemens", "via": "author line of 1945 entry Ude i Nevada"}
+  ],
+  "given_name": [
+   {"value": "Samuel Langhorne", "lang": "da", "via": "page heading"}
+  ],
+  "family_name": [
+   {"value": "Clemens", "lang": "da", "via": "page heading"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "raw": "Twain, Mark (pseudonym)", "lang": "da", "via": "header line under name"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "(1835-1910)", "lang": null, "via": "page heading"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "(1835-1910)", "lang": null, "via": "page heading"}
+  ],
+  "language": [
+   {"value": "engelsk", "lang": "da", "via": "header row 'Sprog: engelsk'"}
+  ],
+  "description": [
+   {"value": "Sprog: engelsk. Twain, Mark (pseudonym). Note: At sammenligne forskellige oversættelser af Mark Twain er vanskelig, dels findes der flere engelske udgaver af fortællingerne, og dels kan oversættelsen på forskellig måde være forkortet. Bemærk: Forfatterens faglitterære bøger er ikke medtaget.", "lang": "da", "via": "header block and note"}
+  ],
+  "work": [
+   {"value": "Udvalgte Skitser", "raw": "Oversat af Robert Watt, L.A. Jørgensens Forlag, 1874", "lang": "da", "via": "work list"},
+   {"value": "Udvalgte Arbejder", "raw": "L.A. Jørgensen, 1875", "lang": "da", "via": "work list"},
+   {"value": "Naive Reisende", "raw": "Oversat af C. W. [C.L. With], Schubothe, 1878", "lang": "da", "via": "work list"},
+   {"value": "Lille Toms Æventyr", "raw": "Overs. af C. L. With, Schuboth, 1879, roman", "lang": "da", "via": "work list"},
+   {"value": "Erindringer fra en Fodtur i Europa", "raw": "1880", "lang": "da", "via": "work list"},
+   {"value": "En Landstryger paa Rejse", "raw": "1881 [ie: 1880]", "lang": "da", "via": "work list"},
+   {"value": "Nye Skitser", "raw": "1881", "lang": "da", "via": "work list"},
+   {"value": "Paa Reiser", "raw": "1881", "lang": "da", "via": "work list"},
+   {"value": "Skildringer og Skitser", "raw": "1881-82", "lang": "da", "via": "work list"},
+   {"value": "Tom Sawyers Æventyr", "raw": "1881", "lang": "da", "via": "work list"},
+   {"value": "Fyrsten og Tiggeren", "raw": "1882, roman", "lang": "da", "via": "work list"},
+   {"value": "Den stjaalne, hvide Elefant og andre nye Skitser", "raw": "1882", "lang": "da", "via": "work list"},
+   {"value": "Fra Mississippifloden", "raw": "1883", "lang": "da", "via": "work list"},
+   {"value": "Mark Twains mærkelige Drøm", "raw": "1883", "lang": "da", "via": "work list"},
+   {"value": "Løst og Fast", "raw": "1884", "lang": "da", "via": "work list"},
+   {"value": "Huck Finns Hændelser", "raw": "1885, roman", "lang": "da", "via": "work list"},
+   {"value": "Forgyldt", "raw": "with Charles Dudley Warner, 1886, roman", "lang": "da", "via": "work list"},
+   {"value": "En Yankee hos Ridderne om det runde Bord", "raw": "1890", "lang": "da", "via": "work list"},
+   {"value": "Million-Sedlen m. fl. Skitser", "raw": "1893", "lang": "da", "via": "work list"},
+   {"value": "Arvingerne fra Amerika", "raw": "1894, roman", "lang": "da", "via": "work list"},
+   {"value": "Paa Rejse med en Reformator", "raw": "1894", "lang": "da", "via": "work list"},
+   {"value": "Mark Twain i Udvalg", "raw": "1904-05, I.-IV. Bind", "lang": "da", "via": "work list"},
+   {"value": "Toms Eventyr", "raw": "1906, børnebog", "lang": "da", "via": "work list"},
+   {"value": "Tom som Opdager", "raw": "1908", "lang": "da", "via": "work list"},
+   {"value": "Fjolle-Wilson", "raw": "1909, roman", "lang": "da", "via": "work list"},
+   {"value": "Lystige Historier", "raw": "1911", "lang": "da", "via": "work list"},
+   {"value": "For Lud og koldt Vand", "raw": "1913", "lang": "da", "via": "work list"},
+   {"value": "Civiliserede Menneskeædere og andre Fortællinger", "raw": "1943", "lang": "da", "via": "work list"},
+   {"value": "Den store franske Duel og andre Historier", "raw": "1943", "lang": "da", "via": "work list"},
+   {"value": "Evas Dagbog", "raw": "1944", "lang": "da", "via": "work list"},
+   {"value": "Ude i Nevada og andre Fortællinger", "raw": "1945", "lang": "da", "via": "work list"},
+   {"value": "Blandt Mormoner og andre Historier", "raw": "1946", "lang": "da", "via": "work list"},
+   {"value": "Mark Twains bedste", "raw": "1953", "lang": "da", "via": "work list"},
+   {"value": "Kaptajnen i paradis", "raw": "efter 'Report from Paradise', 1955", "lang": "da", "via": "work list"},
+   {"value": "Mark Twain fortæller", "raw": "1956", "lang": "da", "via": "work list"},
+   {"value": "Livet på Mississippi", "raw": "efter 'Life on the Mississippi', 1961", "lang": "da", "via": "work list"},
+   {"value": "En yankee ved kong Arthurs hof", "raw": "efter 'A Connecticut yankee in King Arthur's court', 1961", "lang": "da", "via": "work list"},
+   {"value": "En dråbe negerblod", "raw": "efter 'Pudd'nhead Wilson', 1968", "lang": "da", "via": "work list"},
+   {"value": "Jagten på den svigefulde kalkun og andre historier", "raw": "1969", "lang": "da", "via": "work list"},
+   {"value": "Millionpundsedlen og andre fortællinger", "raw": "1975", "lang": "da", "via": "work list"}
+  ],
+  "related_agent": [
+   {"value": "Charles Dudley Warner (co-author of Forgyldt)", "via": "work list entry 1886"},
+   {"value": "Robert Watt (translator)", "via": "work list"},
+   {"value": "C. L. With (translator)", "via": "work list"},
+   {"value": "H. H. Gjødvad (translator)", "via": "work list"},
+   {"value": "Orla Lundbo (translator/editor)", "via": "work list"},
+   {"value": "Jesper Ewald (translator)", "via": "work list"},
+   {"value": "Ole Storm (translator)", "via": "work list"},
+   {"value": "Clara Rosenberg (adapter/translator of radio play En Begravelse, 1933)", "via": "Dramatik opført på danske teatre"}
+  ],
+  "identifier": [
+   {"value": "u3043", "raw": "URL for denne side er: https://danskforfatterleksikon.dk/1850u/u3043.htm", "via": "page footer"}
+  ],
+  "source": [
+   {"value": "Bibliografi over oversættelser til dansk 1800-1900 af prosafiktion fra de germanske og romanske sprog. Ved Erland Munch-Petersen. Rosenkilde og Bagger, 1976 (EMP)", "lang": "da", "via": "footer key to numbers"}
+  ],
+  "record_modified": [
+   {"value": "2026-07-05", "raw": "Automatisk dannet den 5. juli 2026", "lang": "da", "via": "page footer"}
+  ]
+ }
+}

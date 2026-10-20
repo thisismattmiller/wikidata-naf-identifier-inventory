@@ -1,0 +1,321 @@
+{
+ "property": "P11386",
+ "property_label": "Listal ID",
+ "files": [
+  {
+   "file": "P11386__mark-twain/embedded_microdata.json",
+   "format": "microdata",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.listal.com/mark-twain"
+  },
+  {
+   "file": "P11386__mark-twain/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://www.listal.com/mark-twain"
+  },
+  {
+   "file": "P11386__mark-twain/xhr_1.html",
+   "format": "html",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://www.listal.com/cdn-cgi/rum?"
+  },
+  {
+   "file": "P11386__mark-twain/browser_xhr_1.txt",
+   "format": "text",
+   "kind": "xhr",
+   "via": "browser",
+   "url": "https://www.listal.com/cdn-cgi/rum?"
+  }
+ ],
+ "formats": {
+  "microdata": 1,
+  "rdfa": 1,
+  "html": 1,
+  "text": 1
+ },
+ "vocabularies": {
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:page heading",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Samuel Langhorne Clemens",
+    "lang": "en",
+    "via": "llm-page:Stats 'Birth Name'",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "given_name": [
+   {
+    "value": "Samuel Langhorne",
+    "lang": "en",
+    "via": "llm-page:Stats 'Birth Name'",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "family_name": [
+   {
+    "value": "Clemens",
+    "lang": "en",
+    "via": "llm-page:Stats 'Birth Name'",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Mark Twain",
+    "lang": "en",
+    "via": "llm-page:bio: 'better known by his pen name Mark Twain'",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835-11-30",
+    "lang": "en",
+    "via": "llm-page:Stats 'Born'",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910-04-21",
+    "lang": "en",
+    "via": "llm-page:Stats 'Died'",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "birth_place": [
+   {
+    "value": "Florida Missouri USA",
+    "lang": "en",
+    "via": "llm-page:user tags 'Florida Missouri USA', 'Born In Missouri'",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "occupation": [
+   {
+    "value": "author",
+    "lang": "en",
+    "via": "llm-page:bio; tags 'Author', 'Writer'",
+    "file": "P11386.json",
+    "uri": false
+   },
+   {
+    "value": "humorist",
+    "lang": "en",
+    "via": "llm-page:bio; tag 'Humorist'",
+    "file": "P11386.json",
+    "uri": false
+   },
+   {
+    "value": "children's writer",
+    "lang": "en",
+    "via": "llm-page:tag",
+    "file": "P11386.json",
+    "uri": false
+   },
+   {
+    "value": "short story writer",
+    "lang": "en",
+    "via": "llm-page:tag",
+    "file": "P11386.json",
+    "uri": false
+   },
+   {
+    "value": "travel writer",
+    "lang": "en",
+    "via": "llm-page:tag",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "nationality": [
+   {
+    "value": "United States",
+    "lang": "en",
+    "via": "llm-page:Stats 'Country of origin'",
+    "file": "P11386.json",
+    "uri": false
+   },
+   {
+    "value": "American",
+    "lang": "en",
+    "via": "llm-page:bio; tag 'American'",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "description": [
+   {
+    "value": "Samuel Langhorne Clemens better known by his pen name Mark Twain, was an American author and humorist. He wrote \"The Adventures of Tom Sawyer\" (1876) and its sequel, \"Adventures of Huckleberry Finn\" (1885), the latter often called \"the Great American Novel.\"",
+    "lang": "en",
+    "via": "llm-page:bio paragraph",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "The Adventures of Huckleberry Finn",
+    "lang": "en",
+    "via": "llm-page:Books list",
+    "file": "P11386.json",
+    "uri": false
+   },
+   {
+    "value": "The Adventures of Tom Sawyer",
+    "lang": "en",
+    "via": "llm-page:Books list",
+    "file": "P11386.json",
+    "uri": false
+   },
+   {
+    "value": "A Connecticut Yankee in King Arthur's Court",
+    "lang": "en",
+    "via": "llm-page:Books list",
+    "file": "P11386.json",
+    "uri": false
+   },
+   {
+    "value": "The Prince and the Pauper",
+    "lang": "en",
+    "via": "llm-page:Books list",
+    "file": "P11386.json",
+    "uri": false
+   },
+   {
+    "value": "The Innocents Abroad",
+    "lang": "en",
+    "via": "llm-page:update feed",
+    "file": "P11386.json",
+    "uri": false
+   },
+   {
+    "value": "The Man That Corrupted Hadleyburg",
+    "lang": "en",
+    "via": "llm-page:TV list",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Olivia Lewis Langdon (partner; relationship status married)",
+    "lang": "en",
+    "via": "llm-page:Stats 'Partner'",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "mark-twain",
+    "lang": null,
+    "via": "llm-page:page URL slug",
+    "file": "P11386.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "en"
+  ],
+  "name_variant": [
+   "en"
+  ],
+  "given_name": [
+   "en"
+  ],
+  "family_name": [
+   "en"
+  ],
+  "pseudonym": [
+   "en"
+  ],
+  "birth_date": [
+   "en"
+  ],
+  "death_date": [
+   "en"
+  ],
+  "birth_place": [
+   "en"
+  ],
+  "occupation": [
+   "en"
+  ],
+  "nationality": [
+   "en"
+  ],
+  "description": [
+   "en"
+  ],
+  "work": [
+   "en"
+  ],
+  "related_agent": [
+   "en"
+  ],
+  "identifier": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "embedded_microdata.json",
+   "format": "json",
+   "size": 118,
+   "path_count": 4,
+   "paths": [
+    {
+     "path": "[].@type",
+     "n": 1,
+     "sample": "AggregateRating"
+    },
+    {
+     "path": "[].@context",
+     "n": 1,
+     "sample": "https://schema.org"
+    },
+    {
+     "path": "[].bestRating",
+     "n": 1,
+     "sample": "10"
+    },
+    {
+     "path": "[].worstRating",
+     "n": 1,
+     "sample": "1"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "Listal community person page for Mark Twain: a short stats box (birth name, dates, country, height, partner), a one-paragraph bio, user tags, and top-5 lists of books, films and TV based on his work; the rest is user lists and an activity feed. An 'IMDB profile' link is shown without its URL.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

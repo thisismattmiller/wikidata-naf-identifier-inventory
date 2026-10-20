@@ -1,0 +1,586 @@
+{
+ "property": "P9984",
+ "property_label": "CANTIC ID",
+ "files": [
+  {
+   "file": "P9984__981058514999206706/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://cantic.bnc.cat/detall/411620/0"
+  },
+  {
+   "file": "P9984__981058514999206706/xhr_1.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cantic.bnc.cat/api/cantic/record_by_mmsid/981058514999206706"
+  },
+  {
+   "file": "P9984__981058514999206706/xhr_2.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cantic.bnc.cat/api/cantic/get_record/411620"
+  },
+  {
+   "file": "P9984__981058514999206706/xhr_3.json",
+   "format": "json",
+   "kind": "xhr",
+   "via": "http",
+   "url": "https://cantic.bnc.cat/api/cantic/get_5xx_link/Conte,%20Louis%20de,%201835-1910"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "json": 3
+ },
+ "vocabularies": {
+  "LLM extraction": 2
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=100] ($a Twain, Mark, $d 1835-1910)",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark, 1835-1910",
+    "lang": "ca",
+    "via": "llm-page:'Encapçalament acceptat'",
+    "file": "P9984.json",
+    "uri": false
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "Alden, Jean François, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400][0]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Touen, Maku, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400][1]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Tuein, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400][2]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Tuwayn, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400][3]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, M., 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400][4]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Tven, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400][5]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marek, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400][6]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Twayn, Mark, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400][7]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Twain, Marck, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400][8]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400] (hidden, $5 ES-BaCBU)",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=500] (see-also heading)",
+    "file": "P9984.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=500][0]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=500][2]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Alden, Jean François, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=400][0]",
+    "file": "P9984.json",
+    "uri": false
+   }
+  ],
+  "birth_date": [
+   {
+    "value": "1835",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=100].subcamps[codi=d]",
+    "file": "P9984.json",
+    "uri": false
+   }
+  ],
+  "death_date": [
+   {
+    "value": "1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=100].subcamps[codi=d]",
+    "file": "P9984.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=500][1]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=500][0]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Snodgrass, Quintus Curtius, 1835-1910",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=500][2]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne, 1835-1910 (real name)",
+    "lang": null,
+    "via": "llm-page:'Encapçalaments relacionats'",
+    "file": "P9984.json",
+    "uri": false
+   }
+  ],
+  "same_as": [
+   {
+    "value": "http://viaf.org/viaf/50566653",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=024] ($2 viaf, $1)",
+    "file": "P9984.json",
+    "uri": true
+   }
+  ],
+  "identifier": [
+   {
+    "value": "981058514999206706",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.id_bibliografic / etiqueta=001",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "(ES-BaCBU).a10166221",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=035]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "981058682584206706 (globuslemac)",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=908]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "411620",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.id",
+    "file": "P9984.json",
+    "uri": false
+   }
+  ],
+  "source": [
+   {
+    "value": "LC/NAF, 25 ag. 2010 (enc.: Twain, Mark, 1835-1910)",
+    "lang": "ca",
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=670]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "CANTIC",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=900]",
+    "file": "P9984.json",
+    "uri": false
+   },
+   {
+    "value": "ES-BaCBU cat ES-BaCBU ES-BaBC",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=040]",
+    "file": "P9984.json",
+    "uri": false
+   }
+  ],
+  "record_created": [
+   {
+    "value": "2010-08-25",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=008] positions 00-05",
+    "file": "P9984.json",
+    "uri": false
+   }
+  ],
+  "record_modified": [
+   {
+    "value": "2024-05-11",
+    "lang": null,
+    "via": "llm:xhr_2.json: $.record.etiquetes[etiqueta=005]",
+    "file": "P9984.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [
+   "ca"
+  ],
+  "name_variant": [],
+  "pseudonym": [],
+  "birth_date": [],
+  "death_date": [],
+  "related_agent": [],
+  "same_as": [],
+  "identifier": [],
+  "source": [
+   "ca"
+  ],
+  "record_created": [],
+  "record_modified": []
+ },
+ "unmapped": {
+  "(no node about the entity in this file)": 1
+ },
+ "json_profiles": [
+  {
+   "file": "xhr_1.json",
+   "format": "json",
+   "size": 33,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "record.id_registre",
+     "n": 1,
+     "sample": "411620"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  },
+  {
+   "file": "xhr_2.json",
+   "format": "json",
+   "size": 14992,
+   "path_count": 17,
+   "paths": [
+    {
+     "path": "record.etiquetes[].subcamps[].id",
+     "n": 80,
+     "sample": "10858827"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].id_etiqueta",
+     "n": 80,
+     "sample": "6166974"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].ordre",
+     "n": 80,
+     "sample": "1"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].codi",
+     "n": 80,
+     "sample": "a"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "n": 80,
+     "sample": "50566653"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].id_registre",
+     "n": 80,
+     "sample": "411620"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].etiqueta",
+     "n": 80,
+     "sample": "024"
+    },
+    {
+     "path": "record.etiquetes[].id",
+     "n": 36,
+     "sample": "6166971"
+    },
+    {
+     "path": "record.etiquetes[].id_registre",
+     "n": 36,
+     "sample": "411620"
+    },
+    {
+     "path": "record.etiquetes[].etiqueta",
+     "n": 36,
+     "sample": "001"
+    },
+    {
+     "path": "record.etiquetes[].ind1",
+     "n": 36,
+     "sample": "7"
+    },
+    {
+     "path": "record.etiquetes[].ind2",
+     "n": 36,
+     "sample": " "
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "n": 36,
+     "sample": "981058514999206706"
+    },
+    {
+     "path": "record.etiquetes[].hidden",
+     "n": 36,
+     "sample": "False"
+    },
+    {
+     "path": "record.id",
+     "n": 1,
+     "sample": "411620"
+    },
+    {
+     "path": "record.capsalera",
+     "n": 1,
+     "sample": "01593cz  a2200457n  4500"
+    },
+    {
+     "path": "record.id_bibliografic",
+     "n": 1,
+     "sample": "981058514999206706"
+    }
+   ],
+   "entity_signals": [
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Twain, Mark, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "Twain, Mark,"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Alden, Jean François, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Touen, Maku, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Tuein, Mark, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Tuwayn, Mark, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Tven, M., 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Tven, Mark, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Twain, Marek, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "Twain, Marek,"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Twayn, Mark, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Twain, Marck, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "Twain, Marck,"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Twain, Mark ES-BaCBU"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "Twain, Mark"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Twain, Marek ES-BaCBU"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "Twain, Marek"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Conte, Louis de, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Clemens, Samuel Langhorne, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "Clemens, Samuel Langhorne,"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "Snodgrass, Quintus Curtius, 1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "1835-1910"
+    },
+    {
+     "path": "record.etiquetes[].contingut",
+     "value": "LC/NAF, 25 ag. 2010 (enc.: Twain, Mark, 1835-1910)"
+    },
+    {
+     "path": "record.etiquetes[].subcamps[].contingut",
+     "value": "(enc.: Twain, Mark, 1835-1910)"
+    }
+   ],
+   "language_like_keys": [
+    "id"
+   ]
+  },
+  {
+   "file": "xhr_3.json",
+   "format": "json",
+   "size": 21,
+   "path_count": 1,
+   "paths": [
+    {
+     "path": "error",
+     "n": 1,
+     "sample": "No trobat"
+    }
+   ],
+   "entity_signals": [],
+   "language_like_keys": []
+  }
+ ],
+ "llm_notes": "CANTIC (Catalan union authority catalogue) record for Twain, Mark, 1835-1910 with see-from forms, related headings, VIAF id and LC/NAF source.",
+ "about_entity": true,
+ "chrome_elements": {}
+}

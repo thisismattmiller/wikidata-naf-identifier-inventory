@@ -1,0 +1,152 @@
+{
+ "property": "P2600",
+ "label": "Geni profile ID",
+ "files_read": ["P2600__4239183543700124287/embedded_microdata.json", "P2600__4239183543700124287/embedded_opengraph.json"],
+ "about_entity": true,
+ "notes": "embedded_microdata.json is the schema.org WebPage/Person block from the Geni profile: names, death date, birthPlace, family links, and three long user-written 'About' texts (English with census transcriptions and a bibliography, Hebrew Wikipedia copy, Norwegian). Odd: birthDate is an empty string, birthPlace is only 'United States', and the name list includes 'Private User'. A census transcription gives a different spouse name ('Clieve Clemens'), which was ignored.",
+ "elements": {
+   "name_preferred": [{"value": "Mark Twain", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.name[0]"}],
+   "name_variant": [
+     {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.name[1]"},
+     {"value": "Samuel L. Clemens", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (1880 census transcription)"},
+     {"value": "Sammy Clemens", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (1910 census transcription)"},
+     {"value": "מארק טוויין", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1] (first line)"},
+     {"value": "סמואל לנגהורן קלמנס", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1] (שם לידה)"}
+   ],
+   "given_name": [{"value": "Samuel Langhorne", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.name[1]"}],
+   "family_name": [{"value": "Clemens", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.name[1]"}],
+   "pseudonym": [{"value": "Mark Twain", "raw": "Clemens first utilized the pseudonym, Mark Twain, in 1863 in the Enterprise", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"}],
+   "birth_date": [
+     {"value": "1835-11-30", "raw": "He was born on November 30, 1835", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "1835-11-30", "raw": "30 בנובמבר 1835", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1]"}
+   ],
+   "death_date": [
+     {"value": "1910-04-21", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.deathDate"},
+     {"value": "1910-04-21", "raw": "Death Date: 21 Apr 1910", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (California Biographical Index Cards transcription)"}
+   ],
+   "birth_place": [
+     {"value": "United States", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.birthPlace.name"},
+     {"value": "Florida, Missouri", "raw": "in the tiny village of Florida, Missouri", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "Florida, Monroe Co., MO USA", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (census transcriptions)"},
+     {"value": "פלורידה, מיזורי", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1]"}
+   ],
+   "death_place": [
+     {"value": "Redding, Connecticut", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (Death Location)"},
+     {"value": "רדינג, קונטיקט", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1]"}
+   ],
+   "activity_place": [
+     {"value": "Hannibal", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "St. Louis, Missouri", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "Nevada", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[2]"},
+     {"value": "Buffalo", "raw": "Buffalo Express", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "Hartford, Connecticut", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "Elmira, N.Y.", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "Redding, Fairfield, Connecticut", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (Home in 1910)"}
+   ],
+   "gender": [{"value": "male", "raw": "Gender: Male", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (census transcription)"}],
+   "occupation": [
+     {"value": "author", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "humorist", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "lecturer", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "satirist", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "journalist", "raw": "journalist", "lang": "no", "via": "embedded_microdata.json: $[0].mainEntity.description[2]"},
+     {"value": "typesetter", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "printer", "raw": "apprentice for a local printer", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "סופר", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1] (עיסוק)"},
+     {"value": "מרצה", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1] (עיסוק)"}
+   ],
+   "nationality": [
+     {"value": "American", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "אמריקני", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1] (לאום)"}
+   ],
+   "language": [
+     {"value": "אנגלית", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1] (שפות היצירה)"},
+     {"value": "גרמנית", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1] (שפות היצירה)"}
+   ],
+   "description": [
+     {"value": "Mark Twain, whose real name was Samuel Langhorne Clemens, was known as America's \"greatest humorist.\"", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "סמואל לנגהורן קלמנס, נודע בשם העט שלו מארק טוויין (30 בנובמבר 1835 – 21 באפריל 1910) היה סופר והומוריסט אמריקני שיצירותיו נודעות בהומור הציני שלהן, בסאטירה החברתית החריפה, בתיאור הריאליסטי של מקומות ושפה ובהתנגדות לצביעות ולדיכוי.", "lang": "he", "via": "embedded_microdata.json: $[0].mainEntity.description[1]"},
+     {"value": "Samuel Langhorne Clemens (1835–1910), kjent under sitt litterære pseudonym Mark Twain, var en amerikansk humorist, forfatter, journalist og foreleser.", "lang": "no", "via": "embedded_microdata.json: $[0].mainEntity.description[2]"},
+     {"value": "Genealogy profile for Mark Twain", "lang": "en", "via": "embedded_opengraph.json: $[0]['og:description']"}
+   ],
+   "work": [
+     {"value": "The Celebrated Jumping Frog of Calaveras County", "raw": "(1867) The Celebrated Jumping Frog of Calaveras County (fiction)", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The Innocents Abroad", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Roughing It", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The Gilded Age: A Tale of Today", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Sketches New and Old", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Old Times on the Mississippi", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The Adventures of Tom Sawyer", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "A Tramp Abroad", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "1601: Conversation, as it was by the Social Fireside, in the Time of the Tudors", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The Prince and the Pauper", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Life on the Mississippi", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Adventures of Huckleberry Finn", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "A Connecticut Yankee in King Arthur's Court", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The American Claimant", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Those Extraordinary Twins", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The £1,000,000 Bank Note and Other New Stories", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Tom Sawyer Abroad", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The Tragedy of Pudd'nhead Wilson", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Tom Sawyer, Detective", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Personal Recollections of Joan of Arc", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Following the Equator", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Concerning the Jews", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Is He Dead?", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The Man That Corrupted Hadleyburg", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "To the Person Sitting in Darkness", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "A Double Barrelled Detective Story", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "A Dog's Tale", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Extracts from Adam's Diary", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "King Leopold's Soliloquy", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The War Prayer", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The $30,000 Bequest and Other Stories", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "What Is Man?", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Eve's Diary", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Christian Science", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "A Horse's Tale", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Is Shakespeare Dead?", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Captain Stormfield's Visit to Heaven", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Letters from the Earth", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "The Mysterious Stranger", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"},
+     {"value": "Mark Twain's Autobiography", "lang": "en", "via": "embedded_microdata.json: $[0].mainEntity.description[0] (BIBLIOGRAPHY)"}
+   ],
+   "related_agent": [
+     {"value": "John Marshall Clemens", "raw": "father (parent) - https://www.geni.com/people/John-Marshall-Clemens/6000000003031916155", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.parent[0]"},
+     {"value": "Jane Clemens", "raw": "mother (parent) - https://www.geni.com/people/Jane-Clemens/6000000003031922022", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.parent[1]"},
+     {"value": "Olivia Louise Clemens", "raw": "spouse - https://www.geni.com/people/Olivia-Clemens/6000000003123062282", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.spouse"},
+     {"value": "Orion Clemens", "raw": "sibling", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.sibling[0]"},
+     {"value": "Permelia Ann Moffett", "raw": "sibling", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.sibling[1]"},
+     {"value": "Pleasant Hannibal Clemens", "raw": "sibling", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.sibling[2]"},
+     {"value": "Margaret Lampton Clemens", "raw": "sibling", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.sibling[3]"},
+     {"value": "Benjamin Lampton Clemens", "raw": "sibling", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.sibling[4]"},
+     {"value": "Henry Clemens", "raw": "sibling", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.sibling[5]"},
+     {"value": "John Pinkton Clemens", "raw": "sibling", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.sibling[6]"},
+     {"value": "Langdon Clemens", "raw": "child", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.children[0]"},
+     {"value": "Olivia Susan \"Susy\" Clemens", "raw": "child", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.children[1]"},
+     {"value": "Clara Clemens", "raw": "child", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.children[2]"},
+     {"value": "Jean Clemens", "raw": "child", "lang": null, "via": "embedded_microdata.json: $[0].mainEntity.children[3]"}
+   ],
+   "same_as": [
+     {"value": "https://www.wikitree.com/wiki/Clemens-1", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "https://www.familysearch.org/tree/person/LZJ1-TLQ", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "http://en.wikipedia.org/wiki/Mark_Twain", "raw": "http://en.wikipedia.org/wiki/Mark_Twain#Bibliography", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "https://no.wikipedia.org/wiki/Mark_Twain", "via": "embedded_microdata.json: $[0].mainEntity.description[2]"},
+     {"value": "http://www.biography.com/articles/Mark-Twain-9512564", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "http://www.notablebiographies.com/Tu-We/Twain-Mark.html", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"}
+   ],
+   "identifier": [{"value": "4239183543700124287", "raw": "https://www.geni.com/people/Mark-Twain/4239183543700124287", "via": "embedded_microdata.json: $[0].mainEntity.url"}],
+   "image": [
+     {"value": "https://media.geni.com/p14/80/f2/7b/c6/534448681f23deab/534448681f23deab_medium.jpg", "via": "embedded_microdata.json: $[0].mainEntity.image"},
+     {"value": "https://media.geni.com/p14/87/a0/43/94/534448681f3e134f/mark_twain_by_af_bradley_large.jpg", "via": "embedded_opengraph.json: $[0]['og:image']"}
+   ],
+   "source": [
+     {"value": "1880 United States Federal Census", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "1900 United States Federal Census", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "1910 United States Federal Census", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "California, Biographical Index Cards, 1781-1990", "via": "embedded_microdata.json: $[0].mainEntity.description[0]"},
+     {"value": "http://www.jstor.org/stable/40915421", "raw": "Benson, Adolph B. \"MARK TWAIN'S CONTACTS WITH SCANDINAVIA.\" Scandinavian Studies and Notes 14, no. 7 (1937): 159–67.", "via": "embedded_microdata.json: $[0].mainEntity.description[2]"}
+   ],
+   "record_modified": [{"value": "2025-07-13", "raw": "2025-07-13T13:34:27-07:00", "lang": null, "via": "embedded_microdata.json: $[0].dateModified"}]
+ }
+}

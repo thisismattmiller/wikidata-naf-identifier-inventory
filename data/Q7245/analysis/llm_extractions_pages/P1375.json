@@ -1,0 +1,192 @@
+{
+ "property": "P1375",
+ "label": "NSK (VIAF) ID",
+ "files_read": ["pages/P1375__000047578.txt"],
+ "about_entity": true,
+ "page_kind": "authority record",
+ "notes": "VIAF 'processed' view of the Croatian National and University Library (NSK) MARC authority record 000047578 for Twain, Mark, with VIAF-added derived fields (9xx: works, co-authors, publishers, languages, 998 cluster matches, 996 non-clustered candidates, 999 NSK bib record ids). The 996 list (other VIAF candidate records not merged) and the 950/955 co-author lists are not treated as same_as/related data about him.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark", "lang": null, "via": "MARC 100 $a"}
+  ],
+  "name_variant": [
+   {"value": "Tven, Mark", "lang": "hr", "via": "MARC 400 $a"},
+   {"value": "Tuen, Mark", "lang": "sq", "via": "MARC 400 $a"},
+   {"value": "Twain, Marc", "lang": null, "via": "MARC 400 $a"},
+   {"value": "Tven, M.", "lang": null, "via": "MARC 400 $a"},
+   {"value": "Conte, Louis de", "lang": null, "via": "MARC 400 $a"},
+   {"value": "Clemens, Samuel L.", "lang": null, "via": "MARC 400 $a"},
+   {"value": "Clemens, Samuel Langhorne", "lang": null, "via": "MARC 400 $a"},
+   {"value": "Langhorne Clemens, Samuel", "lang": null, "via": "MARC 400 $a"},
+   {"value": "Klemens, Semjuel L.", "lang": null, "via": "MARC 400 $a"},
+   {"value": "Твен, Марк", "lang": "ru", "via": "VIAF 998 match (J9U)"},
+   {"value": "טוין, מרק", "lang": "he", "via": "VIAF 998 match (J9U)"},
+   {"value": "توين، مارك", "lang": "ar", "via": "VIAF 998 match (J9U)"}
+  ],
+  "pseudonym": [
+   {"value": "Conte, Louis de", "lang": "hr", "via": "MARC 680 'Autor je objavljivao i pod pseudonimom: Conte, Louis de'"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "Rođen 30. 11. 1835.", "lang": "hr", "via": "MARC 678 biographical note"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "umro 21. 4. 1910.", "lang": "hr", "via": "MARC 678 biographical note"}
+  ],
+  "birth_place": [
+   {"value": "Florida", "raw": "u Floridi", "lang": "hr", "via": "MARC 678 biographical note"}
+  ],
+  "death_place": [
+   {"value": "Redding", "raw": "u Reddingu", "lang": "hr", "via": "MARC 678 biographical note"}
+  ],
+  "occupation": [
+   {"value": "književnik", "lang": "hr", "via": "MARC 678"},
+   {"value": "novinar", "lang": "hr", "via": "MARC 678"},
+   {"value": "publicist", "lang": "hr", "via": "MARC 678"}
+  ],
+  "nationality": [
+   {"value": "američki", "raw": "Američki književnik", "lang": "hr", "via": "MARC 678"}
+  ],
+  "description": [
+   {"value": "Američki književnik, novinar, publicist. Rođen 30. 11. 1835. u Floridi, umro 21. 4. 1910. u Reddingu.", "lang": "hr", "via": "MARC 678"},
+   {"value": "Pravo ime autora: Clemens, Samuel Langhorne.", "lang": "hr", "via": "MARC 680"}
+  ],
+  "language": [
+   {"value": "hrv", "raw": "hrv 255", "lang": null, "via": "VIAF 940 (languages of works, with counts)"},
+   {"value": "eng", "raw": "eng 53", "lang": null, "via": "VIAF 940"},
+   {"value": "scc", "raw": "scc 28", "lang": null, "via": "VIAF 940"},
+   {"value": "mac", "raw": "mac 22", "lang": null, "via": "VIAF 940"},
+   {"value": "srp", "raw": "srp 20", "lang": null, "via": "VIAF 940"},
+   {"value": "bos", "raw": "bos 17", "lang": null, "via": "VIAF 940"}
+  ],
+  "work": [
+   {"value": "The adventures of Tom Sawyer", "lang": "en", "via": "VIAF 912"},
+   {"value": "The adventures of Huckleberry Finn", "lang": "en", "via": "VIAF 912"},
+   {"value": "The prince and the pauper", "lang": "en", "via": "VIAF 912"},
+   {"value": "A Fable", "lang": "en", "via": "VIAF 912"},
+   {"value": "Pustolovine Toma Sawyera", "lang": "hr", "via": "VIAF 910"},
+   {"value": "Doživljaji Huckleberryja Finna", "lang": "hr", "via": "VIAF 910"},
+   {"value": "Kraljević i prosjak", "lang": "hr", "via": "VIAF 910"},
+   {"value": "Tajanstveni stranac i slične priče", "lang": "hr", "via": "VIAF 910"},
+   {"value": "Doživljaji Toma Sojera", "lang": "sr", "via": "VIAF 910 / 670"},
+   {"value": "Tom Soer", "lang": "mk", "via": "VIAF 910"},
+   {"value": "Mark Twain's letters from Hawaii", "lang": "en", "via": "VIAF 910"},
+   {"value": "The American claimant ; Pudd'nhead Wilson", "lang": "en", "via": "VIAF 910"},
+   {"value": "The innocents abroad ; Roughing it", "lang": "en", "via": "VIAF 910"},
+   {"value": "The mysterious stranger", "lang": "en", "via": "VIAF 910"},
+   {"value": "Milijunska novčanica", "lang": "hr", "via": "VIAF 910"},
+   {"value": "Il principe e il povero", "lang": "it", "via": "VIAF 910"},
+   {"value": "Ivana Orleanska", "lang": "hr", "via": "VIAF 910"},
+   {"value": "The writings of Mark Twain", "lang": "en", "via": "VIAF 910"},
+   {"value": "Broj 44, tajanstveni stranac", "lang": "hr", "via": "VIAF 910"},
+   {"value": "Sedam godina pustolovina", "lang": "hr", "via": "VIAF 910"},
+   {"value": "The 1,000,000 bank-note and other stories", "lang": "en", "via": "VIAF 910"},
+   {"value": "Aventurat e Tom Sojerit", "lang": "sq", "via": "VIAF 910 / 670"},
+   {"value": "The portable Mark Twain", "lang": "en", "via": "VIAF 910"},
+   {"value": "Mark Twain to Mrs. Fairbanks", "lang": "en", "via": "VIAF 910"},
+   {"value": "Letters from the Earth", "lang": "en", "via": "VIAF 910"},
+   {"value": "A tramp abroad", "raw": "A tramp abroad : in two volumes : illustrated / by Mark Twain (Samuel L. Clemens). New York ; London, cop. 1907.", "lang": "en", "via": "VIAF 910 / 670"},
+   {"value": "Život na Mississippiju", "lang": "hr", "via": "VIAF 910"},
+   {"value": "Jenki iz Connecticuta na dvoru kralja Arturja", "lang": "sl", "via": "VIAF 910"},
+   {"value": "Tom Sawyer abroad", "lang": "en", "via": "VIAF 910"},
+   {"value": "Die Million-Pfundnote and andere Erzaehlungen", "lang": "de", "via": "VIAF 910"},
+   {"value": "Personal recollection of Joan of Arc", "raw": "by the Sieur Louis de Conte ; freely translated ... by Jean Francois Alden. New York, [poslije 1956].", "lang": "en", "via": "VIAF 910 / 670"},
+   {"value": "Dnevnik Adama i Eve i druge pripovijetke", "lang": "hr", "via": "VIAF 910"},
+   {"value": "The complete short stories of Mark Twain", "lang": "en", "via": "VIAF 910"},
+   {"value": "Mark Twain's letters to Mary", "lang": "en", "via": "VIAF 910"},
+   {"value": "Mark Twain - Howells letters : the correspondence of Samuel L. Clemens and William D. Howells : 1872-1910", "lang": "en", "via": "VIAF 910"},
+   {"value": "Mark Twain's notebooks and journals", "lang": "en", "via": "VIAF 910"},
+   {"value": "Čovjek koji je pokvario Hadleyburg", "lang": "hr", "via": "VIAF 910"},
+   {"value": "A connecticut Yankee in king Arthur's court", "lang": "en", "via": "VIAF 910"},
+   {"value": "Tom Sawyer detective", "lang": "en", "via": "VIAF 910"},
+   {"value": "The gilded age : a tale of today", "lang": "en", "via": "VIAF 910"}
+  ],
+  "related_agent": [
+   {"value": "Warner, Charles Dudley (co-author)", "via": "VIAF 950 co-authors"},
+   {"value": "Howells, William D. (correspondent)", "via": "VIAF 950 / 910 'Mark Twain - Howells letters'"},
+   {"value": "Fairbanks, Mary Mason (correspondent)", "via": "VIAF 950 / 910 'Mark Twain to Mrs. Fairbanks'"},
+   {"value": "Benjamin Rogers, Mary", "via": "VIAF 950 co-authors"},
+   {"value": "Wecter, Dixon (editor)", "via": "VIAF 950 co-authors"},
+   {"value": "Leary, Lewis (editor)", "via": "VIAF 950 / 910 'edited with commentary by Lewis Leary'"},
+   {"value": "Smith, Henry Nash", "via": "VIAF 950 co-authors"},
+   {"value": "Gibson, William M.", "via": "VIAF 950 co-authors"},
+   {"value": "DeVoto, Bernard (editor)", "via": "MARC 670 source citation"},
+   {"value": "Benton, Thomas Hart (illustrator)", "via": "MARC 670 source citation"},
+   {"value": "Vinaver, Stanislav (translator)", "via": "MARC 670 source citation"},
+   {"value": "Strujić, Ivica (translator)", "via": "VIAF 930 statement of responsibility"},
+   {"value": "Zalar, Ivo", "via": "VIAF 950 co-authors (23 records)"},
+   {"value": "Bulić, Bruno", "via": "VIAF 950 co-authors (17 records)"}
+  ],
+  "same_as": [
+   {"value": "http://proleksis.lzmk.hr/1722/", "via": "MARC 856 'Proleksis enciklopedija online (Mark Twain)'"},
+   {"value": "http://www.enciklopedija.hr/natuknica.aspx?ID=62880", "via": "MARC 856 'Hrvatska enciklopedija online (Twain, Mark)'"},
+   {"value": "https://hr.wikipedia.org/wiki/Mark_Twain", "via": "MARC 856 'Wikipedija (Mark Twain)'"},
+   {"value": "LC|n 79021164", "via": "VIAF 998 cluster match (standard number)"},
+   {"value": "LC|n 93099439", "via": "VIAF 998 cluster match (Clemens, Samuel Langhorne)"},
+   {"value": "LC|no2003079632", "via": "VIAF 998 cluster match (Conte, Louis de)"},
+   {"value": "WKP|Q7245", "via": "VIAF 998 cluster match ('suggested')"},
+   {"value": "DNB|118624822", "via": "VIAF 998 cluster match"},
+   {"value": "SZ|118624822", "via": "VIAF 998 cluster match"},
+   {"value": "BNF|11927291", "via": "VIAF 998 cluster match"},
+   {"value": "SUDOC|027171876", "via": "VIAF 998 cluster match"},
+   {"value": "BIBSYS|90056487", "via": "VIAF 998 cluster match"},
+   {"value": "W2Z|90056487", "via": "VIAF 998 cluster match"},
+   {"value": "RERO|A000164542", "via": "VIAF 998 cluster match"},
+   {"value": "NTA|068242964", "via": "VIAF 998 cluster match"},
+   {"value": "NTA|227880145", "via": "VIAF 998 cluster match"},
+   {"value": "NTA|068242956", "via": "VIAF 998 cluster match (Clemens, Samuel L.)"},
+   {"value": "DBC|87097969041957", "via": "VIAF 998 cluster match"},
+   {"value": "DBC|87097968223113", "via": "VIAF 998 cluster match (Conte, Louis de)"},
+   {"value": "CAOONL|ncf10128469", "via": "VIAF 998 cluster match"},
+   {"value": "BNCHL|10000000000000000007139", "via": "VIAF 998 cluster match"},
+   {"value": "BAV|495_17906", "via": "VIAF 998 cluster match"},
+   {"value": "NII|DA03513635", "via": "VIAF 998 cluster match (Clemens, Samuel Langhorne)"},
+   {"value": "NII|DA00300263", "via": "VIAF 998 cluster match"},
+   {"value": "NKC|jn19981002263", "via": "VIAF 998 cluster match"},
+   {"value": "BNC|981058514999206706", "via": "VIAF 998 cluster match"},
+   {"value": "NLR|RU NLR AUTH 77201", "via": "VIAF 998 cluster match"},
+   {"value": "NLR|RU NLR AUTH 7759057", "via": "VIAF 998 cluster match"},
+   {"value": "NLA|000035028957", "via": "VIAF 998 cluster match"},
+   {"value": "PLWABN|9810671370605606", "via": "VIAF 998 cluster match"},
+   {"value": "J9U|987007269289205171", "via": "VIAF 998 cluster match"},
+   {"value": "VLACC|000002392", "via": "VIAF 998 cluster match"},
+   {"value": "UIY|981014191556806886", "via": "VIAF 998 cluster match"},
+   {"value": "SELIBR|98057", "via": "VIAF 998 cluster match"},
+   {"value": "UAE|Mill_a10002910", "via": "VIAF 998 cluster match"},
+   {"value": "KRNLK|KAC199605242", "via": "VIAF 998 cluster match"},
+   {"value": "B2Q|0000005713", "via": "VIAF 998 cluster match"},
+   {"value": "NUKAT|n 94200767", "via": "VIAF 998 cluster match"},
+   {"value": "ICCU|CFIV002662", "via": "VIAF 998 cluster match"},
+   {"value": "NDL|00459304", "via": "VIAF 998 cluster match"},
+   {"value": "BNE|981060902239808606", "via": "VIAF 998 cluster match"},
+   {"value": "SIMACOB|7830883", "via": "VIAF 998 cluster match"},
+   {"value": "LNB|LNC10-000002679", "via": "VIAF 998 cluster match"},
+   {"value": "SKMASNL|vtls005928524", "via": "VIAF 998 cluster match"},
+   {"value": "N6I|vtls000050376", "via": "VIAF 998 cluster match"},
+   {"value": "PTBNP|46269", "via": "VIAF 998 cluster match ('Twain, Mark, pseud.')"},
+   {"value": "DNB|1106405730", "via": "VIAF 998 cluster match (Clemens, Samuel Langhorne)"}
+  ],
+  "identifier": [
+   {"value": "NSK|000047578", "via": "MARC 001 / page heading"},
+   {"value": "(NSK)000047578", "via": "MARC 035 $a"},
+   {"value": "(HR-ZaNSK)000047578", "via": "MARC 035 $a"},
+   {"value": "(HR-ZaNSK)47823", "via": "MARC 035 $9"},
+   {"value": "(HR-ZaNSK)910222029", "via": "MARC 035 $9"}
+  ],
+  "source": [
+   {"value": "Adventures of Huckleberry Finn : (Tom Sawyer's companion) / by Mark Twain ; edited ... by Bernard DeVoto. Norwalk, Conn., cop. 1994.", "via": "MARC 670"},
+   {"value": "Library of Congress [citirano: 6. 12. 2016.] Twain, Mark, 1835-1910 ; Clemens, Samuel Langhorne, 1835-1910 ; Conte, Louis de, 1835-1910", "via": "MARC 670"},
+   {"value": "Proleksis enciklopedija online [citirano: 6. 12. 2016.] Mark Twain", "via": "MARC 670"},
+   {"value": "Hrvatska enciklopedija online [citirano: 6. 12. 2016.] Twain, Mark", "via": "MARC 670"},
+   {"value": "Wikipedija [citirano: 6. 12. 2016.] Mark Twain", "via": "MARC 670"},
+   {"value": "Princ i prosjak / od Marc Twainea. Zagreb, [1937].", "via": "MARC 670"},
+   {"value": "Personal recollection of Joan of Arc / by the Sieur Louis de Conte ... New York, [poslije 1956].", "via": "MARC 670"}
+  ],
+  "record_created": [
+   {"value": "2010-06-09", "raw": "008: 100609", "via": "MARC 008 date entered"}
+  ],
+  "record_modified": [
+   {"value": "2021-02-11", "raw": "20210211142114", "via": "MARC 005"},
+   {"value": "2024-09-04", "raw": "Last updated: 2024-09-04", "via": "page footer (VIAF dataset)"}
+  ]
+ }
+}

@@ -1,0 +1,609 @@
+{
+ "property": "P271",
+ "property_label": "NACSIS-CAT author ID",
+ "files": [
+  {
+   "file": "P271__DA00300263/embedded_rdfa.json",
+   "format": "rdfa",
+   "kind": "embedded",
+   "via": "http",
+   "url": "https://ci.nii.ac.jp/author/DA00300263"
+  },
+  {
+   "file": "P271__DA00300263/alternate_1.rdf",
+   "format": "rdf-xml",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://ci.nii.ac.jp/author/DA00300263.rdf"
+  },
+  {
+   "file": "P271__DA00300263/alternate_2.jsonld",
+   "format": "json-ld",
+   "kind": "alternate",
+   "via": "http",
+   "url": "https://ci.nii.ac.jp/author/DA00300263.json"
+  },
+  {
+   "file": "P271__DA00300263/export_1.bin",
+   "format": "unknown",
+   "kind": "export",
+   "via": "http",
+   "url": "https://support.nii.ac.jp/ja/cinii/api/api_outline"
+  },
+  {
+   "file": "P271__DA00300263/browser_export_1.html",
+   "format": "html",
+   "kind": "export",
+   "via": "browser",
+   "url": "https://support.nii.ac.jp/ja/cinii/api/api_outline"
+  }
+ ],
+ "formats": {
+  "rdfa": 1,
+  "rdf-xml": 1,
+  "json-ld": 1,
+  "unknown": 1,
+  "html": 1
+ },
+ "vocabularies": {
+  "http://purl.org/dc/terms/": 7,
+  "http://www.w3.org/2000/01/rdf-schema#": 7,
+  "http://www.w3.org/1999/xhtml/vocab#": 6,
+  "http://www.w3.org/2002/07/owl#": 5,
+  "http://xmlns.com/foaf/0.1/": 2,
+  "http://purl.org/dc/elements/1.1/": 1,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": 1,
+  "http://ci.nii.ac.jp/ns/1.0/": 1,
+  "LLM extraction": 1
+ },
+ "elements": {
+  "name_preferred": [
+   {
+    "value": "VIAF",
+    "lang": null,
+    "via": "title",
+    "file": "alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Twain, Mark",
+    "lang": null,
+    "via": "name",
+    "file": "alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "type": [
+   {
+    "value": "http://xmlns.com/foaf/0.1/Person",
+    "lang": null,
+    "via": "type",
+    "file": "alternate_1.rdf",
+    "uri": true
+   }
+  ],
+  "same_as": [
+   {
+    "value": "https://ci.nii.ac.jp/author/DA00300263.rdf",
+    "lang": null,
+    "via": "isPrimaryTopicOf",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://ci.nii.ac.jp/author/DA03513635#entity",
+    "lang": null,
+    "via": "sameAs",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "Clemens, Samuel L.",
+    "lang": null,
+    "via": "sameAs",
+    "file": "alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "https://ci.nii.ac.jp/author/DA04621156#entity",
+    "lang": null,
+    "via": "sameAs",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "Alden, Jean François",
+    "lang": null,
+    "via": "sameAs",
+    "file": "alternate_1.rdf",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de",
+    "lang": null,
+    "via": "sameAs",
+    "file": "alternate_1.rdf",
+    "uri": false
+   }
+  ],
+  "see_also": [
+   {
+    "value": "https://viaf.org/viaf/NII%7CDA00300263",
+    "lang": null,
+    "via": "seeAlso",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://nrid.nii.ac.jp/search/?qg=Twain%2BMark",
+    "lang": null,
+    "via": "seeAlso",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://jglobal.jst.go.jp/search/researchers#%7B%22category%22%3A%221%22%2C%22keyword%22%3A%22Twain%20Mark%22%7D",
+    "lang": null,
+    "via": "seeAlso",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://researchmap.jp/researchers?name=Twain+Mark",
+    "lang": null,
+    "via": "seeAlso",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://scholar.google.co.jp/scholar?q=Twain+Mark&hl=ja&btnG=%E6%A4%9C%E7%B4%A2&lr=",
+    "lang": null,
+    "via": "seeAlso",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://www.google.co.jp/search?hl=ja&q=Twain+Mark&btnG=%E6%A4%9C%E7%B4%A2&lr=",
+    "lang": null,
+    "via": "seeAlso",
+    "file": "alternate_1.rdf",
+    "uri": true
+   },
+   {
+    "value": "https://search.yahoo.co.jp/search?p=Twain+Mark&search.x=1&fr=top_ga1_sa&tid=top_ga1_sa&ei=UTF-8&aq=&oq=",
+    "lang": null,
+    "via": "seeAlso",
+    "file": "alternate_1.rdf",
+    "uri": true
+   }
+  ],
+  "name_variant": [
+   {
+    "value": "トウェイン, マーク",
+    "lang": "ja",
+    "via": "llm-page:別名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "トウェーン, マーク",
+    "lang": "ja",
+    "via": "llm-page:別名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "トウエン, マーク",
+    "lang": "ja",
+    "via": "llm-page:別名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "吐温, 马克",
+    "lang": "zh",
+    "via": "llm-page:別名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "마트웨인, 크",
+    "lang": "ko",
+    "via": "llm-page:別名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "मार्क ट्वेन",
+    "lang": "hi",
+    "via": "llm-page:別名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Твен, Марк",
+    "lang": "ru",
+    "via": "llm-page:別名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain",
+    "lang": null,
+    "via": "llm-page:別名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "มากทเวน",
+    "lang": "th",
+    "via": "llm-page:別名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel Langhorne",
+    "lang": null,
+    "via": "llm-page:関連著者名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Clemens, Samuel L.",
+    "lang": null,
+    "via": "llm-page:関連著者名",
+    "file": "P271.json",
+    "uri": false
+   }
+  ],
+  "pseudonym": [
+   {
+    "value": "Snodgrass, Quintus Curtius",
+    "lang": null,
+    "via": "llm-page:関連著者名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Alden, Jean François",
+    "lang": null,
+    "via": "llm-page:関連著者名",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Conte, Louis de",
+    "lang": null,
+    "via": "llm-page:関連著者名",
+    "file": "P271.json",
+    "uri": false
+   }
+  ],
+  "work": [
+   {
+    "value": "ハックルベリー・フィンの冒険",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Pudd'nhead Wilson : manuscript and revised versions with \"Those extraordinary twins\"",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "The prince and the pauper",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "トム・ソーヤーの冒険",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "人間とは何か? : 自己啓発の劇薬マーク・トウェインの教え",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "漫画人間とは何か? : 自己啓発の劇薬マーク・トウェインの教え",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Adventures of Huckleberry Finn",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "The adventures of Tom Sawyer",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Was ist der Mensch? : ein Gespräch über die Welt und Gott",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Briefe von der Erde",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Mark Twain's letters",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   }
+  ],
+  "related_agent": [
+   {
+    "value": "市川, 亮平 (translator)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Griffin, Benjamin (editor)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "石原, 剛 (supervisor, manga adaptation)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "上杉, 隼人 (translator)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "西, 炯子 (illustrator, にしけいこ絵)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Rasmussen, R. Kent (editor)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "山本, 祐子 (editor)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "市川, 博彬",
+    "lang": null,
+    "via": "llm-page:関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Reigstad, Thomas J. (author of work about him)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Skandera-Trombley, Laura E. (foreword)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "柴田, きえ美 (translator)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "大橋, 弘祐 (planning/script, manga adaptation)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "妹尾, 武治 (special contribution)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Cooley, Thomas (editor)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Kemble, E. W. (Edward Windsor) (illustrator)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Harley, John J. (illustrator)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Fischer, Victor (editor)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Salamo, Lin (editor)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Smith, Harriet Elinor (editor)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Blair, Walter (editor)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Vidali, Valerio (illustrator)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Gerber, John C. (foreword and notes)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Baender, Paul (text established by)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Williams, True W. (illustrator)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Bossier, Ulrich (translator)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Paine, Albert Bigelow (editor/commentary)",
+    "lang": null,
+    "via": "llm-page:results list / 関連著者",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Oeser, Hans-Christian (translator)",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Townley, Kelley (reteller)",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Gantimurova, Anna (illustrator)",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   },
+   {
+    "value": "Suett, Lisa (reteller)",
+    "lang": null,
+    "via": "llm-page:results list",
+    "file": "P271.json",
+    "uri": false
+   }
+  ],
+  "identifier": [
+   {
+    "value": "DA00300263",
+    "lang": null,
+    "via": "llm-page:ID: line under heading",
+    "file": "P271.json",
+    "uri": false
+   }
+  ]
+ },
+ "element_languages": {
+  "name_preferred": [],
+  "type": [],
+  "same_as": [],
+  "see_also": [],
+  "name_variant": [
+   "hi",
+   "ja",
+   "ko",
+   "ru",
+   "th",
+   "zh"
+  ],
+  "pseudonym": [],
+  "work": [],
+  "related_agent": [],
+  "identifier": []
+ },
+ "unmapped": {
+  "alternative (http://purl.org/dc/terms/)": 7,
+  "authorid (http://ci.nii.ac.jp/ns/1.0/)": 1
+ },
+ "json_profiles": [],
+ "llm_notes": "CiNii Books author page for Twain, Mark (DA00300263): variant names, related author names (real name and pseudonyms), and the first 20 of 2,006 holdings records, plus a list of related authors (translators, editors, illustrators) and external search links (VIAF etc., no URIs shown).",
+ "about_entity": true,
+ "chrome_elements": {}
+}

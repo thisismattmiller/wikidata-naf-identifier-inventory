@@ -1,0 +1,37 @@
+{
+ "property": "P12451",
+ "label": "Arabic Ontology lexical concept ID",
+ "files_read": ["P12451__151059254/xhr_5.json"],
+ "about_entity": true,
+ "notes": "Birzeit Arabic Ontology concept API record imported from Princeton WordNet 3.1: English gloss and English synonyms; no Arabic gloss or Arabic words.",
+ "elements": {
+  "name_variant": [
+   {"value": "Mark Twain", "lang": "en", "via": "xhr_5.json: $.englishWordsCache"},
+   {"value": "Samuel Langhorne Clemens", "lang": "en", "via": "xhr_5.json: $.englishWordsCache"},
+   {"value": "Clemens", "lang": "en", "via": "xhr_5.json: $.englishWordsCache"}
+  ],
+  "birth_date": [
+   {"value": "1835", "raw": "(1835-1910)", "lang": null, "via": "xhr_5.json: $.englishGloss"}
+  ],
+  "death_date": [
+   {"value": "1910", "raw": "(1835-1910)", "lang": null, "via": "xhr_5.json: $.englishGloss"}
+  ],
+  "occupation": [
+   {"value": "writer", "lang": "en", "via": "xhr_5.json: $.englishGloss"},
+   {"value": "humorist", "lang": "en", "via": "xhr_5.json: $.englishGloss"}
+  ],
+  "nationality": [
+   {"value": "United States", "lang": "en", "via": "xhr_5.json: $.englishGloss"}
+  ],
+  "description": [
+   {"value": "United States writer and humorist best known for his novels about Tom Sawyer and Huckleberry Finn (1835-1910)", "lang": "en", "via": "xhr_5.json: $.englishGloss"}
+  ],
+  "identifier": [
+   {"value": "151059254", "via": "xhr_5.json: $.conceptID"}
+  ],
+  "source": [
+   {"value": "Princeton WordNet 3.1", "lang": "en", "via": "xhr_5.json: $.dataSourceCacheEn"},
+   {"value": "شبكة المفردات الانجليزية ٣.١", "lang": "ar", "via": "xhr_5.json: $.dataSourceCacheAr"}
+  ]
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "property": "P3280",
+ "label": "BAnQ authority ID",
+ "files_read": ["P3280__0000005713/conneg_3.json"],
+ "about_entity": true,
+ "notes": "MARC21-slim authority record (JSON-ified) for BAnQ record B2Q|0000005713 'Twain, Mark, 1835-1910', in VIAF's enriched form: local 9xx fields list linked titles (910/912/919), co-authors (950/955), publishers, and 998 fields listing matched authority records in other VIAF sources. 998 match for LC n 82045653 'Twain, Mark (Spirit)' is a different entity and was skipped. same_as URIs other than ISNI are constructed from source|id pairs in 998 $2.",
+ "elements": {
+  "name_preferred": [
+   {"value": "Twain, Mark, 1835-1910", "lang": "fr", "via": "conneg_3.json: datafield tag 100 $a $d"}
+  ],
+  "name_variant": [
+   {"value": "Clemens, Samuel Langhorne, 1835-1910", "lang": null, "via": "conneg_3.json: datafield tag 500 $a $d (see-also / real name)"},
+   {"value": "Clemens, Samuel Langhorne (Mark Twain)", "lang": "en", "via": "conneg_3.json: datafield 998 $a (NYNYRILM|1598)"},
+   {"value": "توين، مارك", "raw": "توين، مارك،", "lang": "ar", "via": "conneg_3.json: datafield 998 $a (EGAXA / LNL / J9U)"},
+   {"value": "טוין, מרק", "raw": "טוין, מרק,", "lang": "he", "via": "conneg_3.json: datafield 998 $a (J9U|987007269289205171)"},
+   {"value": "Твен, Марк", "raw": "Твен | b=М. | g=Марк", "lang": "ru", "via": "conneg_3.json: datafield 998 $a $g (NLR|RU NLR AUTH 77201)"},
+   {"value": "Twain, Mark, pseud.", "lang": "pt", "via": "conneg_3.json: datafield 998 $a $b $c (PTBNP|46269)"}
+  ],
+  "given_name": [
+   {"value": "Mark", "lang": null, "via": "conneg_3.json: datafield 100 $a"}
+  ],
+  "family_name": [
+   {"value": "Twain", "lang": null, "via": "conneg_3.json: datafield 100 $a"}
+  ],
+  "pseudonym": [
+   {"value": "Mark Twain", "lang": null, "via": "conneg_3.json: datafield 670 $b (Wikipedia 2014-12-01: 'Son pseudonyme vient du cri « Mark Twain [fathoms] »')"}
+  ],
+  "birth_date": [
+   {"value": "1835-11-30", "raw": "1835-11-30", "lang": null, "via": "conneg_3.json: datafield 046 $f (edtf)"}
+  ],
+  "death_date": [
+   {"value": "1910-04-21", "raw": "1910-04-21", "lang": null, "via": "conneg_3.json: datafield 046 $g (edtf)"}
+  ],
+  "birth_place": [
+   {"value": "Florida, Missouri", "lang": "fr", "via": "conneg_3.json: datafield 670 $b (Wikipedia 2014-12-01)"}
+  ],
+  "death_place": [
+   {"value": "Redding, Connecticut", "lang": "fr", "via": "conneg_3.json: datafield 670 $b (Wikipedia 2014-12-01)"}
+  ],
+  "gender": [
+   {"value": "masculin", "lang": "fr", "via": "conneg_3.json: datafield 375 $a"}
+  ],
+  "occupation": [
+   {"value": "Écrivains", "lang": "fr", "via": "conneg_3.json: datafield 374 $a ($2 rvm)"},
+   {"value": "humoriste", "lang": "fr", "via": "conneg_3.json: datafield 670 $a (Wallace p.90)"},
+   {"value": "écrivain, essayiste et humoriste", "lang": "fr", "via": "conneg_3.json: datafield 670 $b (Wikipedia 2014-12-01)"}
+  ],
+  "nationality": [
+   {"value": "États-Unis", "lang": "fr", "via": "conneg_3.json: datafield 370 $c ($2 rvm)"}
+  ],
+  "language": [
+   {"value": "eng", "lang": null, "via": "conneg_3.json: datafield 377 $a"}
+  ],
+  "description": [
+   {"value": "Mark Twain, de son vrai nom Samuel Langhorne Clemens, né le 30 novembre 1835 à Florida, Missouri (en) dans le Missouri (États-Unis) et mort le 21 avril 1910 à Redding, Connecticut (États-Unis), est un écrivain, essayiste et humoriste américain. Son pseudonyme vient du cri « Mark Twain [fathoms] » signifiant « Marque deux [brasses] », utilisé par les pilotes de vapeurs sur le Mississippi", "lang": "fr", "via": "conneg_3.json: datafield 670 $b (Wikipedia 2014-12-01)"}
+  ],
+  "work": [
+   {"value": "Life on the Mississippi", "lang": "en", "via": "conneg_3.json: datafield 910 $A; 670 $a"},
+   {"value": "The innocents abroad : a book of travel in pursuit of pleasure", "lang": "en", "via": "conneg_3.json: datafield 910 $A $b"},
+   {"value": "Les aventures de Huckleberry Finn", "lang": "fr", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Curious dream and other sketches", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Mark Twain's sketches", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Old times on the Mississippi", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "The £1,000,000 bank-note and other new stories", "lang": "en", "via": "conneg_3.json: datafield 910 $A $b"},
+   {"value": "A tramp abroad", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Eve's diary", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Adventures of Huckleberry Finn (Tom Sawyer's comrade)", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Satires & burlesques", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Roughing it", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Rambling notes of an idle excursion", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "The stolen white elephant, etc.", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Mark Twain's (burlesque) autobiography and first romance", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "The choice humorous works of Mark Twain", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "A curious experience", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Some funny things", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "The American claimant", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Information wanted and other sketches", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "No 44, le mystérieux étranger", "lang": "fr", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Quand Satan raconte la terre au Bon Dieu", "lang": "fr", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "An idle excursion", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "A Conneticut Yankee in King Arthur's court", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Which was the dream?", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Mark Twain's library of humor", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "Mark Twain's letters to his publishers, 1867-1894", "lang": "en", "via": "conneg_3.json: datafield 910 $A"},
+   {"value": "The Adventures of Huckleberry Finn", "lang": "en", "via": "conneg_3.json: datafield 912 $A"},
+   {"value": "Les aventures de Tom Sawyer", "lang": "fr", "via": "conneg_3.json: datafield 912 $A"},
+   {"value": "Le prince et le pauvre", "lang": "fr", "via": "conneg_3.json: datafield 912 $A"},
+   {"value": "Prince and the pauper", "lang": "en", "via": "conneg_3.json: datafield 912 $A"},
+   {"value": "Tom Sawyer", "lang": "fr", "via": "conneg_3.json: datafield 912 $A"},
+   {"value": "Huckleberry Finn", "lang": "fr", "via": "conneg_3.json: datafield 912 $A"},
+   {"value": "Sketches", "lang": "en", "via": "conneg_3.json: datafield 912 $A"}
+  ],
+  "related_agent": [
+   {"value": "Kemble, E. W. (Edward Windsor), 1861-1933", "relation": "co-author/illustrator on linked works", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Tarkington, Booth, 1869-1946", "relation": "co-author (introduction) on linked works", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "De Voto, Bernard Augustine, 1897-1955", "relation": "co-author on linked works", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Hill, Hamlin Lewis, 1931-", "relation": "co-author (editor) on linked works", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Tuckey, John Sutton, 1921-", "relation": "co-author on linked works", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Day, B.", "relation": "illustrateur", "via": "conneg_3.json: datafield 950 $A $c"},
+   {"value": "Brown, W. Fr.", "relation": "co-author/illustrator on linked works", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Williams, True", "relation": "co-author/illustrator on linked works", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Marineau, Michèle, 1955-", "relation": "co-author on linked works", "via": "conneg_3.json: datafield 950 $A"},
+   {"value": "Beaulieu, Victor-Lévy, 1945-2025", "relation": "related name (955)", "via": "conneg_3.json: datafield 955 $A"},
+   {"value": "Kaplan, Justin, 1925-", "relation": "related name (955)", "via": "conneg_3.json: datafield 955 $A"},
+   {"value": "Pablo Marcos Studio", "relation": "co-author (corporate) on linked works", "via": "conneg_3.json: datafield 951 $A"}
+  ],
+  "same_as": [
+   {"value": "https://isni.org/isni/0000000121324854", "via": "conneg_3.json: datafield 024 $1"},
+   {"value": "http://id.loc.gov/authorities/names/n79021164", "raw": "LC|n  79021164", "via": "conneg_3.json: datafield 998 $2 (URI constructed)"},
+   {"value": "https://d-nb.info/gnd/118624822", "raw": "DNB|118624822", "via": "conneg_3.json: datafield 998 $2 (URI constructed)"},
+   {"value": "http://www.wikidata.org/entity/Q7245", "raw": "WKP|Q7245", "via": "conneg_3.json: datafield 998 $2 (URI constructed)"},
+   {"value": "https://catalogue.bnf.fr/ark:/12148/cb11927291n", "raw": "BNF|11927291", "via": "conneg_3.json: datafield 998 $2 (URI constructed; ark check char from BnF convention)"}
+  ],
+  "identifier": [
+   {"value": "0000005713", "raw": "(B2Q)0000005713", "via": "conneg_3.json: datafield 035 $a; controlfield 001 'B2Q|0000005713'"},
+   {"value": "0000957294", "raw": "B2Q|0000957294", "via": "conneg_3.json: datafield 993 $2 (BAnQ record for 'Clemens, Samuel Langhorne,', x500)"}
+  ],
+  "source": [
+   {"value": "LCNA 1977-1984", "lang": null, "via": "conneg_3.json: datafield 670 $a"},
+   {"value": "Klinck p.1099 (s.d.)", "lang": null, "via": "conneg_3.json: datafield 670 $a"},
+   {"value": "NUC vol.112 p.199 (Clemens, Samuel Langhorne)", "lang": null, "via": "conneg_3.json: datafield 670 $a"},
+   {"value": "Wallace p.90 (Clemens, Samuel Langhorne, né en Floride, humoriste)", "lang": "fr", "via": "conneg_3.json: datafield 670 $a"},
+   {"value": "Wikipedia 2014-12-01", "lang": null, "via": "conneg_3.json: datafield 670 $a"},
+   {"value": "Son: Life on the Mississipi", "lang": null, "via": "conneg_3.json: datafield 670 $a"}
+  ],
+  "record_created": [
+   {"value": "1985-03-08", "raw": "850308", "via": "conneg_3.json: controlfield 008 positions 00-05"}
+  ],
+  "record_modified": [
+   {"value": "2020-09-19", "raw": "20200919072643", "via": "conneg_3.json: controlfield 005"}
+  ]
+ }
+}
