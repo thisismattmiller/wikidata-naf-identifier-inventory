@@ -32,6 +32,7 @@ uv run python identifier_landscape.py          # landscape: which identifiers bi
 uv run python probe_clients.py Q7245            # 8b. can curl get it? page + the data files used, three client profiles (plain curl / User-Agent / browser headers)
 uv run python build_image_sprite.py Q7245 --browser  # 9b. download the images the sites state, tile them into analysis/twain_images.jpg
 uv run python build_map_data.py Q7245          # 9. the atlas: analysis/map_data.json -> analysis/atlas.html and docs/index.html
+uv run python scrub_secrets.py Q7245           # before committing: redact the sites' own browser keys and session tokens from stored request URLs
 ```
 
 Steps 6–7 write `data/<QID>/analysis/`: `profiles/<P>.json` (per site: formats, vocabularies,
