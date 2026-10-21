@@ -39,6 +39,26 @@ def client_summary(cp):
     return {"best": cp["best"], "page": cp["page_tier"], "targets": rows}
 
 
+def conneg_summary(cp):
+    """Per URL: which Accept headers got a real non-HTML representation naming him, and what format came back."""
+    if not cp:
+        return None
+    rows, serves = [], set()
+    for t in cp["targets"]:
+        ok = {a.split("/")[-1]: r["format"] for a, r in t["results"].items() if r.get("ok")}
+        if t["kind"] != "page":
+            # a JSON endpoint that answers JSON to every Accept header is not negotiating; only formats other than its usual one count
+            from collections import Counter
+            usual = Counter(ok.values()).most_common(1)[0][0] if ok else None
+            if len(set(ok.values())) > 1:
+                ok = {a: f for a, f in ok.items() if f != usual}
+            else:
+                ok = {}
+        rows.append({"kind": t["kind"], "url": t["url"], "got": ok})
+        serves.update(ok.values())
+    return {"serves": sorted(serves), "targets": rows}
+
+
 def access_group(a, has_data=True, cp=None):
     """The access facet: measured with curl (probe_clients.py) when the probe ran; the crawl's own routes otherwise."""
     if cp is not None and has_data:
@@ -183,6 +203,7 @@ def main():
     landscape = {r["property"]: r for r in csv.DictReader((Path("data") / "landscape" / "counts.csv").open())}
     identifiers = json.loads((Path("data") / qid / "identifiers.json").read_text())
     client_probe = json.loads((an / "client_probe.json").read_text()) if (an / "client_probe.json").exists() else {}   # probe_clients.py
+    conneg_probe = json.loads((an / "conneg_probe.json").read_text()) if (an / "conneg_probe.json").exists() else {}   # probe_conneg.py
     audit = {}   # end-to-end Opus audit of each site: analysis/audit/verdicts_*.json
     rounds = [(an / "audit", 1), (an / "audit" / "round2", 2)]
     for d, rnd in rounds:
@@ -240,6 +261,7 @@ def main():
             "html_kb": int(s["html_kb"]), "load_s": num(s["load_seconds"]),
             "has_data": b(s["has_entity_data"]), "access": s["entity_data_access"], "access_group": access_group(s["entity_data_access"], b(s["has_entity_data"]), client_probe.get(p)),
             "client": client_summary(client_probe.get(p)),
+            "conneg": conneg_summary(conneg_probe.get(p)),
             "formats": formats, "format_family": fam, "mechanisms": [m for m in s["entity_mechanisms"].split("; ") if m],
             "llm": b(s["needed_llm_extraction"]), "elements": filled, "n_elements": int(s["elements"]), "values": int(s["values"]),
             "languages": int(s["languages"]), "unique_share": num(s["unique_share"]), "descriptive_values": int(s["descriptive_values"]),

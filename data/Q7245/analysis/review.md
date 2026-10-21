@@ -314,3 +314,14 @@ Primo and Koha OPACs; the refusals are Cloudflare- and Akamai-fronted sites (IMD
 VIAF's own cluster page and isni.org. Open Library rate-limits by address: after the first run's six parallel requests it answered a
 "verify_human" redirect and then timed out, even to a single slow retry, so it stands as a refusal for this address on this day. Two caveats: a 200 "shell" verdict can also be a page that names him only
 after a client-side fetch the probe cannot follow, and results are a snapshot of one day's bot rules.
+
+## Addendum: content negotiation surveyed (2026-10-21)
+
+`probe_conneg.py` sent five Accept headers (ld+json, json, turtle, rdf+xml, n-triples) with an identifying User-Agent to every
+identifier URL and to the data URLs the values came from, sniffing the body for what it really is and for his name. 62 sites hand back
+some non-HTML representation of him to an Accept header; after discounting JSON endpoints that answer JSON to every header (not
+negotiation), 23 sites negotiate RDF (JSON-LD, Turtle, RDF/XML or N-Triples) and 13 only JSON. On the identifier URL itself: json 32,
+ld+json 18, rdf+xml 16, turtle 10, n-triples 8. Seven sites honour n-triples (ULAN, RKD, NTA, GTAA, Japan Search, Getty, JudaicaLink).
+Many servers answer a format they were not asked for - 'turtle' or 'n-triples' returning JSON (20 each), 'ld+json' returning RDF/XML
+(8) - so the sniffed format, not the Accept header, is what the atlas reports. The VIAF-hosted libraries answer application/json with
+VIAF's MARC-in-JSON on the page URL. LUX serves its Linked Art JSON-LD regardless of header, with no alternates (checked separately).

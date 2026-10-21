@@ -182,7 +182,8 @@ def load_profiles(data_dir):
     return out
 
 
-MECHANISM = {"alternate": "link rel=alternate", "conneg": "content negotiation", "export": "export link", "xhr": "page XHR/API", "api": "replayed API call"}
+MECHANISM = {"alternate": "link rel=alternate", "conneg": "content negotiation", "export": "export link", "xhr": "page XHR/API", "api": "replayed API call",
+             "extra": "data link on the page"}   # extra_representations.json: a data URL the page links to (LUX's /data/person/ Linked Art)
 
 
 def route_of(rep):

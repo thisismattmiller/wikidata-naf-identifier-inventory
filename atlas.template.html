@@ -281,6 +281,14 @@ const USEFUL_ORDER = ["rich (score ≥ 20)", "substantial (10–20)", "modest (4
 const USEFUL_COLORS = ["#0f4c5c", "#1d6b86", "#4c8fb0", "#8bb9d1", "#a3aab0"];
 const AUDIT_ORDER = ["his record, captured well", "his record, more on the page", "somebody else's record", "could not be reached", "not checked"];
 const AUDIT_COLORS = ["#2e8b57", "#cf8a1c", "#bf3f36", "#5c6670", "#a3aab0"];
+const NEG_ORDER = ["RDF by Accept header", "JSON by Accept header", "no format negotiation", "nothing to get"];
+const NEG_COLORS = ["#1d6b86", "#4c8fb0", "#c7dbe6", "#a3aab0"];
+const NEG_RDF = new Set(["json-ld", "turtle", "rdf-xml", "n-triples", "marcxml"]);
+function negClass(s) {
+  if (!s.has_data) return NEG_ORDER[3];
+  if (!s.conneg || !s.conneg.serves.length) return NEG_ORDER[2];
+  return s.conneg.serves.some(f => NEG_RDF.has(f)) ? NEG_ORDER[0] : NEG_ORDER[1];
+}
 const WD_ORDER = ["agrees", "partly agrees", "mismatch somewhere", "nothing comparable"];
 const WD_COLORS = ["#2e8b57", "#cf8a1c", "#bf3f36", "#a3aab0"];
 
@@ -388,6 +396,7 @@ const RES_ICONS = { "ok": "check", "login box": "lock", "wrong page": "user-x", 
 const POP_ICONS = { "≥ 25% of items": "bars-5", "10–25%": "bars-4", "1–10%": "bars-3", "0.1–1%": "bars-2", "< 0.1%": "bars-1" };
 const USEFUL_ICONS = { "rich (score ≥ 20)": "bars-5", "substantial (10–20)": "bars-4", "modest (4–10)": "bars-3", "thin (< 4)": "bars-2", "nothing beyond Wikidata": "minus-circle" };
 const AUDIT_ICONS = { "his record, captured well": "check-circle", "his record, more on the page": "pie", "somebody else's record": "user-x", "could not be reached": "wifi-off", "not checked": "minus-circle" };
+const NEG_ICONS = { "RDF by Accept header": "share-2", "JSON by Accept header": "braces", "no format negotiation": "minus-circle", "nothing to get": "ban" };
 const WD_ICONS = { "agrees": "check-circle", "partly agrees": "circle-half", "mismatch somewhere": "x-circle", "nothing comparable": "minus-circle" };
 
 const FACETS = {
@@ -398,6 +407,7 @@ const FACETS = {
   res: { name: "Did the page resolve", icon: "link", icons: RES_ICONS, order: RES_ORDER, colors: RES_COLORS, of: resClass },
   pop: { name: "Popularity on bibliographic items", icon: "bar-chart", icons: POP_ICONS, order: POP_ORDER, colors: POP_COLORS, of: popClass },
   useful: { name: "Useful beyond Wikidata", icon: "gem", icons: USEFUL_ICONS, order: USEFUL_ORDER, colors: USEFUL_COLORS, of: usefulClass },
+  conneg: { name: "Content negotiation", icon: "link", icons: NEG_ICONS, order: NEG_ORDER, colors: NEG_COLORS, of: negClass },
   wd: { name: "Agreement with Wikidata", icon: "scale", icons: WD_ICONS, order: WD_ORDER, colors: WD_COLORS, of: wdClass },
   audit: { name: "Is the page his record?", icon: "clipboard-check", icons: AUDIT_ICONS, order: AUDIT_ORDER, colors: AUDIT_COLORS, of: auditClass },
 };
@@ -565,6 +575,13 @@ function select(p) {
   renderDetail();
 }
 const TIER_NAMES = { curl: "plain cURL", ua: "cURL with a User-Agent", browser: "cURL with browser headers" };
+const ACCEPT_NAMES = { "ld+json": "ld+json", "json": "json", "turtle": "turtle", "rdf+xml": "rdf+xml", "n-triples": "n-triples" };
+function connegText(s) {
+  if (!s.conneg) return "not tested";
+  const rows = s.conneg.targets.filter(t => Object.keys(t.got).length);
+  if (!rows.length) return "no Accept header changes what comes back";
+  return rows.map(t => `${t.kind === "page" ? "the page URL" : `the ${t.kind} URL`}: ` + Object.entries(t.got).map(([a, f]) => `Accept ${a} → ${f}`).join(", ")).join("<br>");
+}
 function clientRows(s) {
   if (!s.client) return "";
   const show = s.client.targets.slice(0, 4).map(t => {
@@ -605,6 +622,7 @@ function detailHtml(s) {
       <dt>Access</dt><dd>${accessLabel(s.access)}${clientRows(s)}</dd>
       <dt>Formats</dt><dd>${s.formats.length ? s.formats.join(", ") : "—"}</dd>
       <dt>Reached via</dt><dd>${s.mechanisms.length ? s.mechanisms.join("; ") : "—"}</dd>
+      <dt>Negotiation</dt><dd>${connegText(s)}</dd>
       <dt>Elements</dt><dd><div class="chips">${chips}</div></dd>
       <dt>vs Wikidata</dt><dd>${wdSummary}</dd>
       <dt>Beyond Wikidata</dt><dd>${s.useful ? `score <b>${s.useful}</b> (${usefulClass(s).replace(/ \(.*\)/, "")}) from ${s.beyond_wd} values: ${Object.entries(s.useful_by).slice(0, 6).map(([k, n]) => `${n} ${k.replace(/_/g, " ")}`).join(", ")}${Object.keys(s.useful_by).length > 6 ? ", …" : ""}` : "nothing Wikidata does not already hold"}</dd>
@@ -616,7 +634,7 @@ function detailHtml(s) {
 
 // ---------- facets ----------
 function drawFacets() {
-  const keys = ["audit", "res", "access", "family", "ads", "useful", "wd"];
+  const keys = ["audit", "res", "access", "family", "conneg", "ads", "useful", "wd"];
   const box = d3.select("#facets");
   const cards = box.selectAll("div.facet").data(keys).join("div").attr("class", "facet");
   cards.each(function (k) {

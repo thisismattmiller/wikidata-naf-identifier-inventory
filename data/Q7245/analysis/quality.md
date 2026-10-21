@@ -182,11 +182,12 @@ Most common ad hosts: ad.doubleclick.net (22), ep1.adtrafficquality.google (18),
 | embedded rdfa | 237 | 75% | 42 | 13% |
 | page XHR/API | 159 | 50% | 27 | 9% |
 | embedded opengraph | 133 | 42% | 0 | 0% |
-| embedded json-ld | 66 | 21% | 37 | 12% |
+| embedded json-ld | 65 | 21% | 36 | 11% |
 | content negotiation | 40 | 13% | 19 | 6% |
 | embedded microdata | 39 | 12% | 26 | 8% |
 | link rel=alternate | 30 | 10% | 9 | 3% |
 | export link | 30 | 10% | 22 | 7% |
+| data link on the page | 1 | 0% | 1 | 0% |
 | replayed API call | 1 | 0% | 1 | 0% |
 
 ### Programmatic access to the entity data
